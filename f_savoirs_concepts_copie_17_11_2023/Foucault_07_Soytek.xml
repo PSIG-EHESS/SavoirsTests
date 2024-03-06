@@ -1,0 +1,1201 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="aleroy" time="2022-04-07T19:38:26.174+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Foucault_07_Soytek">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La réception de la théorie de l’information et de
+        la cybernétique par Michel Foucault, 1948-1969</title>
+        <author role="aut">
+          <forename>Alexander</forename>
+          <surname>Soytek</surname>
+          <idno type="IDREF">261205064</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/NAEWV2H5" type="conferencePaper" xml:lang="fre">
+          <analytic>
+            <title level="a">La réception de la théorie d’information par
+            Foucault (1948-1969)</title>
+            <author>
+              <forename>Alexander</forename>
+              <surname>Soytek</surname>
+            </author>
+            <editor>
+              <forename>Laurent</forename>
+              <surname>Dartigues</surname>
+            </editor>
+            <editor>
+              <forename>Camille</forename>
+              <surname>Noûs</surname>
+            </editor>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">L’archive Foucault à l’ère du
+            numérique. Fiches et fichiers dans la pratique
+            philosophique</title>
+            <editor>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <date>2022</date>
+              <biblScope unit="ordre">7</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-yulqsnvs">psychologie<term ref="doi:10.34817/sv-5nrf9dvv">psychologie
+          expérimentale</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-yulqsnvs">psychologie<term ref="doi:10.34817/sv-5nrf9dvv">psychologie
+          expérimentale</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-r5yzkxap">théorie de la
+          connaissance</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-yulqsnvs">psychologie<term ref="doi:10.34817/sv-5nrf9dvv">psychologie
+          expérimentale</term>
+                </term>
+              </term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2998324" type="geonames" xml:base="https://www.geonames.org/">Lille</placeName>
+          </term>
+          <term>
+            <placeName ref="5128638" type="geonames" xml:base="https://www.geonames.org/">New York</placeName>
+          </term>
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1951">1951</date>
+          </term>
+          <term>
+            <date type="_temp" when="1966">1966</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-03-14T16:01:00" who="Jeanne FLAMANT">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>La réception de la théorie de l’information et de la
+          cybernétique par Michel Foucault, 1948-1969.</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Gautier Dassonneville (Docteur en
+          philosophie,</docAuthor>
+          <affiliation>Université de Liège et Université de
+          Lille-III)</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Cet article se propose d’interroger la réception de
+        la théorie de l’information et de la cybernétique par Michel Foucault
+        en se basant notamment sur des fiches de lecture composant une partie
+        du fonds Foucault conservé à la Bibliothèque nationale de France et
+        mises à disposition sur la plateforme EMAN. À travers l’analyse de ces
+        fiches de lecture rédigées par Foucault dans les années 1950, ainsi
+        que du dossier <hi rend="italic">L’Information</hi> que Foucault a
+        créé aux abords des années 1962 et notamment du texte <hi rend="italic">Message ou bruit&#160;?</hi>, les éléments centraux de cette
+        réception seront examinés. Il s’agira donc ici de dégager quelques
+        premières caractéristiques de la réception de la cybernétique et de la
+        théorie de l’information par Foucault dans leurs dimensions
+        biographiques, conceptuelles et contextuelles.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e63">
+          <head subtype="level1" xml:id="d1e64">Introduction</head>
+          <p xml:id="d1e66">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-supadldq">sciences de l’information et de la
+          communication</term>
+                </term>
+              </term>
+            </term>On peut considérer
+          l’histoire de la cybernétique et de la théorie de l’information
+          comme l’histoire d’un savoir sur la transmission qui se
+          transmet<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>
+                <hi rend="small-caps">Vogl</hi>, 2004.</p>
+            </note>. Mais si l’appropriation des idées cybernétiques est déjà
+          bien étudiée dans les ouvrages de <persName ref="026707764" type="idref" xml:base="https://www.idref.fr/">Roland
+          Barthes</persName>, <persName ref="029631378" type="idref" xml:base="https://www.idref.fr/">Gilbert Simondon</persName>,
+          <persName ref="027271765" type="idref" xml:base="https://www.idref.fr/">Jacques Lacan</persName> et
+          <persName ref="02698797X" type="idref" xml:base="https://www.idref.fr/">Claude Lévi-Strauss</persName>
+            <note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="small-caps">Geoghegan</hi>, 2011; <hi rend="small-caps">Liu</hi>, 2010; <hi rend="small-caps">Lafontaine</hi>, 2004; <hi rend="small-caps">Hui</hi>, 2015.</p>
+            </note>, la question de la réception de la cybernétique et de la
+          théorie de l’information dans les écrits de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel
+          Foucault</persName> n’a été que très rarement posée jusqu’à
+          présent<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>
+                <hi rend="small-caps">Dotzler</hi>, 2008; <hi rend="small-caps">Kittler</hi>, 2002.</p>
+            </note>. Pourtant, l’analyse de cette relation ne permettrait-elle
+          pas de mieux comprendre le champ discursif dans lequel certains
+          travaux de Foucault se développent&#160;? Une étude fine se heurte
+          toutefois chez <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> au statut
+          parfois obscur de ses références ou à la façon pointilliste avec
+          laquelle ses <hi rend="italic">Dits et écrits</hi> enregistrent ces
+          théories.</p>
+          <p>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Or,
+          les fiches de lecture de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> disponibles à
+          la Bibliothèque Nationale de France offrent pour la première fois la
+          possibilité d’une telle analyse. Parmi ces fiches se trouvent plus
+          de deux cents feuillets qui concernent la théorie de l’information
+          et de la cybernétique<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>BnF, NAF 28730, boîte n° 36, 38, 42b et 44b.</p>
+            </note>. Elles constituent la base d’une première analyse sur la
+          réception de la cybernétique et la théorie de l’information par
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> ce que cet
+          article développera.</p>
+          <p>Dans un premier temps, l’article analysera un ensemble de fiches
+          de lecture qui ont été rédigées dans les années 1950 afin
+          d’identifier éventuellement une logique de développement interne de
+          ces fiches de lectures et de reconstruire les premières
+          caractéristiques de sa réception de la théorie de l’information et
+          la cybernétique. Cette première partie s’évertuera à présenter par
+          ailleurs des fragments de notes de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          qui se trouvent au sein de ses fiches de lectures des années 1950.
+          Ensuite, nous nous intéresserons au dossier <hi rend="italic">L’Information</hi>, qui regroupe certaines fiches de
+          lectures que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a utilisées
+          pendant les années 1960.</p>
+        </div>
+        <div type="section1" xml:id="d1e116">
+          <head subtype="level1" xml:id="d1e117">Les fiches de lecture sur la
+          cybernétique des années 1950</head>
+          <p xml:id="d1e119">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-mmkk8j9q">colloque</term>
+              </term>
+            </term>«&#160;Je me
+          souviens du moment où la cybernétique et toutes ces techniques de
+          l’information ont commencé à être connues en Occident, peu après la
+          guerre […]<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1994 (1977), p. 338.</p>
+            </note>&#160;», dit <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName> en
+          octobre 1977. La réception de la cybernétique et de la théorie de
+          l’information a été particulièrement intense en France. La maison
+          d’édition parisienne Hermann édite en 1948, en anglais, en même
+          temps que la publication américaine, l’ouvrage <hi rend="italic">Cybernetics</hi> de <persName ref="030844290" type="idref" xml:base="https://www.idref.fr/">Norbert
+          Wiener</persName>, qui bénéficie très rapidement d’une recension
+          publiée dans <hi rend="italic">Le Monde</hi>. L’année suivante, le
+          Cercle d’études cybernétiques est fondé. La revue <hi rend="italic">Esprit</hi> consacre un numéro spécial à la
+          cybernétique en 1950 sous le titre «&#160;Machines à penser&#160;». Au même
+          moment, le Collège de France invite, à l’initiative de <persName ref="030301009" type="idref" xml:base="https://www.idref.fr/">Louis
+          Couffignal</persName>, <persName ref="030844290" type="idref" xml:base="https://www.idref.fr/">Norbert Wiener</persName> pour
+          donner une série de conférences tout au long de l’année académique
+          de <date type="_temp" when="1950">1950</date>. Ces conférences
+          furent accompagnées par un colloque international au cours duquel
+          d’éminents représentants de la cybernétique discutèrent des
+          possibilités d’imitations techniques du comportement humain. En
+          parallèle de ce colloque s’est tenue une exposition au cours de
+          laquelle les nouveaux automates cybernétiques étaient présentés au
+          public<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="small-caps">Mindell</hi>
+                <hi rend="italic">et
+              al.</hi>, 2003, p. 75&#160;; <hi rend="small-caps">Dubarle</hi>,
+              1948&#160;; <hi rend="small-caps">Johnson</hi>, 2015, p. 62&#160;; <hi rend="small-caps">Segal</hi>, 2003, p. 293.</p>
+            </note>.</p>
+          <p>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+                </term>
+              </term>
+            </term>À la
+          même période, le jeune <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName> se fraye
+          un chemin dans le système éducatif français. On ne sait pas s’il
+          était dans l’auditoire d’un des cours de <persName ref="030844290" type="idref" xml:base="https://www.idref.fr/">Wiener</persName> ou
+          s’il se promenait dans les salles d’exposition qui mettaient en
+          scène les nouvelles machines cybernétiques. Cependant, la théorie de
+          l’information et la cybernétique a laissé des traces dans les fiches
+          de lecture de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>. Au milieu de
+          fiches à propos de <persName ref="027421538" type="idref" xml:base="https://www.idref.fr/">Husserl</persName>, <persName ref="02672930X" type="idref" xml:base="https://www.idref.fr/">Binswanger</persName> et d’autres
+          s’en trouvent en effet quelques-unes sur la théorie de l’information
+          et la cybernétique. Elles sont compilées dans six dossiers qui
+          portent les titres suivants&#160;: <hi rend="italic">Cybernétique</hi>,
+          <hi rend="italic">Cybernétique et les machines</hi>, <hi rend="italic">EEG</hi>
+            <hi rend="italic">et Cybernétique</hi>, <hi rend="italic">Cybernétique et neurologie</hi>, <hi rend="italic">L’Information</hi> et <hi rend="italic">La Perception
+          et l’information</hi>. La datation approximative de ces documents
+          nous permet d’établir un intervalle de temps compris entre <date type="_temp" when="1948">1948</date> et <date type="_temp" when="1963">1963</date>, la majorité des textes que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a relevé ayant
+          été publiés entre les années <date type="_temp" when="1948">1948</date> et <date type="_temp" when="1963">1953</date>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>BnF, NAF 28730, boîte n° 36, 38, 42b et 44b.</p>
+            </note>. À la lecture de ces fiches apparaît d’emblée un aspect
+          saillant de la réception par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> de ces
+          théories. Nous savons qu’il lit ces textes sur la cybernétique peu
+          après leur publication, ce qui confère à sa curiosité un caractère
+          particulièrement actuel, mais Foucault ne saisit pas ce champ dans
+          la dimension de sa constitution historique en relation avec d’autres
+          disciplines mais se contente de noter les dernières nouveautés
+          concernant la théorie de l’information et la cybernétique. On y
+          trouve par exemple des fiches de lecture sur le <hi rend="italic">Maze Solving Machine</hi> de <persName ref="079695612" type="idref" xml:base="https://www.idref.fr/">Claude E.
+          Shannon</persName>, une machine d’apprentissage avec une mémoire et
+          une logique de commande composée de 110 relais. Foucault n’a pas
+          seulement extrait le texte mais en a également dessiné le dispositif
+          expérimental. En <date type="_temp" when="1953">1953</date>, il
+          produit une fiche de lecture de huit pages du texte «&#160;The Limiting
+          information capacity of neuronal links<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">Mcculloch</hi> et <hi rend="small-caps">Mackay</hi>, 1952&#160;; BnF, NAF 28730, boîte n°
+              44b, p. 573–576&#160;;
+              http://eman-archives.org/Foucault-fiches/items/show/8362</p>
+            </note>&#160;» par <persName ref="029560764" type="idref" xml:base="https://www.idref.fr/">Donald MacKay</persName> et
+          <persName ref="069945128" type="idref" xml:base="https://www.idref.fr/">Warren McCulloch</persName>, publié
+          en <date type="_temp" when="1952">1952</date>. Ce texte propose des
+          conclusions relatives au fonctionnement du système nerveux central
+          sur la base des modèles de théorie de l’information. Les fiches de
+          lecture de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> archivent
+          également le texte de <persName ref="069945128" type="idref" xml:base="https://www.idref.fr/">Warren McCulloch</persName> et
+          <persName ref="190170476" type="idref" xml:base="https://www.idref.fr/">Walter Pitts</persName> intitulé
+          «&#160;How we know universals&#160;; the perception of auditory and visual
+          forms » de 1947 ainsi que leur article «&#160;A logical calculus of the
+          ideas immanent in nervous activity<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Mcculloch</hi> et <hi rend="small-caps">Pitts</hi>, 1947.</p>
+            </note>&#160;» paru dans le <hi rend="italic">Bulletin of mathematical
+          biophysics</hi> de <date type="_temp" when="1943">1943</date>. Ces
+          recherches sont d’une grande actualité pour l’époque, et elles sont
+          également à l’origine de ce qui est aujourd’hui plus familièrement
+          connu sous les termes de réseaux neuronaux ou de «&#160;<hi rend="italic">pattern recognition</hi>&#160;».</p>
+          <p>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-yulqsnvs">psychologie<term ref="doi:10.34817/sv-5nrf9dvv">psychologie
+          expérimentale</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-yulqsnvs">psychologie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-iwqqnrp8">laboratoire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+              </term>
+            </term>L’intérêt
+          permanent de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> pour la
+          recherche scientifique contemporaine n’est pas sans rapport avec son
+          environnement académique car, au moment où la cybernétique
+          commençait son tour du monde à travers les revues scientifiques et
+          les congrès internationaux, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> travaillait
+          déjà dans une discipline au sein de laquelle les nouveaux concepts
+          de la cybernétique et de la théorie de l’information étaient
+          vivement discutés<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Mindell</hi>
+                <hi rend="italic">et
+              al.</hi>, 2003, p. 75.</p>
+            </note>. Au début des années 1950, Foucault témoigne de son grand
+          intérêt pour la psychologie&#160;: après avoir obtenu sa licence de
+          psychologie en <date type="_temp" when="1949">1949</date>, il est
+          répétiteur de psychologie à l’École normale supérieure, puis
+          assistant de psychologie à l’université de <placeName ref="2998324" type="geonames" xml:base="https://www.geonames.org/">Lille</placeName> à partir de
+          <date type="_temp" when="1952">1952</date>. En outre, il commence un
+          stage au laboratoire d’électro-encéphalographie de l’hôpital
+          Sainte-Anne dès <date type="_temp" when="1951">1951</date> et
+          passera son diplôme de psychopathologie, puis de psychologie
+          expérimentale<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>
+                <hi rend="small-caps">Eribon</hi>, 1989; <hi rend="small-caps">Sabot</hi>, 2015.</p>
+            </note>. Ici, Foucault a non seulement appris à mesurer les ondes
+          des cerveaux et à interpréter les anomalies dans les diagnostics de
+          liaisons cérébrales, mais il touche aussi de près à la recherche
+          cybernétique et aux théories de l’information qui émergent<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="small-caps">Sabot</hi>, 2016.</p>
+            </note>. Il baigne donc dans les débats sur les nouveaux modèles
+          cybernétiques particulièrement virulents au sein de la psychologie
+          expérimentale, car les méthodes employées offrent à la cybernétique
+          la possibilité de poursuivre ses jeux d’analogie entre les circuits
+          logiques et le cerveau humain via notamment des données récoltées
+          par la technique de l’électro-encéphalographie<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="small-caps">Pickering</hi>, 2010; <hi rend="small-caps">Schmidgen</hi>, 2020.</p>
+            </note>.
+          </p>
+          <p>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-yulqsnvs">psychologie<term ref="doi:10.34817/sv-5nrf9dvv">psychologie
+          expérimentale</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> se penche plus
+          particulièrement sur l’œuvre de <persName ref="115653317" type="idref" xml:base="https://www.idref.fr/">William Grey
+          Walter</persName>, qui fut l’un des pionniers de la recherche sur
+          l’EEG en exposant ses tortues robotisées lors de l’exposition de
+          <date type="_temp" when="1952">1952</date> à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. Ainsi, les
+          fiches de lecture de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> rendent compte,
+          entre autres, de la notion de mécanisme de «&#160;<hi rend="italic">scanning</hi>&#160;» ainsi que de la thèse largement
+          répandue à l’époque d’une analogie entre la télévision et le
+          balayage cérébral<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>
+                <hi rend="small-caps">Pickering</hi>, 2010.</p>
+            </note>. Le «&#160;<hi rend="italic">scanning&#160;</hi>» est une forme du
+          «&#160;<hi rend="italic">pattern recognition&#160;</hi>» qui explique le
+          traitement de l’information dans les machines de <persName ref="115653317" type="idref" xml:base="https://www.idref.fr/">Grey
+          Walter</persName>. Le livre de <persName ref="115653317" type="idref" xml:base="https://www.idref.fr/">Grey
+          Walter</persName>, <hi rend="italic">The Living Brain</hi>, que
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a pu lire,
+          n’explique pas seulement le fonctionnement technique des EEGs mais
+          plus encore, tente de comprendre le fondement de la connaissance,
+          soit de l’humain et de la machine, comme une reconnaissance des
+          «&#160;<hi rend="italic">
+              <foreign xml:lang="eng">patterns</foreign>
+            </hi>&#160;» ou comme «&#160;[…] <foreign xml:lang="eng">any sequence of
+          events in time, or any set of comparable objects in space,
+          distinguishable from or comparable with another sequence or
+          set</foreign>.&#160;»<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>
+                <hi rend="small-caps">Grey Walter</hi>, 1953.</p>
+            </note> On comprend dès lors que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> ne
+          s’intéresse pas seulement à la cybernétique et la théorie de
+          l’information d’un point de vue abstrait, avec certains auteurs
+          comme <persName ref="115653317" type="idref" xml:base="https://www.idref.fr/">Grey Walter</persName>, il se
+          passionne pour une véritable pratique qui cherche à enregistrer
+          différents «&#160;<hi rend="italic">
+              <foreign xml:lang="eng">pattern</foreign>
+            </hi>&#160;» c’est-à-dire des séries d’événements obéissant à un code
+          dans un flux de signaux.<hi rend="italic">The Living</hi>
+            <hi rend="italic">Brain </hi>est également la seule référence, à part
+          <hi rend="italic">Cybernetics </hi>de<hi rend="italic"/> Norbert
+          Wieners, qui est mentionnée explicitement par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dans son texte
+          <hi rend="italic">La Psychologie de 1850 à 1950</hi>
+            <note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>
+                <hi rend="italic"/>
+                <hi rend="small-caps">Foucault</hi>, 1994
+              (1957).</p>
+            </note>. Ce texte propose un aperçu de l’histoire de la
+          psychologie. Pour <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, la
+          cybernétique, contrairement aux «&#160;efforts les plus récents de la
+          psychologie&#160;», n’essaie pas «&#160;de prouver sa possibilité par son
+          existence&#160;» ou même de «&#160;justifier ses contradictions<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Ibid., p. 135.</p>
+            </note>&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e316">Sa positivité semble
+          l’éloigner de toute spéculation, et si elle prend pour objet la
+          conduite humaine, c’est pour y retrouver tout ensemble le fait
+          neurologique des circuits en <hi rend="italic">
+              <foreign xml:lang="eng">feed-back</foreign>
+            </hi>, les phénomènes physiques de l’autorégulation et la théorie
+          statistique de l’information. Mais en découvrant dans les réactions
+          humaines les processus mêmes des servomécanismes, la cybernétique ne
+          revient pas à un déterminisme classique&#160;: sous la structure formelle
+          des estimations statistiques, elle laisse place aux ambiguïtés des
+          phénomènes psychologiques, et justifie, de son point de vue, les
+          formes toujours approchées et toujours équivoques de la connaissance
+          qu’on peut en prendre<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Ibid., p. 136.</p>
+            </note>.
+          </quote>
+          <p xml:id="d1e324">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des
+          savoirs<term ref="doi:10.34817/sv-bxdtchar">humanisme</term>
+                </term>
+              </term>
+            </term>Notons
+          par ailleurs qu’il ne fait de la cybernétique, ni d’ailleurs de
+          <persName ref="02672930X" type="idref" xml:base="https://www.idref.fr/">Binswanger</persName>, l’«&#160;avenir
+          de la psychologie&#160;». Effectivement, aux yeux de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, la
+          cybernétique, tout comme la <hi rend="italic">
+              <foreign xml:lang="deu">Daseinanalyse</foreign>
+            </hi>, ne promettent pas de sortir des paradoxes épistémologiques
+          de la psychologie. Dans ce texte assez énigmatique, l’avenir de la
+          psychologie réside pour lui dans l’analyse des conditions de
+          l’existence humaine, et donc dans l’analyse de ce qui serait le plus
+          humain chez l’homme –&#160;«&#160;son histoire<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Ibid., p. 137.</p>
+            </note>&#160;». Ce texte n’indique pas seulement sa connaissance de la
+          cybernétique et de la théorie de l’information, la cybernétique est
+          aussi mise en scène comme un «&#160;épistémologiquement Autre&#160;» du
+          discours de la psychologie. Ce seront toutefois ses derniers mots
+          sur la cybernétique. Il est vrai, un changement commence à émerger
+          dans les années 1950 qui porte <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          plus vers la théorie de l’information.</p>
+          <p>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-bfyyj72n">signe</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-kbtkd6uq">correspondance</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Dans un
+          manuscrit fragmentaire logé dans le dossier <hi rend="italic">Cyb</hi>, on découvre des indications importantes pour
+          caractériser la relation de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> avec la
+          cybernétique et la théorie de l’information. On ne sait si ces
+          fragments constituent une part de ses enseignements ou même une part
+          d’une thèse complémentaire à propos de l’«&#160;étude sur la
+          psycho-physique du signal et l’interprétation statistique de la
+          perception&#160;» que Foucault mentionne dans une lettre à <persName ref="026843056" type="idref" xml:base="https://www.idref.fr/">Georges Dumézil</persName>
+            <note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="small-caps">Eribon</hi>, 1994, p. 112.</p>
+            </note>. Ce fragment en question traite du problème de l’analyse
+          du «&#160;champ des événements signalétiques&#160;», où se trouve précisément
+          ce «&#160;moment intermédiaire&#160;» dans lequel le «&#160;phénomène énergétique
+          de la physiologie&#160;» est relié à un «&#160;phénomène psychologique&#160;» et
+          acquiert ainsi sa signification<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>BnF, NAF 28730, boîte n° 42b, p. 375;
+              https://eman-archives.org/Foucault-fiches/items/show/3054</p>
+            </note>. La théorie de l’information, selon une expression obscure
+          de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, «&#160;rend libre
+          le champ des événements signalétiques dans lequel s’accomplit la
+          genèse du signe à la signification&#160;»<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Ibid.</p>
+            </note>. Tout au long de ce fragment l’accent est clairement mis
+          sur la théorie de l’information. La cybernétique, selon ces notes,
+          peut fournir des modèles du comportement humain, «&#160;[m]ais cela
+          seulement&#160;»<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Ibid., p. 380 suites;
+              https://eman-archives.org/Foucault-fiches/items/show/3059</p>
+            </note>. Ce petit texte se demande également comment l’analyse de
+          ce processus pourrait être rendue possible&#160;: «&#160;le domaine autonome
+          du signal dans lequel s’accomplit la genèse du signe à la
+          signification, comment en faire l’analyse<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Ibid., p. 375;
+              https://eman-archives.org/Foucault-fiches/items/show/3054</p>
+            </note>&#160;?&#160;»</p>
+          <p>
+            <persName ref="165547960" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> n’aborde cette
+          question que par rapport à la recherche sur l’EEG, mais il y adjoint
+          déjà ses réflexions philosophiques par des références aux écrits de
+          <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName>, <persName ref="121210413" type="idref" xml:base="https://www.idref.fr/">Leibniz</persName> et de <persName ref="02695642X" type="idref" xml:base="https://www.idref.fr/">La
+          Mettrie</persName>
+            <note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Ibid., p. 383;
+              https://eman-archives.org/Foucault-fiches/items/show/3061</p>
+            </note>. C’est toutefois par le biais de ses conséquences
+          méthodologiques qu’il appréhende de manière privilégiée la théorie
+          de l’information&#160;:</p>
+          <quote rend="quotation" xml:id="d1e368">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+              </term>
+            </term>Or, avec
+          la théorie de l’information, on trouve le moyen de définir d’un coup
+          les processus de la pensée […] et les termes axiomatiques de
+          discontinu et de discernable. […] Ces éléments discontinus et
+          discernables sont justement les signaux […]<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Ibid., p. 385;
+              https://eman-archives.org/Foucault-fiches/items/show/3064</p>
+            </note>.</quote>
+          <p xml:id="d1e374">Au bout du compte, les thèses soulevées ici par
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> restent assez
+          sibyllines, les termes techniques utilisés n’étant en outre pas
+          expliqués.</p>
+          <p>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la
+          vie et de l’environnement<term ref="doi:10.34817/sv-e3m5z8w2">biologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>Néanmoins,
+          ce fragment révèle une autre dimension de la réception de la théorie
+          de l’information par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> que la
+          comparaison avec le manuscrit d’une conférence qu’il donne en
+          Tunisie permet de dessiner. Afin de développer l’analyse de la
+          signification du signe dans l’événement signalétique, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> propose, en
+          <date type="_temp" when="1953">1953</date>, de considérer, dans un
+          premier temps, le signal indépendamment de son «&#160;support
+          énergétique&#160;». Alors que l’événement neurologique est un événement
+          énergétique, selon Foucault, l’événement signalétique est quant à
+          lui un événement informationnel. Il reprend cette idée de différence
+          entre événement énergétique et événement informationnel dans un
+          manuscrit qui a été très probablement écrit pour préparer sa
+          conférence <hi rend="italic">L’Analyse littéraire et le
+          structuralisme</hi> prononcée le <date type="_temp" when="1967-02-04">4 février 1967</date>, dans le club Tahar Haddad à
+          <placeName ref="2464470" type="geonames" xml:base="https://www.geonames.org/">Tunis</placeName>
+            <note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>BnF, NAF 28730, boîte n° 54.</p>
+            </note>. Foucault y évoque à nouveau la différence entre les
+          analyses portant sur les phénomènes d’information et celles portant
+          sur les phénomènes d’énergie. Depuis un certain temps, écrit-il, la
+          biologie ne s’intéresse pas seulement aux processus énergétiques
+          mais aussi à un certain nombre de phénomènes à travers le prisme de
+          l’information<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Ibid.</p>
+            </note>. Mais dans le club Tahar Haddad, il va plus loin que dans
+          son fragment écrit. Cette différence entre l’information et
+          l’énergie se manifeste désormais, selon lui, dans le domaine des
+          «&#160;sciences humaines&#160;». Celles-ci devraient analyser, par analogie
+          avec la double dimension d’appréhension des objets de la biologie,
+          ses objets à «&#160;deux niveaux&#160;»&#160;: au niveau économique et au niveau du
+          document, à l’aide d’une nouvelle méthode qu’il nomme la
+          «&#160;deixologie<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Ibid.</p>
+            </note>&#160;». C’est l’analyse de ce niveau deixologique, l’analyse de
+          la masse documentaire, que Foucault formule méthodologiquement lors
+          de son séjour en <placeName ref="2464461" type="geonames" xml:base="https://www.geonames.org/">Tunisie</placeName>.</p>
+          <p>Cette note fragmentaire montrerait-elle que, dès <date type="_temp" when="1953">1953</date>, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          aurait aperçu un véritable potentiel d’ordre méthodologique dans la
+          théorie de l’information&#160;? Rien ne permet de le dire, mais, si tel
+          est le cas, il ne développe cette potentialité que dans les années
+          1960.</p>
+        </div>
+        <div type="section1" xml:id="d1e396">
+          <head subtype="level1" xml:id="d1e397">Les fiches de lectures sur
+          l’information des années 1960</head>
+          <p xml:id="d1e399">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-yulqsnvs">psychologie</term>
+                </term>
+              </term>
+            </term>Lorsque
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> revient
+          d’<placeName ref="2666219" type="geonames" xml:base="https://www.geonames.org/">Uppsala</placeName> à
+          <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, en <date type="_temp" when="1961">1961</date>, il constitue le dossier qu’il
+          nomme «&#160;<hi rend="italic">L’Information&#160;»</hi>. Les fiches qui
+          composent ce dossier ont probablement déjà été écrites dans les
+          années 1950<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>BnF, NAF 28730, boîte n° 36.</p>
+            </note>. Néanmoins cette sélection est assez étonnante, car
+          contrairement à ses fiches de lecture des années 1950, elles font
+          beaucoup plus souvent référence aux aspects techniques généraux de
+          la théorie de l’information. Elles enregistrent, par exemple,
+          l’utilisation du terme «&#160;communication&#160;» en psychologie sociale ou
+          encore les discussions philosophiques sur la théorie de
+          l’information de <persName ref="027115836" type="idref" xml:base="https://www.idref.fr/">Raymond Ruyer</persName>
+            <note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Ibid&#160;; <hi rend="small-caps">Ruyer</hi>, 1952.</p>
+            </note>.</p>
+          <p>La plupart des fiches de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> des années 1960
+          ont été rédigées d’après divers textes tirés de l’anthologie <hi rend="italic">La Cybernétique. Théorie du signal et de
+          l’information</hi>
+            <note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>
+                <hi rend="small-caps">De Broglie</hi>, 1951.</p>
+            </note> de <date type="_temp" when="1951">1951</date> publiée sous
+          la direction de <persName ref="026754290" type="idref" xml:base="https://www.idref.fr/">Louis de Broglie</persName>. Dans
+          ses fiches, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> accorde une
+          attention particulière aux articles qui traitent des définitions
+          théoriques du «&#160;message&#160;», du «&#160;code&#160;» et du «&#160;signal&#160;» dans la
+          théorie de l’information. Quatre fiches de lecture du dossier <hi rend="italic">L’Information</hi> sont consacrées à la différence
+          entre signal et message. Parmi elles, relevons la fiche <hi rend="italic">Le Message et ses probabilités</hi>. Elle a été écrite
+          en se basant sur <hi rend="italic">Cybernetics</hi> de <persName ref="030844290" type="idref" xml:base="https://www.idref.fr/">Norbert Wiener</persName>, que
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a lu,
+          rappelons-le, pour la première fois vers <date type="_temp" when="1950">1950</date>. Sur la fiche, il est noté un passage de la
+          préface de <hi rend="italic">Cybernetics</hi>, dans lequel Wiener
+          définit la notion de «&#160;message&#160;» comme «&#160;<hi rend="italic">time-series</hi>&#160;».</p>
+          <quote rend="quotation" xml:id="d1e443">«&#160;Le message est une série
+          continue ou discontinue d’événements mesurables distribués dans le
+          temps.&#160;» (Ce que les statisticiens appellent une <hi rend="italic">time-series</hi>.)<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>BnF, NAF&#160;28730, boîte n° 36, p. 417;
+              https://eman-archives.org/Foucault-fiches/items/show/7539</p>
+            </note>
+          </quote>
+          <p xml:id="d1e452">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-dxni2k2e">discours</term>
+              </term>
+            </term>Cette
+          définition se retrouve dans les fiches de lecture rédigées par
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dès <date type="_temp" when="1953">1953</date>. Elle apparaît aussi à
+          plusieurs reprises dans quelques fiches portant sur la théorie de
+          l’information et de la cybernétique. On peut imaginer que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> s’intéresse à
+          ces notions de <foreign xml:lang="eng">
+              <hi rend="italic">time-series</hi>
+            </foreign> et <hi rend="italic">
+              <foreign xml:lang="eng">patterns</foreign>
+            </hi> en ce sens où elles signifient que l’interprétation d’une
+          pratique discursive ne doit pas chercher à interroger le sens secret
+          du texte ou ses expressions visibles de rationalité, mais uniquement
+          l’aborder en tant qu’une série d’événements dont il faut établir la
+          loi de leur combinaison.</p>
+          <p>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-c5uj8lvn">modèle</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-r5yzkxap">théorie de la
+          connaissance</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-ymfktytc">conférence</term>
+              </term>
+            </term>Mais
+          la fiche la plus longue de <hi rend="italic">L’Information</hi>
+          (seize feuillets) est consacrée à l’allocution de <persName ref="029560764" type="idref" xml:base="https://www.idref.fr/">Donald
+          MacKay</persName> intitulée <hi rend="italic">In Search of Basic
+          Symbols</hi>
+            <note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>
+                <hi rend="small-caps">Mackay</hi>, 1951 (2004).</p>
+            </note> et prononcée lors de la huitième conférence Macy en <date type="_temp" when="1951">1951</date> à <placeName ref="5128638" type="geonames" xml:base="https://www.geonames.org/">New
+          York</placeName>. Les fiches relatives à ce texte de <persName ref="029560764" type="idref" xml:base="https://www.idref.fr/">MacKay</persName> furent écrites en
+          <date type="_temp" when="1953">1953</date> et enregistrent le
+          glossaire de la conférence au cours de laquelle les termes de la
+          théorie de l’information centrale furent définis. Cette fiche
+          présente les caractéristiques de base de la «&#160;théorie de
+          l’information générale&#160;» de <persName ref="029560764" type="idref" xml:base="https://www.idref.fr/">MacKay</persName>. <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> note que cette
+          théorie part du principe que la connaissance peut être représentée
+          par «&#160;ce que nous savons par le moyen d’images, de propositions
+          logiques, de modèles symboliques<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>BnF, NAF 28730, boîte n° 36, p. 421-428.</p>
+            </note>&#160;». Faisant référence au fait que pour MacKay les
+          différences entre deux représentations sont en quelque sorte des
+          différences de connaissance, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> écrit&#160;:</p>
+          <quote rend="quotation" xml:id="d1e480">La théorie générale de
+          l’information pose la probabilité générale de mesurer les
+          changements du savoir. Il se pose sur le fait que nous pouvons
+          «&#160;représenter&#160;» ce que nous savons par le moyen d’images, de
+          propositions logiques, de modèles symboliques<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>Ibid.</p>
+            </note>.</quote>
+          <p xml:id="d1e486">Ces représentations, à leur tour, sont «&#160;ce qui
+          permet logiquement au destinataire de faire ou d’ajouter à une
+          représentation de ce qui est le cas, ou de ce qui est supposé ou
+          affirmé comme étant le cas<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>BnF, NAF 28730, boîte n° 36.</p>
+            </note>&#160;». Alors que dans les autres textes du dossier, les
+          concepts de la théorie de l’information sont toujours liés à des
+          problèmes techniques concrets, les notions issues de <persName ref="029560764" type="idref" xml:base="https://www.idref.fr/">MacKay</persName> sont généralisées
+          à d’autres domaines. Pas seulement donc celui des signaux mais aussi
+          à toutes formes de représentations, représentations qui sont
+          traitées comme des informations. Ce que l’on peut voir dans cette
+          lecture de Foucault est un véritable souci du transfert des concepts
+          de la théorie de l’information à l’image de ce que ce théoricien
+          comme d’autres promeuvent. Ceci ne signifie nullement que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> entretient une
+          relation mimétique avec des auteurs comme <persName ref="029560764" type="idref" xml:base="https://www.idref.fr/">MacKay</persName> (ou
+          même W. Grey Walter), mais, néanmoins, la sélection de ces textes
+          par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> témoigne de sa
+          préoccupation à ce moment-là d’universalisation des concepts de la
+          théorie de l’information.</p>
+          <p>Dès <date type="_temp" when="1966">1966</date>, il situe ses
+          propres observations historiographiques dans le contexte d’une
+          «&#160;culture non-dialectique&#160;» dont les parties essentielles
+          comprennent aux côtés de la logique, du formalisme et de la
+          linguistique, aussi la «&#160;théorie de l’information&#160;». En <date type="_temp" when="1969">1969</date>, il plaidera à nouveau
+          explicitement pour une intégration des concepts de la théorie de
+          l’information dans les sciences humaines et sociales. Sur la base
+          des concepts de la théorie de l’information, il défend l’idée que
+          les groupes sociaux ne doivent plus être étudiés en fonction de leur
+          «&#160;mentalité&#160;» ou de leur <hi rend="italic">
+              <foreign xml:lang="deu">Zeitgeist</foreign>
+            </hi>, mais plutôt comme un «&#160;collectif&#160;» ou comme un ensemble
+          formé par «&#160;les codes qui sont effectivement utilisés et la
+          fréquence et la structure des messages qui sont envoyés&#160;»<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1994 (1969), 821.</p>
+            </note>. La théorie de l’information se trouve en opposition à
+          l’histoire des mentalités et à la <hi rend="italic">Geistesgeschichte</hi>, et remarquons que <hi rend="italic">L’archéologie du savoir</hi> cherche justement à
+          s’affranchir de ces deux thèmes<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1996 (1969), 159.</p>
+            </note>.</p>
+          <p>Mais la réception de la théorie de l’information par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> apparaît encore
+          plus clairement dans le texte <hi rend="italic">Message ou
+          bruit&#160;?</hi>. Ici, la clinique est décrite comme un traitement
+          d’informations. Elle devient le lieu où les étudiants en médecine
+          apprennent un code qui leur permet de filtrer un «&#160;message&#160;» à
+          partir du «&#160;bruit&#160;» des organes<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1994 (1966), p. 558.</p>
+            </note>. Ce bruit est décrit par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          d’une façon très proche de ce qui est défini par <persName ref="115653317" type="idref" xml:base="https://www.idref.fr/">Grey
+          Walter</persName> comme un «&#160;<hi rend="italic">
+              <foreign xml:lang="eng">pattern</foreign>
+            </hi>&#160;»:</p>
+          <quote rend="quotation" xml:id="d1e533">
+            <p>En fait, pour qu’il y ait «&#160;message&#160;», il faut&#160;: <lb/>- qu’il y
+            ait d’abord du bruit […] <lb/>- que ce bruit soit «&#160;constitué
+            par&#160;» ou du moins «&#160;porteur de&#160;» divers éléments qui en
+            constituent le sens <lb/>- enfin, que ces éléments se présente
+            liés les uns aux autres selon certaines régularités<note n="41" place="foot" type="standard" xml:id="ftn41">
+                <p>Ibid., p. 557.</p>
+              </note>.</p>
+          </quote>
+          <p xml:id="d1e545">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-ognrwtyq">médecine</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-5q3en5t5">codage de
+          l’information<term ref="doi:10.34817/sv-8lie9qks">code</term>
+              </term>
+            </term>À partir de
+          cette définition du bruit, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> décrit comment
+          l’expérience clinique isole un certain nombre de traits qui
+          permettent de définir les éléments qui pourraient faire partie d’un
+          «&#160;message pathologique&#160;». Cette opération est possible grâce à la
+          constitution d’un code créé selon lui vers <date type="_temp" when="1800">1800</date> au sein de la médecine occidentale «&#160;en tant
+          que corpus de connaissances ainsi qu’en tant qu’institution&#160;»<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>Ibid., p. 559.</p>
+            </note>.</p>
+          <p>Toujours dans ce texte, les transformations de ce code sont
+          désormais tenues pour responsables des changements des connaissances
+          médicales.</p>
+          <quote rend="quotation" xml:id="d1e553">
+            <p>- quand ce sont les règles de substitution qui changent, on dit
+            que les «&#160;connaissances médicales&#160;» progressent&#160;;<lb/>- quand ce
+            sont les principes d’individualisation des éléments du message, on
+            dit que les «&#160;méthodes d’observation&#160;» se sont
+            perfectionnées&#160;;<lb/>- quand on se met à définir des éléments de
+            message, là où on n’entendait que du bruit, c’est que la médecine
+            s’est adjointe de nouveaux domaines<note n="43" place="foot" type="standard" xml:id="ftn43">
+                <p>Ibid., p. 558.</p>
+              </note>.</p>
+          </quote>
+          <p xml:id="d1e563">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-ognrwtyq">médecine</term>
+                </term>
+              </term>
+            </term>Le
+          texte se poursuit en présentant l’histoire de la médecine comme une
+          histoire du traitement de l’information. Freud, par exemple, a
+          traité des énoncés de malades qui n’étaient auparavant que des
+          «&#160;bruits&#160;» comme des «&#160;messages&#160;» grâce à un nouveau «&#160;code&#160;». Les
+          développements dans l’histoire de la médecine sont ainsi liés à ce
+          nouveau «&#160;code&#160;» modifiable&#160;:</p>
+          <quote rend="quotation" xml:id="d1e565">Peut-être aussi fera-t-on un
+          nouveau gain, mais grâce à un nouveau code, etc. Puisque la maladie
+          n’a rien à dire, il n’y a pas de raison qu’un seul code arrive à
+          ‘informer’ tout ce bruit. Cette première opération théorique est
+          faire –&#160;et a été faire depuis le début du XIXe siècle&#160;– par toute la
+          médecine, prise comme corpus de savoir et comme institution<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>Ibid., p. 559.</p>
+            </note>.
+          </quote>
+          <p xml:id="d1e571">Les étudiants en médecine apprennent ce code à
+          l’université de même qu’en clinique<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>Ibid.</p>
+            </note>. <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> termine son
+          texte en se demandant «&#160;si la théorie de la pratique médicale ne
+          pourrait pas être repensée dans les termes qui ne sont plus ceux du
+          positivisme, mais dans ceux qui élaborent actuellement des pratiques
+          comme l’analyse des langues ou les traitements de l’information&#160;»
+          <note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Ibid., p. 560.</p>
+            </note>.</p>
+          <p>Déjà, dans ses notes fragmentaires de <date type="_temp" when="1953">1953</date> il s’interrogeait sur le sens et les signes
+          à travers la théorie de l’information, théorie qui au même moment
+          était considérée comme une nouvelle possibilité méthodologique, un
+          nouveau «&#160;moyen pour définir les processus de la pensée&#160;» dans le
+          «&#160;champ signalétique&#160;». Treize ans après, elle semble n’avoir rien
+          perdu de cette potentialité méthodologique entrevue, mais devient
+          désormais le moyen de décrire les divers traitements d’informations
+          pratiqués par la médecine. Il s’agit pourtant de deux objets
+          complètement différents. Lorsque dans sa note fragmentaire,
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> parle du
+          «&#160;champ signalétique&#160;», il fait référence au traitement du signal du
+          cerveau humain rendu visible par l’EEG. Tandis que lorsqu’il parle
+          de l’histoire de la médecine, ce ne sont pas tant les signaux qui
+          sont visés, mais plutôt la masse documentaire dans laquelle les
+          séries du discours doivent être définies. La transmission des termes
+          de la théorie de l’information reste donc abstraite, mais renvoie
+          néanmoins à un événement technologique et scientifique au sein
+          duquel, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> en <date type="_temp" when="1966">1966</date>, année de la publication de <hi rend="italic">Les mots et les choses</hi>, voit une telle
+          contemporanéité, une telle gravité, qu’il entreprend une révision de
+          l’histoire de la médecine sur sa base.</p>
+        </div>
+        <div type="section1" xml:id="d1e586">
+          <head subtype="level1" xml:id="d1e587">Conclusion</head>
+          <p xml:id="d1e589">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-supadldq">sciences de l’information et de la
+          communication</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-hmhdfumd">technologie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+                </term>
+              </term>
+            </term>Cette
+          analyse encore parcellaire montre toutefois la nécessité de prendre
+          en compte les fiches de lecture de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          afin de réviser ou d’approfondir les (rares) travaux se penchant sur
+          la réception de la théorie de l’information par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>. D’une part,
+          ses lectures sur la cybernétique démontrent un engagement bien plus
+          poussé dans le domaine de la science qu’on ne le soupçonnait
+          auparavant. En tant qu’assistant à l’université de <placeName ref="2998324" type="geonames" xml:base="https://www.geonames.org/">Lille</placeName>, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> était certes un
+          familier de la littérature de recherche scientifique contemporaine.
+          Mais surtout, comme il a pu le mentionner dans une lettre adressée à
+          <persName ref="026843056" type="idref" xml:base="https://www.idref.fr/">Dumézil</persName>, il envisageait
+          aussi une thèse complémentaire sur la «&#160;psycho-physique du signal&#160;».
+          Ses fiches de lecture montrent de plus que cette réception de la
+          cybernétique et de la théorie de l’information qui avait commencé au
+          tout début les années <date type="_temp" when="1950">1950</date> ne
+          se limitait pas aux travaux de <persName ref="030844290" type="idref" xml:base="https://www.idref.fr/">Wiener</persName>. La
+          note fragmentaire de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> montre une
+          attention continue à la question de la différenciation de
+          l’information et de l’énergie, différenciation que l’on retrouve
+          lors de sa conférence au club Tahar Haddad dans laquelle il établit
+          un lien entre la déixologie et la théorie de l’information lui
+          faisant envisager la déixologie comme une sorte de pendant
+          humano-scientifique de la théorie de l’information. Entre 1950 et
+          1966, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a vu dans la
+          théorie de l’information un potentiel méthodologique, d’abord pour
+          rendre saisissables les processus de pensée puis, en <date type="_temp" when="1866">1966</date>, pour permettre une révision de
+          l’histoire de la médecine. En outre, les fiches montrent que même
+          dans les années 1960 <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> avait déjà
+          rassemblé des fiches de lectures sur la théorie de l’information
+          sous la forme de divers dossiers. Il continua à y inclure non
+          seulement des textes sur la technologie d’information, mais aussi
+          des travaux comme ceux de MacKay, qui abordent des questions
+          épistémologiques sur la base de concepts de la théorie de
+          l’information. En même temps, ces fiches des années 1960 montrent
+          une convergence dans les écrits de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          entre le concept de «&#160;<hi rend="italic">pattern</hi>&#160;» de <persName ref="115653317" type="idref" xml:base="https://www.idref.fr/">Grey
+          Walter</persName>, le concept de «&#160;<hi rend="italic">time-series</hi>&#160;»<hi rend="italic"/>que l’on retrouve
+          dans ses fiches sur <persName ref="030844290" type="idref" xml:base="https://www.idref.fr/">Norbert Wiener</persName> et sa
+          description des opérations médicales affrontées dans son texte <hi rend="italic">Message ou bruit&#160;? </hi>comme un traitement
+          d’information.</p>
+          <p xml:id="d1e603">Sûrement faudrait-il se pencher plus précisément
+          sur cette réception de la cybernétique et de la théorie de
+          l’information au sein de l’épistémologie française afin de
+          contextualiser la propre réception de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          dans ce champ. Il faudrait également examiner les auteurs qui ont
+          critiqué la cybernétique et la théorie de l’information, et qui ont
+          publié au sein de ce que nous pourrions appeler «&#160;l’environnement
+          élargi&#160;» de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, comme
+          <persName ref="026860600" type="idref" xml:base="https://www.idref.fr/">Lucien Febvre</persName> ou
+          <persName ref="027115836" type="idref" xml:base="https://www.idref.fr/">Raymond Ruyer</persName>. Afin
+          d’approfondir la question, des pistes peuvent être dégagées à
+          travers un certain nombre de questions&#160;: est-il possible d’établir
+          des rapprochements entre l’archéologie foucaldienne et la théorie de
+          l’information&#160;? Des rapports de subordination ou de complémentarité
+          ne peuvent-ils pas être établis d’une positivité à l’autre, afin
+          d’identifier «&#160;la loi de leurs communications<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>
+                <hi rend="small-caps">Foucault</hi>, 1996 (1969), p. 211.</p>
+            </note>&#160;».</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e617">
+        <head xml:id="d1e618">Archives Bibliographie</head>
+        <listBibl xml:id="d1e620">
+          <bibl xml:id="d1e621">Bibliothèque nationale de France. Fonds Michel
+          Foucault</bibl>
+          <bibl xml:id="d1e623">BNF, NAF 28730, Boîte n° 36, 38, 42b, 44b,
+          54.</bibl>
+          <bibl xml:id="d1e625">
+            <hi rend="small-caps">De Broglie</hi>, 1951&#160;:
+          Louis <hi rend="small-caps">De Broglie</hi> (éd.), <hi rend="italic">Cybernétique. Théorie du signal et de
+          l’information</hi>, Paris, Éditions de la revue d’optique théorique
+          et instrumentale.</bibl>
+          <bibl xml:id="d1e635">
+            <hi rend="small-caps">Dotzler</hi>, 2008&#160;:
+          Bernhard <hi rend="small-caps">Dotzler</hi>, «&#160;Foucault, der
+          Diskurs, die Medien&#160;», dans Alexander <hi rend="small-caps">Roesler</hi> et Bernard Stiegler (éd.), <hi rend="italic">Philosophie in der Medientheorie. Von Adorno bis
+          Žižek</hi>, München, Fink, p. 101-116.</bibl>
+          <bibl xml:id="d1e648">
+            <hi rend="small-caps">Dubarle</hi>, 1948&#160;:
+          Pierre <hi rend="small-caps">Dubarle</hi>, «&#160;Vers la machine à
+          gouverner&#160;», <hi rend="italic">Le Monde</hi>, 28 décembre 1948, p.
+          47-49.</bibl>
+          <bibl xml:id="d1e658">
+            <hi rend="small-caps">Eribon</hi>, 1989&#160;:
+          Didier <hi rend="small-caps">Eribon</hi>, <hi rend="italic">Michel
+          Foucault</hi>, Paris, Flammarion.</bibl>
+          <bibl xml:id="d1e668">
+            <hi rend="small-caps">Eribon</hi>, 1994&#160;:
+          Didier <hi rend="small-caps">Eribon</hi>, <hi rend="italic">Michel
+          Foucault et ses contemporains</hi>, Paris, Fayard.</bibl>
+          <bibl xml:id="d1e678">
+            <hi rend="small-caps">Foucault</hi>, 1994
+          (1957)&#160;: Michel <hi rend="small-caps">Foucault</hi>
+            <hi rend="italic">La psychologie de 1850 à 1950</hi>, dans Daniel Defert
+          et François Ewald (éd.), <hi rend="italic">Dits et Écrits I</hi>,
+          Paris, Gallimard, p. 120-137.</bibl>
+          <bibl xml:id="d1e691">
+            <hi rend="small-caps">Foucault</hi>, 1994
+          (1969)&#160;: Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Linguistique et sciences sociale</hi>, dans Daniel
+          Defert et François Ewald (éd.), <hi rend="italic">Dits et
+          Écrits</hi>
+            <hi rend="italic">I</hi>, Paris, Gallimard, p.
+          821-841.</bibl>
+          <bibl xml:id="d1e707">
+            <hi rend="small-caps">Foucault</hi>, 1994
+          (1966)&#160;: Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Message ou bruit ?</hi> dans Daniel Defert et François
+          Ewald (éd.), <hi rend="italic">Dits et Écrits I</hi>, Paris,
+          Gallimard, p. 557-560.</bibl>
+          <bibl xml:id="d1e720">
+            <hi rend="small-caps">Foucault</hi>, 1994
+          (1977)&#160;: Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">Enfermement, psychiatrie, prison</hi>, dans Daniel
+          Defert et François Ewald (éd.), <hi rend="italic">Dits et
+          Écrits</hi>
+            <hi rend="italic">III</hi>, Paris, Gallimard, p.
+          332-360.</bibl>
+          <bibl xml:id="d1e737">
+            <hi rend="small-caps">Foucault</hi>, 1996
+          (1969)&#160;: Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">L’archéologie du savoir</hi>, Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e747">
+            <hi rend="small-caps">Grey Walter</hi>, 1953&#160;:
+          William <hi rend="small-caps">Grey Walter</hi>, <hi rend="italic">The Living Brain</hi>, New York, Norton.</bibl>
+          <bibl xml:id="d1e757">
+            <hi rend="small-caps">Johnson</hi>, 2015&#160;:
+          Christopher<hi rend="small-caps"> Johnson</hi>, «&#160;‟French”
+          Cybernetics&#160;», <hi rend="italic">French Studies</hi>, 69, 1, p.
+          60-78.</bibl>
+          <bibl xml:id="d1e767">
+            <hi rend="small-caps">Kittler</hi>, 2002&#160;:
+          Wolf <hi rend="small-caps">Kittler</hi>, «&#160;Thermodynamik und
+          Guerilla. Zur Methode von Michel Foucaults Archäologie des
+          Wissens&#160;», <hi rend="italic">Trajekte</hi>, 4, p. 16-22.</bibl>
+          <bibl xml:id="d1e777">
+            <hi rend="small-caps">Mcculloch</hi> et <hi rend="small-caps">Mackay</hi>, 1952&#160;: Warren <hi rend="small-caps">Mcculloch</hi> et Donald <hi rend="small-caps">Mackay</hi>, «&#160;The limiting information capacity
+          of a neuronal link&#160;», <hi rend="italic">Bulletin of mathematical
+          biophysics</hi>, 14, p. 127-135.</bibl>
+          <bibl xml:id="d1e793">
+            <hi rend="small-caps">Mcculloch</hi> et <hi rend="small-caps">Pitts</hi>, 1947&#160;: Warren <hi rend="small-caps">Mcculloch</hi> et Walter <hi rend="small-caps">Pitts</hi>, «&#160;How we know universals. The
+          perception of auditory and visual forms&#160;», <hi rend="italic">Bulletin of Mathematical Biophysics</hi>, 9,
+          127-147.</bibl>
+          <bibl xml:id="d1e809">
+            <hi rend="small-caps">Mackay</hi>, 1951
+          (2004)&#160;: Donald <hi rend="small-caps">Mackay</hi>, «&#160;In Search of
+          Basic Symbols&#160;», dans Claus Pias (éd.), <hi rend="italic">Cybernetics. The Macy Conferences 1946-1953 Vol.
+          I</hi>, Zurich, Diaphanes, p. 480-508.</bibl>
+          <bibl xml:id="d1e819">
+            <hi rend="small-caps">Mindell</hi> et al.,
+          2003&#160;: David <hi rend="small-caps">Mindell</hi>, Jérôme <hi rend="small-caps">Segal</hi> et Slava <hi rend="small-caps">Gerovitch</hi>, «&#160;From Communications Engineering
+          to Communications Science: Cybernetics and Information Theory in the
+          United States, France, and the Soviet Union&#160;», dans Mark Walker
+          (éd.), <hi rend="italic">Sciences and Ideology: A comparative
+          History</hi>, London, Rutledge, p. 66-95.</bibl>
+          <bibl xml:id="d1e835">
+            <hi rend="small-caps">Pickering</hi>, 2010&#160;:
+          Andrew <hi rend="small-caps">Pickering</hi>, <hi rend="italic">The
+          Cybernetic Brain. Sketches of another Future</hi>, Chicago, The
+          University of Chicago Press.</bibl>
+          <bibl xml:id="d1e845">
+            <hi rend="small-caps">Ruyer</hi>, 1952&#160;:
+          Rayomond <hi rend="small-caps">Ruyer</hi>, «&#160;Le problème de
+          l’information et la cybernétique&#160;», <hi rend="italic">Journal de
+          Psychologie</hi>, 45, 4, p. 385-418.</bibl>
+          <bibl xml:id="d1e855">
+            <hi rend="small-caps">Sabot</hi>, 2015&#160;:
+          Philippe <hi rend="small-caps">Sabot</hi>, «&#160;Entre psychologie et
+          philosophie. Foucault à Lille, 1952-1955&#160;», dans Jean François Bert
+          et Elisabetta Basso (éd.), <hi rend="italic">Foucault à
+          Münsterlingen</hi>, Paris, Éditions de l’École des hautes études en
+          sciences sociales, p. 105-121.</bibl>
+          <bibl xml:id="d1e866">
+            <hi rend="small-caps">Sabot</hi>, 2016&#160;:
+          Philippe <hi rend="small-caps">Sabot</hi>, «&#160;Dans les «&#160;Archives&#160;»
+          de l’Archéologie. Relire <hi rend="italic">Les Mots et les
+          choses</hi> aujourd’hui&#160;», <hi rend="italic">Revista de Filosofia
+          Aurora</hi>, 28, 45, p. 747-766.</bibl>
+          <bibl xml:id="d1e879">
+            <hi rend="small-caps">Schmidgen</hi>, 2020&#160;:
+          Henning <hi rend="small-caps">Schmidgen</hi>, «&#160;Cybernetic times:
+          Norbert Wiener, John Stroud, and the ‘brain clock’ hypothesis&#160;», <hi rend="italic">History of the Human Sciences</hi>, 33, 1,
+          80-108.</bibl>
+          <bibl xml:id="d1e889">
+            <hi rend="small-caps">Segal</hi>, 2003&#160;:
+          Jérôme <hi rend="small-caps">Segal</hi>, <hi rend="italic">Le zéro
+          et l’un. Histoire de la notion scientifique d’information au
+          20</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> sciècle</hi>,
+          Paris, Syllepse (coll. Matériologiques).</bibl>
+          <bibl xml:id="d1e903">
+            <hi rend="small-caps">Vogl</hi>, 2004&#160;: Joseph
+          <hi rend="small-caps">Vogl</hi>, «&#160;Regierung und Regelkreis.
+          Historisches Vorspiel&#160;», dans Claus Pias (éd.), <hi rend="italic">Cybernetics. </hi>
+            <hi rend="italic">The Macy
+          Conferences 1</hi>
+            <hi rend="italic">946-1953 Vol. I</hi>, Zurich,
+          Diaphanes, p. 68-79.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

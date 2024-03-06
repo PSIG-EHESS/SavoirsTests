@@ -1,0 +1,1254 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="aleroy" time="2022-04-08T15:37:13.827+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="Foucault_06_Verlengia">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Foucault, le néolibéralisme et la question de
+        l’État : un éclairage à partir des fiches de lecture</title>
+        <author role="aut">
+          <forename>Carolina</forename>
+          <surname>Verlengia</surname>
+          <idno type="IDREF">261206281</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <forename>Nicole Dufournaud</forename>
+          <surname/>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <forename>Axel Le Roy</forename>
+          <surname/>
+        </respStmt>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/F9JXZRWC" type="conferencePaper" xml:lang="fre">
+          <analytic>
+            <title level="a">Foucault, le néolibéralisme et la question de
+            l’État : un éclairage à partir des fiches de lecture</title>
+            <author>
+              <forename>Carolina</forename>
+              <surname>Verlengia</surname>
+            </author>
+            <editor>
+              <forename>Laurent</forename>
+              <surname>Dartigues</surname>
+            </editor>
+            <editor>
+              <forename>Camille</forename>
+              <surname>Noûs</surname>
+            </editor>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">L’archive Foucault à l’ère du
+            numérique. Fiches et fichiers dans la pratique
+            philosophique</title>
+            <editor>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <date>2022</date>
+              <biblScope unit="ordre">6</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>archives</item>
+            <item>État</item>
+            <item>humanités numériques</item>
+            <item>libéralisme</item>
+            <item>philosophie politique.</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>archives</item>
+            <item>digital humanities</item>
+            <item>liberalism</item>
+            <item>political philosophy</item>
+            <item>State.</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-7va2wxhk">bibliographie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-najuwvdf">source</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-c4fhthqb">libéralisme</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+              </term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2660718" type="geonames" xml:base="https://www.geonames.org/">Fribourg</placeName>
+          </term>
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1979">1979</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-03-24T13:51:00" who="Jeanne FLAMANT">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Foucault, le
+          néolibéralisme et la question de l’État&#160;: un éclairage à partir des
+          fiches de lecture</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor style="txt_auteur">Carolina Verlengia</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">
+          <anchor xml:id="_Hlk63958632"/>Nous nous proposons,
+        à travers cet article, d’analyser un ensemble de fiches de lecture
+        préparées par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName> en vue de
+        la réalisation du cours donné en <date type="_temp" when="1979">1979</date>, <hi rend="italic" style="typo_Italique">Naissance de la biopolitique</hi>, afin de
+        tracer ce qu’on pourrait appeler une cartographie du regard de
+        l’auteur, au moment où il s’est lancé dans ses études sur le
+        néolibéralisme et, plus spécialement, l’ordolibéralisme. <anchor xml:id="_Hlk64473526"/>Il s’agit d’interroger son rapport aux sources
+        primaires et secondaires, en s’intéressant tout particulièrement à la
+        dimension plus artisanale de l’élaboration de sa recherche. Les fiches
+        de lecture nous aident, en effet, à déchiffrer certains cheminements
+        de pensée, permettant de mieux comprendre comment le philosophe a
+        cherché à construire une base de connaissance sur ces thèmes. Nous
+        souhaitons montrer, également, l’importance du rôle joué par la
+        question de l’État dans l’élaboration de la problématique générale du
+        cours. À travers l’accès aux archives et l’utilisation d’outils
+        informatiques développés au sein du projet ANR <hi rend="italic" style="typo_Italique">Foucault Fiches de Lectures</hi>, nous observons
+        la façon dont les concepts d’État et d’intervention lient les
+        principales références de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> dans le cadre de
+        ses lectures sur le néolibéralisme allemand. Ce faisant, l’objectif
+        est de mettre en rapport ces lectures et les interprétations que
+        Foucault en livre avec un contexte intellectuel et politique plus
+        large, marqué par la centralité de quelques questionnements critiques
+        qui guidaient alors ses travaux.</p>
+        <p xml:lang="eng">This article proposes to analyse a set of Michel
+        Foucault’s reading notes prepared for the 1979’s lectures, <hi rend="italic" style="typo_Italique">The birth of Biopolitics</hi>, in
+        order to trace what could be called a cartography of the author's
+        viewpoint, at the moment when he undertook his studies on
+        neoliberalism and, more specifically, ordoliberalism. By interrogating
+        his relationship to primary and secondary sources, we are specially
+        interested in a more artisanal dimension of his research. Indeed, the
+        reading notes help us decipher certain thought processes, allowing us
+        to better understand how the philosopher sought to build a base of
+        knowledge on these themes. We would also like to show the importance
+        of the role played by the concept of State in the development of these
+        lectures’ general problematic. Through access to the archives and the
+        use of numeric tools developed by the ANR project <hi rend="italic" style="typo_Italique">Foucault Fiches de Lectures</hi>, we observe how
+        the concepts of State and intervention established a link between
+        Foucault's main references in his readings on German neo-liberalism.
+        In doing so, the aim is to relate these readings and the
+        interpretations Foucault offers to a wider intellectual and political
+        context, marked by the centrality of some critical questions that
+        guided his work at the time.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e295">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-mgygrrzo">historiographie</term>
+            </term>
+          </term>Dans l’article «&#160;<persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Michel Foucault</persName> “bien
+        entendu”&#160;», <persName ref="053431170" type="idref" xml:base="https://www.idref.fr/">Philippe Artières</persName>
+        s’intéresse aux rapports entre les travaux du philosophe et ceux de
+        l’historienne <persName ref="027067319" type="idref" xml:base="https://www.idref.fr/">Michelle Perrot</persName>, ainsi
+        qu’à leurs projets communs. Il utilise une expression intéressante
+        pour décrire la relation de ces deux chercheurs à l’archive&#160;: se
+        penchant sur des manuels, des traités ou des écrits personnels, tout
+        en allant, dans certaines occasions, jusqu’à les publier ou republier
+        <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Voir, notamment, B<hi rend="small-caps">entham</hi>, F<hi rend="small-caps">oucault</hi> et P<hi rend="small-caps">errot</hi>, 1977.</p>
+          </note>, ils cherchaient à faire une «&#160;cartographie du regard&#160;».
+        Cette cartographie ne consiste pas, toutefois, à «&#160;ouvrir des
+        cadavres&#160;»&#160;; il s’agit bien plutôt de «&#160;forer la carte en un certain
+        nombre de points […afin] d’alimenter le débat, de livrer des éléments
+        à la discussion&#160;» <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>A<hi rend="small-caps">rtières</hi>, 2017&#160;:p.&#160;693.</p>
+          </note>. Nous souhaitons inscrire notre travail dans cette même
+        perspective. Étudiant les fiches de lecture préparées, notamment, pour
+        la réalisation du cours donné au Collège de France en <date type="_temp" when="1979">1979</date>, <hi rend="italic">Naissance de
+        la biopolitique</hi>, nous cherchons à dessiner une cartographie du
+        regard du <hi rend="italic">chercheur</hi>, c’est-à-dire non pas du
+        <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> « grand auteur&#160;»,
+        mais de l’artisan de la recherche dans son rapport quotidien au
+        travail de construction de la pensée, afin de comprendre plus en
+        profondeur quelques enjeux, théoriques et politiques, liés à la
+        réalisation de ce cours.</p>
+        <p xml:id="d1e350">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-c4fhthqb">libéralisme</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+              </term>
+            </term>
+          </term>Le
+        corpus de fiches sur lequel nous nous sommes concentré est celui de la
+        boîte XIX du <hi rend="italic">Fonds Foucault</hi> de la BnF,
+        intitulée «&#160;Économie, libéralisme de Smith à Hayek&#160;» <note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Fonds Foucault, BnF, cote&#160;: NAF 28730, VIII. Boîte consultable
+            en ligne à travers le site du projet FFL&#160;: <ref target="http://eman-archives.org/Foucault-fiches/collections/show/393">
+                <hi rend="underline">http://eman-archives.org/Foucault-fiches/collections/show/393</hi>
+              </ref>.</p>
+          </note>. Cette boîte contient dix-sept chemises, parmi lesquelles
+        une a particulièrement retenu notre attention. Portant le titre
+        «&#160;Néo-libéralisme&#160;», elle est non seulement la plus importante pour ce
+        qui est du nombre de fiches, mais également celle qui paraît
+        rassembler les <hi rend="italic">premières notes</hi> prises par
+        <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> sur le thème.
+        Bien que toutes les fiches sur les auteurs néolibéraux ne s’y trouvent
+        pas, elle constitue l’une de nos sources principales d’information
+        pour effectuer la cartographie du regard de Foucault au moment où il
+        s’est lancé dans ses études sur le néolibéralisme et, plus
+        spécialement, l’ordolibéralisme. Si nous voulons comprendre la manière
+        dont le philosophe a cherché à construire une <hi rend="italic">base
+        de connaissance</hi> sur ces thèmes, les fiches nous aident alors à
+        déchiffrer ses cheminements de pensée, à identifier certaines routes
+        empruntées pour la constituer. Elles permettent, en outre, de mieux
+        voir comment ces lectures et les interprétations qu’il en livre en
+        <date type="_temp" when="1979">1979</date> peuvent – et doivent – être
+        mises en rapport avec un contexte intellectuel et politique plus
+        large, marqué par la centralité de quelques questionnements critiques
+        qui guidaient alors ses travaux.</p>
+        <div type="section1" xml:id="d1e384">
+          <head subtype="level1" xml:id="d1e386">Rapport entre sources
+          primaires et secondaires&#160;: la temporalité de la recherche</head>
+          <p xml:id="d1e389">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-udushbkc">cycle éducatif<term ref="doi:10.34817/sv-hvcmfkft">enseignement supérieur<term ref="doi:10.34817/sv-ctboeu9i">doctorat</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-plnrdjgu">support de conservation<term ref="doi:10.34817/sv-htn5xmex">dossier</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-ulmdsjwp">cours</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-najuwvdf">source</term>
+              </term>
+            </term>Bien que
+          les fiches consultées ne nous permettent pas de tirer des
+          conclusions convaincantes en ce qui concerne l’ordre des lectures
+          –&#160;par quels livres ou auteurs <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a-t-il commencé
+          sa recherche&#160;?&#160;–, ces documents nous donnent des indices sur la
+          manière dont il a cherché à <hi rend="italic">collecter des
+          informations</hi> sur ces auteurs et leurs thèses. Le fait que
+          Foucault ait recouru à de la littérature secondaire, dans un premier
+          temps, pour aborder le thème du néolibéralisme est bien connu. Dans
+          son édition du cours <hi rend="italic">Naissance de la
+          biopolitique</hi>, <persName ref="02990224X" type="idref" xml:base="https://www.idref.fr/">Michel Senellart</persName> avait
+          déjà montré, à travers une étude détaillée des sources citées et
+          utilisées par Foucault, que le philosophe s’était largement appuyé,
+          par exemple, sur l’ouvrage de <persName ref="074053043" type="idref" xml:base="https://www.idref.fr/">François Bilger</persName>, <hi rend="italic">La Pensée économique libérale de l'Allemagne
+          contemporaine</hi>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi rend="small-caps">Bilger</hi>, 1964.</p>
+            </note>. Mais afin de mieux procéder au traitement de ces fiches
+          et de tracer une cartographie du regard de notre chercheur, il
+          convient d’apporter, tout d’abord, quelques précisions de nature
+          archivistique concernant la chemise «&#160;Néo-libéralisme&#160;»&#160;: celle-ci
+          contient quatre-vingts fiches de lecture, dix feuillets de
+          photocopies et trois fiches bibliographiques. Parmi les fiches de
+          lecture, seize concernent en effet cet ouvrage de Bilger, livre issu
+          d’une thèse de doctorat. La littérature secondaire de Foucault
+          s’enrichit également de références au livre de <persName ref="02948944X" type="idref" xml:base="https://www.idref.fr/">Jean-François Poncet</persName>,
+          La<hi rend="italic"> politique économique de l’Allemagne
+          occidentale</hi>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="small-caps">Poncet</hi>, 1970.</p>
+            </note> (4 fiches) et au livre de <persName ref="195452348" type="idref" xml:base="https://www.idref.fr/">Pierre-André
+          Kunz</persName>, <hi rend="italic">L'Expérience néo-libérale
+          allemande dans le contexte international des idées</hi>
+            <note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="small-caps">Kunz,</hi> 1962.</p>
+            </note> (1 fiche) –&#160;deux publications issues, également, d’un
+          travail de thèse. Cela fait un total de vingt-et-une fiches sur ce
+          type de littérature, chiffre correspondant au quart de l’ensemble
+          des fiches de lecture ressemblées dans cette chemise.</p>
+          <p xml:id="d1e460">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-tu296j9f">comparaison</term>
+              </term>
+            </term>De
+          quelle manière <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> travaille-t-il
+          sur cette bibliographie secondaire, comment se sert-il de ces
+          sources&#160;? Pour répondre à ces questions, il convient d’établir une
+          comparaison avec la manière dont le philosophe a pu utiliser ce type
+          de littérature dans le cadre, par exemple, de l’écriture d’un livre.
+          <persName ref="153499826" type="idref" xml:base="https://www.idref.fr/">Luca Paltrinieri</persName> a
+          étudié, notamment, l’ensemble des fiches ayant servi à la
+          préparation de la section «&#160;Analyse des richesses&#160;» dans <hi rend="italic">Les mots et les choses</hi>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>P<hi rend="small-caps">altrinieri</hi>, 2011. Cette
+              publication est associée au projet <hi rend="italic">La
+              bibliothèque foucaldienne</hi> (<ref target="http://lbf-ehess.ens-lyon.fr/pages/infos.html">
+                  <hi rend="underline">http://lbf-ehess.ens-lyon.fr/pages/infos.html</hi>
+                </ref>).</p>
+            </note>. Dans ce contexte, il identifie trois usages différents
+          par Foucault de la littérature secondaire&#160;: (1) pour «&#160;parcourir une
+          vaste plage de savoir&#160;», (2) comme «&#160;“réservoir” de citations sur
+          lesquelles appuyer sa thèse&#160;», ou encore (3) pour constituer un
+          «&#160;“savoir de fond” et identifier certaines sources qu’il lira
+          après&#160;» <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>P<hi rend="small-caps">altrinieri</hi>, 2011&#160;:p.&#160;122‑24.</p>
+            </note>. Dans le cas de notre dossier, le livre de <persName ref="074053043" type="idref" xml:base="https://www.idref.fr/">Bilger</persName> peut exercer,
+          selon les cas, ces différentes fonctions, mais d’une manière bien
+          particulière. Au contraire d’autres sources de littérature
+          secondaire dans lesquelles <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> cherche des
+          informations ciblées et se concentre sur des parties spécifiques des
+          livres, dans le cas de l’ouvrage de Bilger, ses notes couvrent
+          presque la totalité des chapitres. Cependant, ces fiches ne sont pas
+          disposées dans le dossier selon l’ordre chronologique de la lecture,
+          mais semblent avoir été réorganisées au moment leur utilisation.
+          Cinq fiches thématiques, tout d’abord, portent sur la question des
+          interventions, de l’action de l’État et de la politique sociale
+          <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Les titres donnés par Foucault à ces fiches sont&#160;: «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8825">
+                  <hi rend="underline">Les interventions</hi>
+                </ref>&#160;», «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8826">
+                  <hi rend="underline">Action ordonnatrice de l'État&#160;</hi>
+                </ref>», «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8827">
+                  <hi rend="underline">Intervention de conformité&#160;</hi>
+                </ref>», «&#160; <ref target="http://eman-archives.org/Foucault-fiches/items/show/8829">
+                  <hi rend="underline">Politique sociale conforme</hi>
+                </ref>&#160;» et «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8830">
+                  <hi rend="underline">Politique sociale et redistribution du
+                  revenu</hi>
+                </ref>&#160;».</p>
+            </note> : <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> y fait comme un
+          repérage des thèses centrales de la pensée néolibérale allemande et
+          de ses principaux auteurs, copiant, par exemple, quelques citations
+          de textes d’<persName ref="032669135" type="idref" xml:base="https://www.idref.fr/">Alexander Rustow</persName>,
+          <persName ref="032847904" type="idref" xml:base="https://www.idref.fr/">Wilhelm Röpke</persName> et
+          <persName ref="032500343" type="idref" xml:base="https://www.idref.fr/">Walter Eucken</persName>. Quatre
+          fiches, ensuite, rassemblent des informations et des renseignements
+          plus généraux sur l’École de <placeName ref="2660718" type="geonames" xml:base="https://www.geonames.org/">Fribourg</placeName>, dont deux
+          sont tirées de l’introduction et du chapitre préliminaire du livre,
+          et contiennent un grand nombre de données de contextualisation
+          historique concernant l’émergence d’une nouvelle école de pensée
+          économique en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> dans la
+          période post-guerre <note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Fiches intitulées «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8834">
+                  <hi rend="underline">L'école de Fribourg et le [problème] du
+                  [droit] économique&#160;</hi>
+                </ref>», «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8836">
+                  <hi rend="underline">L'idée de “régime économique” [selon]
+                  l'École de Fribourg</hi>
+                </ref>&#160;», «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8838">
+                  <hi rend="underline">Le libéralisme [économique] en
+                  [Allemagne]. XIX -&gt; nazisme</hi>
+                </ref>&#160;» et «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8839">
+                  <hi rend="underline">Le libéralisme [économique] en
+                  [Allemagne]. XIX -&gt; nazisme [suite]</hi>
+                </ref>&#160;».</p>
+            </note>. La dernière catégorie de fiches sur ce livre, enfin, a
+          pour objet quelques auteurs en particulier&#160;: deux portent sur
+          Eucken, dans lesquelles Foucault recueille des informations tant
+          biographiques que théoriques <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Eucken est présenté par F. Bilger comme le fondateur de
+              l’Ecole de Fribourg, voir fiches «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8840">
+                  <hi rend="underline">Walter Eucken I&#160;</hi>
+                </ref>» et «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8841">
+                  <hi rend="underline">Eucken II&#160;</hi>
+                </ref>».</p>
+            </note>&#160;; une sur <persName ref="032847904" type="idref" xml:base="https://www.idref.fr/">Röpke</persName>, avec des
+          informations résumées sur sa pensée et quelques citations <note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Fiche intitulé «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8842">
+                  <hi rend="underline">Wilhelm Röpke&#160;</hi>
+                </ref>».</p>
+            </note>&#160;; une sur <persName ref="083266518" type="idref" xml:base="https://www.idref.fr/">Alfred Müller-Armack</persName>,
+          contenant très peu de citations directes <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Voir fiche «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8846">
+                  <hi rend="underline">Müller Armack et la Soziale
+                  Marktwirtschaft</hi>
+                </ref> ».</p>
+            </note>&#160;; et une sur Ludwig Erhard et l'École de <placeName ref="2660718" type="geonames" xml:base="https://www.geonames.org/">Fribourg</placeName>
+            <note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Fiche «&#160; <ref target="http://eman-archives.org/Foucault-fiches/items/show/8847">
+                  <hi rend="underline">Erhard et l'École de Fribourg</hi>
+                </ref>&#160;».</p>
+            </note>, correspondant au premier chapitre de la troisième partie
+          du livre de Bilger, où cet auteur explique comment le regain des
+          idées économiques en Allemagne fut lié au rôle joué par <persName ref="029630622" type="idref" xml:base="https://www.idref.fr/">Erhard</persName>, caractérisé
+          comme «&#160;un spécialiste de l’économie appliquée&#160;» et «&#160;du rapport
+          entre théorie et pratique&#160;», «&#160;l’artisan principal de la nouvelle
+          politique économique allemande&#160;» inauguré en <date type="_temp" when="1948">1948</date>
+            <note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>B<hi rend="small-caps">ilger</hi>, 1964&#160;: p.&#160;207‑10.</p>
+            </note>.</p>
+          <p xml:id="d1e701">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-7va2wxhk">bibliographie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-l5osw33j">capitalisme</term>
+              </term>
+            </term>Ainsi, il devient clair que, pour la préparation de
+          son cours, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> s’est
+          grandement appuyé sur les informations collectées dans le livre de
+          <persName ref="074053043" type="idref" xml:base="https://www.idref.fr/">Bilger</persName>. Publié en <date type="_temp" when="1964">1964</date>, ce livre a été considéré, à
+          l’époque, comme l’un des premiers à donner «&#160;un panorama d’ensemble
+          de la littérature économique allemande contemporaine&#160;» <note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>C<hi rend="small-caps">habert</hi>, 1966&#160;: p.&#160;152.</p>
+            </note>. Un peu plus tard, en <date type="_temp" when="1978">1978</date>, <persName ref="026983931" type="idref" xml:base="https://www.idref.fr/">Henri Lepage</persName> publia <hi rend="italic">Demain le capitalisme</hi>
+            <note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>L<hi rend="small-caps">epage</hi>, 1978. Ce livre constitue
+              l’une des sources utilisées par Foucault dans les dernières
+              leçons du cours de 1979.</p>
+            </note>, aidant grandement à diffuser les idées des «&#160;nouveaux
+          économistes&#160;» en France&#160;; mais il s’agit d’un tout autre type de
+          publication que celles privilégiées par <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>,
+          comme les livres de <persName ref="074053043" type="idref" xml:base="https://www.idref.fr/">Bilger</persName>, de Poncet et de
+          Kunz. Ces ouvrages, issus de travaux de thèse, ont l’avantage
+          d’offrir une vision plus générale, ainsi qu’un grand nombre
+          d’informations et de références, caractéristique particulièrement
+          adaptée au contexte de la préparation de ce cours et à la
+          temporalité de la recherche qui y est liée. Le philosophe a-t-il
+          cherché, par la suite, à étudier plus en profondeur certaines des
+          références collectées à partir de cette littérature secondaire&#160;? Les
+          archives ne nous permettent pas d’apporter une réponse claire à
+          cette question, mais nous pouvons considérer que, dans la
+          perspective de parcourir en peu de temps une vaste plage de savoir,
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> a probablement
+          procédé à des choix stratégiques. Dans le cas des fiches ici
+          étudiées, le rapport de Foucault à la bibliographie secondaire est
+          donc légèrement différent de celui décrit par <persName ref="153499826" type="idref" xml:base="https://www.idref.fr/">Luca
+          Paltrinieri</persName>. Cela s’explique, certainement, par les
+          différences fondamentales –&#160;de format, d’envergure, d’objectifs
+          visés&#160;– entre les deux projets&#160;: les fiches sur le néolibéralisme
+          ont été produites en vue de la réalisation d’une <hi rend="italic">série de leçons</hi>, composant un cours qui est, en
+          outre, très singulier. Après ceux de <date type="_temp" when="1976">1976</date> et de <date type="_temp" when="1978">1978</date>, où <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> introduit et
+          cherche à tester une série de nouvelles hypothèses analytiques
+          –&#160;représentées par les concepts de biopolitique et de
+          gouvernementalité <note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Pour plus d’information sur l’introduction de ces concepts et
+              le contexte dans lequel Foucault les travaille, voir V<hi rend="small-caps">erlengia</hi>, 2019.</p>
+            </note>&#160;– il se sert de <hi rend="italic">Naissance de la
+          biopolitique </hi>comme d’une opportunité pour recentrer sa
+          recherche sur le <hi rend="italic">présent immédiat</hi>. Si, dans
+          les deux cours précédents, il s’était concentré sur des cadres
+          temporels plus éloignés, en <date type="_temp" when="1979">1979</date> il décide d’aborder des sujets touchant
+          l’actualité la plus directe de la politique française –&#160;une démarche
+          inédite dans la série des cours au Collège de France. Il convient de
+          rappeler qu’à partir de <date type="_temp" when="1976">1976</date>
+          ses cours ne correspondent plus, comme c’était le cas précédemment,
+          soit à des chantiers de livres en préparation, soit à des moments de
+          reprise ou d’approfondissement de dossiers déjà travaillés. Durant
+          cette période, ses leçons deviennent non seulement le lieu
+          d’exposition d’une <hi rend="italic">recherche en train de se
+          faire</hi>, mais également un espace ouvert d’analyse sur le présent
+          et, par là-même, d’intervention sur cette actualité. Les effets de
+          tels choix sont particulièrement visibles dès lors que nous
+          examinons son usage de la bibliographie secondaire. Dans <hi rend="italic">Naissance de la biopolitique,</hi> pour la partie la
+          plus longue et que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> lui-même
+          présente comme la plus importante théoriquement <note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Sur un total de douze leçons, Foucault parle du
+              néolibéralisme allemand jusqu’à la 8<hi rend="sup">ème</hi>&#160;:
+              «&#160;c'est surtout d'ailleurs du premier, de ce néolibéralisme
+              disons allemand, pour dire les choses très grossièrement, que je
+              voudrais vous parler, à la fois parce qu'il me paraît
+              théoriquement plus important que les autres, pour le problème de
+              la gouvernementalité, et puis parce que je ne suis pas sûr
+              d'avoir le temps de parler suffisamment des Américains&#160;» (F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;81).</p>
+            </note> –&#160;elle concerne la question du néolibéralisme allemand&#160;–,
+          le philosophe s’appuie largement sur cette bibliographie, sans
+          consulter de manière systématique les sources primaires. Il n’y a
+          aucune fiche, par exemple, sur les écrits d’<persName ref="032500343" type="idref" xml:base="https://www.idref.fr/">Eucken</persName>, auteur ayant
+          joué, pourtant, un rôle très important dans la formation de ce
+          courant de pensée et cité plusieurs fois dans les fiches réalisées à
+          partir de l’ouvrage de <persName ref="074053043" type="idref" xml:base="https://www.idref.fr/">Bilger</persName>. Outre trois
+          fiches sur les actes du Colloque <persName ref="027485080" type="idref" xml:base="https://www.idref.fr/">Walter
+          Lippmann</persName>, se référant aux interventions de <persName ref="032669135" type="idref" xml:base="https://www.idref.fr/">Rüstow</persName> et de <persName ref="027190161" type="idref" xml:base="https://www.idref.fr/">von
+          Mises</persName>
+            <note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="small-caps">Centre international d’études pour la
+              rénovation du libéralisme</hi>, 1939. Les fiches sur
+              l’intervention de Rüstow sont nommées «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8821">
+                  <hi rend="underline">Concentration et monopole&#160;</hi>
+                </ref>» et «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8845">
+                  <hi rend="underline">Causes sociales du déclin du
+                  [libéralisme]&#160;</hi>
+                </ref>»&#160;; celle sur l’intervention de von Mises s’intitule
+              «&#160;<ref target="http://eman-archives.org/Foucault-fiches/items/show/8866">
+                  <hi rend="underline">Comment naissent les monopoles&#160;</hi>
+                </ref>».</p>
+            </note>, très peu de fiches ont directement pour objet des livres
+          et auteurs néolibéraux allemands&#160;: dans l’ensemble des notes de la
+          chemise «&#160;Néo-libéralisme&#160;», nous trouvons seulement quatre fiches
+          sur <hi rend="italic">La crise de notre temps </hi>de <persName ref="032847904" type="idref" xml:base="https://www.idref.fr/">Röpke</persName>, deux sur <hi rend="italic">Civitas humana</hi> du même auteur, et six autres sur
+          le livre d’<persName ref="029630622" type="idref" xml:base="https://www.idref.fr/">Erhard</persName>, <hi rend="italic">Une politique de l’abondance</hi>
+            <note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>R<hi rend="small-caps">öpke</hi>, 1945&#160;; R<hi rend="small-caps">öpke</hi>, 1946&#160;; E<hi rend="small-caps">rhard</hi>, 1963. Bien que lisant l’allemand,
+              Foucault n’utilise ici que des traductions françaises. En outre,
+              nous avons choisi d’écarter les fiches concernant plus
+              directement les ouvrages d’Hayek et de von Mises&#160;: il s’agit de
+              quinze documents composant un ensemble consacré aux auteurs
+              Autrichiens, présentés dans le cours par Foucault comme des
+              «&#160;intermédiaires&#160;» (F<hi rend="small-caps">oucault</hi>, 2004b&#160;:
+              166) entre le néolibéralisme allemand et le néolibéralisme
+              américain, thème sur lequel nous retrouvons, ensuite, une
+              douzaine de fiches.</p>
+            </note>. Cela tient, à nos yeux, à un double caractère d’urgence
+          des analyses qu’il développe. D’un côté, cette étude s’inscrit dans
+          le cadre de ses activités au Collège de France, ce qui implique la
+          production, chaque année, d’un cours inédit, et appuie cet aspect de
+          recherche en cours. De l’autre côté, le caractère d’urgence tient
+          également à la fonction d’intervention qu’il cherche à attribuer à
+          ses leçons. Les sources très peu nombreuses qu’il choisit de lire
+          sont donc probablement sélectionnées selon des critères liés à cette
+          temporalité spécifique de sa recherche, se construisant dans un
+          rapport direct avec l’actualité.</p>
+        </div>
+        <div type="section1" xml:id="d1e906">
+          <head subtype="level1" xml:id="d1e908">Néolibéralisme&#160;: un cas
+          d’étude concernant les transformations de l’art de gouverner dans le
+          présent</head>
+          <p xml:id="d1e911">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-c4fhthqb">libéralisme</term>
+              </term>
+            </term>Le titre du cours de <date type="_temp" when="1979">1979</date> indique clairement le projet initial de
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>&#160;: traiter de la
+          généalogie de la biopolitique. Celui-ci, toutefois, ne fut que
+          partiellement mis en œuvre, le philosophe avouant lui-même, par la
+          suite, que le cours «&#160;[avait] été finalement consacré, en son
+          entier, à ce qui devait n’en former que l’introduction&#160;» <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;323.</p>
+            </note>&#160;: le libéralisme. Cette thématique est introduite dans la
+          continuité du cours précédent (<hi rend="italic">Sécurité,
+          territoire, population</hi>), qui avait entrepris de retracer
+          l’histoire des «&#160;arts de gouverner&#160;» <note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;3.</p>
+            </note>. Dans ce contexte, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> utilise le
+          thème du néolibéralisme pour faire un «&#160;essai&#160;» de la grille
+          d’analyse représentée par le concept de gouvernementalité <note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;192.</p>
+            </note>. La particularité de cette grille d’intelligibilité est
+          qu’elle prend la pratique des hommes, dans leur réalité historique,
+          comme point de départ de l’étude et cherche à associer étroitement
+          l’analyse de l’échelle locale (en termes de micro-pouvoirs) et celle
+          de problèmes plus généraux, comme ceux de l’État et du gouvernement
+          <note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004a&#160;: p.&#160;366.</p>
+            </note>. Ce faisant, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> tente de
+          comprendre la manière dont le libéralisme et le néolibéralisme ont
+          développé et mis en place toute une série de réflexions et, surtout,
+          de pratiques effectives visant à apporter des solutions aux
+          problèmes auxquels ils se confrontaient. L’enjeu d’une telle
+          perspective est de comprendre comment ces processus réflexifs, ces
+          rationalités qui se matérialisent en des techniques de gouvernement,
+          ont entraîné une ouverture des possibilités de transformation du
+          réel.</p>
+          <p xml:id="d1e975">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-znyuuyni">copie manuscrite</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-dgmhrbwb">état</term>
+              </term>
+            </term>La façon
+          dont <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> travaille ainsi
+          sur les modèles néolibéraux est directement liée à une
+          problématisation plus générale de l’actualité, le cas du
+          néolibéralisme allemand lui apparaissant comme un exemple très
+          fécond. Cette thématique lui permettait non seulement d’inscrire son
+          analyse entièrement dans le présent –&#160;les visions et politiques
+          néolibérales étant alors encore en plein développement&#160;–, mais,
+          également, d’aborder des textes fortement marqués par des événements
+          récents, auxquels il s’intéressait tout particulièrement dans le
+          cadre théorique ouvert par la biopolitique&#160;: le problème des États
+          totalitaires <note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Sujet abordé, notamment, dans les dernières leçons de cours
+              de 1976 (F<hi rend="small-caps">oucault</hi>, 1997) et le
+              dernier chapitre de <hi rend="italic">La volonté de savoir
+              </hi>(Foucault, 1976&#160;: p.&#160;175-211).</p>
+            </note>. Son cours avait, ainsi, non seulement un rôle théorique à
+          jouer, marquant un moment de «&#160;test&#160;» pour les outils
+          méthodologiques qu’il avait développés, mais également un rôle
+          politique, prenant position sur des questions brûlantes du débat de
+          l’époque. Pour répondre à ces deux objectifs, l’important, pour lui,
+          n’était donc pas d’avoir une connaissance approfondie et extensive
+          des théories néolibérales, mais plutôt de saisir les aspects
+          pratiques et politiques les plus saillants afin de comprendre
+          comment les solutions proposées par ces auteurs ont pu être
+          directement appliquées en Allemagne, puis exportées dans d’autres
+          pays, comme les <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName> et la
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+            <note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Dans le dossier «&#160;Néo-libéralisme&#160;», il y a quelques fiches
+              correspondant à l’étude du cas français, avec la lecture,
+              notamment, d’un article de Giscard d'Estaing (S<hi rend="small-caps">toleru</hi> et G<hi rend="small-caps">iscard
+              d’Estaing</hi>, 1972).</p>
+            </note>. À partir de la notion des <hi rend="italic">arts de
+          gouverner</hi>, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> s’efforce de
+          renouveler l’approche de la politique –&#160;et donc de la question de
+          l’État&#160;–, définissant en même temps le cadre problématique et
+          l’instrument heuristique de sa recherche. Ce faisant, il pose la
+          question de «&#160;la manière réfléchie de gouverner au mieux et aussi,
+          et en même temps, la réflexion sur la meilleure manière possible de
+          gouverner&#160;». Les parties des textes que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          reprend ou recopie dans ses fiches pour la préparation du cours de
+          <date type="_temp" when="1979">1979</date> tournent très souvent
+          autour de ce type de réflexion. Dans une leçon il affirme vouloir
+          «&#160;saisir l'instance de la réflexion dans la pratique de gouvernement
+          et sur la pratique de gouvernement&#160;», comprendre comment on a
+          «&#160;conceptualisé cette pratique qui consiste à gouverner&#160;», la
+          «&#160;conscience de soi du gouvernement&#160;». Cela implique de partir non
+          seulement «&#160;de cette pratique telle qu'elle se donne&#160;», mais, et en
+          même temps, telle «&#160;qu'elle se réfléchit et se rationalise pour
+          voir, à partir de là, comment peuvent effectivement se constituer un
+          certain nombre de choses&#160;», comme l'État et la société, le souverain
+          et les sujets, etc. <note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Foucault, 2004b&#160;: p.&#160;4.</p>
+            </note>.</p>
+          <p xml:id="d1e1039">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-rqdzmrrt">interface informatique</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information</term>
+              </term>
+            </term>Dans le cadre de notre travail au sein du projet ANR
+          <hi rend="italic">Foucault Fiches de Lectures</hi>, nous avons eu
+          l’opportunité de nous servir de précieux outils informatiques
+          permettant de mieux saisir, à travers la visualisation de données,
+          l’utilisation que fait Foucault des références collectées. À partir
+          de données renseignées <note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Ces données peuvent être d’ordre archivistique (titre de la
+              fiche, informations sur les références, mention de personnes) ou
+              liées à notre travail personnel de recherche (comme c’est le cas
+              pour les concepts et mots-clés tirés de la fiche).</p>
+            </note> dans la plateforme collaborative du projet, une
+          cartographie informatique a pu être produite, donnant à voir des
+          graphes qui à la fois répartissent spatialement et mettent en réseau
+          différentes catégories d’informations <note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Pour plus d’informations sur l’outil <hi rend="italic">cartographie</hi>, voir l’article de Vincent
+              Ventresque, Marie-Laure Massot et Richard Walter, intitulé
+              «&#160;Mettre en ligne, annoter et exploiter les fiches de lecture de
+              Michel Foucault&#160;», dans ce même dossier.</p>
+            </note> : auteurs, références, concepts, fiches. Le réseau de
+          données, mis alors en forme par cet outil cartographique, permettent
+          de montrer, dès le premier regard, l’existence de deux thèmes ou
+          concepts centraux, liant les quatre principales références de
+          Foucault dans le cadre de ses lectures sur le néolibéralisme
+          allemand&#160;: <persName ref="074053043" type="idref" xml:base="https://www.idref.fr/">Bilger</persName>, <persName ref="02691669X" type="idref" xml:base="https://www.idref.fr/">Hayek</persName>, <persName ref="032847904" type="idref" xml:base="https://www.idref.fr/">Röpke</persName> et <persName ref="029630622" type="idref" xml:base="https://www.idref.fr/">Erhard</persName>. Ce sont les
+          concepts d’«&#160;État&#160;» et d’«&#160;intervention&#160;», le premier étant présent
+          dans quatorze fiches et le deuxième dans une douzaine.</p>
+          <figure xml:id="d1e1082">
+            <graphic url="https://didomena.ehess.fr/downloads/6q182s28n.jpg"/>
+            <head xml:id="d1e1086">Figure 1 – en bleu les fiches de lecture,
+            en vert les auteurs, en jaune les références bibliographiques et
+            en rouge les concepts</head>
+          </figure>
+          <p xml:id="d1e1090">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-dgmhrbwb">état</term>
+              </term>
+            </term>Ces
+          cartographies se dessinent, bien entendu, en fonction du point de
+          vue adopté lors de l’annotation des fiches. Bien que nous ayons
+          cherché à extraire les concepts les plus importants, il faut relever
+          que le travail d’annotation n’est pas exhaustif, ce qui implique une
+          sélection des termes. Cette sélection dépend ainsi des choix
+          effectués au sein de notre recherche, la cartographie présentée
+          constituant donc <hi rend="italic">un parcours de lecture</hi>
+          possible parmi de nombreux autres. <anchor xml:id="_Hlk68254085"/>Nonobstant ces restrictions, l’importante
+          occurrence des deux concepts mentionnés et l’analyse des titres des
+          fiches nous permettent de renforcer l’hypothèse selon laquelle les
+          lectures de Foucault se sont organisées, très souvent, autour de la
+          question de<hi rend="italic"> l’action</hi> de l’État –&#160;dans le sens
+          d’une « action gouvernementale »<hi rend="sup"/>
+            <note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Foucault, 2004b&#160;: p.&#160;125.</p>
+            </note>, donnant origine à des processus autant d’intervention que
+          d’organisation de l’appareil étatique. On peut bien sûr y voir le
+          reflet des principales préoccupations des néolibéraux eux-mêmes, qui
+          cherchaient à penser l’État à partir d’une délimitation très précise
+          de son champ d’action, visant à protéger cette instance des dangers
+          du planisme et du collectivisme –&#160;selon leurs propres termes. Il est
+          intéressant d’observer, cependant, comment Foucault, en collectant
+          certaines informations et citations, tend à focaliser son attention
+          sur tout un ensemble de conseils ou recommandations concernant les
+          types d’actions considérées comme nécessaires pour construire cette
+          nouvelle réalité étatique souhaitée. Il n’était pas question, pour
+          ces auteurs, de baser leurs arguments sur un droit historique de
+          l’État à gouverner, mais de créer une nouvelle manière de gouverner
+          qui tire sa légitimité du cadre économique. Ces néolibéraux ont donc
+          <hi rend="italic">décomposé l’État</hi> et réfléchi à la question de
+          l’État principalement en termes de pratiques très précises –&#160;ou, en
+          d’autres mots, en termes d’art de gouverner, dans le sens où
+          l’entend <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>. Réfléchissant
+          à comment gouverner au bénéfice du plus grand nombre, tout en
+          envisageant des dispositifs gouvernementaux pour atteindre ces
+          objectifs, ils ont, petit à petit, créé une nouvelle image –&#160;voire
+          une nouvelle conception&#160;– de l’État qui était, précisément, le
+          résultat d’un régime nouveau de gouvernementalité, permettant à la
+          fois de faire face aux «&#160;échecs&#160;» vécus dans l’histoire récente et
+          de proposer des solutions pour sortir de situations perçues comme
+          des impasses.</p>
+        </div>
+        <div type="section1" xml:id="d1e1117">
+          <head subtype="level1" xml:id="d1e1119">Comment écrire autrement une
+          histoire de l’État et saisir un moment de crise&#160;?</head>
+          <p xml:id="d1e1122">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-znyuuyni">copie manuscrite</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+                </term>
+              </term>
+            </term>L’intérêt que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> porte notamment
+          aux écrits d’Erhard s’inscrit dans ce cadre analytique. Même si l’on
+          ne retrouve pas de citations directes ni de mentions dans le cours,
+          les fiches montrent que le philosophe a lu <hi rend="italic">Une
+          politique de l’abondance</hi>, livre composé majoritairement de
+          transcriptions de discours et de lettres. Dans la leçon du 31
+          janvier 1979, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> commente une
+          phrase prononcée par <persName ref="029630622" type="idref" xml:base="https://www.idref.fr/">Erhard</persName> lors d’un
+          discours, daté du 21 avril 1948. La citation qu’il utilise ne
+          provient pas, toutefois, du livre d’<persName ref="029630622" type="idref" xml:base="https://www.idref.fr/">Erhard</persName>,
+          mais de celui de <persName ref="074053043" type="idref" xml:base="https://www.idref.fr/">Bilger</persName>, copiée dans une
+          fiche nommée «&#160;Erhard et l’école de Fribourg&#160;» <note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Voir note 11.</p>
+            </note>. Néanmoins, la façon dont il travaille cette citation peut
+          nous aider à comprendre quels éléments ont retenu son attention dans
+          sa lecture d’Erhard. Dans cette leçon, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          analyse ainsi une phrase où Erhard affirme qu’il «&#160;faut libérer
+          l'économie des contraintes étatiques&#160;» car «&#160;seul un État
+          établissant à la fois la liberté et la responsabilité des citoyens
+          peut légitimement parler au nom du peuple ». Par-là, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> introduit une
+          série de réflexions sur les conditions historiques dans lesquelles
+          la question de l’État et celle de sa légitimation se sont trouvées
+          liées à la reconstruction d’une politique économique allemande –&#160;cet
+          aspect étant l’un des points originaux de l’interprétation
+          foucaldienne. Comment établir une réorganisation interne qui «&#160;ne
+          pose pas à l'État la question de savoir&#160;: quelle liberté vas-tu
+          laisser à l’économie ? mais qui pose à l'économie la question&#160;:
+          comment est-ce que ta liberté va pouvoir avoir une fonction et un
+          rôle d'étatisation&#160;», dans le sens où cela permettra de «&#160;fonder
+          effectivement la légitimité d'un État ?&#160;» <note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;95-96.</p>
+            </note>. Ce faisant, le philosophe analyse la manière dont Erhard,
+          qui avait réuni autour de lui un Conseil scientifique –&#160;composé de
+          personnalités comme <persName ref="032500343" type="idref" xml:base="https://www.idref.fr/">Eucken</persName>, le juriste
+          <persName ref="090073479" type="idref" xml:base="https://www.idref.fr/">Franz Böhm</persName> et <persName ref="083266518" type="idref" xml:base="https://www.idref.fr/">Müller-Armack</persName> (futur
+          secrétaire d'État d’<persName ref="153789263" type="idref" xml:base="https://www.idref.fr/">Erhard</persName> quand celui-ci
+          devint ministre de l'Économie)&#160;– défend dans son discours et ses
+          actions des idées formulées par ce Conseil, idées proches aussi,
+          selon <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, de celles
+          d’autres auteurs ayant joué un rôle important dans cette «&#160;nouvelle
+          définition de l’art libéral de gouverner&#160;», comme <persName ref="032847904" type="idref" xml:base="https://www.idref.fr/">Röpke</persName> et <persName ref="02691669X" type="idref" xml:base="https://www.idref.fr/">Hayek</persName>. En ce sens, le
+          philosophe tente de saisir cette perméabilité –&#160;assez forte dans le
+          contexte allemand ici étudié&#160;– existant entre les discours (les
+          idées) et les actions mises en œuvre, notamment, à travers cet homme
+          politique incarnant une nouvelle façon de penser et de pratiquer cet
+          art libéral de gouverner. Selon <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>,
+          le problème posé en Allemagne en <date type="_temp" when="1954">1954</date> était donc «&#160;comment faire exister un État&#160;»
+          et légitimer par avance cet «&#160;État futur&#160;»&#160;? Tel était «&#160;l'objectif
+          premier, historiquement et politiquement premier, du
+          néolibéralisme&#160;». L’effort pour répondre à cette question a demandé
+          la «&#160;réélaboration d'un certain nombre d'éléments fondamentaux dans
+          la doctrine libérale&#160;», non pas tellement dans la <hi rend="italic">théorie économique</hi> du libéralisme, mais plutôt
+          «&#160;dans le <hi rend="italic">libéralisme comme art de
+          gouverner</hi>&#160;», ou comme «&#160;doctrine de gouvernement&#160;» <note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;106.</p>
+            </note> –&#160;aspect englobant directement la pratique
+          gouvernementale. C’est pourquoi il était nécessaire de s’intéresser
+          aux «&#160;gens qui ont été autour du futur chancelier <persName ref="029630622" type="idref" xml:base="https://www.idref.fr/">Erhard</persName>, ceux qui ont
+          programmé cette nouvelle politique économique, cette nouvelle
+          manière d'articuler économie et politique qui caractérise la
+          République fédérale allemande contemporaine&#160;» <note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;106.</p>
+            </note>. Telle est la raison, également, pour laquelle le
+          néolibéralisme allemand était, dans les termes de <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, théoriquement
+          plus important pour le problème de la gouvernementalité. Ceux qui se
+          consacraient à ce renouvellement de la pensée libérale ne
+          réfléchissaient pas seulement à une meilleure manière de gouverner,
+          mais participaient directement à la mise en pratique de ces idées à
+          travers l’aide à la création d’un nouvel État allemand. C’est en
+          cela, <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> affirme, que le
+          néolibéralisme allemand&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1230">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-juvx4gux">calcul</term>
+              </term>
+            </term>est autre chose qu'un calcul politique, même si c'est
+          entièrement traversé par un calcul politique. Ce n'est pas non plus
+          une idéologie, bien qu'on ait là, bien sûr, tout un ensemble
+          d'idées, de principes d'analyse, etc., parfaitement cohérents. Il
+          s'agit, en fait, d'une programmation nouvelle de la
+          gouvernementalité libérale <note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;95.</p>
+            </note>.</quote>
+          <p xml:id="d1e1245">Leurs réflexions à propos de l’établissement et
+          du respect d’une économie de marché libre s’inscrivaient, selon
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>, à l'intérieur
+          d’un cadre beaucoup plus général, car elles touchaient à la question
+          de l’action étatique, se demandant comment à la fois limiter et
+          préciser ses champs d’intervention. D’un point de vue plus global,
+          cela revenait ainsi à «&#160;fixer précisément les frontières et les
+          bornes de l'étatisation et [à] régler les rapports entre individus
+          et État&#160;» <note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;82.</p>
+            </note>. Or, ces thématiques occupaient une place centrale dans la
+          pensée de Foucault&#160;: l’analyse des rapports entre individus et État,
+          entre les sphères individuelle et collective, ou encore entre le
+          local et le global, constituait un champ primordial d’intérêt, ces
+          questions touchant, en effet, aux thématiques de l’historicité et au
+          type d’analyse historique qu’il souhaitait produire. Comment
+          construire des objets de recherche qui soient à la fois
+          philosophiques et historiques, et quelle histoire écrire à partir
+          d’eux&#160;? Comment expliquer le fonctionnement des structures sociales
+          à travers une analyse qui puisse englober, en même temps, un regard
+          local tourné vers des pratiques très précises et une vision plus
+          générale des processus de rationalisation qui sous-tendent ces
+          pratiques&#160;? Quand Foucault affirme qu’il souhaite comprendre la
+          «&#160;conscience de soi&#160;» du gouvernement, ou encore «&#160;l’instance de
+          réflexion&#160;» de la pratique de gouvernement, c’est bien aux processus
+          expliquant le passage des pratiques discursives aux pratiques
+          sociales et politiques qu’il s’intéresse. La particularité du cours
+          de <date type="_temp" when="1979">1979</date> consiste en ce que le
+          philosophe pose ces questions tout en prenant pour objet sa propre
+          actualité&#160;: comment comprendre et écrire une histoire de la manière
+          dont, actuellement, on cherchait à gouverner&#160;? C’est l’ontologie de
+          nous-mêmes poussée au plus loin, une ontologie de l’actualité la
+          plus directe.</p>
+          <p xml:id="d1e1266">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-hcnypq2u">oralité</term>
+              </term>
+            </term>L’un des traits singuliers de cette actualité est
+          qu’elle était encore marquée, selon Foucault, par les signes d’une
+          crise générale du dispositif de gouvernementalité <note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>Sur ce sujet voir, notamment, le chapitre «&#160;Qu’est-ce qu’une
+              crise de gouvernementalité&#160;», dans M<hi rend="small-caps">onod</hi>, 2019&#160;: p.&#160;33-60.</p>
+            </note>, dont la crise du libéralisme classique n’était qu’une
+          expression particulière. Dans les écrits des néolibéraux allemands,
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> repère
+          d’importants traits de cette crise qui, parce qu’elle constitue un
+          moment de rupture, permet l’émergence des nouveaux efforts critiques
+          visant à apporter des réponses inédites aux problèmes rencontrés. Ce
+          contexte offre ainsi un <hi rend="italic">point de vue
+          privilégié</hi> pour saisir la réalité de ces différentes instances
+          de rationalité touchant à la question du renouvellement de l’art de
+          gouverner. À travers une analyse des stratégies et pratiques de
+          gouvernement qui se mettaient en place, il s’agit de saisir la
+          matérialité même de ces processus rationnels. Dans une partie du
+          manuscrit du cours, écartée dans l’exposé oral, il écrit&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1288">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-exqnjjmw">nationalisme</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-fjvt4wnt">nazisme</term>
+              </term>
+            </term>Mais ce qui est intéressant, c'est que l'École de Fribourg
+          n'a pas simplement développé une théorie économique, ni même une
+          doctrine. Elle a repensé tout le rapport économie et politique, tout
+          l'art de gouverner. Et pour une bonne raison&#160;: c'est qu'elle a eu à
+          se colleter avec un phénomène historique considérable. Le nazisme,
+          en effet, n'a pas été simplement l'accumulation et la
+          cristallisation de tous les nationalismes, dirigismes,
+          protectionnismes, planifications, qui avaient tenu en lisière le
+          libéralisme... <note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;96.</p>
+            </note>
+          </quote>
+          <p xml:id="d1e1303">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+              </term>
+            </term>Il a été
+          donc essentiel, pour lui, de placer la pensée de l’École à
+          l’intérieur de ce contexte de crise afin de comprendre comment et
+          pourquoi elle a pu trouver une efficacité aussi concrète, à ses
+          yeux, dans l’effort de renouvellement de l’art libéral de gouverner.
+          À un niveau plus méthodologique, cette manière de traiter le thème
+          du néolibéralisme lui permettait d’aborder le problème crucial de
+          l’État, tout en effectuant un contournement, c’est-à-dire, en se
+          mettant à «&#160;l’extérieur de l’État&#160;» et en soulevant la question&#160;:
+          quelle histoire peut-on faire en évitant de prendre cet universel
+          comme point de départ de l’analyse&#160;? C’est, en effet, à partir d’une
+          remise en cause des universaux que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName>
+          ouvre son cours en <date type="_temp" when="1979">1979</date>. Il
+          explique que l’étude de la «&#160;rationalisation de la pratique
+          gouvernementale&#160;» implique «&#160;immédiatement&#160;» un certain choix de
+          méthode. Ce choix consiste à prendre directement la pratique
+          gouvernementale en tant qu’objet, ce qui constitue, comme il
+          l’affirme, une «&#160;manière explicite de laisser de côté&#160;» toute une
+          série d’objets comme la souveraineté, le peuple, l'État, la société
+          civile, c’est-à-dire, des «&#160;universaux que l'analyse sociologique,
+          aussi bien que l'analyse historique et l'analyse de la philosophie
+          politique, utilise pour rendre compte effectivement de la pratique
+          gouvernementale&#160;» <note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;4-5.</p>
+            </note>. Approfondissant le cadre analytique inauguré en <date type="_temp" when="1976">1976</date>, tournant autour de la
+          problématique du pouvoir, il tente d’aborder la question de l’État
+          autrement, sans recourir à des interprétations en termes d’idéologie
+          ou à une analyse en termes institutionnels.</p>
+          <p xml:id="d1e1327">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-bcaxsy4d">fascisme</term>
+              </term>
+            </term>Cette crise du dispositif général de gouvernementalité, au
+          sein de laquelle le libéralisme classique éprouvait sa propre crise,
+          a été marquée par des moments historiques particuliers comme
+          l’expérience soviétique, dès les années 1920, l’expérience allemande
+          du nazisme ou encore l’expérience de la planification anglaise
+          d’après-guerre. Ainsi, c’est comme un effort pour faire face à ces
+          situations que <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> prend en
+          considération les recommandations des néolibéraux allemands, tout
+          comme leur souhait de développer un ensemble de mécanismes ou de
+          formules économiques et politiques pour protéger les États et éviter
+          «&#160;ce moins de liberté qui serait entrainé par le passage au
+          socialisme, au fascisme, au national-socialisme&#160;» <note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;:p.&#160;71.</p>
+            </note>. Observant la manière dont le philosophe structure ses
+          fiches de lecture, on voit combien cette problématique était
+          présente dans son esprit. Plusieurs chemises sont liées directement
+          à ces thématiques, comme en témoignent les titres&#160;:
+          «&#160;national-socialisme&#160;», «&#160;Rechtsstaat&#160;», «&#160;Welfare state&#160;»,
+          «&#160;économie de guerre&#160;», «&#160;problème de l'État et de la loi&#160;». De
+          même, de nombreuses fiches de la chemise «&#160;Néo-libéralisme&#160;»
+          abordent ces questions. Rassemblant l’occurrence des termes comme
+          «&#160;nazisme&#160;», «&#160;État nazi&#160;», «&#160;collectivisme&#160;» et «&#160;planification&#160;»,
+          nous arrivons à un total de dix fiches. Cela veut dire que presque
+          un tiers des fiches sur le néolibéralisme allemand touche à ce type
+          de sujet.</p>
+          <p xml:id="d1e1345">Cela nous donne accès à un aspect assez central
+          de la cartographie du regard de Foucault, nous indiquant de quelle
+          manière il suit tout un chemin analytique pour comprendre la manière
+          dont, à l’époque, était «&#160;éprouvée, vécue, pratiquée, formulée la
+          crise du dispositif général de gouvernementalité&#160;» <note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;:p.&#160;72 (nous
+              soulignons).</p>
+            </note>. C’est pourquoi la question du néolibéralisme répondait à
+          un double enjeu, politico-éthique et théorique. Ce thème n’a pas
+          simplement été utile pour «&#160;faire l’essai&#160;» de la grille d’analyse
+          de la gouvernementalité, c’était une question qui permettait
+          également un débat aussi direct que possible avec l’actualité.
+          Foucault affirme, d’ailleurs que c’est pour une raison de «&#160;<hi rend="italic">moralité critique</hi>&#160;»<hi rend="bold"/>qu’il s’est
+          arrêté aussi longuement sur ce thème <note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;192 (nous
+              soulignons).</p>
+            </note>. Il s’agit de remettre en cause un type de «&#160;critique
+          inflationniste&#160;» du rôle de l'État, qui consistait non seulement à
+          pratiquer «&#160;une disqualification générale par le pire&#160;»,<hi rend="sup"/>mais, également, à propager l’idée d’un dynamisme
+          intrinsèque de l’État, comme s’il possédait en lui-même un type de
+          puissance d’expansion, «&#160;une tendance intrinsèque à croître&#160;» <note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>F<hi rend="small-caps">oucault</hi>, 2004b&#160;: p.&#160;192-94.</p>
+            </note>. Foucault est souvent identifié comme un penseur «&#160;du
+          minuscule, de l’événement éruptif, du dispersé et du pluriel&#160;»,
+          mais, comme le fait bien remarquer A. <persName ref="123595991" type="idref" xml:base="https://www.idref.fr/">Skornicki</persName>,
+          les cours de la fin des années 1970 sont le lieu d’une véritable
+          enquête sur les formes de l’État moderne, se tournant vers le
+          domaine des macro-politiques. Dans ce contexte, le philosophe a
+          lutté, en effet, contre la «&#160;survalorisation du problème de
+          l’État&#160;», mais sans délaisser pour autant «&#160;l’étude de l’État
+          lui-même&#160;», comme en témoigne le concept de gouvernementalité, qui
+          «&#160;peut servir à explorer les conditions de possibilité de l’État
+          moderne&#160;», constituant un «&#160;opérateur par lequel on passe de la
+          microphysique des pouvoirs à la macro-politique&#160;» <note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>S<hi rend="small-caps">kornicki</hi>, 2015&#160;: p.&#160;16-17.</p>
+            </note>. La problématisation des critiques «&#160;inflationnistes&#160;» de
+          l’État lui permet, précisément, de mettre en avant la nécessité de
+          produire une nouvelle analyse de l’État, si l’on voulait être plus à
+          même de développer une critique efficace de l’actualité. Nous
+          comprenons, par-là, combien ces deux importantes dimensions de son
+          discours étaient intrinsèquement associées&#160;: le caractère de
+          moralité critique de son étude se manifeste dans la mise en œuvre de
+          la démarche méthodologique elle-même, permettant la production d’une
+          analyse historique nouvelle, capable de combiner des questionnements
+          philosophiques –&#160;sur la raison, la vérité ou la subjectivité <note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Sur la manière dont Foucault cherche à poser, à travers
+              l’histoire, des questions intrinsèquement philosophiques, voir
+              H<hi rend="small-caps">ulak</hi>, 2013&#160;: p.&#160;109.</p>
+            </note>
+            <anchor xml:id="_Hlk49070591"/>&#160;– avec une empiricité
+          historienne, qui prend alors en charge les pratiques sociales dans
+          leurs dimensions les plus concrètes.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e1426">
+        <head xml:id="d1e1428">Références bibliographiques</head>
+        <listBibl xml:id="d1e1431">
+          <bibl xml:id="d1e1433">
+            <anchor xml:id="_Hlk63171923"/>
+            <anchor xml:id="_Hlk63171669"/>A<hi rend="small-caps">rtières</hi>, 2017&#160;:
+          Philippe A<hi rend="small-caps">rtières</hi>, «&#160;Michel Foucault
+          “bien entendu”&#160;», <hi rend="italic">Critique</hi> vol.&#160;8-9, n<hi rend="sup">o</hi>&#160;843-844, p.&#160;690‑99.</bibl>
+          <bibl xml:id="d1e1453">
+            <hi rend="small-caps">Bentham</hi>, <hi rend="small-caps">Foucault</hi>, et <hi rend="small-caps">Perrot</hi>, 1977&#160;: Jeremy <hi rend="small-caps">Bentham</hi>, Michel <hi rend="small-caps">Foucault </hi>et Michelle P<hi rend="small-caps">errot</hi>, <hi rend="italic">Le panoptique</hi>,
+          Maud Sissung (trad.), Paris, Pierre Belfond.</bibl>
+          <bibl xml:id="d1e1478">
+            <hi rend="small-caps">Bilger</hi>, 1964&#160;:
+          François <hi rend="small-caps">Bilger</hi>, <hi rend="italic">La
+          Pensée économique libérale dans l’Allemagne contemporaine</hi>,
+          Paris, Librairie générale de droit et de jurisprudence.</bibl>
+          <bibl xml:id="d1e1490">
+            <hi rend="small-caps">Centre international
+          d’études pour la rénovation du libéralisme</hi>, 1939&#160;: Travaux du
+          Centre international d'études pour la rénovation du libéralisme
+          (éd.), <hi rend="italic">Compte rendu des séances du colloque Walter
+          Lippmann (26-30 août 1938)</hi>, Paris, Librairie de Médicis, cahier
+          n°&#160;1. Avant-propos de Louis Rougier.</bibl>
+          <bibl xml:id="d1e1499">C<hi rend="small-caps">habert</hi>, 1966&#160;:
+          Alexandre <hi rend="small-caps">Chabert</hi>, «&#160;Bilger, François -
+          <hi rend="italic">La pensée économique libérale dans l’Allemagne
+          contemporaine</hi>&#160;», <hi rend="italic">Revue économique</hi>, n° 1,
+          vol. 17, p.&#160;152‑53.</bibl>
+          <bibl xml:id="d1e1515">E<hi rend="small-caps">rhard</hi>, 1963&#160;:
+          Ludwig E<hi rend="small-caps">rhard</hi>, <hi rend="italic">Une
+          politique de l’abondance</hi>, traduit par Liane Mozère, Paris,
+          Robert Laffont. Recueil d’articles et de discours, 1945-1962.</bibl>
+          <bibl xml:id="d1e1527">
+            <hi rend="small-caps">Foucault</hi>, 1976&#160;:
+          Michel F<hi rend="small-caps">oucault</hi>, <hi rend="italic">Histoire de la sexualité I. La volonté de savoir</hi>,
+          Paris, Gallimard.</bibl>
+          <bibl xml:id="d1e1539">F<hi rend="small-caps">oucault</hi>, 1997&#160;:
+          Michel <hi rend="small-caps">Foucault</hi>, <hi rend="italic">«&#160;Il
+          faut défendre la société&#160;». Cours au Collège de France,
+          1975-1976</hi>, édité par François Ewald, Mauro Bertani et
+          Alessandro Fontana, Paris, Gallimard-Le Seuil.</bibl>
+          <bibl xml:id="d1e1551">F<hi rend="small-caps">oucault</hi>, 2004a&#160;:
+          Michel F<hi rend="small-caps">oucault</hi>, <hi rend="italic">Sécurité, territoire, population. Cours au Collège de
+          France, 1977-1978</hi>, édité par François Ewald, Alessandro
+          Fontana, et Michel Senellart, Paris, Gallimard-Le Seuil.</bibl>
+          <bibl xml:id="d1e1563">F<hi rend="small-caps">oucault</hi>, 2004b&#160;:
+          Michel F<hi rend="small-caps">oucault</hi>, <hi rend="italic">Naissance de la biopolitique. Cours au Collège de
+          France, 1978-1979</hi>, édité par François Ewald, Alessandro
+          Fontana, et Michel Senellart, Paris, Gallimard-Le Seuil.</bibl>
+          <bibl xml:id="d1e1575">
+            <hi rend="small-caps">Hulak,</hi> 2013&#160;:
+          Florence <hi rend="small-caps">Hulak</hi>, «&#160;Michel Foucault, la
+          philosophie et les sciences humaines&#8239;: jusqu’où l’histoire peut-elle
+          être foucaldienne&#8239;?&#160;», <hi rend="italic">Tracés. Revue de Sciences
+          humaines</hi>, n° 13, p.&#160;103‑20.</bibl>
+          <bibl xml:id="d1e1588">
+            <hi rend="small-caps">Kunz,</hi> 1962&#160;:
+          Pierre-André <hi rend="small-caps">Kunz</hi>, <hi rend="italic">L’Expérience néo-libérale allemande dans le contexte
+          international des idées</hi>, Lausanne, Imprimerie centrale.</bibl>
+          <bibl xml:id="d1e1600">L<hi rend="small-caps">epage</hi>, 1978&#160;:
+          Henri L<hi rend="small-caps">epage</hi>, <hi rend="italic">Demain le
+          capitalisme</hi>, Paris, Hachette.</bibl>
+          <bibl xml:id="d1e1612">
+            <hi rend="small-caps">Monod,</hi> 2019&#160;:
+          Jean-Claude <hi rend="small-caps">Monod</hi>, <hi rend="italic">L’art de ne pas être trop gouverné : sur les crises de
+          gouvernementalité</hi>, Paris, Seuil.</bibl>
+          <bibl xml:id="d1e1624">P<hi rend="small-caps">altrinieri</hi>,
+          2011&#160;: Luca P<hi rend="small-caps">altrinieri</hi>, «&#160;L’"Analyse des
+          richesses" dans <hi rend="italic">Les mots et les choses</hi>&#160;»,
+          dans Philippe Artières, Jean-François Bert, Frédéric Gros, et Judith
+          Revel (éd.), <hi rend="italic">Michel Foucault</hi>, Paris, Cahiers
+          de L’Herne.</bibl>
+          <bibl xml:id="d1e1639">
+            <hi rend="small-caps">Poncet</hi>, 1970&#160;:
+          Jean-<hi rend="small-caps">F</hi>rançois<hi rend="small-caps">
+          Poncet,</hi>
+            <hi rend="italic">La Politique économique de
+          l’Allemagne occidentale</hi>, Paris, Sirey.</bibl>
+          <bibl xml:id="d1e1654">
+            <hi rend="small-caps">Röpke</hi>, 1946&#160;:
+          Wilhelm<hi rend="small-caps"> Röpke</hi>, <hi rend="italic">«&#160;Civitas humana&#160;»&#160;: ou les Questions fondamentales de
+          la réforme économique et sociale&#8239;: capitalisme, collectivisme,
+          humanisme économique, état, société, économie</hi>, Paul Bastier
+          (trad.), Paris, Librairie de Médicis.</bibl>
+          <bibl xml:id="d1e1667">R<hi rend="small-caps">öpke</hi>, 1945&#160;:
+          Wilhelm R<hi rend="small-caps">öpke</hi>, <hi rend="italic">La crise
+          de notre temps</hi>, Hugues Faesi et Charles Reichard (trad.),
+          Neuchâtel, Éditions de la Baconnière.</bibl>
+          <bibl xml:id="d1e1679">
+            <hi rend="small-caps">Skornicki,</hi> 2015&#160;:
+          Arnault<hi rend="small-caps"> Skornicki</hi>, <hi rend="italic">La
+          grande soif de l’État&#8239;: Michel Foucault avec les sciences
+          sociales</hi>, Paris, Les Prairies Odinaires.</bibl>
+          <bibl xml:id="d1e1691">S<hi rend="small-caps">toleru</hi> et <hi rend="small-caps">Giscard d’Estaing</hi>, 1972&#160;: Lionel S<hi rend="small-caps">toleru</hi> et Valéry <hi rend="small-caps">Giscard d’Estaing</hi>, <hi rend="italic">Économie
+          et société humaine</hi>, Paris, Denoël. Rencontres internationales
+          du Ministère de l'économie et des finances (Paris, 20-22 juin 1972).
+          Préface de Valéry Giscard d'Estaing&#160;; présentation de Lionel
+          Stoléru.</bibl>
+          <bibl xml:id="d1e1709">V<hi rend="small-caps">erlengia</hi>, 2019&#160;:
+          Carolina <hi rend="small-caps">Verlengia,</hi> «&#160;Les origines d’un
+          projet critique et la question du néolibéralisme&#8239;: Foucault, une
+          philosophie aux frontières&#160;», <hi rend="italic">Astérion.
+          Philosophie, histoire des idées, pensée politique [en ligne]</hi>,
+          n<hi rend="sup">o</hi> 20 (DOI&#160;: <ref target="https://doi.org/10.4000/asterion.3991">
+              <hi rend="underline">10.4000/asterion.3991</hi>
+            </ref>).</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>
