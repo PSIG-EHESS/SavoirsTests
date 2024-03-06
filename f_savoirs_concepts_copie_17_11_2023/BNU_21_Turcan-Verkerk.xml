@@ -1,0 +1,817 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_21_Turcan-Verkerk.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Biblissima et la reconstruction des bibliothèques
+        anciennes&#160;: ses méthodes, ses données, ses outils et ses rêves</title>
+        <author role="aut">
+          <forename>Anne-Marie</forename>
+          <surname>Turcan-Verkerk</surname>
+          <idno type="IDREF">035220996</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/697NHVZH" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Biblissima et la reconstruction des bibliothèques
+            anciennes&#160;: ses méthodes, ses données, ses outils et ses
+            rêves</title>
+            <author>
+              <forename>Anne-Marie</forename>
+              <surname>Turcan-Verkerk</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">21</biblScope>
+              <biblScope unit="page">94-103</biblScope>
+              <date>2020</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="11000506" type="geonames" xml:base="https://www.geonames.org/">Clairvaux</placeName>
+          </term>
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+          <term>
+            <placeName ref="3029241" type="geonames" xml:base="https://www.geonames.org/">Caen</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp">Moyen-Âge</date>
+          </term>
+          <term>
+            <date from="1600" to="1799" type="_temp">17<hi rend="sup">e</hi>
+            et 18<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="2010" to="2011" type="_temp">2010-2011</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T12:19:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Biblissima et la reconstruction des
+          bibliothèques anciennes&#160;: ses méthodes, ses données, ses outils et
+          ses rêves<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Je remercie pour son travail et pour son aide dans la
+              rédaction de cet article l’équipe du portail Biblissima,
+              composée aujourd’hui de Régis Robineau, coordinateur technique
+              de l’EquipEx, expert en interopérabilité des images (IIIF), de
+              Kévin Bois, chargé du développement des applications web et des
+              scripts de traitement de données, et d’Eduard Frunzeanu, chargé
+              de l’analyse, du traitement et de l’interopérabilité des
+              données.</p>
+            </note>
+          </titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Anne-Marie Turcan-Verkerk</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Directrice d’études à l’École Pratique
+          des Hautes Études</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e47">
+          <head subtype="level1" xml:id="d1e48">Une impossible
+          reconstitution&#160;?</head>
+          <quote rend="quotation" xml:id="d1e50">«&#160;À <placeName ref="11000506" type="geonames" xml:base="https://www.geonames.org/">Clairvaux</placeName>, en <date type="_temp" when="1471">1471</date>&#160;: un jeune moine est en train
+          de fouiller des placards regorgeant de manuscrits. Il cherche des
+          exemples de prose latine de qualité à inclure dans une anthologie de
+          lettres, en cours de compilation, allant <date type="_temp">de
+          l’Antiquité chrétienne à son époque</date>. Aucun inventaire
+          n’existe pour l’aider à se retrouver dans la quantité de parchemins
+          qui se sont accumulés à l’abbaye pendant trois siècles et demi
+          depuis sa fondation par <persName ref="026722402" type="idref" xml:base="https://www.idref.fr/">saint Bernard</persName> en <date type="_temp" when="1115">1115</date>&#160;[…]&#160;»<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Constant&#160;J.&#160;Mews, <hi rend="italic">The Lost Love Letters of
+              Heloise and Abelard.</hi>
+                <hi rend="italic">Perceptions of
+              Dialogue in Twelfth-Century France</hi>, with translations by
+              N.&#160;Chiavaroli and C.&#160;J.&#160;Mews, New York, Macmillan, 1999 et
+              2000&#160;; deuxième&#160;éd. avec compléments en nov.&#160;2008, p.&#160;3.
+              Traduction française&#160;: <hi rend="italic">La voix d’Héloïse. Un
+              dialogue de deux amants</hi>, Fribourg (Suisse), Paris, Academic
+              Press, Cerf, 2005 (<hi rend="italic">Vestigia</hi>, 31),
+              p.&#160;1.</p>
+            </note>.</quote>
+          <p xml:id="d1e68">Ces phrases, écrites par un grand connaisseur de
+          l’histoire intellectuelle du <date type="_temp">Moyen-Âge
+          central</date>, illustrent toute la difficulté de se représenter les
+          bibliothèques médiévales, de les faire revivre, et donc de les
+          reconstituer. Car on ignore tout de la disposition physique de la
+          bibliothèque de l’abbaye cistercienne de <placeName ref="11000506" type="geonames" xml:base="https://www.geonames.org/">Clairvaux</placeName> en <date type="_temp" when="1471">1471</date>, malgré le grand catalogue
+          établi en <date from="1471" to="1472" type="_temp">1471-1472</date>
+          pour l’abbé <persName type="_temp">Pierre de Virey</persName>,
+          monument de catalographie qui décrit bien les volumes et leur
+          affecte des cotes, mais ne dit rien des conditions matérielles de
+          leur rangement<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>André Vernet et Jean-François Genest&#160;(éd.), <hi rend="italic">La bibliothèque de l’abbaye de Clairvaux du XII<hi rend="sup">e</hi> au XVIII</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;siècle. 1.</hi>&#160;<hi rend="italic">Catalogues et
+              répertoires</hi>, Paris, CNRS, 1979, p.&#160;65-345</p>
+            </note>. Probablement pas des placards (mais qui sait&#160;?), non plus
+          que des parchemins volants ou entassés en désordre, parmi lesquels
+          le gardien des livres ne saurait s’orienter… Dans cette évocation
+          romancée, on saisit tout le besoin d’une reconstitution virtuelle
+          des bibliothèques médiévales, et tous les dangers bien réels d’un
+          tel désir si l’on ne veut pas répandre de fausses informations en
+          cédant à l’envie trop humaine de visualisation. Si l’on veut
+          imaginer la bibliothèque de <placeName ref="11000506" type="geonames" xml:base="https://www.geonames.org/">Clairvaux</placeName> vers la
+          fin du <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>&#160;siècle</date>, c’est plutôt un modèle comme celui
+          de la Malatestiana de <placeName ref="6541838" type="geonames" xml:base="https://www.geonames.org/">Césène</placeName> qui vient à
+          l’esprit&#160;: conservée aujourd’hui dans son état d’origine de <date type="_temp" when="1464">1464</date>, y compris pour les manuscrits
+          qui y sont enchaînés, elle est organisée en deux rangées de pupitres
+          de part et d’autre d’une nef centrale. C’est ce mode d’organisation
+          assez commun à la fin du <date type="_temp">Moyen-Âge</date>
+          qu’évoque, vers <date type="_temp" when="1521">1521</date>, le
+          catalogue de la bibliothèque de <placeName ref="11000506" type="geonames" xml:base="https://www.geonames.org/">Clairvaux</placeName> rédigé
+          par <persName ref="261970011" type="idref" xml:base="https://www.idref.fr/">Mathurin de Cangey</persName>, dans
+          lequel sont bien distingués les volumes rangés dans 37&#160;pupitres, 19
+          du côté nord et 18 du côté sud de la nouvelle librairie construite
+          <date from="1495" to="1503" type="_temp">entre 1495 et
+          1503</date>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Pour la bibliographie, voir Gilbert Fournier, «&#160;Clairvaux -
+              vers&#160;1521&#160;», dans <hi rend="italic">BMF&#160;: Notices</hi>, Paris,
+              IRHT, 2015 (Ædilis, Sites de programmes scientifiques, 4). En
+              ligne&#160;: <ref target="http://www.libraria.fr/fr/BMF/clairvaux-vers-1521">
+                  <hi rend="underline">http://www.libraria.fr/fr/BMF/clairvaux-vers-1521</hi>
+                </ref>, mis en ligne le 21/02/2015.</p>
+            </note>. Mais rien ne permet de savoir si, en <date type="_temp" when="1472">1472</date>, il en était déjà ainsi. Des placards&#160;? La
+          plus ancienne armoire à livres en bois conservée, aujourd’hui
+          visible dans l’église d’<placeName ref="3036423" type="geonames" xml:base="https://www.geonames.org/">Obazine</placeName>,
+          remonterait au <date from="1100" to="1199" type="_temp">12<hi rend="sup">e</hi>&#160;siècle</date>. Elle transpose en menuiserie les
+          niches pratiquées dans les murs de pierre des cloîtres, des églises,
+          des réfectoires depuis des siècles, encore bien visibles dans
+          quantité d’abbayes et d’églises médiévales –&#160;dont celle d’<placeName ref="3036423" type="geonames" xml:base="https://www.geonames.org/">Obazine</placeName>
+            <hi>(voir
+          ill. p.&#160;94)</hi>&#160;–, et qui pouvaient contenir, le plus souvent, de
+          dix à vingt manuscrits. Les portes étaient en bois et solidement
+          fermées par des verrous.</p>
+          <figure xml:id="d1e104">
+            <graphic utl="https://didomena.ehess.fr/downloads/g158br594.png"/>
+            <head xml:id="d1e105">Figure 1. Église d’Obazine&#160;: deux niches de
+            pierre et leurs rayonnages. Cliché Anne-Marie Turcan</head>
+          </figure>
+          <p xml:id="d1e107">En fait, dès l’<date type="_temp">Antiquité</date>, qu’elle ait consisté en une grande
+          niche dans les bibliothèques publiques ou en une petite armoire de
+          bois dans les bibliothèques privées (comme celle qui est représentée
+          dans le mausolée de <persName ref="028023595" type="idref" xml:base="https://www.idref.fr/">Galla Placidia</persName> à
+          <placeName ref="6540121" type="geonames" xml:base="https://www.geonames.org/">Ravenne</placeName>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Voir à ce sujet l’article de Robert Bedon dans <hi rend="italic">La Revue de la BNU</hi>, n<hi rend="sup">o</hi>&#160;15, p.&#160;11</p>
+            </note>), l’armoire était un mode de rangement des livres très
+          commun. Le terme médiéval générique «&#160;<foreign xml:lang="lat">armarium</foreign>&#160;» désigne, selon les époques, ces
+          niches, ces armoires, ou la pièce qui, à partir de la toute fin du
+          <date from="1000" to="1099" type="_temp">11<hi rend="sup">e</hi>&#160;siècle</date>, commence à s’appeler «&#160;<foreign xml:lang="lat">bibliotheca</foreign>&#160;». Mais ce mode de rangement
+          n’était pas le seul&#160;: nous savons par les textes et par les
+          représentations figurées que les livres étaient souvent rangés dans
+          des coffres, et cela tout au long du <date type="_temp">Moyen-Âge</date>. Les manuscrits étaient entreposés
+          autant que possible à l’abri de l’humidité, du feu, à l’abri surtout
+          des emprunts ou des vols, et là où ils servaient, comme nous
+          l’indiquent de très nombreux inventaires médiévaux&#160;: dans l’église,
+          le cloître, la salle du chapitre, le réfectoire, l’infirmerie, la
+          cellule de l’abbé, celle du maître d’école, et ainsi de suite, sans
+          que nous sachions, la plupart du temps, à quel endroit exactement ni
+          dans quel contenant<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Anne-Marie Turcan-Verkerk, «&#160;Accéder au livre et au texte
+              dans l’Occident latin du V<hi rend="sup">e</hi> au XV<hi rend="sup">e</hi>&#160;siècle&#160;», in <hi rend="italic">De l’argile au
+              nuage, une archéologie des catalogues (II</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;millénaire av.&#160;J.&#160;C.
+              – XXI</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;siècle)</hi>, Paris, Genève, Bibliothèque
+              Mazarine, Éditions des Cendres &amp; Bibliothèque de Genève,
+              2015, p.&#160;47-61 (ici p.&#160;50-53)</p>
+            </note>. Quand nous avons des représentations, il importe
+          d’ailleurs de garder à l’esprit que ce sont, justement, des
+          représentations&#160;: la profusion des livres dans le «&#160;<foreign xml:lang="lat">studiolum</foreign>&#160;» de l’intellectuel, si fréquente
+          dans les enluminures de la fin du <date type="_temp">Moyen-Âge</date>, et la surcharge de son pupitre ou de
+          sa roue à livres veulent surtout signifier l’intensité du travail
+          intellectuel et la richesse de ses sources <hi>(voir ill. ci-contre,
+          en haut)</hi>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Voir Claudia Rabel, «&#160;‘L’estude d’un tres noble seigneur
+              garny a planté de pluseurs beaulx livres’. L’iconographie des
+              bibliothèques médiévales dans les manuscrits enluminés&#160;», in <hi rend="italic">Le goût du lecteur à la fin du Moyen Âge</hi>,
+              dir.&#160;Danielle Bohler, Paris, Le Léopard d’or, 2005, p.&#160;245-289
+              (<hi rend="italic">Cahiers du Léopard d’or</hi>, 11). On voit
+              dans cet espace privé les bancs et pupitres apparus avec les
+              bibliothèques proprement dites, désormais ouvertes aux
+              lecteurs.</p>
+            </note>.</p>
+          <figure xml:id="d1e155">
+            <graphic url="https://didomena.ehess.fr/downloads/v118rn59j.jpg"/>
+            <head xml:id="d1e156">Figure 2. Ésope écrivant (Smith-Lesouëf&#160;68,
+            f.&#160;27&#160;; coll. BnF). BnF, Smith-Lesouëf 68, f.&#160;27 ; source
+            Gallica</head>
+          </figure>
+          <p xml:id="d1e160">Seules peuvent nous guider les indications
+          topographiques et matérielles des inventaires anciens, quand elles
+          existent, et les lieux conservés ou leurs traces archéologiques.
+          Alors, en quoi la reconstitution virtuelle d’une bibliothèque
+          ancienne, en particulier médiévale, peut-elle consister, et comment
+          concevons-nous aujourd’hui les bibliothèques virtuelles&#160;?</p>
+        </div>
+        <div type="section1" xml:id="d1e162">
+          <head subtype="level1" xml:id="d1e163">Réunifier des collections
+          dispersées</head>
+          <p xml:id="d1e165">Aujourd’hui, la plupart des bibliothèques
+          virtuelles sont en réalité des sites de recherche et de médiation
+          scientifique appuyés solidement sur des catalogues donnant accès aux
+          reproductions numériques des livres conservés, consultables une à
+          une avec leur description. On peut citer, en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, parmi les
+          plus abouties, la Bibliothèque virtuelle de <placeName ref="11000506" type="geonames" xml:base="https://www.geonames.org/">Clairvaux</placeName> (BVC, en
+          maintenance à ce jour) ou la Bibliothèque virtuelle du <placeName ref="6616911" type="geonames" xml:base="https://www.geonames.org/">Mont-Saint-Michel</placeName>
+          (BVMSM), qui donne accès tant aux manuscrits qu’aux imprimés de
+          l’abbaye et à leurs notices scientifiques, pour le moment surtout à
+          partir des collections de la BM d’<placeName ref="6455149" type="geonames" xml:base="https://www.geonames.org/">Avranches</placeName> (<ref target="http://www.unicaen.fr/bvmsm/pages/index.html">
+              <hi rend="underline">http://www.unicaen.fr/bvmsm/pages/index.html</hi>
+            </ref>). Les quelques manuscrits conservés ailleurs seront mis en
+          ligne progressivement, ces bibliothèques virtuelles étant
+          essentiellement nourries par la numérisation de collections
+          conservées dans une seule bibliothèque municipale, conséquence des
+          partages faits à la <date from="1789" to="1799" type="_temp">Révolution</date>, qui ont garanti une certaine
+          stabilité géographique des fonds. Mais les bibliothèques virtuelles
+          revêtent un intérêt encore plus grand dès lors qu’elles permettent
+          de reconstituer des ensembles dispersés dans un grand nombre
+          d’institutions de conservation à l’échelle internationale, à la
+          suite d’une histoire parfois mouvementée.</p>
+          <p xml:id="d1e171">À cette échelle, parmi les réalisations les plus
+          remarquables par leur qualité scientifique et leur exhaustivité, on
+          peut citer la bibliothèque virtuelle de l’abbaye de <placeName ref="11204726" type="geonames" xml:base="https://www.geonames.org/">Lorsch</placeName> (<ref target="https://www.bibliotheca-laureshamensis-digital.de/">
+              <hi rend="underline">https://www.bibliotheca-laureshamensis-digital.de</hi>
+            </ref>), réalisée <date from="2010" to="2014" type="_temp">entre
+          2010 et 2014</date>. Elle est excellente d’abord parce qu’elle
+          s’appuie sur des décennies de recherche, en particulier sur les
+          travaux scientifiques de <persName ref="02838864X" type="idref" xml:base="https://www.idref.fr/">Bernhard Bischoff</persName> et
+          <persName ref="085907197" type="idref" xml:base="https://www.idref.fr/">Angelika Häse</persName> sur les
+          catalogues anciens et les quelque 300&#160;manuscrits conservés<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Bernhard Bischoff, <hi rend="italic">Die Abtei Lorsch im
+              Spiegel ihrer Handschriften</hi>. Zweite, erweiterte Auflage,
+              Lorsch, Laurissa, 1989&#160;; Angelika Häse, <hi rend="italic">Mittelalterliche Bücherverzeichnisse aus Kloster
+              Lorsch</hi>. Einleitung, Edition und Kommentar, Wiesbaden, Otto
+              Harrassowitz Verlag, 2002 (<hi rend="italic">Beiträge zum
+              Buch-und Bibliothekswesen</hi>, 42).</p>
+            </note>, et parce qu’elle a réussi, sur cette base, à mobiliser
+          avec agilité les 73&#160;bibliothèques et archives détentrices
+          aujourd’hui des documents, sous la houlette d’<persName type="_temp">Alexandra Büttner</persName>. On peut donc réellement
+          naviguer, sans frontières, parmi les manuscrits conservés de cette
+          bibliothèque, tout en bénéficiant, grâce à des notices scientifiques
+          détaillées et mises à jour par <persName ref="199738947" type="idref" xml:base="https://www.idref.fr/">Michael
+          Kautz</persName>, des dernières avancées de la science<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Notices publiées également en version imprimée&#160;: Michael
+              Kautz (Bearb.), <hi rend="italic">Bibliothek und Skriptorium des
+              ehemaligen Klosters Lorsch. Katalog der erhaltenen
+              Handschriften</hi>, 2&#160;Bde, Wiesbaden, Otto Harrassowitz Verlag,
+              2016.</p>
+            </note>. La base de données permet de rechercher les manuscrits
+          par noms de lieux, par noms d’auteurs et par sujets, avec un degré
+          de détail très appréciable (par exemple, on peut accéder aisément à
+          l’ensemble des notes de copistes par le mot-clé «&#160;<foreign xml:lang="deu">Schreibervermerk</foreign>&#160;»). La «&#160;Bibliothèque
+          abbatiale virtuelle de <placeName ref="11204726" type="geonames" xml:base="https://www.geonames.org/">Lorsch</placeName>&#160;» est donc
+          un formidable instrument de travail pour le chercheur, et d’une
+          honnêteté intellectuelle absolue, dans la mesure où elle n’impose
+          aucune visualisation erronée de ce que pouvait être la collection de
+          livres de l’abbaye à telle ou telle époque. Mais du coup, elle ne
+          permet pas d’immersion réelle dans la bibliothèque ancienne de
+          l’abbaye de <placeName ref="11204726" type="geonames" xml:base="https://www.geonames.org/">Lorsch</placeName>, si ce n’est
+          item après item. Sans doute parce que cela n’était pas encore
+          possible techniquement en <date from="2010" to="2014" type="_temp">2010-2014</date>, elle ne permet pas de comparer sur
+          l’écran des manuscrits d’une même époque, attribuables à un même
+          copiste ou transmettant un même texte – mais on peut le faire en
+          téléchargeant les documents (souvent dans une résolution ne
+          permettant pas de zoom profond) et leurs notices, et en travaillant
+          sur son propre ordinateur. Elle ne permet pas non plus de retrouver
+          le cheminement et les logiques médiévales, comme on pourrait le
+          faire en partant des inventaires anciens, en particulier ceux du
+          <date from="0800" to="0899" type="_temp">9<hi rend="sup">e</hi>&#160;siècle</date> conservés aujourd’hui à la
+          Bibliothèque Vaticane.</p>
+        </div>
+        <div type="section1" xml:id="d1e200">
+          <head subtype="level1" xml:id="d1e201">La numérisation du patrimoine
+          et ses objectifs</head>
+          <p xml:id="d1e203">Toutes les bibliothèques virtuelles ne visent pas
+          à reconstituer une collection ancienne. La plupart sont avant tout
+          des bibliothèques numériques donnant accès à des documents
+          patrimoniaux selon diverses logiques&#160;: nationale (comme e-codices –
+          Bibliothèque virtuelle des manuscrits en <placeName ref="2658434" type="geonames" xml:base="https://www.geonames.org/">Suisse</placeName>&#160;: <ref target="https://www.e-codices.unifr.ch/fr">
+              <hi rend="underline">https://www.e-codices.unifr.ch/fr</hi>
+            </ref>), thématique (comme les BVH, Bibliothèques virtuelles
+          humanistes, qui sont avant tout un programme de recherche associant
+          des numérisations d’ouvrages imprimés ou manuscrits et des éditions
+          en TEI&#160;: <ref target="http://www.bvh.univ-tours.fr/">
+              <hi rend="underline">http://www.bvh.univ-tours.fr/</hi>
+            </ref>), institutionnelle (comme Mazarinum à la Bibliothèque
+          Mazarine&#160;: <ref target="https://mazarinum.bibliotheque-mazarine.fr/">
+              <hi rend="underline">https://mazarinum.bibliotheque-mazarine.fr/</hi>
+            </ref>), la logique institutionnelle rejoignant parfois la logique
+          nationale, comme c’est le cas de Gallica, la bibliothèque numérique
+          de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName>, avec ses six
+          millions (et plus) de documents numérisés et son ouverture à
+          d’autres bibliothèques (<ref target="https://gallica.bnf.fr/">
+              <hi rend="underline">https://gallica.bnf.fr/</hi>
+            </ref>).</p>
+          <p xml:id="d1e221">Il n’est pas question, avec ces bibliothèques
+          numériques, de reconstruire des ensembles historiques perdus, mais
+          de donner les moyens de le faire, de fournir des matériaux plus ou
+          moins sophistiqués, avec des fonctionnalités plus ou moins avancées,
+          permettant d’accéder aux données avec une plus ou moins grande
+          transversalité et un degré de finesse variable, selon que l’on se
+          trouve dans un projet de recherche ou de médiation, ou dans un
+          projet qui associe les deux. Il n’est d’ailleurs pas certain que les
+          usagers attendent plus de leurs bibliothèques numériques, leur désir
+          premier étant d’accéder aux documents numérisés en haute définition,
+          et si possible, dans le cas des imprimés mais peut-être aussi
+          bientôt des manuscrits, avec une possibilité de recherche plein
+          texte<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>C’est l’un des résultats de la thèse d’Elina Leblanc, <hi rend="italic">Bibliothèques numériques enrichies et
+              participatives&#160;: utilisateurs, services, interfaces</hi>,
+              Université Grenoble Alpes, 2019.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e230">
+          <head subtype="level1" xml:id="d1e231">Combiner les deux modèles&#160;:
+          Biblissima</head>
+          <p xml:id="d1e233">L’équipement d’excellence (EquipEx) Biblissima se
+          situe à la croisée de ces modèles de bibliothèques numériques
+          mettant en valeur des contenus patrimoniaux ou visant à la
+          reconstitution d’ensembles historiques dispersés ou détruits au fil
+          du temps, par ses actions, comme par son portail principal et ses
+          différents sites web<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Biblissima, <hi rend="italic">Bibliotheca bibliothecarum
+              novissima</hi>. Observatoire du patrimoine écrit, 8<hi rend="sup">e</hi>-18<hi rend="sup">e</hi>&#160;siècles, bénéficie
+              d’une aide de l’État gérée par l’ANR au titre du programme
+              «&#160;Investissements d’avenir&#160;», portant la référence
+              ANR-11-EQPX-0007. Les projets financés par Biblissima sont
+              présentés dans la brochure <hi rend="italic">Biblissima. Innover
+              pour redécouvrir le patrimoine écrit</hi>, Paris, 2018 (réalisée
+              avec Eduard Frunzeanu et Régis Robineau, et la collaboration de
+              Kévin Bois), téléchargeable&#160;: <ref target="https://projet.biblissima.fr/fr/evenements/journee-biblissima-iiif-innover-redecouvrir-patrimoine-ecrit-2018">
+                  <hi rend="underline">https://projet.biblissima.fr/fr/evenements/journee-biblissima-iiif-innover-redecouvrir-patrimoine-ecrit-2018</hi>
+                </ref>.</p>
+            </note>.</p>
+          <p xml:id="d1e255">Biblissima, conçu en <date from="2010" to="2011" type="_temp">2010-2011</date> et lancé fin <date type="_temp" when="2012">2012</date>, avait en effet des buts multiples et
+          complémentaires&#160;: il s’agissait de créer un «&#160;équipement de données»
+          sur la circulation des textes et des manuscrits du <date type="_temp">haut Moyen-Âge</date> à la fin de l’<date type="_temp">époque moderne</date> (en réalité, il est difficile,
+          sur de telles thématiques, de ne pas aller de l’<date type="_temp">Antiquité</date> aux collections de livres actuelles),
+          essentiellement en Occident, et de recréer un public pour ce type de
+          données. Il fallait donc accumuler des données de qualité et se
+          projeter dans le temps, ce qui supposait d’agir dans trois grandes
+          directions&#160;:</p>
+          <list type="unordered" xml:id="d1e257">
+            <item>financer des projets de recherche, et en particulier des
+            reconstitutions de collections historiques, et la mise en ligne
+            des données&#160;;</item>
+            <item>dépasser l’hétérogénéité des ressources numériques en
+            travaillant à leur interopérabilité, et à un mode d’accès unique à
+            leur extrême variété&#160;;</item>
+            <item>et enfin, fournir des outils tant pour exploiter les données
+            que pour en produire de nouvelles qui soient nativement
+            interopérables, et former les futures générations de chercheurs
+            érudits et rompus aux technologies du web sémantique<note n="12" place="foot" type="standard" xml:id="ftn12">
+                <p>Je ne développe pas cet aspect ici&#160;: voir la boîte à outils
+                Baobab et les écoles d’été Biblissima.</p>
+              </note>.</item>
+          </list>
+          <p xml:id="d1e267">Le premier axe a permis de financer des projets
+          de numérisation, de catalogage et de mise en ligne de collections
+          historiques, portés par des établissements de conservation, mais
+          obligatoirement en lien avec un projet de recherche qui, par sa
+          problématique, assurait la pertinence du corpus, et constituait par
+          là-même de petites communautés de recherche associant étroitement
+          universitaires, chercheurs et professionnels du patrimoine. C’est
+          ainsi qu’ont été aidés les projets de bibliothèques virtuelles de
+          <placeName ref="11000506" type="geonames" xml:base="https://www.geonames.org/">Clairvaux</placeName>,
+          <placeName ref="2981839" type="geonames" xml:base="https://www.geonames.org/">Saint-Amand</placeName>,
+          <placeName ref="12470210" type="geonames" xml:base="https://www.geonames.org/">Saint-Bertin</placeName>,
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Saint-Martin de
+          Sées</placeName>, des dominicains de <placeName ref="6453974" type="geonames" xml:base="https://www.geonames.org/">Toulouse</placeName>, du
+          <placeName ref="6616911" type="geonames" xml:base="https://www.geonames.org/">Mont-Saint-Michel</placeName>,
+          des bibliothèques chartraines et, pour la <date type="_temp">Renaissance</date>, les travaux portant sur les
+          bibliothèques de la Région Centre et de très grands écrivains,
+          <persName ref="02708695X" type="idref" xml:base="https://www.idref.fr/">Rabelais</persName>, <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> et <persName ref="026955776" type="idref" xml:base="https://www.idref.fr/">La&#160;Boétie</persName>. Certains sont
+          déjà en ligne en tant que bibliothèques virtuelles à part entière,
+          d’autres pas encore, d’autres enfin alimentent des outils plus
+          larges vers lesquels il a paru utile de faire converger les données
+          pour en assurer nativement l’interopérabilité, comme la BVMM
+          (Bibliothèque virtuelle des manuscrits médiévaux de l’IRHT, CNRS),
+          les BVH ou Gallica.</p>
+          <p xml:id="d1e269">La reconstitution de bibliothèques anciennes
+          n’est pas passée que par ces opérations à caractère largement
+          patrimonial. Il est tout aussi important de documenter les ensembles
+          historiques dans toutes leurs dimensions, en rendant compte de tous
+          les documents qui n’existent plus, ou qui n’existent plus dans leur
+          état d’origine (comme c’est le cas pour les manuscrits dont ne
+          subsistent que des fragments, ou qui ont été séparés en entités
+          portant aujourd’hui des cotes différentes, dans des dépôts
+          différents, ou qui au contraire ont été agrégés tardivement, etc.).
+          Biblissima comprend donc un important volet de recherches sur les
+          inventaires anciens, les collections qu’ils décrivent et les livres
+          ou archives éventuellement conservés. Il peut s’agir d’entreprises à
+          caractère généraliste, comme l’étude du contenu des catalogues de
+          vente de livres dans la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> d’<date type="_temp">Ancien Régime</date> (base <hi rend="italic">Esprit des
+          livres</hi>), ou comme la recherche systématique, dans les dépôts
+          d’archives en particulier, de listes de livres documentant les
+          collections anciennes (pour constituer les répertoires d’inventaires
+          français, les <hi rend="italic">BMF</hi>, <hi rend="italic">Bibliothèques médiévales de France</hi>, mais aussi
+          d’inventaires de manuscrits grecs comme le <hi rend="italic">RIMG</hi>, <hi rend="italic">Répertoire des catalogues
+          anciens, inventaires et listes diverses de manuscrits grecs aux
+          périodes byzantine et moderne [XI</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">-XIX</hi>
+            <hi rend="sup italic">e</hi>&#160;<hi rend="italic">s.]</hi>, créé sur le
+          modèle des <hi rend="italic">BMF</hi>). D’autres ont un caractère
+          semi-généraliste, comme le grand chantier ouvert sur la <hi rend="italic">Bibliotheca Belgica Manuscripta </hi>de <persName ref="068528752" type="idref" xml:base="https://www.idref.fr/">Sanderus</persName> (<date from="1641" to="1644" type="_temp">1641-1644</date>), ou celui sur
+          les mauristes et leurs travaux érudits aux <date from="1600" to="1799" type="_temp">17<hi rend="sup">e</hi> et 18<hi rend="sup">e</hi>&#160;siècles</date>, qui a donné lieu à des campagnes
+          de numérisation à la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName>, d’analyse des
+          inventaires pour les <hi rend="italic">BMF </hi>et d’édition des
+          inventaires eux-mêmes, en particulier de la <hi rend="italic">Bibliotheca bibliothecarum manuscriptorum nova </hi>de
+          dom <persName ref="028997964" type="idref" xml:base="https://www.idref.fr/">Bernard de Montfaucon</persName>
+          (<date from="1738" to="1739" type="_temp">1738-1739</date>), à
+          laquelle le nom de Biblissima, <hi rend="italic">Bibliotheca
+          bibliothecarum novissima</hi>, rend hommage&#160;; ou encore les
+          numérisations systématiques d’inventaires révolutionnaires aux
+          Archives nationales et à la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName> (à l’Arsenal en
+          particulier), dans le but de monter un jour un projet sur l’état des
+          bibliothèques privées de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> à la fin de
+          l’Ancien Régime, que permet cette documentation exceptionnelle.
+          L’étude des catalogues anciens et des manuscrits conservés de
+          certaines bibliothèques de première importance a enfin été
+          privilégiée&#160;: les manuscrits de <persName ref="061167681" type="idref" xml:base="https://www.idref.fr/">Florus de
+          Lyon</persName>, les collections du Collège de Sorbonne, la
+          librairie de <persName ref="027285677" type="idref" xml:base="https://www.idref.fr/">Charles&#160;V</persName> et <persName ref="028298705" type="idref" xml:base="https://www.idref.fr/">Charles&#160;VI</persName>, la
+          Sainte-Trinité de <placeName ref="8063790" type="geonames" xml:base="https://www.geonames.org/">Chalki</placeName>, les
+          bibliothèques de <persName ref="027349217" type="idref" xml:base="https://www.idref.fr/">Richelieu</persName> et de
+          <persName ref="027400646" type="idref" xml:base="https://www.idref.fr/">Mazarin</persName>, ou telle
+          bibliothèque que les projets financés ont permis d’étudier, comme
+          celle de <placeName ref="2797714" type="geonames" xml:base="https://www.geonames.org/">Gembloux</placeName> en
+          <placeName ref="2802361" type="geonames" xml:base="https://www.geonames.org/">Belgique</placeName>, dont le
+          catalogue de <date type="_temp" when="1795">1795</date> a été
+          retrouvé grâce à la campagne de numérisation aux Archives
+          nationales<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Anastasia Shapovalova, «&#160;L’importance des sources de la
+              période révolutionnaire pour la reconstitution des bibliothèques
+              médiévales. Le cas de l’abbaye bénédictine de Gembloux&#160;», in <hi rend="italic">Gazette du livre médiéval</hi>, 63, 2017,
+              p.&#160;20-40</p>
+            </note>.</p>
+          <p xml:id="d1e325">L’enrichissement et la refonte des bases de
+          données documentaires ont complété ces travaux, à la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName> (<hi rend="italic">Base Archives et Manuscrits, Mandragore, Reliures
+          BnF</hi>), à l’ENC (<hi rend="italic">Esprit des livres</hi>, <hi rend="italic">Miroir des classiques</hi>), à l’EPHE (<hi rend="italic">Books within books</hi>, <hi rend="italic">Manuscripta
+          medica</hi>), à l’IRHT (<hi rend="italic">Bibale </hi>et le projet
+          sur les provenances de livres conservés dans les bibliothèques de
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, <hi rend="italic">Bude</hi>, <hi rend="italic">Collecta</hi>, <hi rend="italic">Comparatio</hi>, <hi rend="italic">Initiale</hi>, <hi rend="italic">Jonas</hi>, <hi rend="italic">Medium</hi>, <hi rend="italic">Pinakes</hi>, <hi rend="italic">RegeCart</hi>, <hi rend="italic">Sourcencyme</hi>), à la MRSH de <placeName ref="3029241" type="geonames" xml:base="https://www.geonames.org/">Caen</placeName> (base
+          prosopographique utilisée pour <hi rend="italic">Thecae</hi>, dont
+          il sera question plus bas), qu’il se soit agi de développements
+          informatiques, de nettoyage des données, de saisie ou
+          d’enrichissement des contenus via les projets financés et
+          co-financés.</p>
+          <p xml:id="d1e377">Biblissima a ainsi favorisé une acquisition de
+          données anciennes et nouvelles sans précédent, et encouragé, outre
+          le rapprochement dans des projets communs des communautés de
+          l’enseignement supérieur et du patrimoine – et de leurs outils et
+          méthodes –, deux mouvements de convergence complémentaires&#160;: celle
+          des données ainsi accumulées dans une quinzaine de bases de données
+          (quelle que soit leur forme, bases de données documentaires,
+          catalogues en ligne, bibliothèques numériques, bases textuelles en
+          TEI…), et la convergence, pour la création de données, vers des
+          formats ouverts, pérennes et communs. Cette double convergence vise
+          à simplifier la mise en interopérabilité des données de ces
+          ressources numériques afin de garantir à l’usager un accès unique à
+          leur extrême diversité. C’est le second axe de Biblissima, qui
+          devient ainsi une méta-bibliothèque numérique, une «&#160;bibliothèque
+          des bibliothèques&#160;».</p>
+          <p xml:id="d1e379">Biblissima, avec son portail (<ref target="https://portail.biblissima.fr/fr">
+              <hi rend="underline">https://portail.biblissima.fr/fr</hi>
+            </ref>), permet une recherche fédérée dans toutes les ressources
+          partenaires, progressivement intégrées. Cette intégration nécessite
+          plusieurs opérations longues et compliquées, plus compliquées
+          scientifiquement que techniquement d’ailleurs. Il faut d’abord que
+          les données soient transformées vers un format XML dit
+          «&#160;format-pivot&#160;», défini par l’équipe en charge de l’infrastructure
+          en concertation avec les équipes partenaires. Ce format permet de
+          gérer de manière unifiée les structures hétérogènes des données
+          source, tout en prenant en compte les spécificités de leur objet, de
+          leur histoire et de leurs objectifs. L’équipe effectue ensuite un
+          alignement des données dans lequel chaque entité reçoit un
+          identifiant Biblissima unique. Cette opération est essentielle,
+          c’est elle qui permet d’agréger les informations disponibles sur une
+          même entité (personne, collectivité, cote de manuscrit, œuvre, lieu,
+          collection, etc.). Celles-ci sont ensuite interrogeables grâce à un
+          moteur de recherche simple <hi>(voir ill. p.&#160;97, en bas)</hi>.</p>
+          <figure xml:id="d1e388">
+            <graphic url="https://didomena.ehess.fr/downloads/v692tf786.jpg"/>
+            <head xml:id="d1e389">Figure 3. Capture d’écran du moteur de
+            recherche de Biblissima. Source Biblissima</head>
+          </figure>
+          <p xml:id="d1e391">L’opération est également importante dans la
+          mesure où elle permet de détecter quantité d’approximations,
+          d’erreurs, de divergences ou d’appellations obsolètes dont le
+          signalement aux partenaires doit permettre une amélioration de la
+          qualité des données. Ainsi, Biblissima constitue des référentiels
+          indispensables au bon fonctionnement du portail et à la qualité de
+          ses données, dont dépend celle des résultats recueillis par les
+          usagers&#160;: un référentiel des cotes de livres anciens manuscrits et
+          imprimés (actuellement plus de 180&#160;000), un référentiel de noms de
+          lieux, y compris les lieux représentés dans les enluminures, un
+          thesaurus iconographique permettant l’interrogation simultanée des
+          deux grandes bases de données du domaine, <hi rend="italic">Mandragore </hi>et <hi rend="italic">Initiale</hi>,
+          dont les vocabulaires aujourd’hui divergent, un référentiel des
+          personnes, où l’on trouvera aussi bien des auteurs ou
+          collectionneurs très connus que des personnages très peu documentés
+          (environ 30&#160;000&#160;personnes ou familles et 4&#160;000&#160;organisations à ce
+          jour), etc. La plate-forme data.biblissima (<ref target="https://data.biblissima.fr/w/Accueil">
+              <hi rend="underline">https://data.biblissima.fr/w/Accueil</hi>
+            </ref>) est l’outil offrant progressivement l’accès à ces
+          référentiels et le mapping des données avec les référentiels
+          fiables. Cette méthode très exigeante, qui exige un énorme travail
+          scientifique car elle ne peut être automatisée qu’à moitié, étant
+          donné la nature des données, évite les redondances ou les recherches
+          multiples sur un même objet, et s’avère indispensable à une mise en
+          interopérabilité réelle.</p>
+          <p xml:id="d1e404">Aujourd’hui, data.biblissima est l’épine dorsale
+          du moteur de recherche IIIF&#160;Collections créé par l’équipe
+          Biblissima, qui permet une navigation très rapide et efficace dans
+          les numérisations interopérables de grandes bibliothèques partout
+          dans le monde&#160;: par exemple, à partir d’une chaîne de caractères
+          (<persName ref="02727733X" type="idref" xml:base="https://www.idref.fr/">Ausonius</persName>&#160;: 28&#160;résultats)
+          ou de l’identifiant d’<persName ref="02727733X" type="idref" xml:base="https://www.idref.fr/">Ausone</persName> fourni par
+          data.biblissima (Q2007&#160;: 23&#160;résultats), on trouve instantanément
+          tous les manuscrits numérisés interopérables d’<persName ref="02727733X" type="idref" xml:base="https://www.idref.fr/">Ausone</persName> (ou en rapport
+          avec lui) sur un ensemble à ce jour de 73&#160;000&#160;manuscrits, que l’on
+          peut ensuite consulter, comparer, collationner à sa guise dans le
+          visualiseur Mirador de Biblissima <hi>(voir ill. p.&#160;98, en
+          haut)</hi>. On peut évidemment faire le même type de recherche pour
+          un lieu ou un collectionneur quelconque.</p>
+          <figure xml:id="d1e409">
+            <graphic url="https://didomena.ehess.fr/downloads/tx31qs69f.jpg"/>
+            <head xml:id="d1e410">Figure 4. IIIF Collections&#160;: exemple d’une
+            recherche sur «&#160;ausonius&#160;». Source Biblissima</head>
+          </figure>
+          <p xml:id="d1e412">Biblissima, grâce à ces outils, permet de
+          naviguer, en partant d’un point unique, dans l’ensemble des
+          collections anciennes documentées par les ressources électroniques
+          que le portail agrège, dans toute leur diversité de points de vue,
+          d’histoire, de formats et d’objectifs, avec la possibilité constante
+          d’aller explorer plus à fond ces ressources, mais aussi de rebondir
+          de l’une à l’autre et de suivre toutes les ramifications d’une
+          recherche, comme le fait la pensée. Sans prétendre reconstituer
+          quelque collection que ce soit, Biblissima le fait en réalité en
+          «&#160;clusterisant&#160;» tous les matériaux et en les éclairant les uns par
+          les autres. Biblissima offre aussi des possibilités de visualisation
+          que ne proposent que rarement les bibliothèques virtuelles (mais
+          certaines ont commencé à le faire à la suite de l’implémentation de
+          IIIF et de Mirador par Biblissima)&#160;: montrer jusqu’à 25&#160;manuscrits
+          sur un même écran (ce qui, sur un écran de la taille d’un mur,
+          ouvrirait des possibilités heuristiques mais aussi pédagogiques
+          extraordinaires), comparer les écritures, la décoration,
+          collationner les manuscrits, les imprimés, se livrer à des études
+          d’iconographie sur tel ou tel descripteur <hi>(voir ill.
+          p.&#160;98)</hi>, remettre en cause des datations, constituer des séries,
+          des corpus partageables avec des collègues, des étudiants, des amis…
+          en somme, une immersion dans les collections médiévales, modernes et
+          contemporaines, reconstituables grâce au protocole IIIF en dépit de
+          l’éloignement géographique ou des détériorations subies au cours de
+          l’histoire, comme personne avant notre génération n’a pu la
+          connaître. Les cartes permettent de suivre l’histoire des manuscrits
+          chaque fois que cela est possible, cependant que les graphes des
+          œuvres offrent un outil de visualisation de leurs avatars
+          (manuscrits et imprimés) à travers le temps, mais aussi de langue en
+          langue et de remaniements en commentaires, cliquables pour qui veut
+          en consulter les témoins.</p>
+          <figure xml:id="d1e417">
+            <graphic url="https://didomena.ehess.fr/downloads/c821gt08v.jpg"/>
+            <head xml:id="d1e418">Figure 5. Portail Biblissima&#160;: exemple
+            d’interrogation sur le descripteur «&#160;dragons&#160;». Source
+            Biblissima</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e420">
+          <head subtype="level1" xml:id="d1e421">Aller plus loin</head>
+          <p xml:id="d1e423">Le travail d’agrégation des ressources des
+          partenaires n’est pas terminé. L’EquipEx Biblissima prend fin au
+          <date type="_temp" when="2020-12-31">31&#160;décembre&#160;2020</date>, mais
+          il restera beaucoup à faire. Il faudrait d’abord parvenir à une
+          automatisation des mises à jour, ce qui suppose un investissement
+          des partenaires. Il faudrait aussi – c’est techniquement
+          parfaitement possible à ce jour, et le travail est préparé –
+          permettre à l’usager d’accéder, depuis ce point unique qu’est le
+          portail, non seulement aux ressources des partenaires mais aussi au
+          CCFr et à Calames, afin d’avoir en réponse à une seule requête le
+          maximum d’informations sur les manuscrits et les incunables de
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, et de
+          pouvoir les croiser, les comparer, les critiquer.</p>
+          <p xml:id="d1e425">Pour le moment, le portail n’a pas encore agrégé
+          les ressources textuelles en TEI<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>TEI&#160;: Text Encoding Initiative, solution d’encodage des
+              éditions électroniques permettant de rendre compte avec rigueur
+              et finesse de toutes les particularités des documents
+              écrits.</p>
+            </note>. Biblissima en a financé trois types principaux&#160;: les
+          éditions de sermons médiévaux, témoins de l’oralité des textes,
+          l’édition électronique des gloses de la Bible latine, véritable
+          bibliothèque portative de tout le <date type="_temp">Moyen-Âge
+          occidental</date>, et le corpus pionnier d’éditions critiques
+          d’inventaires de livres <hi rend="italic">Thecae</hi>, <hi rend="italic">Thesaurus Catalogorum Electronicus</hi>, publié en
+          ligne par les Presses universitaires de <placeName ref="3029241" type="geonames" xml:base="https://www.geonames.org/">Caen</placeName> (<ref target="https://www.unicaen.fr/services/puc/sources/thecae/accueil">
+              <hi rend="underline">https://www.unicaen.fr/services/puc/sources/thecae//accueil</hi>
+            </ref>). Ce corpus, le premier au monde de ce type, publication
+          scientifique stable et citable de façon pérenne, inscrite au
+          catalogue d’un éditeur professionnel, a vocation à accueillir toute
+          édition d’inventaire. Les inventaires qui documentent une même
+          bibliothèque sont liés les uns aux autres item par item, annotés,
+          les entrées décrivant des volumes conservés étant commentées et
+          liées aux numérisations en ligne quand elles existent.</p>
+          <p xml:id="d1e440">L’existence de ce corpus pourrait permettre de
+          franchir un nouveau cap dans la reconstitution virtuelle des
+          collections anciennes, en offrant une nouvelle porte d’entrée vers
+          leur contenu. Pourquoi ne pas greffer, sur les bibliothèques
+          virtuelles plus classiques, qui sont avant tout des catalogues
+          électroniques très sophistiqués de documents conservés, les outils
+          mêmes du bibliothécaire médiéval, avec la logique qui était la
+          sienne, qui diffère tant d’un cas à l’autre, et accéder autant aux
+          livres perdus (décrits, commentés) qu’aux livres conservés (décrits,
+          commentés, numérisés)&#160;? On pourrait, au choix, partir de l’édition
+          électronique, comme le permet <hi rend="italic">Thecae</hi>, ou de
+          la numérisation du catalogue ancien (toujours liée à l’édition en
+          TEI dans <hi rend="italic">Thecae</hi>), dont chaque titre serait
+          cliquable à partir de l’image et renverrait vers la numérisation du
+          document et sa notice savante.</p>
+          <p xml:id="d1e448">C’est toujours en partant des inventaires que
+          notre collègue <persName ref="031170226" type="idref" xml:base="https://www.idref.fr/">Monique Peyrafort-Huin</persName>,
+          chargée de l’identification de tous les possesseurs de livres liés
+          de près ou de loin à <persName ref="027285677" type="idref" xml:base="https://www.idref.fr/">Charles&#160;V</persName> et <persName ref="028298705" type="idref" xml:base="https://www.idref.fr/">Charles&#160;VI</persName>
+            <note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Au sein du projet d’édition des inventaires anciens de
+              Charles&#160;V et Charles&#160;VI, dirigé par Marie-Hélène Tesnière
+              (BnF).</p>
+            </note>, propose de faire un pas supplémentaire. Les sources sont
+          assez précises, en l’occurrence, sur la localisation des
+          collections. <persName ref="031170226" type="idref" xml:base="https://www.idref.fr/">Monique Peyrafort</persName>
+          propose non seulement de cartographier ces bibliothèques
+          parisiennes, mais d’en créer un plan interactif, qui pourrait aller
+          jusqu’à la reconstitution 3D (on peut penser à une collaboration
+          avec le projet <hi rend="italic">Bretez</hi>, qui va jusqu’à la 5D
+          en intégrant le son&#160;: <ref target="https://sites.google.com/site/louisbretez/home">
+              <hi rend="underline">https://sites.google.com/site/louisbretez/home</hi>
+            </ref>). Je lui laisse la parole&#160;: «&#160;Ne pourrait-on aussi pousser
+          la porte de ces bibliothèques et en examiner le contenu&#160;? Sauf
+          exception, on ne peut évidemment rêver de reconstituer la
+          disposition, le classement précis de chacune de ces collections,
+          mais on pourrait au moins inviter le visiteur à s’asseoir pour
+          consulter les inventaires, listes et documents qui nous les font
+          connaître&#160;; il s’agirait en effet de lui donner accès à la
+          numérisation des manuscrits, mais aussi aux éditions et
+          transcriptions qui ont pu en être données et, dans certains cas, on
+          pourrait même montrer quels types de livres utilisaient les lecteurs
+          du <date from="1300" to="1499" type="_temp">14<hi rend="sup">e</hi>/15<hi rend="sup">e</hi>&#160;siècle</date>, selon leur
+          condition sociale (les princes et grands seigneurs de l’entourage du
+          roi, mais aussi les chanoines, les clercs de l’entourage du roi, les
+          marchands et bourgeois de la ville de <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>) […] Les
+          identifications des possesseurs de livres mentionnés dans les
+          inventaires de la bibliothèque du Louvre dont l’édition est en cours
+          fourniront une grande partie des informations nécessaires sur
+          l’existence de ces collections&#160;; il restera à insérer ces données
+          dans ce qu’on sait de la topographie parisienne sous <persName ref="027285677" type="idref" xml:base="https://www.idref.fr/">Charles&#160;V</persName> et <persName ref="028298705" type="idref" xml:base="https://www.idref.fr/">Charles&#160;VI</persName>, période pour
+          laquelle on commence à avoir des renseignements assez précis par
+          diverses sources&#160;»<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Communication privée, dont je remercie très chaleureusement
+              Monique Peyrafort-Huin, qui a accompagné la naissance et le
+              développement de Biblissima à la section de Codicologie et
+              histoire des bibliothèques de l’IRHT.</p>
+            </note>. Les outils constitués par Biblissima contribueront
+          bientôt à la réalisation de ce rêve, en toute rigueur scientifique,
+          chaque fois que les inventaires anciens et l’iconographie en
+          donneront la possibilité.</p>
+          <figure xml:id="d1e470">
+            <graphic url="https://didomena.ehess.fr/downloads/0c483t16n.png"/>
+            <head xml:id="d1e471">Figure 7. Exemple d’édition dans <hi rend="italic">Thecae&#160;:</hi> la <hi rend="italic">Bibliotheca
+            bibliothecarum </hi>de Montfaucon. Source Biblissima</head>
+          </figure>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

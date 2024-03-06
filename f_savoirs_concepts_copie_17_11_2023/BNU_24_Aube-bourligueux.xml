@@ -1,0 +1,853 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-11-05T10:13:14.493+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_24_Aube-bourligueux.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Voyage au Musée-maison natale de Fuente Vaqueros&#160;:
+        Federico García Lorca entre ombre et lumière mémorielles</title>
+        <author role="aut">
+          <forename>Jocelyne</forename>
+          <surname>Aubé-Bourligueux</surname>
+          <idno type="IDREF">034911537</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/VVWK4JK9" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Voyage au Musée-maison natale de Fuente
+            Vaqueros&#160;: Federico García Lorca entre ombre et lumière
+            mémorielles</title>
+            <author>
+              <forename>Jocelyne</forename>
+              <surname>Aubé-Bourligueux</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">24</biblScope>
+              <biblScope unit="page">48-57</biblScope>
+              <date>2021</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="spa"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-wxtpa7cz">biographie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6357703" type="geonames" xml:base="https://www.geonames.org/">Fuente Vaqueros</placeName>
+          </term>
+          <term>
+            <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Grenade</placeName>
+          </term>
+          <term>
+            <placeName ref="2510769" type="geonames" xml:base="https://www.geonames.org/">Espagne</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1898" to="1936" type="_temp">1898-1936</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T12:38:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Voyage au Musée-maison
+          natale de Fuente Vaqueros&#160;: Federico García Lorca entre ombre et
+          lumière mémorielles</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Jocelyne Aubé-Bourligueux</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Professeur émérite du Département
+          d’études hispaniques, Université de Nantes</affiliation>
+        </byline>
+      </titlePage>
+      <div type="prelim" xml:id="d1e43">
+        <epigraph>
+          <quote xml:id="d1e45">«&#160;On revient de son enfance comme d’un pays
+          étranger&#160;» (Federico García Lorca)</quote>
+        </epigraph>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e49">
+          <graphic url="https://didomena.ehess.fr/downloads/0c483t15c.jpg"/>
+          <head xml:id="d1e50">FIgure 1. Portrait de Federico Garcia Lorca, à
+          Grenade en 1919 (coll. Fundación FGL). © et cliché Rogelio Robles
+          Romero-Saavedra</head>
+        </figure>
+        <p xml:id="d1e54">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+            </term>
+          </term>Un marmot
+        potelé est accroupi dans l’herbe, robe arrondie en cloche en ce
+        temps-là, ronde face brune sous le grand chapeau rond. On l’appelle de
+        la maison&#160;:</p>
+        <quote rend="quotation" xml:id="d1e56">– «&#160;<persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName>&#160;!<lb/>–
+        Laissez-le, souffle la domestique, il cause avec les
+        fourmis&#160;».</quote>
+        <p xml:id="d1e60">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-2quvas4j">professeur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+            </term>
+          </term>La
+        maison natale de <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">García Lorca</persName> à <placeName ref="6357703" type="geonames" xml:base="https://www.geonames.org/">Fuente Vaqueros</placeName>, trop
+        discrète toile de fond de sa vie et de son œuvre ultérieures, apparaît
+        au regard du visiteur telle une fermette rurale sur le modèle de
+        celles connues à l’époque où le petit village de la «&#160;Vega&#160;» de
+        <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Grenade</placeName> se nichait
+        parmi les peupliers tremblant d’ailes d’oiseaux bruissants. Érigée en
+        <date type="_temp" when="1880">1880</date> pour l’union de Don
+        <persName ref="17497616X" type="idref" xml:base="https://www.idref.fr/">Federico García Rodríguez</persName>
+        avec sa première épouse <persName type="_temp">Matilde
+        Palacios</persName>, décédée sans descendance, elle avait en <date type="_temp" when="1897">1897</date> abrité le remariage du riche
+        propriétaire terrien d’idées libérales avec Doña <persName ref="122316894" type="idref" xml:base="https://www.idref.fr/">Vicenta
+        Lorca Romero</persName>, institutrice au village avant ses noces, qui
+        se chargerait d’élever son fils aîné. Une santé fragile retenant
+        parfois le petit garçon au domicile conjugal, <foreign xml:lang="spa">sis&#160;4&#160;calle&#160;de&#160;la&#160;Trinidad</foreign>, sa mère attentive
+        lui fournirait les bases d’une éducation diversifiée, dont l’influence
+        prégnante serait essentielle dans l’évolution de sa sensibilité et le
+        développement de sa personnalité en devenir.</p>
+        <p xml:id="d1e62">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-wxtpa7cz">biographie</term>
+            </term>
+          </term>La
+        découverte de la «&#160;<foreign xml:lang="spa">Casa Natal</foreign>&#160;» se
+        fera ici sans guide, avec pour unique souci d’y voir revivre et d’y
+        réentendre <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName>, depuis le blanc
+        refuge muet de son décor infantile tardivement reconstitué&#160;: un espace
+        réservé, protégé, souffert, vécu, mémorisé, fantasmé rêvé, puis
+        écrit-réécrit sous la plume véloce du prosateur adolescent (<date from="1915" to="1916" type="_temp">1915-16?</date>), dans les pages
+        méconnues bien après sa mort des chapitres constitutifs de <hi rend="italic">Mi Pueblo </hi>(<hi rend="italic">Mon Village</hi>)&#160;;
+        autant d’échos autobiographiques précieux ignorés avant leur
+        publication en <date type="_temp" when="1994">1994</date>, venus a
+        posteriori éclairer d’un jour neuf et très personnel les années
+        d’enfance. C’est ce cadre quotidien privilégié, témoin de l’éveil
+        lorquien, qu’il faut aller retrouver et interroger dans ce <hi rend="italic">Village tranquille </hi>«&#160;entouré de peupliers qui
+        rient, chantent, sont les palais des oiseaux&#160;»&#160;; ce berceau natif dont
+        les secrets si longtemps celés dans des tiroirs affleureraient aux
+        rives de son imaginaire créateur dans une image, un vers, une musique,
+        un récit permettant d’extraire sa claire silhouette de l’ombre opaque
+        et du silence pesant qui la masquaient, pour la projeter sur l’écran
+        radieux de son existence restituée au grand jour dans sa libre
+        mouvance lumineuse et volubile&#160;:</p>
+        <quote rend="quotation" xml:id="d1e73">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+            </term>
+          </term>«&#160;Lorsque
+        j’étais enfant, je vivais dans un petit village très silencieux et
+        odorant de la Vega de <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Grenade</placeName>. Tout ce qui
+        s’y passait avec tous ses sentiments repasse aujourd’hui par moi,
+        voilé par la nostalgie de l’enfance et par le temps. Je veux dire ici
+        ce que j’éprouvais de sa vie et de ses légendes. Je veux exprimer ce
+        qui est passé par moi à travers un autre tempérament. J’aspire à
+        relater les lointaines modulations de mon autre cœur. Ce que je fais
+        est pur sentiment et vague souvenir de mon âme de cristal&#160;[…] C’est
+        dans ce village que je suis né et que s’est éveillé mon cœur. C’est
+        dans ce village que j’ai fait mon premier rêve de lointains… C’est
+        dans ce village que je serai terre et fleurs… Ses rues, ses gens, ses
+        coutumes, sa poésie et sa méchanceté seront comme l’échafaudage où
+        nicheront mes idées d’enfant, fondues dans le creuset de la puberté.
+        Écoutez…&#160;»</quote>
+        <p xml:id="d1e75">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <hi rend="italic">Écouter, </hi>oui, celui dont nul n’a conservé la voix,
+        mais qui au fil de sa mémoire affective s’exprimera d’emblée en termes
+        de mutations internes multipliées et de métamorphoses passées ou à
+        venir. Et <hi rend="italic">voir </hi>en ce sens dans sa maison de
+        Fuente Vaqueros l’enveloppe protectrice de son éden originel&#160;: le
+        cocon douillet dont il avait émergé au beau soir du <date type="_temp" when="1898-06-05">5&#160;juin&#160;1898</date> et qui l’abriterait avec son
+        frère <persName ref="032599544" type="idref" xml:base="https://www.idref.fr/">Francisco</persName>, né en <date type="_temp" when="1902">1902</date>, avant un second domicile
+        <foreign xml:lang="spa">calle de la Iglesia</foreign>, où sa sœur
+        <persName type="_temp">Concha</persName> verrait le jour en <date type="_temp" when="1903">1903</date>. Pour saisir qu’il s’y sentait
+        venu au monde tel un oisillon des bois et des champs en attente
+        d’ailes, blotti sur les ramures de sa future créativité&#160;; déjà en
+        quête de son difficile envol, vite compromis après quelque
+        bouleversement intime éprouvant. Dans ce cas, il s’agira de la
+        disparition prématurée d’un petit frère <persName type="_temp">Luis</persName>, né en <date type="_temp" when="1900">1900</date>, dont la mention récurrente témoignera plus
+        tard de la trace mémorielle profonde laissée chez le <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName> de quatre ans. Il
+        convient donc de <hi rend="italic">revisiter </hi>l’habitation
+        familiale première sous son aspect d’enveloppe protectrice
+        constitutive du moi évolutif de l’auteur&#160;: maison-membrane isolante,
+        nourricière, fragilisée, doublement <hi rend="italic">éprouvée </hi>au
+        seuil de ses morts-renaissances initiatiques successives.</p>
+        <p xml:id="d1e88">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+        matériel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-najuwvdf">source</term>
+            </term>
+          </term>Sans doute
+        faut-il rappeler que la <foreign xml:lang="spa">Casa Natal</foreign>
+        jadis délaissée fut finalement acquise par la <foreign xml:lang="spa">Diputación de <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Granada</placeName>
+          </foreign> en
+        <date type="_temp" when="1982">1982</date>, après moult abandons,
+        changements d’habitudes, de décors et d’occupants successifs, avant de
+        devenir «&#160;<foreign xml:lang="spa">espacio museístico</foreign>&#160;», sous
+        sa désignation de <hi rend="italic">
+            <foreign xml:lang="spa">Museo-Casa Natal</foreign>
+          </hi>depuis <date type="_temp" when="1986">1986</date>, avec la
+        constitution du <foreign xml:lang="spa">Patronato Cultural</foreign>
+        FGL. Précisons que ladite <foreign xml:lang="spa">Diputación</foreign>
+        inaugura en outre, le <date type="_temp" when="1998-06-05">5&#160;juin&#160;1998</date>, un <foreign xml:lang="spa">Centro de Estudios Lorquianos</foreign> à <placeName ref="6357703" type="geonames" xml:base="https://www.geonames.org/">Fuente Vaqueros</placeName>&#160;: une
+        extension régionale au service du patrimoine documentaire et
+        bibliographique à conserver, à divulguer auprès de chercheurs ou
+        d’artistes, mais surtout à sauvegarder après acquisition auprès des
+        actuels descendants, aussi réticents à son envoi que peu enclins à sa
+        transmission depuis <placeName ref="3117732" type="geonames" xml:base="https://www.geonames.org/">Madrid</placeName> vers
+        l’Andalousie, <placeName ref="6357703" type="geonames" xml:base="https://www.geonames.org/">Fuente Vaqueros</placeName> et
+        <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Grenade</placeName> en
+        particulier.</p>
+        <p xml:id="d1e93">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-raoluwcf">conflictualité</term>
+            </term>
+          </term>Une
+        preuve éloquente en serait parmi d’autres le long et coûteux conflit
+        juridico-familial ayant opposé sur des années au ministère espagnol de
+        la Culture la nièce héritière du poète <persName ref="080831400" type="idref" xml:base="https://www.idref.fr/">Laura García Lorca de
+        los Ríos</persName>, actuelle présidente de la <foreign xml:lang="spa">Fundación</foreign> portant son nom, suite à la cession
+        annoncée et restée non effective d’un «&#160;<foreign xml:lang="spa">Archivo</foreign>&#160;» de plus de 4&#160;000&#160;pièces au <foreign xml:lang="spa">Centro F.&#160;G.&#160;Lorca</foreign> de <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Grenade</placeName>, ouvert en
+        <date type="_temp" when="2015">2015</date> mais resté vide au-delà de
+        <date type="_temp" when="2018">2018</date>. Face à l’impossibilité
+        d’héberger ce legs d’une valeur unique, non sécurisé car menacé à
+        cette date d’être racheté à la famille par une université
+        nord-américaine, le ministère de la Culture et la Communauté de
+        <placeName ref="3117732" type="geonames" xml:base="https://www.geonames.org/">Madrid</placeName> s’obstinèrent,
+        <date from="2016" to="2021-04" type="_temp">de 2016 à
+        avril&#160;2021</date> (date officielle de l’accord), pour faire déclarer
+        l’ensemble «&#160;<foreign xml:lang="spa">Bien de Interés
+        Cultural</foreign>&#160;(B.I.C)&#160;», en l’inscrivant dans le <hi rend="italic">Catalogue général du patrimoine historique andalou
+        </hi>«&#160;pour en éviter la vente à l’étranger par ses propriétaires de
+        la Fondation&#160;» – ceci grâce à l’aide effective conjointe de la mairie
+        de <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Grenade</placeName>, de la Junte
+        andalouse et de la Députation.</p>
+        <p xml:id="d1e98">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>Faut-il
+        ajouter qu’en ce qui concerne le Musée-maison natale de <placeName ref="6357703" type="geonames" xml:base="https://www.geonames.org/">Fuente Vaqueros</placeName>,
+        l’alliance restée en vigueur de «&#160;<foreign xml:lang="spa">Casa
+        Natal</foreign>&#160;» et de «&#160;<foreign xml:lang="spa">Museo</foreign>&#160;»
+        aurait bien déçu le voyageur de retour chez lui, dans la froide
+        relation établie entre un hier figé dans le temps et un aujourd’hui
+        semé de signes poussiéreux – cet univers hanté de silhouettes
+        immobiles et silencieuses, de formes fixes et solitaires n’ayant
+        d’égal, au regard restauré de l’enfant curieux, inventif et débordant
+        d’imagination, que sa soif d’une liberté de mouvement et de pensée
+        créatrice jamais démentie, depuis son plus jeune âge&#160;?</p>
+        <p xml:id="d1e100">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+            </term>
+          </term>Il suffit
+        juste pour s’y glisser librement ce jour de pousser la porte, jadis
+        hermétiquement close sur les traces brouillées, présences rejetées,
+        souvenirs omis, témoignages tronqués ou faussés, dans l’effacement
+        voulu-réalisé à travers le temps du passage éclairé des hôtes
+        disparus. Issue franchie sous les pas pressés, vite offerte à la
+        curiosité après s’être enfin rouverte, grâce à sa propre clef tournée
+        le <date type="_temp" when="1986-07-29">29&#160;juillet&#160;1986</date> par la
+        sœur cadette du poète de <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Grenade</placeName>, <persName type="_temp">Isabel García Nieto</persName>, dans la serrure jusque-là
+        verrouillée à double tour <hi>(voir ill. p.&#160;55)</hi>. La benjamine
+        survivante de la famille qui, sous l’égide du <foreign xml:lang="spa">Patronato Cultural</foreign> FGL déjà cité, venait de
+        connaître la joie d’inaugurer cet ancien lieu de vie qui n’avait pas
+        été le sien dans sa jeunesse (elle avait vu le jour Acera del Darro à
+        <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Grenade</placeName> en <date type="_temp" when="1909">1909</date>, quand <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName>
+        avait onze ans), mais qui représentait à ses yeux <hi rend="italic">l’espace un </hi>qu’elle avait souhaité dédier à la
+        récupération de la mémoire si longtemps occultée de son frère aîné,
+        fusillé non loin de là, en <date type="_temp" when="1936-08">août&#160;1936</date>. Elle ignorait alors qu’y serait aussi
+        célébré, en <date type="_temp" when="2020-07">juillet&#160;2020</date>, le
+        souvenir de ce notable acte fondateur, avec la commémoration du 34<hi rend="sup">e</hi>&#160;anniversaire du <foreign xml:lang="spa">Museo-Casa
+        Natal</foreign> de <placeName ref="6357703" type="geonames" xml:base="https://www.geonames.org/">Fuente Vaqueros</placeName>. Elle
+        ne savait pas non plus qu’à cette occasion, la députée provinciale de
+        <foreign xml:lang="spa">Cultura y Memoria Histórica y
+        Democrática</foreign>, <persName ref="103289127" type="idref" xml:base="https://www.idref.fr/">Fátima Gómez</persName>, regretterait
+        son décès survenu en <date type="_temp" when="2002">2002</date>,
+        évoquant <persName type="_temp">Isabel</persName>, artisane du
+        laborieux cheminement semé d’obstacles vers la restauration du
+        précieux patrimoine ancestral, aidée de collaborateurs obstinés à
+        reconstituer l’incontournable centre d’enracinement lorquien dans la
+        terre qu’il aimait. «&#160;Toute mon enfance est village, bergers, champs,
+        soleil, solitude, simplicité en somme&#160;», avait écrit le jeune citadin
+        né une seconde fois du petit campagnard d’un avant de lui-même soudain
+        remémoré, non sans émotion ni mélancolie.</p>
+        <figure xml:id="d1e112">
+          <graphic url="https://didomena.ehess.fr/downloads/ns064f704.png"/>
+          <head xml:id="d1e113">Figure 2. Isabel, sœur de Federico Garcia
+          Loca, ouvre la porte de la Casa Museo en 1986. © et cliché Juan
+          Ferreras</head>
+        </figure>
+        <p xml:id="d1e115">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-7dh8ptmc">voyage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation</term>
+          </term>Pousser la
+        porte, oui, du domaine privé justifiant ce pèlerinage de retour à la
+        source vive de ses débuts énigmatiques, lors d’une libre déambulation
+        parmi les éléments de l’espace intime tardivement recomposé&#160;: au
+        rez-de-chaussée la salle à manger, la cuisine, les chambres et la cour
+        intérieure déserte, parcours émouvant venu résonner d’antiques
+        réminiscences vitales à restaurer. Le projet écartait donc une
+        hypothétique visite groupée chronométrée, hostile à l’envol de la
+        réalité possiblement vécue là vers l’imaginaire poétique plus tard
+        libéré par elle, lors de la rédaction secrète des pages éclairantes
+        gardées dans une ombre longtemps non dévoilée. La prise de contact
+        immédiate implique alors, avec le voyage dans le temps, la nécessaire
+        perte de conscience de son passage, seule susceptible de favoriser au
+        regard et à l’oreille du visiteur le retour de la lumineuse et sonore
+        existence d’antan&#160;; quand, dès le seuil enjambé, la disposition
+        recréée montre l’adaptation interne de la vibrante «&#160;<foreign xml:lang="spa">casa de labranza</foreign>&#160;» connue de l’enfant, aux
+        exigences du «&#160;<foreign xml:lang="spa">Museo</foreign>&#160;» susceptible
+        d’en assombrir les couleurs et d’en assourdir les notes.</p>
+        <p xml:id="d1e117">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-jp7d3sgm">pratique
+        musicale</term>
+            </term>
+          </term>Dans cette crainte, l’œil se fixe
+        d’entrée sur le piano aperçu entre deux fauteuils, en réouvre de loin
+        le clavier, puis s’en approche pour y voir courir sur les touches les
+        petites mains de l’enfant de trois ans installé par sa mère sur le
+        tabouret bleu ciel, après sa découverte du précoce talent musical de
+        son fils <hi>(voir ill. p.&#160;56)</hi>. Comme le feront sa grand-mère
+        <persName type="_temp">Isabel Rodríguez</persName>, sa «&#160;<foreign xml:lang="spa">tía Isabel</foreign>&#160;», ou sa nourrice <persName type="_temp">Dolores</persName>, l’initiant dès son jeune âge au
+        solfège, à la guitare, à la culture orale traditionnelle des berceuses
+        et des romances&#160;; avant les leçons, dès <date type="_temp" when="1908">1908</date>, de son vieux maître de musique don <persName type="_temp">Antonio de Segura</persName>, infortuné disciple de
+        <persName ref="027453308" type="idref" xml:base="https://www.idref.fr/">Verdi</persName>. Scènes rares qui
+        redonnent vie et sens aux objets posés là, donc présence aussi aux
+        portraits de l’artiste devant son instrument selon son habitude&#160;:
+        pianiste doué avant de se transformer en écrivain talentueux, son père
+        lui ayant interdit de devenir concertiste en <date type="_temp" when="1916">1916</date>, mais dont nul n’oublie que son jeu brillant
+        allait impressionner <persName ref="027273172" type="idref" xml:base="https://www.idref.fr/">Manuel de Falla</persName> à
+        <placeName ref="6357709" type="geonames" xml:base="https://www.geonames.org/">Grenade</placeName> en <date type="_temp" when="1919">1919</date>, au départ d’une longue et fidèle
+        amitié musicalement et artistiquement fructueuse (marionnettes et
+        théâtre).</p>
+        <figure xml:id="d1e122">
+          <graphic url="https://didomena.ehess.fr/downloads/0g354p87n.jpg"/>
+          <head xml:id="d1e123">Figure 3. La pièce du piano. © et clichés
+          Alfonso Alcalá</head>
+        </figure>
+        <p xml:id="d1e125">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-mrxf2lfs">conte</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>Comment
+        cependant restituer, ici la vision d’une salle à manger sonore occupée
+        par ses hôtes, là les parfums d’une cuisine lourde d’effluves
+        culinaires&#160;? En les retrouvant aux lueurs et senteurs des pages de <hi rend="italic">Mon parrain le berger&#160;: l’homme aux loups </hi>du <hi rend="italic">Il était une fois </hi>de l’enfant <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName>&#160;; à l’heure de la
+        veillée où tout agit dans l’assemblée sur le mode du récit d’histoires
+        réelles ou de contes imaginaires, le soir au coin du feu où se
+        réchauffent et restaurent quotidiennement, avant de rentrer chez eux
+        au terme d’une dure journée de labeur, les ouvriers agricoles de la
+        famille&#160;:</p>
+        <quote rend="quotation" xml:id="d1e133">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+        surnaturel</term>
+            </term>
+          </term>«&#160;Dans les nuits froides de l’hiver,
+        lorsque les rues sont des fantômes ombreux et que l’air a des allures
+        sonores de loups affamés, les valets de ferme se réunissaient sous le
+        manteau de la cheminée et entre cigarette et cigarette, ils
+        racontaient des choses qui étaient arrivées et qu’ils avaient vues… La
+        cuisine où l’on parlait était vaste, peinte à l’ocre, avec des reflets
+        bruns. Au-dessus de la cheminée brillaient le cuivre et le verre. Une
+        odeur se répandait de coing et de charcuterie en train de sécher
+        au-dessus de la flamme du foyer. Tous les employés arrivaient très
+        lentement, s’asseyaient et, avec beaucoup d’élégance, ils roulaient
+        leur cigarette, empreints d’une majestueuse solennité. Comme à cette
+        époque il n’y avait pas de lumière électrique, la cuisine était
+        éclairée par un bougeoir de quatre mèches, posé sur une table où
+        dormaient les chats. D’abord, ils parlaient des semis et des bêtes et,
+        ensuite, ils commentaient chacun leur lecture des choses, ce qui ne
+        manquait pas de piquant. Leurs sorties étaient étranges comme leurs
+        bons mots&#160;; et c’est ainsi que d’une plaisanterie inattendue à
+        l’autre, onze heures sonnaient et chacun se retirait dans son foyer
+        respectif, afin de reprendre quelques forces en vue du lever du
+        jour&#160;».</quote>
+        <p xml:id="d1e135">Or parmi eux se trouvait celui qui donne son nom et
+        son visage à cet épisode si marquant de la vie quotidienne d’hier, un
+        peu répétitive parfois, dans la maison de <placeName ref="6357703" type="geonames" xml:base="https://www.geonames.org/">Fuente
+        Vaqueros</placeName> et qu’il rend si différente par sa présence même.
+        L’auteur dresse ainsi son portrait&#160;:</p>
+        <quote rend="quotation" xml:id="d1e137">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+            </term>
+          </term>«&#160;Arrivé le
+        premier, il s’en allait le dernier et sur son visage de vieil enfant
+        il y avait une douceur et une bonté infinies. Son corps était maigre
+        et ses mains plissées comme un vieux cuir. Il était toujours habillé
+        de noir et sa tête toute blanche arborait un chapeau tout brodé de
+        sueur. Il s’asseyait tout contre l’âtre et les flammes ne se
+        reflétaient pas dans ses yeux qui semblaient morts&#160;».</quote>
+        <p xml:id="d1e139">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-8sxthmh6">montagne</term>
+            </term>
+          </term>Il était
+        originaire d’<placeName ref="2521842" type="geonames" xml:base="https://www.geonames.org/">Alomartes</placeName>, un village
+        des collines septentrionales de la Vega. En fait, il n’était pas
+        berger de son métier, même si le prosateur explique que dans sa
+        jeunesse il avait été combattre les animaux sauvages avec d’autres
+        compagnons dans les montagnes hostiles, expéditions à la source de
+        terribles histoires vraies qui donnaient au petit garçon des
+        cauchemars la nuit&#160;:</p>
+        <quote rend="quotation" xml:id="d1e141">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>«&#160;Ses
+        histoires portaient toutes sur des sujets religieux, sur les démons et
+        les saints. Parfois, il me contait des légendes de fées et de
+        princesses qui étaient sauvées par des chevaliers aux boucles dorées…
+        Mais ce que j’aimais le plus, c’était qu’il me raconte ses rencontres
+        dangereuses avec les loups lorsqu’il était jeune pâtre dans les
+        Alpujarras. Mon parrain le berger était un héros. Par une nuit sans
+        lune et à la lueur de la neige, il avait lutté contre les loups
+        jusqu’à les vaincre, sauvant ainsi un autre berger de ses
+        amis&#160;».</quote>
+        <p xml:id="d1e143">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+        Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-ognrwtyq">médecine</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-qcbhpij3">corps<term ref="doi:10.34817/sv-njzdsqjs">santé</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+            </term>
+          </term>Est-ce à
+        cette aventure hors du commun qu’il devait son surnom&#160;? Nul ne le
+        savait au juste. Fils d’un ancien employé de son père, il travaillait
+        pour lui comme intendant, vivant avec sa famille dans la rue de la
+        Trinité mais jouant souvent le rôle de conseiller dans certaines
+        décisions d’importance concernant des affaires financières, à régler
+        au mieux des intérêts de don <persName ref="17497616X" type="idref" xml:base="https://www.idref.fr/">Federico García Rodríguez</persName>.
+        Tenu en haute considération après avoir fait preuve d’une grande
+        sagesse et clairvoyance lors de l’achat d’une propriété à <placeName ref="7732930" type="geonames" xml:base="https://www.geonames.org/">Daimuz</placeName>, il jouissait
+        à la fois de la totale et amicale confiance paternelle et d’une réelle
+        affection maternelle. Car il livrait toujours des avis d’oracle,
+        mi-rebouteux mi-guérisseur, selon les heures et les besoins de
+        chacun&#160;: «&#160;Lorsqu’il parlait, tout le monde dans la cuisine faisait
+        silence et l’on n’entendait plus que le bruit des respirations. S’il
+        donnait une bonne recette pour n’importe quelle maladie, on écartait
+        l’idée d’appeler le médecin. Il possédait le secret des herbes. Avec
+        du thym et de la rose trémière, il fabriquait des onguents qui
+        calmaient la douleur&#160;». Un peu astrologue aussi, ou peut-être
+        astronome&#160;: «&#160;Il lisait dans les étoiles les pluies et les neiges
+        futures&#160;». Et le prosateur d’ajouter, pour traduire la fascination
+        exercée à l’entour&#160;: «&#160;À la maison, nous le vénérions&#160;; mon père le
+        consultait à propos de tout ce qu’il faisait et ma mère bavardait avec
+        lui durant de très longs moments des enfants et de toutes sortes de
+        sujets différents, tous savants et sacrés&#160;», insistant sur les
+        exceptionnelles qualités de ce personnage resté sans autre nom que
+        celui qui fait de lui, au fil du récit en cours, un véritable ange
+        gardien, un être spirituel à caractère christique doté de dons rares&#160;:
+        «&#160;Mon parrain le berger plein d’amour, de dignité et de sagesse&#160;».</p>
+        <p xml:id="d1e146">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+        surnaturel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-p4k7sokh">fiction</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-jp7d3sgm">pratique
+        musicale</term>
+            </term>
+          </term>Fasciné par la magie verbale venue ainsi
+        peupler son imaginaire créateur, chaque soir plus riche d’images et
+        d’échos culturels poétiques et musicaux, le <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName> de
+        la Maison natale dit avoir accumulé de la sorte «&#160;contes et cantates
+        montagnardes&#160;», au sein d’un décor personnel où le fantastique le
+        disputait sans cesse à la réalité vécue&#160;: «&#160;La cuisine s’emplissait de
+        la fumée des cigares et des bûches et les formes des gens semblaient
+        des ombres effrayantes avec les flammes… Je m’endormais bercé par mon
+        parrain le berger et j’entendais à moitié endormi sa voix qui disait
+        «&#160;Taisez-vous&#160;», avant que le bras d’un de ses fils ne m’ait soulevé
+        jusqu’à l’endroit où était ma mère qui me serrait contre son sein en
+        me couvrant de baisers&#160;». Et le lecteur comprend mieux, de ligne en
+        ligne, pourquoi l’évocation faite suscite chez l’écrivain des
+        années&#160;<date from="1916" to="1917" type="_temp">1916-17</date> le
+        retour de qu’il ressent selon ses propres termes&#160;: «&#160;une tendresse
+        intérieure qui me donne envie de pleurer&#160;», elle-même accompagnée du
+        besoin mentionné de retrouver la rare atmosphère affective qui régnait
+        en ce temps-là sur l’ensemble de la demeure&#160;: «&#160;Toutes les nuits se
+        passaient de la même façon et plus d’une fois ma mère ne me laissait
+        pas aller à la cuisine&#160;; mais lorsqu’elle avait un moment de
+        distraction ou qu’elle somnolait, je courais à la cheminée pour
+        m’endormir entre les bras de mon parrain le berger… Jusqu’au jour où
+        il ne fut plus là&#160;». Car vint l’heure où la mort avait fixé
+        rendez-vous à celui qui, héros, ange ou saint, ne pourrait plus faire
+        appel à aucun de ses divers pouvoirs pour lui échapper, cette fois,
+        quoi qu’il advînt.</p>
+        <p xml:id="d1e148">Le regard du visiteur ému quitte alors les tableaux
+        de vie qui précèdent pour se porter plus loin sur les deux chambres à
+        coucher vides, dont celle de <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName> montre un lit de
+        bébé qui fut au départ le sien. Or, entrant dans la chambre du petit
+        garçon d’hier, contiguë à celle de ses parents, ce n’est pas sur les
+        barreaux blancs protecteurs que devront se fixer ses yeux, mais sur
+        «&#160;<foreign xml:lang="spa">el andador</foreign>&#160;» de l’angle&#160;: ce <hi rend="italic">trotteur </hi>où le bébé en photo sur son cheval à
+        bascule avait ébauché ses premiers tracés maladroits, selon les récits
+        rapportant un retard de sa marche après une maladie infantile, ou les
+        séquelles d’une blessure aux jambes survenue dans sa première année,
+        épisode nié farouchement par ses actuels descendants. Certes, notre
+        poète éprouvait une légère gêne lui donnant une allure boitillante
+        s’il accélérait le pas. Une allusion indirecte en témoigne dans des
+        vers de son <hi rend="italic">Prologue </hi>(<date type="_temp" when="1920-07-24">24&#160;juillet&#160;1920</date>), où il dit vouloir
+        «&#160;Emprunter un cœur&#160;»&#160;: «&#160;Robuste, avec la grâce / D’un jeune paysan /
+        Apte à franchir d’un saut / Le fleuve&#160;»&#160;; elle est suivie de ce
+        constat exprimé dans «&#160;Madrigal d’été&#160;» (<date type="_temp" when="1920-08">août&#160;1920</date>), qui n’a rien d’un effet poétique
+        mais traduit une réalité vitale contraignante&#160;: «&#160;Ô ma gauche
+        démarche&#160;!&#160;» L’attitude un peu chaloupée notée par son frère <persName ref="032599544" type="idref" xml:base="https://www.idref.fr/">Francisco</persName> s’accompagnait
+        chez lui d’un certain manque d’agilité mal vécu, cause de sa peur
+        récurrente d’être happé par une voiture en traversant la rue, ou de
+        son hésitation à dévaler les escaliers avec ses amis dont les pages de
+        <hi rend="italic">Mes jeux </hi>se feront à leur tour l’écho bavard
+        qu’il conviendrait de développer bien davantage ici, tout en signalant
+        que <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName> contournait la
+        difficulté en dirigeant de main de maître les activités ludiques
+        organisées chez lui les jours sans classe, avant de copieux goûters
+        venus remplir de chocolat et de gâteaux l’estomac de ses amis du
+        village, souvent très pauvres, régulièrement nourris et vêtus par sa
+        mère comme le relève un peu partout l’auteur, très sensible et
+        attentif déjà à la vue de la misère généralisée autour de lui.</p>
+        <p xml:id="d1e159">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-cjmv3m7p">photographie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+            </term>
+          </term>Cette
+        évocation de l’école, peu fréquentée par <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName> et
+        renvoyant aussi à ses lignes prolixes de <hi rend="italic">Mi
+        Escuela</hi>, fait lever un instant la tête du visiteur vers le
+        grenier à grains de l’étage parfois transformé en galerie
+        d’expositions et montrant portraits, textes, ouvrages postérieurs,
+        tandis qu’y résonnent maintenant à notre oreille ces phrases de <hi rend="italic">Mes jeux&#160;:</hi> «&#160;Tous les enfants du village étaient
+        très amis avec moi et comme ma maison était très grande avec de vastes
+        chambres et greniers, ils venaient chez moi pour y jouer en ma
+        compagnie les jours où il n’y avait pas d’école&#160;»&#160;; à l’heure où s’y
+        déroule de nouveau, entre joie et frayeur, <hi rend="italic">la fable
+        de la brebis et du loup</hi>, au milieu des cris pous. sés en prose,
+        puis en vers&#160;: «&#160;Le soleil s’est couché. / […] Fillettes, dormez, le
+        loup va venir. / Les jeunes brebis bêlent&#160;». Mais la référence
+        scolaire remet aussi devant les yeux du visiteur la photographie bien
+        connue de ce petit garçon de quelque trois ans habillé avec une robe
+        de fillette (il l’était souvent dans son enfance sur son cheval de
+        bois, ou sur d’autres représentations) et coiffé d’un grand
+        chapeau-cloche en paille, assis par terre au premier rang de la file
+        «&#160;des grands&#160;» de maternelle dans la cour où le maître premier,
+        <persName type="_temp">Antonio Rodríguez Espinosa</persName> ensuite
+        muté à <placeName ref="6358500" type="geonames" xml:base="https://www.geonames.org/">Jaen</placeName>, pose avec
+        eux.</p>
+        <p xml:id="d1e170">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-gz4vv9sc">théâtre</term>
+            </term>
+          </term>Quant à la
+        vision du lit parental, elle renvoie brutalement à l’écriture de <hi rend="italic">Yerma </hi>en <date type="_temp" when="1934">1934</date>, où le dramaturge évoque sur la scène du
+        théâtre la trajectoire fatale de la femme stérile en mal d’enfant –
+        celui non né après quatorze ans d’union matrimoniale prenant peut-être
+        alors pour modèle fantasmatique l’absent bébé sans visage de
+        l’infortunée <persName type="_temp">Matilde Palacios</persName> des
+        premières noces sans fruit de son père, sur la base de cet aveu
+        impromptu rapporté en <date type="_temp" when="1928">1928</date> par
+        <hi rend="italic">La Gaceta Literaria&#160;:</hi> «&#160;Mon enfance est
+        traversée par l’obsession de quelques portraits de cette autre femme
+        qui aurait pu être ma mère, <persName type="_temp">Matilde
+        Palacios</persName>&#160;». Car partout rôdait déjà autour de lui le
+        spectre de l’invisible mort omniprésente, avec la hantise qu’elle
+        suscitait au passage, après avoir vu l’insidieuse visiteuse planer sur
+        le lit de sa chambre, puis emporter d’une pneumonie à vingt-deux mois,
+        en <date type="_temp" when="1902-05">mai&#160;190.2</date>, son premier
+        frère <persName type="_temp">Luis</persName>, le <persName type="_temp">Luisillo-Luisín</persName> de son <hi rend="italic">Épitaphe pour un oiseau </hi>dont un fragment fera le
+        deuil poétique vingt ans plus tard (<date type="_temp" when="1922">1922</date>)&#160;:</p>
+        <quote rend="quotation" xml:id="d1e181">«&#160;Adieu, bel oiseau vert. / Tu
+        dois être en les limbes. / Visite de ma part / Mon frère <persName type="_temp">Luisillo</persName> / Là-bas sur la prairie / Avec les
+        nourrissons./ Adieu, bel oiseau vert, / Si grand et si petit&#160;! / De
+        limon et narcisse / Admirable chimère&#160;!&#160;»</quote>
+        <figure xml:id="d1e183">
+          <graphic url="https://didomena.ehess.fr/downloads/gf06gb13r.jpg"/>
+          <head xml:id="d1e184">Figure 4. La cour de la maison (le patio). ©
+          et clichés Alfonso Alcalá</head>
+        </figure>
+        <figure xml:id="d1e186">
+          <graphic url="https://didomena.ehess.fr/downloads/g732dj62x.jpg"/>
+          <head xml:id="d1e187">Figure 5. La façade de la maison. © et clichés
+          Alfonso Alcalá</head>
+        </figure>
+        <p xml:id="d1e189">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+            </term>
+          </term>En sortant
+        dans le patio, en fin de visite <hi>(voir ill. p.&#160;53)</hi>, la vision
+        du seau figé dans son précaire équilibre, sur la margelle du puits
+        ombré, interroge à son tour le regard du visiteur, soudain désorienté.
+        Où sont passés les fameux arbres du jardin secret de <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName>&#160;? Où sont ces
+        peupliers d’un aveu-témoignage inspiré de <date type="_temp" when="1934">1934</date>, venus rappeler sans raison apparente la
+        présence insistante, dans la mémoire de l’homme de trente-six ans,
+        d’un événement précis, très ancien, livré à un journaliste sous la
+        forme d’une confidence inespérée, en <placeName ref="3865483" type="geonames" xml:base="https://www.geonames.org/">Argentine</placeName>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e194">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+            </term>
+          </term>«&#160;Je vais
+        vous raconter. C’est la première fois que j’en parle, parce que c’est
+        quelque chose qui n’appartient qu’à moi, quelque chose de si
+        personnel, de si intime, de si privé, que pas même moi n’ai voulu
+        l’analyser&#160;; non, jamais. Tout enfant, je vécus dans une atmosphère
+        naturelle, en pleine nature. Comme tous les enfants, j’attribuais une
+        personnalité propre à chaque chose. Je conversais avec chacune en
+        particulier, avec amour… Dans le patio de ma maison, il y avait des
+        peupliers. Un après-midi, il m’apparut que les peupliers chantaient.
+        Le vent, en passant à travers leurs branches, produisait un son aux
+        tonalités variées qui résonna en moi, musical. Et je pris l’habitude
+        de passer des heures à écouter la chanson des peupliers… Un beau soir,
+        je m’arrêtai net, stupéfait. Quelqu’un prononçait mon prénom en
+        séparant les syllabes, comme s’il épelait&#160;: “Fe…de…ri…co…” Je regardai
+        tout autour mais ne vis personne. Cependant, dans mes oreilles, mon
+        nom continuait à striduler. Après avoir écouté un long moment, j’en
+        trouvai la cause&#160;: c’étaient les branches d’un vieux peuplier qui, en
+        se frottant entre elles, produisaient un bruit monotone, plaintif, qui
+        à moi me parut être mon prénom…&#160;»</quote>
+        <p xml:id="d1e196">Nul ne le sait plus vraiment, tant le décor est
+        autre depuis ce jour inoubliable où le petit garçon du <hi rend="italic">Village tranquille </hi>avait perçu son imperceptible
+        mystère, à l’heure magique où les feuilles des ramures frôlées dans la
+        brise venaient de susurrer musicalement ses initiales d’élu, en le
+        révélant à lui-même au centre de son domaine intérieur secrètement
+        entrevu dans ses toutes premières années. Le tenace souvenir accroché
+        à son éternelle enfance tel le seau à sa corde est néanmoins là,
+        trente ans plus tard&#160;; et il y reste, inexplicablement de retour pour
+        de mystérieuses raisons d’ordre fantasmatique, parmi les impressions
+        premières, latentes, aujourd’hui restaurées à son contact, comme dans
+        notre propre mémoire de visiteur, afin d’être rétrospectivement
+        proposées à celle, également vitale, du passant attentif.</p>
+        <p xml:id="d1e201">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>Ceci
+        explique qu’en quittant le patio pour sortir de la Maison natale de
+        <placeName ref="6357703" type="geonames" xml:base="https://www.geonames.org/">Fuente Vaqueros</placeName>, ces
+        vers tardifs de «&#160;Autrement&#160;» (<hi rend="italic">Dernières
+        Chansons</hi>), résonnent dans l’air du soir en écho de départ&#160;:</p>
+        <quote rend="quotation" xml:id="d1e207">«&#160;Moi, dans mes yeux, je me
+        promène entre les branches. / Les branches se promènent en la rivière.
+        / Arrivent les choses essentielles. / Ce sont des refrains de
+        refrains. / Parmi les joncs et le jour déclinant, / Qu’il est étrange
+        que je me nomme <persName ref="027323307" type="idref" xml:base="https://www.idref.fr/">Federico</persName>&#160;!</quote>
+      </div>
+    </body>
+  </text>
+</TEI>

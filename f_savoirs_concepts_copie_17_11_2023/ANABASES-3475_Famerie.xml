@@ -1,0 +1,714 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-3475_Famerie">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Villoison et la redécouverte du dialecte
+        tsakonien</title>
+        <author role="aut">
+          <forename>Étienne</forename>
+          <surname>Famerie</surname>
+          <idno type="IDREF">032289030</idno>
+          <affiliation>Université de Liège</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/JS9X72A8" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Villoison et la redécouverte du dialecte
+            tsakonien</title>
+            <idno type="DOI">10.4000/anabases.3475</idno>
+            <author>
+              <forename>Étienne</forename>
+              <surname>Famerie</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Anabases. Traditions et réceptions de
+            l’Antiquité</title>
+            <idno type="ISSN">1774-4296</idno>
+            <imprint>
+              <biblScope unit="issue">6</biblScope>
+              <biblScope unit="page">235-248</biblScope>
+              <date>2007</date>
+              <note type="accessed">2022-07-06T08:13:18Z</note>
+              <note type="url">https://journals.openedition.org/anabases/3475</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="grc"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item/>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item/>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1500" to="1599" type="_temp">
+              <hi rend="small-caps">xvi</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1600" to="1999" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>-<hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart level="a" type="main">Villoison et la redécouverte du
+          dialecte tsakonien</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Étienne Famerie</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e163">Le nom commun <foreign xml:lang="grc">τζάκονες</foreign> (<foreign xml:lang="grc">τζέκωνες,
+        τσάκονες</foreign>) apparaît pour la première fois chez <persName ref="032474482" type="idref" xml:base="https://www.idref.fr/">Constantin Porphyrogénète</persName>
+        (<hi rend="italic">Cérém</hi>., I, p.&#160;695 Bonn), pour désigner une
+        catégorie de soldats «&#160;appauvris&#160;», incapables d’assurer les frais
+        inhérents à leur service. Le terme n’a alors aucun rapport ni avec une
+        région déterminée de l’empire byzantin, ni avec le dialecte
+        «&#160;tsakonien&#160;». Les «&#160;tsakones&#160;» sont une catégorie parmi d’autres de
+        soldats auxiliaires affectés à la garde des forteresses situées aux
+        endroits stratégiques du territoire (frontières, côtes, défilés,
+        etc.<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Sur l’institution des <hi rend="italic">tsakones,
+            </hi>cf.&#160;d’une manière générale, <hi rend="small-caps">S.C.&#160;Caratzas</hi>, <hi rend="italic">Les
+            Tzacones</hi>, Berlin, 1976.</p>
+          </note>). Même s’ils apparaissent d’abord comme des militaires
+        déclassés, ils constituent une pièce importante dans la surveillance
+        des provinces&#160;; complémentaires de la cavalerie et de l’infanterie
+        régulière, ces fantassins légers sont les mieux placés pour les
+        missions de police locale, d’observation, voire d’espionnage.
+        L’institution a aussi évolué au fil du temps&#160;: au <date from="1200" to="1299" type="_temp">
+            <hi rend="small-caps">xiii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, par exemple, le terme recouvre une
+        réalité plus large et désigne des soldats auxiliaires recrutés pour
+        compléter le système de défense, y compris dans la marine et dans la
+        garde impériale<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Selon <hi rend="small-caps">Caratzas</hi>, <hi rend="italic">o.l.</hi>, p.&#160;166-167, l’institution a dû connaître
+            un développement important sous les règnes de Constantin&#160;V
+            (770-775) et de Nicéphore Phocas&#160;I (802-811), qui ont beaucoup
+            œuvré au renforcement des fortifications des frontières, à la
+            suite, notamment, d’une vague d’immigration slave en Morée.</p>
+          </note>.</p>
+        <p xml:id="d1e198">À la fin du <date from="1500" to="1599" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, on a redécouvert en Occident
+        l’existence d’un dialecte pratiqué par des populations installées dans
+        l’est du Péloponnèse<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Le moment essentiel de cette redécouverte est l’ouvrage de <hi rend="small-caps">M.&#160;Kraus</hi> (<hi rend="small-caps">Crusius</hi>), <hi rend="italic">Turco-Graeciae
+            libri&#160;VIII</hi>, Bâle, 1584. Pour un examen des quelques
+            témoignages antérieurs (Eustathe, témoignages relatifs à la Grèce
+            sous l’empire ottoman), cf.&#160;<hi rend="small-caps">Caratzas</hi>,
+            <hi rend="italic">o.l.</hi>, p.&#160;232-239.</p>
+          </note>. Les sources de l’époque font aussi état de l’existence
+        d’une population appelée <foreign xml:lang="grc">τζάκονες</foreign> et
+        d’une région nommée <foreign xml:lang="grc">Τζακονία</foreign>, qui
+        correspond en partie à l’aire d’extension du dialecte (à l’est du mont
+        Parnon, d’<placeName ref="264670" type="geonames" xml:base="https://www.geonames.org/">Argos</placeName> au cap Malée,
+        mais aussi en Laconie, à <placeName ref="253394" type="geonames" xml:base="https://www.geonames.org/">Sparte</placeName> et <placeName ref="256886" type="geonames" xml:base="https://www.geonames.org/">Mistra</placeName>). <date from="1600" to="1999" type="_temp">Entre le <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi> et le <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, les
+        recherches se sont multipliées, sans guère se soucier de rassembler
+        tous les témoignages et sans prendre en compte la chronologie relative
+        des sources&#160;; de plus, ces recherches ont longtemps reposé sur une
+        erreur de méthode. Faute d’avoir compris le rapport qui existe entre
+        les noms communs <foreign xml:lang="grc">τζάκονες</foreign>, <foreign xml:lang="grc">τζακονία(ι)</foreign>, l’ethnique <foreign xml:lang="grc">Τζάκονες</foreign> et le nom géographique <foreign xml:lang="grc">Τζακονία</foreign>, elles se focalisaient sur
+        l’ethnique et son étymologie. L’histoire de ces recherches est
+        intéressante en soi, car elle reflète les tensions nationalistes qui
+        se sont exprimées dans les Balkans jusqu’au <date from="1900" to="1999" type="_temp">
+            <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>
+          <note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="small-caps">Caratzas</hi>, <hi rend="italic">o.l.</hi>, p.&#160;5-38, passe en revue toutes les
+            étymologies proposées.</p>
+          </note>. Je me bornerai ici à en donner une illustration.</p>
+        <p xml:id="d1e252">Des érudits slaves, se fondant sur l’assimilation
+        <hi rend="italic">
+            <foreign>Tzaconia</foreign>
+          </hi> et <hi rend="italic">
+            <foreign>Sclavonia</foreign>
+          </hi>, qu’on trouve dans des sources vénitiennes, ont tenté de
+        démontrer que le tsakonien était un dialecte slave. Mais les progrès
+        des études de phonétique historique du grec et de ses dialectes ont
+        vite montré qu’il s’agissait à coup sûr d’un parler grec aux traits
+        archaïques, proche du dorien. Dès lors, il était tentant, pour les
+        Grecs et les philhellènes, d’assimiler les <foreign xml:lang="grc">Τζάκονες</foreign> avec les <foreign xml:lang="grc">Λάκωνες</foreign> antiques. Ils avançaient notamment
+        comme argument l’origine du dialecte et son aire d’extension, la
+        Tsakonie, que les sources les plus tardives limitent à l’ancienne
+        Cynourie. Cette assimilation se heurtait cependant à de sérieuses
+        objections. D’une part, le problème était mal posé&#160;: historiquement,
+        les <foreign xml:lang="grc">τζάκονες</foreign> n’avaient pas de lien
+        exclusif avec l’est du Péloponnèse&#160;; autrement dit, les <hi rend="italic">
+            <foreign>tsakones</foreign>
+          </hi> du <date from="0900" to="0999" type="_temp">
+            <hi rend="small-caps">x</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> n’étaient
+        pas les habitants de la Tsakonie, une région dont le nom n’apparaît
+        pas avant le <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>.
+        D’autre part, l’évolution phonétique <foreign xml:lang="grc">Λάκωνες</foreign> &gt; <foreign xml:lang="grc">Τσω(λ)άκωνες</foreign> &gt; <foreign xml:lang="grc">Τζάκονες</foreign> restait sans explication
+        convaincante. On a alors proposé une autre étymologie, à partir
+        d’*<foreign xml:lang="grc">Ἐξωλάκωνες</foreign>, «&#160;Laconiens d’au delà
+        (du Parnon)&#160;». Bien que ni le terme *<foreign xml:lang="grc">Ἐξωλάκωνες</foreign>, ni la notion d’<foreign xml:lang="grc">ἔξω Λάκωνες</foreign> ne soient attestés dans aucune
+        source, l’hypothèse a eu la vie longue, agrémentée d’interprétations
+        diverses de l’élément <foreign xml:lang="grc">ἔξω</foreign>
+        («&#160;Laconiens de l’extérieur, de la campagne&#160;», «&#160;Laconiens étrangers à
+        la communauté, païens&#160;», etc.).</p>
+        <p xml:id="d1e274">
+          <persName ref="139923888" type="idref" xml:base="https://www.idref.fr/">S.C.&#160;Caratzas</persName> a, le
+        premier, abordé la question de l’étymologie sur des bases plus
+        solides. Conscient que l’explication géographique («&#160;laconienne&#160;»)
+        aboutissait à une impasse, il a recueilli l’ensemble des <hi rend="italic">
+            <foreign>testimonia</foreign>
+          </hi> et est parti de la forme la plus ancienne (le nom commun),
+        pour proposer, de façon convaincante, une autre étymologie&#160;: <foreign xml:lang="grc">διάκονες</foreign> &gt; <foreign xml:lang="grc">τζάκονες</foreign>
+          <note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>L’étymologie est mentionnée, avec d’autres, par <hi rend="small-caps">N.P.&#160;Andriotis</hi>, Ἐτυμολογικὸ λεξικὸ τῆς
+            κοινῆς νεοελληνικῆς, 3<hi rend="sup">e</hi>&#160;éd., Thessalonique,
+            1983, <hi rend="italic">s.v.</hi>&#160;Τσάκωνας.</p>
+          </note>. Le mot <foreign xml:lang="grc">διάκονος</foreign> (<foreign xml:lang="grc">διάκων</foreign>&#160;; byz.&#160;<foreign xml:lang="grc">διάκος</foreign>), déjà attesté chez <persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName> avec le sens de
+        «&#160;serviteur&#160;», s’est maintenu en grec byzantin, dans un contexte
+        profane («&#160;auxiliaire&#160;») et religieux («&#160;diacre&#160;»). Le témoignage de
+        <persName ref="032474482" type="idref" xml:base="https://www.idref.fr/">Constantin Porphyrogénète</persName>
+        fournit le <foreign xml:lang="lat">
+            <hi rend="italic">terminus ante quem</hi>
+          </foreign> (<date from="0900" to="0999" type="_temp">
+            <hi rend="small-caps">x</hi>
+            <hi rend="sup">e</hi>&#160;s.</date>) pour le
+        passage de <foreign xml:lang="grc">διάκονες</foreign> à <foreign xml:lang="grc">τζάκονες</foreign> au sens de «&#160;soldats
+        auxiliaires&#160;».</p>
+        <p xml:id="d1e307">Le terme <foreign xml:lang="grc">τζακονία</foreign>
+        désigne un «&#160;groupe de soldats auxiliaires&#160;», puis leur lieu
+        d’installation. L’empire byzantin comptait de nombreuses <foreign xml:lang="grc">τζακονίαι</foreign>, qui ont donné lieu à un grand
+        nombre de toponymes<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Cf&#160;.&#160;<hi rend="small-caps">Caratzas</hi>, <hi rend="italic">o.l.</hi>, p.&#160;281-309.</p>
+          </note>, ce qui explique en partie l’apparente confusion dans les
+        sources les plus anciennes. Le passage de <foreign xml:lang="grc">τζακονία</foreign> à <foreign xml:lang="grc">Τζακονία</foreign> pour désigner une région
+        particulière s’explique, selon <persName ref="139923888" type="idref" xml:base="https://www.idref.fr/">Caratzas</persName>, par la
+        résistance acharnée qu’ont opposée les Slaves du centre et de l’est du
+        Péloponnèse par rapport à ceux du nord, dont l’assimilation a été plus
+        rapide. En d’autres termes, la Tzaconie tirerait son nom de la
+        permanence remarquable et de l’importance des <foreign xml:lang="grc">τζακονίαι</foreign> présentes dans cette région&#160;; ainsi
+        s’explique que des sources tardives ont pu assimiler la <hi rend="italic">
+            <foreign>Tzaconia</foreign>
+          </hi> avec la <hi rend="italic">
+            <foreign>Sclavonia</foreign>
+          </hi>. En particulier, sous la domination vénitienne (<date from="1685" to="1715" type="_temp">1685-1715</date>), la Tsakonie
+        devint une des quatre entités administratives de la Morée. Elle
+        correspondait alors au territoire situé à l’est de l’Eurotas. À la
+        suite du dépeuplement de la péninsule du cap Malée, la Tsakonie s’est
+        réduite, depuis la fin du <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> au
+        moins, à une région de l’éparchie de Cynourie (entre <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Agios
+        Andreas</placeName> et <placeName ref="258500" type="geonames" xml:base="https://www.geonames.org/">Leonidio</placeName>). Elle
+        compte aujourd’hui une dizaine de villages<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Selon un recensement de 1983, le tsakonien est encore pratiqué
+            par 8500&#160;personnes environ.</p>
+          </note>.</p>
+        <p rend="break" xml:id="d1e336">*</p>
+        <p xml:id="d1e338">
+          <persName ref="029030935" type="idref" xml:base="https://www.idref.fr/">Jean-Baptiste-Gaspard d’Ansse de
+        Villoison</persName> (1750-1805) est le premier à avoir porté un
+        intérêt philologique au dialecte tsakonien. L’éditeur du célèbre<hi rend="italic"> Venetus&#160;A</hi> de l’<hi rend="italic">Iliade</hi> avait
+        été chargé de parcourir les bibliothèques de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et de
+        l’Archipel en vue d’acquérir de nouveaux manuscrits d’auteurs
+        anciens<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Sur le personnage et les circonstances de son voyage, cf.&#160;<hi rend="small-caps">É.&#160;Famerie,</hi>
+              <hi rend="italic">
+            Jean-Baptiste-Gaspard d’Ansse de Villoison. De l’Hellade à la
+            Grèce. Voyage en Grèce et au Levant (1784-1786)</hi>, Hildesheim,
+            2006. L’ouvrage contient, entre autres, l’édition <hi rend="italic">princeps</hi> du journal de voyage.</p>
+          </note>. Lors de son passage au monastère de <placeName ref="733923" type="geonames" xml:base="https://www.geonames.org/">Vatopedi</placeName> (Athos), il
+        reçoit l’information suivante&#160;:</p>
+        <quote rend="quotation" xml:id="d1e618">Le <foreign xml:lang="grc">διδάσκαλος</foreign>
+          <persName type="_temp">Josip</persName> m’avait appris qu’en Morée, dans
+        l’endroit appellé <foreign xml:lang="grc">Τζακονιά</foreign> – ce pays
+        montueux et très sain des <foreign xml:lang="grc">Ἐλευθερολάκωνες</foreign> où les femmes sont encore
+        <foreign xml:lang="grc">φαινομήριδες</foreign>
+          <note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>«&#160;Aux cuisses découvertes&#160;» (épithète appliquée par le poète
+            Ibycos aux jeunes ﬁlles de Sparte, selon <hi rend="small-caps">Plut., </hi>
+              <hi rend="italic">Comp.&#160;Lyc. et
+            Numa</hi>, 3, 6).</p>
+          </note>, où les hommes vivent cent ans sans maladie, ne meurent que
+        de vieillesse et parlent dorien mêlé avec d’italien et disent <foreign xml:lang="grc">ἔμεο</foreign> pour <foreign xml:lang="grc">ἐμοῦ</foreign>, <foreign xml:lang="grc">ἀκήκοα</foreign>, <foreign xml:lang="grc">ὕω ἀντὶ τοῦ
+        ὕδωρ</foreign>, <foreign xml:lang="grc">βόσι</foreign> [<hi rend="italic">sq.&#160;</hi>
+          <foreign xml:lang="grc">βότσ̆ἒ</foreign>]
+        <foreign xml:lang="grc">ἀντὶ τοῦ βότρυς</foreign>, etc. –, il y a sur
+        la montagne 3&#160;villages assez considérables&#160;: 1<hi rend="sup">o</hi>
+          <foreign xml:lang="grc">Πραστός</foreign>, 2<hi rend="sup">o</hi>
+          <foreign xml:lang="grc">Καστάνιτζα</foreign>, 3<hi rend="sup">o</hi>
+          <foreign xml:lang="grc">Σίτινα</foreign> [<hi rend="italic">sc.</hi>
+          <foreign xml:lang="grc">Σίταινἂ</foreign>]<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Cf.&#160;<hi rend="small-caps">Famerie</hi>,<hi rend="italic"> o.l.,
+            </hi>p.&#160;52.</p>
+          </note>.</quote>
+        <p xml:id="d1e394">Constatant que sa quête de manuscrits est un échec,
+        <persName ref="029030935" type="idref" xml:base="https://www.idref.fr/">Villoison</persName> renonce à sa
+        mission première et entreprend un voyage «&#160;archéologique&#160;» qui le
+        conduit en Grèce centrale, dans le Péloponnèse, en Attique, dans les
+        îles de l’Égée, à <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName> et à
+        <placeName ref="7522155" type="geonames" xml:base="https://www.geonames.org/">Éphèse</placeName> (<date from="1785" to="1786" type="_temp">1785-1786</date>). Philologue de
+        formation, helléniste curieux, il visite plusieurs sites, y copie des
+        inscriptions (notamment dialectales), mais s’intéresse aussi à la
+        <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> de son
+        temps.</p>
+        <p xml:id="d1e396">Au terme de son voyage, <persName ref="029030935" type="idref" xml:base="https://www.idref.fr/">Villoison</persName>
+        avait l’ambition de rédiger une étude comparée de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne et
+        moderne, un projet encyclopédique qui est resté à l’état d’ébauche, de
+        fiches pourrait-on dire, à la suite de son décès inopiné en <date type="_temp" when="1805">1805</date>
+          <note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>Les papiers de Villoison sont conservés à la BnF (<hi rend="italic">Suppl. gr.</hi>&#160;929-966, 989, soit 39&#160;volumes)&#160;:
+            cf.&#160;<hi rend="small-caps">Ch.&#160;Astruc </hi>– <hi rend="small-caps">M.-L.&#160;Concasty</hi>, <hi rend="italic">Bibliothèque Nationale. Département des manuscrits.
+            Catalogue des manuscrits grecs. Troisième partie. Le Supplément
+            grec</hi>,<hi rend="italic"/> t.&#160;III, Paris, 1960.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e767">La relation de mon voyage, que
+        je publierai un jour en plusieurs volumes, est trop étendue pour que
+        j’en puisse renfermer l’abrégé dans un seul mémoire&#160;: elle me fournira
+        une suite nombreuse de dissertations. Je ne parlerai, dans celle-ci,
+        que des inscriptions que j’ai eu le bonheur de découvrir&#160;; les autres
+        rouleront sur le mont Athos, sur le singulier genre de vie de ses
+        habitans, sur les monastères grecs, sur leurs bibliothèques, sur les
+        différens monumens que j’ai vus dans le Levant, sur la langue, les
+        mœurs, les usages, les cérémonies religieuses, les habillemens,
+        l’agriculture, le commerce, la marine, les maladies des Grecs modernes
+        comparés avec les anciens, sur les Tzaconiens, chez lesquels j’ai
+        retrouvé en partie la langue des anciens Doriens, le dialecte de
+        <persName ref="028344685" type="idref" xml:base="https://www.idref.fr/">Pindare</persName> et de <persName ref="02791433X" type="idref" xml:base="https://www.idref.fr/">Théocrite</persName>
+          <note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>Cf.&#160;<hi rend="small-caps">Famerie</hi>,<hi rend="italic"> o.l.,
+            </hi>p.&#160;124.</p>
+          </note>.</quote>
+        <p xml:id="d1e438">Le témoignage de <persName ref="029030935" type="idref" xml:base="https://www.idref.fr/">Villoison</persName> sur
+        le dialecte tsakonien est conservé dans son journal de voyage (environ
+        160&#160;mots<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>Cf.&#160;<hi rend="small-caps">Famerie</hi>, <hi rend="italic">o.l.,
+            </hi>p.&#160;229-233.</p>
+          </note>), qu’il a utilisé dans une longue note figurant dans les <hi rend="italic">Prolegomena</hi> à son édition de l’<hi rend="italic">Iliade</hi>
+          <note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>Venise, 1788, p.&#160;XLIX–L, n.&#160;1. Pour donner un aperçu de la
+            méthode de travail de Villoison, j’ai conservé, dans des notes de
+            bas de page, les références bibliographiques et les passages
+            parallèles fournis par l’auteur dans son exposé. Sur la préface en
+            général, cf.&#160;<hi rend="small-caps">Famerie</hi>, <hi rend="italic">o.l.,</hi> p.&#160;21-22.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:lang="lat">Naupliam inter &amp; Epidaurum,
+        Limeram, sive Monembasiam, vicatim in praeruptis montibus habitant
+        Tzacones, ab antiquis Laconibus oriundi. De his vide Cangium, in
+        Glossario mediae Graecitatis, voce <foreign xml:lang="grc">Τζάκωνες</foreign>, ubi declarat eos, utpote audaces ac
+        fortes, a Michaele Palaeologo Imperatore, non in militiam modo, sed
+        &amp; in custodiam Palatinam adscitos, eorum praefectum, qui <foreign xml:lang="grc">στρατοπεδάρχης τῶν Τζακώνων</foreign> dicebatur, in
+        officialium Palatinorum numerum fuisse relatum. Minime confundendi
+        sunt cum Mainotis, a Maina, prius dicta Messa, vocatis &amp; inter
+        Taygetum &amp; Messeniacum sinum collocatis. Hos <foreign xml:lang="grc">Κάστρου Μαΐνης οἰκήτορας</foreign> vocat Constantinus
+        Porphyrogenitus, <hi rend="italic">De administrando imperio,
+        </hi>c.&#160;50, p.&#160;180 ed.&#160;Meursii, ubi tradit eos originem ducere
+        <foreign xml:lang="grc">ἐκ τῶν παλαιοτέρων Ῥωμαίων</foreign>, id est,
+        ab antiquis Graecis<hi rend="italic">, </hi>
+          <foreign xml:lang="grc">διὸ καὶ μέχρι τοῦ νῦν παρὰ τῶν ἐντοπίων Ἕλληνες
+        προσαγορεύονται</foreign>. Male ibidem Meursius vertit, ab antiquis
+        Romanis<hi rend="italic">, </hi>
+          <foreign xml:lang="grc">Ῥωμαίων</foreign>&#160;; nam post Romani imperii sedem
+        translatam Constantinopolim, Graeci semper, &amp; etiam nunc hodie,
+        vocati sunt <foreign xml:lang="grc">Ῥωμαῖοι</foreign>, &amp; eorum
+        lingua <foreign xml:lang="grc">Ῥωμαϊκή</foreign>, ut distinguatur ab
+        antiqua, quam vocant <foreign xml:lang="grc">Ἑλληνικήν</foreign>.</quote>
+        <quote rend="quotation" xml:lang="lat">Tzaconum, qui multo puriorem
+        quam ipsi Mainotae servaverunt linguam, tria sunt hodie parva oppida,
+        nostris geographis &amp; itinerariorum scriptoribus ignota, Prasto
+        (forte antiqua urbs Prasiae), Kastanitza &amp; Sitina&#160;; quorum duobus
+        primis quidem 400&#160;circiter domus, tertio vero, centum comprehenduntur.
+        His adde quosdam uiculos, qui dicuntur Platanos, Karakovouni, Hagia
+        Anna, seu, ut efferunt, Haj’ Anna (Sancta Anna), Hagio-Petro, Castri,
+        &amp;c. Hi veluti Graeciae Helvetii habendi sunt, utpote boni,
+        ingenui, candidi, laboris patientes, veritatis &amp; hospitum
+        amicissimi, robusti, animosi, &amp; usque ad centum annos vitam
+        perducunt sine morbis &amp; medicis&#160;; quorum tamen unus nuper irrepsit
+        in Prasto, quod est Tzaconiae caput, &amp; in quo reperiuntur monachi
+        Graeci, quidam <foreign xml:lang="grc">διδάσκαλος</foreign>, id est,
+        litterarum Graecarum, &amp; primorum antiquae linguae grammaticae
+        elementorum magister, &amp; nonnulli mercatores, qui interdum
+        Constantinopolim negotiaturi petunt. Tzaconum mulieres procerae,
+        formosae, valentes &amp; sanae, solae fere in Graecia &amp; in toto
+        Oriente interioribus feminalibus, sive subligaculis, non
+        utuntur.</quote>
+        <quote rend="quotation" xml:lang="lat">Cum plurimis Tzaconibus in
+        Peloponneso, &amp; maxime Spartae &amp; Naupliae, collocutus sum&#160;;
+        &amp; Athenis sex hebdomadum spatio, quemdam ex iis conduxi, quo
+        suggerente, Tzaconicae linguae, sive recentis Laconicae, grammaticam
+        &amp; vocabularium a me edenda scripsi. In suis asperrimis &amp; fere
+        inaccessis montibus multas antiquas voces &amp; formas Doricas
+        caeteris Graecis recentioribus novas &amp; inauditas retinuerunt&#160;;
+        verbi gratia, dicunt <foreign xml:lang="grc">κακά</foreign> pro
+        <foreign xml:lang="grc">κακή, ἁμέρα</foreign> pro <foreign xml:lang="grc">ἡμέρα, ἑορτά, φακά, βροντά, ὁρμά</foreign>, &amp;c.&#160;;
+        dicunt <foreign xml:lang="grc">ψουχά</foreign> pro <foreign xml:lang="grc">ψυχά, γουναῖκα</foreign> pro <foreign xml:lang="grc">γυναῖκα</foreign>, &amp; sic similia<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>Sic, teste Salmasio in notis ad <hi rend="italic">Consecrationem templi in agro Herodis, </hi>p.&#160;48,
+            ed.&#160;Paris. 1619, Aeoles &amp; Lacones ου pro υ scribebant,
+            θουγάτηρ pro θυγάτηρ Aeoles<hi rend="italic">,</hi> πούανοι autem
+            pro πύανοι Lacones, &amp; καροῦα pro κάρυα, &amp; διφοῦρα pro
+            γέφυρα, &amp;c. Confer eumdem ibidem ad <hi rend="italic">Simmiae
+            Rhodii ovum, </hi>p.&#160;176, ubi Corinnae fragmentum laudat, &amp; in
+            <hi rend="italic">Commentario de Hellenistica, </hi>p.&#160;77&#160;;
+            Eustathium, p.&#160;23, t.&#160;I&#160;; fragmentum Corinnae apud Hephaestion.,
+            p.&#160;60, &amp;c.</p>
+          </note>. Tzacones fere semper O &amp; Ω in ΟΥ convertunt, &amp;
+        dicunt <foreign xml:lang="grc">κατοικοῦ</foreign> pro <foreign xml:lang="grc">κατοικῶ, δειπνοῦ</foreign> pro <foreign xml:lang="grc">δειπνῶ, ἱδροῦτα</foreign> pro <foreign xml:lang="grc">ἱδρῶτα, βουή</foreign> pro <foreign xml:lang="grc">βοή,
+        ψουρά</foreign> pro <foreign xml:lang="grc">ψωρά, ὀπίσου,
+        κάτου</foreign> pro <foreign xml:lang="grc">ὀπίσω, κάτω,
+        ὄνουμα</foreign> pro <foreign xml:lang="grc">ὄνομα, χάλκουμα</foreign>
+        pro <foreign xml:lang="grc">χάλκωμα</foreign>, &amp;c<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>Sic, observante Eustathio <hi rend="italic">ad Iliad.,
+            </hi>1.&#160;I, p.&#160;23, Iones dicebant νοῦσος pro νόσος, &amp; Euripides
+            βούτας pro βότας, &amp; οὐδός pro ὁδός, &amp; κοῦρος pro κόρος,
+            &amp;c. Sic in celeberrimo illo Sapphonis hymno, χλωροτέρα δὲ
+            πούας pro ποίας<hi rend="small-caps"/> Vossius edidit, &amp; hoc
+            Aeolum esse merito affirmavit summus ille Brunck ad hunc
+            versum&#160;12, p.&#160;137 ed.&#160;Anacreontis, Argentorati, 1786. Vide
+            Salmas., p.&#160;18 &amp;&#160;36 notar. ad <hi rend="italic">Consecration.
+            templi in agro Herodis.</hi>
+            </p>
+          </note>. Tzacones saepissime τὸ E in O vertunt, &amp; dicunt, verbi
+        gratia, <foreign xml:lang="grc">ὀχθρέ</foreign> pro ἐχθρέ, &amp;c<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>Sic Sappho apud Hephaestionem, p.&#160;24, amorem vocat γλυκύπικρον
+            ἀμάχανον ὄρπετον, pro ἑρπετόν<hi rend="small-caps">. </hi>
+            </p>
+          </note>. Fere semper τὸ T immutant in K &amp; dicunt <foreign xml:lang="grc">κρική</foreign> pro <foreign xml:lang="grc">κριτής,
+        βούκυρε</foreign> pro <foreign xml:lang="grc">βούτυρον,
+        χάρκη</foreign> pro <foreign xml:lang="grc">χάρτη</foreign>. Sic Dores
+        dicebant <foreign xml:lang="grc">ἄλλοκα</foreign>, <foreign xml:lang="grc">ὄκα, πόκα, τόκα</foreign> pro <foreign xml:lang="grc">ἄλλοτε</foreign>, &amp;c<note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>Vide Koen ad Gregor., <hi rend="italic">de dialectis,</hi>
+            p.&#160;80.</p>
+          </note>. Tzacones dicunt <foreign xml:lang="grc">ἁ, τᾶς, τᾷ, &amp;
+        τάμ</foreign> pro <foreign xml:lang="grc">τάν</foreign>, cuius plurima
+        exempla in Doricis inscriptionibus, <foreign xml:lang="grc">ὡράκαμεν</foreign>, &amp;c., &amp;c. Sed maxime
+        notandum est eos semper &amp; constantissime nominativum, ut vocativum
+        inflectere, &amp; dicere <foreign xml:lang="grc">ἄξιε, ἄλλε, πικρέ,
+        φίλε, γυμνέ, ἄρρωστε, παλαιέ, ἄγγελε, ἀετέ, χορέ, σωρέ, σιδηρέ,
+        οὐρανέ, καπνέ, δυνατέ, παρθένε</foreign>, pro <foreign xml:lang="grc">ἄξιος, ἄλλος</foreign>, &amp; in neutro <foreign xml:lang="grc">πάθε, βάρε, δάκρυε, εἴδωλε</foreign>, &amp;c., pro
+        <foreign xml:lang="grc">πάθος, δάκρυον</foreign>, &amp;c., quin &amp;
+        <foreign xml:lang="grc"> τεχνίτα, ναύτα, χωριάτα, ἐρημίτα,
+        προφήτα</foreign>, &amp;c., &amp;c., pro <foreign xml:lang="grc">τεχνίτης, ναύτης</foreign>, &amp;c., &amp;c<note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>Hinc repetenda illa Homerica forma tam frequens, &amp; quae
+            tamdiu Graecos torsit, ἱππότα Νέστωρ<hi rend="small-caps">,</hi>
+            ἱππηλάτα Πηλεύς, <hi rend="italic">Iliad., </hi>«, 125&#160;;
+            νεφεληγερέτα Ζεύς, <hi rend="italic">Iliad.,</hi> A, 511&#160;; μητί
+            ετα, <hi rend="italic">Iliad.</hi>, A, 175&#160;; ἀκάκητα, <hi rend="italic">Iliad</hi>., P,&#160;175&#160;; εὐρύοπα, <hi rend="italic">Iliad</hi>., E,&#160;265, &amp;c. Hinc Latini dixerunt
+            <hi rend="italic">poeta, planeta, cometa, &amp;</hi> c., hanc
+            formam sequuti.</p>
+          </note>. Multa veteris linguae vocabula in sermone vulgari usurpant,
+        quorum sensum alii Graeci assequi non possunt. Sic dicunt <foreign xml:lang="grc">πορεία pro στρατά</foreign>
+          <hi rend="small-caps">,
+        </hi>quam vocem recentiores ab Italorum <hi rend="italic">strada,
+        </hi>ut multas alias duxerunt, <foreign xml:lang="grc">λευκό</foreign>, <hi rend="italic">albus, </hi>pro
+        vulgari <foreign xml:lang="grc">ἀσπρός, δειλέ</foreign>, <hi rend="italic">vespera, </hi>pro δειλινόν vulgari, <foreign xml:lang="grc">κριθέ</foreign>, <hi rend="italic">hordeum, </hi>pro
+        vulgari <foreign xml:lang="grc">κριθάρι, λῆνε, <hi rend="italic">
+        torcular </hi>
+          </foreign>
+          <hi rend="italic">, </hi>pro vulgari <foreign xml:lang="grc">πατητήρι, βουκόλε </foreign>pro vulgari <foreign xml:lang="grc">βόσκε, ἄρτυμα</foreign>, <hi rend="italic">caseus,
+        </hi>pro vulgari <foreign xml:lang="grc">τυρί, κάλα</foreign>, <hi rend="italic">ligna</hi>, pro vulgari <foreign xml:lang="grc">ξύλα,
+        δέμα</foreign>, <hi rend="italic">funis</hi>, pro vulgari <foreign xml:lang="grc">σχοῖνι, ὄνε</foreign>, <hi rend="italic">asinus,
+        </hi>pro vulgari <foreign xml:lang="grc">γαΐδαρος, γάδουρι</foreign>,
+        vel <foreign xml:lang="grc">γαΐδουρι</foreign>, secundum diversa loca,
+        &amp;c., <foreign xml:lang="grc"> χώρα</foreign>, <hi rend="italic">ager</hi>, pro vulgari <foreign xml:lang="grc">χωράφι</foreign>, aut etiam <foreign xml:lang="grc">κάμπο</foreign>&#160;; apud caeteros Graecos recentiores
+        <foreign xml:lang="grc">χώρα</foreign> significat<hi rend="italic">
+        urbem, </hi>&amp; <foreign xml:lang="grc">χωρίον </foreign>
+          <hi rend="italic">pagum. </hi>Sed iam satis est exemplorum. Decimo sexto
+        saeculo Symeon Cabasilas ex civitate Graeciae Acharnania, ut ipse
+        dicit, Martino Crusio scribebat&#160;: <hi rend="italic">Adhuc ex nostris
+        illitteratis, alios Dorice, alios Attice, quosdam Aeolice, nonnullos
+        Ionice, communi denique lingua alios loquentes audias&#160;: </hi>
+          <foreign xml:lang="grc">ἔτι τῶν ἡμετέρων<hi rend="italic"/> ἰδιωτῶν
+        </foreign>(ubi <foreign xml:lang="grc">ἔτι</foreign> significat<hi rend="italic"> adhuc, </hi>non autem <hi rend="italic">insuper,
+        </hi>ut vertit Crusius, p.&#160;462 <hi rend="italic">Turco-Graeciae</hi>)
+        <hi rend="italic"/>
+          <foreign xml:lang="grc">τοὺς μὲν Δωρικῶς, τοὺς δὲ
+        Ἀττικῶς, ἄλλους Αἰολικῶς, ἑτέρους Ἰωνικῶς, πρὸς τούτοις δὲ καὶ κοινῶς,
+        φθεγγομένους εὑρήσοι τις</foreign>
+          <hi rend="small-caps">. </hi>Ego
+        vero quamvis singulas Graecae linguae recentioris varietates atque
+        immutationes sedulo notaverim in omnibus Graeciae regionibus &amp;
+        insulis, quas lustravi, nullum huc usque superesse deprehendi
+        antiquarum dialectorum vestigium nisi apud Tzaconas, de quibus haec
+        Martino Crusio, p.&#160;489 <hi rend="italic">Turco-Graeciae </hi>scribebat
+        Gerlach&#160;: <hi rend="italic">Omnes Graeci, quocumque locorum, se
+        </hi>
+          <hi rend="italic">mutuo intelligunt, exceptis Ionibus
+        </hi>(sic)<hi rend="italic"> qui in Peloponneso inter Naupliam et
+        Monembasiam 14&#160;pagos inhabitantes, antiqua lingua, sed multifariam in
+        grammaticam peccante, utuntur&#160;; qui grammatice loquentem intelligunt,
+        vulgarem vero linguam minime</hi>
+          <note n="20" place="foot" type="standard" xml:id="ftn20">
+            <p>Fallebatur igitur Salmasius, cum haec scribebat<hi rend="italic"> de Hellenistica, </hi>c.&#160;8, p.&#160;447&#160;: <hi rend="italic">Eo postremo deventum est temporis progressu, ut
+            tollerentur omnes dialectorum differentiae apud Graecos, et
+            uniformis facies Graeci sermonis per universam Graeciam
+            diffunderetur, eaque corruptissima. </hi>
+              <hi rend="italic">Si quis
+            hodie in vulgari Graeca requireret dialectorum illam
+            quadripartitam varietatem quas olim obtinuit, Iadis, Atthidis,
+            Doridis et Aeolidis, frustra esset. A multis retro saeculis ea
+            sublata et abolita linguarum discrimina constat… Graeci
+            grammatici, cum exempla referenda sunt Ionicae, aut Doricae, vel
+            Aeoliae Atticaeve dialectorum, non dicunt eas dialectos vigere in
+            Attica, Aeolide, Ionia vel Doride, nec sane poterant,
+            </hi>&amp;c., &amp;c. Iam supra observavimus nostrum interpretem
+            Venetum ad <hi rend="italic">Iliad., </hi>Ο, 536 &amp; 545, &amp;
+            P,&#160;117, Aeolicae<hi rend="italic"/> &amp; Ionicae dialectorum,
+            tamquam adhuc suo tempore, ἔτι ἕως νῦν, vigentium mentionem
+            facere. Illam prope Taurum Montem Heracleam non adivi, prope quam
+            amplum esse pagum a solis habitatum christianis Graecis, <hi rend="italic">quorum lingua vulgaris pura Graeca est</hi>,
+            adfirmat Bellonius, c.&#160;CXI <hi rend="italic">Observation.,
+            </hi>p.&#160;391 versionis Latinae editae Antuerpiae, 1589.</p>
+          </note>
+          <hi rend="italic">. </hi>
+        </quote>
+        <p xml:id="d1e1311">Malgré les nombreuses recherches dont le tsakonien
+        a fait l’objet depuis le <date from="1800" to="1899" type="_temp">
+            <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>
+          <note n="21" place="foot" type="standard" xml:id="ftn21">
+            <p>La bibliographie la plus complète est accessible sur le site
+            <ref target="http://www.tlg.uci.edu/~opoudjis/Work/tsakbib.html">http://www.tlg.uci.edu/~opoudjis/Work/tsakbib.html</ref>.
+            Quelques références historiques ou fondamentales&#160;: <hi rend="small-caps">G.&#160;Deville</hi>, <hi rend="italic">Étude du
+            dialecte tzaconien</hi>, Paris, 1866&#160;; <hi rend="small-caps">M.&#160;Deffner</hi>, Λεξικὸν τῆς Τσακωνικῆς
+            διαλέκτου, Athènes, 1923&#160;; <hi rend="small-caps">H.&#160;Pernot</hi>,
+            <hi rend="italic">Introduction à l’étude du dialecte
+            tsakonien</hi>, Paris, 1934&#160;; <hi rend="small-caps">A.P.&#160;Kostakis</hi>, Σύντομη γραμματικὴ τῆς
+            Τσακωνικῆς διαλέκτου, Athènes, 1951&#160;; <hi rend="small-caps">Id.,</hi> Λεξικό της Τσακωνικής διαλέκτου,
+            3&#160;vol., Athènes, 1986-1987.</p>
+          </note>, le témoignage de <persName ref="029030935" type="idref" xml:base="https://www.idref.fr/">Villoison</persName> est intéressant
+        à plusieurs égards.</p>
+        <p xml:id="d1e1395">Sûr de son érudition (il maîtrise la bibliographie
+        sur le sujet, dirait-on aujourd’hui), il opère de savants
+        rapprochements avec des termes dialectaux antiques et n’hésite pas à
+        critiquer le jugement de ses prédécesseurs sur le caractère
+        «&#160;barbare&#160;» du tsakonien. Pour l’helléniste, la découverte tenait du
+        miracle&#160;: le tsakonien lui paraissait sortir du fond des âges. Se
+        fondant sur <persName ref="028159969" type="idref" xml:base="https://www.idref.fr/">Pausanias</persName> (III, 21-26),
+        qui lui sert de guide de voyage, <persName ref="029030935" type="idref" xml:base="https://www.idref.fr/">Villoison</persName>
+        ébauche déjà une explication ethno-géographique du phénomène
+        tsakonien&#160;; il identifie le pays des <hi rend="italic">Tsakones
+        </hi>avec celui des anciens <foreign xml:lang="grc">Ἐλευθερολάκωνες</foreign> et tient ses habitants pour
+        les héritiers de la vieille civilisation, eux qui parlaient toujours
+        le dialecte de ses deux poètes favoris, <persName ref="028344685" type="idref" xml:base="https://www.idref.fr/">Pindare</persName> et
+        <persName ref="02791433X" type="idref" xml:base="https://www.idref.fr/">Théocrite</persName>. Il est le
+        premier à donner un nom au dialecte (<hi rend="italic">
+            <foreign xml:lang="lat">Tzaconica lingua, sive recens
+            Laconica</foreign>
+          </hi>) et annonce rien moins que l’édition d’une grammaire et d’un
+        vocabulaire du tsakonien<note n="22" place="foot" type="standard" xml:id="ftn22">
+            <p>Les projets annoncés par Villoison sont innombrables&#160;: cf.&#160;<hi rend="small-caps">Famerie</hi>, <hi rend="italic">o.l.</hi>,
+            p.&#160;12-13. Comme tant d’autres, il n’a probablement jamais été mis
+            en chantier. Hormis les quelques pages du journal, rien de tel, en
+            tout cas, ne se trouve dans ses papiers conservés à la BnF.</p>
+          </note>.</p>
+        <p xml:id="d1e1414">Il est surtout le premier à diffuser dans le monde
+        savant un échantillon significatif et commenté de mots tsakoniens
+        recueillis lors de conversations avec des locuteurs, ce qui lui cause
+        d’ailleurs un certain embarras pour noter ce qu’il entend<note n="23" place="foot" type="standard" xml:id="ftn23">
+            <p>Villoison, comme bien d’autres après lui, a été confronté à
+            l’impossibilité de noter avec précision les sons particuliers en
+            s’en tenant à l’alphabet grec traditionnel (j’adopte le système du
+            lexique de Kostakis)&#160;: ž&#160;[dj], κ̔&#160;[=&#160;κχ, <hi rend="italic">sc.&#160;</hi>kkh], λ̣&#160;[l&#160;vélaire], č&#160;[ch], τ̔&#160;[=&#160;τθ,<hi rend="italic"> sc.&#160;</hi>tth], tj&#160;[tch], τσ͂, entre [tch] et
+            [ts].</p>
+          </note>. Le choix des mots retenus dans les <hi rend="italic">Prolegomena </hi>(environ un tiers par rapport au
+        journal) visant à mettre en relief la remarquable permanence d’un
+        dialecte antique à travers le tsakonien, <persName ref="029030935" type="idref" xml:base="https://www.idref.fr/">Villoison</persName>
+        évite de mentionner des termes empruntés aux langues modernes<note n="24" place="foot" type="standard" xml:id="ftn24">
+            <p>P.&#160;ex.&#160;βελέντζες, pl. (βελέντζα &lt; turc <hi rend="italic">velence</hi>), «&#160;matelas en laine&#160;»&#160;; καζάνδι
+            (καζάντζι &lt; turc <hi rend="italic">kazandim</hi>), «&#160;profit&#160;»&#160;;
+            κάτζουλα ( κατσούλα &lt; roumain <hi rend="italic">c</hi>
+              <hi rend="italic">ă</hi>
+              <hi rend="italic">ciul</hi>
+              <hi rend="italic">ă</hi>), «&#160;chatte&#160;», etc.</p>
+          </note>&#160;; il préfère souligner la survivance de <foreign xml:lang="grc">πορεία</foreign> au lieu de <foreign xml:lang="grc">στρατά</foreign> («&#160;rue&#160;»), de <foreign xml:lang="grc">ὕδωρ</foreign> (sous la forme <foreign xml:lang="grc">ύο</foreign>) au lieu de <foreign xml:lang="grc">νερό</foreign> («&#160;eau&#160;»), etc. Les contraintes
+        typographiques ont pu aussi influencer le choix opéré<note n="25" place="foot" type="standard" xml:id="ftn25">
+            <p>Dans le journal manuscrit, la difficulté de la notation est
+            souvent contournée par le recours à des translittérations,
+            absentes de la préface&#160;: p.&#160;ex. <hi rend="italic">atche</hi>
+            (ατσ̆έ &lt; ἀδρός), «&#160;grand&#160;»&#160;; <hi rend="italic">tchati
+            </hi>(σ̆άτη &lt; θυγατέρα), «&#160;ﬁlle&#160;»&#160;; <hi rend="italic">tchou</hi> (τσ̆ου &lt; τρώγω), «&#160;je mange&#160;»,
+            etc.</p>
+          </note>.</p>
+        <p xml:id="d1e1535">Le rôle pionnier de <persName ref="029030935" type="idref" xml:base="https://www.idref.fr/">Villoison</persName>
+        dans les études tsakoniennes a été souligné à maintes reprises, mais
+        n’a guère reçu d’explication&#160;<note n="26" place="foot" type="standard" xml:id="ftn26">
+            <p>
+              <hi rend="small-caps">Deville</hi>, <hi rend="italic">o.l.</hi>, p.&#160;30&#160;; <hi rend="small-caps">C.A.&#160;Scutt</hi>, <hi rend="italic">The Tsakonian
+            Dialect</hi>, dans <hi rend="italic">
+                <hi rend="small-caps">absa</hi>
+              </hi>, 19 (1912-1913), p.&#160;140, n.&#160;40&#160;; <hi rend="small-caps">Deffner</hi>, <hi rend="italic">o.l.</hi>,
+            p.&#160;III–IV&#160;; <hi rend="small-caps">Caratzas</hi>, <hi rend="italic">o.l.,</hi> p.&#160;239-240&#160;; <hi rend="small-caps">D.G.&#160;Choupis</hi>, Ἱστορία καὶ λαογραφία τῆς
+            Καστάνιτσας, t.&#160;<hi rend="small-caps">I</hi> (Athènes, 1983),
+            p.&#160;23, 49-50.</p>
+          </note>. Il était peut-être, à son époque, l’un des seuls savants à
+        pouvoir traiter du dialecte. D’une part, ses travaux sur la langue
+        d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> (édition du lexique
+        d’<persName ref="027998568" type="idref" xml:base="https://www.idref.fr/">Apollonios Dyscole</persName>, du <hi rend="italic">Venetus&#160;A</hi> et de ses scholies), sa familiarité avec
+        des auteurs comme <persName type="_temp">Hésychios</persName> et
+        <persName type="_temp">Eustathe</persName>, sa prédilection pour
+        <persName ref="028344685" type="idref" xml:base="https://www.idref.fr/">Pindare</persName> et <persName ref="02791433X" type="idref" xml:base="https://www.idref.fr/">Théocrite</persName> avaient éveillé
+        son intérêt de philologue pour les dialectes grecs. Lors de son voyage
+        en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>, la découverte
+        d’inscriptions dialectales dans le Péloponnèse (en particulier à
+        <placeName ref="262661" type="geonames" xml:base="https://www.geonames.org/">Épidaure</placeName>) lui avait
+        montré que le dorien n’avait pas été qu’un dialecte littéraire.
+        D’autre part, ses recherches sur le grec appelé alors «&#160;vulgaire&#160;» et
+        sa maîtrise de la langue (il voyage d’ailleurs sans interprète) lui
+        avaient valu d’être le premier titulaire de la chaire de grec moderne
+        à l’École des langues orientales vivantes<note n="27" place="foot" type="standard" xml:id="ftn27">
+            <p>Cf.<hi rend="small-caps">&#160;Famerie</hi>, <hi rend="italic">o.l.</hi>, p.&#160;10-11.</p>
+          </note>. <persName ref="029030935" type="idref" xml:base="https://www.idref.fr/">Villoison</persName> était donc
+        particulièrement bien armé pour mener la première étude sur le
+        tsakonien. En cela, il était peut-être bien, selon l’expression de
+        <persName ref="032191642" type="idref" xml:base="https://www.idref.fr/">J.E.&#160;Sandys</persName>, «&#160;le dernier
+        savant de la vieille école<note n="28" place="foot" type="standard" xml:id="ftn28">
+            <p>
+              <hi rend="italic">A History of Classical Scholarship</hi>,
+            t.&#160;II<hi rend="sup">3 </hi>(Cambridge, 1921), p.&#160;398 («&#160;the last
+            scholar of the old school&#160;»).</p>
+          </note>&#160;».</p>
+        <p xml:id="d1e1632">À l’été <date type="_temp" when="2005">2005</date>, j’ai visité avec une profonde émotion les
+        trois villages mentionnés par <persName ref="029030935" type="idref" xml:base="https://www.idref.fr/">Villoison</persName>, <placeName ref="254704" type="geonames" xml:base="https://www.geonames.org/">Prastos</placeName>, <placeName ref="260820" type="geonames" xml:base="https://www.geonames.org/">Kastanitsa</placeName> et
+        <placeName ref="12042167" type="geonames" xml:base="https://www.geonames.org/">Sitena</placeName>, tenant en
+        main l’édition alors en préparation du journal inédit de l’helléniste.
+        J’étais accompagné d’un ami athénien qui ignorait tout du tsakonien.
+        Je n’oublierai jamais la stupéfaction et le bonheur des gens,
+        m’entendant balbutier des mots dont j’avais précisé qu’ils avaient été
+        recueillis à la fin du <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, des
+        mots qui étaient toujours en usage et que mon ami athénien se faisait
+        aussitôt traduire dans ce qu’il appelait «&#160;sa&#160;» langue, le grec
+        commun.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

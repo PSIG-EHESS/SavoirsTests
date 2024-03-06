@@ -1,0 +1,876 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-10-16T10:00:40.942+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_21_Barbier.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La bibliothèque en Occident&#160;: esthétique de la
+        destruction</title>
+        <author role="aut">
+          <forename>Frédéric</forename>
+          <surname>Barbier</surname>
+          <idno type="IDREF">026704560</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/6ZDV42NM" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">La bibliothèque en Occident&#160;: esthétique de la
+            destruction</title>
+            <author>
+              <forename>Frédéric</forename>
+              <surname>Barbier</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">21</biblScope>
+              <biblScope unit="page">8-17</biblScope>
+              <date>2020</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="ita"/>
+        <language ident="grc"/>
+        <language ident="lat"/>
+        <language ident="por"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+          religions</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2264397" type="geonames" xml:base="https://www.geonames.org/">Portugal</placeName>
+          </term>
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+          <term>
+            <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          </term>
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T11:57:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">La bibliothèque en
+          Occident&#160;: esthétique de la destruction</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Frédéric Barbier</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Directeur de recherche (ém.) au CNRS,
+          directeur d’études (ém.) à l’EPHE</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e45">
+          <graphic url="https://didomena.ehess.fr/downloads/3197xv899.jpg"/>
+          <head xml:id="d1e46">Figure 1. La Bibliotheca Esterhaziana d’Eger
+          (Erlau, Hongrie). Détail de la fresque mettant en scène la session
+          du concile de Trente au cours de laquelle est décidée la création de
+          l’<hi rend="italic">Index</hi>. Le rayon de feu précipite les livres
+          interdits dans le brasier infernal. Cliché Frédéric Barbier</head>
+        </figure>
+        <p xml:id="d1e51">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+        religions</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-gzwcg9hi">peintre</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-qm2ezej3">peinture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-kpbl3dgr">bureau</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>Entrons
+        dans une ancienne bibliothèque tout particulièrement célèbre&#160;: au
+        palais du <placeName ref="11002475" type="geonames" xml:base="https://www.geonames.org/">Vatican</placeName>, la pièce
+        servant de bibliothèque et de cabinet de travail à <persName ref="027528081" type="idref" xml:base="https://www.idref.fr/">Jules&#160;II</persName> (<date from="1503" to="1513" type="_temp">1503-1513</date>) s’insère dans une
+        suite de «&#160;chambres&#160;» (<foreign>stanze</foreign>) dont la décoration à
+        fresque a été confiée à <persName ref="027608956" type="idref" xml:base="https://www.idref.fr/">Raphaël</persName>, alors âgé de
+        vingt-cinq ans. Imprégné par les doctrines néo-platoniciennes, le
+        choix des motifs de cette «&#160;<foreign xml:lang="ita">Stanza della
+        Signatura</foreign>&#160;» a probablement été fait par le pape et par ses
+        familiers&#160;: il s’agit d’une mise en scène de la cosmogonie humaniste
+        et chrétienne, articulant l’ordre du monde et celui de la
+        connaissance. Sur les deux grandes parois, deux fresques&#160;: d’un côté,
+        <hi rend="italic">L’École d’Athènes </hi>symbolise la culture léguée
+        par l’<date type="_temp">Antiquité classique</date> (<foreign xml:lang="grc">παιδεία</foreign>, <foreign xml:lang="lat">humanitas</foreign>) et ranimée par le mouvement de
+        l’humanisme&#160;; en regard, la <hi rend="italic">Dispute du Saint
+        Sacrement </hi>célèbre le mystère de l’Eucharistie. La connaissance
+        scientifique est couronnée par la théologie.</p>
+        <p xml:id="d1e59">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+        religions</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-kvhruup4">esthétique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu</term>
+          </term>Pour le souverain
+        pontife, comme pour son entourage et pour les artistes qu’ils
+        commanditent, la bibliothèque, que la pièce est destinée à accueillir,
+        fonctionne comme le réceptacle du savoir. Elle substitue l’ordre au
+        chaos, sous la figure tutélaire du dieu de la lumière et de la beauté,
+        des arts et des sciences, <persName ref="027476537" type="idref" xml:base="https://www.idref.fr/">Apollon Musagète</persName>. Sur le
+        petit côté de la «&#160;<foreign xml:lang="ita">stanza</foreign>&#160;», le dieu
+        trône au centre du Parnasse, entouré de ses filles les Muses et
+        accompagné de figures de grands auteurs de l’<date type="_temp">Antiquité</date> ou de l’humanisme. Dans le programme
+        iconographique mis en œuvre par <persName ref="027608956" type="idref" xml:base="https://www.idref.fr/">Raphaël</persName>, le Parnasse
+        symbolise la Beauté, qui fait face à la quatrième fresque, celle du
+        Bien, avec les figures des vertus théologales et cardinales.</p>
+        <p xml:id="d1e61">L’ordre de la bibliothèque n’échappe pourtant pas
+        aux aléas de la condition humaine, à travers mutations et, parfois,
+        destructions. La question que nous poserons est celle d’éclairer les
+        voies d’une herméneutique de la bibliothèque et de la culture savante,
+        entre le modèle de pérennité idéale de <persName ref="027528081" type="idref" xml:base="https://www.idref.fr/">Jules&#160;II</persName> et
+        les avatars de l’Histoire. Nous la développerons en quatre points.</p>
+        <p xml:id="d1e63">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hdhvjrsv">sanctuaire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-jrjkvlca">théorie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-sdqfysab">intellectuel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-jdb3nyag">temps</term>
+            </term>
+          </term>1&#160;— Épiphanie
+        de l’ordonnancement universel en même temps que son artefact sous
+        forme d’un monde de papier, la bibliothèque ne fonctionne pas sur le
+        seul plan intellectuel, mais aussi en tant qu’institution symbolique
+        du pouvoir. Le pouvoir est le garant d’un certain ordre dont la
+        bibliothèque exprime la théorie et renvoie le reflet&#160;: par suite, elle
+        constitue une catégorie, qui devra faire l’objet d’une
+        contextualisation en fonction des configurations de toutes sortes,
+        fondatrices, à chaque époque, de l’intelligibilité possible. Dans
+        l’<date type="_temp">Antiquité</date>, la religion occupe tout
+        l’espace social, dont chaque composante (y compris celle du pouvoir) a
+        une dimension religieuse. Comme on le sait, les bibliothèques sont
+        alors le plus souvent intégrées à des sanctuaires, selon un dispositif
+        qui perdurera à l’<date type="_temp">époque médiévale</date>, qu’il
+        s’agisse des institutions religieuses séculières (les cathédrales et
+        leurs chapitres) ou régulières (les abbayes et monastères). Sur le
+        plan statistique, la théologie constitue toujours, et de loin, la
+        composante dominante dans les collections de «&#160;codices&#160;» rassemblées
+        jusqu’au <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>&#160;siècle</date>.</p>
+        <p xml:id="d1e68">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+        religions</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+        intellectuelle</term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>Les
+        voies de la sécularisation sont très complexes et le phénomène se
+        déploie dans le plus long terme&#160;: à partir du <date from="1000" to="1099" type="_temp">11<hi rend="sup">e</hi>&#160;siècle</date>,
+        l’exclusivité exercée par l’Église sur la civilisation écrite commence
+        à être battue en brèche. Avec le «&#160;<foreign xml:lang="ita">Rinascimento</foreign>&#160;», c’est la canonisation d’une
+        structure double articulant, d’un côté, la Révélation et le domaine de
+        la théologie, et de l’autre les savoirs profanes&#160;: ce dispositif
+        organise la topographie des nouvelles bibliothèques, comme la
+        Malatestiana à <placeName ref="6541838" type="geonames" xml:base="https://www.geonames.org/">Cesena</placeName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>
+              <hi rend="italic">Malatesta novello magnifico signore&#160;: arte e
+            cultura di un principe del Rinascimento</hi>, dir. Pier Giorgio
+            Pasini, Cesena, Biblioteca Malatestiana&#160;; Bologna, Minerva
+            Edizioni, 2002</p>
+          </note>. Pourtant, même s’il est engagé de longue date, le mouvement
+        de reconfiguration n’aboutit pleinement qu’à l’<date type="_temp">époque des Lumières</date>, quand <persName ref="026890305" type="idref" xml:base="https://www.idref.fr/">Edward
+        Gibbon</persName> peut expliquer, en <date type="_temp" when="1776">1776</date>, le déclin de la <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>
+        antique par la conjonction des deux événements, le «&#160;triomphe de la
+        religion et [celui] de la barbarie&#160;» face à la civilisation
+        classique<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Une nouvelle traduction de Gibbon est donnée par Guizot à
+            partir de 1819<hi rend="italic">&#160;</hi>: Édouard Gibbon, Histoire
+            de la décadence et de la chute de l’Empire romain, trad. François
+            Guizot, Paris, Lefèvre, 1819, 13<hi rend="italic">&#160;</hi>vol.</p>
+          </note>.</p>
+        <p xml:id="d1e90">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+        Terre et de l’Univers<term ref="doi:10.34817/sv-o4gbygyd">astrophysique<term ref="doi:10.34817/sv-z68mcrvu">cosmologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>2&#160;— La
+        bibliothèque n’est dès lors plus cette chambre noire projetant l’image
+        de l’univers, pour devenir une entité historique qui fonctionne comme
+        élément et enjeu de tensions qui la dépassent. Cette institution, que
+        l’on croyait destinée à conserver dans le plus long terme le legs de
+        la culture, s’intègre dans un environnement historique en constante
+        mutation&#160;: par suite, elle ne saurait échapper au risque de désordre,
+        d’altération, voire de destruction. Les modèles de déconstruction
+        peuvent être déclinés en trois types majeurs, qui vont de la
+        confiscation ou de la saisie à la destruction concertée et à la
+        destruction de hasard<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Fernando Báez, <hi rend="italic">Storia universale della
+            distruzione dei libri. Dalle tavolette sumere alla guerra in
+            Iraq</hi>, trad.&#160;it., préf. Marino Sinibaldi, Roma, Viella, 2007
+            («&#160;La storia. Temi&#160;», 4)</p>
+          </note>&#160;: nous les passerons ici brièvement en revue.</p>
+        <p xml:id="d1e99">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+            </term>
+          </term>La
+        bibliothèque associe valeur marchande et valeur symbolique, et elle
+        fait à ce titre l’objet de longue date de processus d’appropriation
+        parfois violents. Les exemples sont connus, depuis celui de <persName ref="168849429" type="idref" xml:base="https://www.idref.fr/">Paul
+        Émile</persName> saisissant à titre de butin, après <placeName ref="734651" type="geonames" xml:base="https://www.geonames.org/">Pydna</placeName> (<date type="_temp" when="-0168">168&#160;av.&#160;J.-C.</date>), la bibliothèque du
+        roi de <placeName ref="8378517" type="geonames" xml:base="https://www.geonames.org/">Macédoine</placeName> pour la
+        faire expédier à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>. Bien plus tard,
+        la bibliothèque de <persName ref="027285677" type="idref" xml:base="https://www.idref.fr/">Charles&#160;V</persName> passera au
+        régent anglais <persName ref="033334145" type="idref" xml:base="https://www.idref.fr/">Bedford</persName>, quand les
+        bibliothèques de <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName> et de
+        <placeName ref="6541854" type="geonames" xml:base="https://www.geonames.org/">Pavie</placeName> seront
+        expédiées à <placeName ref="6452286" type="geonames" xml:base="https://www.geonames.org/">Amboise</placeName> et à
+        <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName> et que la
+        somptueuse Palatina de <placeName ref="6555638" type="geonames" xml:base="https://www.geonames.org/">Heidelberg</placeName> sera
+        confisquée au profit du pape<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Frédéric Barbier, «&#160;Les bibliothèques et la guerre de Trente
+            Ans&#160;», in <hi rend="italic">Bibliothèques et lecteurs dans
+            l’Europe moderne (XVII</hi>
+              <hi rend="sup italic">e</hi>
+              <hi rend="italic">-XVIII</hi>
+              <hi rend="sup italic">e</hi>
+              <hi rend="italic">&#160;siècles)</hi>, Genève, Droz, 2016, p.&#160;29-49
+            («&#160;Bibliothèque des Lumières&#160;», LXXXVIII)</p>
+          </note>. S’emparer d’une bibliothèque constitue, certes, une
+        reconnaissance de sa valeur marchande comme symbolique&#160;: ne croyons
+        pourtant pas que ces déplacements et autres dévolutions soient sans
+        danger pour les collections. Tous les exemplaires ne sont pas
+        conservés, certains sont détruits, d’autres se perdent, comme le
+        montre le cas de la bibliothèque Sforza transportée à <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName>.</p>
+        <p xml:id="d1e116">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des savoirs<term ref="doi:10.34817/sv-zg4q6k55">confiscation</term>
+            </term>
+          </term>En
+        <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, les désordres
+        et l’incertitude administrative provoquent, sous la <date from="1789" to="1799" type="_temp">Révolution</date>, des pertes peut-être aussi
+        considérables que les destructions concertées elles-mêmes&#160;: la
+        confiscation des anciennes bibliothèques ecclésiastiques dans nombre
+        de petites villes entraîne leur abandon, parce que personne n’a plus
+        les compétences pour en assurer la gestion et la conservation. Les
+        déplacements des fonds provoquent toujours des pertes, même si
+        celles-ci sont difficiles, sinon impossibles à évaluer<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Frédéric Barbier, «&#160;En France, les bibliothèques en
+            révolution&#160;: abandonner, aménager, construire, 1789-années&#160;1830&#160;»,
+            in <hi rend="italic">bibliothèques décors années 1780-années
+            2000&#160;: nationalités, historicisme, transferts</hi>, dir.&#160;Frédéric
+            Barbier, Andrea De Pasquale, István Monok, Budapest, Bibliothèque
+            de l’Académie hongroise des sciences&#160;; Rome, Bibliothèque
+            nationale centrale, 2019, p.&#160;13-30</p>
+          </note>. Même les exemplaires très précieux seront parfois
+        dénaturés&#160;: sous le <date from="1804" to="1815" type="_temp">Premier
+        Empire</date>, beaucoup de livres saisis à l’étranger perdent leur
+        reliure d’origine (et leurs feuillets de tête), pour une reliure
+        impériale néo-classique. Retenons le fait&#160;: le déplacement d’une
+        bibliothèque est à l’origine d’une déconstruction de l’ordre des
+        livres, et donc d’une perte d’identité et de sens. C’est le cas, par
+        exemple, pour la première bibliothèque du <persName ref="027400646" type="idref" xml:base="https://www.idref.fr/">cardinal
+        Mazarin</persName>, saisie et vendue aux enchères, sur ordre du
+        Parlement, en <date type="_temp" when="1652">1652</date>&#160;: nombre
+        d’exemplaires sont conservés ici ou là, mais la bibliothèque en tant
+        qu’entité organique a irrémédiablement disparu.</p>
+        <figure xml:id="d1e125">
+          <graphic url="https://didomena.ehess.fr/downloads/kh04dz45c.jpg"/>
+          <head xml:id="d1e126">Figure 2. Procès-verbal de saisie d’ouvrages
+          manuscrits et imprimés à la Bibliothèque capitulaire de Vérone,
+          27&#160;floréal&#160;an&#160;V (16&#160;mai&#160;1797). Droits réservés</head>
+        </figure>
+        <p xml:id="d1e128">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+        savoirs</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+            </term>
+          </term>Nous
+        restons dans l’ordre de la destruction consciente avec notre second
+        type, d’autant plus frappant qu’il correspond souvent à une mise en
+        scène&#160;: il s’agit de la destruction volontaire, perpétrée pour des
+        motifs d’ordre religieux ou politique. Paradoxalement, ce cas de
+        figure semble moins fréquent que d’autres, même si son retentissement
+        est considérable. La destruction, souvent ponctuelle, vise à répondre
+        à une situation que l’on estime scandaleuse, et à rétablir l’ordre en
+        place du chaos. Les brûlements publics de livres se multiplient avec
+        la révolution gutenbergienne, plus encore avec l’exacerbation des
+        luttes religieuses, soit depuis les deux dernières décennies du <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>&#160;siècle</date> jusqu’à la promulgation de l’<hi rend="italic">Index librorum prohibitorum </hi>à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>. Au demeurant,
+        le rite magique de la purification par le feu est pratiqué aussi bien
+        par les catholiques que par leurs adversaires&#160;: alors que les
+        propositions de <persName ref="026998416" type="idref" xml:base="https://www.idref.fr/">Luther</persName> sont condamnées par
+        la bulle <hi rend="italic">Exsurge Domine </hi>(<date type="_temp" when="1520-06-15">15&#160;juin&#160;1520</date>) et que des exemplaires d’œuvres
+        du Réformateur sont brûlés à <placeName ref="3024280" type="geonames" xml:base="https://www.geonames.org/">Cologne</placeName> et à
+        <placeName ref="2792482" type="geonames" xml:base="https://www.geonames.org/">Louvain</placeName>, <persName ref="026998416" type="idref" xml:base="https://www.idref.fr/">Luther</persName> répond en brûlant
+        publiquement la bulle pontificale à <placeName ref="2807348" type="geonames" xml:base="https://www.geonames.org/">Wittenberg</placeName>, et en
+        publiant à son tour la condamnation de ses adversaires<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>
+              <hi rend="italic">Warumb des Bapst vñ seyner || Jungern bucher
+            võ Doc. || Martino Luther || vorbrant. || sein. || Lasz auch
+            antzeygen wer do || will warumb sie Doct. || Luthers bucher vor&#160;=
+            || brennet haben. || Wittenbergk. || D.M.L.</hi>, Leipzig,
+            Valentin Schumann, 1520 (VD16, L 7362). Cf. <hi rend="italic">Bilder und Bildersturm im Spätmittelalter und in der
+            frühen Neuzeit</hi>, éd<hi rend="italic">.&#160;</hi>B.&#160;Scribner,
+            Wiesbaden, Harrasowitz, 1990 («&#160;Wolfenbütteler Forschungen&#160;»,
+            46).</p>
+          </note>.</p>
+        <p xml:id="d1e153">Cependant, les destructions systématiques, non pas
+        d’exemplaires, mais de bibliothèques pour motifs parfois politiques et
+        surtout religieux restent en définitive relativement rares.</p>
+        <figure xml:id="d1e155">
+          <graphic url="https://didomena.ehess.fr/downloads/m326m977f.jpg"/>
+          <head xml:id="d1e156">Figure 3. Le Temple Neuf en ruines après le
+          bombardement du 24&#160;août&#160;1870&#160;; copie récente d’une photographie de
+          1870 de Charles Winter (coll.&#160;BNU). Clichés Jean-Pierre Rosenkranz.
+          CC-BY-NC-SA</head>
+        </figure>
+        <figure xml:id="d1e160">
+          <graphic url="https://didomena.ehess.fr/downloads/st74d0208.jpg"/>
+          <head xml:id="d1e161">Figure 4. La bibliothèque de la Ville de Tours
+          après l’incendie du 19&#160;juin&#160;1940 (coll.&#160;Bibliothèque municipale de
+          Tours). Cliché Bibliothèque municipale de Tours</head>
+        </figure>
+        <p xml:id="d1e165">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+            </term>
+          </term>3&#160;— Le
+        troisième modèle est celui de la destruction de hasard, dont l’exemple
+        «&#160;idéaltypique&#160;» nous est donné par la catastrophe de <placeName ref="6458923" type="geonames" xml:base="https://www.geonames.org/">Lisbonne</placeName>. Dans la
+        matinée du <date type="_temp" when="1755-11-01">1<hi rend="sup">er</hi>&#160;novembre&#160;1755</date> en effet, un puissant
+        tremblement de terre se produit à proximité de l’embouchure du Tage&#160;:
+        la capitale portugaise est très largement détruite, et des milliers
+        d’habitants se rassemblent près du fleuve pour échapper à
+        l’écroulement des immeubles et aux incendies. Mais le séisme est suivi
+        d’un gigantesque tsunami qui écrase toute la ville basse, tandis que
+        les bâtiments plus en hauteur sont plusieurs jours durant la proie des
+        flammes&#160;: on comptera plusieurs dizaines de milliers de morts. Parmi
+        les destructions figure le palais royal, au bord du fleuve, à
+        l’emplacement du <foreign xml:lang="por">Terreiro do Paço</foreign>
+        (terrasse du Palais, l’actuelle place du Commerce)<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Miguel Figueira da Faria, «&#160;Lisbonne&#160;: la Place royale du
+            commerce&#160;», in <hi rend="italic">Nancy et l’Europe urbaine au
+            siècle des Lumières, 17201770</hi>, dir. Alexandre Gady,
+            Jean-Marie Pérouse de Montclos, Nancy, Art Lys Éd., 2005,
+            p.&#160;236-241. L’auteur reproduit un détail de la <hi rend="italic">Vue de Lisbonne avant le tremblement de terre</hi>,
+            donnée par Le Rouge en 1756. La famille royale, absente lors de la
+            catastrophe, devra un temps «&#160;coucher dans des carosses&#160;» [sic]
+            (<hi rend="italic">Relation d’une lettre arrivée de Madrid, qui
+            confirme le tremblement de terre arrivé dans l’Espagne et en
+            Portugal le premier novembre 1755</hi>, [s.&#160;l., s.&#160;n., 1755]).</p>
+          </note>, avec ses collections d’art, ses archives… et la
+        bibliothèque royale (<foreign xml:lang="por">Livraria Real</foreign>),
+        dont on évalue la richesse, au milieu du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>, à quelque
+        70&#160;000&#160;titres<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>La bibliothèque de Lisbonne avait été tout particulièrement
+            enrichie sous le règne de Jean&#160;V (1707-1750), aidé de
+            l’ambassadeur-comte de Tarouca. Voir, pour les estampes&#160;: <hi rend="italic">Collection d’estampes de Jean&#160;V, roi de
+            Portugal</hi>, Lisboa, Fondation Calouste Gulbenkian, Casa de
+            Bragança&#160;; Paris, Bibliothèque nationale de France, 2004.</p>
+          </note>.</p>
+        <figure xml:id="d1e193">
+          <graphic url="https://didomena.ehess.fr/downloads/np193j67k.jpg"/>
+          <head xml:id="d1e194">Figure 5. Lisbonne s’effondre lors du
+          tremblement de terre de 1755. Gravure tirée de la carte dressée par
+          Matthäus Seutter&#160;: <hi rend="italic">Lisabona magnificentissima
+          regia sedes Portugalliae et florentissimum emporium ad ostia Tagi
+          situm (</hi>Augsburg, Tobias Conrad Lotter, [1760&#160;?]&#160;; coll. BNU).
+          Clichés Jean-Pierre Rosenkranz. CC-BY-NC-SA</head>
+        </figure>
+        <p xml:id="d1e200">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hdhvjrsv">sanctuaire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>Même si
+        les informations venues du <placeName ref="2264397" type="geonames" xml:base="https://www.geonames.org/">Portugal</placeName> sont
+        toujours très insuffisantes<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>Florence Boulerie, «&#160;Dire le désastre de Lisbonne dans la
+            presse française, 1755-1757&#160;», in <hi rend="italic">Lumières</hi>,
+            6&#160;(2005), p.&#160;59-77</p>
+          </note>, la nouvelle de la destruction de <placeName ref="6458923" type="geonames" xml:base="https://www.geonames.org/">Lisbonne</placeName>, capitale
+        d’un royaume ancien et d’un empire ultramarin immense, agite en
+        profondeur le «&#160;petit monde&#160;» des intellectuels européens&#160;: comment
+        expliquer une catastrophe d’une telle ampleur, dans un État considéré
+        comme très croyant et où l’Église catholique bénéficie d’un statut
+        privilégié, qui plus est un jour de Toussaint, et à l’heure
+        d’affluence dans les sanctuaires&#160;? L’argument d’autorité établit que
+        la Création tend vers un but connu de Dieu, et dès lors le caractère
+        fortuit de la catastrophe relève du scandale. <persName ref="027190099" type="idref" xml:base="https://www.idref.fr/">Voltaire</persName>, à l’inverse,
+        reprend l’argument de raison&#160;: «&#160;Direz-vous, en voyant cet amas de
+        victimes&#160;: / Dieu s’est vengé, leur mort est le prix de leurs
+        crimes&#160;?&#160;»</p>
+        <p xml:id="d1e209">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>De
+        <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> à <placeName ref="6458923" type="geonames" xml:base="https://www.geonames.org/">Lisbonne</placeName>, la
+        destruction d’une bibliothèque<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Ou, paradoxalement, sa conservation dans le cas de Pompéi.</p>
+          </note> par suite d’une éruption ou d’un tremblement de terre est
+        spectaculaire, mais très rare, quand les incendies ou, parfois, les
+        inondations sont beaucoup plus fréquents. Balisons simplement les
+        faits, à travers quelques événements qui ont marqué la mémoire
+        collective au fil du <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date>. Le <date type="_temp" when="1904-01-26">26&#160;janvier&#160;1904</date>, la Bibliothèque nationale et
+        universitaire de <placeName ref="3165523" type="geonames" xml:base="https://www.geonames.org/">Turin</placeName> est largement
+        détruite par un incendie&#160;: plus de 4&#160;000&#160;manuscrits, 1&#160;100&#160;incunables
+        et 600&#160;éditions aldines disparaissent, outre une collection d’estampes
+        et un exceptionnel fonds hébraïque.</p>
+        <quote rend="quotation" xml:id="d1e217">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+        éditoriale</term>
+            </term>
+          </term>«&#160;C’est sur les manuscrits que le fléau
+        semble s’être abattu avec le plus de violence. Les livres, on pourra
+        en retrouver d’autres exemplaires, surtout si la solidarité
+        scientifique internationale dont, par la voix de Monsieur <persName ref="027026779" type="idref" xml:base="https://www.idref.fr/">Paul
+        Meyer</persName>, l’Académie des Inscriptions et Belles-Lettres
+        entendit une généreuse manifestation à la séance du <date type="_temp" when="1904-01-29">29&#160;janvier</date>
+          <note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>Cf. <hi rend="italic">CRAIB</hi>, 48&#160;(1904), p.&#160;31-32</p>
+          </note>, peut trouver les moyens de s’exercer. La perte des
+        incunables et des estampes n’est peut-être pas irrémédiable, encore
+        qu’il soit a priori évident que certaines planches et certains
+        exemplaires aient été représentés à <placeName ref="3165523" type="geonames" xml:base="https://www.geonames.org/">Turin</placeName>
+        seulement. Celle des manuscrits l’est tout à fait…&#160;»<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>Georges Bourgin, «&#160;L’incendie de la Bibliothèque nationale et
+            universitaire de Turin&#160;», in <hi rend="italic">BEC</hi>,
+            65&#160;(1904), p.&#160;132-140</p>
+          </note>
+        </quote>
+        <p xml:id="d1e232">Chacun a encore en mémoire les conséquences
+        catastrophiques de l’«&#160;<foreign xml:lang="ita">alluvione</foreign>&#160;»
+        de l’Arno à <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>, le <date type="_temp" when="1966-11-04">4&#160;novembre&#160;1966</date>&#160;: la
+        Bibliothèque nationale est proche du fleuve, et les pertes y sont
+        gigantesques, même en tenant compte des longues campagnes de
+        restauration bientôt engagées (voir à ce sujet l’article de <persName ref="029687896" type="idref" xml:base="https://www.idref.fr/">Carlo
+        Federici</persName> p.&#160;26). Au demeurant, les dommages entraînés par
+        l’eau se rencontrent aussi lors d’incendies, par suite de
+        l’intervention des pompiers&#160;: c’est le cas à la Bibliothèque Anna
+        Amalia de <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, où l’incendie
+        du <date type="_temp" when="2004-09-02">2&#160;septembre&#160;2004</date>
+        détruit 40 à 50&#160;000&#160;volumes, mais où un nombre équivalent est
+        également atteint par le contact de l’eau.</p>
+        <p xml:id="d1e234">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+            </term>
+          </term>Un cas de
+        figure différent intéresse au premier chef la Bibliothèque nationale
+        et universitaire de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>&#160;: il
+        s’agit de la destruction fortuite survenue par suite de troubles
+        politiques ou d’événements militaires<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>Ou, plus rarement, politiques, comme dans le cas de la
+            bibliothèque de l’université de Bucarest en 1989.</p>
+          </note>. La richissime bibliothèque du Temple Neuf est en effet
+        complètement détruite lors du bombardement allemand du <date type="_temp" when="1870-08-24">24&#160;août&#160;1870</date> – et la polémique
+        ne tarde pas à se déployer, entre ceux qui dénoncent le bombardement
+        comme inutile sur le plan tactique et ceux qui reprochent aux assiégés
+        de n’avoir pas pris les dispositions indispensables pour mettre leurs
+        richesses à l’abri<note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>
+              <hi rend="italic">bibliothèques strasbourg origines-XXI</hi>
+              <hi rend="sup italic">e</hi>
+              <hi rend="italic">&#160;siècle</hi>,
+            dir.&#160;Frédéric Barbier, Paris, Éd. des Cendres, Strasbourg, Éd. de
+            la BNU, 2015</p>
+          </note>. Les événements analogues se multiplieront au <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date>&#160;: pour nous limiter à la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, citons la
+        destruction de l’ancienne abbaye Saint-Vaast d’<placeName ref="6618442" type="geonames" xml:base="https://www.geonames.org/">Arras</placeName>, avec les
+        archives, la bibliothèque et le musée (<date type="_temp" when="1915-07-05">5&#160;juillet&#160;1915</date>), ou encore celle de l’hôtel
+        de ville de <placeName ref="2984114" type="geonames" xml:base="https://www.geonames.org/">Reims</placeName>, qui abritait
+        les archives et la bibliothèque municipales<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>Cependant, des dispositions avaient été prises en vue de mettre
+            à l’abri les pièces les plus précieuses, de sorte qu’à la
+            bibliothèque, les pertes sont relativement limitées.</p>
+          </note>. La <date from="1939-09-01" to="1945-09-02" type="_temp">Seconde Guerre mondiale</date> entraîne aussi son lot de
+        catastrophes&#160;: dès <date type="_temp" when="1940-06">juin 1940</date>,
+        la superbe bibliothèque de <placeName ref="6454060" type="geonames" xml:base="https://www.geonames.org/">Tours</placeName>, au débouché du
+        pont sur la Loire, est détruite lors des combats destinés à fixer
+        l’avance des Allemands sur le fleuve. Les pertes les plus importantes
+        sont cependant dues aux bombardements de la Libération, comme à la
+        bibliothèque de <placeName ref="3029241" type="geonames" xml:base="https://www.geonames.org/">Caen</placeName> (<date type="_temp" when="1944-07-07">7&#160;juillet&#160;1944</date>) ou quelques
+        semaines plus tard (<date type="_temp" when="1944-08-11">11&#160;août</date>) à celle de <placeName ref="6454407" type="geonames" xml:base="https://www.geonames.org/">Douai</placeName>.</p>
+        <p xml:id="d1e256">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+        matériel</term>
+            </term>
+          </term>Rappelons enfin que, dans la grande
+        majorité des cas, les collections (livres, etc.) ne sont pas les
+        seules touchées&#160;: la destruction s’étend au bâtiment lui-même, et à ce
+        qu’il abrite en fait de mobilier, de tableaux et autres objets à
+        caractère patrimonial – ou non.</p>
+        <p xml:id="d1e259">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>4&#160;— Si
+        les responsables de destructions volontaires poursuivent au bout du
+        compte l’objectif d’éradiquer un désordre pour eux insupportable, la
+        destruction d’une bibliothèque correspond dans la grande majorité des
+        cas au triomphe du chaos. Elle est une cause de scandale (et une
+        manifestation d’injustice), de par la perte de tout ou partie des
+        collections et de par la disparition brutale de la symbolique attachée
+        à l’institution. À <placeName ref="6458923" type="geonames" xml:base="https://www.geonames.org/">Lisbonne</placeName> en <date type="_temp" when="1755">1755</date>, c’est un élément-clef du système
+        politique baroque qui disparaît, en l’espèce de la collection de
+        livres appartenant au prince et témoignant de ce qu’il est d’abord,
+        selon le modèle antique, prince de la paix et des muses, et protecteur
+        de la culture&#160;: son statut même semble remis en cause. Dans le même
+        temps, l’outil et le symbole de la rationalisation du monde se
+        trouvent comme effacés de la surface du globe par un événement
+        aléatoire, et que l’on ne parvient précisément pas à rationaliser<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>À cet égard, le désastre de Lisbonne inaugure aussi une
+            réflexion plus approfondie en matière de sismologie.</p>
+          </note>.</p>
+        <p xml:id="d1e264">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+            </term>
+          </term>Dès
+        que possible, l’objectif devient celui de «&#160;restituer&#160;» la
+        bibliothèque en en «&#160;reconstituant&#160;» les collections.
+        «&#160;Restituer&#160;»<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>&lt;&#160;latin <hi rend="italic">restituere</hi>, &lt;&#160;<hi rend="italic">stare</hi>, et plus précisément &lt;&#160;<hi rend="italic">statuere</hi>, faire tenir droit, fixer,
+            établir.</p>
+          </note> est pris ici dans son acception de «&#160;rétablir&#160;» ou de
+        «&#160;remettre une chose dans son premier état&#160;», et la «&#160;restitution&#160;»
+        est une opération qui relève à la fois de la justice (remettre les
+        choses en ordre après qu’elles ont été bouleversées et rendues
+        inutilisables ou inintelligibles), de la morale (contrebalancer les
+        effets de ce qui est reçu comme injuste) et de l’anthropologie
+        (rétablir une institution, au sens large du terme). Dérivé de la même
+        racine, la «&#160;reconstitution&#160;» de la bibliothèque désigne au contraire
+        un processus matériel qui ne fait pas seulement référence au passé&#160;:
+        reconstituer, c’est prendre des dispositions pour que des collections
+        nouvelles, mais que l’on imagine (ou que l’on présente…) comme
+        d’importance équivalente à celle des collections disparues, soient
+        mises à la disposition de l’institution «&#160;restituée&#160;». L’une des
+        procédures privilégiées de cette reconstitution est l’appel à la
+        solidarité, comme dans le cas de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, ou dans
+        celui de <placeName ref="3165523" type="geonames" xml:base="https://www.geonames.org/">Turin</placeName>.</p>
+        <p xml:id="d1e279">Mais l’historien du livre le sait&#160;: les collections
+        détruites ne seront jamais reconstituées, s’agissant non seulement des
+        pièces uniques irrémédiablement disparues (pour l’essentiel, les
+        manuscrits), mais aussi des exemplaires imprimés et autres documents
+        anciennement conservés. Notre thèse sera ici que la reconstitution (ou
+        l’affichage de la reconstitution) de la bibliothèque disparue forme le
+        prélude indispensable à la restitution de son rôle (en tant que
+        collection précieuse, ou bibliothèque ouverte au public, ou autre) et
+        de son statut (en tant que bibliothèque du prince, ou de la nation, ou
+        autre). Les procédures de restitution et de reconstitution que l’on
+        observe dans les faits peuvent donc faire l’objet d’une analyse
+        historique.</p>
+        <p xml:id="d1e281">À <placeName ref="6458923" type="geonames" xml:base="https://www.geonames.org/">Lisbonne</placeName> après <date type="_temp" when="1755">1755</date>, la reconstruction, prise en
+        mains par des personnalités exceptionnelles (le <persName ref="027368297" type="idref" xml:base="https://www.idref.fr/">marquis
+        de Pombal</persName> et <persName type="_temp">Manuel de
+        Maia</persName>), met systématiquement en œuvre les principes de la
+        raison éclairée<note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>Maria Luísa Cabral, <hi rend="italic">A Real Biblioteca e os
+            seus criadores em Lisboa, 1755-1803</hi>, Lisboa, Biblioteca
+            Nacional de Portugal, 2014</p>
+          </note>. À la bibliothèque, c’est l’engagement d’un processus de
+        rattrapage mené en coordination avec l’Académie royale&#160;: <persName type="_temp">Maia</persName> souligne l’importance du rôle d’une
+        bibliothèque des Lumières, établie dans le palais et à laquelle la
+        catastrophe offre paradoxalement une occasion exceptionnelle de
+        rénovation – de refondation. Mais lui-même a alors déjà plus de 80&#160;ans
+        (il est né en <date type="_temp" when="1677">1677</date>), et ses
+        conceptions seront appliquées par le franciscain <persName ref="030957915" type="idref" xml:base="https://www.idref.fr/">Manuel
+        do Cenáculo</persName>, évêque de <placeName ref="2270985" type="geonames" xml:base="https://www.geonames.org/">Beja</placeName>.
+        En <date type="_temp" when="1796">1796</date> enfin, l’année même où
+        la Bibliothèque royale est ouverte au public, on appelle comme
+        directeur à <placeName ref="6458923" type="geonames" xml:base="https://www.geonames.org/">Lisbonne</placeName> le meilleur
+        professionnel du pays, en la personne d’<persName ref="121629244" type="idref" xml:base="https://www.idref.fr/">António Ribeiro dos
+        Santos</persName>, bibliothécaire de la Joanina de <placeName ref="2740637" type="geonames" xml:base="https://www.geonames.org/">Coimbra</placeName>&#160;: il
+        s’agissait pour le pouvoir d’affaiblir le parti jésuite, tout en
+        bénéficiant d’une expertise universellement reconnue<note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>Maria Luísa Cabral, «&#160;La création de la Bibliothèque royale
+            publique de la Cour de Portugal&#160;: une responsabilité partagée,
+            1796-1803&#160;», in <hi rend="italic">Histoire et civilisation du
+            livre. Revue internationale</hi>, X (2014), p.&#160;143-161 (avec une
+            importante bibliographie)</p>
+          </note>. Une douzaine d’années plus tard, la Bibliothèque royale
+        sera, comme on le sait, transférée à <placeName ref="3451189" type="geonames" xml:base="https://www.geonames.org/">Rio de
+        Janeiro</placeName>…</p>
+        <p xml:id="d1e297">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-s5fumf6d">urbanisme</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>Au
+        projet éclairé de la monarchie portugaise des secondes Lumières répond
+        comme en contrepoint celui développé par le nouvel Empire wilhelminien
+        pour la capitale de ses provinces annexées, le Reichsland d’<placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>-<placeName ref="2997551" type="geonames" xml:base="https://www.geonames.org/">Lorraine</placeName>&#160;: une
+        bibliothèque modèle, abritée dans un monument et insérée dans un
+        programme urbanistique représentatifs, et qui à la fois mettra en
+        exergue la science allemande comme acteur-clef du savoir universel, et
+        glorifiera la «&#160;<foreign xml:lang="deu">Kulturnation</foreign>&#160;»
+        impériale et sa province retrouvée.</p>
+        <figure xml:id="d1e299">
+          <graphic url="https://didomena.ehess.fr/downloads/np193j68v.jpg"/>
+          <head xml:id="d1e300">Figure 6. Fresque réalisée à l’occasion du
+          400<hi rend="sup">e</hi>&#160;anniversaire de la Haute École calviniste
+          de Debrecen en Hongrie (1938) par Kálmán Gádorjáni Szabó. Elle
+          représente le sauvetage de livres par les élèves du Collège, lors
+          d’un incendie survenu le 11&#160;juin&#160;1802. Cliché Róbert Oláh ; ©
+          Collège réformé, Debrecen</head>
+        </figure>
+        <p xml:id="d1e302">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-ue8ksi5j">institutionnalisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+            </term>
+          </term>De
+        <placeName ref="6458923" type="geonames" xml:base="https://www.geonames.org/">Lisbonne</placeName> à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, et
+        jusqu’à la Bibliotheca Alexandrina inaugurée en <date type="_temp" when="2002">2002</date>, la dialectique de la
+        destruction/restitution-reconstitution doit être dévidée en regard de
+        sa propre contextualisation. La trajectoire des bibliothèques
+        détruites et restituées le confirme&#160;: si la raison admet le jeu du
+        hasard, elle ne s’en fixe pas moins toujours l’objectif idéal de la
+        rationalité rêvée. D’un côté, la présence de la bibliothèque, avec ses
+        valeurs de vérité et de sens objectif, de l’autre, l’absence et le
+        désordre, avec l’omniprésence des signes (une invasion, un accident,
+        un tremblement de terre…) comme constitutifs d’une réalité incertaine,
+        et que l’on s’efforcera de déchiffrer. Le triomphe du hasard inclut la
+        contamination du modèle même du jeu, et appelle sa propre rationalité,
+        sa propre – restitution.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

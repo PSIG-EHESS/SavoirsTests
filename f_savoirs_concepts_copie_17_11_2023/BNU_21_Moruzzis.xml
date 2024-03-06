@@ -1,0 +1,1103 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_21_Moruzzis.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La préservation matérielle des monuments de
+        l’écrit&#160;: une histoire à construire</title>
+        <author role="aut">
+          <forename>Lucie</forename>
+          <surname>Moruzzis</surname>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/7LM6HKJ5" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">La préservation matérielle des monuments de
+            l’écrit&#160;: une histoire à construire</title>
+            <author>
+              <forename>Lucie</forename>
+              <surname>Moruzzis</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <imprint>
+              <biblScope unit="issue">21</biblScope>
+              <biblScope unit="page">42-51</biblScope>
+              <date>2020</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+          <term>
+            <placeName ref="3164603" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName>
+          </term>
+          <term>
+            <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1966">1966</date>
+          </term>
+          <term>
+            <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T12:15:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">La préservation
+          matérielle des monuments de l’écrit&#160;: une histoire à
+          construire</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Lucie Moruzzis</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Relieur-conservateur / restaurateur de
+          livres et documents graphiques, Archives nationales de France,
+          Paris</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e45">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+        matériel</term>
+            </term>
+          </term>Patrimoine, livre, monument, archive… Ces
+        mots devenus courants peuvent sembler renvoyer à des objets et des
+        concepts aisément perceptibles. Le terme «&#160;patrimoine écrit&#160;», apparu
+        au début des <date from="1980" to="1989" type="_temp">années&#160;1980</date> dans le sillage du rapport rendu à la
+        Direction du livre et de la lecture<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Le patrimoine des bibliothèques, Rapport à monsieur le
+            Directeur du livre et de la lecture par une commission de douze
+            membres, ministère de la Culture, 1<hi rend="sup">er</hi>&#160;juin&#160;1982</p>
+          </note>, élève le contenu des bibliothèques et des centres
+        d’archives au rang d’héritage culturel collectif. Cet héritage est
+        constitué d’artefacts dont l’agencement des éléments matériels
+        (l’objet/«&#160;<foreign xml:lang="lat">opus mechanicum</foreign>&#160;» selon
+        la terminologie kantienne) véhicule un ensemble de signes, qui forment
+        un texte (l’œuvre/«&#160;<foreign xml:lang="lat">opera</foreign>&#160;») destiné
+        la plupart du temps à être transmis et/ou conservé. La nature du
+        patrimoine écrit est donc complexe&#160;: il englobe des objets matériels,
+        tangibles, transmettant une parole évanescente, un énoncé, traduit en
+        signes.</p>
+        <p xml:id="d1e54">Le dramatique incendie survenu au printemps <date type="_temp" when="2019">2019</date> à la cathédrale <placeName ref="6269274" type="geonames" xml:base="https://www.geonames.org/">Notre-Dame de Paris</placeName> a
+        remis au cœur du débat public les problématiques soulevées par le
+        patrimoine culturel matériel. La vigueur des débats autour de la
+        future restauration du bâtiment a été à la mesure de la soudaineté et
+        de l’ampleur de la catastrophe.</p>
+        <p xml:id="d1e56">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+            </term>
+          </term>À
+        cette occasion, le grand public a montré son attachement au
+        patrimoine, qui «&#160;se reconnaît au fait que sa perte constitue un
+        sacrifice et que sa conservation suppose des sacrifices&#160;»<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Jean-Pierre Babelon et André Chastel, <hi rend="italic">La
+            notion de patrimoine</hi>, Paris, Liana Levi, 1994, p.&#160;101</p>
+          </note>.</p>
+        <div type="section1" xml:id="d1e65">
+          <head subtype="level1" xml:id="d1e66">La conservation-restauration
+          des biens-culturels</head>
+          <div type="section2" xml:id="d1e68">
+            <head subtype="level2" xml:id="d1e69">L’exemple du patrimoine
+            bâti</head>
+            <p xml:id="d1e71">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-qsxs8rem">architecture</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-vshcubtc">cathédrale</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+                </term>
+              </term>La
+            destruction de la charpente de <placeName ref="6269274" type="geonames" xml:base="https://www.geonames.org/">Notre-Dame de
+            Paris</placeName> en a conduit plus d’un, découvrant alors
+            l’origine récente de la flèche disparue, à s’intéresser au passé
+            matériel de la cathédrale. La stratigraphie structurelle du
+            bâtiment, infiniment plus complexe que ne le pensait le public, a
+            compliqué d’autant les discussions quant aux interventions à mener
+            dans le futur&#160;: la flèche monumentale, réinterprétation d’un état
+            alors disparu, est due à <persName ref="027187713" type="idref" xml:base="https://www.idref.fr/">Eugène Viollet-le-Duc</persName>
+            (<date from="1814" to="1879" type="_temp">1814-1879</date>),
+            l’architecte français désigné par <persName ref="027024156" type="idref" xml:base="https://www.idref.fr/">Prosper
+            Mérimée</persName> (<date from="1803" to="1870" type="_temp">1803-1870</date>)<note n="3" place="foot" type="standard" xml:id="ftn3">
+                <p>Premier inspecteur général des monuments de France.</p>
+              </note> pour mener à bien la réhabilitation de la cathédrale
+            décidée en <date type="_temp" when="1843">1843</date>. Ces travaux
+            ont été entrepris parallèlement à l’émergence d’une administration
+            élaborée en réaction aux exactions révolutionnaires contre les
+            bâtiments anciens&#160;: celle des monuments historiques<note n="4" place="foot" type="standard" xml:id="ftn4">
+                <p>Françoise Choay, <hi rend="italic">L’allégorie du
+                patrimoine</hi>. Nouvelle édition revue et corrigée. Paris,
+                Seuil, 1996</p>
+              </note>. Le terme <hi rend="italic">monument</hi>, issu du latin
+            «&#160;<foreign xml:lang="lat">monumentum</foreign>&#160;», lui-même dérivé
+            de «&#160;<foreign xml:lang="lat">monere</foreign>&#160;» (avertir,
+            rappeler) désigne à l’origine le résultat d’une entreprise humaine
+            destinée à incarner et à réactualiser sans cesse une certaine
+            mémoire. La destination première d’un <hi rend="italic">monument</hi>, quelle que soit sa forme, est d’être
+            préservé pour être transmis. En ce sens, la charge mémorielle
+            accordée à certains bâtiments peut être comparée à celle véhiculée
+            par les écrits, ce que <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Victor Hugo</persName> a
+            admirablement illustré dans le chapitre intitulé <hi rend="italic">Ceci tuera cela</hi>
+              <note n="5" place="foot" type="standard" xml:id="ftn5">
+                <p>Victor Hugo, <hi rend="italic">Notre-Dame de Paris.
+                1482</hi>, Paris, Pocket, 2013, p.&#160;222-237</p>
+              </note>. Même si tout semble les opposer, les patrimoines bâtis
+            et écrits ont beaucoup en commun, depuis leur rôle mémoriel
+            jusqu’à leur nature ontologiquement utilitaire.</p>
+            <p xml:id="d1e98">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+            matériel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-rxs3gaea">inventaire</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>Le
+            patrimoine bâti est donc abondamment inventorié et restauré en
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> entre les
+            <date from="1830" to="1839" type="_temp">années&#160;1830</date> et la
+            promulgation en <date type="_temp" when="1887">1887</date> de la
+            première loi sur les monuments historiques. À la même époque, le
+            monde du livre imprimé connaît une série de bouleversements
+            profonds qui conduisent à la production mécanisée de livres à des
+            échelles jamais atteintes auparavant. Les bibliothèques publiques
+            et les archives tentent d’organiser leurs fonds, largement issus
+            des saisies révolutionnaires, et en dressent les premiers
+            inventaires et catalogues. Des mesures de préservation sont mises
+            en place par ces institutions en quête d’identité, parmi
+            lesquelles le recours massif à la reliure neuve et à la
+            restauration. L’interlocuteur naturellement désigné pour mettre en
+            pratique ces interventions est le relieur, qui trouve ainsi un
+            moyen de contourner la menace que représente l’industrialisation
+            de la fabrication des livres. Mais les interventions de reliure et
+            de restauration du patrimoine écrit soulèvent au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date> moins
+            de questionnements que celles entreprises sur le patrimoine bâti,
+            malgré des tentatives menées par un petit groupe de bibliophiles
+            adeptes de traitements chimiques modernes<note n="6" place="foot" type="standard" xml:id="ftn6">
+                <p>Voir les deux ouvrages d’Alfred Bonnardot, publiés à la fin
+                des années 1850 et cités supra dans les Orientations
+                bibliographiques.</p>
+              </note>.</p>
+            <p xml:id="d1e106">L’approche de <persName ref="027187713" type="idref" xml:base="https://www.idref.fr/">Viollet-le-Duc</persName> incarne
+            un interventionnisme effréné. Ses détracteurs réduisent souvent sa
+            pensée à une définition devenue célèbre&#160;: «&#160;Restaurer un édifice,
+            ce n’est pas l’entretenir, le réparer ou le refaire, c’est le
+            rétablir dans un état complet qui peut n’avoir jamais existé à un
+            moment donné&#160;»<note n="7" place="foot" type="standard" xml:id="ftn7">
+                <p>Eugène Viollet-le-Duc, <hi rend="italic">Dictionnaire
+                raisonné de l’architecture française du XI</hi>
+                  <hi rend="sup italic">e</hi>
+                  <hi rend="italic"> au XVI</hi>
+                  <hi rend="sup italic">e</hi>
+                  <hi rend="italic">&#160;siècle</hi>. Tome
+                huitième. Paris, A.&#160;Morel, 1866, p.&#160;14-34</p>
+              </note>. Dans le monde du livre, les recherches anglo-saxonnes
+            visant à reconstruire l’«&#160;<foreign xml:lang="eng">ideal
+            copy</foreign>&#160;» d’une édition peuvent être assimilées à la
+            démarche de <persName ref="027187713" type="idref" xml:base="https://www.idref.fr/">Viollet-le-Duc</persName>. À
+            l’opposé, <persName ref="027115607" type="idref" xml:base="https://www.idref.fr/">John Ruskin</persName> (<date from="1819" to="1900" type="_temp">1819-1900</date>) refuse toute
+            intervention physique sur les objets et monuments du passé<note n="8" place="foot" type="standard" xml:id="ftn8">
+                <p>John Ruskin, <hi rend="italic">The seven lamps of
+                architecture</hi>. Sixième édition. Sunnyside, G.&#160;Allen,
+                1889</p>
+              </note>. Une humilité extrême le pousse à affirmer que nous
+            n’avons aucune légitimité à modifier les édifices, tout acte de
+            restauration étant assimilé à la destruction de l’historicité. Au
+            crépuscule du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, les réflexions sur la
+            restauration du patrimoine bâti semblent irréconciliables, entre
+            partisans d’un interventionnisme extrême et défenseurs d’un refus
+            de toute modification.</p>
+          </div>
+          <div type="section2" xml:id="d1e133">
+            <head subtype="level2" xml:id="d1e134">L’évolution de la notion de
+            conservation</head>
+            <p xml:id="d1e136">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+                </term>
+              </term>À
+            la fin du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, <persName ref="02673611X" type="idref" xml:base="https://www.idref.fr/">Camillo
+            Boito</persName> (<date from="1836" to="1914" type="_temp">1836-1914</date>) dépasse l’opposition entre les
+            positions de <persName ref="027187713" type="idref" xml:base="https://www.idref.fr/">Viollet-le-Duc</persName> et de
+            <persName ref="027115607" type="idref" xml:base="https://www.idref.fr/">Ruskin</persName>, et jette les
+            bases de la restauration critique, toujours appliquée de nos
+            jours<note n="9" place="foot" type="standard" xml:id="ftn9">
+                <p>Camillo Boito, <hi rend="italic">Conserver ou restaurer&#160;?
+                </hi>[1893], Paris, Éditions de l’Encyclopédie des nuisances,
+                2013</p>
+              </note>. À la même époque, grâce aux écrits d’<persName ref="027099962" type="idref" xml:base="https://www.idref.fr/">Aloïs Riegl</persName> (<date from="1858" to="1905" type="_temp">1858-1905</date>)<note n="10" place="foot" type="standard" xml:id="ftn10">
+                <p>Alois Riegl, <hi rend="italic">Le culte moderne des
+                monuments</hi>, Paris, L’Harmattan, 2003</p>
+              </note>, la restauration commence à percevoir les contradictions
+            inhérentes aux interventions directes sur les objets issus du
+            passé, dont la finalité doit concilier respect du passage du temps
+            et besoin d’actualisation. Dans les <date from="1960" to="1969" type="_temp">années&#160;1960</date>, c’est au tour de <persName ref="028353099" type="idref" xml:base="https://www.idref.fr/">Cesare Brandi</persName> (<date from="1906" to="1988" type="_temp">1906-1988</date>) de faire
+            évoluer la pensée de la restauration. Il suggère que l’acte de
+            restauration est une reconnaissance du statut d’œuvre d’art de
+            l’objet, prêtant un rôle fondamental au restaurateur dans le
+            processus de patrimonialisation.</p>
+            <p xml:id="d1e155">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+            matériel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+              </term>
+              <date type="_temp" when="1966">1966</date> marque un tournant dans le
+            monde du patrimoine écrit. Les spectaculaires inondations de
+            <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName> et les
+            dégâts innombrables sur le patrimoine de la ville, et
+            particulièrement sur son patrimoine écrit, mobilisent l’attention
+            internationale (voir aussi l’article de <persName ref="029687896" type="idref" xml:base="https://www.idref.fr/">C.&#160;Federici</persName> p.&#160;26).
+            Une équipe de relieurs et de restaurateurs venus du monde entier
+            accourt au chevet des ouvrages sinistrés et met au point un
+            ensemble de techniques de sauvetage des documents, faisant
+            franchir un bond gigantesque à la préservation de l’écrit. Du
+            point de vue des institutions, la discipline de la
+            conservation-restauration (terme adopté par l’ICOM en <date type="_temp" when="1984">1984</date>
+              <note n="11" place="foot" type="standard" xml:id="ftn11">
+                <p>Document de travail du comité pour la conservation, Conseil
+                international des musées (ICOM), 1984 (<ref target="https://www.ffcr.fr/files/pdf%20permanent/textes%20reference%20Icom.pdf">
+                    <hi rend="underline">https://www.ffcr.fr/files/pdf%20permanent/textes%20reference%20Icom.pdf</hi>
+                  </ref>)</p>
+              </note>) s’est organisée à l’échelle mondiale dès son émergence.
+            La célèbre charte de <placeName ref="3164603" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName> de <date type="_temp" when="1964">1964</date> est considérée comme un
+            tournant puisqu’elle met sur un pied d’égalité les instances
+            historiques et artistiques<note n="12" place="foot" type="standard" xml:id="ftn12">
+                <p>Charte internationale sur la conservation et la
+                restauration des monuments et des sites, Conseil international
+                des monuments et des sites (ICOMOS), 1964 (<ref target="https://www.ffcr.fr/files/pdf%20permanent/textes%20reference%20Icom.pdf">
+                    <hi rend="underline">https://www.ffcr.fr/files/pdf%20permanent/textes%20reference%20Icom.pdf</hi>
+                  </ref>)</p>
+              </note>. La conservation-restauration comprend aujourd’hui trois
+            pôles&#160;: la conservation préventive – qui vise à préserver les
+            objets en intervenant de façon indirecte sur leur environnement&#160;;
+            la conservation curative – qui a pour objectif d’arrêter ou de
+            ralentir un processus de dégradation actif par une intervention
+            directe sur l’objet&#160;; et la restauration – qui vise à améliorer la
+            lisibilité d’un objet dont l’état matériel est stable.</p>
+          </div>
+        </div>
+        <div type="section1" xml:id="d1e173">
+          <head subtype="level1" xml:id="d1e174">Le livre, entre image et
+          matière</head>
+          <div type="section2" xml:id="d1e176">
+            <head subtype="level2" xml:id="d1e177">«&#160;Opus mechanicum&#160;» et
+            «&#160;opera&#160;»</head>
+            <p xml:id="d1e179">Mise en évidence par <persName ref="028353099" type="idref" xml:base="https://www.idref.fr/">Cesare
+            Brandi</persName>, l’articulation entre matière et message est au
+            cœur du paradigme contemporain de la conservation-restauration. La
+            complexité des interventions directes sur la matérialité des
+            objets patrimonialisés réside dans la possible modification de
+            l’image transmise par cette matérialité. La récente restauration
+            de <hi rend="italic">La Vierge, l’Enfant Jésus et sainte Anne
+            </hi>de <persName ref="085975915" type="idref" xml:base="https://www.idref.fr/">Léonard de Vinci</persName>
+              <note n="13" place="foot" type="standard" xml:id="ftn13">
+                <p>Réalisée par Cinzia Pasquali&#160;; voir la page dédiée sur le
+                site du Centre de recherche et de restauration des musées de
+                France (C2RMF)&#160;: <ref target="https://c2rmf.fr/collection/la-sainte-anne-une-restauration-majeure">
+                    <hi rend="underline">https://c2rmf.fr/collection/la-sainte-anne-une-restauration-majeure</hi>
+                  </ref>
+                </p>
+              </note> l’a bien montré&#160;: l’éventuelle modification du message –
+            en l’occurrence des couleurs et des modelés auxquels nous étions
+            habitués, même s’il s’agissait d’une image biaisée par des couches
+            successives de vernis oxydé et encrassé – a soulevé de vives
+            réactions, alors même que l’intervention n’a consisté qu’en un
+            allègement du vernis <hi>(voir ill. p.&#160;42)</hi>.</p>
+            <figure xml:id="d1e194">
+              <graphic url="https://didomena.ehess.fr/downloads/ft848z71m.jpg"/>
+              <head xml:id="d1e195">Figure 1. Léonard de Vinci, <hi rend="italic">La Vierge, l’Enfant Jésus et sainte Anne
+              </hi>(15<hi rend="sup">e</hi>&#160;siècle), avant et après
+              restauration (coll. Musée du Louvre). Image issue du site «
+              Discovering Da Vinci » : <ref target="https://www. discoveringdavinci.com/paintings">https://www.
+              discoveringdavinci.com/paintings</ref>
+              </head>
+            </figure>
+            <p xml:id="d1e205">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-5qgwlkpg">idée</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-sdqfysab">intellectuel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-gybppx7p">réflexivité</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+                </term>
+              </term>La
+            question de la dualité des biens culturels, entre image et
+            matière, est posée très tôt dans le cas des livres. Dès le <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>, la multiplication des textes
+            imprimés sans autorisation ni privilège engendre une première
+            réflexion qui aboutira <date from="1700" to="1799" type="_temp">deux siècles plus tard</date> à la notion de
+            propriété intellectuelle, fondée sur la distinction «&#160;<foreign xml:lang="lat">opus mechanicum</foreign>&#160;»/ «&#160;<foreign xml:lang="lat">opera</foreign>&#160;» élaborée par <persName ref="02694507X" type="idref" xml:base="https://www.idref.fr/">Emmanuel Kant</persName>
+              <note n="14" place="foot" type="standard" xml:id="ftn14">
+                <p>Immanuel Kant, <hi rend="italic">Éléments métaphysiques de
+                la doctrine du droit</hi>, Paris, Auguste Durand, 1853,
+                p.&#160;131-134</p>
+              </note>. Selon que l’intérêt est axé sur la matérialité ou sur
+            le discours, le livre peut être perçu comme un objet de collection
+            ou comme un objet utilitaire. Ainsi, la tension entre valeur d’art
+            et valeur d’usage s’avère épineuse dans le cas des livres, où
+            toutes les combinaisons sont possibles. Outre ce double aspect, le
+            livre peut être à la fois <hi rend="italic">monument </hi>(objet
+            d’étude et de mémoire) et <hi rend="italic">document </hi>(objet
+            d’enquête, permettant d’étudier le monument), tels que définis par
+            <persName ref="027057100" type="idref" xml:base="https://www.idref.fr/">Erwin Panofsky</persName>
+              <note n="15" place="foot" type="standard" xml:id="ftn15">
+                <p>Erwin Panofsky, <hi rend="italic">L’œuvre d’art et ses
+                significations. Essais sur les arts visuels </hi>[1955],
+                Paris, Gallimard, 1969</p>
+              </note>. Matière et discours, objet de collection et objet
+            utilitaire, monument et document, le livre est un artefact
+            complexe aux multiples dualités. Ces dualités rejoignent celle
+            évoquée par <persName ref="028353099" type="idref" xml:base="https://www.idref.fr/">Cesare Brandi</persName>. Mais à
+            l’inverse des œuvres issues des beaux-arts, qui véhiculent une
+            image immédiatement perceptible par les sens, les écrits
+            transmettent, selon <persName ref="02694507X" type="idref" xml:base="https://www.idref.fr/">Kant</persName>, des idées «&#160;au
+            moyen des signes visibles du langage&#160;».</p>
+          </div>
+          <div type="section2" xml:id="d1e230">
+            <head subtype="level2" xml:id="d1e231">La reliure, un objet
+            singulier</head>
+            <p xml:id="d1e233">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets
+            d’étude</term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+            intellectuelle<term ref="doi:10.34817/sv-ohaapat7">analyse</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+                  </term>
+                </term>
+              </term>Le
+            message principal véhiculé par le document relié est le discours
+            porté par le texte. Cet aspect est depuis longtemps étudié par des
+            disciplines telles que la philologie, la linguistique, la
+            littérature, l’histoire, etc. Mais l’objet-livre contient d’autres
+            types de messages au sein même de sa matérialité, nécessitant
+            d’autres types de langages pour être décodés. À la différence du
+            texte, les indices matériels décelables sur les objets n’ont pas
+            pour destination première d’être décodés, mais de véhiculer ou de
+            préserver la matière, de la rendre intelligible et durable, pour
+            que le discours perdure. Ces messages matériels secondaires
+            peuvent être étudiés dans une démarche archéologique, développée
+            dans le monde anglo-saxon dès la seconde moitié du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, et divisée en deux volets&#160;: la
+            codicologie qui s’attache à étudier les aspects matériels des
+            manuscrits, tandis que la bibliographie a pour objet le livre
+            imprimé. Ces approches ont pour objectif la compréhension des
+            processus matériels qui ont mené à la fabrication des livres (leur
+            création) et de ceux qui président à leur circulation (leur
+            réception).</p>
+            <p xml:id="d1e238">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+            religions</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-2bte7jdd">codicologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+            savoirs<term ref="doi:10.34817/sv-xzvgbxyl">gestion<term ref="doi:10.34817/sv-zoceok8v">administration</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+                </term>
+              </term>La
+            principale différence entre manuscrit et imprimé est à chercher
+            dans les notions de sérialité et d’unicité. A priori, l’imprimé
+            peut être perçu comme multiple (l’ensemble des exemplaires formant
+            une édition), tandis que le manuscrit est d’emblée envisagé comme
+            unique. Mais une fois encore, les frontières entre ces deux types
+            de livres sont plus mouvantes qu’il n’y paraît&#160;: les différences
+            d’états repérables entre les exemplaires issus d’une même édition
+            nuancent l’aspect sériel de l’imprimé, tandis que le caractère
+            comparable de certaines séries de manuscrits relativise leur
+            unicité<note n="16" place="foot" type="standard" xml:id="ftn16">
+                <p>C’est le cas par exemple de certains livres d’heures
+                manuscrits produits en série au début du 15<hi rend="sup">e</hi>&#160;siècle.</p>
+              </note>. Une autre catégorisation vise à séparer le patrimoine
+            écrit entre archives et bibliothèques. Les volumes préservés par
+            les bibliothèques peuvent être définis comme issus de l’esprit de
+            l’homme, tandis que les archives conservent les documents
+            régissant la vie quotidienne des hommes. On appelle souvent <hi rend="italic">livres </hi>les objets reliés des bibliothèques
+            (qu’ils soient manuscrits ou imprimés), et <hi rend="italic">registres </hi>ceux des archives. Pourtant, tous les
+            volumes d’archives ne sont pas des registres stricto sensu<note n="17" place="foot" type="standard" xml:id="ftn17">
+                <p>«&#160;Registre&#160;» désigne à l’origine un volume dans lequel des
+                actes sont copiés pour que leur mémoire soit préservée.</p>
+              </note>, et les livres de bibliothèques peuvent receler une
+            importante dimension administrative ou juridique. Le statut du
+            livre d’archive, manuscrit dont le contenu se trouve à cheval
+            entre bibliothèques et archives, est encore peu exploré en
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+              <note n="18" place="foot" type="standard" xml:id="ftn18">
+                <p>Paul Bertrand, «&#160;Une codicologie des documents d’archives
+                existe-t-elle&#160;?&#160;», in <hi rend="italic">Gazette du livre
+                médiéval</hi>, 54, 2009, p.&#160;10-18</p>
+              </note>. C’est pourtant le cas de nombreux volumes issus des
+            établissements ecclésiastiques, et dont les textes peuvent
+            naviguer entre gestion administrative et écrits liturgiques,
+            rendant complexe leur catégorisation <hi>(voir ill.
+            ci-contre)</hi>. Du point de vue de la reliure, il n’existe pas de
+            réelle différence entre manuscrit et imprimé, ni entre livre de
+            bibliothèque et livre d’archives. Dans ce cadre, le choix
+            d’employer le terme <hi rend="italic">livre </hi>pour désigner
+            indifféremment ces catégories d’objets, dont les frontières sont
+            floues, peut se justifier.</p>
+            <figure xml:id="d1e270">
+              <graphic url="https://didomena.ehess.fr/downloads/xd07h197m.jpg"/>
+              <head xml:id="d1e271">Figure 2. Registre d’ensaisinement,
+              Saint-Germain-des-Prés, 1516-1530 (coll.&#160;Archives nationales).
+              Arch. nat. S* 3033-2 ; cliché Archives nationales de France,
+              atelier de photographie</head>
+            </figure>
+            <p xml:id="d1e275">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+            matériel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                  </term>
+                </term>
+              </term>Étudier
+            l’archéologie d’un livre relié n’est pas aisé. Les procédés
+            intellectuels, marchands et artisanaux (ou industriels) de
+            fabrication d’un livre sont complexes et multiples et de nombreux
+            acteurs peuvent revendiquer la paternité de l’objet (auteur,
+            scripteur, éditeur, imprimeur, libraire, etc.). Le dernier maillon
+            de la chaîne de fabrication est le relieur, dont l’activité
+            première est de fournir un dispositif matériel, d’élaborer une
+            structure (la reliure) permettant à la fois la consultation et la
+            protection du volume. Cette destination première s’est très tôt
+            enrichie d’une dimension décorative, voire ostentatoire, la
+            reliure incarnant l’aspect extérieur – visible – des livres. Les
+            ouvrages imprimés de la <date type="_temp">période moderne</date>
+            étaient le plus souvent vendus sous forme de feuilles que le
+            relieur devait ensuite plier pour constituer les cahiers. La
+            reliure incarne donc une volonté double de protection et de mise
+            en valeur, elle s’effectue dans une zone floue, à cheval entre
+            création et réception. Elle n’est jamais autonome puisqu’elle
+            s’adapte à un objet préexistant – le livre en cahiers, dont elle
+            devient une partie intégrante une fois achevée. De la même façon,
+            les interventions de conservation-restauration d’un livre relié
+            sont le reflet de sa réception, de ses usages, des différents
+            accidents subis, de son existence dans le temps. L’étude des
+            anciennes interventions de préservation, incluant les opérations
+            de reliure, pourrait enrichir l’archéologie du livre en éclairant
+            les rapports successifs entretenus avec ces objets si
+            particuliers.</p>
+          </div>
+        </div>
+        <div type="section1" xml:id="d1e277">
+          <head subtype="level1" xml:id="d1e278">Les spécificités de la
+          conservation-restauration des livres</head>
+          <div type="section2" xml:id="d1e280">
+            <head subtype="level2" xml:id="d1e281">Que signifie restaurer un
+            livre&#160;?</head>
+            <p xml:id="d1e283">
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-yk9yaypy">parchemin</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+            matériel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+                </term>
+              </term>Si
+            un livre peut être défini d’un point de vue matériel comme «&#160;un
+            objet transportable destiné à accueillir, partager et transmettre
+            des contenus immédiatement lisibles de façon ordonnée et
+            durable&#160;»<note n="19" place="foot" type="standard" xml:id="ftn19">
+                <p>Patrick Andrist, Paul Canart et Marilena Maniaci, <hi rend="italic">La syntaxe du codex. Essai de codicologie
+                structurale</hi>, Turnhout, Brepols, 2013 (<hi rend="italic">Bibliologia. Elementa ad librorum studia
+                pertinentia</hi>, 34)</p>
+              </note>, que signifie restaurer un livre&#160;? A priori, les
+            interventions de conservation-restauration concernent
+            exclusivement l’objet transportable, et non les contenus (si un
+            texte est lacunaire, seul le matériau – papier ou parchemin – sera
+            comblé, jamais le texte). Mais qu’en est-il si l’on considère les
+            informations matérielles présentes dans la structure du livre
+            comme des contenus secondaires, non destinés à être lus, mais
+            pouvant néanmoins être décodés&#160;? Restaurer un livre peut engendrer
+            des modifications dans la lisibilité des éléments subsistants
+            avant l’intervention, et il est fondamental de savoir repérer et
+            documenter cet état avant toute opération<note n="20" place="foot" type="standard" xml:id="ftn20">
+                <p>Andrea Giovannini, «&#160;Archéologie et restauration des livres
+                et des documents médiévaux&#160;», in <hi rend="italic">Gazette du
+                livre médiéval</hi>, 17, 1990, p.&#160;719</p>
+              </note>. En <date type="_temp" when="2018">2018</date>, lors
+            d’une intervention de renfort en vue d’une numérisation, le
+            démontage de reliures courantes en parchemin datant de la première
+            moitié du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date> a par exemple révélé la présence
+            de clous en métal ferreux insérés entre les deux moitiés de chacun
+            des supports de couture. Cet ajout avait probablement pour
+            objectif de fournir à peu de frais un maintien à la structure du
+            dos, sur lequel aucun encollage n’était effectué et aucune
+            claie<note n="21" place="foot" type="standard" xml:id="ftn21">
+                <p>Élément de renfort du dos et des mors, en papier ou en
+                parchemin souvent de réemploi.</p>
+              </note> n’était posée. Une rapide inspection du fonds dont était
+            extraite cette reliure (les registres de la connétablie du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>) a dévoilé la remarquable
+            fréquence de cette pratique de renfort jusqu’alors peu connue.</p>
+            <p xml:id="d1e311">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-mgygrrzo">historiographie</term>
+                </term>
+              </term>Au
+            cours du <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date>, la conservation-restauration des
+            livres a suivi les évolutions historiographiques qui ont effectué
+            un progressif retour à la matérialité de la source elle-même<note n="22" place="foot" type="standard" xml:id="ftn22">
+                <p>Étienne Anheim, «&#160;La matière de l’histoire, du texte à
+                l’objet&#160;», in Mélanie Roustan et al.&#160;(éd.), <hi rend="italic">La recherche dans les institutions</hi>
+                  <hi rend="italic">patrimoniales</hi>&#160;<hi rend="italic">: sources
+                matérielles et ressources numériques</hi>, Villeurbanne,
+                Presses de l’Enssib, 2016, p.&#160;154-169</p>
+              </note>. D’une logique majoritairement esthétique, la
+            restauration a évolué vers une approche de plus en plus prudente,
+            axée sur l’archéologie et la structure. Paradoxalement, un livre
+            n’est consultable par les chercheurs que s’il est en bon état,
+            mais sa structure n’est bien souvent accessible que lorsqu’il est
+            en mauvais état, donc non communicable. Les interventions de
+            conservation-restauration des livres sont autant d’occasions
+            uniques d’observer et de décrire l’architecture des objets, et
+            placent le restaurateur dans un rapport privilégié, presque
+            intime, avec le document. Comprendre les enjeux de cette position
+            en développant les partenariats entre chercheurs et restaurateurs
+            pourrait ouvrir de nouvelles voies passionnantes à l’archéologie
+            du livre.</p>
+          </div>
+          <div type="section2" xml:id="d1e329">
+            <head subtype="level2" xml:id="d1e330">L’exemple de l’atelier des
+            Archives nationales</head>
+            <p xml:id="d1e332">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-wc3xyyrs">atelier</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-najuwvdf">source</term>
+                </term>
+              </term>Les
+            sources écrites pour l’étude des anciennes interventions de
+            préservation des livres sont maigres. En revanche, les sources
+            matérielles que sont les objets eux-mêmes abondent, portant les
+            traces de la volonté de nos prédécesseurs de faire perdurer
+            l’objet dans le temps. En effectuant des allers et retours entre
+            les rares sources écrites (archives des ateliers de reliure et de
+            restauration, anciens manuels techniques, etc.) et l’observation
+            archéologique des ouvrages, il est possible de dégager des
+            tendances dans les anciennes politiques de préservation <hi>(voir
+            ill. ci-contre, en haut)</hi>.</p>
+            <figure xml:id="d1e337">
+              <graphic url="https://didomena.ehess.fr/downloads/d217qx88z.jpg"/>
+              <head xml:id="d1e338">Figure 3. L’atelier de reliure et de
+              restauration des Archives nationales au début des années 1980.
+              Clichés Archives nationales de France, atelier de
+              photographie</head>
+            </figure>
+            <p xml:id="d1e340">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+                </term>
+              </term>Dans le
+            cas des Archives nationales, nées avec la <date from="1789" to="1799" type="_temp">Révolution française</date>
+              <note n="23" place="foot" type="standard" xml:id="ftn23">
+                <p>Lucie Favier, <hi rend="italic">La mémoire de l’État.
+                Histoire des Archives nationales</hi>, Paris, Fayard, 2004</p>
+              </note>, la première vague de traitement matériel commence avec
+            le fonds le plus emblématique dans les <date from="1840" to="1849" type="_temp">années&#160;1840</date>. Les Archives font appel à un
+            relieur nommé <persName type="_temp">Hirou</persName>, installé
+            rue&#160;Saint-Jacques, pour réaliser – entre autres travaux – de
+            nouvelles reliures pour les registres du célèbre Trésor des
+            chartes, fonds d’archives des rois de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> remontant
+            à l’<date from="1165" to="1223" type="_temp">époque de <persName ref="027070611" type="idref" xml:base="https://www.idref.fr/">Philippe
+            Auguste</persName>
+              </date>. Une grande partie des volumes du Trésor
+            reçoivent des mains de <persName type="_temp">Hirou</persName> de
+            nouvelles reliures luxueuses mais très sobres, en maroquin brun
+            orangé exempt de tout décor. La renommée exceptionnelle de ce
+            fonds et l’attrait inépuisable qu’il exerce sur les chercheurs ont
+            engendré une frénésie d’interventions de reliures et de
+            restauration <date from="1800" to="2020" type="_temp">depuis la
+            première moitié du 19<hi rend="sup">e</hi>&#160;siècle jusqu’à nos
+            jours</date>
+              <hi>(voir ill. ci-contre, en bas)</hi>. La dernière
+            campagne en date fait suite à la numérisation de registres de
+            chancellerie dans le cadre du projet <hi rend="italic">Himanis</hi>
+              <note n="24" place="foot" type="standard" xml:id="ftn24">
+                <p>Projet de recherche mené par l’IRHT, qui permet aux
+                chercheurs d’effectuer des recherches plein texte dans le
+                contenu des registres de chancellerie du 13<hi rend="sup">e</hi> au 15<hi rend="sup">e</hi>&#160;siècle (<ref target="http://himanis.huma-num.fr/himanis/">
+                    <hi rend="underline">http://himanis.huma-num.fr/himanis/</hi>
+                  </ref>).</p>
+              </note>. Certains volumes ont dû être sortis de leur ancienne
+            reliure pour pouvoir être numérisés dans de bonnes conditions, et
+            une partie d’entre eux a bénéficié d’une nouvelle structure de
+            reliure réalisée sur mesure. Les reliures des registres du Trésor
+            des chartes peuvent ainsi être comparées au bateau de <persName ref="027385493" type="idref" xml:base="https://www.idref.fr/">Thésée</persName> dont il est
+            difficile de retrouver les premières planches.</p>
+            <figure xml:id="d1e371">
+              <graphic url="https://didomena.ehess.fr/downloads/p2677379d.jpg"/>
+              <head xml:id="d1e372">Figure 4. Les reliures, similaires mais
+              réalisées à différentes époques, des registres du Trésor des
+              chartes (coll.&#160;Archives nationales). Clichés Archives nationales
+              de France, atelier de photographie</head>
+            </figure>
+            <p xml:id="d1e376">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-9kxmpfs2">salle de
+            lecture</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>Dans la <date from="1850" to="1899" type="_temp">seconde moitié du 19<hi rend="sup">e</hi>&#160;siècle</date>, les livres d’archives (registres,
+            cartulaires, censiers, obituaires, etc.) des séries historiques
+            ont été séparés des documents en liasses (feuillets volants
+            regroupés par une simple sangle) et placés dans la salle de
+            l’armoire de fer, centre névralgique du dépôt construit dans les
+            <date from="1860" to="1869" type="_temp">années&#160;1860</date> le
+            long de la rue&#160;des Quatre-Fils <hi>(voir ill. p.&#160;51)</hi>. Ce
+            choix de mise en valeur illustre la prédominance intellectuelle et
+            symbolique de la forme livresque. Les volumes d’archives ont été
+            abondamment reliés de façon similaire (reliures demi-maroquin et
+            plats en papier Annonay), mais les ouvrages porteurs d’une reliure
+            ancienne en plein cuir ont été le plus souvent épargnés et
+            seulement restaurés. Les livres d’archives de l’<placeName ref="6696091" type="geonames" xml:base="https://www.geonames.org/">abbaye de
+            Saint-Germain-des-Prés</placeName> illustrent très bien ces
+            traitements différenciés. Certains volumes ont reçu une
+            demi-reliure en cuir rouge – il est probable qu’ils présentaient
+            auparavant une reliure de moindre valeur ou trop détériorée pour
+            être conservée&#160;–, tandis que d’autres ouvrages porteurs d’une
+            reliure plein veau estampé à froid ont conservé une grande partie
+            de leur structure et de leur décor d’origine <hi>(voir ill.
+            p.&#160;51)</hi>. On relève donc une certaine forme d’adaptation à
+            l’existant&#160;: on préserve ce que l’on estime précieux et luxueux (à
+            condition que les dégradations ne soient pas trop sévères), et on
+            refait en réactualisant selon les goûts de l’époque ce qui semble
+            trop grossier et/ou trop dégradé. La navigation entre logique de
+            collection et valeur d’usage est ici flagrante, et entre en
+            résonance avec les questionnements menés par <persName ref="027187713" type="idref" xml:base="https://www.idref.fr/">Viollet-le-Duc</persName> et
+            <persName ref="027115607" type="idref" xml:base="https://www.idref.fr/">Ruskin</persName>.</p>
+            <figure xml:id="d1e387">
+              <graphic url="https://didomena.ehess.fr/downloads/n583z3205.jpg"/>
+              <head xml:id="d1e388">Figure 5. La salle de l’armoire de fer des
+              Archives nationales. Clichés Archives nationales de France,
+              atelier de photographie</head>
+            </figure>
+            <figure xml:id="d1e390">
+              <graphic url="https://didomena.ehess.fr/downloads/v118rn588.jpg"/>
+              <head xml:id="d1e391">Figure 6. Livre de comptes,
+              Saint-Germain-des-Prés, 1514 (coll.&#160;Archives nationales). Arch.
+              nat. LL 1117 ; cliché Archives nationales de France, atelier de
+              photographie</head>
+            </figure>
+            <p xml:id="d1e395">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                  </term>
+                </term>
+              </term>Paradoxalement,
+            les documents considérés comme les plus précieux au milieu du
+            <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date> ayant été abondamment remaniés,
+            les volumes délaissés à cette époque présentent aujourd’hui, du
+            fait de l’absence de traitement antérieur, un intérêt plus
+            important pour l’histoire de la reliure ancienne. Les reliures
+            estampées à froid de <placeName ref="6696091" type="geonames" xml:base="https://www.geonames.org/">Saint-Germain-des-Prés</placeName>
+            constituent à cet égard un ensemble précieux pour l’histoire de la
+            reliure et de la restauration, puisque nous possédons tous les cas
+            de figure&#160;: certains volumes n’ont jamais été touchés depuis le
+            début du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>, quand d’autres ont été remaniés
+            jusqu’à cinq ou six fois.</p>
+          </div>
+        </div>
+        <div type="section1" xml:id="d1e403">
+          <head subtype="level1" xml:id="d1e404">Conclusion</head>
+          <p xml:id="d1e406">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                </term>
+              </term>
+            </term>Lorsqu’un
+          livre est qualifié d’œuvre d’art, on évoque plus volontiers son
+          texte que son aspect matériel (impression, mise en page, décoration,
+          structure et décor de la reliure). Pourtant, la matérialité est
+          centrale dans notre rapport au livre&#160;: en témoignent les nombreux
+          termes issus du corps humain pour désigner certains outils des
+          professionnels du livre, ou certaines parties du dessin des lettres
+          ou de la reliure. En témoignent également les évolutions dans la
+          pensée initiées par des changements matériels (par exemple le
+          développement des idées humanistes catalysé par l’utilisation du
+          caractère romain, qui remplace progressivement la gothique au <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>). Le livre revêt aujourd’hui des
+          rôles multiples et complexes, et sa matérialité est l’objet d’une
+          attention grandissante de la part des historiens. Entre matière et
+          discours, collection et usage, document et monument, manuscrit et
+          imprimé, bibliothèques et archives, le monde du patrimoine écrit est
+          incroyablement vaste. Les recherches le concernant opèrent
+          aujourd’hui une spectaculaire diversification, depuis le
+          développement de l’archéologie du livre jusqu’à l’exploration des
+          possibilités offertes par les technologies numériques. L’étude des
+          modalités de préservation – passées, présentes et à venir – de ce
+          patrimoine riche et complexe peut proposer un éclairage nouveau sur
+          le rapport qu’entretiennent les hommes avec leurs livres.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e414">
+        <head xml:id="d1e415">Orientations bibliographiques<note n="25" place="foot" type="standard" xml:id="ftn26">
+            <p>Nous n’avons pas repris ici les références déjà données dans
+            les notes.</p>
+          </note>
+        </head>
+        <listBibl xml:id="d1e419">
+          <bibl type="orig" xml:id="d1e420">Appelbaum, Barbara, <hi rend="italic">Conservation treatment methodology</hi>,
+          Amsterdam-Boston, Butterworth-Heinemann, 2007</bibl>
+          <bibl type="orig" xml:id="d1e425">Berducou, Marie-Claude&#160;(dir.), <hi rend="italic">La conservation en archéologie. Méthodes et pratique
+          de la conservation-restauration des vestiges archéologiques</hi>,
+          Paris, Masson, 1990</bibl>
+          <bibl type="orig" xml:id="d1e430">Bonnardot, Alfred, <hi rend="italic">De la réparation des vieilles reliures, complément de
+          l’essai sur l’art de restaurer les estampes et les livres</hi>,
+          Paris, Castel, 1858</bibl>
+          <bibl type="orig" xml:id="d1e435">Bonnardot, Alfred, <hi rend="italic">Essai sur l’art de restaurer les estampes et les
+          livres ou traité sur les meilleurs procédés pour blanchir, détacher,
+          décolorier, réparer et conserver les estampes, livres et
+          dessins</hi>, Paris, Castel, 1858</bibl>
+          <bibl type="orig" xml:id="d1e440">Brandi, Cesare, <hi rend="italic">Théorie de la restauration</hi>, Paris, Allia,
+          2011</bibl>
+          <bibl type="orig" xml:id="d1e445">Cometti, Jean-Pierre, <hi rend="italic">Conserver/Restaurer. L’œuvre d’art à l’époque de sa
+          préservation technique</hi>, Paris, Gallimard, 2015</bibl>
+          <bibl type="orig" xml:id="d1e450">Côte, Marie et Daniel, Floréal,
+          «&#160;De Diafoirus aux thérapies de groupe : une petite histoire des
+          techniques de conservation/restauration du livre&#160;», in Association
+          pour la recherche scientifique sur les arts graphiques&#160;(éd.), <hi rend="italic">La conservation&#160;: une science en évolution, bilans et
+          perspectives, Paris, 1997</hi>, Paris, ARSAG, 1997, p.&#160;94-102</bibl>
+          <bibl type="orig" xml:id="d1e455">Heinich, Nathalie, <hi rend="italic">La fabrique du patrimoine&#160;: de la cathédrale à la
+          petite cuillère</hi>, Paris, Maison des sciences de l’homme,
+          2009</bibl>
+          <bibl type="orig" xml:id="d1e460">Kriche, Myriam, «&#160;Les reliures des
+          registres d’archives médiévales, XIV<hi rend="sup">e</hi>-XV<hi rend="sup">e</hi>&#160;siècles. Premiers résultats&#160;», in Bourlet, C. et
+          Zerdoun Bat-Yehouda, M., <hi rend="italic">Bibliologia&#160;30, Matériaux
+          du livre médiéval</hi>, Turnhout, Brepols, 2010, p.&#160;249-268</bibl>
+          <bibl type="orig" xml:id="d1e471">Leveau, Pierre, «&#160;Restaurer
+          l’invisible&#160;: un éclairage philosophique&#160;», in <hi rend="italic">Restaurer l’invisible. Postprints des journées d’étude
+          internationales APROA-BRK, 6, Bruxelles 2011</hi>, Bruxelles, Marjan
+          Buyle, Agence du patrimoine de Flandre, 2012, p.&#160;11-16</bibl>
+          <bibl type="orig" xml:id="d1e476">Philippot, Paul, <hi rend="italic">Pénétrer l’art, restaurer l’œuvre&#160;: une vision
+          humaniste. Hommage en forme de florilège</hi>, Bruxelles,
+          Groeninghe, 1990</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

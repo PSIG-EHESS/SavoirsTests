@@ -1,0 +1,2307 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="snadal" time="2022-11-24T16:30:12.303+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-3909_Duroisin">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Henry de Montherlant «&#160;entre les deux mondes&#160;»&#160;: la
+        leçon des manuscrits (I)</title>
+        <author role="aut">
+          <forename>Pierre</forename>
+          <surname>Duroisin</surname>
+          <idno type="IDREF">028952944</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/A84EIHHL" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Henry de Montherlant « entre les deux mondes » :
+            la leçon des manuscrits (I)</title>
+            <idno type="DOI">10.4000/anabases.3909</idno>
+            <title type="short">Henry de Montherlant « entre les deux mondes
+            »</title>
+            <author>
+              <forename>Pierre</forename>
+              <surname>Duroisin</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Anabases. Traditions et réceptions de
+            l’Antiquité</title>
+            <idno type="ISSN">1774-4296</idno>
+            <imprint>
+              <biblScope unit="issue">16</biblScope>
+              <biblScope unit="page">49-83</biblScope>
+              <date>2012</date>
+              <note type="accessed">2022-07-06T07:53:58Z</note>
+              <note type="url">https://journals.openedition.org/anabases/3909</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Catholicism</item>
+            <item>Montherlant</item>
+            <item>pagan antiquity</item>
+            <item>Pan</item>
+            <item>Julian the Apostate</item>
+            <item>Heine H.</item>
+            <item>Guignebert Ch.</item>
+            <item>Péladan</item>
+            <item>Larbaud</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>catholicisme</item>
+            <item>Montherlant</item>
+            <item>antiquité païenne</item>
+            <item>Pan</item>
+            <item>Julien l’Apostat</item>
+            <item>Heine H</item>
+            <item>Guignebert Ch.</item>
+            <item>Péladan</item>
+            <item>Larbaud</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+          <term>
+            <placeName ref="294640" type="geonames" xml:base="https://www.geonames.org/">Israël</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1900" to="1999" type="_temp">XX<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date type="_temp">Antiquité païenne</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart level="a" type="main">Henry de Montherlant «&#160;entre les
+          deux mondes&#160;»&#160;: la leçon des manuscrits (I)</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Pierre Duroisin</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:id="d1e237" xml:lang="fre">Concilier l’antiquité païenne et le
+        catholicisme, sinon le christianisme, fut l’idéal de Montherlant
+        jusqu’aux environs de 1925, et les notes manuscrites qu’on a ici
+        présentées (elles portent sur la première page la date du
+        30&#160;décembre&#160;1922 et s’intitulent <hi rend="italic">La Garde autour de
+        Pan et Julien l’Apostat</hi>) montrent comment il s’y employa, avant
+        de reconnaître que cet «&#160;idéal respectable et touchant&#160;» n’était
+        qu’une «&#160;position fausse de l’esprit&#160;», un «&#160;jeu de l’imagination et
+        de la poésie&#160;». La matière étant copieuse, on s’est dans un premier
+        temps limité à <hi rend="italic">La Garde autour de Pan</hi>, qui nous
+        conduira des <hi rend="italic">Dieux en exil</hi> de Heine au <hi rend="italic">Christianisme antique</hi> de Charles Guignebert en
+        passant par <hi rend="italic">Le Vœu de la Renaissance</hi> de Péladan
+        et le <hi rend="italic">Fermina Márquez</hi> de Larbaud. Une suite,
+        plus proprement consacrée au volet Julien du manuscrit de 1922, ainsi
+        qu’à un ensemble de manuscrits «&#160;Sur la religion&#160;», paraîtra dans le
+        prochain numéro d’<hi rend="italic">Anabases</hi>.</p>
+        <p xml:id="d1e262" xml:lang="eng">To reconcile pagan antiquity with
+        Catholicism, rather than with Christianism remained Montherlant’s
+        ideal until about 1925, and the manuscript notes presented here (the
+        first page is dated 30&#160;December&#160;1922 and the title reads <hi rend="italic">La Garde autour de Pan et Julien l’Apostat</hi>)
+        demonstrate how he committed himself to this task before admitting
+        that this “respectable and touching ideal” was nothing but a “false
+        position of the mind”, a “game of imagination and poetry”. As the
+        material is abundant, our study will at a first be restricted to <hi rend="italic">La Garde autour de Pan</hi>, which will take us from
+        Heine’s<hi rend="italic"> Les Dieux en exil</hi> to Charles
+        Guignebert’s <hi rend="italic">Le Christianisme antique</hi>, taking
+        in Peladan’s <hi rend="italic">Le Vœu de la Renaissance </hi>and
+        Larbaud’s<hi rend="italic"> Fermina Márquez</hi>. A further article,
+        more closely devoted to the Julien section of the 1922 manuscript, as
+        well as to a set of manuscripts “On religion”, will appear in the next
+        issue of <hi rend="italic">Anabases.</hi>
+        </p>
+      </div>
+      <div type="prelim" xml:id="d1e405">
+        <epigraph>
+          <quote xml:id="d1e405">Je voudrais concilier l’antiquité païenne et
+          le catholicisme,<lb/>comme la Rome de la Renaissance,<lb/>une main
+          sur la Louve, une main sur la Croix<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Le mot, rapporté par Paul Abraham comme étant de 1924, se
+              trouve dans «&#160;Un entretien avec Henry de Montherlant&#160;» (<hi rend="italic">Le</hi>
+                <hi rend="italic">Mail</hi>, n<hi rend="sup">o</hi>&#160;1, 1927, p.&#160;8). Remarques pratiques&#160;: le lieu
+              d’édition ne sera pas donné s’il s’agit de Paris et pour les
+              œuvres de Montherlant éditées dans la Bibliothèque de la
+              Pléiade, les abréviations E, T, R1 et R2 renverront aux volumes
+              <hi rend="italic">Essais</hi> (1963), <hi rend="italic">Théâtre</hi> (1972), <hi rend="italic">Romans&#160;I</hi> (1959, 2008) et <hi rend="italic">Romans&#160;II</hi> (1982, 2009).</p>
+            </note>.</quote>
+        </epigraph>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e335">Parmi les autographes de <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+        qui se vendirent le <date type="_temp" when="2009-03-23">23&#160;mars&#160;2009</date> chez Drouot se trouvait un
+        ensemble de «&#160;10&#160;pages in-4&#160;» daté très précisément du <date type="_temp" when="1922-12-30">30&#160;décembre&#160;1922</date> et intitulé <hi rend="italic">La Garde autour de Pan et Julien l’Apostat</hi>
+          <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Il s’agissait du lot&#160;245 d’une vente organisée par la société
+            Piasa, la date étant celle que Montherlant a notée dans le coin
+            supérieur gauche du premier feuillet&#160;: 30-12-1922. La notice du
+            catalogue de vente fait aussi remarquer que la plupart de ces dix
+            pages sont «&#160;au dos d’une circulaire de l’Œuvre du souvenir des
+            défenseurs de Verdun –&#160;Monument de Douaumont&#160;». Montherlant, comme
+            le rappelle d’ailleurs un post-scriptum de la circulaire, fut le
+            premier secrétaire général de l’Œuvre de l’Ossuaire et le <hi rend="italic">Chant funèbre pour les morts de Verdun</hi> qu’il
+            publia en 1925 est l’expression même du soutien qu’il lui apporta
+            entre 1920 et 1924.</p>
+          </note>. C’est ce dossier qu’on va examiner, à commencer d’ailleurs
+        par son titre, qu’il faut lire en deux temps&#160;: <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> avait d’abord
+        écrit, à l’encre, <hi rend="italic">La Garde autour de Pan</hi>, avant
+        d’ajouter, en dessous et au crayon, <hi rend="italic">et Julien
+        l’Apostat</hi>, comme pour associer l’empereur accusé d’avoir trahi sa
+        foi<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Lucien Jerphagnon a remis les choses à leur place quand il a
+            donné pour épigraphe à son <hi rend="italic">Julien dit
+            l’Apostat</hi> (Tallandier, 2008) ce mot de Pierre Renucci&#160;: «&#160;Il
+            nous paraît incongru d’affirmer, d’une façon générale, qu’il y a
+            abandon du christianisme s’il n’y eut au préalable abandon au
+            christianisme.&#160;»</p>
+          </note> au dieu dont la mort avait été annoncée, au <date from="0001" to="0099" type="_temp">
+            <hi rend="small-caps">i</hi>
+            <hi rend="sup">er</hi>&#160;siècle de notre ère</date>, à des marins croisant
+        au large de <placeName ref="255653" type="geonames" xml:base="https://www.geonames.org/">Paxos</placeName>
+          <note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Grand lecteur des <hi rend="italic">Vies parallèles</hi>,
+            Montherlant savait probablement, même s’il ne cite jamais Paxos,
+            que ce soit dans <hi rend="italic">Les Bestiaires</hi> en 1925
+            (R1, p.&#160;578) ou dans <hi rend="italic">Le Solstice de juin</hi>
+            en&#160;1940 (E, p.&#160;954), qu’on tient cette légende de Plutarque et de
+            son opuscule sur la disparition des oracles.</p>
+          </note>.</p>
+        <p xml:id="d1e381">Sur ce diptyque se grefferont, en temps voulu,
+        quelques pages manuscrites vendues de même chez Drouot, <date type="_temp" when="2011-06-15">le 15&#160;juin&#160;2011</date>, et intitulées,
+        pour la circonstance, «&#160;Sur la Religion<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Il s’agissait du lot&#160;72 d’une vente organisée par Brissonneau,
+            à quoi on associera le texte d’une «&#160;Note sur <hi rend="italic">Pour une Vierge noire</hi>&#160;» qui se vendit chez
+            Piasa le 11&#160;avril&#160;2002.</p>
+          </note>&#160;».</p>
+        <p xml:id="d1e391">S’y ajouteront enfin deux inédits, un «&#160;conte
+        antique&#160;» de <date type="_temp" when="1912">1912</date> intitulé <hi rend="italic">Le dieu Pan</hi> et un petit texte appelé <hi rend="italic">Guerre</hi>, qu’on doit à M.&#160;<persName ref="244280347" type="idref" xml:base="https://www.idref.fr/">Jean-Claude
+        Barat</persName>, l’exécuteur testamentaire de <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>, de quoi
+        fournir une matière assez riche pour qu’on la répartisse sur deux
+        numéros d’<hi rend="italic">Anabases</hi>.</p>
+        <div type="section1" xml:id="d1e402">
+          <head subtype="level1" xml:id="d1e403">Pan et Julien dans l’œuvre de
+          Montherlant</head>
+          <p xml:id="d1e405">La première fois que <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+          a évoqué <hi rend="italic">La Garde autour de Pan</hi>, c’est dans
+          la <hi rend="italic">Nouvelle Revue française</hi> du <date type="_temp" when="1923-05-01">1<hi rend="sup">er</hi>&#160;mai&#160;1923</date>, dans des <hi rend="italic">Notes
+          relatives à la religion et aux passions </hi>qu’il avait
+          sous-titrées <hi rend="italic">À propos du «&#160;Songe&#160;»</hi>, son roman
+          tout frais paru chez Grasset<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Ces <hi rend="italic">Notes</hi> occupent les pages&#160;756 à&#160;769
+              de la revue. Cela dit, les extraits qu’on en lira ci-après sont
+              repris du placard que Montherlant avait reçu le 13&#160;avril de
+              l’imprimerie Paillart d’Abbeville et qu’il renvoya le 17 avec le
+              bon à tirer, non sans y avoir apporté d’assez nombreuses
+              corrections. C’est de nouveau à M.&#160;Barat que je dois d’avoir pu
+              lire ce document qui, comme le texte publié, compte
+              14&#160;pages.</p>
+            </note>. Rien d’autre, selon lui, que «&#160;des fragments décousus et
+          qui sans mal fussent rentrés au tiroir<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Une variante qui intéressera les historiens de la <hi rend="italic">Nrf</hi>&#160;: «&#160;qui sans mal fussent rentrés au
+              tiroir&#160;» a, sur le placard même, remplacé «&#160;qui fussent rentrés
+              au tiroir sans l’insistance amicale de Jacques Rivière&#160;».</p>
+            </note>&#160;», rien qu’«&#160;un tour de valse avec le sacré&#160;» où il feint
+          de donner la parole à son héros, un <persName type="_temp">Alban de
+          Bricoule</persName> que la «&#160;critique catholique&#160;» a «&#160;déclaré
+          “saugrenu” pour son orgueil, sa “dureté”, sa sensualité, son manque
+          de vertus chrétiennes&#160;», mais qui n’en demeure pas moins «&#160;un
+          exemplaire du catholique&#160;».</p>
+          <p xml:id="d1e439">Mis en présence de ses détracteurs, qui lui
+          reprochent de faire «&#160;les gestes de la foi&#160;» sans avoir la foi,
+          <persName type="_temp">Alban</persName> rétorque –&#160;ou rétorquerait&#160;–
+          qu’il a reçu le <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Christ</persName> dans son héritage
+          et qu’en l’accueillant «&#160;avec le reste&#160;» (liturgie, sacrements), il
+          se conforme «&#160;à la recommandation du pontife <persName type="_temp">Aurelius Cotta</persName> dans la <hi rend="italic">Nature des dieux</hi>, qu’“un bon citoyen accepte la
+          religion des anciens et la pratique parce qu’elle est le fondement
+          de la Cité”&#160;», et quand on le taxe d’hypocrisie, il convoque les
+          «&#160;Romains de vieille souche (du type de <persName ref="026774283" type="idref" xml:base="https://www.idref.fr/">Celse</persName>, de
+          <persName type="_temp">Cœcilius</persName>, de <persName ref="02715288X" type="idref" xml:base="https://www.idref.fr/">Symmaque</persName>), qui, devant
+          le christianisme triomphant, refusaient de rompre avec un culte qui
+          avait été mêlé à tout ce qu’il y avait eu de bon et de grand dans
+          leur famille et dans l’Empire et sacrifiaient d’un cœur religieux à
+          une religion à laquelle ils ne croyaient pas<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Alban fait allusion au début du chapitre&#160;II du livre&#160;III,
+              quand Cotta rappelle qu’il s’en tient à la coutume, en tant que
+              pontife aussi bien qu’à titre personnel&#160;: «&#160;J’ai toujours
+              défendu et défendrai toujours la religion et les cérémonies qui
+              nous sont venues de nos pères&#160;», ajoutant que les auspices, les
+              sacrifices et les prédictions sont pour lui «&#160;les fondements de
+              la cité&#160;», <hi rend="italic">fundamenta civitatis</hi>. Mais
+              c’est sans doute par <hi rend="italic">La Fin du paganisme</hi>
+              de Gaston Boissier que Montherlant découvrit le personnage de
+              Cotta. Boissier, en effet, consacre tout un chapitre de son
+              livre à l’<hi rend="italic">Octavius</hi> de Minucius Felix,
+              lequel reprend pour son Caecilius les arguments que Cicéron a
+              mis dans la bouche de Cotta&#160;: «&#160;La religion nationale est une
+              institution comme les autres, il faut la respecter au même
+              titre. […] Un bon citoyen l’accepte et la pratique, parce
+              qu’elle est le fondement de la cité.&#160;» (<hi rend="small-caps">G.&#160;Boissier</hi>, <hi rend="italic">La Fin du
+              paganisme</hi>, I, p.&#160;271, Hachette, 1903, 4<hi rend="sup">e</hi>&#160;éd.). Caecilius rejoint d’ailleurs, dans le
+              discours d’Alban, ces deux défenseurs acharnés du paganisme,
+              l’un du <hi rend="small-caps">ii</hi>
+                <hi rend="sup">e</hi>&#160;s.,
+              l’autre du <hi rend="small-caps">iv</hi>
+                <hi rend="sup">e</hi>,
+              que furent Celse et Symmaque, encore que ce rapprochement ne
+              laisse pas de surprendre dans la mesure où, tout à la fin de
+              l’<hi rend="italic">Octavius</hi>, le païen Caecilius s’avouera
+              vaincu par son adversaire. Cela dit, le <hi rend="italic">De
+              Natura deorum </hi>est un traité sur lequel Montherlant est
+              plusieurs fois revenu&#160;: en 1928 dans <hi rend="italic">Jeux
+              olympiques et Antiquité</hi> (dans <hi rend="italic">Earinus,
+              Troisième Olympique</hi>, p.&#160;137, Hazan, 1929), en 1944 dans <hi rend="italic">La Déesse Cypris</hi> (E, p.&#160;1584 dans <hi rend="italic">Textes sous une occupation</hi>) et dans les
+              «&#160;carnets sans dates et carnets 1972&#160;», où il le cite d’après
+              d’Yves <hi rend="small-caps">Battistini </hi>(<hi rend="italic">Tous Feux éteints</hi>, p.&#160;134, Gallimard,
+              1975).</p>
+            </note>&#160;».</p>
+          <p xml:id="d1e503">Et tandis que le héros du <hi rend="italic">Songe</hi> se demande si cette «&#160;attitude […] ne fut
+          pas celle de tous les Romains éclairés dès la <date type="_temp" when="-0027">fin de la République</date>&#160;: des pratiquants sans la
+          foi&#160;», l’auteur rompt avec la fiction pour feuilleter un album de
+          famille où il se découvre de rudes ancêtres qui tuèrent et pillèrent
+          mais «&#160;n’ont pas plus quitté la communauté catholique qu’ils n’ont
+          quitté la communauté nationale&#160;». Rejetant «&#160;le vieil esprit de
+          dissociation qui travaille le monde […], le vieil esprit qui a créé
+          les prétendues antinomies inconciliables entre le corps et l’âme
+          […], entre le divin et l’humain […], entre la pensée et l’action
+          […], entre le christianisme et le paganisme et qui ensuite traite de
+          confusion l’union supérieure qu’il a dans l’abstrait défaite<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>On sent poindre le <hi rend="italic">Syncrétisme et
+              alternance</hi> de 1925.</p>
+            </note>&#160;», il entend rétablir «&#160;le mot catholique&#160;» dans son
+          statut d’origine, qui est l’universel. Pour lui, pas de doute, c’est
+          le catholicisme qui «&#160;a remis debout ce dont le christianisme avait
+          été le principal destructeur&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e718">«&#160;<hi rend="italic">
+              <foreign xml:lang="lat">ROMA capta cœpit</foreign>
+            </hi> [sic] <hi rend="italic">
+              <foreign xml:lang="lat">ferum victorem</foreign>
+            </hi>. Le grand <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> n’est pas mort, et
+          c’est l’Église qui, autour de lui, monte la garde<hi rend="sup">1</hi>. Un <persName type="_temp">Alban de
+          Bricoule</persName> peut être considéré, si l’on veut, comme un de
+          ces produits du monde antique adaptés à la religion nouvelle à
+          laquelle l’Église les incorpora. Je songe à ces divinités champêtres
+          évoquées par <persName ref="026917688" type="idref" xml:base="https://www.idref.fr/">Heine</persName>, qui, au triomphe
+          du christianisme, se convertirent à la religion nouvelle, parfois
+          même se firent ermites, et mouraient, le chapelet dans les mains,
+          mais le cœur plein de leurs anciennes Arcadies<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>P.&#160;11 sur les épreuves d’imprimerie, p.&#160;766 de la <hi rend="italic">Nrf</hi>. Inutile de préciser que le <hi rend="italic">Roma capta cepit…</hi> (car <hi rend="italic">coepit </hi>fut corrigé <hi rend="italic">in
+              extremis</hi> dans la revue) s’inspire du <hi rend="italic">Graecia capta ferum victorem cepit</hi>
+              d’Horace<hi rend="italic"/> (<hi rend="italic">Ép.</hi>, II, I,
+              156).</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e554">C’est ici, dans la note de bas de page
+          correspondant à l’appel inséré par <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+          après «&#160;Le grand <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> n’est pas mort, et
+          c’est l’Église qui, autour de lui, monte la garde&#160;», qu’on aura de
+          quoi faire le lien avec le manuscrit du <date type="_temp" when="1922-12-30">30&#160;décembre&#160;1922</date>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e786">«&#160;Voici l’occasion
+          d’annoncer, à seule fin de prendre date, le livre d’essais qui
+          paraîtra quelque jour sous ce titre&#160;: <hi rend="italic">La garde
+          autour de Pan</hi>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>P.&#160;767 de la <hi rend="italic">Nrf</hi>, p.&#160;11 et 12 du
+              placard, où le texte retenu a remplacé «&#160;À la seule fin de
+              prendre date, je me permets d’annoncer un livre d’études qui
+              paraîtra quelque jour sous ce titre&#160;: <hi rend="italic">La garde
+              autour de Pan</hi>&#160;». Pierre Sipriot cite le texte mais sans la
+              note dans <hi rend="italic">Montherlant sans masque</hi>,
+              p.&#160;194, Le Livre de Poche, 1990.</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e574">Un projet sans lendemain, mais que l’écrivain a
+          pris soin de rappeler à deux reprises au moins et à trente ans
+          d’intervalle&#160;: une première fois en <date type="_temp" when="1940">1940</date>, dans <hi rend="italic">Paysage des
+          Olympiques</hi>, et une seconde fois en <date type="_temp" when="1972">1972</date>, dans <hi rend="italic">Mais aimons-nous
+          ceux que nous aimons&#160;?</hi>
+          </p>
+          <p xml:id="d1e581">
+            <date type="_temp" when="1940">1940</date>.
+          L’auteur de <hi rend="italic">Paysage des Olympiques </hi>vient de
+          renvoyer le lecteur à <hi rend="italic">Pershing&#160;1920</hi>, un essai
+          vieux de vingt ans qui se terminait par une prière à la façon de
+          <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName>&#160;: «&#160;Ô Dieu des
+          corps et des âmes, donnez-moi de mener une vie juste&#160;! Que j’aime
+          toujours davantage les choses que vous avez créées&#160;!&#160;», doublée d’un
+          mot de <persName type="_temp">Michel-Ange</persName>&#160;: «&#160;Car il doit
+          aimer l’œuvre, celui qui en adore l’auteur.&#160;» C’est alors qu’il
+          commente pour le lecteur de <date type="_temp" when="1940">1940</date>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e844">«&#160;Je retrouve dans ce texte
+          cette aspiration vers l’unité qui me hanta jusqu’à ma trentième
+          année environ. Résoudre toutes les antinomies, celles notamment que
+          crée le christianisme, unir par la même piété toutes les croyances
+          et tous les âges, me semblait tâche haute, et d’ailleurs non
+          difficile. […] Dans un syncrétisme éperdu, je rêvais sur <persName ref="029794846" type="idref" xml:base="https://www.idref.fr/">Septime Sévère</persName> qui plaça
+          l’image de <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> au Panthéon, sur
+          cette académie platonicienne de <placeName ref="6542285" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName> qui
+          s’était proposé formellement pour but de fondre ensemble l’esprit du
+          christianisme et celui du paganisme, sur ce pape <persName ref="026657929" type="idref" xml:base="https://www.idref.fr/">Grégoire</persName> que <persName ref="026811081" type="idref" xml:base="https://www.idref.fr/">Dante</persName> fait prier pour
+          l’âme de <persName ref="081821417" type="idref" xml:base="https://www.idref.fr/">Trajan</persName>. Je méditais de
+          composer un livre, <hi rend="italic">La Garde autour de Pan</hi>, où
+          l’on eût soutenu que le christianisme n’est devenu ce qu’il est
+          aujourd’hui que par son alliance avec l’<date type="_temp">antiquité</date>, que <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> et
+          <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> restaient
+          incompréhensibles pour les Renaissants, si ceux-ci n’avaient connu
+          <persName type="_temp">Saint Paul</persName> et l’Évangile, et
+          qu’enfin c’est dans l’Église seule que l’on peut retrouver vivant
+          quelque chose de l’âme antique&#160;; et déjà je dessinais la couverture
+          du volume&#160;: des prêtres en surplis portant sur leurs épaules, avec
+          le plus grand cérémonial, une châsse de verre où repose <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> endormi<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="italic">Paysage des Olympiques</hi>, p.&#160;43-44,
+              Grasset, 1940. Le texte de 1920 auquel renvoie Montherlant avait
+              paru dans <hi rend="italic">Le Monde nouveau </hi>de
+              septembre&#160;1920 sous le titre <hi rend="italic">Quant aux Jeux
+              Olympiques… </hi>avant d’être inclus en 1929 dans <hi rend="italic">Earinus</hi>, sous le titre <hi rend="italic">Pershing&#160;1920</hi>. La légende du pape Grégoire
+              priant pour que Trajan ressuscite afin de mourir en chrétien est
+              reprise par Dante au chant&#160;XX de son <hi rend="italic">Paradis</hi>.</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e618">En <date type="_temp" when="1972">1972</date>,
+          quelques semaines avant sa mort volontaire, <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> termine <hi rend="italic">Mais aimons-nous ceux que nous aimons&#160;?</hi>, où il
+          avoue, quand il évoque le temps de ses <hi rend="italic">Olympiques</hi>, que s’il n’allait pas à la messe le
+          dimanche tout en disant à sa pieuse et vénérée grand-mère qu’il y
+          était allé, c’était «&#160;par indifférence&#160;». La suite nous renverra à
+          <hi rend="italic">Paysage des Olympiques</hi>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e929">«&#160;Dans ces années-là, <date type="_temp" when="1920">1920</date> et <date type="_temp" when="1921">1921</date>, les prêtres cherchaient à annexer le sport
+          parce qu’il était à la mode&#160;; je faisais comme eux non pour les
+          suivre mais parce que mêler christianisme et paganisme était un
+          mouvement inhérent à ma nature, bien que je n’eusse ni foi ni
+          pratique catholique. Je rêvais sur <persName ref="029794846" type="idref" xml:base="https://www.idref.fr/">Septime
+          Sévère</persName> qui plaça l’image de <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> au
+          Panthéon&#160;; sur cette académie platonicienne de <placeName ref="6542285" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName> qui
+          s’était donné formellement pour but de fondre ensemble l’esprit du
+          christianisme et celui du paganisme, sur la phrase de <persName type="_temp">Michel-Ange</persName>&#160;: «&#160;Il doit aimer l’œuvre, celui
+          qui en adore l’auteur.&#160;» Je méditais de composer un livre, <hi rend="italic">La Garde autour de Pan</hi> – ce qui vit en nous du
+          paganisme nous a été conservé par le catholicisme, – et déjà j’en
+          dessinais la couverture&#160;: des prêtres en surplis portant sur leurs
+          épaules, avec le plus grand cérémonial, une châsse de verre dans
+          laquelle repose <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> endormi<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="italic">Mais aimons-nous ceux que nous
+              aimons&#160;?</hi>, p.&#160;39-40, Gallimard, 1973. Pour ce qui est de
+              Septime Sévère accueillant Jésus au Panthéon, on verra dans la
+              note&#160;69 ce qu’il y a lieu d’en penser.</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e643">Cela posé, entre la note de <date type="_temp" when="1923">1923</date> et les textes de <date type="_temp" when="1940">1940</date> et de <date type="_temp" when="1972">1972</date>, où il est nommément question d’un livre qui
+          devait s’appeler <hi rend="italic">La Garde autour de Pan</hi>,
+          s’insèrent deux textes de <date type="_temp" when="1929">1929</date>, <hi rend="italic">Le dernier Retour</hi> et
+          <hi rend="italic">Trois Jours au Montserrat</hi>, regroupés dès
+          <date type="_temp" when="1930">1930</date> sous le titre <hi rend="italic">Pour une Vierge noire</hi>, puis insérés, en <date type="_temp" when="1945">1945</date>, dans <hi rend="italic">Un
+          Voyageur solitaire est un diable</hi>.</p>
+          <p xml:id="d1e660">Voici d’abord la plainte du <hi rend="italic">Dernier Retour</hi>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1009">«&#160;Je suis des trois
+          premiers siècles. Le monde adore le Soleil, et il va se faire
+          chrétien. Je souffre de la souffrance de <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> avant
+          qu’il se fasse chrétien, quand l’Orient lui a tourné la tête.<lb/>Le
+          tableau de <persName ref="027397912" type="idref" xml:base="https://www.idref.fr/">Signorelli</persName> appelé <hi rend="italic">L’École de Pan</hi>, et que j’ai toujours appelé <hi rend="italic">La Tristesse de Pan</hi>. Si jeune, et quelle
+          mélancolie, sous sa lourde couronne de joie&#160;!<lb/>
+            <persName ref="028336496" type="idref" xml:base="https://www.idref.fr/">Ferrero</persName> a un bel essai
+          sur la tristesse des Romains du temps d’<persName ref="032190026" type="idref" xml:base="https://www.idref.fr/">Auguste</persName>.
+          <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Flaubert</persName> écrit qu’à
+          aucun moment du monde l’homme ne fut aussi seul entre les dieux
+          auxquels il ne croyait plus, et le dieu auquel il ne croyait pas
+          encore. <persName ref="028309154" type="idref" xml:base="https://www.idref.fr/">Pater</persName> dit qu’il n’est
+          aucun accent de mélancolie que la fin du paganisme ait ignoré<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>E, p.&#160;427. D’abord publié dans <hi rend="italic">Les
+              Nouvelles littéraires</hi> du 29&#160;mars&#160;1930,<hi rend="italic"> Le
+              dernier Retour</hi> fut joint à <hi rend="italic">Pour une
+              vierge noire</hi> pour l’édition en volume qui parut peu après
+              aux Éditions du Cadran. Le mot de Flaubert (qu’on trouve dans
+              une lettre de 1861 à M<hi rend="sup">me</hi>&#160;Roger des
+              Genettes&#160;: «&#160;Les dieux n’étant plus et le Christ n’étant pas
+              encore, il y a eu, de Cicéron à Marc-Aurèle, un moment unique où
+              l’homme seul a été&#160;»), n’était pas dans la version des <hi rend="italic">Nouvelles littéraires</hi>, cependant que le mot
+              de Pater se trouvait sous une forme plus explicite dans <hi rend="italic">Pour l’anniversaire de Paul Adam</hi>, un essai
+              que Montherlant publia dans <hi rend="italic">Les Écrits
+              nouveaux</hi> de janvier&#160;1921 avant de le reprendre près de dix
+              ans plus tard sous le titre <hi rend="italic">Pour Reims
+              dévastée</hi>&#160;: «&#160;Il n’y a presque pas un accent mélancolique
+              dans l’Église du Moyen&#160;Âge que le Polythéisme n’ait connu avant
+              elle.&#160;» (<hi rend="italic">Au petit Mutilé</hi>, p.&#160;80, Les
+              Éditions du Portique, 1930). Et ce n’est sans doute pas une
+              coïncidence si, dans le même recueil mais dans l’essai intitulé
+              <hi rend="italic">Sur le Malheur des temps</hi>, on lit&#160;:
+              «&#160;Ferrero consacre toute une étude à montrer la tristesse et
+              l’inquiétude des Romains du temps d’Auguste&#160;» (<hi rend="italic">ibid</hi>., p.&#160;95).</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e716">
+            <hi rend="italic">Trois Jours au Montserrat</hi>,
+          quant à lui, résulte d’une courte retraite que fit <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> à
+          l’<placeName ref="3116235" type="geonames" xml:base="https://www.geonames.org/">abbaye de
+          Montserrat</placeName> alors qu’il venait de découvrir le jansénisme
+          dans le <hi rend="italic">Port-Royal</hi> de <persName ref="02711919X" type="idref" xml:base="https://www.idref.fr/">Sainte-Beuve</persName>
+            <note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Voir à ce sujet la «&#160;Note sur “Port-Royal”&#160;»<hi rend="italic"/>jointe au<hi rend="italic"> Maître de
+              Santiago</hi> (T, p.&#160;526) et aussi <hi rend="italic">Le
+              Treizième César</hi>, p.&#160;155, Gallimard, 1970. Le texte qu’on
+              lit sous le titre <hi rend="italic">Trois Jours au
+              Montserrat</hi> est en fait composé de deux éléments bien
+              distincts&#160;: une brève évocation qui parut d’abord dans <hi rend="italic">L’Intransigeant</hi> du 9&#160;mars&#160;1926, puis dans le
+              recueil <hi rend="italic">Trois Images de l’Espagne</hi> en
+              1928, puis dans le recueil <hi rend="italic">Le Génie et les
+              fumisteries du Divin</hi> en 1929, sous le titre <hi rend="italic">Remparts flambants du monde</hi> (les pages&#160;373 à
+              375 <hi rend="italic">partim</hi> de l’édition de la Pléiade),
+              et l’essai qui fut publié dans <hi rend="italic">Les Nouvelles
+              littéraires</hi> des 26&#160;avril et 3&#160;mai&#160;1930 sous le titre <hi rend="italic">Montserrat</hi> avant de paraître sous le titre
+              <hi rend="italic">Pour une vierge noire</hi> dans le recueil du
+              même nom publié peu après par le Cadran (l’équivalent, même s’il
+              y aura d’importants ajouts et variantes, des pages&#160;375 à 401 de
+              l’édition de la Pléiade).</p>
+            </note>.</p>
+          <p xml:id="d1e766">Notre diable de voyageur a commencé par rappeler
+          que le Montserrat, dénoncé par les chrétiens comme le <hi rend="italic">
+              <foreign xml:lang="lat">Mons Luxuriae</foreign>
+            </hi> parce qu’on y avait bâti un éphémère temple à <persName ref="027548708" type="idref" xml:base="https://www.idref.fr/">Vénus</persName>, fut ainsi «&#160;perdu
+          et repris, tour à tour, par <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> et par <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName>&#160;». Il a
+          ensuite raconté, à sa manière, la légende de <persName type="_temp">Juan Guarin</persName>, le jouisseur qui se fait
+          ermite, puis retombe dans le péché (avant de retourner pour de bon à
+          son ermitage) quand «&#160;l’esprit de <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> a
+          repris possession du libertin de jadis&#160;». Il a démasqué le Tentateur
+          dans «&#160;le petit chat&#160;» où <persName ref="029070988" type="idref" xml:base="https://www.idref.fr/">Saint-Cyran</persName>
+          reconnaissait une créature de Dieu&#160;: «&#160;Inquiétant petit chat&#160;! Je le
+          vois cousin du barbet de <persName ref="027258602" type="idref" xml:base="https://www.idref.fr/">Faust</persName>. Il est éternel,
+          il est <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName>. Il est le Diable,
+          en parler chrétien.&#160;» Il tire enfin la leçon du baptême qui, même
+          s’il n’a pas la foi, le «&#160;maintient catholique&#160;», estimant qu’il a
+          désormais du catholicisme «&#160;une vue plus saine et plus digne que
+          celle qu’[il] en prenai[t], ou plutôt qu’[il] voulai[t] [s]’en
+          faire, autrefois&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1178">«&#160;Chercher à concilier
+          <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> et <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName> sera
+          toujours un exercice souverain pour vous faire jouir l’imagination,
+          si vous n’êtes pas croyant&#160;: cela mène à s’exciter l’esprit, et se
+          fouetter le sang […]. Mais si l’on croit&#160;! Si l’on croit, même en
+          faisant le départ entre ce qu’il y a de vivant et ce qu’il y a de
+          mort dans l’Évangile&#160;! L’Église catholique mêlant <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName> aux
+          patries, <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName> à l’argent,
+          <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName> au sport,
+          que sais-je, donnant pour dames d’honneur à <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName> les trois
+          Concupiscences en habits de fête, c’est un spectacle qui vous
+          remplit d’une poésie trouble et âcre, si vous êtes au dehors, mais
+          qui vous fige si vous vous mettez seulement un instant dans la peau
+          d’un homme qui aime le Crucifix<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>E, p.&#160;377- 378, 396-397 et 399 successivement.</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e778">Après <date type="_temp" when="1929">1929</date>,
+          et mis à part un mot des carnets de <date type="_temp" when="1970">1970</date> sur lequel on reviendra, <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> se fit plus rare
+          dans l’œuvre de <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>. Les textes
+          de <date type="_temp" when="1940">1940</date> et de <date type="_temp" when="1972">1972</date> ne sont, à tout prendre, que
+          des retours sur le passé, et l’auteur de <hi rend="italic">Paysage
+          des Olympiques</hi> a bien dit que «&#160;cette aspiration vers l’unité&#160;»
+          qui le poussait à «&#160;résoudre toutes les antinomies&#160;», ce
+          «&#160;syncrétisme éperdu&#160;» qui devait déboucher sur <hi rend="italic">La
+          Garde autour de Pan</hi>, ne s’étaient guère étendus au-delà de sa
+          trentième année. Le dossier du <date type="_temp" when="1922-12-30">30&#160;décembre&#160;1922</date> se situe donc au nœud de
+          la «&#160;crise&#160;», et ce n’est pas un hasard si vers <date type="_temp" when="1925">1925</date> le héros des <hi rend="italic">Bestiaires</hi>, le même que celui du <hi rend="italic">Songe</hi>, évoque lui aussi «&#160;le syncrétisme éperdu
+          qui bouillonne en lui<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>E, p.&#160;516.</p>
+            </note>&#160;», tout en se réclamant de ce <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> que
+          ledit dossier associe à <hi rend="italic">La Garde autour de
+          Pan</hi>.</p>
+          <p xml:id="d1e801">Mais avant d’en venir à <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>, il
+          faut parler d’un dieu <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> qui est lié à la
+          jeunesse de l’écrivain et qu’on va découvrir, comme on l’a dit plus
+          haut, grâce à M.&#160;<persName ref="244280347" type="idref" xml:base="https://www.idref.fr/">Jean-Claude Barat</persName>.</p>
+          <p xml:id="d1e803">L’œuvre, intitulée <hi rend="italic">Le dieu
+          Pan</hi> et datée du <date type="_temp" when="1912-12-07">7&#160;décembre&#160;1912</date>, devait s’inscrire dans un
+          recueil de <hi rend="italic">Contes antiques</hi>. Le <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Christ</persName> est seul et
+          songeur dans la nuit, «&#160;parmi les oliviers bleuissants de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Gethsémani</placeName>&#160;», quand
+          il voit surgir «&#160;une forme étrange&#160;» dont les jambes et le front
+          sont ceux d’un bouc&#160;; c’est le grand <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName>, qui
+          d’emblée lui reproche d’avoir détruit la beauté&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1293">«&#160;Tu as dit&#160;: l’âme seule
+          compte, le corps est méprisable. À l’époque du grand <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName>, les hommes étaient
+          beaux, robustes et sains. On ne se rassasiait pas de les contempler.
+          Maintenant, absorbés par l’extase spirituelle, ils laissent leur
+          corps s’étioler, et ils le flagellent&#160;; leur visage sera creusé par
+          la pensée, leur dos voûté par l’étude, leur poitrine rentrée, leur
+          peau molle et blanche, car ils savent qu’il n’y a que l’âme qui soit
+          digne d’être cultivée…&#160;»</quote>
+          <p xml:id="d1e814">Autre reproche, celui de s’acharner «&#160;à perpétuer
+          une espèce dégradée et impropre à la vie, à faire demeurer tout ce
+          qui est médiocre et malingre&#160;», et quand <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName>
+          répond&#160;: «&#160;La beauté m’est indifférente&#160;», <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName>
+          rétorque&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1309">«&#160;Je te l’avoue, <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName>, aimer mon
+          prochain quand il est bien proportionné, cela m’est facile, et le
+          difficile serait de ne pas l’aimer&#160;; mais aimer les jambes
+          cagneuses, la peau flasque, les ventres proéminents et les mollets
+          grêles, sans compter les trognes que tu devines, je t’assure,
+          <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName>, tu n’aurais pas
+          dû demander cela. […] Tu as faussé l’esprit des hommes&#160;; tu as
+          introduit un amour maladif pour ce qui est humble, pour ce qui est
+          pauvre, pour ce qui souffre, et c’est contre la nature. Au siècle du
+          grand <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName>, l’homme
+          sympathisait avec ce qui est sain, ce qui est beau, ce qui est la
+          vie&#160;; et c’était naturel. Aujourd’hui, il n’aime plus ce qui est
+          parfait, mais ce qui est imparfait.&#160;»</quote>
+          <p xml:id="d1e818">Autre reproche encore, celui d’avoir «&#160;créé le
+          péché&#160;» en même temps qu’une «&#160;vertu impraticable&#160;» et sans
+          grandeur&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1324">«&#160;La vertu n’est vertu que
+          désintéressée. Tout acte de vertu qu’on fera, on le fera par peur de
+          ton enfer, et dans ton ciel immoral, il n’y aura que les égoïstes et
+          les lâches&#160;!&#160;»</quote>
+          <p xml:id="d1e822">Tant et si bien que le <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Christ</persName> perd
+          contenance. Quand les hommes d’armes viennent l’arrêter, il s’étonne
+          que <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> ne l’ait pas plus
+          tôt tué, qu’il ne le tue pas en cet instant même, mais le faune lui
+          répond en baissant la tête&#160;: «&#160;C’est que, moi aussi, je me suis fait
+          chrétien.&#160;»</p>
+          <p xml:id="d1e824">L’attrait qu’exerce la beauté, la répulsion que
+          provoque la laideur seront parmi les thèmes cardinaux, d’ailleurs
+          hérités de <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>, de <hi rend="italic">Thrasylle</hi>, un «&#160;conte antique&#160;» lui aussi, que
+          <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> commence de
+          rédiger en <date type="_temp" when="1913">1913</date>
+            <note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Voir <hi rend="small-caps">P.&#160;Duroisin</hi>, «&#160;Henry de
+              Montherlant et <hi rend="italic">L’Amitié antique</hi> de
+              Ludovic Dugas&#160;: les dessous et les à-côtés d’un manuscrit&#160;», <hi rend="italic">Bulletin de l’Association Guillaume Budé</hi>,
+              2010-2012, p.&#160;173-184.</p>
+            </note>. Le jeune <persName type="_temp">Thrasylle</persName> le
+          dira en des termes qui rappellent ceux de <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName>&#160;:
+          «&#160;N’est-il pas plus logique d’aimer et de choyer la perfection
+          plutôt que l’imperfection quelle qu’elle soit&#160;: misère, maladie,
+          bêtise, laideur, insignifiance<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>
+                <hi rend="italic">Ibid.</hi>, p.&#160;165-169 et <hi rend="italic">Thrasylle</hi>, p.&#160;52, Laffont, 1984.</p>
+            </note>&#160;?&#160;»</p>
+          <p xml:id="d1e854">L’exaltation du corps, avant d’être au cœur des
+          <hi rend="italic">Olympiques</hi>, sera dans <hi rend="italic">Pershing&#160;1920</hi>, où l’écrivain vitupère les
+          «&#160;misérables intellectuels&#160;» qui «&#160;du fond de leurs tristes
+          tanières, laids, exsangues et pas soignés […] ont décrété le divorce
+          entre christianisme et paganisme&#160;», semant «&#160;la tristesse sur la
+          terre avec leurs interdictions et leurs exclusions<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="italic">Earinus</hi>, p.&#160;68-69, Hazan&#160;1929 (repris
+              dans <hi rend="italic">Paysage des Olympiques</hi>,
+              p.&#160;36-37).</p>
+            </note>&#160;».</p>
+          <p xml:id="d1e873">Le refus de l’«&#160;amour maladif pour ce qui est
+          humble, pour ce qui est pauvre, pour ce qui souffre&#160;», avant d’être
+          martelé dans l’Appendice nietzschéen des <hi rend="italic">Lépreuses</hi>
+            <note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>R1, p.&#160;1537 notamment. À noter que Montherlant ne découvrit
+              Nietzsche qu’en 1916 (voir <hi rend="small-caps">J.-N.&#160;Faure</hi>-<hi rend="small-caps">Biguet</hi>, <hi rend="italic">Les Enfances de
+              Montherlant</hi>, Paris, Plon, 1941, p.&#160;170 et p.&#160;171).</p>
+            </note>, sera dénoncé en <date type="_temp" when="1926">1926</date> dans <hi rend="italic">La Mort de
+          Peregrinos</hi>, qu’on retrouvera d’ailleurs dans le manuscrit de
+          <date type="_temp" when="1922">1922</date>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Quand Peregrinos est emprisonné pour s’être converti au
+              christianisme, autour de lui s’empresse une «&#160;multitude de
+              pauvres types, esclaves, vieillards, femmes, orphelins, et de
+              ratés de toutes sortes&#160;», en bref «&#160;les adeptes habituels du
+              “sophiste crucifié”&#160;» (E, p.&#160;250).</p>
+            </note>.</p>
+          <p xml:id="d1e899">Le ciel «&#160;immoral&#160;» où le faune de <date type="_temp" when="1912">1912</date> ne trouve «&#160;que les égoïstes et
+          les lâches&#160;» annonce la conclusion de <hi rend="italic">Trois Jours
+          au Montserrat</hi>, où l’écrivain ne voit dans l’espérance qu’un
+          «&#160;<hi rend="italic">daemon</hi> funeste aux hommes&#160;», estimant
+          qu’«&#160;une grande âme, et qui douterait de son immortalité, devrait
+          vivre et mourir comme si elle la niait&#160;», et que «&#160;c’est bien
+          désespérer de l’humanité, que penser qu’il lui faut une religion
+          pour être haute et pour être honnête<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>R1, p.&#160;400-401.</p>
+            </note>&#160;».</p>
+          <p xml:id="d1e912">Comment, enfin, ne pas penser, devant ce
+          <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> de <date type="_temp" when="1912">1912</date> qui confesse&#160;: «&#160;Moi aussi, je
+          me suis fait chrétien&#160;», à celui auquel s’assimilera, en <date type="_temp" when="1929">1929</date>, l’auteur du <hi rend="italic">Dernier Retour&#160;:</hi> «&#160;Je souffre de la souffrance de
+          <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> avant qu’il se fasse
+          chrétien, quand l’Orient lui a tourné la tête&#160;»&#160;? Déchirements d’un
+          jeune adulte, puis d’un homme fait qui jusqu’en <date type="_temp" when="1925">1925</date> (il l’a dit en termes exprès dans
+          l’avant-propos de <hi rend="italic">Service inutile</hi>) était
+          «&#160;imbu des <foreign xml:lang="lat">
+              <hi rend="italic">sine caritate Romani</hi>
+            </foreign>&#160;» tout en «&#160;faisant joujou&#160;» avec le christianisme<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>E, p.&#160;577-578. L’avant-propos de <hi rend="italic">Service
+              inutile</hi> est de 1935.</p>
+            </note>.</p>
+          <p xml:id="d1e931">Pour le Grand <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName>, on est
+          parti des <hi rend="italic">Notes relatives à la religion et aux
+          passions</hi> de <date type="_temp" when="1923">1923</date>&#160;; pour
+          <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>, il faut
+          commencer par deux témoignages&#160;: celui de <persName ref="026859157" type="idref" xml:base="https://www.idref.fr/">Jacques-Napoléon
+          Faure-Biguet</persName>, ami d’enfance de <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>, qui
+          rapporte qu’«&#160;en <date type="_temp" when="1922">1922</date>, tandis
+          que les catholiques célébraient <hi rend="italic">la Relève du
+          Matin</hi>, il méditait déjà d’écrire une vie de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien
+          l’Apostat</persName>, et, enflammé par son modèle, louait un petit
+          logement rue&#160;de&#160;la&#160;Harpe, afin d’être tout proche des thermes de
+          <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>
+            <note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="italic">Les Enfances de Montherlant</hi>,
+              p.&#160;176.</p>
+            </note>&#160;», et celui de l’écrivain lui-même, qu’on lira dans <hi rend="italic">Moustique</hi>, un récit des <date from="1920" to="1929" type="_temp">années vingt</date> mais publié après sa
+          mort&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1552">«&#160;J’ai loué à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> un petit
+          appartement meublé. Malgré le quartier que j’ai en horreur, je me
+          suis décidé pour lui parce que, de mes fenêtres, je vois les thermes
+          de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>, que les
+          chrétiens appellent l’Apostat<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>
+                <hi rend="italic">Moustique</hi>, p.&#160;113, La Table Ronde,
+              1986.</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e961">Cette dévotion pour <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>,
+          comme on l’a dit plus haut, <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> la prêtera
+          bientôt au <persName type="_temp">Bricoule</persName> des<hi rend="italic"> Bestiaires</hi>, roman qui paraît en <date type="_temp" when="1926">1926</date>. Fort travaillé par «&#160;la
+          religion du Taureau&#160;» et les légendes entourant <persName ref="027319717" type="idref" xml:base="https://www.idref.fr/">Mithra</persName>, <persName type="_temp">Bricoule</persName> est aussi un admirateur de
+          <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1599">«&#160;Son esprit voletait avec
+          insistance autour de l’empereur <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>,
+          –&#160;et <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> était un fervent
+          de <persName ref="027319717" type="idref" xml:base="https://www.idref.fr/">Mithra</persName>, dont il
+          célébrait les mystères dans son palais de <placeName ref="745044" type="geonames" xml:base="https://www.geonames.org/">Constantinople</placeName>
+            <note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>R1, p.&#160;513. Pour l’origine de la relative «&#160;dont il
+              célébrait…&#160;», voir <hi rend="small-caps">P.&#160;Duroisin</hi>, <hi rend="italic">Montherlant et l’Antiquité</hi>, Bibl.&#160;de la
+              Faculté de Philosophie et Lettres de l’<hi rend="small-caps">ul</hi>g<hi rend="small-caps">, ccl</hi>,
+              Paris, Les Belles Lettres, 1987, p.&#160;230.</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e985">De là vient sans doute qu’en <date type="_temp" when="1925">1925</date> l’auteur d’<hi rend="italic">Aux Fontaines
+          du désir</hi>, devant une mosquée de <placeName ref="2510409" type="geonames" xml:base="https://www.geonames.org/">Tolède</placeName> convertie en
+          église, imaginait que «&#160;quelque <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>,
+          restaurant Pallas Athéné, l’installerait dans <placeName ref="6269274" type="geonames" xml:base="https://www.geonames.org/">Notre-Dame de
+          Paris</placeName>
+            <note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>E, p.&#160;274.</p>
+            </note>&#160;», et qu’en <date type="_temp" when="1929">1929</date>
+          l’auteur de <hi rend="italic">Trois Jours au Montserrat</hi>,
+          rappelant que «&#160;c’est toujours dans les grottes que devait être
+          célébré le culte de <persName ref="027319717" type="idref" xml:base="https://www.idref.fr/">Mithra</persName>&#160;», évoque à
+          nouveau <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>, même si l’image
+          qu’il s’en fait alors est un peu écornée&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1669">«&#160;Souvent, sur ces hauteurs
+          aimées des aigles […], m’est apparu le Génie de l’Empire, tenant une
+          proie dans sa bouche pleine de sang. <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>,
+          auquel il se montra deux fois, le vit plus aimable. Mais <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> n’était pas tout
+          à fait celui dont ont soif nos imaginations romantiques, le jeune
+          homme brûlant et dur, voué par son double baptême d’eau chrétienne
+          et de sang de taureau à un grand destin ambigu&#160;; c’était un
+          foutriquet hirsute, au nez en l’air, “à peine un homme”, dit
+          <persName ref="026684942" type="idref" xml:base="https://www.idref.fr/">Ammien Marcellin</persName>, et
+          l’on comprend que ses visitations aient été d’une nature un peu
+          éthérée<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>E, p.&#160;380. Pour la lecture quelque peu maligne du texte
+              d’Ammien (<hi rend="italic">Mediocris erat staturae…</hi>), voir
+              <hi rend="small-caps">P.&#160;Duroisin</hi>, <hi rend="italic">Montherlant et l’Antiquité</hi>, p.&#160;21.</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e1014">Aigreur toute passagère si l’on en juge par la
+          <hi rend="italic">Lettre à M. Pioch, maire des Saintes-Maries, sur
+          le sacrifice du Taureau et la sauvegarde du Vaccarès</hi> qui parut
+          dans <hi rend="italic">Comœdia</hi> le <date type="_temp" when="1930-06-13">13&#160;juin&#160;1930</date>.</p>
+          <p xml:id="d1e1022">Sollicité pour faire partie du Comité des Fêtes
+          du Centenaire de Mistral pour la Camargue, <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+          commence par renvoyer le lecteur au «&#160;paganisme toujours respirant
+          sur la montagne catalane du Montserrat&#160;» qu’il vient de célébrer
+          dans <hi rend="italic">Pour une Vierge noire</hi> (le futur <hi rend="italic">Trois Jours au Montserrat</hi>), avant de se réjouir
+          de ce que «&#160;la même voix&#160;» lui arrive «&#160;d’un autre sanctuaire
+          méditerranéen&#160;»&#160;: «&#160;C’est la voix de la Bonne Nouvelle, qui dément
+          celle que <persName ref="028715195" type="idref" xml:base="https://www.idref.fr/">Tibère</persName> entendit sur les
+          eaux&#160;: “Le Grand <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> n’est pas mort&#160;!”&#160;»
+          Suit la lettre au maire, où il dit son émotion à l’idée du «&#160;peuple
+          méridional rallumant le feu générateur et pacificateur allumé par
+          <persName ref="032089708" type="idref" xml:base="https://www.idref.fr/">Aurélien</persName> et <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> contre la menace
+          chrétienne, comme ces feux qu’on allume, en Afrique, autour des
+          campements, contre les bêtes sinistres de la nuit&#160;». Un bel élan de
+          lyrisme, mais qui débouche sur un refus&#160;: «&#160;Il n’eût manqué à ma
+          joie que celle d’être moi-même le sacrificateur. J’aurais pu l’être
+          il y a quelques années encore. Je ne le peux plus<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Jean José <hi rend="small-caps">Marchand</hi>, <hi rend="italic">Montherlant</hi>, Paris, Éd.&#160;Jean-Michel Place,
+              Archives du <hi rend="small-caps">xx</hi>
+                <hi rend="sup">e</hi>&#160;siècle, 1980, p.&#160;89-90, où l’article de <hi rend="italic">Comœdia</hi>, dont le brouillon fut vendu chez
+              Drouot le 23&#160;mars&#160;2009, est repris sous le titre <hi rend="italic">Le Grand Pan n’est pas mort</hi>. Pour le fond, on
+              a noté le raccourci à propos de Tibère, à qui le cri fatidique
+              fut seulement rapporté, et le rapprochement entre Julien et cet
+              Aurélien qui mérita le surnom de «&#160;restaurateur du monde
+              romain&#160;» pour avoir réintroduit à Rome le culte du Soleil
+              invincible.</p>
+            </note>.&#160;»</p>
+          <p xml:id="d1e1052">Pourquoi «&#160;Je ne le peux plus&#160;»&#160;? <persName ref="092793274" type="idref" xml:base="https://www.idref.fr/">Jean
+          Datain</persName> eut raison de suggérer qu’après <hi rend="italic">Montserrat</hi>, où s’exprimait encore «&#160;le regret de
+          ne pouvoir concilier <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> et <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName>&#160;»,
+          <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> s’en tint à
+          l’alternance parce qu’il avait admis que «&#160;les syncrétismes ne
+          pouvaient demeurer qu’à l’état de vœu<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>
+                <hi rend="italic">Montherlant et l’héritage de la
+              Renaissance</hi>, Amiot-Dumont, 1956, p.&#160;68-69.</p>
+            </note>&#160;», mais enfin ce refus n’était pas un reniement. <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> reviendra dans
+          les carnets de <date type="_temp" when="1931">1931</date>, dans ceux
+          de <date type="_temp" when="1937">1937</date>
+            <note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>E, p.&#160;989 et 1217 respectivement. Le lecteur pouvait
+              s’attendre à ce qu’on mentionne ici les carnets de 1930, où
+              l’écrivain se réfère à la <hi rend="italic">Nouvelle Histoire
+              romaine</hi> de Léon Homo pour évoquer les empereurs qui, avant
+              de mourir, demandent à boire&#160;: Néron, Othon et Julien (E,
+              p.&#160;987). Les références que donne Montherlant (p.&#160;340, 341 et
+              501) sont bien exactes, mais l’ouvrage de Homo n’ayant paru
+              qu’en 1941 chez Arthème Fayard, puis, en 1943, chez Firmin
+              Didot, c’est évidemment par erreur que cette note fut insérée
+              dans des carnets de 1930.</p>
+            </note> et dans <hi rend="italic">L’Assomption du Roi des Rois
+          </hi>en <date type="_temp" when="1942">1942</date>, et ce n’est pas
+          un hasard si <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> à deux
+          reprises, en <date type="_temp" when="1942">1942</date> comme en
+          <date type="_temp" when="1931">1931</date>, cite les mots de
+          <persName ref="027185311" type="idref" xml:base="https://www.idref.fr/">Vigny</persName> pour qui
+          l’empereur «&#160;prend la résolution de se faire tuer quand il est sûr
+          qu’il a été plus avant que les masses stupides et grossières ne
+          peuvent aller&#160;», avant de les commenter, dans une parenthèse peu
+          amène pour les tenants de la religion nouvelle&#160;: «&#160;(les masses qui
+          veulent être chrétiennes)<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>E, p.&#160;1445 dans <hi rend="italic">Textes sous une
+              occupation</hi>.</p>
+            </note>.&#160;»</p>
+          <p xml:id="d1e1084">Parenthèse qui va nous ramener à <date type="_temp" when="1940">1940</date> pour l’essai qui donna son
+          titre au<hi rend="italic"> Solstice de juin</hi>. On y retrouvera
+          ensemble, comme dans le manuscrit de <date type="_temp" when="1922">1922</date>, le dieu déchu et l’empereur traité
+          d’apostat, <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> à cause de l’annonce
+          de sa mort, <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> pour le mot qu’il
+          aurait prononcé avant de rendre l’âme&#160;: «&#160;Tu as vaincu,
+          Galiléen.&#160;»</p>
+          <p xml:id="d1e1089">L’écrivain est à <placeName ref="6447142" type="geonames" xml:base="https://www.geonames.org/">Marseille</placeName>,
+          l’armistice a été signé une semaine auparavant, au solstice d’été,
+          et «&#160;la croix gammée, qui est la Roue solaire, triomphe en une des
+          fêtes du Soleil&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1857">«&#160;Le soir, j’ai été marcher
+          le long de cette côte livide&#160;: quand on arrive du large, comme on
+          voit tout de suite que mon pays a toujours été saigné. Rien n’a lieu
+          sur la grande eau, plus douce que la terre. Elle vague vaguement,
+          jouant un peu sur son bord. Saute parfois une petite vague, comme un
+          chien qui bondit pour avaler une mouche. C’est la mer où une voix
+          passa qui disait&#160;: “Le grand <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> est mort”,
+          traduisez&#160;: “Tu as vaincu, Galiléen.” Et où j’entends ce soir une
+          autre voix qui passe&#160;: “Tu es vaincu, Galiléen<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>E, p.&#160;954.</p>
+            </note>”.&#160;»</quote>
+          <p xml:id="d1e1099">
+            <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> évoque
+          ensuite le mois qu’il a passé dans la zone des armées, <date from="1940-05-20" to="1940-06-20" type="_temp">entre le 20&#160;mai et le
+          20&#160;juin</date>, comme correspondant de guerre de <hi rend="italic">Marianne</hi>. Il y eut d’abord l’attente&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1881">«&#160;J’étais parmi les troupes
+          chrétiennes et numides, et les nègres portant au poignet des
+          “Immaculée Conception” pour grigris. Longtemps j’avais eu faim de
+          voir cette armée en face, et de savoir quelle était sa contenance,
+          quels étaient ces hommes “qui nomment dieu le secret des bois” [en
+          note&#160;: <persName ref="026672316" type="idref" xml:base="https://www.idref.fr/">Tacite</persName>, <hi rend="italic">La Germanie</hi>]&#160;; dont c’était la gloire ancienne
+          d’avoir haï le christianisme [en note&#160;: <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, <hi rend="italic">Xénies</hi>], et dont maintenant c’était la mission de
+          ruiner la morale bourgeoise et la morale ecclésiastique, depuis les
+          rives de l’Atlantique jusqu’aux marches de <placeName ref="2017370" type="geonames" xml:base="https://www.geonames.org/">Russie</placeName>
+            <note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>
+                <hi rend="italic">Ibid.</hi>, p.&#160;955.</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e1120">Puis vint la débâcle, qui de nouveau appelle le
+          mot de <persName ref="026672316" type="idref" xml:base="https://www.idref.fr/">Tacite</persName>, associé au
+          retour de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1919">«&#160;À nos trousses, la
+          païennie déferlait, ses casques ceints de couronnes de branchages&#160;:
+          “Ils nomment dieu le secret des bois”&#160;[…]. Et je pensais que la
+          terre qu’elle gagnait maintenant lui était acquise&#160;[…], et qu’un
+          jour viendrait où je verrais flotter l’étendard de la Roue solaire
+          sur les tours de <placeName ref="6269274" type="geonames" xml:base="https://www.geonames.org/">Notre-Dame de
+          Paris</placeName>. La cité n’était plus la cité de <persName ref="027395898" type="idref" xml:base="https://www.idref.fr/">Geneviève</persName>, mais la cité
+          de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>. Le pays n’était
+          plus le pays des Saintes, mais le pays de l’Empereur.&#160;»</quote>
+          <p xml:id="d1e1124">Des lignes assez dures pour que l’auteur
+          (<persName ref="056575718" type="idref" xml:base="https://www.idref.fr/">Christopher Gérard</persName> l’a
+          noté dans son essai sur <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>) décide de les
+          éliminer de la version revue du <hi rend="italic">Solstice</hi>
+            <note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>Voir <hi rend="italic">Julianus Redivivus,</hi> Bruxelles,
+              Antaios, 2002, p.&#160;16 (repris dans <hi rend="italic">La Source
+              pérenne</hi>, Lausanne, L’Âge d’Homme, 2007). Pour ce passage du
+              <hi rend="italic">Solstice</hi>, voir la p.&#160;303 de l’édition
+              originale publiée par Grasset en 1941.</p>
+            </note>, des lignes qui lui furent vivement reprochées en <date type="_temp" when="1945">1945</date> et lui sont encore reprochées
+          aujourd’hui, bien qu’elles soient dans le droit fil de ce qu’il
+          disait en <date type="_temp" when="1925">1925</date> devant la
+          mosquée de <placeName ref="2510409" type="geonames" xml:base="https://www.geonames.org/">Tolède</placeName> transformée
+          en église, dans le droit fil aussi des <hi rend="italic">Notes
+          relatives à la religion et aux passions</hi> de mai <date type="_temp" when="1923">1923</date>, parentes enfin, ne serait-ce
+          que par l’allusion à <persName ref="026672316" type="idref" xml:base="https://www.idref.fr/">Tacite</persName>, de cette page du
+          <hi rend="italic">Songe</hi> où <persName type="_temp">Bricoule</persName> considère, sur sa table de travail,
+          le christ d’ivoire qu’il «&#160;avait nommé Génie de son travail&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1984">«&#160;Il lui avait demandé
+          davantage de valeur, demandé le pouvoir de créer la phrase secrète
+          qui rapprocherait de son autel “ceux qui nomment Dieu le secret des
+          bois”. Et telle était la disposition du lieu, que, lorsqu’il était à
+          sa table, le jeune homme s’apercevait, sous le geste de ce christ,
+          réfléchi dans la vitre de sa bibliothèque&#160;[…]. Et à côté d’eux,
+          suspendu dans l’air, vrai spectre d’un monde refroidi, un diaphane
+          visage féminin&#160;[…]&#160;: le marbre rapporté d’Achaïe&#160;[…], qui du fond de
+          la pièce venait mettre son image […] auprès des images d’<persName type="_temp">Alban</persName> et de la Croix<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>R1, p.&#160;12-13. Entre <hi rend="italic">Le Songe</hi> et <hi rend="italic">Le Solstice de juin</hi>, on aura cette
+              application très particulière de la formule de Tacite dans les
+              carnets de 1934&#160;: «&#160;Arrivé au nid de toutes les délices, qui
+              était un beau bosquet, je me redisais le mot de Tacite sur les
+              Germains&#160;: “Ils nomment dieu le secret des bois”&#160;» (E,
+              p.&#160;1114).</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e1161">Le voilà bien le héros «&#160;saugrenu&#160;» qui déplut
+          aux lecteurs catholiques du <hi rend="italic">Songe</hi>, celui qui
+          attend d’un crucifix qu’il lui souffle les mots capables de réaliser
+          l’utopie que son créateur entretint «&#160;jusqu’à sa trentième année
+          environ&#160;» (on en revient une fois de plus à <hi rend="italic">Paysage des Olympiques</hi>) et qui était d’«&#160;unir par
+          la même piété toutes les croyances et tous les âges&#160;». Ce n’était
+          pourtant, ici encore, que l’amorce de ce que dira en <date type="_temp" when="1925">1925</date> l’auteur de <hi rend="italic">Syncrétisme et alternance</hi> quand à l’élan
+          syncrétiste il associera la nécessité «&#160;d’alterner les idéals<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>E, p.&#160;244.</p>
+            </note>&#160;», l’amorce aussi de ce que le <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+          du <hi rend="italic">Solstice </hi>jugera bon de rappeler à ses
+          lecteurs de <date type="_temp" when="1941">1941</date> lorsque, dans
+          une note fort explicite et dont nul ne fit grand cas, il les
+          renverra à ses écrits des <date from="1920" to="1939" type="_temp">années vingt et trente</date>, dont le fameux essai,
+          précisément, de <date type="_temp" when="1925">1925</date>
+            <note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>Cette note qui figure aux pages&#160;312 et&#160;313 de l’édition de
+              1941 du <hi rend="italic">Solstice</hi> sera reprise dans
+              l’édition de la Pléiade (E, p.&#160;961), mais elle est nettement
+              plus explicite dans l’édition originale.</p>
+            </note>.</p>
+          <p xml:id="d1e1189">On s’étonne moins, après cela, de retrouver dans
+          <hi rend="italic">Le Solstice </hi>le mot de <persName ref="026672316" type="idref" xml:base="https://www.idref.fr/">Tacite</persName> qu’on a lu dans
+          <hi rend="italic">Le Songe</hi>, à vrai dire sorti des <hi rend="italic">Mémoires d’outre-tombe</hi> que le soldat <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> s’était fait
+          envoyer par sa grand-mère fin <date type="_temp" when="1917">1917</date>, quand il était à <placeName ref="6445651" type="geonames" xml:base="https://www.geonames.org/">Mirecourt</placeName> dans les
+          Vosges<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>Voir <hi rend="italic">Album Montherlant</hi> de la Bibl.&#160;de
+              la Pléiade, p.&#160;78.</p>
+            </note>.</p>
+          <p xml:id="d1e1208">
+            <persName ref="026782022" type="idref" xml:base="https://www.idref.fr/">Chateaubriand</persName> vient
+          d’exalter «&#160;la jeune <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>&#160;» de
+          <date type="_temp" when="1813">1813</date> qui s’est rebellée contre
+          <persName ref="02733791X" type="idref" xml:base="https://www.idref.fr/">Napoléon</persName>&#160;; il commente&#160;:
+          «&#160;Les Allemands adorent aujourd’hui la liberté dans un vague
+          indéfinissable, de même qu’autrefois ils appelaient <hi rend="italic">Dieu</hi> le secret des bois&#160;: <hi rend="italic">
+              <foreign xml:lang="lat">Deorumque nominibus appellant secretum
+              illud</foreign>
+            </hi>
+            <note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>
+                <hi rend="italic">Mémoires d’outre-tombe</hi>, XXII, 5. Pour
+              le <hi rend="italic">De Germania</hi>, voir&#160;IX, 2&#160;: <hi rend="italic">Lucos ac nemora consecrant deorumque nominibus
+              appellant secretum illud quod sola reverentia vident</hi>.
+              («&#160;Ils sanctifient les bois et les bosquets et donnent les noms
+              des divinités à ce mystère qu’ils ne voient que par les yeux de
+              la vénération.&#160;»)</p>
+            </note>
+            <hi rend="italic">…</hi>&#160;» On ne conçoit pas traduction
+          plus libre, ni plus originale, ni qui fasse davantage rêver, pour
+          ces quelques mots de <hi rend="italic">La Germanie</hi>. <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> eut la bonne
+          idée de la retenir, mais derrière <persName ref="026782022" type="idref" xml:base="https://www.idref.fr/">Chateaubriand</persName>, c’est
+          aussi l’étroite parenté du<hi rend="italic"> Songe</hi> et du<hi rend="italic"> Solstice </hi>qui s’impose au lecteur, pour lui
+          rappeler qu’il s’agit toujours de la guerre opposant la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> à
+          l’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>, autant
+          dire la chrétienté au paganisme.</p>
+          <p xml:id="d1e1241">Pour annoncer <hi rend="italic">La Garde autour
+          de Pan</hi>, on avait <hi rend="italic">Le dieu Pan</hi> de <date type="_temp" when="1912-12">décembre&#160;1912</date>. On n’aura pas de
+          <hi rend="italic">Julien l’Apostat</hi> avant l’heure pour annoncer
+          celui de <date type="_temp" when="1922-12">décembre&#160;1922</date>,
+          mais on tient quand même une piste avec le manuel d’histoire que
+          <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> avait
+          utilisé en sixième à Janson de Sailly. Il s’agit en l’occurrence de
+          <hi rend="italic">L’Histoire de l’Antiquité</hi> d’<persName ref="061782521" type="idref" xml:base="https://www.idref.fr/">Albert
+          Malet</persName>, où il a volontiers picoré pour ses écrits de
+          jeunesse et qu’il a consulté sa vie durant<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>Pour les emprunts des jeunes années, voir <hi rend="small-caps">P.&#160;Duroisin</hi>, «&#160;Le <hi rend="italic">De
+              Augusto</hi> du jeune Henry de Montherlant (suite et fin)&#160;»,
+              dans <hi rend="italic">Les Lettres romanes</hi> 63/3-4 (2009),
+              p.&#160;242-243, et plus encore des textes inédits des
+              années&#160;1906-1907 comme <hi rend="italic">Suprême défi</hi> et
+              <hi rend="italic">Nadia</hi>. Pour les témoignages de l’âge mûr,
+              voir <hi rend="italic">Port-Royal et le puritanisme romain</hi>
+              (T, p.&#160;921) ou le texte intitulé <hi rend="italic">Poissons</hi>
+              (<hi rend="italic">Coups de soleil</hi>, Paris, Gallimard, 1972,
+              p.&#160;186).</p>
+            </note>. Or on trouve à la page&#160;401 de <persName ref="061782521" type="idref" xml:base="https://www.idref.fr/">Malet</persName> une
+          illustration qui s’intitule «&#160;Restauration d’une partie des thermes
+          de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> – Le
+          Frigidarium&#160;», et aux pages&#160;428-429 tout un paragraphe consacré à
+          <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> lui-même&#160;:</p>
+          <quote rend="quotation" xml:id="d1e2220">«&#160;La tentative de
+          restauration du paganisme fut l’œuvre de l’empereur <hi rend="italic">
+              <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>
+            </hi>, neveu de <persName ref="030409810" type="idref" xml:base="https://www.idref.fr/">Constantin</persName>, qui était né
+          chrétien. Il avait longtemps vécu à <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName> dans
+          l’étude des belles-lettres et de la philosophie grecque. Quand les
+          guerres civiles l’eurent porté à l’empire, il s’empressa d’abjurer
+          le Christianisme, adopta le culte de <persName ref="027319717" type="idref" xml:base="https://www.idref.fr/">Mithra</persName>,
+          rouvrit les temples abandonnés et restaura toutes les cérémonies de
+          l’ancien culte. Les Chrétiens le surnommèrent l’<hi rend="italic">Apostat</hi>. Cependant il ne procéda pas à des
+          persécutions sanglantes. Il disait lui-même&#160;: “J’ai résolu d’user de
+          douceur et d’humanité envers tous les Galiléens.” Mais il s’efforça
+          de ruiner leur influence&#160;; il les exclut des fonctions publiques et
+          leur interdit d’enseigner les lettres profanes en leur disant&#160;:
+          “Contentez-vous de croire et cessez de vouloir connaître.” Sa
+          tentative n’aboutit pas&#160;; car il mourut bientôt dans une expédition
+          contre les Perses (<date from="0360" to="0363" type="_temp">360-363</date>). – Il avait, au début de son règne,
+          résidé à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Lutèce-Paris</placeName>, et il
+          avait embelli ce séjour qu’il affectionnait. Il reste de lui des <hi rend="italic">Thermes</hi>, qui sont aujourd’hui compris dans le
+          <placeName ref="8504622" type="geonames" xml:base="https://www.geonames.org/">Musée de
+          Cluny</placeName>.&#160;»</quote>
+          <p xml:id="d1e1297">Pour un jeune lecteur qui avait «&#160;sauté dans <hi rend="italic">Quo vadis</hi> les pages consacrées à l’apôtre
+          <persName ref="259378720" type="idref" xml:base="https://www.idref.fr/">Pierre</persName>
+            <note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>C’est ce qu’affirme Montherlant de l’Alban des <hi rend="italic">Bestiaires</hi> (R1, p.&#160;385), mais qui va dans le
+              sens de ce qu’il dira pour lui-même dans <hi rend="italic">Le
+              Treizième César</hi>, p.&#160;151 à 155.</p>
+            </note>&#160;», il y avait là matière à réflexion et à rêveries.</p>
+        </div>
+        <div type="section1" xml:id="d1e1313">
+          <head subtype="level1" xml:id="d1e1314">Le manuscrit du
+          30&#160;décembre&#160;1922</head>
+          <p xml:id="d1e1316">Quand on a devant soi un ensemble de pages qui
+          ne sont pas numérotées ou ne le sont que partiellement, on commence
+          par les lire dans l’ordre où elles se présentent, quitte à le
+          modifier ensuite, s’il apparaît qu’il n’était pas le plus approprié.
+          Qu’en est-il dans le cas présent&#160;?</p>
+          <p xml:id="d1e1318">Pour la première et la dernière page, c’est
+          assez simple. D’abord maintenue par une épingle qui laissa une
+          marque dans le coin supérieur gauche de chaque page<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>En l’espèce, deux petits trous distants d’un peu moins de
+              2&#160;cm.</p>
+            </note>, la liasse le fut ensuite par deux trombones juxtaposés
+          qui laissèrent eux aussi leur empreinte sur les dix pages. L’un des
+          trombones a de surcroît déposé de sa rouille au recto d’une page qui
+          est tout justement celle portant la date et le double titre, ainsi
+          qu’au verso d’une autre page qu’on tiendra, en principe, pour la
+          dernière<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>Pour les plus minutieux, on dira pourquoi l’épingle, dont la
+              tête et l’extrémité laissèrent elles aussi un point de rouille
+              sur le premier et le dernier feuillet, précéda les trombones.
+              Dans l’angle supérieur gauche de l’une des pages numérotées par
+              ses soins, Montherlant a collé un bout de papier destiné à
+              corriger la numérotation&#160;; or ce bout de papier a masqué les
+              trous de l’épingle, mais il porte les empreintes des
+              trombones.</p>
+            </note>. Suivront six pages, dont cinq numérotées par <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>, qui
+          développent le canevas figurant sur la première. Pour les trois
+          dernières pages, essentiellement consacrées à <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>, on renvoie le
+          lecteur au n<hi rend="sup">o</hi>&#160;17 d’<hi rend="italic">Anabases</hi>.</p>
+          <p xml:id="d1e1333">Une autre difficulté surgit quand on entreprend
+          de transcrire le manuscrit, <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> ayant semé
+          des notes et des références un peu partout&#160;: dans la marge de gauche
+          le plus souvent (si on peut parler de marge), mais aussi, parfois,
+          en bas de page, voire au verso. Une note en italique et entre
+          crochets droits précisera leur place sur la page.</p>
+          <p xml:id="d1e1335">Les remords de l’écrivain seront soigneusement
+          notés&#160;: les mots barrés seront repris comme tels, et les corrections
+          signalées par un espacement étendu.</p>
+          <p xml:id="d1e1337">La lecture et le commentaire se feront par
+          tranches, en fonction de la teneur même du document. On lira d’abord
+          la première page, où figure, en cinq points, le plan de <hi rend="italic">La Garde autour de Pan</hi>, puis les six pages où ces
+          cinq points sont inégalement développés, les trois dernières pages
+          étant, comme on vient de le dire, renvoyées à plus tard.</p>
+          <p xml:id="d1e1342">Dernière remarque&#160;: pour éviter toute confusion
+          entre les pages numérotées par <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+          et les pages du manuscrit en tant que tel, on parlera désormais de
+          pages et de feuillets.</p>
+          <quote rend="quotation" xml:id="d1e2331">
+            <hi rend="small-caps">
+              <hi rend="bold">Feuillet&#160;1</hi>
+            </hi>
+            <date type="_temp" when="1922-12-30">30-12-1922</date>
+            <hi rend="italic">[coin supérieur gauche]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2351">
+            <hi rend="underline">La Garde autour de <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName>.<lb/>et<persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien l’Apostat</persName>
+            </hi>
+            <hi rend="italic">[ajouté au crayon]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2371">1.&#160;comment ils deviennent
+          amis---------ds le Nord</quote>
+          <quote rend="quotation" xml:id="d1e2374">2.&#160;leur dignité<lb/>lui se
+          sent romain et antique, uniquement<lb/>l’autre est devant lui un
+          nazaréen<lb/>(de ma part aucune idée de conciliation&#160;: tout d’une
+          pièce, antique)</quote>
+          <quote rend="quotation" xml:id="d1e2384">3.&#160;aux thermes de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>
+            <lb/>il est le
+          symbole de l’envie de retour au paganisme<lb/>le grand <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> est mort<lb/>la
+          tristesse de <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName>
+            <lb/>les dieux en
+          exil<lb/>tjrs antique tout d’une pièce <hi rend="italic">[dans la
+          marge en regard des quatre lignes précédentes]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2410">4.&#160;Dans les
+          Vosges<lb/>
+            <foreign>Kyriolés</foreign> –
+          <foreign>Pagani</foreign>
+            <lb/>Il voit que toutes choses sont l’une
+          et l’autre<lb/>Symphonie&#160;: vœu de conciliation.</quote>
+          <quote rend="quotation" xml:id="d1e2419">5. Office<lb/>Se rend
+          compte que le catholicisme a tué le christianisme et est en réalité
+          le paganisme continué, tout ce qui nous reste de vivant de la
+          <foreign xml:lang="lat">res romana</foreign>. Certitude
+          joyeuse</quote>
+          <p xml:id="d1e1400">Que voilà un plan des plus précis pour… mais
+          pour quoi au fait&#160;? Un «&#160;livre d’essais&#160;» comme annoncé dans la <hi rend="italic">Nrf</hi> du <date type="_temp" when="1923-05-01">1<hi rend="sup">er</hi>&#160;mai&#160;1923</date>&#160;? Les cinq temps que définit ce
+          plan donnent plutôt l’idée d’un récit unique avec une structure bien
+          charpentée et des péripéties qui se déroulent dans le Nord, puis à
+          <placeName ref="2988507" type="geonames" xml:base="https://www.geonames.org/">Paris-Lutèce</placeName>, puis
+          dans les Vosges.</p>
+          <p xml:id="d1e1408">
+            <hi rend="italic">Acte&#160;I</hi>. C’est dans le
+          Nord que les protagonistes se rencontrent et se lient d’amitié. Quel
+          Nord&#160;? L’auteur lui-même n’y a, semble-t-il, pensé qu’après coup, un
+          blanc séparant très nettement les groupes de mots «&#160;comment ils
+          deviennent amis&#160;» et «&#160;dans le Nord&#160;».</p>
+          <p xml:id="d1e1412">
+            <hi rend="italic">Acte&#160;II.</hi> Cette amitié
+          n’entame nullement les convictions des deux hommes, du Romain comme
+          du pseudo-Nazaréen. Mais s’ils ont l’un et l’autre «&#160;leur dignité&#160;»
+          (un mot qui s’éclairera plus loin), l’auteur insiste sur le
+          caractère entier du païen&#160;: «&#160;Lui se sent romain et antique,
+          uniquement&#160;», «&#160;de ma part aucune idée de conciliation&#160;», et on lit
+          bien «&#160;de <hi rend="italic">ma</hi> part&#160;», comme si les mots
+          sortaient de la bouche même du personnage.</p>
+          <p xml:id="d1e1419">
+            <hi rend="italic">Acte&#160;III</hi>. La scène se
+          passe aux thermes de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>. Le «&#160;Romain&#160;» ne
+          rêve que du «&#160;retour au paganisme&#160;» et restera inflexible tout au
+          long de l’acte&#160;III, «&#160;toujours antique, tout d’une pièce&#160;». C’est
+          ici que <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> se manifeste, avec
+          le cri annonçant sa mort et avec cette «&#160;tristesse&#160;» dont parlera en
+          <date type="_temp" when="1929">1929</date> l’auteur du <hi rend="italic">Dernier Retour</hi> quand il évoquera le tableau de
+          <persName ref="027397912" type="idref" xml:base="https://www.idref.fr/">Signorelli</persName>
+            <note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Voir plus haut dans le texte. Le tableau, qui se trouvait à
+              Berlin, fut détruit par un incendie en mai&#160;1945.</p>
+            </note>.</p>
+          <p xml:id="d1e1431">Autre «&#160;invité&#160;», <persName ref="026917688" type="idref" xml:base="https://www.idref.fr/">Henri
+          Heine</persName>, avec «&#160;les dieux en exil&#160;». Faut-il ici rappeler
+          ce qu’en disait l’auteur des <hi rend="italic">Notes relatives à la
+          religion et aux passions</hi> quand il voyait en son <persName type="_temp">Alban</persName> «&#160;un de ces produits du monde antique
+          adapté à la religion nouvelle à laquelle l’Église les incorpora&#160;»&#160;:
+          «&#160;Je songe à ces divinités champêtres évoquées par <persName ref="026917688" type="idref" xml:base="https://www.idref.fr/">Heine</persName>&#160;»&#160;?</p>
+          <p xml:id="d1e1436">On connaît le thème des <hi rend="italic">Dieux
+          en exil</hi>
+            <note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>D’abord publié dans la <hi rend="italic">Revue des deux
+              mondes</hi> du 15&#160;février&#160;1852, il fut édité chez Lebègue, à
+              Bruxelles, en 1853, puis chez Lévy, à Paris, en 1855, dans le
+              recueil intitulé <hi rend="italic">De l’Allemagne</hi>.</p>
+            </note>. Le très savant <persName type="_temp">Henri
+          Kitzler</persName> a terminé <hi rend="italic">La Magnificence du
+          christianisme</hi>, dont il était fort satisfait jusqu’à ce que
+          «&#160;quelques écrivains modernes&#160;», parmi lesquels <persName ref="026890305" type="idref" xml:base="https://www.idref.fr/">Gibbon</persName>, lui révèlent les
+          crimes de ces «&#160;chrétiens vainqueurs&#160;» qui de persécutés devinrent
+          persécuteurs. Poursuivant son enquête, il découvre les pages où
+          <persName ref="026989573" type="idref" xml:base="https://www.idref.fr/">Libanius</persName> «&#160;conjurait les
+          dévots barbares&#160;» d’épargner les temples grecs. Résultat, il prend
+          fait et cause pour le paganisme et jette au feu son manuscrit. Le
+          narrateur intervient alors pour dénoncer la responsabilité des
+          philosophes grecs dans leur lutte contre les Pères de l’Église&#160;:</p>
+          <quote rend="quotation" xml:id="d1e2532">«&#160;Il n’importait pas en
+          effet de donner par des subtilités néo-platoniciennes une
+          signification plus profonde à la mythologie, d’infuser aux dieux
+          défunts une nouvelle vie, un nouveau sens symbolique, de se tuer à
+          réfuter la polémique grossière et matérielle de ces premiers pères
+          de l’église, qui attaquaient, par des plaisanteries presque
+          voltairiennes, la moralité des dieux&#160;! – Il importait plutôt de
+          défendre l’essence de l’hellénisme, la manière de penser et de
+          sentir, toute la vie de la société hellénique, et de s’opposer avec
+          force à la propagation des idées et des sentiments sociaux importés
+          de Judée. La véritable question était de savoir si le monde devait
+          appartenir dorénavant à ce judaïsme spiritualiste que prêchaient ces
+          Nazaréens mélancoliques qui bannirent de la vie toutes les joies
+          humaines pour les reléguer dans les espaces célestes, – ou si le
+          monde devait demeurer sous la joyeuse puissance de l’esprit grec,
+          qui avait érigé le culte du beau et fait épanouir toutes les
+          magnificences de la terre<note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>P.&#160;189 dans l’édition Lévy.</p>
+            </note>&#160;!&#160;»</quote>
+          <p xml:id="d1e1461">Dans ce monde christianisé, «&#160;<persName ref="078602548" type="idref" xml:base="https://www.idref.fr/">Neptune</persName> resta le
+          souverain de l’empire des mers, de même que <persName ref="033083630" type="idref" xml:base="https://www.idref.fr/">Pluton</persName>, malgré sa
+          métamorphose diabolique, conserva le trône du Tartare&#160;». Les
+          habitants de l’Olympe, en revanche, furent moins heureux, et
+          notamment <persName ref="027849546" type="idref" xml:base="https://www.idref.fr/">Jupiter</persName>, que des marins
+          voyageant dans les mers de glace avaient, paraît-il, retrouvé seul
+          et sous les traits d’un vieillard ravagé par les ans dans une île
+          seulement peuplée de lapins où il se lamente désormais sur sa gloire
+          passée.</p>
+          <p xml:id="d1e1464">Que <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> ait fait son
+          miel d’un tel récit et qu’il ait songé à s’en inspirer pour son
+          Romain aux thermes de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>, quoi de plus
+          normal&#160;? Il avait sans doute reconnu dans «&#160;la joyeuse puissance de
+          l’esprit grec, qui avait érigé le culte du beau et fait épanouir
+          toutes les magnificences de la terre&#160;» ce qu’il avait lui-même écrit
+          en <date type="_temp" when="1912-12">décembre&#160;1912</date>, qu’«&#160;au
+          siècle du grand <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName>, l’homme
+          sympathisait avec ce qui est sain, ce qui est beau, ce qui est la
+          vie&#160;».</p>
+          <p xml:id="d1e1466">
+            <hi rend="italic">Acte&#160;IV</hi>. Nous voici dans
+          les Vosges (où <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> guerroya en <date type="_temp" when="0357">357</date> pour le compte de <persName ref="027422798" type="idref" xml:base="https://www.idref.fr/">Constance&#160;II</persName>, où
+          <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> a servi de
+          <date from="1917-12" to="1918-06" type="_temp">décembre&#160;1917 à
+          juin&#160;1918</date>, à <placeName ref="6445651" type="geonames" xml:base="https://www.geonames.org/">Mirecourt</placeName> d’abord,
+          comme on l’a vu plus haut, puis à <placeName ref="6454846" type="geonames" xml:base="https://www.geonames.org/">Remiremont</placeName>,
+          <placeName ref="6445564" type="geonames" xml:base="https://www.geonames.org/">Gérardmer</placeName> et
+          <placeName ref="6451767" type="geonames" xml:base="https://www.geonames.org/">Ban-de-Laveline</placeName>),
+          et c’est dans ce contexte qu’il est d’abord question de <hi rend="italic">
+              <foreign>kyriolés</foreign>
+            </hi> et de <hi rend="italic">
+              <foreign xml:lang="lat">pagani</foreign>
+            </hi>.</p>
+          <p xml:id="d1e1476">Le mot <hi rend="italic">
+              <foreign xml:lang="lat">pagani</foreign>
+            </hi>, qui l’ignore&#160;? a d’abord désigné les paysans avant de
+          désigner les païens, la campagne étant restée plus longtemps fidèle
+          aux cultes anciens&#160;; le mot <hi rend="italic">
+              <foreign>kyriolés</foreign>
+            </hi>, en revanche, est lorrain et désigne des cantiques
+          populaires comme ceux que chantaient, chaque lundi de Pentecôte, les
+          jeunes filles venues en procession des villages voisins pour honorer
+          l’abbesse et les dames chanoinesses en leur église de… <placeName ref="6454846" type="geonames" xml:base="https://www.geonames.org/">Remiremont</placeName>. On peut
+          rêver que le païen est ému par ces <foreign>kyriolés</foreign> comme
+          le fut en <date type="_temp" when="1916-04">avril&#160;1916</date>, par
+          des «&#160;cantiques populaires&#160;» lui aussi, l’auteur d’<hi rend="italic">Atlantes</hi>
+            <note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>L’essai fut intégré dans <hi rend="italic">La Relève du
+              matin</hi> (E, p.&#160;111).</p>
+            </note>, et qu’il découvre, dans un mouvement très
+          «&#160;montherlantien&#160;», que «&#160;toutes choses sont l’une et l’autre&#160;». Le
+          voilà moins «&#160;tout d’une pièce&#160;» désormais et animé d’un désir de
+          «&#160;conciliation&#160;» dans le sens, une fois encore, où l’entendra
+          l’auteur de <hi rend="italic">Syncrétisme et alternance</hi> quand
+          il dira «&#160;qu’être humain, c’est comprendre tous les mouvements des
+          hommes&#160;», et que «&#160;tout le monde a raison, toujours&#160;», et que
+          «&#160;l’univers n’ayant aucun sens, il est parfait qu’on lui donne
+          tantôt l’un et tantôt l’autre<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>Voir E, p.&#160;239 et 244, respectivement dans <hi rend="italic">Aux Fontaines du désir</hi>.</p>
+            </note>&#160;». Dans ce texte cardinal de <date type="_temp" when="1925">1925</date>, <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> a repris un
+          mot de <persName ref="027106861" type="idref" xml:base="https://www.idref.fr/">Romain Rolland</persName>, à qui
+          l’essai était d’abord adressé&#160;: «&#160;L’humanité est une symphonie de
+          grandes âmes collectives&#160;»&#160;; ce n’est peut-être pas un hasard si le
+          mot «&#160;symphonie&#160;» est aussi celui qui devait terminer l’épisode
+          vosgien&#160;: il rappelle les <foreign>kyriolés</foreign>, tout en
+          suggérant le syncrétisme.</p>
+          <p xml:id="d1e1505">
+            <hi rend="italic">Acte&#160;V</hi> et dernier.
+          Comment faut-il entendre le mot «&#160;office&#160;»&#160;? Notre païen a-t-il
+          assisté à une messe de Pentecôte où l’on chantait de ces
+          <foreign>kyriolés</foreign>, à l’image de la messe de Pentecôte qui
+          avait tant ému l’auteur des <hi rend="italic">Enfants du
+          matin</hi>
+            <note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>Cet essai, daté de décembre&#160;1916, fut incorporé, lui aussi, à
+              <hi rend="italic">La Relève du matin</hi> (voir E, p.&#160;123).</p>
+            </note>
+            <hi rend="italic">&#160;?</hi> A-t-il alors compris, au point
+          d’en tirer une «&#160;certitude joyeuse&#160;», que «&#160;le catholicisme a tué le
+          christianisme&#160;» et qu’il «&#160;est en réalité le paganisme continué,
+          tout ce qui nous reste de vivant de la <foreign xml:lang="lat">res
+          romana</foreign>&#160;»&#160;?</p>
+          <p xml:id="d1e1521">C’est par commodité qu’on a défini les grandes
+          lignes de <hi rend="italic">La Garde autour de Pan</hi> comme s’il
+          s’était agi d’un «&#160;mystère&#160;», alors que l’épisode qui a pour cadre
+          les thermes de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> fait davantage
+          penser à un dialogue dans le genre du <hi rend="italic">De Natura
+          deorum</hi> auquel l’auteur des <hi rend="italic">Notes relatives à
+          la religion et aux passions</hi> renverra bientôt ses lecteurs. Dans
+          ces entretiens philosophiques à l’ancienne, on voit des amis
+          conférer sur les sujets les plus graves dans les lieux les plus
+          aimables qui soient&#160;: une palestre, une villa ou le lieu de
+          rencontre par excellence que sont les thermes<note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>Tous les romans «&#160;antiques&#160;» de la fin du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi>&#160;s. y ont
+              recouru, et Arthur Koestler encore en 1939 pour son <hi rend="italic">Spartacus</hi>. Anatole France a choisi le forum
+              pour les personnages de <hi rend="italic">Sur la pierre
+              blanche</hi>.</p>
+            </note>. Pour <hi rend="italic">La Garde autour de Pan</hi>, ceux
+          de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName> s’imposaient, que
+          <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> avait
+          découverts, enfant, dans son <persName ref="061782521" type="idref" xml:base="https://www.idref.fr/">Malet</persName> et qu’il avait
+          sous les yeux en <date type="_temp" when="1922-12">décembre&#160;1922</date>, tandis que les Vosges, et
+          pourquoi pas l’église de <placeName ref="6454846" type="geonames" xml:base="https://www.geonames.org/">Remiremont</placeName>,
+          auraient servi de cadre à la «&#160;révélation&#160;».</p>
+          <p xml:id="d1e1551">Simple hypothèse, bien sûr, que n’infirment ni
+          ne confirment les six feuillets qu’on va lire et dont le contenu
+          même donne à penser que la date figurant sur la page du sommaire est
+          à prendre comme un point de repère à la fois précis et relatif.</p>
+          <quote rend="quotation" xml:id="d1e2744">
+            <hi rend="small-caps">
+              <hi rend="bold">Feuillet 2</hi>
+            </hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2757">1<hi rend="italic"> [coin
+          supérieur gauche au crayon bleu]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2763">espérance&#160;: le pain des
+          faibles tout était inutilisé alors qu’aujourd’hui tout est
+          utilisé</quote>
+          <quote rend="quotation" xml:id="d1e2766">Ce qu’il y a eu de beau
+          dans le monde antique, c’est son désintéressement. On vivait, on
+          luttait, on mourait pcq. on avait le talent de vivre <hi rend="line-through">et</hi> de lutter, de mourir. L’acte était pur,
+          parfait en soi.<lb/>Du jour où l’important a été rejeté dans une
+          autre vie, les actes ont perdu leur éminente dignité, sont descendus
+          d’un rang, parce qu’ils n’étaient plus des fins mais des moyens (à
+          cette même époque, les choses inanimées perdirent leur valeur). La
+          vie a perdu sa netteté, <hi rend="line-through">parce que</hi> rien
+          n’y éta<hi rend="line-through">i</hi>nt jamais <hi rend="line-through">fini</hi> totalement accompli, puisque cela se
+          continuait dans l’au-delà&#160;: excellente justification pour toute
+          médiocrité. À tous les points de vue, le <hi rend="underline">tremblement</hi> est entré dans le monde. Il devait
+          y devenir une des nouvelles divinités.</quote>
+          <quote rend="quotation" xml:id="d1e2787">laissent au ciel le soin de
+          punir les coupables. Laissez-vous dépouiller. Ne savez-vous pas que
+          les injustes n’auront pas le royaume de Dieu S<hi rend="sup">t</hi>&#160;Paul, Corinth. I, p. 196 <hi rend="italic">[dans
+          la marge]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2796">Dans le monde ancien,
+          l’homme avait une conscience. C’est pour elle qu’il agissait. Ceci
+          toujours plus ou moins, mais jamais autant que vers ce qu’on a
+          appel(l)é la <hi rend="underline">décadence</hi> romaine. <hi rend="line-through">À cette époque de «&#160;décadence&#160;»</hi> Jamais la
+          dignité personnelle n’a été si grande qu’à cette époque de <hi rend="underline">décadence</hi> où, la religion étant déconsidérée,
+          Dieu est descendu du ciel pour se mettre dans la conscience de
+          l’homme <hi rend="italic">[dans la marge&#160;</hi>III, 193<hi rend="italic">]</hi>. L’exemplaire de <persName ref="027008614" type="idref" xml:base="https://www.idref.fr/">Marc Aurèle</persName>
+          marque le plus haut degré de l’accomplissement intérieur. À aucune
+          époque n’a été fait par l’homme un plus violent effort pour se
+          substituer à Dieu. On comprend <hi rend="line-through">l’irritation</hi> la rage du dieu des Juifs&#160;:
+          «&#160;Je prendrai les sages dans leurs ruses&#160;» – «&#160;Le Seigneur connaît
+          les pensées des sages&#160;:&#160;il sait qu’elles sont vaines&#160;»<hi rend="sup">&#160;(1)<lb/>(1)&#160;</hi>Paul, I&#160;<hi rend="line-through">Ep</hi>.&#160;Corinth.</quote>
+          <quote rend="quotation" xml:id="d1e2829">
+            <placeName ref="294640" type="geonames" xml:base="https://www.geonames.org/">ISRAËL</placeName>
+            <hi rend="italic">[isolé en bas à droite]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2836">
+            <hi rend="small-caps">
+              <hi rend="bold">Feuillet 3</hi>
+            </hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2848">2&#160;1 <hi rend="italic">[coin
+          supérieur gauche au crayon bleu, le&#160;</hi>1 <hi rend="italic">surchargeant le&#160;</hi>2<hi rend="italic">]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2866">Guign.&#160;p.&#160;41 <hi rend="italic">[dans la marge]<lb/>
+            </hi>lui, c’est une matière
+          religieuse dans cette action&#160;p[arce] qu’il vit moins la coutume des
+          ancêtres, l’hérédité romaine<lb/>moi c’est un peuple qui a toujours
+          été digne et à sa hauteur</quote>
+          <quote rend="quotation" xml:id="d1e2876">G.&#160;42 <hi rend="italic">[dans la marge]<lb/>
+            </hi>lui un peuple qui a souffert,
+          déporté par le <persName ref="073929395" type="idref" xml:base="https://www.idref.fr/">roi de
+          Babylone</persName>
+            <lb/>exilés, pleins de la croyance à l’obligation
+          de se racheter<lb/>
+            <hi rend="underline">une doctrine d’exilés</hi>,
+          de patients (Guignebert&#160;46)<lb/>cette sorte d’espérance est une
+          chose juive (Guigneb<hi rend="sup">t</hi>&#160;47)<lb/>le frère du
+          mangeur de sauterelles</quote>
+          <quote rend="quotation" xml:id="d1e2902">p&#160;68 / 74&#160;sqq.<hi rend="italic"> [en dessous et au crayon]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2908">
+            <hi rend="small-caps">
+              <hi rend="bold">Feuillet 4</hi>
+            </hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2921">1&#160;2 <hi rend="italic">[sur
+          le </hi>1<hi rend="italic">] </hi>2<hi rend="italic"> [au crayon
+          bleu sur un bout de papier oblitérant les&#160;</hi>1<hi rend="italic">
+          et&#160;</hi>2 <hi rend="italic">précédents]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2939">Il fallait qu’ils eussent
+          durement souffert pour avoir accepté cette religion qui 1<hi rend="sup">o</hi>&#160;renonçait à la vie 2<hi rend="sup">o</hi>&#160;était
+          apportée à eux, <hi rend="line-through">citoyens</hi> romains, par
+          des circoncis, à eux, hommes libres, par une race infiniment
+          servile&#160;! Certes ils devaient être à leur point de moindre
+          résistance.</quote>
+          <quote rend="quotation" xml:id="d1e2945">Me voici devant lui,
+          semblable à un de ces vieux romains du 1<hi rend="sup">er</hi>&#160;temps
+          de notre ère, écoutant avec un certain dédain, une certaine
+          répulsion la doctrine qu’apporte <placeName ref="294640" type="geonames" xml:base="https://www.geonames.org/">Israël</placeName>. Car lui, se
+          heurtant à l’ordre antique,&#160;soudain se trouve allié avec le
+          christianisme&#160;: il n’y a plus chrétien d’une part et juif de
+          l’autre&#160;; il est un apôtre chez les Gentils. Il tient pour la
+          religion orientale du Salut&#160;; moi pour la dignité de l’homme pris en
+          soi. Romain et barbare, face à face<lb/>Derrière lui il a <persName ref="027599167" type="idref" xml:base="https://www.idref.fr/">Isis</persName> l’Égyptienne
+          d’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>, <persName ref="027290360" type="idref" xml:base="https://www.idref.fr/">Cybèle</persName> la Phrygienne,
+          <persName ref="027319717" type="idref" xml:base="https://www.idref.fr/">Mithra</persName> le Perse et le
+          Syrien <persName ref="028684338" type="idref" xml:base="https://www.idref.fr/">Adonis</persName>
+            <lb/>
+            <placeName ref="294640" type="geonames" xml:base="https://www.geonames.org/">Israël</placeName> a subi
+          l’influence syro-chaldéenne <lb/>Guign&#160;40 et voir tout le haut de la
+          p.&#160;41 <hi rend="italic">[en regard et en dessous de </hi>
+            <placeName ref="294640" type="geonames" xml:base="https://www.geonames.org/">Israël</placeName> a subi…<hi rend="italic">]<lb/>
+            </hi>les Nazaréens justification de <persName ref="027384365" type="idref" xml:base="https://www.idref.fr/">Pilate</persName> p.&#160;54
+          Guignebert</quote>
+          <quote rend="quotation" xml:id="d1e2985">
+            <hi rend="small-caps">
+              <hi rend="bold">Feuillet 5</hi>
+            </hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e2997">
+            <hi rend="line-through">On
+          se demande comment un idéal va pouvoir se substituer à peut être
+          placé moins haut</hi> que Il est trop facile de comprendre, par la
+          naturelle faiblesse laisser-aller de l’homme, qu’un autre idéal ait
+          pu se substituer à celui de l’homme qui agit bien parce qu’il est
+          son juge, sans demande, sans espérance et sans recours. Il est plus
+          difficile de comprendre comment il n’y a pas une opinion unanime
+          pour reconnaître loyalement que cet idéal abandonné était <hi rend="line-through">cependant</hi> plus haut. On voudrait que les
+          chrétiens, qui aiment bien parler de leur faiblesse, reconnussent
+          qu’il y a bien quelque faiblesse dans leur perpétuel <hi rend="underline">besoin</hi> de ceci et de cela&#160;; on voudrait que
+          ces tenants du <hi rend="underline">
+              <foreign xml:lang="lat">quia absurdum</foreign>
+            </hi> condamnassent la <hi rend="line-through">position de l’âme
+          antique</hi> autrement morale sans sanction autrement que par un&#160;:
+          c’est absurde.</quote>
+          <quote rend="quotation" xml:id="d1e3018">Saugrenu<lb/>
+            <hi rend="italic">
+              <hi rend="underline">pas saugrenu dans l’espèce</hi>
+          [dans la marge] </hi>conforme à une sa tradition et à son
+          hérédité<lb/>un certain nombre de réactions plus extraordinaires à
+          garder que la trace de tel sentiment ou le nez long des
+          difformes<lb/>la vie violente étant réapparue ces sentiments peuvent
+          avoir disparu et reviennent<hi rend="italic"> [sur un béquet]
+          <lb/>
+            </hi>le peuple, toujours en retard, encore païen q[uan]d les
+          cl[asses] cultivées sont chrétien[nes], aujourd’hui croyant q[uan]d
+          les hautes classes sont incrédules, est le grand unificateur, et
+          l’unité etc. (voir Vœu Renaissance)<hi rend="italic"> [sur un second
+          béquet]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e3043">
+            <hi rend="small-caps">
+              <hi rend="bold">Feuillet 6</hi>
+            </hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e3055">4 <hi rend="italic">[coin
+          supérieur gauche au crayon bleu]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e3061">
+            <hi rend="underline">Vosges</hi> Conciliation <hi rend="italic">[le tout
+          au crayon bleu]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e3070">La voix du peuple, surtout
+          des paysans, appelait pour cette conciliation. Toujours en retard
+          (p&#160;14), païen quand ils étaient chrétiens, incroyant quand nous
+          sommes incrédules, la lenteur insensible de sa mutation maintenait
+          une unité et un syncrétisme, mêlait aussi les uns et les autres et
+          appelait pour cette unité de la croyance dont la science a
+          hérité.<lb/>Guign<hi rend="sup">bt</hi>&#160;15 <hi rend="italic">[dans
+          la marge à la hauteur du texte précédent]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e3081">Tayac&#160;: entrée de la
+          chapelle – colonnes temple ancien à la rivière</quote>
+          <quote rend="quotation" xml:id="d1e3084">p&#160;17 <hi rend="italic">[référence associée par une flèche à </hi>cette unité
+          de la croyance…<hi rend="italic">]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e3094">
+            <hi rend="small-caps">
+              <hi rend="bold">Feuillet 7</hi>
+            </hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e3106">5 <hi rend="italic">[coin
+          supérieur gauche au crayon bleu]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e3112">
+            <hi rend="italic">
+              <hi rend="underline">Office</hi> [au crayon
+            bleu]</hi>
+          </quote>
+          <quote rend="quotation" xml:id="d1e3121">Guignebert&#160;236. Revanche du
+          paganisme éternel, <hi rend="line-through">re</hi> l’Église
+          catholique a rendu supportable le christianisme en le trahissant, en
+          devenant l’Église. Le rôle de l’Église a été de reprendre la
+          tradition romaine et de corriger l’idée
+          évangélique.<lb/>Songe<lb/>
+            <persName ref="026966107" type="idref" xml:base="https://www.idref.fr/">Valery
+          Larbaud</persName>
+            <lb/>Chacun de ces hommes est un consul
+          etc…<lb/>moi, comme les dieux de <persName ref="026917688" type="idref" xml:base="https://www.idref.fr/">Heine</persName>, un
+          dieu devenu chrétien</quote>
+          <p xml:id="d1e1833">Les six pages qu’on vient de lire –&#160;autrement
+          dit les feuillets&#160;2 à&#160;7&#160;– développent les points qui figuraient sur
+          la toute première page du manuscrit, à l’exception toutefois du
+          point&#160;1&#160;: «&#160;Comment ils deviennent amis dans le Nord&#160;», qui n’était
+          sans doute qu’un préambule.</p>
+          <p xml:id="d1e1835">Ce qu’on lit sur la page&#160;1 (feuillet&#160;2) est du
+          pur <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>, un premier
+          jet mais de belle venue, et avec quelques corrections qu’on aurait
+          plaisir à relever, tel ce «&#160;On vivait, on mourait parce qu’on avait
+          le talent de vivre et de mourir&#160;» devenu «&#160;On vivait, on luttait, on
+          mourait parce qu’on avait le talent de vivre, de lutter, de
+          mourir&#160;».</p>
+          <p xml:id="d1e1837">Pour le fond, on est à mi-chemin des reproches
+          qu’adressait à <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> le dieu <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> de <date type="_temp" when="1912">1912</date>&#160;: «&#160;La vertu n’est vertu que
+          désintéressée. Tout acte de vertu qu’on fera, on le fera par peur de
+          ton enfer, et dans ton ciel immoral, il n’y aura que les égoïstes et
+          les lâches&#160;!…&#160;», et des anathèmes qu’on lira en <date type="_temp" when="1929">1929</date> dans <hi rend="italic">Le dernier
+          Retour</hi> comme dans <hi rend="italic">Trois Jours au
+          Montserrat</hi>.</p>
+          <p xml:id="d1e1845">«&#160;Ce qu’il y a eu de beau dans le monde antique,
+          c’est son désintéressement&#160;», lit-on dans le manuscrit&#160;; et un peu
+          plus loin&#160;: «&#160;Le tremblement est entré dans le monde. Il devait y
+          devenir une des nouvelles divinités.&#160;» L’auteur du <hi rend="italic">Dernier Retour</hi> s’en est de toute évidence
+          souvenu, jusqu’à reprendre des formules vieilles de près de sept
+          ans, quand il a décrété qu’«&#160;un homme en bonne santé ne s’occupe pas
+          de son âme&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e3180">«&#160;Des hommes qui
+          tremblaient de l’âme décidèrent que le tremblement serait le
+          meilleur de l’homme. Dans le Panthéon des grands hommes, ceux qui
+          ont tremblé sont au rayon d’honneur&#160;; jamais quelqu’un d’équilibré
+          n’y accédera. À cela désormais rien à faire. La religion du
+          tremblement est une des maladies du monde moderne&#160;; c’est la forme
+          évoluée du convulsionnisme sacré des primitifs<note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>E, p.&#160;436-437 dans <hi rend="italic">Un Voyageur
+              solitaire.</hi>
+              </p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e1859">Et le point de vue est le même dans <hi rend="italic">Trois Jours au Montserrat</hi>, où l’auteur, en bon
+          disciple de <persName ref="026997576" type="idref" xml:base="https://www.idref.fr/">Lucrèce</persName>, décrète que
+          «&#160;le Grand Criminel, avec des majuscules, c’est le premier homme qui
+          inventa l’idée de Dieu&#160;» et que «&#160;c’est bien désespérer de
+          l’humanité, que penser qu’il lui faut une religion pour être haute
+          et pour être honnête<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>E, p.&#160;400-401 dans <hi rend="italic">Un Voyageur
+              solitaire</hi>.</p>
+            </note>&#160;».</p>
+          <p xml:id="d1e1872">D’où le blâme, si l’on retourne au manuscrit,
+          dirigé contre <persName type="_temp">Paul</persName>, pour qui
+          l’homme est jugé après sa mort et toute sagesse vaine aux yeux de
+          Yawhé<note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>C’est bien à l’<hi rend="italic">Épître I aux
+              Corinthiens</hi>, au verset 6, 9, puis au verset 3, 19-20, que
+              renvoie Montherlant, mais les références «&#160;p.&#160;196&#160;» et «&#160;III,
+              193&#160;» restent mystérieuses.</p>
+            </note>. De là aussi, <hi rend="italic">a contrario</hi>, la
+          réhabilitation de la «&#160;décadence&#160;», ou prétendue décadence, qui va
+          de pair avec l’éloge de <persName ref="027008614" type="idref" xml:base="https://www.idref.fr/">Marc Aurèle</persName>&#160;: l’empereur
+          philosophe est devenu pour un païen du <date from="0300">
+              <hi rend="small-caps">iv</hi>
+              <hi rend="sup">e</hi>
+            </date> ou <date from="0400" to="0499" type="_temp">
+              <hi rend="small-caps">v</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date> l’image
+          même de la «&#160;dignité personnelle&#160;». On s’était demandé, en lisant la
+          toute première page du manuscrit, comment il fallait entendre «&#160;leur
+          dignité&#160;»&#160;; il est clair que pour le païen elle réside dans le
+          «&#160;désintéressement<note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>Inutile de se perdre en conjectures sur le mot Israël en bas
+              de page, aide-mémoire peut-être pour l’auteur.</p>
+            </note>&#160;».</p>
+          <p xml:id="d1e1901">La seconde page&#160;1 (feuillet&#160;3), qui a d’abord
+          porté un numéro&#160;2<note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>Il semble en tout cas que c’est bien le&#160;1 qui surcharge le&#160;2,
+              et non l’inverse.</p>
+            </note>, nous conduit à un ouvrage de <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Charles
+          Guignebert</persName> dont il sera désormais question tout au long
+          des «&#160;chapitres&#160;» à venir. Le nom de l’ouvrage n’apparaît nulle part
+          dans le manuscrit, mais les références ne laissent aucune place au
+          doute&#160;; il s’agit du <hi rend="italic">Christianisme antique</hi>
+          que <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName> avait fait
+          paraître chez Flammarion en <date type="_temp" when="1921">1921</date>
+            <note n="58" place="foot" type="standard" xml:id="ftn58">
+              <p>Un ouvrage tout récent par rapport au manuscrit. La&#160;<hi rend="small-caps">bn</hi> en a évidemment un exemplaire.</p>
+            </note>. C’est que <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>, qui parle
+          ici pour son héros («&#160;lui-moi&#160;»), voulait opposer au païen un
+          Nazaréen ou un converti qui fût conforme à l’histoire. Quand il le
+          définit comme «&#160;une matière religieuse&#160;», il cite un mot de
+          <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName> à la
+          page&#160;41&#160;: «&#160;Il y avait là […] une matière religieuse énorme&#160;»&#160;;
+          quand il évoque l’exil à <placeName ref="98228" type="geonames" xml:base="https://www.geonames.org/">Babylone</placeName>, il est à
+          la page&#160;42&#160;: «&#160;Les exilés […] se persuadèrent que les maux
+          d’<placeName ref="294640" type="geonames" xml:base="https://www.geonames.org/">Israël</placeName> venaient de
+          ce qu’il s’était montré infidèle à l’Alliance et qu’il ne lui
+          restait qu’un moyen d’apaiser Dieu, c’était de se soumettre à la
+          plus grande rigueur dans l’observance cultuelle&#160;»&#160;; quand il affirme
+          que «&#160;cette sorte d’espérance est une chose juive&#160;», il se souvient
+          d’avoir lu à la page&#160;47 que «&#160;l’espérance messianique dont
+          <placeName ref="294640" type="geonames" xml:base="https://www.geonames.org/">Israël</placeName> attendait la
+          réparation éclatante de ses infortunes&#160;» allait au contraire «&#160;le
+          jeter dans les plus désastreuses aventures&#160;», et s’il écrit de son
+          Nazaréen qu’il est «&#160;le frère du mangeur de sauterelles&#160;», c’est
+          pour avoir lu à la page&#160;49 de <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName> qu’«&#160;il se
+          peut que <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> ait connu
+          <persName ref="027562603" type="idref" xml:base="https://www.idref.fr/">Jean le Baptiste</persName>&#160;».
+          Quant à dire ce qu’il avait retenu ou se proposait de retenir des
+          pages&#160;68, 74 et suivantes… Peut-être ceci, que les Juifs hellénisés
+          «&#160;se pénétraient de plus en plus de l’idée grecque du <hi rend="italic">dualisme</hi> de la nature humaine&#160;», et très
+          certainement les pages sur «&#160;les combinaisons <hi rend="italic">syncrétistes</hi>&#160;», comme on va tout de suite le
+          constater en lisant la page&#160;2.</p>
+          <p xml:id="d1e1925">Cette page&#160;2 (feuillet&#160;4), qui fut d’abord
+          numérotée&#160;1<note n="59" place="foot" type="standard" xml:id="ftn59">
+              <p>Montherlant donne d’abord à cette page un n<hi rend="sup">o</hi>&#160;1, puis&#160;2, avant de coller un bout de papier
+              avec un&#160;2 qui confirme son premier remords. On a vu de même sur
+              le feuillet&#160;3 un n<hi rend="sup">o</hi>&#160;1 surchargeant le&#160;2.</p>
+            </note>, est intéressante à plus d’un titre.</p>
+          <p xml:id="d1e1933">Elle est intéressante parce qu’elle donne à
+          lire, comme la première page&#160;1, une forme plus accomplie de
+          l’écriture. Elle est intéressante parce que ses premiers mots&#160;: «&#160;Il
+          fallait qu’ils eussent durement souffert pour avoir accepté cette
+          religion&#160;» préfigurent ceux qu’on lira en <date type="_temp" when="1927">1927</date> dans <hi rend="italic">La Mort de
+          Peregrinos</hi>&#160;: «&#160;Il fallait être durement excédé pour avoir
+          accepté <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName>
+            <note n="60" place="foot" type="standard" xml:id="ftn60">
+              <p>E, p.&#160;253, dans <hi rend="italic">Aux Fontaines du
+              désir</hi>.</p>
+            </note>&#160;», et ceux qu’on lira en <date type="_temp" when="1929">1929</date> dans <hi rend="italic">Earinus&#160;:</hi> «&#160;Il
+          fallait avoir durement souffert pour accueillir comme un sauveur
+          <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName>
+            <note n="61" place="foot" type="standard" xml:id="ftn61">
+              <p>Dans l’essai <hi rend="italic">Jeux olympiques et
+              Antiquité</hi> déjà cité dans la note&#160;8, p.&#160;138.</p>
+            </note>.&#160;» Elle est intéressante enfin parce qu’on y voit se
+          dessiner la personnalité de «&#160;l’autre&#160;».</p>
+          <p xml:id="d1e1957">Cet adversaire pourrait être l’un de ces Romains
+          qui ont accepté une religion par quoi ils «&#160;renonçaient à la vie&#160;»,
+          se heurtant ainsi à «&#160;l’ordre antique&#160;» auquel est resté fidèle
+          celui qui parle à la première personne. De cet antagonisme où
+          reparaît la «&#160;dignité&#160;» dont il fut plus haut question («&#160;Il tient
+          pour la religion orientale du Salut&#160;; moi pour la dignité de l’homme
+          pris en soi&#160;») émerge une nouvelle définition de la barbarie&#160;:
+          «&#160;Romain et barbare, face à face.&#160;» Le Barbare, désormais, est celui
+          qui a tout absorbé et s’est du même coup renié. À preuve, la suite
+          du texte&#160;: «&#160;Derrière lui il a <persName ref="027599167" type="idref" xml:base="https://www.idref.fr/">Isis</persName>
+          d’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>, <persName ref="027290360" type="idref" xml:base="https://www.idref.fr/">Cybèle</persName> la Phrygienne,
+          <persName ref="027319717" type="idref" xml:base="https://www.idref.fr/">Mithra</persName> le Perse et le
+          Syrien <persName ref="028684338" type="idref" xml:base="https://www.idref.fr/">Adonis</persName>&#160;», qui vient tout
+          droit de la page&#160;255 du <hi rend="italic">Christianisme
+          antique&#160;:</hi>
+          </p>
+          <quote rend="quotation" xml:id="d1e3384">«&#160;<hi rend="italic">Le
+          christianisme est une religion orientale par ses origines et par ses
+          caractères fondamentaux&#160;;</hi> et, s’il était resté ce qu’il fut
+          d’abord, il portait en lui beaucoup moins de chances de conquérir le
+          monde occidental que n’en avait rassemblées la religion d’<persName ref="027599167" type="idref" xml:base="https://www.idref.fr/">Isis</persName> l’Égyptienne, celle
+          de la Grande Mère <persName ref="027290360" type="idref" xml:base="https://www.idref.fr/">Cybèle</persName> la Phrygienne,
+          celle du Syrien <persName ref="028684338" type="idref" xml:base="https://www.idref.fr/">Adonis</persName> ou celle du Perse
+          <persName ref="027319717" type="idref" xml:base="https://www.idref.fr/">Mithra</persName>.&#160;»</quote>
+          <p xml:id="d1e1967">
+            <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName> rappelle en
+          quoi cette religion-là est «&#160;plus riche et plus simple que les
+          autres religions du Salut&#160;», et c’est le mot de <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> avec sa
+          majuscule. Il dit aussi pourquoi elle pouvait «&#160;opposer […] sa
+          science divine révélée à la vaine <hi rend="italic">sagesse du
+          monde</hi>, qui est <hi rend="italic">folie devant Dieu</hi>&#160;», et
+          ce sont les paroles de <persName type="_temp">saint Paul</persName>
+          qu’on a lues un peu plus haut. Il explique enfin comment «&#160;dès le
+          <date from="0100" to="0199" type="_temp">
+              <hi rend="small-caps">ii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date> elle
+          s’ouvrit aux désabusés de la philosophie profane<note n="62" place="foot" type="standard" xml:id="ftn62">
+              <p>
+                <hi rend="italic">Le Christianisme antique</hi>, p.&#160;257.</p>
+            </note>&#160;», autrement dit&#160;: «&#160;Il fallait qu’ils eussent durement
+          souffert pour avoir accepté cette religion.&#160;»</p>
+          <p xml:id="d1e1988">Restent les notes que <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+          a griffonnées, en deux temps, au bas de cette page&#160;2, et qui n’ont
+          pas toutes le même intérêt. Dans la mesure où on vient d’en lire
+          l’essentiel sous une forme achevée qui dérive de la page&#160;255 du <hi rend="italic">Christianisme antique</hi>, on peut tenir les renvois
+          aux pages&#160;40 et&#160;41, ainsi que les mots «&#160;<placeName ref="294640" type="geonames" xml:base="https://www.geonames.org/">Israël</placeName> a subi
+          l’influence syro-chaldéenne&#160;», pour les aléas d’un brouillon. Mais
+          ce qu’il faut considérer de près, c’est la toute dernière ligne&#160;:
+          «&#160;Les Nazaréens justification de <persName ref="027384365" type="idref" xml:base="https://www.idref.fr/">Pilate</persName>
+          p.&#160;54 <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName>.&#160;»</p>
+          <p xml:id="d1e1993">
+            <persName ref="027384365" type="idref" xml:base="https://www.idref.fr/">Pilate</persName> était une belle
+          matière pour les écrivains. Qui ne se rappelle <hi rend="italic">Le
+          Procurateur de Judée</hi> d’<persName ref="026656310" type="idref" xml:base="https://www.idref.fr/">Anatole France</persName> ou le <hi rend="italic">Ponce Pilate</hi> de <persName ref="026762323" type="idref" xml:base="https://www.idref.fr/">Roger
+          Caillois</persName>
+            <note n="63" place="foot" type="standard" xml:id="ftn63">
+              <p>Les récits de France (1891) et de Caillois (1961), pour
+              passionnants qu’ils soient, relèvent surtout de la légende de
+              Pilate. Le Pilate de l’Histoire, c’est celui de Jean-Pierre
+              Lémonon dans le <hi rend="italic">Ponce Pilate</hi> qu’il a
+              publié en 2007 aux Éditions de l’Atelier.</p>
+            </note>&#160;? On connaît moins la «&#160;nouvelle&#160;» intitulée <hi rend="italic">La Mort de Pilate</hi> que <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+          composa en <date type="_temp" when="1908">1908</date>, à treize ans,
+          mais dont il fut assez content pour en confier l’édition près de
+          trente ans plus tard à son ami <persName ref="027979083" type="idref" xml:base="https://www.idref.fr/">Ventura García
+          Calderón</persName>&#160;: obsédé par la vision du «&#160;Nazaréen en croix&#160;»
+          et persuadé que seule la mort lui apportera la «&#160;guérison&#160;», l’homme
+          va se noyer dans une rivière proche de Jérusalem<note n="64" place="foot" type="standard" xml:id="ftn64">
+              <p>La nouvelle occupe les pages&#160;90 à&#160;97 d’<hi rend="italic">Explication de Montherlant</hi>, Bruxelles, Les
+              Cahiers du Journal des Poètes, Série Essais, n<hi rend="sup">o</hi>&#160;41 de septembre&#160;1937. M.&#160;Barat m’a communiqué
+              le texte original, que Montherlant avait intégré dans le carnet
+              <hi rend="italic">Érold et Sylvaine</hi>&#160;; il n’y a que fort peu
+              de différences entre les deux versions.</p>
+            </note>. Celui qui avait écrit, adolescent, cette<hi rend="italic"> Mort de Pilate</hi> ne pouvait que retenir, adulte,
+          la page où <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName> s’étonne que
+          d’aucuns veuillent «&#160;prouver que, si <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> ne
+          s’est pas lui-même avoué ouvertement Messie, il a cru qu’il l’était,
+          il l’a laissé croire à ses disciples, il a péri pour l’avoir laissé
+          croire à <persName ref="027384365" type="idref" xml:base="https://www.idref.fr/">Pilate</persName>&#160;; et que, s’il en
+          avait été autrement, jamais les Apôtres n’auraient pu penser que le
+          Crucifié était ressuscité des morts&#160;».</p>
+          <p xml:id="d1e2027">Le chapitre&#160;3 de <hi rend="italic">La Garde
+          autour de Pan</hi> était censé se passer aux thermes de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>, mais si le
+          manuscrit compte bien une page&#160;4 intitulée «&#160;Vosges Conciliation&#160;»
+          qui correspond au chapitre&#160;4 et une page&#160;5 intitulée «&#160;Office&#160;» qui
+          correspond au chapitre&#160;5, on n’y voit aucune page&#160;3 qui développe le
+          chapitre&#160;3 «&#160;Aux thermes de <persName ref="028722620" type="idref" xml:base="https://www.idref.fr/">Julien</persName>&#160;». On y trouve
+          seulement une page sans numéro (le feuillet&#160;5) où furent collés deux
+          béquets. C’est même la note figurant sur le second béquet, encore
+          que l’argument ne soit pas très solide<note n="65" place="foot" type="standard" xml:id="ftn65">
+              <p>On pourrait s’épuiser en conjectures, se fonder par exemple
+              sur les différences d’écriture (car Montherlant n’a pas utilisé
+              le même stylo tout au long des dix pages), ou sur les
+              différences de support (un des «&#160;versos&#160;» témoigne d’un échange,
+              daté des 16&#160;et 21&#160;mars&#160;1922, entre l’écrivain et la revue <hi rend="italic">France-Amérique</hi>).</p>
+            </note>, qui nous fera lire cette page avant la page «&#160;Vosges
+          Conciliation&#160;». Cela étant, le texte lui-même réserve quelques
+          surprises. Sinon le texte continu, où <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+          revient sur l’idéal désintéressé du monde antique tout en opposant
+          aux chrétiens leurs inconséquences et leur intransigeance, en tout
+          cas celui des deux béquets.</p>
+          <p xml:id="d1e2040">Le «&#160;saugrenu&#160;» du premier béquet<note n="66" place="foot" type="standard" xml:id="ftn66">
+              <p>Ce béquet est découpé dans la lettre circulaire décrite dans
+              la note&#160;2.</p>
+            </note>, c’est l’épithète que «&#160;la critique catholique&#160;» avait
+          décernée à l’<persName type="_temp">Alban</persName> du <hi rend="italic">Songe</hi> et que <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+          réfutera dans ses <hi rend="italic">Notes relatives à la religion et
+          aux passions&#160;:</hi> celui qui passe pour saugrenu ne l’est que pour
+          la société de son temps&#160;; replacé «&#160;dans son espèce&#160;», le voilà
+          «&#160;conforme à sa tradition et à son hérédité&#160;». Quant au second
+          béquet, s’il retient l’attention, c’est moins pour le texte, qu’on
+          retrouvera page&#160;4, que pour l’allusion, dans la parenthèse «&#160;(Voir
+          Vœu Renaissance)&#160;», à l’ouvrage de <persName ref="027062481" type="idref" xml:base="https://www.idref.fr/">Joséphin
+          Péladan</persName> publié en <date type="_temp" when="1905">1905</date> chez Sansot.</p>
+          <p xml:id="d1e2053">
+            <persName ref="071503382" type="idref" xml:base="https://www.idref.fr/">Jean-François Domenget</persName> a
+          bien défini l’intérêt de <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> pour cet
+          auteur fin-de-siècle que fut le <persName ref="027062481" type="idref" xml:base="https://www.idref.fr/">Sâr
+          Péladan</persName>
+            <note n="67" place="foot" type="standard" xml:id="ftn67">
+              <p>Il faut ici lire les pages&#160;29, 38, 40 et&#160;173 de son <hi rend="italic">Montherlant critique</hi> qui parut à Genève, chez
+              Droz, en 2003.</p>
+            </note>. Il a ainsi relevé, dans les <hi rend="italic">Malatestiana</hi> des <date from="1950" to="1959" type="_temp">années cinquante</date>, une note où l’écrivain se
+          retranche derrière <hi rend="italic">Le Vœu de la Renaissance</hi>
+          pour justifier une réplique de son <persName type="_temp">Porcellio</persName>, l’assassin de <persName type="_temp">Malatesta</persName>
+            <note n="68" place="foot" type="standard" xml:id="ftn68">
+              <p>Voici le texte des <hi rend="italic">Malatestiana</hi>&#160;: «&#160;La
+              réplique de Porcellio&#160;: “En tant qu’homme raisonnable, je ne
+              crois pas en Dieu. Mais en tant que chrétien baptisé, je suis
+              bien obligé d’y croire”, est authentique, mais dans la bouche
+              d’un autre humaniste, cité par Péladan (<hi rend="italic">Le Vœu
+              de la Renaissance</hi>)&#160;» (T, p.&#160;427), et voici le texte de la
+              p.&#160;47 du <hi rend="italic">Vœu de la Renaissance</hi>, d’où il
+              ressort que Montherlant a davantage exploité le commentaire de
+              Péladan que le mot de Pomponace cité par lui&#160;: «&#160;“L’immortalité
+              de l’âme ne souffre de ma part aucun doute, puisque les
+              Écritures canoniques qui doivent être préférées à toute raison
+              et à toute expérience, confirment cette thèse. Mais l’objet de
+              mon doute, c’est de savoir si cette thèse n’excède pas les
+              limites de la raison.” Voilà du comique philosophique et de
+              l’excellent comique. Comme chrétien Pomponace croit&#160;; comme
+              philosophe, il ne croit pas.&#160;»</p>
+            </note>, et dans des carnets de la même période, une note où,
+          présentant son œuvre comme une «&#160;œuvre de réconciliation&#160;» (c’est
+          quasiment le chapitre&#160;4 de <hi rend="italic">La Garde autour de
+          Pan</hi>), il renvoie le lecteur «&#160;à ce livre de <persName ref="027062481" type="idref" xml:base="https://www.idref.fr/">Péladan</persName>, <hi rend="italic">Le Vœu de l’unité&#160;</hi>[<hi rend="italic">sic</hi>],
+          où <persName ref="027062481" type="idref" xml:base="https://www.idref.fr/">Péladan</persName> disait que ce
+          vœu fut celui des hommes de la Renaissance<note n="69" place="foot" type="standard" xml:id="ftn69">
+              <p>
+                <hi rend="italic">Garder tout en composant tout</hi>, Paris,
+              Gallimard, 2001, p.&#160;214, dans une note du 27&#160;janvier&#160;1954
+              intitulée «&#160;Garder tout en composant tout&#160;». Un peu plus loin
+              dans cette même note, l’écrivain, parlant du catholicisme comme
+              de quelque chose qui «&#160;n’est pas cru, mais accueilli&#160;», ajoute
+              qu’il est «&#160;accueilli à une place secondaire, comme Jésus qui a
+              sa place dans le panthéon d’Alexandre Sévère&#160;». Il corrigeait
+              ainsi l’erreur qu’il avait commise en 1940 dans <hi rend="italic">Paysage des Olympiques</hi> (et qu’il reproduira
+              en 1972 dans <hi rend="italic">Mais aimons-nous ceux que nous
+              aimons&#160;?</hi>) lorsqu’il imputait à Septime Sévère, empereur
+              de&#160;193 à&#160;211, un éclectisme qui fut en réalité celui d’Alexandre
+              Sévère, empereur de&#160;222 à&#160;235, ou du moins l’éclectisme que lui
+              attribue l’<hi rend="italic">Histoire Auguste</hi> quand elle
+              rapporte qu’il avait un laraire où l’image du Christ voisinait
+              avec d’autres (<hi rend="italic">H. A.</hi>, <hi rend="italic">Alex.&#160;Sev.</hi>, XXIX, 2).</p>
+            </note>&#160;».</p>
+          <p xml:id="d1e2117">D’irréfutables témoignages que renforcent ceux
+          qu’on grappillera dans les parages immédiats du manuscrit, à
+          commencer par l’article que <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> avait publié
+          dans <hi rend="italic">Les Écrits nouveaux</hi> de <date type="_temp" when="1921-01">janvier&#160;1921</date> sous le titre <hi rend="italic">Pour l’anniversaire de Paul Adam</hi>
+            <note n="70" place="foot" type="standard" xml:id="ftn70">
+              <p>Voir la note&#160;14 pour les références.</p>
+            </note>. Jeune écrivain, il se rallie à la majorité pour saluer en
+          lui «&#160;un homme de la Renaissance&#160;», mais «&#160;en partie&#160;» seulement, et
+          quand il range parmi ses vertus «&#160;le pli de juxtaposer sans
+          exclure&#160;», il se permet une restriction&#160;: «&#160;Encore que les
+          Renaissants aient cherché une conciliation que lui ne cherchait
+          pas&#160;», où l’on reconnaît l’empreinte de <persName ref="027062481" type="idref" xml:base="https://www.idref.fr/">Péladan</persName>
+          autant que le leitmotiv de notre manuscrit<note n="71" place="foot" type="standard" xml:id="ftn71">
+              <p>Sans oublier, peu après, l’éloge appuyé de «&#160;ces régions où
+              nulle chose ne rompt de façon formelle avec une autre, où le
+              paganisme épuré d’un Platon ne contredit en rien d’important le
+              christianisme et d’où l’on voit se lever au lointain le vieux
+              rêve d’une pensée libre et d’une vie libre dans le sein de la
+              communauté catholique&#160;» (<hi rend="italic">Les Écrits
+              nouveaux</hi>, p.&#160;5 et 10&#160;;<hi rend="italic"> Au Petit
+              Mutilé</hi>, p.&#160;55 et 70). Pour tout ce qui concerne Montherlant
+              et Adam, voir, ici encore, <hi rend="small-caps">J.-Fr.&#160;Domenget, </hi>
+                <hi rend="italic">Montherlant critique</hi>, p.&#160;33-41, <hi rend="italic">passim</hi>.</p>
+            </note>.</p>
+          <p xml:id="d1e2149">Mais enfin, la marque la plus évidente du <hi rend="italic">Vœu de la Renaissance</hi> est en aval du manuscrit,
+          dans le final des <hi rend="italic">Notes relatives à la religion et
+          aux passions</hi> où se dessine l’image de l’homme qui «&#160;réalise
+          tout l’humain&#160;» et à qui revient le droit de chanter l’hymne à la
+          gloire du Père que <persName ref="027062481" type="idref" xml:base="https://www.idref.fr/">Péladan</persName> produisait comme
+          une preuve de la hauteur d’âme de <persName ref="028883683" type="idref" xml:base="https://www.idref.fr/">Laurent le
+          Magnifique</persName>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e3727">Grand Dieu&#160;! toi dont la
+          loi régit cet univers<lb/>et entre l’âme dans ce
+          corps<lb/>[…]<lb/>de toi, premier auteur, tout prend sa vie<note n="72" place="foot" type="standard" xml:id="ftn72">
+              <p>P.&#160;70 du<hi rend="italic"> Vœu de la Renaissance</hi> et,
+              dans une version légèrement revue, p.&#160;13 et&#160;14 du placard (769
+              de la <hi rend="italic">Nrf</hi>).</p>
+            </note>.</quote>
+          <p xml:id="d1e2177">Faut-il encore, après cela, tenir pour un hasard
+          que l’ami <persName ref="026859157" type="idref" xml:base="https://www.idref.fr/">Faure-Biguet</persName>, dans
+          l’opuscule qu’il publia en <date type="_temp" when="1925">1925</date> sous le titre <hi rend="italic">Montherlant
+          homme de la Renaissance</hi>, ait rapproché telle ou telle page de
+          la <hi rend="italic">Première Olympique</hi> des écrits d’un
+          <persName ref="029720109" type="idref" xml:base="https://www.idref.fr/">Pic de la Mirandole</persName> ou
+          d’un <persName ref="026864436" type="idref" xml:base="https://www.idref.fr/">Marcile Ficin</persName> tant
+          célébrés par <persName ref="027062481" type="idref" xml:base="https://www.idref.fr/">Péladan</persName>&#160;? Faut-il
+          s’étonner qu’il ait enfin évoqué <hi rend="italic">Le</hi>
+            <hi rend="italic">Vœu de la Renaissance</hi> en précisant que «&#160;ce vœu,
+          c’était l’unité<note n="73" place="foot" type="standard" xml:id="ftn73">
+              <p>
+                <hi rend="italic">Montherlant, homme de la Renaissance</hi>,
+              p.&#160;43 et 63-64 respectivement, Plon-Nourrit et C<hi rend="sup">ie</hi>, 1925.</p>
+            </note>&#160;»&#160;?</p>
+          <p xml:id="d1e2202">On a suggéré que le chapitre «&#160;Dans les Vosges&#160;»
+          du sommaire avait pour cadre un lieu de prières dans un milieu
+          rustique et que le païen, le «&#160;saugrenu&#160;», avait alors pris
+          conscience de l’indifférence de toutes choses, l’indifférence selon
+          <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>,
+          c’est-à-dire celles de <persName ref="032876521" type="idref" xml:base="https://www.idref.fr/">Pyrrhon</persName> («&#160;À toute
+          raison s’oppose une égale raison&#160;») et de <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>
+          («&#160;Il n’y a raison qui n’en aye une contraire&#160;»)<note n="74" place="foot" type="standard" xml:id="ftn74">
+              <p>«&#160;L’univers n’ayant aucun sens, il est parfait qu’on lui
+              donne tantôt l’un et tantôt l’autre&#160;», dira l’auteur de <hi rend="italic">Syncrétisme et alternance</hi> (E, p.&#160;244).</p>
+            </note>. Il n’est rien dans la page «&#160;Vosges Conciliation&#160;» qui
+          n’aille dans le même sens. Quand on lit que «&#160;la voix du peuple […]
+          appelait pour cette conciliation&#160;», on se rappelle ce qu’écrivait en
+          <date type="_temp" when="1916-12">décembre&#160;1916</date> l’auteur des
+          <hi rend="italic">Enfants du matin</hi>, qu’avec le plain-chant
+          «&#160;nous recréons quelque chose de l’âme antique<note n="75" place="foot" type="standard" xml:id="ftn75">
+              <p>E, p.&#160;121 dans <hi rend="italic">La Relève du matin</hi>.</p>
+            </note>&#160;». Il parlait alors d’un «&#160;<hi rend="italic">ethos</hi>&#160;»
+          de la musique, l’<hi rend="italic">ethos</hi> dans <hi rend="italic">La Garde autour de Pan</hi> jaillit de l’appel «&#160;pour
+          cette unité de la croyance dont la science a hérité&#160;».</p>
+          <p xml:id="d1e2233">Que viennent faire ici, cependant, les pages&#160;14
+          et&#160;15 du<hi rend="italic"> Christianisme antique</hi>&#160;?</p>
+          <p xml:id="d1e2238">
+            <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName>, après avoir
+          rappelé que «&#160;chaque société se façonne la religion qui lui
+          convient&#160;», mais aussi que «&#160;dans une même société, chaque milieu
+          social […] se crée de cette religion une variété qui réponde à ses
+          besoins particuliers&#160;», commence par donner un exemple qui ne
+          pouvait échapper à l’attention de <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>&#160;: «&#160;Aux
+          derniers temps de la République romaine la religion des esclaves
+          retardait de deux ou trois siècles sur celle de leurs maîtres.&#160;»
+          Après quoi il explique que le peuple «&#160;d’instinct […] s’attache
+          toujours […] à une conception et à une pratique religieuses qui ne
+          correspondent exactement ni à l’enseignement de la religion
+          officielle, ni à la mentalité de ses ministres instruits, ni à la
+          représentation de ses dogmes et de ses préceptes qui prévaut parmi
+          les fidèles éclairés&#160;»&#160;; il dit encore que «&#160;cette religion
+          populaire se révèle à l’analyse comme un syncrétisme, un mélange de
+          croyances et d’usages, divers par l’origine, l’âge et le sens, et
+          qui ne subsistent côte à côte que parce que ceux qui les acceptent
+          ne les comparent jamais&#160;»&#160;; il termine en disant que «&#160;le peuple, et
+          particulièrement celui des campagnes, ne fait jamais tout à fait
+          table rase de ses croyances et de ses rites&#160;», mais qu’«&#160;il les
+          adapte spontanément à la religion nouvelle qui s’impose à lui, ou
+          bien, si elle s’y refuse, les refoule au tréfonds de sa conscience
+          et dans le secret de sa vie, où ils durent à l’état d’actives
+          superstitions&#160;». Condensé par <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>, cela
+          donnait sur le béquet de la page précédente «&#160;Le peuple, toujours en
+          retard etc.&#160;», avant d’aboutir à la version de «&#160;Vosges
+          Conciliation&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e3855">«&#160;La voix du peuple,
+          surtout des paysans, appelait pour cette conciliation. Toujours en
+          retard, païen quand ils étaient chrétiens, croyant quand nous sommes
+          incrédules, la lenteur insensible de sa mutation maintenait une
+          unité et un syncrétisme, mêlait aussi les uns et les autres et
+          appelait pour cette unité de la croyance dont la science a
+          hérité.&#160;»</quote>
+          <p xml:id="d1e2242">La difficulté sera de démêler dans cette version
+          revue ce que <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName> appelait le
+          milieu social. C’est bien le païen, l’incrédule d’aujourd’hui, qui
+          parle du peuple, dont il se démarque parce qu’il fait lui-même
+          partie des «&#160;classes cultivées&#160;», mais pourquoi «&#160;quand <hi rend="italic">ils étaient</hi> chrétiens&#160;», plutôt que «&#160;quand <hi rend="italic">nous étions</hi> chrétiens&#160;»&#160;? Un lapsus de <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>, qui tout
+          juste après corrigera «&#160;incroyant&#160;» en «&#160;croyant&#160;»&#160;? Ce n’est
+          peut-être qu’une question de perspective&#160;: «&#160;nous&#160;» valant pour
+          «&#160;nous aujourd’hui&#160;», «&#160;ils&#160;», pour «&#160;nous hier&#160;».</p>
+          <p xml:id="d1e2250">On hésitera moins sur la clausule «&#160;cette unité
+          de la croyance dont la science a hérité&#160;», associée par <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> à une
+          page&#160;17 qu’il faut chercher non pas chez <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName>
+          mais dans <hi rend="italic">Le Vœu de la Renaissance</hi>, quand
+          <persName ref="027062481" type="idref" xml:base="https://www.idref.fr/">Péladan</persName> proclame que
+          «&#160;le vœu admirable des humanités fut sans cesse de travailler à la
+          paix spirituelle, c’est-à-dire de concilier les doctrines, d’établir
+          leurs concordances, pour préparer cette unité idéale de la croyance
+          dont la science a hérité<note n="76" place="foot" type="standard" xml:id="ftn76">
+              <p>Un texte qu’on trouve à vrai dire aux pages&#160;19 et&#160;20 du <hi rend="italic">Vœu de la Renaissance</hi>, mais on aura la
+              faiblesse de croire que c’est par inadvertance que Montherlant a
+              écrit&#160;17 plutôt que&#160;19. Cette référence à la p.&#160;17 fut du reste
+              notée, comme il ressort très clairement du manuscrit, après la
+              note sur Tayac.</p>
+            </note>&#160;». De quoi éclairer <hi rend="italic">a posteriori</hi>
+          les mots «&#160;et l’unité etc.&#160;» qu’on a lus sur le second béquet du
+          précédent feuillet, tout en conférant à cette page «&#160;Vosges
+          Conciliation&#160;» un statut proprement littéraire&#160;: ce ne sont pas de
+          banales notes de lecture, c’est un texte élaboré, avec un de ces
+          «&#160;arrangements&#160;» qu’affectionnait <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>.</p>
+          <p xml:id="d1e2269">Reste la note sur <placeName ref="6616579" type="geonames" xml:base="https://www.geonames.org/">Tayac</placeName>, l’entrée de
+          la chapelle et les colonnes du temple ancien à la rivière. Une note
+          qui pour le fond annonce la mosquée de <placeName ref="2510409" type="geonames" xml:base="https://www.geonames.org/">Tolède</placeName> convertie en
+          église ou la «&#160;colonne engagée&#160;» de la façade de Sainte-Marie in
+          Cosmedin que <persName ref="030036186" type="idref" xml:base="https://www.idref.fr/">Mathilde Pomès</persName> signale à
+          <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> quand elle
+          le guide dans <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> en <date type="_temp" when="1947-10">octobre&#160;1947</date>&#160;: «&#160;Il tire son
+          calepin, prend une note&#160;; cette colonne reparaîtra. Ce sera la
+          colonne de la <hi rend="italic">collaboration</hi> (le paganisme
+          forcé de servir le christianisme)<note n="77" place="foot" type="standard" xml:id="ftn77">
+              <p>
+                <hi rend="italic">À Rome avec Montherlant</hi>, p.&#160;14, André
+              Bonne, 1951.</p>
+            </note>.&#160;» Mais enfin <date type="_temp" when="1922">1922</date>
+          n’est pas <date type="_temp" when="1947">1947</date>, ni <date type="_temp" when="1925">1925</date>. «&#160;<placeName ref="6616579" type="geonames" xml:base="https://www.geonames.org/">Tayac</placeName>&#160;» est le
+          souvenir du stage bucolique en Dordogne auquel fut astreint, en
+          <date type="_temp" when="1917-08">août&#160;1917</date>, le soldat
+          <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>. Envoyé aux
+          <placeName ref="6616154" type="geonames" xml:base="https://www.geonames.org/">Eyzies</placeName> après une
+          semaine à l’École militaire, le nouvel engagé gagne <placeName ref="6429478" type="geonames" xml:base="https://www.geonames.org/">Périgueux</placeName>, qui le
+          déçoit, puis les <placeName ref="3001095" type="geonames" xml:base="https://www.geonames.org/">Eyzies-de-Tayac</placeName>,
+          qui le ravit. Il fait même, à cette occasion, de longues promenades
+          le long de la Vézère, allant à pied jusqu’à <placeName ref="6429572" type="geonames" xml:base="https://www.geonames.org/">Saint-Léon</placeName>, où il
+          visite «&#160;une église bâtie sur un ancien temple romain, car il aime
+          par dessus tout, comme il l’écrit alors à sa grand-mère, ces
+          “combinaisons pagano-chrétiennes<note n="78" place="foot" type="standard" xml:id="ftn78">
+              <p>Pour tout cet épisode, voir <hi rend="small-caps">P.&#160;Sipriot</hi>, <hi rend="italic">Montherlant
+              sans masque</hi>, p.&#160;84-87. Lorsque Montherlant parle de
+              l’église Saint-Léon comme d’une église «&#160;bâtie sur un ancien
+              temple romain&#160;», il reprend une théorie qui était admise en
+              1917. On est aujourd’hui plus nuancé. Max Sarradet, par exemple,
+              dit qu’«&#160;il semble qu’elle fasse suite à un lieu de culte
+              remontant à la fin de la période gallo-romaine&#160;» («&#160;Fouilles
+              archéologiques dans l’église de Saint-Léon-sur-Vézère
+              (1961-1962)&#160;», p.&#160;73-100 dans <hi rend="italic">Documents
+              d’Archéologie et d’Histoire Périgourdines</hi>, t.&#160;8, 1993,
+              article qui me fut généreusement fourni par la Mairie de
+              Saint-Léon-sur-Vézère).</p>
+            </note>”&#160;». La note de <date type="_temp" when="1922">1922</date>
+          sur <placeName ref="6616579" type="geonames" xml:base="https://www.geonames.org/">Tayac</placeName>
+            <note n="79" place="foot" type="standard" xml:id="ftn79">
+              <p>Montherlant parle d’une chapelle, alors que Saint-Martin de
+              Tayac est une église-forteresse, mais qui sans doute n’avait pas
+              en 1917 l’allure qu’elle a maintenant retrouvée. Pour ce qui est
+              des colonnes provenant d’un temple ancien, rien de plus vrai&#160;:
+              l’une des archivoltes du portail repose sur deux colonnes
+              antiques de marbre vert qui pourraient provenir de l’antique
+              Vesunna (et je remercie au passage l’Office de Tourisme Terre de
+              Cro-Magnon et M.&#160;Bernard Coste de la Bibliothèque municipale de
+              Périgueux, qui m’ont aidé dans toutes ces recherches). Pourquoi
+              Montherlant a-t-il ajouté «&#160;à la rivière&#160;»&#160;? Parce qu’il était
+              admis en 1917 que ces colonnes avaient été repêchées dans la
+              Vézère, ou qu’elles avaient été transportées par bateau de
+              Vesunna à Tayac&#160;? À moins qu’il n’ait voulu écrire «&#160;face à la
+              rivière&#160;», l’entrée de l’église Saint-Martin se trouvant face à
+              la Vézère.</p>
+            </note>, c’est quelque chose de similaire à ce
+          «&#160;<foreign>kyriolés</foreign>&#160;» du premier feuillet qui nous avait
+          ramenés au <placeName ref="6454846" type="geonames" xml:base="https://www.geonames.org/">Remiremont</placeName> de <date type="_temp" when="1918">1918</date> dans les Vosges.</p>
+          <p xml:id="d1e2301">Les premières lignes de la page intitulée <hi rend="italic">Office</hi> (feuillet 7) s’accordent si étroitement
+          avec le point&#160;5 du plan initial&#160;: «&#160;Se rend compte que le
+          catholicisme a tué le christianisme et est en réalité le paganisme
+          continué, tout ce qui nous reste de vivant de la <hi rend="italic">
+              <foreign xml:lang="lat">res romana</foreign>
+            </hi>. Certitude joyeuse<note n="80" place="foot" type="standard" xml:id="ftn80">
+              <p>Voir le feuillet&#160;1.</p>
+            </note>&#160;», qu’on pourrait se passer de les commenter, ou se
+          contenter de lire, avec <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>, les
+          pages&#160;236 et suivantes du <hi rend="italic">Christianisme
+          antique</hi>, où <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName> oppose à la
+          «&#160;religion du prophète galiléen, humble et doux&#160;» le christianisme
+          «&#160;universaliste et guerrier&#160;» du <date type="_temp">Moyen&#160;Âge</date>
+          qu’il voit comme un retour du paganisme&#160;:</p>
+          <quote rend="quotation" xml:id="d1e4039">«&#160;Il semble que, sous le
+          nom du <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Christ</persName>, ce soit la vie
+          philosophique et religieuse du paganisme, avec tous ses contrastes
+          et toutes ses incohérences, qui ait repris vigueur et triomphé de la
+          religion en esprit et en vérité que le Maître juif avait
+          vécue.&#160;»</quote>
+          <p xml:id="d1e2320">La conclusion de <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName>
+          est sans équivoque&#160;:</p>
+          <quote rend="quotation" xml:id="d1e4052">«&#160;C’est la vie
+          gréco-romaine tout entière qui revêt une apparence chrétienne et
+          elle se juxtapose à cet idéal qui la désavoue sans la gêner. Le
+          grand résultat visible, au seuil du <date from="0400" to="0499" type="_temp">
+              <hi rend="small-caps">v</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, c’est […] que le triomphe du
+          christianisme n’a été, à tous points de vue, qu’une apparence et
+          que, loin d’avoir transformé le monde gréco-romain, il a été
+          réellement absorbé par lui […]. Et parce que c’est l’Église, en tant
+          qu’elle est devenue une puissance de gouvernement et, comme telle,
+          qu’elle a incliné aux compromis et aux concessions, parce que c’est
+          l’Église qui a <hi rend="italic">triomphé</hi> dans de pareilles
+          conditions, après s’être identifiée au christianisme, c’est elle qui
+          est responsable de l’inévitable résultat<note n="81" place="foot" type="standard" xml:id="ftn81">
+              <p>
+                <hi rend="italic">Le Christianisme antique</hi>, p.&#160;236 à
+              239, <hi rend="italic">passim</hi>.</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e2343">On est à plein dans <hi rend="italic">La Garde
+          autour de Pan</hi>, qu’il s’agisse du point&#160;5 du plan initial, la
+          joie de celui à qui on ne sait quel office a révélé la connivence de
+          l’Église et du paganisme, ou des premières lignes de la page&#160;5&#160;:
+          «&#160;Revanche du paganisme éternel, l’Église catholique a rendu
+          supportable le christianisme.&#160;»</p>
+          <p xml:id="d1e2348">Reste à faire un sort aux quelques annotations
+          qui terminent cette page&#160;5&#160;:</p>
+          <quote rend="quotation" xml:id="d1e4088">«&#160;Songe / <persName ref="026966107" type="idref" xml:base="https://www.idref.fr/">Valery
+          Larbaud</persName> / Chacun de ces hommes est un consul etc. / moi,
+          comme les dieux de <persName ref="026917688" type="idref" xml:base="https://www.idref.fr/">Heine</persName>, un dieu devenu
+          chrétien.&#160;»</quote>
+          <p xml:id="d1e2352">Les allusions au <hi rend="italic">Songe</hi> et
+          aux dieux de <persName ref="026917688" type="idref" xml:base="https://www.idref.fr/">Heine</persName> sont limpides pour
+          qui se souvient de l’image que donnera de <persName type="_temp">Bricoule</persName> l’auteur des <hi rend="italic">Notes relatives à la religion et aux passions</hi>&#160;:
+          «&#160;Je songe à ces divinités champêtres évoquées par <persName ref="026917688" type="idref" xml:base="https://www.idref.fr/">Heine</persName>…&#160;».</p>
+          <p xml:id="d1e2360">«&#160;Chacun de ces hommes est un consul etc.&#160;»
+          semble amorcer une citation (de la même façon qu’au feuillet&#160;5 «&#160;et
+          l’unité etc.&#160;» annonçait la formule de <persName ref="027062481" type="idref" xml:base="https://www.idref.fr/">Péladan</persName> qui
+          fut incorporée au texte de «&#160;Vosges Conciliation&#160;»), et s’il en est
+          ainsi, le mot serait lié à la «&#160;donation&#160;» qu’aurait faite <persName ref="030409810" type="idref" xml:base="https://www.idref.fr/">Constantin</persName> au pape
+          <persName ref="053454200" type="idref" xml:base="https://www.idref.fr/">Sylvestre</persName> pour le
+          remercier de l’avoir guéri de la lèpre. L’humaniste <persName ref="027174697" type="idref" xml:base="https://www.idref.fr/">Lorenzo Valla</persName>, explique
+          <persName ref="027062481" type="idref" xml:base="https://www.idref.fr/">Péladan</persName>, avait été le
+          premier à dénoncer le caractère apocryphe de ce document qui fondait
+          «&#160;la dignité impériale&#160;» de <persName ref="053454200" type="idref" xml:base="https://www.idref.fr/">Sylvestre</persName> et de ses
+          successeurs, et il avait pointé les assimilations qui le rendaient
+          d’emblée suspect&#160;: «&#160;Les révérendissimes clercs sont assimilés à des
+          sénateurs&#160;; on les crée tous patrices et consuls. Ils auront des
+          chevaux caparaçonnés de blanc<note n="82" place="foot" type="standard" xml:id="ftn82">
+              <p>
+                <hi rend="italic">Le Vœu de la Renaissance</hi>, p.&#160;56.</p>
+            </note>…&#160;» Simple hypothèse, faut-il le dire.</p>
+          <p xml:id="d1e2370">On hésitera beaucoup moins pour <persName ref="026966107" type="idref" xml:base="https://www.idref.fr/">Valery
+          Larbaud</persName>, que <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> tenait alors
+          pour «&#160;un très grand écrivain<note n="83" place="foot" type="standard" xml:id="ftn83">
+              <p>Voir ici encore <hi rend="small-caps">Domenget</hi>, <hi rend="italic">Montherlant critique</hi>, p.&#160;137, texte et
+              note&#160;14.</p>
+            </note>&#160;» et qu’il faut ici voir comme le père spirituel du
+          <persName type="_temp">Joanny Léniot</persName> de <hi rend="italic">Fermina Márquez</hi>.</p>
+          <p xml:id="d1e2386">Ce <persName type="_temp">Léniot</persName> a de
+          l’Église une vision proche de celle de <persName type="_temp">Bricoule</persName>. Il est «&#160;partisan d’un retour à
+          l’hégémonie impériale romaine, telle que cette hégémonie existait
+          sous <persName ref="030409810" type="idref" xml:base="https://www.idref.fr/">Constantin</persName> et sous
+          <persName ref="050559109" type="idref" xml:base="https://www.idref.fr/">Théodose</persName>&#160;», et s’il
+          déplore que <persName ref="027633454" type="idref" xml:base="https://www.idref.fr/">Clovis</persName>, sous sa
+          «&#160;pourpre consulaire&#160;», n’en fut «&#160;pas moins roi des Francs&#160;», il
+          s’en console en reconnaissant dans l’Église «&#160;ce qui reste de
+          l’Empire&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e4192">«&#160;Je ne suis pas français.
+          Mon catéchisme me dit que je suis catholique romain, et moi je
+          traduis cela ainsi&#160;: Romain et maître du monde&#160;! Mon souverain, mon
+          unique maître, c’est […] le divin-auguste <persName ref="150810288" type="idref" xml:base="https://www.idref.fr/">Léon</persName>,
+          empereur d’Occident&#160;! […] Lorsque je regarde l’autel, ce ne sont pas
+          des cierges allumés, des draps et des fleurs d’or, c’est la majesté
+          romaine que je vois. Le prêtre, les fidèles, tous sont assemblés là
+          en qualité de catholiques romains&#160;; autant dire, de Romains,
+          n’est-ce pas&#160;? La Ville est aux mains des infidèles&#160;; les divinités
+          de l’Empire sont tous les jours insultées&#160;; et cependant, ceux qui
+          sont dans cette maison se glorifient d’être appelés Romains. Ô mânes
+          de <persName ref="026651947" type="idref" xml:base="https://www.idref.fr/">Caton</persName>, voici les
+          derniers citoyens&#160;!… Là, dans cette maison du Seigneur, j’entends
+          parler encore la langue de ma vraie patrie&#160;: le latin<note n="84" place="foot" type="standard" xml:id="ftn84">
+              <p>
+                <hi rend="italic">Fermina Márquez</hi>, p.&#160;353-355, <hi rend="italic">passim</hi> dans le vol. <hi rend="italic">Œuvres</hi> de la Bibl.&#160;de la Pléiade, Paris,
+              Gallimard, 1984. Ce sera l’occasion de signaler que Léniot est,
+              comme son créateur, un lecteur assidu de l’<hi rend="italic">Histoire des Romains</hi> de Victor Duruy et qu’il
+              fait l’éloge de <hi rend="italic">La Cité antique</hi> de Fustel
+              de Coulanges et du <hi rend="italic">Cicéron et ses amis</hi> de
+              Gaston Boissier, autant d’ouvrages qui ont beaucoup compté pour
+              Montherlant.</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e2414">Cet acte de foi <hi rend="italic">sui
+          generis</hi> a dû plaire à <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>, lequel
+          méditait sans doute, fin <date type="_temp" when="1922">1922</date>,
+          l’essai <hi rend="italic">Tibre et Oronte </hi>qu’il mettra bientôt
+          en tête de sa <hi rend="italic">Première Olympique</hi> en le datant
+          du <date type="_temp" when="1923-08-15">15&#160;août&#160;1923</date>. On
+          connaît les «&#160;principes&#160;» de cette dissertation&#160;:</p>
+          <quote rend="quotation" xml:id="d1e4248">«&#160;Deux philosophies se
+          disputent le monde, où elles ont tour à tour installé leur empire.
+          L’une, féminine dans son génie, est fondée sur l’invérifiable […].
+          Née en Orient […], elle a enfanté l’utopie, qui a enfanté le
+          désordre. Alexandrinisme, messianisme, christianisme, byzantinisme,
+          <date type="_temp">Réforme</date>, concepts de liberté et de
+          progrès, <date type="_temp">Révolution française</date>, romantisme,
+          humanitarisme (libéralisme, cosmopolitisme, pacifisme), bolchevisme
+          enfin, voilà de ses génitures. Sur son sceau est gravé un cœur.
+          L’autre, virile, est fondée sur la nature et la raison&#160;: esprit et
+          corps. Elle tient pour le fini et elle tente d’y réaliser l’ordre,
+          c’est-à-dire une valeur de qualité. Elle a atteint son expression la
+          plus complète dans la <date type="_temp">Rome antique</date>, après
+          la conquête de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. Elle a
+          inspiré le catholicisme romain, la <date type="_temp">Renaissance</date>, les concepts de tradition et
+          d’autorité, le classicisme, les nationalismes, les protectionnismes
+          matériels et moraux<note n="85" place="foot" type="standard" xml:id="ftn85">
+              <p>
+                <hi rend="italic">Première Olympique Le Paradis à l’ombre des
+              épées</hi>, p.&#160;7-8, Grasset, «&#160;Les Cahiers verts&#160;», n<hi rend="sup">o</hi>&#160;31, 1924. Le titre de l’essai inaugural
+              s’inspire d’un vers de Juvénal&#160;: «&#160;Il y a beau temps que
+              l’Oronte syrien s’est déversé dans le Tibre.&#160;» (<hi rend="italic">Iam pridem Syrus in Tiberim defluxit Orontes</hi>
+              – III, 62.)</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e2439">Une idéologie de cette sorte, où le
+          christianisme et le catholicisme romain sont tenus pour des valeurs
+          «&#160;répugnantes&#160;», se situe, comme on voit, dans le droit fil de <hi rend="italic">La Garde autour de Pan</hi> aussi bien que du <hi rend="italic">Christianisme antique</hi> de <persName ref="027716147" type="idref" xml:base="https://www.idref.fr/">Guignebert</persName>. Et la suite
+          est de la même farine&#160;: l’essayiste exalte les vertus «&#160;doriennes&#160;»,
+          en clair le sport, qu’il pratiquait en ces temps-là avec
+          assiduité<note n="86" place="foot" type="standard" xml:id="ftn86">
+              <p>Montherlant, sur ce point, se démarque du personnage de
+              Larbaud. Alors que Théodose symbolise pour Léniot «&#160;l’hégémonie
+              impériale romaine&#160;», pour l’auteur de <hi rend="italic">Tibre et
+              Oronte</hi> il est le chrétien qui ruina la gymnastique en
+              supprimant les Jeux Olympiques (<hi rend="italic">Le Paradis à
+              l’ombre des épées</hi>, p.&#160;9).</p>
+            </note>, déplore que l’heureuse combinaison du spirituel et du
+          temporel, «&#160;retrouvée à la <date type="_temp">Renaissance</date>,
+          confortée par les papes, vivifiée en quelques créatures&#160;», ait été
+          ruinée par <persName ref="026998416" type="idref" xml:base="https://www.idref.fr/">Luther</persName>, et cite, dans un
+          mouvement comparable à celui qu’on a vu dans les <hi rend="italic">Notes </hi>de <date type="_temp" when="1923-05">mai&#160;1923</date>, l’exemple de ses aïeux (le trisaïeul
+          guillotiné par une <date type="_temp">Révolution</date> «&#160;dirigée
+          contre la survivance spirituelle de Rome&#160;», le bisaïeul légitimiste
+          et ultramontain, le grand-père zouave pontifical défendant par les
+          armes «&#160;l’héritage des Césars&#160;»), qu’il ne voit pas comme des
+          «&#160;tenants du catholicisme&#160;», mais bien comme les «&#160;tenants d’un <hi rend="italic">ordre du Tibre</hi> dont le catholicisme fait
+          partie&#160;».</p>
+          <p xml:id="d1e2464">Cela posé, <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName>
+          s’est assez vite distancié de ces «&#160;généralisations&#160;» qu’il
+          qualifiait, dès <date type="_temp" when="1926">1926</date>, de
+          «&#160;bulles de savon intellectuelles<note n="87" place="foot" type="standard" xml:id="ftn87">
+              <p>À l’occasion d’un article qu’il consacre à Louis Hémon dans
+              <hi rend="italic">Les Nouvelles littéraires</hi> du 6&#160;février
+              (voir&#160;<hi rend="small-caps">Domenget</hi>, <hi rend="italic">Montherlant critique</hi>, p.&#160;92).</p>
+            </note>&#160;», et s’il conserva dans toutes les éditions des <hi rend="italic">Olympiques</hi> la conclusion de <hi rend="italic">Tibre et Oronte</hi>, en bref<hi rend="italic"/>«&#160;La
+          grande affaire n’est pas de renoncer. La grande affaire est de
+          garder tout en composant tout<note n="88" place="foot" type="standard" xml:id="ftn88">
+              <p>P.&#160;16 à&#160;24 dans l’édition originale, sous le titre
+              «&#160;L’Angelus sur le Stade&#160;», et p.&#160;157-163, comme <hi rend="italic">Note</hi>, dans l’édition de 1938 regroupant les
+              deux <hi rend="italic">Olympiques</hi> (R1, p.&#160;307-309).</p>
+            </note>&#160;», il y pratiqua aussi quelques élagages lourds de sens&#160;:
+          éliminée la symbolique du Tibre et de l’Oronte&#160;; disparue
+          l’exaltation de «&#160;la minute complète&#160;» où la Trinité «&#160;Force,
+          beauté, mystique&#160;» se traduisait «&#160;<placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, <placeName ref="284315" type="geonames" xml:base="https://www.geonames.org/">Bethléem</placeName>&#160;»&#160;; gommée
+          l’idée d’un catholicisme perçu comme «&#160;un gage donné au pacte
+          social<note n="89" place="foot" type="standard" xml:id="ftn89">
+              <p>P.&#160;20 et&#160;21 de l’édition originale.</p>
+            </note>&#160;».</p>
+          <p xml:id="d1e2506">Ces considérations, en fait, s’accordaient mal
+          avec l’homme qui, le <date type="_temp" when="1925-01-15">15&#160;janvier&#160;1925</date>, quitte la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> «&#160;avec deux
+          valises&#160;» pour devenir le «&#160;voyageur traqué&#160;» qui se découvrira dans
+          <hi rend="italic">Aux Fontaines du désir</hi>, <hi rend="italic">La
+          petite Infante de Castille</hi>, <hi rend="italic">Un voyageur
+          solitaire est un diable</hi>. Et le temps n’est pas si éloigné où on
+          le verra prendre ses distances avec l’idéal prôné dans les <hi rend="italic">Notes relatives à la religion et aux passions</hi>. À
+          preuve, ce qu’on lira au tout début de <date type="_temp" when="1929">1929</date> dans <hi rend="italic">Earinus&#160;:</hi>
+          </p>
+          <quote rend="quotation" xml:id="d1e4411">«&#160;Essayer, comme je l’ai
+          fait durant toute mon adolescence, et jusqu’à ces dernières années,
+          de concilier une foi catholique sincère avec l’amour des corps, pour
+          leur beauté et pour leurs réalisations, cela peut être un idéal
+          respectable et touchant, – ce fut celui de la <date type="_temp">Renaissance</date>. Ce ne peut être jamais, je le crois
+          aujourd’hui, qu’une position fausse de l’esprit<note n="90" place="foot" type="standard" xml:id="ftn90">
+              <p>
+                <hi rend="italic">Earinus</hi>, p.&#160;132 touchant un essai
+              publié en 1924 sous le titre <hi rend="italic">Sport et
+              catholicisme</hi>. À rapprocher de ce qu’on a lu dans <hi rend="italic">Mais aimons-nous ceux que nous aimons&#160;?</hi>&#160;:
+              «&#160;Dans ces années-là, 1920 et 1921, les prêtres…&#160;»</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e2538">À preuve aussi, les pages de <hi rend="italic">Trois Jours au Montserrat</hi> où se renforcera
+          l’idée, le <hi rend="italic">Port-Royal</hi> de <persName ref="02711919X" type="idref" xml:base="https://www.idref.fr/">Sainte-Beuve</persName> ayant semé
+          sa graine, qu’on ne peut «&#160;prendre le christianisme au sérieux&#160;»
+          qu’à la condition de choisir «&#160;la voie qui toujours se rétrécit&#160;».
+          On l’a vu plus haut, <persName ref="027036197" type="idref" xml:base="https://www.idref.fr/">Montherlant</persName> reconnaîtra
+          volontiers –&#160;alors&#160;– que «&#160;chercher à concilier <persName ref="027397459" type="idref" xml:base="https://www.idref.fr/">Pan</persName> et <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName>&#160;» est un
+          «&#160;exercice&#160;» réservé à ceux qui, comme lui, sont «&#160;à l’extérieur du
+          catholicisme<note n="91" place="foot" type="standard" xml:id="ftn91">
+              <p>E, p.&#160;398-399. Il est remarquable que ces considérations
+              aient longtemps figuré en marge de <hi rend="italic">Service
+              inutile</hi>. On les trouve encore en 1943 dans l’édition
+              bruxelloise de la Toison d’or (p.&#160;24, note&#160;1) et en 1947 dans
+              l’édition Laffont (p.&#160;23-24, note&#160;2)&#160;; elles ne figurent plus
+              dans l’édition de la Pléiade.</p>
+            </note>&#160;», et encore l’exercice est-il franchement aléatoire&#160;:</p>
+          <quote rend="quotation" xml:id="d1e4463">«&#160;J’incline volontiers à
+          respecter <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName>, sans
+          croire en lui, mais que le soleil se lève, que retentisse une
+          musique entraînante, me voici païen, qui me reprends au monde. Et
+          inversement, quand j’en serai à la satiété. Les autres font de
+          même&#160;: tel croit parce qu’il a pleuré, ou parce qu’il a eu une
+          déception sentimentale, ou parce qu’il vieillit. Tel autre ne croit
+          plus parce qu’il a vu un mauvais prêtre. […] Voilà le sérieux de nos
+          opinions<note n="92" place="foot" type="standard" xml:id="ftn92">
+              <p>E, p.&#160;986 dans des carnets de&#160;30-31. On a noté l’allusion au
+              mot de Chateaubriand&#160;: «&#160;J’ai pleuré et j’ai cru.&#160;»</p>
+            </note>.&#160;»</quote>
+          <p xml:id="d1e2561">Une note manuscrite en marge de <hi rend="italic">Pour une Vierge noire</hi> (de <hi rend="italic">Trois
+          Jours au Montserrat</hi>, si l’on préfère<note n="93" place="foot" type="standard" xml:id="ftn93">
+              <p>L’équation est un peu abusive, mais on renvoie ici le lecteur
+              à la note&#160;15. Quant au texte qu’on va lire, on le trouve sur la
+              Toile dans le lot n<hi rend="sup">o</hi>&#160;167 du catalogue de
+              vente de Piasa du jeudi&#160;11&#160;avril&#160;2002.</p>
+            </note>) permettra de faire le point&#160;:</p>
+          <quote rend="quotation" xml:id="d1e4491">«&#160;Il y a unité dans mon
+          œuvre <date from="1920" to="1925" type="_temp">de&#160;1920
+          à&#160;1925</date>, et unité nouvelle <date from="1925" to="1930" type="_temp">de&#160;1925 à&#160;1930</date> […]. Dans <hi rend="italic">Les
+          Bestiaires</hi> qui sont de <date type="_temp" when="1926">1926</date>, je me plaisais à mêler encore, comme dans
+          <hi rend="italic">Le&#160;Songe</hi>, catholicisme et paganisme.
+          Aujourd’hui, dans <hi rend="italic">La Vierge noire</hi>, je
+          reconnais qu’il n’y a là qu’un jeu de l’imagination et de la poésie.
+          Le christianisme est autre chose […], l’idée que je me fais de lui
+          me permet de le respecter beaucoup plus que quand je le mêlais aux
+          mythes païens des premiers siècles.&#160;»</quote>
+          <p xml:id="d1e2585">Le «&#160;tour de valse avec le sacré&#160;» de <date type="_temp" when="1923-05">mai&#160;1923</date> a fini par prendre les
+          allures d’une valse-hésitation. Ce que confirme à sa manière le
+          dossier «&#160;Sur la Religion&#160;» qu’on lira dans le prochain numéro d’<hi rend="italic">Anabases</hi> avant d’en revenir – pour son volet
+          «&#160;Julien&#160;» – au manuscrit de <date type="_temp" when="1922">1922</date>.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="appendix" xml:id="d1e2594">
+        <figure xml:id="d1e4497">
+          <graphic url="https://didomena.ehess.fr/downloads/cf95jk782.png"/>
+          <head>Figure 1. Feuillet 1</head>
+        </figure>
+        <figure xml:id="d1e4508">
+          <graphic url="https://didomena.ehess.fr/downloads/cv43p509w.png"/>
+          <head>Figure 2. Feuillet 5</head>
+        </figure>
+      </div>
+    </back>
+  </text>
+</TEI>

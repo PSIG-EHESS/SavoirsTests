@@ -1,0 +1,755 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="snadal" time="2023-11-14T12:09:36.391+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_25_Fulacher.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L’Imprimerie nationale&#160;: entre passé et
+        avenir</title>
+        <author role="aut">
+          <forename>Pascal</forename>
+          <surname>Fulacher</surname>
+          <idno type="IDREF">029746744</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/ZZ8IMDM6" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">L’Imprimerie nationale : entre passé et
+            avenir</title>
+            <idno type="DOI">10.4000/rbnu.3908</idno>
+            <title type="short">L’Imprimerie nationale</title>
+            <author>
+              <forename>Pascal</forename>
+              <surname>Fulacher</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">25</biblScope>
+              <biblScope unit="page">18-27</biblScope>
+              <date>2022</date>
+              <note type="accessed">2022-07-22T07:38:27Z</note>
+              <note type="url">https://journals.openedition.org/rbnu/3908</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+          <term>
+            <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>
+          </term>
+          <term>
+            <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1500" to="2099" type="_temp">16<hi rend="sup">e</hi>&#160;siècle au 21<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date type="_temp" when="1640">1640</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-28T12:37:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">L’Imprimerie nationale&#160;:
+          entre passé et avenir</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Pascal Fulacher</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Chargé de mission pour l’atelier du
+          Livre d’art et de l’Estampe, Imprimerie nationale</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e50">Retracer l’histoire de l’imprimerie sans évoquer
+        celle de l’Imprimerie nationale serait une grave lacune, tant le sort
+        de l’établissement d’État est lié à l’évolution de cette technique de
+        reproduction. Avec son atelier du Livre d’art et de l’Estampe,
+        l’Imprimerie nationale, rebaptisée récemment IN&#160;Groupe, veille à
+        perpétuer des savoir-faire devenus rares, comme la gravure de poinçons
+        ou la fonte de caractères, en s’appuyant sur un patrimoine
+        typographique exceptionnel, riche d’environ 700&#160;000&#160;pièces gravées.
+        Alliant tradition et modernité, cet atelier accompagne depuis le début
+        du <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date> éditeurs et artistes contemporains
+        pour la réalisation de livres de création à tirage limité destinés à
+        une clientèle de bibliophiles et d’amateurs d’art. S’imposant comme
+        l’imprimerie la plus ancienne encore en activité en Europe,
+        l’Imprimerie nationale n’a cessé de faire preuve d’innovation et de
+        s’ouvrir aux nouvelles technologies sans pour autant renier son passé.
+        Alliant les savoir-faire les plus traditionnels aux techniques les
+        plus modernes, cette vénérable maison est assurément à la pointe tant
+        dans le domaine industriel, avec des solutions d’identité numérique
+        novatrices, que dans celui de l’art du livre, grâce à une hybridation
+        technologique des plus prometteuses.</p>
+        <figure xml:id="d1e55">
+          <graphic url="https://didomena.ehess.fr/downloads/8g84mv80t.jpg"/>
+          <head xml:id="d1e56">Figure 1. Les poinçons «&#160;Grecs du roi&#160;». ©
+          Daniel Pype, coll. IN Groupe</head>
+        </figure>
+        <p>Gravés par Claude Garamont entre 1539 et 1550 constituent l’un des
+        fleurons du patrimoine typographique mondial.</p>
+        <p xml:id="d1e62">Revenir sur les aspects historiques de l’atelier du
+        Livre d’art et de l’Estampe nous apparaît nécessaire pour mieux
+        comprendre son évolution actuelle, mais aussi en souligner les atouts
+        et les faiblesses, tout en montrant sa fragilité face à un monde
+        dématérialisé en perpétuel mouvement. D’où venons-nous, que
+        sommes-nous, où allons-nous&#160;? Telles sont les questions auxquelles
+        nous tenterons de répondre, une question qui nous renvoie à <persName ref="026884348" type="idref" xml:base="https://www.idref.fr/">Gauguin</persName> qui intitula ainsi
+        l’une de ses œuvres ultimes. Nous reprendrons donc les mots du peintre
+        pour retracer une histoire multi-séculaire, celle d’une imprimerie
+        officiellement créée en <date type="_temp" when="1640">1640</date>,
+        mais dont les origines sont en fait beaucoup plus anciennes, comme
+        nous allons le voir.</p>
+        <p xml:id="d1e64">C’est en effet en <date type="_temp" when="1538">1538</date>, soit moins d’un siècle après l’invention de
+        <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>, que <persName ref="028254287" type="idref" xml:base="https://www.idref.fr/">François&#160;I<hi rend="sup">er</hi>
+          </persName> désigne le premier imprimeur du roi pour
+        le grec, désignation qui est considérée comme un acte fondateur, à
+        partir duquel s’est développée toute l’histoire de l’écrit sur support
+        imprimé en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, et que s’est
+        constituée une collection de 700&#160;000&#160;pièces gravées dont
+        500&#160;000&#160;poinçons, ensemble unique au monde, classé monument historique
+        depuis <date type="_temp" when="1946">1946</date>. Si en <date type="_temp" when="1538">1538</date>, il ne s’agit encore que
+        d’impression royale et non pas d’Imprimerie royale, une typographie
+        royale apparaît cependant avec la commande par <persName ref="028254287" type="idref" xml:base="https://www.idref.fr/">François&#160;I<hi rend="sup">er</hi>
+          </persName> d’une police grecque auprès de <persName ref="030253004" type="idref" xml:base="https://www.idref.fr/">Robert
+        Estienne</persName>, qui confie le soin de concevoir et de graver des
+        poinçons grecs à <persName ref="099006650" type="idref" xml:base="https://www.idref.fr/">Claude Garamont</persName>. C’est
+        ainsi que les «&#160;Grecs du roi&#160;» virent le jour <date from="1539" to="1550" type="_temp">entre 1539 et 1550</date>, poinçons aujourd’hui
+        soigneusement conservés au sein du cabinet des Poinçons de
+        l’Imprimerie nationale <hi>(voir ill. ci-dessus)</hi>. Pendant près
+        d’un siècle, les impressions grecques et orientales vont toutefois
+        connaître un net ralentissement, dû aux troubles qui secouent la
+        France durant cette période.</p>
+        <div type="section1" xml:id="d1e75">
+          <head subtype="level1" xml:id="d1e76">Vers la création d’une
+          Imprimerie royale</head>
+          <p xml:id="d1e78">Pour les impressions en latin et en français, des
+          privilèges exclusifs sont accordés pour trente ans à des imprimeurs,
+          en particulier pour la diffusion des textes réformés par le concile
+          de Trente (<date from="1546" to="1563" type="_temp">1546-1563</date>). La mise en place d’un système
+          censitaire aboutit en <date type="_temp" when="1624">1624</date> à
+          la nomination par le Conseil du roi de quatre censeurs officiels. En
+          <date type="_temp" when="1632">1632</date>, <persName ref="027349217" type="idref" xml:base="https://www.idref.fr/">Richelieu</persName> acquiert pour
+          le souverain un important ensemble de poinçons arabes <hi>(voir ill.
+          ci-dessous)</hi> gravés à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> à la demande
+          de <persName ref="059646233" type="idref" xml:base="https://www.idref.fr/">Savary de Brèves</persName>,
+          ambassadeur français en poste à <placeName ref="745044" type="geonames" xml:base="https://www.geonames.org/">Constantinople</placeName>
+          (<date from="1591" to="1605" type="_temp">1591-1605</date>), puis à
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> (<date from="1607" to="1614" type="_temp">1607-1614</date>). Alors
+          convoités par les Anglais et les Hollandais, ces poinçons ont
+          rejoint la Chambre des comptes lors de leur acquisition puis, en
+          <date type="_temp" when="1692">1692</date>, l’Imprimerie royale. Ils
+          sont actuellement précieusement conservés dans les collections du
+          cabinet des Poinçons. Au cours des <date from="1630" to="1639" type="_temp">années&#160;1630</date>, avec le raffermissement du pouvoir,
+          on assiste à une concentration des privilèges entre les mains de
+          quelques imprimeurs. Parallèlement, le pouvoir royal continue
+          d’entretenir des «&#160;imprimeurs du roi&#160;» chargés de l’impression des
+          actes officiels. Ceux-ci relèvent de la Maison du roi et perçoivent
+          des gages en plus des revenus de leurs travaux d’impression.
+          Exerçant un véritable monopole, ils sont régulièrement attaqués par
+          leurs confrères qui leur disputent ce titre.</p>
+          <figure xml:id="d1e83">
+            <graphic url="https://didomena.ehess.fr/downloads/6d5704680.jpg"/>
+            <head xml:id="d1e84">Figure 2. Un important ensemble de poinçons
+            arabes. © Daniel Pype, coll. IN Groupe</head>
+          </figure>
+          <p>Gravés à Rome au tout début du 17<hi rend="sup">e</hi>hi&gt;
+          siècle à la demande de Savary de Brèves, forme le noyau initial de
+          la collection de poinçons orientaux conservée au sein du cabinet des
+          Poinçons de l’Imprimerie nationale.<p xml:id="d1e93">La création
+          d’une Imprimerie royale était donc inéluctable. Puisant ses origines
+          dans les actes de <persName ref="028254287" type="idref" xml:base="https://www.idref.fr/">François&#160;I<hi rend="sup">er</hi>
+              </persName> et surtout dans le modèle italien
+          (l’imprimerie des Médicis qui fonctionna dès <date type="_temp" when="1584">1584</date>, puis l’imprimerie de la Propagande fondée
+          par le pape <persName ref="030833000" type="idref" xml:base="https://www.idref.fr/">Urbain&#160;VIII</persName> en <date type="_temp" when="1627">1627</date>), cette Imprimerie royale
+          résulte de la volonté de <persName ref="027349217" type="idref" xml:base="https://www.idref.fr/">Richelieu</persName> de doter la
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> d’une
+          typographie royale afin de servir la grandeur du règne de <persName ref="028607090" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XIII</persName> et de faire
+          face aux remarquables impressions hollandaises. <persName ref="027349217" type="idref" xml:base="https://www.idref.fr/">Richelieu</persName> entendait
+          ainsi «&#160;multiplier les belles publications utiles à la gloire du
+          roi, au progrès de la religion et à l’avancement des lettres&#160;». Mais
+          il s’agissait également pour <persName ref="027349217" type="idref" xml:base="https://www.idref.fr/">Richelieu</persName> de voir
+          s’établir à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> un
+          établissement comparable à celui de la Propagande et des presses du
+          <placeName ref="11002475" type="geonames" xml:base="https://www.geonames.org/">Vatican</placeName>, et
+          d’exercer un contrôle plus strict sur l’édition et l’impression des
+          actes officiels. Décidée en <date type="_temp" when="1639">1639</date>, l’Imprimerie royale est implantée dans la
+          Grande galerie du <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Louvre</placeName>, plus
+          précisément au rez-de-chaussée de la récente Galerie du bord de
+          l’eau (construite en <date type="_temp" when="1609">1609</date>).
+          <persName ref="031778143" type="idref" xml:base="https://www.idref.fr/">Sébastien Cramoisy</persName>,
+          libraire et imprimeur du cardinal depuis <date type="_temp" when="1615">1615</date>, et imprimeur du roi depuis <date type="_temp" when="1633">1633</date>, est nommé à la tête de la
+          toute nouvelle imprimerie et commande à <persName ref="076619451" type="idref" xml:base="https://www.idref.fr/">Jean
+          Jannon</persName>, marchand libraire, graveur et imprimeur, six
+          frappes de matrices issues des Romains gravés par <persName ref="099006650" type="idref" xml:base="https://www.idref.fr/">Claude
+          Garamont</persName>
+              <date from="1530" to="1540" type="_temp">entre
+          1530 et 1540</date> (Gros et Petit Canon, et Gros Parangon, avec les
+          italiques correspondantes) pour fondre les caractères destinés à
+          l’Imprimerie royale. Désignés sous le nom de «&#160;Romains de
+          l’université&#160;», ces caractères servirent jusqu’en <date type="_temp" when="1702">1702</date> aux différentes impressions de l’Imprimerie
+          royale <hi>(voir ill. ci-dessous)</hi>. Ces dernières comprenaient
+          déjà de nombreux ouvrages, à commencer en <date type="_temp" when="1640">1640</date> par une édition de luxe de l’Imitation de
+          <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus-Christ</persName>, ornée d’un
+          frontispice gravé par <persName ref="029755719" type="idref" xml:base="https://www.idref.fr/">Claude Mellan</persName>, célèbre
+          dessinateur et graveur, ancien élève de Vouet à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, qui grava
+          également toute une série de bandeaux, culs-de-lampe et autres
+          ornements qui furent utilisés dans un certain nombre d’ouvrages
+          publiés par l’Imprimerie royale tout au long du <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi>&#160;siècle</date>. En
+          effet, dès ses débuts, l’institution fit appel à des artistes
+          reconnus comme <persName ref="029755719" type="idref" xml:base="https://www.idref.fr/">Mellan</persName>, <persName ref="027081370" type="idref" xml:base="https://www.idref.fr/">Nicolas Poussin</persName>,
+          <persName ref="029634288" type="idref" xml:base="https://www.idref.fr/">Coypel</persName>, <persName ref="028148967" type="idref" xml:base="https://www.idref.fr/">Sébastien Le&#160;Clerc</persName>,
+          <persName ref="032138490" type="idref" xml:base="https://www.idref.fr/">Edelinck</persName>, <persName ref="030593425" type="idref" xml:base="https://www.idref.fr/">François Chauveau</persName>,
+          <persName ref="027397920" type="idref" xml:base="https://www.idref.fr/">Israël Silvestre</persName> entre
+          autres, pour réaliser frontispices, décors et illustrations pour les
+          livres qu’elle était chargée d’imprimer.</p>
+            <figure xml:id="d1e104">
+              <graphic url="https://didomena.ehess.fr/downloads/wh247120k.jpg"/>
+              <head xml:id="d1e105">Figure 3. Poinçons et matrices des
+              nouveaux caractères romains dits «&#160;de l’université&#160;». © Daniel
+              Pype, coll. IN Groupe</head>
+            </figure>
+            <p>Gravés par Jean Jannon pour le compte de l’Imprimerie
+          royale dans la première moitié du 17<hi rend="sup">e</hi>
+          siècle.</p>
+          </p>
+        </div>
+        <div type="section1" xml:id="d1e114">
+          <head subtype="level1" xml:id="d1e115">Le livre d’art&#160;: une
+          tradition aussi lointaine que prestigieuse</head>
+          <p xml:id="d1e117">Près de soixante-dix titres parurent ainsi au
+          cours des dix premières années de l’activité de l’Imprimerie royale,
+          témoignage d’une longue tradition éditoriale, qui se poursuivit avec
+          bien d’autres ouvrages comme la collection complète des conciles en
+          trente-sept volumes, la célèbre «&#160;Byzantine du Louvre&#160;» en
+          quarante-sept volumes publiés <date from="1648" to="1711" type="_temp">entre 1648 et 1711</date>, les livres destinés au
+          Cabinet du roi, richement illustrés, recensant les collections
+          royales dans différents domaines (tableaux, statues, tapisseries,
+          monnaies et médailles, maisons royales…), ceci à des fins
+          encyclopédiques, mais également les somptueuses fêtes données par le
+          roi puis, beaucoup plus tard, l’<hi rend="italic">Histoire naturelle
+          </hi>de <persName ref="02675830X" type="idref" xml:base="https://www.idref.fr/">Buffon</persName> et la monumentale
+          <hi rend="italic">Description de l’Égypte</hi> – sans compter, dans
+          la <date from="1750" to="1799" type="_temp">seconde moitié du 18<hi rend="sup">e</hi>&#160;siècle</date>, les nombreux ouvrages de
+          circumnavigation et autres livres scientifiques, et au siècle
+          suivant la publication d’innombrables textes orientaux et
+          extrême-orientaux destinés à mieux faire connaître les cultures de
+          contrées lointaines dans toute l’Europe. Proche de l’Académie depuis
+          ses origines, l’Imprimerie royale devenue par la suite républicaine,
+          puis impériale et enfin nationale en <date type="_temp" when="1870">1870</date>, n’a cessé d’entretenir des relations
+          étroites avec des érudits de tous horizons. La mise en place à
+          l’Imprimerie impériale en <date type="_temp" when="1813">1813</date>, sur ordre de <persName ref="02733791X" type="idref" xml:base="https://www.idref.fr/">Napoléon
+          Bonaparte</persName>, d’un atelier oriental composé de typographes
+          orientalistes, donnera ainsi un nouvel élan aux études consacrées à
+          l’Orient tout au long du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>. Plusieurs
+          dizaines de polices orientales représentant quelque soixante-cinq
+          écritures du monde furent ainsi gravées et permirent la publication
+          de centaines de volumes dans différentes langues extra-européennes.
+          Au <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date>, si la publication d’ouvrages
+          orientaux se poursuivit bon an mal an, l’édition d’art domina
+          nettement la production éditoriale avec des commandes privées. C’est
+          le célèbre marchand de tableaux <persName ref="028289366" type="idref" xml:base="https://www.idref.fr/">Ambroise
+          Vollard</persName> qui, le premier, fit appel à l’Imprimerie
+          nationale pour la typographie de ses ouvrages, à commencer par le
+          <hi rend="italic">Parallèlement</hi> de <persName ref="027181278" type="idref" xml:base="https://www.idref.fr/">Verlaine</persName>
+          illustré par <persName ref="02731216X" type="idref" xml:base="https://www.idref.fr/">Pierre Bonnard</persName>,
+          considéré comme l’un des tout premiers livres illustrés par un grand
+          peintre <hi>(voir ill. ci-dessous)</hi>. Imprimé en <date type="_temp" when="1900">1900</date> avec les célèbres Romains de
+          l’université sur les presses de l’Imprimerie nationale, l’ouvrage
+          fit sensation et attira l’attention des bibliophiles, des éditeurs
+          et des artistes. Ainsi naquit une nouvelle conception du livre
+          d’art, le livre de peintre. La <date from="1900" to="1950" type="_temp">première moitié du siècle</date> vit une éclosion
+          d’ouvrages de ce type&#160;: nombre d’artistes, de <persName ref="027285596" type="idref" xml:base="https://www.idref.fr/">Chagall</persName> à <persName ref="026890143" type="idref" xml:base="https://www.idref.fr/">Giacometti</persName>, vinrent
+          alors à l’Imprimerie nationale pour faire composer leurs beaux
+          livres d’art à tirage limité avec ses caractères exclusifs. Renouant
+          avec une tradition ancestrale, l’Imprimerie nationale publia à son
+          tour dans la <date from="1950" to="1999" type="_temp">seconde moitié
+          du siècle</date> un certain nombre de ces livres illustrés par des
+          artistes renommés&#160;: mentionnons <persName ref="026679477" type="idref" xml:base="https://www.idref.fr/">Gilles
+          Aillaud</persName>, <persName ref="030351200" type="idref" xml:base="https://www.idref.fr/">Jean-Michel Alberola</persName>,
+          <persName ref="027268780" type="idref" xml:base="https://www.idref.fr/">Pierre Alechinsky</persName>,
+          <persName ref="027539768" type="idref" xml:base="https://www.idref.fr/">Jean Bazaine</persName>, <persName ref="029889820" type="idref" xml:base="https://www.idref.fr/">Jean-Charles Blais</persName>,
+          <persName ref="192342770" type="idref" xml:base="https://www.idref.fr/">Martin Bradley</persName>,
+          <persName ref="026759004" type="idref" xml:base="https://www.idref.fr/">Pierre Buraglio</persName>,
+          <persName ref="031430619" type="idref" xml:base="https://www.idref.fr/">Jean Cortot</persName>, <persName ref="026808749" type="idref" xml:base="https://www.idref.fr/">Dado</persName>, <persName ref="027354792" type="idref" xml:base="https://www.idref.fr/">Olivier Debré</persName>, <persName ref="026835436" type="idref" xml:base="https://www.idref.fr/">Bertrand Dorny</persName>,
+          <persName ref="027753395" type="idref" xml:base="https://www.idref.fr/">Claude Garache</persName>,
+          <persName ref="03035501X" type="idref" xml:base="https://www.idref.fr/">Jean William Hanoteau</persName>,
+          <persName ref="165286113" type="idref" xml:base="https://www.idref.fr/">Fanette Mellier</persName>,
+          <persName ref="027025071" type="idref" xml:base="https://www.idref.fr/">Jean Messagier</persName>,
+          <persName ref="033643237" type="idref" xml:base="https://www.idref.fr/">Jean-Michel Othoniel</persName>,
+          <persName ref="027284743" type="idref" xml:base="https://www.idref.fr/">Jean-Paul Riopelle</persName>,
+          <persName ref="02861755X" type="idref" xml:base="https://www.idref.fr/">François Rouan</persName>,
+          <persName ref="057266603" type="idref" xml:base="https://www.idref.fr/">Pierre Zanzucchi</persName>…</p>
+          <figure xml:id="d1e141">
+            <graphic url="https://didomena.ehess.fr/downloads/3f462f04c.jpg"/>
+            <head xml:id="d1e142">Figure 4. Le <hi rend="italic">Parallèlement</hi> de Paul Verlaine illustré par
+            Pierre Bonnard et publié par Ambroise Vollard. © Daniel Pype,
+            coll. IN Groupe</head>
+          </figure>
+          <p>Cet ouvrage, considéré par les historiens comme l’un des tout
+          premiers livres modernes illustrés par un grand peintre, a été
+          composé avec les Romains de l’université sur les presses de
+          l’Imprimerie nationale en 1900.</p>
+          <p xml:id="d1e151">Plus que jamais, la tradition du livre d’art est
+          donc bien présente dans cet atelier aux origines aussi lointaines
+          que prestigieuses. En maintenant des savoir-faire indispensables à
+          la réalisation de ces livres, véritables œuvres d’art destinées à un
+          public d’amateurs, l’Imprimerie nationale a sauvé d’une disparition
+          inéluctable un atelier devenu aujourd’hui un véritable conservatoire
+          de l’art du livre. Doté de solides compétences qui couvrent tout le
+          spectre de la chaîne typographique (dessin, gravure de poinçons et
+          fonte de caractères, composition et impression typographiques,
+          taille-douce, reliure), l’atelier du Livre d’art et de l’Estampe est
+          en mesure de répondre à toute sollicitation visant à développer des
+          projets qui engagent ses équipes, ses savoir-faire et ses outils de
+          production, au service de la création et des artistes de toutes
+          disciplines (peinture, design, photographie, vidéo, sculpture,
+          architecture…). Cette approche lui permet de couvrir un champ
+          d’intervention toujours plus large&#160;: bibliophilie, édition, produits
+          dérivés, expositions, formations, création de caractères
+          identitaires exclusifs à l’usage d’entreprises et
+          d’institutions.</p>
+        </div>
+        <div type="section1" xml:id="d1e153">
+          <head subtype="level1" xml:id="d1e154">Savoir-faire&#160;: une
+          transmission essentielle au sein de l’atelier du Livre</head>
+          <p xml:id="d1e156">Prenant appui sur un patrimoine typographique
+          d’exception, et sur une bibliothèque historique riche de
+          35&#160;000&#160;volumes dont le plus ancien remonte à <date type="_temp" when="1540">1540</date>, l’Imprimerie nationale n’a cessé au fil des
+          siècles d’engager pour son atelier du Livre d’art une politique de
+          transmission et de perfectionnement de ses principaux savoir-faire.
+          Parmi les dernières actions en date, il convient de mentionner la
+          transmission de celui de graveur de poinçons <hi>(voir ill.
+          ci-dessous)</hi>. Ce métier, devenu fort rare (il n’y a plus que
+          deux ou trois artisans qui l’exercent dans le monde), a été jusqu’à
+          présent préservé par l’Imprimerie nationale qui a eu recours au
+          dispositif ingénieux des Maîtres d’art mis en place par le ministère
+          de la Culture en <date type="_temp" when="1994">1994</date>. Grâce à
+          ce dispositif, le graveur de poinçons <persName ref="233680055" type="idref" xml:base="https://www.idref.fr/">Nelly Gable</persName>
+          a pu transmettre durant trois ans (<date from="2014" to="2017" type="_temp">de 2014 à 2017</date>) son savoir-faire à une jeune
+          diplômée en gravure de l’École Estienne, <persName ref="233680179" type="idref" xml:base="https://www.idref.fr/">Annie
+          Bocel</persName>. Financé en partie par l’État, ce dispositif permet
+          à un artisan hautement qualifié, dont le savoir-faire est devenu
+          rare et n’est plus enseigné, de le transmettre à un «&#160;élève&#160;»
+          sélectionné pour ses dispositions à exercer le métier en
+          question.</p>
+          <figure xml:id="d1e161">
+            <graphic url="https://didomena.ehess.fr/downloads/7s75dn18p.jpeg"/>
+            <head xml:id="d1e162">Figure 5. La gravure de poinçons
+            typographiques. © Daniel Pype, coll. IN Groupe</head>
+          </figure>
+          <p>Classée depuis 2018 au patrimoine culturel immatériel, elle a
+          fait l’objet à l’Imprimerie nationale d’une transmission
+          consciencieuse et rigoureuse dans le cadre du dispositif des Maîtres
+          d’art.</p>
+          <p xml:id="d1e168">Encadré par l’Institut national des métiers d’art
+          (INMA), qui assure le suivi de la formation durant les trois années
+          du dispositif, et complète au besoin celle-ci par des stages chez
+          d’autres artisans (<persName ref="233680179" type="idref" xml:base="https://www.idref.fr/">Annie Bocel</persName> a ainsi pu
+          effectuer deux stages, l’un chez <persName type="_temp">Stan
+          Nelson</persName>, graveur et fondeur de caractères typographiques à
+          <placeName ref="4801850" type="geonames" xml:base="https://www.geonames.org/">Charles Town</placeName> aux
+          <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, l’autre
+          chez <persName type="_temp">Richard Ärlin</persName>, graveur,
+          fondeur et imprimeur de caractères typographiques à <placeName ref="2673730" type="geonames" xml:base="https://www.geonames.org/">Stockholm</placeName>), le
+          programme des Maîtres d’art est unique en Europe, mais devrait à
+          terme servir d’exemple dans d’autres pays européens. L’Imprimerie
+          nationale a également pu bénéficier de ce même dispositif pour la
+          fonte de caractères <hi>(voir 1</hi>
+            <hi>
+              <hi rend="sup">re</hi>
+            </hi>
+            <hi>&#160;ill. ci-dessous)</hi>, formation dispensée par <persName type="_temp">Joël Bertin</persName> à <persName type="_temp">Philippe Mérille</persName> (<date from="2012" to="2015" type="_temp">2012-2015</date>). Enfin, la composition
+          typographique, autre composante essentielle d’un atelier
+          d’imprimerie traditionnelle, n’est pas en reste en matière de
+          transmission à l’atelier du Livre d’art <hi>(voir&#160;2</hi>
+            <hi>
+              <hi rend="sup">e</hi>
+            </hi>
+            <hi>&#160;ill. ci-dessous)</hi>. L’actuel compositeur, <persName type="_temp">Frédéric Lepetz</persName>, a ainsi bénéficié du
+          rigoureux apprentissage de <persName type="_temp">Michel
+          Jourdain</persName>, qui avait à son actif cinquante ans de pratique
+          dans le domaine de la composition à la main, lorsqu’il est parti
+          pour une retraite bien méritée. À son tour, <persName type="_temp">Frédéric Lepetz</persName> vient d’être chargé de
+          former un second compositeur.</p>
+          <figure xml:id="d1e186">
+            <graphic url="https://didomena.ehess.fr/downloads/4x51hs107.jpeg"/>
+            <head xml:id="d1e187">Figure 6. La composition typographique, un
+            savoir-faire transmis de génération en génération au sein de
+            l’Imprimerie nationale. © Daniel Pype, coll. IN Groupe</head>
+          </figure>
+          <p>Sur la photo, Frédéric Lepetz, l’actuel compositeur typographe
+          chargé à son tour de former un nouveau compositeur.</p>
+          <p xml:id="d1e193">Comme on peut le constater, la question de la
+          transmission de savoir-faire devenus rares demeure d’actualité au
+          sein de l’Imprimerie nationale. Le maintien de ceux-ci est
+          aujourd’hui primordial pour pérenniser l’atelier du Livre d’art et
+          de l’Estampe qui a déjà vu nombre de savoir-faire disparaître au fil
+          des dernières décennies, comme ceux de compositeur typographe
+          orientaliste, de lithographe ou de phototypiste. La diminution
+          drastique des effectifs de l’atelier, qui ne comptait pas moins de
+          cent cinquante compositeurs dans les <date from="1980" to="1989" type="_temp">années&#160;1980</date>, constitue un autre sujet
+          préoccupant pour l’avenir. Il est bien évident que de tels effectifs
+          ne seraient plus tenables de nos jours où les technologies ont connu
+          une véritable révolution, contraignant l’entreprise à remplacer
+          nombre de savoir-faire par d’autres beaucoup plus adaptés aux
+          évolutions récentes. Toutefois, le fait que des techniques comme la
+          gravure de poinçons ou la fonte de caractères ne soient détenues que
+          par une seule personne rend fragile l’équilibre de cet atelier.
+          Consciente du problème, la direction de l’Imprimerie nationale a
+          souhaité, du moins pour la fonte de caractères, former l’un des deux
+          compositeurs à ce métier proche du leur. Misant sur la polyvalence,
+          qui est déjà en vigueur au sein de l’atelier où l’un des deux
+          imprimeurs typographes est également imprimeur taille-doucier,
+          l’Imprimerie nationale entend poursuivre la transmission de ses
+          techniques rares, tout en maintenant l’équilibre financier d’un
+          atelier dont la rentabilité est depuis longtemps incertaine et qui
+          doit sa survie au mécénat de l’entreprise, soucieuse de préserver
+          son patrimoine et ses principaux savoir-faire ancestraux.</p>
+          <figure xml:id="d1e195">
+            <graphic url="https://didomena.ehess.fr/downloads/8910k2922.jpg"/>
+            <head xml:id="d1e196">Figure 7. La fonte de caractères
+            typographiques a également pu être sauvegardée au sein de
+            l’Imprimerie nationale. © Daniel Pype, coll. IN Groupe</head>
+          </figure>
+          <p>Ici Philippe Mérille, qui a bénéficié d’une formation de fondeur
+          grâce au dispositif des Maîtres d’art et qui veille désormais à la
+          préservation d’un savoir-faire devenu rare.</p>
+          <p xml:id="d1e202">Pour sa production, l’atelier du Livre d’art et
+          de l’Estampe s’appuie également sur un parc d’une centaine de
+          presses et autres matériels d’imprimerie dont près de la moitié est
+          encore en service. Mentionnons plusieurs presses typographiques à
+          platine (Heidelberg&#160;OFMI) et à cylindre (Heidelberg, Miehle,
+          Johannisberg), presses à dorer, presses taille-douce dont l’une en
+          bois du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>, massicots, plusieurs
+          composeuses-fondeuses (Monotype, Intertype), fondeuses de caractères
+          mobiles en plomb (Küko), fondeuses manuelles (moules à arçons et à
+          refouloir), etc. Parmi la cinquantaine de matériels hors service
+          mais en état de marche, figurent entre autres la toute première
+          presse à un coup dite Anisson (du nom de son inventeur, alors
+          directeur de l’Imprimerie royale), conçue en <date type="_temp" when="1783">1783</date>, sur laquelle ont été imprimés plus de deux
+          millions d’assignats sous la <date from="1789" to="1799" type="_temp">Révolution</date>
+            <hi>(voir ill. ci-dessous)</hi>,
+          plusieurs presses à bras et à platine, trois presses lithographiques
+          à bras, deux presses lithographiques à cylindres (de marque Voirin),
+          une presse pour la phototypie, des presses pour la reliure. Si
+          l’ensemble de ces matériels est encore en mesure de servir, encore
+          faut-il savoir les faire fonctionner. Les artisans de l’atelier du
+          Livre d’art, grâce à leurs multiples compétences, sont en mesure
+          d’en expliquer le fonctionnement et de les mettre en route. Certains
+          matériels, comme la phototypie ou la lithographie, requièrent
+          toutefois un savoir-faire bien particulier qu’ils sont loin de
+          maîtriser. C’est la raison pour laquelle l’atelier est parfois
+          contraint de solliciter des artisans exerçant leur métier à
+          l’extérieur de l’entreprise. C’est par exemple le cas pour la
+          reliure ou la lithographie. Cette dernière devrait bientôt être
+          relancée avec le concours d’une jeune artiste lithographe de la
+          région lilloise, qui devrait remettre en service cette activité au
+          sein de l’atelier en s’appuyant sur le matériel existant.</p>
+          <p xml:id="d1e210">Comme on peut le constater, la question des
+          savoir-faire et de leur avenir est au cœur des préoccupations de
+          l’Imprimerie nationale et de son atelier du Livre d’art et de
+          l’Estampe. Si ceux-ci venaient à disparaître, l’atelier et son
+          gigantesque patrimoine n’auraient plus de raison d’être et
+          rejoindraient les innombrables musées consacrés à l’imprimerie (près
+          de deux cents de toutes dimensions recensés en Europe), dénués de
+          toute activité, hormis celles liées à la pédagogie. La survie de cet
+          atelier reposera dans les années et décennies à venir sur une
+          meilleure visibilité de celui-ci. À cet effet, un atelier-musée est
+          en cours d’étude par l’entreprise et les collectivités locales. Une
+          telle structure permettra de rendre davantage visibles à un grand
+          nombre de visiteurs à la fois patrimoine et savoir-faire, et de
+          sensibiliser le plus grand nombre à la nécessité de transmettre des
+          savoirs et des métiers méconnus et menacés.</p>
+          <figure xml:id="d1e212">
+            <graphic url="https://didomena.ehess.fr/downloads/pg15bp32k.jpeg"/>
+            <head xml:id="d1e213">Figure 8. Première presse dite «&#160;à un
+            coup&#160;». © Daniel Pype, coll. IN Groupe</head>
+            <p xml:id="d1e215">Conçue en 1783 par Étienne-Alexandre
+            Anisson-Duperron, directeur de l’Imprimerie royale de 1788 à 1794.
+            Sur cette presse qui permet, grâce à son mécanisme ingénieux,
+            d’obtenir des impressions d’une qualité incomparable, et qui est
+            munie d’un cadran-compteur, ont été imprimés environ deux millions
+            d’assignats sous la Révolution. Cette presse est classée au titre
+            des monuments historiques</p>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e219">
+          <head subtype="level1" xml:id="d1e220">Une continuité créative
+          permanente</head>
+          <p xml:id="d1e222">Pour l’heure, l’atelier du Livre d’art et de
+          l’Estampe, implanté depuis <date type="_temp" when="2014">2014</date> à <placeName ref="6438235" type="geonames" xml:base="https://www.geonames.org/">Flers-en-Escrebieux</placeName>
+          dans le Douaisis, sur le site principal de production de
+          l’Imprimerie nationale, poursuit une production de livres d’artistes
+          et de bibliophilie (une dizaine de titres par an en moyenne), tout
+          en ouvrant ses portes à des publics divers, en organisant par
+          exemple des visites pour des groupes constitués, en accueillant des
+          artistes venus réaliser une ou plusieurs œuvres dans le cadre de
+          résidences spécifiques, ou encore des professionnels venus
+          approfondir leur formation. La mise en place d’un espace
+          d’exposition au sein de l’atelier, retraçant l’histoire de
+          l’Imprimerie nationale à partir de ses collections de poinçons et
+          d’ouvrages publiés par ses soins depuis sa création, a permis en
+          outre de donner une dimension muséale à cet ensemble artisanal et
+          industriel. Le développement de ces activités a bénéficié du soutien
+          de l’entreprise et de son fonds de dotation, dont l’existence
+          remonte à <date type="_temp" when="2015">2015</date>.</p>
+          <p xml:id="d1e224">Des activités hors les murs ont également été
+          mises en œuvre par l’atelier du Livre d’art ces dernières années&#160;:
+          organisation d’expositions thématiques comme celle de <placeName ref="5128638" type="geonames" xml:base="https://www.geonames.org/">New&#160;York</placeName> en <date type="_temp" when="2012">2012</date> («&#160;<foreign xml:lang="eng">Printing for kingdom, empire, and republic. Treasures
+          of the Archives of the Imprimerie nationale</foreign>&#160;», Grolier
+          Club) ou celle de <placeName ref="6454407" type="geonames" xml:base="https://www.geonames.org/">Douai</placeName> en <date type="_temp" when="2017">2017</date> («&#160;<persName ref="02733791X" type="idref" xml:base="https://www.idref.fr/">Napoléon</persName> ou
+          le rêve oriental&#160;», Bibliothèque municipale de <placeName ref="6454407" type="geonames" xml:base="https://www.geonames.org/">Douai</placeName>)&#160;; prêts à
+          diverses expositions nationales et internationales&#160;: «&#160;Les chrétiens
+          d’Orient&#160;» à l’Institut du monde arabe en <date type="_temp" when="2017">2017</date>, «&#160;<persName ref="027382877" type="idref" xml:base="https://www.idref.fr/">Wilhelm</persName> et <persName ref="027399427" type="idref" xml:base="https://www.idref.fr/">Alexander von Humboldt</persName>&#160;»
+          au Deutsches Historisches Museum à <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, «&#160;Édition
+          limitée&#160;: <persName ref="028289366" type="idref" xml:base="https://www.idref.fr/">Vollard</persName>, <persName ref="034703519" type="idref" xml:base="https://www.idref.fr/">Petiet</persName> et l’estampe de
+          maîtres&#160;» au Petit Palais en <date type="_temp" when="2021">2021</date>&#160;; démonstrations et conférences dans le
+          cadre de manifestations diverses à travers le monde&#160;: <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>, <placeName ref="2998324" type="geonames" xml:base="https://www.geonames.org/">Lille</placeName>, <placeName ref="6618371" type="geonames" xml:base="https://www.geonames.org/">Lens</placeName>, <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> ,
+          <placeName ref="1861060" type="geonames" xml:base="https://www.geonames.org/">Japon</placeName>, <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>, <placeName ref="1835841" type="geonames" xml:base="https://www.geonames.org/">Corée</placeName>, etc.</p>
+          <figure xml:id="d1e226">
+            <graphic url="https://didomena.ehess.fr/downloads/vq27zx51c.jpeg"/>
+            <head xml:id="d1e227">Figure 9. Ensemble de dessins, poinçons et
+            matrices hiéroglyphiques. © Daniel Pype, coll. IN Groupe</head>
+            <p xml:id="d1e229">Conservés au sein du cabinet des Poinçons de
+            l’Imprimerie nationale. Environ 4&#160;000&#160;poinçons de hiéroglyphes
+            égyptiens ont été gravés à l’Imprimerie royale entre 1842 et 1852
+            par Delafond et Ramé fils d’après les dessins de J.-J. Dubois et
+            Théodule Devéria.</p>
+          </figure>
+          <p xml:id="d1e233">En matière de recherche et d’innovation,
+          l’Imprimerie nationale et son atelier du livre ont toujours fait
+          preuve d’inventivité depuis leur création. Prenons-en pour exemple
+          la conception et la réalisation de caractères latins historiques
+          tout au long des différentes étapes de leur histoire. Huit polices
+          de caractères latins ont ainsi été créées <date from="1600" to="2099" type="_temp">entre le 17<hi rend="sup">e</hi>&#160;et le 21<hi rend="sup">e</hi>&#160;siècle</date> par l’établissement d’État, polices
+          exclusivement réservées à son usage&#160;: le Garamont ou Romain de
+          l’université sous <persName ref="028254287" type="idref" xml:base="https://www.idref.fr/">François&#160;I<hi rend="sup">er</hi>
+            </persName>, le Grandjean ou Romain du roi sous
+          <persName ref="027328848" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XIV</persName>, le Luce ou
+          Types poétiques sous <persName ref="027317463" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XV</persName>, le Didot
+          millimétrique ou Romain de l’empereur sous <date from="1804-05-18" to="1815-07-07" type="_temp">l’Empire</date>, le Marcellin-Legrand
+          ou Types de <persName ref="027285693" type="idref" xml:base="https://www.idref.fr/">Charles&#160;X</persName>, le Jaugeon à
+          la charnière du <date from="1800" to="1999" type="_temp">19<hi rend="sup">e</hi>&#160;et du 20<hi rend="sup">e</hi>&#160;siècle</date>, le
+          Gauthier dans la <date from="1900" to="1999" type="_temp">seconde
+          moitié du 20<hi rend="sup">e</hi>&#160;siècle</date>, le Salamandre en
+          <date type="_temp" when="2019">2019</date>. Témoins également de
+          cette constante recherche de renouvellement, les très nombreux
+          poinçons de caractères orientaux et extrême-orientaux gravés au sein
+          de l’établissement et permettant de composer dans plus de
+          soixante-cinq écritures et cent cinquante styles différents&#160;:
+          cunéiforme ninivite, hiéroglyphe égyptien <hi>(voir ill.
+          ci-dessus)</hi>, araméen, hébreu, arabe, tifinag, samaritain,
+          syriaque, russe, chinois, siamois, tamoul, tibétain, laotien, maya,
+          runique… L’emploi de tous ces caractères dans la production de
+          l’atelier du Livre d’art jusqu’à nos jours (Le Cantique des oiseaux
+          composé en Luce et en Persan en est l’exemple le plus récent) est
+          significatif d’une continuité créative permanente. L’adoption
+          récente d’un système de pilotage par ordinateur de la
+          composeuse-fondeuse Monotype illustre également cette volonté de
+          renouvellement dans le processus de production.</p>
+          <p xml:id="d1e257">De nouvelles synergies entre l’atelier du Livre
+          d’art et les nouveaux ateliers de l’Imprimerie nationale, équipés
+          des toutes dernières technologies en matière d’impression numérique,
+          ont en outre été expérimentées à travers une résidence d’artiste
+          avec le Groupe&#160;A (coopérative culturelle lilloise) et deux artistes,
+          <persName ref="259939978" type="idref" xml:base="https://www.idref.fr/">Pascal Marquilly</persName> et
+          <persName ref="057634858" type="idref" xml:base="https://www.idref.fr/">François Andes</persName>, tous
+          deux artistes transdisciplinaires <hi>(voir ill. ci-dessous)</hi>.
+          La résidence a mobilisé la mise en œuvre de techniques et de
+          procédés d’impression variés&#160;: composition manuelle, fonte monotype,
+          clichage, impression typographique, taille-douce, dorure à chaud,
+          timbrage, sérigraphie, impression avec des encres pigmentaires,
+          découpe laser. L’ouvrage paru dans ce cadre est un exemple
+          d’inventivité, associant techniques traditionnelles et technologies
+          de pointe.</p>
+          <figure xml:id="d1e262">
+            <graphic url="https://didomena.ehess.fr/downloads/ng451r658.jpg"/>
+            <head xml:id="d1e263">Figure 10. <hi rend="italic">Per aspera ad
+            astra</hi>
+            </head>
+            <p xml:id="d1e266">Livre d’artiste conçu dans le cadre d’une
+            résidence d’artiste initiée par le Groupe A, avec le concours de
+            l’atelier du Livre d’art de l’Imprimerie nationale, pour lequel
+            les artistes ont eu recours à plusieurs techniques traditionnelles
+            et de pointe, comme la typographie, la taille-douce, l’impression
+            à encres pigmentaires, la découpe laser (réalisation et impression
+            à l’atelier du Livre d’art &amp; de l’Estampe, avril&#160;2021)</p>
+            <p xml:id="d1e268">Droits réservés</p>
+          </figure>
+          <p xml:id="d1e270">Après plusieurs années d’incertitudes, une
+          nouvelle dynamique a donc vu le jour à l’atelier du Livre d’art et
+          de l’Estampe, avec des perspectives prometteuses pour une imprimerie
+          multi-séculaire qui n’a pas dit son dernier mot. Les pages de
+          l’atelier se tournent au fil du temps, et celles de demain se
+          feuillettent déjà à la lumière des activités multiples et novatrices
+          mises en œuvre au cours de ces dix dernières années.</p>
+          <p xml:id="d1e272">Pour tout complément d’information sur l’atelier
+          du Livre d’art et de l’Estampe de l’Imprimerie nationale, consulter
+          le site ainsi que le nouveau portail des collections de l’Imprimerie
+          nationale&#160;: <ref target="http://www.atelier-du-livre-art-imprimerienationale.fr/">
+              <hi rend="underline">www.atelier-du-livre-art-imprimerienationale.fr</hi>
+            </ref> et <ref target="http://www.imprimerienationale-patrimoine.fr/">
+              <hi rend="underline">www.imprimerienationale-patrimoine.fr</hi>
+            </ref>
+          </p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e282">
+        <head xml:id="d1e283">Bibliographie</head>
+        <listBibl xml:id="d1e285">
+          <bibl type="orig" xml:id="d1e286">
+            <hi rend="italic">L’Atelier,
+          Imprimerie nationale. Visites, formations, workshops</hi>, brochure
+          publiée par l’atelier du Livre d’art et de l’Estampe, collectif,
+          2016</bibl>
+          <bibl type="orig" xml:id="d1e290">Cain, Julien&#160;(éd.), <hi rend="italic">L’art du livre à l’imprimerie nationale</hi>, Paris,
+          Imprimerie nationale, 1973</bibl>
+          <bibl type="orig" xml:id="d1e295">Gable, Nelly et Bocel, Annie, <hi rend="italic">Dessins de geste. Gravure &amp; poinçon
+          typographique</hi>, Paris, Éditions des Cendres, 2018</bibl>
+          <bibl type="orig" xml:id="d1e300">Grinevald, Paul-Marie, «&#160;Richelieu
+          et l’Imprimerie nationale&#160;», in Richelieu et le monde de l’esprit,
+          Paris, Imprimerie nationale, 1985 (publication dans le cadre d’une
+          exposition à la Sorbonne organisée par la chancellerie des
+          universités de Paris et l’Académie française)</bibl>
+          <bibl type="orig" xml:id="d1e302">Grinevald, Paul-Marie&#160;(éd.), <hi rend="italic">Les caractères de l’Imprimerie nationale</hi>, Paris,
+          Imprimerie nationale éditions, 1990</bibl>
+          <bibl type="orig" xml:id="d1e307">Huot-Marchand, Thomas, «&#160;La
+          transmission des savoir-faire à l’Imprimerie nationale&#160;», in <hi rend="italic">Graphisme en France</hi>, Centre national des arts
+          plastiques, 2019</bibl>
+          <bibl type="orig" xml:id="d1e312">Rehage, Philipp, «&#160;L’Imprimerie
+          nationale, un savoir-faire unique sauvé par un projet
+          franco-allemand&#160;», in <hi rend="italic">Art &amp; Métiers du
+          Livre</hi>, n<hi rend="sup">o</hi>&#160;332, mai-juin&#160;2019,
+          p.&#160;34-49</bibl>
+          <bibl type="orig" xml:id="d1e320">
+            <hi rend="italic">Salamandre, le
+          huitième caractère exclusif de l’Imprimerie nationale</hi>,
+          caractère conçu par Franck Jalleau. Spécimen, Imprimerie nationale,
+          2019</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

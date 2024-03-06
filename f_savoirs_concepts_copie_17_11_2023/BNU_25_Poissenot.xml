@@ -1,0 +1,899 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_25_Poissenot.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le livre imprimé entre repli et persistance</title>
+        <author role="aut">
+          <forename>Claude</forename>
+          <surname>Poissenot</surname>
+          <idno type="IDREF">03526506X</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/VW4K4HSY" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Le livre imprimé entre repli et
+            persistance</title>
+            <idno type="DOI">10.4000/rbnu.4013</idno>
+            <author>
+              <forename>Claude</forename>
+              <surname>Poissenot</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">25</biblScope>
+              <biblScope unit="page">80-89</biblScope>
+              <date>2022</date>
+              <note type="accessed">2022-07-22T09:27:56Z</note>
+              <note type="url">https://journals.openedition.org/rbnu/4013</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique
+          lettrée</term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1960" to="2022" type="_temp">1960-2022</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-28T13:22:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Le livre imprimé entre
+          repli et persistance</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Claude Poissenot</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Maître de conférence, CREM, Université
+          de Lorraine</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e50">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>Dans
+        leur ouvrage sur la culture matérielle paru en <date type="_temp" when="2005">2005</date>, <persName ref="069800367" type="idref" xml:base="https://www.idref.fr/">Marie-Pierre Julien</persName> et
+        <persName ref="092162622" type="idref" xml:base="https://www.idref.fr/">Céline Rosselin</persName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Pour cette référence et toutes celles qui suivront, voir les
+            orientations bibliographiques en fin d’article.</p>
+          </note> entament leur introduction en prenant l’exemple de
+        l’étudiant qui doit apprendre à maîtriser un ensemble d’objets
+        matériels qui l’entourent et lui permettent de mener à bien son
+        travail. Elles ne citent pas l’objet-livre mais cet oubli (peut-être
+        signifiant) n’empêche pas de penser le livre comme une composante de
+        notre culture. Cette entrée dans la réflexion complète celle
+        consistant à se questionner sur la dimension symbolique du livre. Les
+        réflexions sur la lecture, faisant l’objet de discours inquiets, en
+        viennent à éluder une approche par la matérialité du livre. Pourtant,
+        ce dernier est massivement présent dans notre société. Rien qu’en
+        <date type="_temp" when="2020">2020</date>, le Syndicat national de
+        l’édition évalue à plus de 421&#160;millions le total du nombre
+        d’exemplaires de livres vendus. Et comme ceux-ci ont une durée de vie
+        assez longue, c’est une masse considérable qui nous entoure dans nos
+        espaces privés comme dans les lieux du livre, qu’ils soient
+        commerciaux ou relèvent des institutions d’État, des collectivités
+        locales ou des associations.</p>
+        <figure xml:id="d1e55">
+          <graphic url="https://didomena.ehess.fr/downloads/gx41ms52h.jpg"/>
+          <head xml:id="d1e56">Figure 1. Le hall d’entrée de l’hôtel Léonor à
+          Strasbourg. Cliché Nicolas Mathéus, Hôtel Léonor, 2022</head>
+        </figure>
+        <p xml:id="d1e60">Dès lors, il s’agit de penser l’évolution de la
+        matérialité du livre dans un double mouvement de repli et de
+        persistance. Le premier n’empêche pas la seconde, mais conduit à une
+        recomposition du statut et des usages du livre.</p>
+        <div type="section1" xml:id="d1e62">
+          <head subtype="level1" xml:id="d1e63">Un retrait plus symbolique que
+          réel</head>
+          <p xml:id="d1e65">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+          livre</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>La
+          thématique de la baisse de la lecture remonte aux <date from="1960" to="1969" type="_temp">années&#160;1960</date>
+            <note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Voir Chartier et Hébrard, 2000.</p>
+            </note>. La concurrence de la télévision, le développement du
+          secteur tertiaire dans l’économie et la démocratisation de
+          l’enseignement secondaire ont porté ce discours de déploration qui
+          reste toujours dominant. Il justifie une politique de lecture
+          publique, à la fois au niveau national, mais aussi à l’échelon des
+          collectivités locales. Cette perception de l’évolution de la lecture
+          est en partie validée par les enquêtes sur les pratiques culturelles
+          des Français conduites par le ministère de la Culture depuis&#160;<date type="_temp" when="1973">1973</date>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Voir Poissenot, 2021.</p>
+            </note>.</p>
+          <p xml:id="d1e73">La part de la population déclarant n’avoir lu
+          aucun livre au cours de l’année a légèrement baissé dans les <date from="1980" to="1989" type="_temp">années&#160;1980</date>, avant de
+          repartir à la hausse et de parvenir à un point jamais atteint de
+          38&#160;% en <date type="_temp" when="2018">2018</date>. L’évidence de la
+          lecture de livre semble bien s’éroder. Et quand on se penche sur la
+          lecture intensive (déclarer lire au moins vingt livres par an),
+          cette première tendance se confirme. Le taux de lecteurs intensifs a
+          diminué de moitié entre <date from="1973" to="2008" type="_temp">1973 et 2008</date>. Elle concerne depuis un Français
+          sur sept, comme si la familiarité avec le livre ne touchait
+          désormais plus qu’une «&#160;niche&#160;» et non plus un pôle majeur de la
+          population.</p>
+          <p xml:id="d1e75">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Mais
+          parallèlement à ces constats, d’autres viennent nuancer les
+          conclusions qui iraient dans le sens de la disparition du livre. Le
+          nombre d’exemplaires vendus, qui n’atteignait pas 350&#160;millions à la
+          fin des <date from="1990" to="1999" type="_temp">années&#160;1990</date>,
+          dépasse systématiquement le seuil de 400&#160;millions depuis <date type="_temp" when="2005">2005</date>, avec certes une légère érosion
+          (-3,7&#160;% <date from="2009" to="2020" type="_temp">entre 2009 et
+          2020</date>). Cela a été possible par une augmentation du nombre de
+          titres commercialisés (+7&#160;%) qui a entraîné une baisse des tirages
+          moyens (-42&#160;%). Si l’on prend le nombre de prêts de documents dans
+          les bibliothèques universitaires, de <date from="2013" to="2019" type="_temp">2013 à 2019</date> le niveau reste stable autour de dix
+          millions par an. Dans les bibliothèques municipales (ou
+          intercommunales), les prêts de livres ont plutôt augmenté
+          (213&#160;millions en <date type="_temp" when="2018">2018</date> contre
+          156&#160;millions en <date type="_temp" when="2000">2000</date>), et même
+          en rapportant ces chiffres à la population desservie, on ne constate
+          pas de baisse.</p>
+          <p xml:id="d1e77">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-j2qwt5pl">catégorie sociale</term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-j6k6mbcm">étudiant</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-w55wftqy">société</term>
+              </term>
+            </term>Ce
+          constat nuancé ne signifie pas qu’il n’existe pas de mutations dans
+          le rapport de notre société à la lecture de livres. La pratique ne
+          disparaît pas, mais le statut qu’elle occupe change. Plutôt qu’être
+          au cœur des pratiques culturelles légitimes, elle forme davantage
+          une niche, une possibilité parmi une multitude d’offres. Cet
+          affaissement de la reconnaissance de la pratique provient du recul
+          particulièrement net de la lecture parmi les catégories sociales
+          supérieures. <date from="1988" to="2018" type="_temp">Entre 1988 et
+          2018</date>, la part de lecteurs intensifs chez les cadres a baissé
+          de 45&#160;% et ne concerne plus qu’un quart d’entre eux. Comme le relève
+          <persName ref="050775634" type="idref" xml:base="https://www.idref.fr/">Philippe Coulangeon</persName> en
+          <date type="_temp" when="2011">2011</date>, la distinction sociale
+          passe désormais moins par le support de la lecture. Et les étudiants
+          de classes préparatoires scientifiques, qui formeront une part des
+          élites sociales, adoptent des pratiques de lecture qui ne tranchent
+          plus avec les pratiques populaires, en se tournant vers la bande
+          dessinée ou le roman policier<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Voir Lahire, 2012.</p>
+            </note>.</p>
+          <p xml:id="d1e82">Le livre et la lecture ne sont donc pas en voie
+          d’extinction, mais la pratique tend à se banaliser malgré les
+          institutions qui sont à leur chevet.</p>
+          <div type="section1" xml:id="d1e217">
+            <head subtype="level1" xml:id="d1e218">La sécularisation de la
+            lecture</head>
+            <p xml:id="d1e87">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-honnusro">pratique
+            lettrée</term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+                </term>
+              </term>Le
+            statut de toute pratique est tributaire des institutions qui lui
+            sont dédiées ou qui ont partie liée avec elle. La notion de
+            sécularisation désigne le processus par lequel les activités
+            relevant du domaine religieux en viennent à perdre cette
+            signification et à être prises en charge par d’autres institutions
+            détachées de la religion. S’agissant de la lecture, on peut parler
+            d’une sécularisation au sens étroit du terme, en cela que la place
+            de la religion dans les pratiques de lecture est désormais très
+            faible, là où jusqu’au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, une part
+            importante d’enfants accédaient à la lecture par l’intermédiaire
+            de livres de catéchisme, de demi-psautiers ou d’abécédaires des
+            chrétiens.</p>
+            <p xml:id="d1e92">
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+            expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+            matière<term ref="doi:10.34817/sv-tjsyqxet">physique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-ognrwtyq">médecine</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-w55wftqy">société</term>
+                </term>
+              </term>Mais on
+            peut parler de sécularisation aussi de façon figurée, en
+            constatant la perte de poids du monde des lettres dans l’ensemble
+            de notre société. L’Académie française relève davantage d’un
+            folklore suranné que d’une institution faisant autorité et dotée
+            d’une légitimité incontestée. Le prix Nobel de littérature suscite
+            un intérêt nettement inférieur à ses homologues de médecine,
+            physique ou même d’économie. L’académie Goncourt parvient encore à
+            animer la rentrée littéraire en choisissant souvent des textes
+            accessibles mais les lauréats, s’ils bénéficient d’une exposition
+            médiatique indéniable, font aussi l’expérience qu’elle est
+            éphémère et ils n’accèdent pas par là à une position fortement
+            reconnue, leur donnant une voix qui porte dans le débat public.
+            Les revues littéraires et les pages littéraires des journaux
+            pèsent désormais peu dans le monde des idées.</p>
+            <figure xml:id="d1e94">
+              <graphic url="https://didomena.ehess.fr/downloads/sb397h44d.jpg"/>
+              <head xml:id="d1e95">Figure 2. Vue du public étudiant dans une
+              salle de lecture de la BNU. Cliché JPR-Bnu, CC&#160;BY-NC-SA</head>
+            </figure>
+            <p xml:id="d1e99">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>Les
+            livres et la lecture sont mêlés dans des émissions d’actualité. Et
+            le succès d’un livre peut reposer davantage sur la notoriété
+            antérieure de l’auteur que sur son contenu propre. Qu’il s’agisse
+            de stars des médias, d’Internet, du sport ou de la politique, le
+            livre devient une sorte de produit dérivé plutôt qu’une visée
+            propre. Et des institutions de célébration nouvelles voient le
+            jour, qui reposent sur les lecteurs eux-mêmes. On pense bien sûr
+            aux prix des lecteurs (Elle, France-Inter, Goncourt des lycéens,
+            etc.) et également à l’effet d’entraînement des palmarès des
+            meilleures ventes, voire de la publicité.</p>
+            <p xml:id="d1e102">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+            livre</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-j2qwt5pl">catégorie
+            sociale</term>
+              </term>Le livre et la lecture demeurent structurés
+            par le champ littéraire<note n="5" place="foot" type="standard" xml:id="ftn5">
+                <p>Voir Bourdieu, 1992.</p>
+              </note>, mais celui-ci a perdu de son autonomie et son poids
+            relatif par rapport aux autres champs (politique, économique ou
+            encore culturel) s’est affaibli. Or la présence au monde de
+            l’objet livre dépend des représentations qui l’entourent. Le recul
+            de son importance dans les élites sociales et l’affaiblissement du
+            poids du champ littéraire ouvrent la voie à un renouvellement du
+            rapport de nos contemporains au livre comme objet. Depuis le <hi rend="italic">Livre de poche</hi> en <date type="_temp" when="1953">1953</date> jusqu’au <hi rend="italic">Librio</hi> en
+            <date type="_temp" when="1994">1994</date> et au <hi rend="italic">Tract</hi> de Gallimard en <date type="_temp" when="2019">2019</date>, le livre perd les attributs de sa
+            noblesse&#160;: reliure cousue, couverture cartonnée, durabilité,
+            valeur marchande. Les éditeurs répondent par une offre à une
+            disponibilité de la clientèle pour un objet livre réduit à sa plus
+            simple expression. Et si les auteurs publiés dans ces conditions
+            sont parfois morts parce qu’ils appartiennent à l’histoire de la
+            littérature ou de la pensée, certains contemporains consentent à
+            entrer dans le catalogue de ces collections. Le contenu l’emporte
+            sur le contenant.</p>
+          </div>
+        </div>
+        <div type="section1" xml:id="d1e116">
+          <head subtype="level1" xml:id="d1e117">Les persistances de
+          l’imprimé</head>
+          <p xml:id="d1e119">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-barjmjqd">observation</term>
+              </term>
+            </term>Ce
+          repli symbolique conduit une partie des tenants du livre à
+          s’inquiéter du «&#160;déclin&#160;» de l’objet imprimé et de la lecture sur
+          papier. Mais cette appréhension ne résiste pas à l’observation de la
+          présence du livre dans notre monde contemporain. Il continue
+          d’exister par une pluralité de modalités dont nous chercherons à
+          présenter quelques figures. C’est qu’il parvient à s’insinuer dans
+          des aspirations et des logiques qui le rendent nécessaires.</p>
+        </div>
+        <div type="section1" xml:id="d1e121">
+          <head subtype="level1" xml:id="d1e122">Support de partage</head>
+          <p xml:id="d1e124">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-pgaatgp9">livre
+          numérique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-w55wftqy">société</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation</term>
+            </term>Par sa large
+          diffusion commerciale et par sa matérialité, le livre constitue un
+          bien à même de soutenir les échanges interpersonnels. Il est assez
+          aisé de se procurer un ouvrage afin qu’il alimente une relation.
+          D’après l’enquête du Centre national du livre (CNL) sur les Français
+          et la lecture de <date type="_temp" when="2021">2021</date>, un peu
+          plus de deux tiers des Français de 15&#160;ans et plus ayant lu au moins
+          un livre, en a reçu au moins un en cadeau ou en prêt privé dans
+          l’année. Dans une proportion légèrement supérieure (78&#160;%), les
+          Français déclarent offrir des livres. Or qu’est-ce qui est engagé
+          dans l’acte d’offrir&#160;? C’est d’abord l’intention de «&#160;faire
+          plaisir&#160;» qui motive cet acte (72&#160;%). Par-delà l’objet, il s’agit de
+          partager le plaisir qu’il est pensé à même de produire. C’est une
+          sorte de communion qui est espérée. Celle-ci peut se faire plus
+          précise, puisque 42&#160;% disent offrir «&#160;pour partager un livre&#160;»
+          qu’ils ont aimé, et 31&#160;% «&#160;pour faire découvrir un sujet ou un
+          auteur&#160;». Dans ce cas, le livre est porteur d’un lien plus
+          personnalisé. Il est comme adressé à un destinataire avec une
+          intention, voire un message explicité ou non. On passe du partage de
+          l’expérience générique du plaisir de la lecture à celle d’un livre
+          ou d’un auteur en particulier. Une émotion, des significations, des
+          références siègent dans un document que nous cherchons à partager.
+          Et la matérialité du livre rend possible et marque cet échange
+          investi d’un sens précis, à même de créer ou d’entretenir une
+          complicité entre deux êtres singuliers. Elle forme la trace durable
+          d’un lien passé ou présent, au-delà même de son contenu précis.
+          D’ailleurs, il serait intéressant de faire des enquêtes in situ dans
+          lesquelles il s’agirait de questionner les lecteurs sur les livres
+          de leur bibliothèque personnelle, en y comprenant le sort accordé à
+          ceux reçus en cadeau. On pourrait très certainement identifier des
+          ouvrages dont la présence résulte de ces liens placés dans des
+          livres donnés ou reçus. Par contraste, le livre numérique peut
+          beaucoup plus difficilement marquer ce lien. Rien ne ressemble plus
+          à un fichier informatique qu’un autre…</p>
+        </div>
+        <div type="section1" xml:id="d1e126">
+          <head subtype="level1" xml:id="d1e127">Support d’un lien
+          anonyme</head>
+          <p xml:id="d1e129">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-raoluwcf">conflictualité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-hefvbw9m">diffusion</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire</term>
+            </term>Le livre
+          remplit aussi une fonction de relations entre anonymes. L’indéniable
+          et durable succès des boîtes à livres atteste de cette réalité. Le
+          site <ref target="https://www.boite-a-lire.com/">
+              <hi rend="underline">https://www.boite-a-lire.com</hi>
+            </ref>, qui recensait environ 2&#160;000&#160;boîtes fin <date type="_temp" when="2017">2017</date>, en compte quatre ans plus tard près de
+          7&#160;000 réparties sur tout le territoire, à la fois en ville et dans
+          les plus petites communes <hi>(voir ill. ci-dessous)</hi>. Leur
+          taille et leur vitalité varient grandement, mais elles font
+          désormais partie du paysage de l’espace public. Elles se donnent à
+          voir comme points de rassemblement potentiel autour des livres. Les
+          dons des uns nourrissent les prêts des autres, dans un mouvement
+          perpétuel où se mêlent la curiosité personnelle tout comme la
+          satisfaction de partager. Le livre forme l’impressionnant support
+          d’un lien personnel et collectif. Le mouvement d’individus libres
+          donne naissance à un univers partagé. Par-delà leurs différences,
+          les citoyens se retrouvent autour d’un objet qui devient presque
+          totémique d’un monde où l’écrit occupe une place structurante. Une
+          sorte de dialogue à distance et (le plus souvent) asynchrone
+          s’engage entre les dépositaires de livres et ceux qui les empruntent
+          ou les feuillettent. Étonnement, agacement, complicité,
+          reconnaissance, nostalgie, ces réactions partagées résultent de ce
+          dispositif de mise en commun des livres dans leur matérialité. À
+          l’inverse, la presse locale relate régulièrement les cas de
+          dégradations des boîtes à livres en exprimant le dépit,
+          l’incompréhension et le sentiment de gâchis des bénévoles et
+          éventuellement des élus qui ont installé ce service. L’émotion
+          suscitée provient de cette transgression de la mise en cause
+          pratique d’un double projet de rassemblement des citoyens et de mise
+          en valeur du livre. La présence physique et publique de ce dernier
+          engendre un conflit de valeurs<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Voir Merklen, 2013.</p>
+            </note>.</p>
+          <figure xml:id="d1e141">
+            <graphic url="https://didomena.ehess.fr/downloads/8k71nr18k.jpg"/>
+            <head xml:id="d1e142">Figure 3. Exemples de boîtes à livres. De
+            gauche à droite et de haut en bas&#160;: Amance (Meuthe-et-Moselle),
+            2022, Verny (Moselle), 2022, Nancy (Meuthe-et-Moselle), 2022,
+            Sainte-Marie-du-Lac-Nuisement (Marne), 2019</head>
+          </figure>
+          <p xml:id="d1e146">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-hefvbw9m">diffusion</term>
+              </term>
+            </term>Cette
+          formation d’un univers partagé autour du livre est rendue possible
+          par la large diffusion de ces boîtes, mais aussi par leur accès
+          libre et permanent, ainsi que par leur totale gratuité. Néanmoins,
+          le lien entre anonymes trouve aussi sa place dans le cadre du marché
+          de l’occasion. Avec la banalisation des sites de vente entre
+          particuliers (<hi rend="italic">Leboncoin.fr</hi> se classe à la
+          neuvième place des sites les plus visités dans le palmarès <hi rend="italic">Médiamétrie</hi> de <date type="_temp" when="2021-09">septembre&#160;2021</date>), le commerce d’occasion a
+          connu une progression réelle&#160;: 10&#160;% des Français de 15&#160;ans et plus
+          avaient acheté au moins un livre d’occasion en <date type="_temp" when="2012">2012</date>, ils étaient 12,5&#160;% en <date type="_temp" when="2019">2019</date>. Par ailleurs, les ventes organisées par de
+          nombreuses bibliothèques des livres qu’elles ont désherbés sont
+          largement couronnées de succès. S’y rassemblent des curieux, avides
+          de découvertes et de bonnes affaires. Bien qu’en concurrence les uns
+          avec les autres, ils ont en commun cet intérêt. Quand bien même il
+          aurait été emprunté par d’autres, le livre élu participe d’un
+          dialogue intime du lecteur avec lui-même. Bien sûr, il y a le hasard
+          des volumes offerts au gré des choix faits par les institutions de
+          se séparer de certains documents, celui aussi résultant des autres
+          acheteurs passés avant, mais il s’agit d’une rencontre qui fait sens
+          et participe de la construction de l’identité du lecteur.</p>
+        </div>
+        <div type="section1" xml:id="d1e154">
+          <head subtype="level1" xml:id="d1e155">Support d’un lien avec un
+          auteur et avec soi-même</head>
+          <p xml:id="d1e157">La matérialité du livre confère une permanence à
+          un lien établi avec un auteur. Ce dernier apparaît d’ailleurs comme
+          le premier élément moteur d’un achat. L’enquête du CNL <date type="_temp" when="2021">2021</date> mesure à 79&#160;% la part des
+          Français de 15&#160;ans et plus choisissant «&#160;l’envie de lire un auteur
+          que vous appréciez&#160;» comme réponse à ce qui les motive pour acheter
+          un livre.</p>
+          <p xml:id="d1e159">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-j2qwt5pl">catégorie sociale</term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+              </term>
+            </term>Comment
+          interpréter la quête de ce lien de la part des lecteurs&#160;? On peut y
+          déceler le désir de trouver un modèle identificatoire. L’écrivain
+          est celui (ou celle) qui parvient à exprimer sa singularité tout en
+          donnant à sentir l’universalité de la condition humaine et recevant
+          pour cela une reconnaissance sociale. «&#160;Engagé dans une activité
+          singulière permettant d’être pleinement soi-même, dédaignant la
+          réussite commerciale, l’artiste moderne apparaît comme une figure
+          exemplaire de la culture expressive de l’authenticité
+          personnelle&#160;»<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Voir Lipovetsky, 2021, p.&#160;218.</p>
+            </note>. En cela, il ou elle incarne l’idéal de l’individu
+          contemporain de façon emblématique. Le livre, par sa matérialité,
+          témoigne de ce lien, passé ou toujours vivant, qui relie à soi-même.
+          Et quand la place vient à manquer dans la bibliothèque personnelle,
+          il est difficile, voire impossible, de se séparer de certains livres
+          qui nous ont construits tandis que d’autres peuvent être éliminés
+          car ils ne sont pas entrés dans notre histoire personnelle. Ce même
+          lien rend compte du succès des rencontres avec les auteurs dans le
+          cadre de salons du livre. La relation n’est plus seulement à
+          distance, elle s’actualise et peut même être actée par une dédicace
+          ou quelques mots échangés. Les emprunteurs en bibliothèques font
+          parfois l’expérience de la découverte d’un livre ou d’un auteur par
+          cet équipement et ont du mal à le rendre au nom de ce lien qui s’est
+          tissé. Bien sûr, ils peuvent se rendre dans leur librairie pour
+          l’acheter, mais on pourrait imaginer une procédure simple proposée
+          aux usagers pour qu’ils déclenchent une commande auprès d’un
+          libraire local.</p>
+          <figure xml:id="d1e164">
+            <graphic url="https://didomena.ehess.fr/downloads/g732dj636.jpg"/>
+            <head xml:id="d1e165">Figure 4. Une bibliothèque privée. Cliché C.
+            Didier, 2022</head>
+          </figure>
+          <p xml:id="d1e169">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>C’est la
+          même quête de son identité personnelle qui conduit les adultes à
+          chercher à retrouver les livres de leur jeunesse. L’enjeu est de
+          reconstituer un fil biographique par le truchement du livre imprimé.
+          Les bouquinistes (associés à la mise en ligne de leurs catalogues)
+          vivent largement de ce qui relève d’une nostalgie de soi autant que
+          d’une époque. C’est ce dont témoigne avec drôlerie ce bouquiniste
+          écossais dont nous parle <persName ref="228492289" type="idref" xml:base="https://www.idref.fr/">Bythell</persName>, à propos de
+          clients américains en quête de livres sur l’histoire de leur clan
+          familial en <placeName ref="2638360" type="geonames" xml:base="https://www.geonames.org/">Ecosse</placeName>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Voir Bythell, 2021, p.&#160;127.</p>
+            </note>.</p>
+          <p xml:id="d1e174">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>Les
+          bibliothèques personnelles prennent le sens de traces d’une
+          existence composite. Du fait de la banalisation du livre et de la
+          lecture, l’enjeu est moins celui de faire étalage d’une culture
+          littéraire que de conserver une mémoire de soi et éventuellement de
+          la donner à voir <hi>(voir ill. ci-dessus)</hi>. D’ailleurs, si une
+          enquête relevait l’augmentation du nombre de livres dans les foyers
+          français <date from="1967" to="1987" type="_temp">entre 1967 et
+          1987</date>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Voir Dumontier, de Singly et Thélot, 1990, p.&#160;63.</p>
+            </note>, celle-ci semble ne pas s’être poursuivie. Si la moitié
+          des foyers possédait au moins cinquante livres en <date type="_temp" when="1987">1987</date>, les données fournies dans le cadre des
+          «&#160;pratiques culturelles des Français&#160;» en <date type="_temp" when="2008">2008</date> (l’indicateur a été abandonné en <date type="_temp" when="2018">2018</date>) montrent que 57&#160;% des Français
+          de 15&#160;ans et plus déclarent posséder au moins 31&#160;livres.
+          L’accumulation pour elle-même ou pour l’apparat ne semble plus
+          d’actualité. Elle se mue en une sélection qui prend sens dans
+          l’autobiographie du lecteur.</p>
+        </div>
+        <div type="section1" xml:id="d1e182">
+          <head subtype="level1" xml:id="d1e183">Support d’une
+          atmosphère</head>
+          <p xml:id="d1e185">Dans des lieux publics (salles d’attentes par
+          exemple) ou commerciaux (magasins), les livres peuvent prendre place
+          comme éléments de décoration. Les hôtels, particulièrement, optent
+          pour cette solution pour accueillir leurs clients dans des salons ou
+          des bars. On y trouve de gros volumes aux reliures artisanales, nous
+          faisant remonter avant l’ère du livre de poche, et souvent au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>
+            <hi>(voir ill. en tête
+          d’article)</hi>. Il s’agit d’inscrire les clients dans un temps
+          révolu et de les connecter par ces objets à ce monde ancien. En
+          feuilletant les volumes ou en laissant leurs regards flotter sur les
+          rayonnages, ils participent à ce monde passé, ils font l’expérience
+          sensible d’un retour dans l’histoire.</p>
+          <p xml:id="d1e193">Ce sont souvent des établissements de luxe qui
+          s’engagent dans cette démarche car le livre renvoie au prestige d’un
+          objet qui fut rare et précieux, en tant que seul dépositaire de la
+          connaissance. Ce type de décoration offre ainsi une expérience
+          nostalgique, témoignant d’une société ayant accordé aux livres une
+          valeur et une considération dont ils ne jouissent désormais
+          plus.</p>
+          <figure xml:id="d1e195">
+            <graphic url="https://didomena.ehess.fr/downloads/rr172570d.jpg"/>
+            <head xml:id="d1e196">Figure 5. Installation artistique à la
+            Bibliothèque nationale de Lituanie à Vilnus. ©&#160;Jolita Vaitkutė,
+            cliché Arūnas Sartanivičius, 2022</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e200">
+          <head subtype="level1" xml:id="d1e201">Support de la concentration
+          intellectuelle</head>
+          <p xml:id="d1e203">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-j6k6mbcm">étudiant</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>La
+          fréquentation des bibliothèques (universitaires comme municipales)
+          connaît une évolution plus favorable que l’inscription ou les prêts.
+          Alors que ces deux derniers tendent à s’éroder (avant même la crise
+          sanitaire), les visites restent à un niveau assez élevé et ont
+          plutôt augmenté depuis la fin des <date from="2000" to="2009" type="_temp">années&#160;2000</date>. En moyenne, on dénombre quarante
+          visites en bibliothèques universitaires par an et par étudiant en
+          <date type="_temp" when="2019">2019</date> (données ESGBU<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>L’ESGBU (Enquête statistique générale auprès des
+              bibliothèques universitaires) est un instrument annuel
+              permettant de documenter et de rendre compte à leurs tutelles de
+              l’activité des bibliothèques universitaires.</p>
+            </note>). Du côté des bibliothèques municipales, le nombre moyen
+          de visites par an et par habitant est plus faible, mais il atteint
+          son maximum pour les communes de plus de 40&#160;000&#160;habitants (selon les
+          données de l’Observatoire de la lecture publique), c’est-à-dire là
+          où les étudiants sont les plus nombreux et où ils sont à même de
+          trouver des équipements de grande taille pour accueillir leurs
+          visites studieuses. S’ils ne sont pas les seuls, les étudiants se
+          distinguent en effet par leur usage studieux des bibliothèques.
+          C’est une pratique ancienne et on se souvient que <persName ref="263069907" type="idref" xml:base="https://www.idref.fr/">Jean-Marie Privat</persName>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Voir Privat, 2001.</p>
+            </note>, en référence à la fréquentation studieuse de la BPI,
+          parlait de la «&#160;beaubourisation&#160;» des bibliothèques municipales par
+          les étudiants venant mettre à profit le cadre des bibliothèques pour
+          travailler. Bien sûr, ils viennent y chercher un mobilier
+          confortable et du silence, mais la présence physique des livres
+          participe à la «&#160;construction des savoir-faire savants&#160;»<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Voir Dehail et Le Marec, 2018.</p>
+            </note>. Plus largement, les rayonnages remplis d’ouvrages forment
+          un cadre propice à la concentration. Les étudiants travaillent comme
+          sous le regard, conjuguant exigence et bienveillance, des
+          «&#160;maîtres&#160;» qui ont rédigé tous ces livres <hi>(voir ill.
+          ci-dessus)</hi>. Ils prennent place dans les pas de leurs
+          prédécesseurs, tout en étant invités à l’humilité. Ils s’infligent
+          une forme de «&#160;servitude volontaire&#160;» à même de porter leur cursus
+          universitaire. Et le regard des pairs, eux-mêmes engagés dans le
+          même effort, crée une communauté de destin et une émulation à même
+          de soutenir l’investissement consenti.</p>
+        </div>
+        <div type="section1" xml:id="d1e217">
+          <head subtype="level1" xml:id="d1e218">Conclusion</head>
+          <p xml:id="d1e220">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle</term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-w55wftqy">société</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-x472ujsa">lecture</term>
+              </term>
+            </term>La place
+          accordée au livre dans sa matérialité témoigne de l’ambivalence du
+          statut de la lecture. À la fois ancestrale et anciennement au cœur
+          de la vie culturelle, elle a perdu son rôle majeur. Les
+          personnalités du monde du livre (auteurs, éditeurs, traducteurs,
+          bibliothécaires) ne pèsent que 1,6&#160;% dans la liste des 547&#160;personnes
+          distinguées par la légion d’honneur en <date type="_temp" when="2022-01">janvier&#160;2022</date>. Par ailleurs, l’actuel ministre
+          de l’Éducation nationale a choisi de réveillonner à <placeName ref="6356034" type="geonames" xml:base="https://www.geonames.org/">Ibiza</placeName>, davantage
+          connue pour ses fêtes et ses plages que pour sa vie intellectuelle.
+          Néanmoins, de par sa place dans l’histoire collective mais aussi
+          personnelle des lecteurs, le livre ne disparaît pas de notre
+          société. Il maintient sa présence en remplissant des fonctions
+          diversifiées.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e223">
+        <head xml:id="d1e224">Bibliographie</head>
+        <listBibl xml:id="d1e226">
+          <bibl type="orig" xml:id="d1e227">Bourdieu, Pierre, <hi rend="italic">Les règles de l’art</hi>, Paris, Éd. du Seuil,
+          1992</bibl>
+          <bibl type="orig" xml:id="d1e232">Bythell, Shaun, <hi rend="italic">Petit traité du lecteur : un libraire raconte ce que
+          le vôtre pense (peut-être) tout bas</hi>, Paris, Autrement,
+          2021</bibl>
+          <bibl type="orig" xml:id="d1e237">Chartier, Anne-Marie et Hébrard,
+          Jean, <hi rend="italic">Discours sur la lecture (1880-2000)</hi>,
+          Paris, BPI/Fayard, 2000</bibl>
+          <bibl type="orig" xml:id="d1e242">Coulangeon, Philippe, <hi rend="italic">Les métamorphoses de la distinction</hi>, Paris,
+          Grasset, 2011</bibl>
+          <bibl type="orig" xml:id="d1e247">Dehail, Judith et Le Marec,
+          Joëlle, «&#160;Habiter la bibliothèque – pratiques d’étude, entretien
+          d’un milieu&#160;», in <hi rend="italic">Communication &amp;
+          langages</hi>, vol.&#160;195, n°&#160;1, 2018, p.&#160;7-22</bibl>
+          <bibl type="orig" xml:id="d1e252">Dumontier, Françoise, Singly,
+          François de, Thélot, Claude, «&#160;La lecture moins attractive qu’il y a
+          vingt ans&#160;», in <hi rend="italic">Économie et statistique</hi>,
+          n°&#160;233, juin&#160;1990, p.&#160;63-80</bibl>
+          <bibl type="orig" xml:id="d1e257">Julien, Marie-Pierre et Rosselin,
+          Céline, <hi rend="italic">La culture matérielle</hi>, Paris, La
+          Découverte, 2005</bibl>
+          <bibl type="orig" xml:id="d1e262">Lahire Bernard, «&#160;Le modèle de
+          l’honnête homme est battu en brèche&#160;», in Olivier
+          Bessard-Banquy&#160;(dir.), <hi rend="italic">Les mutations de la
+          lecture</hi>, Bordeaux, Presses universitaires de Bordeaux, 2012,
+          p.&#160;51-67</bibl>
+          <bibl type="orig" xml:id="d1e267">Lipovetsky, Gilles, <hi rend="italic">Le sacre de l’authenticité</hi>, Paris, Gallimard,
+          2021</bibl>
+          <bibl type="orig" xml:id="d1e272">Merklen, Denis, <hi rend="italic">Pourquoi brûle-t-on des bibliothèques&#160;?</hi>,
+          Villeurbanne, Presses de l’Enssib, 2013</bibl>
+          <bibl type="orig" xml:id="d1e277">Poissenot, Claude, «&#160;Les Français
+          lisent-ils vraiment de moins en moins&#160;?&#160;», in <hi rend="italic">The
+          Conversation,</hi> 23&#160;mars&#160;2021 (<ref target="https://theconversation.com/les-francais-lisent-ils-vraiment-de-moins-en-moins-157272">
+              <hi rend="underline">https://theconversation.com/les-francais-lisent-ils-vraiment-de-moins-en-moins-157272</hi>
+            </ref>)</bibl>
+          <bibl type="orig" xml:id="d1e287">Privat, Jean-Marie, «&#160;Manières
+          d’être et façons de faire&#160;», in Bertrand, Anne-Marie, Burgos,
+          Martine, Poissenot, Claude et al.&#160;(dir.), <hi rend="italic">Les
+          bibliothèques municipales et leurs publics</hi>, Paris, BPI – Centre
+          Georges Pompidou, 2001</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

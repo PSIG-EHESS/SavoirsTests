@@ -1,0 +1,967 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="snadal" time="2023-11-14T11:57:31.209+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_21_Federici-et-Guasti.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Florence 1966&#160;: histoire de l’inondation,
+        l’inondation dans l’histoire</title>
+        <author role="aut">
+          <forename>Carlo</forename>
+          <surname>Federici</surname>
+          <idno type="IDREF">029687896</idno>
+        </author>
+        <author role="aut">
+          <forename>Gisella</forename>
+          <surname>Guasti</surname>
+          <idno type="IDREF">227496574</idno>
+        </author>
+        <editor role="translator">
+          <forename>Luana</forename>
+          <surname>Quattrocelli</surname>
+          <idno type="IDREF">243450761</idno>
+        </editor>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/KLC5LL53" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Florence 1966&#160;: histoire de l’inondation,
+            l’inondation dans l’histoire</title>
+            <author>
+              <forename>Carlo</forename>
+              <surname>Federici</surname>
+            </author>
+            <author>
+              <forename>Gisella</forename>
+              <surname>Guasti</surname>
+            </author>
+            <respStmt>
+              <resp>translator</resp>
+              <persName>
+                <forename>Luana</forename>
+                <surname>Quattrocelli</surname>
+              </persName>
+            </respStmt>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">21</biblScope>
+              <biblScope unit="page">36-37</biblScope>
+              <date>2020</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="ita"/>
+        <language ident="eng"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>
+          </term>
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1966">1966</date>
+          </term>
+          <term>
+            <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T12:05:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Florence 1966&#160;: histoire
+          de l’inondation, l’inondation dans l’histoire</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Carlo Federici</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Professeur de conservation des livres et
+          des documents d’archives, Université Ca’ Foscari,
+          Venise</affiliation>
+        </byline>
+        <docAuthor style="txt_auteur">Gisella Guasti</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff02">Conservatrice honoraire de la section de
+          conservation, Bibliothèque nationale de Florence</affiliation>
+        </byline>
+        <byline style="txt_collaborateur">Luana Quattrocelli</byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e53">
+          <graphic url="https://didomena.ehess.fr/downloads/05742102q.jpg"/>
+          <head xml:id="d1e54">Figure 1. La Bibliothèque nationale vue de la
+          Piazza Poggi (coll.&#160;Archives photographiques de la Restauration,
+          Bibliothèque des sciences technologiques [Architecture], Université
+          de Florence). © et clichés Adriano Bartolozzi, Archives
+          photographiques de la Restauration, Bibliothèque des sciences
+          technologiques (Architecture), Université de Florence</head>
+        </figure>
+        <p xml:id="d1e58">Si l’on parle aujourd’hui de l’inondation de <date type="_temp" when="1966">1966</date> à <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>, on ne le
+        doit qu’à l’entêtement des Florentins qui, bien qu’ayant déjà
+        expérimenté trois fois «&#160;quelle était la force du vindicatif Arno,
+        voulurent toutefois en garder auprès de leurs maisons une partie plus
+        grande encore, en réduisant à bon terme, autour de <date type="_temp" when="1324">1324</date>, la troisième et jusqu’alors plus ample
+        enceinte de la cité&#160;»<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Réflexions adressées au grand-duc Pietro Leopoldo di Toscana
+            par Giovanni Targioni Tozzetti (1712-1783), préfet de la
+            Bibliothèque Magliabechiana de 1739 à sa mort&#160;: <hi rend="italic">Disamina di alcuni progetti fatti nel
+            secolo</hi>&#160;<hi rend="italic">XVI per salvar Firenze dalle
+            inondazioni dell’Arno</hi>, Firenze, Cambiagi, 1767, p.&#160;8</p>
+          </note>.</p>
+        <p xml:id="d1e70">Lorsque donc, en <date type="_temp" when="1900">1900</date>, il fallut choisir un lieu plus adapté à la
+        construction de la nouvelle bibliothèque, puisque celle des Offices
+        était entretemps devenue insuffisante, cet avertissement fut une fois
+        encore ignoré et l’on choisit une zone à proximité du fleuve, à côté
+        de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Santa Croce</placeName>, occupée
+        par une caserne de cavalerie en voie de déménagement. Ce choix s’avéra
+        néfaste quand le <date type="_temp" when="1966-11-04">4&#160;novembre&#160;1966</date>, une fois de plus, «&#160;l’Arno
+        sut prendre sa revanche, et, la main armée, retrouver le lit qui lui
+        était nécessaire&#160;»<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Targioni Tozzetti, ibidem</p>
+          </note>… et déborda. À travers les fenêtres du rez-de-chaussée, il
+        fit irruption dans la bibliothèque avec violence, en provoquant
+        l’explosion des chaudières remplies de mazout et l’éclatement des
+        lucarnes. Les plaques d’égout sautèrent, d’où les eaux usées sorties
+        du réseau d’assainissement pénétrèrent à l’intérieur. L’eau du fleuve
+        monta progressivement, en envahissant d’abord les sous-sols et le
+        rez-de-jardin, pour atteindre à la fin un niveau de sept mètres. Elle
+        emporta livres et journaux, «&#160;plus d’un million de ‘documents
+        bibliographiques’ rendus soudainement inutilisables&#160;»<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Luigi Crocetti et Anthony Cains, «&#160;Un’esperienza di
+            cooperazione&#160;», in <hi rend="italic">La cooperazione
+            internazionale per la conservazione del libro. Atti del Convegno,
+            Bollettino dell’Istituto di patologia del libro</hi>, 29, 1970,
+            1-4, p.&#160;27-49, ici p.&#160;28</p>
+          </note>, les catalogues, le mobilier, les équipements. Désastre dans
+        le désastre, furent entre autres touchés une partie de la collection
+        Magliabechiana, située au rez-de-jardin, les grands formats Palatini
+        et <persName ref="027365433" type="idref" xml:base="https://www.idref.fr/">Magliabechiani</persName>, ainsi que
+        les fonds historiques de la Nationale et les mélanges, tous logés dans
+        les sous-sols <hi>(voir ill. p.&#160;29, en bas)</hi>
+          <note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>D’après le directeur de l’époque, Domenico Fava, ce choix, qui
+            par ailleurs ne l’inquiéta pas plus que cela, fut déterminé par le
+            fait qu’en 1933, quand la construction de l’immeuble était
+            pratiquement achevée, le Génie civil avait déjà monté 18&#160;km de
+            rayonnages métalliques pour accueillir les fonds historiques, sans
+            tenir compte du fait que les dimensions des grands formats ne
+            permettaient pas leur rangement sur des étagères larges de 26&#160;cm.
+            L’espace dans les magasins était désormais saturé et on fut obligé
+            de se replier dans les sous-sols, en réalisant 1&#160;500&#160;mètres de
+            rayonnages supplémentaires de 45&#160;cm, pour y placer les 25&#160;000
+            grands formats extraits de leurs fonds respectifs.</p>
+          </note>.</p>
+        <figure xml:id="d1e87">
+          <graphic url="https://didomena.ehess.fr/downloads/mp48sn38b.jpg"/>
+          <head xml:id="d1e88">Figure 2. Rayonnage du dépôt immédiatement
+          après l’inondation. © et clichés Peter Waters</head>
+        </figure>
+        <div type="section1" xml:id="d1e90">
+          <head subtype="level1" xml:id="d1e91">Premiers secours</head>
+          <p xml:id="d1e93">«&#160;Madame, regardez ce qui est arrivé&#160;: nous
+          faisons tout notre possible&#160;». Une employée se souvient que c’est
+          avec ces mots que le directeur <persName ref="028481496" type="idref" xml:base="https://www.idref.fr/">Emanuele
+          Casamassima</persName> s’adressa à elle le jour suivant la
+          catastrophe, lorsque certains employés se retrouvèrent dans la
+          bibliothèque et se mirent, encore égarés, à soulever chaises et
+          tables et à redresser les livres. Ces gestes offrent, aujourd’hui
+          encore, l’image concrète de l’ébranlement provoqué par un désastre
+          sans précédent et permettent de saisir l’effort d’imagination et de
+          coordination accompli par <persName ref="028481496" type="idref" xml:base="https://www.idref.fr/">Casamassima</persName> qui réussit
+          à faire face, avec lucidité et clairvoyance, à une catastrophe
+          inimaginable tant par sa nature que par le nombre d’objets qui
+          furent touchés<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Un tiers du patrimoine de la Bibliothèque nationale, qui
+              s’élevait alors à trois millions de livres, fut frappé, en plus
+              des catalogues, des équipements, de l’ameublement et autres
+              installations. D’après la <hi rend="italic">Relazione sulla BNCF
+              del 4</hi>&#160;<hi rend="italic">febbraio</hi>&#160;<hi rend="italic">1967</hi>, signée par Casamassima&#160;: «&#160;Matériel de
+              bibliothèque&#160;: endommagées environ 1&#160;200&#160;000&#160;unités
+              bibliographiques, parmi lesquelles&#160;: 300&#160;000&#160;livres (collection
+              Magliabechiana, collection de grands formats Magliabechiani et
+              Palatini, œuvres modernes, doubles)&#160;; environ 20&#160;000&#160;titres de
+              magazines et journaux (pour environ 400&#160;000&#160;volumes)&#160;; environ
+              10&#160;000&#160;revues (pour environ 60&#160;000&#160;volumes)&#160;; la collection des
+              mélanges (19&#160;000&#160;boîtes pour environ 400&#160;000&#160;pièces, opuscules
+              et tirés à part)&#160;; la collection des thèses françaises et
+              allemandes (environ 50&#160;000&#160;volumes)&#160;; la collection des
+              affiches. Catalogues et inventaires&#160;: tous les catalogues sont
+              gravement endommagés, tant ceux en volumes que ceux en fiches,
+              ainsi que les inventaires&#160;; il s’agit d’un total d’environ
+              8&#160;millions de fiches&#160;». Et il continue avec la liste des dégâts
+              concernant «&#160;Autres matériels et installations&#160;» et «&#160;Dégâts au
+              bâtiment et aux fenêtres&#160;» (E.&#160;Casamassima, «&#160;Relazione sulla
+              BNCF del 4&#160;febbraio&#160;1967&#160;», in <hi rend="italic">BNCF</hi>, AS
+              n.&#160;1300, dactylographié).</p>
+            </note>. Rien n’allait de soi et, comme le confiera plus tard
+          <persName ref="034323244" type="idref" xml:base="https://www.idref.fr/">Luigi Crocetti</persName>, à
+          l’époque bibliothécaire de la Nationale, «&#160;le problème était, pour
+          les bibliothécaires, de ne pas se tromper d’intervention et de
+          s’improviser organisateurs d’un système de sauvetage&#160;»<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Crocetti-Cains, op.&#160;cit., p.&#160;28</p>
+            </note>.</p>
+          <p xml:id="d1e114">Aidé principalement par deux employés de
+          confiance de <persName ref="028481496" type="idref" xml:base="https://www.idref.fr/">Casamassima</persName>, «&#160;promus
+          sur-le-champ&#160;» vice-directeurs<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Ivaldo Baglioni, bibliothécaire adjoint, et Alfiero Manetti,
+              assistant de la salle des périodiques.</p>
+            </note> non tant à cause de leur position que sur la base de leurs
+          capacités, le directeur, après avoir fait pomper l’eau, ordonna de
+          déplacer les livres vers les étages supérieurs, grâce à des chaînes
+          humaines composées de bénévoles venus du reste de l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> et de
+          l’étranger, les désormais célèbres «&#160;anges de la boue&#160;» <hi>(voir
+          ill. ci-contre, en bas)</hi>, qui se passaient les volumes de main
+          en main dans des conditions absolument critiques&#160;: humidité, boue,
+          froid, avec pour toute lumière de faibles ampoules alimentées par
+          des groupes électrogènes qui éclairaient magasins et escaliers<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>«&#160;Dans les sous-sols de la bibliothèque, à la chaîne, presque
+              dans le noir, en trébuchant, nous ramenions au sec, pour ainsi
+              dire, des paquets malodorants, gorgés d’eau, de boue et de fioul
+              […] nous voyions des feuilles imprimées collées aux plafonds,
+              des étagères tordues, des meubles éventrés […] nous nous
+              déplacions, avec nos habits inadaptés, dans cet univers de froid
+              intense, de puanteur, de projections de gadoue&#160;», raconte Sergio
+              Marchini (un «&#160;ange de la boue&#160;» devenu employé de la
+              Bibliothèque), «&#160;Periodici nel fango&#160;», in <hi rend="italic">Biblioteche oggi</hi>, 14, 1996, 10, p.&#160;23.</p>
+            </note>. Mais ils étaient animés d’une solidarité spontanée et par
+          la fierté «&#160;d’en être&#160;». Les premiers livres déplacés furent les
+          Palatini, transférés dans le cloître de Brunelleschi, au premier
+          étage de la bibliothèque, afin d’être interfoliés, ouverts en
+          éventail ou démontés et étendus sur des fils fixés entre les
+          colonnes. Au fur et à mesure, les volumes mouillés furent mis à
+          sécher sur des tables, sur des chaises et sur toute autre surface au
+          sec, ou ils furent entassés l’un sur l’autre sur les sols couverts
+          de sciure des couloirs et des salles (salle de délivrance des
+          documents, salle des catalogues, salle des périodiques), laissant la
+          place juste pour le passage. Au rez-de-chaussée, on organisa le
+          nettoyage et le séchage des catalogues de fiches.</p>
+          <figure xml:id="d1e129">
+            <graphic url="https://didomena.ehess.fr/downloads/df65vh354.jpg"/>
+            <head xml:id="d1e130">Figure 3. Les bénévoles au travail. © et
+            clichés Peter Waters</head>
+          </figure>
+          <p xml:id="d1e132">De nombreux grands formats furent, quant à eux,
+          transportés à la centrale thermique des chemins de fer, qui
+          disposait d’eau chaude et froide&#160;; là, ils furent défaits –
+          malheureusement, au début, on le faisait quand ils étaient encore
+          mouillés&#160;–, lavés de façon sommaire, dans des bacs de développement
+          de photographies, et placés à sécher sur des fils accrochés entre
+          deux parois. Ce processus était toutefois trop lent et, pour
+          l’accélérer, on adopta la solution de déposer les livres dans des
+          cellules à l’intérieur desquelles circulait de l’air réchauffé
+          <hi>(voir ill. p.&#160;37)</hi>. Les bénévoles travaillaient à la chaîne,
+          sur trois rotations de huit heures chacune, et traitaient une
+          moyenne de 90&#160;livres par jour. Il fut bientôt évident qu’une telle
+          quantité de volumes ne pouvait être séchée par les moyens
+          traditionnels qui, par ailleurs, avaient déjà été tous expérimentés,
+          mais l’urgence de bloquer le développement des moisissures poussa
+          <persName ref="028481496" type="idref" xml:base="https://www.idref.fr/">Casamassima</persName> à donner
+          suite à l’idée d’avoir recours aux fours de séchage des étoffes,
+          adoptant ainsi le parti d’une intervention par la chaleur. «&#160;Sans la
+          décision rapide, par le directeur de la bibliothèque, d’utiliser
+          n’importe quel type de séchoir pour essuyer livres et revues trempés
+          d’eau et de boue, nous ne contemplerions probablement aujourd’hui
+          qu’une culture infinie de champignons et de moisissures&#160;»<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Crocetti-Cains, op.&#160;cit., p.&#160;28</p>
+            </note>.</p>
+          <figure xml:id="d1e140">
+            <graphic url="https://didomena.ehess.fr/downloads/5q47rx76q.jpg"/>
+            <head xml:id="d1e141">Figure 4. Étuves de séchage. © et clichés
+            Peter Waters</head>
+          </figure>
+          <p xml:id="d1e143">
+            <date from="1966-11" to="1966-12" type="_temp">De
+          novembre à décembre&#160;1966</date> furent donc déplacés, par au total
+          503&#160;camions de l’armée, des livres vers des fours de séchage
+          industriels. Environ 7&#160;000&#160;volumes anciens furent accueillis dans
+          des laboratoires de restauration italiens, où, en plus du séchage,
+          on procéda par la suite aux opérations de restauration.
+          70&#160;000&#160;volumes, pour la plupart de date récente, furent eux traités
+          à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> dans le
+          quartier de l’EUR, au <placeName ref="8015128" type="geonames" xml:base="https://www.geonames.org/">Palazzo della Civiltà del
+          Lavoro</placeName>. Après le séchage, les livres furent réunis sur
+          les collines de <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>, au Fort
+          du Belvédère, où l’on avait monté 12&#160;km de rayonnages&#160;; on y
+          sélectionna environ 120&#160;000&#160;volumes parmi les plus anciens, pour les
+          introduire dans un «&#160;système&#160;» qui représenta, de fait, la première
+          tentative de planifier une restauration à vaste échelle dans le
+          domaine des bibliothèques. Dans chaque volume était insérée une
+          bandelette en papier avec les symboles qui décrivaient de façon
+          imagée les conditions dans lesquelles se trouvait le livre et
+          indiquaient les soins premiers et essentiels à lui apporter, de
+          manière à rendre les communications rapides et compréhensibles même
+          par un personnel hétérogène et parlant des langues diverses. Cette
+          préparation fut confiée à <persName ref="034323244" type="idref" xml:base="https://www.idref.fr/">Luigi Crocetti</persName> et
+          <persName ref="07781889X" type="idref" xml:base="https://www.idref.fr/">Carla Bonanni</persName>, elle
+          aussi bibliothécaire à la Nationale, en collaboration avec <persName type="_temp">Anthony Cains</persName>, <persName type="_temp">Peter
+          Waters</persName> et <persName type="_temp">Dorothy
+          Cumpstey</persName> qui, envoyés par le <placeName ref="6697862" type="geonames" xml:base="https://www.geonames.org/">British
+          Museum</placeName>, furent parmi les premiers experts qui arrivèrent
+          à <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>, le <date type="_temp" when="1966-11-26">26&#160;novembre</date> déjà,
+          immédiatement suivis par <persName type="_temp">Roger
+          Powell</persName>, <persName type="_temp">Philip Smith</persName>
+          et, ensuite, <persName type="_temp">Christopher Clarkson</persName>,
+          <persName type="_temp">Sidney Morris Cockerell</persName> et
+          d’autres encore. En effet, sans laisser perdre de temps, les aides
+          internationales appelées par <persName ref="028481496" type="idref" xml:base="https://www.idref.fr/">Casamassima</persName> s’étaient
+          mobilisées, tandis qu’il se plaindra, dans une fameuse interview à
+          <hi rend="italic">Il&#160;Ponte</hi>
+            <note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>«&#160;La Biblioteca Nazionale. Intervista con il Direttore
+              Emanuele Casamassima&#160;», in <hi rend="italic">Il&#160;Ponte</hi>, 22,
+              1966, 11-12 [Numéro spécial, <hi rend="italic">Firenze
+              perché</hi>], p.&#160;1405-1411</p>
+            </note>, des retards de la bureaucratie ministérielle intervenue,
+          qui plus est, en ordre dispersé. En particulier, deux comités furent
+          spécifiquement constitués, l’anglais IAARF et l’américain CRIA<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Le «&#160;Committee to Rescue Italian Art&#160;» (CRIA) américain et
+              l’«&#160;Italian Art and Archive Rescue Fund&#160;» (IAARF) anglais.</p>
+            </note>&#160;: ils envoyèrent des relieurs et des experts, tout en
+          fournissant une aide financière conséquente pour payer la main
+          d’œuvre et acheter le matériel. Ce fut précisément l’équipe
+          d’experts envoyée par le <placeName ref="6697862" type="geonames" xml:base="https://www.geonames.org/">British Museum</placeName> qui
+          se chargea de mettre en route l’organisation pour la récupération du
+          matériel et de former les bénévoles (en <date type="_temp" when="1966-12">décembre 1966</date>, ceux-ci étaient plus de 130),
+          qui ignoraient toute notion de restauration et provoquaient de
+          nombreux et «&#160;formidables problèmes logistiques inhérents à
+          l’intervention sur le terrain d’une armée de jeunes&#160;»<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Elisa Di Renzo, <hi rend="italic">Una biblioteca,
+              un’alluvione. Il 4</hi>&#160;<hi rend="italic">novembre alla
+              Nazionale di Firenze&#160;: storia di un’emergenza</hi>, Roma, AIB,
+              2009, p.&#160;31</p>
+            </note>.</p>
+          <figure xml:id="d1e170">
+            <graphic url="https://didomena.ehess.fr/downloads/2b88qm311.jpg"/>
+            <head xml:id="d1e171">Figure 5. Lungarno delle Grazie
+            (coll.&#160;Archives photographiques de la Restauration, Bibliothèque
+            des sciences technologiques [Architecture], Université de
+            Florence). © et clichés Adriano Bartolozzi, Archives
+            photographiques de la Restauration, Bibliothèque des sciences
+            technologiques (Architecture), Université de Florence</head>
+          </figure>
+          <figure xml:id="d1e175">
+            <graphic url="https://didomena.ehess.fr/downloads/kp78gq65c.jpg"/>
+            <head xml:id="d1e176">Figure 6. Piazza Poggi vue de la Via dei
+            Bastioni (coll.&#160;Archives photographiques de la Restauration,
+            Bibliothèque des sciences technologiques [Architecture],
+            Université de Florence). © et clichés Adriano Bartolozzi, Archives
+            photographiques de la Restauration, Bibliothèque des sciences
+            technologiques (Architecture), Université de Florence</head>
+          </figure>
+          <p xml:id="d1e180">Pour cette «&#160;armée&#160;», on mit en place une cantine
+          dans les locaux de la salle de consultation et, bien avant que les
+          institutions locales fassent la démarche, fut organisée une campagne
+          de vaccination antityphoïdique et antitétanique, par la suite
+          élargie à tout le quartier. En <date type="_temp" when="1967-01">janvier 1967</date>, la bibliothèque prit conscience
+          de ne plus pouvoir continuer à utiliser du personnel sans assurance
+          et prit ainsi contact avec la Coopérative&#160;LAT<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Acronyme de «&#160;Lavoratori Addetti al Traffico&#160;», coopérative
+              en charge du ménage des trains, qui se trouvait, à l’époque, en
+              pleine dissolution.</p>
+            </note>, en réussissant à obtenir que celle-ci embauche les
+          volontaires encore présents dans la bibliothèque, parmi lesquels se
+          trouvaient les anciens ouvriers de la Brasserie Würer, fermée après
+          l’inondation. En définitive, il faut reconnaître à <persName ref="028481496" type="idref" xml:base="https://www.idref.fr/">Emanuele Casamassima</persName> –
+          lors de circonstances dans lesquelles le simple fait de réfléchir
+          s’avérait difficile – des qualités de lucidité et d’intelligence
+          dans la mise en place du plan d’intervention, ainsi que la capacité
+          de transformer «&#160;ce qui aurait pu facilement devenir une armée de
+          loqueteux […] en une armée disciplinée&#160;»<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Di Renzo, op.&#160;cit., p.&#160;30</p>
+            </note>.</p>
+          <p xml:id="d1e188">La volonté ferme de sauvetage du patrimoine qui
+          anima ces journées est bien incarnée par une affiche accrochée à une
+          étagère de la salle de consultation où, en bas d’un petit poisson,
+          était écrit&#160;: «&#160;Ce sont les étudiants qui m’ont trouvé, <date type="_temp" when="1967-11-13">dimanche 13&#160;novembre</date>, dans les
+          magasins, et si je ne suis pas mort, la Bibliothèque nationale ne
+          mourra pas non plus&#160;».</p>
+        </div>
+        <div type="section1" xml:id="d1e190">
+          <head subtype="level1" xml:id="d1e191">Une organisation dans
+          l’urgence</head>
+          <p xml:id="d1e193">Au printemps <date type="_temp" when="1967">1967</date>, le laboratoire fut déplacé du Fort du
+          Belvédère et de la centrale thermique, les premiers endroits
+          improvisés, vers l’intérieur de la bibliothèque&#160;; l’organisation du
+          travail s’appuya sur le principe de la répartition, pour répondre
+          aux exigences qui surgissaient au fur et à mesure de l’activité,
+          «&#160;non pas en entier et tout armée comme <persName ref="027591786" type="idref" xml:base="https://www.idref.fr/">Athéna</persName> dans
+          le cerveau de <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName>, mais petit à
+          petit&#160;»<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Crocetti-Cains, op.&#160;cit., p.&#160;28</p>
+            </note>.</p>
+          <p xml:id="d1e198">La structure était articulée en divisions,
+          chacune avec un seul secteur d’intervention, tant pour augmenter la
+          productivité qu’à cause de la nécessité d’apprendre une seule
+          opération à un personnel inexpérimenté. Dans la pratique, il
+          s’agissait d’une sorte de travail à la chaîne, appelé «&#160;système&#160;» et
+          organisé de la façon suivante&#160;: d’abord, spécification du cas, puis
+          collation, démontage, opérations humides, retouches, collation
+          finale, reliure ancienne et moderne, dorure et passage au cabinet
+          chimique <hi>(voir ill. p.&#160;32)</hi>. À la tête du nouveau
+          laboratoire se trouvaient <persName type="_temp">Anthony
+          Cains</persName>, pour la partie technique, et <persName ref="034323244" type="idref" xml:base="https://www.idref.fr/">Luigi
+          Crocetti</persName>, pour la partie bibliographique&#160;; ils
+          travaillaient côte à côte pour ce qui concerne les prescriptions
+          finales et créèrent un exemple, atypique pour l’époque, de
+          collaboration étroite entre bibliothécaires et techniciens,
+          constamment engagés «&#160;dans une discussion ininterrompue sur les
+          principes de la conservation et sur la cohérence entre ceux-ci et
+          les techniques utilisées&#160;»<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Crocetti-Cains, op.&#160;cit., p.&#160;46</p>
+            </note>.</p>
+          <figure xml:id="d1e206">
+            <graphic url="https://didomena.ehess.fr/downloads/1c18dq72n.jpg"/>
+            <head xml:id="d1e207">Figure 7. L’atelier de restauration installé
+            dans la salle de lecture de la Bibliothèque nationale. © et
+            clichés Peter Waters</head>
+          </figure>
+          <p xml:id="d1e209">Les experts anglais sortaient de l’école de
+          <persName ref="056935102" type="idref" xml:base="https://www.idref.fr/">Douglas Cockerell</persName>, qui
+          avait introduit pour la première fois dans le domaine de la reliure
+          les concepts de stabilité et de durabilité, non seulement pour ce
+          qui concerne les techniques de fabrication, mais aussi pour ce qui
+          est des matériels, et qui s’était consacré à la recherche de
+          structures de bonne conservation pour les nouvelles reliures, en
+          partant de l’étude des anciennes. Ses recherches menèrent aussi à
+          l’identification d’une reliure qui s’était avérée très résistante
+          aux agressions du temps et à l’eau, sans adhésifs et tenue ensemble
+          de façon mécanique uniquement par des encastrements, la «&#160;<foreign xml:lang="ita">pergamena floscia</foreign>&#160;» (le parchemin souple)
+          que les Anglais remirent au goût du jour et qui devint la reliure
+          caractéristique de <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>. L’intérêt
+          pour la reconstitution de la fabrication des volumes, et donc
+          l’attention portée aux composantes matérielles, dont l’étude fut
+          d’autant plus favorisée par la nécessité de découdre les reliures de
+          milliers de volumes, rejoint les propos déjà tenus auparavant par
+          <persName ref="028481496" type="idref" xml:base="https://www.idref.fr/">Casamassima</persName>, qui
+          soutenait la nécessité de refaire les reliures en vue de la
+          fonctionnalité et de la bonne conservation, et non de l’esthétique,
+          «&#160;sauf celle inhérente à la correspondance de l’objet avec sa
+          fonction&#160;»<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Emanuele Casamassima, «&#160;Nota sul restauro delle legature&#160;»,
+              in <hi rend="italic">Bollettino AIB</hi>, 3, 1957, 1-2,
+              p.&#160;13-21, ici p.&#160;21</p>
+            </note>.</p>
+          <p xml:id="d1e218">Ces principes furent appliqués, là où il était
+          impossible de reconstituer l’original, avec l’adoption de nouvelles
+          reliures à couverture sobre, sans décorations ni fioritures, aux
+          structures durables. Enfin, <foreign xml:lang="eng">last but not
+          least</foreign>, chaque volume à restaurer, même s’il apparaissait
+          sans intérêt particulier ou sans valeur esthétique, fut malgré tout
+          traité en tant qu’unicum, du moment qu’il représentait un témoignage
+          irremplaçable de son histoire. C’est aussi dans ce sens que fut
+          réalisée une fiche de restauration – mise au point par le couple
+          <persName type="_temp">Peter</persName> et <persName type="_temp">Sheila Waters</persName> et dont la «&#160;bandelette&#160;»
+          utilisée au Fort du Belvédère avait été le premier pas –, laquelle
+          enregistrait, pour chaque volume entré dans le cycle de
+          restauration, la structure d’origine et les dégâts subis, ainsi que
+          les prescriptions de matériels et de techniques, tout en
+          s’articulant sur un parcours analytique rapide à suivre, au moment
+          de la rédaction, et simple à consulter dans le futur, ceci aussi
+          dans le but, d’une part de fixer ce moment particulier de l’histoire
+          du document, et de vérifier d’autre part la réaction des matériels
+          et techniques utilisés. Pour conclure, il vaut la peine de souligner
+          qu’à <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName> à cette
+          époque s’était réuni le nec plus ultra, au niveau international, de
+          la restauration en bibliothèque, en particulier celle que l’on
+          pourrait appeler l’«&#160;école anglaise&#160;», née dans le sillage de cette
+          lecture spécifique de l’histoire de l’artisanat que l’on doit à
+          <persName ref="027039218" type="idref" xml:base="https://www.idref.fr/">William Morris</persName> et au
+          mouvement «&#160;<foreign xml:lang="eng">Arts and Crafts</foreign>&#160;»,
+          fondé par lui au <placeName ref="2648147" type="geonames" xml:base="https://www.geonames.org/">Royaume-Uni</placeName> à la
+          fin du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>
+            <note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>«&#160;We can say a little more that the only work of art which
+              surpasses a complete medieval book is a complete medieval
+              building&#160;» (W.&#160;Morris, «&#160;On the Woodcuts of Gothic Books&#160;», in
+              <hi rend="italic">The Times</hi>, 25<hi rend="sup">th</hi>&#160;January&#160;1892).</p>
+            </note>. Chaque acteur avait semé une petite graine de
+          connaissances dont le potentiel ne se révéla que des années plus
+          tard.</p>
+        </div>
+        <div type="section1" xml:id="d1e233">
+          <head subtype="level1" xml:id="d1e234">L’administration reprend la
+          main</head>
+          <p xml:id="d1e236">Telle était la situation à la fin des <date from="1960" to="1969" type="_temp">années soixante</date>. Dès les
+          premiers mois qui suivirent l’inondation, de fortes tensions étaient
+          apparues entre la bureaucratie ministérielle, basée à <placeName ref="3169070" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, et <persName ref="028481496" type="idref" xml:base="https://www.idref.fr/">Emanuele Casamassima</persName>,
+          des tensions qui allaient s’envenimer avec le temps, de sorte qu’en
+          <date type="_temp" when="1970">1970</date>, après avoir réussi un
+          concours universitaire pour une chaire de paléographie, <persName ref="028481496" type="idref" xml:base="https://www.idref.fr/">Casamassima</persName> donna sa
+          démission de la direction de la bibliothèque. <persName ref="034323244" type="idref" xml:base="https://www.idref.fr/">Luigi
+          Crocetti</persName> et <persName type="_temp">Anthony
+          Cairns</persName> tinrent encore bon pendant deux ans, mais en <date type="_temp" when="1972">1972</date>, eux aussi quittèrent la
+          Nationale pour devenir respectivement, l’un le Surintendant
+          bibliographique de la Région Toscane, l’autre le directeur du
+          Conservation Department de la Trinity College Library de <placeName ref="2964574" type="geonames" xml:base="https://www.geonames.org/">Dublin</placeName>. En <date type="_temp" when="1972">1972</date>, donc, de l’expérience
+          florentine ne restait que la centaine de travailleurs réunis et
+          organisés à l’intérieur de la Coopérative&#160;LAT. Pour les raisons
+          précédemment évoquées – la nécessité de faire face rapidement à
+          l’urgence imposée par les événements sur le matériel inondé et
+          l’absence d’une quelconque formation de la part du personnel
+          consacré à la restauration –, <persName type="_temp">Cains</persName> et <persName ref="034323244" type="idref" xml:base="https://www.idref.fr/">Crocetti</persName>
+          avaient choisi une organisation du travail répartie en secteurs&#160;: le
+          personnel avait été divisé en groupes et chaque groupe avait appris
+          une petite partie de l’intervention de restauration. C’est pourquoi
+          les personnes chargées des traitements par voie humide (lavages et
+          désacidification) ignoraient les techniques de réparation des
+          feuilles, qui étaient par ailleurs inconnues aussi de celles qui
+          s’occupaient de la reliure. Si ce processus était compréhensible
+          dans l’urgence de l’inondation, avec le temps il s’avéra un lourd
+          handicap à la qualification professionnelle des employés de la
+          Coopérative&#160;LAT, puisqu’aucun d’entre eux ne pouvait être considéré
+          comme un restaurateur à part entière. Cette situation fut réparée,
+          d’un point de vue administratif à tout le moins, par l’institution
+          du ministère des Biens culturels et environnementaux (désormais
+          dénommé Mbca) en <date type="_temp" when="1975">1975</date>, par
+          <persName ref="028386663" type="idref" xml:base="https://www.idref.fr/">Giovanni Spadolini</persName>,
+          homme d’État florentin. Les origines du nouveau ministre jouèrent en
+          faveur du «&#160;laboratoire&#160;» de la Nationale, dont les employés furent
+          tous répartis, par une sorte de décision «&#160;<foreign xml:lang="lat">ope legis</foreign>&#160;», dans l’administration
+          publique, en <date type="_temp" when="1976-03">mars 1976</date>.</p>
+          <p xml:id="d1e238">De quelle façon l’expérience de l’inondation
+          florentine eut-elle des répercussions dans l’évolution de la
+          restauration en bibliothèque en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>? Jusqu’en
+          <date type="_temp" when="1966">1966</date>, la référence
+          institutionnelle (et quasiment unique) dans ce domaine avait été
+          l’Institut de pathologie du livre, à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, la «&#160;clinique
+          du livre&#160;» selon l’heureuse définition (d’un point de vue
+          médiatique) de son fondateur, <persName ref="085863246" type="idref" xml:base="https://www.idref.fr/">Alfonso Gallo</persName>, lequel
+          donna à cette institution une ample résonance, y compris
+          internationale. Sans entrer dans une discussion sur le mérite du
+          choix d’assimiler le livre à un organisme biologique, choix
+          certainement discutable, la tentative de <persName ref="085863246" type="idref" xml:base="https://www.idref.fr/">Gallo</persName> de
+          fusionner sciences humaines et sciences de la nature en vue de la
+          conservation fut sans aucun doute appréciable. Toutefois, si le
+          projet était méritoire, ce ne fut pas le cas pour sa réalisation,
+          tout d’abord à cause de la résistance chronique des chercheurs en
+          sciences de la nature à se mettre concrètement au service de la
+          conservation&#160;; secondement, à cause de la césure nette qui sépara
+          longtemps l’atelier de restauration<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>«&#160;La nécessité s’imposait d’appeler à collaborer, suivant un
+              principe de coordination rigoureuse, des biologistes, des
+              chimistes, des physiciens, des techniciens. Le laboratoire de
+              restauration endossait la fonction d’un atelier d’exécution,
+              dernière étape du chemin attribué au livre par les mesures
+              attentionnées de spécialistes&#160;» (A.&#160;Gallo, «&#160;Decennale&#160;», in <hi rend="italic">Bollettino dell’Istituto di patologia del
+              libro</hi>, 7, 1948, p.&#160;1-16, ici p.&#160;4). Il est évident que,
+              dans la conception du fondateur de l’Institut de pathologie du
+              livre, la restauration des ouvrages ne pouvait dépasser le rôle
+              d’activité d’exécution, en tous les cas privée d’une quelconque
+              autonomie scientifique.</p>
+            </note> des laboratoires de biologie et de chimie. En tout cas,
+          l’Institut était une monade italienne, soi-disant glorieuse, et
+          surtout – au moins pour ce qui concerne la restauration – refermée
+          sur elle-même dans la conviction qu’à l’intérieur de ses murs se
+          trouvaient les meilleurs restaurateurs au monde et qu’il n’existait
+          pas de techniques alternatives aux leurs. Les choses devaient
+          probablement en être ainsi, puisque le laboratoire s’était structuré
+          autour d’un relieur artisanal qui, à son tour, avait formé ses
+          confrères, tous dotés d’une culture qui ne dépassait pas la culture
+          générale de base. Ces conditions initiales furent la cause qu’au
+          cours de leur première visite aux laboratoires de la Nationale de
+          <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>, les
+          restaurateurs venus de <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> se trouvèrent
+          devant une réalité pour eux déconcertante&#160;; étonnés et, sans doute,
+          effrayés par de nouvelles méthodes complètement inconnues, ils les
+          exorcisèrent en en minimisant la portée. Toutefois, une fois rentrés
+          à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, ils ne
+          tardèrent pas à appliquer à leur propre travail certaines des
+          techniques qu’ils avaient vues en action à <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>. Le
+          processus fut long et contradictoire&#160;; on considéra comme
+          irrecevable l’approbation intégrale des méthodes florentines, mais
+          d’un autre côté, la certitude qu’il n’y avait pas de vie en dehors
+          des murs de l’Institut de pathologie du livre en fut heureusement
+          affaiblie.</p>
+          <p xml:id="d1e247">Un autre effet de l’inondation consista dans la
+          sensibilisation de l’administration centrale aux problèmes de la
+          conservation des livres. Compte tenu de la lenteur de réactivité
+          caractérisant les appareils bureaucratiques, ceux-ci mirent quelques
+          années à prendre des initiatives concrètes. Quoi qu’il en soit, au
+          printemps <date type="_temp" when="1973">1973</date> fut publié un
+          concours pour dix postes de chercheurs à l’Institut de pathologie du
+          livre. Si l’on pense que jusqu’alors, le personnel se limitait à
+          quatre diplômés universitaires, cette augmentation – de 250&#160;% –
+          était tout à fait inédite. Les diplômes requis étaient les
+          suivants&#160;: biologie, chimie, physique, sciences et ingénierie.
+          Ainsi, une fois achevées les procédures habituelles liées au
+          concours, en <date type="_temp" when="1974-09">septembre
+          1974</date>, une cuvée de jeunes chercheurs, âgés (sauf deux qui
+          avaient dépassé la trentaine) entre 25 et 30&#160;ans, fit son entrée
+          dans les laboratoires de l’Institut&#160;: tous étaient, de fait, des
+          néophytes dans les matières auxquelles ils allaient se consacrer,
+          mais ils faisaient preuve d’un enthousiasme et d’une envie de se
+          mettre au travail qui – on peut le dire – bouleversèrent la vie de
+          l’Institut, jusque-là tranquille, voire soporifique.</p>
+          <p xml:id="d1e249">Nous pensons avoir assez bien mis en lumière la
+          séparation qui existait entre <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName> et
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>&#160;: la première
+          représentait, avec toutes ses limites, la nouveauté qui mettait en
+          discussion méthodes et formes, non seulement concernant la
+          technique, mais aussi l’organisation de la restauration&#160;; tout comme
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> réagissait
+          face à cette nouveauté et défendait le passé auquel elle
+          s’accrochait par tous les moyens. En <date type="_temp" when="1974">1974</date>, huit ans après l’inondation, il n’y avait
+          pas eu de changements&#160;: la Nationale, à <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>, était
+          toujours perçue comme une tanière d’individus subversifs (aussi bien
+          techniquement que politiquement), tandis que l’Institut de
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> était le
+          «&#160;bras séculaire&#160;» du conservatisme ministériel. L’arrivée des
+          jeunes chercheurs apporta des éléments qui vinrent bousculer les
+          équilibres stables de l’époque précédente&#160;: en effet, deux d’entre
+          eux établirent tout de suite des contacts avec les collègues
+          florentins pour mieux comprendre le phénomène et, surtout, pour
+          mettre en œuvre une action commune susceptible de remettre en
+          question l’organisation, en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, de la
+          conservation et de la restauration en bibliothèque. La création du
+          Mbca se chargea du reste, de sorte qu’en <date type="_temp" when="1976">1976</date>, à l’occasion du dixième anniversaire de
+          l’inondation, le secteur était en pleine effervescence&#160;: les plus de
+          cent chargés de restauration de la Nationale, les jeunes chercheurs
+          de l’Institut romain, auxquels s’ajoutaient quelques dizaines de
+          techniciens embauchés sur concours, eux aussi des «&#160;produits&#160;» de
+          l’inondation, avaient multiplié de façon exponentielle le personnel
+          affecté à la conservation et à la restauration du livre.</p>
+        </div>
+        <div type="section1" xml:id="d1e251">
+          <head subtype="level1" xml:id="d1e252">Une nouvelle culture de la
+          restauration</head>
+          <p xml:id="d1e254">Toutefois, pour les raisons précédemment
+          exposées, la préparation de ce personnel demeurait objectivement
+          défaillante&#160;: personne n’avait reçu une formation spécifique,
+          puisqu’à la différence de l’Institut central de la restauration, il
+          n’existait pas de lieux où l’on dispensât de manière structurée et
+          organisée l’enseignement de la conservation en bibliothèque. Les
+          cours de l’Institut de pathologie du livre étaient courts et
+          superficiels, tendant plutôt à l’apprentissage des rudiments de la
+          restauration qu’à la construction du parcours professionnel, fort
+          complexe, du restaurateur de livres. Dans ce contexte, le
+          département consacré à la formation du nouveau ministère demanda à
+          l’Institut de pathologie du livre d’organiser une série de cours de
+          remise à niveau pour le personnel récemment embauché. Le premier
+          cycle se déroula à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, à l’automne
+          <date type="_temp" when="1976">1976</date>, au siège de l’Institut,
+          et des restaurateurs romains et florentins y participèrent.
+          <persName ref="028560264" type="idref" xml:base="https://www.idref.fr/">Armando Petrucci</persName>, alors
+          professeur de paléographie et de diplomatique à l’Université de
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> «&#160;<foreign xml:lang="ita">La Sapienza</foreign>&#160;», fut invité à faire un
+          séminaire. Il faut préciser qu’à l’époque, la restauration
+          considérée comme la plus importante était celle des manuscrits
+          médiévaux et que le but majeur de l’intervention était la sauvegarde
+          du texte écrit, auquel était subordonnée toute autre opération. Dans
+          cette perspective, les paléographes jouaient un rôle-clé dans tout
+          projet de restauration, et c’est à eux que l’on faisait appel chaque
+          fois que les restaurateurs se trouvaient face à des choix
+          problématiques. D’où la pertinence de demander à <persName ref="028560264" type="idref" xml:base="https://www.idref.fr/">Petrucci</persName> de tenir un
+          séminaire qu’il intitula «&#160;Quelques problèmes de restauration de
+          produits graphiques manuscrits et imprimés&#160;». Il parla de ses vingt
+          ans d’expérience en tant que bibliothécaire de la Corsiniana, puis
+          souhaita conclure son intervention avec les mots suivants&#160;:</p>
+          <quote rend="quotation" xml:id="d1e256">«&#160;Le restaurateur doit
+          assumer les responsabilités que lui donne sa propre culture,
+          laquelle est vaste et possède sa cohérence propre. Il doit éviter de
+          la rendre subalterne et abandonner cet asservissement culturel qui a
+          fait son temps et doit être démasqué. Si vous me permettez l’emploi
+          d’une expression désormais galvaudée&#160;: le roi est nu&#160;! D’autre part,
+          vous vous en êtes aperçus, jour après jour, dans votre travail,
+          quand vous posez des questions ou proposez des choix, et que
+          l’interlocuteur ne répond pas, se dérobe, fait semblant de maîtriser
+          une connaissance qu’il ne possède pas. C’est vrai&#160;: moi, je ne sais
+          pas répondre à beaucoup de vos questions&#160;»<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>La version écrite du séminaire d’Armando Petrucci n’a jamais
+              été publiée. On y fait référence dans un petit volume, édité par
+              Luisa Miglio (<hi rend="italic">Lettere per Armando
+              Petrucci</hi>, Spoleto, Fondazione Centro italiano di studi
+              sull’alto medioevo, 2012) et dans lequel, à l’occasion du 80<hi rend="sup">e</hi>&#160;anniversaire de Petrucci, ont été réunies les
+              lettres que lui avaient adressées certains de ses amis.
+              L’extrait cité se trouve à la p.&#160;5.</p>
+            </note>.</quote>
+          <p xml:id="d1e268">Ces propos, passés presque inaperçus sur le
+          moment, furent néanmoins à l’origine de la révolution qui, en
+          quelques années, investit la restauration en bibliothèque en
+          <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> (et
+          au-delà), à partir du moment où, en restituant (mieux, en
+          attribuant) aux restaurateurs le contrôle de leur propre activité,
+          les équilibres du système furent radicalement modifiés. Comme nous
+          venons de l’évoquer, tout ce qui suivit l’inondation florentine
+          continua à exercer, dans le temps, une influence sur la conservation
+          dans le domaine des bibliothèques&#160;; tant et si bien que, quatorze
+          ans après, à <placeName ref="3181927" type="geonames" xml:base="https://www.geonames.org/">Bologne</placeName>, grâce à
+          l’Institut pour le patrimoine culturel de la Région Émilie-Romagne –
+          en réalité de par l’initiative du bibliothécaire bolonais <persName type="_temp">Nazzareno Pisauri</persName>, qui fut l’un des premiers
+          à accourir à <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName> en <date type="_temp" when="1966-11">novembre&#160;1966</date> – fut organisée une
+          journée de séminaire à laquelle furent conviés certains des
+          protagonistes de l’opération qui suivit l’inondation florentine, au
+          premier rang desquels <persName ref="028481496" type="idref" xml:base="https://www.idref.fr/">Emanuele Casamassima</persName>.
+          Nous sommes d’avis que la date du séminaire de <placeName ref="3181927" type="geonames" xml:base="https://www.geonames.org/">Bologne</placeName> a coïncidé
+          avec la naissance du mouvement à l’origine de la métamorphose de la
+          restauration en bibliothèque&#160;; aussi n’est-il pas inapproprié
+          d’affirmer que, si les racines d’un tel mouvement se trouvent à
+          <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>, son
+          développement fut sans aucun doute favorisé par la déclaration
+          d’inadéquation exprimée par <persName ref="028560264" type="idref" xml:base="https://www.idref.fr/">Armando Petrucci</persName>
+          quelques années auparavant. Du reste, le titre du volume réunissant
+          les contributions de la rencontre de <placeName ref="3181927" type="geonames" xml:base="https://www.geonames.org/">Bologne</placeName> est assez
+          éloquent&#160;: autrefois, personne n’aurait osé dire que la conservation
+          en bibliothèque devait aller «&#160;au-delà du texte&#160;»<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Rosaria Campioni&#160;(éd.), <hi rend="italic">Oltre il testo.
+              Unità e strutture nella conservazione e nel restauro di libri e
+              documenti</hi>, Bologna, Istituto per i beni artistici,
+              culturali, naturali della Regione Emilia-Romagna, 1981</p>
+            </note>, puisque la sauvegarde de ce dernier représentait le seul
+          objectif réel. Évidemment, dans la mesure où un recueil de papier
+          privé de texte n’est pas un livre, ce dernier demeure la composante
+          primaire du livre en tant que bien culturel&#160;; toutefois, à
+          <placeName ref="3181927" type="geonames" xml:base="https://www.geonames.org/">Bologne</placeName>, l’on
+          «&#160;découvrit&#160;» que sa fonction par rapport à la conservation était
+          strictement accessoire. La conservation, et par conséquent – comme
+          nous allons l’expliquer par la suite – la restauration, n’agissent
+          que sur les matériaux et les structures du livre. Ce ne sont donc
+          qu’eux qui intéressent le restaurateur, pour lequel la fonction du
+          texte ne va pas au-delà de la situation historique de l’objet-livre.
+          L’étude historique des matériaux et des structures du livre, ancien,
+          moderne et contemporain, s’appelle «&#160;archéologie du livre&#160;», une
+          discipline née à l’intérieur de l’école paléographique franco-belge,
+          au milieu du <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date>. Il arrivait, et parfois il arrive
+          encore, que «&#160;codicologie&#160;» et «&#160;archéologie du livre&#160;» soient
+          entendues comme des synonymes<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Albert Gruijs, «&#160;Codicology or the Archaeology of the book? A
+              false dilemma&#160;», in <hi rend="italic">Quaerendo</hi>, II, 1972,
+              2, p.&#160;87-108</p>
+            </note>&#160;; nous considérons, au contraire, que la première prend en
+          considération le livre manuscrit (notamment le livre médiéval) dans
+          toutes ses composantes, matérielles et textuelles, tandis que la
+          seconde étudie la connaissance historique des matériels et des
+          techniques utilisés dans la fabrication du livre ancien, moderne et
+          contemporain, en interprétant le mot «&#160;archéologie&#160;» essentiellement
+          en tant qu’histoire de la culture matérielle. Si la codicologie
+          continue d’être pratiquée surtout par les paléographes,
+          l’archéologie du livre a trouvé un nouvel essor dans le domaine de
+          la conservation. Les restaurateurs, en effet, ne peuvent pas laisser
+          de côté la connaissance analytique des matériaux et des structures
+          du livre, l’histoire de leur comportement au travers des processus
+          de dégradation et, par conséquent, les opérations à effectuer, jour
+          après jour, pour contrer le développement de ces processus. Le trait
+          d’union entre tout ceci et l’inondation florentine est le volume,
+          déjà évoqué, <hi rend="italic">Oltre il testo</hi>, où furent
+          publiés deux articles qui, l’un de façon explicite<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Carlo Federici, «&#160;Archeologia del libro, conservazione,
+              restauro ed altro. Appunti per un dibattito&#160;», in <hi rend="italic">Oltre il testo</hi>, op.&#160;cit., p.&#160;13-20</p>
+            </note>, l’autre plus implicitement<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Gisella Guasti et Libero Rossi, «&#160;Una proposta di lavoro: il
+              prontuario&#160;», in <hi rend="italic">Oltre il testo</hi>,
+              op.&#160;cit., p.&#160;21-28</p>
+            </note>, relient étroitement la conservation à la connaissance des
+          composantes matérielles du livre. Leur étude, indispensable pour
+          toute intervention consciente sur celles-ci, a amené à reconnaître
+          l’importance de l’histoire de leur fabrication, dont la
+          reconstitution ne peut se faire qu’à travers l’analyse des
+          originaux. Tout ceci a fait progresser la sensibilité générale des
+          restaurateurs en orientant chaque intervention vers la sauvegarde
+          des informations matérielles dont tout livre, ancien et moderne, est
+          un témoin et un véhicule. En somme, par le passé et pendant des
+          siècles, l’objectif de la restauration en bibliothèque a été de
+          restituer fonctionnalité, voire – pire – solidité et robustesse au
+          livre, en favorisant à tout prix la lecture du texte et en ayant
+          comme seuls référents scientifiques ceux qui étudient les formes et
+          les contenus du texte lui-même (philologues, paléographes,
+          historiens de l’enluminure et de la décoration des livres).
+          Aujourd’hui, le but fondamental de la restauration (et de la
+          conservation en général) consiste à sauvegarder le pourcentage le
+          plus élevé possible d’informations contenues dans les matériels et
+          dans les structures qui constituent le livre (et, bien évidemment,
+          le document d’archive), en reconnaissant celui-ci comme «&#160;témoignage
+          matériel ayant valeur de civilisation&#160;»<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>En 1964, le ministère de l’Éducation nationale institua une
+              commission parlementaire chargée de réaliser une enquête sur la
+              conservation et la mise en valeur du patrimoine historique,
+              archéologique, artistique et environnemental, présidée par le
+              député Francesco Franceschini (1908-1987). Cette commission
+              œuvra jusqu’en 1967 et les actes, les documents et les autres
+              textes produits par celle-ci furent réunis en trois volumes
+              intitulés <hi rend="italic">Per la salvezza dei beni culturali
+              in Italia</hi>, Roma, Colombo, 1967. La première déclaration,
+              dans laquelle on donne la définition du patrimoine culturel
+              italien, est la suivante&#160;: «&#160;Appartiennent au patrimoine
+              culturel de la nation tous les biens ayant trait à l’histoire de
+              la civilisation. Sont soumis à la loi les biens qui relèvent de
+              l’intérêt archéologique, historique, artistique, environnemental
+              et paysager, archivistique et bibliothécaire, et tout autre bien
+              qui constitue un témoignage matériel ayant valeur de
+              civilisation&#160;». La phrase citée dans le texte correspond à la
+              fin de cette définition. Soit dit en passant, on peut noter la
+              coïncidence chronologique entre les travaux de la commission
+              Franceschini et l’inondation florentine, coïncidence qui du
+              reste ne peut être considérée comme le fruit du hasard.</p>
+            </note> – mettant ce faisant en acte les mesures qui permettent
+          une meilleure lecture desdites informations pour les contemporains
+          et les générations futures, sans introduire d’éléments susceptibles
+          d’empêcher ou de fausser une telle lecture. Dans la pratique, cela
+          se traduit par le fait que l’on procède à la restauration uniquement
+          quand l’état du livre peut mettre en danger la conservation des
+          informations matérielles (auxquelles, cela va de soi, sont liées les
+          informations textuelles). La conséquence en est la réduction
+          drastique des interventions invasives et la limitation maximale de
+          l’altération des composantes d’origine que la restauration suppose
+          inévitablement. Toutefois, en même temps, pour garantir la lecture
+          des informations transmises par le livre, il est indispensable de
+          lui rendre une efficacité structurelle qui permette et facilite
+          cette lecture, tout en évitant les tentations palingénésiques, par
+          ailleurs privées de signification et historiquement erronées. Un
+          dernier élément, qui n’est pas à négliger, est représenté par
+          l’impératif de fournir une documentation précise de l’intervention,
+          en en décrivant les modalités, les techniques et les matériels
+          utilisés, sans oublier de joindre cette description au volume
+          restauré, afin qu’elle puisse dorénavant l’accompagner et être
+          accessible lors de la consultation du livre par les futurs
+          usagers.</p>
+          <p xml:id="d1e312">Il ressort des souvenirs et réflexions développés
+          dans cet article que l’Institut de pathologie du livre et la
+          Bibliothèque nationale de <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName> ont été,
+          pendant de nombreuses années, les seuls protagonistes sur la scène
+          italienne de la conservation et de la restauration en bibliothèque.
+          Aujourd’hui, l’Institut de pathologie du livre n’existe plus et il a
+          été remplacé par l’Institut central pour la restauration et la
+          conservation du patrimoine d’archives et de bibliothèques (ICRCPAL,
+          <foreign xml:lang="ita">Istituto Centrale per il Restauro e la
+          Conservazione del Patrimonio Archivistico e Librario</foreign>),
+          fusion froide et mal aboutie entre le Centre de photo-reproductions,
+          reliure et restauration des Archives d’État et l’Institut de
+          pathologie du livre. Il porte en lui la confusion engendrée par une
+          dénomination dans laquelle la restauration précède la conservation,
+          dont au contraire elle ne devrait être qu’une composante, de
+          surcroît secondaire. Le laboratoire florentin, quant à lui, présente
+          un organigramme sévèrement réduit et ne réalise les actions qui lui
+          sont propres qu’avec de grandes difficultés. Dans tous les cas, il
+          semble évident que ces deux institutions ne sont plus en mesure
+          d’assurer le rôle de référence nationale et internationale qu’elles
+          ont eu jadis. Néanmoins, pour conclure, nous dirons que derrière
+          chaque mal se cache un bien&#160;: l’évolution professionnelle, reconnue,
+          des restaurateurs – qui s’est réalisée ces dernières décennies,
+          propulsée aussi par les événements que nous venons de relater – a
+          consolidé l’autonomie du secteur et amélioré la qualité des
+          professionnels de ce domaine, qui sont capables de faire des choix
+          autonomes de plus en plus conscients. Nous sommes certains que grâce
+          à eux il sera encore possible d’assurer, malgré tout, la sauvegarde
+          du patrimoine des bibliothèques de notre pays.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

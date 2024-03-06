@@ -1,0 +1,1560 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_20_Toscano.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La Bibliothèque nationale de France, une
+        bibliothèque-musée dès son origine&#160;?</title>
+        <author role="aut">
+          <forename>Gennaro</forename>
+          <surname>Toscano</surname>
+          <idno type="IDREF">034185674</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/5TLCH7V7" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">La Bibliothèque nationale de France, une
+            bibliothèque-musée dès son origine ?</title>
+            <idno type="DOI">10.4000/rbnu.3675</idno>
+            <author>
+              <forename>Gennaro</forename>
+              <surname>Toscano</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">20</biblScope>
+              <biblScope unit="page">70-83</biblScope>
+              <date>2019</date>
+              <note type="accessed">2022-07-07T10:08:11Z</note>
+              <note type="url">https://journals.openedition.org/rbnu/3675</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-qge35acp">collection
+          scientifique</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-gkm7gbrj">collection
+          artistique</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque Nationale de
+            France</placeName>
+          </term>
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1367" to="2016" type="_temp">1367-2016</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-28T13:49:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">La Bibliothèque nationale
+          de France, une bibliothèque-musée dès son origine&#160;?</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Gennaro Toscano</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Conseiller scientifique pour le Musée,
+          la recherche et la valorisation, direction des Collections,
+          Bibliothèque nationale de France</affiliation>
+        </byline>
+      </titlePage>
+      <div type="prelim" xml:id="d1e48">
+        <p xml:id="d1e49">Je tiens à remercier Denis Bruckmann, directeur
+        général de la BnF, pour la confiance qu’il m’a accordée en me
+        demandant de rédiger cet article. Mes remerciements vont également à
+        mes collègues Sylvie Aubenas et Corinne Le Bitouzé (département des
+        Estampes et de la photographie), Louis Jaubertie (projet Richelieu) et
+        Cyril Chazal (service des expositions), qui ont facilité mes
+        recherches sur le sujet.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e53">
+          <head subtype="level1" xml:id="d1e54">Vers une bibliothèque d’État&#160;:
+          du Val de Loire à Paris</head>
+          <p xml:id="d1e56">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-mgygrrzo">historiographie</term>
+              </term>
+            </term>Une
+          longue tradition historiographique fait remonter l’origine de la
+          <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          nationale</placeName> à celle aménagée vers <date type="_temp" when="1367">1367</date> par <persName ref="027285677" type="idref" xml:base="https://www.idref.fr/">Charles&#160;V</persName> (<date from="1338" to="1380" type="_temp">1338-1380</date>) dans l’ancienne
+          tour de la fauconnerie au <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Louvre</placeName>, qui prit le
+          nom de «&#160;tour de la librairie&#160;». La librairie royale occupait trois
+          pièces superposées et lambrissées en «&#160;bois d’<placeName ref="2963597" type="geonames" xml:base="https://www.geonames.org/">Irlande</placeName>&#160;», dont
+          l’une –&#160;l’«&#160;estude&#160;»&#160;– contenait des livres et des joyaux<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>G.&#160;Bresc-Bautier, N.&#160;Faucherre, P.-Y.&#160;Le&#160;Pogam, «&#160;Le Louvre
+              au Moyen Âge&#160;», in G.&#160;Bresc-Bautier et G.&#160;Fonkenell&#160;(dir.), <hi rend="italic">Histoire du Louvre, I, Des origines à l’heure
+              napoléonienne</hi>, Paris, 2016, p.&#160;93-94, 99, 115</p>
+            </note>. Selon l’inventaire de <date type="_temp" when="1380">1380</date>, elle comptait plus de 900&#160;volumes.
+          Véritable «&#160;bibliothèque d’État&#160;», la librairie du <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Louvre</placeName> fut vendue à
+          la mort de <persName ref="028298705" type="idref" xml:base="https://www.idref.fr/">Charles&#160;VI</persName> en <date type="_temp" when="1424">1424</date> au <persName ref="033334145" type="idref" xml:base="https://www.idref.fr/">duc de
+          Bedford</persName>, puis dispersée en <placeName ref="6269131" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName> après le
+          décès de ce dernier en <date type="_temp" when="1435">1435</date>
+            <note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="italic">Inventaire de la bibliothèque du roi
+              Charles&#160;VI, fait au Louvre en 1423 par ordre du régent, duc de
+              Bedford</hi>, éd. L.-C.&#160;Douët, Paris, 1867&#160;; L.&#160;Delisle, <hi rend="italic">Recherches sur la librairie de Charles&#160;V</hi>,
+              2&#160;vol.&#160;, Paris, 1907&#160;; <hi rend="italic">La librairie de
+              Charles&#160;V</hi>, catalogue d’exposition, Paris, Bibliothèque
+              nationale, 1968.</p>
+            </note>. Dès lors, bibliophiles, reines et rois n’ont eu de cesse
+          qu’ils ne rachètent quelques volumes de la prestigieuse librairie de
+          <persName ref="027285677" type="idref" xml:base="https://www.idref.fr/">Charles&#160;V</persName>&#160;; ainsi une
+          soixantaine de manuscrits se retrouvent aujourd’hui à la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          nationale</placeName>.</p>
+          <p xml:id="d1e78">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-gkm7gbrj">collection
+          artistique</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+              </term>
+            </term>Il faut attendre plus d’un siècle
+          pour qu’une nouvelle collection de livres soit constituée par
+          <persName ref="029459435" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XI</persName> (<date from="1423" to="1483" type="_temp">1423-1483</date>)&#160;; son épouse,
+          <persName ref="150013736" type="idref" xml:base="https://www.idref.fr/">Charlotte de Savoie</persName>, en
+          conserve une bonne partie au château d’<placeName ref="6452286" type="geonames" xml:base="https://www.geonames.org/">Amboise</placeName>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>M.-P.&#160;Laffitte, «&#160;Louis&#160;XI et les livres&#160;», in L.&#160;Desachy et
+              G.&#160;Toscano&#160;(dir.), <hi rend="italic">Le goût de la Renaissance
+              italienne. Les manuscrits enluminés de Jean Jouffroi, cardinal
+              d’Albi (1412-1473)</hi>, catalogue d’exposition, Albi,
+              Médiathèque Pierre-Amalric, 15&#160;septembre-31&#160;décembre&#160;2010,
+              Cinisello Balsamo, 2010, p.&#160;101-103</p>
+            </note>. Cette collection fut considérablement enrichie par son
+          fils <persName ref="028693914" type="idref" xml:base="https://www.idref.fr/">Charles&#160;VIII</persName> (<date from="1470" to="1498" type="_temp">1470-1498</date>) qui rapporta de
+          <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName> 1&#160;140&#160;livres
+          –&#160;manuscrits et imprimés&#160;– de la célèbre librairie des rois
+          aragonais, mais aussi des objets d’art, des tableaux, des
+          tapisseries et des sculptures saisis dans les différentes résidences
+          royales<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>G.&#160;Toscano, «&#160;Les manuscrits de la librairie des rois
+              d’Aragon de Naples saisis par Charles&#160;VIII&#160;», in
+              J.&#160;Balsamo&#160;(dir.), <hi rend="italic">Passer les monts&#160;: Français
+              en Italie - l’Italie en France (1494-1525)</hi>, Paris-Fiesole,
+              Champion, 1998, p.&#160;345-360. Pour les œuvres d’art, cf. C.&#160;Vrand,
+              <hi rend="italic">Les collections d’art d’Anne de Bretagne. Au
+              rythme de la vie de cour</hi>, thèse de doctorat,
+              dir.&#160;P.&#160;Plagnieux, Université de Paris&#160;1 Panthéon-Sorbonne,
+              2016.</p>
+            </note>.</p>
+          <figure xml:id="d1e97">
+            <graphic url="https://didomena.ehess.fr/downloads/7p88cr06n.jpg"/>
+            <head xml:id="d1e98">Figure 1. Hercules Seghers, Paysage à la
+            branche de sapin. Eau-forte peinte et pointe sèche. Collection
+            Michel de Marolles. Cote Estampes, Res. CB-49-Boite ECU. Coll. et
+            cliché BnF</head>
+          </figure>
+          <p xml:id="d1e104">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>À la
+          mort de <persName ref="028693914" type="idref" xml:base="https://www.idref.fr/">Charles&#160;VIII</persName> en <date type="_temp" when="1498">1498</date>, le duc d’<placeName ref="2989317" type="geonames" xml:base="https://www.geonames.org/">Orléans</placeName> devient roi
+          sous le nom de <persName ref="028714008" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XII</persName> (<date from="1462" to="1515" type="_temp">1462-1515</date>). Né et élevé à
+          <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName>, il décide de
+          transformer l’ancienne forteresse et y installe ses propres
+          collections d’art et ses livres. Comme son prédécesseur, <persName ref="028714008" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XII</persName> fut séduit par
+          l'<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>. Si le legs
+          du sud de l'<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> par
+          <persName ref="027095061" type="idref" xml:base="https://www.idref.fr/">René d'Anjou</persName> à la
+          couronne avait justifié l’expédition de <persName ref="028693914" type="idref" xml:base="https://www.idref.fr/">Charles&#160;VIII</persName> en <date type="_temp" when="1495">1495</date>, l’héritage de <persName ref="08802931X" type="idref" xml:base="https://www.idref.fr/">Valentine Visconti</persName>,
+          grand-mère de <persName ref="028714008" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XII</persName>, justifia les
+          revendications de la maison d’<placeName ref="2989317" type="geonames" xml:base="https://www.geonames.org/">Orléans</placeName> sur le
+          duché de <placeName ref="6542283" type="geonames" xml:base="https://www.geonames.org/">Milan</placeName>. Après
+          l’échec des tractations diplomatiques, le roi de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> entra à
+          <placeName ref="6542283" type="geonames" xml:base="https://www.geonames.org/">Milan</placeName> le <date type="_temp" when="1499-10-01">1<hi rend="sup">er</hi>&#160;octobre&#160;?&#160;1499</date>. Dès son arrivée, il saisit
+          des objets précieux, des tapisseries et des tableaux. À <placeName ref="6541854" type="geonames" xml:base="https://www.geonames.org/">Pavie</placeName>, il s'empara
+          de la librairie des <persName type="_temp">Visconti-Sforza</persName> et la fit transférer au
+          château de <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName>. Grâce à
+          cette saisie, 400&#160;livres manuscrits et deux imprimés entrèrent dans
+          la librairie royale de <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>E.&#160;Pellegrin, <hi rend="italic">La bibliothèque des Visconti
+              et des Sforza, ducs de Milan au XV</hi>
+                <hi rend="sup italic">e</hi>&#160;siècle, Paris, 1955&#160;; <hi rend="italic">Supplément</hi>, Paris, 1969</p>
+            </note>. Après son mariage avec <persName ref="027339009" type="idref" xml:base="https://www.idref.fr/">Anne de
+          Bretagne</persName> (<date type="_temp" when="1499">1499</date>),
+          <persName ref="028714008" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XII</persName> réunit à
+          <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName> les livres et
+          les collections d’art auparavant conservés à <placeName ref="6452286" type="geonames" xml:base="https://www.geonames.org/">Amboise</placeName>.</p>
+          <p xml:id="d1e121">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+              </term>
+            </term>La
+          librairie royale de <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName> devint au
+          début du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date> l'une des plus riches collections
+          d’Europe. Trois fonds différents la constituaient&#160;: les manuscrits
+          de la famille royale, les livres saisis par <persName ref="028693914" type="idref" xml:base="https://www.idref.fr/">Charles&#160;VIII</persName> à
+          <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName> en <date type="_temp" when="1495">1495</date> et ceux rapportés de <placeName ref="6541854" type="geonames" xml:base="https://www.geonames.org/">Pavie</placeName> par <persName ref="028714008" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XII</persName> en <date type="_temp" when="1499">1499</date>
+            <note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>M.-P.&#160;Laffitte et U.&#160;Baurmeister, <hi rend="italic">Des
+              livres et des rois. La bibliothèque royale de Blois</hi>,
+              catalogue d’exposition (château de Blois, 20&#160;juin-30&#160;août&#160;1992&#160;;
+              Bibliothèque nationale, 15&#160;octobre-17&#160;janvier&#160;1993), Paris,
+              1992</p>
+            </note>. Deux ans après la mort de <persName ref="028714008" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XII</persName>,
+          en <date type="_temp" when="1517">1517</date>, le cardinal <persName ref="027774198" type="idref" xml:base="https://www.idref.fr/">Louis
+          d’Aragon</persName> visita le château de <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName>. Son
+          secrétaire, <persName ref="028525485" type="idref" xml:base="https://www.idref.fr/">Antonio de Beatis</persName>, nous
+          a laissé un précieux témoignage sur la bibliothèque royale&#160;:</p>
+          <quote rend="quotation" xml:id="d1e133">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-o4gbygyd">astrophysique<term ref="doi:10.34817/sv-z68mcrvu">cosmologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Dans
+          ce château ou palais, on voit une grande bibliothèque, garnie non
+          seulement de planches du haut en bas, mais encore de tablettes&#160;;
+          tout est plein de livres. Un petit cabinet en contient qui sont
+          déposés dans un coffre. Ces livres sont tous en parchemin, écrits à
+          la main et très intéressants, ils sont couverts de soie de diverses
+          couleurs avec des riches fermoirs et des incrustations d’argent
+          doré&#160;[…] Parmi les livres, beaucoup, d’après les armoiries des
+          fermoirs, appartenaient au roi Ferrante et au duc <persName ref="029055032" type="idref" xml:base="https://www.idref.fr/">Ludovic Sforza</persName>&#160;[…] J’ai
+          noté encore un tableau peint à l’huile, représentant une certaine
+          dame lombarde, peinte au naturel, très belle, mais à mon avis pas
+          autant que la signora <persName type="_temp">Gualanda</persName>.
+          Puis on nous montra un astrolabe très beau et très grand, sur lequel
+          est peinte toute la cosmographie. Dans un des retraits – il y en a
+          deux – se trouve une horloge très ingénieuse où sont représentées
+          beaucoup de choses concernant l’astronomie et les signes du
+          ciel<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>A.&#160;de&#160;Beatis, <hi rend="italic">Voyage du cardinal d’Aragon
+              en Allemagne, Hollande, Belgique, France et Italie
+              (1517-1518)</hi>, trad. de l’italien par M.&#160;Havard de la
+              Montagne, Paris, 1913, p.&#160;194-195</p>
+            </note>.</quote>
+          <p xml:id="d1e142">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-gkm7gbrj">collection
+          artistique</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-qge35acp">collection
+          scientifique</term>
+                </term>
+              </term>
+            </term>Cette source est extrêmement
+          précieuse car elle prouve que la librairie royale de <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName> abritait non
+          seulement des livres, des objets scientifiques et des horloges, mais
+          également des tableaux comme celui représentant «&#160;une certaine dame
+          lombarde&#160;», vraisemblablement le célèbre <hi rend="italic">Portrait
+          d’une dame de la cour de Milan</hi>, dite <hi rend="italic">La Belle
+          ferronnière</hi>, de <persName ref="085975915" type="idref" xml:base="https://www.idref.fr/">Léonard de Vinci</persName>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>C.&#160;Vrand, «&#160;Léonard, la Belle ferronnière et François&#160;I<hi rend="sup">er</hi>&#160;», in G.&#160;Toscano&#160;(dir.), <hi rend="italic">1519, la mort de Léonard&#160;: la naissance d’un mythe
+              </hi>(catalogue d’exposition, château d’Amboise, 2&#160;mai-1<hi rend="sup">er</hi>&#160;septembre 2019), Montreuil, 2019,
+              p.&#160;95-97</p>
+            </note>.</p>
+          <p xml:id="d1e163">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-rxs3gaea">inventaire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>En
+          <date type="_temp" when="1518">1518</date>, la librairie royale de
+          <placeName ref="6448898" type="geonames" xml:base="https://www.geonames.org/">Blois</placeName> compte
+          désormais 1&#160;626&#160;livres manuscrits et imprimés. Il faut attendre
+          <date type="_temp" when="1544">1544</date>, et la volonté de
+          <persName ref="028254287" type="idref" xml:base="https://www.idref.fr/">François&#160;I<hi rend="sup">er</hi>
+            </persName> de transférer la bibliothèque royale à
+          <placeName ref="6443660" type="geonames" xml:base="https://www.geonames.org/">Fontainebleau</placeName>, pour
+          qu’un nouvel inventaire soit établi<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>M.&#160;Hermant&#160;(dir.), <hi rend="italic">Trésors royaux. La
+              bibliothèque de François&#160;I</hi>
+                <hi rend="sup italic">er</hi>
+                <hi rend="italic"/>(catalogue d’exposition, château de Blois,
+              4&#160;juillet-18&#160;octobre&#160;2015), Rennes, 2015</p>
+            </note>. C’est dans ce lieu que le souverain pouvait éblouir ses
+          visiteurs étrangers par la richesse de ses collections où les livres
+          étaient sans doute présentés avec des instruments scientifiques,
+          quelques antiques et des tableaux.</p>
+          <p xml:id="d1e179">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-cjjmsnnr">collège</term>
+              </term>
+            </term>En <date type="_temp" when="1594">1594</date>, <persName ref="028600045" type="idref" xml:base="https://www.idref.fr/">Henri&#160;IV</persName>
+          fit transporter la librairie royale à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, au collège
+          de Clermont, actuel <placeName ref="6945575" type="geonames" xml:base="https://www.geonames.org/">lycée
+          Louis-le-Grand</placeName>, puis en <date type="_temp" when="1603">1603</date> au couvent des cordeliers (actuel musée
+          Dupuytren). Dans un texte de <date type="_temp" when="1618">1618</date> concernant le dépôt des imprimés, elle est
+          mentionnée pour la première fois sous le nom de Bibliothèque du
+          roi.</p>
+          <figure xml:id="d1e181">
+            <graphic url="https://didomena.ehess.fr/downloads/n296x680c.jpg"/>
+            <head xml:id="d1e182">Figure 2. <hi rend="italic">Alexandre le
+            Grand</hi>, camée, fin IV<hi rend="sup">e</hi>&#160;siècle-début III<hi rend="sup">e</hi>&#160;siècle&#160;av.&#160;J.-C. Monture Josias Belle, orfèvre
+            du roi, 1684-1689. Collection de Pierre-Paul Rubens, Georges de
+            Villiers, I<hi rend="sup">er</hi>&#160;duc de Buckingham, Gaston
+            d’Orléans&#160;; légué à Louis&#160;XIV en 1660. Cote MMA, camée 222. Coll.
+            BnF. Cliché Serge Oboukhoff. © BnF-CNRS-Maison Archéologie &amp;
+            Ethnologie, René-Ginouvès</head>
+          </figure>
+          <p xml:id="d1e200">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+              </term>
+            </term>
+            <persName ref="028607090" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XIII</persName> s’intéressait
+          peu aux livres alors que son frère, <persName ref="031319955" type="idref" xml:base="https://www.idref.fr/">Gaston
+          d’Orléans</persName>, était un grand collectionneur d’art et de
+          livres. Le <date type="_temp" when="1660-02-02">2&#160;février&#160;1660</date>, il déclara, par testament,
+          faire don à la couronne «&#160;de touttes [ses] médalles d’or, d’argent
+          et de cuivre, des pierres gravées, des antiques et autres raretez
+          qui sont à présent de la garde du sieur Bruno, comme aussy de tous
+          [ses] livres de fleurs et d’oyseaux [qu’il] a faict portraire par
+          Robert, peintre, et tous [ses] livres d’histoire et autres qui sont
+          dans [son] cabinet du pallais d’<placeName ref="2989317" type="geonames" xml:base="https://www.geonames.org/">Orléans</placeName>, pour estre
+          le tout, avec quelques boistes de cocquilles fort rares, mis dans le
+          cabinet de sa Majesté du <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Louvre</placeName> et servir à
+          son divertissement&#160;»<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>M.&#160;Hermant, «&#160;Le testament de Gaston d’Orléans et le devenir
+              de ses collections&#160;», in J.-M.&#160;Constant et P.&#160;Gatulle&#160;(dir.),
+              <hi rend="italic">Gaston d’Orléans&#160;: prince rebelle et mécène
+              </hi>(catalogue d’exposition, château de Blois, 1<hi rend="sup">er</hi>&#160;juillet-15&#160;octobre&#160;2017), Rennes, 2017,
+              p.&#160;221-227</p>
+            </note>. <date from="1660" to="1663" type="_temp">De 1660 à
+          1663</date>, vélins, livres, médailles, pierres gravées (voir ill.
+          ci-dessus) et coquilles furent transférés dans le Cabinet du roi au
+          palais du <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Louvre</placeName>. En <date type="_temp" when="1667">1667</date>, <persName ref="027274527" type="idref" xml:base="https://www.idref.fr/">Colbert</persName>
+          décida d’unir le Cabinet du roi à la Bibliothèque royale installée
+          rue&#160;Vivienne et y fit transférer toutes les collections de livres et
+          d’objets d’art.</p>
+          <p xml:id="d1e212">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>Quelques
+          années auparavant, en <date type="_temp" when="1654">1654</date>,
+          l’un des gardes de la librairie, <persName ref="030445140" type="idref" xml:base="https://www.idref.fr/">Jacques
+          Dupuy</persName>, avait légué à la Bibliothèque du roi tous ses
+          livres gravés en taille douce et toutes ses gravures d’après
+          <persName ref="02998551X" type="idref" xml:base="https://www.idref.fr/">Rubens</persName>, embryon du
+          cabinet des Estampes qui prendra corps avec l’acquisition de la
+          célèbre collection de l’<persName ref="028919440" type="idref" xml:base="https://www.idref.fr/">abbé de Marolles</persName> en
+          <date type="_temp" when="1667">1667</date>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>
+                <hi rend="italic">La Bibliothèque nationale</hi>, par Henry
+              Marcel et al., Paris, 1907, p.&#160;48 et suiv.</p>
+            </note>.</p>
+          <p xml:id="d1e221">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-gkm7gbrj">collection
+          artistique</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Après
+          la période difficile des régences et les troubles de <date from="1648" to="1653" type="_temp">la Fronde</date>, <persName ref="027274527" type="idref" xml:base="https://www.idref.fr/">Jean-Baptiste Colbert</persName>
+          (<date from="1619" to="1683" type="_temp">1619-1683</date>) joua un
+          rôle capital dans la réorganisation de la Bibliothèque du roi.
+          Ministre en <date type="_temp" when="1662">1662</date>, intendant
+          des Bâtiments en <date type="_temp" when="1664">1664</date>,
+          <persName ref="027274527" type="idref" xml:base="https://www.idref.fr/">Colbert</persName> fut un grand
+          bibliophile et sa collection comptait de nombreux chefs-d’œuvre, tel
+          le <hi rend="italic">Psautier de Charles le Chauve</hi>
+            <note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>M.-P.&#160;Laffitte et C.&#160;Denoël&#160;(dir.), <hi rend="italic">Trésors
+              carolingiens. Livres manuscrits de Charlemagne à Charles le
+              Chauve </hi>(catalogue d’exposition, Paris, Bibliothèque
+              nationale de France, 20&#160;mars-24&#160;juin&#160;2007), Paris, 2007,
+              p.&#160;108-112, n<hi rend="sup">o</hi>&#160;15</p>
+            </note> qui intégra la Bibliothèque du roi en <date type="_temp" when="1732">1732</date> avec l’ensemble de ses livres. En <date type="_temp" when="1666">1666</date>, <persName ref="027274527" type="idref" xml:base="https://www.idref.fr/">Colbert</persName> fit
+          déménager la Bibliothèque royale de la rue de la Harpe à la rue
+          Vivienne pour la rapprocher de son hôtel&#160;: elle comptait alors
+          6&#160;000&#160;manuscrits et 20&#160;000&#160;livres imprimés&#160;; au début de l’<date type="_temp" when="1667">année suivante</date>, comme nous l’avons
+          mentionné, il fit transférer depuis le <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Louvre</placeName> le Cabinet
+          du roi pour l’intégrer à la bibliothèque, puis il fit l’acquisition
+          de la collection d’estampes et de dessins de l’abbé <persName ref="028919440" type="idref" xml:base="https://www.idref.fr/">Michel
+          de Marolles</persName> (<date from="1600" to="1681" type="_temp">1600-1681</date>), collectionneur d’art, traducteur,
+          essayiste, mémorialiste et généalogiste. Riche de 123&#160;000&#160;pièces
+          réunies en 400&#160;volumes, cette collection renfermait de véritables
+          chefs-d’œuvre qui font encore aujourd’hui la renommée du département
+          des Estampes de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName> (voir ill.
+          ci-dessous). Grâce au dépôt légal élargi à la gravure et à
+          l’acquisition de la collection <persName ref="028919440" type="idref" xml:base="https://www.idref.fr/">Marolles</persName>,
+          le cabinet des Estampes de la Bibliothèque du roi devint l’un des
+          plus importants d’Europe.</p>
+          <figure xml:id="d1e235">
+            <graphic url="https://didomena.ehess.fr/downloads/4q77g0451.jpg"/>
+            <head xml:id="d1e236">Figure 3. Albrecht Dürer, Christ enfant
+            tenant une couronne, 1506. Dessin, Collection Michel de Marolles.
+            Cote Estampes, Res. B&#160;13. Coll. et cliché BnF</head>
+          </figure>
+          <p xml:id="d1e242">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-qge35acp">collection
+          scientifique</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-gkm7gbrj">collection
+          artistique</term>
+                </term>
+              </term>
+            </term>C’est à partir de cette époque
+          que le caractère si particulier de la Bibliothèque du roi commence à
+          se dessiner. Elle réunit non seulement des livres (manuscrits et
+          imprimés), mais possède également un cabinet de pierres précieuses,
+          de médailles, de monnaies et d’objets ainsi qu’une riche collection
+          de gravures et de dessins. Cette physionomie la différencie dès
+          l’origine des autres bibliothèques en Europe et renforce son
+          caractère de «&#160;bibliothèque-musée&#160;».</p>
+          <p xml:id="d1e244">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>Dons et
+          acquisitions d’antiquités de l’<date type="_temp">époque classique
+          et médiévale</date> continuaient cependant à enrichir les
+          collections du Cabinet du roi. Le cavalier romain <persName type="_temp">Francesco Gualdi</persName> (<date from="1574" to="1657" type="_temp">1574-1657</date>)<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Sur Gualdi, cf. F.&#160;Federici, «&#160;Il trattato ‘Delle memorie
+              sepolcrali’ del cavalier Francesco Gualdi&#160;: un collezionista
+              romano del Seicento e le testimonianze figurative medievali&#160;»,
+              in <hi rend="italic">Prospettiva</hi>, 110-11, 2003-2004,
+              p.&#160;149-159</p>
+            </note>, à sa mort, légua son cabinet de curiosités,
+          essentiellement des pierres gravées, à <persName ref="027328848" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XIV</persName>.
+          Resté entreposé au couvent de la Trinité-des-Monts à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, il fut
+          transporté en Provence en <date type="_temp" when="1662">1662</date>, puis de là par bateau à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>.</p>
+          <p xml:id="d1e253">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                </term>
+              </term>
+            </term>En
+          <date type="_temp" when="1653">1653</date>, à l’occasion de travaux
+          de reconstruction de l’hospice Saint-Brice à <placeName ref="2785341" type="geonames" xml:base="https://www.geonames.org/">Tournai</placeName>, un ouvrier
+          mit à jour le trésor de <persName ref="027549976" type="idref" xml:base="https://www.idref.fr/">Childéric&#160;I<hi rend="sup">er</hi>
+            </persName>, père de <persName ref="027633454" type="idref" xml:base="https://www.idref.fr/">Clovis</persName>&#160;;
+          <persName ref="027328848" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XIV</persName> reçut en <date type="_temp" when="1665">1665</date> de l’empereur <persName ref="086131036" type="idref" xml:base="https://www.idref.fr/">Léopold de Habsbourg</persName> une
+          partie importante des objets qui y furent trouvés, qu’il entreposa
+          au cabinet des Médailles<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>M.&#160;Kazanski, P.&#160;Périn, «&#160;Le mobilier funéraire de la tombe de
+              Childéric&#160;1<hi rend="sup">er</hi>&#160;: état de la question et
+              perspective&#160;», in <hi rend="italic">Revue archéologique de
+              Picardie</hi>, 3-4, 1988, p.&#160;13-38</p>
+            </note>. En <date type="_temp" when="1711">1711</date>,
+          l’antiquaire <persName ref="086007491" type="idref" xml:base="https://www.idref.fr/">Roger de Gaignières</persName> céda
+          sa collection au roi&#160;: des milliers de lettres, de relevés de
+          tombeaux et de monuments dessinés sous sa direction, ainsi que des
+          manuscrits ayant appartenu à <persName ref="027285677" type="idref" xml:base="https://www.idref.fr/">Charles&#160;V</persName> ou à <persName ref="027281442" type="idref" xml:base="https://www.idref.fr/">Jean
+          de Berry</persName>, rejoignirent alors la Bibliothèque du roi<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>A.&#160;Ritz-Guilbert, <hi rend="italic">La collection Gaignières.
+              Un inventaire du royaume au XVII</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;siècle</hi>, Paris,
+              2016</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e279">
+          <head subtype="level1" xml:id="d1e280">Rue de Richelieu, berceau
+          définitif de la Bibliothèque du roi</head>
+          <p xml:id="d1e282">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Après
+          avoir envisagé le transfert de la bibliothèque au <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Louvre</placeName>, l’abbé
+          <persName ref="030645565" type="idref" xml:base="https://www.idref.fr/">Jean-Paul Bignon</persName>,
+          bibliothécaire du roi de <date from="1719" to="1741" type="_temp">1719 à 1741</date>, préféra se concentrer sur la
+          réorganisation de la vénérable institution. En <date type="_temp" when="1720">1720</date>, il décida d’organiser les collections
+          autour de cinq départements, chacun dirigé par un garde&#160;: dépôt des
+          Imprimés, cabinet des Manuscrits, cabinet des Titres et généalogies,
+          cabinet des Planches gravées et recueils d’estampes, cabinet des
+          Médailles et pierres gravées. Après la faillite de la banque Law
+          (<date type="_temp" when="1720">1720</date>) qui occupait les
+          anciens locaux du palais Mazarin, <persName ref="030645565" type="idref" xml:base="https://www.idref.fr/">Bignon</persName>
+          réussit à faire attribuer à la Bibliothèque du roi, trop à l’étroit
+          rue Vivienne, l’hôtel de Nevers, puis une salle située à l’angle de
+          la rue de Richelieu et de la rue des Petits-Champs, et enfin la
+          galerie haute du palais Mazarin (galerie Mazarine).</p>
+          <figure xml:id="d1e284">
+            <graphic url="https://didomena.ehess.fr/downloads/j6731b990.jpg"/>
+            <head xml:id="d1e285">Figure 4. Le cabinet des Médailles. Gravure
+            publiée dans la <hi rend="italic">Gazette des Beaux-Arts</hi>,
+            1861, tome 10, p.&#160;81. Cote Estampes, Va-237 (7) FOL. Coll. et
+            cliché BnF</head>
+          </figure>
+          <p xml:id="d1e294">Entretemps, il fut décidé de faire revenir de
+          <placeName ref="6444096" type="geonames" xml:base="https://www.geonames.org/">Versailles</placeName> le
+          Cabinet du roi qui s’y trouvait depuis <date type="_temp" when="1683">1683</date>. Il fut inauguré en <date type="_temp" when="1741">1741</date> dans l’hôtel de la <persName ref="028152638" type="idref" xml:base="https://www.idref.fr/">marquise de
+          Lambert</persName>, libéré à sa mort en <date type="_temp" when="1733">1733</date> et situé entre la rue de Richelieu et la
+          rue&#160;Colbert. Au premier étage de cet hôtel, l’architecte <persName ref="032419007" type="idref" xml:base="https://www.idref.fr/">Robert
+          de Cotte</persName>, puis son fils <persName ref="077851935" type="idref" xml:base="https://www.idref.fr/">Jules-Robert</persName>, créèrent
+          une galerie unique au-dessus de l’arcade Colbert pour le relier à
+          l’hôtel de Nevers (voir ill. ci-dessus). C’est à cette époque que
+          furent exécutés par les ébénistes du roi les médaillers dans
+          lesquels on rangea les tablettes en maroquin contenant médailles et
+          monnaies. De concert avec l’<persName ref="030645565" type="idref" xml:base="https://www.idref.fr/">abbé Bignon</persName> et le
+          <persName ref="081589093" type="idref" xml:base="https://www.idref.fr/">duc d’Antin</persName> (<date from="1665" to="1736" type="_temp">1665-1736</date>), directeur
+          général des bâtiments du roi, il fut choisi un programme
+          iconographique autour des neuf Muses pour décorer le nouveau
+          cabinet. Les trois trumeaux situés entre les quatre fenêtres donnant
+          sur la rue de Richelieu furent décorés par <persName ref="032502095" type="idref" xml:base="https://www.idref.fr/">Carle Van
+          Loo</persName>, tandis que les trois autres placés du côté de la rue
+          Colbert furent réalisés par <persName ref="031099106" type="idref" xml:base="https://www.idref.fr/">Charles-Joseph Natoire</persName>&#160;;
+          les quatre dessus de porte furent peints par <persName ref="030857600" type="idref" xml:base="https://www.idref.fr/">François Boucher</persName>. Aux
+          deux extrémités du cabinet, entre les portes, se trouvaient les
+          portraits de <persName ref="027328848" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XIV</persName> (copie d’après
+          <persName ref="030004829" type="idref" xml:base="https://www.idref.fr/">Rigaud</persName>) et de <persName ref="027317463" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XV</persName> (copie d’après
+          <persName ref="111708850" type="idref" xml:base="https://www.idref.fr/">Louis-Michel Van Loo</persName>).
+          Lambris et mobilier furent réalisés par <persName ref="162185006" type="idref" xml:base="https://www.idref.fr/">Jacques
+          Verbeckt</persName>
+            <?xxe-remark lesot
+2022-07-07T12:08:06Z
+correction : Jacques VerbeRckt?>et ses collaborateurs, de <date from="1741" to="1742" type="_temp">1741 à 1742</date>.</p>
+          <p xml:id="d1e296">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-gzwcg9hi">peintre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-wc3xyyrs">atelier</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-qsxs8rem">architecture</term>
+              </term>
+            </term>Dans
+          son <hi rend="italic">Architecture françoise, ou Recueil des plans,
+          élévations, coupes et profils des églises, maisons royales, palais,
+          hôtels &amp; édifices les plus considérables de Paris
+          </hi>(<placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, <date from="1752" to="1756" type="_temp">1752-1756</date>), <persName ref="033570450" type="idref" xml:base="https://www.idref.fr/">Jacques-François Blondel</persName>
+          nous livre une passionnante description de la Bibliothèque du roi,
+          ainsi qu’un plan du rez-de-chaussée et du premier étage de cet
+          édifice fort complexe&#160;: «&#160;tout ce rez-de-chaussée est destiné à
+          différentes pièces servant à des bureaux, magasins, atteliers &amp;
+          d’autres usages du ressort d’un bâtiment de cette espèce&#160;». Mais il
+          s’y trouve également les ateliers des peintres <persName ref="031099106" type="idref" xml:base="https://www.idref.fr/">Natoire</persName> et <persName ref="030857600" type="idref" xml:base="https://www.idref.fr/">Boucher</persName>, puis <persName type="_temp">Pierre</persName> et <persName ref="032502079" type="idref" xml:base="https://www.idref.fr/">Restout</persName>,
+          une chapelle et une salle construite en <date type="_temp" when="1731">1731</date> pour abriter les célèbres globes de
+          <persName ref="031973299" type="idref" xml:base="https://www.idref.fr/">Coronelli</persName>. Au premier
+          étage, autour de la cour principale, est disposée la collection des
+          livres imprimés organisée par matières (théologie, jurisprudence,
+          histoire, sciences et arts et belles lettres), tandis que la galerie
+          Mazarine, dont le plafond «&#160;est de la plus grande beauté&#160;», abrite
+          les manuscrits. Après avoir décrit la voûte peinte par <persName ref="111880009" type="idref" xml:base="https://www.idref.fr/">Romanelli</persName>, <persName ref="033570450" type="idref" xml:base="https://www.idref.fr/">Blondel</persName> signale que la
+          galerie n’est pas «&#160;publique, mais l’affabilité de <persName type="_temp">M.&#160;Melot</persName>, qui en a particulièrement la
+          garde, &amp; qui en fait actuellement le Catalogue, laisse voir aux
+          amateurs ce chef-d’œuvre avec une complaisance digne de l’amour
+          qu’il porte aux beaux arts&#160;».</p>
+          <p xml:id="d1e301">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                </term>
+              </term>
+            </term>L’amitié
+          entre l’abbé <persName ref="029618444" type="idref" xml:base="https://www.idref.fr/">Jean-Jacques Barthélemy</persName>
+          (<date from="1716" to="1795" type="_temp">1716-1795</date>), garde
+          du cabinet des médailles et antiques, et le <persName ref="026773368" type="idref" xml:base="https://www.idref.fr/">comte
+          de Caylus</persName> (<date from="1692" to="1765" type="_temp">1692-1765</date>) ouvre un nouveau chapitre dans la
+          riche histoire de la Bibliothèque du roi, celui de grand atelier
+          pour l’étude de l’archéologie. <persName ref="029618444" type="idref" xml:base="https://www.idref.fr/">Barthélemy</persName>
+          participa à la rédaction du <hi rend="italic">Recueil d’antiquités
+          égyptiennes, étrusques, grecques et romaines </hi>(<placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, <date from="1752" to="1767" type="_temp">1752-1767</date>) du comte qui
+          déposa au cabinet une partie de ses collections d’objets. Comme il
+          l’avait souligné dans le premier volume de son <hi rend="italic">Recueil</hi>, <persName ref="026773368" type="idref" xml:base="https://www.idref.fr/">Caylus</persName> voulut ainsi
+          mettre à la disposition d’un public d’érudits et d’amateurs ses
+          objets archéologiques&#160;: «&#160;On ne saurait donc trop exhorter ceux qui
+          rassemblent des monuments à les communiquer au public&#160;». N’ayant pas
+          d’héritiers directs, il légua à sa mort, le <date type="_temp" when="1765-09-05">5&#160;septembre&#160;1765</date>, le reste de sa collection
+          au roi&#160;; le <date type="_temp" when="1765-12-16">16&#160;décembre de la
+          même année</date>, l’<persName ref="029618444" type="idref" xml:base="https://www.idref.fr/">abbé Barthélemy</persName> indiqua
+          dans son registre&#160;: «&#160;J’ay fait transporter les antiques que
+          <persName ref="026773368" type="idref" xml:base="https://www.idref.fr/">M.&#160;le&#160;comte&#160;de&#160;Caylus</persName>
+          léguoit au roi par son testament&#160;»<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>T.&#160;Sarmant, <hi rend="italic">Le Cabinet des médailles de la
+              Bibliothèque nationale, 1661-1848</hi>, Paris, 1994, p.&#160;142</p>
+            </note>. Ainsi des vases, des bronzes, des portraits en marbre et
+          en bronze, des intailles et des terres cuites enrichirent
+          considérablement les collections d’antiques du cabinet des Médailles
+          de la Bibliothèque du roi.</p>
+          <p xml:id="d1e316">Quelques années plus tard, ce même cabinet
+          s’enrichit d’une de ses plus belles pièces en or, la «&#160;patère de
+          Rennes&#160;», un chef-d’œuvre de l’orfèvrerie romaine du <date from="0200" to="0299" type="_temp">3<hi rend="sup">e</hi>&#160;siècle
+          après&#160;J.-C.</date> Découverte intacte avec un collier à pendentif et
+          une centaine d’«&#160;aurei&#160;» lors de la démolition d’une maison du
+          chapitre de <placeName ref="6432801" type="geonames" xml:base="https://www.geonames.org/">Rennes</placeName> le <date type="_temp" when="1774-03-26">26&#160;mars&#160;1774</date>, elle fut remise
+          au <persName ref="030354234" type="idref" xml:base="https://www.idref.fr/">duc de Penthièvre</persName>,
+          gouverneur de la <placeName ref="3030288" type="geonames" xml:base="https://www.geonames.org/">Bretagne</placeName>, qui la
+          présenta lui-même au roi. Le <date type="_temp" when="1774-04-07">7&#160;avril</date>, à la demande du roi, la patère fut
+          remise à l’<persName ref="029618444" type="idref" xml:base="https://www.idref.fr/">abbé Barthélémy</persName>, garde
+          du cabinet des Médailles<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Volée en 1831, elle fut retrouvée par miracle au bord de la
+              Seine, sous le pont Marie.</p>
+            </note>.</p>
+          <figure xml:id="d1e324">
+            <graphic url="https://didomena.ehess.fr/downloads/7d279257b.jpg"/>
+            <head xml:id="d1e325">Figure 5. Coupe de Chosroês, Iran sassanide,
+            VI<hi rend="sup">e</hi> ou VII<hi rend="sup">e</hi>&#160;siècles. Or,
+            cristal de roche, grenat, verre. Ancien trésor de l’abbaye de
+            Saint-Denis. Cote MMA, camée 379. Coll. et cliché BnF</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e337">
+          <head subtype="level1" xml:id="d1e338">De la Révolution à la
+          Bibliothèque nationale de France</head>
+          <p xml:id="d1e340">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-exqnjjmw">nationalisme</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>La
+          Bibliothèque royale, devenue nationale, paya son tribut lors de la
+          <date from="1789" to="1799" type="_temp">Révolution</date> tout en
+          bénéficiant d’enrichissements colossaux de ses propres collections.
+          Deux gardes de la bibliothèque furent en effet guillotinés, et un
+          troisième poussé au suicide.</p>
+          <p xml:id="d1e342">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Les
+          confiscations des biens du clergé et des émigrés, puis les campagnes
+          révolutionnaires en Europe, permirent le transfert de centaines de
+          milliers de livres imprimés et manuscrits à la bibliothèque devenue
+          nationale, sans oublier les centaines d’objets qui arrivèrent des
+          trésors d’églises. Citons les 33&#160;000&#160;estampes et 5&#160;000 cartes
+          saisies à l’abbaye de Saint-Victor à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, ou encore
+          les 18&#160;000&#160;médailles à Sainte-Geneviève. L’acquisition de précieux
+          manuscrits ne faiblit pas&#160;: l’incorporation de la bibliothèque
+          personnelle des rois à <placeName ref="6444096" type="geonames" xml:base="https://www.geonames.org/">Versailles</placeName> permit
+          l’entrée à la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          nationale</placeName> de véritables chefs-d’œuvre comme les <hi rend="italic">Grandes heures d’Anne de Bretagne</hi>, sans compter
+          les 9&#160;000&#160;manuscrits saisis à Saint-Germain-des-Prés ou les 1&#160;900
+          provenant de la bibliothèque de la Sorbonne.</p>
+          <p xml:id="d1e347">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-vshcubtc">cathédrale</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-gjengnux">chapelle</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets
+          d’étude</term>
+            </term>Des objets de culte et des objets de curiosité
+          prélevés dans les trésors d’églises contribuèrent à augmenter les
+          richesses du cabinet des Médailles. Ainsi, dès <date type="_temp" when="1791">1791</date>, les trésors de la Sainte-Chapelle et de
+          <placeName ref="2980916" type="geonames" xml:base="https://www.geonames.org/">Saint-Denis</placeName>, puis
+          les gemmes de la cathédrale de <placeName ref="6448031" type="geonames" xml:base="https://www.geonames.org/">Chartres</placeName> arrivèrent
+          à la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          nationale</placeName>. Le premier prélèvement à <placeName ref="2980916" type="geonames" xml:base="https://www.geonames.org/">Saint-Denis</placeName> eut
+          lieu le <date type="_temp" when="1791-09-30">30&#160;septembre&#160;1791</date>&#160;: quatre camées, deux
+          intailles, cinq vases de pierre dure, deux manuscrits et le trône de
+          <persName ref="027340082" type="idref" xml:base="https://www.idref.fr/">Dagobert</persName> furent
+          transférés à la bibliothèque, puis en <date type="_temp" when="1793">1793</date>, et ce malgré les protestations des
+          habitants de la ville, la basilique fut dépouillée une deuxième
+          fois. Des pièces emblématiques des collections de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName> proviennent de
+          ce trésor&#160;: outre le trône de <persName ref="027340082" type="idref" xml:base="https://www.idref.fr/">Dagobert</persName>, rappelons la
+          coupe des <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName>, celle de
+          <persName ref="259421286" type="idref" xml:base="https://www.idref.fr/">Chosroès</persName> (voir ill.
+          ci-dessus), la navette en sardonix, les échecs dits de <persName ref="027339793" type="idref" xml:base="https://www.idref.fr/">Charlemagne</persName>, le
+          couronnement de «&#160;l’écran de <persName ref="027339793" type="idref" xml:base="https://www.idref.fr/">Charlemagne</persName>&#160;» avec le
+          portrait de <persName type="_temp">Julie</persName>, fille de
+          l’empereur <persName ref="027746887" type="idref" xml:base="https://www.idref.fr/">Titus</persName>, le cor de
+          <persName ref="029756170" type="idref" xml:base="https://www.idref.fr/">Roland</persName>, la navette de
+          <persName ref="02727716X" type="idref" xml:base="https://www.idref.fr/">saint Éloi</persName>, sans oublier
+          de précieux manuscrits recouverts de luxueuses reliures (voir ill.
+          ci-dessous).</p>
+          <figure xml:id="d1e349">
+            <graphic url="https://didomena.ehess.fr/downloads/pg15bp33v.jpg"/>
+            <head xml:id="d1e350">Figure 6. <hi rend="italic">Évangiles de
+            Saint-Denis</hi>, Paris, 3<hi rend="sup">e</hi>&#160;quart du XIII<hi rend="sup">e</hi>&#160;siècle. Plat supérieur, représentant saint Luc
+            et saint Jean. Ancien trésor de l’abbaye de Saint-Denis. Cote
+            Manuscrits, Latin 9387. Coll. et cliché BnF</head>
+          </figure>
+          <p xml:id="d1e364">Du trésor de la Sainte-Chapelle est issu «&#160;le
+          plus grand camée que l’<date type="_temp">Antiquité</date> nous ait
+          légué&#160;»<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>E.&#160;Babelon, <hi rend="italic">Catalogue des camées antiques
+              et modernes de la Bibliothèque nationale</hi>, Paris, 1897,
+              p.&#160;120-137, n.&#160;264. Voir aussi Denis Bruckmann, «&#160;Les
+              collections ‘spécialisées’ à la Bibliothèque nationale de
+              France&#160;: un bref panorama&#160;», in <hi rend="italic">La Revue de la
+              BNU</hi>, n<hi rend="sup">o</hi>&#160;18, 2018, partic. p.&#160;12.</p>
+            </note>, remis au cabinet des Médailles le <date type="_temp" when="1791-05-01">1<hi rend="sup">er</hi>&#160;mai&#160;1791</date> avec sa
+          monture byzantine et la base que <persName ref="027285677" type="idref" xml:base="https://www.idref.fr/">Charles&#160;V</persName>
+          lui avait fait ajouter en <date type="_temp" when="1379">1379</date>. Le vol de <date type="_temp" when="1804">1804</date> fit disparaître définitivement la base et la
+          monture, et c’est alors qu’<persName ref="034502580" type="idref" xml:base="https://www.idref.fr/">Aubin-Louis Millin</persName>,
+          conservateur du cabinet des Médailles, commanda une somptueuse
+          monture exécutée en <date type="_temp" when="1807">1807</date> par
+          <persName type="_temp">Jean-Baptiste-Maximilien Delafontaine
+          Villoteau</persName> (voir ill. ci-dessous). Cinq manuscrits dont
+          quatre recouverts de précieuses reliures d’orfèvrerie furent déposés
+          à la bibliothèque le <date type="_temp" when="1791-05-09">9&#160;mai&#160;1791</date> (Latins 8892, 9455, 17326 et
+          8851).</p>
+          <p xml:id="d1e382">En <date type="_temp" when="1795">1795</date>,
+          une cinquantaine de vases confisqués aux émigrés furent dévolus au
+          cabinet des Médailles, devenu désormais l’un des lieux les plus
+          courus dans la capitale. Il était fréquenté non seulement par un
+          public d’érudits et d’artistes, mais aussi par les élèves de l’École
+          normale. Dès le début, l’objectif recherché par les conservateurs
+          était de rendre la présentation accessible&#160;: ils recommandaient de
+          disposer les collections selon une méthode bien précise et de placer
+          une étiquette explicative sous chaque objet.</p>
+          <figure xml:id="d1e384">
+            <graphic url="https://didomena.ehess.fr/downloads/5m60r0918.jpg"/>
+            <head xml:id="d1e385">Figure 7. <hi rend="italic">Le grand Camée
+            de France</hi>, Rome, vers 23&#160;après&#160;J.-C. Avec la monture réalisée
+            en 1807 par Jean-Baptiste-Maximilien Delafontaine Villoteau,
+            photographie, Agence de presse Meurisse, 1912. Cote Estampes,
+            EI-13 2482. Coll. et cliché BnF</head>
+          </figure>
+          <p xml:id="d1e393">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-hq2y7va8">histoire de
+          l’art</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-2quvas4j">professeur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-hybparsd">conservateur</term>
+              </term>
+            </term>Le
+          <date type="_temp" when="1795-06-02">2&#160;juin&#160;1795</date>, il fut
+          proposé à la Convention nationale de créer un poste de
+          conservateur-professeur, chargé de la collection mais aussi de
+          dispenser des cours publics. Le premier enseignement d’histoire de
+          l’art et d’archéologie en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> vit donc le
+          jour au cabinet des Médailles de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          nationale</placeName> et fut confié à <persName ref="034502580" type="idref" xml:base="https://www.idref.fr/">Aubin-Louis
+          Millin</persName>. Dans sa leçon inaugurale, le <date type="_temp" when="1798-11-24">24&#160;novembre&#160;1798</date>, celui-ci le présenta
+          comme un «&#160;cours d’archéographie&#160;»&#160;: les monuments devaient en effet
+          être étudiés avec une méthode rigoureusement scientifique, afin d’en
+          connaître l’histoire, la datation, «&#160;le but pour lequel ils ont été
+          faits&#160;», mais ils devaient aussi être comparés «&#160;avec les autres […]
+          du même genre&#160;»<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>A.-L.&#160;Millin, «&#160;Discours prononcé par le citoyen Millin,
+              professeur d’antiquité à la Bibliothèque nationale à l’ouverture
+              de son cours, le 4&#160;frimaire de l’an&#160;VII&#160;», in <hi rend="italic">Magasin encyclopédique</hi>, VI (1798), 5,
+              p.&#160;336-354</p>
+            </note>.</p>
+          <p xml:id="d1e402">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-hybparsd">conservateur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-dmvyrktg">carte</term>
+                </term>
+              </term>
+            </term>La
+          <date from="1789" to="1799" type="_temp">Révolution</date> engendra
+          également la création, au sein de la bibliothèque, d’une section
+          consacrée aux cartes de géographie. Le géographe et conservateur
+          <persName ref="073658030" type="idref" xml:base="https://www.idref.fr/">Jean-Denis Barbié du
+          Bocage</persName> créa une «&#160;partie géographique&#160;» au sein du
+          département des Imprimés, mais il faut attendre le <date type="_temp" when="1828-03-30">30&#160;mars&#160;1828</date> pour qu’un
+          véritable département soit créé grâce à la personnalité d’<persName ref="030178673" type="idref" xml:base="https://www.idref.fr/">Edme-François Jomard</persName>,
+          ingénieur-géographe qui avait participé à l’expédition d’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>. Ainsi
+          furent réunis tous les instruments scientifiques, les cartes et les
+          globes, à l’exception de ceux de <persName ref="031973299" type="idref" xml:base="https://www.idref.fr/">Coronelli</persName>
+          exposés dans une grande salle de la bibliothèque royale dès <date type="_temp" when="1782">1782</date>
+            <note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Ils quittent la BN en 1901, puis sont envoyés au château de
+              Versailles en 1914. Restaurés et présentés au Centre Pompidou en
+              1980, puis à la Cité des sciences et au Grand Palais en 2005,
+              ils retournent définitivement à la BnF et sont exposés à partir
+              de 2006 dans l’aile ouest de la Bibliothèque
+              François-Mitterrand. Voir H.&#160;Richard<hi rend="italic">, Les
+              globes de Louis&#160;XIV</hi>, Paris, 2019.</p>
+            </note>.</p>
+          <figure xml:id="d1e411">
+            <graphic url="https://didomena.ehess.fr/downloads/gm80j3793.jpg"/>
+            <head xml:id="d1e412">Figure 8. <hi rend="italic">Mercure</hi>,
+            fin II<hi rend="sup">e</hi>&#160;siècle-début III<hi rend="sup">e</hi>&#160;siècle après&#160;J.&#160;C. Provenant de Berthouville
+            (Eure), argent et or. Cote MMA, 56-I. Coll. et cliché BnF</head>
+          </figure>
+          <p xml:id="d1e427">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hdhvjrsv">sanctuaire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-hybparsd">conservateur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets
+          d’étude</term>
+            </term>Le <date type="_temp" when="1830-03-21">21&#160;mars&#160;1830</date>, en labourant ses champs près
+          de <placeName ref="6447959" type="geonames" xml:base="https://www.geonames.org/">Berthouville</placeName> en
+          Normandie, un certain <persName type="_temp">Prosper
+          Taurin</persName> tomba sur une tuile située à 15&#160;cm du sol. Après
+          quelques coups de pioche, il découvrit une centaine d’objets en
+          argent –&#160;vases, coupes, plats et statuettes&#160;– probablement enterrés
+          à même le sol. Il s’agissait d’un important trésor romain du <date from="0100" to="0199" type="_temp">2<hi rend="sup">e</hi>&#160;siècle
+          après&#160;J.-C.</date>, enfoui près d’un sanctuaire dédié à <persName ref="027298639" type="idref" xml:base="https://www.idref.fr/">Mercure</persName>. Il fut
+          immédiatement examiné par <persName ref="033766398" type="idref" xml:base="https://www.idref.fr/">Charles Lenormand</persName> pour
+          le compte du <placeName ref="2997319" type="geonames" xml:base="https://www.geonames.org/">musée du Louvre</placeName> et
+          par <persName ref="032636873" type="idref" xml:base="https://www.idref.fr/">Désiré Raoul-Rochette</persName>,
+          conservateur du cabinet des Médailles de la Bibliothèque redevenue
+          royale. Ce dernier fut plus rapide que son collègue et réussit à
+          l’acquérir pour la somme de 15&#160;000&#160;francs&#160;; le <date type="_temp" when="1830-05-04">4&#160;mai</date>, il rentra à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> avec tous les
+          objets et dès le mois de <date type="_temp" when="1830-06">juin</date>, le trésor de <placeName ref="6447959" type="geonames" xml:base="https://www.geonames.org/">Berthouville</placeName> fut
+          exposé à la Bibliothèque royale (voir ill. ci-dessus). En <date type="_temp" when="1843">1843</date>, le <persName type="_temp">prince Torlonia</persName> offrit au cabinet des
+          Médailles vingt vases provenant de la nécropole de Monte Abatone,
+          près de <placeName ref="6540519" type="geonames" xml:base="https://www.geonames.org/">Cerveteri</placeName> (Latium),
+          mais c’est sans doute le legs du <persName type="_temp">duc de
+          Luynes</persName> en <date type="_temp" when="1862">1862</date> qui
+          apporta au département une des plus importantes collections de vases
+          grecs (voir ill. ci-dessous), des milliers de monnaies, des pierres
+          gravées, des bronzes, des sculptures, des armures, des armes
+          antiques et des bijoux.</p>
+          <figure xml:id="d1e432">
+            <graphic url="https://didomena.ehess.fr/downloads/dv140286s.jpg"/>
+            <head xml:id="d1e433">Figure 9. <hi rend="italic">Borée et
+            Orythie</hi>, 450-440&#160;av.&#160;J.-C. Pélikè attique à figures rouges.
+            Legs du duc de Luynes en 1862. Cote MMA, De Ridder 401. Coll. BnF.
+            Cliché Serge Oboukhoff © BnF-CNRS Maison Archéologie &amp;
+            Ethnologie, René-Ginouvès</head>
+          </figure>
+          <p xml:id="d1e441">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-gkm7gbrj">collection
+          artistique</term>
+                </term>
+              </term>
+            </term>Faute de place, le cabinet des
+          Médailles déménagea provisoirement en <date type="_temp" when="1865">1865</date> dans les nouveaux espaces aménagés par
+          <persName ref="02971513X" type="idref" xml:base="https://www.idref.fr/">Labrouste</persName> entre la rue
+          de Richelieu et la rue des Petits-Champs (voir ill. ci-dessous)&#160;;
+          les peintures, boiseries et médailliers du salon de l’arcade Colbert
+          furent mis en réserve. Les toiles de <persName ref="032502095" type="idref" xml:base="https://www.idref.fr/">Van Loo</persName> et
+          <persName ref="031099106" type="idref" xml:base="https://www.idref.fr/">Natoire</persName> furent
+          installées provisoirement dans la nouvelle salle de lecture des
+          manuscrits, construite par l’architecte <persName ref="033570639" type="idref" xml:base="https://www.idref.fr/">Jean-Louis
+          Pascal</persName>, tandis que celles de <persName ref="030857600" type="idref" xml:base="https://www.idref.fr/">Boucher</persName> et
+          les portraits des rois prirent place dans le nouveau vestibule de
+          l’administrateur<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>BnF, Estampes, Va&#160;237 (6-7) Fol.</p>
+            </note>, actuel salon d’honneur, avant d’être réinstallés par
+          l’architecte, au début du <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date>, dans les
+          nouveaux bâtiments construits le long de la rue Vivienne jusqu’à
+          l’angle de la rue&#160;Colbert. Les travaux de la nouvelle aile Vivienne
+          avaient commencé en <date type="_temp" when="1889">1889</date> et
+          <persName ref="033570639" type="idref" xml:base="https://www.idref.fr/">Pascal</persName> œuvra en étroite
+          collaboration avec le directeur du cabinet, <persName ref="028453840" type="idref" xml:base="https://www.idref.fr/">Ernest
+          Babelon</persName>. En <date type="_temp" when="1903">1903</date>,
+          les nouveaux bâtiments étaient achevés et les décorations de
+          l’ancien salon remontées. Grâce au soutien de l’administrateur
+          général <persName ref="026820897" type="idref" xml:base="https://www.idref.fr/">Léopold Delisle</persName> et à
+          l’entente avec le directeur du cabinet des Médailles, <persName ref="033570639" type="idref" xml:base="https://www.idref.fr/">Pascal</persName> restitua l’ancien
+          salon <persName ref="027317463" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XV</persName> et réalisa
+          l’une des plus belles «&#160;<foreign xml:lang="eng">period
+          rooms</foreign>&#160;» dans la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> de la <date from="1870" to="1940" type="_temp">Troisième République</date>. Il
+          voulut intégrer à la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          nationale</placeName>, qui occupait désormais l’ensemble du
+          quadrilatère Richelieu, un «&#160;rappel de l’ancienne Bibliothèque du
+          roi&#160;»<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>F.&#160;Bodenstein, «&#160;Le Salon Louis&#160;XV à la Bibliothèque
+              nationale de France&#160;: l’archéologie et la reconstitution d’un
+              lieu d’histoire (1865-1913), in <hi rend="italic">Livraison
+              d’histoire de l’architecture</hi>, 19, 2010, p.&#160;9-23</p>
+            </note>. En attendant le retour des collections, le «&#160;nouveau&#160;»
+          salon fut utilisé comme espace d’exposition&#160;: en <date type="_temp" when="1904">1904</date>, on y présenta les manuscrits anciens, en
+          annexe de l’exposition des <hi rend="italic">Primitifs français
+          </hi>qui avait lieu au Pavillon de Marsan au <placeName ref="2997319" type="geonames" xml:base="https://www.geonames.org/">Louvre</placeName>
+            <note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>BnF, Estampes, Va&#160;237 (7) Fol. Sur cette exposition, cf.
+              D.&#160;Thiébaut, «&#160;L’exposition des Primitifs français de 1904&#160;»,
+              dans <hi rend="italic">Primitifs français. Découvertes et
+              redécouvertes</hi>, catalogue d’exposition (Musée du Louvre,
+              27&#160;février-17&#160;mai&#160;2004), Paris, 2004, p.&#160;13-23</p>
+            </note>&#160;; en <date type="_temp" when="1905">1905</date>,
+          l’administrateur général <persName ref="050143573" type="idref" xml:base="https://www.idref.fr/">Henry Marcel</persName> y organisa
+          une exposition de miniatures du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>. Mises à l’abri
+          pendant la <date from="1914-07-28" to="1918-11-11" type="_temp">Première Guerre mondiale</date>, les collections du
+          département des Médailles retrouvèrent leurs nouveaux locaux à
+          partir de <date type="_temp" when="1917">1917</date>.</p>
+          <figure xml:id="d1e470">
+            <graphic url="https://didomena.ehess.fr/downloads/tt44pw407.jpg"/>
+            <head xml:id="d1e471">Figure 10. Henri Tauzin, Vue de la salle du
+            trône de Dagobert dans l’aile située entre les rues de Richelieu
+            et des Petits-Champs, aquarelle, avant 1902. Hommage du personnel
+            de la Bibliothèque nationale à Mr Léopold Delisle…, Paris, 1902.
+            Cote Estampes, Res. PD-112-PET FOL. Coll. et cliché BnF</head>
+          </figure>
+          <p xml:id="d1e477">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-kpbl3dgr">bureau</term>
+              </term>
+            </term>Le cabinet
+          des Médailles n’était pas l’unique espace «&#160;muséal&#160;» au sein de la
+          <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          nationale</placeName>. Des manuscrits étaient présentés au public
+          dans la galerie Mazarine, salle de lecture du département, galerie
+          qui continua à accueillir des expositions de livres imprimés et
+          manuscrits (voir ill. ci-dessous) après la construction de la
+          nouvelle salle par <persName ref="033570639" type="idref" xml:base="https://www.idref.fr/">Pascal</persName>. De même, le
+          cabinet des Estampes présentait régulièrement au public ses
+          collections dans des expositions permanentes<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Sur le sujet, cf. V.&#160;Meyer, «&#160;Les premières expositions
+              permanentes au cabinet des Estampes de la Bibliothèque royale
+              puis impériale&#160;», in <hi rend="italic">Nouvelles de
+              l’estampe</hi>, 1, 2019, p.&#160;5-29</p>
+            </note>. La première fut organisée au mois de <date type="_temp" when="1794-02">février 1794</date>, puis en <date type="_temp" when="1807">1807</date> et dans les années suivantes, comme le
+          relate <persName ref="033801479" type="idref" xml:base="https://www.idref.fr/">Théophile Marion
+          Dumersan</persName> dans son <hi rend="italic">Guide des curieux et
+          des étrangers dans les bibliothèques publiques de Paris </hi>publié
+          en <date type="_temp" when="1810">1810</date>&#160;: «&#160;la première pièce
+          offre un choix d’estampes encadrées des plus précieuses par leur
+          beauté et leur rareté. Elles donnent une idée des plus belles pièces
+          dans chaque genre&#160;». Après avoir décrit les pièces exposées,
+          <persName ref="033801479" type="idref" xml:base="https://www.idref.fr/">Dumersan</persName> affirme que
+          «&#160;cette collection d’estampes est précieuse non seulement pour les
+          artistes et les amateurs, mais même pour tous les curieux, qui
+          peuvent demander, pour les voir, des recueils de fleurs, de
+          costumes, de paysages, ou des collections, telles que la galerie de
+          <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>, celle du
+          <placeName ref="11592069" type="geonames" xml:base="https://www.geonames.org/">Palais-Royal</placeName>,
+          celles du Musée français, etc. etc.&#160;».</p>
+          <p xml:id="d1e489">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-hq2y7va8">histoire de
+          l’art</term>
+                </term>
+              </term>
+            </term>Étant donné le succès de ces
+          expositions, <persName ref="034490531" type="idref" xml:base="https://www.idref.fr/">Jean Duchesne</persName>, premier
+          employé au département des Estampes, organisa en <date type="_temp" when="1819">1819</date> une présentation de 161&#160;pièces et en publia
+          le catalogue. Précédé d’un bref historique de la collection et de
+          son critère de classement, ce catalogue explique le choix des pièces
+          exposées, accompagnées chacune d’une notice&#160;: «&#160;les plus belles
+          estampes au burin, mais aussi quelques gravures à l’eau-forte&#160;» et
+          des estampes modernes pour l’histoire de l’art<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="italic">Notice des estampes exposées à la
+              Bibliothèque du roi</hi>, Paris, 1819</p>
+            </note>. Le retentissement de cette initiative fut tel que quatre
+          publications de catalogues des estampes exposées virent le jour
+          <date from="1819" to="1855" type="_temp">de 1819 à 1855</date>.</p>
+          <figure xml:id="d1e498">
+            <graphic url="https://didomena.ehess.fr/downloads/7d279258m.jpg"/>
+            <head xml:id="d1e499">Figure 11. Joseph Carré, Une exposition de
+            livres imprimés et manuscrits dans la galerie Mazarine, aquarelle,
+            avant 1902. Hommage du personnel de la Bibliothèque nationale à
+            Mr&#160;Léopold Delisle…, Paris, 1902. Cote Estampes, Res. PD-112-PET
+            FOL. Coll. et cliché BnF</head>
+          </figure>
+          <p xml:id="d1e505">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-drzsfy9d">artiste</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-g4hcjbnn">revue</term>
+              </term>
+            </term>Dans la <hi rend="italic">Revue encyclopédique </hi>de <date type="_temp" when="1820">1820</date>, <persName ref="033020191" type="idref" xml:base="https://www.idref.fr/">Emeric David</persName> déclare&#160;:
+          «&#160;Heureuse pensée de faire placer sous verre quelques-unes des
+          pièces les plus curieuses de cette riche collection, et de les
+          exposer, ainsi encadrées, à l’examen du public&#160;»<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Cité par Meyer, op.&#160;cit., p.&#160;23</p>
+            </note>. En <date type="_temp" when="1839">1839</date>, <persName ref="029692008" type="idref" xml:base="https://www.idref.fr/">Émile
+          de Girardin</persName>, directeur de <hi rend="italic">La&#160;Presse</hi>, insiste en affirmant que «&#160;tous les
+          artistes doivent visiter cette exposition scientifique&#160;»<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Ibid.</p>
+            </note>.</p>
+          <p xml:id="d1e519">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-qge35acp">collection
+          scientifique</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-jcqq7vil">collection
+          éditoriale</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-gkm7gbrj">collection
+          artistique</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>Parallèlement
+          au succès des expositions permanentes, les acquisitions se
+          poursuivent&#160;: rappelons l’achat en <date type="_temp" when="1841">1841</date> de 7&#160;000&#160;estampes de la collection de
+          l’amateur <persName ref="066924790" type="idref" xml:base="https://www.idref.fr/">Michel Hennin</persName>, suivi par
+          son legs en <date type="_temp" when="1863">1863</date> de
+          14&#160;807&#160;pièces concernant l’histoire de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, puis en
+          <date type="_temp" when="1853">1853</date> celui de 67&#160;000&#160;portraits
+          des libraires <persName ref="032571429" type="idref" xml:base="https://www.idref.fr/">Guillaume</persName> et <persName ref="068721315" type="idref" xml:base="https://www.idref.fr/">Jean-Jacques Debure</persName>.
+          Poussé par le souhait de rendre accessible une si vaste collection,
+          <persName ref="034490531" type="idref" xml:base="https://www.idref.fr/">Duchesne</persName> organise le
+          classement des pièces suivant la méthode que <persName ref="034816151" type="idref" xml:base="https://www.idref.fr/">Karl
+          Heinrich von Heinecken</persName> avait conçue pour le Cabinet de
+          <placeName ref="6551127" type="geonames" xml:base="https://www.geonames.org/">Dresde</placeName>.</p>
+          <p xml:id="d1e521">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-kpbl3dgr">bureau</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>Les
+          expositions se tenaient dans deux pièces du cabinet installé <date from="1751" to="1854" type="_temp">de 1751 à 1854</date> dans un
+          entresol disparu après les travaux menés par <persName ref="02971513X" type="idref" xml:base="https://www.idref.fr/">Labrouste</persName>, le salon ou
+          ancien cabinet, et dans la galerie. Les gravures étaient accrochées
+          dans les embrasures des fenêtres et sur les trumeaux qui les
+          séparaient. Toutefois, dès <date type="_temp" when="1825">1825</date>, dans son <hi rend="italic">Voyage
+          bibliographique, archéologique et pittoresque de la France</hi>, le
+          révérend <persName ref="053490037" type="idref" xml:base="https://www.idref.fr/">Thomas Frognall Dibdin</persName>,
+          tout en tissant des louanges pour ces expositions, souligne
+          l’exiguïté des lieux&#160;: «&#160;L’idée de cette exposition est bonne mais
+          il faudrait, pour en rendre l’effet plus complet, une galerie de
+          50&#160;pieds de longueur, pas trop large, éclai rée par le haut&#160;»<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Ibid., p.&#160;21</p>
+            </note>. L’exiguïté des lieux, «&#160;extrêmement gênante pour les
+          personnes qui y vont étudier&#160;», devient un leitmotiv dans la presse
+          de l’époque.</p>
+          <figure xml:id="d1e529">
+            <graphic url="https://didomena.ehess.fr/downloads/td96kb18v.jpg"/>
+            <head xml:id="d1e530">Figure 12. Maxime Du Camp, <hi rend="italic">La pyramide de Khéops</hi>, papier salé, 1851. Coll.
+            et cliché BnF</head>
+          </figure>
+          <p xml:id="d1e538">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-cjmv3m7p">photographie</term>
+              </term>
+            </term>Elle
+          deviendra encore plus flagrante lorsque, par le biais du dépôt
+          légal, les premiers tirages photographiques entrent dans les
+          collections du département (voir ill. ci-dessus), devenu département
+          des Estampes et de la photographie en <date type="_temp" when="1972">1972</date> seulement, à l’initiative du directeur
+          <persName ref="026677903" type="idref" xml:base="https://www.idref.fr/">Jean Adhémar</persName>. En effet,
+          en <date type="_temp" when="1851">1851</date>, «&#160;le dépôt légal,
+          étendu à la lithographie depuis <date type="_temp" when="1817">1817</date>, fut spontanément adopté par les producteurs
+          (auteurs ou éditeurs) de photographies. Bien qu’aucun texte de loi
+          n’y obligeât expressément avant <date type="_temp" when="1943">1943</date>, on compte plus de 100&#160;000&#160;photographies
+          déposées <date from="1851" to="1914" type="_temp">entre 1851 et
+          1914</date>&#160;»<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>S.&#160;Aubenas et M.&#160;Pagneux&#160;(dir.), <hi rend="italic">La
+              photographie en 100&#160;chefs-d’œuvre</hi>, catalogue d’exposition
+              (BnF, 13&#160;novembre&#160;2012-17&#160;février&#160;2013), Paris, 2012</p>
+            </note>.</p>
+          <p xml:id="d1e547">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-hybparsd">conservateur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>L’accroissement
+          de la collection d’estampes, puis de photographies, rendit
+          indispensable le transfert du département en <date type="_temp" when="1854">1854</date> dans la galerie du rez-de-chaussée de
+          l’hôtel Tubeuf (galerie Mansart). Les expositions permanentes
+          d’estampes continuaient&#160;: elles étaient accrochées dans l’ébrasement
+          des grandes baies de la galerie Mansart (voir ill. ci-dessous). La
+          dernière, organisée par le conservateur <persName ref="028289153" type="idref" xml:base="https://www.idref.fr/">Henri
+          Delaborde</persName> en <date type="_temp" when="1875">1875</date>,
+          se poursuivit jusqu’en <date type="_temp" when="1898">1898</date>.
+          Cette année-là, le nouveau conservateur <persName ref="02814886X" type="idref" xml:base="https://www.idref.fr/">Henri
+          Bouchot</persName>, conscient des dangers d’une exposition
+          prolongée, exprima son inquiétude à l’administrateur général
+          <persName ref="026820897" type="idref" xml:base="https://www.idref.fr/">Léopold Delisle</persName>, lequel
+          mit fin immédiatement à cette pratique très dangereuse pour la
+          conservation des feuilles.</p>
+          <p xml:id="d1e549">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-qsxs8rem">architecture</term>
+              </term>
+            </term>Il
+          faut attendre le milieu du <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date> pour que, grâce à
+          la volonté de l’administrateur <persName ref="050798472" type="idref" xml:base="https://www.idref.fr/">Julien Cain</persName>
+          et à l’intelligence de l’architecte <persName ref="03382469X" type="idref" xml:base="https://www.idref.fr/">Jean-Michel
+          Roux-Spitz</persName>, la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          nationale</placeName> puisse bénéficier d’une nouvelle salle
+          d’exposition&#160;: la galerie Mansart, vidée des collections d’estampes
+          et de photographie. Grâce au plan de «&#160;Grands travaux de lutte
+          contre le chômage&#160;» (loi du <date type="_temp" when="1936-08-18">18&#160;août&#160;1936</date>), <persName ref="03382469X" type="idref" xml:base="https://www.idref.fr/">Roux-Spitz</persName>
+          put entamer le chantier de reconstruction du département des
+          Estampes dans l’aile occidentale de l’hôtel Tubeuf. Le nouveau
+          bâtiment des Estampes, dont les travaux avaient commencé en <date type="_temp" when="1938">1938</date>, puis furent interrompus
+          pendant <date from="1939-09-01" to="1945-09-02" type="_temp">la
+          guerre</date>, fut inauguré le <date type="_temp" when="1946-05-06">6&#160;mai&#160;1946</date>. Dans la même aile fut également
+          inauguré, le <date type="_temp" when="1954-06-04">4&#160;juin&#160;1954</date>, le nouveau département des
+          Cartes et plans. L’architecte créa ainsi des équipements
+          complètement «&#160;modernes&#160;», tout en restaurant et en récupérant des
+          vestiges de l’ancien hôtel Tubeuf-Mazarin, comme la chambre de
+          <persName ref="027400646" type="idref" xml:base="https://www.idref.fr/">Mazarin</persName> (vestibule de la
+          réserve des estampes) et la réserve dite des «&#160;vélins&#160;» (département
+          des Cartes et plans), qui accueillera le plafond de <persName ref="027688585" type="idref" xml:base="https://www.idref.fr/">Simon
+          Vouet</persName>.</p>
+          <figure xml:id="d1e554">
+            <graphic url="https://didomena.ehess.fr/downloads/t435gn22g.jpg"/>
+            <head xml:id="d1e555">Figure 13. Salle de lecture et d’exposition
+            du cabinet des Estampes en 1855 (Galerie Mansart), estampe, 1855.
+            Cote Estampes, Va-237 (7) FOL. Coll. et cliché BnF</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e559">
+          <head subtype="level1" xml:id="d1e560">La renaissance de Richelieu,
+          bibliothèques, musée, galeries</head>
+          <p xml:id="d1e562">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>Après
+          le transfert en <date type="_temp" when="1998">1998</date> des
+          collections imprimées et audiovisuelles sur le site <placeName ref="8051139" type="geonames" xml:base="https://www.geonames.org/">François-Mitterrand</placeName>,
+          une nouvelle ère commence pour Richelieu. Il faut avant tout
+          rénover, restaurer et réorganiser ce site pluriséculaire que
+          désormais trois institutions se partagent&#160;: la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName>, l’Institut
+          national d’histoire de l’art (INHA) et l’École nationale des chartes
+          (ENC).</p>
+          <p xml:id="d1e564">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-cjmv3m7p">photographie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>En
+          <date type="_temp" when="2007">2007</date>, l’agence Bruno
+          Gaudin<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>V.&#160;Brégal et B.&#160;Gaudin, «&#160;Ouvrir le Quadrilatère&#160;», in
+              A.&#160;Conraux, A.-S.&#160;Haquin et C.&#160;Mengin&#160;(dir.), <hi rend="italic">Richelieu. Quatre siècles d’histoire
+              architecturale au cœur de Paris</hi>, Paris, 2017,
+              p.&#160;230-252</p>
+            </note> remporte le marché de maîtrise d’œuvre pour la
+          restauration et la transformation du site&#160;: tous les départements
+          spécialisés de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName> y trouveront
+          leur place, l’INHA occupera l’ancienne salle de lecture (salle
+          Labrouste) ainsi qu’une partie de l’aile Richelieu, et l’ENC
+          installera sa bibliothèque entre la rue de Richelieu et la rue des
+          Petits-Champs. La zone&#160;1 (aile Richelieu et Petits-Champs) a ouvert
+          au public en <date type="_temp" when="2017-01">janvier&#160;2017</date>&#160;:
+          les manuscrits retrouvent leur ancienne salle de lecture restaurée,
+          les collections du département des Estampes et de la photographie
+          sont consultables provisoirement dans l’ancienne salle de lecture de
+          la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName> (salle
+          Labrouste), et le département des Arts du spectacle de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName> s’installe dans
+          les anciens espaces de la réserve des livres rares<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Créé en 1976, le noyau principal de ce département est
+              constitué par la riche collection d’Auguste Rondel (1858-1934),
+              bibliophile passionné de spectacles, qui légua à sa mort quelque
+              400&#160;000&#160;documents à l’État.</p>
+            </note>. Il bénéficie désormais d’une nouvelle salle de lecture et
+          d’un espace d’exposition permanente baptisé «&#160;Rotonde des arts du
+          spectacle&#160;».</p>
+          <p xml:id="d1e576">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-dmvyrktg">carte</term>
+                </term>
+              </term>
+            </term>Avec
+          la réouverture de la zone&#160;2 à l’automne&#160;<date type="_temp" when="2021">2021</date>, le public pourra accéder à l’ensemble des
+          espaces du site&#160;: la salle ovale sera ouverte à tous les publics
+          avec un accès libre et gratuit (salle de lecture et espaces de
+          médiation)&#160;; le département des Estampes et de la photographie,
+          ainsi que celui des Cartes et plans, retrouveront leurs espaces dans
+          l’ancien hôtel Tubeuf&#160;; le département de la Musique<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Créé en 1942, le département de la Musique hérite des
+              collections spécialisées de la Bibliothèque nationale, du
+              Conservatoire national de musique et d’art dramatique et de la
+              bibliothèque de l’Opéra&#160;; ces deux dernières collections ont été
+              rattachées à la Bibliothèque nationale en 1935.</p>
+            </note> intégrera le site Richelieu et partagera la salle de
+          lecture avec le département des Manuscrits&#160;; le département des
+          Monnaies et médailles retrouvera ses anciens espaces réaménagés pour
+          abriter le nouveau musée de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName>, dont le projet
+          a été confié à l’étude florentine Guicciardini &amp; Magni<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>S.&#160;Polano&#160;(dir.), <hi rend="italic">Mostre e musei di
+              Guicciardini &amp; Magni architetti</hi>, Milan, 2019</p>
+            </note>. Ce musée encyclopédique occupera les anciens locaux
+          construits par <persName ref="033570639" type="idref" xml:base="https://www.idref.fr/">Pascal</persName> (aile Vivienne),
+          ainsi que la galerie Mazarine et la Rotonde des arts du spectacle.
+          Suivant un parcours chrono-thématique de l’<date type="_temp">Antiquité à nos jours</date> (Salle des Colonnes,
+          Cabinet précieux, salles de Luynes et Barthélémy, Cabinet du roi,
+          Galerie Mazarine et Rotonde des arts du spectacle), le public pourra
+          admirer des centaines d’objets archéologiques et des médailles,
+          ainsi qu’une sélection de manuscrits, estampes, photographies,
+          dessins, cartes géographiques, globes, partitions musicales, livres
+          rares et costumes. Les œuvres les plus fragiles seront exposées par
+          rotation au rythme de trois par an.</p>
+          <p xml:id="d1e588">Par la variété et la richesse de ses collections,
+          ainsi que par la fréquence des rotations, le musée de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName> offrira aux
+          publics l’occasion de revenir régulièrement découvrir ses trésors.
+          Le nouveau projet scientifique de <date type="_temp" when="2016">2016</date> pour Richelieu<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Il a été élaboré sous la direction de Denis Bruckmann,
+              directeur des collections de 2007 à 2019, nommé directeur
+              général de la BnF le 8&#160;avril&#160;2019.</p>
+            </note> a donc affirmé définitivement la double identité du site
+          historique de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName>, celle de
+          «&#160;bibliothèque-musée&#160;» – une identité qui a caractérisé la
+          Bibliothèque royale, puis nationale, depuis ses origines.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e594">
+        <head xml:id="d1e595">Bibliographie</head>
+        <listBibl xml:id="d1e597">
+          <bibl type="orig" xml:id="d1e598">H.&#160;Bouchot, Le Cabinet des
+          estampes de la Bibliothèque nationale&#160;: guide du lecteur et du
+          visiteur, catalogue général et raisonné des collections qui y sont
+          conservées, Paris, 1895</bibl>
+          <bibl type="orig" xml:id="d1e600">J.&#160;Babelon, Le Cabinet du roi ou
+          le Salon Louis&#160;XV de la Bibliothèque nationale, Paris-Bruxelles,
+          1927</bibl>
+          <bibl type="orig" xml:id="d1e602">S.&#160;Balayé, La Bibliothèque
+          nationale des origines à 1800, Genève, 1988</bibl>
+          <bibl type="orig" xml:id="d1e604">1798. Le patrimoine libéré.
+          200&#160;trésors entrés à la Bibliothèque nationale de 1789 à 1799,
+          catalogue d’exposition (Paris, Bibliothèque nationale,
+          6&#160;juin-10&#160;septembre&#160;1989), Paris, 1989</bibl>
+          <bibl type="orig" xml:id="d1e606">B.&#160;Blasselle et J.&#160;Melet-Sanson,
+          La Bibliothèque nationale, mémoire de l’avenir, Paris, 1990</bibl>
+          <bibl type="orig" xml:id="d1e608">D.&#160;Gaborit-Chopin&#160;(dir.), Le
+          trésor de Saint-Denis, catalogue d’exposition (musée du Louvre,
+          12&#160;mars-17&#160;juin&#160;1991), Paris, 1991</bibl>
+          <bibl type="orig" xml:id="d1e610">T.&#160;Sarmant, Le Cabinet des
+          médailles de la Bibliothèque nationale, 1661-1848, Paris,
+          1994</bibl>
+          <bibl type="orig" xml:id="d1e612">J.&#160;Durand et
+          M.-P.&#160;Laffitte&#160;(dir.), Le trésor de la Sainte-Chapelle, catalogue
+          d’exposition (musée du Louvre, 31&#160;mai-27&#160;août&#160;2001), Paris,
+          2001</bibl>
+          <bibl type="orig" xml:id="d1e614">I.&#160;Aghion&#160;(dir.), Caylus, mécène
+          du roi. Collectionner les antiquités au XVIII<hi rend="sup">e</hi>&#160;siècle, catalogue d’exposition (BnF,
+          17&#160;décembre&#160;2002-17&#160;mars&#160;2003), Paris, 2002</bibl>
+          <bibl type="orig" xml:id="d1e619">O.&#160;Loiseaux&#160;(dir.), Trésors
+          photographiques de la Société de géographie, Paris, 2006</bibl>
+          <bibl type="orig" xml:id="d1e621">S.&#160;Aubenas et
+          P.-L.&#160;Roubert&#160;(dir.), Les primitifs de la photographie. Le calotype
+          en France, 1843-1860, catalogue d’exposition (Paris, BnF, 19&#160;octobre
+          2010-16&#160;janvier&#160;2011), Paris, 2010</bibl>
+          <bibl type="orig" xml:id="d1e624">C.&#160;Colonna, De Rouge et de Noir.
+          Les vases grecs de la collection de Luynes, Montreuil, 2013</bibl>
+          <bibl type="orig" xml:id="d1e626">K.&#160;Lapatin&#160;(dir.), The
+          Berthouville Silver Treasure and Roman Luxury, Los Angeles,
+          2014</bibl>
+          <bibl type="orig" xml:id="d1e628">M.&#160;Avisseau-Broustet et C.
+          Colonna&#160;(dir.), Le luxe dans l’Antiquité. Trésors de la Bibliothèque
+          nationale de France, catalogue d’exposition (Arles, musée
+          départemental Arles Antiques, 1<hi rend="sup">er</hi>&#160;juillet&#160;2017-21&#160;janvier&#160;2018), Gand, 2017</bibl>
+          <bibl type="orig" xml:id="d1e633">A.&#160;Conraux, A.-S.&#160;Haquin et
+          C.&#160;Mengin&#160;(dir.), Richelieu. Quatre siècles d’histoire
+          architecturale au cœur de Paris, Paris, 2017</bibl>
+          <bibl type="orig" xml:id="d1e635">D.&#160;Bruckmann, «&#160;Les collections
+          ‘spécialisées’ à la Bibliothèque nationale de France&#160;: un bref
+          panorama&#160;», in La Revue de la BNU, n<hi rend="sup">o</hi>&#160;18, 2018,
+          p.&#160;9-19</bibl>
+          <bibl type="orig" xml:id="d1e640">A.&#160;Turner, Mathematical
+          instruments in the collections of the Bibliothèque nationale de
+          France, Paris-Turnhout, 2018</bibl>
+          <bibl type="orig" xml:id="d1e642">B.&#160;Blasselle, M.&#160;de&#160;Séverac,
+          G.&#160;Toscano&#160;(dir.), Histoire de la Bibliothèque nationale de France,
+          à paraître</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

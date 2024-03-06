@@ -1,0 +1,1090 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-826_Dauzat">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Erreurs de traduction volontaires et paresse du
+        contresens</title>
+        <author role="aut">
+          <forename>Pierre-Emmanuel</forename>
+          <surname>Dauzat</surname>
+          <idno type="IDREF">026813297</idno>
+          <affiliation>Traducteur et écrivain</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/AFAWV23E" type="journalArticle" xml:lang="fr">
+          <analytic>
+            <title level="a">Erreurs de traduction volontaires et paresse du
+            contresens</title>
+            <idno type="DOI">10.4000/anabases.826</idno>
+            <author>
+              <forename>Pierre-Emmanuel</forename>
+              <surname>Dauzat</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Anabases. Traditions et réceptions de
+            l’Antiquité</title>
+            <idno type="ISSN">1774-4296</idno>
+            <imprint>
+              <biblScope unit="issue">11</biblScope>
+              <date>2010</date>
+              <note type="accessed">2022-07-06T07:17:23Z</note>
+              <note type="url">https://journals.openedition.org/anabases/826</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langue</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="frm"/>
+        <language ident="lat"/>
+        <language ident="grc"/>
+        <language ident="zho"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>translation</item>
+            <item>mistranslation</item>
+            <item>figure of the translator</item>
+            <item>Augustine</item>
+            <item>Jerome</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>traduction</item>
+            <item>contresens</item>
+            <item>figure du traducteur</item>
+            <item>Augustin</item>
+            <item>Jérôme</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="293198" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName>
+          </term>
+          <term>
+            <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Théra</placeName>
+          </term>
+          <term>
+            <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bephtague</placeName>
+          </term>
+          <term>
+            <placeName ref="745044" type="geonames" xml:base="https://www.geonames.org/">Constantinople</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1500" to="1699" type="_temp">XVI<hi rend="sup">e</hi>
+            au XVII<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="-0699" to="-0500" type="_temp">VII<hi rend="sup">e</hi> au VI<hi rend="sup">e</hi>&#160;siècle
+            av.&#160;J.-C</date>
+          </term>
+          <term>
+            <date from="0500" to="0599" type="_temp">VI<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1900" to="1999" type="_temp">XX<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Erreurs de traduction volontaires et paresse
+          du contresens</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Pierre-Emmannuel Dauzat</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:id="d1e206" xml:lang="fre">Si rarement on avoue des erreurs
+        volontaires de traduction, le paradoxe est celui de la persistance des
+        erreurs de traduction corrigées dans les textes dits canoniques&#160;: il
+        existe une véritable «&#160;paresse&#160;» du contresens, qui est l’envers de ce
+        que Marc Bloch appelait la «&#160;passivité&#160;». Dans les deux cas, le texte
+        traduit manque à sa vocation téléologique, qui est de servir la
+        discipline qui la mobilise (histoire, épigraphie, archéologie,
+        philosophie, etc.). L’analyse menée au <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi>&#160;siècle par Claude
+        Gaspar Bachet de Meziriac dans <hi rend="italic">De la traduction</hi>
+        (1635), avec sa typologie des erreurs de traduction, n’a rien perdu de
+        son actualité, mais son application à deux traductions exemplaires
+        –&#160;les <hi rend="italic">Analectes</hi> de Confucius – et le <hi rend="italic">Testimonium Flavianum</hi>&#160;– oblige à relativiser les
+        conséquences que l’on peut en tirer. Répondant à des choix plus ou
+        moins délibérés ou avoués, l’erreur acquiert une certaine légitimité.
+        Il apparaît alors qu’un choix de traduction, légitime en soi parmi
+        d’autres choix possibles, fait jurisprudence au risque du contresens
+        quand il finit par exclure d’autres traductions. L’augustinisme
+        politique, avec le thème du recours de Jésus à la violence, ou la
+        théologie du mariage née de contresens de saint Jérôme sont deux
+        exemples, parmi bien d’autres, que l’erreur de traduction devenue un
+        fait acquis crée son propre espace de signification, entre paresse du
+        contresens et erreur volontaire.</p>
+        <p xml:id="d1e223" xml:lang="eng">If wilful errors of translation are
+        seldom confessed, there is a paradox in the persistance of the errors
+        of translation corrected in the so-called canonical texts&#160;: there is a
+        real sluggishness of the mistranslation which is the reverse of what
+        Marc Bloch called “passivity”. In either case, the translated text
+        flouts its teleological vocation, which is to assist the discipline
+        that sets it to work (history, epigraphy, archeology, philosophy,
+        etc.). The analysis carried out in the<hi rend="small-caps">
+        xvii</hi>
+          <hi rend="sup">th</hi> century by Claude Gaspar Bachet de
+        Meziriac in <hi rend="italic">De la traduction </hi>(1635) with its
+        typology of the errors of translation has lost nothing of its
+        relevance for the present, but its application to two exemplary
+        translations –&#160;Confucius’ <hi rend="italic">Analecta </hi>- and the
+        <hi rend="italic">Testimonium </hi>
+          <hi rend="italic">Flavianum &#160;</hi>-
+        compels us to tone down the consequences that can be derived from it.
+        Answering more or less deliberate or avowed choices, error acquires
+        some kind of legitimacy. It therefore appears that a choice of
+        translation, legitimate in itself among other possible choices,
+        becomes law to the risk of a misconstruction when it eventually
+        excludes other translations. Political augustinism with the theme of
+        Jesus resorting to violence, or the theology of marriage born out of a
+        misconstruction by St Jerome are two instances, among many others that
+        an error of translation, by becoming acquired fact, creates its own
+        space of meaning, between sluggish mistranslation and wilful
+        error.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e258">Les erreurs de traduction ont mauvaise réputation.
+        On les dénonce et on les pourchasse au point de vouloir, à l’exemple
+        du philosophe <persName ref="026924099" type="idref" xml:base="https://www.idref.fr/">Jacques d’Hondt</persName>, les
+        «&#160;qualifier juridiquement&#160;». «&#160;J’enverrais tous ces Messieurs les
+        traducteurs en <placeName ref="2016590" type="geonames" xml:base="https://www.geonames.org/">Sibérie</placeName> pour manque
+        de patriotisme et légèreté&#160;», rageait déjà le doux <persName ref="027156397" type="idref" xml:base="https://www.idref.fr/">Tchékhov</persName>. Ce faisant, on
+        oublie trop souvent que la traduction n’est pas une discipline
+        autonome, qu’elle est souvent en position ancillaire, et que les
+        erreurs commises, notamment dans le domaine de la théologie, mais
+        aussi en philosophie ou en histoire, font jurisprudence et créent des
+        précédents<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Sur cette notion, voir <hi rend="small-caps">P.-E.&#160;Dauzat</hi>,
+            «&#160;Jurisprudence(s) de la traduction&#160;», Colloque de Toulon,
+            24-25&#160;novembre&#160;2005, in <hi rend="small-caps">J.-J.&#160;Sueur</hi>,
+            éd., <hi rend="italic">Interpréter et traduire</hi>, Bruxelles,
+            Bruylant, 2007, p.&#160;217-231&#160;; et “L’expédient en traduction&#160;: du
+            parler-en-langues au contresens volontaire”, in <hi rend="small-caps">P.&#160;Loraux</hi> et <hi rend="small-caps">C.&#160;Énaudeau</hi>, <hi rend="italic">La Méthode
+            de l’expédient</hi>, Paris, Kimé, 2006, p.&#160;165-180.</p>
+          </note>. L’erreur involontaire devient alors volontaire, et la
+        correction de l’erreur de traduction ne change rien à ses
+        conséquences. Ces quelques observations de traducteur praticien sur
+        l’histoire de la traduction n’ont d’autre but que de donner un aperçu
+        de la place que devrait occuper la réflexion sur l’erreur dans
+        l’histoire et la théorie de la traduction pour remettre en cause
+        l’idée reçue que l’erreur de traduction est, «&#160;pis qu’un crime, une
+        faute&#160;».</p>
+        <p xml:id="d1e284">Tous les traducteurs ou auteurs de contresens n’ont
+        pas les obligeances ni les élégances de <persName ref="027107957" type="idref" xml:base="https://www.idref.fr/">Ronsard</persName>, dans
+        l’<hi rend="italic">Hymne à la mort</hi>&#160;:</p>
+        <quote rend="quotation" xml:lang="frm">Adonc la Mort se sied dessus
+        leur blanche teste<lb/>Qui demande sa debte, et la veut avoir
+        preste&#160;;<lb/>Ou bien si quelques jours, pour leur faire
+        plaisir,<lb/>Les souffre dans le lict languir, tout à loisir,<lb/>Si
+        est-ce que soudain, après l’usure grande<lb/>D’yeux, de braz, ou de
+        piedz, sa debte redemande,<lb/>Et veut avec l’usure avoir le
+        principal.</quote>
+        <p xml:id="d1e304">S’inspirant de la traduction par <persName ref="026864436" type="idref" xml:base="https://www.idref.fr/">Marsile
+        Ficin</persName> de l’<hi rend="italic">Axiochos</hi> du
+        Pseudo-<persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>, avec son suggestif
+        <hi rend="italic">
+            <foreign xml:lang="lat">astans super caput natura</foreign>
+          </hi>, il commence en effet par en donner une traduction littérale à
+        contresens, avec l’image de «&#160;la mort assise sur la tête de ses
+        débiteurs&#160;», avant d’effacer ce contresens volontaire et de se faire
+        traducteur plus orthodoxe en retraduisant, à quelques vers plus loin,
+        la même formule, <hi rend="italic">
+            <foreign xml:lang="lat">super caput</foreign>
+          </hi>, par «&#160;veut avec l’usure avoir le principal&#160;». La reprise de
+        la même formule traduite l’une à contresens, l’autre avec exactitude
+        signe en effet le contresens volontaire. Qui lit le dernier vers cité
+        ne saurait douter que <persName ref="027107957" type="idref" xml:base="https://www.idref.fr/">Ronsard</persName> savait son latin
+        et l’a bien traduit<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>
+              <hi rend="small-caps">J.&#160;Céard</hi>, “Ronsard, lecteur de
+            l’Axiochos&#160;: une source inconnue de l’‘Hymne à la mort’”, in <hi rend="small-caps">L.&#160;Zilli</hi>, éd., <hi rend="italic">Parcours
+            et rencontres. Mélanges de langue, d’histoire et de littérature
+            françaises offerts à Enea Balmas</hi>, Paris, Klincksieck, 1993,
+            tome&#160;1, p.&#160;105-115, ici p.&#160;107.</p>
+          </note>. Ce faisant, <persName ref="027107957" type="idref" xml:base="https://www.idref.fr/">Ronsard</persName> s’inscrit dans la
+        droite ligne de son confrère de la Pléiade, à savoir <persName ref="032130759" type="idref" xml:base="https://www.idref.fr/">Du
+        Bellay</persName> et sa<hi rend="italic"> Deffence et illustration de
+        la langue françoyse</hi> de <date type="_temp" when="1549">1549</date>, qui tout en forgeant par paronomase le faux
+        couple italien <hi rend="italic">
+            <foreign xml:lang="lat">traduttore</foreign>-</hi>
+          <foreign xml:lang="lat">
+            <hi rend="italic">traditore</hi>
+          </foreign>, revendique le «&#160;droit à l’erreur&#160;» pour éviter le
+        psittacisme&#160;: bref, il faut «&#160;oser faire des traductions erronées&#160;».
+        <persName ref="027100499" type="idref" xml:base="https://www.idref.fr/">François Rigolot</persName> observe&#160;:
+        «&#160;En termes derridiens on pourrait parler d’une théorie de l’<hi rend="italic">
+            <foreign xml:lang="lat">erratum</foreign>
+          </hi> puisque l’incorrection y est la condition <hi rend="italic">
+            <foreign xml:lang="lat">sine qua non</foreign>
+          </hi> de la production de sens. En termes judéo-chrétiens, la
+        transgression se trouve rachetée par une économie sotériologique&#160;: <hi rend="italic">
+            <foreign xml:lang="lat">felix culpa</foreign>
+          </hi>
+          <note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>
+              <hi rend="small-caps">F.&#160;Rigolot</hi>, <hi rend="italic">L’Erreur de la Renaissance. Perspectives
+            littéraires</hi>, Paris, Champion, 2002, p.&#160;309-311. Cf.&#160;<hi rend="small-caps">O.P.&#160;Norton</hi>, <hi rend="italic">The Ideology
+            and Langage of Translation in Renaissance France and their
+            Humanist Antecedents</hi>, Genève, Droz, 1984, p.&#160;292&#160;<hi rend="italic">sq.</hi>
+            </p>
+          </note>.&#160;» Autrement dit, <persName ref="027107957" type="idref" xml:base="https://www.idref.fr/">Ronsard</persName> sait traduire,
+        mais il revendique le droit à l’erreur pour faire naître un autre
+        Cupidon de ses noces avec la philologie.</p>
+        <p xml:id="d1e370">Mais la double traduction à la <persName ref="027107957" type="idref" xml:base="https://www.idref.fr/">Ronsard</persName>, avec son
+        contresens volontaire, n’est pas sans surprises et risque de déboucher
+        sur des «&#160;faux contresens&#160;» et non plus un «&#160;contresens volontaire&#160;».
+        <persName ref="027204057" type="idref" xml:base="https://www.idref.fr/">Michel Zink</persName> l’a bien vu à
+        propos du «&#160;faux <persName type="_temp">Haimon</persName>&#160;» et de sa
+        référence à <persName ref="02768699X" type="idref" xml:base="https://www.idref.fr/">Matthieu</persName> 21,1-9 sur
+        l’arrivée à <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bephtague</placeName>, qualifié
+        de «&#160;rue&#160;» (<hi rend="italic">
+            <foreign xml:lang="lat">vinculus</foreign>
+          </hi>), parce que sans murs, puis l’entrée à <placeName ref="281184" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName>
+          <note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="small-caps">M.&#160;Zink</hi>, “Les ‘rues’ de la Terre
+            promise (<hi rend="italic">vicus</hi>&#160;: rue). Une bonne traduction
+            du faux Haimon et un faux contresens sur saint Matthieu”, <hi rend="italic">Romania</hi>, 378-379, 1974, n°&#160;2-3, p.&#160;351-358.</p>
+          </note>&#160;: <hi rend="italic">
+            <foreign xml:lang="lat">In illo tempore, cum appropinquassent
+            Hierosolymis et venissent Bephtague</foreign>
+          </hi>. L’auteur traduit par «&#160;rue&#160;» tout en se justifiant parce que,
+        dit-il, certes tous les villages en Terre sainte sont fortifiés, ainsi
+        que le précise <persName ref="02768699X" type="idref" xml:base="https://www.idref.fr/">Mat</persName> 21,2. Or, le
+        pseudo-<persName type="_temp">Haimon</persName> commet ensuite un
+        contresens sur <persName ref="02768699X" type="idref" xml:base="https://www.idref.fr/">Mat</persName> 21,2, où <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> dit à ses
+        disciples&#160;: <foreign xml:lang="lat">
+            <hi rend="italic">Ite est castellum, quod contra vos est</hi>
+          </foreign>. Le traducteur comprend que <hi rend="italic">
+            <foreign xml:lang="lat">castellum</foreign>
+          </hi> désigne <placeName ref="281184" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName>&#160;; peut-être
+        s’autorise-t-il d’un commentaire de <persName ref="027396436" type="idref" xml:base="https://www.idref.fr/">saint
+        Jérôme</persName>&#160;: «&#160;… <foreign xml:lang="lat">Misit duos
+        discipulos</foreign>, <foreign xml:lang="grc">theôrêtikon kai
+        ergastikon</foreign>, <foreign xml:lang="lat">id est, scientiam et
+        operam, ut ingrederentur castellum. Dixitque eis&#160;: Ite in castellum
+        quod contra vos est. Contra apostolos enim erat, nec jugum doctrinarum
+        volebat accipere</foreign>&#160;» (<hi rend="italic">Comm. Ev.&#160;<persName ref="02768699X" type="idref" xml:base="https://www.idref.fr/">Mat</persName>.</hi>, PM&#160;26,
+        146-147). Le sermon est le seul à mentionner l’opposition des Juifs,
+        laquelle ne peut être figurée que par <placeName ref="281184" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName>. L’auteur,
+        croyant préciser la pensée de <persName ref="084118768" type="idref" xml:base="https://www.idref.fr/">saint Jérôme</persName> demeuré
+        ambigu, commet un contresens, mais un contresens qui ne porte que sur
+        l’interprétation allégorique du passage&#160;: «&#160;Le commentaire sur <hi rend="italic">
+            <foreign xml:lang="lat">vinculus</foreign>
+          </hi> n’empêche pas l’auteur de comprendre la lettre de l’Évangile.
+        […] Sans doute aurait-il hésité à exposer concurremment deux sens
+        contradictoires se rapportant l’un et l’autre à la lettre du texte
+        sacré, ou deux interprétations allégoriques incompatibles. Mais se
+        sentait-il contraint de rendre cohérents et compatibles deux niveaux
+        de signification différents&#160;? Il semble bien que non.&#160;» Pour nous
+        résumer, le pseudo-<persName type="_temp">Haimon</persName> traduit
+        deux fois <hi rend="italic">
+            <foreign xml:lang="lat">castellum</foreign>
+          </hi>&#160;: la première fois, pour en déduire que <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bephtague</placeName>
+        (litt.&#160;«&#160;maison de bouche&#160;», désignant selon certains commentateurs
+        les chiens de garde du seigneur qui rappellent les fidèles dans le
+        droit chemin) est une place fortifiée&#160;; la seconde, l’appliquant à
+        <placeName ref="281184" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName>, pour dire
+        que la ville sainte est murée contre le <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Christ</persName>.</p>
+        <p xml:id="d1e417">Ces paramètres du contresens et de son
+        indétermination relative étant définis, venons-en à l’étude concrète
+        et à la possibilité d’appliquer ces notions à la critique des
+        traductions. Dans son essai <hi rend="italic">De la traduction</hi>
+        (<date type="_temp" when="1635">1635</date>), <persName ref="028132920" type="idref" xml:base="https://www.idref.fr/">Claude
+        Gaspar Bachet de Meziriac</persName>, que <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName>
+        admirait fort, s’en prend aux «&#160;Belles infidèles&#160;» et brave
+        l’adoubement donné par <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> à la traduction
+        de <persName ref="027076784" type="idref" xml:base="https://www.idref.fr/">Plutarque</persName> par <persName ref="026685264" type="idref" xml:base="https://www.idref.fr/">Amyot</persName> pour dresser une
+        typologie des erreurs de sens en des termes qui rappellent <hi rend="italic">La Manière de bien traduire</hi> d’<persName ref="026833786" type="idref" xml:base="https://www.idref.fr/">Étienne
+        Dolet</persName> (<date type="_temp" when="1540">1540</date>). «&#160;[…]
+        Si quelqu’un aspire à la louange que mérite une fidèle traduction, il
+        faut qu’il observe exactement ces trois points&#160;; qu’il n’ajoute rien à
+        ce que dit son Auteur, qu’il n’en retranche rien, et qu’il n’y apporte
+        aucun changement qui puisse en altérer le sens<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Claude Gaspar <hi rend="small-caps">Bachet de Meziriac</hi>,
+            <hi rend="italic">De la traduction</hi> (1635), réédité avec une
+            introduction de <hi rend="small-caps">M.&#160;Ballard</hi> in Artois
+            Presses Université/Presses de l’Université d’Ottawa, 1998, p.&#160;<hi rend="small-caps">xxxiv</hi>
+              <hi rend="italic"> sq</hi>. et&#160;8.</p>
+          </note>.&#160;» Pour mesurer la pertinence de ce modèle, apparemment
+        indépassé<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Cf.&#160;<hi rend="italic">L’Erreur en traduction</hi>, sous la
+            direction de <hi rend="small-caps">R.&#160;Larose</hi>, <hi rend="italic">
+                <hi rend="small-caps">ttr</hi>
+              </hi>
+              <hi rend="italic">. Traduction, terminologie, traduction.
+            Études sur le texte et ses transformations</hi>, 2/2, 1989, qui
+            montre que la problématique de l’erreur reste largement
+            descriptive et peine à définir une théorie générale en raison du
+            caractère téléologique de l’activité de traduction.</p>
+          </note>, arrêtons-nous sur la traduction en tous points excellente
+        d’un maître en la matière, celle des <hi rend="italic">Analectes
+        </hi>de <persName ref="026952238" type="idref" xml:base="https://www.idref.fr/">Confucius</persName> par <persName ref="02711600X" type="idref" xml:base="https://www.idref.fr/">Pierre
+        Ryckmans</persName>, alias <persName ref="026989158" type="idref" xml:base="https://www.idref.fr/">Simon Leys</persName>
+          <note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Confucius, <hi rend="italic">Les Entretiens de Confucius</hi>,
+            trad. et annoté par <hi rend="small-caps">P.&#160;Ryckmans</hi>,
+            préface d’Étiemble, Paris, Gallimard, 1987, p.&#160;66-67 et note
+            p.&#160;149.</p>
+          </note>&#160;:</p>
+        <p xml:id="d1e477">
+          <persName type="_temp">Ji Zicheng</persName> dit&#160;:
+        «&#160;On est honnête homme par nature&#160;; à quoi bon la culture&#160;?&#160;»
+        <persName type="_temp">Zigong</persName> dit&#160;: «&#160;Monsieur, voilà un
+        mot regrettable&#160;; ce qui est dit est dit&#160;: un attelage de quatre
+        chevaux ne saurait le rattraper. La culture tient à la nature, la
+        nature tient à la culture, comme sa bigarrure au tigre. […]&#160;» (<hi rend="small-caps">xii</hi>, 8).</p>
+        <p xml:id="d1e482">Dans le corps du texte, rien ne signale l’omission,
+        mais la note précise&#160;: «&#160;<hi rend="italic">Voilà un mot
+        regrettable</hi>&#160;: entre cette phrase et la suivante sont insérés les
+        trois mots, <foreign xml:lang="zho">
+            <hi rend="italic">jun zi ye</hi>
+          </foreign>, que j’ai omis dans ma traduction, ne pouvant trancher
+        entre trois sens possibles&#160;: 1)&#160;Vous parlez en honnête homme, mais ce
+        que vous avez dit est regrettable&#160;; 2)&#160;Ce que vous avez dit au sujet
+        de l’honnête homme est regrettable&#160;; 3)&#160;Il est regrettable que vous
+        ayez dit cela&#160;; car quand un honnête homme a parlé, un attelage de
+        quatre chevaux ne pourrait rattraper ses paroles. (Aujourd’hui les
+        grammairiens considèrent que seule la lecture n<hi rend="sup">o</hi>&#160;2
+        est correcte, quoique la lecture n<hi rend="sup">o</hi>&#160;3 ne soit pas
+        impossible. Selon nous la lecture n<hi rend="sup">o</hi>&#160;1 est à
+        exclure&#160;; mais il faut pourtant remarquer que c’était celle de
+        <persName ref="027203786" type="idref" xml:base="https://www.idref.fr/">Zhu Xi</persName>. Évidemment,
+        <persName ref="027203786" type="idref" xml:base="https://www.idref.fr/">Zhu Xi</persName> n’était pas
+        grammairien…).&#160;» Pour se refuser à traduire, le traducteur évoque
+        l’ambiguïté, sans chercher à la rendre par une ambiguïté ni prendre le
+        risque du contresens dans sa propre langue qu’il impute à <persName ref="027203786" type="idref" xml:base="https://www.idref.fr/">Zhu
+        Xi</persName>, lettré de la dynastie Song, lequel joua pourtant un
+        rôle essentiel dans la constitution du canon des classiques
+        chinois.</p>
+        <p xml:id="d1e490">Après le <hi rend="italic">
+            <foreign xml:lang="lat">non possumus</foreign>
+          </hi> du traducteur qui se refuse à trancher et émende, vient l’<hi rend="italic">ajout</hi> qui explicite –&#160;<hi rend="italic">comme sa
+        bigarrure tient au tigre</hi>&#160;: «&#160;Ces mots ne sont pas dans le texte,
+        mais ils explicitent le double sens de <hi rend="italic">
+            <foreign xml:lang="zho">wen</foreign>
+          </hi>&#160;: “culture” au sens dérivé, mais “bigarrure [du pelage d’un
+        animal]” au sens premier.&#160;» On retrouve donc ici, pleinement assumés,
+        les trois péchés dénoncés par <persName ref="028132920" type="idref" xml:base="https://www.idref.fr/">Bachet de Meziriac</persName> en
+        <date type="_temp" when="1635">1635</date>, sous la plume d’un
+        traducteur émérite, il est vrai tenté par l’éloge du contresens<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>
+              <hi rend="small-caps">S.&#160;Leys</hi>, “Traduction (théorie et
+            pratique)”, in <hi rend="small-caps">Leys</hi>, <hi rend="italic">L’Ange et le cachalot</hi>, Paris, Seuil, 1998,
+            p.&#160;135-204.</p>
+          </note>. Ici, le traducteur va à contresens en refusant de traduire
+        puis en ajoutant après avoir omis<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>«&#160;Omettre ou ajouter, abréger ou paraphraser, ce n’est pas
+            traduire&#160;», dira M.&#160;Desaintange dans la préface à sa traduction
+            des <hi rend="italic">Métamorphoses</hi> d’Ovide, Paris, 1808,
+            p.&#160;<hi rend="small-caps">xlix, </hi>qui admettait pourtant qu’on
+            puisse «&#160;développer par des expressions interprétatives&#160;» sans
+            manquer au devoir du traducteur.</p>
+          </note>. L’examen d’un autre texte, le <hi rend="italic">Testimonium</hi> de <persName ref="026940434" type="idref" xml:base="https://www.idref.fr/">Flavius
+        Josèphe</persName>, montrerait à l’inverse comment à trop vouloir
+        traduire un texte apparemment simple, on peut s’exposer au contresens
+        inavoué en faisant passer une idéologie sous couvert de
+        traduction<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Cf.&#160;<hi rend="small-caps">S.&#160;Bardet</hi>, <hi rend="italic">Le
+            Testimonium flavianum. Examen historique. Considérations
+            historiographiques</hi>, préface de P.&#160;Geoltrain, Paris, Cerf,
+            2002 et “Le <hi rend="italic">Testimonium Flavianum</hi>,
+            intraduisible et illimité&#160;? (Flavius Josèphe, <hi rend="italic">Antiquités judaïques</hi> XVIII, §&#160;63-64)”, in <hi rend="small-caps">C.&#160;Mimouni</hi> et <hi rend="small-caps">I.&#160;Uttern-Weité</hi>, éd., <hi rend="italic">Pierre Geoltrain ou comment «&#160;faire l’histoire des
+            religions&#160;»&#160;? Le chantier des «&#160;origines&#160;», les méthodes du doute
+            et la conversation contemporaine entre les disciplines</hi>,
+            Turnhout, Brepols, 2006.</p>
+          </note>. L’une des conclusions les plus claires est que, quand on
+        traduit, on fait toujours autre chose que traduire, et les décisions
+        de sens opérées ne relèvent pas toutes de la linguistique et de la
+        traductologie –&#160;l’exégèse, voire l’acte de foi, suppléant aux lacunes
+        du texte. <persName ref="032462328" type="idref" xml:base="https://www.idref.fr/">Serge Bardet</persName> conclut&#160;:
+        «&#160;Bref, un traducteur ne peut pas feindre de croire que son lecteur et
+        lui vont conjointement s’abstraire du passé de la question.&#160;»
+        Autrement dit, il n’y a pas une première étape qui serait
+        l’établissement d’un texte et sa traduction, puis une seconde qui
+        serait celle de son interprétation&#160;: celle-ci fait partie intégrante
+        de celle-là. Même si certaines décisions jurisprudentielles s’imposent
+        pour éviter de tirer des conclusions avant même que la recherche
+        historique n’ait été accomplie. Il faut donc compter avec la paresse
+        du contresens, qui n’est autre que le fait accompli. L’apparente
+        simplicité du texte de <persName ref="026940434" type="idref" xml:base="https://www.idref.fr/">Flavius Josèphe</persName> met en
+        évidence un problème majeur théorisé par le philosophe <persName ref="027086488" type="idref" xml:base="https://www.idref.fr/">W.&#160;Quine</persName>, celui de
+        «&#160;l’indétermination&#160;» de la traduction et de l’indécidabilité du sens,
+        même dans des cas apparemment limpides. Les inflexions virtuelles sont
+        innombrables, suivant les hypothèses de départ, et dès lors que
+        l’exégèse ou la foi vole au secours de la philologie, le «&#160;forcènement
+        du sens&#160;», pour parler comme <persName ref="027287130" type="idref" xml:base="https://www.idref.fr/">Derrida</persName> à propos
+        d’<persName ref="026692465" type="idref" xml:base="https://www.idref.fr/">Artaud</persName>, peut cesser d’être
+        involontaire pour être volontaire.</p>
+        <p xml:id="d1e560">Il n’est pas innocent que la traduction du nom de
+        <persName ref="028874560" type="idref" xml:base="https://www.idref.fr/">Judas</persName> «&#160;l’Iscariote&#160;»,
+        dans le Nouveau Testament, se heurte aux mêmes apories, dirimantes
+        sauf pour des traducteurs trop pressés… ou qui acceptent le secours de
+        l’exégèse ou de l’Esprit-saint, comme le suggère <persName ref="026914883" type="idref" xml:base="https://www.idref.fr/">Marguerite Harl</persName> dans <hi rend="italic">La Revanche d’Érasme</hi>
+          <note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>
+              <hi rend="small-caps">M.&#160;Harl</hi>, <hi rend="italic">La Bible
+            en Sorbonne ou la revanche d’Érasme</hi>, Paris, Cerf, 2004,
+            p.&#160;291-292.</p>
+          </note>. Le nom de l’<persName ref="028874560" type="idref" xml:base="https://www.idref.fr/">Iscariote</persName>, en effet, est
+        de ces hapax dont la traduction se refuse, ou devrait se refuser, à
+        toute tentative d’annexion, pour la simple raison qu’on ne sait pas de
+        quelle langue on devrait le traduire. Or, l’exégèse impose sa
+        traduction, que la plupart des historiens acceptent, s’ils n’y
+        souscrivent complètement<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>Voir <hi rend="small-caps">P.-E.&#160;Dauzat</hi>, “Judas trahi par
+            la traduction&#160;: traduction, trahison et mort volontaire des
+            évangiles à Sylvia Plath”, <hi rend="italic">Revue française de
+            psychanalyse</hi>, 2008/4, p.&#160;973-989.</p>
+          </note>. Un choix de traduction, légitime en soi parmi d’autres
+        choix possibles, fait jurisprudence au risque du contresens quand il
+        finit par exclure d’autres traductions.</p>
+        <div type="section1" xml:id="d1e587">
+          <head subtype="level1" xml:id="d1e588">Paresse du contresens</head>
+          <p xml:id="d1e590">L’envers de la question de l’erreur volontaire
+          est donc la «&#160;paresse du contresens&#160;». S’il est difficile d’imputer
+          une part de volonté dans une erreur, sa répétition, une fois
+          corrigée, ne prête plus de place au doute. La formule de <persName ref="026955865" type="idref" xml:base="https://www.idref.fr/">La&#160;Bruyère</persName> à propos des
+          amours supporte la paraphrase à propos des erreurs&#160;: «&#160;Les premières
+          erreurs de traduction sont toujours les plus belles, les autres sont
+          moins involontaires.&#160;» <persName ref="026834758" type="idref" xml:base="https://www.idref.fr/">John Donne</persName>, le poète
+          métaphysique et théologien anglais qui a contribué plus qu’aucun
+          autre à cette remise à plat des traductions des textes bibliques, en
+          a bien exposé l’enjeu dans son essai sur le suicide, le fameux <hi rend="italic">Biathanatos</hi>, au début du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>&#160;: «&#160;[…] Il arrive très souvent qu’un
+          Père, jouissant d’une grande réputation et d’une grande autorité en
+          son temps, s’empare de quelque interprétation probable des Écritures
+          puis, l’assimilant dans ses homélies, l’applique pour encourager ou
+          détourner ses auditeurs au gré des occasions ou de leurs maladies,
+          ou suivant ce que son époque exige. Ainsi se plaît-il à imaginer des
+          insinuations figurées qu’il adapte à la musique de son style […] en
+          sorte que le sens, qui n’était que probable, devient nécessaire&#160;; et
+          ceux qui lui succèdent ont plutôt apprécié son esprit qu’ils n’ont
+          troublé le leur. Comme il arrive souvent, nous répugnons à changer,
+          ou à abandonner, une pierre contrefaite pour la simple raison
+          qu’elle est posée là<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>
+                <hi rend="small-caps">J.&#160;Donne</hi>, <hi rend="italic">Biathanatos</hi>, trad.&#160;P.-E.&#160;Dauzat, Paris, <hi rend="small-caps">puf</hi>, 2001, 3<hi rend="sup">e</hi>&#160;partie,
+              distinction&#160;V, section&#160;7.</p>
+            </note>.&#160;» Avec <persName ref="085720372" type="idref" xml:base="https://www.idref.fr/">Érasme</persName>, <persName ref="029095786" type="idref" xml:base="https://www.idref.fr/">Richard Simon</persName>, <persName ref="030315727" type="idref" xml:base="https://www.idref.fr/">Pierre-Daniel Huet</persName> et
+          tant d’autres, <persName ref="026834758" type="idref" xml:base="https://www.idref.fr/">John Donne</persName> a cerné avec
+          acuité cette paresse du contresens<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>L’expression est empruntée à Daniel <hi rend="small-caps">Lys</hi>, “La paresse du contresens”, <hi rend="italic">Études théologiques et religieuses</hi>, 78, 2003,
+              n<hi rend="sup">o</hi>&#160;3, p.&#160;309-320.</p>
+            </note> dès le <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>. Mais
+          on aurait tort de croire que cette «&#160;paresse&#160;» est le propre d’une
+          étape de la pensée en matière de traduction, celle des «&#160;belles
+          infidèles&#160;».</p>
+          <p xml:id="d1e634">Évoquant la persistance des traductions fautives,
+          <persName type="_temp">Guillaume Gardascia</persName> pose trois
+          questions centrales&#160;: «&#160;Comment un contresens grossier a-t-il, pu
+          survivre pendant près de deux millénaires&#160;? Comment une fois
+          dénoncé, peut-il rester ignoré pendant plusieurs lustres par la
+          quasi-totalité des interprètes&#160;? Comment enfin, après une correction
+          indiscutable et suffisamment diffusée, peut-on revenir si souvent à
+          l’erreur ancienne<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>
+                <hi rend="small-caps">G.&#160;Gardascia</hi>, “‘Trahisons’
+              bibliques&#160;: Nb&#160;5,31 &amp; Lc&#160;10, 25-37”, <hi rend="italic">Revue
+              Biblique</hi>, n<hi rend="sup">o</hi>&#160;3, juillet, 2005,
+              p.&#160;369-371.</p>
+            </note>&#160;?&#160;» Sa réponse se limite à un constat. Dans le même ordre
+          d’idées, l’historien <persName ref="02673298X" type="idref" xml:base="https://www.idref.fr/">Marc Bloch</persName> évoque le
+          caractère approximatif du mot <hi rend="italic">serf</hi> pour
+          «&#160;désigner le <hi rend="italic">
+              <foreign>chriépostnoï</foreign>
+            </hi> de l’ancienne <placeName ref="2017370" type="geonames" xml:base="https://www.geonames.org/">Russie</placeName> tsariste&#160;».
+          Mais il suggère une réponse en montrant les inconvénients du mot
+          retenu par les historiens&#160;: «&#160;Un rapprochement plus malencontreux
+          pouvait difficilement être imaginé. Là-bas, un régime d’attache à la
+          glèbe, peu à peu transformé en un véritable esclavage&#160;; chez nous,
+          une forme de dépendance personnelle qui, malgré sa rigueur, était
+          très loin de traiter l’homme comme une chose dépourvue de tous
+          droits&#160;: le prétendu servage russe n’avait à peu près rien de commun
+          avec notre servage médiéval. Cependant, dire tout bonnement <hi rend="italic">
+              <foreign>chriépostnoï</foreign>
+            </hi> ne nous avancerait guère. Car il a existé en <placeName ref="798549" type="geonames" xml:base="https://www.geonames.org/">Roumanie</placeName>, en
+          <placeName ref="719819" type="geonames" xml:base="https://www.geonames.org/">Hongrie</placeName>, en
+          <placeName ref="798544" type="geonames" xml:base="https://www.geonames.org/">Pologne</placeName> et jusque
+          dans l’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          orientale, des types de sujétion paysanne étroitement apparentés à
+          celui qui s’établit en <placeName ref="2017370" type="geonames" xml:base="https://www.geonames.org/">Russie</placeName>.
+          Faudra-t-il, tout à tour, parler roumain, hongrois, polonais,
+          allemand ou russe&#160;? Une fois de plus, l’essentiel échapperait, qui
+          est de restituer les liaisons profondes des faits, en les exprimant
+          par une juste nomenclature.&#160;» Et de conclure&#160;: «&#160;L’étiquette a été
+          mal choisie. Une étiquette commune, surimposée, par conséquent aux
+          noms nationaux au lieu de les copier n’en demeure pas moins
+          nécessaire. <hi rend="italic">Là encore, la passivité est
+          interdite</hi>
+            <note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>
+                <hi rend="small-caps">M.&#160;Bloch</hi>, <hi rend="italic">Apologie pour l’histoire</hi>, Paris, Armand
+              Colin, 1974, p.&#160;135.</p>
+            </note>.&#160;» (C’est moi qui souligne.) Paresse et passivité font bon
+          ménage.</p>
+          <p xml:id="d1e669">Mais le problème conceptuel que rencontrent les
+          historiens a son pendant dans la traduction dite poétique de textes
+          qui, outre leur valeur littéraire, ont acquis par leur impact la
+          valeur de document historique et constituent une source pour
+          l’historien. Particulièrement révélateur est le cas d’<persName ref="026738198" type="idref" xml:base="https://www.idref.fr/">Yves
+          Bonnefoy</persName>, qui, au fond, refuse de traduire et, comme dit
+          <persName ref="026736411" type="idref" xml:base="https://www.idref.fr/">Jean Bollack</persName>, cherche à
+          «&#160;se satisfaire dans une créativité plus libre&#160;». Ainsi, quand il
+          traduit le <hi rend="italic">Winter’s tale</hi> de <persName ref="027136086" type="idref" xml:base="https://www.idref.fr/">Shakespeare</persName> (V, 1,
+          106&#160;<hi rend="italic">sq.</hi>), où il est dit que la beauté de
+          <persName type="_temp">Perdita</persName> (&#160;!) est telle que, <hi rend="italic">
+              <foreign xml:lang="eng">would she begin a sect, might quench the
+              zeal / of all professors else&#160;; make proselytes of who she but
+              bid follow</foreign>
+            </hi>&#160;; le sens est par trois fois «&#160;faussé&#160;» quand zèle est rendu
+          par ferveur, prosélytes par zélateurs, et les derniers mots par
+          «&#160;n’importe qui&#160;». Au nom du «&#160;poétique&#160;», et parce que le
+          traducteur refuse d’être «&#160;lié par la traduction qui s’est faite
+          dans la langue d’origine, et qui se déchiffre<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Cf.&#160;<hi rend="small-caps">J.&#160;Bollack</hi>, “Le traducteur”,
+              in Bollack, <hi rend="italic">Poésie contre poésie. Celan et la
+              littérature</hi>, Paris, <hi rend="small-caps">puf</hi>, 2001,
+              p.&#160;168-179, ici p.&#160;179.</p>
+            </note>&#160;», <persName ref="027136086" type="idref" xml:base="https://www.idref.fr/">Shakespeare</persName> se trouve
+          ainsi décontextualisé et le lecteur privé des références
+          historiques, jusque dans le vocabulaire, qui lui permettrait de
+          comprendre ce qu’il lit<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Ces remarques sont tirées de l’analyse probante de Éd.&#160;<hi rend="small-caps">Will</hi> et <hi rend="small-caps">Cl.&#160;Orrieux</hi>, <hi rend="italic">«&#160;Prosélytisme Juif&#160;»&#160;? Histoire d’une
+              erreur</hi>, Paris, Les Belles Lettres, 2004, p.&#160;302, n.&#160;53.
+              Yves Bonnefoy s’est partiellement corrigé depuis en
+              réintroduisant le «&#160;prosélytes&#160;». Cf.&#160;Shakespeare, <hi rend="italic"> Le Comte d’hiver </hi> , Paris, Gallimard,
+              Folio/Théâtre, 1996, p.&#160;182.</p>
+            </note>. On voit bien que le constat de <persName ref="026834758" type="idref" xml:base="https://www.idref.fr/">John Donne</persName>
+          vaut pour tous les domaines sans qu’on puisse apporter de réponses
+          définitives aux questions de <persName type="_temp">Gardascia</persName>. Mais la «&#160;paresse du contresens&#160;»
+          obéit aussi à d’autres ressorts&#160;: «&#160;La philologie biblique
+          progresse, observe <persName ref="026998971" type="idref" xml:base="https://www.idref.fr/">Daniel Lys</persName>, cependant
+          que la langue de réception du texte traduit évolue. La combinaison
+          des deux est génératrice de contresens. Par habitude paresseuse et
+          reposante, on garde des interprétations dépassées […].&#160;» Souvent une
+          traduction décide d’une interprétation autant qu’une interprétation
+          dicte une traduction.</p>
+        </div>
+        <div type="section1" xml:id="d1e715">
+          <head subtype="level1" xml:id="d1e716">Fausse pudeur et vrai
+          contresens</head>
+          <p xml:id="d1e718">Si l’on délaisse le domaine religieux pour celui
+          des études historiques, la problématique est la même. Cherchant à
+          combattre le doute qui germe dans l’esprit de <persName type="_temp">Bouvard</persName> et <persName type="_temp">Pécuchet</persName>, l’<persName type="_temp">abbé
+          Jeufroy</persName> explique doctement&#160;: «&#160;<persName ref="033745625" type="idref" xml:base="https://www.idref.fr/">Isaïe</persName> ne se
+          dépouilla pas complètement, <hi rend="italic">
+              <foreign xml:lang="lat">nudus</foreign>
+            </hi>, en latin, signifiant nu jusqu’aux hanches&#160;; ainsi <persName ref="026674327" type="idref" xml:base="https://www.idref.fr/">Virgile</persName> conseille de se
+          mettre nu pour labourer, et cet écrivain n’eût pas donné un précepte
+          contraire à la pudeur&#160;! <persName ref="027561992" type="idref" xml:base="https://www.idref.fr/">Ézéchiel</persName> dévorant un
+          livre n’a rien d’extraordinaire&#160;; ne dit-on pas dévorer une
+          brochure, un journal<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>
+                <hi rend="small-caps">Flaubert</hi>, <hi rend="italic">Œuvres</hi>, éd.&#160;A.&#160;Thibaudet et R.&#160;Dumesnil,
+              Paris, Gallimard, Bibliothèque de la Pléiade, 1952, vol.&#160;2,
+              p.&#160;936.</p>
+            </note>&#160;?&#160;» Dans un roman désopilant, le grand érudit chinois
+          <persName ref="029177073" type="idref" xml:base="https://www.idref.fr/">Qian Zhongshu</persName> ne cesse
+          de jouer sur les mots et évoque à maintes reprises les divers usages
+          de la traduction&#160;; à propos d’une certaine <persName type="_temp">Miss Bao</persName> aux formes avantageuses et aux
+          vêtements plutôt moulants&#160;: les uns l’appellent la Vérité, parce
+          qu’elle n’a rien à cacher, et les autres «&#160;Parcelle de Vérité&#160;»
+          parce qu’elle n’était qu’à moitié nue<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Qian <hi rend="small-caps">Zhongshu</hi>, <hi rend="italic">La Forteresse assiégée </hi>(1947), trad.&#160;<hi rend="small-caps">S.&#160;Servan-Schreiber</hi> et <hi rend="small-caps">Wang Lou</hi>, préface de <hi rend="small-caps">L.&#160;Bianco</hi>, Christian Bourgois, 1987,
+              p.&#160;13.</p>
+            </note>. La nudité d’<persName ref="033745625" type="idref" xml:base="https://www.idref.fr/">Ésaïe</persName> est-elle une
+          demi-vérité ou une vérité complète&#160;? Et s’il y a contresens de
+          l’<persName type="_temp">abbé Jeufroy</persName>, est-il ou non
+          volontaire&#160;? Comment s’explique sa persistance&#160;? Dans leur <hi rend="italic">Dictionnaire étymologique de la langue latine,
+          </hi>
+            <persName ref="026852446" type="idref" xml:base="https://www.idref.fr/">Ernout</persName> et <persName ref="027021688" type="idref" xml:base="https://www.idref.fr/">Meillet</persName> sont prudents&#160;:
+          <hi rend="italic">
+              <foreign xml:lang="lat">sub verbo</foreign>
+            </hi> «&#160;<foreign xml:lang="lat">nudus</foreign>&#160;», ils indiquent
+          «&#160;peut-être&#160;», à l’imitation du grec <hi rend="italic">
+              <foreign xml:lang="grc">gumnos</foreign>
+            </hi>, «&#160;légèrement vêtu&#160;», et renvoient, comme l’<persName type="_temp">abbé Jeufroy</persName>, aux <hi rend="italic">Géorgiques</hi> de <persName ref="026674327" type="idref" xml:base="https://www.idref.fr/">Virgile</persName>&#160;;
+          dans la Vulgate, il s’agit certainement d’un «&#160;néologisme de sens&#160;».
+          <persName ref="02687234X" type="idref" xml:base="https://www.idref.fr/">François d’Assise</persName> avait
+          compris au sens littéral, quand il dansa nu pour être plus proche de
+          la nature. Alors, traduction ou sollicitation, demi-vérité ou
+          vérité&#160;?</p>
+          <p xml:id="d1e767">Dans son étude magistrale, <hi rend="italic">Christianisme, tolérance sociale et
+          homosexualité</hi>, <persName ref="028313437" type="idref" xml:base="https://www.idref.fr/">John Boswell</persName>, à propos
+          de l’histoire des pratiques homosexuelles a montré comment la
+          pratique du contresens volontaire s’est imposée et a durablement
+          entravé le développement des recherches<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>
+                <hi rend="small-caps">J.&#160;Boswell</hi>, <hi rend="italic">Christianisme, tolérance sociale et
+              homosexualité</hi>, trad.&#160;A.&#160;Tachet, Paris, Gallimard, 1985,
+              p.&#160;40-44.</p>
+            </note>. Les erreurs volontaires ou manipulations portent autant
+          sur l’édition des textes que sur leur traduction. Au-delà de
+          l’<persName ref="027054764" type="idref" xml:base="https://www.idref.fr/">Ovide</persName> moralisé, <hi rend="italic">L’art d’aimer</hi> a été un terrain d’élection de ces
+          pratiques. <persName ref="028313437" type="idref" xml:base="https://www.idref.fr/">Boswell</persName> en relève un
+          exemple parmi bien d’autres. <foreign xml:lang="lat">
+              <hi rend="italic">Hoc est quod pueri tangar amore minus</hi>
+            </foreign>, soit «&#160;j’étais moins attiré par l’amour des garçons&#160;»
+          devient&#160;: <foreign xml:lang="lat">
+              <hi rend="italic">Hoc est quod pueri tangar amore nihil</hi>
+            </foreign>, qui justifie la notation marginale qu’<persName ref="027054764" type="idref" xml:base="https://www.idref.fr/">Ovide</persName> n’était pas un
+          sodomite. Selon <persName ref="028313437" type="idref" xml:base="https://www.idref.fr/">Boswell</persName>, «&#160;des
+          substitutions aussi grossières sont aisées à dénoncer et on a trouvé
+          depuis des moyens plus subtils de déguiser les manifestations
+          d’homosexualité. Il est courant de mettre au féminin des pronoms
+          masculins au moins depuis que le petit-neveu de <persName ref="026650800" type="idref" xml:base="https://www.idref.fr/">Michel-Ange</persName> imagina de
+          rendre les sonnets du grand artiste plus acceptables […] et cette
+          ruse a gardé la faveur des universitaires même si aucune réputation
+          morale n’était en jeu&#160;».</p>
+          <p xml:id="d1e792">Loin d’appartenir au passé, la controverse
+          persiste autour des questions de traduction et de mauvaise foi. Le
+          sens des inscriptions de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Théra</placeName> (<date from="-0699" to="-0600" type="_temp">
+              <hi rend="small-caps">vii</hi>
+              <hi rend="sup">e</hi>
+            </date> ou <date from="-0599" to="-0500" type="_temp">
+              <hi rend="small-caps">vi</hi>
+              <hi rend="sup">e</hi>&#160;siècle
+          avant&#160;J.-C</date>), graffiti ou hommages évoquant parfois crument
+          des pratiques homosexuelles, continuent ainsi de susciter la
+          controverse et les accusations de contresens délibéré ou de
+          sollicitation. Dans son histoire de l’homosexualité, <persName ref="028250052" type="idref" xml:base="https://www.idref.fr/">Bernard Sergent</persName>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>
+                <hi rend="small-caps">B.&#160;Sergent</hi>, <hi rend="italic">L’homosexualité initiatique dans l’Europe
+              ancienne</hi>, Paris, Payot, 1986, p.&#160;34-35 et 242, note&#160;41.</p>
+            </note>, s’en prend ainsi à <persName ref="027011534" type="idref" xml:base="https://www.idref.fr/">Marrou</persName> qui, dans son
+          histoire de l’éducation, rend <hi rend="italic">
+              <foreign xml:lang="grc">oiphein</foreign>
+            </hi> par «&#160;saillir<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <hi rend="small-caps">H.-I.&#160;Marrou</hi>, <hi rend="italic">Histoire de l’éducation dans l’Antiquité</hi>,
+              Paris, Seuil, 1948&#160;; rééd. Points-Seuil, <hi rend="italic">1.&#160;Le
+              Monde grec</hi>, 1981, p.&#160;356 §&#160;10.</p>
+            </note>&#160;»&#160;: contresens «&#160;délibéré&#160;», selon lui puisque <hi rend="italic">
+              <foreign xml:lang="grc">oiphein</foreign>
+            </hi> n’est pas un mot grossier et ne se dit pas des animaux
+          (cf.&#160;<persName ref="026778076" type="idref" xml:base="https://www.idref.fr/">Chantraine</persName>)<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Cf.&#160;aussi <hi rend="small-caps">K.&#160;Dover</hi>, in <hi rend="italic">Homosexualité grecque</hi>, trad.&#160;<hi rend="small-caps">S.&#160;Saïd,</hi> La Pensée sauvage, 1982, p.&#160;152,
+              précisant que le mot n’est pas aussi argotique que «&#160;baiser&#160;» ou
+              grossier que «&#160;foutre&#160;», mais traduit ensuite par «&#160;fait
+              l’amour&#160;».</p>
+            </note>. Autrement dit, <persName ref="027011534" type="idref" xml:base="https://www.idref.fr/">Marrou</persName> aurait choisi par
+          le simple biais de la traduction de dénaturer le sens de ces
+          inscriptions pour en faire des salacités. Il est difficile, en
+          l’occurrence, de faire la part de la polémique et celle de l’analyse
+          savante&#160;: si les quelques pages de <persName ref="027011534" type="idref" xml:base="https://www.idref.fr/">Marrou</persName> sur
+          la parenté entre la culture homosexuelle chez les nazis et la
+          culture homosexuelle chez les Grecs peuvent paraître problématiques
+          aujourd’hui, rien n’autorise à y voir autre chose que le souci d’un
+          disciple de <persName ref="026691825" type="idref" xml:base="https://www.idref.fr/">Raymond Aron</persName> et
+          précurseur de <persName ref="02875932X" type="idref" xml:base="https://www.idref.fr/">G.&#160;Mosse</persName> pour jeter des
+          ponts entre le monde antique et les phénomènes contemporains. Il
+          serait difficile de lui imputer un désir de tromper<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Sur la question de l’imputation de l’erreur à l’ignorance, la
+              facilité ou la malveillance, voir désormais <hi rend="small-caps">E.&#160;Brongersma</hi>, “The Thera inscriptions
+              ritual or slander&#160;?”, <hi rend="italic">Journal of
+              Homosexuality</hi>, 20 (4) 1990, p.&#160;31-39.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e861">
+          <head subtype="level1" xml:id="d1e862">Jérôme et le célibat</head>
+          <p xml:id="d1e864">L’erreur et la paresse se mêlent dans un autre
+          domaine voisin où aucune correction traductologique ne saurait
+          corriger la <hi rend="italic">
+              <foreign xml:lang="grc">doxa</foreign>
+            </hi>. Dans la Vulgate, <persName ref="027396436" type="idref" xml:base="https://www.idref.fr/">Jérôme</persName> insère un texte
+          de l’histoire de <persName ref="256447063" type="idref" xml:base="https://www.idref.fr/">Tobie</persName> qui diffère du
+          texte grec des Septante plus ancien. Lui-même avoue sa traduction
+          hâtive. Quand le texte alexandrin fait dire au jeune <persName ref="256447063" type="idref" xml:base="https://www.idref.fr/">Tobie</persName>, avant de s’unir à
+          son épouse&#160;: «&#160;Et maintenant, ce n’est pas le plaisir que je cherche
+          en prenant ma sœur&#160;», <persName ref="027396436" type="idref" xml:base="https://www.idref.fr/">Jérôme</persName> traduit&#160;: «&#160;Tu le
+          sais, ce n’est pas par concupiscence que je prends ta sœur pour
+          épouse, mais par amour de la postérité.&#160;» La traduction est
+          l’occasion d’une moralisation. Et pour faire bonne mesure, <persName ref="027396436" type="idref" xml:base="https://www.idref.fr/">Jérôme</persName> supprime la
+          citation de la Genèse&#160;: «&#160;Il n’est pas bon que l’homme soit seul.&#160;»
+          La traduction est ainsi l’occasion d’une double mutilation du texte,
+          introduisant la procréation, absente de l’original, et supprimant la
+          communauté des époux, pourtant explicitement mentionnée. <persName ref="027396436" type="idref" xml:base="https://www.idref.fr/">Jérôme</persName> a eu d’autant
+          plus d’influence que sa vision s’accordait avec une vision
+          pessimiste de la sexualité<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Cf.&#160;M.&#160;<hi rend="small-caps">Rouche</hi>, <hi rend="italic">Le plaisir sexuel est-il un péché&#8201;&#160;?</hi>, Paris,
+              Éd.&#160;Le Prat, 1983, p.&#160;42-69, notamment p.&#160;47-48, sur les
+              traductions hiéronymiennes.</p>
+            </note>, alors même que son interprétation repose sur une erreur
+          de traduction.</p>
+          <p xml:id="d1e880">
+            <persName ref="027396436" type="idref" xml:base="https://www.idref.fr/">Jérôme</persName> est aussi un des
+          pères de l’idée que le célibat est supérieur au mariage. Il a lancé
+          cette idée en interprétant <persName ref="02768699X" type="idref" xml:base="https://www.idref.fr/">Matthieu</persName> 13,8, la
+          parabole du grain semé qui rapporte 30, 60 ou 100 selon la qualité
+          de la terre. <persName ref="027396436" type="idref" xml:base="https://www.idref.fr/">Jérôme</persName> en conclut que
+          les célibataires consacrés rapportent 100, les veufs et les veuves
+          qui ne se remarient pas offrent 60 et ceux qui donnent 30 sont les
+          gens mariés<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Jérôme, <hi rend="italic">Sur saint Matthieu, 13-23</hi>,
+              tome&#160;I, Sources chrétiennes, Cerf, 1977, p.&#160;272-274&#160;; voir aussi
+              son <hi rend="italic">Adv. Jovinianum</hi>, I, 3&#160;; et lettre&#160;49
+              à Pammachius, 2, éd.&#160;Labourt, II, p.&#160;121-122, où Jérôme se
+              défend d’avoir jamais rabaissé le mariage.</p>
+            </note>. Quand il traduit, commente <persName ref="027110761" type="idref" xml:base="https://www.idref.fr/">Michel
+          Rouche</persName>, <persName ref="027396436" type="idref" xml:base="https://www.idref.fr/">Jérôme</persName> précise&#160;:
+          <foreign xml:lang="lat">
+              <hi rend="italic">tricesimum, sexagesimum et centesimum</hi>
+            </foreign>, non pas <hi rend="italic">
+              <foreign xml:lang="lat">trigenta, sexaginta, centum</foreign>
+            </hi>. Et crée alors un contresens, car la bonne traduction donne
+          «&#160;un trentième, un soixantième et un centième&#160;» (le taux d’intérêt
+          de 1&#160;% étant celui que fixe le code théodosien pour le remboursement
+          mensuel des prêts)&#160;: «&#160;Ce qui signifie […], selon la traduction
+          exacte, qu’un champ qui rapporte un centième rapporte en fait 12&#160;%
+          par an, un soixantième 20&#160;% et un trentième 40&#160;%&#8201;&#160;! L’échelle de la
+          mesure s’en trouve inversée<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <hi rend="small-caps">M.&#160;Rouche</hi>, <hi rend="italic">Sexualité, intimité et société sous le regard de
+              l’Histoire</hi>, Paris, <hi rend="small-caps">cld</hi>, 2002,
+              p.&#160;80-81.</p>
+            </note>.&#160;» <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">Augustin</persName> donnera raison
+          à <persName ref="027396436" type="idref" xml:base="https://www.idref.fr/">Jérôme</persName>
+            <note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Pour le point de vue de Jérôme, cf. sa lettre&#160;49 à
+              Pammachius.</p>
+            </note>. Dès lors <persName ref="027059073" type="idref" xml:base="https://www.idref.fr/">Pascal</persName> pourra parler du
+          «&#160;mariage, la plus basse condition du christianisme&#160;».</p>
+          <p xml:id="d1e918">Or le mariage deviendra un sacrement et prendra
+          un caractère rigoureux du fait de la traduction latine du grec <hi rend="italic">
+              <foreign xml:lang="grc">mystêrion</foreign>
+            </hi> in Eph. 5,32, à propos du mariage&#160;: après avoir invoqué la
+          Genèse pour dire «&#160;les deux deviendront une chair&#160;», <persName ref="148511678" type="idref" xml:base="https://www.idref.fr/">Paul</persName> ajoute&#160;: «&#160;Ce
+          mystère est grand&#160;: je dis par rapport au <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Christ</persName> et à
+          l’Église.&#160;» <hi rend="italic">
+              <foreign xml:lang="grc">Mystêrion</foreign>
+            </hi> n’a pas à l’origine le sens de rite initiatique. Dans son
+          œuvre apologétique, cependant, <persName ref="027398153" type="idref" xml:base="https://www.idref.fr/">Tertullien</persName>
+          avait joué sur les mots avec son emploi spécifique du nom <hi rend="italic">
+              <foreign xml:lang="lat">sacramentum</foreign>
+            </hi> qui, du serment des latins, devint une traduction du grec
+          <hi rend="italic">
+              <foreign xml:lang="grc">musterion</foreign>
+            </hi>, partant <foreign xml:lang="lat">acquit <hi rend="italic">ipso facto</hi>
+            </foreign> son sens spécifiquement
+          chrétien<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>
+                <hi rend="small-caps">Fr.&#160;Refoulé</hi>, introd. à Tertullien,
+              <hi rend="italic">Le Baptême</hi>, Paris, Cerf, 1976, p.&#160;66-70
+              et surtout <hi rend="small-caps">R.&#160;Braun</hi>, <hi rend="italic">Deus christianorum. Recherches sur le vocabulaire
+              doctrinal de Tertullien</hi>, Paris, Études Augustiniennes,
+              1977, p.&#160;435-443.</p>
+            </note>. Dès lors, quand la Vulgate traduira <foreign xml:lang="grc">megas mystêrion</foreign> par <foreign xml:lang="lat">sacramentum magnum</foreign>, elle créera le
+          malentendu. Sans être totalement fausse puisqu’on peut comprendre
+          <hi rend="italic">
+              <foreign xml:lang="lat">sacramentum</foreign>
+            </hi> au sens de «&#160;profonde réalité sacrée&#160;», plutôt qu’au sens
+          technique reçu depuis son élaboration par la théologie
+          médiévale<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Sur l’évolution des termes <hi rend="italic">sacramentum</hi>
+              et <hi rend="italic">mystêrion</hi> au début du christianisme,
+              voir <hi rend="small-caps">H.M.&#160;Féret</hi>, “Sacramentum Res
+              dans la langue théologique de saint Augustin”, <hi rend="italic">Revue des Sciences Philosophiques et
+              Théologiques</hi>, 29, 1940, p.&#160;219-223.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e979">
+          <head subtype="level1" xml:id="d1e980">Augustin et les marchands du
+          temple</head>
+          <p xml:id="d1e982">Quand, au soir de sa vie, <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">Augustin</persName> se penche sur
+          son œuvre et compose des <hi rend="italic">Retractationes</hi>, il
+          avoue s’être trompé (<hi rend="italic">Révisions</hi>, I, <hi rend="small-caps">xii</hi>, 6). En affirmant que <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> n’avait jamais
+          rien fait par la violence, «&#160;je ne m’étais pas souvenu qu’il avait
+          chassé du temple “les vendeurs et les acheteurs” avec un fouet&#160;»
+          (Mc&#160;11, 15-17, Mat&#160;21,12, Lc&#160;19,45). Cette «&#160;correction&#160;» découle
+          assurément du point de vue qu’il avait développé et affûté au cours
+          de la controverse donatiste, à savoir que la force est parfois
+          nécessaire pour ramener les récalcitrants à des idées «&#160;justes<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Voir <hi rend="small-caps">E.&#160;Clark</hi>, “On not retracting
+              the unconfessed”, in <hi rend="small-caps">J.&#160;D.&#160;Caputo </hi> et
+              <hi rend="small-caps">M.&#160;J.&#160;Scanlon</hi>,<hi rend="italic">
+              Augustine and Postmodernism. Confessions and Circumfession</hi>,
+              Bloomington et Indianapolis, Indiana University Press, 2005,
+              p.&#160;222-243, ici p.&#160;231 (trad.&#160;fr. in <hi rend="italic"> Jacques
+              Derrida-Saint Augustin. Des confessions</hi>, trad.&#160;<hi rend="italic"/>P.-E.&#160;Dauzat, Paris, Stock, 2006, p.&#160;457). Peter
+              <hi rend="small-caps">Brown </hi>examine l’évolution d’Augustin
+              de plus en plus partisan de la «&#160;coercition&#160;» à l’égard des
+              donatistes in<hi rend="italic"> Religion and Society in the Age
+              of Saint Augustine</hi>, New York, Harper &amp; Row, 1972,
+              p.&#160;260-278, 301-331.</p>
+            </note>&#160;». À l’exemple d’<persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">Augustin</persName>, la Vulgate et
+          les traductions consacrées laissent entendre que le fouet a été
+          utilisé contre les marchands. <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">Augustin</persName> se corrige,
+          mais que corrige-t-il&#160;: une traduction ou une interprétation&#160;? Sa
+          bévue philologique ou sa faiblesse doctrinale&#160;? Force est de
+          constater que l’unanimité était loin d’être acquise en son temps.
+          Dans un texte copte donnant l’évangile de <persName ref="02768699X" type="idref" xml:base="https://www.idref.fr/">Matthieu</persName>,
+          récemment publié par <persName ref="028420004" type="idref" xml:base="https://www.idref.fr/">Hans-Martin Schenke</persName>,
+          <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> n’effectue aucun
+          acte violent lorsqu’il s’en prend aux vendeurs installés dans le
+          Temple (Mt&#160;21,12-13). Pour certains, ce détail important se lisait,
+          non pas dans l’évangile de <persName ref="02768699X" type="idref" xml:base="https://www.idref.fr/">Matthieu</persName>, mais dans une
+          forme archaïque de l’évangile de <persName ref="027562611" type="idref" xml:base="https://www.idref.fr/">Jean</persName> qui,
+          dans le manuscrit, aurait remplacé le texte matthéen primitif<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>
+                <hi rend="small-caps">M.-E.&#160;Boismard</hi>, “Jésus a-t-il usé
+              de violence en chassant les vendeurs du temple&#160;?”, <hi rend="italic">Revue Biblique</hi>, 2003, vol.&#160;110, n<hi rend="sup">o</hi>&#160;1, p.&#160;33-37.</p>
+            </note>. Pour d’autres, le problème est à la fois d’idéologie et
+          de traduction&#160;: tout tourne autour d’une conjonction présente chez
+          <persName ref="027562611" type="idref" xml:base="https://www.idref.fr/">Jean</persName>&#160;2,15. Le sens
+          normal de la conjonction <foreign xml:lang="grc">
+              <hi rend="italic">te kai</hi>
+            </foreign> est d’initier une liste, non pas de continuer une série
+          commençant par «&#160;eux tous&#160;» <hi rend="italic">(<foreign xml:lang="grc">pantas</foreign>)</hi>, lequel peut renvoyer aux
+          «&#160;vendeurs et changeurs&#160;» qui précèdent autant qu’aux «&#160;moutons et
+          bœufs&#160;» qui suivent. Quant au verbe <hi rend="italic">
+              <foreign xml:lang="grc">exebalen</foreign>
+            </hi>, il signifie simplement «&#160;renvoyer&#160;» et n’implique aucune
+          violence<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>
+                <hi rend="small-caps">J.&#160;Lasserre</hi>, “Un contresens
+              tenace”, <hi rend="italic">Cahier de la Réconciliation</hi>,
+              Paris, octobre&#160;1967, n<hi rend="sup">o</hi>&#160;10, p.&#160;7&#160;<hi rend="italic">sq.</hi> L’auteur relève 91&#160;occurrences de cette
+              conjonction&#160;: dans 86&#160;cas, une traduction de même nature que
+              «&#160;aussi bien que les moutons et les bœufs&#160;» serait impossible.
+              Dans cinq cas, elle serait possible, mais tel n’a pas été le
+              choix des traducteurs. La traduction de Jean&#160;2,15 est donc la
+              seule exception.</p>
+            </note>. Au <date from="0500" to="0599" type="_temp">
+              <hi rend="small-caps">vi</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, le
+          témoignage du Grec <persName ref="03009867X" type="idref" xml:base="https://www.idref.fr/">Cosmas Indicopleustès</persName>
+          (v.&#160;<date type="_temp" when="0530">530</date>), au livre&#160;III de sa
+          <hi rend="italic">Topographie chrétienne</hi>, 18-24 (144B-148A)
+          dissipe toute ombre d’un doute&#160;: <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> était
+          armé d’un fouet (cf.&#160;Jn&#160;2,15), mais «&#160;il ne frappa que les bêtes&#160;»,
+          les «&#160;êtres privés de raison&#160;»&#160;; les autres, il les a «&#160;corrigés par
+          la parole<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Cosmas Indicopleustès, <hi rend="italic">Topographie
+              chrétienne</hi>, éd.&#160;W.&#160;Wolska-Conus, Paris, Cerf/Sources
+              chrétiennes, 1968, p.&#160;458-459 (III, 22).</p>
+            </note>&#160;». <persName ref="061629960" type="idref" xml:base="https://www.idref.fr/">Barhadbšabba</persName> (mort en
+          <date type="_temp" when="0628">628</date>), donne l’origine de cette
+          interprétation en exposant les raisons de l’inimitié de <persName ref="126036306" type="idref" xml:base="https://www.idref.fr/">Rabbula</persName> pour <persName ref="028340205" type="idref" xml:base="https://www.idref.fr/">Théodore de Mopsueste</persName>&#160;:
+          «&#160;<persName ref="126036306" type="idref" xml:base="https://www.idref.fr/">Rabbula</persName> montrait
+          auparavant beaucoup d’amitié pour le célèbre Interprète et étudiait
+          ses ouvrages. Mais étant allé à <placeName ref="745044" type="geonames" xml:base="https://www.geonames.org/">Constantinople</placeName> pour
+          assister au concile des Pères (381), il fut accusé de frapper les
+          clercs&#160;; ayant répondu que Notre Seigneur frappa lui aussi quand il
+          entra au temple, l’Interprète se leva et le réprimanda en disant&#160;:
+          Notre Seigneur ne fit pas cela&#160;; aux hommes il adressa seulement la
+          parole, disant&#160;: Ôtez-cela d’ici, et renversa les tables. Mais il
+          fit sortir à coups de fouet les taureaux et les moutons<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>Cité in <hi rend="small-caps">W.&#160;Wolska</hi>, <hi rend="italic">La Topographie de Cosmas Indicopleustès. Théologie
+              et science au </hi>
+                <hi rend="italic">
+                  <hi rend="small-caps">vi</hi>
+                </hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;siècle</hi>, Paris, <hi rend="small-caps">puf</hi>, 1962, p.&#160;91-92.</p>
+            </note>.&#160;» En l’occurrence, le témoignage de l’histoire et de la
+          philologie ne suffisent pas à corriger une légende tenace.
+          D’involontaire, peut-être, l’erreur est devenue volontaire, et s’est
+          installée au prix d’une certaine paresse.</p>
+        </div>
+        <div type="section1" xml:id="d1e1115">
+          <head subtype="level1" xml:id="d1e1116">En guise de
+          conclusion</head>
+          <p xml:id="d1e1118">À ceux qui se désoleraient de cette paresse et
+          de ces manipulations, je rappellerai une curiosité, à savoir que la
+          persistance de l’erreur de traduction ne change pas forcément
+          quelque chose à la compréhension parce que la compréhension n’est
+          pas liée ou pas subordonnée de manière univoque à l’erreur de
+          traduction&#160;; là encore on peut trouver des équivalents dans le
+          domaine profane. La traduction n’est qu’un moment, voire un outil,
+          du travail de déchiffrement&#160;: elle est téléologique, sans être une
+          fin en soi. Dans les <hi rend="italic">Vexations de
+          l’art</hi>
+            <persName ref="028473493" type="idref" xml:base="https://www.idref.fr/">Svetlana Alpers</persName>
+            <note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>Paris, Gallimard, 2008.</p>
+            </note> cite à plusieurs reprises une inscription de <persName ref="027274020" type="idref" xml:base="https://www.idref.fr/">Vélasquez</persName>. À ses débuts
+          à la cour (<date type="_temp" when="1625">1625</date>), où l’on
+          reprocha au cheval qu’il avait peint dans un portrait du roi de
+          contrevenir aux règles de l’art, <persName ref="027274020" type="idref" xml:base="https://www.idref.fr/">Velázquez</persName>
+          prit la mouche et refusa de corriger ses erreurs. Il préféra
+          simplement effacer la majeure partie du tableau et remplaça sa
+          signature par les mots suivants&#160;: <hi rend="italic">
+              <foreign xml:lang="lat">Didacus Velazquius, Pictor Regis,
+              expinxit</foreign>
+            </hi>, soit «&#160;<persName ref="027274020" type="idref" xml:base="https://www.idref.fr/">Diego Velázquez</persName>, peintre
+          du roi, l’a peint&#160;»&#160;; comprenant ce qu’il avait fait, l’historien
+          d’art traduit <hi rend="italic">
+              <foreign xml:lang="lat">expinxit</foreign>
+            </hi> tantôt par <hi rend="italic">
+              <foreign xml:lang="eng">expunged</foreign>
+            </hi> tantôt par <hi rend="italic">
+              <foreign xml:lang="eng">unpainted</foreign>/<foreign xml:lang="eng">erased</foreign>
+            </hi>
+            <note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>S.&#160;Alpers, <hi rend="italic">The Vexations of Art</hi>, New
+              Haven, Yale University Press, 2005, p.&#160;160 et 257.</p>
+            </note>,<hi rend="italic"/>l’a supprimé, «&#160;dé-peint&#160;» ou effacé,
+          ce qui est très exactement un contresens&#160;: <hi rend="italic">
+              <foreign xml:lang="lat">expingere</foreign>
+            </hi> veut dire peindre, représenter. Si le contresens flagrant
+          ici commis n’a pas induit davantage en erreur les historiens d’art,
+          c’est qu’ils disposaient d’une biographie d’un contemporain de
+          <persName ref="027274020" type="idref" xml:base="https://www.idref.fr/">Velázquez</persName>, <persName ref="028970349" type="idref" xml:base="https://www.idref.fr/">Antonio Palomino</persName>, qui
+          avait relaté l’épisode par le menu, permettant d’«&#160;effacer&#160;» <hi rend="italic">(<foreign xml:lang="lat">expingere</foreign>)</hi> à
+          son tour l’erreur de traduction.</p>
+          <p xml:id="d1e1168">
+            <persName ref="027274020" type="idref" xml:base="https://www.idref.fr/">Velázquez</persName>, s’exprimant
+          par antiphrase, a provoqué un contresens. Il a cédé à l’ironie,
+          laissant entendre une chose en en disant une autre&#160;: le procédé dont
+          il a joué exploite la possibilité de contresens ou
+          d’incompréhension, non pas dans le passage d’une langue à l’autre,
+          mais dans sa propre langue. Comme dit <persName ref="026913712" type="idref" xml:base="https://www.idref.fr/">Philippe
+          Hamon</persName>&#160;: «&#160;L’ironie, d’un certain point de vue, pourrait
+          donc être définie soit comme un “contresens”, le contresens
+          volontaire d’un énonciateur parlant “contre” un sens appartenant à
+          autrui, soit comme un acte de réécriture, réécriture qu’opère le
+          lecteur à partir du texte de l’auteur&#160;: il réécrit “beau” en “laid”,
+          “intelligent” en “stupide<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>
+                <hi rend="small-caps">P.&#160;Hamon</hi>, <hi rend="italic">L’Ironie littéraire. Essai sur les formes de
+              l’écriture oblique</hi>, Paris, Hachette, 1996, p.&#160;20-21. Et
+              cette pratique de l’ironie n’est pas l’apanage de la modernité.
+              Cf.&#160;également <hi rend="small-caps">D.&#160;De&#160;Courcelles</hi>,
+              “Entre la folie et les pleurs&#160;: la fonction de l’ironie
+              lullienne dans le <hi rend="italic">Desconhort</hi> (1295)”, <hi rend="italic">Estudis Romànics</hi>, Barcelone, Institut
+              d’Estudis Catalans, 24, 2002, p.&#160;139-148, ici, p.&#160;142.</p>
+            </note>”.&#160;» L’énonciateur <persName ref="027274020" type="idref" xml:base="https://www.idref.fr/">Velázquez</persName> aurait commis
+          un contresens volontaire&#160;; l’historien d’art se serait prévalu de sa
+          qualité de lecteur pour réécrire et traduire le mot litigieux par
+          son antonyme&#160;; et le traducteur, en l’occurrence moi-même, cédant à
+          la peur de la rhétorique du contresens, a d’un seul geste rectifié
+          le contresens, interdit la réécriture et effacé l’ironie en pensant
+          que l’ironie pourrait échapper au critique de la traduction, qui
+          aurait cru à une démarche inverse, avec un contresens de traduction
+          avéré, mais qui a fait loi et qui est ensuite justifié, entre
+          ironie, mauvaise foi et innocente paresse.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

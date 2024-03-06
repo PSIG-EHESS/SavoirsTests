@@ -1,0 +1,1382 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-3779_Pont">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Épistémologie et méthodologie dans l’œuvre de
+        Galilée</title>
+        <author role="aut">
+          <forename>Jean-Claude</forename>
+          <surname>Pont</surname>
+          <idno type="IDREF">028335244</idno>
+          <affiliation>Professeur à l’université de Genève</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/W66UVRE3" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Épistémologie et méthodologie dans l’œuvre de
+            Galilée</title>
+            <idno type="DOI">10.4000/anabases.3779</idno>
+            <author>
+              <forename>Jean-Claude</forename>
+              <surname>Pont</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Anabases. Traditions et réceptions de
+            l’Antiquité</title>
+            <idno type="ISSN">1774-4296</idno>
+            <imprint>
+              <biblScope unit="issue">15</biblScope>
+              <biblScope unit="page">163-182</biblScope>
+              <date>2012</date>
+              <note type="accessed">2022-07-06T07:49:17Z</note>
+              <note type="url">https://journals.openedition.org/anabases/3779</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="grc"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Galileo</item>
+            <item>scientific revolution</item>
+            <item>modern science</item>
+            <item>epistemology</item>
+            <item>methodology</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Galilée</item>
+            <item>révolution scientifique</item>
+            <item>science moderne</item>
+            <item>épistémologie</item>
+            <item>méthode</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3164600" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName>
+          </term>
+          <term>
+            <placeName ref="3171728" type="geonames" xml:base="https://www.geonames.org/">Padoue</placeName>
+          </term>
+          <term>
+            <placeName ref="6542122" type="geonames" xml:base="https://www.geonames.org/">Pise</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart level="a" type="main">Épistémologie et méthodologie dans
+          l’œuvre de Galilée<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Le présent article a été rédigé à partir de la conférence que
+              j’ai donnée à l’occasion de la journée «&#160;Galilée et les autres&#160;:
+              Bruno, Kepler, Newton…&#160;» organisée le 29&#160;janvier&#160;2010 par
+              l’Institut de mathématiques et l’Institut de mécanique des
+              fluides de l’Université Paul Sabatier de Toulouse. Elle
+              s’adressait donc à un public de physiciens et de mathématiciens.
+              Je n’ai pas souhaité modifier la perspective dans laquelle je
+              m’étais placé alors. Aussi est-ce sur la toile de fond des
+              connaissances qui sont de mise dans leur milieu qu’est écrit cet
+              article.</p>
+            </note>
+          </titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Jean-Claude Pont</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:id="d1e211" xml:lang="fre">Les livres et articles consacrés à
+        Galilée sont des milliers. Les «&#160;affaires&#160;» qui portent son nom et ses
+        découvertes strictement scientifiques ont le plus souvent retenu
+        l’attention des auteurs. Pourtant, la révolution scientifique du <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi>&#160;siècle, qui devait
+        donner naissance à ce qu’il est convenu d’appeler la «&#160;science
+        moderne&#160;» –&#160;naissance dont Galilée fut un protagoniste majeur&#160;– réside
+        aussi bien dans un changement d’attitude devant l’épistémologie et la
+        méthode que dans des résultats proprement scientifiques. Dans la
+        naissance de l’épistémologie nouvelle qui surgit à cette époque c’est
+        encore Galilée qu’il convient de mettre devant, malgré le rôle exagéré
+        que la tradition, puis le mythe, ont offert au tandem Bacon-Descartes
+        dans ce moment crucial pour l’histoire de la pensée. Dans cet article
+        je m’intéresse à ce côté négligé de l’œuvre du grand Pisan.</p>
+        <p xml:id="d1e219" xml:lang="eng">Books and articles about Galileo are
+        thousands. Scholars have mostly paid attention to the “affaires” tied
+        with his name and to his scientific discoveries. However, the
+        scientific revolution of the <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">th</hi>&#160;century, which gave birth to what is admittedly
+        called the “modern science” –&#160;a phenomenon in which Galileo played a
+        major role&#160;- lies at the same time in a change of attitude towards
+        epistemology and methodology and in proper scientific results. In the
+        birth of a new epistemology arising at that time, Galileo is again the
+        key person although an exagerated role is assigned by the tradition,
+        and then by the myth, to the tandem Bacon-Descartes in this crucial
+        moment for the history of thought. The paper is focused on this
+        neglected side of the work of the great scholar from Pisa.</p>
+      </div>
+      <div type="prelim" xml:id="d1e321">
+        <epigraph>
+          <quote xml:id="d1e321">«&#160;À travers l’œuvre galiléenne, c’est bien la
+          conception<lb/>que l’on avait depuis vingt siècles<lb/>de la
+          rationalité scientifique<lb/>qui change brusquement de visage
+          <lb/>et prend pour l’essentiel les traits que<lb/>nous lui
+          connaissons dans la science classique.&#160;»<lb/>Clavelin, 1996,
+          p.&#160;389</quote>
+        </epigraph>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e246">
+          <head subtype="level1" xml:id="d1e247">En guise
+          d’introduction</head>
+          <p xml:id="d1e249">Le terme «&#160;épistémologie&#160;» est multivalent et a
+          souvent quitté ses bases. Je l’ai employé ici d’une façon naïve,
+          comme il est le plus souvent reçu et apprécié dans le milieu
+          scientifique. L’épistémologie d’un scientifique comprend l’ensemble
+          de ses croyances et convictions à propos de la science&#160;: nature et
+          valeur des principes, sens et degré de réalité des concepts, etc. Il
+          s’agit d’une épistémologie qui est généralement tacite et non
+          systématique. Elle se révèle parfois dans les situations de conflit
+          ou de crise. Elle peut se traduire par des boutades ou par des
+          aphorismes. Comme le «&#160;Dieu ne joue pas aux dés&#160;» d’<persName ref="026849186" type="idref" xml:base="https://www.idref.fr/">Einstein</persName>&#160;; ou encore le
+          «&#160;grand livre de la nature&#160;» de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>.
+          L’épistémologie d’un savant est donc sa manière à lui –&#160;explicitée
+          ou non&#160;– de concevoir la science. L’épistémologie en ce sens est une
+          théorie empirique de la science. L’épistémologie de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> concerne la
+          façon qu’il avait de considérer ce que nous appelons aujourd’hui
+          «&#160;la science galiléenne&#160;». Les relations entre science et religion,
+          par exemple, font partie de l’épistémologie de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>. Aussi sa
+          théorie de la science déborde-t-elle largement sur la théorie de la
+          connaissance.</p>
+          <p xml:id="d1e251">La méthodologie de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+          rassemble, quant à elle, les techniques (recours à l’expérience, aux
+          mathématiques, etc.) qu’il a mobilisées pour parvenir à ses
+          résultats. L’épistémologie est une philosophie, la méthodologie un
+          ensemble de techniques, non nécessairement coordonnées. C’est
+          d’ordinaire l’épistémologie qui donne leur sens aux méthodes, mais
+          le mouvement peut aller dans les deux sens.</p>
+          <p xml:id="d1e253">Lorsqu’on parle du savant pisan, il est commode
+          de distinguer le <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> célèbre du
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> immortel, la
+          célébrité étant liée aux deux affaires qui ponctuèrent son existence
+          (<date type="_temp" when="1616">1616</date> et <date type="_temp" when="1633">1633</date>). Si deux affaires l’ont rendu célèbre, des
+          travaux de première magnitude l’ont fait immortel. L’immortalité de
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> peut se placer
+          sous deux rubriques différentes. La première est bien connue et a
+          trait à ses découvertes scientifiques. La seconde est confidentielle
+          en un certain sens. Elle concerne ses contributions à
+          l’épistémologie et à la méthodologie. Ce sont elles qui nous
+          occuperont surtout ici. <date from="1890" to="1909" type="_temp">Entre&#160;1890 et&#160;1909</date>, <persName ref="031674291" type="idref" xml:base="https://www.idref.fr/">Antonio
+          Favaro</persName> a publié <hi rend="italic">Le Opere di Galileo
+          Galilei</hi>, ouvrage réédité avec des additions <date from="1930" to="1960" type="_temp">entre&#160;1930 et&#160;1960</date>&#160;; il contient
+          notamment plus de 2&#160;000&#160;lettres (publiées dans les tomes&#160;10-18). Une
+          étude approfondie de la pensée épistémologique et méthodologique de
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> demanderait un
+          examen de l’ensemble de cet ouvrage. Mais mon intention est autre.
+          Je me propose de rassembler des citations éparses dans la
+          littérature, dans le but de dégager les grands pôles de la pensée
+          épistémologique de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> et ainsi
+          d’esquisser son profil épistémologique&#160;; des ouvrages que je signale
+          en bibliographie permettent de compléter ces informations (en
+          particulier le remarquable livre de <persName ref="029512549" type="idref" xml:base="https://www.idref.fr/">Maurice
+          Clavelin</persName> [Clavelin, 1996]).</p>
+        </div>
+        <div type="section1" xml:id="d1e258">
+          <head subtype="level1" xml:id="d1e259">La science progresse selon
+          deux lignes de force</head>
+          <p xml:id="d1e261">La science progresse selon deux lignes de force.
+          La première et la plus visible est constituée par les faits nouveaux
+          qui se révèlent au savant à l’occasion de ses investigations sur le
+          réel (montagnes de la Lune, flottaison, lois de la chute des corps,
+          etc.). Mais la science s’inscrit dans une manière de penser le
+          monde, dans un espace mental, sur un arrière-plan culturel&#160;; c’est
+          là une seconde ligne de force qui, à son tour, conditionne les
+          méthodes et dicte les questionnements. Ces deux lignes de force
+          dialoguent en permanence, chacune gauchissant la trajectoire de
+          l’autre.</p>
+          <p xml:id="d1e263">On connaît bien généralement les grandes et
+          spectaculaires contributions de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> à
+          la première de ces lignes de force, qu’il s’agisse de découvertes
+          publiées dans le <hi rend="italic">Sidereus Nuncius</hi> (<date type="_temp" when="1610">1610</date>) ou celles des <hi rend="italic">Discours concernant deux sciences nouvelles</hi>
+          (<date type="_temp" when="1638">1638</date>). L’apport de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> au développement
+          de l’épistémologie et de la méthode est, en revanche, plus difficile
+          à mettre en évidence car il n’a rien écrit spécifiquement sur cet
+          aspect de ses réflexions. Pour le cerner, on doit laisser les
+          grandes avenues de son œuvre et fureter le long des sentes, sous les
+          taillis, pour débusquer de petites choses, d’insignifiants galets, à
+          partir desquels on peut reconstituer des pans de la mosaïque de sa
+          pensée épistémologique, au demeurant une pensée toujours se
+          construisant, toujours inachevée. Il faut le traquer entre les
+          lignes, au détour d’un adverbe, dans une lettre, à l’occasion d’une
+          digression, dans ses combats contre la pensée dominante. Cet aspect
+          de l’œuvre épistémologique de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> explique le
+          nombre élevé de citations proposées dans le présent article&#160;; il
+          aurait par ailleurs été dommage de ne pas mettre à la portée du
+          lecteur des textes peu connus de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> et
+          qui méritent attention. De plus, la répétition de loin en loin et en
+          des termes différents de ses thèses épistémologiques démontre qu’il
+          ne s’agit pas chez lui de besoins passagers mais bien d’une
+          constante de sa pensée.</p>
+          <p xml:id="d1e271">Des observations qu’il fait à l’occasion
+          d’activités scientifiques diverses amènent <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> à
+          s’opposer aux paradigmes de l’époque. C’est dans cette position de
+          contre-pied qu’apparaissent au mieux les principaux traits de son
+          épistémologie et de sa méthodologie. Au moment où il commence à
+          produire, dans <date from="1590" to="1599" type="_temp">les
+          années&#160;1590</date>, l’épistémologie est encore marquée au coin de
+          l’aristotélisme. Durant ses années de formation, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> a baigné dans le
+          climat ambiant dont l’aristotélisme est une composante majeure. Il
+          sera amené progressivement et successivement par la suite à récuser
+          les grands principes de la cosmologie du Stagyrite, en une sorte
+          d’action de nettoyage de l’épistémologie&#160;; mais aussi à mobiliser
+          des méthodes auxquelles <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> n’avait pas
+          recouru. L’essentiel de l’œuvre épistémologique de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> s’inscrit bien
+          dans cette double activité. L’irruption d’une nouvelle
+          épistémologie, qui se met ainsi en place au cours du premier <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>,
+          constitue une révolution conceptuelle majeure, silencieuse comme le
+          sont d’ordinaire les révolutions conceptuelles. Une activité
+          épistémologique –&#160;informelle, précisons-le encore une fois&#160;– qui se
+          heurte à deux sortes d’oppositions du milieu savant. La première est
+          évidente. En attaquant frontalement des thèses que le principe
+          d’autorité avait accréditées, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> devait se mettre
+          à dos une partie importante de la communauté philosophique, qui lui
+          rendra plus tard la monnaie de sa pièce. Comme il l’écrit le <date type="_temp" when="1611-02-12">12&#160;février&#160;1611</date> à <persName ref="030588529" type="idref" xml:base="https://www.idref.fr/">Paolo
+          Sarpi</persName> (Galilée, 1997, p.&#160;363)&#160;: «&#160;Si bien que je n’ai
+          plus contre moi que les péripatéticiens, plus attachés au parti
+          d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> que ne le
+          serait <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> lui-même
+          […].&#160;»</p>
+          <p xml:id="d1e284">La seconde opposition du milieu péripatéticien
+          est plus subtile. La croyance du temps admet implicitement que les
+          Anciens, <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> en particulier,
+          auraient dit le dernier mot sur le monde, ne laissant aux temps
+          futurs que des compléments de détail à découvrir. C’est bien à cela
+          que <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> fait allusion
+          dans sa lettre à <persName ref="183660234" type="idref" xml:base="https://www.idref.fr/">Pietro Dini</persName> du <date type="_temp" when="1611-05-21">21&#160;mai&#160;1611</date> quand il déclare (
+          <hi rend="italic">Opere</hi>, XI, p.&#160;108&#160;; cité dans Clavelin, 2004,
+          p.&#160;161)&#160;: «&#160;[…] et de s’écrier qu’à ce qui a été jusqu’ici trouvé on
+          ne peut rien ajouter de nouveau.&#160;» De là le principe d’autorité. De
+          surcroît, l’Église a fait d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> l’un de ses
+          maîtres à penser et s’opposer à lui ne va pas sans risque. Dès lors,
+          mettre en œuvre des méthodes, des techniques, des principes
+          qu’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> n’a pas marqués
+          de son sceau revient à admettre l’imperfection, ou au moins
+          l’incomplétude, de sa pensée&#160;; par exemple lorsqu’il en résulte des
+          conséquences imprévues, qui bousculent le sens commun. Comme l’écrit
+          excellemment <persName ref="02709622X" type="idref" xml:base="https://www.idref.fr/">Jean-François Revel</persName>
+          (Revel, 1994, p.&#160;488)&#160;: «&#160;Ce qui est difficile, dans le fait de
+          penser, ce n’est pas tant de penser que de détruire les obstacles
+          qui empêchent de le faire. Ces obstacles, ce sont toutes les
+          croyances et opinions non fondées, ce sont les peurs, ce sont les
+          institutions sociales qui ont partie liée avec des systèmes
+          intellectuels […].&#160;» Dans l’édition nationale des œuvres de
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> que j’ai
+          mentionnée plus haut, l’index analytique consacre sept colonnes à
+          <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> (<persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> et <persName ref="02842784X" type="idref" xml:base="https://www.idref.fr/">Archimède</persName> en ont chacun
+          une)&#160;; ce qui montre bien la place d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>
+          dans les recherches de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>.</p>
+        </div>
+        <div type="section1" xml:id="d1e298">
+          <head subtype="level1" xml:id="d1e299">Aspects de la cosmologie
+          aristotélicienne. Oppositions de Galilée</head>
+          <div type="section2" xml:id="d1e301">
+            <head subtype="level2" xml:id="d1e302">Le cosmos d’Aristote</head>
+            <p xml:id="d1e304">L’opposition de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+            aux principes aristotéliciens de la science apparaît dès ses
+            premiers travaux et se retrouve à des degrés divers dans
+            l’ensemble de son œuvre, avant tout dans les recherches de
+            mécanique de ses débuts, dans ses travaux d’astronomie (<date type="_temp" when="1604">1604</date>, <date from="1610" to="1613" type="_temp">1610-1613</date>) ou encore dans ses recherches en
+            hydrostatique (<date type="_temp" when="1613">1613</date>). Il
+            s’agissait de réflexions éparses et de circonstance. Ces
+            réflexions revêtent une forme de systématique dans la Première
+            journée des <hi rend="italic">Discours</hi> de <date type="_temp" when="1632">1632</date>. Dans son ouvrage <hi rend="italic">Galilée copernicien</hi>, <persName ref="029512549" type="idref" xml:base="https://www.idref.fr/">Maurice
+            Clavelin</persName> (Clavelin, 2004, p.&#160;527-550) nous offre une
+            reconstruction minutieuse de ces grands principes aristotéliciens
+            et des arguments avancés par <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+            pour en montrer l’inanité.</p>
+            <p xml:id="d1e312">Rappelons d’abord, sommairement, quelques-uns
+            des éléments les plus fondamentaux de la cosmologie
+            aristotélicienne.<lb/>–&#160;Les phénomènes se déroulent dans un cosmos
+            qui a les particularités suivantes&#160;: il est fermé par la sphère
+            des fixes sur laquelle sont serties les étoiles&#160;; ce cosmos est
+            inhomogène avec des lieux qualitativement différenciés&#160;: un centre
+            unique, un monde sublunaire et un monde supralunaire&#160;; il est
+            anisotrope dans le sens qu’il s’y trouve des directions
+            privilégiées&#160;: un haut et un bas absolu.<lb/>–&#160;Cinq éléments se
+            partagent le Monde. Le monde sublunaire est constitué à partir de
+            quatre d’entre eux (eau, air, terre, feu). Quant au monde
+            supralunaire, il est fait d’éther, la quintessence.<lb/>–&#160;La Terre
+            est immobile au centre et l’ensemble du Ciel décrit chaque jour
+            autour d’elle un tour complet.</p>
+            <p xml:id="d1e320">À la différence de <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>,
+            <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> réhabilite la
+            perception sensible, qui nous livre les données de base. La
+            science procède par démonstrations à partir des principes, qui
+            sont premiers&#160;: «&#160;Par rapport à nous, les choses qui sont les
+            premières et les mieux connues, ce sont les choses les plus
+            voisines de la perception sensible&#160;» (Duhem, 1997, p.&#160;43&#160;; extrait
+            des <hi rend="italic">Seconds analytiques</hi>). L’idée
+            d’instruments susceptibles de renforcer ou de modifier les données
+            fournies par le Monde n’est bien sûr pas incluse dans cette
+            approche et ne saurait l’être.</p>
+            <p xml:id="d1e325">–&#160;Tous les corps sont par nature mobiles et
+            leur nature est principe de mouvement. Ainsi, à chaque corps
+            simple correspond un mouvement naturel déterminé. Certaines formes
+            sont privilégiées, sans doute du fait de l’identité de toutes
+            leurs parties&#160;: le cercle, la droite, la sphère. Le Ciel est
+            sphérique parce que, parmi les solides, la sphère occupe le
+            premier rang pour être la plus parfaite. <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+            s’oppose à ce point de vue avec sa finesse et son sens de
+            l’éristique ordinaires&#160;:</p>
+            <quote rend="quotation" xml:id="d1e644">«&#160;Ce n’est pas moi qui
+            veux que le ciel, en tant que corps le plus noble, ait aussi la
+            figure la plus noble, c’est <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> lui-même […].
+            Pour moi, comme je n’ai jamais lu les chroniques et titres de
+            noblesse des figures, je ne sais lesquelles sont plus ou moins
+            nobles, plus ou moins parfaites. Je crois que toutes sont à leur
+            manière antiques et nobles, ou mieux, qu’en elles-mêmes elles ne
+            sont ni nobles ni parfaites, ni viles et imparfaites, si ce n’est
+            que pour faire un mur la figure carrée est plus parfaite que la
+            sphérique, mais que pour rouler ou faire aller une voiture le rond
+            est plus parfait que le triangulaire&#160;» (<hi rend="italic">Il
+            Saggiatore</hi>&#160;; cité ici d’après Shea, 1992, p.&#160;125).</quote>
+            <p xml:id="d1e332">
+              <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> avait déjà
+            développé ce point de vue pratiquement dans les mêmes termes dès
+            <date type="_temp" when="1611">1611</date> dans une lettre à
+            <persName type="_temp">Gallanzone Gallanzoni</persName> (<hi rend="italic">Opere</hi>&#160;XI, p.&#160;141-155&#160;; cité dans Clavelin,
+            p.&#160;173-174), précisant qu’on ne peut pas affirmer la priorité de
+            la forme sphérique de manière absolue, mais seulement de manière
+            relative.</p>
+            <p xml:id="d1e337">Pour <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> toujours, le
+            mouvement est central en physique, puisqu’elle étudie l’être en
+            tant qu’il est mobile. Il existe trois sortes de mouvements
+            locaux&#160;: rectiligne, circulaire et mixte.</p>
+            <p xml:id="d1e339">Le mouvement circulaire est le seul qui puisse
+            se poursuivre indéfiniment, identique à lui-même. Une autre façon
+            de justifier la priorité du mouvement circulaire consiste à dire
+            que, en lui, chaque point peut servir de début ou de fin, c’est
+            donc par essence que ce mouvement conviendra aux corps éternels
+            qui ne sont pas soumis à la corruption et à la génération.
+            <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> s’exprime
+            ainsi (<hi rend="italic">De Caelo,</hi> cité d’après Duhem, 1997,
+            p.&#160;65)&#160;:</p>
+            <quote rend="quotation" xml:id="d1e683">«&#160;Mais le mouvement qui a
+            la suprématie sur les autres doit être le mouvement d’un corps
+            simple dont la nature surpasse celle des autres&#160;; or, d’une part,
+            le mouvement circulaire a la primauté sur le mouvement
+            rectiligne&#160;; d’autre part, il existe des corps simples dont le
+            mouvement rectiligne est le mouvement naturel… Il faut donc que le
+            mouvement de rotation soit le mouvement d’un certain corps simple…
+            Il résulte évidemment de là qu’il existe une certaine essence
+            corporelle, différente des substances qui sont autour de nous,
+            supérieure à toutes ces substances et plus divine
+            qu’elles.&#160;»</quote>
+            <p xml:id="d1e346">
+              <persName ref="026842335" type="idref" xml:base="https://www.idref.fr/">Duhem</persName> (p.&#160;65) note
+            que, d’après <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, une
+            substance qui, éternellement, se meut d’un mouvement de rotation
+            toujours de même sens, «&#160;doit selon la raison, être tenue pour
+            incapable de génération et de corruption […] elle n’est sujette à
+            aucune altération&#160;».</p>
+            <p xml:id="d1e349">Ensuite vient le mouvement de translation&#160;; il
+            est de deux sortes&#160;: celui vers le bas, qui est le mouvement
+            naturel des graves&#160;; celui vers le haut, mouvement naturel des
+            légers, gravité et légèreté étant des qualités en soi. «&#160;Il est
+            par la suite raisonnable que tout corps soit porté vers son lieu
+            propre.&#160;» Ainsi chaque corps a son lieu naturel et les mouvements
+            prennent une signification ontologique.</p>
+            <p xml:id="d1e351">Il existe une correspondance entre les (cinq)
+            éléments et les mouvements simples. Que les éléments et les
+            mouvements se correspondent chacun à chacun est un principe
+            fondamental de la cosmologie péripatéticienne. Un corollaire de ce
+            principe est l’unicité du centre.</p>
+            <p xml:id="d1e353">Dans <date from="1590" to="1599" type="_temp">les années&#160;1590</date>, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+            rédige un traité intitulé <hi rend="italic">De&#160;Motu</hi>. Il
+            s’agit d’une œuvre de combat dans laquelle il déclare notamment
+            (je cite d’après <persName ref="028496426" type="idref" xml:base="https://www.idref.fr/">Shea</persName>, 1992, p.&#160;26-27)
+            que «&#160;pratiquement dans tout ce qu’il a écrit sur le mouvement
+            local, <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> a écrit le
+            contraire de la vérité&#160;». Dans un autre passage, le Pisan affirme
+            qu’il est «&#160;fatigant et honteux d’avoir à employer tant de paroles
+            pour réfuter des arguments aussi puérils et des recherches de
+            subtilité aussi ineptes que ceux dont <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>
+            se gave dans tout le livre du <hi rend="italic">De Caelo</hi>&#160;».
+            Dès le <hi rend="italic">De&#160;Motu</hi>, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+            critique la différence ontologique entre le lourd et le léger.
+            C’est selon lui pour des raisons de densité que certains corps
+            montent, soit des raisons extérieures à leur essence. L’idée d’un
+            haut absolu perd sa raison d’être. Cette disparition marque le
+            début de la fin de l’hétérogénéité du monde, qui est au cœur de la
+            cosmologie du Stagyrite.</p>
+            <p xml:id="d1e364">Dans le <hi rend="italic">De&#160;Motu</hi>,
+            <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> conteste un
+            autre principe de la cosmologie aristotélicienne selon lequel le
+            vide n’est pas possible, les mouvements y ayant une vitesse
+            infinie. Il aura besoin de la possibilité du vide dans ses lois du
+            mouvement. Plus tard, dans le <hi rend="italic">Discours</hi> de
+            <date type="_temp" when="1638">1638</date> (Galilée, 1995,
+            p.&#160;52-57), <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> traitera en
+            détail, pour la critiquer, la théorie du vide d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>. <persName ref="028496426" type="idref" xml:base="https://www.idref.fr/">Shea</persName> remarque (Shea,
+            1992, p.&#160;268) que sur les 89&#160;pages du <hi rend="italic">De&#160;Motu</hi>, <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> est cité
+            109&#160;fois.</p>
+            <p xml:id="d1e375">Un point fort de l’opposition entre les deux
+            hommes est bien traduite par l’affirmation suivante de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> (lettre à
+            <persName type="_temp">Gallanzone Gallanzoni</persName> du <date type="_temp" when="1611-07-16">16&#160;juillet&#160;1611</date>, <hi rend="italic">Opere</hi>&#160;XI, p.&#160;141-155&#160;; Clavelin, 2004 p.&#160;168)&#160;:
+            «&#160;[…] j’affirme le premier –&#160;non plus par imagination, mais par
+            expérience et démonstration nécessaire […]&#160;», l’imagination
+            signifiant ici la méthode de l’argumentation aristotélicienne.</p>
+          </div>
+          <div type="section2" xml:id="d1e380">
+            <head subtype="level2" xml:id="d1e381">Galilée et les
+            essences</head>
+            <p xml:id="d1e383">La physique aristotélicienne est une physique
+            de la qualité, l’essence des choses déterminant leur place et leur
+            mode d’être. Il faudrait en réalité parler de «&#160;physiques&#160;» au
+            pluriel, puisque l’hétérogénéité fondamentale du Monde implique
+            l’existence de deux physiques. Restait donc, pour une unification
+            totale, à mettre dans le Ciel ce qui semblait l’attribut exclusif
+            de la Terre&#160;: génération et corruption.</p>
+            <p xml:id="d1e385">Trois phénomènes allaient participer activement
+            à la ruine de la thèse de l’hétérogénéité du Monde. L’apparition
+            de la grande Nova de <date type="_temp" when="1604">1604</date>, à
+            laquelle <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> devait
+            consacrer plusieurs cours devant un vaste public (plus de mille
+            personnes, dit-on), la découverte des inégalités de la surface
+            lunaire et celle des taches solaires (<date from="1611" to="1612" type="_temp">1611-1612</date>), avec les vastes débats qui les
+            accompagnèrent (voir&#160;Drake, 1995, p.&#160;105).</p>
+            <p xml:id="d1e387">Pour la Nova, l’absence de parallaxe
+            (c’est-à-dire que le changement de position de l’observateur ne
+            provoquait aucun changement perceptible dans celle de l’objet
+            observé) indiquait qu’elle se trouvait dans le monde stellaire,
+            au-delà de l’orbe de Saturne, comme on disait. Le moyen de défense
+            implicite de la tradition consistait à retourner le message à son
+            expéditeur&#160;: l’absence de parallaxe tenait sa raison dans le fait
+            qu’on ne peut pas appliquer aux objets célestes des techniques
+            élaborées pour le monde sublunaire. Le principe selon lequel la
+            mesure, plutôt qu’une qualité définie <hi rend="italic">a
+            priori</hi>, gouvernerait les essences, n’était pas acceptable
+            pour un aristotélicien. Les techniques de mesure appliquées aux
+            objets du ciel, constitués à partir d’un élément différent de ceux
+            du monde sublunaire, n’auraient pas été pertinentes.</p>
+            <p xml:id="d1e392">Pour ce qui regarde les taches solaires, le
+            jésuite <persName ref="035529598" type="idref" xml:base="https://www.idref.fr/">Christophe Scheiner</persName>,
+            tirant argument de la perfection des corps célestes, s’était
+            opposé à l’idée qu’elles auraient résidé à la surface du Soleil. À
+            quoi <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> répond
+            joliment&#160;: «&#160;Les noms et les attributs doivent s’adapter à
+            l’essence des choses, et non pas l’essence aux noms. Il y a
+            d’abord les choses, ensuite les noms&#160;» (Festa, 1995, p.&#160;181).
+            C’est une réponse emblématique pour sa critique de la théorie des
+            essences. Dans un cours de cosmographie qu’il fit à <placeName ref="3171728" type="geonames" xml:base="https://www.geonames.org/">Padoue</placeName> en <date type="_temp" when="1602">1602</date> (Drake, 1995, p.&#160;52),
+            <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> déclare
+            «&#160;laisser aux philosophes de la nature le soin de considérer les
+            qualités des dites parties du monde.&#160;» Dans le même ordre d’idées,
+            je donne encore quelques citations&#160;:<lb/>–&#160;dans une note marginale
+            concernant le père <persName ref="026764261" type="idref" xml:base="https://www.idref.fr/">Campanella</persName>, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> écrit&#160;:
+            «&#160;J’estime davantage trouver une vérité, fusse-t-elle légère, que
+            de disputer longuement des questions les plus grandes sans aboutir
+            à aucune vérité&#160;» (<hi rend="italic">Opere</hi>&#160;IV, p.&#160;738, cité
+            dans Poupard, 1983, p.&#160;123)&#160;;<lb/>–&#160;une lettre de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> à <persName ref="030895421" type="idref" xml:base="https://www.idref.fr/">Fortuno Licetti</persName> de
+            <date type="_temp" when="1641-01">janvier 1641</date> (Galilée,
+            1997, p.&#160;428-429)&#160;:</p>
+            <quote rend="quotation" xml:id="d1e849">«&#160;Le problème du centre de
+            l’univers et la question de savoir si la Terre y est située sont
+            des moins considérables en astronomie […]. Aussi bien, vouloir
+            assigner un centre à cet espace dont on ne sait et dont on ne peut
+            savoir quelle est sa forme ni même s’il a forme et figure, c’est
+            là, à mon sentiment, une entreprise oiseuse et vaine. […] Pour
+            entendre l’astronomie et se rendre maître de cette science, il
+            faut donc étudier autre chose qu’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>,
+            dont les écrits ne laissent pas voir qu’il ait eu, en pareille
+            matière, plus de connaissances que n’importe quel homme du
+            commun.&#160;»</quote>
+            <p xml:id="d1e403">Remarquons ici qu’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>
+            est mort avant la publication des <hi rend="italic">Éléments</hi>
+            d’<persName ref="026854651" type="idref" xml:base="https://www.idref.fr/">Euclide</persName> et que, pas
+            davantage, il n’a pu connaître la méthode archimédienne, qui
+            allait changer le cours de la pensée scientifique (même si son
+            influence profonde ne devait se faire ressentir que bien plus
+            tard). On l’oublie souvent dans l’évaluation de sa théorie
+            physique.</p>
+            <p xml:id="d1e408">Le traitement le plus systématique de la
+            question du recours aux essences dans la construction de la
+            science chez <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> se trouve au
+            début de la «&#160;Troisième lettre sur les taches solaires&#160;» (pour une
+            traduction de la lettre, voir&#160;Clavelin, 2004, p.&#160;274-341). J’en
+            propose deux citations.</p>
+            <quote rend="quotation" xml:id="d1e873">«&#160;Car nous voulons, par
+            nos spéculations, tenter de pénétrer l’essence vraie et
+            intrinsèque des substances naturelles, ou nous nous contentons de
+            connaître certaines de leurs propriétés. Tenter d’atteindre les
+            essences est à mes yeux une entreprise non moins impossible, et un
+            labeur non moins vain, dans les substances élémentaires les plus
+            proches et dans les plus lointaines, comme les substances
+            célestes. Il me semble ignorer tout autant l’essence de la terre
+            que celle de la lune, celle des nuages élémentaires que celle des
+            taches du soleil&#160;; et je ne vois pas que pour la compréhension de
+            ces substances proches nous ayons d’autre avantage que la foule
+            des détails, d’ailleurs tous également inconnus, entre lesquels
+            nous errons, passant de l’un à l’autre avec un faible profit,
+            voire aucun&#160;» (Clavelin, 2004, p.&#160;275).</quote>
+            <quote rend="quotation" xml:id="d1e876">«&#160;De la même façon, je ne
+            comprends pas mieux la véritable essence de la terre ou du feu que
+            celle de la lune ou du soleil […]. En revanche, si nous acceptons
+            de nous limiter à l’étude de quelques propriétés, on ne doit pas
+            désespérer de la mener à bien, me semble-t-il, pour les corps les
+            plus éloignés, tout autant que pour les plus proches, et peut-être
+            même avec plus d’exactitude pour ceux-là que pour ceux-ci. Ne
+            connaît-on pas mieux les périodes des mouvements des planètes que
+            celles des eaux marines&#160;? Qui ne sait que la forme sphérique du
+            corps lunaire a été comprise bien plus tôt et bien plus vite que
+            celle de la terre&#160;? […]. Je conclurai donc que si rechercher la
+            substance des taches solaires est une tentative vaine, il ne
+            s’ensuit nullement que certaines de leurs propriétés […] ne
+            puissent être étudiées par nous, et nous mettre en mesure de mieux
+            philosopher sur d’autres aspects plus controversés des substances
+            naturelles&#160;» (Clavelin, 2004, p.&#160;276).</quote>
+            <p xml:id="d1e414">Dans les <hi rend="italic">Istoria e
+            dimostrazioni</hi>
+              <hi rend="italic">alle macchie solari</hi> de
+            <date type="_temp" when="1612">1612</date> (<hi rend="italic">Opere &#160;</hi>V, p.&#160;96&#160;; cité dans Shea, 1997,
+            p.&#160;102-103), <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> avait déjà
+            présenté des réflexions voisines de celles qui précèdent quoique à
+            un stade plus embryonnaire.</p>
+            <p xml:id="d1e426">Si la recherche des essences est, selon
+            <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>, vaine, il en
+            va de même pour celle des causes&#160;: «&#160;L’occasion ne me semble pas
+            favorable pour rechercher la cause de l’accélération du mouvement
+            naturel, problème sur lequel différents philosophes ont formulé
+            différentes opinions […] il nous faudrait examiner toutes ces
+            imaginations, avec bien d’autres, <hi rend="italic">et sans grand
+            profit&#160;»</hi> (Galilée, 1970, p.&#160;135) (je souligne).</p>
+            <p xml:id="d1e431">
+              <persName ref="085516759" type="idref" xml:base="https://www.idref.fr/">Lodovico delle
+            Colombe</persName>, philosophe amateur qui avait écrit contre le
+            mouvement de la Terre, donne le ton de l’opposition des
+            péripatéticiens, vers <date type="_temp" when="1610">1610</date>&#160;:</p>
+            <quote rend="quotation" xml:id="d1e916">«&#160;Il me semble que
+            <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> a eu tort de
+            se faire antipéripatéticien. En cette affaire, je souhaiterais me
+            faire antigaliléen, par gratitude pour <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>,
+            le prince de tant d’académies, la tête de tant d’écoles, l’objet
+            de tant de poèmes, le labeur de tant d’historiens. Il a plus lu de
+            livres qu’il n’a vécu de jours, il a écrit plus d’ouvrages qu’il
+            n’a connu d’années […] on dit que <foreign xml:lang="lat">
+                <hi rend="italic">natura locuta est ex ore illius</hi>
+              </foreign> [la nature a parlé par sa bouche]&#160;» (Shea, 1992,
+            p.&#160;59).</quote>
+            <p xml:id="d1e438">
+              <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> était bien
+            conscient de la force de cette opposition des aristotéliciens.
+            Ainsi écrivait-il à <persName ref="030588529" type="idref" xml:base="https://www.idref.fr/">Paolo Sarpi</persName> le <date type="_temp" when="1611-02-12">12&#160;février&#160;1611</date> (Clavelin,
+            2004, p.&#160;139)&#160;: «&#160;[…] si bien qu’actuellement je n’ai plus
+            d’autres adversaires que les Péripatéticiens, plus partisans
+            d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> que lui-même
+            ne le serait, et par-dessus tous ceux de <placeName ref="3171728" type="geonames" xml:base="https://www.geonames.org/">Padoue</placeName> sur
+            lesquels je n’espère vraiment aucune victoire.&#160;»</p>
+          </div>
+          <div type="section2" xml:id="d1e440">
+            <head subtype="level2" xml:id="d1e441">Galilée et les principes
+            <hi rend="italic">a priori</hi>
+            </head>
+            <p xml:id="d1e445">La philosophie de la physique que l’on voit
+            chez <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> se fonde
+            implicitement sur une connivence qui existerait entre le monde et
+            nous, une relation en quelque sorte transcendante entre deux
+            réalités (exemple&#160;: les formes nobles&#160;; les essences qui sont de
+            nous, dirigeant les mouvements qui sont le fait de la Nature). Il
+            s’agit-là d’une connivence qui n’a pas de fondement, une simple
+            croyance <hi rend="italic">a priori</hi>. Ici encore <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> part d’un
+            principe qui est à l’opposé, et que je qualifierai
+            métaphoriquement de «&#160;laïc&#160;»&#160;: la nature n’a pas à se plier aux
+            inventions <hi rend="italic">a priori</hi> des hommes. Les
+            passages ne manquent pas où l’on voit chez lui cette règle de
+            méthode. En voici quelques-uns.<lb/>–&#160;«&#160;[…] la nature n’a aucune
+            obligation envers les hommes, n’a passé aucun accord avec eux&#160;»
+            (Lettre au père <persName ref="080531296" type="idref" xml:base="https://www.idref.fr/">Grienberger</persName> du <date type="_temp" when="1611-09-01">1<hi rend="sup">er</hi>&#160;septembre&#160;1611</date> (<hi rend="italic">Opere</hi>, XI, p.&#160;192&#160;; cité dans Clavelin, 1996,
+            p.&#160;400)&#160;;<lb/>–&#160;«&#160;nulle est la force de l’autorité humaine sur les
+            effets de la nature, sourde et inexorable à nos vains désirs&#160;»
+            (<hi rend="italic">Saggiatore</hi>, p.&#160;337)&#160;;<lb/>–&#160;«&#160;[…] et en
+            vérité il m’apparaît ridicule de croire que les choses de la
+            nature commencent à exister quand nous commençons à les découvrir
+            et à les comprendre. Si l’entendement des hommes devait être cause
+            de l’existence des choses, il faudrait alors ou que les mêmes
+            choses à la fois soient et ne soient pas […]&#160;» (Lettre à <persName ref="183660234" type="idref" xml:base="https://www.idref.fr/">Pietro Dini</persName> du <date type="_temp" when="1611-05-21">21&#160;mai&#160;1611</date>&#160;; <hi rend="italic">Opere</hi>, XI, p.&#160;108&#160;; cité dans Clavelin, 2004,
+            p.&#160;155)&#160;;<lb/>–&#160;comme si la nature avait d’abord «&#160;construit les
+            cerveaux des hommes, puis ordonné les choses en conséquence. […]
+            Quant à moi, <hi rend="italic">ajoute <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+              </hi>, je crois
+            plutôt que la nature a d’abord produit les choses à son gré, puis
+            fabriqué la raison humaine en la rendant capable de découvrir
+            (quoique non sans peine) une partie de ses secrets&#160;» (Clavelin,
+            1996, p.&#160;400).</p>
+            <p xml:id="d1e477">Le contre-pied, en quelque sorte, de la
+            «&#160;méthode des essences&#160;» réside dans le recours à l’expérience,
+            qui est omniprésent chez <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>.</p>
+          </div>
+        </div>
+        <div type="section1" xml:id="d1e479">
+          <head subtype="level1" xml:id="d1e480">Le rôle de l’expérience chez
+          Galilée</head>
+          <p xml:id="d1e482">Pour donner une idée du <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+          expérimentateur, j’examine quelques situations qui me paraissent
+          significatives. Il s’agit d’expériences pures, dans lesquelles les
+          mathématiques n’interviennent pas. Les deux premières sont
+          empruntées au <hi rend="italic">Discours sur les corps flottants
+          </hi>de <date type="_temp" when="1612">1612</date> (<hi rend="italic">Opere</hi>&#160;IV&#160;; cité dans Shea, 1997, p.&#160;47-48 et
+          p.&#160;71-72).</p>
+          <p xml:id="d1e495">Il était généralement admis que la forme avait
+          une incidence sur la flottaison des corps. Pour trancher la
+          question, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> réalise des
+          vaisseaux en cire, les charge avec de la grenaille, varie leur forme
+          de différentes manières et montre ainsi –&#160;sans recourir à l’autorité
+          d’un ancien&#160;– que la forme n’a pas d’incidence.</p>
+          <p xml:id="d1e497">Selon <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, la flottaison
+          d’un vaisseau dépendrait des dimensions du plan d’eau, autrement
+          dit, un bâtiment flotterait mieux en haute mer que dans le port.
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> charge un vase
+          et le plonge dans l’eau jusqu’à la limite de la flottaison. Puis
+          reproduit l’expérience avec des récipients de dimensions
+          différentes. L’expérience tranche sans équivoque.</p>
+          <p xml:id="d1e499">Après avoir présenté la démonstration que donne
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> de la loi de la
+          chute des corps, Maurice Clavelin écrit (Clavelin, 1996, p.&#160;423)&#160;:
+          «&#160;Peut-on souhaiter vérification mieux conçue et conduite plus
+          minutieusement&#160;? N’est-il pas tentant devant un texte aussi lucide,
+          de faire de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> le père de la
+          méthode expérimentale moderne […]&#160;?&#160;»</p>
+          <p xml:id="d1e501">Je cite pour le plaisir une autre expérience de
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>, aussi simple
+          qu’astucieuse (Galilée, 1995, p.&#160;59)&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1081">«&#160;J’ai réussi par un autre
+          artifice à tromper quelques amis auprès desquels je m’étais vanté de
+          maintenir cette boule de cire en rigoureux équilibre dans l’eau&#160;;
+          versant dans le fond d’un vase de l’eau salée, puis sur celle-ci de
+          l’eau douce, je leur montrai comment la boule s’arrêtait au milieu
+          de l’eau et comment, poussée vers le fond ou attirée vers le haut,
+          elle ne restait en aucun de ces emplacements, mais retournait vers
+          le milieu&#160;» (voir aussi Drake, 1995, p.&#160;84).</quote>
+          <p xml:id="d1e505">
+            <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> recourt aussi à
+          des expériences de pensée. Voici un exemple admirable emprunté aux
+          <hi rend="italic">Discours</hi> (Galilée, 1995, p.&#160;54). Il s’agit
+          d’établir «&#160;qu’un mobile plus pesant ne se meut pas plus rapidement
+          qu’un mobile moins pesant&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1093">«&#160;Si donc nous avions deux
+          mobiles possédant des vitesses naturelles inégales, il est clair
+          qu’en attachant le plus lent au plus rapide la vitesse de celui-ci
+          serait partiellement ralentie par le plus lent, et celle du plus
+          lent partiellement accrue par le plus rapide. […] Mais s’il en est
+          ainsi, et s’il est vrai encore qu’une grande pierre se meut, par
+          exemple avec huit degrés de vitesse et une plus petite avec quatre
+          degrés, il s’ensuivra, si on les attache, que l’ensemble se mouvra
+          avec une vitesse inférieure à huit degrés&#160;; or les deux pierres,
+          réunies, forment une pierre plus grande que celle qui se mouvait
+          avec huit degrés de vitesse, et la plus grande se meut par
+          conséquent moins vite que la plus petite, ce qui va contre votre
+          supposition. Vous voyez donc comment, si vous supposez qu’un mobile
+          plus grave se meut plus vite qu’un mobile moins grave, j’en conclus,
+          de mon côté, qu’un mobile plus grave se meut moins vite.&#160;»</quote>
+          <p xml:id="d1e512">C’est là un argument dont <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> s’était déjà
+          servi dans le <hi rend="italic">De&#160;Motu</hi>.</p>
+          <p xml:id="d1e517">À la réflexion, compte tenu des moyens techniques
+          à disposition à l’époque, on peut se demander si la vérification
+          expérimentale était vraiment probante. Ou si <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>, à son tour, ne
+          tablait pas au fond sur une correspondance entre l’esprit et le
+          monde&#160;? Le recours fréquent chez lui à ce que l’on appellera
+          «&#160;principe de simplicité&#160;» donne aussi à penser que la Nature et la
+          Raison entretiennent certaines relations particulières.</p>
+        </div>
+        <div type="section1" xml:id="d1e519">
+          <head subtype="level1" xml:id="d1e520">Aristote, Galilée et les
+          mathématiques</head>
+          <p xml:id="d1e522">Lorsqu’on parle de la conception que <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> se fait des
+          mathématiques, on pense naturellement à sa fameuse déclaration du
+          <hi rend="italic">Saggiatore</hi> de <date type="_temp" when="1623">1623</date>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1130">«&#160;La philosophie est écrite
+          dans ce très grand livre qui se trouve continuellement ouvert devant
+          nos yeux (je veux parler de l’univers), mais il ne peut se
+          comprendre si auparavant on n’a pas appris à comprendre la langue et
+          à discerner les caractères dans lesquels il est écrit. Il est écrit
+          en langue mathématique et les caractères en sont des triangles, des
+          cercles et autres figures géométriques, sans le moyen desquels il
+          est impossible d’en comprendre humainement aucune parole&#160;; sans eux
+          on erre vainement dans un labyrinthe obscur&#160;» (Shea, 1992,
+          p.&#160;125).</quote>
+          <p xml:id="d1e529">
+            <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> revient encore
+          sur cette image à la veille de sa mort dans une lettre à <persName ref="030895421" type="idref" xml:base="https://www.idref.fr/">Fortuno Licetti</persName> de <date type="_temp" when="1641-01">janvier&#160;1641</date> (Galilée, 1995,
+          p.&#160;430)&#160;: «&#160;Pour moi, à vrai dire, j’estime que le livre de la
+          philosophie est celui qui est perpétuellement ouvert devant nos
+          yeux&#160;; mais comme il est écrit en des caractères différents de ceux
+          de notre alphabet, il ne peut être lu de tout le monde&#160;; les
+          caractères de ce livre ne sont autres que triangles, carrés,
+          cercles, sphères, cônes et autres figures mathématiques,
+          parfaitement appropriées à telle lecture.&#160;» Dans <hi rend="italic">Istoria e dimostrazioni</hi>
+            <hi rend="italic">alle
+          macchie solari</hi> de <date type="_temp" when="1612">1612</date>
+          (<hi rend="italic">Opere</hi>&#160;V, p.&#160;96&#160;; cité dans Shea, 1997,
+          p.&#160;101), il est encore question de ce livre de la nature que l’on
+          doit privilégier, au lieu de «&#160;fixer des yeux nuit et jour un monde
+          imprimé sur du papier, sans jamais les lever vers le monde réel et
+          véritable, qui a été fait par la main de Dieu lui-même et se tient
+          toujours ouvert devant nos yeux pour notre instruction.&#160;» Signalons
+          que la métaphore du livre de la nature est courante à l’époque (voir
+          par exemple Shea, 1992, p.&#160;275).</p>
+          <p xml:id="d1e544">J’examine ailleurs l’interprétation que l’on
+          donne souvent de cet énoncé célèbre et ce qu’il faut, selon moi, en
+          penser. Pour l’heure, je me propose de montrer par des exemples
+          comment <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> envisage
+          l’utilisation des mathématiques en physique, que ce soit dans ses
+          études de mécanique, d’astronomie ou d’hydrostatique. Là encore, il
+          s’agit d’une opposition frontale à <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> et
+          à ses défenseurs.</p>
+          <p xml:id="d1e546">Dans le <hi rend="italic">De&#160;Motu</hi> rédigé
+          vers <date type="_temp" when="1590">1590</date>, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> note&#160;:
+          «&#160;<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> ignorait non
+          seulement les découvertes les plus profondes et les plus abstruses
+          de la géométrie, mais même les plus élémentaires principes de cette
+          science.&#160;» Ceux qui tentent de le défendre, ajoute-t-il, sont
+          «&#160;encore plus ineptes en géométrie&#160;» (<hi rend="italic">Opere</hi>&#160;I, p.&#160;302-303, cité dans Shea, p.&#160;27). Le
+          véritable maître vers lequel il faut se tourner est pour lui,
+          dit-il, «&#160;le divin, le surhumain <persName ref="02842784X" type="idref" xml:base="https://www.idref.fr/">Archimède</persName>,
+          dont je ne prononce jamais le nom sans un sentiment de respect&#160;»
+          (<hi rend="italic">Opere</hi>&#160;I, p.&#160;300, cité dans Shea, p.&#160;27).
+          L’épistémologie et la méthodologie de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+          sont caractérisées par le passage d’une obédience
+          platono-aristotélicienne à une orientation de type
+          euclido-archimédienne. Je reviendrai sur le mythe d’un <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> platonicien.</p>
+          <p xml:id="d1e557">Voici des citations qui nous renseignent sur la
+          position galiléenne relativement aux mathématiques, avec un
+          éclairage sur le point de vue des aristotéliciens en la
+          matière.<lb/>–&#160;«&#160;La méthode que nous suivrons dans ce traité
+          consistera à toujours enchaîner les propositions à celles qui les
+          précèdent […] Cette méthode, je l’ai apprise des mathématiciens qui
+          ont été mes maîtres&#160;» (<hi rend="italic">Opere</hi>&#160;I, 285&#160;; cité
+          dans Geymonat, 1992, p.&#160;24).<lb/> –&#160;Simplicio, dans les <hi rend="italic"> Dialogues </hi>&#160;: «&#160;Pourtant, je dirais bien avec
+          <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> qu’il
+          [<persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>] s’est plongé
+          trop profondément dans la géométrie et s’est laissé fasciner par
+          elle. Après tout, signor Salviati, les substances mathématiques sont
+          peut-être très vraies dans l’abstrait, mais appliquées à la matière
+          sensible et physique, elles ne correspondent pas&#160;» (Shea, 1992,
+          p.&#160;189).<lb/> –&#160;Celui qui signait «&#160;l’académicien inconnu&#160;»
+          (probablement <persName type="_temp">Arturo
+          Pannochieschi</persName>, professeur à <placeName ref="6542122" type="geonames" xml:base="https://www.geonames.org/">Pise</placeName>)
+          écrivait&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1242">«&#160;Les propositions et
+          preuves des mathématiques ne parviennent pas à démontrer la force et
+          les causes véritables des opérations de la nature. […] Avant d’en
+          venir aux démonstrations de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>, il semble
+          nécessaire de prouver combien sont loin de la vérité ceux qui
+          veulent prouver des faits naturels au moyen de raisonnements
+          mathématiques, et <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>, si je ne me
+          trompe, est de ceux-là. […] Par conséquent, quiconque pense pouvoir
+          prouver des propriétés naturelles avec des arguments mathématiques
+          est insensé, car il s’agit de deux sciences très différentes. Les
+          sciences naturelles étudient les corps naturels qui ont le mouvement
+          comme état naturel et propre, alors que les mathématiques font
+          abstraction de tout mouvement&#160;» (Shea, 1992, p.&#160;61).</quote>
+          <p xml:id="d1e579">
+            <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> n’ignore rien de
+          cette opposition à l’emploi des mathématiques dans la physique.
+          Ainsi écrit-il dans le <hi rend="italic">Discours sur les corps
+          flottants</hi> (<date type="_temp" when="1612">1612</date>)&#160;:</p>
+          <quote rend="quotation" xml:id="d1e1266">«&#160;Je m’attends à une
+          terrible attaque de l’un de mes adversaires, et je l’entends presque
+          déjà crier à mes oreilles que c’est une chose de traiter des
+          questions physiquement et une autre d’en traiter mathématiquement,
+          et que les géomètres devraient s’en tenir à leurs fantaisies, et ne
+          pas se mêler de questions philosophiques, où les conclusions sont
+          différentes des questions mathématiques. Comme si la vérité pouvait
+          n’être pas une, comme si de nos jours la géométrie était un obstacle
+          à l’acquisition de la vraie philosophie, comme s’il était impossible
+          d’être géomètre autant que philosophe, et qu’on dût inférer, comme
+          une conséquence nécessaire que si quelqu’un connaît la géométrie il
+          ne peut connaître la physique, et ne peut raisonner physiquement des
+          questions physiques&#160;» (Shea, 1992, p.&#160;61).</quote>
+          <p xml:id="d1e588">De même à la fin de la Première journée des<hi rend="italic"> Dialogues&#160;</hi>:</p>
+          <quote rend="quotation" xml:id="d1e1279">«&#160;[…] je dis que
+          l’intellect humain en comprend [compréhension d’une proposition]
+          parfaitement certaines et en a une certitude aussi absolue que la
+          nature elle-même peut en avoir&#160;; c’est le cas des sciences
+          mathématiques pures, c’est-à-dire de la géométrie et de
+          l’arithmétique&#160;: en ces sciences l’intellect divin peut bien
+          connaître infiniment plus de propositions que l’intellect humain,
+          puisqu’il les connaît toutes, mais à mon sens la connaissance qu’a
+          l’intellect humain du petit nombre de celles qu’il comprend parvient
+          à égaler en certitude objective la connaissance divine, puisqu’elle
+          arrive à en comprendre la nécessité et qu’au-dessus de cela il n’y a
+          rien de plus assuré&#160;» (Galilée, 1992, p.&#160;211).</quote>
+          <p xml:id="d1e600">Ainsi les mathématiques constituent-elles entre
+          les mains de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> un outil
+          essentiel. Pour <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, les propriétés
+          qualitatives révèlent l’essence des choses. <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> soutient au
+          contraire que le quantitatif donne la véritable clé. Comme <persName ref="028496426" type="idref" xml:base="https://www.idref.fr/">Shea</persName>, parmi d’autres,
+          l’a bien montré (Shea, 1997, p.&#160;33)&#160;: «&#160;Ce qui était nouveau dans la
+          voie d’approche de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>, par contraste
+          avec celle de ses adversaires aristotéliciens, n’était pas tant son
+          attitude face à l’expérimentation que sa foi dans la portée des
+          mathématiques.&#160;» Ou encore (p.&#160;45)&#160;: «&#160;C’est l’analyse mathématique
+          qui attire l’attention sur les phénomènes extraordinaires, plutôt
+          que les phénomènes extraordinaires qui viendraient appeler une
+          interprétation mathématique.&#160;» Il s’agit là, selon moi, de
+          généralisations un peu hâtives, l’expérience fonctionnant aussi chez
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> comme source
+          d’informations sur lesquelles la pensée mathématique pourra
+          éventuellement exercer sa compétence.</p>
+          <p xml:id="d1e607">Au terme d’une démonstration purement
+          géométrique, montrant qu’avec la même surface rectangulaire on
+          construit le récipient cylindrique de plus grand volume si on prend
+          le plus grand côté pour constituer la base et le plus petit pour la
+          hauteur, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> a ce
+          commentaire&#160;: «&#160;Ce résultat nous donne l’explication d’un phénomène
+          qui ne laisse pas d’étonner le vulgaire.&#160;» Et quelques lignes plus
+          bas d’ajouter&#160;: «&#160;Ainsi, avec notre goût pour la géométrie,
+          acquérons-nous sans cesse de nouvelles connaissances aussi curieuses
+          qu’utiles&#160;» (Galilée, 1995, p.&#160;49).</p>
+          <p xml:id="d1e609">
+            <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>, dans son
+          utilisation des mathématiques, recourt souvent à des sortes de
+          passages à la limite. Les mobiles sont assimilables à des points
+          matériels, le contact d’une sphère et d’un plan a lieu en un point
+          unique, le mouvement est continu, etc. On y voit la migration de
+          l’objet perçu vers une sorte de modèle mathématique, dans lequel la
+          réalité se trouve simplifiée&#160;: la chute des corps, le mouvement des
+          projectiles sont modélisés par des entités mathématiques, ces
+          mouvements se déroulent dans le vide.</p>
+        </div>
+        <div type="section1" xml:id="d1e611">
+          <head subtype="level1" xml:id="d1e612">Épistémologie de Galilée. Les
+          origines d’une mutation</head>
+          <p xml:id="d1e614">Du point de vue de l’épistémologie, l’œuvre de
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> marque un
+          tournant important dans l’histoire de la pensée. Pas plus <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> –&#160;son quasi
+          contemporain&#160;– que <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName>, pourtant
+          d’une génération plus jeune, ne sont parvenus, serait-ce de loin, à
+          une telle conception de la science&#160;: c’est là un bon indice de la
+          difficulté de la tâche et du mérite du Pisan. Du côté plus
+          philosophique, on évoquera de même le nom de <persName ref="026699982" type="idref" xml:base="https://www.idref.fr/">Bacon</persName>, dont l’œuvre et
+          la théorie de la science, toutes courageuses et ouvertes qu’elles
+          soient, sont sans commune mesure avec l’apport de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> en matière
+          d’épistémologie.</p>
+          <p xml:id="d1e616">La <date type="_temp">Renaissance</date> a
+          introduit dans l’espace mental et dans certains cadres conceptuels
+          des modifications profondes&#160;; elles ont contribué à changer la
+          mentalité du savant en des points qui devaient s’avérer décisifs
+          pour le développement de ce que l’on a coutume d’appeler la
+          «&#160;science classique&#160;». Voici trois événements majeurs qui ont marqué
+          cette période de la <date type="_temp">Renaissance</date>&#160;:</p>
+          <p xml:id="d1e618">1.&#160;La parution du commentaire de <persName ref="030795451" type="idref" xml:base="https://www.idref.fr/">Tartaglia</persName> à la
+          traduction latine des <hi rend="italic">Éléments</hi> d’<persName ref="026854651" type="idref" xml:base="https://www.idref.fr/">Euclide</persName> (voir Drake,
+          1995, p.&#160;3-4), mettant ainsi à la portée du milieu savant des
+          techniques dont <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> fera un usage
+          permanent et efficace. Il y trouvera en particulier la théorie
+          eudoxienne des proportions, qui lui permettra de traiter la
+          continuité du mouvement. Cette mathématique, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> l’aborde avec la
+          mentalité de l’ingénieur, qui est la sienne. Dans ses années
+          vénitiennes, il enseigne chaque année un cours sur les <hi rend="italic">Eléments</hi>. À la même époque (Drake, 1995, p.&#160;38),
+          il compose un traité de mesures des distances et des hauteurs par
+          les méthodes de la triangulation&#160;; il recourra à des méthodes
+          voisines dans sa détermination de la hauteur des montagnes de la
+          Lune en <date type="_temp" when="1610">1610</date>.</p>
+          <p xml:id="d1e626">2.&#160;Semblablement et toujours par <persName ref="030795451" type="idref" xml:base="https://www.idref.fr/">Tartaglia</persName>, la
+          publication dans les <date from="1540" to="1549" type="_temp">années&#160;1540</date> d’œuvres d’<persName ref="02842784X" type="idref" xml:base="https://www.idref.fr/">Archimède</persName>,
+          que <persName type="_temp">Ricci</persName> – disciple de <persName ref="030795451" type="idref" xml:base="https://www.idref.fr/">Tartaglia</persName> – enseignera à
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>&#160;; <persName ref="02842784X" type="idref" xml:base="https://www.idref.fr/">Archimède</persName> fut pour lui
+          une source d’inspiration et un guide, aussi bien par les contenus
+          que par la méthode (voir aussi Geymonat, 1992, p.&#160;15-16).</p>
+          <p xml:id="d1e628">3.&#160;Le changement de mentalité face à la machine
+          et aux arts mécaniques. C’est vraisemblablement là une mutation qui
+          engagera <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> à s’intéresser à
+          ces nouveaux champs d’investigation, qui étaient libres de préjugés
+          par rapport aux interdits de la philosophie. Il travaille sur
+          l’architecture militaire, sur les problèmes de fortifications, sur
+          la balistique, sur les techniques hydrauliques, sur la résistance
+          des matériaux. Dans la <placeName ref="6542284" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName> des <date from="1590" to="1599" type="_temp">années&#160;1590</date>, on le voit
+          visiter l’Arsenal de la ville, être interrogé sur toutes sortes de
+          questions techniques (Drake 1995, p.&#160;33 et suivantes). Un engagement
+          dans la matière et dans le réel qui devait aussi développer chez lui
+          la confiance dans les instruments (en particulier dans la lunette),
+          techniques qui sont constitutives de sa méthodologie et de son
+          épistémologie. L’apparition de la lunette ou d’instruments de
+          mesures, dans un milieu où la tradition fondait ses convictions sur
+          des propositions sanctionnées par l’usage et canonisées par la
+          notoriété des auteurs, avait naturellement de quoi inquiéter et
+          perturber les esprits.</p>
+          <p xml:id="d1e630">Pour ce qui concerne les arts mécaniques,
+          rappelons avec <persName ref="028335422" type="idref" xml:base="https://www.idref.fr/">Paolo Rossi</persName> (Rossi,
+          1999, p.&#160;34) que «&#160;la grande révolution scientifique du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date> a
+          pour origine cette interpénétration entre technique et science qui a
+          marqué (en bien et en mal) toute la civilisation occidentale&#160;» et
+          qui était absente dans les temps antérieurs. <persName ref="028335422" type="idref" xml:base="https://www.idref.fr/">Rossi</persName> nous dit comment
+          le terme grec <hi rend="italic">
+              <foreign xml:lang="grc">banausi</foreign>
+            </hi> signifiait «&#160;arts mécaniques&#160;» ou «&#160;travail manuel&#160;»&#160;; et
+          comment <persName type="_temp">Caliclès</persName>, dans le <hi rend="italic">Gorgias</hi> de <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>, affirmait qu’il
+          fallait mépriser le constructeur de machine, qu’on doit appeler <hi rend="italic">
+              <foreign xml:lang="grc">banausos</foreign>
+            </hi> pour l’offenser. Quant à <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>,
+          il avait exclu du rang des citoyens celui qui s’adonnait à la
+          mécanique. <persName ref="028335422" type="idref" xml:base="https://www.idref.fr/">Rossi</persName> donne (p.&#160;59) une
+          liste d’ouvrages parus <date from="1530" to="1580" type="_temp">entre&#160;1530 et&#160;1580</date> et qui, tous, mettent en
+          évidence la dignité des procédés des artisans. Cette confiance dans
+          la technique est fort utile à <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> lorsque, en
+          <date from="1609" to="1610" type="_temp">1609-1610</date>, il
+          disposera d’une lunette et qu’il entreprendra de la tourner vers le
+          ciel. L’avènement de l’instrument comme médiateur entre le monde et
+          nous est une autre révolution conceptuelle et on mesure bien
+          l’ampleur de l’événement à l’aune des résistances rencontrées par
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> pour convaincre
+          ses contemporains. La réaction du philosophe <persName type="_temp">Cosimo Sassetti</persName> dans une lettre à <persName ref="183660234" type="idref" xml:base="https://www.idref.fr/">Pietro
+          Dini</persName> du <date type="_temp" when="1611-05-14">14&#160;mai&#160;1611</date> (<hi rend="italic">Opere</hi>&#160;XI, p.&#160;103&#160;; Clavelin&#160;2004, p.&#160;32 et
+          p.&#160;152) est représentative&#160;: «&#160;La lunette fait apparaître des choses
+          qui n’existaient pas.&#160;» Ou encore dans sa lettre du <date type="_temp" when="1612-06-16">16&#160;juin&#160;1612 </date>à <persName type="_temp">Paolo Gualdo</persName> (Galilée, 1997, p.&#160;382)&#160;:
+          «&#160;J’ai retrouvé là de quoi me réjouir, surtout aux dépens de ceux
+          qui, pour n’être pas forcés de croire, se refusent à voir […].&#160;»</p>
+          <p xml:id="d1e649">Notre mentalité d’aujourd’hui a tendance à
+          traiter ces résistances comme le fait d’esprits obtus et médiocres,
+          mais elle a tort. Cet élargissement du domaine des sens, il fallait
+          l’assumer.</p>
+        </div>
+        <div type="section1" xml:id="d1e651">
+          <head subtype="level1" xml:id="d1e652">Galilée et Kepler,
+          épistémologies contrastées</head>
+          <p xml:id="d1e654">La modernité (par le mot «&#160;modernité&#160;», j’entends
+          tout ce qui fait encore partie de notre équipement mental, ce dont
+          nous partageons l’esprit, sinon la lettre) de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> est bien mise en
+          évidence par le jeu des contrastes avec ses plus grands
+          contemporains, comme je le laissais entendre plus haut&#160;: <persName ref="026699982" type="idref" xml:base="https://www.idref.fr/">Bacon</persName> (né en<date type="_temp" when="1561">1561</date>), <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> (né
+          en <date type="_temp" when="1571">1571</date>), <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName> (né en <date type="_temp" when="1596">1596</date>). Une modernité qui réside en
+          fait principalement dans son épistémologie, en laquelle nous nous
+          reconnaissons et qui ne s’observe pas chez les trois autres savants.
+          La comparaison entre <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> et <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> est la plus
+          pertinente compte tenu de leurs intérêts scientifiques&#160;; elle nous
+          éclaire aussi sur ce que j’appellerai leur <hi rend="italic">mathématisme</hi>, très présent chez eux, mais en des
+          sens fort différents. <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> en appelle à des
+          âmes pour diriger les planètes et il faudra attendre sa deuxième loi
+          pour qu’il abandonne cette idée&#160;; une idée qu’il conservera pourtant
+          en ce qui concerne la rotation du Soleil. On ne trouve rien de
+          pareil chez <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>, dont
+          l’épistémologie est d’emblée «&#160;laïque&#160;», si l’on peut utiliser ce
+          terme. Le passage de l’âme qui guide la planète à la force qui la
+          meut marque un tournant conceptuel qui conditionne tout l’avenir de
+          la mécanique et de la physique. Dans sa cosmographie, <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> se fonde sur des
+          relations métaphysiques entre, d’une part, ce que nous appellerions
+          le «&#160;monde extérieur&#160;» et d’autre part le microcosme de la pensée,
+          relations médiatisées par le nombre et la figure. Ce sont ses fameux
+          agencements polyédriques, dont le nombre et les proportions
+          régissent le nombre et la marche des cieux. Il n’y a rien de
+          semblable chez <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>. Il insiste sur
+          l’existence de différences profondes dans leur conception de la
+          science. Dans une lettre à <persName ref="030281237" type="idref" xml:base="https://www.idref.fr/">Fulgenzio Micanzio</persName> du
+          <date type="_temp" when="1634-09-19">19&#160;novembre&#160;1634</date> il
+          écrit&#160;: «&#160;[Il est possible] que puisque nous traitions les mêmes
+          matières […] nous nous soyons quelquefois rencontrés sur des
+          concepts identiques, mais cela fort rarement. Nous avons donc
+          assigné à certains phénomènes réels la même raison véritable, mais
+          de telles rencontres entre mes pensées et les siennes ne se
+          produiront pas une fois sur cent&#160;» (<hi rend="italic">Opere</hi>&#160;XVI, p.&#160;163&#160;; cité dans Geymonat, 1992,
+          p.&#160;234).</p>
+          <p xml:id="d1e662">Il y a certes le fameux passage du grand livre de
+          l’Univers qui serait écrit en langage mathématique, mais à qui on a
+          donné des interprétations que je crois erronées, en y voyant
+          notamment une forme de platonisme (voir plus bas). Une étude
+          fouillée sur l’éventuel platonisme de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> se
+          trouve dans <persName ref="029512549" type="idref" xml:base="https://www.idref.fr/">Clavelin</persName> (1996,
+          p.&#160;428&#160;ff). Contentons-nous de ces trois remarques&#160;:<lb/>–&#160;pour
+          accréditer l’une de ses thèses méthodologiques centrales, à savoir
+          la pertinence des mathématiques dans la physique, il fallait à
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> des appuis&#160;;
+          celui de <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName> était tout trouvé
+          et c’est à lui qu’il aurait naturellement choisi de faire référence
+          (voir par exemple Clavelin, 1996, p.&#160;428-429)&#160;;<lb/>–&#160;sa forte
+          opposition à <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> pouvait être
+          dangereuse, compte tenu du climat ambiant et de sa place dans
+          l’Église&#160;; aussi n’était-il pas inutile de se placer sous la
+          bannière d’un grand philosophe que ni l’Église ni le milieu ne
+          rejetaient&#160;;<lb/>–&#160;<persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> était un esprit
+          assez ouvert pour prendre ce qui lui paraissait bon, sans pour
+          autant être adepte d’une philosophie particulière.</p>
+          <p xml:id="d1e670">Du point de vue qui nous intéresse ici, le
+          mathématisme peut s’entendre en deux sens, et qui sont fort
+          différents. Il y a d’abord celui de <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName>, qui
+          est un mathématisme que je qualifierais «&#160;d’essentialiste&#160;» en ce
+          qu’il considère les entités mathématiques, nombre et figure, comme
+          chargées ontologiquement, comme chargées d’essences qui seraient en
+          quelque sorte des archétypes du monde (on a parlé de «&#160;thèse
+          émanationniste&#160;»). Ainsi, les orbes des planètes sont-ils gouvernés
+          par les solides réguliers, qui appartiennent, pourrait-on dire, au
+          Monde des Idées. On est dans la droite ligne de la filière
+          pythagoro-platonicienne, ce que reconnaît d’ailleurs explicitement
+          <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> à l’orée de son
+          <hi rend="italic">Mysterium Cosmographicum</hi> de <date type="_temp" when="1597">1597</date>. Tout autre est le mathématisme
+          qu’on lit dans le fameux passage du <hi rend="italic">Saggiatore</hi> de <date type="_temp" when="1623">1623</date>. Il s’agit d’un mathématisme purement
+          instrumentaliste à l’œuvre tout au long de l’activité scientifique
+          de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>. Ses
+          mathématiques ne sont guère plus qu’un outil. Il ne se prononce
+          nulle part sur l’existence d’une éventuelle relation ontologique
+          entre deux mondes et qui rendrait compte de l’étonnante possibilité
+          offerte par les mathématiques. Il me semble exagéré de reconnaître
+          dans sa conception des mathématiques l’adhésion à un platonisme ou à
+          un néo-platonisme à la <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName>&#160;; le plus
+          souvent, elle paraît de même nature que celle d’<persName ref="02842784X" type="idref" xml:base="https://www.idref.fr/">Archimède</persName>, celle des
+          ingénieurs qui voient dans les mathématiques non pas tant une
+          réalité supérieure à l’expérience qu’une aide précieuse pour opérer
+          sur l’expérience. La mécanique galiléenne requérait une approche des
+          mathématiques qui ne soit pas fondée sur une échelle de dignité des
+          entités mathématiques. <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> n’a que faire
+          des perfections numériques ou géométriques en ce sens.</p>
+          <p xml:id="d1e678">On ne saurait quitter cette confrontation entre
+          <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> et <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> sans noter que,
+          paradoxalement, <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> n’a pas adhéré
+          aux thèses képlériennes du mouvement elliptique. Son attachement au
+          mouvement circulaire, on pourrait l’attribuer à une conviction
+          voisine de celle de <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> relativement aux
+          polyèdres réguliers et y voir aussi l’expression de cette connivence
+          dont je parlais plus haut.</p>
+          <p xml:id="d1e680">La conception émanationniste se rencontre encore
+          de nos jours chez des savants de premier plan. Ainsi, on trouve dans
+          la correspondance du grand physicien <persName ref="029227798" type="idref" xml:base="https://www.idref.fr/">Wolfgang
+          Pauli</persName> (<date from="1900" to="1958" type="_temp">1900-1958</date>) avec le psychologue <persName ref="026943204" type="idref" xml:base="https://www.idref.fr/">Carl
+          Gustav Jung</persName> (<date from="1875" to="1961" type="_temp">1875-1961</date>) des passages qui vont dans ce sens.
+          Le psychologue suisse a développé la thèse de l’existence d’une
+          forme de représentation donnée <hi rend="italic">a priori</hi>, une
+          sorte de forme symbolique inconsciente relevant de ce qu’il appelle
+          «&#160;l’inconscient collectif&#160;». Voici un extrait de la lettre que
+          <persName ref="029227798" type="idref" xml:base="https://www.idref.fr/">Pauli</persName> adresse à
+          <persName ref="026943204" type="idref" xml:base="https://www.idref.fr/">Jung</persName> le <date type="_temp" when="1953-03-31">31&#160;mars&#160;1953</date> (Pauli, 2000,
+          p.&#160;162)&#160;: «&#160;Je crois en effet, en y voyant non un dogme mais une
+          hypothèse de travail, à l’unité fondamentale (<foreign xml:lang="grc">homoousie</foreign>) du <foreign xml:lang="grc">mundus archetypus</foreign> et du monde empirique
+          […]. Si cette hypothèse est juste –&#160;et la possibilité de produire
+          des énoncés parallèles dans les domaines physique et psychologique
+          va dans ce sens&#160;– il faut cependant parvenir à l’exprimer à l’aide
+          de concepts […]. Il existe déjà de tels concepts, à savoir les
+          concepts mathématiques&#160;: le fait qu’il existe des idées
+          mathématiques pouvant être appliquées également au monde physique ne
+          me paraît possible qu’en raison de cette <foreign xml:lang="grc">homoousie</foreign> du <foreign xml:lang="lat">mundus
+          archetypus</foreign> et du monde empirique.&#160;»</p>
+        </div>
+        <div type="section1" xml:id="d1e685">
+          <head subtype="level1" xml:id="d1e686">Place de Galilée dans
+          l’histoire des conceptions épistémologiques</head>
+          <p xml:id="d1e688">Dans sa remarquable <hi rend="italic">Histoire de
+          la philosophie occidentale de Thalès à Kant</hi>, <persName ref="02709622X" type="idref" xml:base="https://www.idref.fr/">Jean-Francois Revel</persName> nous
+          offre (Revel, 1994, p.&#160;480) un très fin commentaire sur la place de
+          l’œuvre galiléenne dans l’histoire de la pensée. Après avoir observé
+          que <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> eût été surpris
+          qu’on lui demandât quelle était la philosophie qui sous-tendait sa
+          science puisque, dans le vocabulaire de l’époque, «&#160;science&#160;» se
+          disait «&#160;philosophie&#160;», <persName ref="02709622X" type="idref" xml:base="https://www.idref.fr/">Revel</persName> écrit&#160;: «&#160;Ce qui
+          s’est passé d’essentiel, c’est l’invention d’un type de pensée –&#160;la
+          pensée expérimentale&#160;–, radicalement nouveau par rapport à tout ce
+          que l’humanité avait pratiqué auparavant. Ce qui n’était jusqu’alors
+          que velléités de minoritaires, rapidement balayées, devient le type
+          de pensée dominant, sinon toujours majoritaire.&#160;» Et l’auteur
+          d’ajouter&#160;: «&#160;En somme, une partie de la philosophie “réussit” dans
+          ce sens qu’elle atteint ses buts. Elle se détache des autres,
+          démontre même parfois par sa seule existence l’inanité de certaines
+          d’entre elles.&#160;» On pense ici à l’évolution des espèces animales&#160;:
+          l’épistémologie galiléenne crée un isolat sur lequel les espèces
+          vont évoluer différemment. La science et la philosophie suivant à
+          partir de là chacune son propre chemin.</p>
+          <p xml:id="d1e693">
+            <persName ref="029512549" type="idref" xml:base="https://www.idref.fr/">Maurice Clavelin</persName> rejoint
+          <persName ref="02709622X" type="idref" xml:base="https://www.idref.fr/">Revel</persName> quand il écrit
+          (Clavelin, 2004, p.&#160;24), à propos des conséquences de découvertes de
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> en astronomie&#160;:
+          «&#160;D’abord elle [une situation sans précédent] faisait de
+          l’astronome, seul à disposer des informations nécessaires,
+          l’héritier légitime du philosophe, s’agissant du problème capital de
+          la constitution du monde&#160;; à lui de décider, guidé par ses principes
+          et en étroit accord avec la connaissance objective, quel système
+          permet le mieux d’appréhender cette constitution […].&#160;» Ici ce n’est
+          plus l’épistémologie de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> dont il s’agit,
+          mais bien de ses découvertes factuelles. <persName ref="029512549" type="idref" xml:base="https://www.idref.fr/">Clavelin</persName>
+          s’adresse à la personne, qu’il traite «&#160;d’héritier du philosophe&#160;»&#160;;
+          tandis que <persName ref="02709622X" type="idref" xml:base="https://www.idref.fr/">Revel</persName> fait allusion à
+          l’événement&#160;: une partie de la philosophie se détache de la mère
+          patrie et forme un domaine qui deviendra la science.</p>
+          <p xml:id="d1e695">L’idée de la naissance de la «&#160;science
+          classique&#160;» au <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date> (on
+          parle aussi de «&#160;science moderne&#160;») est un <hi rend="italic">
+              <foreign xml:lang="grc">topos</foreign>
+            </hi>. Quand on observe le premier&#160;<date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>
+            </date>, on y voit une claire rupture dans le système de pensée à
+          la base de la science et dans les cadres conceptuels qui la
+          gouvernent. Ce qui est nouveau et décisif ce ne sont pas tant les
+          découvertes scientifiques <hi rend="italic">strictu senso</hi> (si
+          l’on excepte les lois de <persName ref="02709622X" type="idref" xml:base="https://www.idref.fr/">Kepler</persName>, mais dont le
+          mode de la découverte appartient plutôt à une vision de la science
+          qui nous paraît archaïque) qu’un changement profond dans l’état
+          d’esprit du savant&#160;: une épistémologie et une méthodologie nouvelles
+          prennent le relais. <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> en est un
+          protagoniste majeur, laissant loin derrière lui <persName ref="026699982" type="idref" xml:base="https://www.idref.fr/">Francis Bacon</persName> ou
+          <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">René Descartes</persName>, à qui
+          l’histoire octroiera une place assurément disproportionnée dans le
+          développement de la pensée nouvelle. Au-delà de ses remarquables
+          découvertes techniques, qui ouvriront la voie à <persName ref="02704694X" type="idref" xml:base="https://www.idref.fr/">Newton</persName>, on doit à
+          <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> des réflexions
+          profondes et nouvelles, des fulgurances dans le sens où elles ne
+          font pas partie d’un plan articulé. Avec lui s’est mis en marche un
+          mode de penser qui permettra ses triomphes à la science classique.
+          Comme le note encore <persName ref="029512549" type="idref" xml:base="https://www.idref.fr/">Maurice Clavelin</persName>
+          (Clavelin, 1996, p.&#160;389)&#160;: «&#160;À travers l’œuvre galiléenne, c’est
+          bien la conception que l’on avait depuis vingt siècles de la
+          rationalité scientifique qui change brusquement de visage et prend
+          pour l’essentiel les traits que nous lui connaissons dans la science
+          classique.&#160;» Dans les écrits de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>,
+          nous nous sentons chez nous&#160;; et, dans un premier temps, on se
+          demande quel intérêt on peut trouver à ses textes&#160;: ces choses-là,
+          nous les avons bues avec le lait de notre mère. Mais il n’en va de
+          même ni chez <persName ref="02709622X" type="idref" xml:base="https://www.idref.fr/">Kepler</persName>, ni chez
+          <persName ref="026699982" type="idref" xml:base="https://www.idref.fr/">Bacon</persName>, et pas davantage
+          chez <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName>&#160;; notre
+          sentiment d’être devant des banalités tient à ce que, précisément,
+          ces pensées-là étaient étrangères à leur temps, qu’elles furent
+          inventées –&#160;ou découvertes, c’est comme on voudra&#160;– contre lui, au
+          prix de bien des difficultés, de bien des tourments.</p>
+          <p xml:id="d1e713">La science classique, celle sur l’épistémologie
+          de laquelle nous vivons encore, n’aurait pas pu se constituer sur le
+          socle de la pensée aristotélicienne. Il convenait d’abord de
+          nettoyer le terrain, d’éradiquer des modes de pensée si solidement
+          implantés qu’ils s’étaient cristallisés en dogmes. Circonstance
+          aggravante, cette vision du Monde était défendue par l’Église, qui
+          se sentait menacée par les changements de paradigmes que l’on voyait
+          surgir sous la plume de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>. Soit dit en
+          passant, l’œuvre épistémologique de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>
+          n’est pas seulement d’une grande lucidité, mais elle est aussi la
+          manifestation d’un courage évident, même s’il relevait peut-être
+          plutôt parfois d’un enthousiasme inconscient. Pensons qu’un
+          <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName> a renoncé à
+          publier son «&#160;Monde&#160;» quand il vit ce qu’il advint à <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>&#160;! Qu’il faille
+          d’abord se débarrasser de la pensée du Stagyrite en la matière ne
+          doit pas être pris pour un dénigrement de son œuvre. En effet, la
+          théorie de la science formulée par <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> et
+          les anciens Grecs a permis l’ensemble des recherches astronomiques
+          et mécaniques, sans lesquelles les révolutions scientifiques
+          des&#160;<date from="1500" to="1599" type="_temp">
+              <hi rend="small-caps">xvi</hi>
+              <hi rend="sup">e</hi>
+            </date> et <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>&#160;siècles</date>
+          n’auraient pas pu avoir lieu. Elle a en quelque sorte servi de la
+          «&#160;théorie quelconque&#160;» dont parlait <persName ref="026796899" type="idref" xml:base="https://www.idref.fr/">Auguste
+          Comte</persName> et sans laquelle il n’y a pas selon lui de
+          recherche possible.</p>
+          <p xml:id="d1e725">Pour conclure et pour résumer, je redirai que
+          l’œuvre de <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> est la plus
+          importante de la <date from="1600" to="1650" type="_temp">première
+          moitié du <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, aussi bien par les découvertes
+          scientifiques que par les percées épistémologiques qu’elle contient.
+          Ce jugement, presque évident pour tout chercheur qui aura étudié en
+          détail cette période, est rarement formulé. Alors que, au contraire,
+          on a glorifié <hi rend="italic">ad nauseam</hi> des penseurs comme
+          <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName> ou <persName ref="026699982" type="idref" xml:base="https://www.idref.fr/">Bacon</persName>, dont les
+          contributions à la pensée scientifique ne tiennent assurément pas la
+          comparaison avec celle du Pisan. Ce sont les affaires <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName> qui ont retenu
+          l’attention, mettant dans l’ombre les parties véritablement
+          importantes de son œuvre.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliography" xml:id="d1e739">
+        <listBibl xml:id="d1e741">
+          <bibl xml:id="d1e743">
+            <hi rend="small-caps">Clavelin</hi>, C.
+          (1996)&#160;: <hi rend="italic">La philosophie naturelle de Galilée.
+          Essai sur les origines et la formation de la mécanique
+          classique</hi>, Paris, Albin Michel, Première édition 1968.</bibl>
+          <bibl xml:id="d1e750">
+            <hi rend="small-caps">Clavelin</hi>, C.
+          (2004)&#160;: <hi rend="italic">Galilée copernicien</hi>, Paris, Albin
+          Michel.</bibl>
+          <bibl xml:id="d1e757">
+            <hi rend="small-caps"> Drake </hi> , S.
+          (1995)&#160;: <hi rend="italic"> Galileo at Work. </hi>
+            <hi rend="italic">His Scientific Biography</hi>, Mineola&#160;N.Y, Dover,
+          Édition originale 1978.</bibl>
+          <bibl xml:id="d1e769">
+            <hi rend="small-caps">Duhem</hi>, P. (1997)&#160;:
+          <hi rend="italic">L’aube du savoir. Épitomé du «&#160;Système du
+          monde&#160;»</hi>, textes établis et présentés par Anastasios Brenner,
+          Paris, Hermann Éditeurs des sciences et des arts, 1997.</bibl>
+          <bibl xml:id="d1e776">
+            <hi rend="small-caps">Festa</hi>, E. (1995)&#160;:
+          <hi rend="italic">L’erreur de Galilée</hi>, Paris, Austral.</bibl>
+          <bibl xml:id="d1e783">
+            <hi rend="small-caps">Galilei</hi>,
+          Galileo&#160;:</bibl>
+          <bibl xml:id="d1e787">—— <hi rend="italic">Le Opere di Galileo
+          Galilei</hi>, éd.&#160;A.&#160;Favaro, 20&#160;vol., Florence, G.&#160;Barbera,
+          1899-1909. Réimpressions&#160;: 1929-1939, 1964-1966, 1968.</bibl>
+          <bibl xml:id="d1e795">—— <hi rend="italic">Discours et
+          démonstrations mathématiques concernant deux sciences</hi>
+            <hi rend="italic">nouvelles</hi>, traduction par Maurice Clavelin,
+          Paris, Presses universitaires de France, 1995. Première édition
+          1970.</bibl>
+          <bibl xml:id="d1e803">—— <hi rend="italic">Dialogue sur les deux
+          grands systèmes du monde</hi>, Paris, Éditions du Seuil, 1992.
+          Traduit par René Fréreux.</bibl>
+          <bibl xml:id="d1e808">—— <hi rend="italic">Dialogues. Lettres
+          choisies</hi>, Choix, traduction, préface de Paul-Henri Michel,
+          Paris, Hermann Éditeurs des sciences et des arts, 1997.</bibl>
+          <bibl xml:id="d1e814">
+            <hi rend="small-caps">Geymonat</hi>, L.
+          (1992)&#160;: <hi rend="italic">Galilée</hi>, Paris, Éditions du Seuil,
+          traduit de l’italien sur la première édition de 1957.</bibl>
+          <bibl xml:id="d1e821">
+            <hi rend="small-caps">Pauli, W.</hi> et <hi rend="small-caps">Jung</hi>, C. J. (2000)&#160;: <hi rend="italic">Correspondance 1932-1958</hi>, Paris, Albin Michel,
+          traduit de l’allemand.</bibl>
+          <bibl xml:id="d1e831">
+            <hi rend="small-caps">Poupard, </hi>Mgr&#160;Paul
+          (sous la direction de) (1983)&#160;: <hi rend="italic">Galileo Galilei,
+          350&#160;ans d’histoire 1633-1983</hi>, Tournai, Desclée
+          International,</bibl>
+          <bibl xml:id="d1e838">
+            <hi rend="small-caps">Revel</hi>, J.-F.
+          (1994)&#160;: <hi rend="italic">Histoire de la philosophie occidentale de
+          Thalès à Kant</hi>, Éditions&#160;Nil.</bibl>
+          <bibl xml:id="d1e845">
+            <hi rend="small-caps">Rossi</hi>, P. (1999)&#160;:
+          <hi rend="italic">La naissance de la science moderne en Europe</hi>,
+          Paris, Éditions du Seuil, traduit de l’italien. Édition originale
+          1997.</bibl>
+          <bibl xml:id="d1e852">
+            <hi rend="small-caps">Shea</hi>, S. (1992)&#160;:
+          <hi rend="italic">La révolution galiléenne</hi>, Paris, Éditions du
+          Seuil, traduit de l’anglais. Édition originale 1977.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

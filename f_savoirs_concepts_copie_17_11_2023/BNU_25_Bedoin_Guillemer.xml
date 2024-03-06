@@ -1,0 +1,904 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_25_Bedoin_Guillemer.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les visages du livre&#160;: regards contemporains depuis
+        l’école Estienne</title>
+        <author role="aut">
+          <forename>Laurence</forename>
+          <surname>Bedoin</surname>
+          <idno type="IDREF">23399081X</idno>
+        </author>
+        <author role="aut">
+          <forename>Erell</forename>
+          <surname>Guillemer</surname>
+          <idno type="IDREF">123932297</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/2PAKP2SV" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Les visages du livre : regards contemporains
+            depuis l’école Estienne</title>
+            <idno type="DOI">10.4000/rbnu.3968</idno>
+            <title type="short">Les visages du livre</title>
+            <author>
+              <forename>Laurence</forename>
+              <surname>Bedoin</surname>
+            </author>
+            <author>
+              <forename>Erell</forename>
+              <surname>Guillemer</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">25</biblScope>
+              <biblScope unit="page">50-59</biblScope>
+              <date>2022</date>
+              <note type="accessed">2022-07-21T13:55:29Z</note>
+              <note type="url">https://journals.openedition.org/rbnu/3968</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1870">1870</date>
+          </term>
+          <term>
+            <date type="_temp" when="1900">1900</date>
+          </term>
+          <term>
+            <date from="2000" to="2099" type="_temp">21<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-28T12:40:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Les visages du livre&#160;:
+          regards contemporains depuis l’école Estienne</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Laurence Bedoin</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Professeur de design et métiers d’art,
+          école Estienne</affiliation>
+        </byline>
+        <docAuthor style="txt_auteur">Erell Guillemer</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff02">Professeur d’humanités, école
+          Estienne</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e59">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-wc3xyyrs">atelier</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>Qu’est-ce que
+        concevoir un livre&#160;? Pour tâcher de rendre compte de la multiplicité
+        des approches et des enseignements que dispense l’école Estienne, nous
+        nous sommes adressées à divers interlocuteurs, dans différents
+        ateliers. Précisons d’emblée que nous aurions pu en rencontrer
+        davantage encore, tant les perceptions et les pratiques du livre sont
+        complémentaires.</p>
+        <p xml:id="d1e61">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+          </term>Nous remercions
+        toutes les personnes que nous avons sollicitées, enseignants, anciens
+        étudiants, parfois les deux, impliqués dans la production et dans la
+        transmission de ces arts du livre<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Elles seront dans l’article désignées par leurs initiales.</p>
+          </note>.Ces temps de partage riches et enthousiasmants, autour
+        d’ouvrages produits, aimés, partagés, témoins des veilles sur le monde
+        opérées par tous, ont été un pas de côté de nos échanges
+        professionnels habituels. Tous nos interlocuteurs nous ont communiqué
+        leurs visions, leurs expériences, les règles qui organisent leur
+        rapport à cet objet qu’est le livre. Nous remercions également <hi rend="italic">La Revue de la Bnu</hi> pour sa sollicitation, qui nous
+        a permis d’engager cette réflexion.</p>
+        <figure xml:id="d1e69">
+          <head xml:id="d1e70">
+            <graphic url="https://didomena.ehess.fr/downloads/b56450851.jpg"/>Figure 1.
+          <hi rend="italic">Monographie de l’École Estienne&#160;: école municipale
+          professionnelle des arts et industries du livre…</hi>Paris, impr. de
+          l’École Estienne, 1900. Coll. Archives de la Ville de Paris</head>
+        </figure>
+        <div type="section1" xml:id="d1e77">
+          <head subtype="level1" xml:id="d1e78">Petit rappel historique&#160;: tout
+          a changé, l’essentiel est resté</head>
+          <p xml:id="d1e80">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+              </term>
+            </term>Au
+          lendemain de la guerre de <date type="_temp" when="1870">1870</date>, consciente des modifications profondes des
+          conditions d’apprentissage dans tous les domaines, la Ville de
+          <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> entreprend
+          d’investir dans une structuration des formations aux métiers par la
+          fondation d’écoles. Dédiée aux «&#160;arts et industries du livre&#160;»,
+          l’école Estienne rassemble des enseignements à la fois théoriques et
+          pratiques dans toutes les branches des professions liées à ce
+          domaine. Elle «&#160;voulait se consacrer aux ‘industries-mères’, celles
+          qui embrassent plusieurs professions ou spécialités, ayant de
+          nombreux points de ressemblance, employant fréquemment des procédés
+          de travail analogues et en grande partie le même outillage&#160;»<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>
+                <hi rend="italic">Monographie de l’École Estienne&#160;: école
+              municipale professionnelle des arts et industries du livre…,
+              </hi>Paris, impr. de l’École Estienne, 1900</p>
+            </note>. Ces points sont rappelés dans une monographie célébrant
+          en <date type="_temp" when="1900">1900</date> les dix premières
+          années d’existence de l’établissement <hi>(voir ill.
+          ci-dessus)</hi>. Quelque cent trente ans plus tard, nous nous
+          demandons quelles sont les ruptures et les continuités qui
+          caractérisent l’enseignement dans cette école. Comment
+          «&#160;enseigne-t-on le livre&#160;»&#160;? Qu’enseigne-t-on ou n’enseigne-t-on
+          plus après les nombreuses et profondes mutations qu’ont vécues les
+          métiers liés à ces arts et industries&#160;?</p>
+          <p xml:id="d1e92">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+          livre</term>
+                  </term>
+                </term>
+              </term>
+            </term>Échanger avec les différents
+          acteurs des formations de l’école a été l’occasion de re-parcourir
+          et de re-convoquer les réflexions menées par <persName ref="027022293" type="idref" xml:base="https://www.idref.fr/">Michel
+          Melot</persName> dans son ouvrage <hi rend="italic">Livre</hi>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Melot, Michel, <hi rend="italic">Livre</hi>, Paris, L'Œil
+              neuf éditions, 2006</p>
+            </note>. Plusieurs croisements jalonnent notre propos, tant les
+          évidences étaient présentes, tant les pratiques actuelles s’ancrent
+          dans une histoire du livre au long cours.</p>
+        </div>
+        <div type="section1" xml:id="d1e101">
+          <head subtype="level1" xml:id="d1e102">Le choix du livre&#160;: penser le
+          livre</head>
+          <p xml:id="d1e104">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-epe2ahku">informatique<term ref="doi:10.34817/sv-jzf7lact">imagerie
+          numérique</term>
+                  </term>
+                </term>
+              </term>
+            </term>La génération actuelle
+          est quasiment née avec le numérique. Il est pourtant frappant de
+          constater que son attrait pour le livre papier ne faiblit pas. Les
+          étudiants, au sein de l’école, s’organisent essentiellement selon
+          trois approches distinctes&#160;: travailler dans le monde de la
+          communication au sens large, œuvrer par l’image en mouvement et le
+          numérique, enfin côtoyer le monde du livre et de l’imprimé. Certains
+          s’intéressent à des composantes, la typographie, l’image, la
+          reliure, d’autres à l’objet dans son ensemble et souhaitent gérer le
+          contenu. Il est parfois touchant, lors des journées portes ouvertes
+          de l’école, de voir les aspirants aux formations côtoyer les
+          productions exposées, avec un émerveillement qu’ils n’auraient pas
+          en librairie, et rêver de pouvoir à leur tour réaliser des
+          livres.</p>
+          <p xml:id="d1e106">Nos interlocuteurs constatent que les étudiants
+          «&#160;pensent livre&#160;», qu’ils soient illustrateurs ou encore graveurs,
+          alors que leur production pourrait exister pour elle-même sans ce
+          cadre. Dans l’atelier de gravure, où l’on apprend à réaliser des
+          estampes, des pièces isolées ou des suites d’images, le livre ne va
+          pas de soi et pourtant, dans la liberté donnée à penser la forme de
+          sa production, qu’il s’agisse du diplôme ou du rendu d’un exercice,
+          il s’impose comme une évidence. «&#160;Les étudiants s’emparent
+          naturellement de la forme du livre pour répondre à un sujet&#160;»,
+          constate&#160;F.</p>
+          <figure xml:id="d1e108">
+            <graphic url="https://didomena.ehess.fr/downloads/fx719v69t.jpg"/>
+            <head xml:id="d1e109">Figure 2. Documents d’élaboration du livre.
+            Travail sur le texte, croquis de réflexion sur les concepts
+            mobilisés, workshop autour de Marguerite Duras entre les
+            différents diplômes de métiers d’art&#160;: illustration, typographie,
+            reliure, gravure, 2015. Coll. école Estienne, © Michèle
+            Garrec</head>
+          </figure>
+          <p xml:id="d1e115">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>Le
+          livre favorise la proximité par rapport à des images exposées en
+          grand format, on le manipule, il est accessible. Il semble convoqué
+          par les étudiants dans une volonté de partage et de communication
+          plus évidente. «&#160;La pratique de la gravure à l’école est influencée
+          par la coloration ‘école du livre’ d’Estienne, ce qui la distingue
+          de celles qui s’inscrivent davantage dans l’héritage des
+          Beaux-Arts&#160;», précise&#160;C. Par ailleurs, pour les concepteurs
+          d’images, il offre un cadre, organise une narration plus explicite,
+          qui permet de penser et de concevoir.</p>
+          <p xml:id="d1e117">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>Du point
+          de vue des étudiants du parcours objet-livre, futurs designers
+          éditoriaux, le choix du livre correspond à l’organisation d’un lieu
+          de convergences à orchestrer. «&#160;Le livre est un espace de rencontre,
+          d’expérience partagée, avec le souci qu’il se passe quelque chose
+          qu’on destine à quelqu’un&#160;», nous dit&#160;J. L’enseignement du livre
+          confirme cette réalité&#160;; son élaboration est une chaîne, le cadre de
+          nombreuses collaborations. Les étudiants expérimentent toutes les
+          étapes. Ils côtoient les approches spécifiques à chaque cœur de
+          métier. Ainsi, ils situent mieux le rôle lié à leur choix
+          professionnel dans cette chaîne. En ce sens, ce support est depuis
+          des années, régulièrement, «&#160;le germe de la collaboration&#160;» dans le
+          cadre d’ateliers croisés <hi>(voir ill. ci-dessus)</hi>.</p>
+        </div>
+        <div type="section1" xml:id="d1e122">
+          <head subtype="level1" xml:id="d1e123">Les métaphores du livre&#160;:
+          parler du livre</head>
+          <p xml:id="d1e125">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-vvzigwbe">cinéma</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-gz4vv9sc">théâtre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>Comment dire ce
+          que représente «&#160;faire un livre&#160;»&#160;? E., ancienne étudiante, nous
+          parle des «&#160;ingrédients&#160;» qu’elle a appris à choisir ici pour sa
+          future vie professionnelle&#160;: quand elle conçoit un livre, elle a
+          l’impression de faire de la cuisine. Dans l’atelier d’illustration,
+          c’est la métaphore de la mise en scène qui nous est proposée par&#160;S.
+          Les questions qui se posent sont proches de celles du théâtre et du
+          cinéma&#160;: les effets de montage, de rythme et de défilement
+          interrogent ce qui se passe d’une page à l’autre&#160;; les notions de
+          spectacle, d’animation, d’éclairage et de spatialité servent à
+          penser la mise en récit et les effets de sens.</p>
+          <p xml:id="d1e127">Le livre est également conçu comme objet clos, ce
+          qui rejoint la réflexion de <persName ref="027022293" type="idref" xml:base="https://www.idref.fr/">M.&#160;Melot</persName>&#160;: il a un début
+          et une fin. Ou encore c’est un lieu, il faut penser la manière avec
+          laquelle on y entre et dont on en sort (la page de titre, la
+          couverture notamment), la façon aussi dont on trouve les
+          informations, comme dans une gare. «&#160;C’est toujours un lieu dans
+          lequel il se passe quelque chose&#160;», relève&#160;J. Parfois, il est
+          désigné comme un objet magique, qui engage un rituel de la
+          conception et un rituel de la réception. Pour les éditeurs, faire un
+          livre, c’est être un «&#160;chef d’orchestre&#160;», au croisement de tous les
+          segments de l’édition, être capable d’organiser, être sensible aux
+          talents des autres, ce que souligne&#160;C.</p>
+          <figure xml:id="d1e129">
+            <graphic url="https://didomena.ehess.fr/downloads/2j62sd40g.jpg"/>
+            <head xml:id="d1e130">Figure 3. Exemples de productions obtenues.
+            Chacune par un groupe composé d’un typographe, d’un illustrateur,
+            d’un graveur et d’un relieur. Édition en un exemplaire, mêlant
+            impression typographique, gravure en taille-douce, illustration
+            imprimée en sérigraphie, techniques de pliage et de reliure.
+            Workshop autour de Marguerite Duras, 2015. Coll. école Estienne, ©
+            Michèle Garrec</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e136">
+          <head subtype="level1" xml:id="d1e137">Les composantes du livre&#160;:
+          produire du sens</head>
+          <p xml:id="d1e139">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>Intervenir
+          dans un espace d’enseignement, c’est questionner «&#160;ce qui a été&#160;»
+          pour penser «&#160;ce qui sera&#160;». La première étape consiste souvent à
+          apprendre à regarder. Derrière l’évidence du regard, il s’agit de
+          comprendre ce qui est signifiant. Cette étape fait de la
+          bibliothèque patrimoniale de l’école un lieu fondateur. S., à leur
+          contact, fait le constat que «&#160;les étudiants puisent dans les
+          ouvrages et en font autre chose, y mettent de la contemporanéité et
+          de leur créativité&#160;». Sa contribution aux observations menées dans
+          cet espace d’étude lui a permis de s’étonner elle-même que depuis sa
+          prise de fonction elle a «&#160;appris à lire&#160;». Dans son travail sur le
+          fonds de la <date type="_temp">Renaissance</date> notamment, pour
+          mieux en comprendre la nature, et pour accompagner enseignants et
+          étudiants, elle conclut que «&#160;c’est le manque qui nous instruit. Il
+          faut lire entre les livres, entre les lignes, ce que ça véhicule, un
+          ouvrage&#160;». C’est bien cette lecture particulière, spécifique qui est
+          féconde.</p>
+          <p xml:id="d1e141">Apprendre à faire un livre, c’est donc, avant
+          tout, se poser la question du sens. À l’atelier d’expérimentation
+          graphique, l’expérience de composer un texte enseigne à le lire de
+          manière fine, à le regarder autrement. La rencontre avec celui-ci
+          nécessite, plus encore qu’ailleurs dans ce rapport physique et
+          matériel, de se l’approprier&#160;: «&#160;Les étudiants s’en imprègnent pour
+          ensuite pouvoir lui donner du sens et du corps&#160;», relève&#160;P.</p>
+          <p xml:id="d1e143">L’atelier est aussi le lieu privilégié où parfois
+          l’auteur lui-même vient échanger avec les étudiants et nourrir leur
+          réflexion sur la réponse singulière que proposera le livre à venir.
+          Un même texte peut ainsi donner lieu à des interprétations variées,
+          révélant combien la conception d’un livre est, au départ, un acte et
+          une proposition de lecture. Nombreux sont les auteurs invités à
+          l’école qui, découvrant les livres d’artistes inspirés de leurs
+          écrits, ont reconnu qu’ils se demandaient souvent comment ils
+          étaient lus par leurs lecteurs&#160;: observer ces réalisations tangibles
+          leur donnait, de manière rare, des éléments de réponse.</p>
+          <p xml:id="d1e145">Cette réflexion sur la relation au texte trouve
+          un écho dans les autres ateliers. Mettre en pages un texte nécessite
+          d’entrer dans son intimité, en le respectant et sans le trahir&#160;:
+          «&#160;C’est du sens, on ne peut pas faire tout et n’importe quoi&#160;»,
+          confirme&#160;J. Faire un livre, c’est proposer une interprétation du
+          texte, qui engage son découpage et sa distribution d’une page à
+          l’autre, une réflexion sur le format, le dialogue des images avec
+          les mots, sans oublier que ces mots mêmes, dans leur mise en forme,
+          dans les choix typographiques, produisent une image&#160;: l’image du
+          texte. «&#160;Cette distribution entraîne une réflexion sur la
+          décomposition de la narration dans l’espace physique du livre,
+          oblige à penser la lecture dans le temps&#160;», souligne&#160;P. <hi>(voir
+          ill. ci-dessus)</hi>.</p>
+          <figure xml:id="d1e150">
+            <graphic url="https://didomena.ehess.fr/downloads/f1881v53t.jpg"/>
+            <head xml:id="d1e151">Figure 4. Extrait du texte <hi rend="italic">L’invisible parole</hi> de Pierre Chappuis.
+            Réalisation Camille Palamaras, diplôme de métiers d’art, reliure,
+            2017, 30&#160;exemplaires, impression sérigraphie et typographie,
+            découpe et pliage manuels. Coll. école Estienne, © Michèle
+            Garrec</head>
+          </figure>
+          <p xml:id="d1e160">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-h3wwz88g">texte</term>
+              </term>
+            </term>Faire un
+          livre, c’est donc non seulement servir le sens du texte, mais aussi
+          produire du sens. La forme du livre est elle-même un discours, par
+          toutes les dimensions de l’objet. Format, matières, papier,
+          caractère typographique, place du blanc, couleur, image, tout
+          véhicule un sens, quel que soit ce par quoi l’on commence son
+          travail. C’est précisément ce que les étudiants viennent apprendre à
+          observer, puis à partager par leurs productions. Donner à lire à son
+          tour relève de l’altérité, c’est une «&#160;démarche ouverte sur les
+          autres&#160;», souligne&#160;J.</p>
+          <p xml:id="d1e162">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>En
+          design typographique, M.&#160;rappelle des fondamentaux&#160;: «&#160;Un livre de
+          poche, ce n’est pas simplement un rectangle à plat, on n’est pas
+          seul&#160;». On fait un livre pour un lecteur, il faut se mettre à la
+          place du destinataire et se méfier des effets de style, des
+          maquettes spectaculaires mais illisibles&#160;: «&#160;Je dis aux étudiants&#160;:
+          pensez que vous faites un livre pour votre grand-mère. Vous rendez
+          service aux gens normaux&#160;». Car ce sont bien des questions de design
+          qui se posent et l’un des enjeux principaux est la lisibilité&#160;: il
+          s’agit de rendre perceptibles les différents niveaux de lecture, de
+          spatialiser les informations en tenant compte des typologies de
+          textes, des notes et légendes, de l’iconographie, à partir d’un
+          regard de typographe et de dessinateur de caractères.</p>
+          <p xml:id="d1e164">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-v6afogym">lettre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-h3wwz88g">texte</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+              </term>
+            </term>Des
+          questionnements similaires sont abordés en illustration, ce dont
+          témoigne&#160;S., mais ils portent davantage sur la narration. Comment
+          construire un récit où le lecteur a sa place&#160;? Ce qui produit du
+          sens, c’est ce qui se passe d’une double page à l’autre, mais aussi
+          dans un ensemble de détails, entre autres la relation complexe entre
+          le texte et l’image, les répétitions&#160;: une image qui persiste, qui
+          revient, un chapitre qui se répète. Comme avec la lettre et le
+          texte, plusieurs niveaux de lecture sont pensés, qui engagent le
+          lecteur dans la production du sens <hi>(voir ill. ci-dessous)</hi>.
+          Ici, on pousse les étudiants à être des auteurs&#160;; on observe
+          d’ailleurs souvent chez eux une convergence entre l’envie d’écriture
+          graphique et l’envie d’écriture littéraire.</p>
+          <figure xml:id="d1e169">
+            <graphic url="https://didomena.ehess.fr/downloads/08612x032.jpg"/>
+            <head xml:id="d1e170">Figure 5. Extrait du texte <hi rend="italic">L’invisible parole</hi> de Pierre Chappuis. Illustré
+            par Virginie Zimmer, diplôme de métiers d’art, gravure, 2017.
+            Composition et impression typographique plomb recto/verso,
+            impression sérigraphie six passages, découpe et façonnage manuels.
+            30&#160;exemplaires. Coll. école Estienne, © Michèle Garrec</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e179">
+          <head subtype="level1" xml:id="d1e180">Les formes du livre&#160;: plier
+          la feuille</head>
+          <p xml:id="d1e182">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+                </term>
+              </term>
+            </term>
+            <persName ref="027022293" type="idref" xml:base="https://www.idref.fr/">M.&#160;Melot</persName> le rappelle,
+          <persName ref="026870290" type="idref" xml:base="https://www.idref.fr/">Foucault</persName> avait déjà su
+          rendre compte de cette fausse certitude du livre&#160;: «&#160;dès qu’on
+          l’interroge, elle perd son évidence, elle ne s’indique elle-même,
+          elle ne se construit qu’à partir d’un champ complexe du
+          discours&#160;»<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Ibid.</p>
+            </note>. Il rejoint le philosophe dans le constat que le livre
+          emploie, pour exister, avant tout des moyens formels et matériels.
+          <persName ref="030253004" type="idref" xml:base="https://www.idref.fr/">Robert Estienne</persName>, dans
+          son dictionnaire de <date type="_temp" when="1539">1539</date>,
+          partie intégrante des trésors de la bibliothèque de l’école,
+          témoignait déjà de cette difficulté à définir le livre à laquelle se
+          confrontent les étudiants <hi>(voir ill. ci-dessous)</hi>. Leur
+          motivation première, en édition, mais également pour le Diplôme
+          national des métiers d’art et du design (DNMADE), est liée au
+          discours, au texte&#160;; cependant c’est à la matérialité qu’ils se
+          trouvent confrontés à Estienne. Au cours de leur cursus, l’ensemble
+          des étudiants éprouvent à la fois les contraintes et la magie liées
+          à la simple feuille imprimée recto/verso d’où naîtra le livre.</p>
+          <p xml:id="d1e190">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-enb4csg8">codex</term>
+                </term>
+              </term>
+            </term>Si
+          <persName ref="027022293" type="idref" xml:base="https://www.idref.fr/">Melot</persName>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Ibid.</p>
+            </note> établit le pli comme fondateur du codex, l’enseignement,
+          pour parvenir à cet aboutissement, implique l’exploration en sens
+          inverse, l’aller-retour toujours revisité de la feuille imprimée au
+          livre. C’est ce «&#160;pli raisonné&#160;», qu’il distingue du simple pli, qui
+          le permet. «&#160;Plier la feuille&#160;», cette problématique prend des
+          dimensions différentes selon les formations. Les fabricants
+          réfléchissent à l’emploi efficient des matières avec des
+          préoccupations économiques fortes. C.&#160;témoigne du fait que les
+          enjeux sociétaux s’invitent dans ces apprentissages, avec des
+          étudiants qui réfléchissent à une production écologiquement
+          soutenable à tous les moments de la fabrication du livre.</p>
+          <p xml:id="d1e195">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-wc3xyyrs">atelier</term>
+              </term>
+            </term>Pour ceux
+          qui travaillent sur les produits imprimésure, «&#160;plier la feuille&#160;»,
+          c’est se confronter à des questions plus techniques de repérage, de
+          qualité, de réglages et de transposition de projets le plus souvent
+          pensés en dehors des contraintes techniques, pour pouvoir les
+          adapter à ce que les normes des machines permettent. Le recours à
+          l’ingéniosité est souvent nécessaire. À l’atelier d’expérimentation
+          graphique de l’école, «&#160;plier la feuille&#160;» implique des contraintes
+          temporelles et matérielles, pousse à toujours plus d’inventivité
+          pour renouveler les formes et les propositions à partir d’une seule
+          feuille d’impression. Cette exploration prend des tournures
+          particulièrement créatives et complexes techniquement.</p>
+          <figure xml:id="d1e197">
+            <graphic url="https://didomena.ehess.fr/downloads/jm214x58t.jpg"/>
+            <head xml:id="d1e198">Figure 6. Définition du mot «&#160;livre&#160;».
+            Extrait du Dictionaire François latin, autrement dict Les mots
+            François, avec les manieres duser diceulx, tournez en Latin.
+            Corrigé &amp; augmenté, Paris, Robert Estienne, 1549. Coll. école
+            Estienne, © Michèle Garrec</head>
+          </figure>
+          <p xml:id="d1e204">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>Cette
+          feuille fondatrice permet de rendre compte de la réalité
+          particulièrement tangible d’une école souvent désignée comme l’école
+          du livre, et qui pourrait plus justement être nommée l’école DES
+          livres. Du livre unique à la petite série, du livre d’artiste au
+          livre pensé pour la production en plus grand nombre, produits au
+          sein de l’école avec des techniques traditionnelles, parfois
+          croisées avec des techniques industrielles (reliure en dos carré
+          collé, découpe laser…), tous existent et font l’objet de
+          questionnements. Cette possibilité de «&#160;pouvoir naviguer dans ce
+          vaste monde du livre en passant par différentes portes&#160;», comme le
+          mentionne&#160;J., inscrit l’enseignement d’aujourd’hui dans la vocation
+          fondatrice de l’établissement.</p>
+          <p xml:id="d1e206">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>Enfin, tout
+          particulièrement dans les formations de design, d’arts appliqués et
+          de métiers d’art, se pose régulièrement la question de
+          l’objet-livre, au-delà de la feuille pliée, et parfois même en son
+          absence&#160;: à partir de quoi, de quand la production peut-elle être
+          considérée comme un livre&#160;? et jusqu’où&#160;? C’est ainsi sans doute,
+          aujourd’hui plus encore qu’à son origine, que ce lieu tend à
+          dépasser les questionnements techniques pour les mettre au service
+          de l’innovation et de l’inventivité. La troisième dimension, en jeu
+          dans l’acte du pli, constitue alors parfois le moteur de la création
+          <hi>(voir ill. ci-dessous)</hi>. Cette vitalité des formes du livre
+          permet à&#160;G. de nous confier une opinion partagée par plusieurs de
+          nos interlocuteurs&#160;: «&#160;Choisir les métiers du livre, c’est
+          l’intuition que l’on ne s’ennuiera jamais&#160;». Cela lui permet
+          aujourd’hui, dans sa vie professionnelle, de penser et de produire
+          des livres sans avoir nécessairement une motivation de rentabilité
+          économique, mais en les considérant davantage comme une raison
+          d’exister.</p>
+          <p xml:id="d1e211">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-c5oskknl">sémantique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-wc3xyyrs">atelier</term>
+              </term>
+            </term>Une
+          dernière approche de la forme du livre, singulière, apparaît dans
+          l’atelier de reliure. Si les questions posées se retrouvent dans
+          d’autres parcours, elles revêtent ici une dimension particulière,
+          sensible pour ainsi dire. La conception du livre s’inscrit (et cela
+          est mentionné par plusieurs interlocuteurs) dans une préoccupation
+          d’altérité, car il s’agit cette fois de «&#160;penser l’action du
+          lecteur&#160;», non seulement dans une dimension discursive et
+          sémantique, mais également avec celle, bienveillante, de préserver
+          le livre. C’est là un des trois piliers de la discipline, rappelés
+          par&#160;L. et&#160;A.&#160;: «&#160;assembler, lier, protéger&#160;». Le livre est pensé
+          comme un objet qu’on habille et qu’on protège.</p>
+          <p xml:id="d1e213">Lier, assembler, ces termes rejoignent, sous une
+          forme tridimensionnelle, les problématiques du designer éditorial,
+          qui doit proposer une lecture des éléments divers et parfois épars
+          que représentent des images de différente nature et des textes eux
+          aussi hétérogènes&#160;: «&#160;Le livre est un recueil&#160;», suggère&#160;F. Le
+          relieur, qui arrive le plus souvent en fin de production, se
+          préoccupe avec le contenant, la couture, la matière, de prolonger
+          avec ses outils et son langage cette lecture et appropriation de
+          l’objet-livre.</p>
+          <figure xml:id="d1e215">
+            <graphic url="https://didomena.ehess.fr/downloads/9w032b83p.jpg"/>
+            <head xml:id="d1e216">Figure 7. Joseph Roth, extrait de <hi rend="italic">L’homme en carton. </hi>Texte publié dans le
+            Vorwärts du 10&#160;février&#160;1924, réalisation Marius Martinot, diplôme
+            de métiers d’art, gravure, 2018. Impression typographique
+            recto/verso, composition justifiée au plomb, impression
+            sérigraphie quatre passages, découpe numérique et pliage manuel.
+            30&#160;exemplaires. Coll. école Estienne, Droits réservés</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e224">
+          <head subtype="level1" xml:id="d1e225">Le temps de l’apprentissage&#160;:
+          enseigner le livre</head>
+          <p xml:id="d1e227">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+              </term>
+            </term>«&#160;Il
+          faut beaucoup de travail pour faire un livre&#160;», souligne&#160;F. Qu’il
+          s’agisse du livre d’artiste ou de l’ouvrage tiré à des milliers
+          d’exemplaires, «&#160;le nerf de la guerre, c’est le temps. Il faut faire
+          une chose à fond pour bien la comprendre&#160;», selon&#160;G. Le rapport au
+          temps est essentiel car il permet l’apprentissage par la répétition
+          des gestes et la gestion des étapes qui entrent dans la réalisation
+          d’un projet&#160;: la mise en œuvre de techniques exigeantes (composition
+          typographique, linogravure, impression en taille-douce,
+          lithographie, sérigraphie, impression, reliure), mais aussi la
+          réflexion sur l’objet-livre, sur tous les choix successifs qu’il
+          inclut.</p>
+          <p xml:id="d1e229">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-j6k6mbcm">étudiant</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>En
+          BTS&#160;Édition, c’est également tout le parcours de conception qui
+          permet d’acquérir une connaissance fine de l’ensemble de la chaîne
+          du livre. Le projet professionnel, qui croise les processus
+          éditoriaux et de fabrication, embrasse l’intégralité des étapes, de
+          l’idée initiale au faux dépôt légal à la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName>. C’est tout un
+          processus qui s’engage&#160;: le choix des auteurs, des illustrateurs, le
+          positionnement éditorial, la maquette, les devis (papier,
+          impression…), les bons de commande. Les étudiants apprennent ainsi
+          qu’il faut six à neuf mois de travail, et de nombreuses étapes, pour
+          faire un livre.</p>
+          <p xml:id="d1e231">Dans un cadre où s’éprouve ainsi la contrainte,
+          la nécessité d’être confronté à un certain académisme a été assumée
+          par plusieurs interlocuteurs, en particulier parmi ceux qui sont
+          davantage liés à la transmission de la typographie et de la mise en
+          pages&#160;: ces enseignements apparaissent comme structurants et
+          fondateurs, pierres angulaires des dépassements créatifs à venir.
+          Par ailleurs, ces savoirs qui peuvent passer pour académiques
+          garantissent un questionnement approfondi et exigeant sur la
+          lecture, le rapport au lecteur, mais également l’art de savoir lire
+          et regarder chez l’étudiant. M.&#160;souligne à ce propos que les jeunes
+          n’ont pas besoin de maîtres ou de pédagogues pour transgresser les
+          règles et produire du style. Cette dimension leur appartient
+          pleinement. Elle trouve ses fondements précisément dans la
+          transmission des normes et règles, qu’ils peuvent ensuite exploiter
+          ou dépasser une fois acquises. «&#160;Pour détourner les règles, il faut
+          les connaître&#160;», résume&#160;J.</p>
+          <figure xml:id="d1e233">
+            <graphic url="https://didomena.ehess.fr/downloads/pk02ck287.jpg"/>
+            <head xml:id="d1e234">Figure 8. Plaques gravées ayant contribué à
+            la réalisation de l’un des livres, 2015. Coll. école Estienne, ©
+            Michèle Garrec</head>
+          </figure>
+          <p xml:id="d1e238">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>Un autre point
+          de vue partagé par l’ensemble des acteurs, enseignants comme
+          étudiants, tient dans le caractère fécond de la cohabitation dans un
+          même espace de parcours si différents, spécialisés et
+          complémentaires. «&#160;L’école Estienne est un creuset de compétences&#160;»,
+          selon&#160;F. Ainsi ont lieu régulièrement des partenariats et ateliers
+          croisés, qui sont l’occasion d’échanges autour de projets. Cette
+          potentialité est un véritable trait caractéristique de l’école, et
+          elle se confirme dans le temps. C’est également la richesse de
+          l’enseignement dispensé qui permet à une ancienne étudiante de
+          témoigner que, pour elle, «&#160;tout vient d’ici&#160;».</p>
+          <p xml:id="d1e240">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-epe2ahku">informatique<term ref="doi:10.34817/sv-jzf7lact">imagerie
+          numérique</term>
+                  </term>
+                </term>
+              </term>
+            </term>Au cours de nos
+          rencontres, peu de nos interlocuteurs ont abordé le livre numérique.
+          Pour autant, il n’est pas absent des questionnements des étudiants,
+          ni des enseignements. De nombreux projets et expériences ont été
+          menés et continuent de l’être autour de livres enrichis, augmentés,
+          d’outils numériques qui complètent le livre. Les expériences les
+          plus proches de situations «&#160;réelles&#160;» de l’édition ont convaincu
+          les partenaires, mais ces derniers ont souvent reconnu que ce marché
+          connaissait toujours des difficultés à rencontrer son public. Un
+          autre constat&#160;: dans la dimension expérimentale du livre numérique,
+          les propositions mises en route au sein de l’école révèlent des
+          réflexions qui rejoignent celles du livre d’artiste, avec les
+          singularités et potentialités liées à ce nouveau support. Dans une
+          approche plus standardisée du livre numérique, celui que voit le
+          grand public, les enseignements du livre papier restent
+          transposables et fondamentaux. Un ancien étudiant, devenu
+          professionnel mais également enseignant au sein de l’établissement,
+          mentionne ainsi que «&#160;savoir et pouvoir maîtriser tous les aspects
+          du livre correspond à ce [qu’il a] pu apprendre à Estienne&#160;».</p>
+          <p xml:id="d1e242">Au moment de clore cette approche polyphonique,
+          nous avons demandé à la proviseure de l’école Estienne, <persName type="_temp">Annie-Claude Ruescas</persName>, de nous livrer le
+          regard qu’elle porte sur la génération d’étudiants scolarisés
+          actuellement, et de nous parler en quelques mots des chemins sur
+          lesquels elle les accompagne.</p>
+          <p xml:id="d1e244">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-s5935rsr">design</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>«&#160;Notre école a su
+          évoluer au travers du temps&#160;: d’une école ‘de métiers’ qu’elle était
+          à l’origine, je la qualifierais aujourd’hui ‘d’école de tous les
+          métiers du monde du livre et des industries graphiques’«&#160;. S’y
+          côtoient le numérique et l’imprimé, l’illustration et l’image en
+          mouvement, les métiers d’art du livre, la reliure, la dorure et la
+          gravure, la fabrication de livres ordinaires comme de beaux livres,
+          la réalisation de livres d’artistes. Les formations actuelles se
+          présentent comme des parcours&#160;; les étudiants y reçoivent un
+          enseignement soclé sur les fondamentaux historiques de nos domaines
+          de formation, et ouvert à toutes les innovations contemporaines.
+          Nous formons leurs esprits en nous attachant à développer leur
+          curiosité, leur générosité, leur autonomie et leur adaptabilité,
+          leur permettant de faire perdurer demain le livre sous toutes ses
+          formes.</p>
+          <p xml:id="d1e246">La qualité des projets conduits par cette jeune
+          génération me laisse penser que nous pouvons lui faire confiance, et
+          que l’avenir du livre est entre de bonnes mains&#160;».</p>
+        </div>
+        <div type="section1" xml:id="d1e248">
+          <head subtype="level1" xml:id="d1e249">Épilogue&#160;: fermer le
+          livre</head>
+          <p xml:id="d1e251">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support</term>
+            </term>Dans un monde
+          ouvert, mouvant, la clôture du livre offre un cadre rassurant,
+          structurant, qui renouvelle le succès du <hi rend="italic">codex</hi> face au <hi rend="italic">volumen</hi> que
+          déroule aujourd’hui le numérique. Plusieurs des personnes que nous
+          avons interrogées ont témoigné de cette nécessité d’apprivoiser les
+          éléments fondamentaux de leur métier avant de pouvoir se les
+          approprier véritablement, quel que soit le support, et de porter
+          plus loin, en dehors des murs de l’école, cette aventure du
+          livre.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

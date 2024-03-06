@@ -1,0 +1,815 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-2540_Zangara">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Voir l’histoire. Théories anciennes du récit
+        historique. Présentation</title>
+        <author role="aut">
+          <forename>Adriana</forename>
+          <surname>Zangara</surname>
+          <idno type="IDREF">083317449</idno>
+          <affiliation>Docteur de l’<hi rendition="#style04">ehess</hi>
+          (Paris)</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/QTE9SEBD" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Voir l’histoire. Théories anciennes du récit
+            historique. Présentation</title>
+            <idno type="DOI">10.4000/anabases.2540</idno>
+            <author>
+              <forename>Adriana</forename>
+              <surname>Zangara</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Anabases. Traditions et réceptions de
+            l’Antiquité</title>
+            <idno type="ISSN">1774-4296</idno>
+            <imprint>
+              <biblScope unit="issue">7</biblScope>
+              <biblScope unit="page">249-256</biblScope>
+              <date>2008</date>
+              <note type="accessed">2022-07-06T07:39:12Z</note>
+              <note type="url">https://journals.openedition.org/anabases/2540</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="grc"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item/>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="255293" type="geonames" xml:base="https://www.geonames.org/">Pylos</placeName>
+          </term>
+          <term>
+            <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>
+          </term>
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp">époque hellénistique et romaine</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Voir l’histoire. Théories anciennes du récit
+          historique. Présentation</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Adriana Zangara</docAuthor>
+        </byline>
+      </titlePage>
+      <note type="author" xml:id="ftn">
+        <p>Paris, Vrin/<hi rend="small-caps">ehess</hi>, collection Contexte,
+        2007, 327&#160;p. L’auteur présente ici le livre issu de sa thèse doctorat,
+        préparée sous la direction de Fr.&#160;Hartog et soutenue, à l’<hi rend="small-caps">ehess</hi>, en novembre&#160;2001.</p>
+      </note>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e180">
+          <head subtype="level1" xml:id="d1e181">Au-delà de l’œil originaire&#160;:
+          l’image et le récit</head>
+          <p xml:id="d1e183">Reliée par la voie étymologique à l’histoire, la
+          vision occupe traditionnellement une place de choix dans le cadre de
+          la pensée de l’origine. De l’origine aussi bien au sens du fondement
+          de la connaissance historique que du commencement de l’histoire de
+          l’histoire&#160;: la dérivation du mot grec <hi rend="italic">
+              <foreign xml:lang="grc">historia</foreign>
+            </hi> de <hi rend="italic">
+              <foreign xml:lang="grc">idein</foreign>
+            </hi> (voir) est censée authentifier la valeur de l’autopsie en
+          tant que principe de véridicité du récit et autoriser en même temps
+          l’identification du témoin oculaire à la plus ancienne figure de
+          l’historien<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Isidore de Séville,<hi rend="italic"> Etymologiarum sive
+              Originum,</hi> I, 41&#160;: “<hi rend="italic">Dicta Graece historia
+              apo toû historeîn, id est videre vel cognoscere. Apud veteres
+              nemo conscribebat historiam nisi is qui interfuisset et ea quae
+              conscribenda essent vidisset. Melius oculis quae fiunt
+              deprehendimus, quam auditione colligimus. Quae enim videtur,
+              sine mendacio proferuntur.” </hi>
+              </p>
+            </note>. Entretenue pendant longtemps par la tradition
+          historiographique, cette double valeur d’origine attribuée à la
+          vision deviendra par la suite, avec la transformation de l’histoire
+          en discipline scientifique, un élément constitutif de l’image
+          moderne de l’histoire des Anciens. Interrogée à l’aune des exigences
+          de méthode formulées par la critique historique, celle-ci sera alors
+          rangée dans le cadre de ce que <persName ref="026917467" type="idref" xml:base="https://www.idref.fr/">Hegel</persName>
+          appelait l’histoire «&#160;originale&#160;» et ne cessera pas, par là-même, de
+          nous apparaître comme une histoire «&#160;originaire&#160;», autrement dit&#160;:
+          comme la première expression d’un savoir encore inentamé par
+          l’expérience moderne de la coupure et de la médiation<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Cf.&#160;<hi rend="small-caps">F.&#160;Hegel</hi>,<hi rend="italic">
+              Leçons sur la philosophie de l’histoire</hi>, Paris, Vrin, 1987,
+              p.&#160;17-18.</p>
+            </note>.</p>
+          <p xml:id="d1e212">En choisissant d’étudier non pas la vision au
+          sens premier mais le <hi rend="italic">comme si </hi>de la vision,
+          cet ouvrage propose d’emblée un renversement de la perspective à
+          laquelle la tradition de l’œil originaire nous a accoutumés. Car,
+          tout d’abord, cette «&#160;vision&#160;» n’est pas origine, mais effet de
+          l’histoire&#160;: c’est une fiction de vision produite par le langage qui
+          inverse, <hi rend="italic">de facto</hi>, l’ordre originaire des
+          termes du rapport entre voir et histoire. De sorte que le regard que
+          nous portons sur les commencements de l’histoire change aussi de
+          visée et, quittant la dimension méthodologique de l’établissement
+          des faits, se tourne plutôt vers l’opération de représentation de
+          ceux-ci. Cette problématique, d’ailleurs, loin de nous renvoyer aux
+          temps les plus reculés de l’historiographie grecque, ne surgit que
+          tardivement, au courant de l’<date type="_temp">époque hellénistique
+          et romaine</date>, à un moment crucial où les Anciens cessent
+          progressivement de désigner par le mot <hi rend="italic">
+              <foreign xml:lang="grc">historia</foreign>
+            </hi>l’enquête, au sens hérodotéen, et commencent à l’employer
+          pour signifier le récit de ce qui est advenu. C’est à ce moment que
+          la question du voir se déplace du témoin vers le lecteur, de
+          l’autopsie du présent vers la représentation du passé et que la
+          nécessité de «&#160;faire voir&#160;» s’impose comme une tache majeure de
+          l’histoire, dont l’historien ne s’acquitte que lorsque le
+          lecteur-auditeur «&#160;croit voir ce qui a été dit<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Lucien, <hi rend="italic">Comment il faut écrire
+              l’histoire</hi>, 51.</p>
+            </note>&#160;». L’attribution explicite d’une fonction «&#160;ostensive&#160;» au
+          récit historique marque un tournant majeur dans la longue histoire
+          de l’<hi rend="italic">
+              <foreign xml:lang="grc">historia</foreign>
+            </hi>&#160;: censé transformer «&#160;l’auditeur en spectateur<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>C’est l’expression employée par Plutarque au sujet de
+              Thucydide, dans <hi rend="italic">La Gloire des Athéniens</hi>,
+              347&#160;A.</p>
+            </note>&#160;», et «&#160;faire de l’écoute la vue<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>La formule est utilisée par Longin à propos d’Hérodote, <hi rend="italic">Traité du Sublime</hi>, XXVI, 2.</p>
+            </note>&#160;», ce récit ne peut assurer la convertibilité du dire en
+          «&#8200;voir&#8200;» qu’au prix du renversement de l’ancienne opposition sur
+          laquelle le privilège de la vue, au sens de l’autopsie, était fondé.
+          Dénué de tout rapport immédiat et spontané avec la vérité, le <hi rend="italic">comme si voir </hi>va entraîner l’histoire dans
+          l’univers polymorphe et ambigu de l’image et de l’imaginaire d’où,
+          finalement, elle n’est plus jamais sortie. Car, chaque fois que
+          l’histoire s’est pensée comme récit, le problème de la
+          représentation s’est posé au premier plan, comme en témoigne la
+          réflexion menée dans les trente dernières années sur le récit
+          historique «&#160;entre science et fiction&#160;», ou encore la toute dernière
+          réflexion de <persName ref="027099717" type="idref" xml:base="https://www.idref.fr/">Paul Ricœur</persName> autour de
+          l’aporie de l’image historique<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <hi rend="small-caps">P.&#160;Ricoeur</hi>
+                <hi rend="italic">, La
+              mémoire, l’histoire, l’oubli,</hi> Paris, Le Seuil, 2000.</p>
+            </note>. Interroger ce lien étroit noué par les Anciens entre le
+          récit historique et l’image, c’est sortir leur historiographie du
+          paradis originaire où la science historique moderne a fini par
+          l’enfermer, et l’envisager comme le lieu du surgissement d’une
+          problématique de très longue durée.</p>
+          <p xml:id="d1e264">Les conditions de ce surgissement, pourtant, nous
+          détournent d’emblée de la tentation de nous installer hâtivement
+          dans une trop grande familiarité avec les soi-disant «&#160;pères de
+          l’histoire&#160;». Car force est de constater que ce qui a rendu
+          possible, de nos jours, le questionnement épistémologique et
+          rhétorique sur le récit historique et la fonction poïétique de la
+          représentation du passé, a été précisément le renversement du
+          présupposé qui, à l’<date>époque hellénistique et romaine</date>,
+          avait permis à l’histoire de devenir récit et de se concevoir comme
+          la représentation de ce qui s’est passé. À savoir, l’idée que les
+          <hi rend="italic">
+              <foreign xml:lang="lat">res gestae</foreign>,
+          </hi>contrairement aux <foreign xml:lang="lat">
+              <hi rend="italic">res fictae</hi>
+            </foreign> du poète et à la <hi rend="italic">
+              <foreign xml:lang="lat">res dubia</foreign>
+            </hi> de l’orateur, sont déjà «&#160;faites&#160;» et l’historien n’a qu’à
+          les «&#160;montrer&#160;»&#160;; elles sont séparables de l’<hi rend="italic">
+              <foreign xml:lang="lat">historia rerum gestarum</foreign>
+            </hi> comme le fond l’est de la forme et la cause de son effet&#160;;
+          elles lui sont aussi antérieures et extérieures que la chose
+          reflétée l’est au miroir qui la reflète<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Pour cette image du miroir voir notamment Lucien, <hi rend="italic">Comment il faut écrire l’histoire, </hi>50 et
+              Plutarque, <hi rend="italic">La Gloire des Athéniens,</hi>
+              354&#160;E.</p>
+            </note>. Faudrait-il en conclure que cette conception de
+          l’histoire, devenue l’emblème du réalisme naïf, ne laisse
+          transparaître le surgissement du problème de la représentation que
+          dans le travail qu’elle accomplit pour l’occulter, à grand renfort
+          de distinctions jusqu’à nous jours&#160;? Mais on manquerait ainsi toute
+          l’ambiguïté que recèle, en fait, cette conception de l’histoire&#160;:
+          regarder l’ancien miroir de l’histoire pour y chercher autre chose
+          que l’image inversée des présupposés de la réflexion actuelle, c’est
+          découvrir la multiplicité des manières dont l’<hi rend="italic">
+              <foreign xml:lang="grc">historia</foreign>
+            </hi> a pu être «&#160;vue&#160;» et «&#160;montrée&#160;» par tous ceux qui, dans
+          l’<date>Antiquité</date> –&#160;historiens, rhétoriciens, philosophes ou
+          scientifiques&#160;– ont réfléchi sur son statut et sa fonction. En nous
+          invitant à traverser la surface apparemment lisse de ce miroir, cet
+          ouvrage nous propose d’envisager cette multiplicité d’images comme
+          autant de reflets de différentes «&#160;théories&#160;» du récit historique&#160;:
+          de différentes façons de construire un point de vue, un dispositif
+          permettant de «&#160;voir&#160;» et de «&#160;faire voir&#160;» l’histoire dans une
+          perspective plutôt que dans une autre.</p>
+        </div>
+        <div type="section1" xml:id="d1e296">
+          <head subtype="level1" xml:id="d1e297">Deux manières de «&#160;voir&#160;» le
+          récit de l’histoire&#160;: <hi rend="italic">empeiria</hi> et <hi rend="italic">epideixis</hi>
+          </head>
+          <p xml:id="d1e304">Saisir cette ambiguïté c’est avant tout
+          comprendre le sens de la problématique qu’engendre le partage <hi rend="italic">
+              <foreign xml:lang="lat">res gestae</foreign>/<foreign xml:lang="grc">historia</foreign>
+            </hi> dans un contexte où l’absence
+          de considération du sens que le récit donne aux faits qu’il raconte
+          fut d’abord la conséquence de deux manières assurément antinomiques
+          de concevoir la «&#160;vérité&#160;» de la matière historique et le statut du
+          récit lui-même. Car, si l’histoire ne devient récit qu’à partir du
+          moment où, autour du <date from="-0300" to="-0399" type="_temp">
+              <hi rend="small-caps">iv</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>,
+          s’opère le partage entre <hi rend="italic">
+              <foreign xml:lang="grc">historia</foreign>
+            </hi> et <foreign xml:lang="lat">
+              <hi rend="italic">res gestae</hi>
+            </foreign>, ce récit place d’emblée l’histoire face à une
+          alternative qui est aussi, pour les historiens, une double impasse.
+          Marquée, d’un coté, par la célèbre définition aristotélicienne de la
+          narration historique comme simple<hi rend="italic"/>
+            <foreign xml:lang="grc">
+              <hi rend="italic">legein ta genomena</hi>
+            </foreign>, et, de l’autre, par la conception isocratéenne et par
+          la suite latine de l’histoire comme <hi rend="italic">
+              <foreign xml:lang="lat">opus oratorium</foreign>,</hi> cette alternative
+          explicite toute l’ambivalence du rapport que l’écriture de
+          l’histoire entretient avec son dehors. Car, si les faits sont déjà
+          «&#160;faits&#160;» alors, ou bien le récit qui les montre n’est qu’une simple
+          duplication du réel qui ne vaut que pour<hi rend="italic"> ce
+          qu</hi>’il rapporte, ou bien il ne vaut que pour la<hi rend="italic"> manière</hi> dont l’historien raconte, pour son
+          talent et sa maîtrise de l’art de l’exposition. Dans le premier cas
+          l’histoire, prisonnière, contrairement à la poésie, de la vérité
+          empirique de ce qui a eu lieu, partage les limites épistémologiques
+          de son objet&#160;: incapable de dominer par des liens conceptuels la
+          dispersion infinie de ses objets, et donc de passer du particulier à
+          l’universel, elle se range, dans la perspective de l’opposition
+          épistémologique entre <hi rend="italic">peira </hi>et <hi rend="italic">logos,</hi> du côté du constat empirique. D’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> à <persName ref="026670984" type="idref" xml:base="https://www.idref.fr/">Sénèque</persName>, en passant par
+          <persName ref="027922049" type="idref" xml:base="https://www.idref.fr/">Sextus Empiricus</persName> et
+          <persName ref="02776897X" type="idref" xml:base="https://www.idref.fr/">Galien</persName>, l’histoire-récit
+          des historiens sera destinée ainsi à partager, aux yeux des
+          philosophes, toutes écoles confondues, le même statut que
+          l’histoire-information des grammairiens et des médecins empiristes.
+          Envisagée, en revanche, dans la perspective de l’opposition
+          rhétorique entre <hi rend="italic">
+              <foreign xml:lang="grc">agon</foreign>
+            </hi>et <hi rend="italic">
+              <foreign xml:lang="grc">epideixis</foreign>
+            </hi>, l’histoire, libre de toute exigence probatoire face à un
+          vrai censément avéré et incontestable, sans rapport avec les enjeux
+          du présent mais visant la postérité et la gloire, finit par se
+          ranger exactement là où <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> avait exclu
+          qu’elle se trouve, c’est-à-dire à côté de la poésie, mais d’une
+          poésie rhétoriquement entendue comme <hi rend="italic">
+              <foreign xml:lang="grc">epideixis</foreign>
+            </hi>. C’est pourquoi, d’<persName ref="027995135" type="idref" xml:base="https://www.idref.fr/">Isocrate</persName> à <persName ref="026668580" type="idref" xml:base="https://www.idref.fr/">Quintilien</persName>, les
+          rhétoriciens qui s’intéressent à l’histoire s’en tiennent aux
+          questions formelles&#160;: ils respectent les exigences d’un genre qui
+          est fait pour l’<hi rend="italic">
+              <foreign xml:lang="lat">ostentatio</foreign>, </hi>non pour la <hi rend="italic">
+              <foreign xml:lang="lat">demonstratio</foreign>
+            </hi>.</p>
+          <p xml:id="d1e355">Constat empirique, performance littéraire&#160;: dans
+          les deux cas, ce qui est nié c’est précisément la fonction
+          enseignante que revendiquent les historiens&#160;: l’ambition de
+          l’histoire d’expliciter le sens du réel et d’agir sur celui-ci, au
+          moyen de ses «&#160;leçons&#160;». Le dispositif de séparation entre <foreign xml:lang="lat">
+              <hi rend="italic">res gestae</hi>
+            </foreign> et <hi rend="italic">
+              <foreign xml:lang="grc">historia</foreign>
+            </hi>, ne serait-ce que pour les issues aporétiques qu’il
+          engendre, apparaît alors moins comme la réponse à une question que
+          les Anciens auraient cru trancher ou occulter de cette manière que
+          comme la source du questionnement d’où découle finalement la
+          réflexion historienne sur la représentation. Saisir le
+          fonctionnement de manières de «&#160;faire voir&#160;» aussi complexes que la
+          <hi rend="italic">
+              <foreign xml:lang="grc">sunopsis</foreign>
+            </hi>dans la science de l’histoire universelle polybienne ou de
+          l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi>dans la rhétorique de l’<foreign xml:lang="lat">
+              <hi rend="italic">historia magistra vitae</hi>
+            </foreign>, c’est comprendre la question à laquelle elles
+          s’efforcent de répondre&#160;: comment échapper à la fois à la référence
+          insignifiante d’un récit-copie et à l’auto-référence d’un récit où
+          l’acte de raconter finit par se scinder du réel lui-même&#160;? Une
+          question qui, mise en résonance avec les interrogations actuelles,
+          fait apparaître les structures profondes, les termes mêmes des
+          antinomies d’où prennent forme, encore aujourd’hui, nos débats sur
+          le récit&#160;: est-il un constat ou une performance&#160;? montre-t-il ou
+          démontre-t-il&#160;? rapporte-t-il ou explique-t-il&#160;? La réflexion sur la
+          narration et la représentation historiques n’a donc cessé de se
+          mouvoir entre ces deux pôles extrêmes et antinomiques qui
+          correspondent d’ailleurs exactement aux deux aspects par lesquels
+          les Anciens définissaient le statut de l’image mentale&#160;: la réplique
+          de l’absent, propre à l’image en tant que copie (l’<hi rend="italic">
+              <foreign xml:lang="grc">eikon</foreign>
+            </hi>), et l’exhibition d’une présence qui caractérise, en
+          revanche, l’image en tant que visibilité offerte aux yeux (le <hi rend="italic">
+              <foreign xml:lang="grc">phantasma</foreign>
+            </hi>)<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Pour une analyse de cette double dimension de l’image chez
+              Platon et Aristote, voir <hi rend="small-caps">Ricoeur</hi>,<hi rend="italic"> La mémoire, </hi>p.&#160;7-24.</p>
+            </note>. Effet de très longue durée de la distinction <hi rend="italic">
+              <foreign xml:lang="lat">res gestae</foreign>/<foreign xml:lang="grc">historia</foreign>
+            </hi>, l’équation ancienne entre
+          raconter et représenter a fini par survivre à l’effacement de la
+          distinction elle-même&#160;: en liant étroitement le destin de l<hi rend="italic">’<foreign xml:lang="grc">historia</foreign>
+            </hi> à
+          celui de l’image, les Anciens ont durablement inscrit dans
+          l’interprétation de la nature et de la fonction du récit historique
+          les apories qui découlent de ce que nous appelons aujourd’hui la
+          structure bipolaire de l’idée de représentation, à savoir, sa double
+          dimension transparente et opaque, transitive et intransitive<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Voir&#160;<hi rend="small-caps">L.&#160;Marin</hi>, <hi rend="italic">De la représentation,</hi> Paris, Gallimard-Le
+              Seuil, 1994, p.&#160;369&#160;sq.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e407">
+          <head subtype="level1" xml:id="d1e408">Deux manières de «&#160;faire
+          voir&#160;» l’histoire&#160;: <hi rend="italic">sunopsis</hi> et <hi rend="italic">enargeia</hi>
+          </head>
+          <p xml:id="d1e415">Les deux manières de «&#160;faire voir&#160;» analysées
+          dans cet ouvrage –&#160;qui correspondent aux deux grandes catégories de
+          la vision historienne&#160;: la «&#160;vision de loin&#160;» et «&#160;la vision de
+          près&#160;»&#160;– s’inscrivent pleinement dans cette problématique et
+          explicitent la dialectique complexe de l’image, entre le renvoi à
+          l’absence et la visibilité de la présence. Conceptualisées au moyen
+          des notions de <hi rend="italic">
+              <foreign xml:lang="grc">sunopsis</foreign>
+            </hi> et d’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi>, ces modalités de la représentation historique sont à la
+          fois deux manières de «&#160;faire voir&#160;» les <foreign xml:lang="lat">
+              <hi rend="italic">res gestae</hi>
+            </foreign>, et deux manières par lesquelles l’<hi rend="italic">
+              <foreign xml:lang="lat">historia rerum gestarum</foreign>
+            </hi> se montre elle-même aux lecteurs en exhibant sa capacité de
+          «&#160;faire voir&#160;».</p>
+          <p xml:id="d1e429">Identifiée, par <persName ref="026997460" type="idref" xml:base="https://www.idref.fr/">Lucien</persName>, au
+          point de vue zénithal et détaché du <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName>
+          homérique capable de «&#160;voir des deux cotés<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Lucien, <hi rend="italic">Comment il faut écrire
+              l’histoire</hi>, 49.</p>
+            </note>&#160;», la <hi rend="italic">
+              <foreign xml:lang="grc">sunopsis</foreign>
+            </hi>, en tant que modalité transparente et transitive de
+          représentation des faits, exprime, à partir de <persName ref="02716280X" type="idref" xml:base="https://www.idref.fr/">Thucydide</persName>, l’exigence
+          d’impartialité d’un récit qui, en dépassant tout ce qu’il y a de
+          partiel dans chaque point de vue, sait offrir à ses lecteurs
+          l’indispensable ressaisissement unificateur des diverses expériences
+          dans lesquelles se disperse un événement. Mais comment rendre la
+          synchronie des événements dans la diachronie inévitable du récit&#160;?
+          L’idéal d’une représentation synoptique qui serait une <hi rend="italic">
+              <foreign xml:lang="grc">mimésis</foreign>
+            </hi> du <foreign xml:lang="lat">
+              <hi rend="italic">tota simul</hi>
+            </foreign> finit par buter sur les limites de l’écriture narrative
+          ou, plus exactement, sur les limites de la compréhension du
+          lecteur&#160;: obligé de courir après les événements concomitants, le
+          lecteur de <persName ref="02716280X" type="idref" xml:base="https://www.idref.fr/">Thucydide</persName>, comme le
+          remarquait <persName ref="02683281X" type="idref" xml:base="https://www.idref.fr/">Denys d’Halicarnasse</persName>,
+          finit par ne plus rien comprendre<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Denys d’Halicarnasse, <hi rend="italic">Sur</hi>
+                <hi rend="italic">Thucydide</hi>, XI, 3 ,14.</p>
+            </note>. S’impose alors une autre conception de la <hi rend="italic">
+              <foreign xml:lang="grc">sunopsis</foreign>
+            </hi> en tant que critère de la bonne composition du récit. C’est
+          pour rendre à la fois facile et agréable au lecteur la compréhension
+          d’un récit qu’il faut, comme le recommandent <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>, <persName ref="02683281X" type="idref" xml:base="https://www.idref.fr/">Denys
+          d’Halicarnasse</persName> et <persName ref="026997460" type="idref" xml:base="https://www.idref.fr/">Lucien</persName>, lui donner une
+          forme «&#160;organique&#160;». Car la forme organique est <hi rend="italic">eusynoptique&#160;</hi>: le lecteur peut facilement
+          l’embrasser d’un seul coup du début à la fin, en saisissant le
+          mouvement continu qui engendre, les uns après les autres, tous les
+          éléments qui la composent en les conservant tous simultanément
+          présents au regard de l’esprit. Condition de production et
+          d’intelligibilité de l’<hi rend="italic">
+              <foreign xml:lang="grc">historia</foreign>
+            </hi>, cette <hi rend="italic">
+              <foreign xml:lang="grc">sunopsis</foreign>
+            </hi> n’envisage évidemment la représentation que dans sa
+          dimension opaque et intransitive, c’est-à-dire non pas en tant
+          qu’elle montre quelque chose, mais en tant qu’elle se montre à
+          quelqu’un.</p>
+          <p xml:id="d1e472">Quant à l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi>, son pouvoir de susciter, par la force d’images
+          particulièrement «&#160;frappantes&#160;», l’émotion et l’identification des
+          lecteurs aux témoins et aux acteurs de l’histoire, il se prête aussi
+          à des interprétations divergentes. Envisagé dans sa dimension
+          transparente, l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi> apparaît comme la représentation fidèle de l’expérience
+          vivante qu’elle exprime, comme un tableau capable de reproduire,
+          selon les mots de <persName ref="027352188" type="idref" xml:base="https://www.idref.fr/">Polybe</persName>, «&#160;l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi> et l’<hi rend="italic">
+              <foreign xml:lang="grc">emphasis</foreign>
+            </hi> des êtres réels<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Polybe, <hi rend="italic">Histoires</hi>, XII, 25&#160;h&#160;1-6.</p>
+            </note>&#160;». Mais sur quelle ressemblance se fonde l’image mentale
+          du lecteur&#160;? De lors qu’on prend en compte le regard du lecteur,
+          l’<hi rend="italic">
+              <foreign xml:lang="lat">ut pictura historia</foreign>
+            </hi> change de signification. Comme le montre <persName ref="027076784" type="idref" xml:base="https://www.idref.fr/">Plutarque</persName>, en faisant en
+          quelque sorte l’<hi rend="italic">
+              <foreign xml:lang="grc">ekphrasis</foreign>
+            </hi> des «&#160;tableaux&#160;» de bataille thucydidéens, ce qui permet
+          finalement de construire l’identité de ce qui est représenté n’est
+          autre que l’acte même de présenter le récit comme un tableau&#160;:
+          «&#160;Voyez <persName ref="026823586" type="idref" xml:base="https://www.idref.fr/">Demosthène</persName> mettant les
+          Athéniens en ligne le long du rivage escarpé de <placeName ref="255293" type="geonames" xml:base="https://www.geonames.org/">Pylos</placeName>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Plutarque, <hi rend="italic">La Gloire des Athéniens</hi>,
+              347&#160;B.</p>
+            </note>…&#160;» La performativité de la parole qui «&#160;fait voir&#160;»
+          implique des opérations complexes entre des énoncés «&#160;silencieux&#160;»
+          qui laissent la parole aux faits eux-mêmes et une énonciation qui
+          doit se faire entendre afin que la représentation puisse se
+          présenter elle-même en tant qu’elle représente quelque chose&#160;: voyez
+          <persName ref="02716280X" type="idref" xml:base="https://www.idref.fr/">Thucydide</persName> donnant à son
+          récit «&#160;le relief d’un tableau&#160;»… Et pourtant, lorsqu’on ne lit
+          <persName ref="02716280X" type="idref" xml:base="https://www.idref.fr/">Thucydide</persName> que pour
+          chercher dans ses «&#160;tableaux&#160;» des morceaux de bravoure, comme il
+          arrivera chez les théoriciens de l’<hi rend="italic">
+              <foreign xml:lang="grc">ekphrasis</foreign>
+            </hi> à l’époque impériale, son art de peintre finira par perdre
+          tout pouvoir de persuasion. C’était ce qu’avait déjà compris
+          <persName ref="027352188" type="idref" xml:base="https://www.idref.fr/">Polybe</persName>, lorsque, pour
+          critiquer l’histoire «&#160;tragique&#160;» de <persName ref="03007276X" type="idref" xml:base="https://www.idref.fr/">Phylarque</persName>,
+          il avait détaillé les ressorts employés par l’art de «&#160;mettre sous
+          les yeux&#160;» afin de mieux abuser le jugement des lecteurs<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Polybe, <hi rend="italic">Histoires</hi>, II, 56.</p>
+            </note>&#160;: réduire la représentation à sa dimension autotélique, ne
+          l’envisager que dans une perspective hédoniste, c’est la priver de
+          toute efficacité réelle.</p>
+          <p xml:id="d1e520">Mais comment faire en sorte que la visibilité de
+          l’image –&#160;condition de possibilité de l’effectivité de la
+          représentation, à l’instar de la lumière qui, comme disait <persName ref="032999267" type="idref" xml:base="https://www.idref.fr/">Chrysippe</persName>, ne «&#160;saurait
+          faire voir ce qu’elle enveloppe sans faire voir à la fois
+          elle-même<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Cf.&#160;Aetius, IV, 12,1.</p>
+            </note>&#160;»&#160;– ne finisse pas par occulter, par l’exhibition de sa
+          propre présence, la vocation référentielle de l’image&#160;? Une réponse
+          est fournie par l’emploi de la <hi rend="italic">
+              <foreign xml:lang="grc">sunopsis</foreign>
+            </hi> et de l<hi rend="italic">’<foreign xml:lang="grc">enargeia</foreign>
+            </hi> dans le cadre de ces deux
+          phénomènes nouveaux de l’historiographie hellénistique et romaine
+          que sont d’une part, la science de l’histoire universelle polybienne
+          et, de l’autre, la rhétorique de l’histoire exemplaire qui aura son
+          apogée dans le <hi rend="italic">Vies</hi> de <persName ref="027076784" type="idref" xml:base="https://www.idref.fr/">Plutarque</persName>. Dans les deux
+          cas, la manière de «&#160;faire voir&#160;» parvient en quelque sorte à mettre
+          au service du référent les aspects opaques de la représentation,
+          c’est-à-dire tout ce qui fait de la <hi rend="italic">
+              <foreign xml:lang="grc">sunopsis</foreign>
+            </hi> la condition de possibilité de la compréhension d’une forme
+          et de l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi> la condition de possibilité de la perception d’une force.
+          Cette réussite repose sur l’inscription de ces conditions de
+          possibilité dans les faits eux-mêmes. Dans l’histoire polybienne,
+          les événements du monde ont déjà acquis par eux-mêmes une forme
+          organique et sont devenus, par la grâce de la conquête romaine et
+          par le bon vouloir de la <hi rend="italic">
+              <foreign xml:lang="grc">Tuché</foreign>,</hi> un objet «&#160;universel&#160;». Dans le
+          cadre de l’histoire exemplaire, les exploits de la vertu possèdent
+          en eux-mêmes leur force de persuasion, une force entraînante capable
+          de susciter des effets puissants d’admiration et de désir. La
+          fonction ostensive du récit historique devient alors une fonction de
+          dévoilement de l’invisible. Raconter du début à la fin l’histoire
+          d’une conquête qui, en moins de cinquante trois ans, a transformé le
+          monde, c’est recomposer ce corps qu’est devenue l’histoire mondiale,
+          c’est montrer l’intrigue secrète des événements du point de vue de
+          celle qui en est le véritable auteur, à savoir cette <hi rend="italic">
+              <foreign xml:lang="grc">Tuché</foreign>
+            </hi>qui a fait de la conquête romaine «&#160;son projet le plus beau
+          et le plus utile<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Polybe, <hi rend="italic">Histoires</hi>, I,4,1.</p>
+            </note>&#160;». Raconter, d’autre part, les gestes des hommes vertueux
+          c’est, comme le dit <persName ref="027076784" type="idref" xml:base="https://www.idref.fr/">Plutarque</persName>, «&#160;peindre des
+          âmes<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Plutarque, <hi rend="italic">Alex.</hi>, I, 3.</p>
+            </note>&#160;»&#160;: faire apparaître les ressorts cachés de ce
+          «&#160;démiurge&#160;» plus efficace de n’importe quel artiste qu’est la
+          vertu, et apprendre aux lecteurs à «&#160;voir&#160;» ces «&#160;tableaux&#160;» avec
+          les yeux de ceux qui l’aiment, bref, comme les héros eux-mêmes.</p>
+          <p xml:id="d1e565">Le concept crucial de l’histoire polybienne est
+          celui de forme interne&#160;: il permet à la fois de sauver la <hi rend="italic">
+              <foreign xml:lang="grc">sunopsis</foreign>
+            </hi> des risques impliqués par la fermeture du récit sur lui-même
+          <hi rend="italic"/>et de lui offrir un objet «&#160;scientifique&#160;» à la
+          hauteur de son ambition exorbitante de compréhension. Un objet qui
+          est «&#160;donné&#160;» à l’historien par la conjoncture événementielle&#160;: à
+          partir du moment où, avec la deuxième guerre punique, s’affirme la
+          volonté impérialiste de <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, «&#160;l’<hi rend="italic">
+              <foreign xml:lang="grc">historia</foreign>
+            </hi> aboutit à former un tout organique, les événements
+          d’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> et d’Afrique
+          s’entrelacent avec ceux d’Asie et de <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et l’ensemble
+          tend vers une seul et même fin<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Polybe, <hi rend="italic">Histoires</hi>, I, 3, 4.</p>
+            </note>&#160;». On ne saurait comprendre le sens de cette <hi rend="italic">
+              <foreign xml:lang="grc">historia</foreign>
+            </hi> qui est d’emblée événement et récit, sans penser aux deux
+          autres grands modèles de forme interne que sont d’une part le <hi rend="italic">
+              <foreign xml:lang="grc">kosmos</foreign>
+            </hi> stoïcien et de l’autre le <hi rend="italic">
+              <foreign xml:lang="grc">muthos</foreign>
+            </hi> aristotélicien. Ils permettent d’expliciter toute
+          l’ambiguïté d’une histoire qui est universelle parce qu’elle est
+          «&#160;mondiale&#160;» et parce qu’elle est une «&#160;action unique&#160;» et dans
+          laquelle coexistent deux conceptions de la composition organique&#160;:
+          une conception objective et quasi-physique, qui résulte des effets
+          de la domination romaine, et une conception opérationnelle et
+          quasi-poétique qui caractérise l’action de la <hi rend="italic">
+              <foreign xml:lang="grc">Tuchè</foreign>.</hi> Grâce à
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, l’histoire
+          devient un monde «&#160;stoïcien&#160;» qui, en raison de la connexion interne
+          et rationnelle entre les événements qui le constituent, transforme
+          le statut ontologique des <foreign xml:lang="lat">
+              <hi rend="italic">res gestae</hi>
+            </foreign> et le statut épistémologique de leur connaissance. Car,
+          intégrés dans une totalité dont ils sont les éléments conjoints et
+          solidaires, les faits acquièrent une intelligibilité et une
+          nécessité qui résultent de la place qu’ils occupent au sein de la
+          totalité. Mais si <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> «&#160;mondialise&#160;»
+          l’histoire, c’est la <hi rend="italic">
+              <foreign xml:lang="grc">Tuché</foreign>
+            </hi>qui la rend «&#160;merveilleuse&#160;». Le <hi rend="italic">
+              <foreign xml:lang="grc">muthos</foreign>
+            </hi> le plus beau, disait <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, est le plus
+          surprenant&#160;: des faits nécessaires semblent alors se produire par
+          l’effet du hasard (<hi rend="italic">
+              <foreign xml:lang="grc">apo tuchès</foreign>
+            </hi>)<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Aristote, <hi rend="italic">Poétique</hi>, 1452&#160;a&#160;1&#160;<hi rend="italic">sq</hi>.</p>
+            </note>. Inconcevable sans le recours aux modes d’intelligibilité
+          propre à l’intrigue poétique, la grande péripétie de l’histoire
+          universelle –&#160;des faits éparpillés qui, contre toute attente, par
+          l’action de la <hi rend="italic">
+              <foreign xml:lang="grc">Tuchè</foreign>, </hi>s’entrelacent, s’orientent
+          simultanément vers un seul et même but et aboutissent à former un
+          tout organique&#160;– utilise et renverse la logique aristotélicienne du
+          spectacle et de la fiction. La concordance des faits liés par un
+          enchaînement causal et finalisé devient <hi rend="italic">vraiment
+          </hi>l’effet d’un hasard qui agit <hi rend="italic">vraiment</hi> à
+          dessein&#160;: la <hi rend="italic">
+              <foreign xml:lang="grc">Tuché</foreign>
+            </hi> est le vrai poète de l’histoire. La perspective synoptique
+          remplace celle de la fiction&#160;: tandis que celle-ci vise à faire
+          «&#160;paraître&#160;» sensé ce qui normalement ne l’est pas, sa force à elle
+          consiste plutôt à faire «&#160;apparaître&#160;» aux lecteurs le sens d’un
+          spectacle inaccessible aux acteurs eux-mêmes.</p>
+          <p xml:id="d1e633">Faire apparaître l’invisible&#160;: tel est aussi
+          l’objectif de l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi> des «&#160;belles images de la vertu&#160;» chères à la rhétorique de
+          l’<hi rend="italic">
+              <foreign xml:lang="lat">historia magistra vitae</foreign>
+            </hi>. Portraits de l’esprit, montrant aux lecteurs l’image
+          vivante des vertus en action, ces «&#160;tableaux&#160;» sont des anti-<hi rend="italic">
+              <foreign xml:lang="grc">ekphrasis</foreign>&#160;</hi>:
+          leur <hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi> n’est pas l’effet de l’art de l’écrivain, mais de la chose
+          qu’ils représentent, l’effet de la force motrice de la vertu. Les
+          admirer c’est admirer cette force qui les rend puissants et qui les
+          distingue décidément des images artistiques, «&#160;car un ouvrage
+          artistique peut nous charmer par sa beauté sans entraîner
+          nécessairement l’admiration pour son auteur&#160;[…]. La vertu au
+          contraire, par les actes qu’elle inspire, nous dispose non seulement
+          à admirer les belles actions, mais en même temps à rivaliser avec
+          ceux qui les ont accomplies<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Plutarque, <hi rend="italic">Périclès</hi>, 2, 2-4.</p>
+            </note>&#160;». Bien plus performante que l’image artistique qui ne
+          produit que des effets esthétiques, l’image des actions vertueuses
+          possède une force active qui est inépuisable&#160;: elle fait de désir de
+          faire et d’être et elle engendre, par ce désir, d’autres belles
+          actions. Ce concept crucial de force motrice emprunte son mode de
+          fonctionnement à la fois à une notion clé de la gnoséologie
+          hellénistique –&#160;l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi>des phénomènes vrais&#160;– et à la conception proprement oratoire
+          et poétique de l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi> qui rattache sa force non pas aux effets d’un «&#160;métier&#160;»,
+          mais aux transports de l’imagination. Car l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi> des belles images de la vertu possède à la fois la force de
+          la vérité de l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi> des philosophes, et la force «&#160;visionnaire&#160;» de l’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi> qui, de la métaphore aristotélicienne jusqu’à la <hi rend="italic">
+              <foreign xml:lang="grc">phantasia</foreign>
+            </hi> longinienne, est définie par son pouvoir d’«&#160;animer
+          l’inanimé&#160;» et de donner forme à l’invisible. Comme un <hi rend="italic">
+              <foreign xml:lang="grc">phantaston</foreign>
+            </hi>, l’objet générateur des images, elle produit par elle-même
+          un <hi rend="italic">
+              <foreign xml:lang="grc">pathos</foreign>
+            </hi> qui est le révélateur de sa vérité&#160;; comme la <foreign xml:lang="grc">
+              <hi rend="italic">phantasia</hi>
+            </foreign> des orateurs et des poètes «&#160;inspirés&#160;», elle sait
+          engendrer des effets entraînants d’enthousiasme et d’exaltation. À
+          cette différence près que le <hi rend="italic">
+              <foreign xml:lang="grc">pathos</foreign>
+            </hi> produit par les belles images de la vertu doit se convertir
+          en <hi rend="italic">
+              <foreign xml:lang="grc">ethos</foreign>
+            </hi>&#160;: monstration d’un paradigme offert à l’admiration et à
+          l’émulation des lecteurs, cette <hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi>possède une finalité qui fait de l’histoire un instrument
+          d’amélioration de soi, une «&#160;philosophie pratique&#160;».</p>
+          <p xml:id="d1e693">En profitant de l’ambiguïté qui résulte de la
+          double pertinence des notions de <hi rend="italic">
+              <foreign xml:lang="grc">sunopsis</foreign>
+            </hi>et d’<hi rend="italic">
+              <foreign xml:lang="grc">enargeia</foreign>
+            </hi> dans le domaine de la philosophie et dans celui des arts du
+          discours, ces deux manières de «&#160;faire voir&#160;» mises en œuvre la
+          science de l’histoire universelle polybienne et la rhétorique de
+          l’histoire pédagogique, contredisent radicalement à la fois la
+          vision rhétorique de l’histoire et celle qu’en proposent les
+          philosophes. Dépassement, l’une comme l’autre, d’une conception
+          épidictique de la monstration historique, elles dépassent aussi, par
+          la mise hors jeu de l’idée de ressemblance, une conception de
+          l’imitation comme copie&#160;: l’image synoptique de l’histoire
+          universelle n’est pas la réplique du plan de la <hi rend="italic">
+              <foreign xml:lang="grc">Tuché</foreign>
+            </hi>, elle est plutôt l’<hi rend="italic">
+              <foreign xml:lang="grc">analogon</foreign>
+            </hi> d’une opération&#160;: «&#160;De même que la <hi rend="italic">
+              <foreign xml:lang="grc">Tuchè</foreign>
+            </hi> a incliné d’un seul coté et forcé à tendre vers un seul but
+          tous les événements de la terre, de même, il faut par les moyens de
+          l’histoire concentrer dans une seule vue synthétique, pour les
+          lecteurs, le plan qu’elle a appliqué pour la réalisation d’une série
+          universelle d’événements<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>
+                <hi rend="italic">Histoires, </hi>I, 1,4.</p>
+            </note>.&#160;» Quant aux belles images de la vertu, ce qui les
+          caractérise c’est moins leur renvoi à un référent objectif, que leur
+          fonction de délégués à la représentation d’un modèle, d’une
+          référence morale.</p>
+          <p xml:id="d1e719">Faut-il en conclure que ces deux manières de
+          «&#160;faire voir&#160;» marquent aussi le dépassement de la distinction entre
+          <foreign xml:lang="lat">
+              <hi rend="italic">res gestae </hi>et <hi rend="italic">historia</hi>
+            </foreign>&#160;? Événement et récit,
+          l’<foreign xml:lang="grc">
+              <hi rend="italic">historia somatoeidé</hi>
+            </foreign> polybienne pose pour la première fois la question de
+          l’homonymie de l’histoire, mais si elle révèle tout le pouvoir
+          poïétique de configuration exercé par la forme à l’égard du contenu,
+          elle ne le fait qu’au moment où l’historien le dénie pour
+          l’attribuer à cette instance supérieure et extérieur qu’est la <hi rend="italic">
+              <foreign xml:lang="grc">Tuchè</foreign>
+            </hi>. Quant aux images de la vertu, leur pouvoir de faire oublier
+          la <hi rend="italic">
+              <foreign xml:lang="grc">mimésis</foreign>
+            </hi> du «&#160;tableau&#160;» au profit de l’<hi rend="italic">
+              <foreign xml:lang="grc">imitatio</foreign>
+            </hi>du modèle est finalement moins l’effet de l’effacement de la
+          distinction entre faits et récit que l’effet de cet oubli de la
+          différence entre représentant et représenté qu’est le secret même
+          d’une <hi rend="italic">
+              <foreign xml:lang="grc">mimésis</foreign>
+            </hi> réussie. Allons-nous adresser alors à l’encontre du «&#160;faire
+          voir&#160;» le soupçon d’avoir «&#160;inventé&#160;» et installé durablement
+          l’illusion référentielle au cœur de l’historiographie&#160;? Au lieu de
+          placer les anciens récits historiques au même banc d’accusation que
+          le roman réaliste du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, cet
+          ouvrage préfère insister plutôt, en conclusion, sur que ce qui est,
+          sans doute, leur véritable «&#160;invention&#160;».&#8200;À savoir, le corrélat
+          objectif de la représentation d’ensemble et de la représentation
+          évidente&#160;: «&#160;l’être-ensemble&#160;» des faits, l’«&#160;évidence&#160;» des
+          faits.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1012 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-11-04T12:10:12.548+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_21_Walsby.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La survie improbable&#160;: les livres sauvés par leur
+        matérialité</title>
+        <author role="aut">
+          <forename>Malcolm</forename>
+          <surname>Walsby</surname>
+          <idno type="IDREF">116215607</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/BJ2WX7AP" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">La survie improbable&#160;: les livres sauvés par leur
+            matérialité</title>
+            <author>
+              <forename>Malcolm</forename>
+              <surname>Walsby</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">21</biblScope>
+              <biblScope unit="page">60-69</biblScope>
+              <date>2020</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="enm"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+          livre</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>
+          </term>
+          <term>
+            <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+          </term>
+          <term>
+            <placeName ref="6432801" type="geonames" xml:base="https://www.geonames.org/">Rennes</placeName>
+          </term>
+          <term>
+            <placeName ref="6452134" type="geonames" xml:base="https://www.geonames.org/">Aix-en-Provence</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T12:21:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">La survie improbable&#160;:
+          les livres sauvés par leur matérialité</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Malcolm Walsby</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Professeur d’histoire du livre,
+          directeur du Centre Gabriel Naudé, Enssib - Université de
+          Lyon</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e45">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-p5aiheda">incipit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+            </term>
+          </term>En <date type="_temp" when="2015">2015</date>, au Grand Séminaire de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, on décida
+        de déplacer une pietà en terre cuite. L’opération effectuée, on
+        découvrit avec stupeur que deux objets rectangulaires qui avaient
+        servi à caler la statue pour en assurer l’équilibre étaient en fait
+        deux volumes imprimés&#160;: un texte dévotionnel et un incunable imprimé
+        par <persName ref="140812156" type="idref" xml:base="https://www.idref.fr/">Johann Prüss</persName> à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Louis Schlaefli, «&#160;Ein wiedergefundener Wiegendruck aus der
+            Abtei Gengenbach&#160;», in <hi rend="italic">Die Ortenau</hi>, XCV
+            (2015), p.&#160;523-530</p>
+          </note>. Ces livres, dont l’utilité des textes avait fait son temps,
+        dépassés par des éditions ultérieures et par les intérêts changeants
+        des lecteurs, avaient été recyclés. Désormais leur valeur venait de
+        leur taille et de leur solidité, plutôt que de leur contenu. Leur sort
+        témoigne de la fragilité des volumes, toujours à la merci d’une perte
+        de popularité ou d’intérêt parmi les générations successives de
+        possesseurs.</p>
+        <p xml:id="d1e54">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-epe2ahku">informatique<term ref="doi:10.34817/sv-jzf7lact">imagerie
+        numérique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>Les
+        innombrables étagères bien remplies des bibliothèques patrimoniales,
+        ainsi que les millions de pages numérisées et rendues accessibles au
+        public, donnent l’impression que le livre est un objet presque
+        pérenne, survivant aux siècles et aux dangers quotidiens. Et d’une
+        certaine manière cette impression est juste&#160;: statistiquement le livre
+        est l’un des artefacts qui a su le mieux résister au temps. Cependant,
+        cette réussite cache une réalité moins réjouissante&#160;: cette survie ne
+        concerne qu’une infime minorité d’exemplaires et d’éditions dont la
+        vaste majorité a disparu sans laisser de traces. Comprendre cette
+        perte et tenter d’en esquisser les contours est un enjeu scientifique
+        fondamental lorsque l’on considère le patrimoine écrit des siècles
+        passés<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Voir les efforts des chercheurs pour comprendre l’ampleur du
+            phénomène&#160;: Flavia Bruni et Andrew Pettegree&#160;(dir.), <hi rend="italic">Lost Books. </hi>
+              <hi rend="italic">Reconstructing
+            the Print World of Pre-Industrial Europe</hi>, Leyde, Brill,
+            2016</p>
+          </note>.</p>
+        <div type="section1" xml:id="d1e65">
+          <head subtype="level1" xml:id="d1e66">Disparitions ordinaires</head>
+          <p xml:id="d1e68">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-qm2ezej3">peinture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+              </term>
+            </term>La
+          disparition des volumes est parfois le résultat de catastrophes
+          majeures&#160;: la destruction d’une bibliothèque pendant une guerre,
+          l’embrasement de collections lors d’incendies, l’effondrement de
+          bâtiments dans lesquels elles étaient conservées ou des dégâts des
+          eaux dus à des crues inattendues. Cependant, la réalité de la
+          destruction de l’écrasante majorité des livres est bien moins
+          dramatique. Moins médiatisée et moins documentée que ce type
+          d’événements, la disparition de la plupart des livres s’effectue
+          dans l’indifférence. Pour les livres artisanaux, elle a souvent lieu
+          par le biais d’un recyclage qui profite de la qualité matérielle des
+          volumes. La réutilisation qu’on en fait cherche à tirer profit de la
+          robustesse et des caractéristiques particulières des matériaux. Le
+          plus souvent, elle mène à la destruction complète des livres. Les
+          tableaux d’artistes tels que <persName ref="082084483" type="idref" xml:base="https://www.idref.fr/">Pieter Claeszoon</persName> et
+          <persName ref="252859421" type="idref" xml:base="https://www.idref.fr/">Willem Claeszoon Heda</persName>
+          rendent bien compte de ce phénomène, montrant des feuillets imprimés
+          roulés et réutilisés comme poches à tabac ou comme cornets à poivre
+          servis pour accompagner des plats d’huîtres <hi>(voir ill.
+          p.&#160;60)</hi>.</p>
+          <figure xml:id="d1e73">
+            <graphic url="https://didomena.ehess.fr/downloads/w3763g002.jpg"/>
+            <head xml:id="d1e74">Figure 1. Détail d’un tableau de Willem
+            Claeszoon Heda (coll. Rijksmuseum, Amsterdam). Rijksmuseum
+            Amsterdam, cote SK-A-4830</head>
+          </figure>
+          <p xml:id="d1e78">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-yk9yaypy">parchemin</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+              </term>
+            </term>Posés
+          dans une assiette au contact des huîtres, ces feuillets servaient
+          une ultime fois avant d’être jetés définitivement. Toutes les
+          réutilisations d’imprimés ne menaient cependant pas à leur
+          destruction complète. Même lorsqu’on les déchirait, pliait, collait
+          pour profiter des vertus de leur matérialité, des bribes pouvaient
+          survivre et témoigner de l’existence originale d’un texte, d’une
+          édition ou d’un exemplaire. Ainsi, on trouve à la Bibliothèque
+          municipale de <placeName ref="6449768" type="geonames" xml:base="https://www.geonames.org/">Bar-le-Duc</placeName>
+            <hi>(voir
+          ill. ci-contre, en haut)</hi> un feuillet découpé pour protéger le
+          sceau d’un parchemin attestant de la possession d’une parcelle de
+          terre, lequel offre une vision non seulement de la production d’un
+          texte, mais également de son utilisation.</p>
+          <figure xml:id="d1e83">
+            <graphic url="https://didomena.ehess.fr/downloads/44558p21w.jpg"/>
+            <head xml:id="d1e84">Figure 2. Fragment d’imprimé sur un sceau
+            (coll. Bibliothèque municipale de Bar-le-Duc)</head>
+          </figure>
+          <p xml:id="d1e88">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+              </term>
+            </term>Un autre
+          exemple provient du réemploi d’un fragment de texte imprimé… pour
+          imiter du texte imprimé. Ainsi, une statue représentant <persName ref="029875730" type="idref" xml:base="https://www.idref.fr/">sainte
+          Barbe</persName>, conservée à <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName> mais provenant
+          de <placeName ref="2791538" type="geonames" xml:base="https://www.geonames.org/">Malines</placeName>, montre la
+          sainte avec un livre à la main où, au lieu de peindre ou de graver
+          un texte, on a fait le choix de coller un court passage latin en
+          lettres gothiques, extrait d’un imprimé contemporain <hi>(voir ill.
+          ci-contre, en bas)</hi>.</p>
+          <figure xml:id="d1e93">
+            <graphic url="https://didomena.ehess.fr/downloads/v405sj64n.jpg"/>
+            <head xml:id="d1e94">Figure 3. Statue de sainte Barbe, début du
+            16<hi rend="sup">e</hi>&#160;siècle (coll. Musée des beaux-arts de
+            Lyon). Musée des beaux-arts de Lyon, cote&#160;E&#160;500&#160;119</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e101">
+          <head subtype="level1" xml:id="d1e102">La «&#160;seconde vie&#160;» des
+          manuscrits</head>
+          <p xml:id="d1e104">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-epe2ahku">informatique<term ref="doi:10.34817/sv-jzf7lact">imagerie
+          numérique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-yk9yaypy">parchemin</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+          livre</term>
+                  </term>
+                </term>
+              </term>
+            </term>La survie improbable des
+          fragments de livres par le biais de réutilisations de ce type n’est
+          cependant pas, et de loin, la plus courante. C’est une pratique
+          qu’on pourrait qualifier de cannibale qui a, en effet, assuré une
+          deuxième vie à d’innombrables feuilles. Les livres démodés étaient
+          dépiécés pour fabriquer d’autres livres. Lorsque le parchemin était
+          le support principal de l’écrit, ce cannibalisme était direct&#160;: on
+          se resservait du parchemin pour réécrire sur les mêmes feuilles un
+          texte différent et le livre devenait alors un palimpseste. La perte
+          du texte original dans ce contexte semblait complète initialement,
+          mais les techniques récentes, et notamment l’utilisation d’imagerie
+          multispectrale, permettent de décrypter ce qui avait été effacé<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Voir notamment le <hi rend="italic">Sinai Palimpsests
+              project&#160;: </hi>
+                <ref target="https://sinai.library.ucla.edu/">
+                  <hi rend="underline">https://sinai.library.ucla.edu</hi>
+                </ref>
+              </p>
+            </note>.</p>
+          <p xml:id="d1e116">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Cependant,
+          au fur et à mesure que les parcheminiers se développaient et que
+          l’accès au support devenait plus aisé, cette pratique, qui demandait
+          un travail soigné et laborieux, diminua. Le réemploi se concentra
+          moins sur les zones textuelles et migra vers la structure mécanique
+          du codex. Le parchemin des manuscrits était découpé pour renforcer
+          les plats, servait de couvrure, devenait le matériau de prédilection
+          pour les claies et les charnières. Même une fois le nouveau livre
+          convenablement relié et l’ornementation du volume terminée, des
+          reliquats de manuscrits étaient utilisés pour réparer les accidents
+          et renforcer plus tardivement les coins et les coiffes. Dans
+          certaines bibliothèques, cette réutilisation devint systématique.
+          Dans les bibliothèques de <placeName ref="6432801" type="geonames" xml:base="https://www.geonames.org/">Rennes</placeName>, cette
+          pratique était habituelle et de nombreux volumes furent réparés de
+          cette manière, comme en témoigne cet exemplaire qui avait appartenu
+          aux augustins de la ville avant les saisies révolutionnaires
+          <hi>(voir ill. p.&#160;64, en haut)</hi>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Sur les bibliothèques de Rennes avant la révolution, voir
+              Morgane Egea, «&#160;La naissance de la bibliothèque municipale de
+              Rennes 1789-1803&#160;», in <hi rend="italic">Annales de Bretagne et
+              des pays de l’Ouest</hi>, CXVIII (2011), p.&#160;83-101</p>
+            </note>. Dans ce cas, c’est une Bible en français qui fut dépiécée
+          pour protéger une reliure du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>.</p>
+          <figure xml:id="d1e130">
+            <graphic url="https://didomena.ehess.fr/downloads/w3763g01b.jpg"/>
+            <head xml:id="d1e131">Figure 4. Jacques de Meyer, <hi rend="italic">Commentarii sive annales rerum Flandricarum, libri
+            septendecim</hi>, Anvers, Joannes Grapheus pour Joannes Steelsius,
+            1561 (USTC 401096&#160;; coll. Bibliothèque de Rennes Métropole).
+            Bibliothèque de Rennes Métropole, cote 15726 Rés.</head>
+          </figure>
+          <p xml:id="d1e138">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+            </term>Les apports de
+          telles bribes de textes sont considérables pour ce qu’elles
+          dévoilent des attitudes changeantes envers un contenu et, dans ce
+          cas, envers l’évolution des traditions de traduction d’un texte
+          pourtant toujours aussi prisé.</p>
+          <p xml:id="d1e140">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-zmj9qpgl">base de
+          données</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-kvhruup4">esthétique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Lorsqu’il
+          s’agit de renforts de plats, on peut aller plus loin. Ce sont alors
+          souvent des feuillets entiers de manuscrits qui survivent, souvent
+          de manière très visible, la beauté d’une calligraphie ou de son
+          enluminure prenant une valeur esthétique qui dépassait l’intérêt
+          anciennement donné au texte lui-même. Depuis quelques années, les
+          chercheurs ont commencé à répertorier les feuillets dans des bases
+          de données qui permettent de repérer et d’analyser ces
+          fragments<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Voir en particulier le projet «&#160;Fragmentarium&#160;» de
+              l’Université de Fribourg qui offre une base de données
+              internationale&#160;: <ref target="https://fragmentarium.ms/">
+                  <hi rend="underline">https://fragmentarium.ms</hi>
+                </ref>
+              </p>
+            </note>. Au-delà de l’indéniable intérêt que chaque manuscrit
+          ainsi préservé peut présenter, ce travail permet de recomposer
+          feuillet par feuillet des volumes détruits des siècles plus tôt.
+          Cette opération fastidieuse a déjà porté ses fruits avec, dans
+          certains cas, des dizaines de feuillets d’un même manuscrit réunis
+          virtuellement par le biais de numérisations dans différentes
+          bibliothèques souvent très éloignées les unes des autres.</p>
+          <p xml:id="d1e149">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+          livre</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+              </term>
+            </term>La
+          destruction systématique des volumes manuscrits eut souvent lieu
+          après l’<date type="_temp">arrivée de l’imprimerie</date>. La
+          prolifération de livres rendait, aux yeux de leurs possesseurs, bien
+          des exemplaires manuscrits caducs. Corrigées par des éditeurs
+          scientifiques souvent de renom, agrémentées de commentaires, d’index
+          et de tables des matières précis, et représentant des éditions que
+          l’on pouvait retrouver dans différentes bibliothèques, les
+          impressions semblaient pouvoir remplacer avantageusement les
+          manuscrits. Au lieu de se servir de matériaux nouveaux pour relier
+          ces livres, quoi de plus logique que de recycler des «&#160;vieilleries&#160;»
+          et d’économiser ainsi quelques pièces&#160;? Ce sont donc souvent dans
+          les reliures des imprimés que nous trouvons désormais de nombreux
+          fragments de manuscrits médiévaux, appelés maculatures.</p>
+          <p xml:id="d1e151">Il en résulte que lorsque de grands
+          collectionneurs de livres imprimés faisaient relier les exemplaires
+          qu’ils achetaient, et qu’ils pouvaient se servir d’anciens volumes
+          en parchemin, ce recyclage pouvait être si systématique qu’il nous
+          permet aujourd’hui de reconstituer des manuscrits et d’approfondir
+          notre compréhension de la mentalité de possesseurs passés. Le
+          bibliophile néerlandais <persName type="_temp">Huybert Van
+          Buchell</persName> (<date from="1513" to="1599" type="_temp">1513-1599</date>) est une parfaite illustration de ce
+          phénomène. Au cours de sa longue vie, <persName type="_temp">Van
+          Buchell</persName> assembla une impressionnante collection de plus
+          de 2&#160;500&#160;titres qu’il fit relier par ses propres soins. Cette
+          accumulation lui demanda un investissement considérable, et ce
+          besoin financier le poussa à économiser sur tous les fronts, à telle
+          enseigne qu’on le traitait de pingre.</p>
+          <p xml:id="d1e153">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+              </term>
+            </term>Ceci ne
+          l’empêcha pas de faire confectionner de solides reliures pour ses
+          livres, mais l’encouragea à insérer au sein d’une même reliure
+          plusieurs œuvres. Plus de quatre éditions sur cinq de sa collection,
+          aujourd’hui conservée à la Bibliothèque universitaire d’<placeName ref="2745909" type="geonames" xml:base="https://www.geonames.org/">Utrecht</placeName>, sont ainsi
+          rassemblées dans des recueils. Pour minimiser les coûts, il pourvut
+          son relieur de feuillets de parchemin, feuillets qu’il puisait dans
+          la bibliothèque du couvent où il était chanoine <hi>(voir ill.
+          ci-contre, en bas)</hi>. Ses volumes sont ainsi remplis de
+          maculatures toutes tirées de la même source. Cette provenance unique
+          est une aubaine&#160;: on peut ainsi en partie reconstituer des
+          manuscrits qui, pour certains d’entre eux, remontent à la fondation
+          du couvent au <date from="1000" to="1099" type="_temp">11<hi rend="sup">e</hi>&#160;siècle</date>
+            <note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Bart Jaski, «&#160;Collecties handschrift-fragmenten in de
+              Universiteitsbibliotheek Utrecht&#160;», in Bart Jaski, Marco Mostert
+              et Kaj van Vliet&#160;(dir.), <hi rend="italic">Perkament in
+              stukken&#160;: Teruggevonden middeleeuwse handschriftfragmenten</hi>,
+              Hilversum, Uitgeverij Verloren, 2018, p.&#160;23-32.</p>
+            </note>. Les lecteurs et bibliophiles de la <date type="_temp">Renaissance</date> ne considéraient pas tous les
+          manuscrits comme étant dépassés, et bien des collectionneurs
+          cherchaient avidement des textes oubliés qu’ils préservaient avec
+          soin<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>On en accusa même certains de les voler pour les posséder.
+              Voir, par exemple, le cas de Pierre Daniel&#160;: Elisabeth
+              Pellegrin, «&#160;Membra disiecta Floriacensia&#160;», in <hi rend="italic">Bibliothèque de l’école des chartes</hi>, CXVII
+              (1959), p.&#160;5-56</p>
+            </note>. Mais leur choix était guidé par le contenu plutôt que par
+          un amour du livre ancien. Si le texte leur semblait dépassé,
+          pourquoi garder le volume&#160;? La réutilisation de ces manuscrits
+          souligne le désintérêt des contemporains pour certains de ces livres
+          – un désintérêt qui les mettait en péril et suggère que, comme bien
+          d’autres manuscrits à cette époque, ils auraient pu aisément
+          disparaître sans laisser de traces.</p>
+          <figure xml:id="d1e175">
+            <graphic url="https://didomena.ehess.fr/downloads/6t053r12d.jpg"/>
+            <head xml:id="d1e176">Figure 5. Maculature manuscrite dans le
+            recueil&#160;V, fol.&#160;117, de la Bibliothèque universitaire
+            d’Utrecht</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e178">
+          <head subtype="level1" xml:id="d1e179">Défets et réemploi</head>
+          <p xml:id="d1e181">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+          livre</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Si dans
+          le domaine du manuscrit, l’intérêt de l’analyse des fragments est
+          désormais bien établi, la situation est très différente pour les
+          imprimés. Leur production en tirages dépassant régulièrement le
+          millier d’exemplaires n’a pas encouragé une approche soucieuse
+          d’identifier et de répertorier les fragments. Au contraire des
+          manuscrits estimés comme des objets uniques, les imprimés ne
+          mériteraient pas la même considération. Pourtant, ces fragments
+          peuvent être tout autant porteurs d’informations précieuses. Leur
+          datation, qui peut être très précise, permet par exemple de
+          déterminer une date <hi rend="italic">
+              <foreign xml:lang="lat">post quem</foreign>
+            </hi>pour la confection de la reliure. L’identification de
+          l’édition dont les feuilles sont tirées peut également nous
+          permettre de comprendre l’histoire éditoriale d’un texte. Elle
+          permet de réfléchir au moment où une certaine version est considérée
+          comme dépassée ou indigne d’être préservée.</p>
+          <p xml:id="d1e186">La nature même des fragments qui sont recyclés de
+          cette manière est souvent mal interprétée, notamment parce que les
+          chercheurs font souvent référence aux «&#160;défets&#160;» trouvés dans une
+          reliure. Un défet est une feuille d’un tirage imprimé provenant d’un
+          exemplaire défectueux, c’est-à-dire incomplet, et qui ne peut donc
+          être vendu dans l’état. Sans valeur commerciale, son papier était de
+          fait souvent réemployé et nous pouvons trouver des exemples de ce
+          type de réutilisation dans de nombreuses reliures. Elles sont
+          souvent identifiables par le fait que les bi-feuillets n’ont pas été
+          désolidarisés les uns des autres&#160;; les feuilles ont été coupées pour
+          la première fois lors de leur intégration à la reliure.</p>
+          <p xml:id="d1e188">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+              </term>
+            </term>Cependant,
+          ce scénario ne semble pas être le plus courant, surtout pour les
+          livres des <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>
+            </date>&#160;et <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècles</date>. La plupart des
+          fragments proviennent d’exemplaires ayant été reliés, coupés, et
+          sans aucun doute lus comme des livres à part entière. Ce n’est
+          qu’après plusieurs décennies ou siècles qu’ils furent dépiécés et
+          réemployés. On trouve un exemple de ce phénomène dans les feuilles
+          préservées au sein d’une reliure bien plus tardive conservée à la
+          bibliothèque du Centre culturel irlandais de <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. L’exemplaire
+          de l’édition donnée en <date type="_temp" when="1552">1552</date> à
+          <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName> du <hi rend="italic">Stichostratia epigrammaton centuriae quinque </hi>du
+          dijonnais <persName type="_temp">Jean Girard</persName> possède
+          encore sa reliure d’origine, confectionnée au <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Jean Girard, <hi rend="italic">Stichostratia epigrammaton
+              centuriae quinque</hi>, Lyon, Macé Bonhomme, 1552 (USTC 151204,
+              bibliothèque du Centre culturel irlandais de Paris,
+              cote&#160;B&#160;363)</p>
+            </note>. L’examen du cartonnage utilisé pour former les plats
+          montre qu’ils étaient en fait des assemblages de plusieurs
+          bi-feuillets initialement tirés d’un livre de format in-folio, qui
+          avaient été redécoupés <hi>(voir ill. ci-contre, en haut)</hi>.</p>
+          <figure xml:id="d1e213">
+            <graphic url="https://didomena.ehess.fr/downloads/f4752r16x.jpg"/>
+            <head xml:id="d1e214">Figure 6. Cartonnage des plats fabriqués
+            avec un imprimé redécoupé (coll. bibliothèque du Centre culturel
+            irlandais de Paris). Bibliothèque du Centre culturel irlandais,
+            cote B 363</head>
+          </figure>
+          <p xml:id="d1e218">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+          livre</term>
+                  </term>
+                </term>
+              </term>
+            </term>Les gardes s’étant
+          décollées, deux des pages sont désormais visibles, ce qui a permis
+          de mesurer la typographie et de procéder à l’identification de
+          l’édition dont était tiré l’exemplaire dépiécé&#160;: une <hi rend="italic">Cité de Dieu </hi>de <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">saint
+          Augustin</persName> imprimée en <date type="_temp" when="1479">1479</date>, soit quelque soixante-treize ans avant
+          l’impression du livre que les feuilles protégeaient désormais<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Saint Augustin, <hi rend="italic">De civitate Dei</hi>, Bâle,
+              Michael Wenssler [et Bernhard Richel], 1479, GW&#160;2885. Le cas est
+              analysé dans mon billet&#160;: «&#160;Un incunable dissimulé du Centre
+              culturel irlandais&#160;», in <hi rend="italic">Histoire du
+              livre</hi>, 18&#160;avril&#160;2017, <ref target="https://histoirelivre.hypotheses.org/68">
+                  <hi rend="underline">https://histoirelivre.hypotheses.org/68</hi>
+                </ref>
+              </p>
+            </note>. Cette distance temporelle entre les deux éditions rend
+          impossible qu’il puisse s’agir de défets&#160;: on n’aurait pas conservé
+          ces feuilles pendant plusieurs décennies uniquement dans le but de
+          les utiliser comme cartonnage. De plus, cet exemplaire portait tous
+          les signes d’un livre ayant été commercialisé&#160;: les pages avaient
+          été enluminées avec des lettrines et des pieds-de-mouche, la
+          foliotation avait été ajoutée de façon manuscrite, les feuillets
+          avaient été coupés correctement. Par cette analyse, la bibliothèque
+          découvrait ainsi son plus ancien imprimé mais, surtout, cette
+          découverte souligne que l’édition en question n’était plus estimée
+          au milieu du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>. Elle permet également d’analyser un
+          autre exemplaire de cette édition qui, certes, n’est pas rare – plus
+          de cent autres ont été à ce jour localisés –, mais dont les
+          caractéristiques particulières sur les deux pages visibles
+          permettent néanmoins d’apprécier l’importance, avec une erreur dans
+          le choix de lettrine qui la rend unique et digne d’intérêt.</p>
+        </div>
+        <div type="section1" xml:id="d1e239">
+          <head subtype="level1" xml:id="d1e240">Redécouvertes</head>
+          <p xml:id="d1e242">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-epe2ahku">informatique<term ref="doi:10.34817/sv-jzf7lact">imagerie
+          numérique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-uvsahivj">transcription</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-p5aiheda">incipit</term>
+              </term>
+            </term>Si dans
+          le cas qui nous occupe, l’édition incunable était bien attestée,
+          d’autres fragments nous informent de l’existence d’éditions et de
+          textes par ailleurs inconnus. Dans la même bibliothèque, on trouve
+          quelques feuillets tirés d’un texte en anglais dont survit la partie
+          supérieure de ce qui était probablement la page de titre, laquelle
+          nous livre l’intitulé suivant&#160;: «&#160;<foreign xml:lang="enm">Here is a
+          vertuouns</foreign> [sic] <foreign xml:lang="enm">Treatyse of thre
+          Pater nosters/ whiche by the sayinge of them sheweth every person,
+          how to receyve Jhesu Chryste into his herte</foreign>&#160;»<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Le fragment est conservé au sein d’un volume de François
+              Baudouin, <hi rend="italic">Responsio ad Calvinum et Bezam</hi>,
+              Cologne, Werner Richwin, 1564 (USTC&#160;690842, bibliothèque du
+              Centre culturel irlandais de Paris, cote&#160;B&#160;91).</p>
+            </note>. Ce titre ne correspond à aucun texte répertorié par le
+          très exhaustif <hi rend="italic">English Short Title Catalogue
+          </hi>et ne se retrouve pas non plus dans les transcriptions et
+          numérisations du <hi rend="italic">Early English Books
+          Online</hi>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>
+                <ref target="http://estc.bl.uk/">
+                  <hi rend="underline">http://estc.bl.uk/</hi>
+                </ref> et <ref target="https://eebo.chadwyck.com/">
+                  <hi rend="underline">https://eebo.chadwyck.com/</hi>
+                </ref>. Ces ressources ont été consultées en ligne le 1<hi rend="sup">er</hi>&#160;février&#160;2020.</p>
+            </note>. Ce réemploi est donc la seule trace à ce jour identifiée
+          d’un texte de piété populaire, qui a sans doute pu avoir une
+          circulation importante, mais dont la pérennité sous forme de livre à
+          part entière n’a pas été assurée. C’est bien la destruction
+          consciente d’un des exemplaires qui nous fournit aujourd’hui la
+          preuve de son existence.</p>
+          <p xml:id="d1e271">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-e3cs5tfx">reliure</term>
+              </term>
+            </term>À la
+          bibliothèque Méjanes d’<placeName ref="6452134" type="geonames" xml:base="https://www.geonames.org/">Aix-en-Provence</placeName>,
+          dans la reliure d’une édition des coutumes de Provence imprimée
+          localement, mais pas particulièrement rare, se nichent les restes
+          d’un autre <foreign xml:lang="lat">unicum</foreign>
+            <hi>(voir ill.
+          ci-contre, en bas)</hi>
+            <note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="italic">Les statutz et coustumes de Provence</hi>,
+              Aix-en-Provence, Pierre Roux, 1557 (USTC&#160;38359, Aix-en-Provence,
+              Bibliothèque Méjanes, cote&#160;Rés.&#160;O&#160;2)</p>
+            </note>. Dans ce cas-ci, l’ensemble de la page de titre survit et
+          nous permet d’établir qu’il s’agit de l’unique exemplaire d’une
+          édition de poèmes de <persName type="_temp">Pierre Demay de
+          Châtellerault</persName>. Mais au-delà de la rareté de l’édition,
+          l’intérêt provient également du fait que c’est la seule édition
+          connue de ce texte, et la seule publication de son auteur. La valeur
+          de cette découverte est d’autant plus considérable qu’il s’agit de
+          la seule édition dont la publication est due au libraire
+          d’<placeName ref="6452134" type="geonames" xml:base="https://www.geonames.org/">Aix-en-Provence</placeName>
+            <persName type="_temp">Clément Pache</persName>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Pierre Demay, <hi rend="italic">Elegie et autres
+              epitaphes</hi>, Lyon, [Antoine Gryphe] pour Clément Pache à
+              Aix-en-Provence, 1566, USTC 76494</p>
+            </note>. La page de titre ne survit pas seule&#160;: la plus grande
+          partie d’une autre page est également visible, ce qui nous permet de
+          goûter un peu aux vers de l’auteur… et de déterminer qu’il s’agit
+          ici d’un défet. En d’autres termes, la seule publication entreprise
+          par <persName type="_temp">Pache</persName> ne fut pas un succès
+          puisqu’on recycla ses exemplaires pour réduire les coûts d’une
+          reliure.</p>
+          <figure xml:id="d1e289">
+            <graphic url="https://didomena.ehess.fr/downloads/1g05fm603.jpg"/>
+            <head xml:id="d1e290">Figure 7. Le seul témoignage de l’édition
+            des poèmes de Pierre Demay (coll. Bibliothèque Méjanes,
+            Aix-en-Provence). Bibliothèque Méjanes, cote Rés. O 2</head>
+          </figure>
+          <p xml:id="d1e294">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-ohaapat7">analyse</term>
+              </term>
+            </term>D’autres
+          cas de fragments uniques sont plus difficiles à identifier. Sans
+          leur page de titre et sans colophon qui permette de les rattacher à
+          des éditions existantes ou de les déclarer nouveaux, ces fragments
+          doivent être examinés et analysés en utilisant à la fois leur
+          contenu et des détails de bibliographie matérielle. C’est seulement
+          au terme d’une véritable enquête que l’on peut alors procéder à leur
+          catalogage. Ce processus est laborieux, mais le jeu peut en valoir
+          la chandelle. Ainsi, on trouve dans un volume d’ordonnances et de
+          statuts, publié au début du <date from="1515" to="1547" type="_temp">règne de <persName ref="028254287" type="idref" xml:base="https://www.idref.fr/">François&#160;Ier</persName>
+            </date> et
+          aujourd’hui conservé à la bibliothèque Taylor à <placeName ref="2640729" type="geonames" xml:base="https://www.geonames.org/">Oxford</placeName>, un fragment
+          imprimé qui avait été collé au plat de la reliure<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>
+                <hi rend="italic">Les ordonnances et status royaulx faictz
+              par les trescrestiens roys de France cy apres declaires avec
+              aultres plusieurs bonnes ordonnances et constitutions</hi>,
+              Paris, Jean Petit, 1517 (Taylor Institution Library,
+              cote&#160;Vet&#160;Fr&#160;IB&#160;66)</p>
+            </note>. Composé d’un seul feuillet, il ne contient aucune
+          information quant à sa publication, mais comporte des indices qui
+          peuvent mener à son identification.</p>
+          <p xml:id="d1e303">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-zhtmaszx">paléographie</term>
+                  </term>
+                </term>
+              </term>
+            </term>En
+          premier lieu, le texte imprimé en caractères gothiques comporte
+          assez de lettres pour qu’il soit comparé aux fac-similés des
+          répertoires typographiques. Deuxièmement, au verso du feuillet se
+          trouve une gravure sur bois représentant un roi sur son trône,
+          sceptre à la main, entouré de conseillers. Enfin, sur le recto, une
+          lettrine imprimée fournit un indice supplémentaire au chercheur. Les
+          trois sources croisées sont suffisantes pour que l’on établisse
+          qu’il s’agit d’une édition lyonnaise provenant de l’atelier de
+          l’imprimeur <persName type="_temp">Claude Dayne</persName>.
+          <persName type="_temp">Dayne</persName>, dit Vicaire, eut une
+          carrière relativement courte, puisqu’il est attesté à <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName> uniquement
+          <date from="1491" to="1498" type="_temp">entre 1491 et
+          1498</date>
+            <note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Voir la notice qui lui est consacrée dans le «&#160;Dictionnaire
+              des imprimeurs et libraires lyonnais du quinzième siècle&#160;», in
+              Frédéric Barbier&#160;(dir.), <hi rend="italic">Le berceau du livre&#160;:
+              autour des incunables. Études et essais offerts au professeur
+              Pierre Aquilon par ses élèves, ses collègues et ses amis</hi>,
+              Genève, Droz, 2004, p.&#160;209-225, n<hi rend="sup">o</hi>&#160;46.</p>
+            </note>. Une partie du matériel que l’on trouve ici fut employé
+          pour la première fois en <date type="_temp" when="1498">1498</date>,
+          à la fin de sa carrière, se retrouva ensuite chez <persName ref="145518949" type="idref" xml:base="https://www.idref.fr/">Jean
+          de Vingle</persName> et fut réutilisé par son fils, <persName ref="132282089" type="idref" xml:base="https://www.idref.fr/">Pierre</persName>, dans ses
+          publications illicites<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Pour la réutilisation, voir Eugénie Droz, «&#160;Pierre de Vingle,
+              l’imprimeur de Farel&#160;», in <hi rend="italic">Aspects de la
+              propagande religieuse</hi>, Genève, Droz, 1957, p.&#160;38-78 (ici
+              p.&#160;59).</p>
+            </note>.</p>
+          <p xml:id="d1e322">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-p5aiheda">incipit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>La longue
+          vie de ce matériel ne doit cependant pas nous induire en erreur&#160;: la
+          lettrine est dans un état de dégradation très voisin de celui
+          qu’elle avait dans une autre édition, cette fois datée de <date type="_temp" when="1497">1497</date>. De plus, le texte lui-même
+          nous incite à dater ce fragment de <date type="_temp" when="1498">1498</date>. Il s’agit en effet d’une description de
+          l’entrée de <persName ref="028714008" type="idref" xml:base="https://www.idref.fr/">Louis&#160;XII</persName> dans
+          <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> le <date type="_temp" when="1498-07-02">2&#160;juillet de cette même année</date>.
+          L’identification du texte constitue l’intérêt principal du fragment.
+          Il existe quatre éditions connues qui décrivent cet événement et,
+          bien qu’aucune des quatre ne soit datée, il est probable qu’elles
+          aient été faites dans les mois qui le suivirent<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Ces éditions sortirent des presses de Pierre Le Caron
+              (GW&#160;9323, 9324 et 932510N) et Antoine Vérard (GW&#160;9325) à Paris.
+              Le fait que trois d’entre elles sortirent du même atelier laisse
+              supposer un succès commercial dans la suite de l’événement.</p>
+            </note>. Cela permet de suggérer que ce fragment serait donc le
+          seul témoin d’une édition incunable jusqu’ici inconnue. Plus
+          important encore, il s’agit là de la seule version imprimée en
+          dehors de <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, c’est-à-dire
+          que ce feuillet nous permet de comprendre que l’entrée n’avait pas
+          simplement eu un retentissement local, mais qu’on estimait que sa
+          description méritait une édition lyonnaise et piquerait l’intérêt du
+          lectorat d’une autre ville. Enfin, notons que le texte ne correspond
+          pas exactement à celui imprimé à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> et suggère
+          donc qu’au moins une variante était en circulation<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>J’analyserai plus longuement ce cas dans un article qui lui
+              sera entièrement consacré.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e330">
+          <head subtype="level1" xml:id="d1e331">Pérenniser l’éphémère</head>
+          <p xml:id="d1e333">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-ohaapat7">analyse</term>
+              </term>
+            </term>L’idée
+          que ces fragments puissent nous renseigner sur des éditions, voire
+          des textes perdus, revêt une importance particulière pour les types
+          de publications qui n’avaient pas vocation à être collectionnés,
+          mais simplement utilisés puis jetés. Ces impressions éphémères sont
+          ainsi souvent mal connues des chercheurs qui parfois les relèguent à
+          un statut inférieur pour ne pas avoir à les analyser<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Voir, par exemple, la notion de «&#160;non-livre&#160;» qui trahit une
+              incompréhension fondamentale de ce qui constitue un livre et
+              induit une vision faussée du fonctionnement de l’économie de ce
+              secteur de l’industrie.</p>
+            </note>. Les repérer et les décrire permet d’apprécier leur rôle,
+          mais également de trouver et de comprendre des textes qui ont
+          parfois eu un impact considérable. Ceci est vrai même pour des
+          propos publiés sous forme de feuilles volantes&#160;: c’est de cette
+          manière que furent d’abord imprimées les 95&#160;thèses de <persName ref="026998416" type="idref" xml:base="https://www.idref.fr/">Luther</persName> à <placeName ref="2807348" type="geonames" xml:base="https://www.geonames.org/">Wittenberg</placeName> en <date type="_temp" when="1517">1517</date>, puis les placards contre la
+          messe en <date type="_temp" when="1534">1534</date> –&#160;des textes
+          fondamentaux pour expliquer les déchirements religieux, politiques
+          et sociétaux du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>.</p>
+          <p xml:id="d1e341">Traquer ces impressions est donc une priorité,
+          mais leur intégration dans les reliures de volumes provoque des
+          problèmes particuliers. Les feuilles volantes ont en effet des
+          caractéristiques qui rendent leur identification difficile. Ainsi,
+          leur format in-plano faisait en sorte qu’elles devaient être coupées
+          pour être réutilisées. La perte de texte qui en résultait rend plus
+          ardue leur exploitation aujourd’hui. De plus, en général, on
+          n’imprimait que d’un côté de la feuille. Ceci permettait certes de
+          s’en servir comme d’une affiche, mais tout naturellement, lorsque
+          ces impressions étaient recyclées, la face imprimée était collée
+          contre la reliure et seul le verso vierge reste aujourd’hui visible.
+          Parfois cela suffit pour rendre le texte invisible ou, lorsque ce
+          n’est pas complètement le cas, il faut souvent photographier la page
+          blanche pour pouvoir manipuler l’image et faire apparaître un texte
+          lisible.</p>
+          <p xml:id="d1e343">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+          livre</term>
+                  </term>
+                </term>
+              </term>
+            </term>Un exemple nous en est donné
+          par la garde d’un exemplaire des œuvres de <persName ref="140809341" type="idref" xml:base="https://www.idref.fr/">Georges de
+          Selve</persName> conservé à la Bibliothèque universitaire de
+          <placeName ref="6432801" type="geonames" xml:base="https://www.geonames.org/">Rennes</placeName>&#160;2 <hi>(voir
+          ill. p.&#160;67, en haut à droite)</hi>
+            <note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Georges de Selve, <hi rend="italic">Œuvres</hi>, Paris,
+              Benoît Prévost pour Galliot du Pré, 1559 (USTC&#160;1166,
+              Bibliothèque universitaire de Rennes&#160;2, cote&#160;21393)</p>
+            </note>. La dernière page de garde collée contre le plat ne laisse
+          deviner que par translucidité qu’il s’agit en fait d’une feuille
+          volante imprimée et recyclée. Le contenu est doublement caché, mais
+          en prenant une photo on peut déterminer qu’il s’agissait de lettres
+          signées par l’évêque d’<persName type="_temp">Angers Claude de
+          Rueil</persName> et datées du <date type="_temp" when="1635-06-09">9&#160;juin&#160;1635</date>. Par ce biais, on découvre un
+          texte qui nous serait sinon inconnu, et dans lequel est mentionnée
+          l’organisation d’événements locaux. Les lettres nous renseignent
+          donc sur les activités épiscopales du <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi>&#160;siècle</date>, mais aussi sur
+          l’exemplaire lui-même&#160;: le «&#160;<foreign xml:lang="lat">terminus post
+          quem</foreign>&#160;» de fabrication de la reliure est repoussé après
+          <date type="_temp" when="1635">1635</date>, et le contexte angevin
+          de sa fabrication est établi. Notons également la présence de la
+          signature qui souligne qu’il ne s’agit pas ici d’un défet, puisqu’on
+          n’aurait pas signé un texte fautif.</p>
+          <figure xml:id="d1e357">
+            <graphic url="https://didomena.ehess.fr/downloads/0k225k133.jpg"/>
+            <head xml:id="d1e358">Figure 8. La photo, et sa version
+            retravaillée, de la page de garde du volume&#160;21393 de la
+            Bibliothèque universitaire de Rennes&#160;2</head>
+          </figure>
+          <p xml:id="d1e360">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+              </term>
+            </term>Ces
+          exemples d’imprimés, derniers témoins de l’existence de tirages de
+          plusieurs centaines, voire plus, d’exemplaires aujourd’hui tous
+          détruits, soulignent la fragilité de nos connaissances du monde des
+          livres des siècles passés. Pour chaque cas tiré de l’oubli par
+          l’examen minutieux de volumes d’autres textes, de nombreux autres
+          ont disparu sans laisser de traces. L’analyse de ces fragments
+          sauvés par la qualité des matériaux avec lesquels ils avaient été
+          fabriqués peut ouvrir une fenêtre sur un monde aujourd’hui encore
+          inconnu, absent même des meilleurs catalogues. Leur découverte fait
+          revivre non seulement des exemplaires et des éditions, mais aussi
+          des textes, des libraires et des auteurs dont la connaissance
+          semblait perdue. Ces exemplaires soulignent aussi un paradoxe&#160;: la
+          destruction consciente de l’un d’entre eux peut être la source de sa
+          conservation, au moins partielle. Ils en suggèrent également un
+          autre&#160;: pour trouver les textes, il ne faut pas les cibler en les
+          cherchant dans un catalogue mais s’en remettre à la sérendipité<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>La sérendipité est cet heureux hasard qui permet de faire une
+              découverte alors qu'elle ne constituait pas l'objectif premier
+              des recherches entreprises.</p>
+            </note> – une approche qui nous est de plus en plus étrangère.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

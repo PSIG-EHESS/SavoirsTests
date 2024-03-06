@@ -1,0 +1,1034 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_22_Mehl.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">L’ombre de la science arabe&#160;: dans les marges de la
+        bibliothèque de Copernic</title>
+        <author role="aut">
+          <forename>Édouard</forename>
+          <surname>Mehl</surname>
+          <idno type="IDREF">056182414</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/R3ILG7HD" type="journalArticle" xml:lang="">
+          <analytic>
+            <title level="a">L’ombre de la science arabe&#160;: dans les marges de
+            la bibliothèque de Copernic</title>
+            <author>
+              <forename>Édouard</forename>
+              <surname>Mehl</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">22</biblScope>
+              <biblScope unit="page">72-83</biblScope>
+              <date>2020</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="eng"/>
+        <language ident="ita"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-p5wqzjnr">histoire des
+          sciences</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-yuw7gtea">savant</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-o4gbygyd">astrophysique<term ref="doi:10.34817/sv-z68mcrvu">cosmologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Maragha</placeName>
+          </term>
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1200" to="1399" type="_temp">13<hi rend="sup">e</hi>-14<hi rend="sup">e</hi>&#160;siècles</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T12:31:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">L’ombre de la science
+          arabe&#160;: dans les marges de la bibliothèque de Copernic</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Édouard Mehl</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Professeur de philosophie moderne et
+          d’histoire des sciences, Université de Strasbourg</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e45">
+          <graphic url="https://didomena.ehess.fr/downloads/g445cp18b.jpg"/>
+          <head xml:id="d1e46">Figure 1. Globe céleste de Maragha
+          (coll.&#160;Louvre-Lens). Photo © Musée du Louvre, Dist. RMN-Grand Palais
+          / Raphaël Chipault</head>
+        </figure>
+        <p xml:id="d1e50">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-5wyh9eft">critique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-tsfpmp5i">arabe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+        Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                </term>
+              </term>
+            </term>
+          </term>Depuis
+        quelques décennies, une âpre discussion divise les historiens des
+        sciences autour de la question de la réception de l’astronomie de
+        l’école de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Maragha</placeName> (nord-ouest
+        de l’<placeName ref="130758" type="geonames" xml:base="https://www.geonames.org/">Iran</placeName> actuel), fleuron
+        de la science arabo-musulmane des <date from="1200" to="1399" type="_temp">13<hi rend="sup">e</hi>-14<hi rend="sup">e</hi>&#160;siècles</date>, dans l’œuvre de l’astronome
+        <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Nicolas Copernic</persName> (<date from="1473" to="1543" type="_temp">1473-1543</date>)<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Dans l’abondante bibliographie, signalons les publications
+            récentes de F.&#160;Jamil Ragep, «&#160;From Tūn to Toruń&#160;: The Twists and
+            Turns of the Ṭūsī-Couple&#160;», in <hi rend="italic">Before
+            Copernicus. </hi>
+              <hi rend="italic">The cultures and contexts of
+            scientific learning in the fifteenth century</hi>, Rivka Feldhay
+            et F.&#160;Jamil Ragep&#160;(éd.), Montréal &amp; Kingston, London, Chicago,
+            McGill-Queen’s University Press, p.&#160;161-197&#160;; P.&#160;Barker,
+            T.&#160;Heidarzadeh, «&#160;Copernicus, the Ṭūsī Couple and East-West
+            Exchange in the Fifteenth Century&#160;», in M.&#160;Á.&#160;Granada, P.&#160;J.&#160;Boner
+            &amp; D.&#160;Tessicini&#160;(éd.), <hi rend="italic">Unifying Heaven and
+            Earth, Essays in the History of Early Modern Cosmology</hi>,
+            Barcelone, Edicions de la Universitat de Barcelona, 2016,
+            p.&#160;19-57.</p>
+          </note>. Cette querelle comporte plusieurs aspects, certains
+        relevant plutôt de l’histoire culturelle et de la critique des
+        préjugés ethnocentristes qui, supposément, dominent l’histoire des
+        sciences depuis plusieurs siècles. D’autres voix insistent plutôt sur
+        la méthodologie et l’administration de la preuve en histoire des
+        sciences, en rappelant que l’assertion <hi rend="italic">
+            <foreign xml:lang="lat">post hoc ergo propter hoc</foreign>
+          </hi>est un pur sophisme<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Voir A.&#160;Goddu, <hi rend="italic">Copernicus and the
+            Aristotelian Tradition</hi>. <hi rend="italic">Education, reading,
+            and Philosophy in Copernicus’ path to heliocentrism</hi>, Leiden,
+            Brill, 2010 (Medieval and early modern science, vol.&#160;15),
+            Annexe&#160;VI, p.&#160;476-486</p>
+          </note>. Sans ignorer cet aspect des choses, nous nous intéresserons
+        davantage ici au réseau de questions scientifiques précises qui fait
+        la substance et le cœur même du problème, le tout étant de savoir si
+        l’astronomie copernicienne fait ou non usage d’éléments originaux
+        empruntés à cette école astronomique des <date from="1200" to="1399" type="_temp">13<hi rend="sup">e</hi>-14<hi rend="sup">e</hi>&#160;siècles</date> et si, le cas échéant, ces éléments
+        ont pu jouer un rôle de déclencheur dans les raisons qui ont fait que
+        <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>, qui n’est
+        évidemment pas né copernicien, l’est devenu. Dans les faits, cette
+        discussion porte principalement sur l’usage que fait <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> du
+        «&#160;Ṭūsī-Couple&#160;»<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>C’est le nom qu’on donne, du nom de son inventeur présumé Naṣīr
+            al-Dīn al-Ṭūsī (1201-1274), à ce dispositif qui dérive le
+            mouvement rectiligne d’un point du petit cercle selon le diamètre
+            du grand cercle. De fait, les historiens qui ne privilégient pas
+            la source arabe l’appellent, suivant Proclus, «&#160;mouvement
+            harmonique&#160;», ou bien, suivant Copernic lui-même, «&#160;mouvement
+            selon la largeur du cercle&#160;». Le montage exige deux cercles
+            proportionnés (de rapport&#160;2:1), le diamètre du petit cercle
+            correspondant au rayon du grand. La rotation de l’un dans l’autre
+            fait qu’il y a un point du petit cercle qui se déplace selon le
+            diamètre du grand cercle, selon un mouvement de va-et-vient, comme
+            celui d’un loquet. Sur la figure de la p.&#160;75 en bas, le cercle&#160;DGH
+            de centre&#160;F roule dans le cercle&#160;ABG de centre&#160;D, en inscrivant
+            une droite&#160;AB, diamètre du grand cercle.</p>
+          </note>
+          <hi> (voir ill. p.&#160;75)</hi> dans ses constructions du
+        mouvement des planètes inférieures (Vénus et Mercure), mais aussi dans
+        l’explication du mouvement des fixes, ce «&#160;branle languissant&#160;» de la
+        sphère des étoiles fixes, que <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> supprime en lui
+        substituant un mouvement équivalent de balancement de l’axe de la
+        rotation terrestre – troisième mouvement qui s’ajoute donc à ceux de
+        rotation diurne et de révolution annuelle. Ce troisième mouvement peut
+        toutefois être étudié pour lui-même, indépendamment du référentiel
+        hélio- ou géocentrique adopté – c’est-à-dire indépendamment de tout
+        engagement cosmologique impliquant qu’on considère la Terre comme
+        immobile au centre du monde, ou comme une planète dans le ciel. La
+        question du «&#160;Ṭūsī-Couple&#160;» et de la source arabo-islamique présumée
+        de <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> en croise donc
+        une autre, qui porte, elle, sur le rôle de l’astronomie stellaire dans
+        l’émergence du système héliocentrique, et ces deux questions sont en
+        fait si étroitement liées qu’il n’y a guère de sens à les traiter
+        séparément.</p>
+        <figure xml:id="d1e96">
+          <graphic url="https://didomena.ehess.fr/downloads/t722hh89w.jpg"/>
+          <head xml:id="d1e97">Figure 2. «&#160;Ṭūsī-Couple&#160;» de Naṣīr al-Dīn
+          al-Ṭūsī (coll.&#160;Staatsbibliothek zu Berlin). Cliché Staatsbibliothek
+          zu Berlin (MS. Or. oct. 3568, fol. 18b)</head>
+        </figure>
+        <div type="section1" xml:id="d1e101">
+          <head subtype="level1" xml:id="d1e102">Le «&#160;Ṭūsī-Couple&#160;»</head>
+          <p xml:id="d1e104">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-2emutcrk">métaphysique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+          matière<term ref="doi:10.34817/sv-tjsyqxet">physique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-7xejfmxf">mathématiques</term>
+                </term>
+              </term>
+            </term>Ce
+          «&#160;couple de Ṭūsī&#160;» peut être considéré d’un triple point de vue –
+          selon la tripartition aristotélicienne des sciences théorétiques,
+          qui prévaut très largement à l’époque de haute activité de
+          l’observatoire de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Maragha</placeName>&#160;:
+          mathématique, physique et métaphysique.</p>
+          <p xml:id="d1e106">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>1<hi rend="sup">o</hi>&#160;Mathématiquement&#160;: le mouvement de ce point est un
+          cas de ce que les mathématiciens français (<persName ref="027059073" type="idref" xml:base="https://www.idref.fr/">Pascal</persName>,
+          <persName ref="026826216" type="idref" xml:base="https://www.idref.fr/">Desargues</persName>, <persName ref="030111633" type="idref" xml:base="https://www.idref.fr/">Lahire</persName>) vont étudier
+          dans leurs travaux sur le mouvement de la roulette. Le mouvement du
+          cercle engendre une droite qui est une forme dégénérée
+          d’hypocycloïde. Mais, comme le note <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>
+          dans un ajout du manuscrit autographe du <hi rend="italic">De&#160;Revolutionibus </hi>(<date type="_temp" when="1543">1543</date>), ce même dispositif de mouvement coordonné
+          des deux cercles permet aussi de construire l’ellipse, si l’on
+          considère n’importe quel autre point du cercle que son centre ou sa
+          circonférence <hi>(voir ill. ci-contre, en bas)</hi>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>N.&#160;Copernic, <hi rend="italic">De&#160;Rev</hi>., III, 4 (<hi rend="italic">De&#160;Revolutionibus orbium coelestium</hi>. <hi rend="italic">Des révolutions des orbes célestes</hi>. Édition
+              critique, traduction et notes par Michel-Pierre Lerner,
+              Alain-Philippe Segonds et Jean-Pierre Verdet, Paris, Les Belles
+              Lettres, 2015, vol.&#160;2, p.&#160;487)&#160;: «&#160;Certains auteurs appellent ce
+              mouvement «&#160;mouvement selon la largeur du cercle&#160;» (c’est-à-dire
+              le long du diamètre). Cependant ils déduisent la période et la
+              grandeur à partir de la circonférence du cercle, comme nous le
+              montrerons un peu plus bas. Et il faut cependant ici faire la
+              remarque suivante&#160;: si les cercles&#160;HG et&#160;CF sont inégaux, les
+              autres conditions demeurant identiques, ils ne décrivent pas une
+              ligne droite, mais une section conique ou cylindrique, que les
+              mathématiciens [appellent] «&#160;ellypsim&#160;». Mais il sera question
+              de cela ailleurs&#160;». Ce passage de l’autographe n’est pas retenu
+              dans l’imprimé de 1543, car il ne renvoie à rien et Copernic ne
+              revient, ni dans le <hi rend="italic">De&#160;Rev</hi>., ni ailleurs,
+              sur la génération de l’ellipse. Sa première connaissance des <hi rend="italic">Coniques </hi>vient sans doute des extraits
+              publiés par Giorgio Valla dans la somme <hi rend="italic">De&#160;rebus expetendis et fugiendis opus
+              </hi>(Venise, Manutius, 1501)&#160;; mais on peut également noter que
+              l’<hi rend="italic">Underweysung der Messung </hi>de Dürer
+              (Nuremberg, 1525) est le premier ouvrage qui décalque le terme
+              grec et décrit la «&#160;ligne ellipse&#160;». Voir Dominique Raynaud,
+              «&#160;Le tracé continu des sections coniques à la Renaissance&#160;:
+              applications optico-perspectives, héritage de la tradition
+              mathématique arabe&#160;», in <hi rend="italic">Arabic Sciences and
+              Philosophy</hi>, Cambridge, 2007, 17, p.&#160;299-345.</p>
+            </note>. C’est un corollaire, mais important, que <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> n’a pas manqué
+          de signaler, ce qui suffit pour que le problème des sources arabes
+          de l’astronome soit dépaysé&#160;: au lieu de chercher des antécédents à
+          l’étude de ce mouvement dans l’astronomie, nous pensons qu’il les
+          faut aller chercher dans le réservoir théorique que constitue
+          l’étude des coniques – dont le grand historien de l’astronomie
+          <persName ref="028527720" type="idref" xml:base="https://www.idref.fr/">Otto Neugebauer</persName> a montré
+          qu’elle constituait, depuis leur origine grecque, les mathématiques
+          de l’astronomie<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Otto Neugebauer, «&#160;The Astronomical Origin of the Theory of
+              Conic Sections&#160;» [1948], in <hi rend="italic">Astronomy and
+              History. Selected Essays</hi>, New York, Springer, 1983,
+              p.&#160;295-297</p>
+            </note>. Les sections coniques sont aussi, de manière encore plus
+          évidente, les mathématiques de l’optique, domaine dans lequel les
+          sciences arabes ont eu six ou sept siècles d’avance sur l’Occident
+          latin. Ce n’est donc pas un hasard si celui à qui on attribue
+          l’invention de ce mécanisme, <persName ref="235594296" type="idref" xml:base="https://www.idref.fr/">Naṣīr al-Dīn al-Ṭūsī</persName>
+          (<date from="1201" to="1274" type="_temp">1201-1274</date>), est
+          aussi un commentateur des <hi rend="italic">Coniques
+          </hi>d’<persName ref="032049226" type="idref" xml:base="https://www.idref.fr/">Apollonius</persName>, et surtout
+          des livres perdus (livres&#160;V-VII), que le <date type="_temp">Moyen-Âge</date> latin n’a jamais connus<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Voir sur ce point essentiel&#160;: <hi rend="italic">Apollonius.
+              Conics, Books</hi>&#160;<hi rend="italic">V to VII. The Arabic
+              Translation of the Lost Greek Original in the Version of the
+              Banu Musa</hi>, vol.&#160;I, éd. by G.&#160;J.&#160;Toomer, New York, Springer,
+              1990.</p>
+            </note>.</p>
+          <figure xml:id="d1e162">
+            <graphic url="https://didomena.ehess.fr/downloads/0p096g53k.jpg"/>
+            <head xml:id="d1e163">Figure 3. Copernic, <hi rend="italic">De&#160;Revolutionibus orbium coelestium</hi>, III, 4
+            (Nuremberg, Petreius, 1543, p.&#160;67&#160;; coll.&#160;Uppsala University
+            Library). Clichés Uppsala University Library / Licenciering av
+            verk: Public domain mark (Ingen känd upphovsrätt)</head>
+          </figure>
+          <p xml:id="d1e170">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+          matière<term ref="doi:10.34817/sv-tjsyqxet">physique<term ref="doi:10.34817/sv-qnlaqw2q">mécanique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+          matière<term ref="doi:10.34817/sv-tjsyqxet">physique</term>
+                  </term>
+                </term>
+              </term>
+            </term>2<hi rend="sup">o</hi>&#160;En physique et en mécanique, ce mouvement présente
+          l’intérêt de rendre équivalents un mouvement circulaire régulier et
+          un mouvement rectiligne discontinu. Il offre un argument de poids
+          dans la discussion ouverte dans le dernier livre de la <hi rend="italic">Physique </hi>d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> sur le problème
+          du repos intermédiaire ou «&#160;<foreign xml:lang="lat">media
+          quies</foreign>&#160;». Lorsque le point mobile sur la largeur du cercle
+          atteint son extrémité, doit-il cesser pour que le mouvement
+          rétrograde puisse commencer&#160;? On doit l’affirmer si l’on considère
+          que le mouvement de l’aller et celui du retour sont deux mouvements
+          différents, mais on doit le nier si l’on considère que le mouvement
+          rectiligne est un mouvement continu unique, et que seule change la
+          <hi rend="italic">direction </hi>de ce mouvement — ce que <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName> appellera plus
+          tard sa <hi rend="italic">détermination</hi>. Il est d’ailleurs
+          remarquable que lorsque <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName> explicite son
+          point de vue au sujet des cordes vibrantes, du rebond des ballons,
+          ou de l’oscillation du pendule, il en appelle précisément à la <hi rend="italic">continuité </hi>du mouvement qui ne connaît aucune
+          interruption, mais qui change seulement sa détermination. C’est
+          qu’il comprend ces phénomènes physiques en géomètre, sur le modèle
+          du «&#160;<foreign xml:lang="lat">motus ad latitudinem
+          circuli</foreign>&#160;», et il est donc évident que le «&#160;Ṭūsī-Couple&#160;»
+          est à intégrer à l’histoire conceptuelle du mouvement inertiel,
+          fondement de la physique moderne, galiléo-cartésienne.</p>
+          <p xml:id="d1e184">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+          matière<term ref="doi:10.34817/sv-tjsyqxet">physique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-oowpylbp">ontologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>3<hi rend="sup">o</hi>&#160;Métaphysiquement, l’introduction de cette
+          construction ignorée d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName> remet
+          radicalement en cause la distinction ontologique des deux régions de
+          la réalité physique&#160;: le céleste, où il n’y a que des mouvements
+          circulaires uniformes, réguliers, et le terrestre où il n’y a que
+          des mouvements rectilignes discontinus. L’homogénéité des lois de la
+          nature et du mouvement, que l’on dit caractériser la révolution
+          galiléenne au seuil de l’âge classique, est inscrite dans ce montage
+          qu’on peut considérer comme un monogramme de la science moderne. On
+          comprend d’un seul coup d’œil, en le voyant, l’unité fondamentale de
+          tout ce que la raison humaine sépare et tient pour opposés&#160;: la
+          quantité continue et discrète, le droit et le courbe, l’éternel et
+          le temporel…</p>
+          <p xml:id="d1e186">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-o4gbygyd">astrophysique<term ref="doi:10.34817/sv-z68mcrvu">cosmologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                  </term>
+                </term>
+              </term>
+            </term>Le
+          «&#160;Ṭūsī-Couple&#160;» a donc une signification qui excède largement le
+          domaine restreint de son application dans le champ de l’astronomie,
+          qui n’est d’ailleurs probablement pas le lieu de son invention. Ce
+          mécanisme par lequel on peut déduire un mouvement rectiligne d’une
+          combinaison de mouvements circulaires (et réciproquement) n’a pu
+          émerger et servir aux astronomes de métier que parce que son
+          promoteur, <persName ref="235594296" type="idref" xml:base="https://www.idref.fr/">Naṣīr al-Dīn al-Ṭūsī</persName>,
+          est avant tout un parfait connaisseur de la géométrie des coniques.
+          La discussion sur les «&#160;prédécesseurs arabes&#160;» doit donc tenir
+          compte du fait que l’apport principal des savants arabes tient dans
+          leur inventivité en matière de mathématique abstraite, et du rôle
+          que ces inventions ont pu jouer par surcroît dans un contexte
+          astronomique et cosmologique.</p>
+        </div>
+        <div type="section1" xml:id="d1e188">
+          <head subtype="level1" xml:id="d1e189">Copernic mathématicien
+          astronome</head>
+          <p xml:id="d1e191">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-p5wqzjnr">histoire des
+          sciences</term>
+                  </term>
+                </term>
+              </term>
+            </term>Du point de vue
+          astronomique, l’une des fonctions du «&#160;Ṭūsī-Couple&#160;» est de pouvoir
+          faire l’économie du «&#160;point équant&#160;». L’équant, dont l’invention
+          remonte à <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName>, est un point
+          imaginaire autour duquel un corps céleste décrit théoriquement une
+          trajectoire circulaire à vitesse angulaire uniforme, ce qui n’est
+          pas le cas du mouvement apparent du soleil, vu par un observateur
+          terrestre. Postuler un point équant était une solution mathématique
+          élégante à un problème qui n’est pas à strictement parler
+          mathématique, mais qui est celui de l’écart entre astronomie et <hi rend="italic">physique, </hi>car la vitesse constante d’un mobile
+          dépend de son moteur, et relève donc du mouvement pris comme l’effet
+          de la force motrice, alors que dans la pure géométrie des mouvements
+          apparents, on ne tient aucun compte de la cause motrice. On a donc
+          remarqué, de longue date, que l’astronomie arabe cherchait des
+          moyens d’éliminer l’équant ptoléméen, ce qui est aussi le cas de
+          <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>. Mais pour les
+          premiers, c’est sur la base d’une conviction aristotélicienne
+          inébranlable, strictement métaphysique, selon laquelle les
+          mouvements célestes permettent d’inférer l’existence des substances
+          immobiles et séparées qui les produisent. Avec <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>, qui se
+          retranche dans la pure description géométrique des apparences, et
+          qui ne spécule pas sur leurs causes, c’est pour prouver que la Terre
+          a un centre de gravité qui ne coïncide pas avec le centre du monde.
+          En un mot, les astronomes arabes et <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>
+          cherchent à éliminer l’équant, mais pour des raisons qui sont, dans
+          les faits, diamétralement opposées.</p>
+          <p xml:id="d1e196">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-mgygrrzo">historiographie</term>
+              </term>
+            </term>On
+          ne doit donc pas isoler le «&#160;Ṭūsī-Couple&#160;» d’un autre mécanisme, que
+          les spécialistes appellent le «&#160;lemme d’al-Urdi&#160;» («&#160;<foreign xml:lang="eng">Urdi-Lemma</foreign>&#160;»), d’après le nom de son
+          promoteur <persName ref="097938858" type="idref" xml:base="https://www.idref.fr/">Muʾayyad al-Dīn
+          al-ʿUrḍī</persName>, astronome contemporain d’<persName ref="235594296" type="idref" xml:base="https://www.idref.fr/">al-Ṭūsī</persName> et actif à
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Maragha</placeName> dans les
+          <date from="1250" to="1259" type="_temp">années&#160;1250</date>. Mais ce
+          montage géométrique, qui vise lui aussi à supprimer l’équant
+          ptoléméen, est un bel exemple d’artefact historiographique, car ce
+          «&#160;lemme&#160;» est en réalité une application de ce que <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName> attribue à
+          <persName ref="032049226" type="idref" xml:base="https://www.idref.fr/">Apollonius de Perge</persName>,
+          dans l’<hi rend="italic">Almageste&#160;</hi>XII.1. <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName> rapporte une
+          démonstration d’<persName ref="032049226" type="idref" xml:base="https://www.idref.fr/">Apollonius</persName> qui porte sur
+          l’équivalence entre constructions géométriques par épicycle ou par
+          excentrique pour rendre compte des stations et rétrogradations des
+          planètes. Comme la chose a déjà été remarquée, la convertibilité des
+          modèles – excentrique et épicyclique – repose sur une relation
+          géométrique (la relation entre le pôle et la polaire d’une section
+          conique), que le même <persName ref="032049226" type="idref" xml:base="https://www.idref.fr/">Apollonius</persName> étudie de
+          manière générale au livre&#160;III de ses <hi rend="italic">Coniques</hi>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Otto Neugebauer, «&#160;The equivalence of Eccentric and Epicyclic
+              Motion according to Apollonius&#160;» [1959], in <hi rend="italic">Astronomy and History. </hi>
+                <hi rend="italic">Selected Essays</hi>, op.&#160;cit., p.&#160;335-351</p>
+            </note>. Plus tard, <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName>, reconstruisant
+          intégralement la démonstration fondamentale d’<persName ref="032049226" type="idref" xml:base="https://www.idref.fr/">Apollonius</persName> qu’il juge
+          très brillante («&#160;<foreign xml:lang="lat">sollertissima</foreign>&#160;»)
+          et admirablement ingénieuse, n’a point manqué de souligner son
+          origine dans la géométrie pure («&#160;<foreign xml:lang="lat">plane
+          Conica ejus sapit</foreign>&#160;»)<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Kepler, <hi rend="italic">Contra Ursum</hi>, édition et
+              traduction par N.&#160;Jardine et A.-Ph.&#160;Segonds, in <hi rend="italic">La Guerre des astronomes</hi>. <hi rend="italic">La querelle au sujet de l’origine du système
+              géo-héliocentrique à la fin du XVI</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;siècle</hi>, Paris,
+              Les Belles Lettres, 2008, vol.&#160;II/2, p.&#160;319</p>
+            </note>.</p>
+          <p xml:id="d1e229">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-8mpceijw">publication</term>
+              </term>
+            </term>Ce
+          n’est pas sans raison que <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> attache tant
+          d’importance à un problème qui va, dans le dernier quart du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>, déclencher une «&#160;guerre des
+          astronomes&#160;», dont les plus illustres protagonistes sont <persName ref="031480136" type="idref" xml:base="https://www.idref.fr/">Tycho
+          Brahe</persName> et <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>. Signalons
+          d’ailleurs que ce pugilat a éclaté après la publication d’un ouvrage
+          publié à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> en <date type="_temp" when="1588">1588</date>, le <hi rend="italic">Fundamentum Astronomicum </hi>de <persName ref="12464077X" type="idref" xml:base="https://www.idref.fr/">Nicolas Reimer
+          Ursus</persName>
+            <hi>(voir ill. ci-contre)</hi>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Nicolas Raymarus, <hi rend="italic">Fundamentum astronomicum,
+              id est Nova Doctrina Sinuum et triangulorum… cui adiuncta sunt&#160;:
+              I.</hi>
+                <hi rend="italic">&#160;Hypotheses novae ac verae motuum
+              corporum mundanorum…</hi>, Strasbourg, B.&#160;Jobin, 1588. Voir
+              également Dieter Launert, <hi rend="italic">Nova Kepleriana.
+              Astronomische Hypothesen des Nicolaus Reimers Ursus. Eine
+              Streitschrift gegen Tycho Brahe </hi>(Abhandlungen der
+              Bayerischen Akademie der Wissenschaften, München, Neue Folge,
+              146, 2019), et plus spécialement p.&#160;218-219 sur les hypothèses
+              d’Apollonius, qu’Ursus imagine avoir été d’abord celle
+              héliocentrique de Copernic, puis celle géo-héliocentrique de
+              Tycho Brahe.</p>
+            </note>.</p>
+          <figure xml:id="d1e251">
+            <graphic url="https://didomena.ehess.fr/downloads/pc289s37q.jpg"/>
+            <head xml:id="d1e252">Figure 4. Ursus, <hi rend="italic">Fundamentum Astronomicum, </hi>Strasbourg, B.&#160;Jobin,
+            1588 (coll.&#160;Zentralbibliothek Zürich). Cliché Zentralbibliothek
+            Zürich (NE 1952,18, https://doi. org/10.3931/e-rara-51629)</head>
+          </figure>
+          <p xml:id="d1e259">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-o4gbygyd">astrophysique<term ref="doi:10.34817/sv-z68mcrvu">cosmologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-mzt52qnr">hypothèse</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                  </term>
+                </term>
+              </term>
+            </term>En
+          théorie, et vue de loin, cette guerre est un conflit de priorité sur
+          l’invention du système géo-héliocentrique<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Strasbourg a été le théâtre d’une querelle opposant
+              violemment Ursus au médecin alsacien Helisaeus Röslin, en
+              particulier dans son ouvrage rédigé à Strasbourg en 1588, mais
+              publié seulement neuf ans plus tard&#160;: <hi rend="italic">De opere
+              Dei creationis seu de mundo hypotheses</hi>, Francfort,
+              A.&#160;Wechel, 1597. Ristampa anastatica dell’edizione Francoforte
+              1597, a cura di Miguel Ángel Granada, Lecce, Conte Editore
+              (Aurifodina Philosophica), 2000.</p>
+            </note>. Mais du point de vue interne, si l’on pénètre les arcanes
+          de ce conflit, on voit qu’il enveloppe une question cruciale, qui
+          est celle de savoir si l’équivalence des hypothèses d’<persName ref="032049226" type="idref" xml:base="https://www.idref.fr/">Apollonius</persName> est une
+          démonstration de géométrie pure, ou si elle est appuyée sur des
+          hypothèses astronomiques et cosmologiques déterminées, comme le
+          prétend justement <persName ref="12464077X" type="idref" xml:base="https://www.idref.fr/">Ursus</persName> — celui-ci
+          assurant de manière extravagante que le système géo-héliocentrique
+          dont il a donné une description en <date type="_temp" when="1588">1588</date> est l’invention d’<persName ref="032049226" type="idref" xml:base="https://www.idref.fr/">Apollonius de
+          Perge</persName>. Il aurait donc pour lui l’autorité des Anciens,
+          que <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> revendique pour
+          le système héliocentrique, connu depuis <persName ref="067069606" type="idref" xml:base="https://www.idref.fr/">Aristarque de
+          Samos</persName>. Au tout début des <date from="1600" to="1610" type="_temp">années&#160;1600</date>, <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName>,
+          arrivé à <placeName ref="3067696" type="geonames" xml:base="https://www.geonames.org/">Prague</placeName> au service
+          de <persName ref="031480136" type="idref" xml:base="https://www.idref.fr/">Tycho Brahe</persName>, sera chargé
+          par ce dernier de réduire en cendres cette assertion insolente, qui
+          ôte de fait toute son originalité au système dont <persName ref="031480136" type="idref" xml:base="https://www.idref.fr/">Tycho</persName> prétend être
+          l’inventeur et le promoteur. Après un examen serré du passage de
+          <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName>, <persName ref="026947676" type="idref" xml:base="https://www.idref.fr/">Kepler</persName> en conclut
+          qu’<persName ref="032049226" type="idref" xml:base="https://www.idref.fr/">Apollonius</persName> n’a pas
+          procédé «&#160;<foreign xml:lang="lat">ut astronomus artifex</foreign>&#160;»
+          (en tant qu’astronome), mais qu’il ne considère le mouvement que
+          d’une manière purement géométrique. C’est en revanche l’<persName ref="032049226" type="idref" xml:base="https://www.idref.fr/">Apollonius</persName> d’<persName ref="12464077X" type="idref" xml:base="https://www.idref.fr/">Ursus</persName> qui est une pure
+          invention, et cet «&#160;<foreign xml:lang="lat">Apollonius
+          ficticius</foreign>&#160;» n’est pas l’œuvre d’un historien, mais plutôt
+          celle d’un faussaire.</p>
+          <p xml:id="d1e268">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-epe2ahku">informatique<term ref="doi:10.34817/sv-jzf7lact">imagerie
+          numérique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-bpfouwze">philologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-h3wwz88g">texte</term>
+              </term>
+            </term>L’<hi rend="italic">Almageste </hi>constitue la seule source de
+          renseignements sur l’œuvre astronomique d’<persName ref="032049226" type="idref" xml:base="https://www.idref.fr/">Apollonius</persName>.
+          En <date type="_temp" when="1543">1543</date>, <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> s’appuie sur ce
+          passage (<hi rend="italic">De&#160;Rev</hi>. V, 35), d’une manière qui a
+          récemment permis aux éditeurs du <hi rend="italic">De&#160;Revolutionibus
+          </hi>de mettre en évidence un fait jusque-là ignoré&#160;: durant presque
+          toute sa carrière, <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> avait utilisé
+          la version arabo-latine de l’<hi rend="italic">Almageste </hi>dans
+          la traduction «&#160;<foreign xml:lang="lat">vetus</foreign>&#160;» de
+          <persName ref="030738180" type="idref" xml:base="https://www.idref.fr/">Gérard de Crémone</persName>,
+          éditée à <placeName ref="3164603" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName> en <date type="_temp" when="1515">1515</date>. Cette version, très
+          défectueuse, avait été faite sur la base d’une traduction orale du
+          texte arabe en mozarabe, langue que parlaient les colons arabes et
+          les chrétiens arabisés dans la péninsule ibérique. On imagine
+          aisément que cette série d’intermédiaires rend le <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName> arabo-latin
+          d’un usage difficile, et <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>, dont l’acribie
+          philologique est digne d’un <persName ref="085720372" type="idref" xml:base="https://www.idref.fr/">Érasme</persName>, ne s’y
+          retrouvait pas. Or dans les dernières années de sa vie, et pour la
+          rédaction des deux derniers livres du <hi rend="italic">De&#160;Revolutionibus</hi>, <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>
+          est revenu au texte grec édité à <placeName ref="2661604" type="geonames" xml:base="https://www.geonames.org/">Bâle</placeName> en <date type="_temp" when="1538">1538</date>, que lui a apporté le jeune
+          mathématicien de <placeName ref="2807348" type="geonames" xml:base="https://www.geonames.org/">Wittenberg</placeName>
+            <persName ref="026669145" type="idref" xml:base="https://www.idref.fr/">Joachim Rheticus</persName>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Détail curieux&#160;: l’exemplaire grec de Ptolémée, offert par
+              Rheticus en 1539, et que Copernic a utilisé pour achever son
+              travail, est l’exemplaire personnel du Strasbourgeois Johannes
+              Marbach de Lindau. Sur la bibliothèque de Copernic, voir <hi rend="italic">De&#160;Rev.</hi>, vol.&#160;I, p.&#160;811-814. Sur l’exemplaire
+              de l’<hi rend="italic">Almageste </hi>et sa provenance
+              strasbourgeoise, ibid., vol.&#160;III, p.&#160;509-511.</p>
+            </note>. Ce dernier avait également apporté et offert à <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> un exemplaire
+          de l’<hi rend="italic">Astronomie </hi>de <persName ref="152471545" type="idref" xml:base="https://www.idref.fr/">Geber</persName>, qui
+          critique sévèrement <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName>
+            <note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Geber Hispalensis (Jābir&#160;b.&#160;Aflaḥ, 1100-1160). Voir le résumé
+              de son <hi rend="italic">De&#160;Astronomia libri&#160;IX </hi>(Nuremberg,
+              Petreius, 1534) dans l’<hi rend="italic">Histoire de
+              l’astronomie du Moyen-Âge </hi>de Jean-Baptiste Delambre (Paris,
+              1819, p.&#160;179-185). On doit noter que l’ouvrage est publié à
+              Nuremberg, chez l’imprimeur Petreius, où sera publié le <hi rend="italic">De&#160;Revolutionibus </hi>quelques années plus
+              tard.</p>
+            </note>. Ceci n’a pas échappé à l’œil de <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>,
+          et ses annotations marginales – que l’on peut aujourd’hui étudier
+          grâce à la numérisation intégrale de sa bibliothèque personnelle,
+          conservée à <placeName ref="2666199" type="geonames" xml:base="https://www.geonames.org/">Uppsala</placeName>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>On peut consulter l’intégralité de la bibliothèque de
+              Copernic via le site de l’Université d’Uppsala&#160;: <ref target="https://www.uu.se/en">
+                  <hi rend="underline">https://www.uu.se/en</hi>
+                </ref>. Le transfert à Uppsala résultant des prises de guerre
+              de la Suède, pendant la guerre de Trente Ans, il est certain que
+              cette bibliothèque ne contient pas l’intégralité des livres du
+              savant. Plusieurs ouvrages annotés témoignent de l’étendue et de
+              la précision des connaissances philosophiques de Copernic, et
+              même s’il faut regretter que ne s’y trouve aucun exemplaire
+              d’Aristote ou de Platon, on peut constater qu’il avait
+              attentivement lu Euclide, Ptolémée, Plutarque ou Boèce, ainsi
+              que, chez les auteurs modernes, Bessarion ou Charles de
+              Bovelles.</p>
+            </note> – montrent qu’il en a parfaitement assimilé le contenu
+          <hi>(voir ill. p.&#160;79, en haut)</hi>.</p>
+          <figure xml:id="d1e323">
+            <graphic url="https://didomena.ehess.fr/downloads/7s75dn19z.jpg"/>
+            <head xml:id="d1e324">Figure 5. Ajout manuscrit de Copernic à
+            l’<hi rend="italic">Astronomie </hi>de Jābir&#160;b.&#160;Aflaḥ&#160;: «&#160;Egregii
+            calumniatoris ptolemaei&#160;» («&#160;D’un éminent calomniateur de
+            Ptolémée&#160;»&#160;; coll.&#160;Uppsala University Library). Clichés Uppsala
+            University Library / Licenciering av verk: Public domain mark
+            (Ingen känd upphovsrätt)</head>
+          </figure>
+          <p xml:id="d1e331">
+            <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> sait notamment
+          qu’aux yeux de <persName ref="152471545" type="idref" xml:base="https://www.idref.fr/">Jābir&#160;b.&#160;Aflaḥ</persName>,
+          <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName>, par
+          «&#160;ignorance de la géométrie&#160;», s’est trompé dans la détermination
+          des distances planétaires, voire dans l’ordre des planètes,
+          <persName ref="152471545" type="idref" xml:base="https://www.idref.fr/">Jābir&#160;b.&#160;Aflaḥ</persName> soutenant
+          contre <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName> que Vénus et
+          Mercure sont «&#160;au-dessus du Soleil&#160;»<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>
+                <hi rend="italic">De&#160;Astronomia libri&#160;IX</hi>, ch.&#160;VII,
+              p.&#160;104</p>
+            </note>. <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> l’a maintes
+          fois souligné et relevé dans son exemplaire, et c’est donc
+          principalement sinon exclusivement à lui qu’il pense, sans le
+          nommer, lorsque le <hi rend="italic">De&#160;Revolutionibus
+          </hi>mentionne les arguments de «&#160;ceux qui suivent <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>&#160;» (<hi rend="italic">Timée</hi>, 38d) pour situer Vénus et Mercure
+          «&#160;<foreign xml:lang="lat">supra solem</foreign>&#160;» <hi>(voir ill.
+          p.&#160;81)</hi>
+            <note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>
+                <hi rend="italic">De&#160;Revolutionibus</hi>, I, 10, éd.&#160;cit.,
+              vol.&#160;II, p.&#160;33</p>
+            </note>.</p>
+          <figure xml:id="d1e355">
+            <graphic url="https://didomena.ehess.fr/downloads/s1784v180.png"/>
+            <head xml:id="d1e356">Figure 6. Annotations de Copernic à l’<hi rend="italic">Astronomie </hi>de Jābir&#160;b.&#160;Aflaḥ&#160;: «&#160;Colligit ex
+            diversitate aspectus [Venerem] et [Mercurium] esse sup[er] solem&#160;»
+            («&#160;Il conclut de la diversité de leurs positions que Vénus et
+            Mercure sont au-delà du soleil&#160;»&#160;; coll.&#160;Uppsala University
+            Library). Clichés Uppsala University Library / Licenciering av
+            verk: Public domain mark (Ingen känd upphovsrätt)</head>
+          </figure>
+          <p xml:id="d1e363">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-o4gbygyd">astrophysique<term ref="doi:10.34817/sv-z68mcrvu">cosmologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-mzt52qnr">hypothèse</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-yuw7gtea">savant</term>
+              </term>
+            </term>Au moment
+          où <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> se penche sur
+          l’œuvre du savant arabe, il est déjà en possession de ses hypothèses
+          héliocentriques, et il ne doit donc certainement rien à la lecture
+          de cet ouvrage. En revanche, il s’intéresse à tout ce qui peut
+          réinscrire ses hypothèses dans une forme de continuité historique,
+          pour en atténuer l’effet de nouveauté. En effet, <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> est un
+          révolutionnaire malgré lui, qui eût sans doute préféré n’avoir pas
+          la responsabilité de renverser à lui seul un édifice pluriséculaire,
+          ni celle de montrer que ce monde que l’on tient pour la chose la
+          mieux sue et la plus évidente, ce que l’on tient pour le monde
+          «&#160;vrai&#160;» et naturel, n’est en somme qu’une représentation douteuse.
+          Trouver chez <persName ref="152471545" type="idref" xml:base="https://www.idref.fr/">Geber</persName> une telle
+          «&#160;destruction&#160;» de <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName> ne peut donc
+          pas incommoder <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>, en tant
+          qu’elle constitue un élément de justification de sa propre démarche.
+          Mais sur le plan cosmologique, il est plus favorable à <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName> qu’à <persName ref="152471545" type="idref" xml:base="https://www.idref.fr/">Geber</persName>, lequel n’a, à ses
+          yeux, guère fait mieux que la cosmologie spéculative du <hi rend="italic">Timée</hi>. Dans tout le livre&#160;I du <hi rend="italic">De&#160;Revolutionibus</hi>, <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>
+          n’emprunte rien à l’astronomie arabe, et ne fait allusion à la
+          critique de <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName> que pour en
+          prendre la défense, ce qu’il sera encore mieux fondé à faire
+          lorsqu’il finit par accéder, grâce à <persName ref="026669145" type="idref" xml:base="https://www.idref.fr/">Rheticus</persName>,
+          au texte original grec de l’<hi rend="italic">Almageste</hi>.</p>
+        </div>
+        <div type="section1" xml:id="d1e374">
+          <head subtype="level1" xml:id="d1e375">Copernic astronome
+          astrologue</head>
+          <p xml:id="d1e377">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-najuwvdf">source</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-p5aiheda">incipit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Outre
+          l’œuvre de <persName ref="152471545" type="idref" xml:base="https://www.idref.fr/">Geber</persName>, la seule autre
+          source arabe que nous offre la bibliothèque de <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> est un recueil
+          joignant l’édition incunable des <hi rend="italic">Éléments
+          </hi>d’<persName ref="026854651" type="idref" xml:base="https://www.idref.fr/">Euclide</persName> au <hi rend="italic">In judiciis astrorum </hi>de l’astrologue <persName ref="03559165X" type="idref" xml:base="https://www.idref.fr/">Haly
+          Abenrodan</persName> (<persName ref="03559165X" type="idref" xml:base="https://www.idref.fr/">ʿAlī&#160;b.&#160;Riḍwān</persName>, <date from="0988" to="1061" type="_temp">988-1061</date>) – ce remarquable
+          volume étant l’œuvre <?xxe-remark lesot
+2022-07-12T13:02:18Z
+correction : Erhard ??>d’<persName ref="095008152" type="idref" xml:base="https://www.idref.fr/">Erhart Ratdolt</persName>,
+          imprimeur originaire d’<placeName ref="6557107" type="geonames" xml:base="https://www.geonames.org/">Augsbourg</placeName> établi à
+          <placeName ref="3164603" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName> (<date type="_temp" when="1485">1485</date>)<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Sur cet ouvrage, voir A.&#160;Goddu, <hi rend="italic">Copernicus
+              and the aristotelian tradition</hi>, op.&#160;cit., p.&#160;191.</p>
+            </note>. Selon toute vraisemblance, <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> a
+          lu et annoté très tôt, dans les <date from="1490" to="1499" type="_temp">années&#160;1490</date>, cette glose sur l’astrologie de
+          <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName>. Les quelques
+          remarques marginales montrent que le savant a en fait comparé le
+          travail de <persName ref="03559165X" type="idref" xml:base="https://www.idref.fr/">Haly</persName> à sa source
+          principale, <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName>, à la fois sur
+          le plan astronomique et sur le plan astrologique. L’exemplaire
+          copernicien du <hi rend="italic">Quadripartitum </hi>de <persName ref="027084396" type="idref" xml:base="https://www.idref.fr/">Ptolémée</persName> ayant disparu,
+          on ne sait pas s’il utilisait, pour ce travail studieux, l’édition
+          princeps du même imprimeur <persName ref="095008152" type="idref" xml:base="https://www.idref.fr/">Ratdolt</persName> (<placeName ref="3164603" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName>, <date type="_temp" when="1484">1484</date>) ou bien celle, plus tardive
+          mais plus complète, de <persName ref="142969273" type="idref" xml:base="https://www.idref.fr/">Bonatus Locatellus</persName>
+          (<placeName ref="3164603" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName>, <date type="_temp" when="1493">1493</date>), comportant, elle, la glose de
+          <persName ref="03559165X" type="idref" xml:base="https://www.idref.fr/">Haly Abenrodan</persName>
+            <note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Sur les éditions anciennes et modernes de Ptolémée, voir le
+              projet conduit par la Bayerische Akademie der Wissenschaften&#160;:
+              <ref target="https://ptolemaeus.badw.de/start">
+                  <hi rend="underline">https://ptolemaeus.badw.de/start</hi>
+                </ref>. Précisons que si Copernic a travaillé dans l’édition
+              de 1493, il a alors pu lire le rapport qu’y fait Haly
+              «&#160;Abenrodan&#160;» sur l’étoile nouvelle de l’an&#160;1006, premier
+              témoignage écrit sur l’apparition d’une supernova (sur cet
+              événement exceptionnel, voir Bernard. R.&#160;Goldstein, «&#160;Evidence
+              for a Supernova of A.&#160;D. 1006&#160;», in <hi rend="italic">The
+              Astronomical Journal</hi>, vol.&#160;70, n<hi rend="sup">o</hi>&#160;1,
+              1965, p.&#160;105-114).</p>
+            </note>.</p>
+          <p xml:id="d1e409">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-qcbhpij3">corps<term ref="doi:10.34817/sv-njzdsqjs">santé</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-mv6eogsx">savoirs non
+          canoniques<term ref="doi:10.34817/sv-8ux5xplc">occultisme<term ref="doi:10.34817/sv-dvebkxc2">astrologie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-ognrwtyq">médecine</term>
+                </term>
+              </term>
+            </term>En
+          attendant de pouvoir déterminer ce point, on peut seulement
+          souligner un fait intéressant&#160;: <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>,
+          qui suit des études de médecine, s’intéresse de près au savoir
+          médico-astrologique des Arabes, et c’est sur la base de sa
+          connaissance de l’astrologie arabe de <persName ref="03559165X" type="idref" xml:base="https://www.idref.fr/">Haly
+          Abenrodan</persName> qu’il peut s’intéresser aux causes naturelles
+          des épidémies, ou des désordres que l’on remarque chez les
+          épileptiques et les «&#160;possédés&#160;» («&#160;<foreign xml:lang="ita">demoniaci</foreign>&#160;»). Comme pris d’un remords,
+          <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> a barré un
+          commentaire remarquant que les prétendus «&#160;possédés&#160;» sont ceux dans
+          le cerveau desquels s’observe une surabondance d’«&#160;humeur
+          vénéneuse&#160;» <hi>(voir ill. p.&#160;79, en bas)</hi>. C’est dire que le
+          jeune savant s’intéresse, à travers le savoir médico-astrologique
+          des savants arabes, à l’approche toxicologique de certains
+          phénomènes mentaux. Cette note marginale, probablement datée de ses
+          années d’études dans les universités italiennes – <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> étudie le droit
+          à <placeName ref="3181927" type="geonames" xml:base="https://www.geonames.org/">Bologne</placeName>, à partir
+          de <date type="_temp" when="1496">1496</date>, puis la médecine à
+          <placeName ref="3171728" type="geonames" xml:base="https://www.geonames.org/">Padoue</placeName>, à partir de
+          <date type="_temp" when="1501">1501</date> – présente un intérêt
+          d’autant plus grand qu’elle s’inscrit dans le contexte d’un vif
+          débat sur l’astrologie dans les <date from="1490" to="1499" type="_temp">années&#160;1490</date>, où l’héritage de l’astrologie
+          arabe, essentiellement fondée sur l’étude des conjonctions
+          planétaires, est âprement discuté. Il faut noter que l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> devient
+          après <date type="_temp" when="1492">1492</date> le foyer d’une
+          première épidémie de syphilis, qu’on a dit ramenée par les marins de
+          <persName ref="027213595" type="idref" xml:base="https://www.idref.fr/">Christophe Colomb</persName>, mais
+          nombreux sont ceux qui, comme <persName ref="026837013" type="idref" xml:base="https://www.idref.fr/">Albrecht Dürer</persName> (visitant
+          l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> en <date type="_temp" when="1494">1494</date>) attribuent ce phénomène inédit
+          aux conséquences de la grande conjonction des planètes supérieures,
+          Saturne et Jupiter, au cours de l’<date type="_temp" when="1484">année&#160;1484</date>
+            <hi>(voir ill. p.&#160;83)</hi>. Le
+          «&#160;<foreign xml:lang="deu">Flugblatt</foreign>&#160;» (tract) que
+          <persName ref="026837013" type="idref" xml:base="https://www.idref.fr/">Dürer</persName> rapporte de son
+          premier séjour en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> s’appuie
+          donc sans grand scrupule sur la doctrine astrologique des «&#160;grandes
+          conjonctions&#160;» planétaires et de leurs conséquences
+          socio-politiques, dans la droite ligne des théories très en vogue du
+          <hi rend="italic">De magnis coniunctionibus </hi>d’<persName ref="060596783" type="idref" xml:base="https://www.idref.fr/">Albumasar</persName> (<persName ref="060596783" type="idref" xml:base="https://www.idref.fr/">Abū
+          Ma‘shar</persName>), maintes fois réédité après <date type="_temp" when="1489">1489</date>. Rien de tel chez <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName>,
+          donc la position est à la fois plus prudente, plus «&#160;empirique&#160;», et
+          semble complètement libre de préjugés à l’égard des théories
+          dominantes.</p>
+          <figure xml:id="d1e420">
+            <graphic url="https://didomena.ehess.fr/downloads/mw22vf13z.jpg"/>
+            <head xml:id="d1e421">Figure 7. Annotations de Copernic à
+            ʿAlī&#160;b.&#160;Riḍwān, <hi rend="italic">In iudiciis astrorum
+            </hi>(Venise, 1485), f.&#160;75&#160;v<hi rend="sup">o</hi>(coll.&#160;Uppsala
+            University Library). Clichés Uppsala University Library /
+            Licenciering av verk: Public domain mark (Ingen känd
+            upphovsrätt)</head>
+          </figure>
+          <figure xml:id="d1e430">
+            <graphic url="https://didomena.ehess.fr/downloads/tt44pw39g.jpg"/>
+            <head xml:id="d1e431">Figure 8. [A.&#160;Dürer], illustration du
+            «&#160;Flugblatt&#160;» de Theodoricus Ulsenius Phrisius [Dirk van Hulsen]&#160;:
+            <hi rend="italic">Vaticinium in epidemicam scabiem quae passim
+            toto orbe grassatur</hi>, 1496</head>
+          </figure>
+          <p xml:id="d1e436">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire<term ref="doi:10.34817/sv-p5wqzjnr">histoire des
+          sciences</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-v7q7byco">astronomie</term>
+                  </term>
+                </term>
+              </term>
+            </term>Il
+          fallait pour cela, évidemment, une certaine liberté d’esprit –
+          «&#160;<foreign xml:lang="ita">libertas philosophandi</foreign>&#160;» que le
+          cinquième concile du <placeName ref="11822321" type="geonames" xml:base="https://www.geonames.org/">Latran</placeName> allait,
+          quelques années plus tard, sévèrement encadrer, mais sans laquelle
+          <persName ref="026798298" type="idref" xml:base="https://www.idref.fr/">Copernic</persName> n’aurait pu se
+          risquer au renversement par lequel, quelques années plus tard, la
+          Terre est entrée dans le ciel, et l’Homme dans l’<date type="_temp">époque moderne</date>. C’est cette «&#160;<foreign xml:lang="ita">libertas philosophandi</foreign>&#160;», propre à
+          l’humanisme scientifique de la <date type="_temp">Renaissance</date>, qui lui a permis d’aborder la
+          science médiévale arabe sans préjugés, et sans illusions quant au
+          profit qu’il pouvait en tirer pour son propre dessein.<hi rend="bold"/>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

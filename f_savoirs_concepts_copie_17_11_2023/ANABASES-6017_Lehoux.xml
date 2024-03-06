@@ -1,0 +1,676 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-6017_Lehoux">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">
+          <hi rend="italic">L’Atelier des doctorants<lb/>Construire la
+          mythologie gréco-romaine par les images&#160;: pour une «&#160;archéologie de
+          papier&#160;» entre France et Allemagne (1720-1850)</hi>
+        </title>
+        <author role="aut">
+          <forename>Élise</forename>
+          <surname>Lehoux</surname>
+          <idno type="IDREF">19176230X</idno>
+          <affiliation>Docteure en histoire (EHESS)<lb/>Laboratoire ANHIMA
+          (UMR&#160;8210)</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/K5BHRDD6" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">L’Atelier des doctorantsConstruire la mythologie
+            gréco-romaine par les images : pour une « archéologie de papier »
+            entre France et Allemagne (1720-1850)</title>
+            <idno type="DOI">10.4000/anabases.6017</idno>
+            <title type="short">L’Atelier des doctorantsConstruire la
+            mythologie gréco-romaine par les images</title>
+            <author>
+              <forename>Élise</forename>
+              <surname>Lehoux</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Anabases. Traditions et réceptions de
+            l’Antiquité</title>
+            <idno type="ISSN">1774-4296</idno>
+            <imprint>
+              <biblScope unit="issue">24</biblScope>
+              <biblScope unit="page">318-325</biblScope>
+              <date>2016</date>
+              <note type="accessed">2022-07-06T08:10:33Z</note>
+              <note type="url">https://journals.openedition.org/anabases/6017</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item/>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item/>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+          <term>
+            <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          </term>
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1720" to="1850" type="_temp">1720-1850</date>
+          </term>
+          <term>
+            <date type="_temp">Antiquité</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart level="a" type="main">
+            <hi rend="italic">L’Atelier des doctorants<lb/>Construire la
+            mythologie gréco-romaine par les images&#160;: pour une «&#160;archéologie
+            de papier&#160;» entre France et Allemagne (1720-1850)</hi>
+          </titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Élise Lehoux</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e173">
+          <persName ref="034784691" type="idref" xml:base="https://www.idref.fr/">Carl Robert</persName> estimait en
+        <date type="_temp" when="1919">1919</date> que «&#160;la première condition
+        pour interpréter correctement, c’est de voir correctement<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Die erste Vorbedingung für das richtige Deuten ist das richtige
+            Sehen. Ob man richtig sieht, kontrolliert man am besten durch
+            Abzeichnen oder Beschreiben oder durch beides, cf.&#160;C.&#160;Robert,
+            Archaeologische Hermeneutik. Anleitung zur Deutung klassischer
+            Bildwerke, Berlin, Weidmannsche Buchhandlung, 1919, p.&#160;1.</p>
+          </note>&#160;». C’est précisément l’objet de ma thèse<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>Cette thèse, dirigée par François Lissarrague, intitulée «&#160;La
+            mise en images, en livres et en savoirs de la mythologie
+            classique. France Allemagne (1720-1850)&#160;» a été soutenue le
+            19&#160;décembre&#160;2015 à l’École des Hautes Études en Sciences
+            Sociales.</p>
+          </note>, qui s’intéresse à la façon dont les premiers savants
+        français et allemands ont construit du savoir sur la mythologie à
+        partir des reproductions d’antiques dont ils disposaient <date from="1700" to="1850" type="_temp">entre le <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi> et la seconde moitié
+        du <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>.
+        Les grands recueils d’images archéologiques du <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> qui forment le point de départ de
+        cette histoire, tels ceux produits par <persName ref="028997964" type="idref" xml:base="https://www.idref.fr/">Bernard de
+        Montfaucon</persName>
+          <date from="1655" to="1741" type="_temp">(1655-1741)</date> ou le <persName ref="026773368" type="idref" xml:base="https://www.idref.fr/">comte de
+        Caylus</persName>
+          <date from="1692" to="1765" type="_temp">(1692-1765)</date>, ont fait l’objet d’un intérêt certain
+        dans l’historiographie de l’archéologie et de l’histoire de l’art
+        depuis une trentaine d’années<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Depuis l’article fondateur d’A.&#160;Momigliano, «&#160;Ancient History
+            and the Antiquarian&#160;», Journal of the Warburg and Courtauld
+            Institutes, 1950, vol.&#160;13, n<hi rend="sup">o</hi>&#160;3/4, p.&#160;285-315,
+            on peut citer notamment&#160;: A.&#160;Schnapp, La conquête du passé. Aux
+            origines de l’archéologie, Paris, Carré, 1993&#160;; V.&#160;Heenes, Antike
+            in Bildern. Illustrationen in antiquarischen Werken des&#160;16.
+            und&#160;17. Jahrhunderts, Stendal, Winckelmann-Gesellschaft, 2003&#160;;
+            H.&#160;Wrede, Die «&#160;Monumentalisierung&#160;» der Antike um 1700,
+            Ruhpolding, Franz Philipp Rutzen, 2004&#160;; É.&#160;Décultot&#160;(dir.),
+            Musées de papier. L’Antiquité en livres, 1600-1800 [exposition,
+            Paris, Musée du Louvre, 25&#160;septembre&#160;2010-3&#160;janvier&#160;2011], Paris,
+            Louvre éd.&#160;Gourcuff Gradenigo, 2010&#160;; M.&#160;Soulatges, «&#160;Les "musées
+            de papier" ou le règne quasi sans partage de l’in-folio
+            illustré&#160;», Anabases. Traditions et réceptions de l’Antiquité,
+            2012, n<hi rend="sup">o</hi>&#160;15, p.&#160;&#8239;129-142.</p>
+          </note>. Ces prestigieux volumes gravés permettent de comprendre
+        comment ces érudits ont pu établir les premiers savoirs sur des objets
+        issus de l’<date type="_temp">Antiquité gréco-romaine</date>. Mais ils
+        sont également le lieu de conservation de la culture matérielle et
+        iconographique de l’<date type="_temp">Antiquité</date>. Au fur et à
+        mesure que les recherches archéologiques de terrain se développent, à
+        <placeName ref="3177364" type="geonames" xml:base="https://www.geonames.org/">Herculanum</placeName>,
+        <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> ou <placeName ref="3163940" type="geonames" xml:base="https://www.geonames.org/">Vulci</placeName>, pour ne citer
+        que quelques sites célèbres<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>È.&#160;Gran-Aymerich, Naissance de l’archéologie moderne 1798-1945,
+            Paris, CNRS&#160;éd., 1998.</p>
+          </note>, et que les collections privées puis nationales
+        s’établissent<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>D.&#160;Poulot, Une histoire des musées de France, <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>-<hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi>&#160;siècle, Paris,
+            éd.&#160;La&#160;Découverte, 2005.</p>
+          </note>, les savants recueillent et collectent de plus en plus
+        d’images, que ce soit sous la forme de dessins, de gravures ou en
+        faisant copier ce qui avait été précédemment publié. Intégrées dans
+        des publications, chacune d’entre elles est ainsi replacée dans son
+        contexte intellectuel, éditorial, afin d’en comprendre la singularité,
+        la réception, les traditions auxquelles elles donnent lieu. Pour cela,
+        les sources identifiées, comme les correspondances (entre les savants,
+        avec les éditeurs), les archives des instituts archéologiques, les
+        collections de dessins, permettent d’éclairer l’agencement et la
+        composition de ces ouvrages. Entre l’anthropologie des savoirs,
+        l’histoire du livre et l’historiographie de l’archéologie, ce travail
+        vise donc à montrer comment la mythologie, via ses reproductions, est
+        devenue un objet de savoir de l’archéologie naissante.</p>
+        <div type="section1" xml:id="d1e317">
+          <head subtype="level1" xml:id="d1e318">Collecter, classer, mettre en
+          livre les images mythologiques&#8239;&#160;: dans le cabinet de
+          l’archéologue</head>
+          <p xml:id="d1e320">Pour comprendre le travail de ces premiers
+          archéologues, la mythologie offre un champ d’investigation très
+          intéressant car c’est un domaine que les érudits connaissent bien
+          grâce à leur maîtrise de la littérature classique<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>M.&#160;Detienne, L’invention de la mythologie, Paris, Gallimard,
+              1981.</p>
+            </note>. Une fois les images recueillies, ils les classent, les
+          analysent, les confrontent dans leur cabinet d’étude&#160;: elles sont
+          leur outil de travail et leur accessibilité reste un enjeu majeur,
+          comme le rappelle <persName ref="03175550X" type="idref" xml:base="https://www.idref.fr/">Georges Perrot</persName> à la fin
+          du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e540">
+            <hi rend="italic">«&#160;</hi>(…)
+          elle [l’étude de l’<date type="_temp">Antiquité</date> figurée]
+          oblige ceux qui veulent y acquérir quelque compétence à cultiver le
+          goût par des voyages, par une longue fréquentation des principaux
+          musées d’Europe, par un perpétuel recours à ces suites d’estampes et
+          de photographies, à ces grands recueils de planches que leur format
+          rend incommodes à manier et dont le prix interdit au savant tout
+          espoir de jamais les poser sur les rayons de son cabinet. Or plus
+          d’un érudit n’aura jamais eu l’occasion de visiter l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> et la
+          <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+            <hi rend="italic">&#160;</hi>; le temps lui aura manqué pour parcourir ces
+          galeries dont chacune ne contient qu’une faible part du trésor de
+          l’antiquité figurée<hi rend="italic">&#160;</hi>; enfin il ne vivra pas
+          toujours dans une capitale, à la porte de l’une de ces bibliothèques
+          publiques qui possèdent souvent ces précieux recueils et qui les
+          communiquent quelquefois, quand ils ne sont pas à la reliure, ou
+          bien en feuilles et dépareillés<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>G.&#160;Perrot, «&#160;Les Études d’archéologie classique depuis
+              Winckelmann jusqu’à nos jours&#160;», Revue des Deux Mondes, 1880,
+              tome&#160;40, p.&#160;522.</p>
+            </note>
+            <hi rend="italic">.</hi>&#160;<hi rend="italic">»</hi>
+          </quote>
+          <p xml:id="d1e361">L’antiquaire peut ainsi, en confrontant
+          l’iconographie des différentes planches, élaborer une réflexion sur
+          le sens de l’image et par extension, de la civilisation qui l’a
+          produite&#160;: identifier les personnages représentés, interpréter la
+          scène dans son ensemble, comprendre les variations d’un même
+          thème<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Voir l’étude fondatrice pour l’herméneutique des images&#160;:
+              C.&#160;Robert, Archaeologische Hermeneutik, Berlin, Weidmann,
+              1919.</p>
+            </note>. À l’issue de cette période, au milieu du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, l’archéologie est devenue pour ses
+          acteurs<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>A.-L.&#160;Millin (1759-1818), premier titulaire de la chaire
+              d’archéologie française, définit l’archéologie comme «&#160;l’étude
+              des Antiquités, c’est-à-dire, celle des Monumens antiques et
+              l’étude des anciens usages qui sont venus jusqu’à nous.
+              L’Archæologie est donc la connoissance de tout ce qui a rapport
+              aux mœurs et aux usages des anciens&#160;: celui qui la possède se
+              comme Archæologue, et, plus vulgairement, Antiquaire&#160;(…)&#160;»,
+              cf.&#160;A.-L.&#160;Millin, Introduction à l’étude des monuments antiques,
+              Paris, imprimerie du Magasin Encyclopédique, p.&#160;1-2.</p>
+            </note> une science positive qui fait l’objet de chaires
+          d’enseignement<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Pour l’Allemagne, cf.&#160;U.&#160;Hausmann&#160;(dir.), Handbuch der
+              Archäologie&#160;[1]. Allgemeine Grundlagen der Archäologie, Begriff
+              und Methode, Geschichte, Problem der Form, Schriftzeugnisse&#160;[…],
+              München, C.&#160;H.&#160;Beck, 1969, p.&#160;160-161 et pour la France,
+              cf.&#160;L.&#160;Therrien, L’histoire de l’art en France. Genèse d’une
+              discipline universitaire, Paris, éd.&#160;du&#160;CTHS, 1998.</p>
+            </note> et de manuels spécifiquement tournés vers la formation des
+          étudiants. En <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> comme en
+          <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>, ces
+          phénomènes éditoriaux convergent bien souvent, du fait de la
+          proximité des savants entre eux<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Par exemple, G.&#160;Espagne et B.&#160;Savoy&#160;(dir.), Aubin-Louis
+              Millin et l’Allemagne. Le Magasin encyclopédique - Les lettres à
+              Karl August Böttiger, Hildesheim, Georg Olms Verlag, 2005. Voir
+              aussi V.&#160;Krings et C.&#160;Bonnet&#160;(dir.), S’écrire et écrire sur
+              l’Antiquité. L’apport des correspondances à l’histoire des
+              travaux scientifiques [colloque, Université de Toulouse&#160;II,
+              17&#160;au 19&#160;novembre&#160;2005], Grenoble, J.&#160;Millon, 2008.</p>
+            </note> et de l’importance des transferts culturels – &#8239;les savants
+          échangent abondamment des gravures, des ouvrages étrangers –&#160;;
+          cependant les temporalités d’institutionnalisation de la discipline
+          divergent et laissent place à des initiatives originales, notamment
+          outre-Rhin. Pour pallier l’inégal accès aux objets archéologiques –
+          présence d’originaux ou de copies, état des musées ou des
+          collections particulières –, les pays, et l’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          notamment, ont recours à des initiatives pédagogiques originales. En
+          dehors des collections de moulages, les savants ont constitué chacun
+          à leur manière des bibliothèques de livres mais également d’images,
+          mettant en jeu des logiques de classement ou de collecte d’images
+          comme la fabuleuse collection de dessins archéologiques réunis par
+          <persName ref="067690645" type="idref" xml:base="https://www.idref.fr/">Eduard Gerhard</persName> (<date from="1795" to="1867" type="_temp">1795-1867</date>), le <hi rend="italic">Gerhard’scher Apparat</hi>, conservée à l’<hi rend="italic">Antikensammlung</hi> de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> et au <hi rend="italic">Deutsches Archäologisches Institut </hi>de <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>
+            <note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>A.&#160;Costantini, Roma nell’età della Restaurazione. Un aspetto
+              della ricerca archeologica&#160;; la collezione di vasi attici di
+              Luciano e Alexandrine Bonaparte, riprodotta nei disegni del
+              «&#160;Gerhard’scher Apparat&#160;», Roma, Accad.&#160;Nazionale dei Lincei,
+              1998 et V.&#160;Stürmer, «&#160;Eduard Gerhard "Archäologischer
+              Lehrapparat"&#160;», dans H.&#160;Wrede&#160;(dir.), Dem Archäo­logen Eduard
+              Gerhard, 1795-1867, zu seinem&#160;200. Geburtstag, Berlin,
+              Arenhövel, 1997, p.&#160;43-46.</p>
+            </note>. Ils ont également procédé à la fabrication d’objets
+          pédagogiques comme les dactyliothèques, permettant de ranger dans un
+          livre-meuble des collections de moulages de pierres gravées<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>V.&#160;Kockel et D.&#160;Graepler&#160;(dir.), Daktyliotheken. Götter und
+              Caesaren aus der Schublade antike Gemmen in Abdrucksammlungen
+              des&#160;18. und&#160;19. Jahrhunderts [anläßlich einer gleichnamigen
+              Ausstellung, die im Sommer&#160;2006 im Römischen Museum Augsburg
+              und&#160;2007 in der Staats- und Universitätsbibliothek Göttingen
+              stattfindet], München, Biering &amp; Brinkmann, 2006.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e522">
+          <head subtype="level1" xml:id="d1e523">Les temps de la mythologie
+          figurée (1720-1850)</head>
+          <p xml:id="d1e525">Partant de l’<hi rend="italic">Antiquité
+          expliquée et représentée en figures</hi>
+            <note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>B.&#160;de&#160;Montfaucon, L’Antiquité expliquée et représentée en
+              figures..., 10&#160;vol., Paris, F.&#160;&#8239;Delaulne, 1719-1724.</p>
+            </note>
+            <persName ref="028997964" type="idref" xml:base="https://www.idref.fr/">de&#160;Montfaucon</persName>, les
+          «&#160;&#8239;musées de papier&#160;» des antiquaires tels ceux de <persName ref="026773368" type="idref" xml:base="https://www.idref.fr/">Caylus</persName>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>A.&#160;Caylus, Recueil d’antiquités égyptiennes, étrusques,
+              grecques et romaines..., 7&#160;vol., Paris, Desaint et Saillant,
+              1752-1767.</p>
+            </note> ou <persName ref="028422058" type="idref" xml:base="https://www.idref.fr/">Winckelmann</persName>
+            <note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>J.&#160;Winckelmann , Monumenti antichi inediti , 2&#160;vol., Roma, A
+              spese dell’autore, 1767.</p>
+            </note> sont des in-folio, publiés en de nombreux tomes, qui
+          rassemblent un nombre très important de planches et où la mythologie
+          tient une place de choix. Les représentations mythologiques sont
+          conjointement utilisées dans les livres éducatifs à destination de
+          la bourgeoisie<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Par exemple, N.-J.&#160;Hugou de Bassville, Élémens de mythologie,
+              avec l’Analyse des poëmes d’Homère et de Virgile, suivie de
+              l’explication allégorique à l’usage des jeunes personnes de l’un
+              et l’autre sexe , Paris, Laurent, [1784], 1789.</p>
+            </note>. Ce ne sont cependant pas les mêmes images et les énoncés
+          diffèrent fortement mais ils participent néanmoins de cette même
+          mise en discours de l’Antiquité figurée. À la fin du <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, on
+          observe deux évolutions majeures&#160;: la mise en place d’une nouvelle
+          esthétique graphique, néo-classique, sous l’impulsion du dessinateur
+          anglais <persName ref="030021391" type="idref" xml:base="https://www.idref.fr/">John Flaxman</persName> (<date from="1755" to="1826" type="_temp">1755-1826</date>)<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Cf.&#160;notamment S.&#160;Symmons, Flaxman and Europe. The Outline
+              Illustrations and their Influence, New York, Garland Pub.,
+              1984.</p>
+            </note>, popularisée par le travail de <persName ref="052617858" type="idref" xml:base="https://www.idref.fr/">Wilhelm
+          Tischbein</persName>
+            <note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Par exemple, cf.&#160;J.&#160;H.&#160;W.&#160;Tischbein et C.&#160;G.&#160;Heyne, Figures
+              d’Homère, dessinées d’après l’antique, 2&#160;vol., Metz, Collignon,
+              1801-1802.</p>
+            </note>, qui entraîne la création de manuels dédiés à la
+          mythologie illustrée, du fait de l’abaissement des coûts de
+          reproduction. La gravure, utilisée précédemment pour rendre les
+          volumes par un effet d’ombres et de jeux sur les textures, devient
+          une simple ligne pour indiquer les contours. Nettement moins
+          coûteuse à reproduire dans les manuels, elle est un grand succès en
+          cette fin de siècle qui se caractérise par un contexte économique
+          difficile pour les éditeurs<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>À ce sujet, voir B.&#160;Vouillot, «&#160;La Révolution et l’Empire&#8239;:
+              une nouvelle réglementation&#160;», dans H.-J.&#160;Martin et
+              R.&#160;Chartier&#160;&#8239;(dir.), Histoire de l’édition française**. Le Livre
+              triomphant 1660-1830, Paris, Promodis, 1984, p.&#160;694-707.</p>
+            </note>. La demande est toutefois stimulée par
+          l’institutionnalisation croissante de la discipline et la création
+          de chaires d’enseignement, en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          essentiellement, qui accompagnent la création d’une tradition des
+          <hi rend="italic">
+              <foreign xml:lang="deu">Bilderbücher</foreign>
+            </hi>
+            <note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Par exemple, en Allemagne, K.&#160;Levezow, Über den Raub des
+              Palladiums auf den geschnittenen Steinen des Alterthums. Eine
+              archäologische Abhandlung&#160;; nebst zwei Kupfertafeln, s.l.,
+              Friedrich Vieweg, 1801.</p>
+            </note>, des «&#160;&#8239;livres d’images&#8239;&#160;». Cette dernière se constitue
+          avec le <hi rend="italic">Bilderbuch für Mythologie, Archäologie und
+          Kunst</hi>
+            <note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>
+                <hi rend="small-caps">A.&#160;Hirt</hi>, Bilderbuch für
+              Mythologie, Archäologie und Kunst, 2&#160;vol., Berlin,
+              Sander-G.&#160;Nauck, 1805-1816.</p>
+            </note>
+            <hi rend="italic"/>d’<persName ref="084805730" type="idref" xml:base="https://www.idref.fr/">Aloys Hirt</persName> (<date from="1759" to="1837" type="_temp">1759-1837</date>) et la <hi rend="italic">Galerie mythologique</hi>
+            <note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>A.-L.&#160;Millin, Galerie mythologique, recueil de monuments pour
+              servir à l’étude de la mythologie, de l’histoire de l’art, de
+              l’antiquité figurée et du langage allégorique des anciens...,
+              2&#160;vol., Paris, Soyer, 1811. Voir notamment, É.&#160;Lehoux, «&#160;La
+              Galerie mythologique d’Aubin-Louis Millin&#160;: un "produit dérivé"
+              de la culture sur l’Antique du<hi rend="small-caps">
+              xviii</hi>
+                <hi rend="sup">e</hi>&#160;siècle&#160;» dans C.&#160;Hurley Griener
+              et C.&#160;Barbillon&#160;(dir.), Le catalogue dans tous ses états. Actes
+              du colloque École du Louvre en partenariat avec l’Institut
+              national d’histoire de l’art&#160;12, 13 et 14&#160;décembre&#160;2012 , Paris,
+              École du Louvre, 2015, p.&#160;59-66.</p>
+            </note> d’<persName ref="034502580" type="idref" xml:base="https://www.idref.fr/">Aubin-Louis Millin</persName>
+          (<date from="1759" to="1818" type="_temp">1759-1818</date>) pour ne
+          citer que les principaux. Ces livres donnent lieu à toutes sortes
+          d’expériences éditoriales successives&#160;: traductions<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Par exemple, A.-L.&#160;Millin, Mythologische Gallerie. Eine
+              Sammlung von mehr als 750&#160;antiken Denkmälern, Statuen,
+              geschnittenen Steinen, Münzen und Gemälden, zur Erläuterung der
+              Mythologie, der Symbolik und Kunstgeschichte der Alten.
+              Sorgfältig übersetzt und mit den 190&#160;Original-Kupferblättern der
+              französischen Ausgabe begleitet, Berlin, Nicolai, 1820.</p>
+            </note>, adaptations<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>J.-D.&#160;Guigniaut, Nouvelle Galerie mythologique..., 2&#160;vol.,
+              Paris, Firmin Didot frères, 1850.</p>
+            </note> ou réemploi des images, sans que la source initiale ne
+          soit nécessairement mentionnée. Les images sont ainsi transplantées
+          d’un lieu à un autre pour répondre aux besoins propres à chaque
+          contexte éditorial. D’autres initiatives coexistent en ce début de
+          <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date> avec
+          le développement de la <hi rend="italic">
+              <foreign xml:lang="deu">Kunstmythologie</foreign>
+            </hi> par <persName ref="050521144" type="idref" xml:base="https://www.idref.fr/">Karl August
+          Böttiger</persName>
+            <note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>R.&#160;Sternke, Böttiger und der archäologische Diskurs. Mit
+              einem Anhang der Schriften «&#160;Goethe’s Tod&#160;» und «&#160;Nach Goethe’s
+              Tod&#160;» von Karl August Böttiger, Berlin, Akademieverlag,
+              2008.</p>
+            </note> (<date from="1760" to="1835" type="_temp">1760-1835</date>) à partir de l’histoire des religions
+          et dont la systématisation est entreprise par <persName ref="032873816" type="idref" xml:base="https://www.idref.fr/">Georg
+          Friedrich Creuzer</persName>
+            <note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>F.&#160;Creuzer, Symbolik und Mythologie der alten Völker,
+              besonders der Griechen, in Vorträgen und Entwürfen,..., 4&#160;vol.,
+              Leipzig und Darmstadt, K.&#160;W.&#160;Leske, 1810.</p>
+            </note> (<date from="1771" to="1858" type="_temp">1771-1858</date>).</p>
+          <p xml:id="d1e764">Par la suite, les publications se spécialisent
+          par type d’objets, notamment sur les vases dont l’intérêt est
+          stimulé par la découverte de nécropoles en Étrurie. C’est le cas de
+          l’<hi rend="italic">Auserlesene griechische Vasenbilder
+          hauptsächlich etruskischen Fundorts</hi> d’<persName ref="067690645" type="idref" xml:base="https://www.idref.fr/">Eduard
+          Gerhard</persName> publié <date from="1840" to="1858" type="_temp">entre 1840 et 1858</date> et de l’<hi rend="italic">Élite des monuments céramographiques</hi> de <persName ref="033766398" type="idref" xml:base="https://www.idref.fr/">Charles Lenormant</persName>
+          (1802-1859) et <persName ref="067034748" type="idref" xml:base="https://www.idref.fr/">Jean de Witte</persName>
+          (1808-1889) publiée <date from="1844" to="1861" type="_temp">entre
+          1844 et 1861</date>. Leurs auteurs s’attachent davantage aux
+          conditions de reproduction de ces images de vases. La tradition des
+          «&#160;monuments inédits&#160;», initiée par <persName ref="028422058" type="idref" xml:base="https://www.idref.fr/">Winckelmann</persName>, se perpétue
+          pendant toute cette période, notamment avec les <hi rend="italic">Monumens inédits d’antiquité figurée grecque, étrusque
+          et romaine</hi> de <persName ref="032636873" type="idref" xml:base="https://www.idref.fr/">Désiré Raoul-Rochette</persName>
+          (<date from="1790" to="1854" type="_temp">1790-1854</date>) même si
+          elle apparaît désuète en ces <date from="1830" to="1839" type="_temp">années&#160;1830</date>
+            <note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Les premières revues archéologiques naissent de ce besoin de
+              pouvoir publier plus rapidement de nouvelles analyses car la
+              réalisation des recueils pouvait prendre de très longues
+              années.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e783">
+          <head subtype="level1" xml:id="d1e784">Les archives de
+          l’&#8239;«&#160;&#8239;archéologie de papier&#8239;&#160;»&#8239;&#160;: l’exemple de K.O.&#160;Müller à
+          Göttingen</head>
+          <p xml:id="d1e786">À <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> ou <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, les
+          institutions, comme la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque nationale de
+          France</placeName>, le <hi rend="italic">Deutsches Archäologisches
+          Institut</hi> à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, les archives
+          de l’<hi rend="italic">Institut Winckelmann</hi> de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, de l’<hi rend="italic">Archäologisches Institut</hi> de <placeName ref="6557373" type="geonames" xml:base="https://www.geonames.org/">Göttingen</placeName> ou de
+          l’<hi rend="italic">Antikenmuseum</hi> de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, conservent
+          des ressources essentielles pour mieux comprendre les modalités
+          d’élaboration de ces premiers savoirs archéologiques. C’est
+          notamment le cas de planches des <hi rend="italic">Denkmäler der
+          alten Kunst</hi>
+            <note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>C.&#160;O.&#160;Müller, Denkmäler der Alten Kunst..., Göttingen,
+              Dietrich, 1832. Dessinées et gravées par C.&#160;W.&#160;Oesterley
+              (1805-1891), les Denkmäler sont conçus comme le complément
+              illustré du Handbuch der Archäologie der Kunst de Müller&#160;;
+              premier véritable manuel allemand d’archéologie, paru en
+              1830.</p>
+            </note>, retrouvées dans les archives de l’<hi rend="italic">Archäologisches Institut</hi> de <placeName ref="6557373" type="geonames" xml:base="https://www.geonames.org/">Göttingen</placeName> et ayant
+          appartenu à l’archéologue allemand <persName ref="053464974" type="idref" xml:base="https://www.idref.fr/">Karl Otfried
+          Müller</persName> (<date from="1797" to="1840" type="_temp">1797-1840</date>).</p>
+          <p xml:id="d1e832">Sur l’épreuve d’une planche montrant la
+          reconstitution du fronton est du temple d’Aphaia de l’île
+          d’<placeName ref="265501" type="geonames" xml:base="https://www.geonames.org/">Égine</placeName>, des
+          corrections sont apportées au crayon (<hi rend="bold">fig. 1</hi>)&#160;:
+          elles permettent ainsi de conserver une idée de l’état du monument
+          hors restauration<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>Le sculpteur danois Bertel Thorvaldsen (1770-1844) procède à
+              la restauration des statues à Rome&#160;; elles sont ensuite exposées
+              à la Glyptothèque de Munich dans la première moitié du <hi rend="small-caps">xix</hi>
+                <hi rend="sup">e</hi>&#160;siècle, où elles
+              se trouvent toujours.</p>
+            </note>.</p>
+          <p xml:id="d1e849">Ces rectifications ont très probablement été
+          faites par <persName ref="053464974" type="idref" xml:base="https://www.idref.fr/">K.&#160;O.&#160;Müller</persName>
+          lui-même<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>La planche se trouve dans le dossier de ses propres
+              dessins.</p>
+            </note>, témoignant de la grande attention qu’il portait à la
+          matérialité des monuments, à la justesse des représentations
+          graphiques. Cette pratique se retrouve dans les planches des <hi rend="italic">Denkmäler der Alten Kunst</hi> où l’on peut noter la
+          présence d’inscriptions sur des peintures de vase et surtout des
+          pointillés qui marquent les zones abîmées, détruites ou manquantes
+          délimitant ainsi les zones reconstituées<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>Cf.&#160;par exemple C.O.&#160;Müller&#160;, Denkmäler der Alten Kunst,
+              Göttingen, Dietrich, 1832, détail pl.&#160;XXLIV.</p>
+            </note>. La forme du vase est également reproduite dans la partie
+          inférieure droite. Les planches du livre et les espaces dédiés à la
+          description de ces images permettent de saisir cette attention
+          croissante aux différentes formes de matérialité, de l’objet à sa
+          reproduction.</p>
+          <p xml:id="d1e877">Cette vigilance se retrouve par ailleurs dans la
+          correspondance entre <persName type="_temp">Josef Max</persName>,
+          éditeur du <hi rend="italic">Handbuch</hi> de <persName ref="053464974" type="idref" xml:base="https://www.idref.fr/">Müller</persName>
+            <note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>W.&#160;Unte&#160;(ed.), Die Briefe des Breslauer Verlegers Josef Max
+              an Karl Otfried Müller, St.&#160;Katharinen, Scripta Mercaturae
+              Verl., 2000.</p>
+            </note>&#8239;&#160;:</p>
+          <quote rend="quotation" xml:lang="deu">Die Hauptsache bei dieser
+          Unternehmung, ist und bleibt aber, neben Richtigkeit der Zeichnung,
+          wovon ich nicht spreche, weil ich von dieser unter Deiner Leitung,
+          im Voraus überzeugt bin, schöne, reine, ich möchte sagen, elegante
+          Ausführung im Stich. In dieser Hinsicht, müssen das Bilderbuch,
+          französischen und englischen Stichen, gleich gesetzt werden können.
+          Ich habe aber Umrisse des Herrn <persName type="_temp">Dr.
+          Oesterlei</persName> [sic], zu <persName type="_temp">Wilhelm
+          Tell</persName> gesehen. Komposition und Zeichnungen scheinen mir
+          ganz vortrefflich, aber der Stich nicht klar, rein und elegant genug
+          Vielleicht liegt es mit an dem Kupferdrucker, denn es ist fast
+          unglaublich, wieviel auf diesen ankommt. Meine Ansicht von diesem
+          Unternehmen ist die, daß wenn es begonnen werden soll, die Blätter
+          [neben] der Richtigkeit in der Zeichnung, in der Ausführung im
+          Stich, rein, klar und elegant werden müßten<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>«&#160;La chose la plus importante dans cette entreprise, est et
+              reste, à côté de la justesse du dessin, dont je ne t’ai pas
+              parlé parce que j’en suis convaincu d’avance, étant menée sous
+              ta direction, que l’exécution des gravures soit belles, nettes
+              et élégantes. À cet égard, les gravures anglaises et françaises
+              doivent même pouvoir être mises dans le livre illustré. J’ai vu
+              des dessins de silhouettes de Monsieur Oesterley chez Wilhelm
+              Tell. Les compositions et les dessins me semblaient excellents,
+              mais la gravure n’était pas assez claire, nette ni élégante.
+              Peut-être est-ce dû à l’imprimeur car tant de choses dépendent
+              de lui, c’est presque incroyable. Mon point de vue sur cette
+              entreprise est que, si elle doit commencer, que les planches,
+              au-delà de la justesse dans le dessin, doivent être nettes,
+              claires et élégantes dans l’exécution des gravures&#160;», cf.&#160;Unte,
+              Die Briefe, p.&#160;119-120.</p>
+            </note>.</quote>
+          <p xml:id="d1e911">Derrière cet exemple se cache une extraordinaire
+          stabilité dans la sélection des images. <date from="1720" to="1850" type="_temp">Entre 1720 et 1850</date>, les préfaces «&#160;véhiculent
+          les mêmes lieux<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>O.&#160;Medvedkova, «&#160;Les recueils de peintures antiques
+              romaines&#160;&#8239;: à propos des stratégies éditoriales dans l’Europe du
+              <hi rend="small-caps">xviii</hi>
+                <hi rend="sup">e</hi>&#160;siècle&#160;»,
+              dans C.&#160;Hattori, E.&#160;Leutrat et V.&#160;Meyer&#160;(dir.), À l’origine du
+              livre d’art. Les recueils d’estampes comme entreprise éditoriale
+              en Europe, <hi rend="small-caps">xvii</hi>
+                <hi rend="sup">e</hi>-<hi rend="small-caps">xviii</hi>
+                <hi rend="sup">e</hi>&#160;siècles [Actes d’un colloque tenu à Paris, à
+              l’Institut national d’histoire de l’art et à l’Institut
+              néerlandais, les 20&#160;et 21&#160;octobre&#160;2006], Milan, Silvana&#160;éd.,
+              2010, p.&#160;194.</p>
+            </note>&#160;»&#160;; les images constituent bien souvent la clé de leurs
+          argumentaires&#160;: leur nombre ou leur caractère inédit permet de
+          mettre en valeur l’ouvrage et de promouvoir son intérêt. L’image est
+          toujours envisagée pour ce qu’elle donne à voir&#160;; il n’y a pas de
+          critiques à son encontre, de mise à distance du statut de la
+          représentation bien que les savants soient très attentifs à la
+          «&#160;fidélité&#160;» de la reproduction. Ces savants ont réuni là pour la
+          première fois des choix d’images conséquents, faisant de ces
+          supports des documents «&#160;brut&#160;», de travail, qui prennent sens dans
+          la juxtaposition, la confrontation des figures sur les planches, des
+          planches entre elles.</p>
+          <p xml:id="d1e951">L’anthropologie et la sociologie permettront de
+          considérer ces images comme des produits culturels et non plus comme
+          des témoins directs du passé, «&#160;&#8239;comme si on y était<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>F.&#160;Lissarrague, «&#160;Iconographie grecque&#160;: aspects anciens et
+              récents de la recherche&#160;», dans I.&#160;Colpo, I.&#160;Favaretto,
+              F.&#160;Ghedini&#160;(dir.), Iconografia 2001. Studi sull’immagine, Rome,
+              Quasar, 2002, p.&#160;&#8239;12.</p>
+            </note>.&#160;» Mais c’est d’abord un autre regard sur les
+          civilisations passées que ces chercheurs ont contribué à
+          construire.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

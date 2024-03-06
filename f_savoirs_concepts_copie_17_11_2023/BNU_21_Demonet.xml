@@ -1,0 +1,1364 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_21_Demonet.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Une reconstitution vraiment virtuelle de la
+        bibliothèque de Montaigne</title>
+        <author role="aut">
+          <forename>Marie-Luce</forename>
+          <surname>Demonet</surname>
+          <idno type="IDREF">028827937</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/P2BTR7R6" type="journalArticle" xml:lang="">
+          <analytic>
+            <title level="a">Une reconstitution vraiment virtuelle de la
+            bibliothèque de Montaigne</title>
+            <author>
+              <forename>Marie-Luce</forename>
+              <surname>Demonet</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">21</biblScope>
+              <biblScope unit="page">82-93</biblScope>
+              <date>2020</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+        <language ident="frm"/>
+        <language ident="lat"/>
+        <language ident="ita"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+          <term>
+            <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1500" to="1599" type="_temp">
+              <hi rend="small-caps">xvi</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date type="_temp" when="2015">2015</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T12:02:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Une reconstitution
+          vraiment virtuelle de la bibliothèque de Montaigne</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Marie-Luce Demonet</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Professeur émérite, Université de
+          Tours</affiliation>
+        </byline>
+      </titlePage>
+      <div type="prelim" xml:id="d1e43">
+        <p xml:id="d1e44">L’éditeur remercie Guy Didier pour son aide apportée
+        à la réduction de l’article aux limites imposées par le format de La
+        Revue.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e48">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu</term>
+          </term>Quelques curieux,
+        savants et touristes ont éprouvé l’envie de visiter le château de
+        <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>, dès la fin du
+        <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>, l’une des attractions du lieu étant
+        la «&#160;librairie&#160;», là où, dans une ancienne tour de garde, l’auteur
+        avait installé son millier de livres pour pratiquer son «&#160;commerce&#160;»
+        avec eux et s’essayer à écrire. Des voyageurs ont livré des
+        descriptions qui aident aujourd’hui à en imaginer la disposition
+        d’origine<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Les différents témoignages ont été transcrits et commentés par
+            Alain Legros, dans <hi rend="italic">Essais sur poutres. Peintures
+            et inscriptions chez Montaigne</hi>, Paris, Klincksieck, 2000,
+            p.&#160;39 et suiv.</p>
+          </note>.</p>
+        <div type="section1" xml:id="d1e60">
+          <head subtype="level1" xml:id="d1e61">Faire voir
+          virtuellement</head>
+          <p xml:id="d1e63">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-9gkicebm">auteur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-hefvbw9m">diffusion</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>L’idée
+          de reconstituer cette bibliothèque n’aurait rien eu en soi
+          d’original si, <persName ref="056181604" type="idref" xml:base="https://www.idref.fr/">Alain Legros</persName> et
+          moi-même, nous nous étions limités à en diffuser les données
+          connues&#160;: en l’absence de testament ou d’inventaire après décès,
+          plusieurs listes d’éminents spécialistes avaient répertorié la
+          plupart des exemplaires retrouvés ou signalés, et portant la
+          signature ou au moins une trace autographe de l’auteur<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>À ce que l’on sache, Montaigne n’a pas fait relier les
+              ouvrages de sa bibliothèque avec son nom ou à ses armes. Bien
+              qu’il dise que ses premiers achats avaient été guidés par un
+              certain désir d’ostentation, cette pratique courante chez les
+              aristocrates et bourgeois lettrés de l’époque n’apparaît pas sur
+              les exemplaires conservés.</p>
+            </note>. Nous avions l’intention de les faire voir numériquement
+          et de les disposer sur des étagères virtuelles, à partir d’un espace
+          réel&#160;: car si le plafond offre encore au regard les poutres peintes
+          de célèbres sentences grecques et latines, dont certaines sont
+          présentes dans les <hi rend="italic">Essais</hi>, la pièce est
+          désormais vide de son mobilier primitif.</p>
+          <p xml:id="d1e71">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>Bien que l’on ne puisse consulter
+          aujourd’hui guère plus d’un dixième de la collection, les
+          fac-similés, éditions ou transcriptions de ce petit corpus sont
+          rassemblés sur le site des Bibliothèques virtuelles humanistes (BVH)
+          de l’Université de <placeName ref="6454060" type="geonames" xml:base="https://www.geonames.org/">Tours</placeName>, avec un site
+          dédié à <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> et des
+          articles qui en exposent les méthodes et les découvertes<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Centre d’études supérieures de la Renaissance (CESR)&#160;: <ref target="https://www.bvh.univ-tours.fr/">
+                  <hi rend="underline">https://www.bvh.univ-tours.fr</hi>
+                </ref> et <ref target="http://montaigne.univ-tours.fr/">
+                  <hi rend="underline">http://montaigne.univ-tours.fr</hi>
+                </ref>. Un état des lieux, désormais dépassé, a été publié en
+              2015 par Marie-Luce Demonet, «&#160;Éphémérides de la bibliothèque de
+              Montaigne&#160;», in Alexandre Vanautgaerden, Rosanna Gorris
+              Ramos&#160;(éd.), <hi rend="italic">Les labyrinthes de l’esprit&#160;:
+              collections et bibliothèques à la Renaissance</hi>, actes du
+              colloque organisé par Philip Ford, Cambridge 2012, Genève, Droz,
+              2015, p.&#160;131-153.</p>
+            </note>. La nouveauté résidait dans la possibilité de montrer ces
+          volumes avec leur numérisation intégrale, de les rendre disponibles
+          en libre accès sur le principe de l’«&#160;<foreign xml:lang="eng">open
+          science</foreign>&#160;», dans la mesure où les bibliothèques et les
+          propriétaires des documents nous avaient autorisés à le faire<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Quelques établissements ont aussi mis en ligne des éléments
+              de cette collection&#160;: sur <hi rend="italic">Gallica </hi>pour la
+              BnF, sur <hi rend="italic">Séléné </hi>pour la bibliothèque
+              Mériadeck de Bordeaux, sur le site de l’Université de Cambridge
+              – pour les trois fonds les plus importants. Le financement a
+              toutefois été assuré en grande partie par l’Agence nationale de
+              la recherche (projet MONLOE-Montaigne à l’Œuvre et équipement
+              d’excellence Biblissima), la Bibiothèque numérique du ministère
+              de la Recherche, la Région Centre, les crédits européens FEDER,
+              le ministère de la Culture et de la Communication, la MSH Val de
+              Loire, le consortium CAHIER (TGIR Huma-Num), le personnel du
+              Centre d’études supérieures de la Renaissance à Tours (CNRS) et
+              l’Institut universitaire de France.</p>
+            </note>.</p>
+          <p xml:id="d1e98">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-vh4rb2gf">annotation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>Depuis les <date from="2000" to="2010" type="_temp">années&#160;2000</date>, l’intérêt
+          pour le contenu des anciennes bibliothèques privées est devenu plus
+          manifeste, au-delà des historiens du livre, chez des spécialistes de
+          littérature et de philosophie, puisque la présence de tel ou tel
+          ouvrage permet en principe d’éclairer le processus de création. Cet
+          intérêt rejoint le développement des études génétiques en
+          renouvelant la vénérable recherche des «&#160;sources&#160;», sans trop y
+          sacrifier cependant&#160;: un livre acheté n’est pas forcément un livre
+          lu, un livre qui présente des annotations n’a pas toujours été un
+          livre inspirant pour l’auteur. A fortiori, un livre que l’on a
+          hérité n’est pas obligatoirement un livre qu’on a envie de lire.</p>
+          <p xml:id="d1e100">L’étude des livres annotés, réalisée et éditée de
+          façon exhaustive par <persName ref="056181604" type="idref" xml:base="https://www.idref.fr/">Alain Legros</persName>, montre une
+          relation très étroite entre les lectures (mais pas toutes) et
+          l’écriture des <hi rend="italic">Essais</hi>, sans que l’inverse
+          oblige à en tirer des conclusions négatives<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Alain Legros, <hi rend="italic">Montaigne manuscrit</hi>,
+              Paris, Classiques Garnier, 2010, p.&#160;135-652 («&#160;Annotations de
+              Montaigne lecteur&#160;»)</p>
+            </note>. Par exemple, le <hi rend="italic">De animorum natura
+          </hi>(<date type="_temp" when="1574">1574</date>) de l’obscur
+          médecin <persName ref="100511694" type="idref" xml:base="https://www.idref.fr/">Pierre Pichot</persName> a
+          certainement été lu par <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> même s’il
+          n’est pas cité, comme on peut le constater dans ses réflexions sur
+          la médecine dans les <hi rend="italic">Essais</hi>
+            <note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Alain Legros, «&#160;La vie et l’œuvre d’un médecin contemporain
+              de Montaigne, Pierre Pichot&#160;», in <hi rend="italic">Revue
+              française d’histoire du livre</hi>, 92-93, 1996, p.&#160;361-74&#160;;
+              Marie-Luce Demonet, «&#160;La place de philosophes mineurs dans la
+              bibliothèque de Montaigne&#160;: Pichot et La Primaudaye&#160;», in Philip
+              Ford (éd.), <hi rend="italic">La librairie de Montaigne</hi>,
+              actes du colloque de Cambridge 2008, Cambridge French Colloquia,
+              2012, p.&#160;59-79.</p>
+            </note>.</p>
+          <p xml:id="d1e127">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>L’équipe des BVH avait déjà entrepris
+          des recherches (toujours en cours) sur les bibliothèques
+          personnelles de personnages plus ou moins connus, mais la recherche
+          autour de la «&#160;librairie&#160;» de <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> a ceci de
+          particulier qu’elle associe une œuvre majeure qui en parle (les <hi rend="italic">Essais</hi>), un étage de tour et une collection
+          incomplète<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Pour Rabelais, le travail est toujours en cours et a pu
+              bénéficier de découvertes récentes, sans qu’il soit possible
+              d’exploiter de lieu particulier dédié aux livres. Voir les
+              recherches d’Olivier Pédeflous, Romain Menini et Claude La
+              Charité dans «&#160;L’Atelier du XVI<hi rend="sup">e</hi>&#160;siècle&#160;»
+              dirigé par Mireille Huchon (Sorbonne Université).<lb/>Voir aussi
+              Silvio S.&#160;Baridon, <hi rend="italic">Inventaire de la
+              bibliothèque de Pontus de Tyard</hi>, Genève-Lille, Droz-Giard,
+              1950&#160;; François Roudaut, <hi rend="italic">La bibliothèque de
+              Pontus de Tyard. Libri qui quidem extant</hi>, Paris, Classiques
+              Garnier, 2008.<lb/>Pour Ronsard, voir François Rouget,
+              «&#160;Ronsard, Amyot, et les <hi rend="italic">Vies des hommes
+              illustres </hi>de Plutarque (Paris, M.&#160;de&#160;Vascosan, 1565)&#160;: un
+              nouveau livre de la bibliothèque ronsardienne&#160;», in <hi rend="italic">Bibliothèque d’Humanisme et Renaissance</hi>,
+              2019, p.&#160;333-340.</p>
+            </note>. Les deux volets de la «&#160;bibliothèque&#160;» ont pu être
+          publiés en grande partie <date from="2010" to="2015" type="_temp">entre 2010 et 2015</date>, amplifiés et mis à jour
+          depuis&#160;: le rassemblement des volumes en version numérique et
+          l’installation virtuelle de livres sur des étagères dans un espace à
+          trois dimensions.</p>
+        </div>
+        <div type="section1" xml:id="d1e156">
+          <head subtype="level1" xml:id="d1e157">Dix pour cent</head>
+          <p xml:id="d1e159">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-hybparsd">conservateur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Avant
+          même le dépôt du projet auprès de l’Agence nationale de la recherche
+          (<date type="_temp" when="2011">2011</date>), les recherches
+          d’<persName ref="056181604" type="idref" xml:base="https://www.idref.fr/">Alain Legros</persName> avaient en
+          <date type="_temp" when="2006">2006</date> attiré de nouveau
+          l’attention sur certains exemplaires avec signature. Une étape a été
+          franchie quand nous avons pu voir en <date type="_temp" when="2008">2008</date> à la bibliothèque de l’<placeName ref="7288046" type="geonames" xml:base="https://www.geonames.org/">Université de
+          Cambridge</placeName> les ouvrages portant la signature de <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>, qui faisaient
+          partie du legs <persName ref="052201414" type="idref" xml:base="https://www.idref.fr/">Gilbert de Botton</persName>
+          jusque-là très difficile d’accès. À l’occasion du colloque <hi rend="italic">Montaigne on the Shelf </hi>à <placeName ref="2653941" type="geonames" xml:base="https://www.geonames.org/">Cambridge</placeName>, nous
+          avons envisagé avec les conservateurs de projeter la numérisation et
+          la mise en ligne des dix volumes les plus importants, dont le <hi rend="italic">De rerum natura </hi>de <persName ref="026997576" type="idref" xml:base="https://www.idref.fr/">Lucrèce</persName>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Michael&#160;A.&#160;Screech, <hi rend="italic">Montaigne’s annotated
+              copy of Lucretius&#160;; a transcription and study of the manuscript,
+              notes and pen-marks</hi>, Genève, Droz, 1998. Transcription
+              complète établie par Alain Legros dans l’édition de la Pléiade
+              (2007), mise à jour sur le site Montaigne.</p>
+            </note>.</p>
+          <p xml:id="d1e174">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-8mpceijw">publication</term>
+              </term>
+            </term>Dans
+          leur publication qui était alors en préparation, <persName ref="181753553" type="idref" xml:base="https://www.idref.fr/">Barbara Pistilli</persName> et
+          <persName ref="147053439" type="idref" xml:base="https://www.idref.fr/">Marco Sgattoni</persName> avaient
+          identifié un nouvel exemplaire (le <hi rend="italic">Lexicon
+          graecolatinum </hi>d’<persName ref="085948276" type="idref" xml:base="https://www.idref.fr/">Henri Estienne</persName> à la
+          Bodleian Library) et en avaient localisé un autre (un <persName ref="028023242" type="idref" xml:base="https://www.idref.fr/">Gaza</persName> de <date type="_temp" when="1495">1495</date> à la Chapin Library de
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Williamsburg</placeName>,
+          <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">USA</placeName>), en rappelant
+          l’historique de cet accroissement depuis le milieu du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>. Leur beau catalogue de <date type="_temp" when="2014">2014</date> (<hi rend="italic">La
+          Biblioteca di Montaigne</hi>) intègre en grande partie ce qui a été
+          apporté par les travaux d’<persName ref="056181604" type="idref" xml:base="https://www.idref.fr/">Alain Legros</persName> et fournit
+          de nombreuses informations sur chaque exemplaire, qui corrigent
+          quelques erreurs et imprécisions des prédécesseurs<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Pise, Scuola Normale, 2014</p>
+            </note>.</p>
+          <p xml:id="d1e188">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>Cet historique et les fiches sont à
+          actualiser avec le site <hi rend="italic">Montaigne </hi>pour les
+          mises à jour<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Disponible sur <ref target="#catalogue">
+                  <hi rend="underline">https://montaigne.univ-tours.fr/centaine-de-livres/#catalogue</hi>
+                </ref>
+              </p>
+            </note>. Le premier inventaire consistait dans les 18&#160;ouvrages
+          recensés dans la liste initiale de <persName ref="030444438" type="idref" xml:base="https://www.idref.fr/">Jean-François
+          Payen</persName> en <date type="_temp" when="1847">1847</date>,
+          nombre passé à 81 dans le répertoire de <persName ref="02916348X" type="idref" xml:base="https://www.idref.fr/">Pierre
+          Villey</persName> (<date type="_temp" when="1930">1930</date>), puis
+          à 99 dans le catalogue de <persName ref="084038438" type="idref" xml:base="https://www.idref.fr/">Francis Pottiée-Sperry</persName>
+          et <persName ref="052201414" type="idref" xml:base="https://www.idref.fr/">Gilbert de Botton</persName> (<date type="_temp" when="1997">1997</date>), ainsi que dans <hi rend="italic">Montaigne manuscrit </hi>(<persName ref="056181604" type="idref" xml:base="https://www.idref.fr/">Legros</persName>,
+          <date type="_temp" when="2010">2010</date>) après plusieurs
+          modifications. La <hi rend="italic">Biblioteca </hi>en décrit cent&#160;;
+          le décompte dépend non seulement des nouveautés, de l’apparition ou
+          de la réapparition d’exemplaires perdus de vue, mais aussi du
+          dédoublement d’ouvrages en fonction de la présence de la signature
+          sur chacun des volumes, comme pour les <hi rend="italic">Opera
+          </hi>de <persName ref="028793692" type="idref" xml:base="https://www.idref.fr/">Politien</persName> (<date type="_temp" when="1545">1545</date> et <date type="_temp" when="1546">1546</date>). En <date type="_temp" when="2014">2014</date>, le <hi rend="italic">Miroir historial
+          </hi>de <persName ref="027186997" type="idref" xml:base="https://www.idref.fr/">Vincent de Beauvais</persName>
+          (<date type="_temp" when="1531">1531</date>) était connu par un
+          catalogue de libraire avant de rejoindre tout récemment le fonds
+          <persName ref="052201414" type="idref" xml:base="https://www.idref.fr/">Gilbert de Botton</persName> de la
+          bibliothèque de <placeName ref="2653941" type="geonames" xml:base="https://www.geonames.org/">Cambridge</placeName>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Vente <hi rend="italic">Aristophil</hi>, mai&#160;2018.
+              L’exemplaire ne présente aucune annotation selon Jean Balsamo
+              qui a pu le regarder en détail.</p>
+            </note>.</p>
+          <p xml:id="d1e220">L’avantage d’une version en ligne est de pouvoir
+          intégrer, dès que l’information nous parvient, l’évolution de la
+          recherche. Ainsi, l’édition intégrale des annotations aux <hi rend="italic">Comediæ </hi>de <persName ref="026672588" type="idref" xml:base="https://www.idref.fr/">Térence</persName> de <date type="_temp" when="1538">1538</date> a été réalisée par <persName ref="056181604" type="idref" xml:base="https://www.idref.fr/">Alain
+          Legros</persName> pour un exemplaire en mains privées dont il a pu
+          examiner et photographier la totalité<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Alain Legros, «&#160;Térence annoté par Montaigne&#160;», introduction,
+              notice, en ligne sur le site Montaigne le 09.03.2014&#160;; éditions
+              au format pdf&#160;: diplomatique, régularisé, traduit et commenté&#160;;
+              en ligne le 11.03.2014.</p>
+            </note>&#160;; citons encore le <persName ref="027303136" type="idref" xml:base="https://www.idref.fr/">César</persName> de <placeName ref="6429478" type="geonames" xml:base="https://www.geonames.org/">Périgueux</placeName> (<date type="_temp" when="1575">1575</date>) dont la signature autographe
+          sous ultra-violets a pu être repérée sous une autre signature
+          allographe du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>, et donc authentifiée. Le <persName ref="086263099" type="idref" xml:base="https://www.idref.fr/">Synesius</persName> dont il ne
+          reste qu’une page avec la signature incomplète est exclu par la <hi rend="italic">Biblioteca </hi>mais authentifié par <persName ref="056181604" type="idref" xml:base="https://www.idref.fr/">Alain
+          Legros</persName> (<date type="_temp" when="2006">2006</date>), car
+          cette page jointe par le <persName ref="030444438" type="idref" xml:base="https://www.idref.fr/">Dr&#160;Payen</persName> au <persName ref="086263099" type="idref" xml:base="https://www.idref.fr/">Synesius</persName> de <persName ref="026726920" type="idref" xml:base="https://www.idref.fr/">Théodore de Bèze</persName> est
+          tout de même le témoin d’un livre disparu.</p>
+          <p xml:id="d1e234">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Les
+          différences entre la liste présente dans la <hi rend="italic">Biblioteca </hi>et nos travaux ne tiennent pas
+          seulement aux réexamens mentionnés, mais aussi aux découvertes
+          postérieures à <date type="_temp" when="2014">2014</date> comme
+          celles d’<persName ref="057396841" type="idref" xml:base="https://www.idref.fr/">Ingrid de Smet</persName>, à
+          <placeName ref="6557395" type="geonames" xml:base="https://www.geonames.org/">Wolffenbüttel</placeName>,<?xxe-remark lesot
+2022-07-08T09:25:56Z
+Correction : Wolfenbüttel (avec un seul "F")?> d’un cours de droit manuscrit
+          ayant appartenu à <persName ref="026955776" type="idref" xml:base="https://www.idref.fr/">La&#160;Boétie</persName> puis à
+          <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>, et, à la
+          Bodleian library, de la signature de <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>
+          copiée sur le <hi rend="italic">Premier volume des Illustrations de
+          la Gaulle Belgique, antiquitez du pays de Haynnau et de la grand
+          cité de Belges: à présent dicte Bavay, </hi>de <persName ref="068526776" type="idref" xml:base="https://www.idref.fr/">Jacques de Guyse</persName>. En
+          <date type="_temp" when="2016-09">septembre 2016</date>, nous avons
+          pu de notre côté consulter un exemplaire des <hi rend="italic">Illustrations de Gaule </hi>de <persName ref="033953279" type="idref" xml:base="https://www.idref.fr/">Jean
+          Lemaire de Belges</persName> (<date type="_temp" when="1549">1549</date>) à la bibliothèque municipale de <placeName ref="6451626" type="geonames" xml:base="https://www.geonames.org/">Fontenay-le-Comte</placeName>,
+          alors qu’il était absent des listes antérieures&#160;: l’authenticité de
+          la signature ne laisse pas plus de doute que les signatures
+          communément admises et qui n’ont pas toutes été confirmées, elles
+          non plus, par l’analyse spectrographique des encres.</p>
+          <p xml:id="d1e245">Coïncidence&#160;? Les deux ouvrages intégrés à notre
+          liste ont pour titre <hi rend="italic">Illustrations de Gaule</hi>,
+          et <placeName ref="6455197" type="geonames" xml:base="https://www.geonames.org/">Bavay</placeName> renvoie au
+          nom de <persName ref="033953279" type="idref" xml:base="https://www.idref.fr/">Lemaire de Belges</persName>. Ils
+          confirment l’intérêt grandissant de <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>,
+          à partir du milieu des <date from="1550" to="1559" type="_temp">années&#160;1550</date>, pour les livres d’histoire moderne,
+          alors que sa sortie du collège de Guyenne (<date type="_temp" when="1548">1548</date>&#160;?) et les probables études humanistes à
+          Paris avant le droit à <placeName ref="6453974" type="geonames" xml:base="https://www.geonames.org/">Toulouse</placeName> l’avaient
+          plutôt orienté vers les textes classiques, surtout latins si l’on en
+          croit les volumes conservés&#160;: les acquisitions de <date type="_temp" when="1549">1549</date> sont le <persName ref="026672588" type="idref" xml:base="https://www.idref.fr/">Térence</persName> de
+          <date type="_temp" when="1538">1538</date>, <persName ref="026674327" type="idref" xml:base="https://www.idref.fr/">Virgile</persName>, le <persName ref="027303136" type="idref" xml:base="https://www.idref.fr/">César</persName> de <date type="_temp" when="1543">1543</date>, <persName ref="02683281X" type="idref" xml:base="https://www.idref.fr/">Denys
+          d’Halicarnasse</persName>. Semblent faire exception le volume
+          composite contenant les <hi rend="italic">Paraphrases des Psaumes
+          </hi>par <persName ref="027977986" type="idref" xml:base="https://www.idref.fr/">Flaminio</persName> et la grammaire
+          grecque de <persName ref="066912547" type="idref" xml:base="https://www.idref.fr/">Lascaris</persName>, reliés sans
+          doute dès l’origine et parus chez <persName ref="030253004" type="idref" xml:base="https://www.idref.fr/">Robert
+          Estienne</persName> (<date type="_temp" when="1546">1546</date> et
+          <date type="_temp" when="1548">1548</date>). <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> était-il
+          intéressé par ce qui faisait débat au moment de la diffusion du
+          calvinisme, ou seulement par la grammaire grecque&#160;? Ou par les deux
+          ouvrages, publiés par un imprimeur royal penchant vers la
+          Réforme&#160;?</p>
+          <p xml:id="d1e253">Les auteurs de la <hi rend="italic">Biblioteca
+          </hi>ne signalent pas les différents types de signatures utilisés
+          par <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> lorsqu’il a
+          abandonné l’ex-libris latin de sa jeunesse&#160;; <persName ref="056181604" type="idref" xml:base="https://www.idref.fr/">Alain
+          Legros</persName> en a pourtant distingué trois, une répartition
+          importante si l’on désire poursuivre les recherches de datation
+          concernant l’acquisition ou la lecture de ces ouvrages.</p>
+        </div>
+        <div type="section1" xml:id="d1e258">
+          <head subtype="level1" xml:id="d1e259">Une bibliothèque
+          inclusive</head>
+          <p xml:id="d1e261">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Nous
+          entendons par «&#160;bibliothèque&#160;» l’ensemble des ouvrages ou documents
+          possédés par <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>, que ce soit
+          par legs (comme les exemplaires hérités de <persName ref="026955776" type="idref" xml:base="https://www.idref.fr/">La&#160;Boétie</persName>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Alain Legros, «&#160;Dix-huit volumes de la bibliothèque de La
+              Boétie légués à Montaigne et signalés par lui comme tels&#160;», in
+              <hi rend="italic">Montaigne Studies</hi>, 25, 2013, p.&#160;177-188.
+              Ces découvertes collatérales nous ont été reprochées…</p>
+            </note>) ou par achat, ou parce qu’il en est l’auteur, l’éditeur
+          ou le commentateur, avec ou sans signature. Font partie de cette
+          bibliothèque inclusive tous les volumes conservés jusqu’à
+          aujourd’hui qui devaient se trouver dans ce lieu, la «&#160;librairie&#160;»
+          au sens de l’époque. Parmi eux, l’irremplaçable «&#160;Exemplaire de
+          Bordeaux&#160;» (<hi rend="italic">EB</hi>), trésor national retrouvé au
+          château de <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> et conservé à
+          la bibliothèque Mériadeck&#160;: cet exemplaire de l’édition de <date type="_temp" when="1588">1588</date> offre des milliers d’additions
+          et corrections autographes pour la préparation d’une nouvelle
+          édition<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Le ministère de la Culture et la Ville de Bordeaux
+              constituent actuellement un dossier de candidature de cet
+              exemplaire au Registre Mémoire du monde de l’UNESCO.</p>
+            </note>. Dans la «&#160;librairie&#160;» également, l’<hi rend="italic">Ephemeris historica </hi>de <persName ref="059944838" type="idref" xml:base="https://www.idref.fr/">Beuther</persName>
+          (<date type="_temp" when="1551">1551</date>), sorte de calendrier
+          perpétuel servant de «&#160;livre de raison&#160;» à <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>
+          et à sa famille par la consignation des événements notables. Enfin,
+          l’exemplaire des œuvres de <persName ref="026955776" type="idref" xml:base="https://www.idref.fr/">La&#160;Boétie</persName> éditées par
+          <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> en <date type="_temp" when="1571">1571</date> (avec signature). Pour le
+          «&#160;Mémorial&#160;» (un livre de comptes de la famille Montaigne dont il ne
+          reste plus que la couvrure), daté de <date type="_temp" when="1568">1568</date> avec une mention autographe, on ne peut
+          décider avec certitude s’il a eu son coin d’étagère dans la
+          «&#160;librairie&#160;»&#160;; il est toutefois probable que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> l’a emporté de
+          la maison familiale de <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName> au
+          château, tout comme le <persName ref="059944838" type="idref" xml:base="https://www.idref.fr/">Beuther</persName>, et si l’on
+          inclut ce dernier dans la liste, le Mémorial doit l’être aussi. En
+          revanche, le fragment des actes de propriété de la famille <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> conservé à
+          <placeName ref="2653941" type="geonames" xml:base="https://www.geonames.org/">Cambridge</placeName>, et dont
+          le tertrier se trouve à la bibliothèque Mériadeck, est absent
+          jusqu’ici de nos deux listes&#160;: il devrait rejoindre la catégorie des
+          «&#160;documents&#160;» dans un autre onglet du site.</p>
+          <p xml:id="d1e279">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-mspq98rz">Web</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Le
+          projet global, plus large que la restitution de la bibliothèque,
+          incluait des documents qui n’ont peut-être jamais fait partie de la
+          «&#160;librairie&#160;» proprement dite&#160;: les 47&#160;arrêts rédigés ou signés par
+          <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> lorsqu’il
+          siégeait au parlement de <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName>, ses
+          32&#160;lettres conservées, son contrat de mariage, des dédicaces, etc.,
+          qui relèvent davantage des sources documentaires relatives à
+          l’écrivain. Toutefois, tout ce qui est manuscrit s’est avéré
+          précieux pour établir ce qui est «&#160;de la main&#160;» de <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>, pour
+          authentifier de possibles contrefaçons ou calques de sa signature ou
+          de son écriture. Enfin, même si le manuscrit original du <hi rend="italic">Journal de voyage</hi>, retrouvé au château et édité
+          au <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>, a été perdu depuis, la «&#160;copie
+          <persName type="_temp">Leydet</persName>&#160;» que nous avons pu mettre
+          en ligne offre une version jusque-là inédite de ces récits de
+          voyageurs qui n’étaient pas destinés à la publication<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>BnF, manuscrit Périgord&#160;106, en ligne sur le site des BVH
+              avec sa transcription&#160;: <ref target="http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=1291">
+                  <hi rend="underline">http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=1291</hi>
+                </ref>&#160;; <hi rend="italic">Journal du voyage de Michel de
+              Montaigne en Italie</hi>, avec les notes de Meunier de Querlon,
+              Rome et Paris, Le Jay, 1774.</p>
+            </note>. Avec d’autres textes disparus, le <hi rend="italic">Journal</hi> autographe fait partie des
+          «&#160;fantômes&#160;».</p>
+        </div>
+        <div type="section1" xml:id="d1e301">
+          <head subtype="level1" xml:id="d1e302">La disposition des
+          «&#160;pupitres&#160;»</head>
+          <p xml:id="d1e304">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>Reconstruire en 3D la bibliothèque
+          garnie de livres virtuels semblait envisageable du fait du
+          développement significatif de cette technologie, tant dans
+          l’imagerie médicale que dans les jeux vidéo. Puisqu’il était
+          possible de modéliser des vestiges de <placeName ref="360964" type="geonames" xml:base="https://www.geonames.org/">Karnak</placeName> au temps de
+          sa splendeur, la même chose devait l’être pour la «&#160;librairie&#160;».</p>
+          <p xml:id="d1e306">Partant de ce qui était accessible et réalisable
+          avec les fonds disponibles, nous avons demandé à l’équipe bordelaise
+          Archéovision (qui avait étudié <placeName ref="360964" type="geonames" xml:base="https://www.geonames.org/">Karnak</placeName>), partenaire
+          de l’entreprise, de reprendre et de compléter les calculs effectués
+          lors d’un premier essai de reconstitution en <date type="_temp" when="2002">2002</date> pour le plafond<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Le travail de restitution des inscriptions sur les poutres de
+              la «&#160;librairie&#160;» et dans le cabinet attenant a permis à Alain
+              Legros de retrouver deux nouvelles sentences en palimpseste&#160;; de
+              même, l’inscription qui dédiait la bibliothèque à La Boétie et
+              courait tout au long de la corniche des étagères, selon deux
+              témoins du 18<hi rend="sup">e</hi> siècle (l’abbé Prunis et
+              l’inspecteur des manufactures Latapie), a pu être ainsi
+              restaurée. Voir Alain Legros, «&#160;Travail de deuil et art de
+              vivre&#160;: les deux inscriptions votives de la tour de Montaigne&#160;»,
+              in <hi rend="italic">Montaigne Studies, </hi>11, 1999,
+              p.&#160;137-154.</p>
+            </note>.</p>
+          <p xml:id="d1e318">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-gvncgyjs">données
+          massives</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-bcnjejqq">plateforme</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Mais
+          comment cette bibliothèque était-elle agencée&#160;? La question peut
+          paraître triviale ou sans beaucoup d’importance, et pourtant
+          <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> a insisté sur
+          la disposition des étagères, sur la façon d’associer le «&#160;libre
+          prospect&#160;» (la vue dégagée sur la campagne) et la contemplation des
+          livres. Comme l’espace est percé de trois fenêtres qui n’ont pas été
+          ajoutées depuis, et que la partie non courbe était occupée par une
+          table <hi>(voir ill. p.&#160;82)</hi>, la reconstitution devait tenir
+          compte de ces données matérielles qui ont peut-être conditionné un
+          éventuel classement thématique des ouvrages.</p>
+          <figure xml:id="d1e323">
+            <graphic url="https://didomena.ehess.fr/downloads/k930c5772.jpg"/>
+            <head xml:id="d1e324">Figure 1. La «&#160;librairie&#160;» en 2D (plafond)
+            et 3D (BVH et Archéovision). © BVH et Archéovision</head>
+          </figure>
+          <p xml:id="d1e326">Bien entendu, les livres représentés en 3D ne
+          correspondent qu’en partie à la réalité&#160;; nous avons photographié et
+          dupliqué les volumes conservés à <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName> parce que
+          la plupart du temps ils avaient encore leur reliure d’origine, et
+          nous avons complété avec la collection de livres anciens du CESR
+          présentant la même particularité. Pour la texture des montants, de
+          la corniche et des étagères, ce sont des boiseries sobres qui
+          imitent celles de l’époque<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Accès aux reconstitutions&#160;: <ref target="http://www.bvh.univ-tours.fr/MONLOE/3D/montaigne_01/librairie.html">
+                  <hi rend="underline">http://www.bvh.univ-tours.fr//MONLOE/3D/montaigne_01/librairie.html</hi>
+                </ref>
+              </p>
+            </note>.</p>
+          <p xml:id="d1e335">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-mspq98rz">Web</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Les
+          meubles devaient autant que possible correspondre à la description
+          que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> fournit dans
+          le chapitre «&#160;De trois commerces&#160;» des <hi rend="italic">Essais</hi>, avec deux rédactions différentes d’un
+          même passage. L’une est manuscrite et complète une célèbre remarque
+          du texte de <date type="_temp" when="1588">1588</date> dans «&#160;De la
+          presumption&#160;»&#160;: «&#160;<foreign xml:lang="frm">Ma librerie, qui est des
+          belles entre les libreries de village, est assise a un coin de ma
+          maison</foreign>&#160;»<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>1588-<hi rend="italic">EB</hi>, II, 17, f.&#160;286v. Les
+              références aux <hi rend="italic">Essais </hi>suivent le texte
+              d’<hi rend="italic">EB </hi>dans l’édition numérique génétique
+              en trois formats (HTML / XML-TEI / PDF) réalisée par Marie-Luce
+              Demonet et Alain Legros, novembre 2014 (accessible sur le site
+              des BVH ou sur HAL&#160;: <ref target="https://halshs.archives-ouvertes.fr/halshs-01337873">
+                  <hi rend="underline">https://halshs.archives-ouvertes.fr/halshs-01337873</hi>
+                </ref>).</p>
+            </note>. L’Exemplaire de <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName> la
+          prolonge dans une addition rédigée <date from="1588" to="1592" type="_temp">entre 1588 et 1592</date>. La voici transcrite d’après
+          l’original <hi>(voir ill. p.&#160;85, en haut)</hi>&#160;:</p>
+          <figure xml:id="d1e360">
+            <graphic url="https://didomena.ehess.fr/downloads/0g354p88x.jpg"/>
+            <head xml:id="d1e361">Figure 2. Exemplaire de Bordeaux, 1588, 3,
+            f.&#160;362r [=370r], détail (coll.&#160;Bibliothèque Mériadeck de
+            Bordeaux). Cliché Gallica</head>
+          </figure>
+          <quote rend="quotation" xml:id="d1e365" xml:lang="frm">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-wvqbejdv">citation</term>
+              </term>
+            </term>«&#160;[lignes
+          rognées] <hi rend="italic">couche […] maison</hi>. Je passe la et la
+          plus part des jours de ma vie et la plus part des hures du jour. Je
+          n’y suis jamais la nuit. A sa suite est un cabinet asses poli,
+          capable a recevoir du fu [feu] pour l’hiver, tresplaisammant percé.
+          Et si je ne creignois non plus <hi rend="line-through">qui</hi> le
+          soin que la despance: le soin qui me chasse de toute besouigne:
+          j’<hi rend="line-through">y</hi>e pouvois facilemant coudre a chaque
+          <hi rend="bold">c</hi>oste une galerie de cent pas de long et <hi rend="line-through">vint</hi>douse de large, a plain pied, aïant
+          trouve tous les murs montez <hi rend="line-through">a la</hi>
+            <hi rend="bold">p</hi>our autre usage, a la hauteur qu’il me faut. Tout
+          lieu retirè requiert un promenoir. Mes pensees dorment si <hi rend="bold">j</hi>e les assis. Mon esperit ne va si les jambes ne
+          l’agitent. Ceus qui estudient sans livre en sont tous la. La <hi rend="bold">f</hi>igure en est ronde et n’a de plat que ce qu’il
+          faut a ma table et a mon siege. et vient m’offrant en se <hi rend="bold">c</hi>ourbant, d’une veue, <hi rend="italic">tous mes
+          livres, rengez a cinq degrez tout a l’environ. </hi>Ell’a trois
+          veues de riche et libre prospet, et sese [seize] pas de vuide en
+          diamettre&#160;»<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>1588-<hi rend="italic">EB</hi>, III, 3, f.&#160;362r [=370r]</p>
+            </note>.</quote>
+          <p xml:id="d1e409">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+              </term>
+            </term>Cette
+          rédaction est elle-même complétée par l’édition posthume de <date type="_temp" when="1595">1595</date>, seul témoin de ce qui a été
+          rogné par le relieur<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>La restauration récente de l’exemplaire a permis de confirmer
+              que l’épouse de Montaigne, Françoise de La Chassagne, en a fait
+              cadeau au couvent bordelais des Feuillants dans les années&#160;1610,
+              l’habillant d’une nouvelle reliure (antérieure à celle que l’on
+              voit actuellement) qui, avec la dorure sur tranche, a réduit les
+              marges et provoqué la disparition irréversible de nombreux mots
+              et de lignes entières des additions autographes. Une
+              visualisation en 3D de l’exemplaire, reliure défaite, serait
+              instructive.</p>
+            </note>, sans que nous puissions affirmer qu’il s’agissait
+          exactement du même texte&#160;:</p>
+          <quote rend="quotation" xml:id="d1e414" xml:lang="frm">«&#160;Elle est au
+          troisiesme estage d’une tour. Le premier, c’est ma chapelle, le
+          second une chambre &amp; sa suitte, où je me couche souvent, pour
+          estre seul. Au dessus, <hi rend="italic">elle a une grande
+          garderobe. </hi>C’estoit au temps passé, le lieu plus inutile de ma
+          maison. Je passe là &amp; la plus part des jours de ma vie, &amp; la
+          plus part des heures du jour. Je n’y suis jamais la nuict. A sa
+          suitte est un cabinet assez poly, capable à recevoir du feu pour
+          l’hyver, tres-plaisamment percé. Et si je ne craignoy non plus le
+          soing que la despense, le soing qui me chasse de toute besongne&#160;:
+          j’y pourroy facilement coudre à chasque costé une gallerie de cent
+          pas de long, &amp; douze de large, à plein pied: ayant trouvé tous
+          les murs montez, pour autre usage, à la hauteur qu’il me faut. Tout
+          lieu retiré requiert un proumenoir. Mes pensees dorment, si je les
+          assis. Mon esprit ne va pas seul, comme si les jambes l’agitent.
+          Ceux qui estudient sans livre, en sont tous là. La figure en est
+          ronde, &amp; n’a de plat, que ce qu’il faut à ma table &amp; à mon
+          siege&#160;: &amp; vient m’offrant en se courbant, d’une veuë, tous mes
+          livres, <hi rend="italic">rengez sur des pulpitres à cinq degrez
+          tout à l’environ</hi>. Elle a trois veuës de riche &amp; libre
+          prospect, &amp; seize pas de vuide en diametre&#160;»<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>
+                <hi rend="italic">Les Essais</hi>, Paris, L’Angelier, 1595,
+              III, 3, p.&#160;29. L’édition numérique de l’exemplaire d’Anvers est
+              en cours.</p>
+            </note>.</quote>
+          <p xml:id="d1e430">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>Non
+          seulement cette édition précise la répartition des livres en
+          ajoutant «&#160;<foreign xml:lang="frm">sur des pulpitres</foreign>&#160;»,
+          mais elle informe sur l’affectation de cette pièce avant que
+          <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> n’y installe
+          ses livres&#160;: une «&#160;grande garde-robe&#160;», nous dirions maintenant un
+          débarras qui avait, semble-t-il, déjà des étagères fixées aux murs
+          «&#160;montez pour autre usage&#160;». <hi rend="italic">Garderobe </hi>était
+          aussi le nom du lieu où l’on plaçait la «&#160;chaise percée&#160;», sens que
+          l’on trouve dans les six autres emplois des <hi rend="italic">Essais</hi>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>La tour était pourtant munie de latrines médiévales, toujours
+              en place (voir Anne-Marie Cocula et Alain Legros, <hi rend="italic">Montaigne aux champs</hi>, Bordeaux, Éditions
+              Sud-Ouest, 2011, p.&#160;117). Les gens de qualité préféraient la
+              chaise dans la garderobe.</p>
+            </note> et que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> n’exclurait
+          pas, si l’on tient compte de ce qu’il dit de son livre dans «&#160;De la
+          vanité&#160;»&#160;: «&#160;ce sont ici, un peu plus civilement, les excrements
+          d’un vieil esprit&#160;»<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>III, 9, 1595, p.&#160;110&#160;; 1588-<hi rend="italic">EB,
+              </hi>f.&#160;416r (=424r)</p>
+            </note>.</p>
+          <p xml:id="d1e451">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-evsh5mvc">monastère</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Or
+          «&#160;cinq degrés&#160;» ne peuvent pas correspondre à la disposition
+          médiévale de ce que l’on appelait, pour les bibliothèques des
+          princes, des monastères et des universités, des «&#160;pupitres&#160;» où
+          étaient enchaînés les livres, avec seulement deux ou trois étagères
+          inférieures, la supérieure (le pupitre au sens restreint) étant
+          inclinée de façon à permettre le travail assis sur un banc en face.
+          Pour cette raison, et parce que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>
+          était un noble lettré moderne, peu susceptible de reconduire le
+          modèle médiéval, nous avons d’abord pensé que ce terme de <hi rend="italic">pupitres </hi>ajouté dans la toute dernière rédaction
+          était un synonyme d’étagères, solution adoptée lorsqu’il a fallu
+          donner des instructions claires aux spécialistes de la 3D pour une
+          visualisation accessible en ligne depuis <date type="_temp" when="2015">2015</date>.</p>
+          <p xml:id="d1e456">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Il
+          restait cependant un doute, parce que cette synonymie serait un
+          hapax et <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> le seul à
+          employer <hi rend="italic">pupitres </hi>de cette façon. Pourquoi
+          aurait-il inséré cette précision, car <hi rend="italic">degrés</hi>,
+          signifiant aussi à l’époque une étagère (d’un dressoir par exemple),
+          pouvait suffire&#160;? J’ai d’abord cru que <hi rend="italic">pupitres
+          </hi>pouvait référer à des lutrins mobiles posés sur une table ou
+          sur l’étagère de deuxième niveau, pour la consultation des livres de
+          grand format comme cela se voit encore dans certaines bibliothèques.
+          Les témoignages d’anciens visiteurs, qui attestent tous de la
+          disparition des livres, n’aident pas beaucoup sur le sujet<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Prunis (1770) dit qu’il ne reste plus que des «&#160;planches
+              pourries&#160;», Latapie (1778), Bernadau (1797) et le comte de Caila
+              (1801) parlent de «&#160;tablettes&#160;», Bouquier et Bertrand de Saint
+              Germain (1861) de «&#160;rayons&#160;». Galy et Lapeyre (1861) déclarent
+              que les livres sont «&#160;sur des pupitres à cinq degrés, distants
+              les uns des autres d’un pied et demi [50 cm] environ&#160;» (in
+              A.&#160;Legros, <hi rend="italic">Essais sur poutres</hi>, op.&#160;cit.,
+              p.&#160;494). Ils n’ont fait que recopier l’expression utilisée par
+              Montaigne, en précisant la distance d’une étagère à l’autre. Les
+              inventaires après décès indiquent parfois les meubles où les
+              livres ont été trouvés&#160;: coffres, écritoires, et aussi pupitres
+              (inventaire du parlementaire parisien mort en 1558, Guillaume
+              Bourgoing, en cours de publication, aimablement transcrit et
+              transmis par Brigitte Colas).</p>
+            </note>. <persName ref="034475400" type="idref" xml:base="https://www.idref.fr/">Bouquier</persName> est le seul à
+          mentionner des inscriptions sur le chant de ces rayonnages («&#160;on
+          voit sur leur épaisseur des inscriptions grecques et latines,
+          presque toutes effacées. J’en ai déchiffré quelques-unes, tirées de
+          <persName ref="026674327" type="idref" xml:base="https://www.idref.fr/">Virgile</persName> et de <persName ref="026670984" type="idref" xml:base="https://www.idref.fr/">Sénèque</persName> le
+          tragique&#160;»)<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Gabriel Bouquier, in A.&#160;Legros, <hi rend="italic">Essais sur
+              poutres</hi>, op.&#160;cit., p.&#160;477</p>
+            </note>. Il semble que ce soient aussi des sentences, non des
+          étiquettes de classement, qu’il aurait été hasardeux de
+          replacer.</p>
+          <p xml:id="d1e481">Soulignons que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> a
+          rédigé cette description en deux phases, postérieures à son voyage
+          en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, ce qui a
+          ici son importance car il a visité la Bibliothèque Vaticane le <date type="_temp" when="1581-03-06">6&#160;mars&#160;1581</date>. Un passage du <hi rend="italic">Journal de voyage </hi>éclaire ce qu’il entend par <hi rend="italic">pupitres</hi>, seule autre occurrence que l’on
+          connaisse dans ses écrits. Je reprends ici la «&#160;copie <persName type="_temp">Leydet</persName>&#160;» manuscrite <hi>(<date type="_temp" when="1771">1771</date>&#160;; voir ill. p.&#160;85, en bas),</hi> transcrite
+          par <persName ref="056181604" type="idref" xml:base="https://www.idref.fr/">Alain Legros</persName>&#160;:</p>
+          <figure xml:id="d1e492">
+            <graphic url="https://didomena.ehess.fr/downloads/5t34ss93d.jpg"/>
+            <head xml:id="d1e493">Figure 3. «&#160;Copie Leydet&#160;» du <hi rend="italic">Journal de Voyage </hi>de Montaigne (coll.&#160;BnF). BnF
+            manuscrits, Périgord 106, f. 58r ; cliché BVH</head>
+          </figure>
+          <quote rend="quotation" xml:id="d1e500" xml:lang="frm">«&#160;<date type="_temp" when="1581-03-06">6&#160;mars</date>. je fus voir la
+          librairie du vatican qui est en cinq ou six salles tout de suite il
+          y a un gr. nombre de livrres [sic] attachès sur plus. <hi rend="italic">raïes </hi>de pupitres il y en a aussi dans des
+          coffres qui me furent tous ouverts&#160;»<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Copie Leydet, fichier cité, f.&#160;58r</p>
+            </note>.</quote>
+          <p xml:id="d1e508">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>Elle me
+          paraît plus fiable que l’édition <persName ref="027026345" type="idref" xml:base="https://www.idref.fr/">Meunier de
+          Querlon</persName> (<date type="_temp" when="1774">1774</date>), qui
+          présente une leçon légèrement différente&#160;:</p>
+          <quote rend="quotation" xml:id="d1e510">«&#160;Le <date type="_temp" when="1581-03-06">6&#160;de&#160;Mars</date>, je fus voir la Librerie du
+          Vatican, qui est en cinq ou six salles tout de suite. Il y a un
+          grand nombre de livres atachés sur plusieurs <hi rend="italic">rangs
+          </hi>de pupitres&#160;; il y en a aussi dans des coffres, qui me furent
+          tous ouverts&#160;»<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Meunier de Querlon, édition citée, p.&#160;147</p>
+            </note>.</quote>
+          <p xml:id="d1e518">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>J’ai
+          mis en italiques les deux termes distincts, <hi rend="italic">raïes
+          </hi>et <hi rend="italic">rangs</hi>, car l’édition change le sens
+          de ce qui est fourni par la copie <persName type="_temp">Leydet</persName>&#160;: <hi rend="italic">
+              <foreign xml:lang="frm">raïes</foreign>
+            </hi>veut dire primitivement case, alvéole, puis rayon. D’après
+          les historiens de la Bibliothèque Vaticane, on sait que la
+          disposition médiévale de la grande salle de lecture publique, en
+          pupitres alignés en rangs et avec des coffres à leur bout, était
+          encore celle que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> avait vue. Le
+          déménagement de la salle et le démontage des pupitres ne se feront
+          qu’à partir des <date from="1590" to="1599" type="_temp">années&#160;1590</date>.</p>
+          <p xml:id="d1e529">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Grâce
+          à la leçon <persName type="_temp">Leydet</persName>, on peut donc
+          paraphraser autrement la description de la Vaticane&#160;: «&#160;attachés sur
+          plusieurs rayons de pupitres&#160;», c’est-à-dire «&#160;attachés à plusieurs
+          étagères de meubles-pupitres&#160;»&#160;; «&#160;sur des pupitres à cinq degrés&#160;»
+          serait alors à traduire par «&#160;sur des meubles-pupitres à cinq
+          niveaux&#160;». En effet, il n’y avait pas encore de nom précis pour ce
+          que nous nommons «&#160;bibliothèque&#160;» au sens d’ensemble d’étagères. On
+          disait «&#160;pupitre&#160;» ou «&#160;tablettes&#160;», comme en témoigne encore le <hi rend="italic">Dictionnaire </hi>de <persName ref="026876892" type="idref" xml:base="https://www.idref.fr/">Furetière</persName>
+          (<date type="_temp" when="1690">1690</date>)<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <hi rend="small-caps">Pulpitre</hi>. Petit meuble de bois
+              fait d’un ais incliné sur un rebord qui l’arreste par le bas. Il
+              est propre à soûtenir un livre, et commode aux estudians. Il y a
+              des <hi rend="italic">pulpitres </hi>portatifs qu’on peut mettre
+              auprés du feu. Dans les grandes Bibliotheques il y a toûjours
+              quelque tablette <hi rend="italic">disposée en
+              pulpitre&#160;</hi>[…]<lb/>
+                <hi rend="small-caps">Tablette</hi>.
+              Assemblage de plusieurs ais ou de planches en divers rangs
+              propres pour mettre des livres, des curiositez, ou autres choses
+              qu’on veut garder et arranger. Dans cette Bibliotheque il y a
+              20&#160;<hi rend="italic">tablettes </hi>ou armoires de livres.
+              Chaque armoire a six <hi rend="italic">tablettes</hi>, ou
+              planches et rangées de livres. Les livres <hi rend="italic">in
+              octavo </hi>se mettent dans les hautes <hi rend="italic">tablettes&#160;;</hi> ceux <hi rend="italic">in folio
+              </hi>dans les basses. Voilà la <hi rend="italic">tablette
+              </hi>des Scholastiques, voilà celle des Historiens de France,
+              voilà celle des Humanistes.<lb/>Le <hi rend="italic">Dictionnaire françois-latin </hi>de Jean Nicot
+              (Paris, Jacques Du Puys, 1584) définit le meuble ainsi&#160;:
+              «&#160;Poulpitres ou armoires à mettre livres, <hi rend="italic">plutei&#160;»</hi>.</p>
+            </note>.</p>
+          <p xml:id="d1e579">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Je
+          n’abandonne pas néanmoins l’idée que l’un des rayonnages (celui qui
+          permet d’écrire debout) soit une «&#160;tablette disposée en pulpitre&#160;»,
+          comme on en voit dans la bibliothèque de l’Escorial, la première à
+          abandonner les pupitres médiévaux (<date type="_temp" when="1563">1563</date>). Comme l’a résumé <persName ref="027210049" type="idref" xml:base="https://www.idref.fr/">André
+          Masson</persName> dans <hi rend="italic">Le décor des
+          bibliothèques</hi>, le milieu du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date> voit précisément
+          se répandre l’usage des étagères murales à cinq niveaux ou
+          davantage<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>
+                <hi rend="italic">Histoire générale d’Espagne</hi>, par Louis
+              Turquet de Mayerne, Lyon, Jean de Tournes, 1587. La main de
+              Léonor se voit aussi sur le Beuther et sur la réédition de la
+              <hi rend="italic">Théologie naturelle </hi>traduite par
+              Montaigne (Rouen, Romain de Beauvais, 1603), conservée à
+              Harvard. Voir les détails dans A.&#160;Legros, «&#160;La griffe de
+              Léonor&#160;: un nouvel autographe de la fille de Montaigne&#160;», in <hi rend="italic">Montaigne studies</hi>, 28, 2015, p.&#160;197-204.</p>
+            </note>. Malheureusement, aucune gravure ne montre ce que pouvait
+          être cette disposition dans une bibliothèque privée. La plupart
+          représentent une ou deux étagères attachées au mur dans les chambres
+          d’étude des savants, comme dans celle où l’on voit <persName ref="026763362" type="idref" xml:base="https://www.idref.fr/">Calvin</persName> feuilletant ses
+          livres, sans que, pour autant, l’usage de la tablette inclinée en
+          écritoire ait disparu <hi>(voir ill. p.&#160;88, à gauche)</hi>. La
+          gravure d’après <persName type="_temp">Woutens</persName>, souvent
+          reproduite et représentant la salle de la bibliothèque universitaire
+          de <placeName ref="2751773" type="geonames" xml:base="https://www.geonames.org/">Leyde</placeName> (<date type="_temp" when="1610">1610</date>), montre des pupitres avec une
+          étagère au-dessus de la tablette inclinée <hi>(voir ill. p.&#160;88, à
+          droite)</hi>. Le titre de la gravure contient même le mot «&#160;<foreign xml:lang="lat">pulpitis</foreign>&#160;»<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>
+                <hi rend="small-caps">bibliotheca lugduno-batava cum pulpitis
+              et arcis vera ixnographia</hi>, 1610. L’ichnographie (terme
+              emprunté à Vitruve) est en principe une représentation plane&#160;;
+              ce serait plutôt ici une «&#160;scénographie&#160;» (en perspective).</p>
+            </note>.</p>
+          <figure xml:id="d1e615">
+            <graphic url="https://didomena.ehess.fr/downloads/6h441213v.jpg"/>
+            <head xml:id="d1e616">Figure 4. Calvin dans sa bibliothèque
+            (coll.&#160;BnF). Cliché Gallica</head>
+          </figure>
+          <figure xml:id="d1e620">
+            <graphic url="https://didomena.ehess.fr/downloads/mc87q038q.jpg"/>
+            <head xml:id="d1e621">Figure 5. La bibliothèque universitaire de
+            Leyde en 1610, d’après Woutens (coll.&#160;British Museum). Cliché
+            British Museum</head>
+          </figure>
+          <p xml:id="d1e625">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-sbnvxjra">mobilier<term ref="doi:10.34817/sv-wmu6j2gm">pupitre</term>
+              </term>
+            </term>Si l’on
+          adoptait l’idée que <hi rend="italic">pupitres </hi>dans les <hi rend="italic">Essais </hi>désigne plusieurs meubles-bibliothèques
+          attachés au mur, il faudrait visualiser autrement en 3D&#160;: non pas
+          deux grands meubles à trois sections chacun (plus un, isolé sur le
+          pan de mur plus étroit), comme nous l’avons fait, soit sept sections
+          en tout, mais quatre meubles moins larges, de deux sections chacun
+          pour les pans de mur les plus larges, ce qui donne le même nombre de
+          sections en tout sur cinq niveaux. Cette nouvelle division
+          permettrait d’atténuer le problème de la courbure du mur qui a dû se
+          poser au menuisier.</p>
+          <p xml:id="d1e633">Il est en outre remarquable que, compte tenu du
+          périmètre de mur disponible, le millier de livres déclaré par
+          <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> est à peu près
+          ce qui tiendrait sur ces étagères virtuelles (entre 1&#160;000 et 1&#160;400
+          suivant la densité et la proportion de petits formats). Cette
+          correspondance renforce le caractère vraisemblable, à défaut d’être
+          certain, de cette autre hypothèse, où la présence d’un niveau avec
+          tablette inclinée supportant des livres ouverts au feuilletage ou à
+          l’annotation irait dans le sens d’un <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>
+          en mouvement dans sa bibliothèque, comme il se décrit écrivant ou
+          dictant ses pensées qui «&#160;dorment&#160;» s’il les «&#160;assit&#160;». La promenade
+          dans ce lieu recourbé engage une relation corporelle avec
+          l’écriture, avec les livres et avec cet «&#160;écrivant&#160;» qu’est le
+          secrétaire anonyme. La disposition n’est pas étrangère à la
+          composition.</p>
+        </div>
+        <div type="section1" xml:id="d1e635">
+          <head subtype="level1" xml:id="d1e636">Fantômes</head>
+          <p xml:id="d1e638">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>La
+          bibliothèque fantôme est d’abord celle que l’on peut déduire de
+          l’usage par <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> des écrits
+          d’autrui dans les <hi rend="italic">Essais</hi>, par citation,
+          allusion, paraphrase ou traduction. On pourrait aller encore plus
+          loin rétroactivement en imaginant ce que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> a
+          pu lire avant ses premiers achats vers quinze ans. Et où étaient ses
+          livres avant l’aménagement de la bibliothèque&#160;? Du côté du futur, il
+          serait instructif de retracer l’historique des possesseurs et
+          annotateurs ultérieurs de la bibliothèque dispersée, ce que l’on
+          sait par les ex-libris, travail qui regarde la réception d’ouvrages
+          très divers et qui complèterait la liste des localisations des
+          exemplaires des <hi rend="italic">Essais</hi>. Trois pistes au moins
+          restent encore à explorer, dans des projets collectifs&#160;: proposer
+          une liste de ces livres fantômes, rechercher les traces des
+          bibliothèques auxquelles <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> a pu avoir
+          accès du temps de ses études, continuer les recherches sur les
+          possesseurs et annotateurs connus ou inconnus – la toute première
+          pourrait être la fille de l’auteur, <persName type="_temp">Léonor</persName>, qui était aussi sa légataire. Son
+          écriture a été identifiée sur trois livres, dont le dernier a été
+          repéré par <persName ref="116215607" type="idref" xml:base="https://www.idref.fr/">Malcolm Walsby</persName> à la fin
+          de <date type="_temp" when="2014">2014</date> à <placeName ref="6454365" type="geonames" xml:base="https://www.geonames.org/">Metz</placeName>
+            <note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>
+                <hi rend="italic">Histoire générale d’Espagne</hi>, par Louis
+              Turquet de Mayerne, Lyon, Jean de Tournes, 1587. La main de
+              Léonor se voit aussi sur le Beuther et sur la réédition de la
+              <hi rend="italic">Théologie naturelle </hi>traduite par
+              Montaigne (Rouen, Romain de Beauvais, 1603), conservée à
+              Harvard. Voir les détails dans A.&#160;Legros, «&#160;La griffe de
+              Léonor&#160;: un nouvel autographe de la fille de Montaigne&#160;», in <hi rend="italic">Montaigne studies</hi>, 28, 2015, p.&#160;197-204.</p>
+            </note>.</p>
+          <p xml:id="d1e659">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-mkkftt9a">essai</term>
+              </term>
+            </term>L’intertextualité
+          des <hi rend="italic">Essais </hi>est particulièrement riche&#160;: elle
+          se signale parfois grâce à une simple allusion laissée à la seule
+          sagacité du lecteur, souvent par une citation ou une paraphrase d’un
+          texte dont l’auteur est rarement mentionné. La bibliothèque
+          personnelle de <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> n’est pas
+          seulement reconstituable à partir des livres retrouvés&#160;: la liste
+          établie par <persName ref="02916348X" type="idref" xml:base="https://www.idref.fr/">Pierre Villey</persName> au début
+          de son édition et ses notes proposaient déjà un ensemble de livres
+          supposés possédés par l’écrivain<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>
+                <hi rend="italic">Les Essais</hi>, édition de Pierre Villey
+              et Verdun-L. Saulnier, Paris, PUF, 1965</p>
+            </note>. Par l’ajout de ce que les éditeurs et les spécialistes de
+          <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> ont établi
+          comme sources probables, la bibliothèque de fantômes se dessine un
+          peu plus précisément. Un projet de bibliothèque étendue pourrait
+          relier les citations des <hi rend="italic">Essais </hi>aux ouvrages
+          potentiels d’où elles sont tirées.</p>
+          <p xml:id="d1e674">Certains ouvrages sont d’ailleurs moins fantômes
+          que d’autres, parce que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> parle
+          explicitement des exemplaires qu’il possédait, comme son <persName ref="026796643" type="idref" xml:base="https://www.idref.fr/">Commines</persName> ou son
+          <persName ref="026672316" type="idref" xml:base="https://www.idref.fr/">Tacite</persName>, jamais
+          retrouvés. La difficulté de savoir quelles sont les éditions
+          utilisées semble insurmontable pour les auteurs très connus&#160;:
+          quel(s) <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName>&#160;? quel(s)
+          <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>&#160;? quel(s)
+          <persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>&#160;? quel(s)
+          <persName ref="026670984" type="idref" xml:base="https://www.idref.fr/">Sénèque</persName>&#160;? Est-il revenu
+          à ces classiques lorsqu’il a terminé ses études, ou les a-t-il
+          laissés où ils étaient pour n’y revenir que de mémoire&#160;?</p>
+          <p xml:id="d1e676">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-8rsdreyt">journal</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Le
+          manuscrit bordelais de la <hi rend="italic">Servitude volontaire
+          </hi>n’a jamais pu prendre place sur une étagère dans la
+          bibliothèque, mais <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> avait
+          forcément eu un autre manuscrit entre les mains, actuellement perdu.
+          Le nouveau témoin, en ligne et édité, est une copie de <date type="_temp" when="1605">1605</date>
+            <note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>Alain Legros, «&#160;Le manuscrit Mériadeck (Bibliothèque de
+              Bordeaux-Mériadeck&#160;: Ms. 2199)&#160;», in John O’Brien, Marc
+              Schachter&#160;(éd.), <hi rend="italic">La première circulation de la
+              </hi>Servitude volontaire <hi rend="italic">en France et
+              au-delà</hi>, Paris, Champion, 2019, p.&#160;425-448</p>
+            </note>. Parmi les fantômes encore, le manuscrit original du <hi rend="italic">Journal de voyage</hi>, comme on l’a vu. Il faut aussi
+          compter au moins un autre exemplaire de l’édition de <date type="_temp" when="1588">1588</date>, annoté et constituant
+          l’«&#160;<foreign xml:lang="lat">archetypum</foreign>&#160;», et une mise au
+          net par un secrétaire, qui ont servi à <persName ref="026899027" type="idref" xml:base="https://www.idref.fr/">Marie de
+          Gournay</persName> à établir l’édition de <date type="_temp" when="1595">1595</date> puis celle de <date type="_temp" when="1598">1598</date>. En effet ces éditions, préparées et
+          réalisées, se fondaient au moins sur un manuscrit autographe des <hi rend="italic">Essais </hi>annoté, mais différent de l’Exemplaire de
+          <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName>, et une
+          copie. On imagine aussi que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> a conservé
+          dans sa «&#160;librairie&#160;» un ou plusieurs exemplaires de sa traduction
+          de la <hi rend="italic">Théologie naturelle </hi>de <persName ref="030638488" type="idref" xml:base="https://www.idref.fr/">Raymond Sebond</persName>, des
+          premières éditions des <hi rend="italic">Essais </hi>(<date type="_temp" when="1580">1580</date> et <date type="_temp" when="1582">1582</date>), également annotés, envoyés chez
+          l’imprimeur et détruits comme les brouillons.</p>
+          <p xml:id="d1e704">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-cjjmsnnr">collège</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>Encore moins
+          saisissable que la bibliothèque réelle disparue avec ses fantômes
+          est cet ensemble de livres que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> a
+          au moins consultés sinon lus, avant même d’avoir suffisamment
+          d’indépendance pour commencer sa propre collection. Pendant son
+          éducation domestique jusqu’à son entrée au collège de Guyenne (<date type="_temp" when="1539">1539</date>), peu d’ouvrages devaient être
+          disponibles au château&#160;; du moins n’en savons-nous rien. Les livres
+          conservés qui sont contemporains de sa jeunesse (avant 25&#160;ans, en
+          <date type="_temp" when="1558">1558</date>) et qui ne viennent pas
+          de <persName ref="026955776" type="idref" xml:base="https://www.idref.fr/">La&#160;Boétie</persName> (mort en <date type="_temp" when="1563">1563</date>) sont au nombre de 18. Ces
+          lectures «&#160;préquelles&#160;» (celles de l’avant-histoire de la
+          «&#160;librairie&#160;») incluraient ce que l’on sait des livres accessibles
+          aux élèves du collège, notamment les fonds que les précepteurs ou
+          professeurs de <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> pouvaient
+          mettre à leur disposition&#160;: les plus importants seraient ceux de
+          <persName ref="027043088" type="idref" xml:base="https://www.idref.fr/">Marc Antoine Muret</persName> et
+          d’<persName ref="029784840" type="idref" xml:base="https://www.idref.fr/">Élie Vinet</persName>, dont nous
+          avons des catalogues ou inventaires, et de nombreux exemplaires
+          portant leurs ex-libris.</p>
+        </div>
+        <div type="section1" xml:id="d1e706">
+          <head subtype="level1" xml:id="d1e707">Literatores et
+          Historici</head>
+          <p xml:id="d1e709">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>Sur la restitution, rien n’apparaît
+          pour guider parmi les livres l’internaute qui manipule la 3D. Même
+          si nous ne nous sommes pas risqués à étiqueter les rayonnages, on
+          peut tirer quelques enseignements de ce que disent les <hi rend="italic">Essais</hi>, et tous les critiques se sont plus ou
+          moins exercés à ce classement. En effectuant une répartition à
+          partir de 100, puis de 376&#160;titres possibles ou probables, j’ai
+          divisé virtuellement la bibliothèque d’après ce que <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> en dit dans
+          «&#160;Des livres&#160;» (II, 10), où il esquisse une sorte de classement,
+          soit, par ordre d’importance&#160;: l’histoire, les belles lettres, les
+          sciences, la philosophie et les trois disciplines majeures, le
+          droit, la médecine et la théologie, ce qui fait sept sections<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Marie-Luce Demonet, «&#160;Donner à lire la “librairie”
+              philosophique probable de Montaigne&#160;: le projet “Montaigne à
+              l’œuvre”&#160;», in Renzo Ragghianti, Alessandro Savorelli&#160;(éd.), <hi rend="italic">Biblioteche filosofiche private&#160;: strumenti e
+              prospettive di ricerca</hi>, Pise, Scuola normale superiore,
+              2014, p.&#160;97-111</p>
+            </note>.</p>
+          <p xml:id="d1e721">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-rxs3gaea">inventaire</term>
+              </term>
+            </term>Les
+          inventaires des bibliothèques médiévales appliquaient déjà des
+          classements de livres, la plupart du temps dans une répartition qui
+          correspondait aux sept arts libéraux et aux trois facultés, les
+          déclinant parfois de façon très détaillée comme dans l’inventaire
+          des <persName type="_temp">Du&#160;Prat</persName>
+            <note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Madeleine Connat et Jacques Mégret, «&#160;Inventaire de la
+              bibliothèque des Du&#160;Prat&#160;», in <hi rend="italic">Bibliothèque
+              d’Humanisme et Renaissance</hi>, 3, 1943, p.&#160;72-128</p>
+            </note>. <persName ref="069689822" type="idref" xml:base="https://www.idref.fr/">La Croix du Maine</persName>,
+          contemporain de <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>, prévoyait
+          aussi de répartir ses «&#160;buffets&#160;» selon sept grandes divisions qui
+          témoignent du changement sensible dans les intérêts d’un humaniste
+          éclectique&#160;: sacré / arts et sciences / univers / genre humain /
+          hommes illustres en la guerre / Dieu / mélanges et mémoires<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>François La Croix du Maine (sieur de Grudé), <hi rend="italic">Desseins, ou projects pour dresser une
+              Bibliotheque, parfaicte &amp; accomplie de tous poincts</hi>,
+              Paris, [s. n.], 1583. Voir François Roudaut, «&#160;Classements et
+              bibliothèques à la Renaissance. Quelques éléments&#160;», in <hi rend="italic">Babel</hi>, 6, 2002, p.&#160;1-15.</p>
+            </note>. Ma préférence irait toutefois vers un classement général,
+          plus proche de ce qu’indiquent les <hi rend="italic">Essais</hi>.</p>
+          <p xml:id="d1e743">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+          religions</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+              </term>
+            </term>Une
+          répartition en six ou sept sections correspond assez bien à ce que
+          l’on voit sur l’<hi rend="italic">Ichnographia </hi>de <persName type="_temp">Woutens</persName> pour la bibliothèque de <placeName ref="2751773" type="geonames" xml:base="https://www.geonames.org/">Leyde</placeName> qui montre un
+          étiquetage des matières, pupitre par pupitre <hi>(voir ill. p.&#160;88, à
+          droite)</hi>&#160;: <foreign xml:lang="lat">Mathematici</foreign>&#160;(1) –
+          <foreign xml:lang="lat">Philosophi</foreign>&#160;(2) – <foreign xml:lang="lat">Literatores</foreign>&#160;(2) – <foreign xml:lang="lat">Theologi</foreign>&#160;(6) – <foreign xml:lang="lat">Historici</foreign>&#160;(4) – <foreign xml:lang="lat">Medici</foreign>&#160;(2) – <foreign xml:lang="lat">Jurisconsulti</foreign>&#160;(5). Pour <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>, regroupons
+          <foreign xml:lang="lat">Mathematici</foreign> et <foreign xml:lang="lat">Medici</foreign>, assez peu nombreux du reste, et
+          divisons les <foreign xml:lang="lat">Literatores</foreign> entre
+          ceux qui font la littérature, les écrivains, et ceux qui en parlent
+          (les rhétoriciens et les orateurs). Dans ce que j’avais montré lors
+          du colloque de <placeName ref="6542122" type="geonames" xml:base="https://www.geonames.org/">Pise</placeName> sur les
+          bibliothèques de philosophes, j’avais calculé que si l’on ne tenait
+          compte que des cent livres authentifiés (à l’époque), le nombre de
+          <foreign xml:lang="lat">Literatores</foreign> excédait de peu les
+          <foreign xml:lang="lat">Historici</foreign> (24/22), alors que pour
+          les 376 (conservés et fantômes) c’était l’inverse (121/134, 32%
+          contre 35%)&#160;; on est encore loin des mille. La part de la théologie
+          baisse un peu (de 9 à 7%), comme celle des sciences, au contraire de
+          la philosophie qui augmente d’autant (de 11 à 13%). Je doute que ces
+          petites statistiques prouvent quoi que ce soit, même si les
+          proportions entre les disciplines restent en gros les mêmes&#160;; si
+          nous découvrions un jour un inventaire en bonne et due forme de la
+          bibliothèque laissée par <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> à sa fille, il
+          comprendrait sans doute des ouvrages auxquels nous n’aurions jamais
+          pensé.</p>
+        </div>
+        <div type="section1" xml:id="d1e751">
+          <head subtype="level1" xml:id="d1e752">Conclusion&#160;: de la
+          «&#160;garderobe&#160;» à la «&#160;librairie&#160;»</head>
+          <p xml:id="d1e754">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-9kxmpfs2">salle de
+          lecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Les
+          incertitudes qui entourent encore cette célèbre bibliothèque
+          laissent la place à différentes solutions de reconstitution, par
+          comparaison ou contraste avec ce qui existait à la même époque. La
+          Bibliothèque Vaticane créée par <persName ref="032758545" type="idref" xml:base="https://www.idref.fr/">Sixte&#160;IV</persName> à
+          la fin du <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>&#160;siècle</date> comprenait une grande salle de
+          lecture publique à pupitres, et deux autres «&#160;secrètes&#160;» à armoires,
+          dont l’une communiquait avec la «&#160;<foreign xml:lang="ita">guardarobba del papa</foreign>&#160;», encore du temps de
+          <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName>&#160;; les livres
+          les plus précieux y étaient conservés, non loin de la section des
+          hérétiques. En aménageant sa «&#160;librairie&#160;», <persName ref="027035549" type="idref" xml:base="https://www.idref.fr/">Montaigne</persName> a pu faire
+          jouer les deux sens extrêmes de <hi rend="italic">garderobe </hi>et
+          s’amuser de l’ironie qui applique à une pièce «&#160;inutile&#160;» l’activité
+          littéraire qu’il qualifie de «&#160;vaine&#160;» sans être pour autant
+          hérétique, infiniment précieuse comme il en donne la preuve.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

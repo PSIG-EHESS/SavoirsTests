@@ -1,0 +1,1156 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-09-27T11:18:16.582+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_20_Casin.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les Dominicains de Colmar</title>
+        <title type="sub">Un rendez-vous des collections avec leur histoire…
+        et avec notre temps&#160;?</title>
+        <author role="aut">
+          <forename>Rémy</forename>
+          <surname>Casin</surname>
+          <idno type="IDREF">109220455</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2022">2022</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Partage dans
+          les Mêmes Conditions 4.0 International - CC BY-NC-SA 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/3T9P6DGH" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Les Dominicains de Colmar</title>
+            <idno type="DOI">10.4000/rbnu.3670</idno>
+            <author>
+              <forename>Rémy</forename>
+              <surname>Casin</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">20</biblScope>
+              <biblScope unit="page">60-69</biblScope>
+              <date>2019</date>
+              <note type="accessed">2022-07-07T09:28:54Z</note>
+              <note type="url">https://journals.openedition.org/rbnu/3670</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6455228" type="geonames" xml:base="https://www.geonames.org/">Colmar</placeName>
+          </term>
+          <term>
+            <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date type="_temp">Moyen-Âge</date>
+          </term>
+          <term>
+            <date type="_temp">Renaissance</date>
+          </term>
+          <term>
+            <date from="2015" to="2020" type="_temp">2015-2020</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T14:03:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Les Dominicains de Colmar</titlePart>
+          <titlePart type="sub">Un rendez-vous des collections avec leur
+          histoire… et avec notre temps&#160;?</titlePart>
+        </docTitle>
+        <docAuthor>Rémy Casin</docAuthor>
+        <byline>
+          <affiliation xml:id="aff01">Conservateur responsable de la
+          Bibliothèque des Dominicains de Colmar</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e54">
+          <head subtype="level1" xml:id="d1e55">Colmar, ville de
+          patrimoine</head>
+          <div type="section2" xml:id="d1e57">
+            <head subtype="level2" xml:id="d1e58">Patrimoine architectural et
+            muséal… et patrimoine écrit et graphique</head>
+            <p xml:id="d1e60">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+            matériel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-icg5zods">région</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+                </term>
+              </term>Ville
+            moyenne (71&#160;445&#160;habitants comptabilisés au dernier recensement,
+            116&#160;782 dans l’agglomération), <placeName ref="6455228" type="geonames" xml:base="https://www.geonames.org/">Colmar</placeName> est non
+            seulement la préfecture du Haut-Rhin mais l’héritage de l’<date type="_temp">Ancien Régime</date>, durant lequel elle était le
+            siège du Conseil souverain d’<placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>, lui a
+            également valu de conserver le statut de capitale judiciaire de
+            cette région. C’est aussi une ville patrimoniale au cœur de
+            l’<placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>, qui
+            attire une fréquentation touristique de quelque trois millions et
+            demi de visiteurs par an. Son succès tient à son cadre urbain
+            préservé, où les différentes périodes historiques se côtoient sans
+            heurt&#160;: <date type="_temp">Moyen-Âge</date>, <date type="_temp">Renaissance</date>, <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date> et période de
+            l’annexion allemande (<date from="1871" to="1918" type="_temp">1871-1918</date>). Il repose aussi sur l’offre déjà
+            forte de plusieurs musées, dont celui consacré au sculpteur
+            <persName ref="027291308" type="idref" xml:base="https://www.idref.fr/">Frédéric Auguste
+            Bartholdi</persName> (<date from="1834" to="1904" type="_temp">1834-1904</date>), colmarien de naissance et créateur
+            de la Statue de la liberté à <placeName ref="5128638" type="geonames" xml:base="https://www.geonames.org/">New
+            York</placeName>, et le Musée d’Unterlinden, institution
+            mondialement renommée pour la richesse de ses collections et pour
+            leur fleuron, le <hi rend="italic">Retable d’Issenheim </hi>de
+            <persName ref="028236335" type="idref" xml:base="https://www.idref.fr/">Mathias Grunewald</persName>.</p>
+            <figure xml:id="d1e68">
+              <graphic url="https://didomena.ehess.fr/downloads/4q77g043g.jpg"/>
+              <head xml:id="d1e69">Figure 1. Le cloître des Dominicains de
+              Colmar. Cliché Ville de Colmar</head>
+            </figure>
+          </div>
+          <div type="section2" xml:id="d1e73">
+            <head subtype="level2" xml:id="d1e74">Une dynamique de rénovation
+            des équipements culturels</head>
+            <p xml:id="d1e76">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation</term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+            savoirs</term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+            matériel</term>
+                </term>
+              </term>Cette manne touristique est
+            entretenue par une politique volontariste de rénovation des
+            équipements municipaux, dont la restructuration et l’extension
+            d’Unterlinden, inauguré dans son nouveau cadre en <date type="_temp" when="2016">2016</date>, a été le projet phare. Elle
+            ne néglige pas les autres services culturels. On citera ainsi la
+            rénovation et l’extension du Centre Europe en <date type="_temp" when="2014">2014</date> –&#160;structure socioculturelle qui héberge
+            également une des bibliothèques de quartier du réseau colmarien de
+            lecture publique&#160;– et, mutation majeure pour ce dernier,
+            l’inauguration en <date type="_temp" when="2012">2012</date> de la
+            médiathèque Edmond Gerrer, grâce à laquelle les habitants
+            bénéficient d’un site voué à la lecture publique et offrant,
+            principalement en libre accès, quelque 170&#160;000&#160;documents (livres
+            imprimés et numériques, presse, documents audio-visuels) et un
+            espace multimédia qui s’étend sur 3&#160;800&#160;m<hi rend="sup">2</hi>,
+            dans un imposant bâtiment historique réaménagé, l’ancien hôpital
+            de la ville élevé au <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>. Ce besoin
+            était d’autant plus vivement ressenti que le bâtiment historique
+            de la bibliothèque municipale où celle-ci était installée depuis
+            <date type="_temp" when="1951">1951</date> ne se prêtait pas aux
+            aménagements répondant aux attentes du public actuel&#160;: libre accès
+            aux fonds, circulations fluides, espaces réservés au jeune public,
+            au travail individuel ou collectif… L’ancien couvent des
+            dominicains, datant de la fin du <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi>&#160;siècle</date> et
+            partiellement classé monument historique en <date type="_temp" when="1948">1948</date>, accolé à son église –&#160;de même date et
+            chef-d’œuvre de l’architecture des ordres mendiants dans l’espace
+            rhénan&#160;– ne permettait aucunement dans ses espaces le
+            développement d’un service performant et attractif de lecture
+            publique, de par sa nature patrimoniale et de multiples
+            handicaps&#160;: vieillissement prononcé des infrastructures,
+            «&#160;sédimentation&#160;» des fonctions résultant de l’insertion au fil du
+            temps de divers secteurs (jeunesse, audio-visuel) dans un cadre
+            existant toujours étriqué –&#160;toutes contraintes aggravées par
+            l’exiguïté d’espaces intérieurs très largement accaparés par des
+            magasins eux-mêmes arrivés à saturation (voir ill. ci-dessus).</p>
+          </div>
+          <div type="section2" xml:id="d1e87">
+            <head subtype="level2" xml:id="d1e88">Un patrimoine écrit et
+            graphique exceptionnel, mais méconnu</head>
+            <p xml:id="d1e90">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-8xb4cz3h">couvent</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>Renommés
+            Bibliothèque des Dominicains après le départ des fonds courants,
+            le couvent et son bâtiment annexe se sont donc spécialisés comme
+            composante «&#160;étude et recherche&#160;» du réseau colmarien, vouée à la
+            conservation, l’étude et la valorisation des très riches
+            collections patrimoniales. Propriétés de l’État et de la Ville,
+            leur origine remonte aux saisies révolutionnaires et à une longue
+            tradition de dons inaugurée au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, qui ont
+            représenté des enrichissements souvent plus que notables. En
+            raison de l’importance et de la qualité de ces fonds,
+            l’établissement est inclus depuis <date type="_temp" when="1931">1931</date> dans la liste des bibliothèques
+            municipales classées. Sur près de dix kilomètres linéaires, les
+            Dominicains conservent en effet quelque 380&#160;000&#160;documents, de
+            types divers, aux deux tiers de statut patrimonial, dont le
+            tableau ci-dessous présentera un aperçu chiffré.</p>
+            <table cols="2" rend="frame" rows="9" xml:id="d1e95">
+              <head xml:id="d1e96">Composition du fonds des Dominicains</head>
+              <row>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">
+                  <hi rend="bold">Collections</hi>
+                </cell>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">
+                  <hi rend="bold">Volumétrie</hi>
+                </cell>
+              </row>
+              <row>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">Manuscrits</cell>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">1&#160;800</cell>
+              </row>
+              <row>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">Incunables</cell>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">2&#160;300</cell>
+              </row>
+              <row>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">Livres
+                du 16<hi rend="sup">e</hi>&#160;siècle</cell>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">10&#160;000</cell>
+              </row>
+              <row>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">Livres
+                des 17<hi rend="sup">e</hi>&#160;et 18<hi rend="sup">e</hi>&#160;siècles</cell>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">25&#160;000</cell>
+              </row>
+              <row>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">Livres
+                du 19<hi rend="sup">e</hi>&#160;siècle</cell>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">50&#160;000</cell>
+              </row>
+              <row>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">Alsatiques</cell>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">40&#160;000</cell>
+              </row>
+              <row>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">Collections iconographiques</cell>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">120&#160;000&#160;documents</cell>
+              </row>
+              <row>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">Collections numismatiques</cell>
+                <cell rend="text-align:justify;" rendition="#Cell1.A1">21&#160;000&#160;monnaies et médailles</cell>
+              </row>
+            </table>
+            <p xml:id="d1e156">
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-rzpyfeps">support</term>
+              </term>Un fonds
+            d’étude et de documentation contemporaine de plus de
+            110&#160;000&#160;volumes accompagne ces amples ensembles, qui placent sans
+            conteste les fonds colmariens au niveau de ceux d’une grande
+            métropole régionale.</p>
+            <p xml:id="d1e158">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+            intellectuelle</term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+                </term>
+              </term>Complétons
+            ces chiffres par quelques caractéristiques saillantes. Un quart
+            des manuscrits datent de l’époque médiévale, les pièces les plus
+            anciennes remontant aux <date from="0700" to="0799" type="_temp">8<hi rend="sup">e</hi>
+              </date>&#160;et <date from="0800" to="0899" type="_temp">9<hi rend="sup">e</hi>&#160;siècles</date>&#160;: une
+            demi-douzaine de vénérables survivants de la bibliothèque de
+            l’abbaye bénédictine de <placeName ref="6441544" type="geonames" xml:base="https://www.geonames.org/">Murbach</placeName>,
+            important foyer d’études à l’époque carolingienne, en lien étroit
+            avec les scriptoria des prestigieuses abbayes de <placeName ref="2849191" type="geonames" xml:base="https://www.geonames.org/">Reichenau</placeName> et de
+            <placeName ref="2658822" type="geonames" xml:base="https://www.geonames.org/">Saint-Gall</placeName>. Quant
+            aux incunables, il suffira de signaler qu’il s’agit par leur
+            volumétrie de la plus importante collection en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> après
+            celle de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+            nationale</placeName> (voir ill. ci-dessous). Et tout comme pour
+            ces premières impressions, le nombre très élevé des livres du
+            <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date> s’explique par la position
+            privilégiée des propriétaires initiaux&#160;: nombreuses maisons
+            religieuses de Haute-Alsace et aristocratie locale (au sein de
+            laquelle figure une étonnante lignée de seigneurs, les <persName type="_temp">sires de Ribeaupierre</persName>, lettrés et
+            attentifs aux débats religieux et intellectuels de leur temps),
+            toutes situées idéalement, pour enrichir leurs bibliothèques,
+            entre les grands centres typographiques et commerciaux de
+            <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> et de
+            <placeName ref="2661604" type="geonames" xml:base="https://www.geonames.org/">Bâle</placeName>, à l’<date type="_temp">époque féconde de l’humanisme rhénan</date>.</p>
+            <p xml:id="d1e169">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>Le
+            livre continue à être très présent au <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi>&#160;siècle</date> dans une
+            <placeName ref="6455228" type="geonames" xml:base="https://www.geonames.org/">Colmar</placeName> devenue
+            française, au point qu’une étude de référence a pu consacrer à ce
+            sujet un chapitre dont l’ouverture dit tout&#160;: «&#160;<placeName ref="6455228" type="geonames" xml:base="https://www.geonames.org/">Colmar</placeName> est la
+            ville des bibliothèques&#160;»<note n="1" place="foot" type="standard" xml:id="ftn1">
+                <p>G.&#160;Livet, N.&#160;Wilsdorf, <hi rend="italic">Le conseil
+                souverain d’Alsace au XVII</hi>
+                  <hi rend="sup italic">e</hi>
+                  <hi rend="italic">&#160;siècle</hi>, Strasbourg, Société savante
+                d’Alsace, 1997, p.&#160;609</p>
+              </note>. Cette observation est confirmée <date from="1700" to="1799" type="_temp">un siècle plus tard</date> par un témoin de
+            marque, <persName ref="027190099" type="idref" xml:base="https://www.idref.fr/">M.&#160;de&#160;Voltaire</persName>
+            lui-même, lors de son séjour dans la cité <date from="1753-10" to="1754-11" type="_temp">entre octobre&#160;1753 et
+            novembre&#160;1754</date>
+              <note n="2" place="foot" type="standard" xml:id="ftn2">
+                <p>Voltaire, <hi rend="italic">Correspondance
+                </hi>(éd.&#160;T.&#160;Bestermann), T.&#160;III (lettre du 13&#160;novembre&#160;1753,
+                p.&#160;1089-1090), Paris, Gallimard, 1975</p>
+              </note>. Et comme nombre de villes, <placeName ref="6455228" type="geonames" xml:base="https://www.geonames.org/">Colmar</placeName> voit au
+            <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date> se développer en ses murs des
+            foyers d’étude et de sociabilité réunissant les élites urbaines,
+            tels que la Société de lecture (<foreign xml:lang="deu">Lesegesellschaft</foreign>) et la Tabagie
+            littéraire, toutes deux animées par le poète et pédagogue
+            <persName ref="032419414" type="idref" xml:base="https://www.idref.fr/">Conrad Théophile
+            Pfeffel</persName> (<date from="1736" to="1809" type="_temp">1736-1809</date>)<note n="3" place="foot" type="standard" xml:id="ftn3">
+                <p>G.&#160;Braeuner, <hi rend="italic">Pfeffel l’Européen…</hi>,
+                Strasbourg, La Nuée Bleue, 1994</p>
+              </note>. Ces «&#160;clubs&#160;» s’appuient sur des bibliothèques
+            richement garnies qui nourrissent la réflexion et les échanges de
+            leurs membres. Les siècles suivants voient nombre de personnalités
+            et érudits colmariens prendre une part active aux recherches
+            savantes de tout ordre, dont la région est depuis lors un terrain
+            privilégié. De ce considérable héritage de manuscrits, archives et
+            livres, que les bibliothécaires ont enrichi dès le <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date> par la constitution d’un imposant
+            fonds régional de quelque 40&#160;000&#160;volumes, la Bibliothèque des
+            Dominicains est aujourd’hui la dépositaire.</p>
+            <p xml:id="d1e206">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-icg5zods">région</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-drzsfy9d">artiste</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-xanfbfny">métal</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-vukhhput">matériau</term>
+              </term>Les fonds
+            iconographiques et numismatiques s’imposent également à
+            l’attention de par leur importance numérique et leur profondeur
+            historique (trouvailles archéologiques pour les monnaies, <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>&#160;siècle</date> pour les estampes les plus
+            anciennes), ainsi que leur diversité typologique (dessins,
+            estampes, affiches, photographies…). De provenances et de sujets
+            essentiellement locaux, ces images et objets constituent une
+            mémoire visuelle et «&#160;métallique&#160;» de la Haute-Alsace, qui
+            accompagne naturellement les collections livresques. Enfin, par
+            une politique suivie d’entrées dans les fonds (dons et
+            acquisitions) d’œuvres contemporaines des artistes travaillant
+            dans la région (graveurs, photographes), la bibliothèque s’efforce
+            de remplir une de ses missions essentielles&#160;: contribuer au
+            patrimoine de demain.</p>
+            <figure xml:id="d1e211">
+              <graphic url="https://didomena.ehess.fr/concern/file_sets/2n49t852k.jpg"/>
+              <head xml:id="d1e212">Figure 2. Le premier livre imprimé à
+              Strasbourg, la Bible latine de Mentelin, 1460. Cliché Ville de
+              Colmar, coll. Les Dominicains de Colmar</head>
+            </figure>
+            <p xml:id="d1e216">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-uxqhekra">modes
+            d’interaction<term ref="doi:10.34817/sv-raoluwcf">conflictualité</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+            matériel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-8jwzm6vf">destruction</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+                </term>
+              </term>Même
+            s’il s’agit de richesses demeurées dans l’ombre, le patrimoine
+            colmarien peut donc mettre en avant une troisième facette en plus
+            de l’héritage monumental et artistique. Et il faut souligner
+            fortement que depuis le funeste incendie qui détruisit la
+            bibliothèque de la Ville de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> en
+            <date>août 1870</date>, ces collections sont à bien des égards
+            sans rivales en <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>
+              <note n="4" place="foot" type="standard" xml:id="ftn4">
+                <p>De nombreux documents d’exception ou d’importance majeure
+                en sont présentés dans une parution récente richement
+                illustrée&#160;: <hi rend="italic">Trésors des bibliothèques et
+                archives d’Alsace</hi>, Strasbourg, La Nuée Bleue, 2017</p>
+              </note>. Formées de livres et de documents souvent produits,
+            toujours rassemblés en <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName> même par
+            de multiples propriétaires pour des usages variés à travers les
+            âges, elles représentent, au même titre que le patrimoine
+            architectural ou artistique, un legs direct du passé de la région.
+            Elles en constituent aussi un témoin majeur, et par-dessus tout
+            une extraordinaire mémoire historique, dont on ne saurait
+            sous-estimer la valeur, tant scientifique que symbolique. Leur
+            profondeur chronologique leur confère d’autre part une double
+            appartenance, germanique et française, qui les distingue dans le
+            paysage national. Il s’agit là du legs d’une histoire plurielle
+            donc, souvent tourmentée, mais que les conflits et leurs
+            destructions ont épargnée, tout comme le cadre urbain et les
+            chefs-d’œuvre artistiques –&#160;assurément une singularité pour une
+            cité relevant de la catégorie des «&#160;villes moyennes&#160;».</p>
+            <p xml:id="d1e225">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>Mais
+            cette singularité dont elle peut s’enorgueillir est aussi porteuse
+            de lourdes contraintes. Car si elles sont connues de longue date
+            des chercheurs et des spécialistes, ces richesses restent encore
+            très peu exploitées. L’inauguration relativement récente d’une
+            médiathèque indique à elle seule qu’un long retard a d’abord dû
+            être rattrapé dans le domaine de la lecture publique, impliquant
+            une nécessaire mobilisation de ressources humaines et financières
+            limitées par la taille de la collectivité. Dans un tel contexte,
+            rien d’étonnant à ce que d’aussi importantes collections n’aient
+            jamais pu être l’objet des efforts soutenus qui leur auraient
+            permis de bénéficier d’une description et d’un signalement propres
+            à leur assurer la visibilité et la notoriété qu’elles méritent. Un
+            actif programme d’expositions, ces dernières années<note n="5" place="foot" type="standard" xml:id="ftn5">
+                <p>Entre autres <hi rend="italic">Noir, blanc, gris… l’infini.
+                L’œuvre du graveur Richard Brunck de Freundeck </hi>(2013) et
+                <hi rend="italic">Lumières médiévales 1216-1516 – 8</hi>
+                  <hi rend="sup italic">e</hi>&#160;<hi rend="italic">centenaire de
+                l’ordre dominicain </hi>(2016)</p>
+              </note>, n’a que partiellement pu combler ce déficit.</p>
+          </div>
+        </div>
+        <div type="section1" xml:id="d1e242">
+          <head subtype="level1" xml:id="d1e243">Le projet «&#160;Les Dominicains
+          de Colmar&#160;»</head>
+          <div type="section2" xml:id="d1e245">
+            <head subtype="level2" xml:id="d1e246">Impulsion</head>
+            <p xml:id="d1e248">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+                </term>
+              </term>De longue
+            date consciente de cette «&#160;exceptionnalité&#160;» colmarienne et de son
+            potentiel culturel, éducatif et touristique (un premier projet de
+            «&#160;musée rhénan du livre&#160;» avait vu le jour à la fin des <date from="1980" to="1989" type="_temp">années&#160;1980</date> sans
+            aboutir<note n="6" place="foot" type="standard" xml:id="ftn6">
+                <p>Voir aussi en ligne un texte prémonitoire de F.&#160;Barbier
+                (2010) sur son blog <hi rend="italic">Histoire du
+                livre&#160;:</hi>
+                  <ref target="http://histoire-du-livre.blogspot.com/2010/06/lheritage-de-la-revolution.html">
+                    <hi rend="underline">http://histoire-du-livre.blogspot.com/2010/06/lheritage-de-la-revolution.html</hi>
+                  </ref>
+                </p>
+              </note>) et –&#160;louable émulation&#160;!&#160;– sensible au rayonnement du
+            projet voisin de la nouvelle Bibliothèque Humaniste de <placeName ref="6441356" type="geonames" xml:base="https://www.geonames.org/">Sélestat</placeName>
+              <note n="7" place="foot" type="standard" xml:id="ftn7">
+                <p>L.&#160;Naas, G.&#160;Vignier, «&#160;Exposer le patrimoine écrit&#160;», in
+                <hi rend="italic">Bulletin des bibliothèques de France
+                (BBF)</hi>, 2018, n<hi rend="sup">o</hi>&#160;16. Disponible en
+                ligne&#160;: <ref target="http://bbf.enssib.fr/consulter/bbf-2018-16-0124-00">
+                    <hi rend="underline">http://bbf.enssib.fr/consulter/bbf-2018-16-0124-00</hi>
+                  </ref>
+                </p>
+              </note> ouverte en <date type="_temp" when="2018">2018</date>,
+            la municipalité a lancé sur le calendrier <date from="2015" to="2019" type="_temp">2015-2019</date> un ambitieux programme de
+            rénovation et de restructuration de sa bibliothèque patrimoniale,
+            dont l’axe fort est la création d’un parcours muséal à côté des
+            fonctions traditionnelles de l’établissement. L’opération a été
+            confiée après concours (<date type="_temp" when="2016-04">avril
+            2016</date>) à un architecte en chef des monuments historiques,
+            <persName ref="227447530" type="idref" xml:base="https://www.idref.fr/">Stefan Manciulescu</persName>, à
+            la tête du cabinet du même nom et mandataire d’un groupement de
+            maîtrise d’œuvre réunissant l’agence d’architecture Ameller et
+            Dubois et l’agence muséographique Présence.</p>
+            <p xml:id="d1e273">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>Baptisée
+            <hi rend="italic">Les Dominicains de Colmar – Bibliothèque
+            patrimoniale et parcours muséal</hi>, l’opération en cours connaît
+            les aléas inhérents à ce type de projets. La complexité du
+            chantier entamé en <date type="_temp" when="2018">2018</date>, à
+            laquelle la catastrophe récente de <placeName ref="6269274" type="geonames" xml:base="https://www.geonames.org/">Notre-Dame de
+            Paris</placeName> a ajouté conjoncturellement un degré
+            supplémentaire en sollicitant d’urgence l’intervention
+            d’entreprises engagées à <placeName ref="6455228" type="geonames" xml:base="https://www.geonames.org/">Colmar</placeName>, a conduit
+            à reporter la date de fin des travaux à la mi-<date type="_temp" when="2020">2020</date>. L’opération, d’un montant total de
+            17&#160;270&#160;000&#160;€ et inscrite dans le contrat de plan État-Région <date from="2015" to="2020" type="_temp">2015-2020</date>, est, outre
+            l’État, très largement subventionnée par la Région Grand Est, le
+            Département du Haut-Rhin et Colmar Agglomération. La ville s’est
+            également engagée pour ce projet dans d’actives démarches de
+            communication<note n="8" place="foot" type="standard" xml:id="ftn8">
+                <p>Voir les sites dédiés au projet&#160;: <ref target="https://dominicains.colmar.fr/">
+                    <hi rend="underline">https://dominicains.colmar.fr/</hi>
+                  </ref>
+                </p>
+              </note> et de mécénat, avec l’obtention d’un label Fondation du
+            patrimoine<note n="9" place="foot" type="standard" xml:id="ftn9">
+                <p>Voir <ref target="https://www.fondation-patrimoine.org/les-projets/les-dominicains-de-colmar">
+                    <hi rend="underline">https://www.fondation-patrimoine.org/les-projets/les-dominicains-de-colmar</hi>
+                  </ref>
+                </p>
+              </note>.</p>
+          </div>
+          <div type="section2" xml:id="d1e292">
+            <head subtype="level2" xml:id="d1e293">Le projet architectural&#160;:
+            qualité des espaces et mise en scène des fonctions et des
+            collections</head>
+            <p xml:id="d1e295">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-qsxs8rem">architecture</term>
+                </term>
+              </term>Les
+            études de programmation, puis la conception architecturale, sont
+            parties des constats énoncés plus haut et les ont largement
+            confirmés&#160;: on se trouvait face aux richesses méconnues d’un
+            double patrimoine, écrit et bâti. Elles ont abouti au parti de
+            restituer au bâtiment conventuel ses caractéristiques d’origine
+            (structures, volumes intérieurs), en revenant sur les
+            interventions parfois lourdes de la campagne de travaux de <date from="1948" to="1951" type="_temp">1948-1951</date> qui avait
+            précédé l’affectation du bâtiment à la bibliothèque. Le souci
+            constant a été d’adapter le monument à son rôle traditionnel de
+            bibliothèque par une répartition efficace des fonctions et
+            l’optimisation des espaces. Le projet s’est également attaché à
+            renouveler la lisibilité urbaine du site. Le bâtiment annexe,
+            datant du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, se voit ainsi reconstruit dans un
+            gabarit identique et affecté à la conservation des collections. Sa
+            liaison au premier étage du couvent au moyen d’une galerie
+            aérienne vitrée et son bardage en bois brûlé apporteront une
+            touche contemporaine au complexe des Dominicains. Le parvis de la
+            bibliothèque fera également l’objet d’une restructuration
+            complète, incluant une végétalisation et lui conférant une nette
+            identité visuelle dans le cadre du centre-ville historique.</p>
+            <p xml:id="d1e300">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-rnk9twom">église</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-8xb4cz3h">couvent</term>
+                </term>
+              </term>Situées
+            au premier étage du couvent, les fonctions bibliothéconomiques
+            (accueil, communication, salle de lecture et de consultation)
+            seront magnifiées par un environnement retrouvé, installées
+            qu’elles seront dans des volumes intérieurs remarquables révélant
+            la richesse de la charpente d’origine (voir ill. ci-dessous). Le
+            rez-de-chaussée sera dévolu à un espace d’exposition permanente
+            sur 500&#160;m<hi rend="sup">2</hi>. Celui-ci débouche sur le cloître,
+            dont la partie sud-est est décorée de fresques représentant la
+            Passion, œuvre du peintre colmarien <persName type="_temp">Urban
+            Hutter</persName> (actif à la fin du <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>
+              </date>&#160;et au début du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>). Dans la même zone se situe
+            (pressentie lors des études, confirmée au cours des travaux) la
+            pièce qui fut certainement la sacristie desservant couvent et
+            église. Structures, voûtes partiellement subsistantes, poutrage,
+            éléments archéologiques mis au jour, tout ici ramène à la date
+            haute des origines de l’ensemble monumental dominicain (fin du
+            <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi>&#160;siècle</date>) –&#160;découverte riche de
+            potentialités, et sur laquelle on reviendra plus loin.</p>
+            <p xml:id="d1e314">L’ensemble du site sera enfin équipé des
+            installations de régulation des conditions hygro-thermométriques
+            qui lui faisaient défaut –&#160;cette absence étant toutefois
+            compensée, dans une certaine mesure, par l’inertie thermique
+            assurée par d’épais murs anciens.</p>
+            <figure xml:id="d1e316">
+              <graphic url="https://didomena.ehess.fr/downloads/df65vh34v.jpg"/>
+              <head xml:id="d1e317">Figure 3. Perspective de la future salle
+              de lecture. © et cliché Bureau Manciulescu ACMH et associés /
+              Ameller &amp; Dubois associés</head>
+            </figure>
+          </div>
+          <div type="section2" xml:id="d1e321">
+            <head subtype="level2" xml:id="d1e322">Le projet
+            muséo-scénographique et la médiation</head>
+            <p xml:id="d1e324">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+                </term>
+              </term>Satisfaisante
+            eu égard aux caractéristiques du site, une surface d’exposition de
+            500&#160;m<hi rend="sup">2</hi> (sur quelque 3&#160;000&#160;m<hi rend="sup">2</hi> de surface utile) ne permettra évidemment pas de
+            rendre pleinement justice à la richesse et à la variété des
+            collections brièvement décrites plus haut. Des choix se sont donc
+            avérés nécessaires.</p>
+            <p xml:id="d1e332">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                  </term>
+                </term>
+              </term>La
+            réflexion a débouché sur le parti de focaliser la présentation sur
+            l’objet bien typé qu’est le livre artisanal, du <date type="_temp">Moyen-Âge aux Lumières</date>. C’est une approche
+            chrono-thématique qui a été retenue, présentant l’originalité de
+            proposer une «&#160;remontée dans le temps&#160;», à l’instar d’une mise à
+            jour stratigraphique de fouilles archéologiques et menant en trois
+            étapes le visiteur de l’époque la plus proche de lui (le <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>), et donc supposée la plus
+            familière, aux plus lointaines et moins connues&#160;: débuts du livre
+            imprimé et manuscrits médiévaux. Une sélection représentative de
+            toutes les facettes des collections graphiques sera par ailleurs
+            exposée dans une section spécifique. En ouverture, une animation
+            numérique retracera ce qui fut à la fois l’étape finale de ce
+            cheminement historique et le moment fondateur de l’établissement,
+            à savoir les saisies révolutionnaires.</p>
+            <p xml:id="d1e337">Au total, ce sont plus de 70&#160;documents
+            originaux qui seront exposés, accompagnés d’un propos
+            d’orientation résolument «&#160;grand public&#160;», sans rien sacrifier
+            cependant à l’approximation ou à la simplification – défi au
+            demeurant plus facile à formuler qu’à relever… Une double approche
+            historique le sous-tend, qui se donne pour ambition de croiser
+            diverses perspectives&#160;: le livre en tant que marchandise d’abord,
+            c’est-à-dire fabriqué (matériaux et savoir-faire artisanaux) et
+            produit (une économie, des échanges, des circuits à l’échelle
+            européenne)&#160;; le livre comme ferment ensuite, objet de statuts et
+            d’usages variés, vecteur de multiples contenus, supports
+            d’échanges, et en tant que tel, instrument actif, sinon témoin
+            privilégié des évolutions multiséculaires de nos sociétés.</p>
+            <p xml:id="d1e339">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>On
+            aura bien sûr reconnu les deux lignes directrices sur lesquelles
+            <persName ref="026860600" type="idref" xml:base="https://www.idref.fr/">Lucien Febvre</persName> ouvrait
+            <hi rend="italic">L’apparition du livre </hi>en <date type="_temp" when="1958">1958</date>
+              <note n="10" place="foot" type="standard" xml:id="ftn10">
+                <p>L.&#160;Febvre, H.-J.&#160;Martin, <hi rend="italic">L’apparition du
+                livre</hi>, Paris, Albin Michel, 1958</p>
+              </note>. La richesse des collections colmariennes permet
+            d’illustrer ces phénomènes, là encore d’échelle européenne. Car
+            au-delà d’une formulation réduite dans ces lignes à l’essentiel et
+            nécessairement abstraite, c’est bien à travers des expériences
+            historiques individuelles ou collectives vécues dans le cadre
+            local, des hommes et des groupes (moines scribes et maîtres
+            imprimeurs dans la vallée rhénane, <persName ref="027190099" type="idref" xml:base="https://www.idref.fr/">Voltaire</persName>
+            séjournant et travaillant à <placeName ref="6455228" type="geonames" xml:base="https://www.geonames.org/">Colmar</placeName>…)
+            constamment mis au premier plan avec leurs livres et leurs
+            bibliothèques, l’usage et l’emploi qu’ils en firent, que le
+            visiteur sera invité à parcourir la présentation.</p>
+            <p xml:id="d1e351">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-vcvnzzdk">anthologie</term>
+                </term>
+              </term>Celle-ci
+            ne se veut donc pas simplement promenade à travers une anthologie
+            d’éditions ou d’œuvres retenues sur les seuls critères de la
+            célébrité («&#160;célébrité&#160;» pour qui, au fait&#160;?) ou de l’unicité (le
+            modèle du «&#160;chef-d’œuvre&#160;» censé s’imposer de lui-même à
+            l’attention). Il s’agira bien plutôt de faire ressortir que
+            l’objet-(le médium-) livre ne peut s’appréhender pleinement que
+            dans un «&#160;écosystème&#160;» auquel il appartient. Le pari est ainsi
+            fait que ce retour sur le temps long invite le visiteur à
+            réfléchir sur ses propres pratiques du livre, la place qu’il lui
+            réserve dans sa propre existence, et à s’interroger sur les
+            raisons de son succès jamais démenti – avec en filigrane l’espoir
+            qu’il conclue qu’il est dû à des vertus encore pleinement
+            efficaces en notre temps.</p>
+            <p xml:id="d1e353">
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+            numérique</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation</term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-rl3g4cn3">pédagogie</term>
+                </term>
+              </term>Pour
+            ce faire, la médiation a parié sur l’éclectisme. Elle mariera
+            plusieurs dispositifs pédagogiques et/ ou ludiques, tant
+            numériques (animation d’introduction, écrans et table tactiles)
+            qu’audio-visuels (films et extraits de livres exposés donnés à
+            écouter) ou encore physiques (fac-similés de manuscrits médiévaux,
+            «&#160;matériauthèque&#160;» et espaces de type «&#160;period room&#160;»
+            reconstituant des décors de bibliothèques, privée du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date> ou monastique de la fin du <date type="_temp">Moyen-Âge</date>). La diversité est ici revendiquée,
+            loin d’une idéalisation du «&#160;tout-numérique&#160;», au prétexte de
+            vouloir à tout prix attirer un public dont l’intérêt ne pourrait
+            être suscité que par des dispositifs de dernière génération. Outre
+            le risque d’oblitérer les documents originaux par des substituts
+            envahissants ou des installations accaparant l’attention, la
+            course à l’innovation dans un domaine où elle est perpétuelle a
+            toute chance d’être perdue d’avance.</p>
+          </div>
+          <div type="section2" xml:id="d1e358">
+            <head subtype="level2" xml:id="d1e359">Entre bibliothèque et
+            musée&#160;: un faux dilemme&#160;?</head>
+            <p xml:id="d1e361">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-hybparsd">conservateur</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+            savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-yk9yaypy">parchemin</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>A
+            contrario, le couvent s’imposait de lui-même comme un écrin créant
+            une harmonie globale et d’une nature toute particulière avec les
+            collections présentées et conservées sur le site, au moins pour
+            partie d’entre elles. La sacristie médiévale remise au jour offre
+            ainsi le cadre idéal pour la mise en valeur des plus
+            spectaculaires manuscrits liturgiques. La contemporanéité des
+            parchemins enluminés et de leur environnement architectural crée
+            les conditions d’une expérience rare pour le visiteur, restituant
+            authentiquement une osmose qui s’inscrit par ailleurs parfaitement
+            dans le droit fil des partis muséographiques explicités ci-dessus.
+            Nous n’irons certes pas jusqu’à évoquer la magie envoûtante,
+            encore que vénéneuse, qu’<persName ref="02684821X" type="idref" xml:base="https://www.idref.fr/">Umberto Eco</persName> attribue à
+            la bibliothèque dans <hi rend="italic">Le Nom de la rose</hi>,
+            mais nous pouvons à bon droit parler ici d’un rêve de scénographe
+            et de conservateur – en attendant que le sortilège opère sur le
+            public&#160;: la découverte en point d’orgue du parcours muséal des
+            manuscrits conservés dans les murs mêmes où certains ont été
+            copiés et décorés voici sept ou huit siècles. Le visiteur
+            prolongera l’expérience en débouchant dans le cloître, ses
+            galeries à arcades et son jardin, où il pourra observer le travail
+            artisanal dans l’atelier de reliure de la bibliothèque installé
+            dans une des ailes. L’expérience «&#160;immersive&#160;» promise aujourd’hui
+            dans nombre de présentations permanentes ou temporaires est ainsi
+            assurée par les caractères propres du site.</p>
+            <p xml:id="d1e366">Au départ guidé par la perspective historique,
+            le choix d’ouvrir l’exposition par la <date from="1789" to="1799" type="_temp">Révolution française</date> et l’épisode peu connu
+            des confiscations s’est avéré de son côté riche d’un contenu
+            d’abord inaperçu (voir ill. ci-dessous). Car mettre ainsi au
+            premier plan l’ambition alors proclamée d’émancipation des
+            citoyens par la connaissance et la création des bibliothèques
+            publiques qui sont encore les nôtres<note n="11" place="foot" type="standard" xml:id="ftn11">
+                <p>D.&#160;Varry, «&#160;Il faut que les lumières arrivent par
+                torrents&#160;», in <hi rend="italic">Bulletin des bibliothèques de
+                France (BBF</hi>), 1989, n<hi rend="sup">o</hi>&#160;2-3,
+                p.&#160;160-165. Disponible en ligne&#160;: <ref target="http://bbf.enssib.fr/consulter/bbf-1989-02-0160-010">
+                    <hi rend="underline">http://bbf.enssib.fr/consulter/bbf-1989-02-0160-010</hi>
+                  </ref>
+                </p>
+              </note> n’est certainement pas hors de propos en une époque qui
+            prend de plus en plus conscience des risques créés par la place
+            toujours plus grande prise par les canaux numériques de
+            communication, et le paysage de l’information pour le moins
+            anarchique qui s’est aujourd’hui imposé… S’il s’agissait de prime
+            abord de la meilleure introduction du public à l’historique de
+            l’établissement, par-delà la distance qui nous sépare de <date type="_temp" when="1789">1789</date>, cette animation d’ouverture
+            vaut tout aussi bien comme affirmation forte d’une vocation très
+            contemporaine de celui-ci&#160;: éducation aux médias et à
+            l’information, lutte contre les «&#160;fake&#160;news&#160;» font en <date type="_temp" when="2019">2019</date> partie des missions confiées
+            aux bibliothèques par le ministère de la Culture<note n="12" place="foot" type="standard" xml:id="ftn12">
+                <p>J.&#160;Bourdet, «&#160;Former les bibliothécaires à l’éducation aux
+                médias&#160;», in <hi rend="italic">Bulletin des bibliothèques de
+                France (BBF)</hi>, 2019, n<hi rend="sup">o</hi>&#160;17,
+                p.&#160;136-142. Disponible en ligne&#160;: <ref target="http://bbf.enssib.fr/matieres-a-penser/former-les-bibliothecaires-a-l-education-aux-medias_68978">
+                    <hi rend="underline">http://bbf.enssib.fr/matieres-a-penser/former-les-bibliothecaires-a-l-education-aux-medias_68978</hi>
+                  </ref>
+                </p>
+              </note> –&#160;ou comment la bibliothèque patrimoniale rejoint à sa
+            manière l’action de la médiathèque et que toutes deux travaillent
+            dans une alliance… inédite.</p>
+            <figure xml:id="d1e394">
+              <graphic url="https://didomena.ehess.fr/downloads/hq37vw46j.jpg"/>
+              <head xml:id="d1e395">Figure 4. Affiche de la Bibliothèque
+              nationale placée à l’École centrale de Colmar (s.d., entre 1796
+              et 1802). Cliché Ville de Colmar, coll. Les Dominicains de
+              Colmar</head>
+            </figure>
+            <p xml:id="d1e399">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>Se
+            trouvaient ainsi données de premières réponses à une problématique
+            à laquelle les bibliothécaires colmariens ont dû se confronter au
+            cours d’une progressive prise de conscience&#160;: celle du caractère
+            hybride d’un établissement demeurant bibliothèque tout en
+            s’enrichissant d’une composante muséale. Car, naturelle ou
+            artificielle, on sait qu’hybridité ou métissage n’ont jamais été
+            les garanties d’une existence de tout repos…</p>
+            <p xml:id="d1e401">Le bâtiment, on l’a vu, offrait de lui-même les
+            conditions idéales d’une mise en scène des collections. Ordre
+            savant, appuyant d’emblée son activité pastorale sur l’autorité et
+            l’étude des textes, celui des frères prêcheurs a en son temps et
+            pour ses propres fins marqué un moment fort de l’histoire du livre
+            et des bibliothèques. Le projet colmarien se présente ainsi comme
+            un cas d’espèce et une expérience assurément singulière&#160;: la
+            symbiose sur un temps long, interrompue en <date type="_temp" when="1789">1789</date>, puis renouvelée en <date type="_temp" when="1951">1951</date>, du livre et d’un espace. En ce sens, la
+            création en <date type="_temp" when="2020">2020</date> d’une
+            section muséale vouée à la découverte des fonds conservés peut à
+            bon droit être considérée comme un achèvement ou mieux, comme un
+            renouvellement paradoxalement inscrit dans la continuité
+            historique du site et de son affectation, un rendez-vous des
+            collections riches d’une histoire multiséculaire avec le lieu qui
+            fut jadis un de leurs berceaux, pour à nouveau s’offrir au public.
+            Continuité du site, des collections, de leur histoire et de leur
+            usage&#160;: tel est bien le maître-mot et le sens du projet
+            colmarien.</p>
+          </div>
+          <div type="section2" xml:id="d1e403">
+            <head subtype="level2" xml:id="d1e404">Des collections au
+            rendez-vous d’aujourd’hui&#160;?</head>
+            <p xml:id="d1e406">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-e3tlusfr">fonctionnaire</term>
+                </term>
+              </term>Pour
+            autant, nous ne nous dissimulons pas qu’à ce stade du projet, les
+            résultats d’une telle «&#160;hybridation&#160;» restent encore incertains.
+            Bon nombre de questions demeurent en effet ouvertes. Assurer les
+            meilleures conditions de travail et de découverte au public,
+            lecteurs, chercheurs et visiteurs, qu’ils soient habitants ou
+            touristes, ne repose pas uniquement sur la qualité du projet
+            architectural et muséal, quelle que soit son ambition. La réponse
+            au défi passe aussi par la mise en place de nouvelles fonctions,
+            et leur prise en charge par une équipe de bibliothécaires et de
+            relieurs jusqu’ici affectés aux seules missions d’une bibliothèque
+            d’étude et de conservation. Comment attirer et assurer au mieux
+            l’accueil d’un public neuf, et dont une large, sinon très large
+            part ne sera probablement guère familière d’un établissement de
+            cette nature&#160;? Dans un autre registre, assurer une médiation en
+            interaction directe avec le public (accueil de groupes, visites
+            guidées, réception des mécènes…) sur les contenus décrits
+            ci-dessus ne relève pas de l’improvisation ni de l’exercice
+            évident. Cela suppose aussi un certain degré d’aisance
+            relationnelle, qu’il faut au besoin développer. Dans l’un ou
+            l’autre cas, il est clair que le contact permanent avec des
+            publics neufs et en nombre inusité requiert des compétences qui
+            s’ajoutent aux savoir-faire et techniques déjà acquis, et qui
+            restent à construire. Bref, c’est à une acculturation
+            professionnelle profonde que le personnel se trouve confronté.</p>
+            <p xml:id="d1e408">Se pose également la question de savoir comment
+            s’organiseront les relations avec un environnement institutionnel
+            élargi. La Bibliothèque des Dominicains se retrouvera logiquement,
+            à son ouverture, en dialogue avec les musées colmariens, qu’ils
+            soient municipaux ou associatifs, des organismes para-municipaux
+            tels que l’Office du tourisme, et au-delà, les établissements
+            d’enseignement locaux avec lesquels les échanges n’ont été
+            jusqu’ici que ponctuels. Il y a un risque ici de voir la
+            bibliothèque plongée dans de redoutables contradictions en étant
+            incitée à copier, ou en dérivant insensiblement vers un «&#160;modèle
+            musée&#160;» qui n’est pas le sien, avec ses structures propres
+            (service éducatif, service des publics), mais exigeant des
+            ressources humaines supplémentaires.</p>
+            <p xml:id="d1e410">Il sera sans doute plus prometteur de chercher
+            à tirer parti de la nouvelle fonction muséale pour insuffler une
+            autre vie à un modèle ancien, celui de la cohabitation en
+            centre-ville de deux établissements, médiathèque et bibliothèque
+            patrimoniale et d’étude, que la nature de leurs missions
+            respectives porte trop souvent à suivre des voies parallèles et à
+            s’adresser à des publics qui ne se croisent pas, ou plus. La
+            conviction du «&#160;bloc&#160;», vigoureusement défendue par <persName ref="083803912" type="idref" xml:base="https://www.idref.fr/">Gilles Eboli</persName> dans un
+            article datant de <date type="_temp" when="2004">2004</date>
+              <note n="13" place="foot" type="standard" xml:id="ftn13">
+                <p>G.&#160;Éboli, «&#160;Pour une théorie du bloc&#160;», in <hi rend="italic">Bulletin des bibliothèques de France (BBF)</hi>,
+                2004, n<hi rend="sup">o</hi>&#160;5, p.&#160;24-28. Disponible en
+                ligne&#160;: <ref target="http://bbf.enssib.fr/consulter/bbf-2004-05-0024-004">
+                    <hi rend="underline">http://bbf.enssib.fr/consulter/bbf-2004-05-0024-004</hi>
+                  </ref>
+                </p>
+              </note> et toujours d’actualité, a ici donné l’impulsion.</p>
+            <p xml:id="d1e425">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-h8lq96u4">école</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+              </term>Nous l’avons
+            déjà relevé, les opportunités nouvelles d’un travail collectif
+            apparaissent en utilisant comme «&#160;levier&#160;» la présentation
+            permanente des collections anciennes. La visite de la Bibliothèque
+            des Dominicains par de larges publics, dont une proportion de
+            Colmariens non-inscrits au réseau de lecture publique, est
+            l’occasion idéale de lui gagner de nouveaux usagers en mettant en
+            avant la continuité –&#160;encore elle&#160;– des collections et des
+            missions. Il y a tout lieu de prospecter systématiquement la voie
+            qui s’ouvre ainsi, en recensant tous les domaines d’intervention
+            des bibliothèques où des collections patrimoniales mises en
+            lumière peuvent offrir un support efficace. On songe en premier
+            lieu à une direction d’action promue conjointement ces dernières
+            années par le ministère de la Culture et celui de l’Éducation
+            nationale, à savoir l’éducation artistique et culturelle
+            (EAC)<note n="14" place="foot" type="standard" xml:id="ftn14">
+                <p>Voir <ref target="https://www.culture.gouv.fr/Thematiques/Livre-et-lecture/Les-bibliotheques-publiques/Developpement-de-la-lecture-publique/Les-politiques-de-lecture-publique-en-direction-de-la-jeunesse">
+                    <hi rend="underline">https://www.culture.gouv.fr/Thematiques/Livre-et-lecture/Les-bibliotheques-publiques/Developpement-de-la-lecture-publique/Les-politiques-de-lecture-publique-en-direction-de-la-jeunesse</hi>
+                  </ref>
+                </p>
+              </note>. Pour peu qu’il bénéficie d’une présentation adaptée,
+            sans «&#160;faire (l’)école&#160;», le document ancien ouvre la voie à
+            l’imaginaire et peut être pour le jeune public un support fertile.
+            Dans un autre ordre d’idées, le cadre et les ressources offerts
+            par la Bibliothèque des Dominicains orientent naturellement vers
+            des actions du type de la résidence d’auteur, familière aux
+            agences régionales du livre. Ce ne sont là que des exemples de
+            pistes à défricher.</p>
+            <p xml:id="d1e434">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-z5onurxv">expérimentation</term>
+                </term>
+              </term>On
+            l’aura compris, c’est une démarche expérimentale qui s’ouvre à
+            <placeName ref="6455228" type="geonames" xml:base="https://www.geonames.org/">Colmar</placeName>, sous le
+            signe de réflexions qu’<persName ref="027012913" type="idref" xml:base="https://www.idref.fr/">Henri-Jean Martin</persName>
+            développait en <date type="_temp" when="2004">2004</date>&#160;:</p>
+            <quote rend="quotation" xml:id="d1e436">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>J’ai
+            toujours été convaincu que la différence alléguée entre
+            bibliothèques de lecture publique et bibliothèques de conservation
+            était quelque chose de superficiel, car il n’y a qu’une
+            culture…<note n="15" place="foot" type="standard" xml:id="ftn15">
+                <p>H.-J. Martin, <hi rend="italic">Les métamorphoses du livre.
+                Entretiens avec Jean-Marc Chatelain et Christian Jacob</hi>,
+                Paris, Albin Michel, 2004, p.&#160;110</p>
+              </note>.</quote>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

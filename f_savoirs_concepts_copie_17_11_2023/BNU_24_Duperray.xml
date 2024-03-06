@@ -1,0 +1,996 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-11-05T12:51:04.062+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_24_Duperray.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les «&#160;maisons mentales&#160;» du poète François
+        Pétrarque</title>
+        <author role="aut">
+          <forename>Ève</forename>
+          <surname>Duperray</surname>
+          <idno type="IDREF">029620287</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/P5UHRPV5" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Les «&#160;maisons mentales&#160;» du poète François
+            Pétrarque</title>
+            <author>
+              <forename>Ève</forename>
+              <surname>Duperray</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">24</biblScope>
+              <biblScope unit="page">58-69</biblScope>
+              <date>2021</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-espxuzip">lettré</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6542153" type="geonames" xml:base="https://www.geonames.org/">Arezzo</placeName>
+          </term>
+          <term>
+            <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName>
+          </term>
+          <term>
+            <placeName ref="6536663" type="geonames" xml:base="https://www.geonames.org/">Arquà</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1304" to="1374" type="_temp">1304-1374</date>
+          </term>
+          <term>
+            <date from="1500" to="1699" type="_temp">16<hi rend="sup">e</hi>
+            et 17<hi rend="sup">e</hi>&#160;siècles</date>
+          </term>
+          <term>
+            <date type="_temp" when="1928-10-07">7&#160;octobre&#160;1928</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-28T08:00:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Les «&#160;maisons mentales&#160;»
+          du poète François Pétrarque</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Ève Duperray</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Conservateur en chef du patrimoine, chef
+          du Service de la conservation départementale / Direction Patrimoine
+          et Culture (Département du Vaucluse)</affiliation>
+        </byline>
+      </titlePage>
+      <div type="prelim" xml:id="d1e43">
+        <epigraph>
+          <quote xml:id="d1e45">«&#160;Maison mentale. Il faut en occuper toutes
+          les pièces, les salubres comme les malsaines, et les belles aérées,
+          avec la connaissance prismatique de leurs différences&#160;» (René Char,
+          «&#160;Orion à la licorne&#160;» dans Aromates chasseurs<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>René Char, <hi rend="italic">Œuvres complètes</hi>,
+              Bibliothèque de la Pléiade, 1983, p.&#160;512-513</p>
+            </note>
+          </quote>
+        </epigraph>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e55">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-espxuzip">lettré</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+        intellectuelle</term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-wxtpa7cz">biographie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>Les
+        «&#160;maisons mentales&#160;» du poète <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">François Pétrarque</persName>, en
+        référence à son riverain de la Sorgue, <persName ref="026778912" type="idref" xml:base="https://www.idref.fr/">René Char</persName>,
+        sont celles qui, bien au-delà de toute biographie, ont joué un rôle
+        décisif dans l’élaboration de l’identité posthume du poète de la <date type="_temp">pré-Renaissance</date>
+          <hi> (voir ill. ci-contre)</hi>. La
+        construction mentale, sensible et intellectuelle du premier «&#160;homme de
+        lettres&#160;» moderne préfigure <persName ref="027608956" type="idref" xml:base="https://www.idref.fr/">Raphaël</persName>, <persName ref="026650800" type="idref" xml:base="https://www.idref.fr/">Michel-Ange</persName> ou encore
+        <persName ref="029720109" type="idref" xml:base="https://www.idref.fr/">Pic de la Mirandole</persName> qui
+        générèrent, chacun de leur vivant, la création d’un immense mythe.</p>
+        <figure xml:id="d1e60">
+          <graphic url="https://didomena.ehess.fr/downloads/41687s261.jpg"/>
+          <head xml:id="d1e61">Figure 1. Altichiero, Pétrarque, oratoire de
+          Saint-Georges, Padoue. cliché Associazione Centro Studi Antoniani,
+          Padoue (Italie)</head>
+          <p xml:id="d1e63">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+              </term>
+            </term>Ce
+          portrait de Pétrarque est considéré comme le plus véridique du
+          poète. Altichiero, à qui toute la décoration de la chapelle avait
+          été confiée, avait terminé son travail avant le 30&#160;mai&#160;1382, puisque
+          c’est à cette date qu’il déclare avoir été payé. Sur la paroi de
+          droite, on trouve la représentation du baptême du roi par saint
+          Georges et parmi les assistants on reconnaît, sans la moindre
+          possibilité de doute car les noms sont écrits en bas de la fresque,
+          Pétrarque (en noir) tel qu’Altichiero l’aurait connu de son
+          vivant.</p>
+        </figure>
+        <p xml:id="d1e65">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-raoluwcf">conflictualité</term>
+            </term>
+          </term>Paradoxalement,
+        ce qui frappe le plus dans la vie de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">François
+        Pétrarque</persName> est son instabilité, une aptitude particulière,
+        non sans peines et aventures, à «&#160;lever le camp&#160;», comme une
+        disposition à l’itinérance («&#160;<foreign xml:lang="lat">peregrinus
+        ubique</foreign>&#160;») nécessaire à une vie subordonnée au bon vouloir
+        des puissants et qui, avant tout et surtout, se devait de devenir
+        littérature. Les maisons du poète sont innombrables&#160;; celles
+        d’<placeName ref="6542153" type="geonames" xml:base="https://www.geonames.org/">Arezzo</placeName> (<date type="_temp" when="1304">1304</date>), <placeName ref="6541090" type="geonames" xml:base="https://www.geonames.org/">Incisa</placeName> (<date from="1304" to="1312" type="_temp">1304-1312</date>), <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName> (<date from="1337" to="1353" type="_temp">1337-1353</date>), <placeName ref="6540120" type="geonames" xml:base="https://www.geonames.org/">Parme</placeName> (<date from="1341" to="1342" type="_temp">1341-1342</date>), <placeName ref="3173435" type="geonames" xml:base="https://www.geonames.org/">Milan</placeName> (<date from="1353" to="1361" type="_temp">1353-1361</date>), <placeName ref="3164600" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName> (<date from="1363" to="1368" type="_temp">1363-1368</date>) et <placeName ref="6536663" type="geonames" xml:base="https://www.geonames.org/">Arquà</placeName> (<date from="1370" to="1374" type="_temp">1370-1374</date>) ont été
+        particulièrement choisies, excepté à l’évidence celles de l’enfance,
+        dans leur dimension protectrice, symbolique et matricielle. Il n’y eut
+        point de hasard ni d’imprévu dans une vie construite et écrite pour la
+        <hi rend="italic">Postérité</hi>
+          <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>
+              <hi rend="italic">Epître à la postérité et testament </hi>(<hi rend="italic">Posteritati</hi>)</p>
+          </note>. La résidence des monts de <placeName ref="2970554" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName>, au même
+        titre que celle d’<placeName ref="6536663" type="geonames" xml:base="https://www.geonames.org/">Arquà</placeName> ou encore la ou
+        les maisons de <placeName ref="6540120" type="geonames" xml:base="https://www.geonames.org/">Parme</placeName>, recueillirent
+        les préférences d’un homme car elles interprétèrent la synthèse
+        virgilienne de l’art et de la nature nécessaire à la mise en scène,
+        calquée sur le modèle de l’antique civilisation latine, des
+        aspirations à l’«&#160;<foreign xml:lang="lat">otium</foreign>&#160;». Il y eut
+        aussi l’appel de la ville lagunaire, <placeName ref="3164600" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName>, cette
+        «&#160;<foreign xml:lang="lat">civitas miraculosissima</foreign>&#160;», avec la
+        résidence de la Riva degli Schiavoni, comme l’alternative la plus
+        radicale à sa «&#160;<foreign xml:lang="lat">ruralis habitatio</foreign>&#160;»,
+        alors même que <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> était prêt à
+        engager pour elle son immense trésor&#160;: sa bibliothèque.</p>
+        <p xml:id="d1e79">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+          </term>Jamais le temps
+        passé dans ces maisons ne fut très long pour cet éternel vagabond,
+        mais le paysage de pierre, garanti par le bon gouvernement, la sagesse
+        et la concorde fut autant un «&#160;<foreign xml:lang="lat">refugium</foreign>&#160;» que celui des collines euganéennes
+        ou de la Provence. Est-ce là l’unificateur de toutes ces demeures
+        gardiennes d’une vie éduquée, cultivée, tranquille&#160;?</p>
+        <p xml:id="d1e81">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+              </term>
+            </term>
+          </term>Il
+        reste, pour la postérité, l’intensité du mythe pétrarquiste, ancré
+        matériellement dans ces supposées maisons du poète car aucune n’est
+        pour ainsi dire «&#160;historique&#160;». Certaines ont tout simplement disparu,
+        d’autres ont traversé les siècles et sont désormais le résultat d’une
+        stratification autant architecturale qu’imaginaire car elles ont
+        favorisé une archéologie affective, initiatrice d’un culte des lieux
+        et des reliques dans leurs réappropriations successives, réelles ou
+        fantasmées. Selon les âges, l’histoire y a inscrit ses goûts, ses
+        préoccupations, trahi ses obsessions profondes au regard du legs
+        attendu du chantre de <persName ref="02872917X" type="idref" xml:base="https://www.idref.fr/">Laure</persName> et du père de
+        l’humanisme. Ouvrons les portes de trois d’entre elles, celles des
+        trois âges de la vie&#160;: l’enfance à <placeName ref="6542153" type="geonames" xml:base="https://www.geonames.org/">Arezzo</placeName>, la jeunesse
+        et la maturité à <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName>, la
+        vieillesse à <placeName ref="6536663" type="geonames" xml:base="https://www.geonames.org/">Arquà</placeName>. Leur histoire
+        s’inscrit dans la perception collective d’une topo-mythologie autour
+        de la figure tutélaire du grand homme.</p>
+        <div type="section1" xml:id="d1e83">
+          <head subtype="level1" xml:id="d1e84">Arezzo (1304), via dell'Orto
+          28</head>
+          <div type="section2" xml:id="d1e86">
+            <head subtype="level2" xml:id="d1e87">La maison au seuil de la
+            vie</head>
+            <p xml:id="d1e89">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>Lorsque
+            <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> naît à
+            <placeName ref="6542153" type="geonames" xml:base="https://www.geonames.org/">Arezzo</placeName>, le <date type="_temp" when="1304-07-20">20&#160;juillet&#160;1304</date>, au cœur du
+            faubourg dell’Orto, <persName ref="026811081" type="idref" xml:base="https://www.idref.fr/">Dante Alighieri</persName> est
+            également présent dans la ville où il trouva refuge au même titre
+            que son ami, <persName type="_temp">Ser Petrarco</persName>, père
+            de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Francesco</persName>, tous deux
+            exilés de <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>. La
+            maison natale de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>, comme
+            lui-même l’atteste, ne fut «&#160;ni grande ni riche mais telle qu’elle
+            convenait à la condition d’un exilé&#160;»<note n="3" place="foot" type="standard" xml:id="ftn3">
+                <p>
+                  <hi rend="italic">Lettres de vieillesse </hi>(<hi rend="italic">Rerum senilium</hi>), XIII, 3</p>
+              </note>. Nous n’en saurons pas plus sur cette propriété car très
+            vite la famille s’installa à <placeName ref="6541090" type="geonames" xml:base="https://www.geonames.org/">Incisa</placeName> où
+            <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> passa les
+            six premières années de sa vie.</p>
+            <p xml:id="d1e101">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-uxqhekra">modes
+            d’interaction<term ref="doi:10.34817/sv-raoluwcf">conflictualité</term>
+                </term>
+              </term>On
+            lui rapporta plus tard que le propriétaire de la maison
+            d’<placeName ref="6542153" type="geonames" xml:base="https://www.geonames.org/">Arezzo</placeName> avait
+            projeté de la rénover et de l’agrandir, mais que ce dernier
+            s’était heurté à l’opposition des citoyens de la ville qui
+            désiraient qu’elle restât précisément dans l’état où elle se
+            trouvait quand il y était né. Sur le chemin du retour de
+            <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> où il fut
+            couronné le <date type="_temp" when="1341-04-08">8&#160;avril&#160;1341</date> roi des poètes, <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> s’arrêta à
+            <placeName ref="6542153" type="geonames" xml:base="https://www.geonames.org/">Arezzo</placeName>. Pour
+            l’honorer, ses concitoyens voulurent l’accompagner hors des
+            remparts de la ville et, sans l’en avertir, le conduisirent dans
+            le faubourg, devant sa maison. Il ne l’avait pas revue depuis sa
+            naissance. Ce fait l’émut profondément.</p>
+          </div>
+          <div type="section2" xml:id="d1e103">
+            <head subtype="level2" xml:id="d1e104">Une maison de
+            l’érudition</head>
+            <p xml:id="d1e106">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-yuw7gtea">savant</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-w55wftqy">société</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-qsxs8rem">architecture</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+                </term>
+              </term>L’édifice
+            identifié aujourd’hui par la tradition comme la maison de
+            <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> est une
+            demeure aristocratique imposante du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>, qui correspond
+            à la typologie architecturale postmédiévale propre à la Toscane
+            avec ses arches particulières et son toit en terrasse. Elle fut en
+            partie restaurée après un raid aérien en <date type="_temp" when="1943">1943</date>. La Casa Petrarca n’est que partiellement
+            ouverte au public&#160;; elle abrite une riche bibliothèque de plus de
+            20&#160;000&#160;ouvrages et est le siège d’une société savante, l’Accademia
+            Petrarca di lettere, arti e scienze. Celle-ci fut fondée en <date type="_temp" when="1810">1810</date> dans l’Italie napoléonienne,
+            sous l’égide d’<persName ref="084731044" type="idref" xml:base="https://www.idref.fr/">Elisa Bonaparte
+            Baciocchi</persName>, grande-duchesse de Toscane, qui gouvernait
+            trois départements toscans annexés, deux ans auparavant, à
+            l’Empire français. Elle prit son nom actuel en <date type="_temp" when="1928">1928</date>.</p>
+            <p xml:id="d1e111">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-8mpceijw">publication</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-g4hcjbnn">revue</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-awrfbbfg">édition
+            savante</term>
+                </term>
+              </term>L’Accademia Petrarca a promu, au cours
+            de ses deux cents ans d’existence, une activité éditoriale intense
+            et raisonnée. Elle publie deux revues scientifiques&#160;: <hi rend="italic">Atti e Memorie </hi>et <hi rend="italic">Studi
+            Petrarcheschi</hi>. Cette dernière a été fondée en <date type="_temp" when="1948">1948</date> par l’éminent spécialiste de
+            <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>
+              <persName ref="034791663" type="idref" xml:base="https://www.idref.fr/">Carlo Calcaterra</persName>. Une
+            première série fut achevée en <date type="_temp" when="1978">1978</date> par le volume&#160;IV. Une seconde série a
+            commencé en <date type="_temp" when="1984">1984</date>, dirigée
+            par <persName ref="028430522" type="idref" xml:base="https://www.idref.fr/">Gino Belloni</persName>,
+            <persName ref="029990076" type="idref" xml:base="https://www.idref.fr/">Giuseppe Billanovich</persName>,
+            <persName ref="028497775" type="idref" xml:base="https://www.idref.fr/">Giuseppe Frasso</persName> et
+            <persName ref="029706955" type="idref" xml:base="https://www.idref.fr/">Nicholas Mann</persName>. Les <hi rend="italic">Studi petrarcheschi</hi>, publiés et distribués par
+            les éditions Antenore dont le siège est encore à <placeName ref="3171728" type="geonames" xml:base="https://www.geonames.org/">Padoue</placeName>,
+            représentent l’un des sites d’éditions internationales critiques
+            les plus pertinents consacrés à l’étude de l’écrivain.</p>
+          </div>
+        </div>
+        <div type="section1" xml:id="d1e122">
+          <head subtype="level1" xml:id="d1e123">Vaucluse (1337-1353), rive
+          gauche de la Sorgue</head>
+          <div type="section2" xml:id="d1e125">
+            <head subtype="level2" xml:id="d1e126">La maison poétique et
+            philosophique</head>
+            <p xml:id="d1e128">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-7dh8ptmc">voyage</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+                </term>
+              </term>Dans
+            l’exil de son enfance en <placeName ref="6455379" type="geonames" xml:base="https://www.geonames.org/">Avignon</placeName> puis à
+            <placeName ref="6451534" type="geonames" xml:base="https://www.geonames.org/">Carpentras</placeName>,
+            <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> à peine âgé
+            de neuf ans découvrit <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName> en
+            compagnie de son père. Le site, par sa résurgence mystérieuse,
+            exerçait déjà une puissante fascination sur les esprits. Il s’y
+            installa plus tard, en <date type="_temp" when="1337">1337</date>,
+            à l’âge de trente-trois ans et y fit quatre séjours, en une
+            vingtaine d’années, dans l’intervalle de ses voyages à travers
+            l’Europe. Son ancrage à <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName> a joué
+            un rôle majeur dans l’élaboration littéraire et spirituelle de son
+            propre mythe&#160;:</p>
+            <quote rend="quotation" xml:id="d1e130">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+                </term>
+              </term>«&#160;Qu’eut
+            donc ce lieu, je ne dis pas de plus beau mais de plus célèbre si
+            ce n’est mon séjour&#160;? Je peux même ajouter que pour beaucoup ce
+            lieu est devenu, grâce à moi, non moins célèbre que grâce à sa
+            source magnifique&#160;»<note n="4" place="foot" type="standard" xml:id="ftn4">
+                <p>
+                  <hi rend="italic">Lettres familières </hi>(<hi rend="italic">Rerum familiarum</hi>), VIII, 3, 9</p>
+              </note>.</quote>
+            <p xml:id="d1e142">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-9z8fpxff">mythologie</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+                </term>
+              </term>Ce fut à
+            <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName> que
+            <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> entreprit la
+            plus grande partie de sa gigantesque œuvre poétique et littéraire,
+            inspirée par l’«&#160;Apollon sonore&#160;» des «&#160;ondes thessaliques&#160;»<note n="5" place="foot" type="standard" xml:id="ftn5">
+                <p>«&#160;Apollo, s’anchor vive il bel desio / che t’infiammava a
+                le thesaliche onde&#160;» (<hi rend="italic">Canzoniere</hi>,
+                XXXIV)</p>
+              </note>. Comme le constatait <persName ref="026670984" type="idref" xml:base="https://www.idref.fr/">Sénèque</persName>,
+            le lyrisme d’un poète ne pouvait totalement s’exprimer que dans le
+            cadre d’une nature exceptionnelle, à proximité d’une source
+            consacrée aux muses, jaillissant d’une cavité mystérieuse<note n="6" place="foot" type="standard" xml:id="ftn6">
+                <p>
+                  <hi rend="italic">Lettres à Luciliu</hi>s</p>
+              </note>. Ainsi, pour obéir aux conseils des Anciens, <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> se retira au
+            pied de la source vauclusienne dont le paysage allégorique lui
+            fournissait l’adjuvant mythologique, esthétiquement latin, digne
+            des grands sites sibyllins du bassin méditerranéen. Il
+            scénographia à <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName> le credo
+            humaniste de la solitude créatrice, dans un lieu qui resterait
+            éternellement attaché à son nom.</p>
+            <p xml:id="d1e158">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+                </term>
+              </term>
+              <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> acheta à
+            <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName> une
+            petite maison située sur la rive gauche de la Sorgue, adossée à la
+            falaise, sous le château de son ami l’évêque de <placeName ref="6614137" type="geonames" xml:base="https://www.geonames.org/">Cavaillon</placeName>,
+            <persName type="_temp">Philippe de Cabassole</persName>. Il
+            mentionne, dans ses <hi rend="italic">Lettres familières</hi>
+              <note n="7" place="foot" type="standard" xml:id="ftn7">
+                <p>
+                  <hi rend="italic">Lettres familières </hi>(<hi rend="italic">Rerum familiarum</hi>), XIII, 8</p>
+              </note>, ses deux jardins de «&#160;<persName ref="027394719" type="idref" xml:base="https://www.idref.fr/">Bacchus</persName>&#160;»
+            et d’«&#160;<persName ref="027476537" type="idref" xml:base="https://www.idref.fr/">Apollon</persName>&#160;» qui
+            représentaient pour lui des enclos d’<date type="_temp">Antiquité</date>, encore que sa préférence, dans sa
+            figuration symbolique, soit celle du paysage pastoral du
+            berger-poète peint par <persName ref="030084903" type="idref" xml:base="https://www.idref.fr/">Simone Martini</persName> en
+            frontispice de son «&#160;<persName ref="026674327" type="idref" xml:base="https://www.idref.fr/">Virgile</persName>&#160;». Cette
+            enluminure, sur le plus intime manuscrit de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>, renferme
+            l’idéalisation de <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName> à
+            travers la vision virgilienne d’une habitation qui fut avant tout
+            celle des dieux <hi>(voir ill. p.&#160;61)</hi>.</p>
+            <figure xml:id="d1e175">
+              <graphic url="https://didomena.ehess.fr/downloads/05742101f.jpg"/>
+              <head xml:id="d1e176">Figure 2. Simone Martini, frontispice au
+              Virgile de Pétrarque (coll. Bibliothèque ambrosienne de Milan).
+              © Veneranda Biblioteca Ambrosiana / Gianni Cigolini / Mondadori
+              Portfolio / Bridgeman Images</head>
+              <p xml:id="d1e178">
+                <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+              savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+              artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+                  </term>
+                </term>
+                <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+              savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+              artistique<term ref="doi:10.34817/sv-qm2ezej3">peinture</term>
+                  </term>
+                </term>Dans
+              la peinture de Simone Martini, Virgile est assis sous l’arbre
+              central, peut-être un laurier avec ses feuilles plus vertes,
+              plus larges et plus pointues parmi la luxuriance et le
+              verdoiement d’un verger. Sa tête est ceinte d’une couronne de
+              laurier&#160;; l’ornement rappelle les aspirations de Pétrarque,
+              poète lauré en 1341, et suggère le nom de Laure devenu synonyme
+              de «&#160;la Laurea poetica&#160;». On y voit aussi le rhéteur qui révèle
+              à Enée, à un paysan et à un berger, symbolisant tour à tour <hi rend="italic">L’Énéide</hi>, <hi rend="italic">Les Géorgiques
+              </hi>et <hi rend="italic">Les Bucoliques</hi>, l’auteur de ces
+              trois poèmes en train de composer, caché par un rideau. Au
+              centre, deux couples d’hexamètres, sur des rouleaux tenus par
+              des mains ailées, célèbrent Virgile, fruit de la terre italique,
+              et Servius capable par son commentaire d’en dévoiler les
+              arcanes. L’image idyllique de Virgile ne pouvait que satisfaire
+              Pétrarque dans son appréciation de la nature de Vaucluse.</p>
+            </figure>
+          </div>
+          <div type="section2" xml:id="d1e189">
+            <head subtype="level2" xml:id="d1e190">L’immensité de
+            l’imaginaire</head>
+            <p xml:id="d1e192">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu</term>
+              </term>
+              <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> s’était
+            vanté d’apporter la renommée au lieu&#160;; il ne fut pas démenti. Le
+            pèlerinage sentimental et littéraire à la Fontaine-de-Vaucluse,
+            qu’accompagnait la courbe ascendante du pétrarquisme en Europe au
+            <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>, trouva une expression dans la
+            volonté archéologique de déterminer l’emplacement exact de la
+            maison du poète. Celle-ci devint l’objet de longues dissertations
+            et d’innombrables controverses. Il fallait les preuves
+            irréfutables d’une cartographie minutieuse. <persName ref="050144103" type="idref" xml:base="https://www.idref.fr/">Vellutello</persName>, grand
+            éditeur de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>, se rendit à
+            <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName> en <date type="_temp" when="1520">1520</date> et dessina ce qu’il appela
+            une «&#160;description de la situation de Valclusa&#160;». Après lui,
+            <persName ref="033076359" type="idref" xml:base="https://www.idref.fr/">Gabriel Syméon</persName>,
+            archéologue et homme de lettres florentin, prétendit en <date type="_temp" when="1558">1558</date> avoir retrouvé la
+            maison-témoin et à son tour cartographia les monts de <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName>
+              <hi>(voir
+            ill. ci-contre)</hi>. Cette forme de tourisme mythique inaugura la
+            longue cohorte des visiteurs célèbres, ombres tutélaires de la
+            vallée. Parmi les grands voyageurs lettrés venus sur les pas de
+            <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>, citons
+            <persName ref="027172783" type="idref" xml:base="https://www.idref.fr/">Honoré d’Urfé</persName>,
+            <persName ref="027129608" type="idref" xml:base="https://www.idref.fr/">Madeleine de Scudéry</persName>,
+            <persName ref="026770180" type="idref" xml:base="https://www.idref.fr/">Casanova</persName>, <persName ref="027031497" type="idref" xml:base="https://www.idref.fr/">Mirabeau</persName>, <persName ref="026962284" type="idref" xml:base="https://www.idref.fr/">Lamartine</persName>, <persName ref="026782022" type="idref" xml:base="https://www.idref.fr/">Chateaubriand</persName>,
+            <persName ref="027121577" type="idref" xml:base="https://www.idref.fr/">George Sand</persName>, <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> et bien
+            d’autres, qui visitèrent ce qui fut désigné, selon les époques et
+            les différentes écoles, comme la «&#160;maison&#160;» de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>.</p>
+            <figure xml:id="d1e200">
+              <graphic url="https://didomena.ehess.fr/downloads/5999nc25c.jpg"/>
+              <head xml:id="d1e201">Figure 3. Planche représentant le site de
+              Vaucluse extraite de l’ouvrage de Gabriel Syméon, Illustratione
+              de gli epitaffi et medaglie antiche, Lyon&#160;: J.&#160;de&#160;Tournes, 1558
+              (coll. Musée-bibliothèque François Pétrarque). Clichés
+              Musée-bibliothèque François Pétrarque</head>
+              <p xml:id="d1e203">
+                <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+              savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique
+              manuelle<term ref="doi:10.34817/sv-5gggmaol">inscription</term>
+                  </term>
+                </term>Dans
+              cette vignette géographique figurent, en un arc de cercle, les
+              collines de Vaucluse avec au centre les deux pains de sucre
+              surmontés de l’inscription «&#160;Vaucluse&#160;». Au premier plan se
+              trouve la ville de L’Isle-sur-Sorgue ceinturée par ses canaux et
+              par des remparts flanqués de tours. Les méandres de la Sorgue
+              conduisent à Vaucluse&#160;; le pont permet de rejoindre la rive
+              gauche de la Sorgue. À gauche du pont, sur la rive, on voit un
+              bâtiment et, semble-t-il, l’entrée du tunnel romain, sur le
+              tertre d’une colline deux bâtiments comprenant la mention
+              «&#160;Maison de Pétrarque&#160;», plus haut le château de Philippe de
+              Cabassole ruiné. Sur le haut de la gravure, à droite, est
+              représentée la résurgence de la Sorgue, la source principale et
+              les orifices des réseaux annexes.</p>
+            </figure>
+            <p xml:id="d1e205">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+                </term>
+              </term>L’idée
+            germa alors, tout au long du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, de la création
+            d’un musée consacré à <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> à <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Fontaine-de-Vaucluse</placeName>.
+            C’est ainsi que le <date type="_temp" when="1928-10-07">7&#160;octobre&#160;1928</date>, l’Université
+            d’Aix-Marseille procédait, sous le haut patronage du ministre de
+            l’Instruction publique et des Beaux-arts, <persName ref="033451869" type="idref" xml:base="https://www.idref.fr/">Edouard Herriot</persName>, à
+            l’inauguration de la «&#160;Maison de Pétrarque&#160;» à <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName>, dans
+            une petite bâtisse du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, sur la rive
+            gauche, lovée sous la roche et enchâssée par la Sorgue. Cette
+            maison, sur l’emplacement supposé qu’occupait celle du poète au
+            <date from="1300" to="1399" type="_temp">14<hi rend="sup">e</hi>&#160;siècle</date>, avait été mise à la disposition
+            de l’université, sous la forme emphytéotique d’un bail, grâce à la
+            générosité de la Société nouvelle du Valdor, propriétaire de
+            papeteries dans le village.</p>
+            <p xml:id="d1e216">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et
+            savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-drzsfy9d">artiste</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+                </term>
+              </term>Le musée
+            a depuis connu une fortune diverse. Acheté par le Conseil général
+            du Vaucluse en <date type="_temp" when="1968">1968</date>, il est
+            resté fermé de nombreuses années jusqu’à sa réouverture en <date type="_temp" when="1986">1986</date>
+              <hi>(voir ill. p.&#160;65)</hi>.
+            Désormais, il est dénommé Musée-bibliothèque François Pétrarque en
+            raison de son riche fonds d’éditions anciennes et de sa double
+            vocation iconographique et bibliophilique. Ses collections – qui
+            bénéficient de l’appellation Musées de France – n’ont cessé de
+            s’enrichir, en particulier avec la constitution d’une collection
+            d’art moderne et contemporain en lien avec les artistes qui ont
+            perpétué la tradition créatrice du site inspiré. Il n’existe aucun
+            objet du quotidien de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> dans ce
+            musée dévolu entièrement à la force poétique du mythe que
+            cristallisent la beauté de la nature, le mystère du gouffre,
+            l’amour infini et sans illusion de la créature et de la création,
+            le temps symbolisé par l’écoulement de la Sorgue. Les visiteurs
+            quittent le musée convaincus qu’ils ont bien vu la maison de
+            <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>, non pas
+            dans sa dimension domestique, mais en tant que point géodésique
+            d’un mythe qui transcende de très loin la maison d’écrivain. Le
+            parti pris de ce lieu de mémoire littéraire, au confluent du
+            tourisme de pèlerinage, de l’étude et de la création, est avant
+            tout la mise en valeur d’un site d’exception.</p>
+            <figure xml:id="d1e221">
+              <graphic url="https://didomena.ehess.fr/downloads/9g54xr81r.jpg"/>
+              <head xml:id="d1e222">Figure 4. Photographie du
+              Musée-bibliothèque François Pétrarque en 2020. Clichés
+              Musée-bibliothèque François Pétrarque</head>
+              <p xml:id="d1e224">
+                <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces
+              savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+                  </term>
+                </term>En
+              1968, le Département rachète le Musée Pétrarque. Les maisons
+              alentour, où logeaient essentiellement les ouvriers des usines à
+              papier du village, sont elles aussi acquises puis rasées,
+              dégageant ainsi, devant le musée, un vaste parc qui est
+              aujourd’hui au cœur du projet Grand Site.</p>
+            </figure>
+          </div>
+        </div>
+        <div type="section1" xml:id="d1e226">
+          <head subtype="level1" xml:id="d1e227">Arquà (1370-1374), via
+          Valleselle</head>
+          <div type="section2" xml:id="d1e229">
+            <head subtype="level2" xml:id="d1e230">La maison de la
+            vieillesse</head>
+            <quote rend="quotation" xml:id="d1e232">«&#160;J’ai construit une
+            petite maison décente et noble sur les Euganéennes&#160;; ici je mène
+            les dernières années de ma vie en paix, me souvenant et embrassant
+            avec une mémoire tenace mes amis absents ou décédés&#160;»<note n="8" place="foot" type="standard" xml:id="ftn8">
+                <p>
+                  <hi rend="italic">Lettres de vieillesse </hi>(<hi rend="italic">Rerum senilium</hi>), XIII, 8</p>
+              </note>.</quote>
+            <p xml:id="d1e244">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-nupjnh3s">jardin</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire</term>
+              </term>En <date type="_temp" when="1369">1369</date>, <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>, âgé et
+            malade, fit réaménager sur le territoire padouan une maison dans
+            le village à l’incomparable physionomie médiévale d’<placeName ref="6536663" type="geonames" xml:base="https://www.geonames.org/">Arquà</placeName>. Ce nouvel
+            Hélicon lui fut peut-être donné par <persName ref="244929955" type="idref" xml:base="https://www.idref.fr/">Francesco le vieux
+            de Carrare</persName>, seigneur de <placeName ref="3171728" type="geonames" xml:base="https://www.geonames.org/">Padoue</placeName> et ami du
+            poète. <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> fit
+            d’<placeName ref="6536663" type="geonames" xml:base="https://www.geonames.org/">Arquà</placeName> le refuge
+            privilégié des années qui lui restaient à vivre. Cette maison de
+            qualité, digne, en maçonnerie, n’était pas comparable à la
+            modestie louée de sa maison provençale, rustique et périssable.
+            Elle s’apparentait plus à une demeure patricienne. La construction
+            originale était composée de deux corps de bâtiments, situés à des
+            niveaux différents. <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> fit réunir
+            les deux parties et utilisa l’étage supérieur comme habitation
+            pour lui et sa famille, réservant l’aile droite aux serviteurs. À
+            l’avant de la maison se trouvait le jardin, à l’arrière le verger.
+            Comme à <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName>,
+            <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> consacra une
+            grande attention à ses jardins et se plut à les décrire.</p>
+            <p xml:id="d1e246">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-qm2ezej3">peinture</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+                </term>
+              </term>À la
+            mort du poète en <date type="_temp" when="1374">1374</date>, la
+            maison fut cédée en héritage à son gendre, <persName type="_temp">Francesco da Brossano</persName>, époux de sa fille
+            <persName type="_temp">Francesca</persName>, à la condition
+            qu’elle ne puisse être vendue durant vingt ans. Nous ne disposons
+            d’aucune information sur le devenir de la maison jusqu’en <date type="_temp" when="1454">1454</date>, lorsque <persName type="_temp">Federico Giustinian</persName> la céda aux moines de
+            <placeName ref="3168291" type="geonames" xml:base="https://www.geonames.org/">San Giorgio
+            Maggiore</placeName> de <placeName ref="3164600" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName>. En <date type="_temp" when="1546">1546</date>, elle appartenait au Padouan
+            <persName type="_temp">Paolo Valdezocco</persName>, descendant de
+            la famille du typographe qui, en <date type="_temp" when="1472">1472</date>, avait imprimé l’édition du <hi rend="italic">Canzoniere </hi>dans cette ville. Il fit ajouter la
+            loggia et l’escalier extérieur qui mène aujourd’hui au premier
+            étage, et commanda les peintures murales des pièces, inspirées des
+            œuvres de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> et que l’on
+            peut encore admirer aujourd’hui. Les scènes allégoriques sont
+            peintes dans le registre supérieur tandis qu’en partie basse, les
+            murs sont habillés de motifs ornementaux qui imitent des drapés.
+            Divers propriétaires privés se succédèrent jusqu’en <date type="_temp" when="1875">1875</date>, date à laquelle le cardinal
+            <persName type="_temp">Pietro Silvestri</persName> fit don de la
+            maison à la municipalité de <placeName ref="3171728" type="geonames" xml:base="https://www.geonames.org/">Padoue</placeName>.</p>
+          </div>
+          <div type="section2" xml:id="d1e251">
+            <head subtype="level2" xml:id="d1e252">Un pétrarquisme
+            populaire</head>
+            <p xml:id="d1e254">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-qm2ezej3">peinture</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+                </term>
+              </term>Les
+            modifications apportées au <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date> par <persName type="_temp">Paolo Valdezocco</persName> visaient déjà à valoriser
+            la maison en lieu de mémoire pétrarquiste à la mode du temps. La
+            maison du grand Italien était sacrée. Elle se devait d’être un
+            reliquaire où se trouvait enfermé le mobilier – fauteuil et
+            armoire-bibliothèque – qui aurait appartenu au poète, sans compter
+            sa chatte embaumée, animal-relique apparu dès le <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi>&#160;siècle</date>.
+            L’ouvrage de <persName ref="086123696" type="idref" xml:base="https://www.idref.fr/">Giacomo Filippo
+            Tomasini</persName>, <hi rend="italic">Petrarcha redivivus</hi>,
+            édité en <date type="_temp" when="1635">1635</date>, peut être
+            considéré comme le premier véritable guide de la maison. <persName ref="086123696" type="idref" xml:base="https://www.idref.fr/">Tomasini</persName> reconstitue
+            la vie du poète, s’essaie à une biographie de <persName ref="02872917X" type="idref" xml:base="https://www.idref.fr/">Laure</persName>, décrit avec
+            grande précision l’intérieur de la maison en s’arrêtant sur les
+            peintures et les objets «&#160;religieux&#160;»&#160;: chaise, cabinet, momie du
+            chat. Pour la première fois, une gravure imprimée donne à voir le
+            plan de la maison avec les transformations et interventions de
+            <persName type="_temp">Valdezocco</persName> et celles effectuées,
+            au début du <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi>&#160;siècle</date>, par les Gabrielli <hi>(voir ill.
+            p.&#160;66)</hi>. En <date type="_temp" when="1783">1783</date>, le
+            chevalier <persName ref="18445154X" type="idref" xml:base="https://www.idref.fr/">Girolamo Zulian</persName>,
+            locataire et gardien de la mémoire des lieux, introduisit
+            l’utilisation de registres de signatures pour les visiteurs venus
+            en pèlerinage. Auparavant, la coutume était de graver son nom ou
+            une phrase directement sur les murs ou même le mobilier de la
+            maison. Cette tradition du graffiti fut également celle de
+            <placeName ref="6445117" type="geonames" xml:base="https://www.geonames.org/">Vaucluse</placeName>, comme
+            l’atteste <persName ref="026770180" type="idref" xml:base="https://www.idref.fr/">Casanova de Seingalt</persName>
+            dans ses <hi rend="italic">Mémoires</hi>, qui ne manqua pas
+            d’inscrire au couteau ses initiales et la date, sur un mur supposé
+            de la maison de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>, en souvenir
+            de son passage<note n="9" place="foot" type="standard" xml:id="ftn9">
+                <p>J.&#160;Casanova de Seingalt, <hi rend="italic">Mémoires</hi>,
+                t.&#160;VII, chapitre&#160;II</p>
+              </note>.</p>
+            <figure xml:id="d1e282">
+              <graphic url="https://didomena.ehess.fr/downloads/m039kd04p.jpg"/>
+              <head xml:id="d1e283">Figure 5. Gravure de la maison d’Arquà
+              publiée dans l’ouvrage de Giacomo Filippo Tomasini, Petrarcha
+              redivivus, Padoue, L.&#160;Pasquati et J.&#160;Bortoli, 1635
+              (coll.&#160;Musée-bibliothèque François Pétrarque). Clichés
+              Musée-bibliothèque François Pétrarque</head>
+              <p xml:id="d1e285">
+                <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+              savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-2rcji648">gravure</term>
+                    </term>
+                  </term>
+                </term>Cette
+              gravure est le témoignage iconographique le plus ancien de la
+              maison de Pétrarque à Arquà. Elle documente son état après les
+              transformations exécutées aux 16<hi rend="sup">e</hi>&#160;et 17<hi rend="sup">e</hi>&#160;siècles. Dans la partie centrale, à gauche, on
+              peut voir l’escalier et la loggia, le balcon en bois sur le côté
+              gauche et à l’intérieur la division des pièces.</p>
+            </figure>
+            <p xml:id="d1e293">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+                </term>
+              </term>Depuis
+            lors, le Musée civique de <placeName ref="3171728" type="geonames" xml:base="https://www.geonames.org/">Padoue</placeName>, tout
+            particulièrement à l’occasion du septième centenaire de la
+            naissance du poète en <date type="_temp" when="2004">2004</date>,
+            a revisité et réorienté le propos patrimonial, en lui ôtant son
+            caractère de cabinet des curiosités du kitsch pétrarquien, par la
+            présentation d’une exposition didactique et permanente de
+            documents reproduits. Doit-on le regretter&#160;? Il est
+            particulièrement difficile de trouver un équilibre, dans la
+            construction d’un espace de représentation, entre réalité et
+            imaginaire.</p>
+            <p xml:id="d1e295">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+            intellectuelle</term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>La
+            maison par rapport à l’homme est le reflet symbolique de sa vie
+            qui réunit bons et mauvais moments, et dont il faut par conséquent
+            «&#160;occuper toutes les pièces, les salubres comme les malsaines, et
+            les belles aérées&#160;» (pour reprendre la citation de <persName ref="026778912" type="idref" xml:base="https://www.idref.fr/">René
+            Char</persName> qui ouvre notre article). «&#160;Pièce&#160;» évoque par
+            ailleurs le théâtre et le jeu dramatique de toute vérité
+            existentielle. Si nous devions établir une échelle des priorités
+            ou affects qui ont uni <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> aux nombreux
+            lieux de son existence, ressortent en premier le besoin de
+            solitude et d’un refuge rural, puis l’adéquation avec le paysage
+            d’une nature isolée dans le champ continu de la littérature ou de
+            la construction intellectuelle et spirituelle. S’agissant d’un
+            auteur hanté par l’élaboration incessante d’une figure de soi, les
+            «&#160;maisons mentales&#160;» furent celles, «&#160;prismatiques&#160;», du
+            «&#160;<foreign xml:lang="lat">locus amoenus</foreign>&#160;»<hi rend="italic">, </hi>de la campagne-jardin, garante et gardienne
+            de cette paix tant recherchée, de cet «&#160;<foreign xml:lang="lat">otium</foreign>&#160;» serein convoqué dans la recherche
+            de soi-même. La maison, plus qu’un lieu physique, avait donc pour
+            <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> la dimension
+            de l’esprit.</p>
+            <p xml:id="d1e300">
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-7va2wxhk">bibliographie</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et
+            savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hdhvjrsv">sanctuaire</term>
+                </term>
+              </term>En
+            miroir de cette vision se sont érigés des sanctuaires pétrarquiens
+            pour satisfaire la curiosité, l’imaginaire collectif et l’envie de
+            recueillement. Le rôle d’une maison d’écrivain est avant tout
+            d’apporter une compréhension de l’œuvre littéraire à travers la
+            biographie et les éléments familiers du contexte de son auteur.
+            Les maisons-musées de <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName> sont d’une
+            authenticité très relative et elles n’ont pas, dans leur
+            déclinaison, la prétention à restituer un propos de vérité.
+            D’ailleurs, faut-il montrer l’encrier de l’écrivain ou créer le
+            mythe autour de l’encrier&#160;? La mémoire littéraire des grands
+            auteurs ne connaît pas le réalisme&#160;; seuls les livres remis à la
+            postérité représentent le tiers lieu d’une quête des traces et
+            images qu’ils ont laissées d’eux-mêmes.</p>
+            <p xml:id="d1e302">
+              <hi rend="italic">L’auteur souhaite adresser ses remerciements à
+              <persName ref="20238859X" type="idref" xml:base="https://www.idref.fr/">Guillaume Dolo</persName> pour
+              l’avoir aidée à rassembler les sources documentaires nécessaires
+              à la rédaction de cet article.</hi>
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e306">
+        <head xml:id="d1e307">Orientations bibliographiques</head>
+        <listBibl xml:id="d1e309">
+          <bibl type="orig" xml:id="d1e310">Ugo Dotti, <hi rend="italic">Pétrarque</hi>, Paris, Fayard, 1991</bibl>
+          <bibl type="orig" xml:id="d1e315">
+            <hi rend="italic">Petrarca e i
+          suoi luoghi. Spazi reali e paesaggi poetici alle origini del moderno
+          senso della natura</hi>, a cura di Domenico Luciani e Monique
+          Mosser, Treviso, Edizioni Fondazione Benetton Studi Ricerche/Canova,
+          2009</bibl>
+          <bibl type="orig" xml:id="d1e319">Ève Duperray, <hi rend="italic">L’Or des mots, une lecture de Pétrarque et du mythe
+          littéraire de Vaucluse des origines à l’orée du XX</hi>
+            <hi rend="sup italic">e</hi>&#160;<hi rend="italic">siècle</hi>
+            <hi rend="italic">. Histoire du pétrarquisme en France</hi>, Paris,
+          Publications de la Sorbonne, 1997</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

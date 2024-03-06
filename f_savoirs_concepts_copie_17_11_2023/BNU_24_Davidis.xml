@@ -1,0 +1,1076 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_24_Davidis.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Marbach-am-Neckar&#160;: ville natale de Schiller et
+        lieu d’implantation des Archives littéraires allemandes</title>
+        <author role="aut">
+          <forename>Michael</forename>
+          <surname>Davidis</surname>
+          <idno type="IDREF">028574729</idno>
+        </author>
+        <editor role="translator">
+          <forename>Yves</forename>
+          <surname>Deike</surname>
+        </editor>
+        <editor role="translator">
+          <forename>Caroline</forename>
+          <surname>Woessner</surname>
+          <idno type="IDREF">112747418</idno>
+        </editor>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/TH9TB79V" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Marbach-am-Neckar&#160;: ville natale de Schiller et
+            lieu d’implantation des Archives littéraires allemandes</title>
+            <author>
+              <forename>Michael</forename>
+              <surname>Davidis</surname>
+            </author>
+            <respStmt>
+              <resp>translator</resp>
+              <persName>
+                <forename>Yves</forename>
+                <surname>Deike</surname>
+              </persName>
+            </respStmt>
+            <respStmt>
+              <resp>translator</resp>
+              <persName>
+                <forename>Caroline</forename>
+                <surname>Woessner</surname>
+              </persName>
+            </respStmt>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">24</biblScope>
+              <biblScope unit="page">36-47</biblScope>
+              <date>2021</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-raoluwcf">conflictualité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName>
+          </term>
+          <term>
+            <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName>
+          </term>
+          <term>
+            <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>
+          </term>
+          <term>
+            <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1914-07-28" to="1918-11-11" type="_temp">Première
+            Guerre mondiale</date>
+          </term>
+          <term>
+            <date from="1815" to="1848" type="_temp">Vormärz</date>
+          </term>
+          <term>
+            <date type="_temp" when="1973">1973</date>
+          </term>
+          <term>
+            <date from="1939-09-01" to="1945-09-02" type="_temp">Seconde
+            Guerre mondiale</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T12:46:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Marbach-am-Neckar&#160;: ville
+          natale de Schiller et lieu d’implantation des Archives littéraires
+          allemandes</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Michael Davidis</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Collaborateur scientifique, Deutsches
+          Literaturarchiv Marbach</affiliation>
+        </byline>
+        <byline style="txt_collaborateur">Yves Deike</byline>
+        <byline style="txt_collaborateur">Caroline Woessner</byline>
+      </titlePage>
+      <div type="prelim" xml:id="d1e56">
+        <epigraph>
+          <quote xml:id="d1e58">«&#160;L’Allemagne&#160;? Mais où est-elle&#160;? Je ne puis
+          trouver le pays. Où commence l’Allemagne savante, là finit
+          l’Allemagne politique&#160;». (<hi rend="italic">Xénies</hi>, 1796,
+          traduction Adolphe Régnier)</quote>
+        </epigraph>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e62">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-raoluwcf">conflictualité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-5qgwlkpg">idée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>Dans un
+        pays qui, avant de s’unir politiquement <date type="_temp" when="1871">il y a cent cinquante ans</date>, communiait avant tout
+        autour de sa littérature et qui, divisé <date type="_temp" when="1945">il y a soixante-quinze ans</date> en zones d’occupation
+        étrangère, invoqua à nouveau le pouvoir unificateur de celle-ci, les
+        écrivains ont toujours été particulièrement impliqués dans les
+        conflits politiques ou revendiqués à des fins idéologiques. Ce fut
+        ainsi le cas des deux classiques de <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>
+          <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Johann
+        Wolfgang Goethe</persName> et <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Friedrich Schiller</persName>, qui se
+        considéraient déjà de leur vivant comme représentants de leur art et
+        le devinrent d’autant plus à titre posthume. Le cas de <persName ref="027006190" type="idref" xml:base="https://www.idref.fr/">Thomas
+        Mann</persName> est similaire, lui qui fut justement, des deux côtés
+        de la frontière intérieure, l’invité de marque des commémorations
+        organisées en <date type="_temp" when="1949">1949</date> et <date type="_temp" when="1955">1955</date> en l’honneur de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> et de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>, et qui fut
+        également invoqué après sa mort par les deux <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagnes</placeName> pour
+        servir des buts politico-culturels divergents. Les écrivains des deux
+        États jouèrent de même un rôle politique non négligeable lors du
+        processus d’unification en <date type="_temp" when="1990">1990</date>.</p>
+        <p xml:id="d1e64">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-j2qwt5pl">catégorie sociale<term ref="doi:10.34817/sv-dh7vnghy">peuple</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-wntcaubx">allemand</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-5wvg9nc7">héros</term>
+              </term>
+            </term>
+          </term>Forme
+        séculaire du culte des saints qui éleva des figures telles que
+        <persName ref="026837013" type="idref" xml:base="https://www.idref.fr/">Dürer</persName>, <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> et <persName ref="026998416" type="idref" xml:base="https://www.idref.fr/">Luther</persName> au rang de héros
+        nationaux, le culte du génie s’étendit également à certaines figures
+        littéraires des <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>
+          </date> et <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècles</date>. <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> acquit ainsi un
+        statut hors pair lors de la <date from="1815" to="1848" type="_temp">période allant du Vormärz</date>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Le terme «&#160;Vormärz&#160;», qui signifie «&#160;avant-mars&#160;», est employé
+            par les germanistes pour désigner l’ensemble de la période
+            d’histoire culturelle des pays de langue allemande qui va de 1815
+            à 1848, de la Restauration aux mouvements révolutionnaires de
+            mars&#160;1848 (nous empruntons cette définition à Jacques Le Rider,
+            dans «&#160;Vormärz <hi rend="italic">VS </hi>Biedermeier&#160;», in <hi rend="italic">Revue d‘histoire du XIX</hi>
+              <hi rend="sup italic">e</hi>
+              <hi rend="italic">&#160;siècle</hi>, 52 | 2016,
+            p.&#160;19-29).</p>
+          </note> à la <date from="1914-07-28" to="1918-11-11" type="_temp">Première Guerre mondiale</date>. Sa caractérisation comme
+        chantre de la liberté et de l’unité doit moins au regard porté sur
+        l’ensemble de son œuvre qu’à l’impact de certaines formules
+        particulièrement marquantes telles que le serment du Rütli («&#160;Nous
+        voulons être un seul peuple de frères&#160;») ou la revendication par le
+        <persName type="_temp">marquis de Posa</persName> de la «&#160;liberté de
+        pensée&#160;». Le fait que <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> se soit abstenu
+        de toute prise de position pro-napoléonienne et que sa mort prématurée
+        l’ait empêché de prendre parti lors des guerres de libération de <date from="1813" to="1815" type="_temp">1813-1815</date> en fit un parrain
+        du mouvement national-libéral plus approprié que <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, largement
+        considéré comme un cosmopolite et serviteur des princes. Le buste
+        sculpté par <persName ref="031978649" type="idref" xml:base="https://www.idref.fr/">Dannecker</persName>, incarnation de
+        l’idéalisme allemand, constituait en outre une icône extrêmement
+        puissante <hi>(voir ill. p.&#160;40).</hi>
+        </p>
+        <figure xml:id="d1e88">
+          <graphic url="https://didomena.ehess.fr/downloads/zg64tv436.jpg"/>
+          <head xml:id="d1e89">Figure 1. Première reproduction graphique du
+          buste colossal de Schiller par Johann Heinrich Dannecker. Eau-forte
+          de Johann Friedrich Wilhelm Müller, 1807 (coll. Deutsches
+          Literaturarchiv Marbach). © Deutsches Literaturachiv Marbach</head>
+        </figure>
+        <p xml:id="d1e93">
+          <term type="concept"/>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-xjfagxl2">commémoration</term>
+            </term>
+          </term>À la
+        mort de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> en <date type="_temp" when="1805">1805</date>, dix-huit mois à peine avant la
+        double bataille d’<placeName ref="2895044" type="geonames" xml:base="https://www.geonames.org/">Iéna</placeName> et d’<placeName ref="6550227" type="geonames" xml:base="https://www.geonames.org/">Auerstedt</placeName>, les
+        monuments commémoratifs n’étaient pas encore dans l’air du temps. Une
+        sépulture individuelle ne fut même pas jugée nécessaire, et si le
+        poète avait bien cherché à assurer lui-même sa célébrité et son renom
+        posthume par une mise en scène délibérée de sa propre image, il
+        n’avait en revanche montré que peu d’intérêt pour la documentation de
+        son œuvre. Il détruisait ainsi les travaux préparatoires de ses
+        ouvrages au fur et à mesure de leur impression et, malgré une santé
+        fragile, ne rédigea pas de testament. Son épouse, qui lui survécut
+        vingt ans, comme ses enfants se montrèrent très prodigues en vendant
+        et donnant autographes et souvenirs. Même les deux demeures qu’il
+        possédait, la maison d’été d’<placeName ref="2895044" type="geonames" xml:base="https://www.geonames.org/">Iéna</placeName> et la résidence
+        de <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, changèrent de
+        mains. Aucune pièce d’inventaire ne resta sur place et la vénération
+        de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> se traduisit dès
+        lors, dans un premier temps, non par l’aménagement des lieux familiers
+        en lieux de commémoration, mais principalement par des projets de
+        monuments.</p>
+        <p xml:id="d1e95">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>Première
+        statue monumentale d’un poète en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>, la statue
+        conçue par <persName ref="028878612" type="idref" xml:base="https://www.idref.fr/">Bertel Thorvaldsen</persName> et
+        installée sur le <foreign xml:lang="deu">Schlossplatz</foreign> (place
+        du Château) de <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName> constitua
+        un premier coup d’éclat et son inauguration le <date type="_temp" when="1839-05-08">8&#160;mai&#160;1839</date> fut ressentie dans toute la
+        Confédération allemande comme un tournant dans la lutte pour les
+        libertés civiles et l’unité nationale. Située à seulement vingt
+        kilomètres de là, la petite ville de <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> avait perdu
+        la compétition pour le monument malgré l’aménagement par le <foreign xml:lang="deu">Schillerverein</foreign> (Cercle Schiller), fondé en
+        <date type="_temp" when="1835">1835</date>, d’un petit parc dénommé
+        «&#160;<foreign xml:lang="deu">Schillerhöhe</foreign>&#160;» (colline de
+        Schiller). Les efforts y porteraient désormais sur l’atout unique de
+        la ville&#160;: la maison natale du poète, acquise par la Société en <date type="_temp" when="1857">1857</date>. Alors que dans la maison de
+        <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, première
+        ouverte au public dix ans plus tôt, le cabinet de travail et la
+        chambre mortuaire de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> pouvaient
+        prétendre à une certaine authenticité grâce à la réacquisition de
+        meubles originaux, une refonte complète s’avéra nécessaire à
+        <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName>, où il ne
+        restait pour ainsi dire plus une pierre d’origine, près de
+        quatre-vingt-quinze ans après le départ de la famille.</p>
+        <figure xml:id="d1e97">
+          <graphic url="https://didomena.ehess.fr/downloads/qr46r860c.jpg"/>
+          <head xml:id="d1e98">Figure 2. Marbach avec tête de Schiller dans
+          les nuées. Lithographie non signée tirée du <hi rend="italic">Karlsruher Unterhaltungsblatt </hi>de 1831 (coll.
+          Deutsches Literaturarchiv Marbach). © Deutsches Literaturachiv
+          Marbach</head>
+        </figure>
+        <p xml:id="d1e105">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+            </term>
+          </term>Sous
+        prétexte de restaurer cette simple maison d’artisan, située dans la
+        ville basse habitée principalement par des vignerons et dont le
+        dernier occupant avait été un boulanger, le professeur et architecte
+        de la cour de <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName>
+          <persName ref="056616082" type="idref" xml:base="https://www.idref.fr/">Christian Friedrich Leins</persName>
+        la transforma en résidence bourgeoise avec une façade de style «&#160;vieil
+        allemand&#160;». À l’intérieur, il créa de toutes pièces une atmosphère
+        chaleureuse inédite à travers un aménagement historiciste des pièces,
+        fait de panneaux de bois et de fenêtres au verre soufflé en couronne
+        <hi>(voir ill. p.&#160;36)</hi>. Outre la pièce à l’origine beaucoup plus
+        petite du rez-de-chaussée, où <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> avait vécu avec
+        sa mère et sa sœur aînée – officier dans un régiment du Wurtemberg,
+        son père séjournait rarement à <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName>&#160;–, la pièce
+        principale de l’étage fut également transformée en musée.
+        L’inauguration eut lieu en <date type="_temp" when="1859">1859</date>
+        pour le centenaire de la naissance de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>, la
+        plus prestigieuse cérémonie d’anniversaire jamais célébrée en
+        <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> pour un
+        poète<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Voir à ce sujet, en français, le catalogue d’exposition <hi rend="italic">Schiller et l’idéal européen </hi>(notice complète
+            dans les Orientations bibliographiques), p.&#160;130-140.</p>
+          </note>.</p>
+        <figure xml:id="d1e117">
+          <graphic url="https://didomena.ehess.fr/downloads/pr76fb690.jpg"/>
+          <head xml:id="d1e118">Figure 3. Feuille décorative «&#160;Souvenir de
+          Marbach&#160;». Lithographie avec photographies collées par Carl de
+          Vylder, ca. 1865 (coll. Deutsches Literaturarchiv Marbach). ©
+          Deutsches Literaturachiv Marbach</head>
+        </figure>
+        <p xml:id="d1e122">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-raoluwcf">conflictualité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>À la
+        différence du lieu de mémoire inauguré en <date type="_temp" when="1848">1848</date> à <placeName ref="2919500" type="geonames" xml:base="https://www.geonames.org/">Gohlis</placeName> près de
+        <placeName ref="6548737" type="geonames" xml:base="https://www.geonames.org/">Leipzig</placeName>, inspiré par
+        les idées du <date from="1815" to="1848" type="_temp">Vormärz</date>
+        et dont l’initiateur <persName ref="030872928" type="idref" xml:base="https://www.idref.fr/">Robert Blum</persName> fut exécuté
+        <date type="_temp" when="1848">la même année</date> à <placeName ref="2761369" type="geonames" xml:base="https://www.geonames.org/">Vienne</placeName> comme
+        révolutionnaire, le projet de <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> était fondé
+        sur un mélange de patriotisme wurtembergeois et de fierté locale.
+        Outre <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, <placeName ref="6548737" type="geonames" xml:base="https://www.geonames.org/">Leipzig</placeName> et <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName>, les <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>
+          </date> et
+        <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècles</date> virent s’élever des monuments dans
+        d’autres lieux de résidence de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>, tels <placeName ref="6549996" type="geonames" xml:base="https://www.geonames.org/">Bauerbach</placeName> près de
+        <placeName ref="6551151" type="geonames" xml:base="https://www.geonames.org/">Meiningen</placeName>, <placeName ref="2895044" type="geonames" xml:base="https://www.geonames.org/">Iéna</placeName>, <placeName ref="6551127" type="geonames" xml:base="https://www.geonames.org/">Dresde</placeName> et enfin
+        <placeName ref="6551155" type="geonames" xml:base="https://www.geonames.org/">Rudolstadt</placeName>.
+        <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName> se montra
+        plus réticente, probablement en raison de la nécessité qu’il y aurait
+        eu à mettre en lumière les conflits de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> avec
+        son employeur et souverain local. L’absence dans un premier temps de
+        monument à <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> tient
+        probablement non seulement au fait que les demeures où vécut le poète
+        lors de son court séjour de <date type="_temp" when="1804">1804</date>
+        avaient disparu depuis, mais aussi à la crainte persistante des
+        autorités prussiennes de voir le poète instrumentalisé pour la cause
+        libérale à la suite de la répression de la <date from="1848" to="1849" type="_temp">révolution de 1848/49</date>.</p>
+        <p xml:id="d1e130">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mf7ofe8n">régime
+        politique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-phnkl9cu">sculpture</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>En <date type="_temp" when="1871">1871</date>, avec l’érection du monument de
+        <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName>, les autorités
+        réussirent à imposer le poète comme symbole du jeune Empire allemand.
+        Des monuments en l’honneur de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> furent également
+        érigés avant et après cette année charnière dans tout le monde
+        germanophone ainsi que dans plusieurs villes des <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName> à forte
+        population allemande. Dans sa ville natale, si la première pierre
+        avait déjà été posée sur la Schillerhöhe en <date type="_temp" when="1859">1859</date>, le monument ne fut érigé qu’en <date type="_temp" when="1876">1876</date>. Il était en effet impossible
+        pour la ville de financer la construction par ses propres moyens, et
+        la collecte de fonds fut perturbée par les guerres d’unification.
+        L’empereur, finalement, fit don du métal destiné à couler la statue
+        conçue par le sculpteur <persName type="_temp">Ernst Rau</persName>,
+        originaire de <placeName ref="2820860" type="geonames" xml:base="https://www.geonames.org/">Tübingen</placeName>
+          <hi>(voir
+        ill. ci-contre)</hi>. L’utilisation d’un canon français, butin de la
+        <date from="1870" to="1871" type="_temp">guerre de 1870/71</date>, est
+        un détail piquant si l’on considère que <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>
+        avait obtenu la citoyenneté de la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+        révolutionnaire en <date type="_temp" when="1792">1792</date>, à la
+        demande du député de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+          <persName ref="155403818" type="idref" xml:base="https://www.idref.fr/">Philipp
+        Jakob Rühl</persName>.</p>
+        <figure xml:id="d1e135">
+          <graphic url="https://didomena.ehess.fr/downloads/mg74qv557.jpg"/>
+          <head xml:id="d1e136">Figure 4. Le monument à Schiller de Marbach.
+          Photographie (avec décor monté) de Robert Wetzig, probablement 1876
+          (coll. Deutsches Literaturarchiv Marbach). © Deutsches
+          Literaturachiv Marbach</head>
+        </figure>
+        <p xml:id="d1e141">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+        matériel</term>
+            </term>
+          </term>Si des monuments furent érigés presque
+        partout, des collections remarquables de manuscrits, livres, images et
+        reliques se constituèrent uniquement à <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName> et à
+        <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName>. Un premier
+        apogée fut atteint dans la ville natale du poète en <date type="_temp" when="1890">1890</date>, lorsque l’énergique maire de la ville et
+        président du <foreign xml:lang="deu">Schillerverein</foreign> (Cercle
+        Schiller) <persName type="_temp">Traugott Haffner</persName> réussit à
+        obtenir en don l’essentiel des portraits de famille de la succession
+        de la veuve du fils aîné du poète. La vente des archives littéraires
+        de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> à <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName> en <date type="_temp" when="1889">1889</date>, comme celles d’<persName ref="027041778" type="idref" xml:base="https://www.idref.fr/">Eduard
+        Mörike</persName> en <date type="_temp" when="1892">1892</date>,
+        furent ressenties par les acteurs culturels wurtembergeois comme un
+        signal clair de la nécessité de redoubler d’efforts pour préserver
+        localement la mémoire de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> comme celle
+        d’autres enfants du pays passés à la postérité, et de souligner leur
+        contribution à la culture nationale. On ne saurait sous-estimer le
+        rôle joué alors par le banquier et entrepreneur juif <persName ref="12847291X" type="idref" xml:base="https://www.idref.fr/">Kilian
+        Steiner</persName>, qui concrétisa l’appel de <persName ref="027500721" type="idref" xml:base="https://www.idref.fr/">Wilhelm
+        Dilthey</persName> à la création d’une institution dédiée à la
+        collecte des archives littéraires des écrivains souabes.</p>
+        <p xml:id="d1e143">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-ojc6hf5g">mécénat</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <persName type="_temp">Haffner</persName> et <persName ref="12847291X" type="idref" xml:base="https://www.idref.fr/">Steiner</persName>
+        parvinrent à convaincre le roi <persName ref="189469552" type="idref" xml:base="https://www.idref.fr/">Guillaume&#160;II de Wurtemberg</persName>
+        de la nécessité d’une société à vocation interrégionale destinée à
+        recueillir des archives et à fonder un musée consacré à <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> et aux poètes
+        wurtembergeois marquants du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, ceux-là mêmes
+        autrefois raillés par <persName ref="026917688" type="idref" xml:base="https://www.idref.fr/">Heinrich Heine</persName> dans son
+        <hi rend="italic">Schwabenspiegel</hi>. Le <foreign xml:lang="deu">Schwäbischer Schillerverein</foreign> (Cercle Schiller
+        de Souabe) fut ainsi fondé en <date type="_temp" when="1895">1895</date> et parvint, grâce à l’implication décisive de
+        ses deux initiateurs, à faire rapidement ériger un bâtiment
+        représentatif sur la Schilleröhe, en face du monument de <date type="_temp" when="1876">1876</date>, bâtiment qui fut inauguré en
+        <date type="_temp" when="1903">1903</date> sous le nom de
+        Schiller-Museum und -Archiv et devint en <date type="_temp" when="1922">1922</date> le Schiller-Nationalmuseum sur proposition du
+        député du Reichstag <persName ref="030159873" type="idref" xml:base="https://www.idref.fr/">Theodor Heuss</persName>. Structure
+        associative parrainée par l’État et financée par des mécènes, elle
+        compte parmi les nombreuses institutions culturelles reconnues
+        d’utilité publique en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> dont les
+        missions sont, dans d’autres pays, traditionnellement du ressort des
+        pouvoirs publics <hi>(voir ill. p.&#160;43)</hi>.</p>
+        <figure xml:id="d1e154">
+          <graphic url="https://didomena.ehess.fr/downloads/v405sj63c.jpg"/>
+          <head xml:id="d1e155">Figure 5. Le Schiller-Museum und -Archiv de
+          Marbach, dominant la vallée du Neckar. Photographe inconnu, ca. 1905
+          (coll. Deutsches Literaturarchiv Marbach). © Deutsches
+          Literaturachiv Marbach</head>
+        </figure>
+        <p xml:id="d1e159">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+        matériel</term>
+            </term>
+          </term>La constitution des collections s’appuya
+        sur les activités du professeur de lycée de <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName>
+          <persName ref="028435990" type="idref" xml:base="https://www.idref.fr/">Otto
+        Güntter</persName>. Inspiré par une visite à la National Portrait
+        Gallery de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, il avait
+        organisé en <date type="_temp" when="1890">1890</date> une exposition
+        consacrée à <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> et d’autres
+        grands noms de la vie intellectuelle souabe à la <foreign xml:lang="deu">Königliche Technische Hochschule</foreign> (École
+        supérieure technique du royaume). Les pièces exposées provenaient
+        principalement de collections privées, les Schilleriana pour
+        l’essentiel de la succession de la sœur de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>,
+        <persName type="_temp">Louise Franckh</persName>, seule source
+        significative restante dans le Wurtemberg. Cette exposition constitua,
+        avec la collection du Schillerverein de <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName>, le noyau
+        initial du musée. Les premiers grands fonds du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date> à arriver
+        à <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> furent les
+        successions de <persName ref="027780309" type="idref" xml:base="https://www.idref.fr/">Ludwig Uhland</persName>, <persName ref="030316049" type="idref" xml:base="https://www.idref.fr/">Berthold
+        Auerbach</persName> et <persName ref="033811687" type="idref" xml:base="https://www.idref.fr/">Justinus Kerner</persName>, également
+        données par <persName ref="12847291X" type="idref" xml:base="https://www.idref.fr/">Kilian Steiner</persName>. La maison
+        natale resta la propriété du Schillerverein local qui poursuivit ses
+        activités et se réserva le droit de l’aménager à l’aide des
+        collections de la nouvelle, et plus importante, institution, ce
+        qu’elle fait encore aujourd’hui.</p>
+        <p xml:id="d1e164">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu</term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>Au cours des
+        décennies qui suivirent, le Musée national Schiller devint, du moins
+        en ce qui concerne sa figure tutélaire, le digne pendant des hauts
+        lieux des «&#160;classiques de <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>&#160;» que sont le
+        Goethe-Archiv (devenu en <date type="_temp" when="1890">1890</date>Goethe-und Schiller-Archiv) et le
+        Goethe-Nationalmuseum. En dépit de leurs noms, les deux musées, celui
+        de <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> et celui de
+        <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, n’ont pas été
+        institués sous l’<date from="1871" to="1918" type="_temp">Empire
+        allemand</date> mais sont des réalisations de prestige, pour le
+        premier du royaume de Wurtemberg, et pour le second du grand-duché de
+        Saxe-Weimar-Eisenach. Les doutes émis par <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName> quant à un
+        second lieu de conservation de collections relatives à <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> ont certes pu
+        être dissipés&#160;; cependant une certaine concurrence entre les lieux de
+        naissance et de décès perdure dans le cas de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>,
+        comme dans celui de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> entre <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName> et
+        <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>. Il s’en est
+        fallu de peu que le conflit avec <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName> au sujet de
+        l’emplacement du monument ne trouve là aussi une continuation, mais le
+        choix du <persName ref="189469552" type="idref" xml:base="https://www.idref.fr/">roi du Wurtemberg</persName> en
+        faveur de <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> y mit fin.
+        Celle-ci reste ainsi à ce jour la plus petite commune allemande à
+        accueillir une institution culturelle de dimension nationale.</p>
+        <p xml:id="d1e166">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+            </term>
+          </term>Contrairement
+        à <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, les fonctions
+        d’un service d’archive, d’une bibliothèque et d’un musée se trouvaient
+        rassemblées dans le programme de l’institution de <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> dès son
+        origine, comme en témoignent les intitulés des registres
+        d’inventaire&#160;: «&#160;manuscrits&#160;», «&#160;imprimés&#160;», «&#160;portraits et objets
+        personnels&#160;». Le bâtiment néo-classique conçu par les architectes de
+        <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName>
+          <persName ref="111634229" type="idref" xml:base="https://www.idref.fr/">Ludwig
+        Eisenlohr</persName> et <persName type="_temp">Carl Weigle</persName>
+        pour abriter le musée, visible de loin car situé sur une paroi
+        rocheuse au bord du Neckar, conjugue des éléments du vocabulaire
+        architectural des châteaux wurtembergeois du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date> avec
+        d’autres issus du décor du Panthéon de <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>.
+        Le mur d’exposition monumental du hall d’entrée, au milieu duquel se
+        trouve une copie du buste créé par <persName ref="031978649" type="idref" xml:base="https://www.idref.fr/">Dannecker</persName>,
+        souligne lui aussi que le bâtiment est un temple dédié au génie
+        <hi>(voir ill. p.&#160;44)</hi>. La salle centrale est décorée de
+        bas-reliefs dont les motifs illustrent les poèmes de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>. Lors de la
+        préparation du projet, une délégation ad hoc avait visité le somptueux
+        nouveau bâtiment de la Bibliothèque universitaire de <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, sur la
+        façade de laquelle l’hommage rendu à <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>, à
+        côté d’autres grands esprits, prend la forme d’un portrait en
+        médaillon.</p>
+        <figure xml:id="d1e174">
+          <graphic url="https://didomena.ehess.fr/downloads/zs25xh79c.jpg"/>
+          <head xml:id="d1e175">Figure 6. Hall d’entrée du Schillermuseum,
+          photographie de Ludwig Schaller, 1934 (coll. Deutsches
+          Literaturarchiv Marbach). © Deutsches Literaturachiv Marbach</head>
+        </figure>
+        <p xml:id="d1e179">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-xjfagxl2">commémoration</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mf7ofe8n">régime
+        politique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+            </term>
+          </term>Après le
+        décès de ses pères fondateurs, <persName type="_temp">Haffner</persName> et <persName ref="12847291X" type="idref" xml:base="https://www.idref.fr/">Steiner</persName>,
+        survenu avant l’ouverture du musée de <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName>, <persName ref="028435990" type="idref" xml:base="https://www.idref.fr/">Otto
+        Güntter</persName> en reprit en <date type="_temp" when="1904">1904</date> la direction qu’il occupa jusqu’à son
+        quatre-vingtième anniversaire en <date type="_temp" when="1938">1938</date>. L’exposition temporaire qu’il organisa lors
+        du centenaire de la mort de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> en <date type="_temp" when="1905">1905</date> se mua en une exposition
+        permanente, qui fut enrichie à plusieurs reprises et dont les grandes
+        lignes survécurent à deux guerres mondiales. Activement soutenu
+        pendant la crise économique par les sociétés Schiller américaines et
+        co-financé par l’Empire allemand à partir de <date type="_temp" when="1927">1927</date>, le musée traversa sans dommages, si ce n’est
+        sans compromissions, l’époque du national-socialisme. L’année&#160;<date type="_temp" when="1934">1934</date> marqua le point d’orgue de la
+        récupération politique, avec la tenue d’un «&#160;hommage de la jeunesse
+        allemande à <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>&#160;» en <date type="_temp" when="1934-06">juin</date> et une célébration du 175<hi rend="sup">e</hi>&#160;anniversaire du poète qui se tint sous la coupe de
+        pontes du national-socialisme wurtembergeois. Grâce à l’acquisition
+        auprès de son dernier descendant d’une grande partie des images et
+        objets légués par <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>, la collection
+        s’étendit considérablement tandis que l’extension des ailes du
+        bâtiment permit d’accroître la surface d’exposition.</p>
+        <p xml:id="d1e184">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+        savoirs</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>La
+        période de six ans durant laquelle l’écrivain et «&#160;responsable
+        culturel&#160;» national-socialiste local <persName type="_temp">Georg
+        Schmückle</persName> fut directeur reste anecdotique. L’événement le
+        plus important de son administration, qu’il n’accompagna d’ailleurs
+        qu’à la marge, fut le lancement de «&#160;l’édition nationale&#160;» de l’œuvre
+        et de la correspondance de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>, qui fut publiée
+        en collaboration avec l’institution de <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName> jusqu’à son
+        achèvement au <date from="2000" to="2099" type="_temp">21<hi rend="sup">e</hi>&#160;siècle</date>. Ce dernier fait est d’autant plus
+        remarquable qu’une telle coopération après la <date from="1939-09-01" to="1945-09-02" type="_temp">Seconde Guerre mondiale</date> se heurta
+        à de considérables obstacles d’ordre politique, du fait de la division
+        de l’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> en quatre
+        zones d’occupation et plus tard en deux États. Le monument Schiller de
+        <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName> fut mis à
+        l’abri pendant la guerre, et sa remise en place dès <date type="_temp" when="1945-11">novembre&#160;1945</date> s’accompagna d’un discours du
+        commandant de la garnison américaine dans lequel il appelait de ses
+        vœux le renouveau de la démocratie. Sous l’impulsion du nouveau
+        directeur <persName ref="031642977" type="idref" xml:base="https://www.idref.fr/">Erwin Ackerknecht</persName>,
+        réformateur de bibliothèques politiquement sans reproche, le personnel
+        fut renouvelé et l’association de soutien fut refondée sous le nom de
+        Deutsche Schillergesellschaft.</p>
+        <p xml:id="d1e189">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+            </term>
+          </term>En <date type="_temp" when="1947">1947</date>, à la veille de la division de
+        l’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>, le musée,
+        fermé depuis le début de la guerre, rouvrit ses portes. Cette division
+        fut scellée en <date type="_temp" when="1955">1955</date> par l’entrée
+        des deux États allemands dans des alliances militaires ennemies, ce
+        qui permit à <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> de gagner en
+        notoriété de manière inattendue. Du fait du fossé grandissant entre
+        les deux États, des institutions nationales avaient déjà été
+        dupliquées. C’est ainsi que fut fondée à <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort-sur-le-Main</placeName>
+        la Deutsche Bibliothek, pendant occidental de la Deutsche Bücherei de
+        <placeName ref="6548737" type="geonames" xml:base="https://www.geonames.org/">Leipzig</placeName>. Il manquait
+        cependant encore en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> de l’Ouest
+        un lieu de collecte des archives littéraires comparable au département
+        des manuscrits de la Staatsbibliothek de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> ou au
+        Goethe-und Schiller-Archiv de <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>. La ville de
+        <placeName ref="11856166" type="geonames" xml:base="https://www.geonames.org/">Bonn</placeName>, élevée
+        provisoirement au rang de capitale fédérale, n’entrait pas en ligne de
+        compte. Le Freies Deutsches Hochstift et le Goethemuseum de <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort-sur-le-Main</placeName>
+        étaient en ruines. Il n’y avait guère d’autres possibilités car toutes
+        les grandes bibliothèques devaient d’abord réparer les dommages causés
+        à leurs bâtiments et à leurs fonds.</p>
+        <p xml:id="d1e191">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-xzvgbxyl">gestion<term ref="doi:10.34817/sv-zoceok8v">administration</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+            </term>
+          </term>Le
+        Schiller-Nationalmuseum avait été épargné par la guerre, ses
+        collections mises à l’abri dans une mine de sel étaient intactes, et
+        ses activités lui avaient apporté une bonne réputation, tandis que
+        l’entrée dans ses collections, dans les <date from="1950" to="1959" type="_temp">années&#160;1950</date>, des archives de la maison d’édition
+        Cotta étendirent le périmètre de ses fonds au-delà de l’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> du
+        sud-ouest. Le fait que <persName ref="030159873" type="idref" xml:base="https://www.idref.fr/">Theodor Heuss</persName>, élu en
+        <date type="_temp" when="1949">1949</date> président de l’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> fédérale,
+        avait des liens étroits avec la Deutsche Schillerge-sellschaft, dont
+        il était membre du conseil d’administration, a aussi pu peser dans la
+        balance. Le nom de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> ne joua qu’un
+        rôle secondaire dans cette décision, mais finit tout de même par être
+        pris en compte&#160;: après une période d’incertitude, un double nom fut
+        retenu, Schiller-Nationalmuseum/Deutsches Literaturarchiv. Il ne
+        s’agit donc pas à proprement parler d’une création, mais d’une
+        extension d’un établissement déjà existant, ce qui s’explique par
+        égard pour les lieux de collecte d’archives littéraires d’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> de l’Est,
+        mais marque encore aujourd’hui le musée de son empreinte.</p>
+        <p xml:id="d1e194">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>La renommée
+        de l’institution remaniée de <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> a bénéficié
+        du 150<hi rend="sup">e</hi>&#160;anniversaire de la mort de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>, célébré en <date type="_temp" when="1955">1955</date>, qui fut l’occasion non seulement
+        pour <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, mais aussi
+        pour <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> et <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName>, lieux de
+        sa naissance et de sa formation, d’attirer sur elles l’attention du
+        public. Le président de la Société Schiller, <persName ref="077240340" type="idref" xml:base="https://www.idref.fr/">Wilhelm
+        Hoffmann</persName>, directeur de la Württembergische
+        Landesbibliothek, et l’historien <persName ref="028326148" type="idref" xml:base="https://www.idref.fr/">Bernhard
+        Zeller</persName>, nommé directeur du musée peu avant la célébration
+        du jubilé à <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName>, furent les
+        chevilles ouvrières de la préparation des festivités. L’épicentre en
+        <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> de l’Ouest
+        en était <placeName ref="2825297" type="geonames" xml:base="https://www.geonames.org/">Stuttgart</placeName>, et
+        <persName ref="027006190" type="idref" xml:base="https://www.idref.fr/">Thomas Mann</persName> y tint un
+        discours officiel. Avant de se rendre à <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, où il invoqua
+        dans les mêmes termes l’unité culturelle allemande placée sous l’égide
+        de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>, <persName ref="027006190" type="idref" xml:base="https://www.idref.fr/">Mann</persName> fit également une
+        courte visite à <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName>
+          <hi>(voir ill.
+        ci-contre)</hi>. S’inscrivant dans les traditions du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date> tout en
+        étant marquées par l’actualité politique, ces journées ont été autant
+        un apogée qu’un nouveau départ pour la postérité de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> et pour le
+        Schiller-Nationalmuseum.</p>
+        <figure xml:id="d1e205">
+          <graphic url="https://didomena.ehess.fr/downloads/1r66j849v.jpg"/>
+          <head xml:id="d1e206">Figure 7. Katia et Thomas Mann en compagnie de
+          Bernhard Zeller (à gauche, avec les lunettes) et Wilhelm Hoffmann (à
+          droite) le 9&#160;mai&#160;1955 au Schiller-Nationalmuseum (coll. Deutsches
+          Literaturarchiv Marbach). © Deutsches Literaturachiv Marbach</head>
+        </figure>
+        <p xml:id="d1e210">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>La
+        nouvelle mission de documentation de la littérature contemporaine fit
+        passer au second plan les fonds historiques, comme en témoigne la
+        fameuse exposition «&#160;Expressionnisme – Littérature et art&#160;» en <date type="_temp" when="1960">1960</date>. Les liens fructueux tissés avec
+        de nombreux auteurs contraints à l’exil depuis <date type="_temp" when="1933">1933</date> sont à mettre au crédit du directeur <persName ref="028326148" type="idref" xml:base="https://www.idref.fr/">Zeller</persName> et du
+        bibliothécaire en chef <persName ref="028390016" type="idref" xml:base="https://www.idref.fr/">Paul Raabe</persName>. Le Deutsches
+        Literaturarchiv, par la sauvegarde et la valorisation de ces archives,
+        a considérablement contribué au rayonnement international de la jeune
+        République fédérale et à son intégration dans la communauté des
+        nations occidentales. Même si la part des nouveaux fonds dépassa
+        rapidement celle des plus anciens, les champs de recherche
+        traditionnels, et notamment <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>, ne furent pas
+        négligés. En témoigne le fait que, lors de la visite de la <persName ref="027772357" type="idref" xml:base="https://www.idref.fr/">reine
+        d’Angleterre</persName> au musée de <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> en <date type="_temp" when="1965">1965</date>, la salle Schiller du musée et la
+        maison natale de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> en furent
+        naturellement les points d’orgue.</p>
+        <p xml:id="d1e212">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>Dans la
+        compétition engagée avec les académies des arts de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> est et ouest,
+        le Deutsches Literaturarchiv faisait porter ses efforts sur les
+        archives personnelles de contemporains, qui de plus en plus souvent se
+        séparaient de leur documentation de leur vivant. Les archives
+        régionales et locales jouèrent dès lors un rôle croissant, tel le
+        Heinrich-Heine-Institut à <placeName ref="2934246" type="geonames" xml:base="https://www.geonames.org/">Düsseldorf</placeName> ou le
+        Monacensia Literaturarchiv à <placeName ref="2867714" type="geonames" xml:base="https://www.geonames.org/">Munich</placeName>. En <date type="_temp" when="1980">1980</date>, pour accompagner les petits
+        établissements du sud-ouest de l’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>, un poste
+        hébergé par le Schiller-Nationalmuseum fut créé à destination des
+        musées consacrés à la littérature, des archives et des lieux de
+        mémoire du Bade-Wurtemberg. La réunification permit à la Deutsche
+        Schillergesellschaft de retrouver ou de gagner des membres en
+        <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> de l’Est,
+        ainsi que d’approfondir la collaboration avec la Klassik Stiftung
+        Weimar, qui succéda à la Nationale Forschungs-und Gedenkstätten der
+        klassischen deutschen Literatur. Le Schillerverein de <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> développa
+        après la chute du mur des contacts actifs avec les maisons Schiller
+        dans les Länder est-allemands.</p>
+        <p xml:id="d1e214">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-8mpceijw">publication</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+              </term>
+            </term>
+          </term>L’accroissement
+        exponentiel des fonds du <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date> que le Deutsches
+        Literaturarchiv a passé les cinq premières décennies de son existence
+        à répertorier est à l’origine de la décision de remplacer le double
+        nom «&#160;Schiller-Nationalmuseum/Deutsches Literaturarchiv&#160;» par le terme
+        «&#160;Deutsches Literaturarchiv Marbach&#160;». Le vénérable nom donné au musée
+        depuis la <date from="1918" to="1933" type="_temp">République de
+        Weimar</date> ne désigne plus depuis lors que le bâtiment historique
+        de <date type="_temp" when="1903">1903</date>, qui est entouré
+        aujourd’hui par un bâtiment destiné aux archives, ouvert en <date type="_temp" when="1973">1973</date> et considérablement agrandi en
+        <date type="_temp" when="1994">1994</date>, un bâtiment d’accueil des
+        chercheurs de <date type="_temp" when="1993">1993</date> et un
+        deuxième musée, le Literaturmuseum der Moderne <hi>(voir ill.
+        ci-contre)</hi>. Ce faisant, la référence à la figure tutélaire a
+        toujours été préservée, grâce à des expositions, des colloques et des
+        publications, et à travers le nom demeuré inchangé de l’association de
+        soutien. La même préoccupation est partagée par la municipalité et par
+        l’association locale. Le souhait est d’autant plus grand à <placeName ref="6557961" type="geonames" xml:base="https://www.geonames.org/">Marbach</placeName> de voir le
+        gouvernement du Land de Bade-Wurtemberg donner suite à la requête
+        d’ajouter le qualificatif de «&#160;<foreign xml:lang="deu">Schillerstadt</foreign>&#160;» (ville de Schiller) comme
+        composante du nom du lieu<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Le nom officiel de la ville deviendrait alors «&#160;Schillerstadt
+            Marbach&#160;». Cette coutume est présente ailleurs en Allemagne, où
+            des villes ayant vu naître ou ayant abrité l’activité de
+            personnalités célèbres ont ainsi vu accoler à leurs noms celui
+            desdites célébrités&#160;: par exemple Eschenbach devenue Wolframs
+            Eschenbach, ou encore Wittenberg devenue Lutherstadt
+            Wittenberg.</p>
+          </note>.</p>
+        <figure xml:id="d1e225">
+          <graphic url="https://didomena.ehess.fr/downloads/ht24ws77s.jpg"/>
+          <head xml:id="d1e226">Figure 8. La «&#160;colline Schiller&#160;» de Marbach&#160;:
+          au milieu le Schiller-Nationalmuseum, à gauche le bâtiment des
+          archives littéraires, à droite le Literaturmuseum der Moderne, en
+          bas à droite la maison d’hôtes. Photographie aérienne de Mathias
+          Michaelis, 2006 (coll. Deutsches Literaturarchiv Marbach). ©
+          Deutsches Literaturachiv Marbach</head>
+        </figure>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e231">
+        <head xml:id="d1e232">Orientations bibliographiques</head>
+        <listBibl xml:id="d1e234">
+          <bibl type="orig" xml:id="d1e235">Carl Ullmann et Gustav Schwab, <hi rend="italic">Der Cultus des Genius, mit besonderer Beziehung auf
+          Schiller und sein Verhältniß zum Christenthum</hi>, Hamburg,
+          1840</bibl>
+          <bibl type="orig" xml:id="d1e240">Robert Blum, «&#160;Schiller als
+          Dichter des deutschen Volkes. Was feiern wir am Schillerfeste&#160;?&#160;»,
+          in <hi rend="italic">Gedenkbuch an Friedrich Schiller. Am</hi>&#160;<hi rend="italic">9. Mai</hi>&#160;<hi rend="italic">1855</hi>, Leipzig,
+          1855, p.&#160;35-42, 52-59</bibl>
+          <bibl type="orig" xml:id="d1e251">Otto Elben, <hi rend="italic">Das
+          Schillerfest in Schillers Heimath Stuttgart, Ludwigsburg und Marbach
+          den 9., 10. und 11. November&#160;1859</hi>, Stuttgart, 1859</bibl>
+          <bibl type="orig" xml:id="d1e256">Alois Egger, <hi rend="italic">Schiller in Marbach. Zum Besten der Schillerdenkmale
+          in Wien und Marbach</hi>, Wien, 1868</bibl>
+          <bibl type="orig" xml:id="d1e261">Albert Kautter, <hi rend="italic">Marbach am Neckar, die Geburtsstadt Friedrich
+          Schillers</hi>, Marbach, 1884</bibl>
+          <bibl type="orig" xml:id="d1e266">Rudolf Krauss, «&#160;Der Schwäbische
+          Schillerverein und das Marbacher Schillermuseum&#160;», in <hi rend="italic">Westermanns Illustrierte deutsche Monatshefte</hi>, 4
+          (1903), p.&#160;432-444</bibl>
+          <bibl type="orig" xml:id="d1e271">
+            <hi rend="italic">Das
+          Schillermuseum in Marbach</hi>, Stuttgart, 1906</bibl>
+          <bibl type="orig" xml:id="d1e275">Otto Güntter&#160;(éd.), <hi rend="italic">Das Schiller-Nationalmuseum in Marbach</hi>, Stuttgart
+          et Berlin, 1935 (=&#160;<hi rend="italic">Veröffentlichungen des
+          Schwäbischen Schillervereins</hi>, 15)</bibl>
+          <bibl type="orig" xml:id="d1e283">Otto Güntter, <hi rend="italic">Mein Lebenswerk</hi>, Suttgart, 1948</bibl>
+          <bibl type="orig" xml:id="d1e288">Eugen Munz, <hi rend="italic">Dem
+          Dichter ein Denkmal. Schillerverehrung in Marbach 1812–1876</hi>,
+          Marbach, 1976 (=&#160;<hi rend="italic">Schriften zur Marbacher
+          Stadtgeschichte</hi>, 1)</bibl>
+          <bibl type="orig" xml:id="d1e296">Friedrich Pfäfflin, Schiller. <hi rend="italic">Ständige Ausstellung des Schiller-Nationalmuseums und
+          des Deutschen Literarturarchivs</hi>, Marbach, 1980 (=&#160;<hi rend="italic">Marbacher Kataloge</hi>, 32)</bibl>
+          <bibl type="orig" xml:id="d1e305">Dierk Möller, <hi rend="italic">Das Schillermuseum in Marbach. Die Geschichte der
+          Gründung 1895–1903</hi>, Marbach, 1983 (=&#160;<hi rend="italic">Schriften zur Marbacher Stadtgeschichte</hi>,
+          3)</bibl>
+          <bibl type="orig" xml:id="d1e313">Albrecht Bergold et Friedrich
+          Pfäfflin, <hi rend="italic">Schillers Geburtshaus in Marbach am
+          Neckar</hi>, Marbach, 1988 (=&#160;<hi rend="italic">Marbacher
+          Magazin</hi>, 46)</bibl>
+          <bibl type="orig" xml:id="d1e321">«&#160;Literatur und Politik [im
+          Schillerjahr 1955]&#160;», in Michael Davidis, Bernhard Fischer, Brigitte
+          Raitz und Gunther Nickel, <hi rend="italic">Konstellationen.
+          Literatur um 1955</hi>, Marbach, 1995 (=&#160;<hi rend="italic">Marbacher
+          Kataloge</hi>, 48, p.&#160;21-47)</bibl>
+          <bibl type="orig" xml:id="d1e329">Marbach. <hi rend="italic">Rückblick auf ein Jahrhundert 1895–1995</hi>, Marbach,
+          1996 (=&#160;<hi rend="italic">Marbacher Schriften</hi>, 43)</bibl>
+          <bibl type="orig" xml:id="d1e337">Michael Davidis et Sabine Fischer,
+          <hi rend="italic">Aus dem Hausrat eines Hofrats. </hi>
+            <hi rend="italic">Die Ausstellung in Schillers Geburtshaus</hi>,
+          Marbach, 1997 (=&#160;<hi rend="italic">Marbacher Magazin</hi>,
+          77)</bibl>
+          <bibl type="orig" xml:id="d1e347">Christina Tezky et Viola
+          Geyersbach, <hi rend="italic">Schillers Wohnhaus in Weimar</hi>,
+          München, 1999</bibl>
+          <bibl type="orig" xml:id="d1e352">Ulrich Ott, «&#160;Unterkellert bis zum
+          Styx. Bauherrengedanken zur Marbacher Schillerhöhe&#160;», in <hi rend="italic">Marbach. Schillerhöhe. Hundert Jahre Architektur für
+          Literatur</hi>, Marbach, 2003 (=&#160;<hi rend="italic">Marbacher
+          Magazin</hi>, 103, p.&#160;7-39)</bibl>
+          <bibl type="orig" xml:id="d1e360">
+            <hi rend="italic">Schiller et
+          l’idéal européen </hi>[Exposition, Strasbourg, 2005] / catalogue
+          réalisé sous la direction de Christophe Didier avec la collaboration
+          de Jean-Louis Elloy, Strasbourg, BNU, 2005</bibl>
+          <bibl type="orig" xml:id="d1e364">Paul Kahl, «&#160;„… ein Tempel der
+          Erinnerung an Deutschlands großen Dichter“. Das Weimarer
+          Schillerhaus 1847-2007. Gründung und Geschichte des ersten deutschen
+          Literaturmuseums&#160;», in <hi rend="italic">Die große Stadt – Das
+          kulturhistorische Archiv von Weimar–Jena</hi>, 1 (2008), p.&#160;313-326,
+          2 (2009), p.&#160;40-75, 155-176 et 217-237</bibl>
+          <bibl type="orig" xml:id="d1e369">Michael Davidis et Thomas Schmidt,
+          <hi rend="italic">Schiller in Marbach. Die Ausstellung im
+          Geburtshaus</hi>, Marbach, 2010 (=&#160;<hi rend="italic">Schriften des
+          Marbacher Schillervereins</hi>, Sonderband)</bibl>
+          <bibl type="orig" xml:id="d1e377">Paul Kahl, «&#160;Museum – Gedenkstätte
+          – Literaturmuseum. Versuch einer Begriffsklärung am Beispiel von
+          Schillers Marbacher Geburtshaus 1859–2009&#160;», in <hi rend="italic">Jahrbuch des Freien Deutschen Hochstifts</hi>, 2010,
+          p.&#160;339-360</bibl>
+          <bibl type="orig" xml:id="d1e383">Michael Davidis,
+          «&#160;Schiller-Ausstellungen in Marbach von 1859 bis 2009&#160;», in Silke
+          Henke et Nikolas Immer&#160;(éd.), <hi rend="italic">Friedrich Schiller –
+          Orte der Erinnerung</hi>, Weimar, 2011, p.&#160;27-41</bibl>
+          <bibl type="orig" xml:id="d1e388">Christoph Schmälzle, «&#160;Weltliche
+          Wallfahrt. Schillers Reliquien in den Gedenkstätten des 19.
+          Jahrhunderts&#160;», in Hellmut Seemann et Thorsten Valk&#160;(éd.), <hi rend="italic">Literatur ausstellen. Museale Inszenierungen der
+          Weimarer Klassik</hi>, Göttingen, 2012, p.&#160;57-84</bibl>
+          <bibl type="orig" xml:id="d1e393">Fenja Sommer, <hi rend="italic">Ein Feierkult um Schiller&#160;? Untersuchung der
+          Schillerfeiern im Dritten Reich in seiner Geburtsstadt Marbach am
+          Neckar</hi>, Marburg, 2015</bibl>
+          <bibl type="orig" xml:id="d1e398">Michael Davidis&#160;(éd.), <hi rend="italic">Marbach wird Schillerstadt. Traugott Haffners
+          Rechenschaftsbericht von 1895</hi>, Marbach, 2020 (= <hi rend="italic">Schriften des Marbacher Schillervereins</hi>,
+          6)</bibl>
+          <bibl type="orig" xml:id="d1e406">Jan Eike Dunkhase, <hi rend="italic">Provinz der Moderne. Marbachs Weg zum Deutschen
+          Literaturarchiv</hi>, Stuttgart, 2021</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

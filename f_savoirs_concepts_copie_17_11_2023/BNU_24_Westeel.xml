@@ -1,0 +1,934 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-11-05T16:46:51.447+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_24_Westeel.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Musée Stendhal à Grenoble&#160;: un musée «&#160;en
+        réseau&#160;»</title>
+        <author role="aut">
+          <forename>Isabelle</forename>
+          <surname>Westeel</surname>
+          <idno type="IDREF">073252441</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/QRPHBYZA" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Le Musée Stendhal à Grenoble&#160;: un musée «&#160;en
+            réseau&#160;»</title>
+            <author>
+              <forename>Isabelle</forename>
+              <surname>Westeel</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">24</biblScope>
+              <biblScope unit="page">94-103</biblScope>
+              <date>2021</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>
+          </term>
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="2000" to="2021" type="_temp">2000 à 2021</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T14:07:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Le Musée Stendhal à
+          Grenoble&#160;: un musée «&#160;en réseau&#160;»</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Isabelle Westeel</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Directrice de la Bibliothèque municipale
+          de Grenoble</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e50">
+          <graphic url="https://didomena.ehess.fr/downloads/j3860g654.png"/>
+          <head xml:id="d1e51">Figure 1. Stendhal en 1839. Huile sur toile de
+          Pierre-Joseph Dedreux, dit Dedreux-Dorcy (coll. Ville de Grenoble,
+          Musée Stendhal). Ville de Grenoble, Musée Stendhal, n<hi rend="sup" style="typo_Exposant">o</hi>&#160;830. Cliché Musée Stendhal</head>
+        </figure>
+        <p xml:id="d1e55">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-4xzsjttc">chercheur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>Le Musée
+        Stendhal de la ville de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> est un
+        service de la bibliothèque municipale depuis son origine en <date type="_temp" when="1934">1934</date>. Ce rattachement, plutôt
+        atypique, que l’on retrouve aussi pour le musée Jules Verne de
+        <placeName ref="6434483" type="geonames" xml:base="https://www.geonames.org/">Nantes</placeName>, a pour
+        origine le don des manuscrits de l’écrivain à la bibliothèque en <date type="_temp" when="1861">1861</date>, vingt ans après sa mort. Ce
+        premier don en amène d’autres, entraîne un enrichissement continu des
+        collections et lance les études stendhaliennes dont la bibliothèque
+        est pleinement actrice en lien avec les spécialistes, les chercheurs
+        et les associations stendhaliennes. Ouvert en <date type="_temp" when="2012">2012</date>, le Musée Stendhal actuel résulte d’une
+        histoire longue et complexe par laquelle la ville de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> a
+        progressivement renoué avec le plus célèbre des écrivains
+        dauphinois.</p>
+        <div type="section1" xml:id="d1e57">
+          <head subtype="level1" xml:id="d1e58">Stendhal et Grenoble</head>
+          <p xml:id="d1e60">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-ognrwtyq">médecine</term>
+                </term>
+              </term>
+            </term>
+            <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Henri
+          Beyle</persName>, plus connu sous le pseudonyme de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>, naît à
+          <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> en <date type="_temp" when="1783">1783</date>, au
+          14&#160;rue&#160;Jean-Jacques-Rousseau, dans une famille de la bonne
+          bourgeoisie. Son père, <persName type="_temp">Chérubin
+          Beyle</persName>, est avocat au Parlement. Son grand-père maternel,
+          <persName ref="077220730" type="idref" xml:base="https://www.idref.fr/"> Henri Gagnon</persName>, est
+          docteur en médecine. Deux événements marquent la prime jeunesse
+          d’<persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Henri Beyle</persName>. Le <date type="_temp" when="1788-06-07">7&#160;juin&#160;1788</date>, il assiste à la
+          journée des Tuiles, prémices de la <date from="1789" to="1799" type="_temp">Révolution française</date>, place Grenette depuis
+          l’appartement de son grand-père. Cela forge à jamais son idéal
+          politique et républicain. L’autre événement est de l’ordre de
+          l’intime. À l’âge de sept ans, il perd sa mère, <persName type="_temp">Henriette</persName>, morte en couches. Ne supportant
+          pas son père et les leçons de son sévère instructeur l’<persName type="_temp">abbé Raillanne</persName>, <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> se
+          réfugie chez son grand-père, 20&#160;Grande&#160;Rue, entre la place Grenette
+          et le Jardin de ville, «&#160;le plus beau logement de la ville&#160;»,
+          écrit-il dans la <hi rend="italic">Vie de Henry Brulard</hi>. Il y
+          reçoit une éducation issue des Lumières et bienveillante&#160;:
+          «&#160;J’aidais toujours mon grand-père à arroser les fleurs, et il me
+          parlait de <persName ref="028300327" type="idref" xml:base="https://www.idref.fr/">Linné</persName> et de <persName ref="026668149" type="idref" xml:base="https://www.idref.fr/">Pline</persName>, non pas par
+          devoir mais par plaisir&#160;». Il quitte <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> à seize
+          ans pour <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, puis
+          l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, pour
+          rejoindre l’armée du général <persName ref="02733791X" type="idref" xml:base="https://www.idref.fr/">Bonaparte</persName> et n’y revient
+          qu’à de très rares occasions. <date from="1835" to="1836" type="_temp">Entre 1835 et 1836</date>, alors qu’il est consul de
+          France à <placeName ref="6536945" type="geonames" xml:base="https://www.geonames.org/">Civita-Vecchia</placeName> au
+          nord de <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> compose la <hi rend="italic">Vie de Henry Brulard</hi>, autobiographie dans
+          laquelle il évoque ses années de jeunesse et de formation à
+          <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>. Sa ville
+          natale n’est alors pas épargnée&#160;: «&#160;Tout ce qui est bas et plat dans
+          le genre bourgeois me rappelle <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>, tout ce
+          qui me rappelle <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> me fait
+          horreur, non, horreur est trop noble, mal au cœur&#160;», ou encore
+          «&#160;<placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> est pour
+          moi comme le souvenir d’une abominable indigestion&#160;».</p>
+        </div>
+        <div type="section1" xml:id="d1e68">
+          <head subtype="level1" xml:id="d1e69">Les collections stendhaliennes
+          de la bibliothèque municipale</head>
+          <p xml:id="d1e71">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+              </term>
+            </term>La ville de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> conserve
+          un patrimoine littéraire exceptionnel, notamment 40&#160;000&#160;pages de
+          manuscrits, soit la presque totalité des manuscrits laissés par
+          l’écrivain à sa mort, les éditions originales et successives, dont
+          certaines annotées, ainsi qu’un fonds d’étude continuellement suivi
+          et enrichi.</p>
+          <p xml:id="d1e73">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-m3yjzlf4">association</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>C’est
+          en <date type="_temp" when="1861">1861</date> que la veuve de
+          <persName ref="180017462" type="idref" xml:base="https://www.idref.fr/">Louis Crozet</persName>, ami
+          d’enfance et exécuteur testamentaire de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>,
+          fait don des manuscrits de l’écrivain, dont son mari avait hérité, à
+          la ville de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>, soit
+          quarante volumes in-folio de manuscrits et des papiers divers, parmi
+          lesquels les brouillons d’œuvres majeures&#160;: <hi rend="italic">Vie de
+          Henry Brulard</hi>, <hi rend="italic">Lucien Leuwen</hi>, <hi rend="italic">Histoire de la peinture en Italie </hi>ou encore <hi rend="italic">Souvenirs d’égotisme</hi>. Dans les années qui
+          suivent, elle continue à donner des archives. En <date type="_temp" when="1889">1889</date>, le don Crozet représente soixante-sept
+          volumes de manuscrits et des liasses. Le fonds Stendhal<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Yves Jocteur Montrozier, «&#160;Le fonds Stendhal de la
+              bibliothèque municipale de Grenoble&#160;», in <hi rend="italic">Bulletin des bibliothèques de France</hi>, t.&#160;42,
+              n<hi rend="sup">o</hi>&#160;2, 1997, p.&#160;22-27. «&#160;Stendhal&#160;», in <hi rend="italic">Mille ans d’écrits&#160;: trésors de la bibliothèque
+              municipale de Grenoble</hi>, Yves Jocteur Montrozier&#160;(dir.),
+              Glénat, 2000, p.&#160;104-111.</p>
+            </note> bénéficie par la suite et jusqu’à aujourd’hui
+          d’acquisitions et de dons majeurs. Sont ainsi entrés récemment dans
+          les collections&#160;: en <date type="_temp" when="2005">2005</date>, une
+          seconde édition de <hi rend="italic">La Chartreuse de Parme
+          </hi>(<date type="_temp" when="1839">1839</date>) ainsi qu’un très
+          rare manuscrit littéraire de l’auteur (<hi rend="italic">Les Anglais
+          à Rome</hi>, daté de <date type="_temp" when="1824">1824</date>)&#160;;
+          en <date type="_temp" when="2006">2006</date>, six cahiers
+          manuscrits du <hi rend="italic">Journal </hi>de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>, acquis lors de
+          la vente du grand bibliophile <persName ref="05771620X" type="idref" xml:base="https://www.idref.fr/">Pierre Berès</persName> avec le
+          soutien de partenaires publics et privés, notamment les associations
+          Stendhal de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> et de
+          <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. En <date type="_temp" when="2016">2016</date>, <persName ref="030916399" type="idref" xml:base="https://www.idref.fr/">Pierre
+          Bergé</persName> fait don de l’exemplaire des <hi rend="italic">Maximes et pensées, caractères et anecdotes </hi>de
+          <persName ref="026777045" type="idref" xml:base="https://www.idref.fr/">Nicolas de Chamfort</persName> qui,
+          ayant appartenu à <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>, est en partie
+          annoté de sa main. Le fonds grenoblois est complété d’un millier de
+          pièces sur <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> et son temps
+          (peintures, gravures, objets d’art&#160;: bustes, médaillons…)&#160;: c’est la
+          collection dite du Musée Stendhal.</p>
+          <p xml:id="d1e113">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>La
+          <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque nationale de
+          France</placeName> conserve quant à elle une version corrigée par
+          <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> de <hi rend="italic">La Chartreuse de Parme</hi>, en préparation d’une
+          seconde édition à la suite de remarques de <persName ref="02670305X" type="idref" xml:base="https://www.idref.fr/">Balzac</persName>,
+          finalement abandonnée par l’écrivain. Des exemplaires de cette même
+          œuvre, annotés de la main de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>, se trouvent
+          également à la Pierpont Morgan Library à <placeName ref="5128638" type="geonames" xml:base="https://www.geonames.org/">New-York</placeName> et à la
+          Bibliothèque historique de la ville de <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. La
+          bibliothèque que <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> a laissée en
+          <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> appartient,
+          elle, au fonds Bucci de la bibliothèque municipale Sormani de
+          <placeName ref="3173435" type="geonames" xml:base="https://www.geonames.org/">Milan</placeName>.</p>
+          <p xml:id="d1e118">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-hybparsd">conservateur</term>
+              </term>
+            </term>Très
+          tôt, les conservateurs de la bibliothèque de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>
+          contribuent aux études stendhaliennes, en particulier <persName ref="111651743" type="idref" xml:base="https://www.idref.fr/">Louis
+          Royer</persName>, directeur <date from="1919" to="1938" type="_temp">de 1919 à 1938</date>, et son successeur <persName type="_temp">Pierre Vaillant</persName>, <date from="1938" to="1978" type="_temp">de 1938 à 1978</date>, tous deux éminents stendhaliens
+          et éditeurs des textes de l’écrivain. <persName ref="111651743" type="idref" xml:base="https://www.idref.fr/">Louis Royer</persName>
+          participe ainsi à l’édition des <hi rend="italic">Œuvres complètes
+          </hi>commencée par <persName ref="031575390" type="idref" xml:base="https://www.idref.fr/">Édouard Champion</persName> en
+          <date type="_temp" when="1912">1912</date>. Cet intérêt pour
+          <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> se perpétue et
+          explique les liens forts avec la recherche et l’université.</p>
+        </div>
+        <div type="section1" xml:id="d1e123">
+          <head subtype="level1" xml:id="d1e124">Le premier musée
+          Stendhal</head>
+          <p xml:id="d1e126">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <persName ref="111651743" type="idref" xml:base="https://www.idref.fr/">Louis
+          Royer</persName> organise la première exposition stendhalienne en
+          <date type="_temp" when="1920">1920</date>, dans la grande salle du
+          musée-bibliothèque de la place de Verdun. Des manuscrits
+          autographes, des éditions originales, des portraits y sont exposés,
+          mais aussi des pièces issues des collections privées grenobloises.
+          C’est l’origine du Musée Stendhal<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Christine Carrier, «&#160;Il était une fois… le musée Stendhal&#160;»,
+              in <hi rend="italic">Devenir Stendhal, l’enfance d’un
+              écrivain</hi>, Grenoble, PUG, 2014, p.&#160;11-31</p>
+            </note>, que le conseil municipal décide de créer sur la
+          proposition de <persName ref="19844625X" type="idref" xml:base="https://www.idref.fr/">Léon Martin</persName>, maire de
+          <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>. Il ouvre
+          au public le <date type="_temp" when="1934-05-05">5&#160;mai&#160;1934</date>,
+          rue&#160;Hauquelin, dans un ancien jeu de paume du <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi>&#160;siècle</date>. Confié
+          à la bibliothèque municipale, le musée expose des portraits, des
+          éditions originales, quelques objets mais aussi des reproductions de
+          manuscrits. Il est fermé vers <date type="_temp" when="1960">1960</date> et rouvre en <date type="_temp" when="1970">1970</date> dans deux salons de réception de l’ancienne
+          Intendance du Dauphiné (hôtel de Lesdiguières, près du Jardin de
+          ville). Le décor des lieux et le mobilier de la fin du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date> sont peu adaptés à un musée
+          littéraire. Présentant des documents originaux (portraits, éditions,
+          gravures…) qui concernent l’enfance et la jeunesse de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>, il fonctionne
+          sans moyens. En <date type="_temp" when="1997">1997</date>, il
+          accueille néanmoins dix mille visiteurs par an, principalement des
+          touristes.</p>
+          <figure xml:id="d1e141">
+            <graphic url="https://didomena.ehess.fr/downloads/8k71nr19v.png"/>
+            <head xml:id="d1e142">Figure 2. Place Grenette à Grenoble. Dessin
+            et lithographie d’A.&#160;Maugendre, in <hi rend="italic">Album de La
+            Salette</hi>, Paris, A.&#160;Maugendre&#160;; Grenoble, A.&#160;Merle, 1863
+            (coll. Ville de Grenoble, bibliothèque municipale). Ville de
+            Grenoble, bibliothèque municipale, Vh.&#160;479. Cliché&#160;BM
+            Grenoble</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e149">
+          <head subtype="level1" xml:id="d1e150">Deux lieux stendhaliens&#160;:
+          l’appartement Gagnon et l’appartement natal</head>
+          <p xml:id="d1e152">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+              </term>
+            </term>En <date type="_temp" when="1983">1983</date>, l’éminent stendhalien
+          <persName ref="026818167" type="idref" xml:base="https://www.idref.fr/">Victor Del Litto</persName>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>En 1995, Victor Del Litto fait don de sa bibliothèque et de
+              ses documents de travail à la ville de Grenoble.</p>
+            </note> demande l’ouverture au public de l’appartement du docteur
+          <persName ref="077220730" type="idref" xml:base="https://www.idref.fr/">Gagnon</persName>, grand-père de
+          <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>, dont la ville
+          avait acquis en <date type="_temp" when="1966">1966</date> la partie
+          nord. Dénommé alors «&#160;Maison Stendhal&#160;», il est remis en état en
+          urgence à l’occasion du bicentenaire de la naissance de l’écrivain.
+          Géré par la Société des amis du musée et de la maison Stendhal, il
+          propose pendant dix ans «&#160;des expositions stendhaliennes alternant
+          avec des expositions d’histoire et d’art dauphinois&#160;» organisées par
+          la bibliothèque. En <date type="_temp" when="1995">1995</date>,
+          l’appartement natal, rue&#160;Jean-Jacques-Rousseau, propriété de la
+          ville depuis <date type="_temp" when="1939">1939</date>, est libéré
+          par le musée de la Résistance. Ces deux lieux stendhaliens sont
+          alors et pour la première fois disponibles pour un nouveau
+          projet<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Yves Jocteur Montrozier, «&#160;Grenoble et le triptyque
+              stendhalien&#160;», in <hi rend="italic">Bulletin d’informations de
+              l’Association des bibliothécaires français</hi>, n<hi rend="sup">o</hi>&#160;173, 4<hi rend="sup">e</hi>&#160;trimestre&#160;1996,
+              p.&#160;18-21</p>
+            </note>.</p>
+          <p xml:id="d1e170">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>Au niveau
+          national, des réflexions sont alors en cours autour des missions des
+          musées, des maisons-musées et du rôle des maisons d’écrivains. En
+          <date type="_temp" when="1995">1995</date>, le «&#160;plan d’action pour
+          le livre et la lecture&#160;» identifie dans ses objectifs la
+          valorisation du patrimoine écrit et littéraire des bibliothèques.
+          Une des mesures vise à créer un réseau des maisons d’écrivains. En
+          <date type="_temp" when="1997">1997</date>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Yves Jocteur Montrozier, «&#160;L’ombre errante de l’écriture…&#160;:
+              rencontres nationales des maisons d’écrivains&#160;», in <hi rend="italic">Bulletin des bibliothèques de France</hi>, 1998,
+              n<hi rend="sup">o</hi>&#160;3, p.&#160;86-87. <ref target="https://bbf.enssib.fr/consulter/bbf-1998-03-0086-009">
+                  <hi rend="underline">https://bbf.enssib.fr/consulter/bbf-1998-03-0086-009</hi>
+                </ref>
+              </p>
+            </note> est créée la Fédération nationale des maisons d’écrivain
+          et des patrimoines littéraires, qui regroupe la plupart de ces
+          maisons. «&#160;Son objectif est de faire connaître ces patrimoines au
+          public le plus large comme au chercheur le plus averti…&#160;» <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> participe
+          à cette création. Dans le même temps, la ville diligente une étude
+          qui conclut à la création d’un musée-maison d’écrivain dans les deux
+          appartements historiques distants d’une centaine de mètres l’un de
+          l’autre&#160;: l’appartement Gagnon comme lieu de mémoire et
+          l’appartement natal comme lieu d’exposition temporaire, favorisant
+          l’animation autour de la littérature (rencontres, séjours
+          d’écrivains, ateliers d’écriture, accueil des scolaires) et la
+          recherche (expositions, colloques, lectures, etc.). En <date type="_temp" when="1998">1998</date>, la ville de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> s’engage
+          donc dans le projet d’aménagement de l’appartement natal qui
+          s’intègre dans le projet global de «&#160;maison Stendhal-maison
+          d’écrivain&#160;». Il s’agit de créer un lieu pédagogique et
+          d’expérimentation prenant en compte le patrimoine littéraire et la
+          création contemporaine&#160;; aménager l’appartement en lieu d’écriture
+          et de lecture&#160;; fédérer les initiatives des associations
+          littéraires&#160;; accueillir des écrivains et organiser des
+          séminaires.</p>
+          <p xml:id="d1e185">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>La
+          restauration de l’appartement natal s’achève avec un aménagement qui
+          respecte l’atmosphère, désormais plus lumineuse, d’un appartement du
+          <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>. Inauguré en <date type="_temp" when="2001">2001</date>, il devient le lieu de coordination du
+          Printemps du livre, festival littéraire annuel de la ville de
+          <placeName ref="3015711" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>. Même si
+          certaines activités et animations proposées par la ville, par
+          l’association<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>L’Association Stendhal de Grenoble a été créée en 1962 par
+              Victor Del Litto. Elle est devenue Association des amis du Musée
+              Stendhal à la suite de la réouverture en 2012 du Musée
+              Stendhal/Appartement Gagnon. <ref target="https://www.association-stendhal.com/">
+                  <hi rend="underline">https://www.association-stendhal.com</hi>
+                </ref>
+              </p>
+            </note> Stendhal et des amis du Musée Stendhal évoquent
+          l’écrivain, cet espace dédié à l’écriture contemporaine a changé de
+          nature par rapport au projet initial. Par ailleurs, il ne s’ouvre
+          que rarement aux visiteurs et aux touristes. La ville de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> a toujours
+          le projet d’un grand musée Stendhal présentant les collections
+          littéraires et des objets. Idéalement, il faudrait pour cela qu’elle
+          puisse acquérir la partie sud de l’appartement Gagnon, soit 310&#160;m<hi rend="sup">2</hi> supplémentaires. Par manque de volonté ferme et
+          d’un projet abouti, les négociations avec le propriétaire n’avancent
+          pas. Pour des questions de sécurité, les manuscrits ne peuvent
+          rejoindre l’appartement Gagnon qui ferme à l’automne <date type="_temp" when="2003">2003</date> pour insalubrité. Par ailleurs,
+          le Musée Stendhal ferme fin <date type="_temp" when="2004">2004</date>, l’hôtel de Lesdiguières étant prévu à une
+          autre destination. Il faudra attendre <date type="_temp" when="2012">2012</date> pour qu’un lieu consacré à l’écrivain soit
+          de nouveau ouvert au public. Pour autant, la valorisation du
+          patrimoine stendhalien continue&#160;: en <date type="_temp" when="2006">2006</date>, une grande exposition, <hi rend="italic">Stendhal&#160;: la révolte et les rêves</hi>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>
+                <hi rend="italic">Stendhal&#160;: la révolte et les rêves
+              </hi>[exposition, Bibliothèque municipale de Grenoble, mars
+              2006-mars 2007], coord. Marie-Françoise Bois-Delatte, conseil
+              scientifique Gérald Rannaud, Grenoble, Glénat, Bibliothèque
+              municipale de Grenoble, 2006</p>
+            </note>, est inaugurée à la bibliothèque, accompagnée d’un
+          catalogue devenu une référence.</p>
+          <p xml:id="d1e209">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>Début
+          <date type="_temp" when="2008">2008</date>, la ville de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> engage la
+          restauration de la partie nord de la maison du docteur <persName ref="077220730" type="idref" xml:base="https://www.idref.fr/">Gagnon</persName>, dans le cadre
+          d’un nouveau projet du musée Stendhal<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Bibliothèque municipale de Grenoble, <hi rend="italic">Projet
+              scientifique et culturel du Musée Stendhal de la ville de
+              Grenoble</hi>, Grenoble, [2009<hi rend="italic">&#160;</hi>?]</p>
+            </note> qui fédère également le fonds Stendhal, l’appartement
+          natal ainsi que des parcours dans le centre ancien, dans un dialogue
+          de la ville avec les acteurs stendhaliens, l’université, le conseil
+          général de l’Isère et la DRAC Rhône-Alpes. En <date type="_temp" when="2011">2011</date>, l’appartement reçoit du ministère de la
+          Culture une légitimation culturelle, sans aucune incidence juridique
+          ni financière, par la labellisation «&#160;Maisons des Illustres&#160;». Le
+          Musée Stendhal / Appartement Gagnon est inauguré le <date type="_temp" when="2012-09-15">15&#160;septembre&#160;2012</date>. Le projet
+          veut sensibiliser le public à l’œuvre de l’écrivain et faire le lien
+          avec la création littéraire contemporaine. L’appartement Gagnon se
+          veut à la fois un lieu de mémoire, rappelant l’enfance et la
+          jeunesse de l’écrivain, et un lieu muséal puisqu’une sélection de la
+          collection iconographique, qui a reçu l’appellation «&#160;musée de
+          France&#160;» en <date type="_temp" when="2003">2003</date>, y est
+          présentée. La restauration et la muséographie du lieu s’appuient sur
+          les dessins de l’appartement par <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>
+          dans la <hi rend="italic">Vie de Henry Brulard </hi>
+            <hi>(voir ill.
+          p.&#160;98)</hi>.</p>
+          <figure xml:id="d1e226">
+            <graphic url="https://didomena.ehess.fr/downloads/zp38wn404.png"/>
+            <head xml:id="d1e227">Figure 3. Croquis de l’appartement Gagnon
+            par Stendhal, extrait de la <hi rend="italic">Vie de Henry Brulard
+            </hi>(coll. Ville de Grenoble, bibliothèque municipale). Ville de
+            Grenoble, bibliothèque municipale, R.299 (1) Rés. Cliché BM
+            Grenoble</head>
+          </figure>
+          <p xml:id="d1e233">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-vjgrqphy">comité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+            </term>L’appartement
+          <persName ref="077220730" type="idref" xml:base="https://www.idref.fr/">Gagnon</persName>, où vécut
+          l’écrivain, sollicite l’imaginaire et provoque parfois l’émotion. En
+          <date type="_temp" when="2008">2008</date>, les stendhaliens du
+          comité scientifique, suivant l’idée de <persName ref="033435979" type="idref" xml:base="https://www.idref.fr/">Gérald
+          Rannaud</persName>, avaient proposé de considérer le musée comme un
+          «&#160;lieu de mémoire&#160;» qui donnerait à voir «&#160;l’atelier de création
+          littéraire de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>&#160;». Un
+          rapport<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Archives de la Bibliothèque municipale de Grenoble</p>
+            </note> précisait qu’«&#160;il faudrait fournir au visiteur
+          l’impression que <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> était encore,
+          quelques minutes auparavant, dans cette pièce. Cette sensation de
+          ‘présence’, d’imminence devrait être le point fort de la visite
+          d’une ‘maison d’écrivain’&#160;». Ce scénario ne fut finalement pas
+          retenu.</p>
+          <p xml:id="d1e238">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-kpbl3dgr">bureau</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>Le
+          musée<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Ville de Grenoble. Bibliothèque. Visite du Musée Stendhal/
+              Appartement Gagnon ouvert en septembre&#160;2012. <ref target="https://www.dailymotion.com/video/xvx150">
+                  <hi rend="underline">https://www.dailymotion.com/video/xvx150</hi>
+                </ref>
+              </p>
+            </note> s’ouvre sur le grand salon «&#160;à l’italienne&#160;», pièce de
+          réception conçue par <persName ref="077220730" type="idref" xml:base="https://www.idref.fr/">Henri Gagnon</persName> et
+          consacrée, dans la muséographie, à la présentation de
+          l’environnement familial et social de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>.
+          Deux cabinets prolongent le salon, le cabinet d’été (ou de travail),
+          orné d’un buste de <persName ref="027190099" type="idref" xml:base="https://www.idref.fr/">Voltaire</persName>, où se trouvait
+          la bibliothèque et le cabinet d’histoire naturelle privé du
+          grand-père, typique de la fin du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date> et relevant d’un
+          modèle grenoblois précurseur du «&#160;muséum&#160;». «&#160;Il intègre les
+          collections anthropologiques et fait la part belle aux collections
+          exotiques. C’est ce que semble indiquer le crocodile du Nil pendu à
+          la voûte du cabinet du docteur <persName ref="077220730" type="idref" xml:base="https://www.idref.fr/">Gagnon</persName>&#160;»<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Joëlle Rochas, <hi rend="italic">Un cabinet d’égyptologue au
+              Siècle des lumières&#160;: le cabinet d’histoire naturelle du docteur
+              Gagnon au Musée Stendhal de Grenoble (France)</hi>, in <hi rend="italic">Muséologies&#160;: Les cahiers d’études
+              supérieures</hi>, Association Québécoise de Promotion des
+              Recherches Étudiantes en Muséologie (AQPREM), 2010, 4 (2),
+              p.&#160;14-47 (halsde-00502210)</p>
+            </note>. À l’extérieur, la «&#160;treille de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>&#160;»,
+          une terrasse agrémentée de ceps de vigne et d’arbustes, domine le
+          Jardin de ville <hi>(voir ill. p.&#160;103)</hi>. La dernière pièce de
+          l’appartement est la chambre d’hôte de <persName type="_temp">Romain
+          Gagnon</persName>, oncle de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>, où se tiennent
+          les expositions temporaires.</p>
+          <figure xml:id="d1e263">
+            <graphic url="https://didomena.ehess.fr/downloads/qr46r861n.png"/>
+            <head xml:id="d1e264">Figure 4. Le grand salon «&#160;à l’italienne&#160;».
+            Musée Stendhal/Appartement Gagnon. © Sylvain Frappat – Ville de
+            Grenoble</head>
+          </figure>
+          <figure xml:id="d1e266">
+            <graphic url="https://didomena.ehess.fr/downloads/ns064f72p.png"/>
+            <head xml:id="d1e267">Figure 5. La treille de Stendhal. Musée
+            Stendhal/Appartement Gagnon. © Alain Fischer Ville de
+            Grenoble</head>
+          </figure>
+          <p xml:id="d1e269">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>La ville
+          de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>,
+          dépositaire de la mémoire stendhalienne et responsable de sa
+          conservation et de sa médiation, a fait le choix très tôt de
+          valoriser un patrimoine stendhalien hybride, composé de documents et
+          de monuments, tout en favorisant une culture vivante et la création.
+          Le public est au rendez-vous. Le Musée Stendhal fait partie de
+          l’offre culturelle et touristique de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>. En bonne
+          place dans les guides de voyage, il intéresse un public de touristes
+          parfois venus de loin, mais aussi un public local qui s’intéresse et
+          se reconnaît dans les valeurs de l’écrivain.</p>
+        </div>
+        <div type="section1" xml:id="d1e271">
+          <head subtype="level1" xml:id="d1e272">Un itinéraire touristique
+          dans la ville</head>
+          <p xml:id="d1e274">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>Le
+          Musée Stendhal comprend enfin un itinéraire littéraire et
+          touristique des «&#160;lieux stendhaliens&#160;» proposé par l’Office de
+          tourisme Grenoble-Alpes Métropole. Ce parcours urbain était déjà
+          signalé dans le petit fascicule <hi rend="italic">Écrivains et terre
+          natale&#160;: Stendhal </hi>édité à l’occasion de l’année du patrimoine
+          en <date type="_temp" when="1980">1980</date>. L’itinéraire «&#160;sur
+          les pas de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>&#160;» comprend une
+          dizaine de lieux mettant en relation l’écrivain et <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>, dont
+          l’appartement natal, la maison du docteur <persName ref="077220730" type="idref" xml:base="https://www.idref.fr/">Gagnon</persName>, le
+          Jardin de ville, la collégiale Saint-André, où <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> a assisté à une
+          réunion du Club des Jacobins qui siégeait là en <date type="_temp" when="1793">1793</date>, le café de la Table Ronde, lieu de
+          discussions politiques et littéraires, l’ancien palais de justice où
+          <persName ref="069940312" type="idref" xml:base="https://www.idref.fr/">Antoine Berthet</persName>, qui
+          inspira le personnage de <persName ref="149556934" type="idref" xml:base="https://www.idref.fr/">Julien Sorel</persName>, fut jugé,
+          l’église Saint-Hugues jouxtant la cathédrale Notre-Dame où eut lieu
+          le service funèbre de sa mère ou encore l’ancien collège des
+          jésuites, actuel collège et lycée Stendhal, où celui-ci fut élève
+          <date from="1796" to="1799" type="_temp">de 1796 à 1799</date>. La
+          liste de <date type="_temp" when="1980">1980</date>, sensiblement la
+          même, proposait en outre la bibliothèque où sont conservés la
+          plupart des manuscrits de l’écrivain. À l’occasion de l’année
+          Stendhal, en <date type="_temp" when="1992">1992</date> (date du
+          cent cinquantième anniversaire de sa mort), l’Office de tourisme
+          inaugura également la route historique de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>,
+          de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> à
+          <placeName ref="6613012" type="geonames" xml:base="https://www.geonames.org/">Brangues</placeName> et à
+          <placeName ref="6433469" type="geonames" xml:base="https://www.geonames.org/">Vizille</placeName>.</p>
+        </div>
+        <div type="section1" xml:id="d1e279">
+          <head subtype="level1" xml:id="d1e280">Le patrimoine numérique
+          stendhalien</head>
+          <p xml:id="d1e282">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                  </term>
+                </term>
+              </term>
+            </term>En
+          <date type="_temp" when="1996">1996</date>, le partenariat de la
+          ville avec l’université de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName>, via
+          l’équipe de recherche Traverses&#160;19-21, composante du Centre d’études
+          stendhaliennes et romantiques pour la partie scientifique, et le
+          laboratoire LIDILEM (Laboratoire de linguistique et didactique des
+          langues étrangères et maternelles) pour la partie informatique et
+          linguistique, permet d’engager l’édition scientifique numérique des
+          manuscrits stendhaliens, à la fois pour comprendre l’acte de
+          création littéraire et aussi pour donner un accès aux documents. Ce
+          projet utilise, entre autres outils, le traitement automatique des
+          langues. La bibliothèque y contribue par la numérisation des
+          manuscrits, avec le soutien du ministère de la Culture. En <date type="_temp" when="2009">2009</date>, tous les manuscrits de
+          <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> conservés à
+          <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> étaient
+          numérisés et le site <hi rend="italic">Les manuscrits de
+          Stendhal</hi>
+            <note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <ref target="https://www.dailymotion.com/video/xvx150">
+                  <hi rend="underline">http://stendhal.demarre-shs.fr/</hi>
+                </ref>. Thomas Lebarbé, Alexia Blanchard, Cécile Meynard,
+              «&#160;Manuscrits de Stendhal&#160;», in <hi rend="italic">Recherches
+              &amp; Travaux</hi>, 72, 2008, <ref target="http://journals.openedition.org/recherchestravaux/94">
+                  <hi rend="underline">http://journals.openedition.org/recherchestravaux/94</hi>
+                </ref>
+              </p>
+            </note> mis en ligne. Les équipes de recherche s’emploient
+          également à rééditer sous forme électronique et imprimée les <hi rend="italic">Journaux </hi>de l’écrivain<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Stendhal, <hi rend="italic">Journaux et papiers</hi>.
+              Volume&#160;I, 1797-1804, édition établie par Cécile Meynard, Hélène
+              de Jacquelot et Marie-Rose Corredor, Grenoble, ELLUG, 2013</p>
+            </note>. Le projet de recherche «&#160;Manuscrits de Stendhal&#160;»<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>
+                <ref target="https://litt-arts.univ-grenoble-alpes.fr/recherche/projets-recherche/manuscrits-stendhal">
+                  <hi rend="underline">https://litt-arts.univ-grenoble-alpes.fr/recherche/projets-recherche/manuscrits-stendhal</hi>
+                </ref>
+              </p>
+            </note>, sous la responsabilité de <persName ref="057609446" type="idref" xml:base="https://www.idref.fr/">Catherine
+          Mariette</persName> au sein du laboratoire Litt&amp;Arts, est
+          soutenu par l’Université Grenoble Alpes, la MSH-Alpes, la Région
+          Rhône-Alpes et le consortium CAHIER. Il a bénéficié de crédits
+          européens.</p>
+          <p xml:id="d1e317">Enfin, les collections numérisées sont
+          disponibles sur <hi rend="italic">Pagella</hi>, la bibliothèque
+          numérique patrimoniale de la bibliothèque municipale en lien avec la
+          <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque nationale de
+          France</placeName>, dont la BM de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> est depuis
+          <date type="_temp" when="2019">2019</date> pôle associé
+          documentaire.</p>
+        </div>
+        <div type="section1" xml:id="d1e322">
+          <head subtype="level1" xml:id="d1e323">Stendhal&#160;: une politique
+          publique</head>
+          <p xml:id="d1e325">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+              </term>
+            </term>
+            <persName ref="027022293" type="idref" xml:base="https://www.idref.fr/">Michel
+          Melot</persName>, auteur d’un rapport sur les maisons d’écrivains au
+          ministre de la Culture en <date type="_temp" when="1996">1996</date>, rappelle que «&#160;le destin des grands
+          écrivains est de nourrir un culte non seulement autour de leur œuvre
+          mais aussi autour de leur vie&#160;; un écrivain est toujours plus qu’un
+          homme qui écrit&#160;: c’est un personnage. On le voudrait légendaire,
+          parce qu’il incarne une façon de voir le monde, un modèle de vie
+          dans lequel chacun cherche à se reconnaître&#160;»<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Michel Melot, <hi rend="italic">Mirabilia&#160;: essai sur
+              l’inventaire général du patrimoine culturel</hi>, Paris,
+              Gallimard, 2012, p.&#160;191</p>
+            </note>. <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> est bien cet
+          écrivain universellement connu et aussi très intimement associé à la
+          ville de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> et à son
+          histoire, même s’il y a peu séjourné. Ses années de formation y
+          furent déterminantes. L’écrivain «&#160;fait le patrimoine&#160;», il fait
+          partie de l’histoire de la ville et justifie une politique
+          publique.</p>
+          <p xml:id="d1e334">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>L’histoire
+          du Musée Stendhal, centenaire si l’on considère que la première
+          exposition stendhalienne de <date type="_temp" when="1920">1920</date> constitue son acte de naissance, montre que
+          les «&#160;lieux stendhaliens&#160;» se sont déplacés en fonction des espaces
+          dont la ville de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> disposait.
+          C’est à la fin des <date from="1990" to="1999" type="_temp">années&#160;1990</date> que celle-ci peut enfin construire
+          un projet politique global prenant en compte les collections
+          conservées à la bibliothèque municipale, le musée Stendhal à l’hôtel
+          de Lesdiguières, la maison Stendhal (l’appartement du docteur
+          <persName ref="077220730" type="idref" xml:base="https://www.idref.fr/">Gagnon</persName>) et l’appartement
+          natal. Ces lieux sont dénommés et qualifiés de «&#160;musée&#160;» car liés à
+          une collection, «&#160;maison&#160;» ou «&#160;maison-musée&#160;» pour signifier la
+          dimension domestique, ou encore «&#160;lieu de mémoire&#160;» comme l’entend
+          <persName ref="027049582" type="idref" xml:base="https://www.idref.fr/">Pierre Nora</persName>, à savoir
+          une «&#160;unité significative, d’ordre matériel ou idéel, dont la
+          volonté des hommes ou le travail du temps a fait un élément
+          symbolique d’une quelconque communauté&#160;». Le statut patrimonial des
+          lieux conféré par la réglementation s’y ajoute&#160;: l’appartement
+          Gagnon et l’appartement natal sont protégés au titre des monuments
+          historiques depuis <date type="_temp" when="2000">2000</date>.</p>
+          <p xml:id="d1e336">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-qlxr2uj3">ville</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>L’idée de
+          la «&#160;maison littéraire/maison d’écrivain&#160;» qui apparaît dans les
+          projets de la ville à partir de <date type="_temp" when="1996">1996</date>, en lien avec la dynamique nationale,
+          n’aboutit pas. Le choix, qui pouvait être central, d’exposer la
+          création littéraire et le texte n’est pas retenu, même si l’œuvre de
+          l’écrivain est rendue vivante lors de lectures ou de créations
+          ponctuelles portées par des auteurs et des artistes. Il y a
+          plusieurs raisons à cela. La collection Stendhal est relativement
+          pauvre en objets stendhaliens, l’écrivain ne s’étant guère préoccupé
+          de ses objets personnels. C’est une pierre d’achoppement pour une
+          maison d’écrivain. Il est par ailleurs difficile d’exposer la
+          collection de manuscrits dans les surfaces contraintes du musée. Le
+          lien entre les deux appartements existe bien mais reste trop ténu.
+          Enfin, en <date type="_temp" when="2012">2012</date>, le choix est
+          fait d’un traitement muséographique et même touristique de
+          l’appartement Gagnon. Mais la place des écrits de <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName> et de la
+          création littéraire dans le projet n’est aujourd’hui pas
+          suffisamment développée.</p>
+          <p xml:id="d1e338">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>En <date type="_temp" when="2021">2021</date>, la ville de <placeName ref="6454071" type="geonames" xml:base="https://www.geonames.org/">Grenoble</placeName> s’engage
+          dans un nouveau projet pour le Musée Stendhal. Les lieux ont peu
+          évolué ces dernières années et sont peu ouverts. La dynamique donnée
+          en <date type="_temp" when="2012">2012</date> au musée a décru au
+          fil des ans. L’objectif est aujourd’hui d’élargir les publics en
+          redonnant du sens au projet, en ouvrant davantage et mieux le Musée
+          Stendhal et en proposant dans l’appartement natal un programme
+          régulier d’animations ouvertes à tous. Ce projet entre dans le cadre
+          des orientations politiques du «&#160;plan lecture&#160;» adopté par la ville
+          en <date type="_temp" when="2019">mars&#160;2019</date>. Il s’agit de
+          faire encore davantage de ces lieux stendhaliens des espaces
+          conviviaux, de ressources, de vie et de rencontres pour tous les
+          publics, en particulier les jeunes. Le projet est en cours, avec
+          comme objectif <date type="_temp" when="2023">2023</date> qui
+          marquera le deux cent quarantième anniversaire de la naissance de
+          l’écrivain.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

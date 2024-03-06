@@ -1,0 +1,1211 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="snadal" time="2023-11-14T12:02:28.978+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_24_Fournier_Marengo.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Maisons d’écrivains et tourisme littéraire&#160;: une
+        contribution à la valorisation culturelle des territoires</title>
+        <author role="aut">
+          <forename>Mauricette</forename>
+          <surname>Fournier</surname>
+          <idno type="IDREF">057581428</idno>
+        </author>
+        <author role="aut">
+          <forename>Marina</forename>
+          <surname>Marengo</surname>
+          <idno type="IDREF">06894151X</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/W3SUTMJJ" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Maisons d’écrivains et tourisme littéraire&#160;: une
+            contribution à la valorisation culturelle des territoires</title>
+            <author>
+              <forename>Mauricette</forename>
+              <surname>Fournier</surname>
+            </author>
+            <author>
+              <forename>Marina</forename>
+              <surname>Marengo</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">24</biblScope>
+              <biblScope unit="page">10-23</biblScope>
+              <date>2021</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+        <language ident="ita"/>
+        <language ident="scn"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+          <term>
+            <placeName ref="2629691" type="geonames" xml:base="https://www.geonames.org/">Islande</placeName>
+          </term>
+          <term>
+            <placeName ref="2635167" type="geonames" xml:base="https://www.geonames.org/">Royaume-Uni</placeName>
+          </term>
+          <term>
+            <placeName ref="2510769" type="geonames" xml:base="https://www.geonames.org/">Espagne</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1990" to="1999" type="_temp">années&#160;1990</date>
+          </term>
+          <term>
+            <date from="2000" to="2019" type="_temp">années&#160;2000-2010</date>
+          </term>
+          <term>
+            <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-28T07:51:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Maisons d’écrivains et
+          tourisme littéraire&#160;: une contribution à la valorisation culturelle
+          des territoires</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Mauricette Fournier</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Maîtresse de conférences en géographie,
+          Université Clermont Auvergne</affiliation>
+        </byline>
+        <docAuthor style="txt_auteur">Marina Marengo</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff02">Professeur associé en géographie,
+          Université de Gênes</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e59">
+          <graphic url="https://didomena.ehess.fr/downloads/v118rn570.png"/>
+          <head xml:id="d1e60">Figure 1. Localisation des maisons d’écrivains
+          et lieux littéraires adhérents de la Fédération nationale des
+          maisons d’écrivains et des patrimoines littéraires (2012).</head>
+          <p xml:id="d1e62">Statistiques de la Fédération nationale des
+          maisons d’écrivain &amp; des patrimoines littéraires (2012) ;
+          cartographie Ceramac (2014).</p>
+        </figure>
+        <p xml:id="d1e64">Les géographes s’intéressent à la littérature
+        principalement depuis la fin des <date from="1970" to="1979" type="_temp">années&#160;1970</date>, marquées par le tournant
+        post-moderne. Mais c’est surtout depuis les <date from="1990" to="1999" type="_temp">années&#160;1990</date> que s’est développée une
+        géographie littéraire qui s’intéresse aux représentations et
+        perceptions de l’espace<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Pour des questions de lecture, nous avons choisi de regrouper
+            les références bibliographiques en fin d’article. Ne seront citées
+            dans le texte, par la suite, que celles dont la mention est
+            indispensable à l’argumentation.</p>
+          </note>. S’en est progressivement distinguée une géographie de la
+        littérature, introduite au début des <date from="2000" to="2009" type="_temp">années&#160;2000</date>
+          <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Cf. Brosseau et Cambron, 2003. Pour les références associées à
+            ces noms, comme à ceux qui suivront, voir les orientations
+            bibliographiques.</p>
+          </note>. Ces deux courants diffèrent dans la manière de mettre en
+        question les rapports entre espace et littérature. La géographie
+        littéraire a pour cœur de cible la problématique de la représentation.
+        Elle privilégie une approche textualiste, interne à l’œuvre littéraire
+        dans le but d’analyser la manière dont l’espace est représenté, tandis
+        que la géographie de la littérature cherche à questionner les rapports
+        que les œuvres littéraires entretiennent avec leurs contextes
+        socio-spatiaux, notamment ceux de leur production, de leur
+        appropriation et de leur utilisation. Elle pose donc d’une manière
+        plus centrale la question du rapport que les œuvres entretiennent avec
+        la société et les territoires. C’est dans cette géographie de la
+        littérature que s’inscrit le tourisme littéraire et la valorisation
+        des maisons d’écrivains.</p>
+        <div type="section1" xml:id="d1e72">
+          <head subtype="level1" xml:id="d1e73">Tourisme littéraire&#160;: une
+          niche économique en croissance</head>
+          <p xml:id="d1e75">Si l’intérêt des chercheurs pour le «&#160;tourisme
+          littéraire&#160;» est récent, sa réalité ne relève pas d’un phénomène
+          nouveau. D’une certaine façon, comme le notait <persName ref="029036674" type="idref" xml:base="https://www.idref.fr/">I.&#160;Ousby</persName> en <date type="_temp" when="1990">1990</date>, les pèlerinages bibliques
+          peuvent également être rapprochés du tourisme littéraire puisqu’ils
+          sont associés à des textes, à leur diffusion et à leur réception.
+          <persName ref="033669163" type="idref" xml:base="https://www.idref.fr/">N.-J.&#160;Watson</persName> note que
+          <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> mentionnait le
+          recueillement sur la tombe de <persName ref="026674327" type="idref" xml:base="https://www.idref.fr/">Virgile</persName> comme pratique
+          de pèlerinage en <date type="_temp" when="-0019">19&#160;avant
+          Jésus-Christ</date> et plusieurs auteurs latins comme <persName ref="026659166" type="idref" xml:base="https://www.idref.fr/">Horace</persName>, <persName ref="02665234X" type="idref" xml:base="https://www.idref.fr/">Cicéron</persName> ou <persName ref="027383709" type="idref" xml:base="https://www.idref.fr/">Martial</persName> ont pu également
+          compter sur leur renommée pour attirer des lecteurs sur les lieux de
+          leur dernier repos (comme le souligne <persName ref="035232234" type="idref" xml:base="https://www.idref.fr/">F.-A.&#160;Mumby</persName>). Selon
+          <persName ref="034275673" type="idref" xml:base="https://www.idref.fr/">H.&#160;Hendrix</persName>, la première
+          manifestation d’une «&#160;industrie&#160;» du tourisme littéraire, liée à la
+          visite de la tombe du poète <persName ref="027068935" type="idref" xml:base="https://www.idref.fr/">Pétrarque</persName>, remonterait
+          au <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>.</p>
+          <p xml:id="d1e80">La première définition du tourisme littéraire a
+          été proposée par <persName type="_temp">Shelagh Squire</persName>
+          qui a d’abord considéré le phénomène comme le fait de «&#160;<foreign xml:lang="eng">travel to places famous for associations with books
+          or authors</foreign>&#160;», avant de le préciser de la façon suivante&#160;:
+          «&#160;<foreign xml:lang="eng">associated with places celebrated for
+          literary depictions and/or connections with literary
+          figures</foreign>&#160;». À sa suite, le tourisme littéraire a intéressé,
+          à partir des <date from="1990" to="1999" type="_temp">années&#160;1990</date>, de nombreux chercheurs,
+          principalement anglo-saxons (ainsi <persName ref="028841360" type="idref" xml:base="https://www.idref.fr/">David
+          Herbert</persName>, <persName ref="072276355" type="idref" xml:base="https://www.idref.fr/">Hans-Christian Andersen</persName>
+          et <persName ref="060571705" type="idref" xml:base="https://www.idref.fr/">Mike Robinson</persName>, ou encore
+          <persName ref="033669163" type="idref" xml:base="https://www.idref.fr/">Nicola Watson</persName>), tandis
+          que, comme nous le soulignions récemment dans un numéro thématique
+          de la revue <hi rend="italic">Teoros </hi>consacré à cette question,
+          «&#160;il n’en a quasiment jamais été fait explicitement mention dans les
+          publications francophones avant la thèse d’<persName ref="200038257" type="idref" xml:base="https://www.idref.fr/">Aurore
+          Bonniot</persName>, <hi rend="italic">Imaginaire des lieux et
+          attractivité des territoires. Une entrée par le tourisme littéraire.
+          Maisons d’écrivain, routes et sentiers littéraires, </hi>soutenue en
+          <date type="_temp" when="2016">2016</date>&#160;». En effet, et c’est
+          certainement un trait culturel, les chercheurs français préfèrent le
+          plus souvent aborder les relations entre littérature et société dans
+          leur dimension patrimoniale et idéelle, plutôt que sous l’angle
+          d’une valorisation à finalité économique.</p>
+          <p xml:id="d1e88">Cependant l’essor du tourisme littéraire, qui
+          s’inscrit dans le développement historique du tourisme culturel<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Pour contextualiser, rappelons que l’OCDE et l’Organisation
+              mondiale du tourisme considèrent que le tourisme culturel
+              représente 40&#160;% du tourisme international et que, selon Mintel
+              (2010), la demande pour cette forme de tourisme culturel aurait
+              crû de 17&#160;% à l’échelle mondiale entre 1997 et 2007.</p>
+            </note> au sein duquel il occupe une place grandissante, est
+          devenu «&#160;commercialement significatif&#160;» (comme le souligne <persName ref="033669163" type="idref" xml:base="https://www.idref.fr/">N.-J.&#160;Watson</persName> en <date type="_temp" when="2006">2006</date>), même si les retombées
+          économiques de cette «&#160;niche&#160;» restent difficiles à mesurer, à
+          quelques exceptions près comme, par exemple, les sentiers de grande
+          randonnée qui s’inscrivent dans les pas d’un écrivain, tel le Chemin
+          de Stevenson<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Le Chemin de Stevenson constitue la randonnée littéraire la
+              plus fréquentée de France avec plus de six mille marcheurs
+              chaque année. Il retrace le trajet emprunté en 1878 par
+              l’écrivain écossais, mis en récit dans <hi rend="italic">Voyage
+              avec un âne dans les Cévennes</hi>. Cette randonnée de 230&#160;kms,
+              entre Le Puy-en-Velay en Haute-Loire et Alès dans le Gard, a été
+              référencée comme sentier de grande randonnée (GR70) grâce aux
+              efforts d’une association qui fédère aujourd’hui la majorité des
+              hébergeurs présents sur l’itinéraire. En sont membres au total
+              plus de cent cinquante professionnels, acteurs et structures des
+              territoires (restaurateurs, organisateurs de séjours, loueurs
+              d’ânes, organisateurs de randonnées équestres, transporteurs de
+              personnes et de bagages, sites et intervenants culturels). La
+              fréquentation soutenue du GR a permis de créer de nombreuses
+              activités dans le secteur et de développer l’accueil touristique
+              dans ces moyennes montagnes démographiquement et économiquement
+              très anémiées. L’association a ensuite œuvré à la constitution
+              d’un réseau à l’échelle européenne, fédérant des initiatives
+              françaises, belges, écossaises et anglaises valorisant le
+              passage de l’écrivain écossais. Le Conseil de l’Europe a
+              consacré, en mai&#160;2015, la réussite de cette initiative en
+              attribuant le label «&#160;Itinéraire culturel&#160;» au réseau européen
+              «&#160;Sur les traces de Robert-Louis Stevenson&#160;» (Fournier,
+              2015).</p>
+            </note>, dans la mesure où le marcheur est alors captif de
+          l’itinéraire pour ses dépenses (restauration, hébergement, etc.). Si
+          les formes que prend le tourisme littéraire sont aujourd’hui très
+          variées – visites de maisons d’écrivains, itinéraires littéraires de
+          distances variées que l’on parcourt à pied (Chemin de Stevenson en
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>) et/ou en
+          voiture (route du Cid en <placeName ref="2510769" type="geonames" xml:base="https://www.geonames.org/">Espagne</placeName>, route Peer
+          Gynt en <placeName ref="3144096" type="geonames" xml:base="https://www.geonames.org/">Norvège</placeName>, etc.),
+          parcs à thème à vocation de divertissement (parcs Disney dans
+          plusieurs villes du monde, parc Astérix en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, The World
+          of Beatrix Potter dans le Lake District anglais, The Wizarding World
+          of Harry Potter basé sur la série de la Britannique <persName ref="050222937" type="idref" xml:base="https://www.idref.fr/">J.&#160;K.&#160;Rowling</persName>, Alice in
+          Wonderland Centre à <placeName ref="7294426" type="geonames" xml:base="https://www.geonames.org/">Llandudno</placeName> dans le
+          nord du <placeName ref="2634895" type="geonames" xml:base="https://www.geonames.org/">Pays de Galles</placeName>,
+          etc.), tourisme de librairie (foires et salons du livre, festivals
+          autour d’un type d’œuvre, «&#160;villages du livre&#160;» –, les retombées
+          économiques qui en découlent varient fortement selon le type de
+          valorisation de la ressource littéraire. Quoi de commun entre la
+          visite de la modeste maison de campagne d’un écrivain peu connu et
+          celle d’un grand parc à thème, entre la balade urbaine proposée par
+          l’office du tourisme local et la fréquentation d’une grande
+          manifestation littéraire comme le Bloomsday<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Célébré chaque 16&#160;juin, le Bloomsday reproduit le parcours de
+              Leopold Bloom, personnage central du chef-d’œuvre de James
+              Joyce, <hi rend="italic">Ulysse</hi>. Cet événement rassemble
+              des milliers de participants et inclut des activités variées&#160;:
+              marathon, concerts, buffets, lecture, théâtre, etc. Le Bloomsday
+              s’est diffusé dans de très nombreuses autres villes du monde, à
+              Szombathely en Hongrie, dans sept villes des États-Unis, dont
+              Philadelphie et Détroit, à Trieste et à Gênes en Italie, à
+              Prague en République tchèque, à Montréal au Canada, à Sydney en
+              Australie et en France, à Paris et à Saint-Gérand-le-Puy, dans
+              l’Allier, où Joyce a brièvement séjourné.</p>
+            </note> à <placeName ref="7778677" type="geonames" xml:base="https://www.geonames.org/">Dublin</placeName> ou encore
+          celle des grands salons ou foires du livre qui peuvent rassembler
+          des dizaines de milliers de visiteurs (160&#160;000 pour celui de
+          <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>)&#160;;</p>
+          <p xml:id="d1e107">Si ces retombées économiques ne sont pas toujours
+          simples à évaluer, la performativité du tourisme littéraire a d’une
+          manière générale été reconnue par les contributions les plus
+          importantes de la géographie de la littérature. <persName ref="060571705" type="idref" xml:base="https://www.idref.fr/">M.&#160;Robinson</persName> et <persName ref="072276355" type="idref" xml:base="https://www.idref.fr/">H.-C.&#160;Andersen</persName> ont
+          notamment montré que la littérature joue bien un rôle dans le
+          développement des pratiques touristiques, tant du côté de l’offre et
+          du développement de nouveaux produits que du côté de la demande et
+          de la recherche d’expériences. <persName type="_temp">N.&#160;O’Connor</persName> et <persName ref="092229069" type="idref" xml:base="https://www.idref.fr/">S.&#160;Kim</persName> ont
+          ainsi mis en évidence la corrélation entre l’augmentation du
+          tourisme à <placeName ref="1650534" type="geonames" xml:base="https://www.geonames.org/">Bali</placeName> et la
+          construction d’une offre touristique autour de la publication du
+          livre, puis de la sortie du film <hi rend="italic">Eat Pray Love
+          </hi>d’<persName ref="07021400X" type="idref" xml:base="https://www.idref.fr/">Elizabeth Gilbert</persName> (<date type="_temp" when="2006">2006</date>). La mise en scène de lieux
+          réels peut en effet mener à une augmentation rapide du nombre de
+          visiteurs, comme ce fut le cas avec certains lieux du <hi rend="italic">Da Vinci Code </hi>(<date type="_temp" when="2003">2003</date>), organisés en parcours à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> et <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>. <persName ref="190667397" type="idref" xml:base="https://www.idref.fr/">J.&#160;Laing</persName> et <persName ref="167670913" type="idref" xml:base="https://www.idref.fr/">W.&#160;Frost</persName> ont de leur
+          côté fait ressortir l’importance du roman <hi rend="italic">Les
+          Mines du roi Salomon </hi>de <persName ref="026658194" type="idref" xml:base="https://www.idref.fr/">Henry Rider Haggard</persName>
+          (<date type="_temp" when="1885">1885</date>) dans l’attraction du
+          tourisme d’aventure en <placeName ref="953987" type="geonames" xml:base="https://www.geonames.org/">Afrique du Sud</placeName>. Une
+          œuvre comme celle de <persName ref="031745903" type="idref" xml:base="https://www.idref.fr/">Peter Mayle</persName>, <hi rend="italic">Une Année en Provence, </hi>publiée en <date type="_temp" when="1989">1989</date>, est reconnue pour avoir fait
+          circuler des représentations suscitant une affluence touristique et
+          un mouvement démographique plus durable encore. Dans le cas de
+          <persName ref="031745903" type="idref" xml:base="https://www.idref.fr/">Peter Mayle</persName>, le
+          retentissement fut si important dans le monde anglo-saxon que
+          certains considèrent qu’il a participé à la vague d’achat par des
+          Britanniques de résidences secondaires en Provence dans les <date from="1990" to="1999" type="_temp">années&#160;1990</date>, de même qu’à
+          la production de leurs attentes vis-à-vis de l’offre touristique de
+          la région.</p>
+          <p xml:id="d1e121">L’intérêt croissant des visiteurs pour le
+          tourisme littéraire et la performativité de ces pratiques sur la
+          qualification des territoires conduisent à s’interroger sur les
+          attentes des visiteurs, en particulier, pour ce qui nous concerne
+          ici, de ceux qui fréquentent les maisons d’écrivains.</p>
+        </div>
+        <div type="section1" xml:id="d1e123">
+          <head subtype="level1" xml:id="d1e124">La maison d’écrivain&#160;: un
+          rôle de médiation entre les lieux et les œuvres</head>
+          <p xml:id="d1e126">La Fédération nationale des maisons d’écrivain et
+          des patrimoines littéraires définit la maison d’écrivain comme un
+          lieu «&#160;où est né, où a vécu plus ou moins longtemps, où a écrit un
+          auteur&#160;; ce n’est pas forcément sa maison natale, ni celle où il a
+          passé la majeure partie de sa vie, beaucoup d’écrivains ayant été
+          d’incessants voyageurs&#160;»<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>
+                <ref target="https://litterature-lieux.com/fr/questions-frequentes">
+                  <hi rend="underline">https://litterature-lieux.com/fr/questions-frequentes</hi>
+                </ref>
+              </p>
+            </note>. Au vu de cette définition, on comprend que l’héritage
+          patrimonial de certains écrivains puisse être valorisé en plusieurs
+          lieux. Ainsi en est-il par exemple de <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Victor
+          Hugo</persName>, dont on peut visiter plusieurs résidences, depuis
+          sa maison natale à <placeName ref="6447838" type="geonames" xml:base="https://www.geonames.org/">Besançon</placeName> jusqu’à
+          celle de son exil dans l’île anglo-normande de <placeName ref="3042363" type="geonames" xml:base="https://www.geonames.org/">Guernesey</placeName>, en
+          passant par l’Hôtel de Rohan-Guéménée, place des Vosges à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> où il vécut
+          seize ans, ou encore de <persName ref="02683572X" type="idref" xml:base="https://www.idref.fr/">Fiodor Dostoïevski</persName> dont
+          la mémoire est entretenue à la fois dans la maison dont il avait
+          fait l’acquisition à <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Staraïa Roussa</placeName>,
+          dans la région de Novgorod, et dans le dernier appartement qu’il
+          occupa à <placeName ref="498817" type="geonames" xml:base="https://www.geonames.org/">Saint-Pétersbourg</placeName>.</p>
+          <p xml:id="d1e135">Ces maisons, que l’on rencontre dans tous types
+          d’espaces, à la ville comme à la campagne, présentent une grande
+          diversité architecturale <hi>(voir ill. p.&#160;13)</hi>, reflet des
+          caractéristiques locales de construction, de l’époque à laquelle a
+          vécu l’auteur, de son statut socio-économique, des conditions de
+          résidence dans tel ou tel lieu (maison natale, résidence permanente,
+          de vacances, etc.). Leur configuration spatiale conditionne les
+          formes de valorisations contemporaines. Certaines demeures, vastes
+          et/ou disposant d’aménagements, tels qu’un jardin d’agrément ou un
+          parc, comme celle de <persName ref="026799472" type="idref" xml:base="https://www.idref.fr/">Corneille</persName> à <placeName ref="6617650" type="geonames" xml:base="https://www.geonames.org/">Petit-Couronne</placeName>, se
+          prêtent à des projets plus ambitieux que les étroites maisons de
+          villes ou de villages, sans espaces extérieurs, comme par exemple
+          celle de <persName ref="026893177" type="idref" xml:base="https://www.idref.fr/">Jean Giraudoux</persName> à
+          <placeName ref="6455315" type="geonames" xml:base="https://www.geonames.org/">Bellac</placeName>.</p>
+          <p xml:id="d1e140">Variété des maisons où ont séjourné des
+          écrivains&#160;:</p>
+          <figure xml:id="d1e142">
+            <graphic url="https://didomena.ehess.fr/downloads/fq978331s.jpg"/>
+            <head xml:id="d1e143">Figure 2. Maison natale de Jean Giraudoux à
+            Bellac dans la Haute-Vienne, dans laquelle le dramaturge passa
+            seulement sa prime enfance. Clichés M. Fournier (2013, 2021, 2018,
+            2019, 2013, 2017)</head>
+          </figure>
+          <figure xml:id="d1e147">
+            <graphic url="https://didomena.ehess.fr/downloads/0k225k11j.jpg"/>
+            <head xml:id="d1e148">Figure 3. Maison natale d’Albert Londres à
+            Vichy dans l’Allier, l’une des dernières maisons d’écrivains
+            françaises ouvertes au public grâce à la ténacité d’une
+            association, qui a créé un fonds de dotation en 2011 afin
+            d’acquérir la maison, ce qui fut fait par adjudication en 2014.
+            Clichés M. Fournier (2013, 2021, 2018, 2019, 2013, 2017)</head>
+          </figure>
+          <figure xml:id="d1e152">
+            <graphic url="https://didomena.ehess.fr/downloads/dn39x933b.jpg"/>
+            <head xml:id="d1e153">Figure 4. Musée-appartement de Dostoïevski à
+            Saint-Pétersbourg, où l’auteur vécut de 1878 à son décès en 1881.
+            Clichés M. Fournier (2013, 2021, 2018, 2019, 2013, 2017)</head>
+          </figure>
+          <figure xml:id="d1e157">
+            <graphic url="https://didomena.ehess.fr/downloads/m039kd05z.jpg"/>
+            <head xml:id="d1e158">Figure 5. Les Charmettes, propriété rurale
+            associée à un jardin à la française, où Jean-Jacques Rousseau
+            séjourna de 1736 à 1742. Clichés M. Fournier (2013, 2021, 2018,
+            2019, 2013, 2017)</head>
+          </figure>
+          <figure xml:id="d1e162">
+            <graphic url="https://didomena.ehess.fr/downloads/cv43p5283.jpg"/>
+            <head xml:id="d1e163">Figure 6. Thoor Ballylee, à Gort, dans le
+            comté de Galway (Irlande). Donjon associé au cottage acheté en
+            1917 par William Butler Yeats (prix Nobel en 1923), où le poète
+            séjourna de 1921 à 1929 et qui donna son titre à l’un de ses
+            principaux recueils, <hi rend="italic">The Tower</hi>, paru en
+            1928. Clichés M. Fournier (2013, 2021, 2018, 2019, 2013,
+            2017)</head>
+          </figure>
+          <figure xml:id="d1e170">
+            <graphic url="https://didomena.ehess.fr/downloads/z603r5891.jpeg"/>
+            <head xml:id="d1e171">Figure 7. «&#160;Gljúfrasteinn&#160;», villa moderne
+            de Halldór Kiljan Laxness (prix Nobel en 1955), construite en 1945
+            en pleine nature, dans la vallée de Mosfellsdalur, à une vingtaine
+            de kilomètres de la capitale Reykjavik, où l’auteur vécut une
+            cinquantaine d’années. Clichés M. Fournier (2013, 2021, 2018,
+            2019, 2013, 2017)</head>
+          </figure>
+          <p xml:id="d1e175">Les demeures où les écrivains ont séjourné, même
+          brièvement, sont donc très nombreuses, en particulier en Europe.
+          Mais il convient de compléter le panorama avec d’autres types
+          d’espaces, comme le propose la Fédération nationale des maisons
+          d’écrivain et des patrimoines littéraires, à savoir des lieux «&#160;où
+          sont conservés des manuscrits littéraires et des livres possédés par
+          l’auteur, un musée littéraire évoquant la mémoire et l’œuvre d’un
+          écrivain (comme par exemple le Musée Colette à <placeName ref="6446009" type="geonames" xml:base="https://www.geonames.org/">Saint-Sauveur-en-Puisaye</placeName>)&#160;».
+          Souvent, les acteurs de cette valorisation muséale (collectivités
+          locales, famille de l’auteur, associations dédiées à sa mémoire)
+          choisissent alors entre deux options&#160;: rénover un édifice de
+          prestige ancien ou construire un bâtiment nouveau répondant à un
+          geste architectural moderne, en lien ou pas avec le livre <hi>(voir
+          ill. p.&#160;13)</hi>. Ainsi, dans la ville de <placeName ref="6425528" type="geonames" xml:base="https://www.geonames.org/">Manosque</placeName> par
+          exemple, a été créé en <date type="_temp" when="1992">1992</date> le
+          Centre Giono, sous l’impulsion de l’Association des Amis de Jean
+          Giono et de sa famille, lequel vient s’ajouter à la maison où
+          l’<persName ref="026892286" type="idref" xml:base="https://www.idref.fr/">écrivain</persName> vécut <date from="1930" to="1970" type="_temp">de 1930 à 1970</date>, le Paraïs,
+          également ouverte à la visite. Installé dans un hôtel particulier du
+          <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date> dont la municipalité a fait
+          l’acquisition, ce centre se présente à la fois comme un
+          conservatoire de l’œuvre, un centre de documentation et un espace
+          culturel, lieu d’animations et de création. Il propose des
+          expositions et des activités de découverte en lien avec le
+          territoire pour tout type de public, ainsi que des balades
+          littéraires commentées qui permettent d’animer l’arrière-pays.</p>
+          <figure xml:id="d1e184">
+            <head xml:id="d1e185">Centres et musées littéraires&#160;: en haut,
+            Centre Jean Giono, à Manosque (Alpes de Haute-Provence), aménagé
+            dans un hôtel particulier du 18<hi rend="sup">e</hi>&#160;siècle,
+            l’hôtel Raffin, acheté par la municipalité en 1990. En bas, le
+            centre Þórbergssetur, construit à la mémoire de l’écrivain
+            Þórbergur Þórðarson (1888-1974) dans le sud-est de l’Islande, à
+            proximité de la ferme isolée d’Hali dont il était natif.</head>
+            <p xml:id="d1e186">Clichés M. Fournier (2013, 2017)</p>
+          </figure>
+          <p xml:id="d1e190">Pour le touriste, les raisons de visiter une
+          maison d’écrivain ou les lieux qu’il a fréquentés sont nombreuses, à
+          commencer par la classique «&#160;visite au grand écrivain&#160;» (pour citer
+          <persName ref="027049582" type="idref" xml:base="https://www.idref.fr/">P.&#160;Nora</persName>), qui
+          s’apparente à «&#160;un nouveau pèlerinage&#160;» (selon <persName ref="027022293" type="idref" xml:base="https://www.idref.fr/">M.&#160;Melot</persName>). Il peut
+          souhaiter approfondir sa connaissance factuelle d’un auteur et de
+          son œuvre ou avoir une approche sensible de son processus créatif.
+          Il peut aussi souhaiter retrouver des souvenirs d’enfance associés à
+          l’expérience d’une lecture passée ou à la nostalgie pour un lieu
+          décrit dans une œuvre.</p>
+          <p xml:id="d1e192">La plupart des auteurs qui se sont intéressés aux
+          maisons d’écrivains s’accordent pour considérer qu’elles canalisent
+          des pratiques mémorielles (ainsi <persName ref="026856166" type="idref" xml:base="https://www.idref.fr/">D.&#160;Fabre</persName>,
+          <persName ref="027022293" type="idref" xml:base="https://www.idref.fr/">M.&#160;Melot</persName> ou encore
+          <persName ref="034275673" type="idref" xml:base="https://www.idref.fr/">H.&#160;Hendrix</persName>). Elles
+          apparaissent comme des «&#160;modes d’expression du souvenir&#160;» (<persName ref="034275673" type="idref" xml:base="https://www.idref.fr/">Hendrix</persName>), des fictions
+          matérialisées, un cadre conçu comme ayant été nécessaire à l’acte
+          créateur ou encore une base à la construction émotive de ce dernier.
+          La communication entre l’auteur et le lecteur se trouve «&#160;médiée&#160;»
+          par le lieu qui n’a donc pas seulement une fonction documentaire,
+          mais aussi une fonction de mise en contact. Cette rencontre du passé
+          et du présent, qui cherche à s’affirmer à travers le lieu, peut
+          avoir une portée identitaire, laquelle peut se décliner à
+          différentes échelles. Ainsi <persName ref="033669163" type="idref" xml:base="https://www.idref.fr/">Nicola Watson</persName>, qui a
+          dressé un historique du tourisme littéraire britannique,
+          affirme-t-il que sa pratique permet notamment de renforcer le
+          sentiment d’appartenance nationale. De leur côté, <persName ref="057581428" type="idref" xml:base="https://www.idref.fr/">Mauricette Fournier</persName> et
+          <?xxe-remark lesot
+2022-07-19T13:13:47Z
+Correction : Mathieu (un seul T)?>
+            <persName ref="170619877" type="idref" xml:base="https://www.idref.fr/">Pierre-Matthieu Le&#160;Bel</persName>,
+          comme <persName ref="200038257" type="idref" xml:base="https://www.idref.fr/">Aurore Bonniot-Mirloup</persName>
+          et <persName type="_temp">Hélène Blasquiet</persName>, ont mis
+          l’accent sur la dimension locale de cette identité. <persName ref="200038257" type="idref" xml:base="https://www.idref.fr/">A.&#160;Bonniot</persName> propose
+          finalement dans sa thèse de situer l’expérience du touriste
+          littéraire à la croisée d’un triptyque auteur-œuvre-lieux <hi>(voir
+          schéma p.&#160;16)</hi>.</p>
+          <figure xml:id="d1e197">
+            <head xml:id="d1e198">L’expérience du touriste littéraire à la
+            croisée du triptyque auteur-œuvre-lieux</head>
+            <p xml:id="d1e200">Aurore Bonniot-Mirloup, 2016</p>
+          </figure>
+          <quote rend="quotation" xml:id="d1e202">«&#160;En effet, l’expérience du
+          lieu resitue la perception du touriste sur le même plan que celle de
+          l’auteur, quand la lecture le plaçait uniquement en récepteur&#160;[…] Le
+          pôle «&#160;auteur&#160;» relie le visiteur au domaine de la connaissance et
+          de l’histoire, des faits réels. Le pôle «&#160;œuvre&#160;» en appelle à
+          l’imaginaire et à la fiction. Enfin, le pôle «&#160;lieu(x)&#160;» se prête à
+          l’expérience physique du visiteur&#160;[…] C’est par ce pôle que survient
+          la pratique touristique du territoire&#160;»<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Bonniot-Mirloup, 2016, p.&#160;142</p>
+            </note>.</quote>
+          <p xml:id="d1e207">De nombreux acteurs peuvent donc intervenir entre
+          l’écrivain et l’accès à sa maison, et la variété de ces
+          interventions aboutit à des produits patrimoniaux bien différents.
+          Ces sites se positionnent sur un continuum où l’on passe d’une
+          approche muséale classique de la maison d’écrivain, où sont exposés
+          des objets, à une approche plus «&#160;expérientielle&#160;» où l’on cherche à
+          recréer une ambiance afin de rendre compte d’une atmosphère de
+          domesticité et d’authenticité. Ainsi en est-il par exemple de la
+          maison <persName ref="02669719X" type="idref" xml:base="https://www.idref.fr/">Jane Austen</persName> à <placeName ref="7300668" type="geonames" xml:base="https://www.geonames.org/">Chawton</placeName>, dans le
+          Hampshire, où le bruit d’une porte qui grince a pour vocation de
+          rappeler un fait de la vie quotidienne de l’auteur (cela lui
+          permettait d’être prévenue de l’arrivée de visiteurs et de cacher
+          son manuscrit). Les touristes déclarent que c’est l’aspect de la
+          visite qui les a le plus frappés<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Selon D.&#160;Herbert, 1996 et 2001.</p>
+            </note>. Ils veulent «&#160;<foreign xml:lang="eng">to buy feelings and
+          not products</foreign>&#160;», écrit <persName type="_temp">B.&#160;Trauer</persName>. Certes, ce type de muséographie,
+          du fait des libertés prises en matière d’aménagement, rend floue la
+          frontière entre réalité et fiction. La question de l’authenticité
+          semble toutefois peu affecter les touristes, qui accordent plus
+          d’importance aux émotions associées à la visite et à la liberté
+          d’interprétation qui leur est ainsi concédée<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Selon M.&#160;Melot et D.&#160;Fabre.</p>
+            </note>. La maison «&#160;natale&#160;» de <persName ref="026774771" type="idref" xml:base="https://www.idref.fr/">Miguel de
+          Cervantès</persName> à <placeName ref="6359231" type="geonames" xml:base="https://www.geonames.org/">Alcalá de Henares</placeName>
+          témoigne de manière paradigmatique de ce phénomène. Bien qu’il
+          s’agisse d’une reconstitution complète, évoquant l’architecture
+          traditionnelle castillane du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>, les visiteurs se
+          pressent bien plus pour explorer ce petit bâtiment, situé à
+          l’emplacement supposé de la maison natale de l’écrivain, que dans
+          les autres lieux où résida réellement <persName ref="026774771" type="idref" xml:base="https://www.idref.fr/">Cervantès</persName>
+            <hi>(voir ill.
+          p.&#160;16)</hi>. Il est vrai qu’<placeName ref="6359231" type="geonames" xml:base="https://www.geonames.org/">Alcalá de Henares</placeName>,
+          petite ville de la périphérie de <placeName ref="3117735" type="geonames" xml:base="https://www.geonames.org/">Madrid</placeName>, inscrite au
+          patrimoine mondial de l’UNESCO depuis <date type="_temp" when="1998">1998</date>, a fondé sa renommée sur la présence du
+          grand écrivain castillan qu’elle décline dans tout son espace public
+          (statues, peintures murales, etc.) et par des manifestations
+          culturelles et festives tout au long de l’année (semaine Cervantès,
+          déclarée d’intérêt touristique régional, au cours de laquelle est
+          décerné le prix Cervantès des lettres castillanes&#160;; Jornadas
+          Gastronómicas Cervantinas, fin septembre, au cours desquelles les
+          restaurants élaborent des menus inspirés de son œuvre&#160;; jour de
+          Cervantès, le 9&#160;octobre, correspondant au baptême de l’écrivain en
+          <date type="_temp" when="1547">1547</date>, etc.).</p>
+          <figure xml:id="d1e221">
+            <head xml:id="d1e222">Les maisons de Cervantès&#160;: à gauche, Maison
+            musée de Cervantès à Madrid&#160;; à droite, maison natale
+            «&#160;reconstituée&#160;» de Cervantès à Alcalá de Henares, Espagne.</head>
+            <p xml:id="d1e223">Clichés M. Fournier, 2016</p>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e224">
+          <head subtype="level1" xml:id="d1e225">Organisation et mise en
+          réseau des maisons d’écrivains et des lieux littéraires&#160;: exemples
+          de la France et de l’Italie</head>
+          <p xml:id="d1e227">Si l’on observe dans chaque pays une grande
+          variété de maisons d’écrivains ou de lieux littéraires, leurs modes
+          de gestion, de valorisation et de mise en réseaux peuvent varier
+          selon les contextes nationaux. Nous proposons ici de l’illustrer par
+          une comparaison entre la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> et
+          l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>.</p>
+          <p xml:id="d1e229">En <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, la plupart
+          des maisons d’écrivains adhèrent à la Fédération nationale des
+          maisons d’écrivain et des patrimoines littéraires<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <ref target="https://litterature-lieux.com/fr/federation/objectifs">
+                  <hi rend="underline">https://litterature-lieux.com/fr/federation/objectifs</hi>
+                </ref>
+              </p>
+            </note>, créée en <date type="_temp" when="1997">1997</date> à la
+          suite de deux rapports ministériels portant notamment sur le statut
+          de ces sites et la manière de les fédérer pour les valoriser. Sont
+          actuellement recensés 392&#160;maisons et lieux littéraires. Cette
+          association s’est en effet donné comme objectif de «&#160;fédérer
+          l’ensemble des lieux et des patrimoines littéraires&#160;: maisons
+          d’écrivains, musées biographiques, d’art ou d’histoire, conservant
+          des collections littéraires, bibliothèques et centres d’étude ou de
+          recherche possédant de la documentation ou des fonds d’archives
+          littéraires [dans le but d’] assurer l’existence, la préservation et
+          le rayonnement culturel de maisons d’écrivain, de lieux ou
+          collections, publics ou privés, liés à des écrivains et à l’œuvre
+          écrite d’hommes célèbres de toutes cultures&#160;».</p>
+          <p xml:id="d1e238">Quoique déjà un peu ancienne, une grande enquête
+          conduite en <date type="_temp" when="2012">2012</date> auprès de ses
+          adhérents par la Fédération permet de préciser les caractéristiques
+          des maisons d’écrivains<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Bonniot, 2016, p.&#160;37-47</p>
+            </note>. Deux tiers de ces lieux sont ouverts toute l’année et
+          pour un tiers la visite est même gratuite. Cependant, le premier
+          constat mettait en évidence une grande disparité dans la
+          fréquentation des maisons d’écrivains&#160;: 27&#160;% étaient peu visitées
+          (moins de 1&#160;000&#160;visiteurs par an), 42&#160;% moyennement visitées (1&#160;000
+          à 10&#160;000&#160;visiteurs par an) et 31&#160;% très visitées (plus de
+          10&#160;000&#160;visiteurs par an). Parmi les lieux littéraires les plus
+          fréquentés figure la maison de <persName ref="027121577" type="idref" xml:base="https://www.idref.fr/">George Sand</persName>
+          à <placeName ref="12310474" type="geonames" xml:base="https://www.geonames.org/">Nohant</placeName>, aujourd’hui
+          propriété du Centre des monuments nationaux. Construite à la fin du
+          <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>, elle appartenait à la grand-mère de
+          l’auteur. Le site, qui rassemble une maison-musée, une bibliothèque
+          et un jardin, reçoit annuellement plus de 35&#160;000&#160;visiteurs. Son parc
+          de six hectares comprend une bergerie aménagée afin d’accueillir des
+          concerts et récitals de musique classique. Un vaste espace librairie
+          de 100&#160;m<hi rend="sup">2</hi> propose l’ensemble des ouvrages de
+          <persName ref="027121577" type="idref" xml:base="https://www.idref.fr/">George Sand</persName> ainsi que
+          des livres sur son œuvre et sa vie. Elle est devenue la librairie
+          sandienne de référence en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, allant même
+          jusqu’à relancer l’activité d’édition autour de l’auteur. Avec plus
+          de 30&#160;000&#160;visiteurs par an, la Maison de <persName ref="027181685" type="idref" xml:base="https://www.idref.fr/">Jules Verne</persName>
+          à <placeName ref="6455273" type="geonames" xml:base="https://www.geonames.org/">Amiens</placeName>, acquise par
+          la ville en <date type="_temp" when="1980">1980</date> et ouverte au
+          public en <date type="_temp" when="1988">1988</date>, figure aussi
+          parmi les dix maisons d’écrivains les plus fréquentées de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>. Les
+          aménagements misent sur la reconstitution et sur l’hommage à l’œuvre
+          de <persName ref="027181685" type="idref" xml:base="https://www.idref.fr/">Jules Verne</persName>, à ses
+          voyages et à ses inventions.</p>
+          <p xml:id="d1e249">Les maisons d’écrivains françaises appartiennent
+          majoritairement (60&#160;% des répondantes à l’enquête) à des
+          collectivités territoriales, principalement les communes et, de plus
+          en plus, les Établissements publics de coopération intercommunale
+          (36&#160;%), suivis des conseils départementaux ou régionaux (15&#160;%), plus
+          rarement de l’État (6&#160;%). Dans ce type de situation, il est assez
+          fréquent (un quart des cas dans l’enquête) que le propriétaire
+          public confie la gestion des lieux à une association qui assurera
+          les actions de valorisation du site. Les autres maisons d’écrivains
+          sont détenues par des particuliers ou des associations. Rares sont
+          les lieux littéraires qui appartiennent à des sociétés commerciales.
+          Citons toutefois le cas du Grand hôtel de <placeName ref="6427108" type="geonames" xml:base="https://www.geonames.org/">Cabourg</placeName>, fréquenté
+          par <persName ref="084137401" type="idref" xml:base="https://www.idref.fr/">Marcel Proust</persName>. Dans les
+          <date from="1960" to="1969" type="_temp">années&#160;1960</date>, le
+          conseil municipal a empêché que l’hôtel ne soit divisé et vendu en
+          lots. Il appartient aujourd’hui au groupe hôtelier Accor, qui
+          mobilise la présence de l’auteur du <hi rend="italic">Temps perdu
+          </hi>pour la promotion de son établissement et propose à ses clients
+          une chambre au décor Belle Époque, «&#160;inspirée&#160;» de celle du grand
+          écrivain, ainsi que le mythique goûter proustien<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <ref target="https://www.grand-hotel-cabourg.com/un-peu-dhistoire/">
+                  <hi rend="underline">https://www.grand-hotel-cabourg.com/un-peu-dhistoire/</hi>
+                </ref>
+              </p>
+            </note>.</p>
+          <p xml:id="d1e261">Le Grand hôtel de <placeName ref="6427108" type="geonames" xml:base="https://www.geonames.org/">Cabourg</placeName> a par
+          ailleurs été inscrit comme monument historique en <date type="_temp" when="2014">2014</date>, rejoignant ainsi la cohorte nombreuse des
+          maisons d’écrivains disposant de cette distinction patrimoniale. En
+          effet, l’enquête de <date type="_temp" when="2012">2012</date> déjà
+          citée avait fait apparaître que près de 60&#160;% des maisons d’écrivains
+          avaient obtenu ce statut (classement ou inscription à l’inventaire
+          supplémentaire des monuments historiques) en raison de leur qualité
+          architecturale. Depuis, la plupart des maisons d’écrivains se sont
+          vu également accorder le label «&#160;Maisons des Illustres&#160;», créé en
+          <date type="_temp" when="2011">2011</date> par le ministère de la
+          Culture dans l’objectif de «&#160;valoriser les lieux dont la vocation
+          est de conserver et transmettre la mémoire des femmes et des hommes
+          qui se sont illustrés dans l’histoire politique, scientifique,
+          sociale et culturelle de la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>&#160;».</p>
+          <p xml:id="d1e263">L’enquête de la Fédération apportait aussi des
+          informations sur la mise en réseau des sites adhérents. «&#160;On relève
+          que 56&#160;% d’entre [les maisons d’écrivains] sont en lien avec
+          d’autres lieux rattachés à l’écrivain, et 45&#160;% avec d’autres lieux
+          littéraires ou structures culturelles. Il s’agit souvent de
+          structures situées à proximité telles que des musées, des
+          bibliothèques&#160;[…] En termes de réseau et de dynamique d’ouverture,
+          les maisons répondantes sont à 76&#160;% adhérentes à une association
+          et/ou à une fédération. Notons que 39&#160;% déclarent appartenir à un
+          réseau régional&#160;[…] On peut citer la Route des maisons d’écrivains
+          en Ile-de-France et en Normandie, le Réseau des maisons d’écrivains
+          en Picardie, en Aquitaine, ou encore le réseau «&#160;Écrivains au
+          Centre&#160;». En outre, près d’une sur deux (49&#160;%) fait partie d’un
+          circuit littéraire ou touristique. En définitive, 66&#160;% appartiennent
+          donc à un réseau et/ou à un circuit, ce qui fait que, dans leur
+          majorité, les maisons d’écrivains cultivent des partenariats ou du
+          moins des échanges avec d’autres structures, littéraires ou
+          non&#160;»<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Bonniot, 2016, p.&#160;48</p>
+            </note>.</p>
+          <p xml:id="d1e268">De plus en plus souvent, grâce notamment à la
+          généralisation des outils numériques, les gestionnaires de maisons
+          d’écrivains ou de lieux littéraires, parfois soutenus par les
+          collectivités locales, s’associent pour créer des routes d’écrivains
+          ou des itinéraires littéraires. Ainsi, un collectif d’associations
+          du département de l’Allier a sollicité les géographes de
+          l’Université de Clermont-Auvergne pour les aider à fédérer les
+          initiatives dans le cadre d’une recherche-action participative,
+          projet qui a abouti en <date type="_temp" when="2016">2016</date> à
+          la création d’une association départementale «&#160;Cheminements
+          littéraires en Bourbonnais&#160;»<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>
+                <ref target="https://cleb.fr/?page_id=237">
+                  <hi rend="underline">https://cleb.fr/?page_id=237</hi>
+                </ref>
+              </p>
+            </note>, laquelle propose une route des écrivains et de nombreuses
+          activités culturelles. Citons également l’Association haut-marnaise
+          des écrivains<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>
+                <ref target="http://ecrivains-haute-marne.com/page_18.php?fbclid=IwAR1zwwAFJbbW6UwGIsckKjbqeR-2Agdu7gwFdFLl1MBK0Upq4sweR2g-rYc">
+                  <hi rend="underline">http://ecrivains-haute-marne.com/page_18.php?fbclid=IwAR1zwwAFJbbW6UwGIsckKjbqeR-2Agdu7gwFdFLl1MBK0Upq4sweR2g-rYc</hi>
+                </ref>
+              </p>
+            </note> qui propose une route des écrivains de même qu’un site web
+          étoffé. Cette association a vu le jour en <date type="_temp" when="1982-10">octobre&#160;1982</date> à l’initiative d’un journaliste,
+          <persName type="_temp">Yves-Marie Debande</persName>, rédacteur en
+          chef du quotidien départemental <hi rend="italic">La Haute-Marne
+          Libérée</hi>, et s’appuie principalement sur deux écrivains locaux,
+          <persName ref="027103978" type="idref" xml:base="https://www.idref.fr/">Jean Robinet</persName> et
+          <persName ref="182575497" type="idref" xml:base="https://www.idref.fr/">Robert Collin</persName>. Son site
+          internet offre une carte de la route haut-marnaise des écrivains
+          historiques et permet une recherche par auteur. Le menu associé à
+          chaque auteur haut-marnais permet d’accéder à diverses informations
+          (lieux associés&#160;; biographie&#160;; section qui dresse une trame
+          narrative associant biographie et lieux&#160;; extraits d’œuvres,
+          etc.).</p>
+          <p xml:id="d1e287">Si les maisons d’écrivains sont également bien
+          présentes en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, ce n’est
+          que récemment qu’elles ont été valorisées en tant que lieux de vie
+          ou de production littéraire. Ceci s’explique par une mise en valeur
+          préférentielle des territoires de vie et de travail des écrivains
+          sous la forme de «&#160;parcs littéraires&#160;». Ces derniers ont vu le jour
+          dans la Péninsule au cours des <date from="1990" to="1999" type="_temp">années&#160;1990</date> «&#160;dans sept régions du Mezzogiorno
+          […] grâce à une subvention globale de la Commission européenne<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Les subventions globales sont destinées à aider les petites
+              organisations non gouvernementales (ONG), telles que les groupes
+              de volontaires et les associations locales, à obtenir un soutien
+              du Fonds social européen (FSE) et du Fonds européen de
+              développement régional. La gestion et la mise en œuvre des
+              subventions globales sont confiées à des organismes
+              intermédiaires, tels que des collectivités locales, des
+              associations de développement régional ou des ONG. L’organisme
+              intermédiaire est désigné par l’autorité régionale ou l’État
+              membre concerné, en accord avec la Commission européenne
+              (FEDER). Voir <ref target="https://ec.europa.eu/regional_policy/fr/policy/what/glossary/g/global-grants">
+                  <hi rend="underline">https://ec.europa.eu/regional_policy/fr/policy/what/glossary/g/global-grants</hi>
+                </ref>).</p>
+            </note>. <date from="1997" to="2001" type="_temp">De 1997 à
+          2001</date>, cette dernière a accordé un financement […] pour la
+          valorisation et le développement économique des zones les plus
+          marginales du Sud de l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, à
+          IG-Sviluppo Italia, à la Fondation Ippolito Nievo et au Touring Club
+          italien&#160;»<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Sorbello, 2010, p.&#160;274</p>
+            </note>. Les parcs littéraires italiens ne sont pas délimités d’un
+          point de vue spatial ou temporel «&#160;et accueillent les lieux décrits
+          dans les pages de la littérature par des auteurs à la notoriété
+          avérée aujourd’hui disparus&#160;»<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Brunelli, 2003, p.&#160;132</p>
+            </note>. Hormis quelques cas isolés, la plupart des parcs
+          littéraires ont été gérés depuis <date type="_temp" when="1992">1992</date> (année de la création du premier parc dédié
+          à <persName ref="031932827" type="idref" xml:base="https://www.idref.fr/">Ippolito Nievo</persName>, situé à
+          cheval sur les provinces d’<placeName ref="3165071" type="geonames" xml:base="https://www.geonames.org/">Udine</placeName>, <placeName ref="6540112" type="geonames" xml:base="https://www.geonames.org/">Pordenone</placeName> et
+          <placeName ref="3164600" type="geonames" xml:base="https://www.geonames.org/">Venise</placeName>) par la
+          Fondation Ippolito Nievo. Depuis <date type="_temp" when="2012">2012</date>, la plupart d’entre eux sont gérés par une
+          entreprise privée liée à la Société Dante Alighieri<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Parchi Letterari®, Parco Letterario®, Paesaggio Culturale
+              Italiano® et les autres marques qui leur sont liées sont
+              enregistrées en Italie, dans l’Union européenne et au niveau
+              international au nom des sociétés <hi rend="italic">Paesaggio
+              Culturale Italiano Srl </hi>et <hi rend="italic">Società Dante
+              Alighieri </hi>(<ref target="http://www.parchiletterari.com/index.php">
+                  <hi rend="underline">http://www.parchiletterari.com/index.php</hi>
+                </ref>).</p>
+            </note>.</p>
+          <p xml:id="d1e317">À l’origine des parcs littéraires se trouve
+          toujours la présence d’une maison d’écrivain ou, de manière plus
+          générale, de lieux fréquentés par des écrivains, même si la
+          valorisation du territoire se fait de manière plus «&#160;aréale&#160;» que
+          ponctuelle. Les maisons sont nombreuses dans toute la Péninsule et
+          témoignent d’une vie et d’une production littéraires foisonnantes de
+          la part d’artistes classiques ou contemporains, italiens ou
+          étrangers. Une part importante des maisons d’écrivains est gérée par
+          des associations qui adhèrent à des guides, édités en version papier
+          ou numérique et présentant leurs objectifs, comme dans le cas de
+          l’association «&#160;Case di scrittori. Guide des maisons-musées, centres
+          d’études, associations, amicales d’écrivains italiens&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e319">«&#160;Le répertoire collecté
+          vous permet d’avoir une liste des maisons-musées, des centres
+          d’études, des fondations d’écrivains italiens ou d’autres pays
+          présents en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, accompagnée
+          de l’adresse et, dans la mesure du possible, de l’e-mail, du site
+          web, du matériel stocké et de l’activité générale. Il comprend à la
+          fois les maisons d’écrivains, qui sont un musée de la mémoire, et
+          les associations organisées pour mener des recherches et des études,
+          liées aux maisons des écrivains ou agissant individuellement,
+          privées comme publiques. De façon similaire aux publications des <hi rend="italic">Maisons d’écrivains </hi>françaises et <hi rend="italic">Writer’s houses </hi>anglaises déjà présentes depuis
+          un certain temps, l’association Case di scrittori a été conçue avant
+          tout pour équiper d’un guide les savants et ceux qui recherchent des
+          contacts et des références pour leurs intérêts littéraires, mais
+          aussi pour le touriste attentif aux références culturelles&#160;[…] Dans
+          la version web&#160;[…], nous offrons la possibilité gratuite d’intégrer
+          des maisons ou des institutions consacrées aux écrivains, ainsi que
+          l’inclusion d’épigraphes (plaque murale à la mémoire de l’écrivain&#160;:
+          «&#160;ici est né&#160;», «&#160;ici a vécu&#160;» ou «&#160;ici est mort&#160;»), avec
+          l’inscription en question et des photographies, afin de rendre le
+          parcours des visiteurs sur les lieux habités par l’écrivain le plus
+          complet possible&#160;»<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Case di Scrittori<hi rend="sup">©</hi> (2005) 2009-2021 –
+              Libraria Padova Editrice&#160;: <ref target="http://www.casediscrittori.it/info/default.asp">
+                  <hi rend="underline">http://www.casediscrittori.it/info/default.asp</hi>
+                </ref>
+              </p>
+            </note>.</quote>
+          <p xml:id="d1e338">La liste des maisons et institutions inscrites à
+          Case di scrittori est très large. Elle s’étend des «&#160;classiques&#160;»,
+          comme <persName ref="026674327" type="idref" xml:base="https://www.idref.fr/">Virgile</persName> ou <persName ref="026811081" type="idref" xml:base="https://www.idref.fr/">Dante</persName>, à des auteurs
+          plus contemporains, comme <persName ref="026653095" type="idref" xml:base="https://www.idref.fr/">Gabriele d’Annunzio</persName> ou
+          <persName ref="026820285" type="idref" xml:base="https://www.idref.fr/">Grazia Deledda</persName>, en
+          passant par <persName ref="02679537X" type="idref" xml:base="https://www.idref.fr/">Carlo Collodi</persName> (le
+          créateur de <persName ref="032993528" type="idref" xml:base="https://www.idref.fr/">Pinocchio</persName>), <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> ou encore
+          <persName type="_temp">Shelley</persName>.</p>
+          <p xml:id="d1e340">Parfois, des associations culturelles locales
+          gèrent de manière autonome certaines maisons d’écrivains et ne
+          cherchent pas à intégrer le réseau national. Elles disposent en
+          général d’un site internet et organisent des activités culturelles
+          saisonnières, souvent liées aux écrivains concernés, ainsi que des
+          visites de ces maisons-musées-archives. C’est le cas par exemple de
+          l’association «&#160;Amici di Francesco Biamonti&#160;» qui propose sur son
+          site internet un certain nombre d’informations sur l’auteur et sa
+          maison<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>«&#160;[…] la maison ayant appartenu à l’écrivain, située à San
+              Biagio della Cima (IM), à l’adresse Via Provinciale&#160;37, où se
+              trouve le Centre Francesco Biamonti&#160;[…] Le projet&#160;[…], supervisé
+              par un «&#160;comité scientifique&#160;» mis en place à l’Université de
+              Gênes, poursuit ses travaux grâce au soutien économique et
+              financier de la municipalité de San Biagio et aux conseils
+              attentifs de la famille de l’auteur&#160;». Voir <ref target="http://www.francescobiamonti.it/associazione/associazione.html">
+                  <hi rend="underline">http://www.francescobiamonti.it/associazione/associazione.html</hi>
+                </ref>
+              </p>
+            </note>.</p>
+          <p xml:id="d1e349">Le même site renseigne sur une série d’activités
+          qui permettent de découvrir l’œuvre de l’écrivain, ses réflexions
+          sur la gestion du territoire et du paysage, mais aussi de donner vie
+          à des initiatives proches de ses préoccupations. Le comité
+          scientifique universitaire de cette association, qui a obtenu un
+          financement d’une fondation bancaire, a créé un parc littéraire à
+          partir de la maison et du village de <placeName ref="6537046" type="geonames" xml:base="https://www.geonames.org/">San Biagio
+          della Cima</placeName>, ainsi que le Parco Biamonti<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>
+                <ref target="https://www.sanbiagiodellacima.gov.it/il-parco-biamonti/">
+                  <hi rend="underline">https://www.sanbiagiodellacima.gov.it/il-parco-biamonti/</hi>
+                </ref>
+              </p>
+            </note>. Le site explicite les raisons qui ont motivé la création
+          de ce parc, rattaché à la maison de l’écrivain.</p>
+          <quote rend="quotation" xml:id="d1e358">«&#160;Le projet de création à
+          <placeName ref="6537046" type="geonames" xml:base="https://www.geonames.org/">San Biagio della
+          Cima</placeName> du parc littéraire interactif dédié à <persName ref="052495787" type="idref" xml:base="https://www.idref.fr/">Francesco Biamonti</persName> naît
+          de la volonté administrative de suivre un chemin de valorisation du
+          territoire, à travers la récupération et la promotion de ses
+          spécificités culturelles, dans le dialogue et l’interaction avec les
+          réalités associatives actives présentes en ces lieux – dans ce cas
+          spécifique, en lien avec l’association Amici di Francesco Biamonti,
+          qui depuis des années promeut des initiatives culturelles dans
+          différents domaines thématiques, mêlant littérature, art et culture
+          du paysage compris comme “patrimoine naturel et culturel qui
+          constitue la spécificité de notre territoire”. Œuvrant, entre autres
+          initiatives, à l’identification et à la valorisation de certains
+          itinéraires sur les lieux mentionnés dans l’œuvre de l’écrivain et
+          qui lui sont les plus chers […], l’objectif final est de partir de
+          ce projet comme d’une première étape et d’un modèle de référence
+          dans le sens de la création d’un réseau d’interventions ouvertes,
+          connectées et “communicantes”, pour proposer une offre culturelle,
+          touristique et économique qui dépasse la frontière communale, un
+          modèle de défense du territoire et qui en tire encore plus de
+          vitalité pour se renouveler&#160;»<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <ref target="http://www.parcobiamonti.it/?page_id=13">
+                  <hi rend="underline">http://www.parcobiamonti.it/?page_id=13</hi>
+                </ref>
+              </p>
+            </note>.</quote>
+          <p xml:id="d1e367">Dans d’autres cas encore, les maisons d’écrivains
+          italiennes sont insérées dans des itinéraires littéraires. C’est le
+          cas par exemple de la maison natale de <persName ref="027074951" type="idref" xml:base="https://www.idref.fr/">Luigi
+          Pirandello</persName>, située dans la campagne d’<placeName ref="2525764" type="geonames" xml:base="https://www.geonames.org/">Agrigente</placeName>, qui fait
+          partie du parc littéraire éponyme et est insérée dans la «&#160;<foreign xml:lang="ita">Strada degli scrittori siciliani</foreign>&#160;» (Route
+          des écrivains siciliens), qui traverse le parc archéologique de la
+          «&#160;vallée des Temples&#160;» à <placeName ref="2525764" type="geonames" xml:base="https://www.geonames.org/">Agrigente</placeName>. La
+          maison est ainsi présentée sur la page web de Strada degli scrittori
+          consacrée à l’auteur&#160;:</p>
+          <quote rend="quotation" xml:id="d1e369">«&#160;La bastide où est né le
+          grand dramaturge est une construction rurale de la <date from="1700" to="1750" type="_temp">première moitié du 18<hi rend="sup">e</hi>&#160;siècle</date>. Elle demeura toujours dans le cœur
+          de l’écrivain, qui passa son enfance et son adolescence dans ce lieu
+          et s’y arrêtera à chaque retour à <placeName ref="2525764" type="geonames" xml:base="https://www.geonames.org/">Agrigente</placeName>, jusqu’en
+          <date type="_temp" when="1922">1922</date>. La dernière visite de
+          <persName ref="027074951" type="idref" xml:base="https://www.idref.fr/">Pirandello</persName> à la maison
+          du Caos (<foreign xml:lang="scn">Càvusu</foreign> en sicilien)
+          remonte à <date type="_temp" when="1934">1934</date>, deux ans avant
+          sa mort. Ses cendres, placées dans un vase grec à figures, que
+          <persName ref="027074951" type="idref" xml:base="https://www.idref.fr/">Pirandello</persName> avait reçu de
+          sa famille à l’été <date type="_temp" when="1924">1924</date>, ont
+          été transférées en <date type="_temp" when="1946">1946</date> de
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> au Musée
+          civique d’<placeName ref="2525764" type="geonames" xml:base="https://www.geonames.org/">Agrigente</placeName> où elles
+          sont restées jusqu’en <date type="_temp" when="1956">1956</date>
+          lorsque, à l’occasion du vingtième anniversaire de sa mort, elles
+          ont trouvé place dans la maison du Caos. Cette dernière, où il est
+          né en <date type="_temp" when="1867">1867</date>, a été déclarée
+          monument national et appartient depuis <date type="_temp" when="1952">1952</date> à la Région de <placeName ref="2523119" type="geonames" xml:base="https://www.geonames.org/">Sicile</placeName>. Depuis
+          <date type="_temp" when="1987">1987</date>, c’est un musée où sont
+          réunis des reliques, des photographies, des lettres, des
+          décorations, des documents relatifs à <persName ref="027074951" type="idref" xml:base="https://www.idref.fr/">Luigi
+          Pirandello</persName>&#160;»<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>
+                <ref target="https://www.stradadegliscrittori.com/">
+                  <hi rend="underline">https://www.stradadegliscrittori.com/</hi>
+                </ref>
+              </p>
+            </note>.</quote>
+          <figure xml:id="d1e381">
+            <head xml:id="d1e382">Exemples de parcs littéraires
+            italiens</head>
+            <p xml:id="d1e384">Extrait de la plaquette de présentation de I
+            Parchi Letterari®<note n="25" place="foot" type="standard" xml:id="ftn25">
+                <p>
+                  <ref target="https://www.parchiletterari.com/files/allegati/pieghevole_paesaggio_Culturale_Parchi_Letterari_1.pdf">
+                    <hi rend="underline">https://www.parchiletterari.com/files/allegati/pieghevole_paesaggio_Culturale_Parchi_Letterari_1.pdf</hi>
+                  </ref>
+                </p>
+              </note>
+            </p>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e392">
+          <head subtype="level1" xml:id="d1e393">Conclusion</head>
+          <p xml:id="d1e395">Ouverte au public, la maison d’écrivain peut
+          faire l’objet d’un droit d’entrée, avoir des plages horaires plus ou
+          moins étendues, parler aux cinq sens ou pas, contenir ou non
+          l’ameublement d’origine, la bibliothèque de l’auteur, des documents
+          accessibles, une boutique, offrir des activités connexes… En
+          débordant du cadre strict de l’œuvre et de son auteur, elle peut
+          également diffuser de l’information et offrir des expériences
+          sensorielles relevant du lieu ou de l’époque, même fictifs,
+          artificialisés. En s’appuyant sur l’auteur et l’œuvre, la maison
+          d’écrivain apparaît bien comme une «&#160;passerelle&#160;» permettant de
+          mettre en relation les visiteurs et le «&#160;génie du lieu&#160;». Intégrée
+          dans un réseau, elle permet de découvrir tout un territoire.</p>
+          <p xml:id="d1e397">Cependant, si leur valorisation est de plus en
+          plus souvent pensée par les acteurs locaux comme un moyen de
+          promouvoir le développement local, les maisons d’écrivains peuvent
+          également contribuer à donner une seconde vie aux œuvres, à
+          renouveler le lectorat, ainsi que l’a observé <persName ref="200038257" type="idref" xml:base="https://www.idref.fr/">Aurore
+          Bonniot</persName> pour <persName ref="027121577" type="idref" xml:base="https://www.idref.fr/">George Sand</persName> et <persName ref="027070530" type="idref" xml:base="https://www.idref.fr/">Charles-Louis Philippe</persName>.
+          En effet, la plupart des chercheurs qui s’intéressent aux maisons
+          d’écrivains, et plus largement au tourisme littéraire, comme
+          <persName ref="028841360" type="idref" xml:base="https://www.idref.fr/">David Herbert</persName> ou
+          <persName ref="200038257" type="idref" xml:base="https://www.idref.fr/">Aurore Bonniot</persName>, ont
+          montré que souvent la vie ou l’œuvre de l’artiste ne constituent pas
+          la raison principale de la visite de sa maison. Parmi les motifs
+          énoncés par les personnes interrogées s’affirment d’autres facteurs,
+          comme la présence de la maison d’écrivain sur le lieu de
+          villégiature, son intérêt en termes de qualités esthétiques ou ses
+          aménagements, ou encore la réputation qu’on imagine pouvoir se
+          construire en annonçant qu’on a effectué une visite socialement
+          valorisée.</p>
+          <p xml:id="d1e399">Si certains touristes peuvent donc chercher
+          comment les pérégrinations d’un texte qu’ils apprécient peuvent leur
+          servir de cadre de référence pour découvrir les lieux réels ou qui
+          ont inspiré l’auteur, a contrario d’autres peuvent être tentés de
+          lire les œuvres d’un écrivain après une visite qui les a
+          séduits.</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e402">
+        <head xml:id="d1e403">Orientations bibliographiques</head>
+        <listBibl xml:id="d1e405">
+          <bibl type="orig" xml:id="d1e406">Andersen, H-C. et Robinson, M.
+          (dir.), <hi rend="italic">Literature and Tourism&#160;: Reading and
+          Writing Tourism Texts</hi>, London, Continuum, 2002</bibl>
+          <bibl type="orig" xml:id="d1e411">Bedard, M. et Lahaie, C. (dir.),
+          dossier «&#160;Géographie et littérature&#160;», in <hi rend="italic">Cahiers
+          de Géographie du Québec</hi>, 52, 2008, n<hi rend="sup">o</hi>&#160;147</bibl>
+          <bibl type="orig" xml:id="d1e419">Benson, M., «&#160;Deconstructing
+          Belonging in Lifestyle Migration&#160;: Tracking the Emotional
+          Negotiations of the British in Rural France&#160;», in <hi rend="italic">European Journal of Cultural Studies</hi>, 19(5),
+          2016, p.&#160;481-494</bibl>
+          <bibl type="orig" xml:id="d1e424">Bonniot, A., <hi rend="italic">Imaginaire des lieux et attractivité des territoires.
+          Imaginaire des lieux et attractivité des territoires. Une entrée par
+          le tourisme littéraire. Maisons d’écrivain, routes et sentiers
+          littéraires</hi>, thèse de doctorat en géographie, Université Blaise
+          Pascal, Clermont-Ferrand, 2016</bibl>
+          <bibl type="orig" xml:id="d1e429">Bonniot, A. et Blasquet, H., «&#160;De
+          l’œuvre aux lieux&#160;: la maison d’écrivain pour passerelle (France)&#160;»,
+          in <hi rend="italic">Territoire en mouvement. Revue de géographie et
+          aménagement</hi>, 31 | 2016 [en ligne&#160;: <ref target="http://tem.revues.org/3722">
+              <hi rend="underline">http://tem.revues.org/3722</hi>
+            </ref>]</bibl>
+          <bibl type="orig" xml:id="d1e438">Bonniot, A. et Fournier, M.,
+          «&#160;Regard sur l’héritage littéraire de Jean Giraudoux à Bellac&#160;», in
+          Jişa S. et al. (dir.), <hi rend="italic">Jean Giraudoux&#160;:
+          Écrire/décrire ou le regard créateur</hi>, Cluj Napoca, Casa Cărţii
+          de Ştiinţă, 2013, p.&#160;251-262</bibl>
+          <bibl type="orig" xml:id="d1e443">Broomhalls, S. et Spinks, J.,
+          «&#160;Interpreting place and past in narratives of Dutch heritage
+          tourism&#160;», in <hi rend="italic">Rethinking History</hi>, 14(2),
+          2010, p.&#160;267–285</bibl>
+          <bibl type="orig" xml:id="d1e448">Brosseau, M., <hi rend="italic">Des Romans-géographes</hi>. <hi rend="italic">Essai</hi>, Paris, L’Harmattan, 1996</bibl>
+          <bibl type="orig" xml:id="d1e456">Brosseau, M. et Cambron, M.,
+          «&#160;Entre géographie et littérature&#160;: frontières et perspectives
+          dialogiques&#160;», in <hi rend="italic">Recherches sociographiques</hi>,
+          vol.&#160;44, 2003, n<hi rend="sup">o</hi>&#160;3, p.&#160;525-547</bibl>
+          <bibl type="orig" xml:id="d1e464">Brunelli, C., «&#160;Per un nuovo
+          approccio al parco letterario&#160;», in <hi rend="italic">Geotema</hi>,
+          n<hi rend="sup">o</hi>&#160;20, 2003, p.&#160;132-139</bibl>
+          <bibl type="orig" xml:id="d1e472">Fabre, D., «&#160;Maison d’écrivain,
+          l’auteur et ses lieux&#160;», in <hi rend="italic">Le Débat</hi>, 3(115),
+          2001, p.&#160;172-177</bibl>
+          <bibl type="orig" xml:id="d1e478">Fabre, D., «&#160;La conquête de
+          l’ubiquité à la recherche de l’aura perdue&#160;», in <hi rend="italic">FMEPL, Actes des 7</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> rencontres des maisons d’écrivain. Lieux littéraires
+          et cultures en Europe</hi>, Bourges, 15-16-17&#160;novembre&#160;2002,
+          p.&#160;13-20</bibl>
+          <bibl type="orig" xml:id="d1e487">Fédération nationale des maisons
+          d’écrivain &amp; des patrimoines littéraires (FMEPL), Enquête sur
+          les maisons d’écrivain, pour le compte du ministère de la Culture et
+          de la Communication -Service du livre et de la lecture, 2012</bibl>
+          <bibl type="orig" xml:id="d1e489">Fournier, M., «&#160;Mémoire et récit à
+          l’épreuve des lieux&#160;: itinéraires de randonnée et clusterisation
+          touristique linéaire – Exemples du Chemin de Saint-Jacques (GR 65)
+          et du Chemin de Stevenson (GR 70)&#160;». Communication présentée au
+          colloque «&#160;Le tourisme de mémoire, un atout pour les collectivités
+          territoriales&#160;;&#160;», Clermont-Ferrand, 2015. Actes numériques&#160;: <ref target="http://fr.calameo.com/read/001796153c9863558ce5b">
+              <hi rend="underline">http://fr.calameo.com/read/001796153c9863558ce5b</hi>
+            </ref>
+          </bibl>
+          <bibl type="orig" xml:id="d1e494">Fournier, M. et Le Bel, P.-M., <hi rend="italic">Itinéraire littéraire en Bourbonnais. Constitution
+          d’un réseau de coopération pour la valorisation des patrimoines
+          littéraires et des écrivains bourbonnais</hi> [Rapport de recherche
+          final], Ceramac, 2017</bibl>
+          <bibl type="orig" xml:id="d1e499">Fournier, M. et Le Bel, P.-M.,
+          «&#160;Le tourisme littéraire, lire entre les lieux&#160;», in <hi rend="italic">Téoros</hi>, 37, 1 | 2018 [en ligne&#160;: <ref target="http://journals.openedition.org/teoros/3258">
+              <hi rend="underline">http://journals.openedition.org/teoros/3258</hi>
+            </ref>]</bibl>
+          <bibl type="orig" xml:id="d1e508">Hendrix, H. (éd.), <hi rend="italic">Writers’ Houses and the Making of Memory</hi>, London,
+          Routledge, 2008</bibl>
+          <bibl type="orig" xml:id="d1e513">Herbert, D., «&#160;Artistic and
+          literary places in France as tourist attractions&#160;», in <hi rend="italic">Tourism Management</hi>, 17(2), 1996, p.&#160;77-85</bibl>
+          <bibl type="orig" xml:id="d1e518">Herbert, D., «&#160;Literary places,
+          tourism and the heritage experience&#160;», in <hi rend="italic">Annals
+          of Tourism Research</hi>, 28(2), 200 p.&#160;312-333</bibl>
+          <bibl type="orig" xml:id="d1e523">Hoppen, A., Brown, L. et Fyall,
+          A., «&#160;Literary tourism&#160;: opportunities and challenges for the
+          marketing and branding of destinations&#160;;&#160;», in <hi rend="italic">Journal of Destination Marketing &amp;
+          Management</hi>, 2013, 3, p.&#160;37–47</bibl>
+          <bibl type="orig" xml:id="d1e528">Johnson, N., «&#160;Fictional
+          Journeys&#160;: Paper Landscapes, Tourist Trails and Dublin’s Literary
+          Texts&#160;», in <hi rend="italic">Social &amp; Cultural Geography</hi>,
+          vol.&#160;5, n<hi rend="sup">o</hi>&#160;1, 2004, p.&#160;91-107</bibl>
+          <bibl type="orig" xml:id="d1e536">Laing, J. et Frost, W., <hi rend="italic">Explorer Travelers and Adventure Tourism</hi>,
+          Bristol, Channel View Publications, 2014</bibl>
+          <bibl type="orig" xml:id="d1e542">Le Bel, P.-M. et Fournier, M.,
+          «&#160;Cheminement littéraire en Bourbonnais&#160;: une expérience de
+          recherche-action participative pour la valorisation de la ressource
+          littéraire du département de l’Allier (France)&#160;», in <hi rend="italic">Téoros</hi>, 37, 1 | 2018 [en ligne&#160;: <ref target="http://journals.openedition.org/teoros/3210">
+              <hi rend="underline">http://journals.openedition.org/teoros/3210</hi>
+            </ref>]</bibl>
+          <bibl type="orig" xml:id="d1e551">Lévy, B., <hi rend="italic">Géographie humaniste et littérature&#160;: l’espace
+          existentiel dans la vie et l’œuvre de Hermann Hesse
+          (1877-1962)</hi>, Thèse de doctorat, éd. Le Concept moderne, Genève,
+          1989</bibl>
+          <bibl type="orig" xml:id="d1e556">Melot, M., <hi rend="italic">Rapport à monsieur le ministre de la Culture, Mission
+          de réflexion et de proposition sur les maisons d’écrivain</hi>,
+          Paris, 1996</bibl>
+          <bibl type="orig" xml:id="d1e561">Melot, M., «&#160;Un nouveau
+          pèlerinage&#160;: la maison d’écrivain&#160;», in <hi rend="italic">Médium</hi>, 4(5), 2005, p.&#160;59-77</bibl>
+          <bibl type="orig" xml:id="d1e566">Martin-Jones, D., «&#160;Film tourism
+          as heritage tourism&#160;: Scotland, diaspora and The Da Vinci Code&#160;», in
+          <hi rend="italic">New Review of Film and Television Studies</hi>,
+          12(2), 2014, p.&#160;156-177</bibl>
+          <bibl type="orig" xml:id="d1e571">Mumby, F.-A., <hi rend="italic">Publishing and Bookselling&#160;: A History from the
+          Earlierst Times to the Present Day</hi>, 4<hi rend="sup">th</hi>&#160;ed., London, Jonathan Cape, 1956</bibl>
+          <bibl type="orig" xml:id="d1e579">Nora, O., «&#160;La visite au grand
+          écrivain&#160;», in Nora&#160;P., <hi rend="italic">Les Lieux de mémoire</hi>.
+          <hi rend="italic">La Nation</hi>, t.&#160;2, Paris, Gallimard, 1986,
+          p.&#160;563-587</bibl>
+          <bibl type="orig" xml:id="d1e587">O’Connor, N. et Kim, S.,
+          «&#160;Pictures and prose&#160;: exploring the impact of literary and film
+          tourism&#160;», in <hi rend="italic">Journal of Tourism and Cultural
+          Change</hi>, 12(1), 2013, p.&#160;1-17</bibl>
+          <bibl type="orig" xml:id="d1e592">Ousby, I., <hi rend="italic">The
+          Englishman’s England&#160;: Taste, Travel and the Rise of Tourism</hi>,
+          Cambridge, Cambridge University Press, 1990</bibl>
+          <bibl type="orig" xml:id="d1e597">Plate, L., «&#160;Walking in Virginia
+          Woolf’s Footsteps. Performing Cultural Memory&#160;», in <hi rend="italic">European Journal of Cultural Studies</hi>, vol.&#160;9,
+          n<hi rend="sup">o</hi>&#160;1, 2006, p.&#160;101-120</bibl>
+          <bibl type="orig" xml:id="d1e605">Pocock, D., «&#160;Geography and
+          Literature&#160;», in <hi rend="italic">Progress in Human Geography</hi>,
+          12 (1), 1988, p.&#160;87-102</bibl>
+          <bibl type="orig" xml:id="d1e611">Poisson, G., <hi rend="italic">Les
+          maisons d’écrivain</hi>, Paris, Presses universitaires de France,
+          1997</bibl>
+          <bibl type="orig" xml:id="d1e616">Régnier, M.-C., «&#160;La maison-musée
+          de Corneille à Petit-Couronne&#160;: mise en scène de l’écrivain à
+          demeure&#160;», in <hi rend="italic">Culture &amp; Musées</hi>, 34 | 2019
+          [en ligne&#160;: <ref target="https://doi.org/10.4000/culturemusees.3704">
+              <hi rend="underline">https://doi.org/10.4000/culturemusees.3704</hi>
+            </ref>]</bibl>
+          <bibl type="orig" xml:id="d1e625">Renouf, L. et Culot, M., <hi rend="italic">Rapport à monsieur le ministre de la Culture. Étude
+          sur les maisons d’écrivains, d’artistes et d’hommes célèbres.
+          Inventaire et propositions</hi>, Paris, 1990</bibl>
+          <bibl type="orig" xml:id="d1e630">Robinson, M. et Andersen, H.-C.
+          (dir.), <hi rend="italic">Literature and Tourism&#160;: Essays in the
+          Reading and Writing of Tourism</hi>, Londres, Thomson, 2004</bibl>
+          <bibl type="orig" xml:id="d1e635">Sorbello, M., «&#160;I territori del
+          Parco Letterario “La Terra impareggiabile” di Salvatore Quasimodo.
+          Recupero della memoria e valorizzazione sostenibile&#160;», in Persi,
+          P.&#160;(éd.), <hi rend="italic">Territori emotivi. </hi>
+            <hi rend="italic">Geografie emozionali</hi>, Urbino, Dipartimento di
+          Psicologia e del Territorio-Univ. di Urbino, 2010, p.&#160;273-282</bibl>
+          <bibl type="orig" xml:id="d1e642">Smith, Y., <hi rend="italic">Literary tourism as developing genre&#160;: South Africa’s
+          potential</hi>, Thèse de doctorat, Department of Historical and
+          Heritage Studies, Faculty of Humanities, University of Pretoria,
+          2012</bibl>
+          <bibl type="orig" xml:id="d1e647">Squire, S.-J., <hi rend="italic">Meanings, myths and memories&#160;: literary tourism as
+          cultural discourse in Beatrix Potter’s Lake District</hi>, PhD
+          thesis, University College, University of London, 1992</bibl>
+          <bibl type="orig" xml:id="d1e652">Squire, S.-J., «&#160;Valuing
+          Countryside&#160;: Reflections on Beatrix Potter Tourism&#160;», in <hi rend="italic">Area</hi>, 25, 1993, p.&#160;5-10</bibl>
+          <bibl type="orig" xml:id="d1e657">Squire, S.-J., «&#160;Literary tourism
+          and sustainable tourism&#160;: Promoting ‘Anne of Green Gables’ in Prince
+          Edward Island&#160;», in <hi rend="italic">Journal of Sustainable
+          Tourism</hi>, 4(3), 1996, p.&#160;9-134</bibl>
+          <bibl type="orig" xml:id="d1e662">Trauer, Birgit, «&#160;Conceptualizing
+          Special Interest Tourism&#160;: Frameworks for Analysis&#160;», in <hi rend="italic">Tourism Management</hi>, n<hi rend="sup">o</hi>&#160;27,
+          2006, p.&#160;183-200</bibl>
+          <bibl type="orig" xml:id="d1e670">Tuan, Y.-F., «&#160;Literature and
+          geography&#160;: implications for geographical research&#160;», in D.&#160;Ley et
+          M.&#160;S.&#160;Samuels (dir.), <hi rend="italic">Humanistic geography
+          -Prospects and problems</hi>, Chicago, Maaroufa Press, 1978,
+          p.&#160;194-206</bibl>
+          <bibl type="orig" xml:id="d1e676">Watson, N.-J., <hi rend="italic">The Literary Tourist&#160;: Readers and Places in Romantic
+          and Victorian Britain</hi>, Basingstoke, Palgrave Macmillan,
+          2006</bibl>
+          <bibl type="orig" xml:id="d1e681">Watson, N.-J. (éd.), <hi rend="italic">Literary Tourism and Nineteenth-Century Culture</hi>,
+          Basingstoke, Palgrave Macmillan, 2009</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

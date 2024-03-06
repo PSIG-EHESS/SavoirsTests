@@ -1,0 +1,850 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-10-09T10:45:16.729+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_20_Spyns.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le musée de la Bibliothèque royale de Belgique&#160;: un
+        changement dans la culture des bibliothèques</title>
+        <author role="aut">
+          <forename>Joachim</forename>
+          <surname>Spyns</surname>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/ET4QS4LT" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Le musée de la Bibliothèque royale de Belgique :
+            un changement dans la culture des bibliothèques</title>
+            <idno type="DOI">10.4000/rbnu.3685</idno>
+            <title type="short">Le musée de la Bibliothèque royale de
+            Belgique</title>
+            <author>
+              <forename>Joachim</forename>
+              <surname>Spyns</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">20</biblScope>
+              <biblScope unit="page">84-91</biblScope>
+              <date>2019</date>
+              <note type="accessed">2022-07-07T10:05:35Z</note>
+              <note type="url">https://journals.openedition.org/rbnu/3685</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2800866" type="geonames" xml:base="https://www.geonames.org/">Bruxelles</placeName>
+          </term>
+          <term>
+            <placeName ref="2802361" type="geonames" xml:base="https://www.geonames.org/">Belgique</placeName>
+          </term>
+          <term>
+            <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque royale de
+            Belgique</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="2006" to="2016" type="_temp">2006-2016</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T14:00:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Le musée de la
+          Bibliothèque royale de Belgique&#160;: un changement dans la culture des
+          bibliothèques</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Joachim Spyns</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Responsable d’accompagnement des
+          publics, Bibliothèque royale de Belgique</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e50">
+          <head subtype="level1" xml:id="d1e51">Un trésor caché depuis
+          600&#160;ans</head>
+          <p xml:id="d1e53">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-h5xg2swx">collectionneur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-ojc6hf5g">mécénat</term>
+              </term>
+            </term>
+            <date from="1400" to="1499" type="_temp">Il y a six siècles</date>,
+          <placeName ref="2800866" type="geonames" xml:base="https://www.geonames.org/">Bruxelles</placeName>
+          appartenait aux riches et puissants ducs de Bourgogne. Fins
+          politiques et mécènes cultivés, ils se sont constitué un émouvant
+          trésor&#160;: une collection unique et fascinante de manuscrits.</p>
+          <p xml:id="d1e55">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Ces
+          chefs-d’œuvre, rescapés des outrages du temps et de l’Histoire, ont
+          été confiés aux soins de la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque royale de
+          Belgique</placeName> (KBR). En <date type="_temp" when="2020-05">mai&#160;2020</date>, celle-ci ouvrira ses coffres pour en
+          partager les splendeurs dans son nouveau musée. Cet article se
+          propose d’expliquer la stratégie sous-jacente à ce projet –&#160;parce
+          qu’après tout, une bibliothèque, ce n'est pas un musée, n’est-ce
+          pas&#160;?</p>
+          <p xml:id="d1e57">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                </term>
+              </term>
+            </term>«&#160;Certains
+          lieux, comme la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName>, sont
+          immuables&#160;», écrivait il y a environ vingt ans l’historienne belge
+          <persName ref="057225869" type="idref" xml:base="https://www.idref.fr/">Sophie
+          de&#160;Schaepdrijver</persName>
+            <note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>S.&#160;Schaepdrijver, «&#160;L’Albertine disparue&#160;»<hi rend="italic">,
+              </hi>in <hi rend="italic">De&#160;Standaard</hi>, 10&#160;juin&#160;2000</p>
+            </note>. Tous ceux qui, étudiants ou chercheurs, ont eu la chance,
+          ou la malchance –&#160;selon les souvenirs ou les goûts personnels&#160;– de
+          se servir des bannettes de la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> partageront
+          sans doute cette affirmation. Ceux qui n’ont pas pénétré dans
+          l’imposant bâtiment moderniste du Mont des Arts, au cœur de
+          <placeName ref="2800866" type="geonames" xml:base="https://www.geonames.org/">Bruxelles</placeName> (voir
+          ill. ci-dessous), depuis dix ans, auront aussi certainement
+          l’impression que le temps s’est arrêté. Toutefois, ce qui a
+          fondamentalement changé au cours des dix dernières années, ce sont
+          les usagers de la bibliothèque. Or l’évolution des besoins des
+          utilisateurs s'avère cruciale dans la remise en question apportée
+          par les mutations dans la culture des bibliothèques.</p>
+          <figure xml:id="d1e69">
+            <graphic url="https://didomena.ehess.fr/downloads/cv43p5304.jpg"/>
+            <head xml:id="d1e70">Figure 1. La Bibliothèque royale de Belgique
+            (KBR) au Mont des Arts à Bruxelles. © et clichés KBR</head>
+          </figure>
+          <p xml:id="d1e74">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-tddokewq">scientificité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>Avec
+          plus de huit millions de références, la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName>
+          est la plus grande «&#160;mémoire&#160;» littéraire et scientifique de
+          <placeName ref="2802361" type="geonames" xml:base="https://www.geonames.org/">Belgique</placeName>.
+          L’institution rassemble toutes les publications d’auteurs belges et
+          conserve notamment de nombreux livres historiques, manuscrits,
+          journaux, gravures, partitions, pièces de monnaie, tous aussi
+          précieux les uns que les autres. En tant que bibliothèque nationale,
+          la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> est chargée de
+          rassembler, gérer et conserver ce patrimoine et de le rendre
+          accessible au grand public. Il s’agit avant tout d’une bibliothèque
+          de conservation, c’est-à-dire que les œuvres peuvent y être
+          consultées, mais en aucun cas empruntées. La valeur intrinsèque de
+          cette mission n’est pas un objet de discussions, et pourtant le
+          débat sur le rôle et l’avenir de l’institution –&#160;et par extension
+          des bibliothèques en général&#160;– est plus que jamais d'actualité<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>M.&#160;d’Hoore, D.&#160;Leyder et P.&#160;Lefèvre, «&#160;In Goede en kwade
+              dagen. De toekomst van de Bibliotheek&#160;», in <hi rend="italic">Archief- en Bibliotheekwezen in België, </hi>2015,
+              t.&#160;LXXXVI, 1-4, p.&#160;250</p>
+            </note>. Paradoxalement, la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> n’a jamais
+          accueilli autant de visiteurs au cours de ce dernier quart de siècle
+          que ces cinq dernières années. À l’inverse, les consultations
+          d'ouvrages, elles, sont à la baisse<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Depuis 2006, la bibliothèque a connu une augmentation
+              constante du nombre de visiteurs. En 2016, 60&#160;603&#160;lecteurs ont
+              franchi les portes de la salle de lecture générale de la KBR,
+              soit une augmentation de 63&#160;% par rapport à 2006 (sources&#160;:
+              rapports annuels KBR, archives de gestion KBR 2006-2016).</p>
+            </note>. Cela vaut non seulement pour les bibliothèques nationales
+          et scientifiques, mais aussi pour les bibliothèques publiques, où la
+          prestation de services et le prêt de livres ont toujours occupé une
+          place centrale et où le nombre de visiteurs a augmenté, tandis que
+          celui des prêts diminuait. Le «&#160;modèle économique&#160;» traditionnel des
+          bibliothèques se heurte donc à des difficultés<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>B.&#160;Verbergt, L.&#160;de Snijder et D.&#160;de Sadeleer, <hi rend="italic">Waauw hier leest men boeken, Inspiratiegids voor
+              Bibliotheek en boekhandel</hi>, Tielt, 2013, p.&#160;136</p>
+            </note>.</p>
+          <p xml:id="d1e93">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-h24ux4bz">bibliothécaire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                </term>
+              </term>
+            </term>La
+          relation entre le public et la bibliothèque a évolué, les usagers
+          <hi rend="italic">utilisent </hi>la bibliothèque différemment.
+          Celles-ci ont évolué au fil de l’histoire et vont continuer dans
+          cette voie pour s’adapter aux priorités et aux intérêts des usagers
+          et de la société<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>J.&#160;W.&#160;P.&#160;Campbell, <hi rend="italic">The Library,
+              p.&#160;</hi>328</p>
+            </note>. Or l’évolution des attentes des usagers ainsi que la
+          révolution numérique, ou <hi rend="italic">virage numérique, </hi>de
+          notre société obligent les bibliothèques nationales à se pencher sur
+          des sujets qui étaient auparavant tabous, et à remettre en question
+          leur mission initiale. <persName type="_temp">Ashley
+          Elköf</persName>, bibliothécaire en chef chez BiblioTech, la
+          première bibliothèque publique 100&#160;% numérique au monde, défend une
+          nouvelle vision des bibliothèques et la nécessité de donner plus de
+          sens aux relations entre les bibliothécaires et les usagers<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>A.&#160;Eklöf, «&#160;The New Library Culture. Digital Library,
+              Non-Users, and Low-Income Communities&#160;», in M.&#160;d’Hoore,
+              D.&#160;Leyder et P.&#160;Lefèvre, op.&#160;cit., p.&#160;77-83</p>
+            </note>. Pour redonner de l’importance à son rôle auprès du grand
+          public, la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> devra aussi
+          quitter sa zone de confort et oser se réinventer en partie, en
+          adaptant son «&#160;modèle économique&#160;» traditionnel. C’est pour répondre
+          à cette nouvelle tendance qu’elle a souhaité proposer une nouvelle
+          expérience à ses visiteurs, en aménageant un espace de plus de
+          5&#160;000&#160;m² dans le bâtiment actuel de la bibliothèque. Ce nouveau
+          projet s’articule autour d’un musée qui renfermera la collection
+          unique de manuscrits médiévaux. Grâce à cette stratégie, la
+          bibliothèque entend toucher une nouvelle cible, à savoir les férus
+          de culture de tous les pays et les touristes. Dans cet article,
+          j’expliciterai ce choix en me fondant sur une analyse des visiteurs
+          actuels et potentiels qui auraient un intérêt pour ce nouveau musée
+          au sein de la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName>.</p>
+          <p xml:id="d1e111">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-4xzsjttc">chercheur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-j6k6mbcm">étudiant</term>
+              </term>
+            </term>D’une
+          part, signalons qu’il ne s’agit que d’une action précise. Il est
+          évident que la bibliothèque ne s’adresse pas seulement à ce groupe
+          cible et qu’à l’avenir, elle va développer d’autres activités que la
+          création de ce musée. Les chercheurs et les étudiants n’ont aucune
+          raison de s’inquiéter. Au détour de leurs visites à la bibliothèque,
+          ils pourront toujours feuilleter les vieux journaux, humer l’odeur
+          incomparable des incunables rarement ouverts et découvrir avec
+          euphorie une source qui ne se trouve nulle part ailleurs. La
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> continuera de
+          se concentrer sur son rôle de bibliothèque. Grâce au remaniement de
+          son système de gestion interne, à l’extension de la loi sur le dépôt
+          légal des publications électroniques, aux efforts intensifs dans le
+          domaine de la numérisation et aux projets de recherche basés sur les
+          humanités numériques, la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> va fortement
+          évoluer dans les prochaines années. Mais d’autre part, ce cas
+          illustre bien comment elle se voit contrainte de se réinventer pour
+          faire face à la révolution numérique, et donc aux nouveaux besoins
+          de ses visiteurs. Pour cela, une bonne stratégie marketing se révèle
+          primordiale.</p>
+          <figure xml:id="d1e113">
+            <graphic url="https://didomena.ehess.fr/downloads/c821gt07k.jpg"/>
+            <head xml:id="d1e114">Figure 2. La salle de lecture générale de la
+            KBR. © et clichés KBR</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e118">
+          <head subtype="level1" xml:id="d1e119">Le modèle économique des
+          bibliothèques sous pression</head>
+          <p xml:id="d1e121">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-jkk7ouj9">stratégie</term>
+              </term>
+            </term>Pour
+          les économistes, une stratégie marketing durable entre le client et
+          l’entreprise repose sur deux conditions&#160;: un produit ou un service
+          doit créer de la valeur pour l’utilisateur et générer de la valeur
+          pour l’organisation. «&#160;Si un produit ou un service ne parvient pas à
+          créer de la valeur, il est évidemment inutile de le commercialiser
+          […] Si la valeur créée par une entreprise privée n’est pas
+          suffisamment optimisée, l’offre n’est pas viable sur le long
+          terme&#160;»<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>P.&#160;Verdin et K.&#160;Tackx, «&#160;Are You Creating or Capturing Value?
+              A dynamic framework for sustainable strategy&#160;», in <hi rend="italic">M-RCBG Associate working paper series</hi>, 36,
+              2015, p.&#160;2</p>
+            </note>. Ce modèle prévoit quatre stades que chaque organisation
+          doit franchir, en fonction de la relation entre «&#160;création de
+          valeur&#160;» et «&#160;optimisation de valeur&#160;»&#160;: rêve, enfer, cauchemar et
+          paradis.</p>
+          <p xml:id="d1e130">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>Si
+          l’on veut analyser sous cet angle la stratégie de la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> en matière de
+          visiteurs, il est d’abord nécessaire de déterminer correctement les
+          indicateurs de «&#160;création de valeur&#160;» et d’«&#160;optimisation de
+          valeur&#160;». En nous basant sur la mission de la bibliothèque, nous
+          pouvons dire que, dans le cadre de la stratégie actuelle vis-à-vis
+          du public, la consultation des ouvrages dans les salles de lecture
+          détermine la valeur pour l'institution (optimisation de valeur)<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Journal officiel, arrêté royal du 26&#160;décembre modifiant
+              l'arrêté royal du 19&#160;juin&#160;1837 portant création de la
+              Bibliothèque royale.</p>
+            </note>. Le nombre de visiteurs peut être considéré comme un
+          indicateur permettant d’évaluer la capacité des salles de lecture à
+          répondre à un besoin sur un marché donné (création de valeur). Dans
+          l’idéal, une stratégie durable crée de la valeur pour toutes les
+          parties concernées. Lorsque la bibliothèque remplit sa mission, cela
+          donne un sens à l’institution et donc de la valeur. Est-ce toujours
+          le cas pour la bibliothèque&#160;? La réponse est négative. La <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> est
+          actuellement dans la phase marketing «&#160;enfer&#160;», du moins en termes
+          de relations avec ses visiteurs.</p>
+          <p xml:id="d1e135">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-to399vrl">évaluation
+          pédagogique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-j6k6mbcm">étudiant</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term type="concept"/>Avec 25&#160;655&#160;ouvrages consultés en <date type="_temp" when="2016">2016</date> contre 62&#160;239 il y a dix ans, et
+          63&#160;313&#160;visiteurs dans la salle de lecture générale en <date type="_temp" when="2016">2016</date> contre 42&#160;099 en <date type="_temp" when="2006">2006</date>, nous pouvons constater que la
+          relation actuelle usager-bibliothèque perd en importance aux yeux de
+          l’institution. Actuellement, les étudiants représentent 65 à 75&#160;% du
+          public de la salle de lecture de la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName>
+          (voir ill. ci-dessus)<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>En 2016, 8&#160;664&#160;cartes de lecteur, 4&#160;858&#160;cartes annuelles
+              «&#160;étudiants&#160;» et 1&#160;047&#160;cartes journalières ont été vendues
+              pendant la période des examens. Si nous nous basons sur ces
+              chiffres, nous pouvons en déduire que la majorité des personnes
+              ayant acheté ces cartes sont des étudiants. Nous ne disposons
+              toutefois pas de chiffres exacts, car dans les salles de
+              lecture, aucune distinction n'est faite entre les différents
+              types de cartes de lecteur (sources&#160;: rapports annuels KBR,
+              archives du conseil KBR 2006-2016).</p>
+            </note>. Ils y viennent pour étudier, surtout à l’approche de la
+          période d’examens universitaires. Seule une petite proportion
+          consulte encore les ouvrages dans la salle de lecture générale.
+          L’augmentation du nombre de visiteurs et, à l’inverse, la diminution
+          du nombre de consultations font perdre tout sens à cette
+          relation.</p>
+          <figure xml:id="d1e140">
+            <graphic url="https://didomena.ehess.fr/downloads/02871431x.jpg"/>
+            <head xml:id="d1e141">Figure 3. Nombre de visiteurs dans la salle
+            de lecture générale et la salle de travail par rapport au nombre
+            de consultations entre 2006 et 2016</head>
+          </figure>
+          <p xml:id="d1e143">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-6fdmybpt">monopole</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Au
+          vu de ces chiffres, nous pouvons affirmer que la relation entre la
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> et ses
+          visiteurs a créé de la valeur pour les deux parties, en particulier
+          jusqu’en <date type="_temp" when="2009">2009</date>, bien que la
+          tendance soit à la baisse depuis <date type="_temp" when="2006">2006</date>. La relation avait du sens et se déroulait
+          bien, ce qui est typique de la phase de «&#160;rêve&#160;», période où la
+          bibliothèque occupait une position de quasi-monopole. Jusqu’au
+          milieu des <date from="1990" to="1999" type="_temp">années&#160;90</date>
+          en effet, l’accès à l’information était encore largement entre les
+          mains des bibliothèques. Après cette phase, place à «&#160;l’enfer&#160;»&#160;:
+          les monopolistes courent le risque de ne plus récupérer leur statut
+          de tout puissant. Google voit le jour en <date type="_temp" when="1998">1998</date>. Vingt ans plus tard, le numérique est
+          devenu la norme et l’accès à l'information se généralise dans le
+          monde occidental.</p>
+        </div>
+        <div type="section1" xml:id="d1e145">
+          <head subtype="level1" xml:id="d1e146">Se concentrer sur le (nouvel)
+          utilisateur</head>
+          <p xml:id="d1e148">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-yenrhmkn">collaboration</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs</term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+              </term>
+            </term>La <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName>
+          doit nécessairement passer d’une approche axée sur la collection à
+          un modèle économique centré sur l’utilisateur. Elle a donc pris la
+          décision de combiner sa fonction de bibliothèque avec le
+          développement plus poussé de celle de musée, dont les collections
+          uniques attireront une nouvelle «&#160;cible&#160;» afin de rétablir une
+          relation durable avec un public aussi large que possible. Pour cela,
+          il faut tout d’abord préciser la mission et la raison d’être de
+          l’organisation. Dans un premier temps, il convient de déterminer le
+          public cible et de formuler une «&#160;proposition de valeur&#160;». Il faut
+          avant tout chercher à répondre à la question&#160;: «&#160;Quelle solution est
+          déjà proposée pour répondre aux besoins de mon public cible&#160;?&#160;» Afin
+          de nouer une relation fructueuse et durable entre l’usager et
+          l’institution, il est important de se fonder sur la singularité de
+          l'organisation et d’offrir de nouvelles expériences en phase avec
+          son identité et sa réputation uniques pour rester crédible. En
+          réformant la politique muséale et d’exposition via la création d’un
+          nouveau musée renfermant les manuscrits des ducs de Bourgogne, la
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> entend redonner
+          du sens à sa relation avec ses visiteurs.</p>
+          <p xml:id="d1e150">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-tddokewq">scientificité</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-unufqjx4">financement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-w5oap9ew">communication</term>
+              </term>
+            </term>Jusqu’à
+          la mi-<date type="_temp" when="2015">2015</date>, elle n’avait
+          jamais élaboré de stratégie muséale et d’exposition claire sur le
+          long terme, pour ce qui est de la planification de la communication,
+          des objectifs marketing, du nombre de visiteurs ou des objectifs
+          financiers. Depuis une dizaine d’années, les choix d’investissement
+          de la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> portent avant
+          tout sur la communication à un large public par le biais
+          d’expositions et d’événements. Jusqu’en <date type="_temp" when="2012">2012</date>, cela s’est principalement traduit par le
+          développement des infrastructures (par exemple l’acquisition de
+          présentoirs «&#160;high-tech&#160;» et l’ouverture de l’espace «&#160;Librarium&#160;»
+          en <date type="_temp" when="2010">2010</date>), le recrutement (le
+          département éducation a ainsi été élargi à 4&#160;ETP) et par un grand
+          projet d’exposition en <date from="2011" to="2012" type="_temp">2011-2012</date> («&#160;Miniatures flamandes&#160;»). Grâce à
+          une nomination en <date type="_temp" when="2012">2012</date> au Prix
+          du musée européen pour l’espace Librarium, à l’exposition permanente
+          de la bibliothèque consacrée aux livres et à l’écriture, ainsi
+          qu’aux critiques élogieuses de la presse internationale concernant
+          l’exposition «&#160;Miniatures flamandes&#160;», chacune de ces initiatives a
+          apporté une valeur ajoutée sur le plan éducatif et scientifique.
+          Cependant, le succès auprès du public a été décevant. L’exposition
+          «&#160;Miniatures flamandes&#160;», qui a attiré 22&#160;000&#160;visiteurs, a certes
+          marqué une rupture avec les expositions plus modestes de la
+          bibliothèque, mais cette stratégie n’a pas été renouvelée. Peu de
+          visiteurs individuels, de touristes ou d’amateurs de culture se sont
+          ensuite rendus à la bibliothèque pour une simple visite ou pour
+          participer à l’une de ses activités. Grâce à ses efforts au fil des
+          années, le département éducation a su attirer des écoles (primaires)
+          aux ateliers et aux visites guidées. En <date type="_temp" when="2014">2014</date>, les écoles secondaires figuraient parmi les
+          principaux publics de l’exposition «&#160;SHOCK&#160;! 1914&#160;», qui présentait
+          les collections de la bibliothèque consacrées à la <date from="1914-07-28" to="1918-11-11" type="_temp">Première Guerre
+          mondiale</date>. Mais en termes de participation du public, les
+          chiffres sont restés faibles. Sous l’impulsion des départements des
+          collections patrimoniales, cinq expositions ont été organisées au
+          cours des années suivantes (<date from="2014" to="2015" type="_temp">entre 2014 et 2015</date>), avec une moyenne de
+          1&#160;000&#160;visiteurs par exposition sur une période de trois mois.</p>
+          <figure xml:id="d1e152">
+            <graphic url="https://didomena.ehess.fr/downloads/q811kt29c.jpg"/>
+            <head xml:id="d1e153">Figure 4. L’espace « Librarium », espace
+            educatif au sein de la KBR. © et clichés KBR</head>
+          </figure>
+          <p xml:id="d1e157">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-tbav8ntb">pratique
+          corporelle<term ref="doi:10.34817/sv-mwsdfb7t">perception</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-j6k6mbcm">étudiant</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-w5oap9ew">communication</term>
+              </term>
+            </term>Malgré
+          une charge de travail élevée, les nombreux efforts déployés,
+          notamment en termes de communication, la refonte du Librarium et de
+          la politique d’exposition actuelle, les retombées en termes de
+          fréquentation se sont révélées faibles et insuffisantes pour
+          inverser la tendance. Quant aux efforts déployés pour dynamiser les
+          étudiants, ils se sont avérés vains. Les étudiants se rendent à la
+          bibliothèque pour y étudier, et non pour se détendre dans les salles
+          de l’exposition permanente du Librarium. Dans le cadre de leurs
+          études, des étudiants en marketing ont préconisé d’élargir le public
+          cible et de se concentrer sur une expérience articulée autour du
+          patrimoine, mettant en avant un emplacement privilégié dans
+          <placeName ref="2800866" type="geonames" xml:base="https://www.geonames.org/">Bruxelles</placeName> et des
+          infrastructures telles que la terrasse sur le toit et les jardins
+          intérieurs<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Pour le tutoriel «&#160;Planification du marketing&#160;» (2014-2015),
+              40&#160;étudiants en administration des entreprises et administration
+              publique ont élaboré cinq scénarios différents pour susciter
+              l’enthousiasme de «&#160;l'étudiant passif&#160;» de la KBR. Voir
+              H.&#160;de&#160;Vos, L.&#160;Pillen, L.&#160;Vermeulen et T.&#160;van&#160;Rompaey (2017), <hi rend="italic">Willingness to pay als weerspiegeling van de
+              premiummarkt voor de Librije van de Hertogen van de Bourgondië
+              en het Bourgondische netwerk van Vlaanderen </hi>(<hi rend="italic">Volonté de payer à la hauteur du marché haut de
+              gamme de la </hi>«&#160;<hi rend="italic">Librije van de Hertogen van
+              de Bourgondië&#160;</hi>» <hi rend="italic">et du réseau bourguignon
+              de la Flandre</hi>), thèse non publiée, KU&#160;Leuven, Louvain,
+              p.&#160;220.</p>
+            </note>. Les résultats de l’étude sur l’image et la perception de
+          la bibliothèque ont montré que l’institution était connue du grand
+          public pour son patrimoine et qu’elle était principalement associée
+          à ses manuscrits uniques, dont la valeur, jugée inestimable, attire
+          les visiteurs<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Observatoire public (2015), recherche sur l'image et la
+              perception des institutions scientifiques fédérales, BELSPO,
+              Bruxelles.</p>
+            </note>. Mettre davantage l’accent sur la communication et la
+          promotion ne suffisait donc pas à résoudre le problème. Bien que le
+          public connaisse déjà la bibliothèque, l’offre actuelle semblait
+          insuffisante, malgré l’intérêt qu’elle suscite.</p>
+          <p xml:id="d1e178">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>C'est ainsi
+          qu’à l'été&#160;<date type="_temp" when="2015">2015</date>, un projet
+          ambitieux a été élaboré pour la création d’un nouveau musée dans la
+          chapelle de Nassau, rassemblant les manuscrits des ducs de
+          Bourgogne, et pour la rénovation du palais de <persName ref="028336992" type="idref" xml:base="https://www.idref.fr/">Charles de Lorraine</persName> afin
+          d’en faire un lieu d'expositions temporaires. Après un long
+          processus de sélection, le gouvernement flamand a décidé d’allouer
+          une enveloppe d’environ 3,5&#160;millions d’euros à la création du musée
+          dans la chapelle de Nassau et à la rénovation du palais –&#160;soulignant
+          ainsi le potentiel évident de notre patrimoine pour servir de levier
+          au tourisme international. C’est pourquoi la collaboration entre
+          «&#160;Tourisme Flandre&#160;» et la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName>, qui peut
+          sembler un peu étrange de prime abord, est en fait évidente. Le
+          nouveau musée souhaite répondre à la demande existante d’expériences
+          patrimoniales authentiques et à l’intérêt pour le riche passé
+          historico-culturel de notre région, exprimé par les touristes et les
+          amateurs de culture, aussi bien belges qu’étrangers. Chaque année,
+          <placeName ref="2800866" type="geonames" xml:base="https://www.geonames.org/">Bruxelles</placeName> attire
+          plus de six millions de touristes<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Chiffres clés Tourisme Flandre, 2015.</p>
+            </note> pour ses atouts culturels, gastronomiques et
+          professionnels. Cependant, ces dernières années, la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName> a manifesté peu
+          ou pas d’intérêt pour ce public, alors qu’il représente un potentiel
+          énorme.</p>
+          <figure xml:id="d1e183">
+            <graphic url="https://didomena.ehess.fr/downloads/6108vk37v.jpg"/>
+            <head xml:id="d1e184">Figure 5. Les manuscrits des ducs de
+            Bourgogne, dont la collection sera exposée dans le nouveau musée
+            de la KBR à partir de mai&#160;2020. © et clichés KBR</head>
+          </figure>
+          <p xml:id="d1e188">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-icg5zods">région</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-gjengnux">chapelle</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Située
+          au cœur de la bibliothèque, la chapelle de Nassau, qui date du <date from="1500" to="1599" type="_temp">XVI<hi rend="sup">e</hi>&#160;siècle</date>, hébergera le nouveau musée. Les
+          visiteurs y découvriront le passé culturel médiéval de l’Europe et
+          les précieux trésors historiques des collections de la bibliothèque,
+          qui reflètent la prospérité de notre région au <date type="_temp">Moyen-Âge</date>, et plus particulièrement à l’<date type="_temp">âge d'or bourguignon</date>. Les manuscrits
+          authentiques de la «&#160;Librije&#160;» des ducs et leurs splendides
+          miniatures constituent le point culminant de la visite. La
+          bibliothèque abrite encore quelque 300&#160;manuscrits bourguignons
+          originaux, rédigés <date from="1300" to="1499" type="_temp">entre la
+          fin du XIV<hi rend="sup">e</hi>&#160;et la fin du XV<hi rend="sup">e</hi>&#160;siècle</date> et considérés comme des
+          chefs-d’œuvre de l’art de l’enluminure française ou flamande. Si
+          certains noms comme <persName ref="077275578" type="idref" xml:base="https://www.idref.fr/">Willem Vrelant</persName>,
+          <persName type="_temp">Jan de Tavernier</persName>, <persName ref="031822983" type="idref" xml:base="https://www.idref.fr/">Simon
+          Marmion</persName> ou <persName type="_temp">Lieven van
+          Lathem</persName> ne nous sont plus forcément familiers, ils étaient
+          en leur temps de véritables célébrités, au même titre que <persName ref="027321770" type="idref" xml:base="https://www.idref.fr/">Jan
+          Van Eyck</persName> ou <persName ref="028133277" type="idref" xml:base="https://www.idref.fr/">Rogier van der Weyden</persName>,
+          nos fameux «&#160;primitifs flamands&#160;». Cette collection de chefs-d’œuvre
+          doit servir de levier pour attirer un public nouveau et large, pour
+          qui la consultation d’ouvrages ne revêt peut-être plus d’intérêt,
+          mais pour qui le musée peut jouer un rôle.</p>
+        </div>
+        <div type="section1" xml:id="d1e199">
+          <head subtype="level1" xml:id="d1e200">Une bibliothèque
+          hybride</head>
+          <p xml:id="d1e202">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-t5ioxzdk">innovation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>La
+          bibliothèque de demain se veut hybride, à la croisée du physique et
+          du numérique, à l’image de ses usagers actuels et potentiels qui
+          sont la clé d’une stratégie durable. L’innovation numérique et
+          l’évolution rapide des besoins des usagers sont aujourd’hui
+          totalement imbriquées, au point qu’il n’est plus possible de les
+          dissocier. Pour pouvoir maintenir une relation durable et fructueuse
+          avec leurs usagers, les bibliothèques doivent réinventer toute
+          l’«&#160;expérience utilisateur&#160;». Le choix du musée montre en tout cas
+          que le plus grand défi pour une bibliothèque ne réside pas seulement
+          dans l’innovation technologique, mais dans sa capacité à redéfinir
+          sa mission traditionnelle et son public cible dans un nouveau
+          contexte. Face à la numérisation croissante des services
+          traditionnels des bibliothèques, la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">KBR</placeName>
+          a cherché à savoir comment sa collection physique pouvait encore
+          apporter une valeur ajoutée aux visiteurs et créer une relation
+          privilégiée avec le grand public. Il apparaît donc évident qu’il ne
+          s’agit pas seulement d’un nouveau musée, mais aussi d'une nouvelle
+          culture de bibliothèque qui entend faire passer le client et son
+          expérience avant tout. Cette tâche doit être effectuée au nom de
+          tous les usagers de la bibliothèque, et le marketing représente un
+          élément essentiel pour cette opération et pour l’institution. Le
+          chemin à suivre doit être clair, non seulement pour les personnes de
+          l’extérieur, mais aussi pour notre propre personnel, afin que chacun
+          sache comment il peut contribuer à créer de la valeur. «&#160;Nous
+          devrions commercialiser et promouvoir la bibliothèque comme si notre
+          travail en dépendait (ce qui de fait est la réalité)&#160;», déclare
+          encore <persName type="_temp">Ashley Eklöf</persName>
+            <note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Bibliothécaire en chef chez BiblioTech, la première
+              bibliothèque publique 100&#160;% numérique au monde à San Antonio,
+              Texas.</p>
+            </note> dans sa publication sur la nécessité d’une nouvelle
+          culture pour les bibliothèques<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>A.&#160;Eklöf, «&#160;The New Library Culture&#160;», op.&#160;cit., p.&#160;77-83</p>
+            </note>.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

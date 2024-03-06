@@ -1,0 +1,1625 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-11-05T14:50:41.886+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_24_Karagiannis-Mazeaud.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Maison(s) du poète&#160;: Georges Séféris,
+        1900-1971</title>
+        <author role="aut">
+          <forename>Édith</forename>
+          <surname>Karagiannis-Mazeaud</surname>
+          <idno type="IDREF">084439491</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/6G8FAC7Y" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Maison(s) du poète&#160;: Georges Séféris,
+            1900-1971</title>
+            <author>
+              <forename>Edith</forename>
+              <surname>Karagiannis-Mazeaud</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">24</biblScope>
+              <biblScope unit="page">70-85</biblScope>
+              <date>2021</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="ell"/>
+        <language ident="grc"/>
+        <language ident="tur"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-9z8fpxff">mythologie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-espxuzip">lettré</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>
+          </term>
+          <term>
+            <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName>
+          </term>
+          <term>
+            <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>
+          </term>
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+          <term>
+            <placeName ref="8133709" type="geonames" xml:base="https://www.geonames.org/">Poros</placeName>
+          </term>
+          <term>
+            <placeName ref="298316" type="geonames" xml:base="https://www.geonames.org/">Vourla</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1900" to="1971" type="_temp">1900-1971</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-27T12:37:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Maison(s) du poète&#160;:
+          Georges Séféris, 1900-1971</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Édith Karagiannis-Mazeaud</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Maîtresse de conférences HDR honoraire,
+          Université de Strasbourg</affiliation>
+        </byline>
+      </titlePage>
+      <div type="prelim" xml:id="d1e48">
+        <epigraph>
+          <quote xml:id="d1e50">«&#160;Σπίτι&#160;» (À la maison)<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Séféris inscrit ce mot tout seul au beau milieu d’une page
+              blanche de son <hi rend="italic">Journal </hi>le lendemain du
+              22&#160;octobre&#160;1944, où il rentre enfin chez lui à la Libération,
+              trêve de quarante-cinq jours avant le début de la guerre
+              civile.</p>
+            </note>
+          </quote>
+        </epigraph>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e60">
+          <head subtype="level1" xml:id="d1e61">«&#160;Mon adresse est
+          20&#160;rue&#160;Agras, Stade, Athènes&#160;»</head>
+          <p xml:id="d1e63">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-qsxs8rem">architecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+              </term>
+            </term>Murs
+          blancs, lumineux comme ceux de la demeure d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> dans <hi rend="italic">La Grive</hi>, volets bleu outremer, petit jardin
+          intérieur et toit plat surplombant le cœur d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>
+            <hi>(voir
+          ill. ci-contre)</hi>&#160;: la maison du poète <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Georges
+          Séféris</persName>, nom de plume pris en <date type="_temp" when="1931">1931</date> par <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Georges Séfériadis</persName>,
+          répond à la fois aux couleurs du drapeau grec et de l’Egée, à une
+          architecture d’inspiration cycladique typique des <date from="1960" to="1969" type="_temp">années soixante</date>, et au style sobre
+          mais souple du poète qui déteste les fioritures et la langue des
+          cuistres, en vers comme en prose. Nette, ample, confortable,
+          mitoyenne d’habitations de même hauteur, elle semble dépouillée et
+          presque modeste en comparaison des demeures athéniennes
+          néo-classiques, sans parler des imposants immeubles et villas des
+          quartiers les plus aisés. Elle s’inscrit dans le joli escarpement
+          d’une rue en partie piétonne qui jouxte le magnifique stade
+          Kalimarmaro, rénové pour les premiers jeux olympiques modernes avec,
+          en contre-bas, les colonnes de l’Olympeion et les beaux jardins du
+          Zappeion. Est-ce un hasard si l’enfant de l’opulente <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>, qui jouait
+          en vacances au milieu des vestiges de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Clazomènes</placeName>, choisit
+          pour sa retraite une maison nouvellement construite en un lieu
+          carrefour de toute l’histoire de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>&#160;? Elle borde
+          à la fois l’antique stade panathénaïque, le bourdonnant quartier de
+          Pangrati avec ses artisans, et quelques bâtiments témoins de ce
+          <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date> où, après la guerre d’indépendance
+          contre les Ottomans (à partir de <date type="_temp" when="1821">1821</date>), <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName> devient en
+          <date type="_temp" when="1832">1832</date> capitale de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. Notons aussi
+          sa position à proximité, mais un peu à l’écart et topographiquement
+          au-dessus de l’épicentre de la vie politique, la place Syntagma avec
+          le Palais royal, actuelle <foreign xml:lang="ell">Vouli</foreign>
+          (parlement). De la terrasse où un escalier conduit depuis la
+          véranda, le regard embrasse une large vue avec le Lykabette&#160;: pour
+          <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> qui a grandi en
+          front de mer, respirer, fuir tout enfermement physique, psychique,
+          intellectuel ou politique représente une exigence sine qua non.
+          Cette maison particulière, située également à deux pas du
+          remarquable Musée d’art moderne et contemporain inauguré en <date type="_temp" when="2019">2019</date> par la Fondation Goulandris,
+          appartient actuellement à <persName type="_temp">Anna
+          Lontou</persName>, seconde fille de <persName type="_temp">Marô</persName>, l’épouse du poète<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Voir <ref target="https://www.lifo.gr/now/athens/agras-20-sto-spiti-toy-giorgoy-seferi">
+                  <hi rend="underline">https://www.lifo.gr/now/athens/agras-20-sto-spiti-toy-giorgoy-seferi</hi>
+                </ref>&#160;; <ref target="https://www.portraits.gr/art-philanthropy/anna-lontou-h-progoni-tou-giorgou-seferi-anigi-to-spiti-tous">
+                  <hi rend="underline">https://www.portraits.gr/art-philanthropy/anna-lontou-h-progoni-tou-giorgou-seferi-anigi-to-spiti-tous</hi>
+                </ref>. Les contraintes de la pandémie ne nous ont pas permis
+              une entrevue avec madame Anna Lontou.</p>
+            </note>.</p>
+          <figure xml:id="d1e86">
+            <graphic url="https://didomena.ehess.fr/downloads/6m311z00v.jpg"/>
+            <head xml:id="d1e87">Figure 1. La maison de Georges Séféris,
+            20&#160;rue&#160;Agras, Athènes. Cliché Edith Karagiannis</head>
+          </figure>
+          <figure xml:id="d1e89">
+            <graphic url="https://didomena.ehess.fr/downloads/hx11xp60v.jpg"/>
+            <head xml:id="d1e90">Figure 2. Séféris sur la terrasse de sa
+            maison, rue Agras. Au fond, le Lykabette (1965). Photo Archives
+            MIET/Anna Lontou</head>
+          </figure>
+          <p xml:id="d1e92">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+              </term>
+            </term>«&#160;Mon
+          adresse est 20&#160;rue&#160;Agras, Stade, <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>&#160;»<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Lettre&#160;35 envoyée à Keeley de l’ambassade de Grèce à Londres,
+              [juillet&#160;61], Γιώργος Σεφέρης [Georges Séféris]-Edmund Keeley,
+              <hi rend="italic">Αλληλογραφία </hi>[Correspondance] 1951-1971,
+              Athènes, Ek.&#160;Agra, 1998, p.&#160;145, notre traduction.</p>
+            </note>, écrit <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> en <date type="_temp" when="1961-07">juillet&#160;1961</date>, de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> où il est
+          alors ambassadeur de <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. La nouvelle
+          demeure est prête et à plus d’un an de la retraite, la soif de
+          rentrer tenaille ce nouvel <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, frère de
+          <persName ref="032130759" type="idref" xml:base="https://www.idref.fr/">Du&#160;Bellay</persName> et surtout de
+          tous ceux qui ont été véritablement contraints de vivre loin de «&#160;la
+          maison&#160;», pierre fondatrice d’une poétique de la mémoire et de
+          l’amour, du drame de l’errance et du désir du retour, dans la
+          continuité d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e101">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-5wvg9nc7">héros</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-9z8fpxff">mythologie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-7dh8ptmc">voyage</term>
+              </term>
+            </term>«&#160;Heureux
+          qui a fait le voyage d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, heureux s’il a
+          senti, à son départ, l’armature d’un solide amour&#160;[…].<lb/>Parfois,
+          entouré d’exil, j’entends son bruissement soudain, semblable au
+          mugissement d’une mer soudaine saisie par l’ouragan.<lb/>Alors
+          surgit avec insistance devant moi l’ombre d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, les yeux rougis
+          par le sel de la vague. Et son lancinant désir de revoir la fumée de
+          son foyer et le chien qui a vieilli en l’attendant sur le
+          seuil.<lb/>Il me parle du chagrin de voir les voiles de son navire
+          gonflées par la mémoire, quand l’âme devient le gouvernail
+          […]&#160;»<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>«&#160;Sur un vers étranger&#160;», Londres, Noël 1931. Georges
+              Séféris, <hi rend="italic">Pages de Journal (1925-1971),
+              </hi>traduction du grec, choix, présentation et notes par Denis
+              Kohler, Mercure de France, 1988, p.&#160;129, désormais abrégé <hi rend="italic">Pages</hi>.</p>
+            </note>.</quote>
+          <p xml:id="d1e119">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-7dh8ptmc">voyage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-2quvas4j">professeur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+              </term>
+            </term>Ballotée
+          aux quatre vents, la vie de <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> est marquée par
+          le déracinement précoce de son Ionie natale, les massacres qui lui
+          impriment à jamais avec le sceau du «&#160;<foreign xml:lang="grc">nostos</foreign>&#160;» l’horreur de la violence, par des
+          études et un doctorat en droit à la Sorbonne imposés par son père,
+          professeur de droit et ardent vénizéliste, et par une carrière
+          diplomatique brillante mais à laquelle le poète ne s’est jamais
+          totalement identifié. De l’Asie Mineure à <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, puis à
+          travers le monde au fil de ses affectations et voyages, il n’a cessé
+          de déménager, voire d’«&#160;être déménagé&#160;»<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>«&#160;Έχω μετακομιστεί τόσες φορές στην ζωή μου που με πιάνει
+              λαχάνιασμα μόνο και με τη σκέψη&#160;» [On m’a tellement de fois fait
+              déménager dans ma vie que j’en ai le souffle coupé rien que d’y
+              penser], écrit-il exaspéré le dimanche 3&#160;juin&#160;1945, <hi rend="italic">M</hi>έ<hi rend="italic">ρ</hi>ες <hi rend="italic">E’ </hi>[<hi rend="italic">Meres E’</hi>-1<hi rend="sup">er</hi>&#160;janvier 1945-19&#160;avril&#160;1951], Athènes, Ikaros,
+              1977, notre traduction, p.&#160;17. Sa carrière l’a mené de l’Albanie
+              à la Crète, l’Égypte, l’Afrique du Sud, la Turquie, le Liban
+              (Syrie, Jordanie et Irak), Jérusalem, Chypre, Londres à nouveau.
+              Sur Georges Séféris, sa vie, son œuvre, ses prix et distinctions
+              (docteur honoris causa de l’université de Cambridge puis de
+              Princeton), l’essentiel de son abondante bibliographie
+              polyglotte, voir notamment les travaux très complets de Denis
+              Kohler, <hi rend="italic">L’aviron d’Ulysse. L’itinéraire
+              poétique de Georges Séféris, </hi>Les Belles Lettres, 1985&#160;; <hi rend="italic">Georges Séféris, Qui êtes-vous&#160;?</hi>, La
+              Manufacture, 1989. En grec, voir entre autres les articles du
+              numéro/hommage de la revue <hi rend="italic">Η λέξη </hi>[<hi rend="italic">I Lexi</hi>], 53, mars-avril&#160;1986, 475&#160;p.&#160;;
+              P.&#160;Boukalas, <hi rend="italic">Γιώργος Σεφέρης</hi>, série
+              «&#160;Eλληνες ποιητές&#160;», Kathimerini ek., vol.&#160;2, 2014, avec le CD
+              [«&#160;Georges Séphéris lit Georges Séphéris&#160;», en grec]&#160;; les
+              émissions télévisées ΕΚΠΟΜΠΕΣ ΠΟΥ ΑΓΑΠΗΣΑ / Freddy Germanou,
+              <ref target="https://archive.ert.gr/73817">
+                  <hi rend="underline">https://archive.ert.gr/73817</hi>
+                </ref> Giorgos Séféris. Sur les maisons de Séféris, voir aussi
+              en grec <ref target="https://www.lifo.gr/now/athens/ta-spitia-ton-logotehnon-stin-athina">
+                  <hi rend="underline">https://www.lifo.gr/now/athens/ta-spitia-ton-logotehnon-stin-athina</hi>
+                </ref>&#160;; en anglais <ref target="https://www.ascsa.edu.gr/index.php/archives/george-seferis-content-list">
+                  <hi rend="underline">https://www.ascsa.edu.gr/index.php/archives/george-seferis-content-list</hi>
+                </ref>.</p>
+            </note>.</p>
+          <p xml:id="d1e169">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-mf7ofe8n">régime politique<term ref="doi:10.34817/sv-q5vf9h2g">démocratie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-mf7ofe8n">régime politique<term ref="doi:10.34817/sv-pvdtyxk4">dictature</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>C’est
+          en <date type="_temp" when="1962">1962</date> qu’il s’installe
+          définitivement avec <persName type="_temp">Marô</persName>
+          rue&#160;Agras, où l’année suivante, le <date type="_temp" when="1963-10-20">20&#160;octobre&#160;1963</date>, il apprend que le prix
+          Nobel de littérature lui a été décerné. C’est ici également qu’il
+          rédige sa déclaration publiée à la une de tous les journaux le <date type="_temp" when="1969-03-28">28&#160;mars&#160;1969</date>, contre la
+          dictature des colonels hostiles aussi bien à la royauté et à
+          l’Église qu’à toute démocratie. Surtout, cette maison de la
+          rue&#160;Agras est digne de recevoir ses amis&#160;: à une enfance aisée ont
+          succédé des années de précarité après que la chute de <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>, en <date type="_temp" when="1922">1922</date>, a dépossédé sa famille. Durant
+          sa carrière, ses ressources se résument à un traitement souvent bien
+          inférieur à celui de ses homologues des autres États&#160;; en <date type="_temp" when="1949">1949</date>, il écrit sa hantise «&#160;de
+          rendre l’âme dans un sous-sol&#160;», au fin fond d’une banlieue très
+          excentrée où un seul ami viendrait le voir<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Lettre&#160;181 à Katsimbalis, 17.1.49, in Γιώργος Κ.&#160;Κατσίμπαλης
+              και Γιώργος Σεφέρης, <hi rend="italic">«&#160;Aγαπητέ μου Γιώργο&#160;»,
+              Αλληλογραφία (1924-1970) </hi>[«&#160;Mon cher Georges,
+              Correspondance&#160;»], en grec, éd.&#160;D.&#160;Daskalopoulos, Athènes,
+              Ikaros, 2&#160;tomes, 2009, notre traduction, désormais abrégé <hi rend="italic">A</hi>, t.&#160;2, p.&#160;91.</p>
+            </note>. Aussi, dès que c’est possible, accueille-t-il chez lui
+          <persName ref="027170659" type="idref" xml:base="https://www.idref.fr/">Constantin Tsatsos</persName>, son
+          futur beau-frère, <persName ref="027029875" type="idref" xml:base="https://www.idref.fr/">Henry Miller</persName>, <persName ref="138008450" type="idref" xml:base="https://www.idref.fr/">Georges Katsimbalis</persName> (qui
+          a inspiré le fameux <hi rend="italic">Colosse de Maroussi</hi>),
+          <persName ref="026846756" type="idref" xml:base="https://www.idref.fr/">Lawrence Durrell</persName> et tant
+          d’autres&#160;; et il tient à se rendre chez les grands qu’il admire&#160;: en
+          <date type="_temp" when="1929">1929</date>, il visite <persName ref="034574859" type="idref" xml:base="https://www.idref.fr/">Kostis
+          Palamas</persName>&#160;; plus tard, lors d’une escale éclair à
+          <placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>, il
+          court à la maison de <persName ref="085781584" type="idref" xml:base="https://www.idref.fr/">Constantin Kavafis</persName>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Lettre&#160;314 à Katsimbalis, 26.12.52, <hi rend="italic">A</hi>,
+              t.&#160;2, p.&#160;320</p>
+            </note>&#160;; en <date type="_temp" when="1959">1959</date>, il fait
+          le voyage à <placeName ref="3042363" type="geonames" xml:base="https://www.geonames.org/">Guernesey</placeName> «&#160;pour
+          voir la maison de <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Hugo</persName>. Il est resté
+          quinze ans dans cette île pas si gracieuse, dans cet exil – il a eu
+          de la chance. La pièce où il travaillait, une serre sous le toit,
+          [est] incroyable et inoubliable&#160;»<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Lettre&#160;390 à Katsimbalis, 25.4.59, <hi rend="italic">A</hi>,
+              t.&#160;2, p.&#160;401</p>
+            </note>. Plus encore&#160;: en <date type="_temp" when="1960">1960</date>, particulièrement sensible au vœu du poète
+          <persName ref="032963416" type="idref" xml:base="https://www.idref.fr/">Andréas Calvos</persName> de
+          reposer «&#160;à la maison&#160;», dans son île natale de <placeName ref="251279" type="geonames" xml:base="https://www.geonames.org/">Zante</placeName>, il fait
+          rapatrier ses cendres depuis la <placeName ref="2648147" type="geonames" xml:base="https://www.geonames.org/">Grande-Bretagne</placeName>&#160;:
+          les maisons des poètes, vivants ou disparus, constituent pour
+          Séféris une réalité tangible, un contexte essentiel à leur
+          compréhension.</p>
+          <p xml:id="d1e198">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>À sa
+          nouvelle adresse, rue&#160;Agras, nombreux sont les auteurs qui lui
+          rendent visite, d’<persName ref="027341445" type="idref" xml:base="https://www.idref.fr/">Ezra Pound</persName> à <persName ref="026738198" type="idref" xml:base="https://www.idref.fr/">Yves
+          Bonnefoy</persName> qui était déjà allé le voir à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Yves Bonnefoy, <hi rend="italic">Dans la lumière d’octobre,
+              </hi>préface à <hi rend="italic">Georges Séféris,
+              Poèmes&#160;1933-1955 </hi>suivis de <hi rend="italic">Trois poèmes
+              secrets</hi>, traduits par Jacques Lacarrière et Egérie Mavraki,
+              Yves Bonnefoy et Lorand Gaspar&#160;; préface d’Yves Bonnefoy,
+              postface de Gaëtan Picon, Paris, Gallimard, 1963, désormais
+              abrégé <hi rend="italic">Poèmes</hi>, p.&#160;9.</p>
+            </note>. Dans la lumière d’octobre, la terrasse de <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> lui semble
+          pleinement exprimer sa complexité&#160;: «&#160;Quand je l’ai revu il y a deux
+          ans dans sa maison nouvelle d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, sur la
+          terrasse, et justement en octobre, il semblait ne faire qu’un avec
+          elle&#160;[…]&#160;»<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Bonnefoy, op.&#160;cit., p.&#160;10</p>
+            </note>. <persName ref="027072282" type="idref" xml:base="https://www.idref.fr/">Gaëtan Picon</persName>, venu en
+          <date type="_temp" when="1963-05">mai&#160;1963</date> accompagné de sa
+          femme, donne une évocation très détaillée de cette «&#160;maison blanche
+          aux volets bleus dissimulée dans un quartier populaire d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName> dont il
+          [<persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName>] n’avait cessé
+          de rêver&#160;»<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Dans <hi rend="italic">Visages de Séféris</hi>, postface à
+              <hi rend="italic">Poèmes</hi>, p.&#160;191.</p>
+            </note>.</p>
+          <p xml:id="d1e232">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-yenrhmkn">collaboration</term>
+              </term>
+            </term>Dans
+          le bureau, la bibliothèque tapisse le mur. Elle court jusque dans le
+          salon, encadrant la belle cheminée en marbre ornée de petits vases
+          antiques <hi>(voir ill. p.&#160;79)</hi>. Outre les maquettes de voiliers
+          et tous les petits trésors évoqués par <persName ref="027072282" type="idref" xml:base="https://www.idref.fr/">Picon</persName>, les
+          rayonnages accueillent une multitude de compagnons très chers,
+          d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> à l’<date type="_temp">époque contemporaine</date>. Immensément cultivé,
+          polyglotte, <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> connaît mieux
+          que quiconque la langue et la littérature françaises, du <date type="_temp">Moyen-Âge</date> et de <persName ref="085710474" type="idref" xml:base="https://www.idref.fr/">Villon</persName> à
+          <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Hugo</persName>, <persName ref="026709635" type="idref" xml:base="https://www.idref.fr/">Baudelaire</persName>, <persName ref="026648156" type="idref" xml:base="https://www.idref.fr/">Alain</persName>, mais également
+          <persName ref="026655195" type="idref" xml:base="https://www.idref.fr/">Éluard</persName> et <persName ref="027118592" type="idref" xml:base="https://www.idref.fr/">Saint-John Perse</persName> qu’il a
+          rencontrés. Il admire, un temps du moins, <persName ref="026798735" type="idref" xml:base="https://www.idref.fr/">Corbière</persName>,
+          <persName ref="026960168" type="idref" xml:base="https://www.idref.fr/">Laforgue</persName>, <persName ref="027037258" type="idref" xml:base="https://www.idref.fr/">Moréas</persName>, <persName ref="027174484" type="idref" xml:base="https://www.idref.fr/">Valéry</persName> qu’il traduit et
+          <persName ref="026890593" type="idref" xml:base="https://www.idref.fr/">Gide</persName>, son ami. Il
+          maîtrise tout aussi parfaitement l’anglais, et <persName ref="027136086" type="idref" xml:base="https://www.idref.fr/">Shakespeare</persName> cohabite ici
+          avec <persName ref="026942232" type="idref" xml:base="https://www.idref.fr/">Joyce</persName> et <persName ref="027288595" type="idref" xml:base="https://www.idref.fr/">T.&#160;S.&#160;Eliot</persName>, qu’il
+          traduit également, et avec les Américains. La maison héberge ainsi
+          la littérature du monde, à commencer naturellement par celle de «&#160;la
+          Grécité, l’ensemble des œuvres produites par des Grecs&#160;», selon une
+          continuité que <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> n’a de cesse de
+          souligner<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Il écrit à Robert Liddell&#160;: «&#160;J’aimerais avoir une longue
+              discussion sur l’unité de la tradition grecque. Je sais que vous
+              comprenez que ce n’est pas par vanité nationale que je raisonne
+              ainsi, mais parce que c’est pour moi la seule façon d’avoir une
+              claire vision de la Grèce&#160;», in <hi rend="italic">Pages</hi>,
+              15&#160;décembre&#160;1941, p.&#160;273.</p>
+            </note>. Sa table de travail est chargée de photos des êtres chers
+          et de livres&#160;: «&#160;À <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, j’ai tous
+          mes dossiers et ma bibliothèque. Je me pose […] la question&#160;: une
+          table vide, sans notes ni livres, à laquelle on s’asseoirait chaque
+          jour à heure fixe, cela constituerait-il un climat propice à la
+          création&#160;?&#160;»<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Georges Séféris, entretien avec E.&#160;Keeley, Princeton 1968,
+              traduction D.&#160;Kohler, in <hi rend="italic">Georges Séféris, Qui
+              êtes-vous&#160;?</hi>, op.&#160;cit., p.&#160;377. Cet ouvrage comporte en
+              annexe une traduction française des entretiens de Séféris à la
+              télévision suédoise en 1963 et avec Keeley en 1968, une
+              chronologie et une bibliographie.</p>
+            </note> L’intertextualité est indispensable à la fécondité
+          poétique, de même que la tranquillité. Le téléphone&#160;? Le diplomate a
+          été contraint de l’avoir, mais le poète le redoutait&#160;: «&#160;s’il sonne,
+          il faudra que je laisse ma phrase inachevée et que je parte. Cela
+          fait des années que je suis attaché à ce fil qui me surveille même
+          dans mon sommeil&#160;»<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>18&#160;septembre 1940, <hi rend="italic">Mέρες Γ’ </hi>[<hi rend="italic">Meres Γ, </hi>16&#160;avril&#160;1934-14&#160;décembre&#160;1940],
+              Athènes, Ikaros, 1977, p.&#160;241. Notre traduction.</p>
+            </note>.</p>
+          <figure xml:id="d1e261">
+            <graphic url="https://didomena.ehess.fr/downloads/kp78gq66n.png"/>
+            <head xml:id="d1e262">Figure 3. Le bureau de Georges Séféris,
+            20&#160;rue&#160;Agras. Photo lifo.gr</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e264">
+          <head subtype="level1" xml:id="d1e265">Trois autres maisons</head>
+          <p xml:id="d1e267">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-csmqd3zc">diplomatie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>Toutefois,
+          réduire <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> à la demeure de
+          ses dix dernières années serait le méconnaître. Ses poèmes et
+          surtout son <hi rend="italic">Journal </hi>et sa correspondance
+          privée, publiés à titre posthume, en évoquent bien d’autres, pour
+          ses proches et pour lui-même – le motif de la maison livre un peu de
+          cet intime dont il n’aime pas parler&#160;: nombreuses chambres
+          d’étudiant peintes en détail dans ses lettres à sa sœur <persName type="_temp">Ioanna</persName>&#160;; premières adresses athéniennes,
+          2&#160;rue&#160;Kyvélis, tout près du Musée archéologique, puis à Plaka,
+          9&#160;rue&#160;Kydathinaion&#160;: après le départ d’Ionie et durant les années
+          d’études, elles constituent un havre de tranquillité au sein du
+          cocon familial resserré par l’exil<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>«&#160;12&#160;janvier [1928, rue&#160;Kyvélis]&#160;: je rentre de la rue&#160;: ma
+              chambre. Je connais le lit qui m’attend, et le réveil demain
+              matin, et le travail quotidien. Dehors, la nuit était douce, les
+              rues humides. Mon âme libre, et toutes ses fenêtres ouvertes&#160;[…]
+              Je retrouve les anges qui avaient disparu, je sens leurs ailes
+              battre autour de moi. C’est la première fois que j’éprouve, dans
+              ma chambre, ce sentiment du repos, de l’interruption, de
+              l’absence que ressent l’homme du pays dans une forêt
+              éloignée&#160;[…]&#160;», <hi rend="italic">Mέρες&#160;A’ </hi>[<hi rend="italic">Meres&#160;A</hi>], en grec, Athènes, Ikaros, 1975,
+              p.&#160;103, notre traduction.</p>
+            </note>, puis deviennent des ruches d’hommes de lettres avant de
+          se trouver, pour la maison de Plaka, au centre des combats menant à
+          la guerre civile&#160;; résidences diplomatiques ou chambres d’hôtel en
+          faisant office, qu’il améliore ou dont il se plaint. Aucune ne le
+          laisse indifférent, bien au contraire, et toutes sont des lieux de
+          composition. «&#160;Au fond&#160;», écrit-il en <date type="_temp" when="1946-10">octobre&#160;1946</date>, conquis par le cadre de la villa
+          Galini (Sérénité) à <placeName ref="8133709" type="geonames" xml:base="https://www.geonames.org/">Poros</placeName> où il prend
+          deux mois de vacances, «&#160;mon idéal serait d’être comme ce <persName type="_temp">Rodakis</persName> d’<placeName ref="265501" type="geonames" xml:base="https://www.geonames.org/">Égine</placeName>, toujours en
+          train de réparer et d’orner sa maison. Les poèmes ne viendraient
+          qu’en plus, le don de Dieu&#160;»<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>
+                <hi rend="italic">Pages, </hi>3&#160;novembre&#160;1946, p.&#160;346</p>
+            </note>. Avec le voyage, son apparent contraire, la maison
+          participe de la création de l’humain et d’une poésie dont les
+          racines plongent au lieu même où <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> est
+          né, l’Ionie, le reliant au temps des origines, Bible et épopées
+          homériques tout ensemble&#160;:</p>
+          <quote rend="quotation" xml:id="d1e289">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+              </term>
+            </term>«&#160;La
+          première chose que Dieu créa fut le long voyage.<lb/>Et cette maison
+          qui attend<lb/>Avec sa fumée bleue et son chien vieilli<lb/>Guettant
+          le retour pour mourir&#160;»<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Transvaal, 11&#160;janvier&#160;1942, «&#160;Stratis le marin parmi les
+              agapanthes&#160;», in <hi rend="italic">Journal de bord II</hi>, <hi rend="italic">Poèmes, p.&#160;</hi>126.</p>
+            </note>.</quote>
+          <p xml:id="d1e305">Ainsi, au commencement sont les maisons, jalons
+          essentiels et manifestes de toute existence&#160;:</p>
+          <quote rend="quotation" xml:id="d1e307">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+            </term>«&#160;Maisons,
+          décès, séparations. La vie de l’être humain est faite de temps&#160;:
+          temps de semer, temps de moissonner, temps du chagrin, temps de la
+          joie, temps de l’amour, temps de la solitude. Si tu penses comme ça,
+          tu pourras même à l’instant le plus bas te soutenir, car cet instant
+          aussi appartiendra à l’un des <hi rend="italic">temps </hi>de ta
+          vie&#160;»<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>[<hi rend="italic">Meres</hi>]&#160;<hi rend="italic">Γ</hi>,
+              18&#160;septembre&#160;1935, p.&#160;29</p>
+            </note>.</quote>
+          <p xml:id="d1e322">Cette enquête entreprise avec tant d’admiration a
+          permis de réunir une multitude d’informations sur la maison dans
+          l’œuvre de <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName>. Nous nous
+          limiterons ici à quelques éléments concernant trois demeures qui ont
+          profondément marqué sa vie et son œuvre, celles de son enfance en
+          Ionie, à <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName> et à
+          <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>, et la villa
+          Galini à <placeName ref="8133709" type="geonames" xml:base="https://www.geonames.org/">Poros</placeName>.</p>
+          <div type="section2" xml:id="d1e324">
+            <head subtype="level2" xml:id="d1e325">Smyrne et Skala</head>
+            <p xml:id="d1e327">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+            matériel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+            savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+                </term>
+              </term>La
+            famille <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séfériadis</persName> a quitté
+            l’Ionie au début de la <date from="1914-07-28" to="1918-11-11" type="_temp">guerre de 1914</date> et les deux maisons d’enfance
+            de <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Georges</persName> ont pu être
+            vendues juste avant l’incendie de <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName> par les
+            Turcs, le <date type="_temp" when="1922-08-31">31&#160;août&#160;1922</date>. Mais la Catastrophe fait
+            totalement basculer la situation&#160;: «&#160;Il n’est pas simple d’avoir
+            démarré dans la vie avec le mépris de l’argent, et maintenant de
+            devoir rester souvent à jeun le soir. Et avec, en plus, toutes ces
+            ruines et ces morts tout autour&#160;», écrit sa sœur <persName type="_temp">Ioanna</persName>, se remémorant l’année&#160;<date type="_temp" when="1923">1923</date>
+              <note n="19" place="foot" type="standard" xml:id="ftn19">
+                <p>Jeanne [Ioanna] Tsatsos, <hi rend="italic">Georges Séféris,
+                mon frère</hi>, traduit du grec par Christiane Pillard et
+                Marie-Hélène Pliaka, Grasset, 1978, désormais abrégé&#160;JT, 1923,
+                p.&#160;195</p>
+              </note>. Les populations grecques implantées depuis des
+            millénaires sont définitivement chassées des côtes orientales de
+            l’Égée. Irrémédiablement perdues, ces demeures patrimoniales sont
+            dès lors associées à la dépossession et à la transmission brisée,
+            au déracinement et au rétrécissement, aux crimes impunis de la
+            guerre<note n="20" place="foot" type="standard" xml:id="ftn20">
+                <p>«&#160;Et qui a éventré le nourrisson, la femme et la
+                maison&#160;?&#160;», «&#160;Sur scène&#160;», trad.&#160;Lorand Gaspar, in <hi rend="italic">Trois poèmes secrets, Poèmes</hi>, p.&#160;176.</p>
+              </note>. Elles hantent désormais le poète tout entier&#160;:</p>
+            <quote rend="quotation" xml:id="d1e343">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+                </term>
+              </term>«&#160;Tout
+            ce que j’ai aimé a disparu avec les maisons<lb/>Neuves l’autre
+            été<lb/>Qui ont croulé sous le vent d’automne&#160;»<note n="21" place="foot" type="standard" xml:id="ftn21">
+                <p>XVIII, <hi rend="italic">Mythologie </hi>[<hi rend="italic">Mythistorima</hi>], achevé à Athènes en
+                décembre&#160;1934, publié en 1935, in <hi rend="italic">Poèmes</hi>, op.&#160;cit., p.&#160;36</p>
+              </note>.</quote>
+            <p xml:id="d1e362">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+                </term>
+              </term>L’une
+            comme l’autre étaient anciennes et amples, situées sur le rivage
+            de l’Egée loin duquel <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> ressentira
+            toute sa vie un sentiment d’asphyxie partout où n’est pas la
+            mer<note n="22" place="foot" type="standard" xml:id="ftn22">
+                <p>De Paris où ses études de droit l’oppressent, le
+                13&#160;février&#160;1922, il écrit à sa sœur&#160;: «&#160;Je vais mourir
+                d’asphyxie… Je veux la mer, pour la respirer&#160;», JT,
+                p.&#160;145.</p>
+              </note>. Mais elles appartenaient à deux espaces opposés et
+            complémentaires, la ville et les champs.</p>
+            <p xml:id="d1e367">Côté <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>, la grande
+            maison cossue à trois étages où <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Georges</persName>
+            est né le <date>29&#160;février&#160;1900</date> et où il résidait durant
+            l’année scolaire, avec son escalier qu’il descendait sur la rampe.
+            Sa mère en avait hérité de son propre père, le <persName type="_temp">capitaine Georgeakis</persName>. L’enfant y avait sa
+            chambre personnelle, avec un petit bureau pour le travail, tandis
+            que son frère <persName type="_temp">Anghélos</persName> et sa
+            sœur <persName type="_temp">Ioanna</persName>, plus jeunes, en
+            partageaient une autre. En plus des pièces de réception et de la
+            grande salle de jeux, elle comportait une vaste «&#160;pièce aux
+            icônes&#160;», lieu et signe de la piété familiale<note n="23" place="foot" type="standard" xml:id="ftn23">
+                <p>JT, 1912-1918, p.&#160;21-22</p>
+              </note>. Mais c’est aussi dans la cour de cette maison que
+            l’adolescent avait brûlé ses livres à la fin de la dernière année
+            scolaire en Ionie&#160;: elle signifie également des mois d’école
+            exécrés où il n’attendait qu’une chose, rejoindre <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName>,
+            l’«&#160;échelle&#160;» de <placeName ref="298316" type="geonames" xml:base="https://www.geonames.org/">Vourla</placeName>, reliée à
+            <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName> par un
+            modeste bateau.</p>
+            <p xml:id="d1e372">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-lnhznxmx">anxiété</term>
+                </term>
+              </term>Côté
+            <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName>, sur le
+            petit port du village de pêcheurs, «&#160;notre maison&#160;»<note n="24" place="foot" type="standard" xml:id="ftn24">
+                <p>Voir aussi JT, 1912-1918, p.&#160;33</p>
+              </note>, celle de la nostalgie, d’un «&#160;nous&#160;» familial au
+            complet dont le sentiment sera encore plus aigu après la
+            disparition de la mère et celle d’<persName type="_temp">Anghélos</persName>
+              <note n="25" place="foot" type="standard" xml:id="ftn25">
+                <p>Ioanna l’a décrite en détail&#160;: «&#160;Toujours cet espoir de
+                retourner à Skala&#160;! Aspiration frustrée qui le poursuivra
+                toute sa vie&#160;», in <hi rend="italic">Georges Séféris, mon
+                frère</hi>, JT, 1919-22, p.&#160;95. «&#160;Skala n’était pas pour nous
+                une simple campagne. C’était une sorte de lieu magique où nous
+                accordions nos chimères, où nous trouvions un refuge dans les
+                moments difficiles et oppressants de la vie&#160;[…] Nous étions
+                libres, libres d’une liberté de la qualité la plus rare&#160;[…]
+                Là-bas se trouvaient toutes les propriétés familiales du côté
+                de ma mère&#160;[…] Notre maison de Skala s’étendait sur le rivage,
+                étroite, bâtie toute en longueur. Les jours de grand meltemi,
+                les vagues recouvraient la chambre de devant, celle des
+                parents, où se trouvait le fameux grand lit, vrai champ de
+                bataille des enfants&#160;», in&#160;JT, 1912-1918, p.&#160;32-35.</p>
+              </note>. Devant, elle faisait face à l’île d’<persName ref="086453009" type="idref" xml:base="https://www.idref.fr/">Anaxagore</persName> et un caïque
+            familial, le <hi rend="italic">Vana</hi>, permettait d’aller
+            pêcher en mer, la nuit. À l’arrière, les vignes couraient dans les
+            vestiges familiers de l’antique <placeName ref="298316" type="geonames" xml:base="https://www.geonames.org/">Clazomènes</placeName>. Elle
+            était toute proche de la maison de la grand-mère maternelle, avec
+            son vieux platane, ses oiseaux, son puits à noria.</p>
+            <p xml:id="d1e387">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+                </term>
+              </term>Léguée
+            au petit <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Georges</persName> par son
+            grand-père maternel, cette maison lui appartenait en propre. Sur
+            les murs extérieurs, il «&#160;avait marqué ses initiales partout où il
+            pouvait arriver en grimpant. Et c’est à lui que, plus tard, le
+            gardien en remit la clé qu’il conserva, tel un trésor, avec toute
+            sa rouille&#160;»<note n="26" place="foot" type="standard" xml:id="ftn26">
+                <p>D’après&#160;JT, 1919-1922, p.&#160;62</p>
+              </note>. Aussi constitue-t-elle l’une de ses toutes premières
+            sources d’inspiration. À propos de grenades et de poulpes évoqués
+            dans ses premiers vers (<date from="1922" to="1923" type="_temp">1922-1923</date>), <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName>
+            écrit à <persName ref="138008450" type="idref" xml:base="https://www.idref.fr/">Katsimbalis</persName> dont il
+            vient de faire la connaissance&#160;: «&#160;Je n’avais encore à cette
+            époque pas la moindre idée de <persName ref="027174484" type="idref" xml:base="https://www.idref.fr/">Valéry</persName>&#160;[…] Songe que
+            mes années de petite enfance, je les ai vécues près de la mer (ce
+            sont ces années qui fournissent au poète ses images) et que notre
+            potager était plein de grenadiers&#160;»<note n="27" place="foot" type="standard" xml:id="ftn27">
+                <p>Lettre&#160;22 à Katsimbalis, 12&#160;novembre&#160;1931, <hi rend="italic">A</hi>, t.&#160;I, p.&#160;100. Notre traduction.</p>
+              </note>.</p>
+            <p xml:id="d1e399">Dans la cave, au moment de partir juste avant
+            la guerre, sa mère avait caché un sarcophage de l’ancienne
+            <placeName ref="298316" type="geonames" xml:base="https://www.geonames.org/">Clazomènes</placeName> que
+            des ouvriers venaient de découvrir dans les vignes<note n="28" place="foot" type="standard" xml:id="ftn28">
+                <p>Ibid., JT<hi rend="italic">, </hi>1919-1922, p.&#160;62</p>
+              </note>. C’est cette maison de vacances qu’il considère comme sa
+            patrie d’origine&#160;:</p>
+            <quote rend="quotation" xml:id="d1e408">«&#160;J’avais quatorze ans, en
+            <date type="_temp" when="1914-08-14">août&#160;14</date>, lorsque nous
+            avons quitté <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>. J’avais
+            très vif en moi le sentiment de ce que signifie «&#160;esclavage&#160;». Les
+            deux dernières années, nous n’étions pas allés à la campagne<note n="29" place="foot" type="standard" xml:id="ftn29">
+                <p>En grec, le terme «&#160;campagne&#160;» peut embrasser tout ce qui
+                ne fait pas partie de la ville&#160;: campagne, montagne, bords de
+                mer.</p>
+              </note>, à <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName> de
+            <placeName ref="298316" type="geonames" xml:base="https://www.geonames.org/">Vourla</placeName> qui était
+            pour moi le seul lieu que, maintenant encore, je peux appeler
+            patrie au sens le plus radical du terme&#160;: le lieu où ont fleuri
+            mes années d’enfance.<lb/>
+              <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>, c’était
+            l’école insupportable, les mortels dimanches après-midi pluvieux
+            derrière la vitre&#160;: la prison. Un monde incompréhensible, étranger
+            et haïssable. <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName>, c’était
+            tout ce que j’aimais […], c’était tout autre chose&#160;»<note n="30" place="foot" type="standard" xml:id="ftn30">
+                <p>Georges Séféris, Ms&#160;Sept.&#160;41, <hi rend="italic">Dokimes
+                </hi>[Essais], t.&#160;III, <hi rend="italic">Paraleipomena
+                </hi>(1932-1971), Athènes, Ikaros, 1972, notre traduction,
+                désormais abrégé Ms&#160;Sept.&#160;41, p.&#160;17-18.</p>
+              </note>.</quote>
+            <p xml:id="d1e425">Il n’empêche&#160;: <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName> était
+            l’épicentre de l’Ionie grecque, et comme <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName>
+            l’écrit de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> en <date type="_temp" when="1932-01">janvier&#160;1932</date>, «&#160;ma plus grande
+            crise, c’était au moment de la chute de <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>. Quand on
+            y pense, comme la chute de la livre [anglaise] semble
+            insignifiante&#160;[!]<note n="31" place="foot" type="standard" xml:id="ftn31">
+                <p>Lettre&#160;42 à Katsimbalis, <hi rend="italic">A</hi>, t.&#160;I,
+                p.&#160;150</p>
+              </note>&#160;». La douleur de l’épreuve stimule aussi la hauteur du
+            point de vue. Avec le recul, il s’assimile à ces maisons
+            d’enfance, et leur dualité lui semble fondatrice de sa
+            personnalité ambivalente&#160;:</p>
+            <quote rend="quotation" xml:id="d1e434">«&#160;Qui sait, si ma vie est
+            devenue ce qu’elle est devenue et s’est déployée sur deux chemins
+            parallèles – un chemin d’obligations, de patience et de compromis,
+            et un autre qu’a parcouru sans complaisance, libre, mon moi le
+            plus profond –, c’est que j’ai connu et vécu, ces années-là, deux
+            mondes clairement distincts&#160;: le monde de la maison de ville et le
+            monde de la maison des champs&#160;»<note n="32" place="foot" type="standard" xml:id="ftn32">
+                <p>Ms&#160;Sept.&#160;41, p.&#160;17-18</p>
+              </note>.</quote>
+            <p xml:id="d1e440">Comme le souligne à son tour <persName ref="026738198" type="idref" xml:base="https://www.idref.fr/">Yves
+            Bonnefoy</persName>, ces maisons, signe matériel du temps, lient
+            tradition et modernité, vie et mort, enracinement et exil&#160;:</p>
+            <quote rend="quotation" xml:id="d1e442">«&#160;Il n’est pas indifférent
+            qu’un enfant ait vécu à <placeName ref="298316" type="geonames" xml:base="https://www.geonames.org/">Clazomènes</placeName> l’été,
+            entre des pêcheurs et la vigne, et à <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>, grand
+            port “retentissant” où l’Europe et l’Asie, l’intemporel et le
+            siècle, les rituels et les marchandises se mariaient richement
+            pour la conscience charmée&#160;; puis que l’exode de tout un peuple,
+            dans le sang et les larmes du désespoir, l’ait séparé à jamais de
+            l’heureuse terre natale&#160;:<lb/>
+              <quote xml:id="d1e445">Tout ce que
+            j’ai aimé a disparu avec les maisons<lb/>Neuves l’autre
+            été<lb/>Qui ont croulé sous le vent d’automne,</quote>
+              <lb/>a écrit
+            <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> […] et ce
+            n’est pas là qu’une image&#160;[…] <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Georges
+            Séféris</persName> a passé une grande part de sa vie à être grec –
+            à servir la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> – dans les
+            pays étrangers, et il a bien été ce voyageur empêché de rentrer au
+            port qu’il évoque dans ses poèmes&#160;»<note n="33" place="foot" type="standard" xml:id="ftn33">
+                <p>Bonnefoy, op.&#160;cit, p.&#160;13</p>
+              </note>.</quote>
+            <p xml:id="d1e454">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+                </term>
+              </term>Et le
+            vers final du poème «&#160;Les maisons&#160;» n’est lui non plus pas
+            anodin&#160;:</p>
+            <quote rend="quotation" xml:id="d1e456">«&#160;Tu sais les maisons sont
+            promptes à nous en vouloir, quand on les déserte&#160;»<note n="34" place="foot" type="standard" xml:id="ftn34">
+                <p>«&#160;Ξέρεις τὰ σπίτια πεισματώνουν εὔκολα, σὰν τὰ γυμνώσεις&#160;».
+                Nous citons ici la traduction de M.-C.&#160;Fauvin et C.&#160;Perrel,
+                Georges Séféris, <hi rend="italic">Entre la vague et le vent&#160;:
+                poèmes choisis, </hi>peintures de H.&#160;Xenos, préface de
+                Th.&#160;Hatzopoulos, La tête à l’envers, 2017.</p>
+              </note>.</quote>
+            <p xml:id="d1e465">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>Même si
+            le poète «&#160;n’aime point qu’on attribue sa conception dramatique de
+            l’univers à la seule catastrophe d’Asie Mineure&#160;»<note n="35" place="foot" type="standard" xml:id="ftn35">
+                <p>Robert Levesque, cité dans <hi rend="italic">Georges
+                Séféris, Qui êtes-vous&#160;?</hi>, op.&#160;cit., p.&#160;158</p>
+              </note>, cette vision le poursuit toute sa vie. La maison de
+            <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName> devient un
+            refuge mythique, maternel, contre tous les maux, notamment la
+            solitude et la hantise du tarissement poétique. Elle offre un
+            socle matériel au rêve régressif d’un retour au foyer des
+            origines. En <date type="_temp" when="1921">1921</date>, le père
+            redouté, inquiet de voir son fils seul à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> ne pas se
+            consacrer entièrement à des études de droit prises en horreur,
+            annonce son retour dans la capitale. Le poète confie à sa
+            sœur&#160;:</p>
+            <quote rend="quotation" xml:id="d1e474">«&#160;Je voudrais être dans
+            une maison près de la mer, avec les fenêtres grandes ouvertes&#160;: le
+            vent ferait flotter les rideaux légers. Je serais confortablement
+            assis dans un profond fauteuil, comme si je sortais d’une grave
+            maladie&#160;; des gens s’occuperaient de moi et marcheraient sur la
+            pointe des pieds autour de moi…&#160;»<note n="36" place="foot" type="standard" xml:id="ftn36">
+                <p>JT, 1919-1922, p.&#160;116</p>
+              </note>
+            </quote>
+            <p xml:id="d1e478">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-jvdvstv9">île</term>
+                </term>
+              </term>C’est une
+            petite île face à ces mêmes fenêtres que cet été-là, épuisé par
+            ses révisions, <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Georges</persName> a un moment
+            souhaité élire pour dernière demeure&#160;:</p>
+            <quote rend="quotation" xml:id="d1e480">«&#160;La mer à <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName> me rappelle
+            un testament que j’avais composé il y a deux ans, un soir de
+            cafard. J’écrivais que si je venais à mourir je voulais être
+            enterré au sommet de la “Pierre solitaire”&#160;»<note n="37" place="foot" type="standard" xml:id="ftn37">
+                <p>JT, 1919-1922, p.&#160;135</p>
+              </note>.</quote>
+            <p xml:id="d1e485">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+                </term>
+              </term>D’autres
+            fois encore, <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> sollicite
+            consciemment la mémoire, un peu comme <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Hugo</persName>
+            cherchait à faire tourner les tables à <placeName ref="3042363" type="geonames" xml:base="https://www.geonames.org/">Guernesey</placeName>. En
+            <date type="_temp" when="1937">1937</date>, c’est à partir de
+            photos et de souvenirs sensoriels des chères figures maternelles,
+            ses racines et ses boussoles, que le poète alors en poste à
+            <placeName ref="782756" type="geonames" xml:base="https://www.geonames.org/">Korytsa</placeName> se lance
+            à la recherche du temps perdu, de la présence vive de la maison,
+            du petit port avec son église Saint-Nicolas&#160;:</p>
+            <quote rend="quotation" xml:id="d1e487">«&#160;La maison, quand on
+            l’observe bien à travers les vieux cadres, Se réveille aux pas de
+            la mère sur les marches&#160;[…]&#160;»</quote>
+            <p xml:id="d1e489">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+                </term>
+              </term>Mais la
+            quête se solde par un échec&#160;:</p>
+            <quote rend="quotation" xml:id="d1e492">«&#160;Ces choses sont de
+            vieilles histoires qui n’intéressent plus personne&#160;;<lb/>Nous
+            avons ficelé notre cœur et nous avons grandi&#160;[…]<lb/>Pourtant,
+            c’est là que ta vie change&#160;[…]<lb/>[…]&#160;il est très difficile de
+            changer<lb/>Quand la maison se trouve dans l’église de
+            pierre<lb/>Et ton cœur dans la maison qui s’assombrit,<lb/>Toutes
+            portes fermées à clé par la grande main de saint Nicolas&#160;»<note n="38" place="foot" type="standard" xml:id="ftn38">
+                <p>«&#160;Piazza San Nicolo&#160;» [composé l’été&#160;1937], in <hi rend="italic">Journal de bord</hi>&#160;<hi rend="italic">I</hi>
+                [publié en avril&#160;1940]<hi rend="italic">, Poèmes
+                1933-1955</hi>, p.&#160;97</p>
+              </note>.</quote>
+          </div>
+          <div type="section2" xml:id="d1e520">
+            <head subtype="level2" xml:id="d1e521">Ulysse chez Circé et
+            Calypso&#160;: la villa Galini</head>
+            <p xml:id="d1e523">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion<term ref="doi:10.34817/sv-iq47o2zc">désir</term>
+                </term>
+              </term>Car
+            «&#160;d’exil en exil, de pays en pays dans ces chambres nues où ne lui
+            appartient que l’araignée du soir, l’image partout transportée de
+            la terre grecque est moins celle d’un souvenir que d’un désir et
+            d’un terme&#160;»<note n="39" place="foot" type="standard" xml:id="ftn39">
+                <p>Gaëtan Picon, <hi rend="italic">Visages de Séféris,
+                Poèmes</hi>, op.&#160;cit., p.&#160;195</p>
+              </note>. Le poète vit ces tribulations comme une errance
+            aggravée par son propre caractère&#160;: il est «&#160;<hi rend="italic">écartelé</hi>
+              <note n="40" place="foot" type="standard" xml:id="ftn40">
+                <p>En français dans le texte. Lettre&#160;100 à Katsimbalis,
+                5&#160;août&#160;1933, <hi rend="italic">A</hi>, t.&#160;I, p.&#160;318.</p>
+              </note> entre [son] pays et le monde&#160;». Au fil du temps, les
+            déménagements de poste en poste lui deviennent de plus en plus
+            pénibles<note n="41" place="foot" type="standard" xml:id="ftn41">
+                <p>Lettre&#160;231 à Katsimbalis, 3.9.50, <hi rend="italic">A</hi>,
+                t.&#160;II<hi rend="italic">, p.&#160;</hi>208-209</p>
+              </note>. Dès <date type="_temp" when="1932">1932</date>, une
+            lettre de <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> à
+            <persName ref="138008450" type="idref" xml:base="https://www.idref.fr/">Katsimbalis</persName>, qui
+            possède une maison familiale, «&#160;Trianemi&#160;», au nord d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, résume
+            ce sentiment&#160;:</p>
+            <quote rend="quotation" xml:id="d1e551">«&#160;Si tu savais comme je
+            suis étranger en dehors de la Méditerranée et plus spécifiquement
+            en dehors de l’Egée&#160;[…] Il fut un temps où moi aussi, j’avais un
+            Trianemi près d’une mer&#160;; je m’en suis séparé à treize ans car les
+            persécutions avaient commencé. À quatorze ans, je suis parti pour
+            <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName> qui, à
+            cette époque, était pour moi une terre d’exil&#160;; de dix-huit à
+            vingt-cinq ans j’ai vécu à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> la vie plus
+            ou moins bohème que tu sais. De vingt-cinq à trente-deux à
+            <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, avec un
+            travail et au début dans des conditions très difficiles qui
+            rarement m’ont laissé respirer&#160;[…] Je ne suis pas pour deux sous
+            cosmopolite&#160;; au mieux, un homme de la mer, ce qui n’est pas du
+            tout la même chose&#160;»<note n="42" place="foot" type="standard" xml:id="ftn42">
+                <p>Lettre&#160;81 à Katsimbalis, 12&#160;octobre&#160;1932, <hi rend="italic">A</hi>, t.&#160;I, p.&#160;259-260</p>
+              </note>.</quote>
+            <p xml:id="d1e560">Ailleurs, il murmure&#160;:</p>
+            <quote rend="quotation" xml:id="d1e562">«&#160;… bien que je sois
+            né<lb/>Près de la mer que je déroule et que j’enroule entre mes
+            doigts,<lb/>Quand je suis fatigué – je ne sais plus où je suis
+            né&#160;»<note n="43" place="foot" type="standard" xml:id="ftn43">
+                <p>«&#160;Un mot sur l’été&#160;», traduction de J.&#160;Lacarrière et
+                E.&#160;Mavraki, in <hi rend="italic">Poèmes</hi>, op.&#160;cit.,
+                p.&#160;82</p>
+              </note>.</quote>
+            <p xml:id="d1e577">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-eryypuc6">expédition</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+            savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+                </term>
+              </term>Mais
+            <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> n’a pas perdu
+            la raison&#160;: en <date type="_temp" when="1931">1931</date>, si
+            l’exil professionnel à <placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName> le
+            déprime, il est pleinement conscient que la maison qui lui manque
+            est désormais celle d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>,
+            l’Attique, dans la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> qu’il sert.
+            Cette nostalgie du pays rend <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName>
+            solidaire de tous les déracinés, les exilés, les réfugiés, de tous
+            ceux que la guerre a altérés car «&#160;les gens soumis à
+            l’instabilité, aux errances et aux guerres, bien que leur grandeur
+            et leur valeur puissent varier et se détériorer (ces questions, je
+            n’en parle pas), se meuvent pourtant toujours entre les mêmes
+            monstres et les mêmes frayeurs&#160;»<note n="44" place="foot" type="standard" xml:id="ftn44">
+                <p>Voir D.<hi rend="italic">&#160;</hi>Kohler, <hi rend="italic">Georges Séféris, Qui êtes-vous&#160;?</hi>
+                  <hi rend="bold">, </hi>op.&#160;cit., p.&#160;226</p>
+              </note>. Aussi, commentant l’<hi rend="italic">Odyssée,
+            </hi>ressent-il pleinement à la fois la force d’attraction de la
+            demeure de <persName ref="032292198" type="idref" xml:base="https://www.idref.fr/">Circé</persName> et la
+            supériorité de celle d’Ithaque&#160;:</p>
+            <quote rend="quotation" xml:id="d1e594">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-9z8fpxff">mythologie</term>
+                </term>
+              </term>«&#160;La
+            maison de <persName ref="032292198" type="idref" xml:base="https://www.idref.fr/">Circé</persName> est la première
+            <hi rend="italic">maison </hi>que voit <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+            après bien des tourments, de nombreux meurtres et imbécillités
+            (l’outre des vents) qui lui ont coûté cher&#160;; c’est le premier luxe
+            qu’il trouve&#160;: le bain chaud, le soin plein d’attention, la table
+            abondante, le lit haut et le corps de la belle femme. Cette maison
+            est douce&#160;: elle transforme les compagnons qui n’ont pas péri en
+            cochons. <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> goûte avec joie
+            ce plaisir&#160;; jusqu’à quel point et comment, nous ne le savons pas,
+            car il a autre chose en tête&#160;: sa propre maison. Voudrais-tu que
+            nous nommions <hi rend="italic">sa propre </hi>maison <hi rend="italic">la lumière&#160;?</hi> C’est ici que commence <hi rend="italic">La Grive&#160;</hi>»<note n="45" place="foot" type="standard" xml:id="ftn45">
+                <p>Lettre&#160;212 à Katsimbalis, 27&#160;décembre&#160;1949, <hi rend="italic">A</hi>, t.&#160;II, p.&#160;150</p>
+              </note>.</quote>
+            <p xml:id="d1e615">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+                </term>
+              </term>À
+            <placeName ref="8133709" type="geonames" xml:base="https://www.geonames.org/">Poros</placeName>, c’est ce
+            plaisir, la douceur de la villa <foreign xml:lang="ell">Galini</foreign> (Sérénité) construite en front de
+            mer <hi>(voir ill. p.&#160;70)</hi> qui séduisent un moment tous les
+            sens du nouvel <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>. Résidence de
+            la sœur de <persName type="_temp">Marô</persName>, cette demeure
+            où «&#160;tout exhale une odeur de romantisme (sens anglais) éventé, du
+            dernier quart du siècle passé&#160;», avec sa véranda qui donne sur la
+            mer et les collines d’en face<note n="46" place="foot" type="standard" xml:id="ftn46">
+                <p>
+                  <hi rend="italic">Journal </hi>(1945-1951), traduit du grec
+                par Lorand Gaspar, Mercure de France, 1973, désormais appelé
+                <hi rend="italic">Journal </hi>(1945-1951), p.&#160;71</p>
+              </note>, une bibliothèque dont «&#160;la plupart des livres sont
+            d’écrivains anglais oubliés&#160;»<note n="47" place="foot" type="standard" xml:id="ftn47">
+                <p>
+                  <hi rend="italic">Journal </hi>(1945-1951), p.&#160;52</p>
+              </note>, a abrité nombre d’artistes et d’hommes de lettres. Elle
+            aussi a marqué l’œuvre de <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> à qui le vent,
+            l’île de Saint-Jean, la grotte et le figuier rappellent
+            «&#160;violemment&#160;» <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName>
+              <note n="48" place="foot" type="standard" xml:id="ftn48">
+                <p>
+                  <hi rend="italic">Journal </hi>(1945-1951),
+                25&#160;octobre&#160;1946, p.&#160;75</p>
+              </note>. En <date type="_temp" when="1940">1940</date>, un
+            premier et bref séjour enchante le poète. La fenêtre, motif
+            capital de l’œuvre séférien, ouvre sur le paysage du vendredi
+            saint à la manière des «&#160;vedute&#160;»<hi rend="bold"/>italiennes&#160;:</p>
+            <quote rend="quotation" xml:id="d1e647">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+                </term>
+              </term>«&#160;J’écris
+            devant la fenêtre ouverte, c’est la fin de l’après-midi. Les
+            cloches lentes du vendredi saint et toutes les heures, un coup de
+            canon&#160;[…] Par la fenêtre, des pins, un morceau de mer, dans le
+            fond, le cap est coupé sur le col par la route qui va vers le
+            monastère. En dehors des cloches du deuil, grande tranquillité&#160;[…]
+            Depuis hier, les nerfs fatigués se désengourdissent&#160;: comme si,
+            dans la tête, une carapace se brisait – quelle vie&#160;! Ce séjour au
+            grand air, je l’attendais depuis des mois&#160;[…] L’atmosphère de
+            <placeName ref="8133709" type="geonames" xml:base="https://www.geonames.org/">Poros</placeName> m’a
+            totalement conquis&#160;»<note n="49" place="foot" type="standard" xml:id="ftn49">
+                <p>[<hi rend="italic">Meres</hi>] <hi rend="italic">Γ</hi>,
+                26&#160;avril&#160;1940, p.&#160;186</p>
+              </note>.</quote>
+            <figure xml:id="d1e659">
+              <graphic url="https://didomena.ehess.fr/downloads/0k225k12t.jpg"/>
+              <head xml:id="d1e660">Figure 4. La villa Galini à Poros. Photo
+              <ref target="http://boraeinai.blogspot.com">http://boraeinai.blogspot.com</ref>
+              </head>
+            </figure>
+            <p xml:id="d1e662">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+              </term>Mais c’est
+            surtout en <date type="_temp" when="1946">1946</date>, où
+            <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> y réside deux
+            mois et compose <hi rend="italic">La Grive </hi>que, dans un
+            premier temps, le sentiment de bien-être rapproche Galini de la
+            maison de <persName ref="032292198" type="idref" xml:base="https://www.idref.fr/">Circé</persName>&#160;:</p>
+            <quote rend="quotation" xml:id="d1e668">«&#160;D’ailleurs, la villa
+            ‘Galini’, cette maison victorienne, rouge Pompéi, m’a donné pour
+            la première fois, après tant d’années, le sentiment de la maison
+            solide, et non du campement provisoire&#160;: de cette marchandise dont
+            j’ai pris l’habitude de penser qu’on ne la fabrique plus&#160;»<note n="50" place="foot" type="standard" xml:id="ftn50">
+                <p>Lettre&#160;212 à Katsimbalis, 27&#160;décembre&#160;1949, <hi rend="italic">A</hi>, t.&#160;II, p.&#160;152</p>
+              </note>.</quote>
+            <p xml:id="d1e677">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+                </term>
+              </term>Au
+            rapport mémoriel qui lie le nouvel <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName> à
+            <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName> et
+            <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>, phares
+            dans un monde en perpétuel mouvement, cette villa ajoute une
+            puissante composante onirique et sensuelle, conduite et
+            intensifiée notamment par la musique instrumentale et
+            phonique<note n="51" place="foot" type="standard" xml:id="ftn51">
+                <p>Ibid.</p>
+              </note>. Personnifiées, les trois maisons matérialisent et
+            résument l’attraction exercée sur le poète par les diverses formes
+            du principe féminin.</p>
+            <p xml:id="d1e682">Cependant, dans un second temps, tel <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> s’écarte&#160;:
+            «&#160;<placeName ref="8133709" type="geonames" xml:base="https://www.geonames.org/">Poros</placeName> n’est pas
+            ‘mon endroit’. Bien qu’il figure parmi le petit nombre de
+            campagnes grecques où j’ai un ‘passé’, ce n’est certainement pas
+            le pays qui me convient&#160;», note-t-il dès le
+            <date>13&#160;août&#160;1946</date>, à propos de «&#160;ce lieu clos avec sans
+            doute beaucoup de sortilèges, quelque chose d’une fosse de
+            lascivité avec la lune au-dessus&#160;»<note n="52" place="foot" type="standard" xml:id="ftn52">
+                <p>
+                  <hi rend="italic">Journal </hi>(1945-1951), 13&#160;août&#160;1946,
+                p.&#160;50</p>
+              </note>. Le <date type="_temp" when="1946-10-09">9&#160;octobre</date>, il note à nouveau&#160;: «&#160;Cette
+            atmosphère de serre chaude de <placeName ref="8133709" type="geonames" xml:base="https://www.geonames.org/">Poros</placeName>. J’aurais
+            eu besoin de plus d’air&#160;»<note n="53" place="foot" type="standard" xml:id="ftn53">
+                <p>
+                  <hi rend="italic">Journal </hi>(1945-1951), p.&#160;61</p>
+              </note>, puis le <date type="_temp" when="1946-10-24">24&#160;octobre</date>&#160;: «&#160;<placeName ref="8133709" type="geonames" xml:base="https://www.geonames.org/">Poros</placeName> est
+            <placeName ref="6541985" type="geonames" xml:base="https://www.geonames.org/">Capoue</placeName>&#160;». Face
+            aux pièges de l’enfermement dans ce qu’il a appelé «&#160;la chambre à
+            coucher d’une cocotte&#160;»<note n="54" place="foot" type="standard" xml:id="ftn54">
+                <p>
+                  <hi rend="italic">Journal </hi>(1945-1951), p.&#160;49</p>
+              </note>, c’est la dominante originelle et vitale, maternelle,
+            qui l’emporte&#160;:</p>
+            <quote rend="quotation" xml:id="d1e705">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et
+            savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+                  </term>
+                </term>
+              </term>«&#160;Ainsi
+            <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>, après tant de
+            catastrophes, et d’autres qu’il sent à venir, songe à cette chose
+            bizarre que les gens appellent&#160;: <hi rend="italic">maison. </hi>Il
+            finit par la voir comme une personne vivante, ou comme une forme
+            humaine&#160;: ce sentiment, il l’avait d’ailleurs lorsqu’il lui
+            arrivait d’entrer dans d’autres manoirs&#160;:<lb/>Se réveille aux pas
+            de la mère sur les marches,<lb/>Quand la main borde le lit ou
+            arrange la moustiquaire,<lb/>les lèvres qui soufflent la flamme de
+            la bougie<lb/>– souvenirs d’enfance. Ce sont de tels souvenirs qui
+            lui reviennent aussi dans le palais de <persName ref="032292198" type="idref" xml:base="https://www.idref.fr/">Circé</persName>. Il
+            rêve&#160;»<note n="55" place="foot" type="standard" xml:id="ftn55">
+                <p>Lettre&#160;212 à Katsimbalis, suite</p>
+              </note>.</quote>
+            <p xml:id="d1e722">C’est aussi la nostalgie créée par l’absence de
+            <persName type="_temp">Marouli</persName> (diminutif de <persName type="_temp">Marô</persName>), l’épouse chérie, qui le remet en
+            marche vers Ithaque&#160;:</p>
+            <quote rend="quotation" xml:id="d1e724">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>«&#160;Caractère
+            des maisons. Les maisons se groupent également en familles. Ce
+            matin j’ai réfléchi qu’ici, il manque <persName type="_temp">Marouli</persName>&#160;; cette maison exige [qu’elle soit
+            là], avec ses petites manies et ses réactions fantasques&#160;: les
+            chambres, les corridors, l’escalier, les tiroirs, des objets
+            insignifiants réclament sa présence comme un chat qui a perdu son
+            maître. Peut-être aussi que c’est <placeName ref="8133709" type="geonames" xml:base="https://www.geonames.org/">Poros</placeName>. Ici, les
+            choses semblent ne pas passer, être hantées en quelque sorte.
+            J’imagine qu’on ne peut tenir longtemps ainsi. C’est l’île de
+            <persName ref="059443014" type="idref" xml:base="https://www.idref.fr/">Calypso</persName>&#160;»<note n="56" place="foot" type="standard" xml:id="ftn56">
+                <p>[<hi rend="italic">Meres</hi>] <hi rend="italic">E’
+                </hi>(1945-1951), 28&#160;octobre&#160;1946, p.&#160;74</p>
+              </note>.</quote>
+            <p xml:id="d1e736">En réaction à la dégradation et à
+            l’immobilisation mortifère jaillit à la fin de <hi rend="italic">La Grive </hi>une magnifique et syncrétique vision,
+            celle d’une maison à la fois grecque et universelle, ancienne et
+            de tous les temps&#160;: «&#160;La maison d’<persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+            est la lumière&#160;». Galini devient le lieu d’un nouveau départ, d’un
+            renouveau spirituel au diapason de la nature, de l’amour de
+            <persName ref="034007202" type="idref" xml:base="https://www.idref.fr/">Pénélope</persName>. À nouveau,
+            c’est à travers le cadre stable de la fenêtre que cette
+            renaissance pacifiée se fait jour<note n="57" place="foot" type="standard" xml:id="ftn57">
+                <p>Voir <hi rend="italic">Pages, </hi>2&#160;décembre&#160;1946,
+                p.&#160;347</p>
+              </note>.</p>
+            <p xml:id="d1e748">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+                </term>
+              </term>Croire à
+            un possible retour n’est invraisemblable que pour qui exclut le
+            miracle de la vie<note n="58" place="foot" type="standard" xml:id="ftn58">
+                <p>Voir Ch.&#160;Papazoglou, «&#160;Le ‘miracle’&#160;: expérience et
+                perspective de la poésie séférienne&#160;»<hi rend="bold">, </hi>in
+                <hi rend="italic">Journée d’étude Georges Séféris </hi>(2000),
+                Strasbourg, 2007, p.&#160;16</p>
+              </note>. À son traducteur <persName ref="026987813" type="idref" xml:base="https://www.idref.fr/">Robert Levesque</persName>,
+            <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> écrit&#160;: «&#160;Le
+            paysage de <hi rend="italic">La Grive </hi>est n’importe quel
+            rivage de l’Attique ou de l’Egée, vers la fin de l’été&#160;; la
+            maison, n’importe quelle vieille maison et le naufrage de <hi rend="italic">La Grive </hi>n’importe quel naufrage&#160;»<note n="59" place="foot" type="standard" xml:id="ftn59">
+                <p>Voir D.<hi rend="italic">&#160;</hi>Kohler, <hi rend="italic">Georges Séféris, Qui êtes-vous&#160;?</hi>, op.&#160;cit.,
+                p.&#160;243 et suiv.</p>
+              </note>. «&#160;N’importe quelle <hi rend="italic">vieille
+            </hi>maison&#160;?&#160;» En effet, face à cette lumière, le poète doit
+            savoir se garder de l’éblouissement et conserver une part
+            d’ombre&#160;:</p>
+            <quote rend="quotation" xml:id="d1e779">«&#160;Cette lumière, ce
+            paysage, ces jours, commencent à me menacer sérieusement. Je ferme
+            les volets pour pouvoir travailler. Je dois me protéger de la
+            beauté comme les Anglais de la pluie […] Aujourd’hui j’ai compris
+            pourquoi <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> était aveugle&#160;;
+            s’il avait eu des yeux, il n’eût rien écrit. Il avait vu un
+            moment, pour un temps limité, ensuite il n’a plus vu&#160;»<note n="60" place="foot" type="standard" xml:id="ftn60">
+                <p>
+                  <hi rend="italic">Journal </hi>(1945-1951),
+                23&#160;octobre&#160;1946, p.&#160;73</p>
+              </note>.</quote>
+          </div>
+        </div>
+        <div type="section1" xml:id="d1e788">
+          <head subtype="level1" xml:id="d1e789">«&#160;Je cherche ma vieille
+          maison&#160;»</head>
+          <p xml:id="d1e791">Plus que pour la nature bucolique ou les paysages
+          romantiques, <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> ressent en effet
+          une attirance quasi viscérale pour les vieilles maisons où la
+          lumière varie et pour leur contraire, la mer. Cette quête le ramène
+          à sa propre dualité<note n="61" place="foot" type="standard" xml:id="ftn61">
+              <p>Voir [<hi rend="italic">Meres</hi>]&#160;<hi rend="italic">Γ,
+              </hi>10&#160;juillet&#160;1940, p.&#160;211</p>
+            </note>.</p>
+          <div type="section2" xml:id="d1e803">
+            <head subtype="level2" xml:id="d1e804">«&#160;Dans une grande maison
+            pleine de fenêtres ouvertes&#160;»</head>
+            <p xml:id="d1e806">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>
+              <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName> est bien
+            l’aune à laquelle, consciemment ou non, il évalue tous ses autres
+            lieux de résidence, appréciant par exemple le calme de Sceaux<note n="62" place="foot" type="standard" xml:id="ftn62">
+                <p>JT, 1919-1922, p.&#160;131</p>
+              </note> où la fenêtre ouvre sur la <hi rend="italic">
+                <foreign xml:lang="grc">phantasia</foreign>&#160;:</hi>
+            </p>
+            <quote rend="quotation" xml:id="d1e813">«&#160;J’ai la chance d’avoir
+            une belle vue de ma fenêtre&#160;: je peux voir une petite colline et
+            j’imagine que derrière il y a la mer, notre chère maison, maman et
+            toi, mais je n’y vais pas, par caprice&#160;»<note n="63" place="foot" type="standard" xml:id="ftn63">
+                <p>
+                  <hi rend="italic">La Grive</hi>, III, Poros,
+                31&#160;octobre&#160;1946, in <hi rend="italic">Poèmes 1933-1945</hi>,
+                op.&#160;cit., p.&#160;152</p>
+              </note>.</quote>
+            <p xml:id="d1e825">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-9z8fpxff">mythologie</term>
+                </term>
+              </term>Par
+            caprice ou pour ne pas briser le rêve&#160;? C’est à nouveau par les
+            fenêtres que le poème se dilate à l’échelle de la mythologie, de
+            l’amour, de la poésie et de la lumière cosmique, vie et mort&#160;:</p>
+            <quote rend="quotation" xml:id="d1e827">«&#160;Chante, petite <persName ref="027591689" type="idref" xml:base="https://www.idref.fr/">Antigone</persName>,
+            chante…<lb/>Je ne parle pas du passé, je parle de
+            l’amour.&#160;[…]<lb/>Celui qui n’a jamais aimé aimera,<lb/>Dans la
+            lumière.<lb/>Et tu es<lb/>Dans une grande maison pleine de
+            fenêtres ouvertes,<lb/>Courant de pièce en pièce, sans
+            savoir<lb/>De quel côté d’abord jeter les yeux.<lb/>Parce que les
+            pins, le reflet des montagnes et le chant des oiseaux<lb/>Vont
+            disparaître&#160;[…]&#160;»<note n="64" place="foot" type="standard" xml:id="ftn64">
+                <p>
+                  <hi rend="italic">La Grive</hi>, III, Poros,
+                31&#160;octobre&#160;1946, in <hi rend="italic">Poèmes 1933-1945</hi>,
+                op.&#160;cit., p.&#160;152</p>
+              </note>.</quote>
+            <p xml:id="d1e858">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+                </term>
+              </term>Dans sa
+            mémoire, tout est grand. Par sa stature, la maison se dresse,
+            évident refuge, arche au cœur de l’ouragan mortifère&#160;; l’ampleur
+            de l’architecture, des tables signifie la force du lien
+            familial&#160;:</p>
+            <quote rend="quotation" xml:id="d1e860">«&#160;Sur notre gauche, le
+            vent du sud souffle à nous rendre fous.<lb/>Ce vent qui dénude les
+            os de leur chair.<lb/>Parmi les pins et les caroubiers, notre
+            maison.<lb/>De grandes fenêtres. De grandes tables<lb/>Pour écrire
+            les lettres que nous t’avons écrites<lb/>Depuis tant de mois, et
+            que nous jetons<lb/>Au cœur de la séparation pour
+            l’égaliser&#160;»<note n="65" place="foot" type="standard" xml:id="ftn65">
+                <p>VII, <hi rend="italic">Vent du sud, Mythologie</hi>, in <hi rend="italic">Poèmes 1933-1955</hi>, op.&#160;cit., p.&#160;27</p>
+              </note>.</quote>
+            <p xml:id="d1e885">
+              <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName> incarne le
+            rêve d’un cadre matriciel dont la perception résiste au temps,
+            mais où celui-ci et ses misères seraient abolis, dans une quiétude
+            proche de la mort&#160;: en <date type="_temp" when="1921">1921</date>,
+            après s’être séparé de <persName type="_temp">Kirsten</persName>,
+            la jeune Norvégienne rencontrée à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, il écrit à
+            <persName type="_temp">Ioanna</persName>&#160;:</p>
+            <quote rend="quotation" xml:id="d1e887">«&#160;Si je le pouvais,
+            j’aurais une maison sans aucune horloge, dans un endroit où la
+            différence entre le jour et la nuit se verrait le moins possible.
+            Et si c’était possible un éternel crépuscule ou une aube
+            éternelle. Une mer avec de toutes petites vagues, absolument
+            semblables, et en face de moi, une belle île que je ne pourrais
+            jamais atteindre&#160;»<note n="66" place="foot" type="standard" xml:id="ftn66">
+                <p>JT 1919-1922, p.&#160;107</p>
+              </note>.</quote>
+            <p xml:id="d1e892">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>Vingt
+            ans plus tard, à <placeName ref="293198" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName>, sa
+            maison-refuge contre l’instabilité essentielle de l’existence et
+            une nature trop sauvage lui apparaît en rêve&#160;:</p>
+            <quote rend="quotation" xml:id="d1e894">«&#160;Cette idée d’un monde
+            qui ne soit pas à découvert ni privé d’un cadre si bien qu’on ne
+            le perçoit plus, cette vision, je l’ai eue en rêve la nuit
+            dernière. Je me trouvais à <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName>, ou plutôt,
+            je regardais <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName>&#160;[…] Je
+            devais me trouver entre la ‘maisonnette’ et le ‘môle des bateaux’.
+            Une mer d’un calme extraordinaire. On aurait pu décrocher le
+            soleil qui l’éclairait et le mettre dans son sac. Tout, les bittes
+            d’amarrage sur la jetée, les boiseries, les arches, les caïques,
+            les fenêtres, tout était <hi rend="italic">fidèle</hi>, comme on
+            le dit d’un chien. Et j’avais le sentiment brûlant que tout cela
+            <hi rend="italic">m’appartenait</hi>, avait presque été fait par
+            moi, comme si j’étais un enfant et que tout cela avait été mes
+            jouets&#160;»<note n="67" place="foot" type="standard" xml:id="ftn67">
+                <p>
+                  <hi rend="italic">Pages, </hi>6&#160;décembre&#160;1941, p.&#160;289</p>
+              </note>.</quote>
+            <p xml:id="d1e910">Durant toutes ces années, <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> imagine la
+            possibilité d’un retour, non sans appréhension comme en témoigne,
+            en <date type="_temp" when="1938">1938</date>, le «&#160;Retour de
+            l’exilé&#160;». Dans ce poème en forme de ballade populaire, un
+            dialogue se noue entre un moderne <persName ref="027305287" type="idref" xml:base="https://www.idref.fr/">Ulysse</persName>
+            rentrant dans une maison qu’il ne reconnaît pas, où tout a
+            rapetissé, et son épouse hésitant à le reconnaître&#160;:</p>
+            <quote rend="quotation" xml:id="d1e912">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+                </term>
+              </term>– «&#160;Mon
+            vieil ami, que cherches-tu&#160;?<lb/>exilé depuis des années tu es
+            revenu<lb/>avec des images que tu as nourries<lb/>sous des cieux
+            étrangers<lb/>loin du pays qui est le tien.<lb/>– Je cherche mon
+            vieux jardin&#160;;<lb/>les arbres m’arrivent à la ceinture<lb/>et les
+            collines ressemblent à des bancs de pierre&#160;[…]<lb/>Je cherche ma
+            vieille maison<lb/>avec ses hautes fenêtres<lb/>assombries par le
+            lierre.<lb/>Je cherche la colonne antique<lb/>que visait le
+            marin.<lb/>Comment veux-tu que j’entre dans cette
+            bergerie&#160;?<lb/>Le toit m’arrive aux épaules<lb/>et si loin que je
+            regarde<lb/>je vois des hommes à genoux&#160;;<hi rend="bold">
+                <lb/>
+              </hi>on dirait qu’ils font leur prière.<lb/>– Mon vieil ami, ne
+            m’entends-tu pas&#160;?<lb/>peu à peu tu t’habitueras&#160;;<hi rend="bold">
+                <lb/>
+              </hi>ta maison est celle que tu vois<lb/>et à cette porte
+            frapperont<lb/>bientôt tes amis, et les tiens<lb/>t’accueilleront
+            avec douceur&#160;[…]<lb/>La nostalgie t’a créé<lb/>un pays qui
+            n’existe pas, avec des lois<lb/>hors de la terre et des
+            hommes&#160;»<note n="68" place="foot" type="standard" xml:id="ftn68">
+                <p>«&#160;Le retour de l’exilé&#160;» [Athènes, printemps 1938], in <hi rend="italic">Journal de bord</hi>&#160;<hi rend="italic">I</hi>,
+                traduction Vincent Barras, Melchior, Genève/Morges, 2000,
+                p.&#160;17</p>
+              </note>.</quote>
+            <p xml:id="d1e982">D’ailleurs, la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> tout
+            entière n’est plus que rétrécissement, privation,
+            dessèchement&#160;:</p>
+            <quote rend="quotation" xml:id="d1e984">«&#160;Notre pays est reclos,
+            tout en montagnes,<lb/>Qui ont pour toit jour et nuit le ciel
+            bas.<lb/>Nous n’avons pas de fleuves, nous n’avons pas de
+            puits,<lb/>Nous n’avons pas de sources.<lb/>Quelques citernes
+            seules, vides aussi&#160;;<lb/>Elles résonnent et sont pour nous objets
+            d’adoration&#160;[…]<lb/>Il nous paraît étrange d’avoir pu autrefois
+            construire<lb/>Nos maisons, nos cabanes et nos parcs à
+            moutons.<lb/>Et nos mariages avec leurs couronnes fraîches et
+            leurs bagues<lb/>Deviennent d’insolubles énigmes pour notre
+            âme&#160;»<note n="69" place="foot" type="standard" xml:id="ftn69">
+                <p>X, <hi rend="italic">Mythologie </hi>[<hi rend="italic">Mythistorima</hi>], in <hi rend="italic">Poèmes
+                1933-1955</hi>, op.&#160;cit., p.&#160;30</p>
+              </note>.</quote>
+          </div>
+          <div type="section2" xml:id="d1e1018">
+            <head subtype="level2" xml:id="d1e1019">«&#160;Et je suis entré dans ma
+            maison vide&#160;»<note n="70" place="foot" type="standard" xml:id="ftn70">
+                <p>[«&#160;Mnimi&#160;A&#160;»], v.&#160;24, <hi rend="italic">Journal de
+                bord</hi>&#160;<hi rend="italic">III </hi>(1955), notre
+                traduction</p>
+              </note>
+            </head>
+            <p xml:id="d1e1030">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+                </term>
+              </term>Pourtant,
+            en <date type="_temp" when="1950">1950</date>, quelques mois après
+            le soudain décès d’<persName type="_temp">Anghélos</persName>, le
+            frère bien-aimé, <persName type="_temp">Séféris</persName> alors
+            en poste à <placeName ref="323784" type="geonames" xml:base="https://www.geonames.org/">Ankara</placeName> prend la
+            terrible décision de retourner au royaume de la mort voir les
+            maisons de leur enfance&#160;: «&#160;maisons perdues et retrouvées&#160;?&#160;»<note n="71" place="foot" type="standard" xml:id="ftn71">
+                <p>Gaëtan Picon, <hi rend="italic">Visages de Séféris,
+                </hi>postface à <hi rend="italic">Georges Séféris,</hi>
+                  <hi rend="italic">Poèmes 1933-1955</hi>, op.&#160;cit., p.&#160;192</p>
+              </note> De celle de <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>, il ne
+            reste rien&#160;:</p>
+            <quote rend="quotation" xml:id="d1e1045">«&#160;Nous sommes descendus
+            au <foreign xml:lang="tur">Tüccar Külübü</foreign> (Cercle du
+            Commerce), le Sporting d’antan&#160;; là, par derrière, se trouvait
+            autrefois notre maison. <hi rend="italic">Samedi soir</hi>. En
+            bas, on danse&#160;[…] Comme s’il voulait me réconforter, le diplomate
+            qui m’accompagne me glisse à voix basse&#160;: ‘Les Grecs disent que
+            les Turcs ont incendié <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName>&#160;; les
+            Turcs disent que ce sont les Grecs qui y ont mis le feu. Qui peut
+            savoir la vérité&#160;?’ Je n’ai aucune envie de discuter&#160;[…]<lb/>
+              <date type="_temp" when="1950-07-02">
+                <hi rend="italic">Dimanche
+            2</hi>&#160;<hi rend="italic">juillet</hi>
+              </date>. Et à l’aube par la
+            fenêtre, la mer et les Deux-Frères&#160;: c’est tout […] – personne ne
+            revient. <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName> a perdu
+            son ombre, comme les fantômes&#160;»<note n="72" place="foot" type="standard" xml:id="ftn72">
+                <p>[<hi rend="italic">Meres</hi>] <hi rend="italic">E’</hi>,
+                1<hi rend="sup">er</hi>&#160;juillet&#160;1950, p.&#160;196</p>
+              </note>.</quote>
+            <p xml:id="d1e1070">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+                </term>
+              </term>En
+            route vers <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName>, malgré une
+            mémoire fonctionnant avec une absolue fidélité, il ne réussit pas
+            à reconnaître la maison de son oncle. Le petit village est devenu
+            un gros bourg. Mais ces changements ne l’affectent pas,
+            contrairement à ceux de <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName> défigurée,
+            la veille&#160;: «&#160;Je suis totalement lié au <hi rend="italic">visage
+            </hi>de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName>&#160;[…] Je
+            sais&#160;[…] que j’ai fait quelque chose comme défier les morts,
+            violer la nature des choses&#160;: un acte éhonté. Il est trop tard
+            pour revenir en arrière&#160;». Cependant, lorsque muni de ses seuls
+            mots et de la flûte des champs, il entre sous le regard des poètes
+            disparus dans sa maison ruinée et vide, la mémoire et les chants
+            du passé s’amalgament au présent. <persName ref="027384136" type="idref" xml:base="https://www.idref.fr/">Orphée</persName> à
+            jamais dépossédé, il confie son désarroi&#160;:</p>
+            <quote rend="quotation" xml:id="d1e1075">«&#160;Les vitres de la
+            fenêtre d’en bas brisées, la porte en fer horriblement rouillée&#160;:
+            on n’a pas dû la repeindre depuis notre époque. J’en ai encore la
+            clé à <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>.
+            <persName type="_temp">Michalis Bougas</persName>, qui gardait la
+            maison au moment de la catastrophe, me l’a remise vers <date type="_temp" when="1934">1934</date>. C’était la seule chose qu’il
+            avait pu sauver, avec la vie de sa femme et de ses enfants, quand
+            il a réussi à échapper au massacre sur un radeau. Les volets de
+            l’étage du haut pourris&#160;: on dirait qu’ils ne sont jamais fermés.
+            Les murs lépreux. J’ai essayé de regarder à l’intérieur de la
+            maison&#160;: j’ai pu distinguer la cloison vitrée de la salle à
+            manger&#160;; plus loin, il ne faisait pas assez clair. Pendant que
+            nous prenions des photos, deux ou trois enfants ont surgi de la
+            porte rouillée comme de gros rats&#160;[…]<note n="73" place="foot" type="standard" xml:id="ftn73">
+                <p>[<hi rend="italic">Meres</hi>]&#160;<hi rend="italic">E’</hi>,
+                2&#160;juillet&#160;1950, p.&#160;198-200</p>
+              </note>.</quote>
+            <p xml:id="d1e1087">Il prend alors trois photos, pour son ami
+            <persName ref="138008450" type="idref" xml:base="https://www.idref.fr/">Katsimbalis</persName>, dont deux
+            dans son village. Dans la marge de la première, il note&#160;:
+            «&#160;<persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Séféris</persName> chez lui,
+            2.7.50&#160;!&#160;». Au dos, il explique&#160;: «&#160;1.&#160;La maison de <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Seferis</persName>, 2.&#160;La maison
+            de grand-mère&#160;». Sur la seconde&#160;: «&#160;Quelle situation. <persName ref="028482956" type="idref" xml:base="https://www.idref.fr/">Seféris</persName> dans son
+            village, 2.7.50&#160;» <hi>(voir ill. p.&#160;75)</hi>
+              <note n="74" place="foot" type="standard" xml:id="ftn74">
+                <p>Lettre&#160;240 à Katsimbalis, 9.12.50, <hi rend="italic">A</hi>, t.&#160;II, p.&#160;221 et note&#160;3</p>
+              </note>.</p>
+            <figure xml:id="d1e1098">
+              <graphic url="https://didomena.ehess.fr/downloads/df65vh36d.jpg"/>
+              <head xml:id="d1e1099">Figure 5. Séféris devant sa maison à
+              Skala, 1950. Photo K.E.M.M.E</head>
+            </figure>
+            <p xml:id="d1e1101">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+            artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+              </term>Par cette
+            quête d’une extrême émotion, par ce courage, la terrifiante vision
+            de la mer dans l’<hi rend="italic">Apocalypse </hi>qui<hi rend="italic">, </hi>à l’annonce du Jugement dernier, «&#160;rendit les
+            morts qui étaient en elle&#160;», se renverse&#160;: <persName ref="027219550" type="idref" xml:base="https://www.idref.fr/">Aphrodite</persName> y renaîtra
+            et la création poétique aussi. Mais si un espoir peut être
+            entrevu, si l’impitoyable réel peut être dépassé, il ne peut être
+            aboli&#160;: le grain doit mourir pour pouvoir revivre (<hi rend="italic">
+                <persName ref="027562611" type="idref" xml:base="https://www.idref.fr/">Jean</persName>, </hi>12, 24). Il
+            raconte la suite à sa sœur&#160;:</p>
+            <quote rend="quotation" xml:id="d1e1112">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-5vn9njoq">animal</term>
+                </term>
+              </term>«&#160;Là-bas,
+            à la pointe tout près du phare, j’ai tourné brusquement le dos aux
+            maisons qui me regardaient comme regardent les animaux malades.
+            Tellement qu’on aurait dit que le peu de vie qui leur restait
+            encore ne tenait qu’à moi… Je regardais mes îles&#160;»<note n="75" place="foot" type="standard" xml:id="ftn75">
+                <p>JT, 1922-1925, p.&#160;182</p>
+              </note>.</quote>
+            <p xml:id="d1e1117">L’exilé s’interroge alors toujours davantage
+            sur les rapports du réel, de la mémoire et de l’imaginaire, sur la
+            possibilité et la pertinence de conserver l’image originelle de
+            ses maisons, forme même du destin, le sien associé à celui de tous
+            les Grecs d’Asie Mineure, de tous les exilés&#160;:</p>
+            <quote rend="quotation" xml:id="d1e1122">«&#160;Tant et tant de choses
+            ont défilé devant nos yeux<lb/>Que nos yeux mêmes ont fini par ne
+            rien voir, sinon plus loin,<lb/>Et en arrière, la
+            mémoire&#160;[…]<lb/>Pour avoir si bien connu ce destin qui est le
+            nôtre,<lb/>Errant parmi des pierres brisées pendant trois ou six
+            mille ans,<lb/>Fouillant dans des bâtisses effondrées qui furent
+            peut-être nos maisons,<lb/>Essayant de nous rappeler dates et
+            hauts faits,<lb/>[…]<lb/>Pourrons-nous mourir d’une mort
+            ordinaire&#160;?<note n="76" place="foot" type="standard" xml:id="ftn76">
+                <p>XXII, <hi rend="italic">Mythologie, Poèmes 1933-1955</hi>,
+                op.&#160;cit., p.&#160;38. Ibid., p.&#160;3</p>
+              </note>
+            </quote>
+            <p xml:id="d1e1145">
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+              </term>Cette
+            désolation, cette déception marquent un tournant dans sa vie et
+            dans son œuvre&#160;: désormais «&#160;sa maison n’est plus celle qu’on lui
+            avait prise mais celle qu’il est en train d’habiter, dans sa
+            nouvelle patrie&#160;»<note n="77" place="foot" type="standard" xml:id="ftn77">
+                <p>Papazoglou, art.&#160;cit., p.&#160;18</p>
+              </note>, à <placeName ref="146670" type="geonames" xml:base="https://www.geonames.org/">Chypre</placeName> d’abord,
+            puis à <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>,
+            rue&#160;Agras, avec <persName type="_temp">Marô</persName>, là où est
+            «&#160;l’amour, maison apaisée de l’homme (<persName ref="027023044" type="idref" xml:base="https://www.idref.fr/">Mencius</persName>)&#160;»<note n="78" place="foot" type="standard" xml:id="ftn78">
+                <p>«&#160;Notes pour un poème (mai-juin)&#160;», in <hi rend="italic">Pages</hi>, 7&#160;octobre&#160;1946, p.&#160;339</p>
+              </note>. Mais peut-on tirer un trait sur de telles maisons
+            d’enfance&#160;? Lorsqu’à <placeName ref="2653941" type="geonames" xml:base="https://www.geonames.org/">Cambridge</placeName>, en
+            <date type="_temp" when="1960-01">janvier&#160;1960</date>, lui est
+            remis le titre de docteur <foreign xml:lang="lat">honoris
+            causa</foreign> et qu’un discours mentionne <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName> et
+            <placeName ref="298316" type="geonames" xml:base="https://www.geonames.org/">Clazomènes</placeName>, il
+            vibre tout entier&#160;: «&#160;<placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Skala</placeName> était venue
+            jusqu’ici&#160;! C’est ce qui m’a ému plus que tout&#160;»<note n="79" place="foot" type="standard" xml:id="ftn79">
+                <p>JT, 1922-1923, p.&#160;18</p>
+              </note>.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

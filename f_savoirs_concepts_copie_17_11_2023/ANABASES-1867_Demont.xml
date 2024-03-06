@@ -1,0 +1,1121 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-1867_Demont">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Enjeux du traité hippocratique <hi rend="italic">Des airs, des eaux et des lieux</hi> en 1800&#160;: autour de
+        l’édition de Coray</title>
+        <author role="aut">
+          <forename>Paul</forename>
+          <surname>Demont</surname>
+          <idno type="IDREF">026823519</idno>
+          <affiliation>Professeur de langue et littérature
+          grecques<lb/>Université de Paris-Sorbonne (Paris-IV)</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/2I3VQFCM" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Enjeux du traité hippocratique Des airs, des eaux
+            et des lieux en 1800 : autour de l’édition de Coray</title>
+            <idno type="DOI">10.4000/anabases.1867</idno>
+            <title type="short">Enjeux du traité hippocratique Des airs, des
+            eaux et des lieux en 1800</title>
+            <author>
+              <forename>Paul</forename>
+              <surname>Demont</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Anabases. Traditions et réceptions de
+            l’Antiquité</title>
+            <idno type="ISSN">1774-4296</idno>
+            <imprint>
+              <biblScope unit="issue">13</biblScope>
+              <biblScope unit="page">157-171</biblScope>
+              <date>2011</date>
+              <note type="accessed">2022-07-06T07:30:27Z</note>
+              <note type="url">https://journals.openedition.org/anabases/1867</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="grc"/>
+        <language ident="lat"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>philology</item>
+            <item>slavery</item>
+            <item>Hippocrates</item>
+            <item>hippocratism</item>
+            <item>Coray Adiamantos</item>
+            <item>medicine</item>
+            <item>climate</item>
+            <item>Ionia</item>
+            <item>Turkey</item>
+            <item>despotism</item>
+            <item>Montesquieu</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>philologie</item>
+            <item>esclavage</item>
+            <item>Hippocrate</item>
+            <item>hippocratisme</item>
+            <item>Coray Adiamantos</item>
+            <item>médecine</item>
+            <item>climat</item>
+            <item>Ionie</item>
+            <item>Turquie</item>
+            <item>despotisme</item>
+            <item>Montesquieu</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+          <term>
+            <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>
+          </term>
+          <term>
+            <placeName ref="6454034" type="geonames" xml:base="https://www.geonames.org/">Montpellier</placeName>
+          </term>
+          <term>
+            <placeName ref="298795" type="geonames" xml:base="https://www.geonames.org/">Turquie</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1800">1800</date>
+          </term>
+          <term>
+            <date from="1700" to="1899" type="_temp">XVIII<hi rend="sup">e</hi> et XIX<hi rend="sup">e</hi>&#160;siècles</date>
+          </term>
+          <term>
+            <date from="-0499" to="-0400" type="_temp">V<hi rend="sup">e</hi>&#160;siècle avant notre ère</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Enjeux du traité hippocratique <hi rend="italic">Des airs, des eaux et des lieux</hi> en 1800&#160;: autour
+          de l’édition de Coray</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Paul Demont</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:id="d1e252" xml:lang="fre">L’édition du traité hippocratique
+        <hi rend="italic">Des airs, des eaux et des lieux</hi> qu’Adiamantos
+        Coray a publiée en 1800 à Paris est un travail philologique novateur.
+        C’est aussi l’œuvre d’un émigré fier de son pays natal, hostile au
+        despotisme asiatique. Docteur en médecine de la Faculté de
+        Montpellier, partisan d’une forme de retour à Hippocrate, Coray doit
+        aussi être situé par rapport à Montesquieu sur la question du
+        déterminisme climatique et de l’esclavage.</p>
+        <p xml:id="d1e258" xml:lang="eng">The edition of the Hippocratic
+        treatise <hi rend="italic">Of airs, waters and places</hi> which
+        Adiamantos Coray published in Paris in 1800 is a groundbreaking
+        philological work. It is also the work of an emigrant proud of his
+        native country and hostile to Asiatic despotism. Doctor of the
+        Montpellier School of Medicine, he advocated a form of return to
+        Hippocrates. Coray must also be assessed in comparison with
+        Montesquieu on the question of climatic determinism and slavery.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e270">Le traité hippocratique <hi rend="italic">Airs,
+        Eaux, Lieux</hi> fut rédigé probablement dans la <date from="-0450" to="-0400" type="_temp">seconde moitié du <hi rend="small-caps">v</hi>
+            <hi rend="sup">e</hi>&#160;siècle avant notre
+        ère</date>. L’une des éditions les plus importantes qui en aient été
+        proposées est celle que le grec <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Adiamantos</persName>, ou <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Diamantos</persName> ou, dans la
+        version francisée de son prénom, <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Diamant</persName> ou
+        <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Adamance Coray</persName>, a publiée
+        en <date type="_temp" when="1800">1800</date> à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, et rééditée en
+        grec, pour les étudiants grecs de médecine, en <date type="_temp" when="1816">1816</date>. Beaucoup de travaux de grande qualité ont
+        déjà été consacrés en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et en
+        <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> à <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> et à cette édition&#160;:
+        on en aura le meilleur aperçu dans l’édition du traité hippocratique
+        procurée par <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jacques Jouanna</persName>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Dans la collection Budé (Hippocrate, t.&#160;II,&#160;2, <hi rend="italic">Airs, Eaux, Lieux</hi>, Paris, Les Belles Lettres
+            [<hi rend="italic">
+                <hi rend="small-caps">cuf</hi>
+              </hi>], 1996).</p>
+          </note> et dans les actes du dernier colloque qui, à ma
+        connaissance, lui a été consacré, à <placeName ref="6454034" type="geonames" xml:base="https://www.geonames.org/">Montpellier</placeName>, en <date type="_temp" when="1998">1998</date>
+          <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>
+              <hi rend="italic">Hellénisme et Hippocratisme dans l’Europe
+            méditerranéenne&#160;: autour de D.&#160;Coray</hi>, Actes du Colloque des
+            20-21&#160;mars&#160;1998, <hi rend="small-caps">R.&#160;Andréani, H.&#160;Michel, E.
+            Pélaquier</hi> (éd.), université de Montpellier-III, 2000.</p>
+          </note>.</p>
+        <p xml:id="d1e309">La <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> était alors
+        sous occupation turque. <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, né en <date type="_temp" when="1748">1748</date> à <placeName ref="311046" type="geonames" xml:base="https://www.geonames.org/">Smyrne</placeName> dans une
+        famille de négociants de <placeName ref="259973" type="geonames" xml:base="https://www.geonames.org/">Chio</placeName>, est arrivé en
+        <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> en <date type="_temp" when="1782">1782</date> à 34 ans pour fuir le despotisme,
+        mais aussi probablement le négoce (et peut-être aussi le mariage). Il
+        étudia d’abord la médecine à l’université de <placeName ref="6454034" type="geonames" xml:base="https://www.geonames.org/">Montpellier</placeName>, et
+        notamment la médecine hippocratique, fondée sur la nature, que la
+        Faculté de <placeName ref="6454034" type="geonames" xml:base="https://www.geonames.org/">Montpellier</placeName> défendait
+        avec les Encyclopédistes, puis vécut à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, où, pendant la
+        tourmente révolutionnaire, il prépara son édition, au milieu d’autres
+        travaux, souvent alimentaires, qui montrent et sa puissance de
+        travail, et que la médecine n’était pas son intérêt unique&#160;: une
+        édition des <hi rend="italic">Caractères </hi>de <persName ref="026672685" type="idref" xml:base="https://www.idref.fr/">Théophraste</persName> l’année
+        précédente, ensuite, sur commande de <persName ref="02733791X" type="idref" xml:base="https://www.idref.fr/">Bonaparte</persName>, et
+        avec d’autres, une édition de la <hi rend="italic">Géographie </hi>de
+        <persName ref="027150062" type="idref" xml:base="https://www.idref.fr/">Strabon</persName>, tout en se
+        lançant dans sa grande entreprise de la <hi rend="italic">Bibliothèque
+        hellénique</hi>.</p>
+        <p xml:id="d1e320">Son édition d’<hi rend="italic">Airs, Eaux,
+        Lieux</hi>
+          <note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>La Bibliothèque interuniversitaire de médecine (<hi rend="small-caps">bium</hi>) en a récemment réalisé la
+            numérisation, qui permet sa consultation aisée (<ref target="http://www.bium.univ-paris5.fr/histmed/medica/cote?33163x01">http://www.bium.univ-paris5.fr/histmed/medica/cote?33163x01</ref>
+            et <ref target="http://www.bium.univ-paris5.fr/histmed/medica/cote?33163x02">http://www.bium.univ-paris5.fr/histmed/medica/cote?33163x02</ref>).</p>
+          </note>, à laquelle il semble avoir travaillé dès <date type="_temp" when="1788">1788</date>, sera ici envisagée sous cinq aspects
+        différents&#160;: c’est un travail de philologie (ou, pour employer le
+        vocabulaire de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, de «&#160;critique&#160;»)&#160;;
+        c’est l’œuvre d’un Grec&#160;; mais est-ce celle d’un Européen&#160;? C’est
+        cependant aussi un travail médical. Et enfin, quels sens peut prendre
+        la théorie des climats autour de <date type="_temp" when="1800">1800</date>&#160;?</p>
+        <p xml:id="d1e332">Le rôle de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> comme philologue et
+        éditeur est bien connu. <persName ref="026991640" type="idref" xml:base="https://www.idref.fr/">Émile Littré</persName>, l’éditeur de
+        l’ensemble de ce qu’on appelle la <hi rend="italic">Collection
+        hippocratique</hi>, écrit <date type="_temp" when="1840">quarante ans
+        plus tard</date> dans son introduction à notre traité&#160;: «&#160;En sa triple
+        qualité de Grec, de médecin et d’helléniste, <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> était
+        plus propre qu’aucun autre à donner une édition du <hi rend="italic">Traité des Airs, des Eaux et des Lieux</hi>&#160;; et j’ai
+        cru ne pouvoir trop puiser à une source d’érudition aussi abondante et
+        aussi sûre<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>É.&#160;Littré, <hi rend="italic">œuvres complètes
+            d’Hippocrate</hi>, t.&#160;2, Paris, 1840, p.&#160;11.</p>
+          </note>.&#160;» Les éditeurs ultérieurs ont reconnu aussi leur dette.
+        <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jacques Jouanna</persName>, qui
+        résume les différents apports de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>,
+        notamment son utilisation de notes d’un érudit italien qui possédait
+        un manuscrit ancien, sa connaissance de la tradition indirecte et son
+        attention à l’établissement du texte, écrit&#160;: «&#160;Nul philologue, par
+        les seules ressources de son intelligence et de son acharnement, n’a
+        fait progresser autant que lui la compréhension du texte<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>
+              <hi rend="small-caps">J.&#160;Jouanna</hi> [cf.&#160;n.&#160;1], p.&#160;163.</p>
+          </note>.&#160;» <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jacques Jouanna</persName> a consacré
+        de longues semaines de travail à explorer la bibliothèque de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> à <placeName ref="259973" type="geonames" xml:base="https://www.geonames.org/">Chio</placeName>, ce qui lui a
+        permis de découvrir à quel point <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, bien
+        après cette édition, a continué de s’intéresser à <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> et il a écrit
+        deux beaux articles sur cet intérêt de «&#160;philologue&#160;» et sur la façon
+        dont <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> a édité le
+        traité<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>“Coray et Hippocrate”, dans <hi rend="italic">Hippocrate et son
+            héritage. Colloque franco-hellénique d’Histoire de la
+            médecine</hi>, Fondation Marcel Mérieux, Lyon, 1985, p.&#160;181-196,
+            et “Place et rôle de Coray dans l’édition du traité hippocratique
+            des <hi rend="italic">Airs, Eaux, Lieux</hi>”, in <hi rend="small-caps">D.&#160;Gourevitch</hi>&#160;(éd.), <hi rend="italic">Médecins érudits de Coray à Sigerist</hi>, Paris,
+            1995, p.&#160;7-24.</p>
+          </note>, ce qui nous permettra d’être bref sur cet aspect
+        essentiel.</p>
+        <p xml:id="d1e376">Il suffit d’ailleurs de prendre une page de
+        l’édition <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jouanna</persName> pour voir que le
+        meilleur éditeur actuel de la <hi rend="italic">Collection
+        hippocratique</hi> dialogue très souvent avec <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>. Dans la description
+        de la <placeName ref="8504626" type="geonames" xml:base="https://www.geonames.org/">Scythie</placeName> et de ses
+        habitants, sont mentionnés les Monts Rhipées, au nord du pays, dans
+        une description dont voici la traduction par <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">J.&#160;Jouanna</persName>,
+        avec une partie de son apparat critique<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Chap.&#160;XIX, 2&#160;Jouanna.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e649">C’est que ce pays est situé
+        juste sous les Ourses [<foreign xml:lang="grc">ἄρκτοισι</foreign>
+          <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>&#160;:
+        -<foreign xml:lang="grc">τοις</foreign>&#160;V] et au pied des Monts
+        Rhipées [<foreign xml:lang="grc">τοῖσι</foreign>
+          <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>&#160;: <foreign xml:lang="grc">τοῖς</foreign>&#160;V] d’où souffle le Borée&#160;; le soleil
+        n’est au plus près qu’à la fin de sa course, quand il arrive à son
+        circuit estival (=&#160;solstice d’été), et même alors, il ne souffle que
+        durant peu de temps et sans être fort [<foreign xml:lang="grc">καὶ οὐ
+        σφόδρα</foreign>]. Les vents [ <foreign xml:lang="grc">τὰδὲπνεύματα</foreign> Littré cf. <foreign xml:lang="lat">
+            <hi rend="italic">flatus autem</hi>
+          </foreign> Lat. cf. <hi rend="italic">
+            <foreign xml:lang="eng">the winds</foreign>
+          </hi> Gal. (Ar.)&#160;: <foreign xml:lang="grc">τὰ
+        δειπνεύματα</foreign>&#160;V] soufflant des régions chaudes ne parviennent
+        pas [<foreign xml:lang="grc">οὐκ</foreign> Littré cf. <hi rend="italic">
+            <foreign xml:lang="lat">non</foreign>
+          </hi> Lat. cf. <hi rend="italic">
+            <foreign xml:lang="eng">do not</foreign>
+          </hi>Gal. (Ar.)&#160;: om.&#160;V], sinon rarement et faiblement&#160;; en
+        revanche, à partir des Ourses (=&#160;du nord), soufflent continuellement
+        des vents froids, dus à la neige, à la glace et aux pluies
+        abondantes&#160;; ces conditions climatiques ne quittent jamais les monts
+        (Rhipées)&#160;; aussi sont-ils inhabitables [<foreign xml:lang="grc">ἀοικητά</foreign> prop. <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>. (I,
+        160 et II, 292)&#160;: <foreign xml:lang="grc">διοικητά</foreign>&#160;V <hi rend="italic">
+            <foreign xml:lang="lat">iniababilia</foreign>
+          </hi> (lege <hi rend="italic">
+            <foreign xml:lang="lat">inhabitabilia</foreign>
+          </hi> ) Lat. <hi rend="italic">
+            <foreign xml:lang="eng">unhabited</foreign>
+          </hi> Gal. (Ar.) <foreign xml:lang="grc">δυσοικητά</foreign> edd.
+        ab&#160;Ald.].</quote>
+        <p xml:id="d1e448">Le dernier mot est dans le manuscrit <foreign xml:lang="grc">διοικητά</foreign> , ce qui est manifestement une forme
+        impossible. <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, au moyen à la fois
+        d’une très bonne connaissance de la littérature grecque (à une époque
+        où on ne disposait pas du <hi rend="italic">
+            <hi rend="small-caps">tlg</hi>
+          </hi>&#160;!)<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Les parallèles que propose Coray entre le médecin, Hérodote (V,
+            10) et Aristote (<hi rend="italic">Météor.&#160;</hi>II, 5, 362b9)
+            peuvent s’expliquer par des emprunts, notamment pour Aristote, qui
+            connaît certains textes de la <hi rend="italic">Collection
+            hippocratique</hi>, mais, en tout cas pour ce qui concerne le
+            médecin et Hérodote, les désaccords qu’on observe aussi en
+            d’autres cas montrent qu’il s’agit plutôt, quand ils sont
+            d’accord, de la reprise par les deux auteurs d’un enseignement sur
+            le climat et son influence qui était répandu dans la seconde
+            moitié du <hi rend="small-caps">v</hi>
+              <hi rend="sup">e</hi>&#160;siècle.</p>
+          </note> et d’une méthode d’analyse des fautes de copie toujours
+        valable (mélectures d’onciales /A), a proposé une correction qui est
+        quasiment certaine, reprise par <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jacques Jouanna</persName>, que
+        confirment le commentaire de <persName ref="02776897X" type="idref" xml:base="https://www.idref.fr/">Galien</persName> et la traduction
+        latine ancienne (deux documents dont <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> ne
+        disposait pas)&#160;: <foreign xml:lang="grc">ἀοικητά</foreign>
+        «&#160;inhabitables&#160;». Notons cependant que <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jacques
+        Jouanna</persName> ne suit pas toujours <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>. Et
+        s’il estime souvent devoir discuter en détail son désaccord<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>
+              <hi rend="small-caps">J.&#160;Jouanna</hi> [cf.&#160;n.&#160;1], p.&#160;233,
+            n.&#160;5.</p>
+          </note>, ici il ne dit rien du passage qui précède immédiatement la
+        correction que nous venons de citer, et pour lequel <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> avait proposé dans
+        son commentaire, un autre texte, avec l’explication suivante, très
+        différente de celle de <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jacques Jouanna</persName>
+          <note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>P.&#160;296.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e875">Je ne crois pas avoir manqué
+        au devoir d’un éditeur en changeant le mot <foreign xml:lang="grc">διαπνεύματα</foreign>, qui n’est même pas grec, en
+        <foreign xml:lang="grc">εὔδια πνεύματα</foreign>. Ma correction est
+        d’ailleurs justifiée par son opposé <foreign xml:lang="grc">πνεύματα
+        ψυχρὰ</foreign> du paragraphe suivant (Voyez aussi not.&#160;LXI, l.&#160;2,
+        p.&#160;157).</quote>
+        <p xml:id="d1e488">
+          <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jacques Jouanna</persName> édite ici
+        un texte très différent, qui reprend deux corrections de <persName ref="026991640" type="idref" xml:base="https://www.idref.fr/">Littré</persName> introduisant une
+        proposition supplémentaire, ce qui oblige à introduire aussi une
+        négation supplémentaire dans cette nouvelle proposition. Ce texte est
+        appuyé par les documents que <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> ne connaissait pas,
+        le commentaire de <persName ref="02776897X" type="idref" xml:base="https://www.idref.fr/">Galien</persName> et la traduction
+        latine ancienne. La solution de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, plus économique,
+        qui conserve le lien entre οὐ <foreign xml:lang="grc">σφόδρα</foreign>
+        et la suite, mérite cependant peut-être de ne pas tomber dans
+        l’oubli.</p>
+        <p xml:id="d1e490">
+          <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, on le verra,
+        n’intègre pas toujours dans son texte, comme il le fait ici, les
+        corrections qu’il propose en note. À cet égard, pour reprendre une
+        observation de <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jacques Jouanna</persName>, <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> se situe à la
+        frontière entre deux époques de la philologie&#160;: il n’ose pas encore
+        établir le texte sur nouveaux frais, et propose seulement l’édition
+        reçue de <persName ref="034958428" type="idref" xml:base="https://www.idref.fr/">Foes</persName>, avec des
+        améliorations. Il est aussi à la frontière d’une façon plus
+        importante&#160;: <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>, avec lui,
+        devient un auteur pour philologues et historiens, et plus guère pour
+        médecins. Plus tard, l’édition d’<persName ref="026991640" type="idref" xml:base="https://www.idref.fr/">Émile Littré</persName>
+        connaîtra une évolution comparable.</p>
+        <p xml:id="d1e493">Notons enfin dans l’apparat critique de cette même
+        page deux corrections de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, retenues par les
+        éditeurs suivants, qui visent à rétablir des ionismes. <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> était très attentif
+        au dialecte, un des points sur lequel il dit dès la première édition
+        avoir amélioré son texte de base, qui est l’édition de <persName ref="034958428" type="idref" xml:base="https://www.idref.fr/">Foes</persName>
+          <note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>P.&#160;CLXXVI.</p>
+          </note>. Il signale aussi plus tard que l’édition de <date type="_temp" when="1816">1816</date>, du point de vue du texte, est
+        encore modifiée en ce sens. Il est attentif en général à la langue, et
+        il estimait avoir sur ce point une compétence supérieure aux
+        non-Grecs. Lui était, comme le note finement <persName ref="026991640" type="idref" xml:base="https://www.idref.fr/">Littré</persName>,
+        helléniste <hi rend="italic">et</hi> Grec&#160;! Ici nous dépassons la
+        simple philologie et abordons le second aspect de l’édition de
+        <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>.</p>
+        <p xml:id="d1e503">
+          <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> l’émigré, en
+        travaillant à son édition, vit en quelque sorte un peu en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>, tout en
+        éprouvant douloureusement l’éloignement de son pays natal. Tout se
+        passe comme si travailler sur <hi rend="italic">Airs, Eaux, Lieux</hi>
+        était pour lui vital<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>P.&#160;CLXX-CLXXI du «&#160;Discours préliminaire&#160;».</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e981">En quittant mon malheureux
+        pays, je n’avais encore aucune idée de la médecine, qui pût m’inspirer
+        le désir de vérifier ces observations sur les lieux mêmes. Les regrets
+        que j’en ai à présent sont d’autant plus douloureux que peut-être je
+        n’aurai jamais la satisfaction de revoir ce pays chéri, jadis berceau
+        des sciences et des arts, et qui est aujourd’hui infecté de la
+        barbarie d’une nation féroce. Mais, je le répète, celui qui nous
+        donnerait une topographie médicale bien détaillée de tous les cantons
+        de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ferait le
+        meilleur commentaire des ouvrages d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>.</quote>
+        <p xml:id="d1e515">D’emblée il avait présenté <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> au travail
+        «&#160;dans un coin de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          <note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>Dès les premières lignes du «&#160;Discours préliminaire&#160;».</p>
+          </note>&#160;». La <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> dans sa réalité
+        physique renaît et renaîtrait en lisant <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>,
+        tout comme <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> ne
+        redeviendrait vraiment vivant et pertinent qu’en parcourant la
+        <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>, même si l’on
+        peut et si l’on doit étendre ses remarques sur la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> à «&#160;la
+        topographie des différents pays de l’Europe<note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>P.&#160;CLXXIII.</p>
+          </note>&#160;», notons bien, «&#160;de l’Europe&#160;». C’est peut-être aussi en ce
+        sens qu’il faut lire le développement sur les vents de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> qui occupent
+        les p.&#160;LXXIII-LXXXIII du <hi rend="italic">Discours
+        préliminaire</hi>
+          <note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>L’appel à un approfondissement de la connaissance de la
+            géographie de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et de la
+            Méditerranée par les Grecs, dans une perspective nationale et
+            éclairée, correspond à un intérêt contemporain&#160;: cf.&#160;la <hi rend="italic">Géographie moderne</hi> (Γεωγραφία νεωτερική) de
+            Daniel Philippidis et Grégoire Constandas, en 1791 (je dois cette
+            observation à Mme&#160;Danaé Lazaridis, que je remercie vivement).</p>
+          </note>.</p>
+        <p xml:id="d1e537">Il y a donc un privilège grec pour comprendre
+        <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>, et l’Europe a
+        ainsi quelque chose à apprendre de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> réclame alors par
+        voie de conséquence la connaissance de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+        contemporaine, de sa langue et stigmatise au passage la prononciation
+        érasmienne <hi rend="italic">(ibid.)</hi>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1064">Pour tirer tout le parti
+        d’une pareille topographie, il faudrait que celui qui aurait le
+        courage de l’entreprendre y apportât, outre les connaissances
+        physiques et médicales, la connaissance profonde de la langue grecque
+        d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> et de plus de
+        celle que parlent les Grecs modernes. Il faudrait surtout, en
+        abandonnant les préjugés européens, qu’il se résolût à prononcer l’une
+        et l’autre comme on les prononce aujourd’hui en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. Prétendre que
+        les Européens prononcent mieux le grec que les natifs de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> est une
+        extravagance digne du <date from="1500" to="1599" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, qui la
+        vit naître, mais qui aurait déjà dû disparaître devant les lumières du
+        nôtre.</quote>
+        <p xml:id="d1e549">
+          <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> ajoute dans une
+        longue note que le résultat regrettable de ce qui, selon lui, était
+        pour <persName ref="085720372" type="idref" xml:base="https://www.idref.fr/">Erasme</persName> une «&#160;mauvaise
+        plaisanterie&#160;», est que les voyageurs européens ne comprennent rien et
+        qu’ils ne sont pas compris. Ainsi, par la continuité de la langue, par
+        la résurrection d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> et par la
+        continuité du paysage et du climat, la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+        moderne (qu’il représente à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, bien qu’elle
+        n’existe pas) rejoint la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne, le
+        berceau des sciences et des arts que représente <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>.</p>
+        <p xml:id="d1e551">C’est dans cette perspective que <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> s’adresse à ses
+        compatriotes, «&#160;qui lui ont fourni les moyens de publier cet ouvrage&#160;»
+        (il s’agit de négociants grecs qui furent ses mécènes), à la fin de
+        son introduction, et se livre à un résumé remarquable de l’histoire de
+        la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          <note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>P.&#160;CLXXVII-CLXXX.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1126">Je vous félicite de ce que
+        votre zèle dément, de la manière la plus victorieuse, toutes les
+        absurdes calomnies par lesquelles, dans ces derniers temps, des
+        personnes qui par leurs lumières devraient s’intéresser le plus à nos
+        malheurs, ont cherché à dénigrer notre nation. On aura beau dire&#160;:
+        vous n’avez point dégénéré de vos illustres ancêtres, le sang grec
+        coule encore dans vos veines&#160;; il n’attend qu’un heureux concours de
+        circonstances pour prouver à l’univers que vos chaînes n’ont pas été
+        votre ouvrage, et que, loin de les avoir portées avec une <hi rend="italic">stupide</hi> résignation, vous avez été la seule nation
+        subjuguée qui ait voué une haine éternelle à ses tyrans, haine
+        transmise de père en fils, nourrie et conservée, dans vos cœurs
+        indignés, comme un héritage sacré. Des despotes transplantés de
+        l’ancienne <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, après avoir,
+        par une administration aussi stupide que tyrannique, relâché tous les
+        ressorts de la société, entravé l’influence du plus beau des climats,
+        souillé, ébranlé leur trône par les crimes les plus affreux, ont fini
+        par vous livrer à des tyrans encore plus stupides et plus
+        féroces.</quote>
+        <p xml:id="d1e563">Il s’en prend ici, entre autres, à un <persName ref="108926702" type="idref" xml:base="https://www.idref.fr/">Dr&#160;Weikard</persName>, estimable
+        membre des Lumières, mais qui avait développé une théorie très
+        curieuse sur le lien entre la stupidité des Grecs modernes et la
+        disparition de la consommation du vin en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+        à la suite de l’arrachage des vignes par les Ottomans. D’où la pointe
+        pleine d’humour de la citation finale, donnée uniquement en grec, et
+        sans référence, mais dont voici une traduction&#160;: «&#160;Même si tu me
+        manges jusqu’à la racine, je porterai tout de même encore du fruit en
+        quantité suffisante pour en faire une libation quand on te sacrifiera,
+        toi, le bouc<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>Extraite de l’<hi rend="italic">Anthologie grecque</hi>, IX,
+            75.</p>
+          </note>.&#160;» Mais surtout, il applique manifestement à l’histoire
+        grecque la tension qui caractérise la fin du traité hippocratique, et
+        sur laquelle je reviendrai, entre l’influence du climat et celle des
+        institutions politiques.</p>
+        <p xml:id="d1e576">De nouvelles institutions politiques correspondant
+        mieux au climat de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> pourront donc
+        lui rendre sa splendeur perdue. C’est d’ailleurs déjà en bonne voie,
+        selon ce qu’il déclare trois ans plus tard dans son célèbre <hi rend="italic">Mémoire sur l’état actuel de la civilisation dans la
+        Grèce</hi>, qu’il lit en <date type="_temp" when="1803">1803</date> à
+        la Société des observateurs de l’homme<note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>Lu à la Société des observateurs de l’homme le 16&#160;Nivôse an&#160;XI
+            (6&#160;janvier&#160;1803) par Coray, docteur en médecine et membre de
+            ladite Société.</p>
+          </note>.</p>
+        <p xml:id="d1e587">On voit ici que <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> a au
+        moins deux publics, «&#160;les Européens&#160;» et les «&#160;natifs de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>&#160;». L’Europe, la
+        <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. Au moins deux
+        publics, parce que chacun d’entre eux se divise à l’infini, bien sûr,
+        non sans entraîner quelques contradictions parfois. Mais pour en
+        rester à ces deux publics, il vaut la peine de tenter de préciser un
+        peu le rapport qu’ils ont entre eux. On connaît les célèbres passages
+        du traité hippocratique dans lesquels le médecin ajoute, à l’influence
+        du climat, celle des lois et des mœurs. Il y en a deux, en
+        particulier, très proches l’un de l’autre, dans les chapitres&#160;XVI et
+        XXIII-XXIV actuels, que voici dans la traduction de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>. Ils offrent une
+        variation peu soulignée, mais intéressante dans notre perspective
+        d’aujourd’hui, surtout dans la traduction qu’en donne <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>
+          <note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>P.&#160;112-113.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1202">LXXXVIII<note n="20" place="foot" type="standard" xml:id="ftn20">
+            <p>Cf.&#160;c.&#160;XVI, 5, p.&#160;229-230<hi rend="small-caps">
+            Jouanna</hi>.</p>
+          </note>. Une grande preuve de ce que j’avance, c’est qu’en Asie même
+        tous ceux des Grecs et des Barbares qui se gouvernent par leurs
+        propres lois, sans être soumis à des despotes, et qui par conséquent
+        travaillent pour eux-mêmes, sont les hommes les plus belliqueux de
+        tous. C’est qu’ils ne s’exposent que pour eux-mêmes, et que ce sont
+        eux qui reçoivent le prix de leur courage, ou qui portent la peine de
+        leur lâcheté.</quote>
+        <quote rend="quotation" xml:id="d1e1224">[…]</quote>
+        <quote rend="quotation" xml:id="d1e1227">CXVII<note n="21" place="foot" type="standard" xml:id="ftn21">
+            <p>Cf.&#160;c.&#160;XXIII-XIV, p.&#160;243-244<hi rend="small-caps">
+            Jouanna</hi>.</p>
+          </note>. C’est sans doute la nature du climat qui rend les Européens
+        plus belliqueux que les Asiatiques, mais la forme du gouvernement y
+        contribue aussi. Les premiers ne sont pas gouvernés par des rois comme
+        le sont les autres, et j’ai déjà observé que partout où l’on est
+        soumis à des rois, on est nécessairement très lâche&#160;; parce que, quand
+        on a l’âme asservie, on ne se soucie point d’exposer sans nécessité sa
+        vie pour augmenter la puissance d’un autre. CXVIII. Les Européens, au
+        contraire, gouvernés par leurs propres lois<note n="22" place="foot" type="standard" xml:id="ftn22">
+            <p>Texte grec&#160;: οὗτοιδὲαὐτόνομοι·ὑπὲρἑωυτῶνγὰρ… Coray commente
+            très bien l’emploi de la particule γὰρ et propose (p.&#160;376 du <hi rend="italic">Commentaire</hi>) de corriger éventuellement οὗτοι
+            (codd.) en ὅσοι, correction adoptée par les éditeurs suivants et
+            confirmée par la traduction latine.</p>
+          </note>, affrontent d’autant plus volontiers les dangers qu’ils ne
+        s’y exposent que pour eux-mêmes, et que ce sont eux seuls qui
+        recueillent l’honneur et le fruit de leurs victoires. Tant il est vrai
+        que les lois influent singulièrement sur le courage. En comparant les
+        Européens avec les Asiatiques, je n’ai parlé que d’une manière
+        générale.</quote>
+        <p xml:id="d1e659">Voici l’excellent commentaire du premier passage
+        par <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, avec un ajout
+        significatif<note n="23" place="foot" type="standard" xml:id="ftn23">
+            <p>P.&#160;158.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1288">LXXXVIII, 1. <hi rend="italic">Tous ceux des Grecs et des barbares qui se gouvernent
+        par leurs propres lois, </hi>etc. <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>
+        pensait donc que l’influence du climat, quoique réelle, pouvait
+        cependant être modifiée par la forme du gouvernement ou par toute
+        autre cause morale. Il cite pour exemple les Grecs d’Asie, qui, malgré
+        la nature du climat, étaient plus vaillants que leurs voisins, les
+        Perses. Ils auraient fini par triompher de ces derniers, et affirmé
+        leur liberté, s’ils eussent suivi le conseil de <persName ref="027649660" type="idref" xml:base="https://www.idref.fr/">Thalès</persName>.</quote>
+        <p xml:id="d1e671">
+          <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> justifie donc ici
+        <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> au moyen
+        d’<persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName>&#160;; le conseil de
+        <persName ref="027649660" type="idref" xml:base="https://www.idref.fr/">Thalès</persName>, on le sait,
+        consistait à quitter le continent pour s’expatrier en <placeName ref="2523228" type="geonames" xml:base="https://www.geonames.org/">Sardaigne</placeName>, y fonder
+        une colonie panionienne, afin de mieux résister au despotisme
+        (I,&#160;170). Inutile d’insister sur le parallélisme sous-jacent avec la
+        situation de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> lui-même, nouveau
+        <persName ref="027649660" type="idref" xml:base="https://www.idref.fr/">Thalès</persName> à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>.</p>
+        <p xml:id="d1e673">Le second passage concerne «&#160;les Européens&#160;» et
+        «&#160;les Asiatiques&#160;» dans la traduction de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, qui
+        est, notons-le, celle du texte <hi rend="italic">avant
+        correction</hi>. Certains exemples pris par <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> pour
+        illustrer «&#160;les Européens&#160;» et «&#160;les Asiatiques&#160;» sont
+        remarquables.</p>
+        <p xml:id="d1e678">Du côté de l’Europe, il est impossible de ne pas le
+        mentionner ici et aujourd’hui<note n="24" place="foot" type="standard" xml:id="ftn24">
+            <p>Cet article est en effet issu d’une conférence présentée à
+            l’université de Genève.</p>
+          </note>, il y a la <placeName ref="2658434" type="geonames" xml:base="https://www.geonames.org/">Suisse</placeName>
+          <note n="25" place="foot" type="standard" xml:id="ftn25">
+            <p>P.&#160;374.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1359">CXVII.5. […] Le plus grand
+        éloge qu’on puisse faire du gouvernement suisse, c’est cette maladie
+        connue sous le nom de <hi rend="italic">nostalgie</hi> ou de <hi rend="italic">mal du pays</hi>, qui attaque de préférence les naturels
+        de ces heureuses contrées, lorsqu’ils se trouvent en pays étranger. La
+        liberté dont ils jouissent, jointe à la simplicité de leurs mœurs,
+        fait naître en eux cette inquiétude et ce désir si vif de retourner
+        dans leur patrie.</quote>
+        <p xml:id="d1e698">Du côté de l’Asie, il y a par exemple les Turcs,
+        qui, soumis au despotisme, se battent sans vigueur. L’histoire toute
+        récente a permis à <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> de vérifier
+        l’analyse d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>&#160;: les Russes
+        ont battu les Turcs au terme d’une longue guerre (<date from="1787" to="1792" type="_temp">1787-1792</date>) et imposé au Sultan un accord
+        qui favorisa le développement de la diaspora et du commerce grecs. Les
+        Russes, pourtant eux aussi soumis à un despotisme, mais moindre, sont
+        plus favorisés par le climat que les Turcs, du point de vue du
+        courage.</p>
+        <p xml:id="d1e701">La <placeName ref="2658434" type="geonames" xml:base="https://www.geonames.org/">Suisse</placeName>, une
+        <placeName ref="2658434" type="geonames" xml:base="https://www.geonames.org/">Suisse</placeName> assez
+        rousseauiste, incarne donc une sorte de quintessence de l’Europe
+        hippocratique pour <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, on pourrait presque
+        dire un double de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> idéale dont le
+        climat et les mœurs concordent dans le bon sens. Et les Suisses ont un
+        sens de la nostalgie bien proche de celui qu’éprouve <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> lui-même.</p>
+        <p xml:id="d1e703">Mais pourquoi la <placeName ref="2658434" type="geonames" xml:base="https://www.geonames.org/">Suisse</placeName>, et non la
+        <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>&#160;? C’est que
+        d’autres nations européennes, elles, plus puissantes, et peut-être
+        gouvernées par des despotes elles aussi (cela, je l’ajoute, car
+        <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> se garde d’être trop
+        précis sur ce point), ont été corrompues par leurs mœurs. Il faut ici
+        revenir au <hi rend="italic">Discours préliminaire</hi>. <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> donne des exemples
+        des transformations que la morale et les lois installent dans une
+        population, notamment en Europe, en étendant une observation de
+        <persName ref="027150062" type="idref" xml:base="https://www.idref.fr/">Strabon</persName> à la situation à
+        l’<date type="_temp">époque moderne</date>, dans une gradation
+        construite d’une façon caractéristique<note n="26" place="foot" type="standard" xml:id="ftn26">
+            <p>P.&#160;XXIII-XXIV.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1429">
+          <persName ref="027150062" type="idref" xml:base="https://www.idref.fr/">Strabon</persName>
+        observe que les Scythes Nomades, tant vantés par <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>, à cause de leur
+        amour pour la justice, étaient de son temps tellement pervertis, pour
+        avoir embrassé le commerce maritime, qu’ils pillaient, assassinaient
+        les étrangers, quoique d’ailleurs ils parussent plus policés.
+        Quelqu’un s’imaginera peut-être que le commerce n’a pas, à beaucoup
+        près, produit les mêmes effets chez les peuples modernes&#160;: mais qu’il
+        songe à l’effusion de sang qui a accompagné la découverte de
+        l’Amérique, et au trafic infâme des nègres que la culture de cette
+        partie du monde a nécessité&#160;; qu’ils songent à l’oppression que
+        plusieurs nations européennes exercent encore aujourd’hui sur les
+        malheureux indigènes de leurs possessions en Asie et en Afrique&#160;;
+        qu’ils songent enfin que ce n’est qu’aux avantages du commerce du
+        Levant que les nations policées de l’Europe sacrifient sans pitié
+        comme sans remords la liberté de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>&#160;; et qu’ils
+        osent après cela décider si l’on est aujourd’hui plus humain que ne
+        l’étaient autrefois les Scythes.</quote>
+        <p xml:id="d1e715">La découverte de l’Amérique et le massacre des
+        populations indigènes, puis la traite négrière, enfin l’indifférence
+        devant l’asservissement de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>&#160;: quelle
+        gradation&#160;! Il semble, à lire ces protestations très émouvantes contre
+        le mythe du progrès de la nature humaine, que <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> se fasse un malin
+        plaisir de montrer que si, d’un côté, les Grecs ont été, en apparence,
+        transformés par des siècles de despotisme, puis par la tyrannie
+        turque, les Européens de leur côté ont aussi été corrompus par leurs
+        mœurs commerciales (il corrigera cette attaque dans son <hi rend="italic">Mémoire</hi> trois ans plus tard, peut-être pour ne pas
+        trop heurter ses mécènes, par un éloge des effets positifs du commerce
+        en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>). Ils sont,
+        dans cette mesure, responsables eux aussi de l’état actuel de la
+        <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. La conséquence
+        implicite en est que les Grecs peuvent et doivent retrouver leur
+        ancien état, et que l’Europe peut et doit retrouver aussi, pour lutter
+        avec les natifs de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>, la vertu et le
+        courage qui la caractérisent fondamentalement.</p>
+        <p xml:id="d1e720">Autre difficulté&#160;: pour <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>,
+        il y a en Asie une région médiane qui a le climat le plus beau (XII,
+        2-3, p.&#160;219-220 <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jouanna</persName>), et, comme la
+        comparaison avec un passage très proche d’<persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName>
+        (I,&#160;142, 1-2) le montre d’une façon certaine, il s’agit notamment,
+        sinon exclusivement, de l’Ionie du <placeName ref="9889292" type="geonames" xml:base="https://www.geonames.org/">Panionion</placeName>. Or
+        certains peuples en Asie ont néanmoins un caractère qu’on pourrait
+        qualifier d’européen, en raison de leur mode de gouvernement (XVI, 5,
+        p.&#160;229 <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jouanna</persName>).</p>
+        <p xml:id="d1e722">On a noté avec raison<note n="27" place="foot" type="standard" xml:id="ftn27">
+            <p>Voir notamment <hi rend="small-caps">J.&#160;Jouanna</hi>
+            [cf.&#160;n.&#160;1], p.&#160;229 n.&#160;5 et p.&#160;68-69.</p>
+          </note>, qu’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> parle alors de
+        «&#160;Grecs ou Barbares&#160;», ce qui tend à effacer la distinction politique
+        entre Grecs et Barbares au profit d’une distinction «&#160;scientifique&#160;»
+        entre Européens et Asiatiques. Mais on voit aussi à quel point il est
+        nécessaire, pour le médecin antique, de compléter l’influence du
+        climat par l’influence des lois, afin de faire coïncider, notamment
+        dans le cas de l’Asie mineure, les idéaux climatiques naturels avec
+        les idéaux politiques et moraux. Or c’est aussi vrai pour le médecin
+        moderne, qui voit justement dans l’Ionie, et dans l’île de sa famille,
+        <placeName ref="259973" type="geonames" xml:base="https://www.geonames.org/">Chio</placeName>, le point de
+        départ de la régénération grecque. C’est ce qu’il déclare du moins
+        dans son <hi rend="italic">Mémoire </hi>ultérieur, et cela colore d’un
+        contexte très contemporain les ionismes réintroduits par <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> dans le texte
+        d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>
+          <note n="28" place="foot" type="standard" xml:id="ftn28">
+            <p>P.&#160;34-36.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1516">Une des choses les plus
+        remarquables, et qui confirme en quelque manière la doctrine
+        d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>, sur
+        l’influence des climats, c’est que les lumières dans la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> ancienne
+        avaient commencé par l’Ionie, et que leur renaissance dans la
+        <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> moderne
+        semblerait affecter la même marche.</quote>
+        <quote rend="quotation" xml:id="d1e1528">[…]</quote>
+        <quote rend="quotation" xml:id="d1e1531">Le dialecte ionique fut
+        cultivé et perfectionné longtemps avant celui d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>… Jusqu’au
+        siècle d’<persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName> et d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>, qui touche au
+        <date from="-0399" to="-0300" type="_temp">siècle de <persName ref="027076164" type="idref" xml:base="https://www.idref.fr/">Platon</persName>
+          </date>, il faut que
+        le dialecte des Ioniens ait été regardé comme le plus parfait, puisque
+        le père de l’histoire, comme celui de la médecine, le choisirent, pour
+        y consacrer leurs immortels ouvrages, quoiqu’ils fussent l’un et
+        l’autre doriens d’origine […] J’ai dit que la renaissance des lettres
+        dans la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> moderne
+        semblerait affecter la même marche qu’avait prise leur naissance, en
+        commençant par l’Ionie, et en se propageant successivement dans le
+        reste de la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>. Car, quoique
+        la révolution qui fait l’objet de mes observations soit commune à tous
+        les Grecs, c’est dans la patrie même d’<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>, dans
+        l’île de <placeName ref="259973" type="geonames" xml:base="https://www.geonames.org/">Chio</placeName>, que la
+        <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> moderne a la
+        satisfaction de voir, depuis quelques années, le premier établissement
+        d’une espèce d’université ou d’école polytechnique.</quote>
+        <p xml:id="d1e746">Mais <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> n’est pas seulement
+        «&#160;helléniste&#160;» et «&#160;Grec&#160;»&#160;: pour reprendre les termes de <persName ref="026991640" type="idref" xml:base="https://www.idref.fr/">Littré</persName>, même s’il ne
+        pratique pas, il est aussi «&#160;médecin&#160;», en tout cas «&#160;docteur en
+        médecine&#160;». Certes le professeur de <persName ref="034899235" type="idref" xml:base="https://www.idref.fr/">Halle Kurt
+        Sprengel</persName>, dans son <hi rend="italic">Histoire de la
+        médecine depuis les origines jusqu’au </hi>
+          <hi rend="italic">
+            <hi rend="small-caps">xix</hi>
+          </hi>
+          <hi rend="sup italic">e</hi>
+          <hi rend="italic">&#160;siècle</hi>,
+        année par année, ne mentionne même pas <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, sauf
+        erreur, pour l’année <date type="_temp" when="1800">1800</date>
+          <note n="29" place="foot" type="standard" xml:id="ftn29">
+            <p>Voir la traduction française de la seconde édition, 1815-1820
+            (t.&#160;VI, p.&#160;523 sqq.).</p>
+          </note>. Pas plus que, par exemple, beaucoup plus récemment, l’<hi rend="italic">Histoire de la pensée médicale en Occident</hi>, dirigée
+        par le <persName ref="026903784" type="idref" xml:base="https://www.idref.fr/">Dr&#160;M.&#160;D.&#160;Grmek</persName>
+          <note n="30" place="foot" type="standard" xml:id="ftn30">
+            <p>Dans son t.&#160;2, «&#160;De la Renaissance aux Lumières&#160;», Paris,
+            Seuil, 1997.</p>
+          </note>. Ni l’influence de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, ni l’influence
+        d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> sur les milieux
+        médicaux de l’époque ne doivent donc être surestimées.</p>
+        <p xml:id="d1e772">Dans sa préface, <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>
+        n’hésite pourtant pas à se livrer à une sévère critique de l’un des
+        plus grands médecins de son temps, le Bernois <persName ref="028090462" type="idref" xml:base="https://www.idref.fr/">Albert
+        von Haller</persName> (<date from="1708" to="1777" type="_temp">1708-1777</date>), mais c’est pour ses fautes de grec. Il
+        relève notamment une confusion, à propos d’un malade des <hi rend="italic">Epidémies</hi>, entre le nom propre Cyniscos, que lui,
+        <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, restitue (avec
+        raison) et l’appellation de «&#160;Cynique&#160;» que croit lire <persName ref="028090462" type="idref" xml:base="https://www.idref.fr/">Haller</persName>. Et il conclut&#160;:
+        «&#160;Il faut être circonspect dans les jugements qu’on porte sur les
+        ouvrages des Anciens, surtout quand on ne possède pas bien la langue
+        dans laquelle ils ont écrit et qu’on n’a pas sans cesse sous les yeux
+        l’ensemble de leur doctrine&#160;» (p.&#160;LVI). De la même façon, en raison
+        d’une faute dans une traduction latine qu’il utilise, <persName ref="028090462" type="idref" xml:base="https://www.idref.fr/">Haller</persName> s’est trompé en
+        refusant à <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> la paternité
+        d’<hi rend="italic">Airs, Eaux, Lieux</hi>. Vous vous référez à
+        <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>&#160;? Eh bien mieux
+        vaut savoir le lire, semble dire <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>. Sa
+        connaissance du grec semble d’ailleurs avoir été un élément important
+        de son succès lors de sa thèse, à en juger par le récit qu’il en fait
+        au <persName type="_temp">Protopsalte de Smyrne</persName>&#160;: «&#160;En
+        réfutant les objections, j’ai exposé que beaucoup de choses que l’on
+        croyait être des découvertes modernes, <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>
+        les avait sues deux mille ans auparavant.&#160;»</p>
+        <p xml:id="d1e781">Cette phrase livre un aspect essentiel de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> médecin&#160;: il tente
+        une sorte de retour à <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>, à l’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> authentique, à
+        partir de la modernité. C’est d’ailleurs un aspect non négligeable de
+        l’enseignement qu’il a suivi à la Faculté de <placeName ref="6454034" type="geonames" xml:base="https://www.geonames.org/">Montpellier</placeName>, et plus
+        généralement de la présentation de la médecine dans l’Encyclopédie,
+        présentation à laquelle cette Faculté a beaucoup contribué, que ce
+        néo-hippocratisme, qui tente de dépasser les conflits entre partisans
+        de la mécanique, de la chimie ou du vitalisme en croyant revenir à
+        l’observation, à la raison et au respect de la nature, ces «&#160;forces de
+        la nature&#160;» exaltées par les physiologues, et sur lesquelles, selon
+        <persName ref="034899235" type="idref" xml:base="https://www.idref.fr/">Sprengel</persName>, <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> compte un peu
+        trop. Citons notamment les noms de <persName ref="033579466" type="idref" xml:base="https://www.idref.fr/">P.-J.&#160;Barthez</persName>
+        et du maître de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, <persName ref="076063496" type="idref" xml:base="https://www.idref.fr/">J.-Ch.&#160;Grimaud</persName>.</p>
+        <p xml:id="d1e783">On peut prendre un exemple précis, à partir du <hi rend="italic">Discours préliminaire</hi>, d’une tentative, plutôt peu
+        réussie, d’utilisation médicale moderne d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>
+        par <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>. <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>, remarque-t-il,
+        après avoir considéré l’exposition des villes à un très grand nombre
+        de vents, ne parle que de «&#160;deux états de l’atmosphère&#160;», «&#160;savoir, de
+        l’état austral et de l’état boréal<note n="31" place="foot" type="standard" xml:id="ftn31">
+            <p>P.&#160;LXXXIV.</p>
+          </note>&#160;». Il y a là une difficulté réelle, qui est présentée ainsi
+        par <persName ref="026940752" type="idref" xml:base="https://www.idref.fr/">Jacques Jouanna</persName>&#160;: «&#160;Bien
+        que l’auteur établisse quatre orientations possibles de la cité,
+        entraînant quatre états sanitaires possibles dans la population d’une
+        cité, les constitutions des habitants ne répondent en réalité qu’à
+        deux types possibles, ainsi que les maladies qui les affectent. Ce
+        sont les deux types d’hommes opposés correspondant aux deux
+        orientations opposées nord/sud<note n="32" place="foot" type="standard" xml:id="ftn32">
+            <p>P.&#160;47.</p>
+          </note>.&#160;» Cette difficulté est explicable, montre-t-il, si l’on
+        considère que l’auteur du traité n’a pas à sa disposition un système
+        de quatre humeurs comparable à celui du traité <hi rend="italic">Nature de l’homme</hi>, mais un système à deux humeurs,
+        bile et phlegme, associées traditionnellement, et respectivement, à
+        l’été et à l’hiver. Si bien que les orientations est/ouest «&#160;ne
+        donnent lieu qu’à des remarques sur l’aspect extérieur des habitants,
+        et non sur leur constitution interne&#160;».</p>
+        <p xml:id="d1e801">
+          <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> a une autre
+        explication. L’état austral et l’état boréal correspondent à une
+        division binaire. «&#160;Or, il est prouvé par les observations de
+        <persName ref="031515487" type="idref" xml:base="https://www.idref.fr/">Sydenham</persName> qu’en Europe,
+        comme en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>, les maladies
+        épidémiques, outre l’influence qu’elles reçoivent d’une ou de
+        plusieurs saisons, ont encore un caractère <hi rend="italic">semestral</hi>, si je puis m’exprimer ainsi, caractère
+        que leur impriment l’équinoxe du printemps et celui de l’automne. […]
+        Ce qu’il y a de certain, c’est que cet effet existe<note n="33" place="foot" type="standard" xml:id="ftn33">
+            <p>P.&#160;LXXXV-LXXXVII.</p>
+          </note>.&#160;» L’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> anglais,
+        <persName ref="031515487" type="idref" xml:base="https://www.idref.fr/">Sydenham</persName>
+          <note n="34" place="foot" type="standard" xml:id="ftn34">
+            <p>Cf.&#160;<hi rend="small-caps">M.&#160;D.&#160;Grmek</hi> [n.&#160;30], p.&#160;169&#160;: Si
+            «&#160;le prétendu “retour à Hippocrate” n’est qu’un habile cri de
+            guerre, une illusion savamment entretenue par Sydenham et ses
+            partisans&#160;» (en fait disciples de Bacon&#160;; et distinguant la
+            maladie des cas individuels, «&#160;porteurs de la maladie&#160;»), Sydenham
+            «&#160;rejoint la tradition épidémiologique de l’hippocratisme
+            classique par sa quatrième règle&#160;: “Enfin, on doit remarquer
+            soigneusement les saisons qui favorisent le plus chaque genre de
+            maladie”.&#160;»</p>
+          </note>, et ses «&#160;observations&#160;» à la manière des <hi rend="italic">Épidémies</hi>, sont invoqués à l’appui des analyses du
+        traité du <date from="0400" to="-0499" type="_temp">
+            <hi rend="small-caps">v</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> et pour
+        mieux les comprendre.</p>
+        <p xml:id="d1e827">Venons-en enfin à ce qui a surtout fait la fortune
+        du traité hippocratique, la théorie du climat, et à ses usages au
+        tournant des <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>
+          </date> et <date from="1800" to="1899" type="_temp">
+            <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi>
+          </date>&#160;siècles.</p>
+        <p xml:id="d1e839">Tout lecteur français pense bien sûr à <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName>. De fait, la
+        tonalité hippocratique d’une réflexion comme celle que <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName> propose sur
+        les Anglais dans l’une de ses <hi rend="italic">Pensées</hi> semble
+        évidente, avec le double jeu du climat et des lois<note n="35" place="foot" type="standard" xml:id="ftn35">
+            <p>
+              <hi rend="small-caps">Montesquieu</hi>, <hi rend="italic">Pensées </hi>n<hi rend="sup">o</hi>&#160;889.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1832">Le caractère des Anglais
+        marqué dans tous les temps est une certaine impatience que le climat
+        leur donne, et qui ne leur permet ni d’agir longtemps de la même
+        manière, ni de souffrir longtemps les mêmes choses&#160;: caractère qui
+        n’est point grand en lui-même, mais qui peut le devenir beaucoup,
+        lorsqu’il n’est point mêlé avec de la faiblesse, mais avec ce courage
+        que donnent le climat, la liberté et les lois.</quote>
+        <p xml:id="d1e857">
+          <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> lui aussi y pense,
+        mais pour le critiquer. Il reproche en effet à <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName> de ne pas
+        avoir avoué sa dette envers le Père de la Médecine et envers ce texte
+        génial qui est utile à la fois au médecin, à l’historien, au
+        cosmographe et au politique, car ils y trouvent chacun «&#160;les premiers
+        fondements&#160;» de leurs sciences respectives<note n="36" place="foot" type="standard" xml:id="ftn36">
+            <p>P.&#160;III.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1850">Ce jugement a été justifié de
+        nos jours par un autre ouvrage de génie <hi rend="italic">(L’Esprit
+        des lois)</hi>, dont l’auteur n’aurait rien retranché de sa propre
+        gloire, s’il avait eu le noble courage de faire honneur au médecin
+        grec du principe fécond qui lui fournit l’idée de son travail, et ce
+        qui en fut la base.</quote>
+        <p xml:id="d1e869">Cependant, cette critique ne semble guère
+        justifiée. Si <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName> ne mentionne
+        pas <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>, c’est surtout,
+        selon toute vraisemblance, parce qu’il ne se fonde pas sur lui. Il
+        suffit de lire les premières lignes du chapitre&#160;II du livre&#160;XIV de <hi rend="italic">L’Esprit des lois</hi> («&#160;Combien les hommes sont
+        différents sous les divers climats&#160;») pour voir toute la différence
+        entre son analyse cardiologique et fibrillaire des effets du climat
+        (ou plutôt, d’ailleurs, de l’air) et la théorie hippocratique, qui
+        n’offre absolument aucun point de comparaison précis&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1868">L’air froid resserre les
+        extrémités des fibres extérieures de notre corps, cela augmente leur
+        ressort, et favorise le retour du sang des extrémités vers le cœur&#160;:
+        il diminue la longueur de ces mêmes fibres, il augmente donc encore
+        par là leur force. L’air chaud au contraire relâche les extrémités des
+        fibres et les allonge. Il diminue donc leur force et leur ressort. On
+        a donc plus de vigueur dans les climats froids. L’action du cœur et la
+        réaction des extrémités des fibres s’y font mieux, les liqueurs sont
+        mieux en équilibre, le sang est plus déterminé vers le cœur, et
+        réciproquement le cœur a plus de puissance. Cette force plus grande
+        doit produire bien des effets&#160;; par exemple, plus de confiance en
+        soi-même, c’est-à-dire plus de courage.</quote>
+        <p xml:id="d1e876">
+          <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName> est ici
+        beaucoup plus proche d’un médecin anglais ami de <persName ref="027152596" type="idref" xml:base="https://www.idref.fr/">Swift</persName>, <persName ref="026689383" type="idref" xml:base="https://www.idref.fr/">John
+        Arbuthnot</persName>, que d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>. <persName ref="026689383" type="idref" xml:base="https://www.idref.fr/">Arbuthnot</persName> publie en <date type="_temp" when="1733">1733</date> un essai sur <hi rend="italic">Les effets de l’air sur les corps humains</hi>, ouvrage
+        traduit en <date type="_temp" when="1742">1742</date> à <placeName ref="6454034" type="geonames" xml:base="https://www.geonames.org/">Montpellier</placeName>,
+        justement, et dédié alors, notons-le, à <persName ref="033794014" type="idref" xml:base="https://www.idref.fr/">Helvétius</persName>. Je
+        cite une phrase de son introduction dans laquelle il invoque, lui, le
+        patronage d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>&#160;: «&#160;Le docteur
+        <persName ref="031515487" type="idref" xml:base="https://www.idref.fr/">Sydenham</persName>, rempli du génie
+        d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>, nous a laissé
+        des <hi rend="italic">Epidémies</hi> écrites sur le modèle de ce
+        Prince de la Médecine, contenant une histoire des maladies aiguës
+        comme dépendantes de la constitution de la saison.&#160;» <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName> aurait pu se
+        livrer aussi à cet hommage très convenu. Mais <persName ref="026689383" type="idref" xml:base="https://www.idref.fr/">Arbuthnot</persName> étudie ensuite
+        minutieusement les ingrédients, les propriétés, les qualités, la
+        nature, les usages, l’influence de l’air, les fièvres pestilentielles
+        transmises par l’air et les explosions naturelles de l’air, et
+        <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> n’est invoqué
+        que dans l’introduction&#160;; le reste du livre explore la physiologie
+        nouvelle des fibres, et tente de mesurer les composants de l’air. De
+        cela, <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> ne parle pas. Voici
+        quelques lignes d’<persName ref="026689383" type="idref" xml:base="https://www.idref.fr/">Arbuthnot</persName> qu’on pourra
+        aisément comparer au texte de <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e1938">XV.&#160;Le froid condense l’air
+        proportionnellement à ses degrés. II contracte les fibres animales et
+        les fluides aussi loin qu’il les pénètre&#160;: les dimensions des animaux,
+        réellement moindres dans le froid, démontrent ce fait. Le froid
+        resserre les fibres non seulement par sa qualité condensante, mais
+        encore en congelant l’humidité de l’air. L’extrême froid agit sur le
+        corps, en manière d’aiguillon, produisant d’abord un picotement, et
+        ensuite une chaleur brûlante, ou un léger degré d’inflammation, dans
+        les parties qui y font exposées. Il produit par son irritation, par le
+        resserrement des fibres et la condensation des fluides, la force, et
+        l’activité, très sensibles à certaines personnes dans un temps clair
+        de gelée. Si les effets de l’air froid font si considérables sur la
+        surface du corps humain, combien plus le sont-ils sur le poumon, où le
+        sang est beaucoup plus chaud.</quote>
+        <p xml:id="d1e887">Cela dit, <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName> et <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> sont pris dans la
+        même difficulté, qui était déjà celle d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName>. Y
+        a-t-il un déterminisme du climat&#160;? <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> évoque
+        les critiques virulentes émises par <persName ref="02692840X" type="idref" xml:base="https://www.idref.fr/">David Hume</persName>
+        et, en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, par <persName ref="033794014" type="idref" xml:base="https://www.idref.fr/">Helvétius</persName> (mais aussi par
+        l’Église, dont <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> ne parle pas, mais à
+        laquelle <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName> cherche à
+        répondre dans la deuxième édition de <hi rend="italic">L’Esprit des
+        lois</hi>), contre cette idée, qui pourrait enlever toute importance à
+        l’éducation<note n="37" place="foot" type="standard" xml:id="ftn37">
+            <p>P.&#160;XXXIV-XXXV.</p>
+          </note>.</p>
+        <quote rend="quotation" xml:id="d1e1981">
+          <hi rend="italic">Les
+        Chinois</hi>, ajoute encore <persName ref="02692840X" type="idref" xml:base="https://www.idref.fr/">Hume</persName>,<hi rend="italic">
+        ont par tout leur vaste empire le même caractère national, quoique
+        leur climat ne soit point partout le même</hi>. Fallait-il aller
+        chercher des exemples chez une nation si éloignée de nous, pour
+        établir une vérité qui, sans détruire l’influence du climat, prouve
+        tout au plus que cette influence peut être modifiée par des causes
+        morales&#160;? Quoique je ne connaisse les Chinois que par les relations
+        des voyageurs, qui les connaissent eux-mêmes fort peu, j’ose affirmer
+        qu’il en est de la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> comme de tous
+        les autres pays que nous connaissons de manière plus particulière. Le
+        caractère national de ce peuple, le même quant aux causes morales qui
+        l’ont formé, doit présenter par la force des causes physiques autant
+        de nuances qu’il y a de provinces différentes&#160;; de même qu’en
+        <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, pays beaucoup
+        moins étendu que la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>, et qui
+        présente aussi un caractère national bien prononcé, on observe une
+        différence sensible entre un Languedocien et un Normand, un Provençal
+        et un Breton. Et il n’est pas non plus vrai, comme le prétend
+        <persName ref="02692840X" type="idref" xml:base="https://www.idref.fr/">Hume</persName>, que les Juifs soient
+        partout les mêmes, quoique dispersés sur tout le globe. À travers
+        cette uniformité frappante, qui est un effet des causes morales […],
+        on distingue bien, pour peu qu’on y fasse attention, un Juif allemand
+        d’un Juif portugais. Je ne m’arrêterai pas plus longtemps aux
+        objections de cet illustre philosophe [Note&#160;: Par la même raison, je
+        crois pouvoir me dispenser de parler du système d’<persName ref="033794014" type="idref" xml:base="https://www.idref.fr/">Helvétius</persName>, qui rapporte
+        tout à l’éducation].</quote>
+        <p xml:id="d1e904">On notera au passage que pour <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> les différences
+        régionales ne peuvent venir que du climat. Mais on notera aussi que,
+        comme <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName>, il refuse
+        l’idée d’une opposition absolue entre les causes naturelles et les
+        causes morales. <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> répond ainsi au
+        reproche que tout lecteur ne peut manquer de faire à <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> lui-même<note n="38" place="foot" type="standard" xml:id="ftn38">
+            <p>P.&#160;XVII.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e2030">Et que l’on ne m’accuse point
+        de faire un cercle vicieux, si après avoir fait dépendre le moral de
+        l’homme des causes physiques, je considère ici ces dernières comme
+        dépendantes en quelque manière du moral. Ce cercle est dans la
+        nature-même de l’homme, il est la suite nécessaire de cette intime
+        liaison entre l’esprit et le corps.</quote>
+        <p xml:id="d1e913">Le caractère de déterminisme que peut avoir le
+        climat se manifeste avec une particulière acuité, chez <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName>, dans la
+        question de l’esclavage. <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName>, tout en
+        affirmant que les lois doivent corriger les effets néfastes du climat,
+        et tout en condamnant très ironiquement et très vigoureusement les
+        mauvaises justifications qu’on apportait de cette pratique dans le
+        très célèbre chapitre&#160;V du livre&#160;XV, étudie ensuite, ce qui est
+        beaucoup moins connu, la «&#160;véritable origine&#160;», climatique, du droit
+        de l’esclavage, qui entraîne son «&#160;inutilité&#160;» parmi nous&#160;: «&#160;Il faut
+        donc borner la servitude naturelle à de certains pays particuliers de
+        la terre. Dans tous les autres, il me semble que, quelques pénibles
+        que soient les travaux que la société y exige, on peut tout faire avec
+        des hommes libres&#160;» (chap.&#160;VIII). Comme on l’a vu, <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> paraît condamner
+        plus universellement l’esclavage. Il cite, à propos de l’influence des
+        lois, une anecdote à cet égard très révélatrice, dans son commentaire
+        au chap.&#160;23 actuel&#160;:</p>
+        <quote rend="quotation" xml:id="d1e2046">
+          <hi rend="italic">Et que ce
+        sont eux seuls qui recueillent l’honneur et le fruit de leurs
+        victoires</hi>. Une anecdote très curieuse […] trouve ici
+        naturellement sa place. Un nègre favori qui avait suivi le <persName type="_temp">colonel Langhedon</persName> (qui allait joindre le
+        <persName type="_temp">général Gazes</persName> à <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Sarragoga</placeName>), lui dit&#160;:
+        <hi rend="italic">Maître, vous donnez vous bien du mal, mais vous
+        allez combattre pour liberté. Je souffrirais aussi avec patience, si
+        j’avais liberté à défendre. Qu’à cela ne tienne,</hi> reprit <persName type="_temp">Langhedon</persName>, <hi rend="italic">dès ce moment-ci,
+        je te la donne</hi>. Le nègre le suivit, se conduisit avec courage, et
+        ne l’a pas quitté depuis.</quote>
+        <p xml:id="d1e925">Cette anecdote illustre le plus fameux passage du
+        traité <hi rend="italic">Airs, Eaux, Lieux</hi> d’une manière
+        peut-être un peu inattendue, mais intéressante, à un moment où la
+        question de l’esclavage était particulièrement brûlante.</p>
+        <p xml:id="d1e930">Pour compléter encore la contextualisation de
+        l’édition <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, on peut enfin
+        évoquer l’édition du traité que publia en <date type="_temp" when="1804">1804</date> un certain <persName type="_temp">Dr&#160;Delavaud</persName>, médecin aux armées et donc grand
+        voyageur. Le premier, il rend hommage au travail de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName> et veut lui aussi
+        réhabiliter <persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> et le rôle
+        qu’il fait jouer à la nature contre «&#160;la doctrine mécanico-chimique de
+        <persName ref="028043995" type="idref" xml:base="https://www.idref.fr/">Boerhaave</persName>&#160;». Cet excessif
+        esprit d’analyse a fait que les médecins «&#160;dédaignèrent jusqu’à
+        l’oubli les observations simples ou naturelles des phénomènes des
+        airs, des eaux, des lieux, dans leurs rapports naturels et dans leurs
+        actions combinées sur l’économie de l’homme&#160;» (p.&#160;XII). En tant que
+        médecin des armées, le <persName type="_temp">Dr&#160;Delavaud</persName>
+        peut, lui, faire le portrait détaillé de différents peuples du monde
+        et de leur caractère en relation avec leur climat et leurs usages. Il
+        relève ainsi l’exemple de la <placeName ref="2750405" type="geonames" xml:base="https://www.geonames.org/">Hollande</placeName>, typique
+        d’une constitution froide et humide<note n="39" place="foot" type="standard" xml:id="ftn39">
+            <p>P.&#160;CXII.</p>
+          </note>&#160;:</p>
+        <quote rend="quotation" xml:id="d1e2111">J’ai préféré cet exemple,
+        bien que je regarde l’existence des Hollandais comme une maladie
+        continuelle&#160;; mais, en jetant les yeux sur le globe, je n’ai vu, dans
+        un certain état de santé, aucun peuple dans une température froide et
+        humide aussi marquante, et où les usages soient encore plus d’accord
+        avec la température pour en aggraver les maux. Le régime des Anglais
+        est mieux raisonné.</quote>
+        <p xml:id="d1e939">On pourra préférer les observations de <persName ref="030418011" type="idref" xml:base="https://www.idref.fr/">Coray</persName>, bien qu’une phrase
+        de <persName type="_temp">Delavaud</persName> puisse aussi, à mon
+        avis, résumer assez bien leurs deux tentatives&#160;: «&#160;Le mérite
+        d’<persName ref="027324885" type="idref" xml:base="https://www.idref.fr/">Hippocrate</persName> ne peut exclure
+        celui de <persName ref="028043995" type="idref" xml:base="https://www.idref.fr/">Boerhaave</persName>. Seulement
+        l’ancien rectifierait beaucoup le moderne<note n="40" place="foot" type="standard" xml:id="ftn40">
+            <p>P.&#160;88. Cette étude est issue d’une conférence prononcée à
+            l’université de Genève le lundi 14&#160;décembre&#160;2009 à l’invitation du
+            professeur Paul Schubert, que je remercie vivement.</p>
+          </note>.&#160;»</p>
+      </div>
+    </body>
+  </text>
+</TEI>

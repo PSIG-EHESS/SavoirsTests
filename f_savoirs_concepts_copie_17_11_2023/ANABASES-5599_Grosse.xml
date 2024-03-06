@@ -1,0 +1,1296 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-5599_Grosse">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Des «&#160;rites de passage&#160;» avant van Gennep&#160;: les
+        cérémonies funéraires dans les traités antiquaires et
+        «&#160;ethnographiques&#160;» de la première modernité (<hi rend="small-caps">xvi</hi>
+          <hi rend="sup">e</hi>-<hi rend="small-caps">xviii</hi>
+          <hi rend="sup">e</hi>&#160;siècle)</title>
+        <author role="aut">
+          <forename>Christian</forename>
+          <surname>Grosse</surname>
+          <idno type="IDREF">08192562X</idno>
+          <affiliation>Professeur ordinaire<lb/>Histoire et anthropologie des
+          christianismes modernes<lb/>Université de Lausanne<lb/>Faculté de
+          Théologie et de Sciences des religions, Cultures et
+          Modernité</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/XP2ZVR4B" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Des « rites de passage » avant van Gennep : les
+            cérémonies funéraires dans les traités antiquaires et «
+            ethnographiques » de la première modernité (xvie-xviiie
+            siècle)</title>
+            <idno type="DOI">10.4000/anabases.5599</idno>
+            <title type="short">Des « rites de passage » avant van
+            Gennep</title>
+            <author>
+              <forename>Christian</forename>
+              <surname>Grosse</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Anabases. Traditions et réceptions de
+            l’Antiquité</title>
+            <idno type="ISSN">1774-4296</idno>
+            <imprint>
+              <biblScope unit="issue">23</biblScope>
+              <biblScope unit="page">99-114</biblScope>
+              <date>2016</date>
+              <note type="accessed">2022-07-06T08:07:17Z</note>
+              <note type="url">https://journals.openedition.org/anabases/5599</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="grc"/>
+        <language ident="spa"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>antiquarians</item>
+            <item>Arnold van Gennep</item>
+            <item>ethnograpy</item>
+            <item>comparative history of religions</item>
+            <item>rites de passages</item>
+            <item>funeral ceremonies</item>
+            <item>wedding ceremonies</item>
+            <item>state ceremonies</item>
+            <item>archaeology of knowledge</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>antiquaires</item>
+            <item>ethnographie</item>
+            <item>Arnold van Gennep</item>
+            <item>histoire comparée des religions</item>
+            <item>rites de passages</item>
+            <item>rites funéraires</item>
+            <item>rites nuptiaux</item>
+            <item>cérémonies d’État</item>
+            <item>archéologie des savoirs</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+          <term>
+            <placeName ref="6269131" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1500" to="1799" type="_temp">
+              <hi rend="small-caps">xvi</hi>
+              <hi rend="sup">e</hi>-<hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date type="_temp">antiquité</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart level="a" type="main">Des «&#160;rites de passage&#160;» avant van
+          Gennep&#160;: les cérémonies funéraires dans les traités antiquaires et
+          «&#160;ethnographiques&#160;» de la première modernité (<hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>-<hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle)</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Christian Grosse</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:id="d1e252" xml:lang="fre">Rappelant le travail d’archéologie
+        de l’ethnologie et de l’histoire comparée des religions auquel Arnold
+        van Gennep se livre entre&#160;1905 et&#160;1920, ce texte montre qu’il remonte
+        progressivement jusqu’à l’ouvrage de l’antiquaire Claude Guichard, <hi rend="italic">Funérailles et diverses manières d’ensevelir des
+        Romains, Grecs et autres nations</hi> (1581), identifié comme l’un des
+        premiers témoignages de la «&#160;méthode comparative&#160;». En suivant un
+        cheminement similaire, l’article met en évidence la manière dont se
+        construit et se diffuse, dès la Renaissance, à partir des travaux des
+        antiquaires, des récits de voyages et d’une science des cérémonies
+        d’État en formation, un vaste corpus de connaissances comparatives sur
+        les rites funéraires «&#160;de tous les peuples du monde&#160;» et, dans une
+        certaine mesure aussi, sur les rites nuptiaux. Ces connaissances, qui
+        commencent à être synthétisées au <hi rend="small-caps">xvii</hi>
+          <hi rend="sup">e</hi>&#160;siècle, jettent les bases d’un savoir et d’une
+        théorisation sur les rites de passage en général, dont l’ouvrage de
+        van Gennep, <hi rend="italic">Les rites de passage</hi> (1909)
+        constitue l’un des aboutissements.</p>
+        <p xml:id="d1e266" xml:lang="eng">Recalling van Gennep’s effort,
+        between&#160;1905 and&#160;1920, to reconstruct the archeology of ethnology and
+        comparative history of religion, this text shows how he came to
+        identify the book of the antiquarian Claude Guichard, <hi rend="italic">Funérailles et diverses manières d’ensevelir des
+        Romains, Grecs et autres nations </hi>(1581), as one of the first
+        hallmarks of the “comparative method”. Following a similar path, the
+        text highlights the building and dissemination, since Renaissance
+        time, from works of antiquarians, travel literature and a growing
+        science of state ceremonies, of an extensive and comparative knowledge
+        on funeral ceremonies “of all people of the world”, and to a certain
+        extent also on wedding ceremonies. This knowledge, which starts to be
+        synthetized in the 17<hi rend="sup">th</hi>&#160;century, lays the
+        foundation for a knew learning and theor ization on <hi rend="italic">rites de passage</hi> in general. In this perspective
+        the book published by Van Gennep in 1909, <hi rend="italic">Les rites
+        de passage</hi>, appears as one of the outcomes of this learning.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e297">Célèbre surtout pour avoir isolé une «&#160;classe
+        autonome&#160;» de cérémonies, qu’il a désignées comme <hi rend="italic">Rites de passage</hi> – l’expression est si consacrée
+        qu’elle est passée telle quelle dans la langue anglaise – et connu
+        dans une moindre mesure comme l’auteur d’une monumentale et inachevée
+        encyclopédie du ­<hi rend="italic">Folklore français</hi>, <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">Arnold
+        van Gennep</persName> (<date from="1873" to="1957" type="_temp">1873-1957</date>) a également manifesté, très tôt dans sa
+        carrière, un intérêt pour l’histoire des sciences qu’il pratiquait –
+        histoire des religions, ethnographie, folklore, anthropologie,
+        sciences de l’homme… Plusieurs textes visant à retracer cette histoire
+        se succèdent de manière resserrée pendant une dizaine d’années, <date from="1905" to="1920" type="_temp">entre&#160;1905 et&#160;1920</date>, et
+        témoignent de cet intérêt en portant une attention particulière à la
+        formation de la méthode comparative.</p>
+        <p xml:id="d1e305">Le premier d’entre eux ne dessine qu’une rapide
+        esquisse en repérant les textes français qui ont posé, au <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, «&#160;des règles de méthode&#160;» influentes
+        pour ces disciplines&#8201;&#160;: <persName ref="026868814" type="idref" xml:base="https://www.idref.fr/">Fontenelle</persName> (<date from="1657" to="1757" type="_temp">1657-1757</date>) et <persName ref="026754770" type="idref" xml:base="https://www.idref.fr/">De&#160;Brosses</persName> (<date from="1709" to="1777" type="_temp">1709-1777</date>) y sont brièvement
+        évoqués<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>
+              <hi rend="small-caps">A.&#160;van&#160;Gennep, «&#160;À propos des rites
+              phalliques&#160;» in <hi rend="italic">Religions, mœurs et légendes.
+              Essais d’ethnographie et de linguistique</hi>, t.&#160;III, Paris,
+              1908, p.&#160;26-30. Le texte est rédigé à l’occasion de la réédition
+              par la Société du Mercure de France, du livre de J.A.&#160;D<hi rend="small-caps">ulaure</hi>, <hi rend="italic">Des divinités
+              génératrices chez les anciens et les modernes</hi>, Paris, 1905
+              avec un «&#160;chapitre complémentaire&#160;» signé par <hi rend="small-caps">van&#160;Gennep </hi>(p.&#160;319-335).</hi>
+            </p>
+          </note>. Le second, paru en <date type="_temp" when="1910">1910</date>, concerne uniquement <persName ref="028050967" type="idref" xml:base="https://www.idref.fr/">Jean-Nicolas
+        Démeunier</persName> (<date from="1751" to="1814" type="_temp">1751-1814</date>) qui avait fait paraître, en <date type="_temp" when="1776">1776</date>, <hi rend="italic">L’esprit des
+        usages et des coutumes des différents peuples ou observations tirées
+        des voyageurs et des historiens</hi>. <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">Van&#160;Gennep</persName>
+        laisse entendre qu’il ne s’est intéressé que par hasard à cet auteur&#160;:
+        il aurait trouvé «&#160;l’autre jour, sur les quais, pour un prix
+        dérisoire&#160;» les trois volumes de cette œuvre<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>
+              <hi rend="small-caps">van Gennep, «&#160;Un ethnographe oublié du <hi rend="small-caps">xviii</hi>
+                <hi rend="sup">e</hi>&#160;siècle&#160;:
+              J.&#160;N.&#160;Démeunier&#160;», <hi rend="italic">Revue des Idées</hi>, t.&#160;73
+              (1910), p.&#160;18-28 (repris dans <hi rend="small-caps">van
+              Gennep,</hi>
+                <hi rend="italic"> Religions, mœurs et légendes.
+              Essais d’ethnographie et de linguistique</hi>, t.&#160;III, Paris,
+              1911, p.&#160;21-32).</hi>
+            </p>
+          </note>. <date type="_temp" when="1912">Deux ans plus tard</date>
+        cependant, la perspective s’élargit, l’intérêt s’approfondit.
+        L’histoire de ces disciplines se concentre désormais sur l’analyse des
+        conditions qui ont rendu possible l’émergence de l’ethnographie. De
+        plus, elle est mise au service d’un programme&#160;: la défense de
+        «&#160;l’autonomie de notre science&#160;». Un panorama historique large,
+        remontant à l’<date type="_temp">antiquité</date>, mais plus documenté
+        pour le <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> et
+        surtout le <date from="1800" to="1899" type="_temp">
+            <hi rend="small-caps">xix</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, veut
+        démontrer le processus de spécialisation scientifique qui s’est opéré
+        et qui a réservé à l’ethnographie «&#160;l’homme mental et culturel&#160;»,
+        abordé par «&#160;l’étude des populations actuelles ou des groupements
+        actuels qui n’ont pas encore atteint le stade de production
+        caractérisé par la grande industrie moderne&#160;». Il s’agit aussi
+        d’expliquer pourquoi la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, initiatrice
+        des évolutions scientifiques qui ont permis l’éclosion de
+        l’ethnographie, accuse néanmoins un certain retard en la matière au
+        début du <date from="1900" to="1999" type="_temp">
+            <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>. La
+        démarche est ici très personnelle&#160;; ce sont ses propres orientations
+        scientifiques dont il recherche les fondements, comme il l’avoue très
+        franchement&#160;: c’est parce qu’il s’est «&#160;décidé, vers [sa]
+        vingt-troisième année, à consacrer [sa] vie à l’ethnographie&#160;» qu’il
+        juge nécessaire d’entreprendre cette défense<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>
+              <hi rend="small-caps">van Gennep, «&#160;Remarques sur
+              l’ethnographie&#160;», in van Gennep, <hi rend="italic">Religions,
+              mœurs et légendes</hi>, t.&#160;IV, Paris, 1912 (2<hi rend="sup">e</hi>&#160;édition), p.&#160;9-31.</hi>
+            </p>
+          </note>.</p>
+        <p xml:id="d1e387">Cet effort d’historicisation de sa propre
+        discipline se poursuit en <date type="_temp" when="1913">1913</date>.
+        Alors que dix pages avaient auparavant suffi à caractériser le travail
+        de <persName ref="028050967" type="idref" xml:base="https://www.idref.fr/">Démeunier</persName>, c’est
+        maintenant un essai de plus d’une centaine de pages que <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van
+        Gennep</persName> rédige, en deux temps, pour analyser la formation de
+        ces disciplines<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="small-caps">van Gennep, «&#160;Contribution à l’histoire de
+              la méthode ethnographique&#160;», <hi rend="italic">Revue de
+              l’Histoire des Religions</hi>, t.&#160;67 (1913), p.&#160;320-338, t.&#160;68
+              (1913), p.&#160;32-61 (repris et étendu sous le titre «&#160;La méthode
+              ethnographie en France au xviii<hi rend="sup">e</hi>&#160;siècle&#160;»
+              dans van Gennep,<hi rend="italic"> Religions, mœurs et
+              légendes</hi>, t.&#160;V, Paris, 1914, p.&#160;93-215). Ces questions
+              historiques sont également abordées dans le même volume, mais
+              dans un autre texte&#160;: «&#160;Quelques lacunes de l’ethnographie
+              actuelle&#160;», in&#160;<hi rend="italic">ibid</hi>, p.&#160;9-25.</hi>
+            </p>
+          </note>. Le <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> lui
+        apparaît désormais comme une époque fondatrice pour la «&#160;méthode
+        ethnographique comparative&#160;», parce que plusieurs progrès importants
+        s’opèrent à ce moment-là. Si la fascination pour l’exotisme avait
+        permis à la littérature française d’accumuler de nombreuses
+        informations sur les civilisations lointaines depuis la <date type="_temp">Renaissance</date>, le <date from="1700" to="1799" type="_temp">siècle des Lumières</date> fait œuvre de synthèse et
+        porte sur ces informations un regard à la fois plus général et plus
+        abstrait. Le point de vue change aussi de manière fondamentale à cette
+        époque, puisqu’elle consacre le décentrement de l’humanité qui ne
+        constitue plus le cœur de la Création, mais seulement un aspect de la
+        nature&#160;: «&#160;C’est l’un des mérites les plus durables du <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>&#160;», constate <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName>,
+        «&#160;d’avoir replacé dans la nature l’Homme que les théologies et les
+        mythologies mettaient à part du reste des objets et des êtres&#160;». De
+        nombreux penseurs contribuent à cette évolution&#160;: <persName ref="034408061" type="idref" xml:base="https://www.idref.fr/">Lafitau</persName>, <persName ref="027383881" type="idref" xml:base="https://www.idref.fr/">Montesquieu</persName>, <persName ref="028202368" type="idref" xml:base="https://www.idref.fr/">Rousseau</persName>, <persName ref="027190099" type="idref" xml:base="https://www.idref.fr/">Voltaire</persName>, <persName ref="069450277" type="idref" xml:base="https://www.idref.fr/">Goguet</persName>, <persName ref="026754770" type="idref" xml:base="https://www.idref.fr/">De&#160;Brosses</persName>, <persName ref="02674368X" type="idref" xml:base="https://www.idref.fr/">Boulanger</persName>, <persName ref="033764379" type="idref" xml:base="https://www.idref.fr/">Dupuis</persName> et <persName ref="02684253X" type="idref" xml:base="https://www.idref.fr/">Dulaure</persName> sont
+        successivement passés en revue, mais <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName>
+        juge que les principales contributions sont dues aux <hi rend="italic">Mœurs des sauvages américains comparées aux mœurs des
+        premiers temps</hi> (<date type="_temp" when="1724">1724</date>) de
+        <persName ref="034408061" type="idref" xml:base="https://www.idref.fr/">Lafitau</persName> et au <hi rend="italic">Du culte des Dieux fétiches ou Parallèle de l’ancienne
+        Religion de l’Égypte avec la Religion actuelle de Nigritie</hi> (<date type="_temp" when="1760">1760</date>) de <persName ref="026754770" type="idref" xml:base="https://www.idref.fr/">De&#160;Brosses</persName>.
+        Ces deux ouvrages ont selon lui posé les fondements d’un travail de
+        comparaison, l’un, en confrontant «&#160;les faits américains et […] les
+        faits de l’<date type="_temp">antiquité classique</date>&#160;», l’autre,
+        en opposant «&#160;les faits africains et les faits de l’<date type="_temp">antiquité égyptienne</date>&#160;».</p>
+        <p xml:id="d1e430">Dans la science qui naît sous l’impulsion de ces
+        auteurs, <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van Gennep</persName> place
+        d’immenses espoirs – non sans naïveté&#160;; en conclusion de la préface au
+        cinquième tome de ses<hi rend="italic"> Religions, mœurs et
+        légendes</hi>, il écrit en effet, alors même que s’amoncellent dans
+        les Balkans les tensions qui conduiront au déclenchement de la <date from="1914-07-28" to="1918-11-11" type="_temp">Première Guerre
+        mondiale</date>&#160;:</p>
+        <quote rend="quotation">Pour l’intelligence du grand mouvement
+        intellectuel qui a conduit à l’acceptation bientôt universelle des
+        notions d’<hi rend="italic">humanité</hi> et de <hi rend="italic">fraternité</hi>, l’ethnographie a joué un rôle
+        grandissant à partir du <date from="1400" to="1499" type="_temp">
+            <hi rend="small-caps">xv</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>. Ce rôle
+        n’est pas terminé encore&#160;; et je m’assure qu’il ne peut que
+        s’accentuer au cours du <date from="1900" to="1999" type="_temp">siècle actuel</date>. Seule l’ethnographie pourra dénouer
+        certains problèmes complexes, comme ceux des Balkans, sans le recours
+        au moyen primitif des massacres mutuels<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>
+              <hi rend="italic">Ibid.,</hi> p.&#160;8-9 (avant-propos signé de
+            Neuchâtel, janvier&#160;1914).</p>
+          </note>.</quote>
+        <p xml:id="d1e456">Complétant enfin <date type="_temp" when="1919">six
+        ans plus tard</date> l’histoire de la formation de l’ethnographie
+        ainsi ébauchée, <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName> réévalue de
+        manière intéressante l’apport des périodes précédentes. Tandis qu’il
+        ne retenait auparavant la contribution du <date from="1500" to="1599" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> qu’au titre de la littérature exotique
+        qui éclot durant cette période, en se fondant uniquement sur les
+        études de <persName ref="095646914" type="idref" xml:base="https://www.idref.fr/">Pierre Martino</persName> et
+        <persName ref="031664164" type="idref" xml:base="https://www.idref.fr/">Gilbert Chinard</persName>
+          <note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>
+              <hi rend="small-caps">P.&#160;Martino, <hi rend="italic">L’Orient
+              dans la littérature française au </hi>
+                <hi rend="italic">xvii</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> et au </hi>
+                <hi rend="italic">xviii</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#8201;siècle</hi>, Paris,
+              1906&#160;; G.&#160;Chinard, <hi rend="italic">L’exotisme américain dans
+              la littérature française au </hi>
+                <hi rend="italic">xvi</hi>
+                <hi rend="sup">e</hi>
+                <hi rend="italic">&#160;siècle</hi>, Paris, 1911&#160;;
+              <hi rend="italic">L’Amérique et le rêve exotique dans la
+              littérature française au </hi>
+                <hi rend="italic">xvii</hi>
+                <hi rend="sup">e</hi>
+                <hi rend="italic">&#160;et au xviii</hi>
+                <hi rend="sup">e</hi>
+                <hi rend="italic">&#160;siècle</hi>, Paris,
+              1913.</hi>
+            </p>
+          </note>, il ajoute en <date type="_temp" when="1920">1920</date>,
+        d’une part, deux auteurs du <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> à sa généalogie précédente (<persName ref="029095786" type="idref" xml:base="https://www.idref.fr/">Richard
+        Simon</persName> et <persName ref="033770158" type="idref" xml:base="https://www.idref.fr/">Claude Fleury</persName>) et
+        souligne, d’autre part, l’importante contribution des «&#160;antiquaires&#160;»
+        de la <date type="_temp">Renaissance</date>, en tant qu’initiateurs
+        d’une attention pour les mœurs et coutumes des différents peuples.
+        Qualifiant ces antiquaires d’«&#160;historiens et archéologues des peuples
+        classiques&#160;», il cite en particulier «&#160;maître <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Claude
+        Guichard</persName>&#160;» et son ouvrage, <hi rend="italic">Funérailles et
+        diverses manières d’ensevelir des Romains, Grecs et autres Nations,
+        tant anciennes que modernes</hi> (<placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>,
+        <date type="_temp" when="1581">1581</date>). «&#160;Novateur&#160;» méritant
+        d’«&#160;être mis chronologiquement en tête des précurseurs de l’école
+        comparative&#160;», <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Claude Guichard</persName> (<date from="1545" to="1607" type="_temp">1545-1607</date>) doit cette
+        distinction à deux innovations. Sur le plan de la méthode, il
+        pratique, d’une part, une comparaison «&#160;critique&#160;»&#160;: elle prend non
+        seulement soin de vérifier les auteurs en les confrontant les uns aux
+        autres, mais place en outre les peuples sauvages et barbares, anciens
+        et modernes, «&#160;exactement sur le même plan&#160;». On doit, par ailleurs, à
+        l’antiquaire une intuition que <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName> regarde comme
+        d’autant plus fondamentale qu’elle préfigure sa propre théorie&#160;:</p>
+        <quote rend="quotation" xml:id="d1e907">Il semble que <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName> avait aperçu, au
+        cours de sa recherche, qu’il existe, au moins en matière de sépulture
+        et de funérailles, certains éléments communs, qui permettraient un
+        classement non plus géographique ou national seulement des faits, mais
+        plus étendu, et d’après des concordances internes.</quote>
+        <p xml:id="d1e531">L’antiquaire aurait, en d’autres termes, repéré une
+        homologie profonde, une cohérence de structure formelle, entre une
+        vaste série de rites de séparation avec les défunts, à partir de
+        laquelle il devenait possible, même si le pas n’est pas franchi par
+        <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName>, de penser les
+        rites funéraires de manière plus générale, plus théorique. Or c’est de
+        cette manière que <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName>, confrontant un
+        grand nombre de faits ethnographiques, est parvenu lui-même à dégager
+        cette «&#160;classe autonome&#160;» de cérémonies que constituent les «&#160;rites de
+        passage<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>
+              <hi rend="small-caps">Van&#160;Gennep, «&#160;Nouvelles recherches sur
+              l’histoire en France de la méthode ethnographique. Claude
+              Guichard, Richard Simon, Claude Fleury&#160;», <hi rend="italic">Revue de l’histoire des religions</hi>, 82 (1920),
+              p.&#160;139-162. Ketty van&#160;Gennep, la fille d’Arnold van&#160;Gennep, se
+              trompe, dans sa <hi rend="italic">Bibliographie des œuvres
+              d’Arnold van&#160;Gennep</hi> (Paris, 1964, p.&#160;29) en indiquant que
+              cet article paraît en 1919.</hi>
+            </p>
+          </note>&#160;».</p>
+        <p xml:id="d1e546">En distinguant en <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Claude
+        Guichard</persName> la source d’une tradition intellectuelle à l’autre
+        bout de laquelle il se situe lui-même, <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName>
+        renoue avec les origines de son propre parcours scientifique, puisque
+        ses toutes premières publications, celles des <date from="1894" to="1897" type="_temp">années&#160;1894-1897</date>, portent exclusivement
+        sur des aspects de la numismatique, l’un des savoirs centraux des
+        antiquaires de la <date type="_temp">Renaissance</date>
+          <note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>
+              <hi rend="small-caps">K.&#160;van&#160;Gennep, <hi rend="italic">Bibliographie des œuvres d’Arnold van&#160;Gennep</hi>,
+              Paris, 1964, p.&#160;15-16.</hi>
+            </p>
+          </note>&#160;: <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName> illustre
+        parfaitement cette démarche consistant à faire usage des monnaies pour
+        éclairer des coutumes<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>C.&#160;Guichard, <hi rend="italic">Funérailles et diverses manieres
+            d’ensevelir des Romains, Grecs, et autres nations</hi>, Lyon,
+            1581, en particulier p.&#160;181-184, 375-378.</p>
+          </note>. En se référant à cet «&#160;ancêtre&#160;», <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName>
+        reconstitue les fondements méthodologiques et historiques de
+        l’approche qu’il est lui-même en train d’élaborer. Il met également le
+        doigt, mais à son insu, sur un très vaste corpus de textes publiés à
+        partir du <date from="1500" to="1599" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> et ayant
+        pour objet la connaissance des rites funéraires dans une grande
+        variété de sociétés humaines et dont les <hi rend="italic">Funérailles
+        et diverses manières d’ensevelir des Romains</hi> de <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName> ne constituent
+        que l’une des pointes les plus visibles.</p>
+        <p xml:id="d1e574">C’est ce corpus que ce texte voudrait décrire et
+        analyser afin de mettre en lumière le fait qu’une documentation et une
+        réflexion proto-ethnographique, de nature comparative, émerge dès la
+        <date type="_temp">Renaissance</date> sur les rites de passage, avec
+        une attention particulière sur les rites funéraires. Cet éclairage
+        devrait mettre en évidence le contexte dans lequel naît cette
+        connaissance des rites de passage et par conséquent permettre de
+        comprendre à la fois les objectifs qui le déterminent et les limites
+        qui le caractérisent, en regard de la manière dont <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName> construit sa
+        propre réflexion sur le sujet.</p>
+        <p xml:id="d1e577">Comme l’avait correctement perçu <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName>, ce sont bien
+        les «&#160;antiquaires&#160;» qui initient ce travail de réunion de
+        l’information et de confrontation des données sur le sujet à partir
+        d’un constat paradoxal&#160;: ils observent à la fois, d’une part,
+        l’universalité anthropologique des pratiques funéraires, et, d’autre
+        part, l’infinie variété formelle et la diversité de signification de
+        ces mêmes pratiques. À partir du <date from="1500" to="1599" type="_temp">début du <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, toute une série de traités
+        antiquaires consacrés spécifiquement aux rites funéraires voient en
+        effet le jour<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>
+              <hi rend="small-caps">M.M.&#160;Fontaine, «&#160;Antiquaires et rites
+              funéraires&#160;», in J.&#160;<hi rend="small-caps">Balsamo</hi>&#160;(éd.),
+              <hi rend="italic">Les funérailles à la Renaissance&#160;: XII</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;colloque
+              international de la Société française d’étude du seizième
+              siècle, Bar-le-Duc, 2-5&#160;décembre&#160;1999</hi>, Genève, 2002,
+              p.&#160;329-355.</hi>
+            </p>
+          </note>. L’un des premiers textes appartenant à cette tradition que
+        l’on puisse identifier est le traité <hi rend="italic">Des Anciennes
+        pompes funeralles</hi> rédigé par l’humaniste <persName ref="033953279" type="idref" xml:base="https://www.idref.fr/">Jean
+        Lemaire de&#160;Belges</persName> (<date from="1473" to="1524" type="_temp">1473-1524</date>) <date from="1507-11" to="1508-01" type="_temp">entre fin novembre&#160;1507 et fin janvier&#160;1508</date>
+          <note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>J.&#160;Lemaire de Belges,<hi rend="italic"> Des Anciennes pompes
+            funeralles </hi>(1511), texte établi, introd. et annoté par
+            M.M.&#160;Fontaine, avec le concours d’E.A.R.&#160;Brown, Paris, 2001.</p>
+          </note>. On reviendra plus loin sur les circonstances qui ont
+        conduit à la rédaction de ce traité. On peut cependant déjà observer,
+        en se plaçant dans la perspective d’une histoire plus large de ce
+        corpus, deux éléments à propos de ce traité. Il est écrit en langue
+        vernaculaire, alors que le corpus se constitue ensuite avant tout en
+        latin. Bien qu’il tire son information de sources littéraires
+        principalement, <persName ref="033953279" type="idref" xml:base="https://www.idref.fr/">Lemaire de&#160;Belges</persName> a eu
+        l’occasion de les croiser avec des comptes rendus de fouilles de
+        monuments funéraires antiques réalisées en <date type="_temp" when="1507">1507</date> à proximité de <placeName ref="2800866" type="geonames" xml:base="https://www.geonames.org/">Bruxelles</placeName>, ou avec
+        ses propres observations en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          <note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>
+              <hi rend="italic">Ibid.,</hi> p.&#160;VI-XVII&#160;; <hi rend="small-caps">R.&#160;Cooper, <hi rend="italic">Roman Antiquities
+            in Renaissance France, 1515-65</hi>, Aldershot, 2013,
+            p.&#160;288-295.</hi>
+            </p>
+          </note>.</p>
+        <p xml:id="d1e629">Le traité qui aura le plus d’influence sur la
+        formation du corpus est cependant le De sepulchris et vario sepeliendi
+        ritu, libellus du mythographe italien <persName ref="033800820" type="idref" xml:base="https://www.idref.fr/">Lilio Gregorio
+        Giraldi</persName> (<date from="1479" to="1552" type="_temp">1479-1552</date>), publié en <date type="_temp" when="1533">1533</date> et en <date type="_temp" when="1539">1539</date>
+          <note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>J’ai pu consulter l’édition suivante&#160;: <hi rend="italic">De
+            sepulchris et vario sepeliendi ritu, libellus</hi>, Basilea,
+            1539.</p>
+          </note>. Cet ouvrage, qui initie la tradition des traités rédigés en
+        latin, prend place dans un projet, plus vaste que le précédent,
+        d’«&#160;étude comparée des usages, des rites et des institutions<note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>
+              <hi rend="small-caps">M.M.&#160;Fontaine, «&#160;Antiquaires et rites
+              funéraires&#160;», p.&#160;339.</hi>
+            </p>
+          </note>&#160;». Il fait ainsi suite à une recherche plus précise sur les
+        vases funéraires et paraît dans les années où <persName ref="033800820" type="idref" xml:base="https://www.idref.fr/">Giraldi</persName> édite également sa
+        grande synthèse sur les dieux de tous les peuples, <hi rend="italic">De deis gentium</hi> (<date type="_temp" when="1536">1536</date>). Si le spectre des sociétés humaines étudiées
+        est ici plus étendu que chez <persName ref="033953279" type="idref" xml:base="https://www.idref.fr/">Lemaire de&#160;Belges</persName>, il
+        continue à ne concerner en réalité que l’<date type="_temp">antiquité</date>. De plus, les sources sont ici
+        littéraires. Une nouvelle édition des derniers chapitres de ce traité
+        est donnée à <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName> en <date type="_temp" when="1556">1556</date> par le graveur <persName type="_temp">Pierre Woieiriot</persName> qui l’enrichit de neuf
+        gravures, contribuant ainsi à alimenter par l’image la fascination
+        qu’exerce à cette époque la diversité des rites funéraires<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>G.G.&#160;Giraldi [et P.&#160;Woeiriot], <hi rend="italic">Pinax iconicus
+            antiquorum ac variorum in sepulturis rituum…</hi>, Lyon, 1556&#160;;
+            pour tout ceci&#160;: <hi rend="small-caps">M.M.&#160;Fontaine,
+            «&#160;Antiquaires et rites funéraires&#160;», p.&#160;338-342, 346-349.</hi>
+            </p>
+          </note>.</p>
+        <p xml:id="d1e662">La tradition des traités antiquaires compilant des
+        informations relatives aux rites funéraires continue à s’étoffer par
+        la suite avec les brèves contributions d’<persName ref="057476160" type="idref" xml:base="https://www.idref.fr/">Onofrio
+        Panvinio</persName> (<date from="1529" to="1568" type="_temp">1529-1568</date>), consacrée aux rites funéraires des
+        anciens chrétiens, des Romains, des Hébreux et des Égyptiens<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>
+              <hi rend="italic">De Ritu sepeliendi Mortuos Apud Veteres
+            Christianes</hi>, Coloniae, 1568 (28&#160;p.&#160;; rééd.&#160;Francfort, 1717,
+            trad.&#160;française en 1613&#160;: <hi rend="small-caps">J.-L.&#160;Ferrary, <hi rend="italic">Onofrio Panvinio et les antiquités romaines</hi>,
+            Rome, 1996, p.&#160;1, 13-14, 25, 171, 208-211).</hi>
+            </p>
+          </note>, et du polygraphe <persName ref="034615644" type="idref" xml:base="https://www.idref.fr/">Tommaso Porcacchi</persName> (<date from="1530" to="1585" type="_temp">1530-1585</date>), illustrée par le
+        graveur <persName ref="060804130" type="idref" xml:base="https://www.idref.fr/">Girolamo Porro</persName>, qui
+        s’inspirent tous deux directement du travail de <persName ref="033800820" type="idref" xml:base="https://www.idref.fr/">Giraldi</persName> et de <persName type="_temp">Woeiriot</persName>
+          <note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>
+              <hi rend="italic">Funerali antichi di diversi populi e nationi,
+            con la forma, pompa e maniera de sepolture, di essequie, di
+            consecrazione antichi</hi>, Venise, 1574 (109&#160;p.&#160;; rééd.&#160;Venise,
+            1591&#160;; voir à ce sujet&#160;: <hi rend="small-caps">C.&#160;Lastraioli,
+            «&#160;Les Funerali Antichi de Tommaso Porcacchi&#160;», in B<hi rend="small-caps">alsamo</hi>&#160;(éd.), <hi rend="italic">Funérailles
+            à la Renaissance</hi>, p.&#160;357-388).</hi>
+            </p>
+          </note>. Le genre ne varie cependant guère avec ces traités qui
+        restent centrés principalement sur l’<date type="_temp">antiquité</date> et qui reposent avant tout sur des
+        informations d’origine littéraire. Mais les contributions de <persName ref="057476160" type="idref" xml:base="https://www.idref.fr/">Panvinio</persName> et de <persName ref="034615644" type="idref" xml:base="https://www.idref.fr/">Porcacchi</persName> ainsi que leurs
+        rééditions témoignent de l’engouement des milieux lettrés pour une
+        connaissance des cultures cérémonielles de l’<date type="_temp">antiquité</date>.</p>
+        <p xml:id="d1e693">Dans le contexte de cette tradition, le livre de
+        <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName>, véritable
+        «&#160;somme de toutes les recherches <date from="1500" to="1599" type="_temp">d’un siècle friand de ce sujet</date>
+          <note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>
+              <hi rend="small-caps">M.M.&#160;Fontaine, «&#160;Antiquaires et rites
+              funéraires&#160;», p.&#160;342.</hi>
+            </p>
+          </note>&#160;», constitue un tournant important. Rédigé en français, il
+        met, grâce aux lectures étendues dans la littérature antiquaire qui
+        l’alimentent, à disposition d’un public élargi un savoir produit dans
+        des cercles érudits. Mais il ne se contente pas, comme ses
+        prédécesseurs, de compiler les informations fournies par les textes
+        des anciens et les recherches des humanistes et des antiquaires de son
+        temps. Ses descriptions sont aussi le fruit d’une diversification des
+        sources d’information&#160;: ici, inscriptions et monnaies, ainsi qu’un</p>
+        <quote rend="quotation" xml:id="d1e1257">nombre infini de temples et
+        oratoires renversés, les pierres brisees, les marbres desfigurés, et
+        les images, tant de bronze, que d’autre matiere, qui se treuvent
+        journellement en fouillant es lieux [des] ancienne[s]
+        habitation[s]</quote>
+        <p xml:id="d1e704">des Romains, sont explicitement convoqués en tant
+        que «&#160;preuves&#160;», mobilisés et restitués par l’image, dans un récit qui
+        puise à toutes les ressources de l’<hi rend="italic">
+            <foreign xml:lang="grc">enargeia</foreign>
+          </hi> pour donner à ses lecteurs une représentation aussi vivante
+        que possible des pratiques funéraires qui sont décrites<note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>Guichard, <hi rend="italic">Funérailles et diverses manieres
+            d’ensevelir</hi>, p.&#160;4-5.</p>
+          </note>. De plus, si les sociétés de l’<date type="_temp">Antiquité</date> constituent bien dans ce traité comme
+        dans les précédents le centre de gravité, les récits de voyage,
+        cosmographies et témoins des conquêtes américaines du <date from="1500" to="1599" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> sont aussi largement sollicités et
+        permettent d’étendre considérablement l’horizon de la comparaison.
+        Chez <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName>, comme l’avaient
+        observé non seulement <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName>, mais aussi
+        après lui l’historienne des premières formes d’anthropologie,
+        <persName ref="111974739" type="idref" xml:base="https://www.idref.fr/">Margaret T.&#160;Hodgen</persName>
+          <note n="20" place="foot" type="standard" xml:id="ftn20">
+            <p>
+              <hi rend="small-caps">M.T.&#160;Hodgen</hi>, <hi rend="italic">Early
+            Anthropology in the Sixteenth and Seventeenth Centuries</hi>,
+            Philadelphia, 1964, p.&#160;174-175.</p>
+          </note>, les usages funéraires des anciens, ainsi que ceux des
+        chrétiens sont pris dans un réseau d’exemples qui fournit la matière à
+        une réflexion de portée universelle. <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName> a
+        bien l’ambition de réunir un «&#160;corps entier&#160;» de connaissances en
+        considérant que, malgré leur variété, les pratiques funéraires des
+        sociétés «&#160;tant civilisées que barbares&#160;» présentent un caractère
+        suffisamment «&#160;conforme et semblable&#160;» pour donner cohérence à son
+        projet<note n="21" place="foot" type="standard" xml:id="ftn21">
+            <p>Guichard, <hi rend="italic">Funérailles et diverses manieres
+            d’ensevelir</hi>, p.&#160;6.</p>
+          </note>. Si cette matière ne le conduit pas à une théorie explicite
+        et générale du rite funéraire, elle lui permet néanmoins d’ébaucher
+        une méthode de comparaison, fondée sur le rapprochement des cérémonies
+        qui ont «&#160;quelque rapport et conformité ensemble&#160;», de manière à les
+        éclairer les unes par les autres<note n="22" place="foot" type="standard" xml:id="ftn22">
+            <p>
+              <hi rend="italic">Ibid., </hi>p.&#160;211, 354, 467.</p>
+          </note>, et d’échafauder des hypothèses diffusionnistes pour
+        expliquer les ressemblances entre certaines d'entre elles, notamment
+        égyptiennes et juives ou romaines et chrétiennes<note n="23" place="foot" type="standard" xml:id="ftn23">
+            <p>
+              <hi rend="italic">Ibid., </hi>p.&#160;501, 522.</p>
+          </note>. À cet égard, il revendique explicitement une différence
+        avec «&#160;ces antiquaires&#160;» qui ne s’intéressent qu’aux civilisations de
+        l’<date type="_temp">Antiquité</date>. Son approche a ainsi pour effet
+        de décentrer les usages chrétiens. Ils ne représentent sous sa plume
+        que l’un des termes de la comparaison. Ils apparaissent de plus comme
+        les produits d’une longue histoire de transmission des pratiques, au
+        lieu d’être reconnus comme institués par une autorité – divine ou
+        ecclésiastique.</p>
+        <p xml:id="d1e764">Après <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName>, on assiste à la
+        multiplication des traités antiquaires dédiés spécifiquement à la
+        question des rites funéraires. Si le <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> est la grande époque d’essor des
+        savoirs antiquaires, la connaissance des mœurs et des coutumes
+        relatives aux funérailles suit le mouvement. Des traités appartenant à
+        ce genre, dont le succès ne se dément pas, paraissent dans plusieurs
+        pays européens et connaissent souvent des rééditions<note n="24" place="foot" type="standard" xml:id="ftn24">
+            <p>J.&#160;van&#160;Meurs, <hi rend="italic">De funere liber
+            singularis</hi>, La Haye, 1604 (rééd.&#160;: 1701)&#160;; J.&#160;Kirchmann, <hi rend="italic">De funeribus Romanorum libri quatuor</hi>, Hambourg,
+            1605 (rééd.&#160;: 1625, 1637, 1661, 1672)&#160;; <hi rend="small-caps">J.&#160;Guterius, <hi rend="italic">De iure manium,
+            seu de ritu, more, et legibus prisci funeris</hi>, Paris, 1615
+            (rééd.&#160;: 1671)&#160;; P.&#160;Morestel, <hi rend="italic">Pompa feralis,
+            sive justa funebria</hi>, Paris, 1621&#160;; J.&#160;Weever, <hi rend="italic">Ancient funerall monuments within the vnited
+            monarchie of Great Britaine, Ireland, and the islands</hi>,
+            Londres, 1631 (rééd.&#160;en 1767)&#160;; F.&#160;Perucci, <hi rend="italic">Pompe funebri di tutte le nationi del mondeo</hi>,
+            Verone, 1639 (rééd.&#160;: 1646)&#160;; J.A.&#160;Quenstedt,<hi rend="italic">
+            Sepultura veterum, Sive, Antiqui ritus sepulchrales Romanorum,
+            Græcorum, Judæorum &amp; Christianorum</hi>, Wittenberg, 1648
+            (rééd.&#160;: 1660, 1699)&#160;; T.&#160;Browne, <hi rend="italic">Hydriotaphia,
+            Urne-Buriall, or, A Discourse of the Sepuchrall Urnes lately found
+            in Norfolk…</hi>, Londres, 1658 (rééd.&#160;: 1669, 1686, 1736)&#160;;
+            F.&#160;Pomey&#160;S.J., <hi rend="italic">Libitina seu de funeribus,
+            eptimoes erutiditionis volumen alterum, </hi>Lyon, 1659&#160;;
+            J.&#160;Nicolai, <hi rend="italic">De Sepulchris Hebraeorum, in quibus
+            variorum populorum mores proponuntur</hi>, Leiden, 1706.</hi>
+            </p>
+          </note>. L’accumulation des connaissances se traduit notamment par
+        un accroissement sensible des volumes. <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName>
+        marquait déjà une nette différence avec ses 500&#160;pages par rapport aux
+        ouvrages antérieurs qui n’excédaient jamais la centaine de pages. Au
+        <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> au
+        contraire, tous les traités dépassent les 100&#160;pages et plusieurs
+        d’entre eux comprennent entre 500&#160;et 900&#160;pages. Le matériel sur lequel
+        ils se fondent reste cependant avant tout littéraire, même si
+        quelques-uns le complètent en recourant à des inscriptions
+        épigraphiques. L’attention des antiquaires demeure par ailleurs
+        principalement dirigée vers les peuples anciens, Grecs et Romains
+        concentrant l’essentiel des travaux&#160;; autour de ce cœur, d’autres
+        peuples de l’<date type="_temp">antiquité</date> les intéressent
+        aussi, et les chrétiens des premiers temps sont souvent intégrés au
+        tableau&#160;; mais ils comparent rarement, comme <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName>,
+        avec les sociétés contemporaines. Suivant là encore l’évolution
+        générale des savoirs antiquaires, certains traités se spécialisent, en
+        particulier en <placeName ref="6269131" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName>, dans les
+        monuments et les vases funéraires qu’ils trouvent sur leur propre
+        sol<note n="25" place="foot" type="standard" xml:id="ftn25">
+            <p>J.&#160;Weever,<hi rend="italic"> Ancient funerall monuments</hi>,
+            1631 et T.&#160;Browne, <hi rend="italic">Hydriotaphia</hi>, 1658&#160;;
+            voir à ce sujet&#160;: <hi rend="small-caps">G.&#160;Parry</hi>, <hi rend="italic">The trophies of time&#160;: English antiquarians of the
+            seventeenth century</hi>, Oxford, 2007, p.&#160;190-216.</p>
+          </note>.</p>
+        <p xml:id="d1e841">Au même moment pourtant, la connaissance des usages
+        funéraires des peuples nouvellement découverts par les Européens
+        faisait des progrès. Si l’on ne repère pas à ma connaissance de
+        traités spécifiquement consacrés à ces usages dans tel ou tel peuple,
+        une rubrique les concernant figure presque toujours dans les
+        cosmographies, les récits de voyages et le riche ensemble de textes
+        décrivant les «&#160;mœurs et coutumes&#160;» des peuples du monde<note n="26" place="foot" type="standard" xml:id="ftn26">
+            <p>Parmi des références nombreuses, voir par exemple&#160;: P.&#160;Belon,
+            <hi rend="italic">Les observations de plusieurs singularitez et
+            choses memorables trouvées en Grece, Asie, Judées, egypte, Arabie,
+            et autres pays estranges…,</hi> Paris, 1555, p.&#160;174&#160;; A.&#160;Thevet,
+            <hi rend="italic">Les singularités de la France antarctique</hi>
+            (1557), F.&#160;Lestringant&#160;(éd.), Paris, Maspero, 1983, p.&#160;95-98&#160;;
+            J.&#160;de&#160;Léry, <hi rend="italic">Histoire d’un voyage en terre de
+            Brésil</hi> (1578), F.&#160;Lestringant&#160;(éd.), Paris, 1994,
+            p.&#160;468-478&#160;; J.&#160;de&#160;Acosta, <hi rend="italic">Histoire naturelle et
+            morale des Indes occidentales</hi> (1598), version française
+            établie par J.&#160;Rémy-Zéphir, Paris, 1979, p.&#160;245-246&#160;; S.&#160;de
+            Champlain, <hi rend="italic">Des sauvages, ou Voyage de Samuel
+            Champlain, de Brouage, fait en la France nouvelle l’an mil six
+            cens trois…</hi>, Paris, 1603, p.&#160;6&#160;; J.&#160;Thévenot, <hi rend="italic">Voyage du Levant</hi> (1665), intro.&#160;de
+            S.&#160;Yerasimos, Paris, 1980, p.&#160;126-128&#160;; P.&#160;Kolbe, <hi rend="italic">Description du Cap de Bonne-Esperance, où l’on
+            trouve tout ce qui concerne l’histoire naturelle du pays, la
+            religion, les mœurs et les usages des Hottentots…</hi>, Amsterdam,
+            1742, p.&#160;413-428.</p>
+          </note>. Dans toute cette littérature, généralement fascinée par la
+        question des cérémonies, on rencontre très régulièrement des
+        chapitres, souvent proches les uns des autres, relatifs aux rites de
+        passage, avec une présence particulièrement forte des rituels marquant
+        la naissance, le mariage et le deuil. Dans les titres-programmes de
+        certains de ces ouvrages, la mention de sections consacrées à ces
+        usages fait partie des éléments attrayants qui doivent retenir
+        l’attention de l’éventuel acheteur. L’intitulé des <hi rend="italic">Grands voyages du pays des Hurons</hi> de <persName ref="077159888" type="idref" xml:base="https://www.idref.fr/">Gabriel
+        Sagard</persName> mentionne par exemple que l’ouvrage traite</p>
+        <quote rend="quotation" xml:id="d1e1522">de tout ce qui est du pays,
+        des mœurs et du naturel des Sauvages, de leur gouvernement et façons
+        de faire, […] comme ils se marient et eslevent leurs enfants&#160;; […] de
+        leur deüil, pleurs et lamentations, et comme ils ensevelissent et
+        enterrent leurs morts<note n="27" place="foot" type="standard" xml:id="ftn27">
+            <p>G.&#160;Sagard, <hi rend="italic">Le Grand voyage du Pays des
+            Hurons</hi>, Paris, 1632.</p>
+          </note>.</quote>
+        <p xml:id="d1e886">On retrouve ici cette fascination qui anime
+        également les traités des antiquaires devant le paradoxe de
+        l’universalité et de la diversité des pratiques funéraires.</p>
+        <p xml:id="d1e888">Il est assez frappant de noter que dans le dernier
+        quart du <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, la
+        masse d’informations provenant des sources antiquaires et de la
+        littérature de voyage est devenue à la fois si importante et si
+        dispersée qu’elle suscite des projets de synthèses. C’est en effet à
+        cette tâche que s’attelle le prédicateur oratorien <persName ref="25074404X" type="idref" xml:base="https://www.idref.fr/">Pierre
+        Muret</persName> (<date from="1630" to="1690" type="_temp">vers&#160;1630-vers&#160;1690</date>), par ailleurs assez obscur,
+        qui décrit en <date type="_temp" when="1675">1675</date>, sur
+        300&#160;pages, en se fondant aussi bien sur les travaux de certains
+        antiquaires<note n="28" place="foot" type="standard" xml:id="ftn28">
+            <p>Notamment Guichard, Casaubon, Kirchmann, Gruther.</p>
+          </note> que sur des récits de voyages<note n="29" place="foot" type="standard" xml:id="ftn29">
+            <p>Notamment Pierre Belon, Las&#160;Casas, Jean de&#160;Léry.</p>
+          </note>, les <hi rend="italic">Cérémonies funèbres de toutes les
+        nations</hi>
+          <note n="30" place="foot" type="standard" xml:id="ftn30">
+            <p>P.&#160;Muret, <hi rend="italic">Cérémonies funèbres de toutes les
+            nations</hi>, Paris, 1675.</p>
+          </note>. Bien que l’orientation soit ici apologétique – il s’agit de
+        démontrer, par l’universalité des rites funéraires, celle de la
+        croyance en l’existence d’un dieu et en l’immortalité de l’âme – la
+        perspective géographique large qui est adoptée, incluant des
+        informations sur la <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName> et le
+        <placeName ref="1861060" type="geonames" xml:base="https://www.geonames.org/">Japon</placeName> absentes chez
+        <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Guichard</persName>, dissout les
+        pratiques chrétiennes dans un ensemble qui les transcende et les
+        banalise. L’histoire éditoriale de l’ouvrage confirme par ailleurs
+        l’intérêt que continue à éveiller cette question&#160;: l’ouvrage connaît
+        en effet au moins quatre éditions françaises<note n="31" place="foot" type="standard" xml:id="ftn31">
+            <p>Outre celle de 1675&#160;: Paris, 1677, 1679&#160;; Marseille, 1690.
+            P.&#160;Muret est également l’auteur d’une <hi rend="italic">Dissertation sur les festins des anciens Grecs et
+            Romains et sur les cérémonies qui s’y pratiquoient</hi> (La&#160;Haye,
+            1675), d’un <hi rend="italic">Traité des festins</hi> (Paris,
+            1682) et d’une <hi rend="italic">Oraison funebre de Madame la
+            Dauphine</hi> (Marseille, 1690)&#160;; voir à son sujet la brève notice
+            publiée dans&#160;: <hi rend="italic">Lettres écrites de Madrid en 1666
+            et 1667 par Muret, attaché à l’ambassade de Georges d’Aubusson,
+            archevêque d’Embrun</hi>, Paris, 1879.</p>
+          </note> ainsi qu’une traduction anglaise en <date type="_temp" when="1683">1683</date>, rééditée en <date type="_temp" when="1695">1695</date>
+          <note n="32" place="foot" type="standard" xml:id="ftn32">
+            <p>
+              <hi rend="italic"> Rites of funeral ancient and modern in use
+            through the known world</hi>, London, 1683 et 1695&#160;; voir sur
+            cette traduction et ses particularités&#160;: <hi rend="small-caps">D.E.&#160;Stannard</hi>, <hi rend="italic">The
+            Puritan Way of Death&#160;: A Study in Religion, Culture, and Social
+            Change</hi>, Oxford, 1977, p.&#160;21.</p>
+          </note>, et une traduction italienne<note n="33" place="foot" type="standard" xml:id="ftn33">
+            <p>
+              <hi rend="italic">Cerimonie funebri di tutte le nazioni del
+            mondo</hi>, Venezia, 1722.</p>
+          </note>. Alors que la tradition des grandes sommes antiquaires du
+        <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> sur la
+        question semble s’épuiser au <date from="1700" to="1799" type="_temp">siècle suivant</date> avec le retour à de petites
+        dissertations<note n="34" place="foot" type="standard" xml:id="ftn34">
+            <p>G.C.&#160;Palz, <hi rend="italic">De religione sepulcrorum</hi>,
+            Leipzig, 1725, 132&#160;p.&#160;; <hi rend="small-caps">C.&#160;Possieth, <hi rend="italic">Dissertationis academicae particulam secundam de
+            sepultura hebraeorum</hi>, Upsala, 1731, 16&#160;p.&#160;; F.E.&#160;Guasco, <hi rend="italic">I riti funebri di Roma pagana</hi>, Lucques, 1758,
+            179&#160;p.&#160;; G.F.&#160;Weber, <hi rend="italic">Observationes sacræ circa
+            funera populorum orientis</hi>, Strasbourg, 1767, 43&#160;p.&#160;;
+            F.&#160;Melito de&#160;Memije, <hi rend="italic">De re funebri veterum
+            Christianorum syntagma</hi>, Madrid, 1789, 140&#160;p.</hi>
+            </p>
+          </note>, le type de traité représenté par celui de <persName ref="25074404X" type="idref" xml:base="https://www.idref.fr/">Muret</persName>, à la fois
+        synthétique et affichant cependant l’ambition de rendre compte des
+        cérémonies funéraires de tous les peuples du monde, trouve d’autres
+        expressions au <date from="1700" to="1799" type="_temp">siècle des
+        Lumières</date>&#8201;&#160;: le père carmélite et professeur à l’université
+        d’<placeName ref="6359231" type="geonames" xml:base="https://www.geonames.org/">Alcalá</placeName>, <persName type="_temp">Miguel de Azero y Aldovera</persName> (<date from="1730" to="1790" type="_temp">1730-1790</date>), publie ainsi un <hi rend="italic">Tratado de los funerales y de las sepulturas</hi> qui
+        prétend également traiter de ces cérémonies «&#160;<foreign xml:lang="spa">en todas la Naciones</foreign>
+          <note n="35" place="foot" type="standard" xml:id="ftn35">
+            <p>M.&#160;de Azero y Aldovera, <hi rend="italic">Tratado de los
+            funerales y de las sepulturas</hi>, Madrid, 1736.</p>
+          </note>&#160;».</p>
+        <p xml:id="d1e1006">On pourra noter au passage que ce que l’on peut
+        ainsi observer en ce qui concerne les rites funéraires se vérifie de
+        manière assez analogue pour les rites nuptiaux. Dans ce cas aussi, des
+        textes commencent à paraître au <date from="1500" to="1599" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> avec le projet de décrire une vaste
+        étendue de pratiques matrimoniales, principalement issues dans un
+        premier temps des cultures de l’<date type="_temp">Antiquité</date>.
+        La particularité de cette tradition de textes réside dans le fait
+        qu’elle est moins directement liée aux travaux des antiquaires et
+        dépend davantage des préoccupations des juristes et d’une réflexion
+        sur le droit matrimonial. Particulièrement représentatif est à cet
+        égard le traité <hi rend="italic">De ritu nuptiarum </hi>(<date type="_temp" when="1594">1594</date>) du président du Parlement de
+        <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, <persName ref="027905241" type="idref" xml:base="https://www.idref.fr/">Barnabé
+        Brisson</persName> (<date from="1530" to="1591" type="_temp">1530-1591</date>). Plusieurs fois réédité (<date type="_temp" when="1641">1641</date>, <date type="_temp" when="1662">1662</date>, <date type="_temp" when="1698">1698</date>),
+        il est en général accompagné d’études de <persName ref="03245211X" type="idref" xml:base="https://www.idref.fr/">François</persName> et
+        d’<persName ref="067056040" type="idref" xml:base="https://www.idref.fr/">Antoine Hotman</persName> qui
+        concernent aussi bien des questions de cérémonies que des points
+        juridiques. On constate cependant que ce corpus évolue de manière
+        semblable à celui des traités sur les rites funéraires. À une première
+        période durant laquelle les traités sont centrés sur l’<date type="_temp">antiquité</date> et de volume assez réduit, succède à
+        partir de la <date from="1650" to="1699" type="_temp">deuxième moitié
+        du <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>
+        un temps de synthèse, au cours duquel les auteurs, compilant les
+        informations relatives aux sociétés anciennes et à celles avec
+        lesquelles l’Occident est entré en contact depuis la <date type="_temp">Renaissance</date>, prétendent présenter les usages
+        funéraires de tous les peuples du monde. <date type="_temp" when="1685">Cinq ans seulement après la publication des <hi rend="italic">Cérémonies funèbres de toutes les nations</hi>
+          </date> de
+        <persName ref="25074404X" type="idref" xml:base="https://www.idref.fr/">Pierre Muret</persName>, <persName ref="03115414X" type="idref" xml:base="https://www.idref.fr/">Louis
+        de&#160;Gaya</persName>, personnage tout aussi obscur que ce dernier, sieur
+        de <placeName ref="6426889" type="geonames" xml:base="https://www.geonames.org/">Tréville</placeName> et capitaine
+        au régiment de <placeName ref="3027256" type="geonames" xml:base="https://www.geonames.org/">Champagne</placeName>, fait
+        paraître un ouvrage de 300&#160;pages sous le titre de <hi rend="italic">Cérémonies nuptiales de toutes les nations</hi>
+          <note n="36" place="foot" type="standard" xml:id="ftn36">
+            <p>L.&#160;de&#160;Gaya, <hi rend="italic">Ceremonies nuptiales de toutes
+            les nations</hi>, Paris, 1680.</p>
+          </note>, qui rencontre un succès comparable à celui du livre de
+        <persName ref="25074404X" type="idref" xml:base="https://www.idref.fr/">Muret</persName>&#160;: plusieurs éditions
+        françaises en sont données, parfois adaptées (<date type="_temp" when="1681">1681</date> [<placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">La&#160;Haye</placeName>], <date type="_temp" when="1694">1694</date>, <date type="_temp" when="1750">1750</date>), ainsi que des traductions italiennes (<date type="_temp" when="1685">1685</date>) et anglaises (<date type="_temp" when="1685">1685</date>, <date type="_temp" when="1687">1687</date>,
+        <date type="_temp" when="1697">1697</date>, <date type="_temp" when="1698">1698</date>, <date type="_temp" when="1704">1704</date>,
+        <date type="_temp" when="1744">1744</date>, <date type="_temp" when="1748">1748</date>, <date type="_temp" when="1768">1768</date>).
+        À la suite de <persName ref="03115414X" type="idref" xml:base="https://www.idref.fr/">Louis de&#160;Gaya</persName>, et en
+        puisant parfois dans les informations qu’il met à disposition,
+        d’autres ouvrages prétendant à la même dimension universelle,
+        paraissent en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> et en
+        <placeName ref="6269131" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName> au <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>
+          <note n="37" place="foot" type="standard" xml:id="ftn37">
+            <p>F.J.&#160;Rottmann, <hi rend="italic">Rituale nurturientium&#160;; oder,
+            Beschreibung der Hochzeit Gebräuche, welche unten den bekantesten
+            Völkern, Christen, Juden und Heyden in allen Theilen der
+            Welt…</hi>, Bremen, 1715&#160;; T.&#160;Salmon, <hi rend="italic">A critical
+            essay concerning marriage… to which is added, an historical
+            account of the marriage rites and ceremonies of the Greeks and
+            Romans, and our Saxon ancestors, and of most nations of the world
+            at this day</hi>, Londres, 1724&#160;; <hi rend="italic">Hymen&#160;: an
+            Accurate Description of the Ceremonies Used in Marriage, by Every
+            Nation in the Known World</hi>, Londres, 1760 (rééd&#160;: 1782, 1796,
+            1799).</p>
+          </note> et nourrissent alors la réflexion sur la nature humaine, à
+        partir du constat de l’universalité de la ritualisation du lien
+        matrimonial et de la diversité de ses formes<note n="38" place="foot" type="standard" xml:id="ftn38">
+            <p>
+              <hi rend="small-caps">L.&#160;O’Connell</hi>, «&#160;“Matrimonial
+            ceremonies displayed”&#160;: popular ethnography and enlightened
+            imperialism&#160;», <hi rend="italic"> Eighteenth-Century Life</hi>,
+            26/3 (2002), p.&#160;98-116.</p>
+          </note>.</p>
+        <p xml:id="d1e1079">On est donc bien en présence, dès le <date from="1500" to="1599" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>&#8201;&#160;siècle</date>, d’un travail culturel sur les rites
+        de passage, concentré principalement sur les rites de mariage et de
+        funérailles. La littérature qui témoigne de ce travail se nourrit d’un
+        large matériel qui inclut en particulier les traités antiquaires et
+        les récits de voyages et qui finit par imposer l’idée que la
+        description des cultures de l’altérité passe entre autres, mais
+        nécessairement, par une présentation de leur manière de ritualiser les
+        grandes étapes de la vie. La vaste entreprise de description des <hi rend="italic">Cérémonies et coutumes religieuses de tous les peuples
+        du monde </hi>à laquelle se livrent <persName ref="03098548X" type="idref" xml:base="https://www.idref.fr/">Jean-Frédéric
+        Bernard</persName> et <persName ref="027071723" type="idref" xml:base="https://www.idref.fr/">Bernard Picart</persName> illustre
+        ainsi en détail par le texte et les gravures les usages qui
+        interviennent dans les rites de passage de chacune des religions qui
+        sont passées en revue<note n="39" place="foot" type="standard" xml:id="ftn39">
+            <p>
+              <hi rend="italic">Cérémonies et coutumes religieuses de tous
+            les peuples du monde, représentées par des figures dessinées par
+            B.&#160;Picart</hi>, 7&#160;vol., Amsterdam, 1723-1737&#160;; voir à ce sujet
+            dernièrement&#160;: <hi rend="small-caps">L.&#160;Hunt <hi rend="italic">et
+            al</hi>.&#160;(éd.),<hi rend="italic"> Bernard Picart and the first
+            global vision of religion</hi>, Los Angeles, 2010 et <hi rend="italic">The book that changed Europe&#160;: Picart and Bernard’s
+            Religious ceremonies of the world</hi>, Cambridge, 2010. </hi>
+            </p>
+          </note>.</p>
+        <p xml:id="d1e1114">L’intérêt, voire la passion, qui anime désormais
+        les Européens pour ces pratiques rituelles s’explique par plusieurs
+        raisons. Si la curiosité pour les «&#160;singularités&#160;» culturelles y entre
+        pour beaucoup à l’origine, des motivations plus concrètes, plus
+        politiques, s’y mêlent aussi. On a pu observer que le premier genre à
+        se développer historiquement est celui des traités consacrés aux
+        usages funéraires des civilisations de l’<date type="_temp">antiquité</date>. Or, à considérer le contexte dans
+        lequel ces traités sont rédigés et les auteurs auxquels ils sont dus,
+        on est amené à faire le constat que les érudits qui consacrent tant de
+        temps à accumuler des connaissances sur les funérailles des anciens
+        sont aussi intimement mêlés à la préparation des cérémonies organisées
+        pour célébrer fastueusement les obsèques des souverains de leur
+        temps.</p>
+        <p xml:id="d1e1116">Il en va ainsi du premier des antiquaires que nous
+        avons repérés. <persName ref="033953279" type="idref" xml:base="https://www.idref.fr/">Jean Lemaire de Belges</persName> est
+        en effet au service de la reine de <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, <persName ref="027339009" type="idref" xml:base="https://www.idref.fr/">Anne de
+        Bretagne</persName>, lorsque celle-ci décède en <date type="_temp" when="1514">1514</date>. Et c’est dans ces circonstances qu’il prépare
+        une version corrigée de ses <hi rend="italic">Anciennes pompes
+        funeralles </hi>qu’il destine à <persName ref="028139054" type="idref" xml:base="https://www.idref.fr/">Claude de France</persName>, la fille
+        de la reine disparue<note n="40" place="foot" type="standard" xml:id="ftn40">
+            <p>Lemaire de Belges,<hi rend="italic"> Anciennes pompes
+            funeralles</hi>, p.&#160;LVI-LVII.</p>
+          </note>. Il est aussi directement impliqué dans l’intérêt
+        grandissant de la cour de <persName ref="028254287" type="idref" xml:base="https://www.idref.fr/">François&#160;I<hi rend="sup">er</hi>
+          </persName> pour les antiquités en général et les
+        funérailles des anciens en particulier<note n="41" place="foot" type="standard" xml:id="ftn41">
+            <p>
+              <hi rend="small-caps">M.M.&#160;Fontaine, «&#160;Antiquaires et rites
+              funéraires&#160;», p.&#160;334-338.</hi>
+            </p>
+          </note>. Comme a pu le démontrer <persName ref="029540615" type="idref" xml:base="https://www.idref.fr/">Elizabeth
+        Brown</persName>, l’introduction dans les funérailles monarchiques
+        françaises du repas servi au roi défunt «&#160;comme s’il fust vif&#160;» –
+        pratique qui demeura en vigueur jusqu’au début du <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> et qui a tant fasciné l’historien
+        américain des cérémonies royales françaises, <persName ref="032598750" type="idref" xml:base="https://www.idref.fr/">Ralph Giesey</persName>,
+        découle des connaissances des usages antiques et des travaux sur le
+        sujet menés par <persName ref="033953279" type="idref" xml:base="https://www.idref.fr/">Lemaire de Belges</persName> et
+        d’autres érudits de son milieu<note n="42" place="foot" type="standard" xml:id="ftn42">
+            <p>
+              <hi rend="small-caps">E.A.R.&#160;Brown, «&#160;Refreshment of the dead&#160;:
+              <hi rend="italic">post mortem </hi>meals, Anne de Bretagne, Jean
+              Lemaire de Belges, and the influence of Antiquity on Royal
+              Ceremonial&#160;», in B<hi rend="small-caps">alsamo</hi>&#160;(éd.), <hi rend="italic">Funérailles à la Renaissance</hi>,
+              p.&#160;113-130.</hi>
+            </p>
+          </note>. Les funérailles d’<persName ref="027339009" type="idref" xml:base="https://www.idref.fr/">Anne de Bretagne</persName>, à
+        l’occasion desquelles se noue plus étroitement la collaboration entre
+        érudits et hérauts d’armes chargés de l’organisation des cérémonies,
+        coïncident avec le début d’une époque au cours de laquelle cette
+        collaboration s’approfondit et où le modèle antique – romain en
+        particulier – imprègne fortement les usages cérémoniaux de la
+        monarchie et de la haute noblesse françaises<note n="43" place="foot" type="standard" xml:id="ftn43">
+            <p>
+              <hi rend="small-caps">M.&#160;Gaude-Ferragu, <hi rend="italic">D’or
+              et de cendres. La mort et les funérailles des princes dans le
+              royaume de France au bas Moyen&#160;Âge</hi>, Villeneuve d’Ascq,
+              2005, p.&#160;353.</hi>
+            </p>
+          </note>. La référence à l’<date type="_temp">antiquité</date> est
+        alors mise au service d’une glorification du prince qui se modèle sur
+        le triomphe romain. Les antiquaires participent durant cette période
+        non seulement à l’élaboration des programmes et des décors des
+        funérailles, mais également aux rituels des entrées<note n="44" place="foot" type="standard" xml:id="ftn44">
+            <p>Pour une mise au point récente, dans une riche bibliographie&#160;:
+            <hi rend="small-caps">Cooper, <hi rend="italic">Roman
+            Antiquities</hi>.</hi>
+            </p>
+          </note>.</p>
+        <p xml:id="d1e1181">Il est également révélateur que le développement
+        d’une littérature antiquaire consacrée aux usages funéraires antiques
+        soit exactement contemporain de l’essor d’un autre genre littéraire,
+        celui des livrets, parfois illustrés de gravures, publiés à l’occasion
+        des funérailles de souverains. Destinés à informer un public élargi de
+        l’événement et à conserver la mémoire des pompes déployées dans ces
+        circonstances, ils servent non seulement à la glorification du défunt,
+        mais aussi à l’instruction de ceux qui auront à préparer les
+        cérémonies des funérailles suivantes. Si les premiers récits de
+        funérailles princières remontent à la fin du <date from="1300" to="1399" type="_temp">
+            <hi rend="small-caps">xiv</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>
+          <note n="45" place="foot" type="standard" xml:id="ftn45">
+            <p>
+              <hi rend="small-caps">M.&#160;Gaude-Ferragu, <hi rend="italic">D’or
+              et de cendres, </hi>p.&#160;27-28.</hi>
+            </p>
+          </note>, c’est avec celles d’<persName ref="027339009" type="idref" xml:base="https://www.idref.fr/">Anne de Bretagne</persName> que ces
+        récits se constituent en genre littéraire autonome<note n="46" place="foot" type="standard" xml:id="ftn46">
+            <p>
+              <hi rend="small-caps">P.-G.&#160;Girault, <hi rend="italic">Les
+              funérailles d’Anne de Bretagne, reine de France</hi>, catalogue
+              d’exposition, Montreuil, 2014.</hi>
+            </p>
+          </note>. Celui-ci connaît ensuite une évolution similaire à celle
+        des autres corpus décrits précédemment, avec une extension importante
+        au <date from="1500" to="1599" type="_temp">
+            <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> – on a
+        pu en repérer 86 <date from="1507" to="1610" type="_temp">entre 1507
+        et 1610</date>
+          <note n="47" place="foot" type="standard" xml:id="ftn47">
+            <p>
+              <hi rend="small-caps">G.&#160;Fréchet, «&#160;Forme et fonction des livres
+              de pompes funèbres&#160;», in Balsamo&#160;(éd.), <hi rend="italic">Funérailles à la Renaissance</hi>, p.&#160;99-223. Pour
+              une analyse approfondie de l’un de ses livrets et des
+              circonstances de sa composition, voir P.&#160;Martin&#160;(dir.), <hi rend="italic">La pompe funèbre de Charles&#160;III. 1608</hi>, Metz,
+              2008, et plus généralement, dans l’historiographie récente&#160;:
+              J.A.&#160;Chrościcki<hi rend="italic"> et al.&#160;</hi>(dir.)<hi rend="italic">, </hi>
+                <hi rend="italic">Les funérailles
+              princières en Europe, </hi>
+                <hi rend="italic">xvi</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">-</hi>
+                <hi rend="italic">xviii</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;siècle</hi>, vol.&#160;1&#160;: <hi rend="italic">Le grand
+              théâtre de la mort</hi>, Versailles, [Paris], 2012&#160;; vol.&#160;2&#160;:
+              <hi rend="italic">Apothéoses monumentales</hi>, Rennes,
+              Versailles, 2013.</hi>
+            </p>
+          </note> – suivie d’une phase de synthèse au <date from="1600" to="1699" type="_temp">siècle suivant</date>. Des compilations de
+        livrets commencent alors à voir le jour<note n="48" place="foot" type="standard" xml:id="ftn48">
+            <p>A.&#160;de&#160;Meerbeek, <hi rend="italic">Theatre funebre ou sont
+            representez les funerailles de plusieurs princes</hi>, Bruxelles,
+            1622.</p>
+          </note> et les officiers en charge des cérémonies publiques
+        s’emploient à centraliser les descriptions des funérailles célébrées
+        dans le passé<note n="49" place="foot" type="standard" xml:id="ftn49">
+            <p>
+              <hi rend="small-caps">B.&#160;Bastl et M.&#160;Hengerer, «&#160;Les funérailles
+              impériales des Habsbourg d’Autriche xv<hi rend="sup">e</hi>-xviii<hi rend="sup">e</hi>&#160;siècle&#160;» et
+              M.&#160;Schaich, «&#160;L’organisation des funérailles royales en
+              Angleterre aux xvii<hi rend="sup">e</hi> et xviii<hi rend="sup">e</hi>&#160;siècle&#160;», in&#160;Chrościcki<hi rend="italic"> et
+              al.&#160;</hi>(dir.), <hi rend="italic">Funérailles princières</hi>,
+              p.&#160;117-140, 91-116.</hi>
+            </p>
+          </note>. La conception des funérailles devient pour certains une
+        forme de spécialité. L’un des plus célèbres est le jésuite <persName ref="02702296X" type="idref" xml:base="https://www.idref.fr/">Claude-François
+        Ménestrier</persName>, qui a par ailleurs accumulé une collection de
+        117&#160;livrets<note n="50" place="foot" type="standard" xml:id="ftn50">
+            <p>
+              <hi rend="small-caps">A.&#160;Péan, «&#160;Les décors des pompes funèbres
+              en France 1643-1683&#160;: naissance d’un genre&#160;», in&#160;<hi rend="italic">Actes du V</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;congrès national d’archéologie et d’histoire de
+              l’art</hi>, Bordeaux, 1999, mis en ligne le 7&#160;avril&#160;2009&#160;: <ref target="http://inha.revues.org/2467">http://inha.revues.org/2467</ref>,
+              consulté le 23.07.2014.</hi>
+            </p>
+          </note> et qui publie en <date type="_temp" when="1684">1684</date>
+        un ouvrage proposant une réflexion générale sur l’ornementation
+        funéraire, à partir des exemples tirés de plus d’un siècle de
+        pratique<note n="51" place="foot" type="standard" xml:id="ftn51">
+            <p>C.F.&#160;Menestrier, <hi rend="italic">Des decorations
+            funebres</hi>, Paris, 1683. Sur Ménéstrier&#160;: <hi rend="small-caps">G.&#160;Sabatier&#160;(dir.), <hi rend="italic">Claude-François Ménestrier&#160;: les jésuites et le
+            monde des images</hi>, Grenoble, 2009&#160;; A.&#160;Adams <hi rend="italic">et al</hi>., <hi rend="italic">A bibliography of
+            Claude-François Menestrier&#8201;&#160;: printed editions, 1655-1765</hi>,
+            Genève, 2012.</hi>
+            </p>
+          </note>. Cet effort de collecte et de synthèse des connaissances et
+        des savoir-faire sur les usages funéraires princiers s’inscrit
+        lui-même dans une époque de formation d’une science générale des rites
+        politiques qui passe essentiellement par la compilation des
+        précédents<note n="52" place="foot" type="standard" xml:id="ftn52">
+            <p>Voir par exemple&#160;: A.&#160;Du Chesne, <hi rend="italic">Les
+            antiquitez et recherches de la grandeur et majesté des roys de
+            France</hi>, Paris, 1609&#160;; T.&#160;Godefroy, <hi rend="italic">Le
+            cérémonial de France</hi>, Paris, 1619.</p>
+          </note> et de structuration des instances officielles qui en ont la
+        charge<note n="53" place="foot" type="standard" xml:id="ftn53">
+            <p>
+              <hi rend="small-caps">F.&#160;Leferme-Falguières, <hi rend="italic">Les courtisans. Une société de spectacle sous
+              l’Ancien Régime</hi>, Paris, 2007&#160;; P.&#160;Jugie <hi rend="italic">et al.</hi>&#160;(dir.), <hi rend="italic">Les Menus
+              Plaisirs du roi (</hi>
+                <hi rend="italic">
+                  <hi rend="small-caps">xvii</hi>
+                </hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">-</hi>
+                <hi rend="italic">
+                  <hi rend="small-caps">xviii</hi>
+                </hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;siècles)</hi>, Paris, 2013&#160;; pour le
+              Saint-Empire, voir les nombreux travaux de
+              B.&#160;Stollberg-Rilinger, dont&#160;: <hi rend="italic">Des Kaisers alte
+              Kleider. Verfassungsgeschichte und Symbolsprache des Alten
+              Reiches,</hi> München, 2008.</hi>
+            </p>
+          </note>. Les rites funéraires des grands constituent dans cette
+        littérature de liturgie politique une rubrique obligée.</p>
+        <p xml:id="d1e1414">On voit ainsi se mettre en place dès la <date type="_temp">fin du Moyen&#160;Âge</date>, mais plus systématique au <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, les éléments d’une science générale
+        des rites, nourrie de savoirs antiquaires et ethnographiques ainsi que
+        de connaissances sur les cérémonies publiques&#160;; en son sein, la
+        connaissance des usages funéraires occupe une place centrale. Les
+        pratiques rituelles occidentales s’inscrivent alors à l’intérieur d’un
+        large horizon de comparaison. Appuyée sur le constat des
+        «&#160;conformités&#160;» entre les pratiques des différentes «&#160;nations<note n="54" place="foot" type="standard" xml:id="ftn54">
+            <p>Guichard, <hi rend="italic">Funérailles et diverses manieres
+            d’ensevelir</hi>, p.&#160;211, 354, 463 (qui se fonde ici sur une
+            comparaison établie par Jean de Léry), 467&#160;; <hi rend="italic">Cérémonies et coutumes religieuses de tous les
+            peuples du monde</hi>, I, p.&#160;71.</p>
+          </note>&#160;», cette littérature apporte la démonstration du caractère
+        anthropologique de ces pratiques. Pour <persName ref="033953279" type="idref" xml:base="https://www.idref.fr/">Lemaire de
+        Belges</persName>, les rituels funéraires sont ainsi communs à
+        l’ensemble du «&#160;gendre humain&#160;», les chrétiens ne se distinguant pas
+        des autres sur ce plan<note n="55" place="foot" type="standard" xml:id="ftn55">
+            <p>Lemaire de Belges,<hi rend="italic"> Anciennes pompes
+            funeralles</hi>, p.&#160;112.</p>
+          </note>. <persName ref="128700734" type="idref" xml:base="https://www.idref.fr/">Claude Guichard</persName> arrive de
+        son côté à la conclusion qu’il</p>
+        <quote rend="quotation" xml:id="d1e2491">«&#160;ne se treuvera peuple tant
+        grossier, et qui se soit tellement despouillé de toute humanité,
+        exceptés quelques barbares du tout abrutis et bestialisés que de
+        l’avoir entière rejetée<note n="56" place="foot" type="standard" xml:id="ftn56">
+            <p>Guichard, <hi rend="italic">Funérailles et diverses manieres
+            d’ensevelir</hi>, p.&#160;213.</p>
+          </note>&#160;».</quote>
+        <p xml:id="d1e1450">Cette universalité fascine certains voyageurs,
+        comme <persName ref="033797641" type="idref" xml:base="https://www.idref.fr/">Marc Lescarbot</persName> qui
+        souligne que «&#160;c’est chose digne de merveille que des nations tant
+        éloignées se rapportent avec plusieurs de monde de deçà en ces
+        cérémonies<note n="57" place="foot" type="standard" xml:id="ftn57">
+            <p>M.&#160;Lescarbot, <hi rend="italic">Voyages en Acadie (1604-1607),
+            suivis de la description des mœurs souriquoises comparées à celles
+            des autres peuples</hi>, édition critique par M.-C.&#160;Pioffet,
+            Paris, 2007, p.&#160;459.</p>
+          </note>&#160;».</p>
+        <p xml:id="d1e1460">L’ensemble de données accumulées sur le sujet ne
+        donne cependant pas lieu à l’émergence d’une théorie générale
+        concernant ces pratiques. Les auteurs qui s’y consacrent sont avant
+        tout intéressés par le spectacle de la diversité des formes rituelles
+        observables et ils s’emploient par conséquent à en dresser
+        l’inventaire. Ils notent dans le même temps – en regard du constat de
+        l’universalité des rites – la relativité culturelle des coutumes
+        funéraires. Leurs traités prennent ainsi la forme d’un répertoire
+        égrainant la variété de ces formes. L’ensemble des informations
+        collectées sur les rites funéraires fait bien apparaître une forme de
+        grille de lecture de ces rites, non explicitée mais constituée de
+        rubriques récurrentes&#160;: la plupart des descriptions s’attardent ainsi
+        sur les soins prodigués au corps du défunt, les divers lieux choisis
+        pour la sépulture et les formes de processions pour s’y rendre, les
+        étapes qui rythment sur une durée plus ou moins étendue le cycle
+        funéraire, les costumes et les autres signes qui marquent l’état de
+        deuil, les productions sonores (chants, discours, musiques,
+        percussions) qui accompagnent la séparation définitive avec le corps,
+        les distinctions qui différencient socialement les funérailles, et,
+        enfin, les pratiques de commensalité qui, dans la plupart des
+        sociétés, mettent un terme aux obsèques. Une tendance à la
+        classification des rites funéraires en deux genres – inhumation et
+        crémation – traverse également l’ensemble du corpus. L’effort de mise
+        en ordre des données selon une sorte de protocole de description
+        implicite ou de classification en deux grandes classes demeure donc
+        assez sommaire. Lorsqu’un point de vue plus général est formulé dans
+        cette littérature, il est d’ordre apologétique&#160;: l’universalité des
+        rites funéraires vient vérifier celle de la croyance en une vie après
+        la mort et démontre ainsi qu’il n’y a pas de société sans
+        religion<note n="58" place="foot" type="standard" xml:id="ftn58">
+            <p>
+              <hi rend="italic">Cérémonies funèbres de toutes les
+            nations</hi>, préface.</p>
+          </note>. On ne s’étonnera pas de rencontrer ce point de vue chez
+        <persName ref="034408061" type="idref" xml:base="https://www.idref.fr/">Lafitau</persName>, l’ensemble de son
+        œuvre visant à démontrer qu’il n’existe pas de société sans
+        religion<note n="59" place="foot" type="standard" xml:id="ftn59">
+            <p>
+              <hi rend="italic">Mœurs des sauvages américains comparées aux
+            mœurs des premiers temps</hi>, 2&#160;vol., Paris, 1724, t.&#160;I,
+            p.&#160;423-424, 444, 458.</p>
+          </note>.</p>
+        <p xml:id="d1e1478">Si les fondements d’une théorie générale des rites
+        de passage sont ainsi posés très tôt, et remontent effectivement à une
+        période correspondant aux origines de la science ethnographique dans
+        la généalogie que <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName> en a lui-même
+        donnée, il faut cependant attendre le <date from="1900" to="1999" type="_temp">début du <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> pour la voir éclore véritablement. La
+        domination coloniale de l’Occident sur le reste du monde crée alors un
+        contexte favorable à un travail de généralisation que les périodes
+        précédentes n’avaient qu’esquissé. Comme <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName> le
+        reconnaît lui-même, ce travail est clairement en gestation au moment
+        où il entreprend de rédiger <hi rend="italic">Les rites de
+        passage</hi>. Dans sa conclusion, il signale des prédécesseurs
+        immédiats dans cet effort. <persName type="_temp">S.&#160;Hartland</persName>, <persName ref="026873842" type="idref" xml:base="https://www.idref.fr/">J.-G.&#160;Frazer</persName>,
+        <persName type="_temp">S.&#160;Ciszewski</persName>, <persName ref="07601049X" type="idref" xml:base="https://www.idref.fr/">A.&#160;Dieterich</persName>, <persName ref="030259894" type="idref" xml:base="https://www.idref.fr/">E.&#160;Goblet d’Alviella</persName>,
+        <persName type="_temp">H.&#160;Webster</persName>, <persName ref="032477902" type="idref" xml:base="https://www.idref.fr/">E.&#160;Crawley</persName> ont fait comme
+        lui des rapprochements entre différentes catégories de rite. Mais il
+        leur reproche de s’être contentés d’enregistrer «&#160;des ressemblances de
+        détails&#160;». Dans ce concert de comparaison, seul <persName ref="029876273" type="idref" xml:base="https://www.idref.fr/">Robert
+        Hertz</persName> a fait selon lui, dans sa «&#160;Contribution à une étude
+        sur la représentation collective de la mort<note n="60" place="foot" type="standard" xml:id="ftn60">
+            <p>
+              <hi rend="italic">Année sociologique</hi>, 1<hi rend="sup">re</hi>&#160;série, t.&#160;X (1907), p.&#160;48-137 (repris dans <hi rend="italic">Mélanges de sociologie religieuse et folklore</hi>,
+            Paris, 1928, p.&#160;1-98).</p>
+          </note>&#160;» un pas de plus dans le sens du repérage d’une structure,
+        en discernant «&#160;ce qu’il nomme “l’état transitoire” de la période qui
+        va du mariage à la naissance du premier enfant, et qui répond à
+        “l’état transitoire” des morts en <placeName ref="1643084" type="geonames" xml:base="https://www.geonames.org/">Indonésie</placeName>
+          <note n="61" place="foot" type="standard" xml:id="ftn61">
+            <p>
+              <hi rend="small-caps">van&#160;Gennep, <hi rend="italic">Les rites de
+              passage</hi>, p.&#160;271-274.</hi>
+            </p>
+          </note>&#160;». Il revient donc bien à <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName>
+        d’avoir poussé le plus loin la tentative de penser les rites de
+        passage comme une catégorie universelle. Mais les périodes antérieures
+        ont clairement préparé le terrain à cette généralisation et les
+        travaux des antiquaires sur les rites funéraires ainsi que les récits
+        de voyage ont joué dans ce processus un rôle tout à fait central&#160;: ce
+        n’est sans doute pas un hasard que <persName ref="027176185" type="idref" xml:base="https://www.idref.fr/">van&#160;Gennep</persName>,
+        qui avait travaillé, avant la <date from="1914-07-28" to="1918-11-11" type="_temp">Première Guerre mondiale</date>, à deux volumes d’une <hi rend="italic">Étude systématique et universelle des Modes de la
+        Sépulture </hi>demeurée inédite<note n="62" place="foot" type="standard" xml:id="ftn62">
+            <p>
+              <hi rend="small-caps">van&#160;Gennep signale ce projet dans la
+              première note de son «&#160;Essai d’un classement des modes de la
+              sépulture&#160;», in <hi rend="italic">Actes du congrès international
+              d’histoire des religions tenu à Paris en octobre 1923</hi>,
+              t.&#160;1, Paris, 1925, p.&#160;360.</hi>
+            </p>
+          </note>, reconnaisse en l’auteur de la «&#160;Contribution à une étude
+        sur la représentation collective de la mort&#160;» celui qui avait accompli
+        une étape décisive dans cette voie.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

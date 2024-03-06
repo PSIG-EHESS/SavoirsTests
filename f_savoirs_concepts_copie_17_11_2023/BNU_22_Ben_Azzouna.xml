@@ -1,0 +1,1131 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_22_Ben_Azzouna.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">De l’héritage «&#160;arabe&#160;» au défi «&#160;turc&#160;»&#160;: l’Orient
+        dans l’édition alsacienne aux 15<hi rend="sup">e</hi>&#160;et 16<hi rend="sup">e</hi>&#160;siècles</title>
+        <author role="aut">
+          <forename>Nourane</forename>
+          <surname>Ben&#160;Azzouna</surname>
+          <idno type="IDREF">162081324</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/U6IS6INQ" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">De l’héritage «&#160;arabe&#160;» au défi «&#160;turc&#160;»&#160;:
+            l’Orient dans l’édition alsacienne aux 15 et 16&#160;siècles</title>
+            <author>
+              <forename>Nourane</forename>
+              <surname>Ben&#160;Azzouna</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">22</biblScope>
+              <biblScope unit="page">8-19</biblScope>
+              <date>2020</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="ara"/>
+        <language ident="lat"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-h3wwz88g">texte</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T12:25:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">De l’héritage «&#160;arabe&#160;»
+          au défi «&#160;turc&#160;»&#160;: l’Orient dans l’édition alsacienne aux 15<hi rend="sup" style="typo_Exposant">e</hi>&#160;et 16<hi rend="sup" style="typo_Exposant">e</hi>&#160;siècles</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Nourane Ben&#160;Azzouna</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Maîtresse de conférences en histoire de
+          l’art, Université de Strasbourg</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e51">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-h3wwz88g">texte</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-tsfpmp5i">arabe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+            </term>
+          </term>De
+        nombreuses recherches ont été menées sur l’héritage «&#160;arabe&#160;» de
+        l’Europe. Il s’agit de la question de la transmission de savoirs, de
+        textes, mais aussi d’objets arabes ou plus exactement
+        arabo-islamiques, c’est-à-dire composés en langue et/ou en territoire
+        arabe, mais pas nécessairement par des Arabes, ni d’ailleurs par des
+        musulmans, vers l’<date type="_temp">Europe médiévale et
+        moderne</date>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>On distingue communément Islam (avec une majuscule) et
+            islamique pour les faits de civilisation et islam (avec minuscule)
+            et musulman pour la religion. L’Islam, comme toute civilisation,
+            ne saurait être réduite à une religion. De plus, l’Islam se
+            développe très rapidement en un empire multi-ethnique,
+            multi-linguistique et multi-religieux.</p>
+          </note>. L’espace méditerranéen et surtout les zones des relations
+        les plus directes et les plus intenses, de l’<placeName ref="2510769" type="geonames" xml:base="https://www.geonames.org/">Espagne</placeName> à
+        l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, ont attiré la
+        plus grande partie des études, même si d’autres régions occidentales,
+        de l’<placeName ref="6269131" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName> à la
+        Scandinavie et à l’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>, ont aussi
+        révélé des traces et livré des vestiges matériels de tels contacts. Le
+        cas de l’<placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName> n’a cependant
+        pas encore fait l’objet d’une étude spécifique. Comme le souligne
+        <persName ref="028445082" type="idref" xml:base="https://www.idref.fr/">Jean-Marie Valentin</persName>,
+        «&#160;l’histoire de l’<placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName> au [<date from="1400" to="1499" type="_temp">XV<hi rend="sup">e</hi>
+          </date>&#160;et]
+        <date from="1500" to="1599" type="_temp">XVI<hi rend="sup">e</hi>&#160;siècle</date> constitue un champ exceptionnel de
+        recherches qui autorise le recours aux angles d’attaque et aux
+        méthodes les plus variés&#160;»<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Jean-Marie Valentin, «&#160;Avant-propos&#160;», in «&#160;L’Alsace au XVI<hi rend="sup">e</hi>&#160;siècle&#160;: hommages à Jacques Ridé&#160;» (<hi rend="italic">Études germaniques&#160;: Allemagne, Autriche, Suisse,
+            pays scandinaves&#160;; revue de la Société des études
+            germaniques</hi>, 1995/3), p.&#160;365</p>
+          </note>. La question de la réception de l’Orient arabo-islamique en
+        <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName> entre la fin
+        du <date type="_temp">Moyen-Âge</date> et le début de la <date type="_temp">période moderne</date> est d’autant plus pertinente que
+        la région est alors un grand foyer de l’imprimerie, mais aussi une
+        terre d’accueil pour des réfugiés fuyant l’avancée des «&#160;Turcs&#160;» à
+        l’est de l’empire des Habsbourg.</p>
+        <p xml:id="d1e72">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+        intellectuelle</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-yuw7gtea">savant</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-wntcaubx">allemand</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-olmyobmt">latin</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-tsfpmp5i">arabe</term>
+              </term>
+            </term>
+          </term>Après
+        un préambule sur les outils qui nous ont permis d’identifier un corpus
+        d’ouvrages arabo-islamiques traduits en latin ou en allemand et
+        publiés en <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName> aux <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>
+          </date>&#160;et
+        <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècles</date> nous procéderons à une présentation
+        succincte de ces textes qui peuvent être divisés en trois grandes
+        catégories, témoignant de trois types de relations avec l’Orient. Le
+        premier groupe peut être décrit comme plus ou moins inconscient. Il
+        apparaît à travers des œuvres d’origine orientale, mais si populaires
+        qu’elles deviennent des classiques de la littérature mondiale. Leur
+        origine orientale n’est donc pas nécessairement connue, à la
+        différence du deuxième type d’ouvrages. Il s’agit en particulier de
+        textes scientifiques, de savants arabes ou arabo-islamiques connus et
+        reconnus comme tels. Dans un contexte de mutation intellectuelle
+        profonde, ces livres font cependant l’objet de vifs débats allant de
+        la vénération à la diabolisation. Enfin, le troisième groupe inclut
+        des textes non pas orientaux, mais produits en lien avec l’Orient, en
+        particulier en réaction à la montée de la puissance ottomane aux
+        portes de l’Europe.</p>
+        <div type="section1" xml:id="d1e80">
+          <head subtype="level1" xml:id="d1e81">Les outils de recherche sur
+          les incunables et les imprimés alsaciens du 16<hi rend="sup">e</hi>&#160;siècle</head>
+          <p xml:id="d1e86">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-zmj9qpgl">base de
+          données</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+              </term>
+            </term>Plusieurs
+          outils s’offrent au chercheur qui s’intéresse aux premiers ouvrages
+          imprimés, c’est-à-dire les incunables, terme qui désigne
+          conventionnellement les imprimés antérieurs au <date type="_temp" when="1501-01-01">1<hi rend="sup">er</hi>&#160;janvier&#160;1501</date>, ainsi
+          que les imprimés du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date> en <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>. Le premier
+          ouvrage de référence utilisé pour cette étude est le <hi rend="italic">Répertoire bibliographique des livres imprimés en
+          Alsace aux XV</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">&#160;et
+          XVI</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">&#160;siècles
+          </hi>de <persName ref="11453215X" type="idref" xml:base="https://www.idref.fr/">François Ritter</persName>
+          (<placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, <date from="1934" to="1960" type="_temp">1934-1960</date>). Ce catalogue
+          est l’un des seuls qui porte sur l’ensemble de la région <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>, tous sujets
+          et tous auteurs confondus. Il présente aussi l’avantage de ne pas se
+          limiter à l’inventaire des livres imprimés, mais d’en faire une
+          description plus ou moins détaillée, parfois accompagnée d’une
+          reproduction. Le «&#160;Ritter&#160;» n’est cependant pas exhaustif. C’est
+          pourquoi il a été complété et corrigé par d’autres répertoires
+          bibliographiques, en particulier le <hi rend="italic">Répertoire
+          bibliographique des livres imprimés en France au seizième siècle
+          </hi>pour <placeName ref="6455228" type="geonames" xml:base="https://www.geonames.org/">Colmar</placeName> et
+          <placeName ref="6441356" type="geonames" xml:base="https://www.geonames.org/">Sélestat</placeName>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Lina Baillet, «&#160;44. Colmar (Haut-Rhin)&#160;», <hi rend="italic">Répertoire bibliographique des livres imprimés en
+              France au seizième siècle, 2</hi>
+                <hi rend="sup italic">ème</hi>
+                <hi rend="italic">&#160;livraison
+              </hi>(Baden-Baden, 1968), p.&#160;51-58&#160;; Josef Benzing, «&#160;143.
+              Sélestat&#160;», idem, p.&#160;91-102</p>
+            </note>, <placeName ref="6441541" type="geonames" xml:base="https://www.geonames.org/">Mulhouse</placeName>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Josef Benzing, «&#160;98. Mulhouse&#160;», <hi rend="italic">Répertoire
+              bibliographique des livres imprimés en France au seizième
+              siècle, 3</hi>
+                <hi rend="sup italic">ème</hi>
+                <hi rend="italic">&#160;livraison </hi>(Baden-Baden, 1969), p.&#160;67-79</p>
+            </note>, <placeName ref="6441131" type="geonames" xml:base="https://www.geonames.org/">Haguenau</placeName>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Josef Benzing, <hi rend="italic">Bibliographie
+              haguenovienne&#160;: bibliographie des ouvrages imprimés à Haguenau
+              (Bas-Rhin) au XVI</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;siècle </hi>(Baden-Baden, 1973)</p>
+            </note> et <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>
+            <note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Josef Benzing et Jean Muller, <hi rend="italic">Bibliographie
+              strasbourgeoise&#160;: bibliographie des ouvrages imprimés à
+              Strasbourg (Bas-Rhin) au XVI</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;siècle </hi>(Baden-Baden, 1981-1986)</p>
+            </note>, et la <hi rend="italic">Bibliography of Strasbourg
+          Imprints, 1480-1599 </hi>par <persName ref="050628666" type="idref" xml:base="https://www.idref.fr/">Myriam Usher
+          Chrisman</persName>
+            <?xxe-remark lesot
+2022-07-12T09:20:34Z
+Correction : Miriam?>(<placeName ref="4400289" type="geonames" xml:base="https://www.geonames.org/">New
+          Haven</placeName>−<placeName ref="2643743" type="geonames" xml:base="https://www.geonames.org/">Londres</placeName>, <date type="_temp" when="1982">1982</date>). Ce dernier catalogue est non
+          seulement plus complet, mais il se distingue aussi par son
+          classement thématique (par sujets) et chronologique, donnant ainsi
+          une vision plus transversale de l’édition strasbourgeoise à l’époque
+          considérée. Depuis la publication du «&#160;Chrisman&#160;», plusieurs bases
+          de données ont été mises en ligne. Nous avons en particulier
+          consulté, pour les incunables, le <hi rend="italic">Gesamtkatalog
+          der Wiegendrucke </hi>(GW) et le plus complet <hi rend="italic">Incunabula Short Title Catalogue </hi>(ISTC), et pour
+          les imprimés du <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date>, le <hi rend="italic">Verzeichnis
+          der im deutschen Sprachbereich erschienenen Drucke des 16.
+          Jahrhunderts </hi>(VD16).</p>
+        </div>
+        <div type="section1" xml:id="d1e169">
+          <head subtype="level1" xml:id="d1e170">Deux œuvres de la littérature
+          mondiale</head>
+          <p xml:id="d1e172">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-vw87gegm">langue
+          vernaculaire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-tsfpmp5i">arabe</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-zij8apws">sanskrit</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+              </term>
+            </term>Parmi les
+          toutes premières œuvres d’origine orientale imprimées en <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName> figurent
+          deux livres qui font partie de la «&#160;littérature mondiale&#160;». Le
+          premier est <hi rend="italic">Barlaam et Josaphat</hi>, une légende
+          qui trouve ses racines dans la vie de <persName ref="027524035" type="idref" xml:base="https://www.idref.fr/">Bouddha</persName>. On
+          en situe l’origine dans un texte en sanskrit, probablement écrit aux
+          <date type="_temp">débuts de notre ère</date>. Du sanskrit, l’œuvre
+          passe indirectement ou directement vers l’arabe au <date from="0700" to="0799" type="_temp">8<hi rend="sup">e</hi>
+            </date> ou au <date from="0800" to="0899" type="_temp">9<hi rend="sup">e</hi>&#160;siècle</date>. Le nom de <persName type="_temp">Josaphat</persName> dérive de la forme arabe corrompue
+          de <foreign xml:lang="ara">Bodhisattva</foreign>. On connaît
+          plusieurs versions arabes et c’est l’une d’entre elles qui donne
+          naissance à une traduction/adaptation géorgienne au <date from="0800" to="0999" type="_temp">9<hi rend="sup">e</hi>-10<hi rend="sup">e</hi>&#160;siècle</date>. Cette dernière forme elle-même la
+          source d’une traduction grecque au <date from="0900" to="0999" type="_temp">10<hi rend="sup">e</hi>&#160;siècle</date>, laquelle inspire
+          à son tour plusieurs versions en latin à partir du <date from="1000" to="1199" type="_temp">11<hi rend="sup">e</hi>-12<hi rend="sup">e</hi>&#160;siècle</date>, et de là en langues vernaculaires
+          européennes, notamment en allemand sous la plume de <persName ref="029244358" type="idref" xml:base="https://www.idref.fr/">Rudolf
+          von Ems</persName> (v.&#160;1230). Il s’agit donc d’une histoire qui
+          traverse les langues et les religions, du bouddhisme au
+          christianisme<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>La littérature sur <hi rend="italic">Barlaam et Josaphat
+              </hi>et ses différentes versions est très riche. Pour une
+              synthèse récente, voir Regula Forster, «&#160;Buddha in Disguise&#160;:
+              Problems in the Transmission of “Barlaam and Josaphat”&#160;», in <hi rend="italic">Acteurs des transferts culturels en Méditerranée
+              médiévale</hi>, éd.&#160;Rania Abdellatif, Yassir Benhima, Daniel
+              König, Elisabeth Ruchaud (Munich, 2012), p.&#160;180-191.</p>
+            </note>. Elle est extrêmement populaire en Europe et commence à
+          être imprimée en latin et en langues vernaculaires très tôt. Les
+          deux premières éditions latines ne sont pas précisément datées, mais
+          sont tout à fait contemporaines. La première paraît à <placeName ref="2830582" type="geonames" xml:base="https://www.geonames.org/">Spire</placeName> vers <date from="1472" to="1473" type="_temp">1472-73</date> et la deuxième à
+          <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, chez
+          <persName ref="134387139" type="idref" xml:base="https://www.idref.fr/">Heinrich Eggestein</persName>,
+          avant <date type="_temp" when="1474">1474</date>. Cette date est
+          établie grâce à un exemplaire conservé à la <placeName ref="11874032" type="geonames" xml:base="https://www.geonames.org/">Bayerische
+          Staatsbibliothek</placeName> à <placeName ref="2867714" type="geonames" xml:base="https://www.geonames.org/">Munich</placeName>, qui porte
+          une note d’achat d’un certain <persName type="_temp">Heinrich
+          Winkler</persName> en <date type="_temp" when="1474">1474</date>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>ISTC No.ib00126000&#160;; pour l’exemplaire de Munich&#160;: <ref target="https://inkunabeln.digitale-sammlungen.de/Exemplar_B-88,2.html">
+                  <hi rend="underline">https://inkunabeln.digitale-sammlungen.de/Exemplar_B-88,2.html</hi>
+                </ref> (document consulté le 04.07.2020)</p>
+            </note>. Les deux éditions latines de <placeName ref="2830582" type="geonames" xml:base="https://www.geonames.org/">Spire</placeName> et de
+          <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> sont
+          suivies par plusieurs éditions en allemand, en anglais et dans
+          d’autres langues, à partir de <date type="_temp" when="1476">1476</date>.</p>
+          <p xml:id="d1e217">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-p5aiheda">incipit</term>
+              </term>
+            </term>La
+          première version arabe de <hi rend="italic">Barlaam et Josaphat
+          </hi>est parfois associée avec un autre texte d’origine indienne,
+          traduit du sanskrit en moyen perse et de là en arabe&#160;: le célèbre
+          recueil de fables animalières <hi rend="italic">Kalīla et
+          Dimna</hi>, aussi connu sous le titre de <hi rend="italic">Fables de
+          Bidpaï</hi>. La version arabe d’<persName ref="027915204" type="idref" xml:base="https://www.idref.fr/">Ibn
+          al-Muqaffaʿ</persName>, du milieu du <date from="0700" to="0799" type="_temp">8<hi rend="sup">e</hi>&#160;siècle</date>, est traduite en
+          hébreu et de là en latin par <persName ref="034075879" type="idref" xml:base="https://www.idref.fr/">Jean de Capoue</persName> au <date from="1200" to="1299" type="_temp">13<hi rend="sup">e</hi>
+            </date>.
+          Cette traduction latine, intitulée <hi rend="italic">Directorium
+          humanae vitae, </hi>est publiée pour la première fois à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, par
+          <persName ref="140812156" type="idref" xml:base="https://www.idref.fr/">Jean Prüss</persName>, vers <date type="_temp" when="1489">1489</date>. Il s’agit du seul incunable de
+          cette version, tandis que la traduction allemande, réalisée à la
+          demande du comte <persName ref="236214438" type="idref" xml:base="https://www.idref.fr/">Eberhard de Wurtemberg</persName>
+          par <persName ref="124334490" type="idref" xml:base="https://www.idref.fr/">Anton von Pforr</persName> vers
+          <date type="_temp" when="1470">1470</date>, est rééditée plusieurs
+          fois, notamment à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> par
+          <persName ref="186300255" type="idref" xml:base="https://www.idref.fr/">Martin Schott</persName> (sans
+          date), <persName ref="035608099" type="idref" xml:base="https://www.idref.fr/">Jean</persName> puis <persName ref="260989134" type="idref" xml:base="https://www.idref.fr/">Bartholomée Grüninger</persName> en
+          <date type="_temp" when="1501">1501</date>, <date type="_temp" when="1525">1525</date>, <date type="_temp" when="1529">1529</date>
+          et <date type="_temp" when="1536">1536</date>, et par <persName ref="154463701" type="idref" xml:base="https://www.idref.fr/">Jacob
+          Frölich</persName> en <date type="_temp" when="1539">1539</date> et
+          <date type="_temp" when="1545">1545</date>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Sur <hi rend="italic">Kalīla et Dimna</hi>, sa transmission
+              et ses premières éditions strasbourgeoises, voir l’article
+              d’Annie Vernay-Nouri p.&#160;29&#160;; sur les éditions suivantes, voir
+              Chrisman V2.3.2.</p>
+            </note>. Il est intéressant de noter que contrairement au texte
+          précédent, qui est entièrement christianisé, l’histoire de la
+          transmission de <hi rend="italic">Kalīla et Dimna </hi>du sanskrit
+          au moyen-perse, à l’arabe, l’hébreu, le latin et l’allemand est
+          alors bien connue, comme l’atteste notamment la première édition de
+          <persName ref="260989134" type="idref" xml:base="https://www.idref.fr/">Grüninger</persName>. Il n’en reste
+          pas moins que ces deux œuvres ne sont pas publiées en langue et en
+          caractères arabes, mais en latin et en allemand. Ceci est également
+          le cas de tous les autres textes d’origine arabo-islamique écrits
+          essentiellement entre le <date from="0700" to="0799" type="_temp">8<hi rend="sup">e</hi>
+            </date> et les <date from="1100" to="1299" type="_temp">12<hi rend="sup">e</hi>-13<hi rend="sup">e</hi>&#160;siècles</date> et édités en <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName> aux <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>
+            </date> et
+          <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècles</date>. Alors que les premiers et la
+          majorité des ouvrages imprimés avec des caractères mobiles arabes en
+          <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> au <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>&#160;siècle</date> sont liés à des initiatives papales
+          à destination des chrétiens d’Orient<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Angelo Michele Piemontese, «&#160;Les imprimés arabes en Italie au
+              XVI<hi rend="sup">e</hi>&#160;siècle&#160;», communication donnée lors de
+              la journée d’études <hi rend="italic">À la recherche de
+              l’Orient&#160;: la transmission des textes et des savoirs
+              arabo-islamiques en Alsace à l’époque moderne </hi>(Strasbourg,
+              Bnu, 29&#160;novembre&#160;2019). Nous regrettons vivement que cette
+              communication n’ait pu être publiée dans le présent volume.</p>
+            </note>, les éditions alsaciennes s’inscrivent dans des débats
+          internes à l’Europe.</p>
+        </div>
+        <div type="section1" xml:id="d1e277">
+          <head subtype="level1" xml:id="d1e278">Les sciences «&#160;arabes&#160;» et la
+          «&#160;querelle de l’arabisme&#160;»</head>
+          <p xml:id="d1e280">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-ognrwtyq">médecine</term>
+                </term>
+              </term>
+            </term>L’un
+          des tous premiers ouvrages arabes traduit en latin et imprimé est
+          sans surprise le <hi rend="italic">Qānūn fī al-ṭibb </hi>(<hi rend="italic">Canon de la médecine</hi>) d’<persName ref="086202936" type="idref" xml:base="https://www.idref.fr/">Avicenne</persName>
+          (<date from="0980" to="1037" type="_temp">980-1037</date>), une
+          somme médicale qui sert de base à l’enseignement et à la pratique de
+          la médecine aussi bien dans le monde islamique qu’en Europe, du
+          <date from="1000" to="1099" type="_temp">11<hi rend="sup">e</hi>&#160;siècle</date> jusqu’à l’avènement de la médecine
+          expérimentale moderne aux <date from="1500" to="1699" type="_temp">16<hi rend="sup">e</hi>-17<hi rend="sup">e</hi>&#160;siècles</date>. La première traduction intégrale
+          du <hi rend="italic">Canon </hi>en latin est réalisée par <persName ref="030738180" type="idref" xml:base="https://www.idref.fr/">Gérard
+          de Crémone</persName> (avant <date type="_temp" when="1187">1187</date>) et très largement diffusée par le biais de
+          copies manuscrites, de commentaires, mais aussi par celui de
+          l’imprimerie. Les deux premières éditions imprimées sont tout à fait
+          contemporaines. L’une, réalisée à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> par
+          l’imprimeur dit «&#160;à l’R&#160;», c’est-à-dire <persName ref="135677939" type="idref" xml:base="https://www.idref.fr/">Adolph
+          Rusch</persName>, n’est pas datée&#160;; l’autre l’est, de <placeName ref="3173435" type="geonames" xml:base="https://www.geonames.org/">Milan</placeName>, en <date type="_temp" when="1473-02">février&#160;1473</date>. Les avis divergent
+          sur l’antériorité de l’une ou de l’autre, qui ne sont sans doute
+          séparées que de quelques mois<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>GW&#160;3114&#160;; Frederick&#160;R.&#160;Goff, <hi rend="italic">Incunabula in
+              American libraries&#160;: a third census </hi>(New York&#160;: The
+              Bibliographical Society of America, 1964), A-1417&#160;; <hi rend="italic">Bibliothèque nationale. </hi>
+                <hi rend="italic">Catalogue des incunables </hi>(CIBN), tome&#160;I
+              (Paris&#160;: Bibliothèque nationale, 1992), A-807</p>
+            </note>. L’édition strasbourgeoise est vraisemblablement aussi le
+          premier, ou du moins l’un des premiers ouvrages médicaux imprimés à
+          <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>.</p>
+          <p xml:id="d1e313">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-p5aiheda">incipit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>D’après
+          l’ISTC (No.ia01417700), cinquante-six exemplaires de cette édition
+          de <date type="_temp" when="1473">1473</date> sont conservés, dont
+          un, imparfait, à la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bnu</placeName>
+            <hi>(voir ill.
+          p.&#160;8)</hi>. Plusieurs d’entre eux montrent des enluminures. C’est
+          par exemple le cas d’un volume orné des armoiries de l’archevêque
+          <persName type="_temp">Bernhard von Rohr de Salzbourg</persName>,
+          qui porte aussi une note datée de <date type="_temp" when="1477">1477</date> (<placeName ref="11874032" type="geonames" xml:base="https://www.geonames.org/">Bayerische
+          Staatsbibliothek</placeName>). Un autre exemplaire, dont la majeure
+          partie se trouve à la bibliothèque de l’Université d’<placeName ref="2657832" type="geonames" xml:base="https://www.geonames.org/">Aberdeen</placeName>, est aussi
+          enluminé et il semble que ses décors soient anglais et strictement
+          contemporains. Ces deux exemples suggèrent que notre édition a connu
+          une diffusion rapide, large, et assez prestigieuse. Les autres
+          exemplaires conservés indiquent une diffusion à travers toute
+          l’Europe, de l’<placeName ref="6269131" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName> à la
+          <placeName ref="2017370" type="geonames" xml:base="https://www.geonames.org/">Russie</placeName>. À titre de
+          comparaison, l’édition de <placeName ref="3173435" type="geonames" xml:base="https://www.geonames.org/">Milan</placeName> n’est connue
+          que par treize exemplaires, la majorité encore en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>. Le succès
+          de l’édition strasbourgeoise s’explique vraisemblablement par le
+          fait qu’elle est plus complète, notamment du point de vue de la
+          ponctuation. Cette édition a une autre particularité. Il s’agit du
+          seul incunable du <hi rend="italic">Canon </hi>réalisé dans le Saint
+          Empire. Treize autres incunables latins et le seul incunable hébreu
+          ont été publiés en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, et un autre
+          à <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>. Tout ceci
+          souligne à nouveau l’originalité de l’édition strasbourgeoise, alors
+          que la ville n’a pas encore d’université ni d’enseignement de la
+          médecine.</p>
+          <figure xml:id="d1e321">
+            <graphic url="https://didomena.ehess.fr/downloads/kp78gq643.jpg"/>
+            <head xml:id="d1e322">Figure 1. Avicenne, <hi rend="italic">Canon</hi>, traduction de Gérard de Crémone, imprimé
+            à Strasbourg par l’imprimeur «&#160;à l’R&#160;», Adolph Rusch, vers 1473.
+            Page du quatrième livre sur les fractures des doigts de pied
+            (coll. Bnu). Clichés Jean-Pierre Rosenkranz. CC-BY-NC-SA</head>
+          </figure>
+          <p xml:id="d1e329">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-ognrwtyq">médecine</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-7dh8ptmc">voyage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la
+          vie et de l’environnement<term ref="doi:10.34817/sv-tnedxt7h">sciences de la vie par type
+          d’organismes<term ref="doi:10.34817/sv-kk3qhhn7">botanique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>Un
+          autre ouvrage médical, plus précisément de botanique, inspiré par
+          l’Orient à cette même époque est le célèbre <hi rend="italic">Gart
+          der Gesundheit </hi>et sa version latine <hi rend="italic">Ortus/Hortus sanitatis </hi>attribué à <persName ref="083618759" type="idref" xml:base="https://www.idref.fr/">Jean
+          de Kaub</persName>. Ce livre serait le résultat d’un voyage et d’une
+          collecte de curiosités médicales en Orient. D’abord publié à
+          <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName> en <date type="_temp" when="1485">1485</date>, il l’est aussi à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> par
+          <persName ref="035608099" type="idref" xml:base="https://www.idref.fr/">Grüninger</persName> en <date from="1485" to="1486" type="_temp">1485-86</date> et <date type="_temp" when="1489">1489</date>, par <persName ref="140812156" type="idref" xml:base="https://www.idref.fr/">Prüss</persName> en
+          <date type="_temp" when="1497">1497</date>, <date type="_temp" when="1507">1507</date> et <date type="_temp" when="1510">1510</date>, et par plusieurs autres par la suite<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Chrisman S3.1.1, S.3.1.4</p>
+            </note>.</p>
+          <p xml:id="d1e340">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-yuw7gtea">savant</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-p5aiheda">incipit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-m6tdpkvp">imprimé</term>
+              </term>
+            </term>Mais la
+          question de la réception du <hi rend="italic">Canon </hi>aux <date from="1400" to="1599" type="_temp">15<hi rend="sup">e</hi>-16<hi rend="sup">e</hi>&#160;siècles</date> est centrale à plus d’un titre.
+          L’ouvrage est alors, «&#160;pendant quelques décennies […] le livre le
+          plus imprimé après la Bible&#160;»<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Gotthard Strohmaier, «&#160;Réception et tradition&#160;: la médecine
+              dans le monde byzantin et arabe&#160;», in <hi rend="italic">Histoire
+              de la pensée médicale en Occident</hi>, vol.&#160;1, <hi rend="italic">Antiquité et Moyen-Âge</hi>, dir.&#160;Mirko&#160;D.&#160;Grmek
+              (Paris&#160;: Seuil, 1995), p.&#160;148-14</p>
+            </note>. Les dix-sept incunables mentionnés ci-dessus sont suivis
+          par au moins une soixantaine d’éditions aux <date from="1500" to="1599" type="_temp">16<hi rend="sup">e</hi>
+            </date> et <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi>&#160;siècles</date>, sans parler des commentaires<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Nancy&#160;G.&#160;Siraisi, <hi rend="italic">Avicenna in Renaissance
+              Italy&#160;: The </hi>Canon <hi rend="italic">and Medical Teaching in
+              Italian Universities after 1500 </hi>(Princeton, 1987)</p>
+            </note>. De plus, le <hi rend="italic">Canon </hi>suscite des
+          attitudes très contrastées qu’<persName ref="032010257" type="idref" xml:base="https://www.idref.fr/">Ernest Wickersheimer</persName> a
+          qualifiées de «&#160;querelle de l’arabisme&#160;»<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Ernest Wickersheimer, «&#160;Laurent Fries et la querelle de
+              l’arabisme en médecine (1530)&#160;», in <hi rend="italic">Les
+              cahiers de Tunisie, Revue de sciences humaines</hi>, 9&#160;(1955),
+              p.&#160;96-103</p>
+            </note>. De nombreux médecins et savants alsaciens sont d’ardents
+          défenseurs d’<persName ref="086202936" type="idref" xml:base="https://www.idref.fr/">Avicenne</persName>, au contraire
+          d’autres courants, en particulier dans les universités du nord de
+          l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> où, dès la
+          fin du <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>&#160;siècle</date>, apparaissent des polémiques, de
+          nouvelles éditions révisées et de nouvelles traductions du <hi rend="italic">Canon</hi>, ainsi que de nouvelles approches médicales
+          et scientifiques humanistes allant de la critique de la transmission
+          indirecte, latine et arabe, au profit de l’accès direct aux auteurs
+          grecs, jusqu’au rejet plus radical de l’autorité des maîtres du
+          passé pour l’observation de la nature, l’expérimentation et la
+          pratique.</p>
+          <p xml:id="d1e394">Parmi les plus ardents défenseurs d’<persName ref="086202936" type="idref" xml:base="https://www.idref.fr/">Avicenne</persName> figure
+          <persName ref="068969198" type="idref" xml:base="https://www.idref.fr/">Laurent Fries</persName>
+          (v.&#160;1485-1532), qui exerce la médecine à <placeName ref="6455228" type="geonames" xml:base="https://www.geonames.org/">Colmar</placeName>, <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> et dans
+          d’autres villes de la région. L’un de ses premiers livres est le <hi rend="italic">Spiegel der Artzney </hi>(<hi rend="italic">Miroir de
+          la médecine</hi>), publié à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName> par
+          <persName ref="035608099" type="idref" xml:base="https://www.idref.fr/">J.&#160;Grüninger</persName> en <date type="_temp" when="1518">1518</date> et réédité plusieurs fois par
+          la suite<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Rudolf C.&#160;L.&#160;Oehlschlegel, <hi rend="italic">Studien zu
+              Lorenz Fries und seinem “Spiegel der Arznei” </hi>(Barth/Ostsee,
+              1985)&#160;; Chrisman S1.7.6&#160;; Benzing, Mulhouse, 25</p>
+            </note>. Il s’agit de l’un des premiers ouvrages de médecine
+          générale imprimé en allemand. Sa source principale est <persName ref="086202936" type="idref" xml:base="https://www.idref.fr/">Avicenne</persName>, et <persName ref="068969198" type="idref" xml:base="https://www.idref.fr/">Fries</persName> y affirme que
+          «&#160;s’il avait le bonheur de posséder de ses os, il les vénérerait à
+          l’égal de reliques&#160;»<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Wickersheimer, «&#160;Laurent Fries…&#160;», op.&#160;cit., p.&#160;98</p>
+            </note>. <persName ref="068969198" type="idref" xml:base="https://www.idref.fr/">Fries</persName> publie aussi une
+          <hi rend="italic">Defensio medicorum principis Avicennae, ad
+          Germaniae medicos </hi>(<hi rend="italic">Défense du prince des
+          médecins Avicenne, à l’intention des praticiens allemands</hi>) chez
+          <persName ref="120384051" type="idref" xml:base="https://www.idref.fr/">Jean Knobloch</persName> en <date type="_temp" when="1530">1530</date>
+            <hi>(voir ill. p.&#160;11)</hi>.</p>
+          <figure xml:id="d1e422">
+            <graphic url="https://didomena.ehess.fr/downloads/2b88qm30r.jpg"/>
+            <head xml:id="d1e423">Figure 2. Laurent Fries, <hi rend="italic">Defensio medicorum principis Avicennae, ad Germaniae
+            medicos</hi>, Strasbourg, Jean Knobloch, 1530 (coll. Bnu). Clichés
+            Jean-Pierre Rosenkranz. CC-BY-NC-SA</head>
+          </figure>
+          <p xml:id="d1e430">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-pd3pav8u">pharmacologie</term>
+                </term>
+              </term>
+            </term>Une
+          autre de ses premières publications est le <hi rend="italic">Synonima</hi>, un dictonnaire pharmacologique
+          pentaglosse publié chez <persName ref="035608099" type="idref" xml:base="https://www.idref.fr/">Grüninger</persName> en <date type="_temp" when="1518">1518</date>, <date type="_temp" when="1519">1519</date>
+            <hi>(voir ill. p.&#160;12)</hi>, <date type="_temp" when="1529">1529</date> et dans une version améliorée
+          en <date type="_temp" when="1535">1535</date>. Le principe du
+          dictionnaire plurilingue apparaît comme une autre convergence entre
+          l’édition médicale et biblique&#160;: ne citons que la Bible polyglotte
+          Complutense (<date from="1514" to="1517" type="_temp">1514-1517</date>) en latin, grec, hébreu et araméen et
+          le <hi rend="italic">Psautier </hi>pentaglosse de <placeName ref="6542282" type="geonames" xml:base="https://www.geonames.org/">Gênes</placeName> (<date type="_temp" when="1516">1516</date>) en latin, grec, hébreu,
+          araméen et arabe. Dans la postface de la traduction de deux
+          ouvrages, deux <hi rend="italic">Tacuini</hi>, traités de médecine
+          préventive d’<persName ref="028670221" type="idref" xml:base="https://www.idref.fr/">Ibn Buṭlān</persName> (mort en
+          <date type="_temp" when="1066">1066</date>) et d’<persName ref="16116790X" type="idref" xml:base="https://www.idref.fr/">Ibn
+          Jazla</persName> (mort en <date type="_temp" when="1100">1100</date>), traduits du latin vers l’allemand et
+          édités sous le titre <hi rend="italic">Schachtafelen der Gesuntheyt
+          </hi>(<hi rend="italic">Échiquiers de la santé</hi>) par <persName ref="098482718" type="idref" xml:base="https://www.idref.fr/">Schott</persName> en <date type="_temp" when="1533">1533</date>, le médecin et traducteur
+          strasbourgeois <persName type="_temp">Michel Herr</persName> affirme
+          qu’il connaît le grec, l’hébreu et la langue chaldaïque (araméenne),
+          mais pas l’arabe<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Ernest Wickersheimer, «&#160;Les <hi rend="italic">Tacuini
+              sanitatis </hi>et leur traduction allemande par Michel Herr&#160;»,
+              in <hi rend="italic">Bibliothèque d’Humanisme et
+              Renaissance</hi>&#160;12 (1950), p.&#160;85-97</p>
+            </note>. Le dictionnaire de <persName ref="068969198" type="idref" xml:base="https://www.idref.fr/">Fries</persName> associe, lui, le
+          latin, le grec et l’hébreu à l’arabe et à l’allemand. Si le grec et
+          l’hébreu sont écrits dans ces alphabets, l’arabe est translittéré en
+          caractères latins.</p>
+          <figure xml:id="d1e461">
+            <graphic url="https://didomena.ehess.fr/downloads/cn69mc458.jpg"/>
+            <head xml:id="d1e462">Figure 3. Le dictionnaire pharmacologique
+            latin-grec-hébreu-arabe-allemand de Laurent Fries, <hi rend="italic">Synonima</hi>, Strasbourg, Jean Grüninger, 1519
+            (coll. Bnu). Clichés Jean-Pierre Rosenkranz. CC-BY-NC-SA</head>
+          </figure>
+          <p xml:id="d1e469">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-yuw7gtea">savant</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la
+          vie et de l’environnement<term ref="doi:10.34817/sv-tnedxt7h">sciences de la vie par type
+          d’organismes<term ref="doi:10.34817/sv-kk3qhhn7">botanique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-ognrwtyq">médecine</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>Les travaux de
+          <persName ref="068969198" type="idref" xml:base="https://www.idref.fr/">Fries</persName> trouvent un écho
+          dans ceux de son contemporain et collaborateur <persName ref="029588278" type="idref" xml:base="https://www.idref.fr/">Otto
+          Brunfels</persName> (v.&#160;1488-1534) qui est reçu docteur à
+          l’Université de <placeName ref="2661604" type="geonames" xml:base="https://www.geonames.org/">Bâle</placeName> en <date type="_temp" when="1530">1530</date>, là même où <persName ref="02733869X" type="idref" xml:base="https://www.idref.fr/">Paracelse</persName> (<date from="1493" to="1541" type="_temp">1493-1541</date>) aurait fait
+          brûler le <hi rend="italic">Canon </hi>
+            <date type="_temp" when="1527">trois ans plus tôt</date>. <persName ref="029588278" type="idref" xml:base="https://www.idref.fr/">Brunfels</persName>,
+          connu comme le premier enseignant de médecine à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, est
+          surtout célèbre pour son <hi rend="italic">Herbarum vivae eicones
+          </hi>(<hi rend="italic">Images vivantes des plantes</hi>), très
+          inspiré de la botanique classique, arabe et médiévale par son texte,
+          et très novateur par ses illustrations réalisées par <persName ref="058463984" type="idref" xml:base="https://www.idref.fr/">Hans
+          Weiditz</persName> qui, par leur réalisme, sont considérées comme un
+          des travaux fondateurs de la botanique moderne <hi>(voir ill. p.&#160;24,
+          à gauche)</hi>
+            <note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Voir aussi, à ce sujet, l’article de Georges Bischoff
+              p.&#160;21.</p>
+            </note>. Le troisième et dernier tome de l’<hi rend="italic">Herbarum </hi>est publié après la mort de <persName ref="029588278" type="idref" xml:base="https://www.idref.fr/">Brunfels</persName> par les soins
+          de son ami <persName type="_temp">Michel Herr</persName> en <date type="_temp" when="1536">1536</date>. <persName ref="029588278" type="idref" xml:base="https://www.idref.fr/">Brunfels</persName>
+          publie plusieurs autres ouvrages qui témoignent de son attachement à
+          <persName ref="086202936" type="idref" xml:base="https://www.idref.fr/">Avicenne</persName> et à la
+          médecine arabe. Il réédite le <hi rend="italic">Spiegel der Artzney
+          </hi>(<persName ref="19329558X" type="idref" xml:base="https://www.idref.fr/">Balthasar Beck</persName>, <date type="_temp" when="1529">1529</date>, <date type="_temp" when="1532">1532</date>, <date type="_temp" when="1546">1546</date>). Il publie un <hi rend="italic">Catalogus
+          illustrium medicorum </hi>(<hi rend="italic">Catalogue des médecins
+          célèbres</hi>) chez <persName ref="098482718" type="idref" xml:base="https://www.idref.fr/">Schott</persName> en <date type="_temp" when="1530">1530</date>, lequel mentionne <persName ref="086202936" type="idref" xml:base="https://www.idref.fr/">Avicenne</persName> et quelques
+          autres médecins «&#160;arabes&#160;». Il publie aussi une compilation de
+          textes de «&#160;médecins insignes&#160;»&#160;: une traduction corrigée du <hi rend="italic">De simplicibus medicinis </hi>(<hi rend="italic">Des
+          médicaments simples</hi>) du <persName ref="15741812X" type="idref" xml:base="https://www.idref.fr/">Pseudo-Jean Sérapion le
+          Jeune</persName>, <persName ref="081905742" type="idref" xml:base="https://www.idref.fr/">Ibn Wāfid</persName> (<date from="1000" to="1099" type="_temp">11<hi rend="sup">e</hi>&#160;siècle</date>), et trois autres traités
+          arabo-classiques d’<persName ref="02825886X" type="idref" xml:base="https://www.idref.fr/">Averroès</persName>, de <persName ref="027091716" type="idref" xml:base="https://www.idref.fr/">Razès</persName> et du <persName ref="02776897X" type="idref" xml:base="https://www.idref.fr/">Pseudo-Galien</persName>. Cette
+          compilation originale est précédée par un index des termes arabes
+          réalisé, nous dit l’auteur, avec «&#160;une foi et une diligence
+          singulières&#160;» (<persName ref="079052177" type="idref" xml:base="https://www.idref.fr/">Georg Ulricher</persName>, <date type="_temp" when="1531">1531</date>&#160;; <hi>voir ill.
+          ci-contre</hi>). Enfin, <persName ref="029588278" type="idref" xml:base="https://www.idref.fr/">Brunfels</persName> publie
+          également un <hi rend="italic">Onomastikon medicinae</hi>, un
+          dictionnaire de sciences naturelles qui fait lui aussi la part belle
+          à <persName ref="086202936" type="idref" xml:base="https://www.idref.fr/">Avicenne</persName>, <persName ref="02825886X" type="idref" xml:base="https://www.idref.fr/">Averroès</persName> et d’autres
+          savants arabes (<persName ref="098482718" type="idref" xml:base="https://www.idref.fr/">Schott</persName>, <date type="_temp" when="1534">1534</date>
+            <note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <ref target="https://www.numistral.fr/ark:/12148/bpt6k91059459/f16.planchecontact">
+                  <hi rend="underline">https://www.numistral.fr/ark:/12148/bpt6k91059459/f16.planchecontact</hi>
+                </ref> (doc. cons. le 11.07.2020)</p>
+            </note> et <date type="_temp" when="1544">1544</date>).</p>
+          <figure xml:id="d1e523">
+            <graphic url="https://didomena.ehess.fr/downloads/1j92gg689.jpg"/>
+            <head xml:id="d1e524">Figure 4. Index de termes médicaux arabes
+            translittérés en caractères latins par Otto Brunfels (In hoc
+            volumine continentur. Insignium medicorum, Ioan. Serapionis
+            Arabis…, Averrois Arabis…, Rasis filii Zachariae…) (Strasbourg,
+            Georg Ulricher, 1531&#160;; coll. Bnu). Clichés Jean-Pierre Rosenkranz.
+            CC-BY-NC-SA</head>
+          </figure>
+          <p xml:id="d1e528">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-dy2vagnj">index</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-egk7aadc">dictionnaire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                  </term>
+                </term>
+              </term>
+            </term>Alors
+          qu’on a souvent tendance à opposer l’attachement aux sciences
+          arabes, associées au <date type="_temp">Moyen-Âge</date>, avec les
+          évolutions scientifiques «&#160;modernes&#160;» de la <date type="_temp">Renaissance</date>, les travaux de <persName ref="068969198" type="idref" xml:base="https://www.idref.fr/">Fries</persName> et de <persName ref="029588278" type="idref" xml:base="https://www.idref.fr/">Brunfels</persName> montrent que la
+          place encore centrale de la médecine arabe est ici conjuguée avec un
+          souci accru de précision, notamment linguistique. De nombreux
+          végétaux et animaux décrits dans les ouvrages médicaux arabes, comme
+          le haricot, la datte non mûre («&#160;<foreign xml:lang="ara">busr</foreign>&#160;», translitt. «&#160;<foreign xml:lang="ara">bussuri</foreign>&#160;»), la banane ou encore le chameau,
+          l’éléphant ou le phoque&#160;(!) sont en effet inconnus en <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>. Même si
+          <persName type="_temp">Michel Herr</persName> affirme que le chameau
+          et l’éléphant «&#160;ont été vus récemment dans nos contrées&#160;», de telles
+          occasion étaient très rares, et les images qu’il en donne dans son
+          <hi rend="italic">Livre des quadrupèdes </hi>publié par <persName ref="098482718" type="idref" xml:base="https://www.idref.fr/">Schott</persName> en <date type="_temp" when="1546">1546</date> ne semblent pas exécutées,
+          comme il l’affirme, d’après nature, et sont au contraire peu
+          naturalistes<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Ernest Wickersheimer, «&#160;Le livre des quadrupèdes de Michel
+              Herr, médecin strasbourgeois (1546)&#160;», in <hi rend="italic">La
+              science au seizième siècle</hi>, <hi rend="italic">Colloque
+              international de Royaumont, 1-4&#160;</hi>
+                <hi rend="italic">juillet&#160;</hi>
+                <hi rend="italic">1957 </hi>(Paris,
+              1960), p.&#160;267-283&#160;; <ref target="http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ177495909">
+                  <hi rend="underline">http://digital.onb.ac.at/OnbViewer/viewer.faces?doc=ABO_%2BZ177495909</hi>
+                </ref> (doc. cons. le 11.07.2020)</p>
+            </note>. Il n’en reste pas moins que la forme du dictionnaire
+          plurilingue et de l’index, l’usage de l’allemand et d’autres
+          innovations de ces éditeurs, comme l’ajout d’une liste de sources ou
+          d’illustrations, sont aussi le reflet d’une préoccupation pratique.
+          Ils ont pour objectif un gain de rigueur et d’efficacité de la part
+          des praticiens.</p>
+          <p xml:id="d1e551">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-fafetmry">traduction</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-8mpceijw">publication</term>
+              </term>
+            </term>Les
+          travaux de <persName ref="068969198" type="idref" xml:base="https://www.idref.fr/">Fries</persName> et de <persName ref="029588278" type="idref" xml:base="https://www.idref.fr/">Brunfels</persName> s’inscrivent
+          dans une série de publications d’ouvrages de médecins
+          arabo-islamiques comme <persName ref="027658228" type="idref" xml:base="https://www.idref.fr/">al-Kindī</persName>, <persName ref="030130859" type="idref" xml:base="https://www.idref.fr/">Ḥunayn&#160;b.&#160;Isḥāq</persName>
+          (Johannitius), <persName ref="027091716" type="idref" xml:base="https://www.idref.fr/">Rāzī</persName> (Razès), <persName ref="028670221" type="idref" xml:base="https://www.idref.fr/">Ibn
+          Buṭlān</persName> (Elluchasem Elimithar), <persName ref="16116790X" type="idref" xml:base="https://www.idref.fr/">Ibn Jazla</persName>
+          (Buhahylyha Byngezla) ou encore <persName ref="029184371" type="idref" xml:base="https://www.idref.fr/">Abū al-Qāsim Khalaf
+          al-Zahrāwī</persName> (Albucasis), traduits en latin et pour
+          certains pour la première fois en allemand et édités à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, en
+          particulier par <persName ref="098482718" type="idref" xml:base="https://www.idref.fr/">Schott</persName>, mais aussi par
+          <persName ref="079052177" type="idref" xml:base="https://www.idref.fr/">Ulricher</persName>, <persName ref="149373821" type="idref" xml:base="https://www.idref.fr/">Jacob
+          Cammerlander</persName> et d’autres<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Chrisman S1.5.5, S1.13&#160;; voir aussi S1.2.6, S1.4.13, S1.5.2,
+              S1.7.19, S1.11.1, S1.11.5. Sur le <hi rend="italic">Tacuinus
+              </hi>d’Ibn Buṭlān, sa traduction latine et son édition par
+              Schott en 1531, voir H.&#160;Elkhadem, «&#160;Tacuini Sanitatis&#160;: A
+              Little-Known Edition of 1531&#160;», in <hi rend="italic">Lias</hi>&#160;1
+              (1974), p.&#160;119-128. Le <hi rend="italic">Tacuinus </hi>d’Ibn
+              Jazla édité par Schott en 1532 de la Bnu est en ligne&#160;: <ref target="https://www.numistral.fr/ark:/12148/bpt6k9415049v/f72.planchecontact">
+                  <hi rend="underline">https://www.numistral.fr/ark:/12148/bpt6k9415049v/f72.planchecontact</hi>
+                </ref> (doc. cons. le 06.07.2020).</p>
+            </note>, ainsi qu’à <placeName ref="6441131" type="geonames" xml:base="https://www.geonames.org/">Haguenau</placeName>, par
+          <persName ref="16043789X" type="idref" xml:base="https://www.idref.fr/">Valentin Kobian</persName>
+            <note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Benzing, <hi rend="italic">Bibliographie haguenovienne</hi>,
+              p.&#160;115, 1&#160;; voir aussi Benzing, <hi rend="italic">Bibliographie
+              haguenovienne</hi>, p.&#160;115, 5.</p>
+            </note>, et à <placeName ref="6441541" type="geonames" xml:base="https://www.geonames.org/">Mulhouse</placeName>, par
+          <persName type="_temp">Pierre Schmid</persName>
+            <note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Benzing, Mulhouse, 40</p>
+            </note>. D’autres sciences arabes, l’astronomie et l’alchimie,
+          sont également représentées, soit directement par des traductions et
+          des éditions<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Chrisman S12.1.37 (plusieurs autres éditions référencées dans
+              VD 16)&#160;; S16.1.3</p>
+            </note>, soit indirectement par des traces que l’on peut déceler
+          dans des ouvrages aux sujets très variés. Un exemple intéressant,
+          une nouvelle fois tiré du champ botanique, mais un peu plus tardif,
+          est le <hi rend="italic">De hortis Germaniae </hi>de <persName ref="026889560" type="idref" xml:base="https://www.idref.fr/">Conrad
+          Gesner</persName> où l’on trouve la première description et la
+          première représentation imprimée de la «&#160;<hi rend="italic">
+              <foreign xml:lang="lat">Tulipa turcarum</foreign>
+            </hi>&#160;», la fleur la plus emblématique de l’empire ottoman
+          (<persName ref="077906284" type="idref" xml:base="https://www.idref.fr/">Josias Rihel</persName>, <date type="_temp" when="1561">1561</date>&#160;; <hi>voir ill.
+          ci-contre</hi>)<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Voir par exemple aussi les articles de George Bischoff et
+              d’Édouard Mehl, respectivement p.&#160;21 et 73</p>
+            </note>.</p>
+          <figure xml:id="d1e599">
+            <graphic url="https://didomena.ehess.fr/downloads/db78tm03m.jpg"/>
+            <head xml:id="d1e600">Figure 5. La première description et la
+            première représentation de la tulipe dans un ouvrage imprimé
+            (Conrad Gesner, <hi rend="italic">De hortis Germaniae</hi>,
+            Strasbourg, Josias Rihel, 1561&#160;; coll.&#160;Bnu). Clichés Jean-Pierre
+            Rosenkranz. CC-BY-NC-SA.</head>
+          </figure>
+          <p xml:id="d1e607">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-jed2umhg">débat</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+              </term>
+            </term>Très peu
+          de ces éditions alsaciennes ont été étudiées de manière détaillée.
+          Elles posent pourtant de nombreuses questions, notamment sur leurs
+          objectifs et les manières dont elles convergent ou divergent avec
+          d’autres éditions européennes, en particulier italiennes,
+          contemporaines. Comme nous avons parlé des défenseurs d’<persName ref="086202936" type="idref" xml:base="https://www.idref.fr/">Avicenne</persName> et des savants
+          arabes, il convient d’évoquer aussi leurs détracteurs. Il est
+          important de souligner qu’il ne s’agit pas seulement de débats
+          scientifiques rationnels mais aussi, largement, de querelles
+          idéologiques et passionnelles. Ainsi, sous la plume du
+          Montpelliérain <persName ref="027991156" type="idref" xml:base="https://www.idref.fr/">Symphorien Champier</persName>,
+          <persName ref="086202936" type="idref" xml:base="https://www.idref.fr/">Avicenne</persName> passe d’«&#160;un
+          homme d’un génie exceptionnel&#160;» vers <date type="_temp" when="1506">1506</date> à un «&#160;apostat impie, qui trompe les
+          médecins chrétiens par une philosophie inepte et barbare&#160;» en <date type="_temp" when="1528">1528</date>. Les médecins latins héritiers
+          des Arabes sont aussi classés parmi les «&#160;<foreign xml:lang="ara">barbari</foreign>&#160;», des jugements dont on trouve
+          encore des traces aujourd’hui, dans l’histoire des sciences et
+          au-delà. Les critiques les plus virulentes viennent de <persName ref="034420312" type="idref" xml:base="https://www.idref.fr/">Fuchs</persName> à <placeName ref="2820860" type="geonames" xml:base="https://www.geonames.org/">Tübingen</placeName> et de
+          <persName ref="02733869X" type="idref" xml:base="https://www.idref.fr/">Paracelse</persName> à <placeName ref="2661604" type="geonames" xml:base="https://www.geonames.org/">Bâle</placeName> dans les <date from="1520" to="1539" type="_temp">années&#160;1520-30</date>, mais
+          l’influence d’<persName ref="086202936" type="idref" xml:base="https://www.idref.fr/">Avicenne</persName> et des Arabes
+          reste très importante jusqu’au <date from="1600" to="1699" type="_temp">17<hi rend="sup">e</hi>&#160;siècle</date>
+            <note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Gerhard Baader, «&#160;Medizinisches Reformdenken und Arabismus im
+              Deutschland des 16. Jahrhunderts&#160;», in <hi rend="italic">Sudhoffs Archiv </hi>63/3 (1979), p.&#160;261-296&#160;;
+              Siraisi, <hi rend="italic">Avicenna in Renaissance Italy</hi>,
+              op.&#160;cit., p.&#160;66-83</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e622">
+          <head subtype="level1" xml:id="d1e623">L’ombre des Turcs</head>
+          <p xml:id="d1e625">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion<term ref="doi:10.34817/sv-tdzo9yqq">islam</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion<term ref="doi:10.34817/sv-qgdxlfpw">christianisme</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs</term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+              </term>
+            </term>Si les
+          sciences «&#160;arabes&#160;» suscitent une réception passionnée, un autre
+          domaine est encore plus sensible parce qu’il a trait aux rivalités
+          et aux conflits religieux et politiques entre la chrétienté et
+          l’Islam. À côté de romans qui reflètent un Orient entièrement
+          fantasmé<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <hi rend="italic"> Heldenbuch</hi>, Jean Prüss, v.&#160;1479 (ISTC
+              No.ih00013400)</p>
+            </note> et de récits de pèlerinage et de voyage témoignant de
+          contacts plus concrets avec le Proche-Orient<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Chrisman S6.1.2, S6.1.3, S6.1.4, S6.5.2, S6.5.3, S6.5.7</p>
+            </note>, de nombreux ouvrages font directement écho à la menace
+          ottomane. À ce titre, il convient de rappeler que les tout premiers
+          textes jamais imprimés, à <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName> en <date from="1454" to="1455" type="_temp">1454-55</date> (deux ans après la
+          prise de <placeName ref="745044" type="geonames" xml:base="https://www.geonames.org/">Constantinople</placeName> par
+          <persName ref="028517210" type="idref" xml:base="https://www.idref.fr/">Mehmet&#160;II</persName>), sont des
+          indulgences pour financer la guerre contre les Turcs et que les
+          «&#160;Turcica&#160;» représentent un pan très important de l’édition
+          européenne aux <date from="1400" to="1599" type="_temp">15<hi rend="sup">e</hi>-16<hi rend="sup">e</hi>&#160;siècles</date>
+            <note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Carl Göllner, <hi rend="italic">Turcica&#160;: Die europäischen
+              Türkendrucke des XVI. Jahrhunderts</hi>,
+              2&#160;vol.&#160;(Bucarest-Berlin, 1961)</p>
+            </note>. Nous avons pu recenser une quarantaine de <hi rend="italic">Turcica </hi>strasbourgeois et haguenoviens de cette
+          période. Ceux-ci incluent&#160;:</p>
+          <list type="unordered" xml:id="d1e653">
+            <item>des lettres attribuées à <persName ref="028517210" type="idref" xml:base="https://www.idref.fr/">Mehmet&#160;II</persName>
+            (un grand succès éditorial européen)&#160;;</item>
+            <item>des appels à la croisade sous diverses formes&#160;: calendrier
+            (le <hi rend="italic">
+                <foreign xml:lang="deu">Heiliggrabkalender</foreign>
+              </hi>), discours / sermons d’autorités religieuses de tous
+            bords, de <persName ref="028332202" type="idref" xml:base="https://www.idref.fr/">Pie&#160;II</persName> à <persName ref="026998416" type="idref" xml:base="https://www.idref.fr/">Luther</persName>, exhortation au
+            clergé à propager l’indulgence au profit de la croisade contre les
+            Turcs, et même œuvre dramatique (<persName type="_temp">Locher</persName>)&#160;;</item>
+            <item>des ouvrages historiographiques tout aussi édifiants
+            (<persName ref="030322995" type="idref" xml:base="https://www.idref.fr/">Caoursin</persName>, <persName ref="237844249" type="idref" xml:base="https://www.idref.fr/">Müling</persName>…<note n="31" place="foot" type="standard" xml:id="ftn31">
+                <p>Chrisman V9.1 (plusieurs titres), V9.2.7 et 8, V9.3.2,
+                H5.4.4, H5.4.5, H5.4.8, H5.4.12</p>
+              </note>), ainsi que des brochures de nouvelles<note n="32" place="foot" type="standard" xml:id="ftn32">
+                <p>Chrisman V11.2&#160;; VD16&#160;ZV&#160;22629&#160;; VD16&#160;ZV&#160;3846&#160;;
+                VD16&#160;ZV&#160;3848</p>
+              </note>&#160;;</item>
+            <item>des traités exposant des renseignements sur les Turcs,
+            notamment par d’anciens captifs, parfois romancés <hi>(voir ill.
+            p.&#160;19)</hi>
+              <note n="33" place="foot" type="standard" xml:id="ftn33">
+                <p>Chrisman V9.1.6, V6.3.15&#160;; VD16&#160;G&#160;1386</p>
+              </note>&#160;;</item>
+            <item>la réfutation du Coran par <persName ref="030384796" type="idref" xml:base="https://www.idref.fr/">Dionysius von
+            Rickel</persName>&#160;;</item>
+            <item>ou, au contraire, des tentatives d’encourager
+            l’évangélisation, voire le rapprochement avec les Turcs (en
+            particulier <persName ref="085720372" type="idref" xml:base="https://www.idref.fr/">Erasme</persName>, <persName ref="027669874" type="idref" xml:base="https://www.idref.fr/">Vives</persName>, <persName ref="032895259" type="idref" xml:base="https://www.idref.fr/">Sebastian Franck</persName>&#160;;
+            certains réformateurs radicaux furent même soupçonnés de
+            «&#160;<foreign xml:lang="deu">Türkenhoffnung</foreign>&#160;», c’est-à-dire
+            de souhaiter la domination des Turcs<note n="34" place="foot" type="standard" xml:id="ftn34">
+                <p>Gregory&#160;J.&#160;Miller, <hi rend="italic">The Turks and Islam in
+                Reformation Germany </hi>(New York-Londres, 2018), ch.&#160;7</p>
+              </note>).</item>
+          </list>
+          <figure xml:id="d1e687">
+            <graphic url="https://didomena.ehess.fr/downloads/rn301929c.jpg"/>
+            <head xml:id="d1e688">Figure 6. Dionysius von Rickel, <hi rend="italic">Alchoran&#160;: das ist, des Mahometischen Gesetzbuches,
+            und Türkischen Aberglaubens ynnhalt und ablänung </hi>(Strasbourg,
+            Jean Schott, 1540)&#160;: page de garde montrant à gauche cinq Juifs,
+            au centre Sergius der Ketzer [Serge l’hérétique] et à droite
+            Mahomet (coll. Bnu). Clichés Jean-Pierre Rosenkranz.
+            CC-BY-NC-SA</head>
+          </figure>
+          <p xml:id="d1e695">À côté de l’avancée des Turcs en Europe
+          orientale, les Alsaciens sont aussi informés du sort des musulmans
+          restés dans la péninsule ibérique. Ainsi, dans son <hi rend="italic">Livre des quadrupèdes</hi>, <persName type="_temp">Michel Herr</persName> évoque les «&#160;mœurs cyniques des
+          Maures&#160;» qui sont faits esclaves à <placeName ref="6458923" type="geonames" xml:base="https://www.geonames.org/">Lisbonne</placeName>
+            <note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Wickersheimer, «&#160;Le livre des quadrupèdes…&#160;», op.&#160;cit.,
+              p.&#160;276</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e703">
+          <head subtype="level1" xml:id="d1e704">En guise de conclusion</head>
+          <p xml:id="d1e706">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-hefvbw9m">diffusion</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-ohaapat7">analyse</term>
+              </term>
+            </term>Ce
+          recensement s’est voulu le plus exhaustif possible. Il est certes
+          appelé à être complété, par d’autres ouvrages qui nous ont sans
+          doute échappé. Il offre néanmoins une première vue d’ensemble de la
+          présence arabo-islamique dans l’édition alsacienne aux <date from="1400" to="1599" type="_temp">15<hi rend="sup">e</hi>-16<hi rend="sup">e</hi>&#160;siècles</date>, révélant une grande diversité de
+          thèmes, de voies, de formes de transmission, ainsi que d’attitudes
+          envers ce «&#160;matériel&#160;». Cette recherche doit cependant être
+          poursuivie, par une analyse détaillée de chaque édition et de son
+          tirage, et par une réflexion sur les objectifs des éditeurs −
+          sont-ils scientifiques, idéologiques ou purement commerciaux&#160;? –
+          ainsi que sur leurs stratégies de diffusion, notamment au regard des
+          livres similaires imprimés à <placeName ref="2661604" type="geonames" xml:base="https://www.geonames.org/">Bâle</placeName>, qui fait
+          alors partie du même espace culturel, mais aussi dans d’autres
+          régions et présents en <placeName ref="3038032" type="geonames" xml:base="https://www.geonames.org/">Alsace</placeName>.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

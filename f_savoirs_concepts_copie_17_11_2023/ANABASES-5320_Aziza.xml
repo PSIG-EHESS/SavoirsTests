@@ -1,0 +1,1012 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-5320_Aziza">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le roman historique est-il
+        archéocompatible&#160;?</title>
+        <author role="aut">
+          <forename>Claude</forename>
+          <surname>Aziza</surname>
+          <idno type="IDREF">026698900</idno>
+          <affiliation>Université de la Sorbonne Nouvelle,
+          Paris&#160;III</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/95ZPHLXF" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Le roman historique est-il archéocompatible
+            ?</title>
+            <idno type="DOI">10.4000/anabases.5320</idno>
+            <author>
+              <forename>Claude</forename>
+              <surname>Aziza</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Anabases. Traditions et réceptions de
+            l’Antiquité</title>
+            <idno type="ISSN">1774-4296</idno>
+            <imprint>
+              <biblScope unit="issue">21</biblScope>
+              <biblScope unit="page">181-194</biblScope>
+              <date>2015</date>
+              <note type="accessed">2022-07-06T08:06:03Z</note>
+              <note type="url">https://journals.openedition.org/anabases/5320</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Rome</item>
+            <item>Carthage</item>
+            <item>archéologie</item>
+            <item>Pompéi</item>
+            <item>Égypte</item>
+            <item>égyptologie</item>
+            <item>roman historique</item>
+            <item>Jérusalem</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Rome</item>
+            <item>Carthage</item>
+            <item>Egypt</item>
+            <item>historical novel</item>
+            <item>Egyptology</item>
+            <item>Archaeology</item>
+            <item>Pompeii</item>
+            <item>Jerusalem</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+          <term>
+            <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>
+          </term>
+          <term>
+            <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>
+          </term>
+          <term>
+            <placeName ref="11109179" type="geonames" xml:base="https://www.geonames.org/">Carthage</placeName>
+          </term>
+          <term>
+            <placeName ref="293198" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName>
+          </term>
+          <term>
+            <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Egypte</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1800" to="1899" type="_temp">XIX<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1900" to="1999" type="_temp">XX<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart level="a" type="main">Le roman historique est-il
+          archéocompatible<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Ce texte est la version abrégée d’une conférence faite le
+              18&#160;octobre&#160;2014, au Musée archéologique de Nîmes, dans le cadre
+              d’un cycle sur l’Archéologie.</p>
+            </note>&#160;?</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Claude Aziza</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:id="d1e233" xml:lang="fre">Le roman historique et l’archéologie
+        sont nés pour ainsi dire en même temps. Chacun d’eux plonge ses
+        racines dans l’Histoire mais le premier fait partie des Belles Lettres
+        alors que la seconde entre dans le champ des sciences humaines.
+        Pourtant, tout au long du <hi rend="small-caps">xix</hi>
+          <hi rend="sup">e</hi>&#160;siècle, se tissent d’invisibles liens entre les
+        découvertes archéologiques et les productions fictionnelles à sujet
+        antique. L’Égypte, la Grèce, Rome, l’Afrique inspirent les romanciers
+        qui marchent sur les pas des archéologues. Thèbes, Pompéi, Rome,
+        Carthage, Jérusalem, autant de noms qui suscitent un imaginaire dont
+        la poésie masque l’érudition.</p>
+        <p xml:id="d1e241" xml:lang="eng">Historical novel and archaeology are
+        not, so to speak, born together. Each one is rooted in History but the
+        first one is part of Belles Lettres, while the second one of Human
+        Sciences. Nonetheless, all along the 19<hi rend="sup">th</hi>&#160;century,
+        invisible links have been created between archaeological discoveries
+        and fictions about Antiquity. Egypt, Greece, Rome, Africa inspired
+        novelists, who walked on the footprints of archaeologists. Thebes,
+        Pompeii, Rome, Carthage, Jerusalem, so many names that evoke an
+        imaginary where the poetic masks the erudite.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e253">On voudra bien pardonner ici un terme
+        volontairement ludique pour un sujet qui risque de l’être moins, à
+        savoir examiner les liens entre la toute jeune archéologie et ce
+        nouveau genre littéraire qu’est le roman, qu’il soit historique ou
+        autre. Tous deux sont nés à la fin du <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>, ont prospéré tout au long du <date from="1800" to="1899" type="_temp">siècle suivant</date>, ont fait les
+        beaux jours du <date from="1900" to="1999" type="_temp">
+            <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi>
+          </date> et se portent à merveille aujourd’hui. Ce type de roman
+        a-t-il une dette envers cette jeune science&#160;? Les chantiers de
+        fouilles ont-ils inspiré des romans historiques&#160;? Tentative de réponse
+        en six romans et autant de nouvelles.</p>
+        <div type="section1" xml:id="d1e265">
+          <head subtype="level1" xml:id="d1e266">
+            <hi rend="italic">Les
+          Derniers Jours de Pompéi </hi>ou l’Antiquité ressuscitée
+          (1834)</head>
+          <p xml:id="d1e270">Peu de temps avant <hi rend="italic">Les
+          Martyrs</hi> (<date type="_temp" when="1809">1809</date>), en <date type="_temp" when="1804">1804</date>, <persName ref="026782022" type="idref" xml:base="https://www.idref.fr/">Chateaubriand</persName>,
+          secrétaire d’ambassade à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> depuis <date type="_temp" when="1803">1803</date>, est allé voir <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>. Il en a
+          retiré une impression, très en avance pour son temps&#160;: «&#160;Il faut
+          laisser les choses, écrit-il dans son <hi rend="italic">Voyage en
+          Italie</hi>, dans l’endroit où on les trouve. Ne serait-ce pas là le
+          plus merveilleux musée de la terre&#160;? Une ville romaine conservée
+          tout entière, comme si ses habitants venaient d’en sortir un quart
+          d’heure auparavant&#160;?&#160;» Un autre écrivain ira encore plus loin,
+          <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">E.G.&#160;Bulwer-Lytton</persName>
+          (<date from="1803" to="1873" type="_temp">1803-1873</date>).</p>
+          <p xml:id="d1e278">Car, en ce <date from="1800" to="1899" type="_temp">début de siècle</date>, pour ressusciter la vie des
+          siècles passés, il fallait à la fois se faire historien et
+          «&#160;&#8201;antiquaire&#8201;&#160;», terme qui englobera au <date from="1900" to="1999" type="_temp">siècle suivant</date> à la fois l’historien et
+          l’archéologue des siècles passés. <persName ref="027129489" type="idref" xml:base="https://www.idref.fr/">Walter
+          Scott</persName> survint alors, qui commença à vouloir faire revivre
+          cette <placeName ref="2638360" type="geonames" xml:base="https://www.geonames.org/">Écosse</placeName>, d’où il
+          était originaire. Ses romans furent portés aux nues dans toute
+          l’Europe. Mais, bien qu’elle ne touchât en rien à l’<date type="_temp">Antiquité</date>, l’œuvre romanesque de <persName ref="027129489" type="idref" xml:base="https://www.idref.fr/">Scott</persName> allait jeter les
+          bases d’une nouvelle vision historique qui inspirera <date from="1800" to="1899" type="_temp">tout le siècle</date>, mais, au
+          premier chef, le plus grand des disciples du romancier, <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">Edward
+          George Bulwer-Lytton</persName>, l’immortel auteur des <hi rend="italic">Derniers Jours de Pompéi</hi>.</p>
+          <p xml:id="d1e286">
+            <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">Edward George Bulwer</persName>,
+          qui deviendra plus tard (en <date type="_temp" when="1866">1866</date>) <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">baron Lytton de
+          Knebworth</persName>, reste aujourd’hui, l’homme d’un seul roman
+          mais en réalité ses œuvres dépassent la centaine. Poète couronné,
+          auteur dramatique à succès, romancier doué, homme d’État, grand
+          voyageur, il a été tout cela.</p>
+          <p xml:id="d1e288">Mais revenons à cet hiver <date from="1832" to="1833" type="_temp">1832-1833</date> qui voit notre jeune
+          romancier, marié depuis peu, partir en Campanie avec une épouse pour
+          laquelle il n’éprouve pas une grande passion. Laquelle goûte peu aux
+          charmes d’une région alors insalubre et préfère les agréments
+          napolitains aux rêveries sur les cités disparues. Va-t-elle peu ou
+          prou rendre jaloux son tiède époux&#160;? Va-t-il retrouver au pied du
+          Vésuve, alors éteint, le souvenir d’un amour de jeunesse déçu&#160;? Peu
+          importe. Le cœur a ses raisons qui nourrissent la création
+          littéraire&#160;: c’est l’essentiel. Il faut imaginer notre jeune
+          écrivain romantique errant, seul, le cœur en écharpe, dans une cité
+          alors ouverte à tous, devenue, depuis un petit demi-siècle, le lieu
+          de passage obligé de toute l’Europe. Le Vésuve prend part à la
+          fête&#160;: il gronde en <date type="_temp" when="1794">1794</date>, perd
+          encore deux cent mètres de haut mais se rattrape en dévorant
+          <placeName ref="6541907" type="geonames" xml:base="https://www.geonames.org/">Torre Del Greco</placeName>&#160;;
+          il s’épanche encore en <date type="_temp" when="1822">1822</date>.</p>
+          <p xml:id="d1e290">Mais rien n’y fait&#160;: écrivains et princes
+          affluent&#160;: <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, puis <persName ref="027129489" type="idref" xml:base="https://www.idref.fr/">Walter
+          Scott</persName>, en compagnie de <persName ref="078188202" type="idref" xml:base="https://www.idref.fr/">William
+          Gell</persName>, auteur d’ouvrages savants sur <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>, à qui
+          <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">Bulwer-Lytton</persName> – qui fut
+          son hôte à <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName> – dédicacera
+          son roman en lui témoignant toute son admiration. C’est sans doute
+          par lui qu’il connut les réactions de <persName ref="027129489" type="idref" xml:base="https://www.idref.fr/">Scott</persName>
+          visitant <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>&#160;: «&#160;La cité
+          de la Mort&#160;! La cité de la Mort.&#160;» On peut imaginer que cette
+          réflexion lui a donné le désir de refaire de <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> une cité de
+          la Vie. Il arrivait d’ailleurs au bon moment&#160;; les découvertes
+          succédaient aux découvertes&#160;: en <date type="_temp" when="1810">1810</date>, des amulettes trouvées dans le temple
+          d’Isis, un des hauts lieux du roman, en <date type="_temp" when="1815">1815</date>, l’amphithéâtre est dégagé, en <date type="_temp" when="1824">1824</date>, c’est le tour du temple de la
+          Fortune Auguste et, un an plus tard, c’est la découverte d’une
+          maison que l’on baptise «&#160;Maison du poète tragique&#160;». Ce sera la
+          demeure de <persName type="_temp">Glaucos</persName>, le héros du
+          roman. En <date type="_temp" when="1831">1831</date>, encore, on
+          découvre la superbe mosaïque d’«&#160;Alexandre à Issus&#160;».</p>
+          <p xml:id="d1e292">Le secret du roman se trouve alors dans la
+          préface&#160;: «&#160;Repeupler une fois encore ces rues désertes, restaurer
+          ces ruines élégantes et réanimer des ossements encore cachés (au)
+          regard, traversant un gouffre de dix-huit siècles et éveillant à une
+          seconde existence la cité de la Mort&#160;!&#160;» Il s’agit non seulement de
+          rivaliser avec le Maître mais, bien plus, de le surpasser. Mais la
+          tâche est difficile, «&#160;car, nous sommes sans lien domestique ou
+          familier avec l’<date>âge classique</date>&#160;[…]&#160;; et ces choses,
+          liées à des souvenirs d’étude imposées comme besogne et non
+          cultivées comme plaisir, nous furent rendues encore plus usées par
+          les pédanteries scolastiques qui en premier lieu nous les firent
+          connaître.&#160;»</p>
+          <p xml:id="d1e294">
+            <hi rend="italic">Les Derniers Jours de
+          Pompéi</hi> paraissent en <date type="_temp" when="1834">1834</date>, le romancier a choisi une fiction
+          directement liée à l’histoire mais il a mis l’érudition à son
+          service. Certes il sait se montrer latiniste, archéologue,
+          historien, moraliste, philosophe. Mais il refuse la pédanterie,
+          adopte un langage vivant, n’hésite pas devant les situations
+          mélodramatiques et se veut poète romantique. <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>, sous les
+          auspices de <persName ref="027129489" type="idref" xml:base="https://www.idref.fr/">Scott</persName> et de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, est redevenue
+          une cité vivante que l’on peut visiter avec pour guide le roman de
+          <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">Bulwer-Lytton</persName>. Bien
+          plus, au-delà d’un fatras romantique, un peu dépassé aujourd’hui, on
+          y trouvera une mine de renseignements, dont certains donnent à voir
+          des étapes aujourd’hui disparues de la résurrection de la cité. Avec
+          les ans, le roman s’est fait à la fois guide archéologique, témoin
+          d’un temps disparu, sans perdre sa force et son charme, fût-il
+          parfois suranné.</p>
+          <p xml:id="d1e298">Avant <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">Bulwer</persName>, il y avait eu, à
+          <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>, <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, le <date type="_temp" when="1787-03-11">11&#160;mars&#160;1787</date> que l’exiguïté de
+          la cité surprend et qui regrette, lors de sa visite à <placeName ref="3177364" type="geonames" xml:base="https://www.geonames.org/">Herculanum</placeName>, le
+          lendemain que «&#160;les fouilles n’aient pas été faites méthodiquement
+          par des mineurs allemands.&#160;» Il est vrai que trois ans plus tôt, en
+          <date type="_temp" when="1784">1784</date>, <persName ref="028422058" type="idref" xml:base="https://www.idref.fr/">Winckelmann</persName> comptait
+          dans les quelque cinquante travailleurs attribués aux fouilles – et
+          dont seuls huit étaient au travail lors de sa visite&#160;! – «&#160;les
+          esclaves d’<placeName ref="2507480" type="geonames" xml:base="https://www.geonames.org/">Alger</placeName> et de
+          <placeName ref="2464470" type="geonames" xml:base="https://www.geonames.org/">Tunis</placeName>&#160;»…</p>
+          <p xml:id="d1e300">Après <persName ref="026782022" type="idref" xml:base="https://www.idref.fr/">Chateaubriand</persName>, ce seront
+          <persName ref="02714691X" type="idref" xml:base="https://www.idref.fr/">Madame de Staël</persName>, en
+          <date type="_temp" when="1805">1805</date>, <persName ref="026962284" type="idref" xml:base="https://www.idref.fr/">Lamartine</persName>, en <date type="_temp" when="1811">1811</date>, <persName ref="027148351" type="idref" xml:base="https://www.idref.fr/">Stendhal</persName>,
+          en <date type="_temp" when="1817">1817</date>. Après lui <persName ref="026665875" type="idref" xml:base="https://www.idref.fr/">Nerval</persName>, en <date type="_temp" when="1834">1834</date>, l’année même de la parution du
+          roman, puis, de retour d’Orient en <date type="_temp" when="1843">1843</date>. <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> lui inspire
+          un curieux texte, <hi rend="italic">Le Temple d’Isis, souvenir de
+          Pompéi</hi>, qui deviendra <hi rend="italic">Isis</hi> (<date type="_temp" when="1845">1845</date>), une nouvelle reprise ensuite
+          dans le recueil, <hi rend="italic">Les Filles du feu</hi> (<date type="_temp" when="1854">1854</date>). Son ami <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName>, visite la cité
+          en <date type="_temp" when="1850">1850</date>. Cette visite lui
+          inspirera, en <date type="_temp" when="1852">1852</date>, une
+          nouvelle, <hi rend="italic">Arria Marcella</hi>. <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Flaubert</persName>, le suivra
+          d’une année&#160;; <persName ref="086056956" type="idref" xml:base="https://www.idref.fr/">Taine</persName> viendra en <date type="_temp" when="1864">1864</date>, <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName>,
+          enfin, en <date type="_temp" when="1902">1902</date>.</p>
+          <p xml:id="d1e314">Reste <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Alexandre Dumas</persName> qui suit
+          d’une année <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">Bulwer-Lytton</persName>, lui aussi
+          à la recherche d’une <date type="_temp">Antiquité</date> plus
+          vivante que celle de ses souvenirs d’études.</p>
+        </div>
+        <div type="section1" xml:id="d1e316">
+          <head subtype="level1" xml:id="d1e317">
+            <hi rend="italic">Acté</hi>
+          ou l’Antiquité flamboyante (1839)</head>
+          <quote rend="quotation" xml:id="d1e690">«&#160;Quand je suis bien las,
+          bien fatigué, bien abruti, je trouve un prétexte pour aller à
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> et j’y vais.
+          Quand je ne trouve pas de prétexte, j’y vais encore.<lb/>– Mais que
+          faites-vous à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>&#160;? me
+          demanderez-vous.<lb/>– Oh&#160;! ce que je fais à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, c’est bien
+          facile à dire&#160;: je vais voir la via Appia&#160;; je vais regarder couler
+          le Tibre&#160;; je vais m’asseoir sous une arcade du Colisée, et je dis à
+          part moi&#160;: “Il faut pourtant que je fasse une histoire de <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>.”<lb/>–
+          Pourquoi ne la faites-vous pas alors&#160;?<lb/>– Parce qu’elle serait
+          trop amusante&#160;; personne ne la lirait.&#160;»</quote>
+          <p xml:id="d1e331">Aveu faussement naïf ou vraiment roublard&#160;?
+          Lorsque <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Dumas</persName> écrit ces lignes,
+          en <date type="_temp" when="1860">1860</date>, il a depuis longtemps
+          compris que pour séduire avec l’Histoire, la vraie, la grande, les
+          lecteurs, il vaut mieux avoir le sens de l’épopée ou du drame que
+          celui de la pédagogie. Le secret&#160;? Le romancier nous le livre dans
+          la préface de <hi rend="italic">Caligula</hi> (<date type="_temp" when="1837">1837</date>), une tragédie en cinq actes et en vers&#160;:
+          faire revivre «&#160;toute une époque inconnue, ou, qui pis est, mal
+          connue&#160;; une époque que, arrivés à un certain âge, nous ne revoyons
+          plus qu’à travers les souvenirs fastidieux du collège&#160;[…]. Ajoutez à
+          cela que l’<date type="_temp">Antiquité</date> […] était tombée dans
+          un si merveilleux discrédit, que l’ennui qu’elle traînait à sa suite
+          était devenu proverbial&#160;[…]. Je partis pour l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, afin de
+          voir <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>&#160;; car, ne
+          pouvant étudier le cadavre, je voulais au moins visiter le tombeau.
+          Je restais deux mois dans la ville aux sept collines, visitant le
+          <placeName ref="11002475" type="geonames" xml:base="https://www.geonames.org/">Vatican</placeName> le jour, et
+          la nuit le Colisée&#160;; mais après avoir tout rebâti dans ma pensée,
+          depuis les prisons Mamertines jusqu’aux bains de <persName ref="027746887" type="idref" xml:base="https://www.idref.fr/">Titus</persName>, je m’aperçus que
+          je n’avais qu’une face du <persName ref="050768271" type="idref" xml:base="https://www.idref.fr/">Janus</persName> antique&#160;; face
+          grave et sévère […]. C’était <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName>, la belle
+          esclave grecque, qui devait m’offrir ce second visage, voilé, pour
+          nos grands maîtres, sous la lave d’<placeName ref="3177364" type="geonames" xml:base="https://www.geonames.org/">Herculanum</placeName> et la
+          cendre de <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>.&#160;»</p>
+          <p xml:id="d1e336">Arrivé le <date type="_temp" when="1860-06-19">19&#160;juin</date> en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Dumas</persName> part donc pour
+          <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName> le <date type="_temp" when="1860-07-02">2&#160;août</date>, quasiment sur les
+          traces de <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">Bulwer-Lytton</persName>. Il y
+          restera jusqu’au&#160;<date type="_temp" when="1860-07-23">23</date>,
+          après avoir longuement visité la ville, <placeName ref="3169984" type="geonames" xml:base="https://www.geonames.org/">Pouzzoles</placeName>, le
+          Vésuve, <placeName ref="3177364" type="geonames" xml:base="https://www.geonames.org/">Herculanum</placeName> et
+          <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> où il décide
+          de séjourner, mais à sa façon&#160;: «&#160;Je descendis dans les souterrains
+          de <placeName ref="3177364" type="geonames" xml:base="https://www.geonames.org/">Résina</placeName>, je
+          m’établis dans la maison du Faune&#160;; pendant huit jours je vécus,
+          m’éveillant et m’endormant dans une habitation romaine, touchant du
+          doigt l’<date type="_temp">Antiquité</date>.&#160;» Faut-il le croire&#160;?
+          Avec ce diable d’homme, tout est possible&#160;!</p>
+          <p xml:id="d1e338">Cet amour pour <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> laissera
+          chez <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Dumas</persName> une trace si
+          profonde, cet émerveillement sera si durable, qu’en <date type="_temp" when="1860-09">septembre&#160;1860</date> – il vient de
+          terminer son second roman sur <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, les <hi rend="italic">Mémoires d’Horace –</hi> il demande à <persName ref="026881950" type="idref" xml:base="https://www.idref.fr/">Garibaldi</persName>, le nouveau
+          maître du royaume de <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName>, en
+          récompense de ses services – fourniture d’armes&#8201;– … la direction des
+          musées de <placeName ref="3172394" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName> et des
+          fouilles de <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>. Et il
+          l’obtient. Pour peu de mois, il est vrai&#160;: <persName ref="063876337" type="idref" xml:base="https://www.idref.fr/">Fiorelli</persName>,
+          l’inventeur des moulages, lui succédera en <date type="_temp" when="1860-12">décembre</date>.</p>
+          <p xml:id="d1e343">Comment est donc venu à <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Dumas</persName> le
+          désir de parler de l’<date type="_temp">Antiquité</date>&#160;? Sans
+          doute pour les mêmes raisons que <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">Bulwer-Lytton</persName>&#160;: dans les
+          deux cas, il s’agit d’une <date type="_temp">Antiquité</date> qui a
+          pris les couleurs romantiques&#160;: un amour fou, auquel l’héroïne –
+          tendre et touchante comme il se doit – succombe immédiatement. Elle
+          y était prédestinée. Mais chez l’un, après avoir vaincu la folie des
+          hommes et la rage de la nature, il triomphera. Alors que chez
+          l’autre cet amour est sans espoir. Bien plus, il entraînera
+          l’innocente Acté dans le péché au point qu’elle devra trouver dans
+          la religion chrétienne – telle une nouvelle <persName ref="096422599" type="idref" xml:base="https://www.idref.fr/">Marie-Madeleine</persName> – son
+          salut par le rachat. Car chez nos deux romanciers, le christianisme
+          n’est jamais bien loin. Parfois, comme chez le premier, en faisant
+          fi de toute vérité historique.</p>
+          <p xml:id="d1e345">Mais la radicale nouveauté d’<hi rend="italic">Acté</hi> se trouve dans le portrait que le romancier
+          a donné de <persName ref="027292320" type="idref" xml:base="https://www.idref.fr/">Néron</persName>. La réputation
+          sulfureuse de celui que les Pères de l’Eglise, avec une complaisance
+          sans cesse renouvelée, ont nommé «&#160;l’Antéchrist&#160;», n’a jamais cessé
+          de croître et d’embellir. Or <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Dumas</persName>, en l’absence de
+          toute documentation scientifique sérieuse sur le personnage, en
+          donne – comme beaucoup d’historiens contemporains – un portrait
+          somme toute positif.</p>
+          <p xml:id="d1e350">Le roman est construit comme une tragédie en cinq
+          actes&#160;: les jeux de Corinthe, la cour de <persName ref="027292320" type="idref" xml:base="https://www.idref.fr/">Néron</persName>, les
+          catacombes, les noces impériales, la mort du tyran. Mais si
+          <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Dumas</persName> ne résiste pas à
+          décrire les jeux du cirque, bizarrement, il bâcle en quelques
+          lignes, la tarte à la crème – si l’on ose dire – de tous les romans
+          qui suivront&#160;: l’incendie de <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> de <date type="_temp" when="0064">64</date>. Le romancier refuse la
+          description pour la description&#160;: son héroïne n’est pas mêlée à
+          l’incendie dont le complaisant tableau n’obéirait à aucune nécessité
+          dramatique.</p>
+          <p xml:id="d1e352">Si, avec <hi rend="italic">Acté,</hi> la
+          littérature française entrait, avec toute la pompe du triomphe
+          romain, dans le roman à l’antique, l’influence de <persName ref="026782022" type="idref" xml:base="https://www.idref.fr/">Chateaubriand</persName> restait
+          trop grande pour qu’on puisse abandonner si vite l’<date type="_temp">Antiquité chrétienne</date>. Il aura un successeur de
+          talent en la personne du cardinal <persName ref="027198596" type="idref" xml:base="https://www.idref.fr/">Wiseman</persName>,
+          qui écrit en <date type="_temp" when="1854">1854</date>
+            <hi rend="italic">Fabiola ou l’église des catacombes.</hi>
+          </p>
+        </div>
+        <div type="section1" xml:id="d1e360">
+          <head subtype="level1" xml:id="d1e361">
+            <hi rend="italic">Fabiola</hi> ou l’Antiquité chrétienne (1854)</head>
+          <p xml:id="d1e365">La vie et la carrière du romancier, né à
+          <placeName ref="2510911" type="geonames" xml:base="https://www.geonames.org/">Séville</placeName> en <date type="_temp" when="1802">1802</date>, la même année que <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Dumas</persName> et <persName ref="026927608" type="idref" xml:base="https://www.idref.fr/">Hugo</persName>, ne manquent pas
+          d’intérêt. Brillantes études classiques, docteur en théologie,
+          linguiste confirmé, spécialiste de l’hébreu et du syriaque. Ordonné
+          prêtre en <date type="_temp" when="1825">1825</date>, professeur
+          d’hébreu et de syro-chaldéen au collège où il avait fait ses études,
+          il commence une belle carrière à la fois scientifique et littéraire.
+          Évêque en <date type="_temp" when="1840">1840</date>, vicaire
+          apostolique de <placeName ref="3169070" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> en <date type="_temp" when="1850">1850</date>, nommé cardinal la même année
+          par le pape <persName ref="027075508" type="idref" xml:base="https://www.idref.fr/">Pie&#160;IX</persName>.</p>
+          <p xml:id="d1e367">Après la publication d’<hi rend="italic">Essais</hi> en <date type="_temp" when="1853">1853</date>, <persName ref="027198596" type="idref" xml:base="https://www.idref.fr/">Wiseman</persName> songe à une
+          façon agréable et efficace de raconter les débuts du christianisme.
+          Il y travaillait par à-coups déjà. Profitant d’une maladie et d’un
+          lent voyage à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, il compose
+          <hi rend="italic">Fabiola</hi> dont le succès est immédiat. Il sera
+          durable. À sa mort, en <date type="_temp" when="1865">1865</date>,
+          il aura droit à des funérailles nationales.</p>
+          <p xml:id="d1e375">Une lecture rapide du roman y verrait un ouvrage
+          de patronage, relevé des structures littéraires nouvelles. Au
+          mélodrame il emprunte son ton larmoyant, ses accents insupportable
+          (du moins aujourd’hui), ses ressorts usés. Au feuilleton, ses coups
+          de théâtre, ses reconnaissances subites, ses familles déchirées
+          dont, ici, la fille est déjà «&#160;chrétienne de cœur&#160;», comme disait
+          <persName ref="027398153" type="idref" xml:base="https://www.idref.fr/">Tertullien</persName> en parlant de
+          <persName ref="027384365" type="idref" xml:base="https://www.idref.fr/">Pilate</persName>, tandis que le
+          père est un Romain de la vieille espèce. Pourtant le roman puise aux
+          meilleures sources de la recherche historique du siècle. <persName ref="027198596" type="idref" xml:base="https://www.idref.fr/">Wiseman</persName>, antiquisant
+          confirmé, est au fait de la toute nouvelle archéologie chrétienne,
+          illustrée par <persName ref="028433289" type="idref" xml:base="https://www.idref.fr/">Giovanni Battista de
+          Rossi</persName>. Ainsi <hi rend="italic">Fabiola</hi> peut, à la
+          limite, se présenter comme un manuel d’archéologie chrétienne à
+          l’usage des jeunes lecteurs du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, des adultes du <date from="1900" to="1999" type="_temp">
+              <hi rend="small-caps">xx</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date> et des savants du <date from="2000" to="2099" type="_temp">
+              <hi rend="small-caps">xxi</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>…</p>
+          <p xml:id="d1e395">Le hasard fait que paraît en cette même année
+          <date type="_temp" when="1854">1854</date>, cette somme monumentale
+          qu’est l’<hi rend="italic">Histoire romaine </hi>de <persName ref="028318900" type="idref" xml:base="https://www.idref.fr/">Theodor Mommsen</persName> (<date from="1817" to="1903" type="_temp">1817-1903</date>). Quant aux
+          résultats des recherches de <persName ref="028433289" type="idref" xml:base="https://www.idref.fr/">Rossi</persName>, ils ont certes
+          été publiés après le roman (en <date type="_temp" when="1861">1861</date>, ses <hi rend="italic">Inscriptiones
+          Christianae Urbis Romae</hi>, suivies par le <hi rend="italic">Dictionnaire des Antiquités chrétiennes </hi>de
+          <persName ref="074567535" type="idref" xml:base="https://www.idref.fr/">Martigny</persName>, en <date type="_temp" when="1865">1865</date>) mais ses travaux ne sont pas
+          restés inconnus de <persName ref="027198596" type="idref" xml:base="https://www.idref.fr/">Wiseman</persName> qui les cite
+          sans cesse dans ses notes. Enfin, il faudrait pouvoir démontrer –
+          mais la chose est difficile – que le roman de <persName ref="027198596" type="idref" xml:base="https://www.idref.fr/">Wiseman</persName> est aussi un
+          jalon important dans l’histoire de l’Église au <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>. On ne peut que signaler quelques
+          éléments qu’on voudrait signifiants. Il est clair que le public,
+          déjà fasciné par les découvertes de l’archéologie païenne, notamment
+          à <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>, a goûté aux
+          charmes de celle chrétienne. Un exemple, entre cent, le plus
+          spectaculaire peut-être&#160;: c’est en <date type="_temp" when="1854">1854</date> – encore une coïncidence – que fut mise à
+          jour la «&#160;crypte des papes&#160;», une chambre souterraine qui abrite les
+          dépouilles de nombre de papes du <date from="0200" to="0299" type="_temp">
+              <hi rend="small-caps">iii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, la plupart morts en martyrs. Tout
+          près se trouve le<hi rend="italic">
+              <foreign xml:lang="lat">cubiculum</foreign>
+            </hi> qui abritait jusqu’au <date from="0900" to="0999" type="_temp">
+              <hi rend="small-caps">x</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, la tombe de <persName ref="069372845" type="idref" xml:base="https://www.idref.fr/">sainte
+          Cécile</persName>, la Caecilia du roman.</p>
+          <p xml:id="d1e425">Tout comme pour <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>, le public
+          sera fasciné par ces mondes souterrains au point de s’en faire une
+          idée aussi romantique qu’inexacte. S’il fallait une clé pour
+          expliquer le succès de <hi rend="italic">Fabiola</hi> (voire celui
+          de ses épigones), nous la rechercherions volontiers dans le roman de
+          <persName ref="026999005" type="idref" xml:base="https://www.idref.fr/">Bulwer</persName>. Ici et là un
+          monde enseveli que fait redécouvrir l’archéologie, un monde
+          souterrain, une descente aux enfers, païens ou chrétien, peu
+          importe. Une société paisible tournée vers l’amour – païen ou divin
+          – qu’une catastrophe imminente, volcan ou persécution, menace de
+          détruire. Quant au portrait que fait <persName ref="027198596" type="idref" xml:base="https://www.idref.fr/">Wiseman</persName> des
+          tyrans persécuteurs que sont <persName ref="030417112" type="idref" xml:base="https://www.idref.fr/">Dioclétien</persName> et <persName ref="221739351" type="idref" xml:base="https://www.idref.fr/">Galère</persName>, il emprunte des
+          traits à celui – moins traditionnel – du héros du roman de <persName ref="026842718" type="idref" xml:base="https://www.idref.fr/">Dumas</persName>.</p>
+          <p xml:id="d1e430">Mais, il est temps de revenir en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> pour
+          découvrir d’autres horizons antiques, du haut des pyramides ou dans
+          les ruines de <placeName ref="11109179" type="geonames" xml:base="https://www.geonames.org/">Carthage</placeName>.
+          Changement de décor&#160;!</p>
+        </div>
+        <div type="section1" xml:id="d1e432">
+          <head subtype="level1" xml:id="d1e433">
+            <hi rend="italic">Le Roman de
+          la momie</hi> ou l’Antiquité refuge (1857)</head>
+          <p xml:id="d1e437">Qui mieux que <persName ref="026709635" type="idref" xml:base="https://www.idref.fr/">Baudelaire</persName>
+          a pu comprendre <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName> (<date from="1811" to="1872" type="_temp">1811-1872</date>) qui fut son
+          maître et son modèle&#160;? «&#160;Le goût du beau, écrit-il dans <hi rend="italic">L’Art romantique</hi>, est pour lui un <hi rend="italic">
+              <foreign xml:lang="lat">fatum</foreign>
+            </hi>. […] La muse de <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Théophile Gautier</persName> habite
+          un monde plus éthéré. […] Elle aime ressusciter les villes défuntes,
+          et faire redire aux morts rajeunis leurs passions interrompues. […]
+          Mais ce qu’elle aime surtout, c’est, debout sur les rivages parfumés
+          de la mer Intérieure, nous raconter avec sa parole d’or cette gloire
+          qui fut la Grèce et cette grandeur qui fut Rome…&#160;»</p>
+          <p xml:id="d1e445">Pour <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName> dont la
+          sensibilité tient à la fois du peintre qu’il aurait voulu être et du
+          poète qu’il refusa toujours d’éteindre en lui, malgré les
+          vicissitudes d’une vie tout entière de labeur, pour <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName>, donc, l’<date type="_temp">Antiquité</date>, plus que ce <date type="_temp">Moyen&#160;Âge</date> – mythique – où se réfugièrent ses
+          pairs, est, d’abord, un monde de grâces, de charmes et de beauté.
+          Cette beauté sous toutes ses formes, les récits, roman et nouvelles,
+          où <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName> évoque le monde
+          antique permettent d’en saisir les multiples aspects.</p>
+          <p xml:id="d1e447">Qu’y a-t-il de commun, en effet, entre
+          l’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> des pharaons
+          du <hi rend="italic">Roman de la momie</hi> (<date type="_temp" when="1857">1857</date>) et l’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName> de
+          <persName ref="112140556" type="idref" xml:base="https://www.idref.fr/">Périclès</persName> de <hi rend="italic">La Chaîne d’or ou l’amant partagé</hi> (<date type="_temp" when="1837">1837</date>)&#160;? Entre la mythique <placeName ref="8261120" type="geonames" xml:base="https://www.geonames.org/">Lydie</placeName> du <hi rend="italic">Roi Candaule </hi>(<date type="_temp" when="1844">1844</date>) et la troublante <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> d’<hi rend="italic">Arria Marcella</hi> (<date type="_temp" when="1852">1852</date>)&#160;? Entre la <persName ref="027316564" type="idref" xml:base="https://www.idref.fr/">Cléopâtre</persName>
+          d’<hi rend="italic">Une nuit de Cléopâtre</hi> (<date type="_temp" when="1838">1838</date>) et l’<persName ref="180102753" type="idref" xml:base="https://www.idref.fr/">Omphale</persName> d’<hi rend="italic">Omphale, ou la tapisserie amoureuse</hi> (<date type="_temp" when="1834">1834</date>)&#160;? Peu de choses, sinon que
+          toutes, peu ou prou, sont associées à des contrées fabuleuses où le
+          rêve peut prendre son essor sans entraves et où l’imagination se
+          donne libre cours dans une luxuriance de formes et de couleurs.</p>
+          <p xml:id="d1e468">Mais d’où vient l’amour de l’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> chez
+          <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName>&#160;? S’il est lié
+          aux découvertes archéologiques de son temps, on le fera remonter à
+          cette année&#160;<date type="_temp" when="1817">1817</date> où <persName ref="02671681X" type="idref" xml:base="https://www.idref.fr/">Belzoni</persName> découvre
+          l’hypogée de <persName ref="129391875" type="idref" xml:base="https://www.idref.fr/">Séti I<hi rend="sup">er</hi>
+            </persName> qu’il reconstitue à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> en <date type="_temp" when="1823">1823</date>. À moins que ce ne soit
+          l’exposition de la collection Passalacqua à la galerie Vivienne, à
+          <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, cette même
+          année <date type="_temp" when="1826">1826</date> qui voit la
+          création, le <date type="_temp" when="1826-05-16">16&#8201;&#160;mai</date>, au
+          <placeName ref="2997319" type="geonames" xml:base="https://www.geonames.org/">Louvre</placeName> d’une salle
+          (ouverte au public le <date type="_temp" when="1828-01-06">6&#160;janvier&#160;1828</date>) consacrée aux monuments
+          égyptiens dont <persName ref="026777509" type="idref" xml:base="https://www.idref.fr/">Champollion</persName> est le
+          conservateur. Ce même <persName ref="026777509" type="idref" xml:base="https://www.idref.fr/">Champollion</persName>, de retour
+          en <date type="_temp" when="1829">1829</date>, d’un voyage en
+          <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> avec un
+          cadeau… pharaonique&#160;: l’obélisque de <placeName ref="360502" type="geonames" xml:base="https://www.geonames.org/">Louxor</placeName> et qui
+          prononce sa leçon inaugurale d’Égyptologie le <date type="_temp" when="1831-05-10">10&#160;mai&#160;1831</date> au <placeName ref="6945498" type="geonames" xml:base="https://www.geonames.org/">Collège de
+          France</placeName>, avant de mourir le <date type="_temp" when="1832-03-04">4&#160;mars&#160;1832</date>, laissant des <hi rend="italic">Lettres écrites d’Égypte et de Nubie en 1828 et
+          1829</hi>, publiées en <date type="_temp" when="1833">1833</date> et
+          où l’on trouve le nom de l’héroïne du roman de <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName>, Tahoser, mais
+          orthographié ici Thaoser.</p>
+          <p xml:id="d1e476">À moins qu’il ne faille chercher du côté des
+          «&#160;orientalistes&#160;», surtout chez <persName ref="069570949" type="idref" xml:base="https://www.idref.fr/">Prosper
+          Marilhat</persName> qui expose au salon de <date type="_temp" when="1834">1834</date> une vue du <placeName ref="360630" type="geonames" xml:base="https://www.geonames.org/">Caire</placeName>&#160;: <hi rend="italic">Place de l’Esbekieh</hi>. Dont <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName> dira dans un
+          article du <date type="_temp" when="1836-03-09">9&#160;mars&#160;1836</date>,
+          repris dans la <hi rend="italic">Revue des Deux Mondes</hi> le <date type="_temp" when="1848-07-01">1<hi rend="sup">er</hi>&#160;juillet&#160;1848</date>&#160;: «&#160;Aucun tableau ne fit sur
+          moi une impression plus profonde et plus longtemps vibrante […]. Je
+          crus que je venais de reconnaître ma véritable patrie.&#160;» Ou du côté
+          de la musique avec l’opéra de <persName ref="031466060" type="idref" xml:base="https://www.idref.fr/">Rossini</persName>, <hi rend="italic">Moïse ou le passage de la mer Rouge</hi> que l’opéra
+          de Paris reprend en <date type="_temp" when="1852">1852</date>.</p>
+          <p xml:id="d1e490">Mais dans l’œuvre de l’écrivain tout commence en
+          <date type="_temp" when="1840">1840</date> par un pied charmant qui
+          trouble et qui fascine celui qui le contemple. À lui en faire perdre
+          la raison. C’est un pied de femme, bien sûr, bien conservé des
+          outrages du temps qu’il a traversé, derrière le rempart de ses
+          bandelettes, pour vanter les charmes vénéneux du passé et flatter
+          les fantasmes… de son créateur. On l’aura deviné, c’est un pied de
+          momie et <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Théophile Gautier</persName>,
+          l’auteur de la nouvelle homonyme (parue en <date type="_temp" when="1840-09">septembre&#160;1840</date> dans <hi rend="italic">Le Musée
+          des familles</hi>), fait partie de ces hommes du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date> pour qui la femme est d’autant plus
+          objet de désir qu’elle se présente sous la forme de morceaux
+          choisis&#160;! Entre le pied et la momie tout entière dix-sept ans.
+          Marqués par l’exposition de «&#160;la chambre des Rois&#160;» de <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Karnak</placeName> à la
+          Bibliothèque nationale en <date type="_temp" when="1844">1844</date>
+          et par les «&#160;Nostalgies d’obélisques&#160;» de <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName>,
+          publiées dans <hi rend="italic">la Presse</hi> du <date type="_temp" when="1851-08-04">4&#160;août&#160;1851</date>. Surtout peut-être, par la
+          publication, en <date type="_temp" when="1856">1856</date>, de l’<hi rend="italic">Histoire des usages funèbres et des sépultures
+          des</hi>
+            <hi rend="italic">peuples anciens</hi> d’<persName ref="030404991" type="idref" xml:base="https://www.idref.fr/">Ernest
+          Feydeau</persName> dont l’écrivain fera un compte rendu nourri le
+          <date type="_temp" when="1856-10-31">31&#160;octobre&#160;1856</date> dans <hi rend="italic">Le Moniteur universel</hi>.</p>
+          <p xml:id="d1e513">On y est ou presque&#160;: <date from="1857-03-11" to="1857-05-06" type="_temp">du 11&#160;mars au 6&#160;mai&#160;1857</date>
+            <hi rend="italic">Le Roman de la momie</hi> paraît dans <hi rend="italic">Le Moniteur universel</hi>, puis en librairie en <date type="_temp" when="1858-04">avril de l’année suivante</date>.
+          L’Égyptomanie avait enfin son drapeau littéraire&#160;! Deux ans avant le
+          début des travaux de creusement du futur canal de Suez. Là, se
+          mêlent harmonieusement thèmes bibliques, l’Exode et la traversée de
+          la mer Rouge, égyptomaniaques, la recherche archéologique,
+          fantastiques, un amour qui traverse le temps et… oniriques, la
+          recherche – presque platonicienne – de l’objet du désir qui
+          permettra au Moi divisé de retrouver son unité. Roman de l’amour
+          impossible, celui que l’on retrouvera dans toutes les nouvelles de
+          <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName>.</p>
+          <p xml:id="d1e521">Mais le retour à la réalité réservera bien des
+          déceptions au poète quand il sera confronté en <date type="_temp" when="1867-06">juin&#160;1867</date>, lors de l’Exposition universelle,
+          au démaillotage, si à la mode à l’époque, d’une momie, <persName type="_temp">Nes-Khons</persName>, qui n’a que de lointains rapports
+          avec la charmante <persName type="_temp">Tahoser</persName>. Mais
+          surtout, deux ans plus tard, lorsqu’il part, enfin, en <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> pour
+          l’inauguration du canal de Suez et que, victime d’une chute sur le
+          bateau, il ne peut jouir pleinement de ce moment tant attendu. Une
+          seule et maigre consolation&#160;: il sera logé à l’hôtel Sheppeard…
+          place de l’Esbekieh. «&#160;On nous logeait dans notre rêve<hi rend="italic">&#160;»</hi>, s’écrie-t-il, avec le ravissement d’un désir
+          enfin réalisé et la mélancolie qui en suit nécessairement sa
+          satisfaction. Car <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName> restera toute sa
+          vie un «&#160;animal triste post scriptum&#160;». Merci <persName ref="026997576" type="idref" xml:base="https://www.idref.fr/">Lucrèce</persName>…</p>
+          <p xml:id="d1e526">Domaine du beau, refuge de l’idéal, l’<date type="_temp">Antiquité</date> c’est aussi le territoire de «&#160;la
+          rétrospective évocatrice&#160;», pour reprendre les termes de <persName ref="027080919" type="idref" xml:base="https://www.idref.fr/">Georges Poulet</persName> dans ses
+          <hi rend="italic">Études sur le temps humain </hi>(<date type="_temp" when="1949">1949</date>). «&#160;C’est une espèce
+          d’évocation magique du passé, où ce que les yeux ont vu et ne
+          reverront plus, se relève un moment de sa tombe d’oubli, et apparaît
+          avec les couleurs d’une vie fantasmatique.&#160;» L’art peut donc par une
+          sorte d’effet, que <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName> lui-même nomme
+          «&#160;galvanisme&#160;» – un terme à la mode –, ressusciter les morts, si
+          bien qu’on finit par s’intéresser aux fantômes qu’évoque la magie du
+          poète, qu’on les prend pour les individualités historiques dont il a
+          voulu remuer les cendres.</p>
+          <p xml:id="d1e531">Ces cendres ne sont-elles point précisément
+          celles qui recouvrirent, en <date type="_temp" when="0079">79&#160;de&#160;notre&#160;ère</date>, la ville de <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> et qui
+          enchâssèrent dans un sarcophage de boue durcie Arria Marcella&#160;? Que
+          le regard d’Octavien, le héros de la nouvelle de <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName>, délivrera de sa
+          prison, tout comme celui de lord Evandale fera revivre la momie
+          Tahoser. Ainsi l’imagination recrée un monde antique qui éveille le
+          désir et transporte l’esprit hors du temps. C’est ce que va, à son
+          tour, tenter Flaubert.</p>
+        </div>
+        <div type="section1" xml:id="d1e533">
+          <head subtype="level1" xml:id="d1e534">
+            <hi rend="italic">Salammbô</hi> ou l’Antiquité évasion (1862)</head>
+          <p xml:id="d1e540">«&#160;Peu de gens devineront combien il a fallu être
+          triste pour entreprendre de ressusciter <placeName ref="11109179" type="geonames" xml:base="https://www.geonames.org/">Carthage</placeName>&#160;! C’est là
+          une Thébaïde où le dégoût de la vie moderne m’a poussé.&#160;» C’est
+          ainsi que <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Gustave Flaubert</persName> (<date from="1821" to="1880" type="_temp">1821-1880</date>) annonce, le
+          <date type="_temp" when="1859-11-29">29&#160;novembre&#160;1859</date>, son
+          projet à <persName ref="030404991" type="idref" xml:base="https://www.idref.fr/">Ernest Feydeau</persName>, le même
+          qui inspira – on l’a vu – <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName>. En fait, il
+          remonte bien plus loin, à cette année&#160;<date type="_temp" when="1850">1850</date>, où il voyage en <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>, avec son
+          ami <persName ref="026838362" type="idref" xml:base="https://www.idref.fr/">Du Camp</persName>. Un «&#160;conte
+          égyptien (lui) trotte dans la tête&#160;»&#160;: <hi rend="italic">Anubis
+          </hi>ou l’histoire d’un amour impossible. La rédaction de <hi rend="italic">Madame Bovary</hi> va l’épuiser&#160;: «&#160;Cette cohabitation
+          morale avec des bourgeois me tourne sur le cœur et m’épuise. Je sens
+          le besoin de vivre dans des milieux plus propres&#160;[…]. Il est temps
+          que je m’amuse […] C’est pourquoi je me perds, tant que je peux,
+          dans l’<date type="_temp">Antiquité</date>.&#160;» Annoncé depuis <date type="_temp" when="1857">1857</date>, maintes fois retardé après son
+          voyage à <placeName ref="11109179" type="geonames" xml:base="https://www.geonames.org/">Carthage</placeName> en <date type="_temp" when="1858">1858</date>, le roman est repris de fond en
+          comble à partir de <date type="_temp" when="1858-07">juillet&#160;1858</date>.</p>
+          <p xml:id="d1e548">Primitivement, il devait s’appeler <hi rend="italic">Les Mercenaires, </hi>puis il setransforme en<hi rend="italic"> Salammbô, roman carthaginois</hi>, enfin il
+          s’intitule <hi rend="italic">Salammbô.</hi> Le nom même de l’héroïne
+          a considérablement varié&#160;: Pyra, Pyrrha, Hanna, Salambô (avec un
+          seul&#160;M). Avant d’aboutir au titre final dont le sens, voulu par
+          l’écrivain par l’ajout d’un second&#160;M (qui oblige à prononcer <hi rend="small-caps">salamm</hi>), renvoie à la fois à <persName ref="028679865" type="idref" xml:base="https://www.idref.fr/">Emma
+          Bovary</persName> – ce que comprendra fort bien <persName ref="02711919X" type="idref" xml:base="https://www.idref.fr/">Sainte-Beuve</persName> dans sa
+          critique du roman – et à la formule orientale Salamm qui est une
+          sorte de salut. C’est donc une façon de saluer <persName ref="028679865" type="idref" xml:base="https://www.idref.fr/">Emma
+          Bovary</persName> à laquelle Salammbô emprunte bien des traits mais
+          en même temps de dire adieu – pour un temps du moins – à la forme
+          réaliste romanesque qui avait été jusque-là celle de <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Flaubert</persName>, pour aborder
+          un style baroque et flamboyant. Soutenu par «&#160;un travail
+          archéologique formidable&#160;» («&#160;J’ai une indigestion de bouquins. Je
+          rote de l’in-folio […] Savez-vous combien je me suis ingurgité de
+          volumes sur <placeName ref="11109179" type="geonames" xml:base="https://www.geonames.org/">Carthage</placeName>&#160;?
+          Environ&#160;100&#160;»).</p>
+          <p xml:id="d1e565">Car beaucoup d’ouvrages ont paru depuis <date type="_temp" when="1833">1833</date> et les travaux de <persName ref="081161522" type="idref" xml:base="https://www.idref.fr/">C.T.&#160;Falbe</persName>, consul
+          général du Danemark à <placeName ref="2464470" type="geonames" xml:base="https://www.geonames.org/">Tunis</placeName>, qui dresse
+          une carte archéologique de <placeName ref="11109179" type="geonames" xml:base="https://www.geonames.org/">Carthage</placeName> pour
+          accompagner ses <hi rend="italic">Recherches sur
+          l’emplacement</hi>
+            <hi rend="italic">de Carthage. </hi>
+            <date type="_temp" when="1837">Quatre ans plus tard</date> on crée une
+          «&#160;Société pour l’exploration de Carthage&#160;», dont le président,
+          <persName ref="029046025" type="idref" xml:base="https://www.idref.fr/">Dureau de&#160;la&#160;Malle</persName>,
+          avait publié, en <date type="_temp" when="1835">1835</date>, des <hi rend="italic">Recherches sur la topographie de Carthage.</hi> Mais
+          c’est en <date type="_temp" when="1859">1859</date> que commence
+          vraiment, avec <persName ref="071551336" type="idref" xml:base="https://www.idref.fr/">Charles-Ernest Beulé</persName>,
+          «&#160;l’inventeur&#160;» des Propylées de l’Acropole d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, la
+          résurrection de <placeName ref="11109179" type="geonames" xml:base="https://www.geonames.org/">Carthage</placeName>. Bientôt
+          <persName type="_temp">Edmond de Sainte-Marie</persName> découvre
+          2&#160;000&#160;stèles puniques. <persName ref="027094170" type="idref" xml:base="https://www.idref.fr/">Ernest Renan</persName> fait, <date from="1860" to="1861" type="_temp">de 1860 à 1861</date>, une
+          mission d’exploration en <placeName ref="8504928" type="geonames" xml:base="https://www.geonames.org/">Phénicie</placeName>. On peut
+          imaginer que la création, en <date type="_temp" when="1885">1885</date>, d’un service des Antiquités à <placeName ref="11109179" type="geonames" xml:base="https://www.geonames.org/">Carthage</placeName> doit
+          beaucoup à l’immense succès du roman de <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Flaubert</persName>.</p>
+          <p xml:id="d1e576">En l’écrivant, le romancier a voulu, comme il
+          l’écrit à <persName ref="02711919X" type="idref" xml:base="https://www.idref.fr/">Sainte-Beuve</persName>, «&#160;fixer un
+          mirage&#160;». Mais ce mirage, il n’a pu lui donner forme qu’en
+          «&#160;appliquant à l’<date type="_temp">Antiquité</date> les procédés du
+          roman moderne&#160;». Roman historique&#160;? Roman archéologique&#160;? «&#160;Roman
+          antique&#160;», le terme est de l’écrivain lui-même&#160;? Roman réaliste
+          même&#160;? «&#160;Roman carthaginois&#160;», voire&#160;? <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Flaubert</persName>
+          sait bien que «&#160;si le roman est aussi embêtant qu’un bouquin
+          scientifique, bonsoir, il n’y a plus d’Art.&#160;» Voila pourquoi le
+          formidable travail archéologique, théorique et pratique, sur le
+          terrain, à <placeName ref="11109179" type="geonames" xml:base="https://www.geonames.org/">Carthage</placeName>, auquel
+          s’est livré l’écrivain, ne vise pas à une vérité, impossible, du
+          moins à l’époque, à atteindre. Il s’agit surtout de «&#160;faire vrai&#160;»,
+          de créer une «&#160;illusion&#160;» de réalité, bref d’aboutir à cet «&#160;effet
+          de réel&#160;», au sens où l’entendra <persName ref="026707764" type="idref" xml:base="https://www.idref.fr/">Barthes</persName>,
+          <date from="1900" to="1999" type="_temp">un siècle plus
+          tard</date>.</p>
+          <p xml:id="d1e578">Cette <date type="_temp">Antiquité
+          punique</date>, dont le visage barbare tranche avec celui plus
+          policé de la grecque ou de la romaine, se veut comme une provocation
+          lancée à la face de la société gourmée du temps de <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Flaubert</persName>. Ne
+          déclare-t-il pas lui-même&#160;: «&#160;&#8201;<hi rend="italic">Salammbô </hi>1<hi rend="sup">o</hi>&#160;embêtera les bourgeois, c’est-à-dire tout le
+          monde&#160;; 2<hi rend="sup">o</hi>&#160;révoltera les nerfs et le cœur des
+          personnes sensibles&#160;; 3<hi rend="sup">o</hi>&#160;irritera les
+          archéologues&#160;; 4<hi rend="sup">o</hi>&#160;semblera inintelligible aux
+          dames&#160;; 5<hi rend="sup">o</hi>&#160;me fera passer pour pédéraste
+          anthropophage&#160;? Espérons-le&#160;» (Lettre à <persName ref="030404991" type="idref" xml:base="https://www.idref.fr/">E.&#160;Feydeau</persName>,
+          <date type="_temp" when="1862-10">octobre&#160;1862</date>). Mais là ne
+          se situe pas la scandaleuse nouveauté du roman. Les moments sadiques
+          (la fameuse «&#160;grillade des moutards&#160;») ne font plus frémir et la
+          version définitive a émoussé les audaces érotiques (la «&#160;baisade
+          sous le péplos&#160;»).</p>
+          <p xml:id="d1e583">C’est sur le plan de l’écriture, dans le choix du
+          vocabulaire, dans les hardiesses de la forme, cette forme poétique
+          appliquée au romanesque. Ajoutons que s’intéresser à «&#160;une
+          civilisation perdue, anéantie&#160;; un pays de ruines&#160;» – les mots sont
+          de <persName ref="02711919X" type="idref" xml:base="https://www.idref.fr/">Sainte-Beuve</persName> –, c’est
+          relever un défi&#160;: «&#160;Ce n’est pas une petite ambition que de vouloir
+          entrer dans le cœur des hommes quand ces hommes ont vécu il y a plus
+          de deux mille ans et dans une civilisation qui n’a rien d’analogue
+          avec la nôtre.&#160;» On croirait lire la préface des <hi rend="italic">Derniers Jours de Pompéi</hi> ou retrouver les mots de
+          l’ami <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName>, qui avait joué
+          un si mauvais tour à <persName ref="026866552" type="idref" xml:base="https://www.idref.fr/">Flaubert</persName>&#160;! Ne lui
+          avait-il pas chipé cette <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> qui l’avait
+          tant fait rêver&#160;? À la suite du romancier, l’<date type="_temp">Antiquité</date> prit de nouvelles couleurs. Dont
+          certaines seront bibliques grâce à <persName ref="027192075" type="idref" xml:base="https://www.idref.fr/">Lewis
+          Wallace</persName>.</p>
+        </div>
+        <div type="section1" xml:id="d1e588">
+          <head subtype="level1" xml:id="d1e589">
+            <hi rend="italic">Ben-Hur
+          </hi>ou l’Antiquité messianique (1880)</head>
+          <p xml:id="d1e593">
+            <persName ref="027192075" type="idref" xml:base="https://www.idref.fr/">Lewis Wallace</persName> (on dira
+          ensuite Lew) est né le <date type="_temp" when="1827-04-10">10&#160;avril&#160;1827</date> à <placeName ref="4254999" type="geonames" xml:base="https://www.geonames.org/">Brookville</placeName>, dans
+          l’Indiana. Des études de droit le mènent au barreau mais, il
+          s’engage, en <date from="1846" to="1847" type="_temp">1846-1847</date>, dans la guerre que les <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName> mènent
+          contre le <placeName ref="3996063" type="geonames" xml:base="https://www.geonames.org/">Mexique</placeName>. Colonel au
+          début de la <date from="1861" to="1865" type="_temp">guerre de
+          Sécession</date>, il s’y illustre en sauvant même <placeName ref="4138106" type="geonames" xml:base="https://www.geonames.org/">Washington</placeName> d’un
+          coup de main ennemi. Major général à la fin de la guerre, il devient
+          gouverneur du Nouveau Mexique <date from="1878" to="1881" type="_temp">de 1878 à 1881</date> (on peut même l’apercevoir dans
+          un coin de western&#160;!), puis ambassadeur en <placeName ref="298795" type="geonames" xml:base="https://www.geonames.org/">Turquie</placeName>
+            <date from="1881" to="1885" type="_temp">de 1881 à 1885</date>. Retiré
+          alors de la vie politique, il continuera une carrière littéraire
+          commencée en <date type="_temp" when="1873">1873</date> avec <hi rend="italic">Le Dieu de beauté, </hi>un roman qui relate son
+          expérience mexicaine et continuée avec le succès qu’on sait, en
+          <date type="_temp" when="1880">1880</date>, avec <hi rend="italic">Ben-Hur. Un récit messianique</hi>. Il reviendra à
+          l’<date type="_temp">Antiquité évangélique</date>, en <date type="_temp" when="1885">1885</date>, avec <hi rend="italic">Le
+          Prince de l’Inde</hi>, un récit qui met en scène le <persName ref="150294840" type="idref" xml:base="https://www.idref.fr/">Juif
+          Errant</persName>. Il meurt en <date type="_temp" when="1905">1905</date>.</p>
+          <p xml:id="d1e604">Musicien, peintre, écrivain, soldat, diplomate,
+          <persName ref="027192075" type="idref" xml:base="https://www.idref.fr/">Lew Wallace</persName> avait tous
+          les dons. Mais rien pourtant ne le prédisposait à écrire le roman
+          qui le rendra universellement célèbre, <hi rend="italic">Ben-Hur.
+          </hi>Roman dont le héros, le prince <persName type="_temp">Juda
+          Ben-Hur</persName>, d’illustre famille, va voir son destin
+          bouleversé. Capturé, humilié, dépouillé de son bien, envoyé aux
+          galères, le jeune aristocrate doit se venger de son ancien ami, le
+          Romain <persName type="_temp">Messala</persName>. En chemin, il
+          rencontrera l’amour et la révélation divine. Le sous-titre auquel on
+          ne prête généralement assez peu d’attention indique bien le sens du
+          récit&#160;: la venue d’un prophète nommé <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName>, fils
+          de <persName ref="028616669" type="idref" xml:base="https://www.idref.fr/">David</persName>, qui passait, aux
+          yeux de certains Juifs, pour le Messie tant attendu.</p>
+          <p xml:id="d1e609">Ce qui étonne dans l’accueil enthousiaste fait à
+          <hi rend="italic">Ben-Hur,</hi> à moins que ce ne soit un début
+          d’explication, c’est la complète étrangeté de l’œuvre dans la
+          production littéraire américaine de l’époque. <hi rend="italic">Ben-Hur </hi>demeure, dans la littérature américaine
+          de la fin du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>,
+          littérature qui ne s’est jamais soucié d’<date type="_temp">Antiquité</date>, un «&#160;apax&#160;». Peut-on en trouver la
+          source en Europe&#160;? Rien n’est moins sûr&#160;: entre <hi rend="italic">Fabiola </hi>et <hi rend="italic">Quo Vadis&#160;?
+          </hi>
+            <date from="1854" to="1895" type="_temp">entre&#160;1854
+          et&#160;1895</date>, rien, ou si peu, qui puisse, du moins dans le
+          domaine romanesque, inspirer <persName ref="027192075" type="idref" xml:base="https://www.idref.fr/">Wallace</persName>.</p>
+          <p xml:id="d1e628">En revanche la science historique avait marché à
+          grands pas et la figure de <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName>, dégagée des
+          enluminures christiques, prenait, peu à peu, difficilement mais
+          sûrement, épaisseur humaine. Dès <date from="1835" to="1836" type="_temp">1835-1836</date>, <persName ref="02760957X" type="idref" xml:base="https://www.idref.fr/">D.F.&#160;Strauss</persName>, dans sa
+          <hi rend="italic">Vie de Jésus</hi>,<hi rend="italic"/>tentait
+          d’unir les faits historiques, à savoir l’existence d’un <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> ancré dans une
+          réalité historique, et les éléments mythiques ajoutés par la suite&#160;:
+          double portrait d’un <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> historique face à
+          un <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Christ</persName> idéalisé. Sans
+          avoir publié de vie de <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName>, <persName ref="032210345" type="idref" xml:base="https://www.idref.fr/">F.C.&#160;Baur</persName>, dans son <hi rend="italic">Paul apôtre de Jésus </hi>(<date type="_temp" when="1845">1845</date>) appliqua à l’histoire du christianisme
+          primitif la fameuse triade hégélienne&#160;: thèse (le courant
+          judéo-chrétien de <persName ref="259378720" type="idref" xml:base="https://www.idref.fr/">Pierre</persName> et de <persName type="_temp">Jacques</persName>), antithèse (le courant
+          hellénistico-chrétien de <persName type="_temp">Paul</persName>),
+          synthèse (l’Église catholique). Sans nier toutefois l’existence de
+          <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName>. Ce que finit par
+          faire radicalement son adversaire, <persName ref="032210345" type="idref" xml:base="https://www.idref.fr/">Bauer</persName>, qui
+          voyait le christianisme primitif comme une fusion entre le stoïcisme
+          et le judaïsme hellénistique. Cette thèse coûta à son auteur, en
+          <date type="_temp" when="1842">1842</date>, la défense
+          d’enseigner.</p>
+          <p xml:id="d1e639">Ce qui arriva, vingt ans plus tard, à <persName ref="027094170" type="idref" xml:base="https://www.idref.fr/">E.&#160;Renan</persName> (<date from="1823" to="1892" type="_temp">1823-1892</date>). Sa <hi rend="italic">Vie de Jésus</hi> (<date type="_temp" when="1863">1863</date>) fut le premier pas de la critique française
+          sur un terrain dont elle n’avait pas l’habitude et déclencha un
+          tollé général et… un immense succès. Dix rééditions et onze
+          traductions à la fin de l’année&#160;<date type="_temp" when="1863">1863</date>. <date type="_temp" when="1864">L’année
+          suivante</date>, une version plus accessible, <hi rend="italic">Jésus</hi>, se vend à un million d’exemplaires. En
+          <date type="_temp" when="1864-06">juin&#160;1864</date>
+            <persName ref="027094170" type="idref" xml:base="https://www.idref.fr/">Renan</persName> est révoqué de sa
+          chaire d’hébreu du <placeName ref="6945498" type="geonames" xml:base="https://www.geonames.org/">Collège de France</placeName>,
+          chaire qu’il ne retrouvera qu’en <date type="_temp" when="1870">1870</date>. Historien, linguiste, archéologue, homme
+          d’étude et de terrain, <persName ref="027094170" type="idref" xml:base="https://www.idref.fr/">Renan</persName>, qui vient de
+          publier en <date type="_temp" when="1874">1874</date>, son fameux
+          <hi rend="italic">Recueil des inscriptions sémitiques</hi>, ne
+          pouvait pas ne pas être connu de <persName ref="027192075" type="idref" xml:base="https://www.idref.fr/">Wallace</persName>.</p>
+          <p xml:id="d1e650">Mais ce sont surtout les avancées de la recherche
+          archéologique qui ont dû retenir son attention&#160;: Américains, comme
+          <persName ref="035275324" type="idref" xml:base="https://www.idref.fr/">Edward Robinson</persName> qui
+          découvre à <placeName ref="293198" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName> ce qu’on
+          nomme depuis «&#160;l’arche de Robinson&#160;», au pied du mont du Temple&#160;;
+          Français, comme <persName ref="03118748X" type="idref" xml:base="https://www.idref.fr/">F.&#160;de&#160;Saulcy</persName> qui creuse,
+          en <date type="_temp" when="1863">1863</date>, et met au jour, à
+          l’extérieur de la vieille ville, des tombes royales&#160;; Anglais qui
+          s’activent depuis la fondation, en <date type="_temp" when="1863">1863</date>, du «&#160;Palestine Exploration Fund&#160;» et dont
+          l’un deux, <persName ref="096329726" type="idref" xml:base="https://www.idref.fr/">Charles Warren</persName>, repère,
+          <date from="1867" to="1870" type="_temp">entre&#160;1867 et&#160;1870</date>,
+          dans la cité de David, le «&#160;puits de Warren&#160;». Bref, le roman de
+          <persName ref="027192075" type="idref" xml:base="https://www.idref.fr/">Wallace</persName> a les couleurs
+          de l’actualité.</p>
+          <p xml:id="d1e652">L’action relève à la fois de la parabole&#160;: un
+          Juif va, peu à peu, ouvrir les yeux sur le <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Christ</persName>&#160;;
+          qui plus est, un Juif de noble famille. Et du roman-feuilleton&#160;: la
+          vengeance d’un homme dépouillé de ses biens et trahi par son
+          meilleur ami. C’est ce mélange de ficelles romanesques et de ton
+          inspiré qui donne au récit ce charme si particulier. La structure en
+          est très classique et le découpage semble appeler déjà le
+          scénariste&#160;! Des lieux mythiques&#160;: <placeName ref="293198" type="geonames" xml:base="https://www.geonames.org/">Jérusalem</placeName>,
+          <placeName ref="323779" type="geonames" xml:base="https://www.geonames.org/">Antioche</placeName>,
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, le désert.
+          Des morceaux de bravoure&#8201;&#160;: la bataille navale, la course de chars,
+          la descente chez les lépreux. La figure de <persName ref="027325636" type="idref" xml:base="https://www.idref.fr/">Jésus</persName> dont
+          la main soulage la soif du prisonnier qui, à son tour, tentera
+          ensuite de lui venir en aide. En vain, on s’en doute. Tout cela
+          vaudra au roman un triomphal accueil. Il faudra attendre plus de
+          vingt ans pour que, avec <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName>, l’on revienne à
+          <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>.</p>
+        </div>
+        <div type="section1" xml:id="d1e654">
+          <head subtype="level1" xml:id="d1e655">
+            <hi rend="italic">Gradiva
+          </hi>ou l’Antiquité fantasmatique (1903 et 1907)</head>
+          <p xml:id="d1e659">Depuis <date type="_temp" when="1896">1896</date>, <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Sigmund Freud</persName> a pris
+          l’habitude de partir à l’étranger, la plupart du temps en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> de la fin
+          août à la mi-septembre. En <date type="_temp" when="1902">1902</date>, avec son frère <persName type="_temp">Alexandre</persName>, il s’installe à <placeName ref="3166350" type="geonames" xml:base="https://www.geonames.org/">Sorrente</placeName>&#160;; il
+          visite <placeName ref="3172391" type="geonames" xml:base="https://www.geonames.org/">Naples</placeName> et la région
+          du Vésuve. L’étape la plus importante est, on s’en doute, <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>.</p>
+          <p xml:id="d1e661">
+            <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName> possède des
+          ouvrages sur la cité disparue. Il en a étudié les rues avec
+          passion&#160;: «&#160;&#8201;J’attends avidement les beaux jours&#160;; pendant les
+          quelques semaines où j’ai pu avoir une heure de liberté, je n’ai
+          rien fait qu’étudier les rues de <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>&#8201;&#160;» (lettre à
+          <persName ref="027715825" type="idref" xml:base="https://www.idref.fr/">Fliess</persName> du <date type="_temp" when="1897-04-12">12&#160;avril&#160;1897</date>). Il en a rêvé
+          (lettre au même du <date type="_temp" when="1897-04-28">28&#160;avril&#160;1897</date>). Il a placé dans son bureau
+          la reproduction d’un «&#160;fragment de mur pompéien avec un centaure et
+          un faune&#160;» qui le «&#160;transporte vers son <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> tant
+          désirée&#160;» (lettre au même du <date type="_temp" when="1901-05-24">24&#160;mai&#160;1901</date>).</p>
+          <p xml:id="d1e663">À <placeName ref="3166350" type="geonames" xml:base="https://www.geonames.org/">Sorrente</placeName> se mêlent
+          dans son esprit le parfum des orangers et la beauté des ruines. Peu
+          à peu, au cours de ses voyages en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName> et en
+          <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>, <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName> va prendre
+          conscience de l’étroite parenté qui existe entre l’archéologue et
+          l’analyste. L’un et l’autre essaient d’exhumer ce qui est demeuré
+          enfoui d’une antique civilisation ou d’un désir infantile.</p>
+          <p xml:id="d1e665">Il aurait pu, s’il avait été plus amateur de
+          fiction, ajouter l’auteur de romans historiques. Lui aussi, comme
+          l’analyste, remonte dans le temps, pour retrouver dans le passé ce
+          qui, comme le pensaient <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName> ou <persName ref="027192326" type="idref" xml:base="https://www.idref.fr/">Waltari</persName>, est resté
+          enseveli en lui-même&#160;; pour tenter, à travers des destins antiques,
+          de comprendre le sien.</p>
+          <p xml:id="d1e667">Durant l’été <date type="_temp" when="1906">1906</date>, <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName> lit une nouvelle
+          de <persName ref="032199139" type="idref" xml:base="https://www.idref.fr/">Wilhelm Jensen</persName> (<date from="1837" to="1911" type="_temp">1837-1911</date>), parue en <date type="_temp" when="1903">1903</date>&#160;: <hi rend="italic">Gradiva,
+          fantaisie pompéienne, </hi>que <persName ref="026943204" type="idref" xml:base="https://www.idref.fr/">Carl Jung</persName>
+          lui a conseillée. Immédiatement il en écrit un commentaire, qui
+          paraîtra en <date type="_temp" when="1907">1907</date>&#160;: <hi rend="italic">Le Délire et les rêves dans la</hi> Gradiva <hi rend="italic">de Jensen</hi>. C’est qu’il a pris conscience qu’«&#160;il
+          n’y a pas de meilleure analogie du refoulement – qui tout à la fois
+          rend un élément psychique inaccessible et le conserve – qu’un
+          ensevelissement comme celui qui a été le destin fatal de <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> et dont la
+          ville a pu émerger à nouveau par le travail de la pioche&#160;». Cette
+          approche ne rencontrera guère d’écho chez <persName ref="032199139" type="idref" xml:base="https://www.idref.fr/">Jensen</persName>, qui
+          refusera même de rencontrer <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName>, mais elle ouvrira
+          une voie féconde à l’application de la méthode analytique aux textes
+          littéraires – et consacrera définitivement <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> dans son
+          rôle de cité fantasmatique.</p>
+          <p xml:id="d1e678">
+            <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName>, quant à lui,
+          gardera toujours une tendresse secrète pour cette femme, la
+          <persName type="_temp">Gradiva</persName>. À <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, en <date type="_temp" when="1907">1907</date>, il fait enfin sa
+          connaissance&#160;: «&#160;Pense à ma joie, écrit-il à son épouse <persName ref="09924795X" type="idref" xml:base="https://www.idref.fr/">Martha</persName>, le <date type="_temp" when="1907-09-24">24&#160;septembre</date>, en rencontrant
+          aujourd’hui au <placeName ref="3164670" type="geonames" xml:base="https://www.geonames.org/">Vatican</placeName>, après une
+          si longue solitude, le visage connu d’un être qui m’est cher&#160;; mais
+          la reconnaissance a été unilatérale, car il s’agissait de <persName type="_temp">Gradiva</persName>, accrochée tout au haut d’un mur.&#160;»
+          Désormais le moulage du bas-relief montrant une jeune fille
+          traversant une rue figurera dans son bureau – et dans celui de bien
+          des analystes –, avec des fresques pompéiennes.</p>
+          <p xml:id="d1e680">La nouvelle de <persName ref="032199139" type="idref" xml:base="https://www.idref.fr/">Jensen</persName>,
+          grâce à <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName>, est devenue
+          universellement célèbre. Son héros en est <persName type="_temp">Norbert</persName>, un jeune archéologue qui croit
+          retrouver à <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName> une
+          Pompéienne dont le bas relief l’a troublé&#160;: <persName type="_temp">Gradiva</persName>. Il lui parle en latin, elle lui
+          répond dans la même langue. Il comprendra à la fin du récit qu’en
+          fait il avait retrouvé une amie d’enfance, bien oubliée depuis des
+          années et dont il était secrètement épris.</p>
+          <p xml:id="d1e682">Quel dommage que <persName ref="027324664" type="idref" xml:base="https://www.idref.fr/">Freud</persName> n’ait
+          pas connu <hi rend="italic">Arria Marcella, souvenir de Pompéi</hi>,
+          la nouvelle de <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName> déjà évoquée&#160;!
+          Nul doute qu’il y aurait trouvé un plus beau sujet d’études. Car le
+          récit de cette nuit fantastique où le jeune <persName type="_temp">Octavien</persName>, en visite avec des amis à
+          <placeName ref="6539812" type="geonames" xml:base="https://www.geonames.org/">Pompéi</placeName>, se retrouve
+          dans la cité redevenue vivante, pourrait aisément faire l’objet
+          d’une étude psychanalytique avec, bien sûr, toute la part
+          d’arbitraire qu’elle suppose. Je verrais volontiers, pour ma part,
+          dans le récit de <persName ref="026885492" type="idref" xml:base="https://www.idref.fr/">Gautier</persName>, les quatre
+          manifestations du désir et poserait les quatre termes de la phase
+          fantasmatique&#160;: désir, interdit, transgression, sanction.</p>
+          <p xml:id="d1e690">Au fond, si la cure analytique de <persName type="_temp">Norbert</persName> a réussi&#160;: en bonne analyste, la
+          pseudo <persName type="_temp">Gradiva</persName> est entrée dans le
+          fantasme de son analysant-amoureux, puis, par elle et pour elle, il
+          en est sorti, pour revenir à la réalité. L’analyse d’<persName type="_temp">Octavien</persName>, en revanche, a échoué&#160;: il n’a pas
+          pu échapper au sien et il sera malheureux toute sa vie. N’en fut-il
+          pas ainsi pour son créateur&#160;?</p>
+          <p xml:id="d1e692">On aurait pu aussi évoquer la Crète et les
+          travaux d’<persName ref="027457419" type="idref" xml:base="https://www.idref.fr/">Evans</persName> qui eurent un écho
+          de l’œuvre de <persName ref="026946769" type="idref" xml:base="https://www.idref.fr/">Nicos Kazantzakis</persName> ou
+          l’Afrique du Sud avec les ruines de <placeName ref="878675" type="geonames" xml:base="https://www.geonames.org/">Zimbabwe</placeName> qui firent
+          rêver, en <date type="_temp" when="1885">1885</date>, <persName ref="026658194" type="idref" xml:base="https://www.idref.fr/">H.&#160;Ridder Haggard</persName> et ses
+          <hi rend="italic">Mines du roi Salomon.</hi>
+          </p>
+          <p xml:id="d1e697">Ainsi donc, au siècle qui assiste à la naissance
+          conjointe du roman historique et de l’archéologie, la pioche des
+          archéologues a souvent inspiré la plume des romanciers. Sous les
+          couleurs d’une <date type="_temp">Antiquité</date> nouvelle,
+          revivifiée, de nouveau vivante.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

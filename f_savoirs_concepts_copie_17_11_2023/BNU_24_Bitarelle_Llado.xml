@@ -1,0 +1,708 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-11-05T11:43:05.504+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_24_Bitarelle_Llado.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Malagar, domaine de François Mauriac</title>
+        <author role="aut">
+          <forename>Marie-Sylvie</forename>
+          <surname>Bitarelle</surname>
+        </author>
+        <author role="aut">
+          <forename>Astrid</forename>
+          <surname>Llado</surname>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/HJ8U6M54" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Malagar, domaine de François Mauriac</title>
+            <author>
+              <forename>Marie-Sylvie</forename>
+              <surname>Bitarelle</surname>
+            </author>
+            <author>
+              <forename>Astrid</forename>
+              <surname>Llado</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">24</biblScope>
+              <biblScope unit="page">86-93</biblScope>
+              <date>2021</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="6432420" type="geonames" xml:base="https://www.geonames.org/">Saint-Maixant</placeName>
+          </term>
+          <term>
+            <placeName ref="2976816" type="geonames" xml:base="https://www.geonames.org/">Saint-Symphorien</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1843">1843</date>
+          </term>
+          <term>
+            <date type="_temp" when="1927">1927</date>
+          </term>
+          <term>
+            <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-28T09:32:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Malagar, domaine de
+          François Mauriac</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Marie-Sylvie Bitarelle</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Directrice, Centre François Mauriac,
+          Domaine de Malagar</affiliation>
+        </byline>
+        <docAuthor style="txt_auteur">Astrid Llado</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff02">Responsable des projets d’éducation
+          artistique et culturelle, Centre François Mauriac, Domaine de
+          Malagar</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <figure xml:id="d1e59">
+          <graphic url="https://didomena.ehess.fr/downloads/wh247119t.png"/>
+          <head xml:id="d1e60">Figure1. François Mauriac devant son domaine
+          (façade nord) (coll. Centre François Mauriac, Domaine de Malagar). ©
+          et clichés Centre François Mauriac, Domaine de Malagar</head>
+        </figure>
+        <figure xml:id="d1e64">
+          <graphic url="https://didomena.ehess.fr/downloads/dv140285h.jpg"/>
+          <head xml:id="d1e65">Figure 2. François Mauriac à son bureau (coll.
+          Centre François Mauriac, Domaine de Malagar). © et clichés Centre
+          François Mauriac, Domaine de Malagar</head>
+        </figure>
+        <div type="section1" xml:id="d1e69">
+          <head subtype="level1" xml:id="d1e70">Une maison de famille</head>
+          <epigraph>
+            <quote xml:id="d1e73">«&#160;Tant pis&#160;! J’oserai dire ce que je pense&#160;:
+            paysage le plus beau du monde, à mes yeux…&#160;» (<persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName>,
+            Journal&#160;II, Éd.&#160;Grasset, <date type="_temp" when="1937">1937</date>)</quote>
+          </epigraph>
+          <p xml:id="d1e75">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-nupjnh3s">jardin</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>À
+          cinquante kilomètres au sud de <placeName ref="6455058" type="geonames" xml:base="https://www.geonames.org/">Bordeaux</placeName>, sur les
+          collines de l’Entre-deux-Mers surplombant la vallée de la Garonne,
+          la maison de <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName>
+          contemple «&#160;l’immense armée noire qui ferme l’horizon&#160;»<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>
+                <hi rend="italic">Mémoires intérieurs</hi>, Éd.&#160;Flammarion,
+              1959</p>
+            </note>. Le domaine de Malagar est une propriété viticole achetée
+          en <date type="_temp" when="1843">1843</date> par <persName type="_temp">Jean Mauriac</persName>, arrière-grand-père de
+          <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François</persName>, qui ajoute à
+          la maison existante un imposant pavillon coiffé d’ardoises.
+          <persName type="_temp">Jean Mauriac</persName> redessine aussi
+          largement le parc, faisant planter une allée de tilleuls ainsi que
+          plus d’un millier de charmes et, surtout, créant une terrasse au
+          sud, sorte de figure de proue dominant les flots de vignes. Avec
+          <persName type="_temp">Jacques</persName>, le grand-père de
+          <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François</persName>, c’est une tour
+          qui s’élève à l’extrémité des communs pour servir de logement au
+          régisseur.</p>
+          <p xml:id="d1e84">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>Trois
+          générations plus tard, habituée à passer les vacances dans le chalet
+          de <placeName ref="2976816" type="geonames" xml:base="https://www.geonames.org/">Saint-Symphorien</placeName>,
+          la famille se replie, lors d’un été de canicule, sur les hauteurs de
+          <placeName ref="6432420" type="geonames" xml:base="https://www.geonames.org/">Saint-Maixant</placeName>, et
+          c’est le coup de foudre pour le jeune <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François</persName>.
+          Sous le charme de Malagar, il restera fidèle sa vie durant à cette
+          propriété dont il hérite en <date type="_temp" when="1927">1927</date> et qui devient, avec la forêt des Landes,
+          l’un de ses principaux lieux d’inspiration.</p>
+          <p xml:id="d1e86">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>Situé sur
+          un parc de quatre hectares, le domaine se compose alors d’une maison
+          de maître, de deux chais, de dépendances agricoles, le tout entouré
+          d’un vignoble de quatorze hectares. Dans les <date from="1930" to="1939" type="_temp">années&#160;1930</date>, le nouveau maître des
+          lieux fait agrandir la maison d’un cabinet de travail et de deux
+          chambres, dotées chacune d’une salle de bain&#160;; le confort
+          «&#160;moderne&#160;» fait son entrée à Malagar. Mais c’est de son «&#160;apport
+          personnel&#160;» dans le parc que l’écrivain est tout particulièrement
+          fier, avec la plantation d’une pinède, d’une allée de peupliers et
+          d’un alignement de cent trente cyprès ponctués de pins parasols, qui
+          lui rappellent les paysages toscans et sont aujourd’hui devenus
+          l’emblème du domaine</p>
+        </div>
+        <div type="section1" xml:id="d1e88">
+          <head subtype="level1" xml:id="d1e89">Un lieu de villégiature et
+          d’inspiration</head>
+          <epigraph>
+            <quote xml:id="d1e92">«&#160;Je n’y habite que durant trois mois de
+            l’année, mais c’est le temps où je me ressemble le plus&#160;».
+            (<persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName>,
+            Bloc-notes, <date type="_temp" when="1963-10">octobre&#160;1963</date>)</quote>
+          </epigraph>
+          <p xml:id="d1e94">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+              </term>
+            </term>À
+          l’exception de la <date from="1940" to="1944" type="_temp">période
+          de l’Occupation</date>, durant laquelle Malagar devient, en <date type="_temp" when="1941">1941</date> et <date type="_temp" when="1942">1942</date>, le refuge de l’écrivain et de ses proches,
+          <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François</persName> et <persName ref="028622170" type="idref" xml:base="https://www.idref.fr/">Jeanne
+          Mauriac</persName> y séjournent régulièrement deux fois par an, au
+          printemps et à l’époque des vendanges. La famille s’y retrouve, qui
+          s’agrandit petit à petit des enfants et petits-enfants et s’élargit
+          aussi au cercle des amis, anonymes pour certains, célèbres pour
+          d’autres, tels <persName ref="029566460" type="idref" xml:base="https://www.idref.fr/">Jean Balde</persName>, <persName ref="031725503" type="idref" xml:base="https://www.idref.fr/">Robert
+          Barrat</persName>, <persName ref="034100121" type="idref" xml:base="https://www.idref.fr/">Jean Blanzat</persName>, <persName ref="094987130" type="idref" xml:base="https://www.idref.fr/">Gaston
+          Duthuron</persName>, <persName ref="026890593" type="idref" xml:base="https://www.idref.fr/">André Gide</persName>, <persName ref="027019098" type="idref" xml:base="https://www.idref.fr/">André
+          Maurois</persName>, <persName ref="03002255X" type="idref" xml:base="https://www.idref.fr/">Philippe Noiret</persName>,
+          <persName ref="02711421X" type="idref" xml:base="https://www.idref.fr/">Claude Roy</persName>, <persName ref="027133567" type="idref" xml:base="https://www.idref.fr/">Jean-Jacques
+          Servan-Schreiber</persName>, <persName ref="027143074" type="idref" xml:base="https://www.idref.fr/">Philippe Sollers</persName>…</p>
+          <p xml:id="d1e96">Malagar ne sera pourtant jamais un lieu de
+          rendez-vous mondains&#160;; la vie y est douce et paisible. <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName> y lit,
+          se repose, écrit, se promène dans le domaine et aux alentours et
+          goûte avec gourmandise aux poulardes, ortolans, foies gras et autres
+          réjouissances de la cuisine locale. Mais vacances ou pas, il ne perd
+          jamais de vue la gestion de son domaine, comme en témoigne <hi rend="italic">Le Livre de raison de Malagar</hi>. À l’origine simple
+          registre de comptes, <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName> le
+          transforme en une sorte de journal de bord de ses séjours girondins
+          et l’on y découvre, entre autres, avec quelle attention il se
+          préoccupe du prix de vente du vin de ses vignes ou de l’achat d’un
+          nouveau tracteur.</p>
+          <p xml:id="d1e101">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-gz4vv9sc">théâtre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-8rsdreyt">journal</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-wxtpa7cz">biographie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-wj8cdwaw">roman</term>
+                </term>
+              </term>
+            </term>Quand
+          on a compris cet attachement de l’homme à sa terre, on ne peut
+          s’étonner de la présence de Malagar dans les milliers de pages de
+          l’œuvre romanesque, poétique, autobiographique et journalistique de
+          <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName>.
+          Celui-ci n’invente rien, il regarde autour de lui&#160;: «&#160;Je ne puis
+          concevoir un roman sans avoir présente à l’esprit, dans ses moindres
+          recoins, la maison qui en sera le théâtre&#160;»<note n="2" place="foot" type="standard" xml:id="ftn3">
+              <p>
+                <hi rend="italic">Le Romancier et ses personnages,
+              </hi>Éd.&#160;Corrêa Buchet-Chastel, 1933</p>
+            </note>. Il fait ainsi des paysages de l’Entre-deux-Mers qui
+          l’entourent le décor de <hi rend="italic">La Chair et le sang
+          </hi>(Éd.&#160;Émile-Paul, <date type="_temp" when="1920">1920</date>),
+          <hi rend="italic">Destins </hi>(Éd.&#160;Grasset, <date type="_temp" when="1928">1928</date>) et <hi rend="italic">Le Nœud de vipères
+          </hi>(Éd.&#160;Grasset, <date type="_temp" when="1932">1932</date>).
+          Parfois, le journaliste partage aussi sa connaissance et son
+          inquiétude sur le devenir de cette terre qui ne ment pas et l’évoque
+          dans ses articles du <hi rend="italic">Bloc-notes </hi>(<date from="1952" to="1970" type="_temp">1952-1970</date>) et des <hi rend="italic">Mémoires intérieurs </hi>(Éd.&#160;Flammarion, <date type="_temp" when="1959">1959</date>)<hi rend="italic">.
+          </hi>Inquiétudes encore dans <hi rend="italic">Le Cahier noir
+          </hi>(Éd.&#160;de Minuit, <date type="_temp" when="1943">1943</date>),
+          œuvre de résistance écrite en grande partie à Malagar, alors que le
+          domaine était réquisitionné par l’occupant et que les pas d’un
+          officier allemand résonnaient dans la chambre au-dessus du bureau de
+          <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">Mauriac</persName>…</p>
+        </div>
+        <div type="section1" xml:id="d1e132">
+          <head subtype="level1" xml:id="d1e133">D’une maison de vacances à
+          une maison d’écrivain</head>
+          <epigraph>
+            <quote xml:id="d1e136">«&#160;Je me suis fixé à Malagar parce que
+            j’appartiens à l’innombrable espèce de chèvres qui non contentes
+            de brouter là où on les attache, s’y obstinent, une fois la corde
+            rompue, et ne s’éloignent plus jamais du piquet qui a fixé une
+            fois pour toutes leur destin&#160;». (<persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François
+            Mauriac</persName>, Les Maisons fugitives, Éd.&#160;Grasset, <date type="_temp" when="1939">1939</date>)</quote>
+          </epigraph>
+          <p xml:id="d1e138">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>
+            <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName>
+          séjourne à Malagar pour la dernière fois en <date type="_temp" when="1968-09">septembre 1968</date>, deux ans avant sa mort. Au
+          décès de l’écrivain, le domaine revient à ses quatre enfants,
+          <persName ref="027343685" type="idref" xml:base="https://www.idref.fr/">Claude</persName>, <persName type="_temp">Claire</persName>, <persName type="_temp">Luce</persName> et <persName ref="035472022" type="idref" xml:base="https://www.idref.fr/">Jean
+          Mauriac</persName>, qui, en <date type="_temp" when="1985">1985</date>, année du centenaire de la naissance de leur
+          père, en font don au Conseil régional d’Aquitaine (devenu
+          aujourd’hui la Région Nouvelle-Aquitaine). Cette donation comprend
+          non seulement les quatre hectares de parc, les dépendances agricoles
+          et la maison, mais également tout son mobilier et ce qu’il contenait
+          de documents sur la vie du domaine, de correspondance familiale et
+          professionnelle, sans oublier des milliers de photographies… autant
+          de précieuses archives balayant presqu’un siècle et demi de
+          l’histoire d’une famille intimement liée à l’histoire de ce lieu.
+          C’est pour assurer la conservation et la valorisation de cet
+          inestimable patrimoine que la Région crée un an plus tard le
+          «&#160;Centre François Mauriac de Malagar&#160;», association dont la mission
+          toute tracée est de faire vivre la mémoire de l’écrivain et de
+          poursuivre la transmission de son œuvre.</p>
+          <p xml:id="d1e140">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>Après
+          quelques nécessaires travaux de restauration, le domaine est ouvert
+          au public en <date type="_temp" when="1997">1997</date>. Dès lors,
+          des liens étroits se tissent avec l’université, universitaires et
+          journalistes alternant à la présidence du Centre François Mauriac&#160;:
+          <persName ref="027034372" type="idref" xml:base="https://www.idref.fr/">Jacques Monférier</persName> (<date from="1986" to="2001" type="_temp">1986-2001</date>), <persName ref="026792702" type="idref" xml:base="https://www.idref.fr/">Bernard Cocula</persName> (<date from="2001" to="2005" type="_temp">2001-2005</date>), <persName ref="030849675" type="idref" xml:base="https://www.idref.fr/">Philippe Baudorre</persName> (<date from="2005" to="2006" type="_temp">2005-2006</date>), <persName ref="026908980" type="idref" xml:base="https://www.idref.fr/">Jean-Claude Guillebaud</persName>
+          (<date from="2006" to="2010" type="_temp">2006-2010</date>),
+          <persName ref="028954149" type="idref" xml:base="https://www.idref.fr/">Éric Fottorino</persName> (<date from="2011" to="2016" type="_temp">2011-2016</date>) et <persName ref="026792699" type="idref" xml:base="https://www.idref.fr/">Anne-Marie Cocula</persName>
+          (depuis <date type="_temp" when="2016">2016</date>).</p>
+          <figure xml:id="d1e142">
+            <graphic url="https://didomena.ehess.fr/downloads/5h73q453t.jpg"/>
+            <head xml:id="d1e143">Figure 3. Les charmilles de Malagar (coll.
+            Centre François Mauriac, Domaine de Malagar). © et clichés Centre
+            François Mauriac, Domaine de Malagar</head>
+          </figure>
+          <figure xml:id="d1e147">
+            <graphic url="https://didomena.ehess.fr/downloads/0p096g529.png"/>
+            <head xml:id="d1e148">Figure 4. À Malagar, en mai&#160;1948 (coll.
+            Centre François Mauriac, Domaine de Malagar). © et clichés Centre
+            François Mauriac, Domaine de Malagar</head>
+          </figure>
+          <figure xml:id="d1e152">
+            <graphic url="https://didomena.ehess.fr/downloads/h415pk48q.jpg"/>
+            <head xml:id="d1e153">Figure 5. François Mauriac devant les cyprès
+            du domaine (coll. Centre François Mauriac, Domaine de Malagar). ©
+            et clichés Centre François Mauriac, Domaine de Malagar</head>
+          </figure>
+          <p xml:id="d1e157">L’un des premiers enjeux a été d’assurer la
+          protection de Malagar dans le temps, et pour que Malagar soit
+          préservé, il fallait que Malagar soit classé&#160;: ce fut fait en <date type="_temp" when="1991">1991</date>, à l’inventaire supplémentaire,
+          puis au titre des monuments historiques cinq ans plus tard («&#160;La
+          conservation du domaine de Malagar présente au point de vue de
+          l’histoire un intérêt public en raison des souvenirs littéraires qui
+          se rattachent à cet ensemble&#160;: sont classés parmi les monuments
+          historiques, en totalité, les bâtiments du domaine de Malagar à
+          <placeName ref="6432420" type="geonames" xml:base="https://www.geonames.org/">Saint-Maixant</placeName>&#160;»,
+          selon les termes de l’arrêté du <date type="_temp" when="1996-12-12">12&#160;décembre&#160;1996</date> signé du ministre de la
+          Culture). Enfin, en <date type="_temp" when="2013">2013</date>, le
+          même ministère de la Culture décida de classer toutes les parties
+          bâties et non bâties du domaine&#160;: prairie, alignement de cyprès,
+          allée de peupliers, ainsi que le bois de pins. Par ailleurs, le
+          label «&#160;Maison des Illustres&#160;», qui récompense «&#160;une offre
+          culturelle remarquable et garantit un accueil de qualité auprès de
+          tous les publics&#160;», a été attribué au domaine de Malagar lors de la
+          première campagne de labellisation, fin <date type="_temp" when="2010">2010</date>.</p>
+          <p xml:id="d1e159">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-xiqleu5l">sciences de l’art<term ref="doi:10.34817/sv-nq6uhzrm">arts du
+          spectacle</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+                </term>
+              </term>
+            </term>Le
+          centre de ressources documentaires est ouvert aux universitaires,
+          aux chercheurs et aux étudiants, mais chacun peut aussi, en fonction
+          de ses goûts et de sa curiosité, trouver son bonheur à Malagar&#160;: aux
+          amoureux des grands espaces, le superbe panorama sur la vallée de la
+          Garonne, les prestigieux vignobles du sud de la Gironde et la forêt
+          des Landes&#160;; aux littéraires, la visite du parc et de la maison tout
+          imprégnés des mots du prix Nobel&#160;; aux amateurs d’histoire, la
+          découverte du parcours d’un écrivain engagé dans son siècle. C’est
+          en tout cas la farouche volonté de l’équipe du Centre François
+          Mauriac (treize personnes) que de partager le plus largement
+          possible la grande richesse d’une œuvre protéiforme immortellement
+          associée à ce domaine et le plaisir qu’avait <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName> à y
+          séjourner. Au-delà de son attrait touristique, Malagar accueille
+          donc, chaque saison, une trentaine de rendez-vous culturels faisant
+          place à toutes les disciplines artistiques, en accès gratuit&#160;:
+          spectacles de danse, expositions, concerts, rencontres et débats,
+          cinéma en plein air, lectures, etc. On peut aussi venir apprendre à
+          cultiver son jardin en profitant de l’expertise des deux jardiniers
+          du domaine. Et puisque de transmission il est question, la médiation
+          auprès des jeunes générations et des établissements scolaires, du
+          primaire au supérieur, fait partie des actions prioritaires du
+          Centre François Mauriac, qui mise avec conviction sur
+          l’intemporalité de l’œuvre du prix Nobel de littérature – une
+          priorité largement partagée par les descendants et ayants droit de
+          l’écrivain-journaliste, très attentifs à l’avenir du domaine de
+          Malagar. Ainsi, plusieurs petits et arrière-petits-enfants sont
+          présents lors des manifestations culturelles, comme <persName ref="029298962" type="idref" xml:base="https://www.idref.fr/">Nathalie Mauriac-Dyer</persName>
+          (fille de <persName ref="027343685" type="idref" xml:base="https://www.idref.fr/">Claude Mauriac</persName>),
+          <persName ref="068022158" type="idref" xml:base="https://www.idref.fr/">Laurent Mauriac</persName> (fils de
+          <persName ref="035472022" type="idref" xml:base="https://www.idref.fr/">Jean Mauriac</persName>), <persName ref="027196372" type="idref" xml:base="https://www.idref.fr/">Pierre
+          Wiazemsky</persName>, dit <persName ref="027196372" type="idref" xml:base="https://www.idref.fr/">Wiaz</persName> (fils de <persName type="_temp">Claire</persName>) et sa fille <persName ref="226382508" type="idref" xml:base="https://www.idref.fr/">Léa
+          Wiazemsky</persName>.</p>
+          <figure xml:id="d1e161">
+            <graphic url="https://didomena.ehess.fr/downloads/2r36v611s.jpg"/>
+            <head xml:id="d1e162">Figure 6. Le domaine aujourd’hui&#160;:
+            animations culturelles. © et clichés Centre François Mauriac,
+            Domaine de Malagar</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e164">
+          <head subtype="level1" xml:id="d1e165">Malagar aujourd’hui et
+          demain…</head>
+          <epigraph>
+            <quote xml:id="d1e168">«&#160;Même après ma mort, tant qu’il restera
+            sur la terre un ami de mes livres, Malagar palpitera d’une sourde
+            vie…&#160;» (François Mauriac, Journal&#160;II, Éd.&#160;Grasset, 1937)</quote>
+          </epigraph>
+          <p xml:id="d1e170">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-icg5zods">région</term>
+              </term>
+            </term>Aujourd’hui
+          s’achève à Malagar un très important chantier de restauration des
+          bâtiments, initié et financé par la Région Nouvelle-Aquitaine,
+          propriétaire des lieux, et la DRAC. Il a consisté en la remise en
+          état d’un bâtiment viticole, le «&#160;Chai du Blanc&#160;», qui menaçait déjà
+          de s’effondrer depuis les <date from="1910" to="1919" type="_temp">années&#160;1910</date> – d’où le vibrant appel de <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName> à sa
+          mère, la suppliant de ne pas se débarrasser du domaine, au motif que
+          les travaux étaient alors très importants. Ce vaste espace est
+          désormais destiné à accueillir spectacles, expositions et
+          séminaires. La maison a, elle aussi, eu droit à un grand
+          «&#160;toilettage&#160;»&#160;: une opération de consolidation qui devenait
+          urgente, et une restauration profonde mais «&#160;discrète&#160;» afin de lui
+          redonner son allure de l’époque <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">Mauriac</persName>.</p>
+          <p xml:id="d1e172">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>Programmé
+          sur deux ans, ce chantier a logiquement nécessité la fermeture de la
+          maison aux visiteurs. De cette contrainte a émergé une réflexion sur
+          l’évolution de la médiation à Malagar, à court terme pour continuer
+          à y accueillir du public durant les travaux, mais aussi avec
+          l’ambition de proposer, à long terme, une manière innovante de
+          parcourir les pages d’une œuvre et d’une époque. Sans jamais perdre
+          de vue le fait que l’outil ne doit en aucun cas faire de l’ombre aux
+          contenus, mais valoriser leur intérêt et faciliter leur
+          transmission, c’est ainsi que s’est engagée la transition numérique
+          du Centre François Mauriac.</p>
+          <p xml:id="d1e174">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-w4qfxuba">film</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>Elle se concrétise aujourd’hui, dans
+          les anciennes étables restaurées du domaine, par une visite
+          virtuelle de la maison via deux écrans immersifs grâce auxquels,
+          comme lors d’une visite «&#160;traditionnelle&#160;», on passe d’une pièce à
+          l’autre en compagnie de la guide. Et si le virtuel ne peut rivaliser
+          avec la réalité pour restituer la «&#160;sensualité&#160;» des lieux, il
+          s’attache néanmoins à recréer leur densité humaine et permet surtout
+          de convoquer à l’envi des documents – iconographie, éléments
+          sonores, etc. – qui viennent illustrer, nourrir et approfondir les
+          propos de la guide. Ces documents sont, pour leur plus grande part,
+          issus du fonds d’archives numérisées du Centre François Mauriac,
+          complétées, grâce à un partenariat avec l’Institut national de
+          l’audiovisuel (INA), par des extraits d’entretiens radiophoniques de
+          l’écrivain ou d’adaptations télévisées ou cinématographiques de son
+          œuvre romanesque.</p>
+          <p xml:id="d1e176">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>À
+          ce dispositif s’ajoutent cinq bornes interactives en libre
+          consultation, situées au cœur de l’exposition permanente, dans le
+          Chai du Rouge. Sur des écrans tactiles, le visiteur peut librement
+          accéder à plusieurs niveaux de lecture et ainsi se familiariser ou
+          approfondir sa connaissance de l’univers mauriacien selon quatre
+          thématiques&#160;: la vie de <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName>, son
+          œuvre, sa famille et le domaine de Malagar.</p>
+          <p xml:id="d1e178">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Autre
+          proposition numérique, un «&#160;<foreign xml:lang="eng">escape
+          game</foreign>&#160;» à destination des adolescents (et de leurs
+          parents…), inspiré de la période durant laquelle Malagar fut occupé
+          par les Allemands durant une partie de la <date from="1939-09-01" to="1945-09-02" type="_temp">Seconde Guerre mondiale</date>, et du
+          <hi rend="italic">Cahier noir</hi>, ouvrage de résistance déjà cité.
+          Ainsi, coiffé d’un casque de réalité virtuelle et muni d’une
+          manette, le joueur part, d’indices en indices, à la recherche du
+          manuscrit original qu’il doit absolument sauver avant l’arrivée de
+          la Gestapo… La proposition est certes ludique, mais son contenu
+          constitue une porte d’entrée dans les écrits de <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">Mauriac</persName>, pour ce jeune
+          public qui, le plus souvent, ne l’a encore jamais lu.</p>
+          <p xml:id="d1e183">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>Ce «&#160;<foreign xml:lang="eng">serious game</foreign>&#160;» ainsi que la visite
+          virtuelle ont de plus, tous deux, le grand avantage de s’exporter
+          très facilement, notamment vers les établissements scolaires les
+          plus éloignés du vaste territoire de la Nouvelle-Aquitaine&#160;; ces
+          écoles, collèges et lycées pouvant difficilement se rendre à
+          Malagar, c’est Malagar qui désormais vient à eux&#160;!</p>
+          <p xml:id="d1e185">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-dirwppfa">vidéo</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+              </term>
+            </term>L’aventure
+          virtuelle ne s’arrête pas là&#160;: elle se poursuivra en <date type="_temp" when="2022">2022</date> par un enrichissement numérique
+          de la «&#160;vraie&#160;» visite de la maison, grâce à des équipements
+          miniatures et donc très discrets&#160;; sur le même principe, elle
+          permettra l’évocation, la projection et la diffusion de documents,
+          images, vidéos et sons recréant l’atmosphère d’antan tout en
+          augmentant l’accès au parcours intime, romanesque et journalistique
+          du prix Nobel de littérature.</p>
+          <p xml:id="d1e187">Cette (r)évolution des pratiques de médiation du
+          Centre François Mauriac a été le fruit du travail de toute une
+          équipe très engagée dans ce projet, avec un postulat de départ
+          partagé et non négociable&#160;: ne pas céder aux sirènes du gadget,
+          aussi performant et attrayant soit-il, mais utiliser au mieux la
+          technologie au service d’une œuvre et de ses différentes
+          composantes. L’objectif restait, reste et restera la fidélité à un
+          auteur, le respect de son œuvre et l’élargissement de son audience
+          auprès de lecteurs de différentes générations.</p>
+          <p xml:id="d1e189">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-epe2ahku">informatique<term ref="doi:10.34817/sv-jzf7lact">imagerie
+          numérique</term>
+                  </term>
+                </term>
+              </term>
+            </term>Entre deux périodes de
+          confinement liées à la pandémie de Covid-19, les réactions des
+          visiteurs de tous âges, scolaires compris, ont été à la hauteur du
+          pari&#160;: non seulement l’outil numérique a été adopté sans difficulté,
+          mais il participe d’un regain d’intérêt pour cet auteur de la part
+          de ceux qui ne l’avaient jamais lu et à qui cette découverte de
+          Malagar a donné envie de plonger dans l’un de ses romans&#160;; heureuse
+          surprise aussi du côté de ceux dont la lecture de <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">Mauriac</persName> s’est faite trop
+          tôt, trop jeunes, et qui repartent décidés à rafraîchir leurs
+          souvenirs littéraires.</p>
+          <p xml:id="d1e192">Cela dit, hormis sous la plume de <persName ref="027018741" type="idref" xml:base="https://www.idref.fr/">François Mauriac</persName>, tous
+          les écrits sur le domaine de Malagar n’égaleront jamais l’expérience
+          et l’émotion d’une découverte in situ de cette maison
+          d’écrivain…</p>
+          <figure xml:id="d1e194">
+            <graphic url="https://didomena.ehess.fr/downloads/f4752r14c.jpg"/>
+            <head xml:id="d1e195">Figure 7. Le domaine aujourd’hui&#160;:
+            animations numériques. © et clichés Centre François Mauriac,
+            Domaine de Malagar</head>
+          </figure>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

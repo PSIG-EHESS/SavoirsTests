@@ -1,0 +1,1167 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-11-05T15:52:06.487+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_24_Schmalzle.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les maisons de Goethe à Francfort et à
+        Weimar</title>
+        <author role="aut">
+          <forename>Christoph</forename>
+          <surname>Schmälzle</surname>
+          <idno type="IDREF">120905280</idno>
+        </author>
+        <editor role="translator">
+          <forename>Françoise</forename>
+          <surname>Bornemann</surname>
+          <idno type="IDREF">255486006</idno>
+        </editor>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/BCDYSRW7" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Les maisons de Goethe à Francfort et à
+            Weimar</title>
+            <author>
+              <forename>Christoph</forename>
+              <surname>Schmälzle</surname>
+            </author>
+            <respStmt>
+              <resp>translator</resp>
+              <persName>
+                <forename>Françoise</forename>
+                <surname>Bornemann</surname>
+              </persName>
+            </respStmt>
+          </analytic>
+          <monogr>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">24</biblScope>
+              <biblScope unit="page">24-35</biblScope>
+              <date>2021</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+        <language ident="ita"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          </term>
+          <term>
+            <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>
+          </term>
+          <term>
+            <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort-sur-le-Main</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1900" to="1999" type="_temp">20<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T13:16:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">Les maisons de Goethe à
+          Francfort et à Weimar</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Christoph Schmälzle</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Chef de projet scientifique, Cercle de
+          recherche Marbach Weimar Wolfenbüttel, Klassik Stiftung
+          Weimar</affiliation>
+        </byline>
+        <byline style="txt_collaborateur">Françoise Bornemann</byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e54">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-j2qwt5pl">catégorie sociale<term ref="doi:10.34817/sv-rcfldmud">bourgeoisie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+            </term>
+          </term>
+          <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Johann
+        Wolfgang von Goethe</persName> séjourna au long de sa vie dans de
+        nombreux endroits, mais trois maisons sont devenues des lieux de
+        mémoire et par la suite des institutions mémorielles&#160;: la première
+        qu’il faut mentionner est la maison de ses parents à <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort-sur-le-Main</placeName>,
+        au Hirschgraben. C’est là qu’il vit le jour en <date type="_temp" when="1749">1749</date> et qu’il vécut l’époque où son père transforma
+        la demeure en <date from="1755" to="1756" type="_temp">1755/56</date>,
+        puis la baptisa «&#160;aux trois lyres&#160;» (<foreign xml:lang="deu">Haus mit
+        den drei Leiern</foreign>)<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Petra Maisak, Hans-Georg Dewitz, <hi rend="italic">Das
+            Goethe-Haus in Frankfurt-am-Main</hi>, Frankfurt/Main, Insel,
+            1999, p.&#160;24-31</p>
+          </note>. La première maison dont <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> fut
+        propriétaire et grâce à laquelle il obtint le droit de bourgeoisie à
+        <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName> fut le
+        pavillon dans le parc près de la rivière Ilm<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Ernst-Gerhard Güse, Margarete Oppel&#160;(éd.), <hi rend="italic">Goethes Gartenhaus</hi>, Weimar, Klassik Stiftung,
+            2008, p.&#160;13</p>
+          </note> (son «&#160;Gartenhaus&#160;»). À partir de <date type="_temp" when="1782">1782</date>, il loua des espaces dans un bâtiment baroque
+        cossu des environs du «&#160;<foreign xml:lang="deu">Frauentor</foreign>&#160;»
+        (porte Notre-Dame), que <persName ref="074036831" type="idref" xml:base="https://www.idref.fr/">Karl August</persName> finalement
+        acheta pour lui en <date type="_temp" when="1792">1792</date>
+          <note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Wolfgang Holler, Kristin Knebel&#160;(éd.), <hi rend="italic">Goethes Wohnhaus</hi>, Weimar, Klassik Stiftung,
+            2011, p.&#160;14 et suiv.</p>
+          </note>. <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> résida dans cette
+        «&#160;maison du <foreign xml:lang="deu">Frauenplan</foreign>&#160;» (place
+        Notre-Dame) jusqu’à sa mort le <date type="_temp" when="1832-03-22">22&#160;mars&#160;1832</date>, tout en gardant son idyllique
+        pavillon de l’autre côté de l’Ilm.</p>
+        <p xml:id="d1e77">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-atm3vdzt">écrivain</term>
+            </term>
+          </term>La place
+        qu’occupèrent cette maison de <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName> et plus
+        encore celles de <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName> est
+        prépondérante si on les compare à d’autres «&#160;maisons de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>&#160;» comme la Casa di
+        Goethe à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, la petite
+        maison sur le Kickelhahn ou encore le pavillon de chasse de Gabelbach,
+        tous des lieux «&#160;authentiques&#160;» qui marquèrent de leur empreinte la
+        vie et l’œuvre de l’écrivain, mais de peu d’importance du point de vue
+        institutionnel ou muséal. L’appartement de la Via&#160;del&#160;Corso à
+        <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, où <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> logea avec son ami
+        le peintre <persName ref="052617858" type="idref" xml:base="https://www.idref.fr/">Johann Heinrich Wilhelm
+        Tischbein</persName>
+          <date from="1786" to="1788" type="_temp">entre
+        1786 et 1788</date>, ne devint un musée qu’en <date type="_temp" when="1997">1997</date>
+          <note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Voir Konrad Scheurmann, Ursula Bongerts-Schomer&#160;(éd.), «&#160;…
+            endlich in dieser Hauptstadt der Welt angelangt!&#160;» Goethe in Rom.
+            Publikation zur Eröffnung der Casa di Goethe in Rom, Mainz,
+            Philipp von Zabern, 1997</p>
+          </note>. La petite maison sur le Kickelhahn, où <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> composa dans la
+        nuit du <date type="_temp" when="1780-09-07">7&#160;septembre&#160;1780</date>
+        le poème «&#160;Über allen Gipfeln ist Ruh&#160;», disparut totalement dans un
+        incendie en <date type="_temp" when="1870">1870</date>. On la
+        reconstruisit à l’identique en <date type="_temp" when="1874">1874</date>. Dans le pavillon de chasse de Gabelbach, on
+        peut encore en voir une porte d’origine qui fut mise à l’abri avant
+        l’incendie<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>
+              <hi rend="italic">Marbacher Magazin</hi>, 74, 1996,
+            p.&#160;105-107&#160;; Rainer Krauß, Kathrin Kunze&#160;(éd.), <hi rend="italic">Museum Jagdhaus Gabelbach</hi>, Ilmenau,
+            GoetheStadtMuseum, 2018, p.&#160;48 et suiv.</p>
+          </note>.</p>
+        <p xml:id="d1e92">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la vie
+        et de l’environnement<term ref="doi:10.34817/sv-tnedxt7h">sciences de
+        la vie par type d’organismes</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-kpbl3dgr">bureau</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-wc3xyyrs">atelier</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+            </term>
+          </term>Les
+        demeures dont il va être question ici portent témoignage de phases
+        prolongées de la vie du poète. Elles furent très consciemment agencées
+        par lui ou par son père, puis transformées en musées dès le <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>. <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> passa
+        plus de la moitié de sa vie dans la maison du Frauenplan à <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>. Inspiré par
+        son voyage en <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, il fit
+        transformer le bâtiment <date from="1792" to="1795" type="_temp">entre
+        1792 et 1795</date>
+          <note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Christian Hecht, <hi rend="italic">Goethes Haus am Weimarer
+            Frauenplan. Fassade und Bildprogramme</hi>, München, Hirmer, 2020,
+            p.&#160;38-159</p>
+          </note>&#160;; contrastant avec des pièces d’apparat en façade, il y
+        avait côté jardin les pièces consacrées à son travail, l’atelier du
+        poète&#160;: la bibliothèque, le cabinet de travail, la chambre à coucher
+        ainsi que le bureau et le logement de service permettaient à <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> la conduite
+        efficace de son «&#160;intendance&#160;» (<foreign xml:lang="deu">Hauscanzlei</foreign>). Déjà de son vivant, la maison
+        du Frauenplan était devenue une sorte de musée autobiographique<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Christoph Schmälzle, «&#160;Museale Welten. Das Haus am Weimarer
+            Frauenplan&#160;», in Thorsten Valk&#160;(éd.), <hi rend="italic">Goethe.
+            Verwandlung der Welt</hi>, München, Prestel, 2019, p.&#160;250-271, ici
+            particulièrement p.&#160;252-255</p>
+          </note>. Il y avait là ses manuscrits et sa correspondance, mais
+        aussi ses considérables collections qui concernaient les arts et les
+        sciences naturelles, logées dans des armoires spécialement conçues
+        pour elles<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>Voir Diana Stört, <hi rend="italic">Goethes Sammlungsschränke.
+            Wissensbehältnisse nach Maß</hi>, Dresden, Sandstein, 2020</p>
+          </note>.</p>
+        <div type="section1" xml:id="d1e118">
+          <head subtype="level1" xml:id="d1e119">Les honneurs rendus de son
+          vivant</head>
+          <p xml:id="d1e121">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>Contrairement
+          à <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName>, décédé
+          prématurément, <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> se vit non
+          seulement canonisé «&#160;écrivain classique&#160;» de son vivant, mais il vit
+          aussi les endroits où il avait vécu et œuvré devenir objets d’un
+          intérêt touristique croissant. Dès <date type="_temp" when="1777">1777</date>, dans une lettre à <persName ref="03362349X" type="idref" xml:base="https://www.idref.fr/">Johann Heinrich
+          Merck</persName>, <persName ref="028060601" type="idref" xml:base="https://www.idref.fr/">Wieland</persName> parlait avec
+          ironie de la maison natale de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> en la nommant
+          «&#160;<foreign xml:lang="ita">casa santa</foreign>&#160;»<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Hans Werner Seiffert&#160;(éd.), <hi rend="italic">Wielands
+              Briefwechsel</hi>, vol.&#160;5&#160;: <hi rend="italic">Briefe der
+              Weimarer Zeit</hi>, Berlin, Akademie, 1983, p.&#160;695</p>
+            </note>. Il ne se doutait pas qu’au <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, on allait
+          réellement entreprendre des pèlerinages sur les traces des poètes et
+          en collectionner pieusement les reliques<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Christoph Schmälzle, «&#160;Weltliche Wallfahrt. Schillers
+              Reliquien in den Gedenkstätten des 19. Jahrhunderts&#160;», in
+              Hellmut Seemann, Thorsten Valk&#160;(éd.), <hi rend="italic">Literatur ausstellen. Museale Inszenierungen der
+              Weimarer Klassik</hi>, Göttingen, Wallstein, 2012, p.&#160;57-84, ici
+              p.&#160;58 et suiv.</p>
+            </note>. Jusqu’à son déménagement dans un logement plus petit au
+          «&#160;Ross-markt&#160;» en <date type="_temp" when="1795">1795</date>, la
+          mère de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> n’a cessé de
+          recevoir des visiteurs dans la «&#160;maison aux trois lyres&#160;»<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Petra Maisak, Hans-Georg Dewitz, <hi rend="italic">Das
+              Goethe-Haus in Frankfurt-am-Main</hi>, op.&#160;cit., p.&#160;106-113</p>
+            </note>. En témoigne l’anecdote, rapidement populaire, concernant
+          deux princesses de Mecklenburg, <persName ref="027214052" type="idref" xml:base="https://www.idref.fr/">Luise</persName> et
+          <persName ref="09559793X" type="idref" xml:base="https://www.idref.fr/">Friederike</persName>, qui en <date type="_temp" when="1790">1790</date>, oubliant toute étiquette,
+          pompèrent de l’eau dans la cour et sous les yeux de «&#160;madame la
+          conseillère <persName ref="126024731" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>&#160;»<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Bettina von Arnim, <hi rend="italic">Goethe’s Briefwechsel
+              mit einem Kinde</hi>, Berlin, Ferdinand Dümmler, 1835, vol.&#160;1,
+              p.&#160;196&#160;; Heinrich Pallmann, <hi rend="italic">Das Goethehaus in
+              Frankfurt</hi>, Frankfurt/Main, Gebrüder Knauer, 1889, p.&#160;11 et
+              suiv.</p>
+            </note>.</p>
+          <p xml:id="d1e160">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-qm2ezej3">peinture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-dujlzfqq">dessin</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>Avec
+          la rédaction, en <date type="_temp" when="1811">1811</date>, de la
+          première partie de ses souvenirs (<hi rend="italic">Ma vie. Poésie
+          et vérité</hi>), <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> avait dressé un
+          monument littéraire à son enfance à <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName>. Sa
+          maison parentale au Hirschgraben devint à partir de là un
+          authentique lieu de mémoire, en même temps que le théâtre d’une
+          autobiographie<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>On peut lui comparer la maison des grands-parents de Thomas
+              Mann à Lubeck qui fut rendue célèbre en tant que maison des
+              Buddenbrook&#160;; voir Thomas Radbruch, Hans Wißkirchen, <hi rend="italic">Das Buddenbrookhaus</hi>, Hamburg, Die Hanse,
+              2001.</p>
+            </note> sublimée par un travail de littérature. Témoin de cet
+          intérêt pour les conditions matérielles de la vie de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, la plus ancienne
+          représentation de sa maison natale parut en <date type="_temp" when="1824">1824</date> dans le <hi rend="italic">Journal für
+          Literatur, Kunst, Luxus und Mode </hi>de <persName ref="029589029" type="idref" xml:base="https://www.idref.fr/">Friedrich Justin
+          Bertuch</persName>, accompagnée d’un sonnet de type panégyrique de
+          <persName ref="261407112" type="idref" xml:base="https://www.idref.fr/">Stephan Schütze</persName>
+            <note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Stephan Schütze, «&#160;Göthe’ns Geburtshaus&#160;», in <hi rend="italic">Journal für Literatur, Kunst, Luxus und Mode</hi>,
+              39, 1824, p.&#160;70 et planche&#160;2&#160;; voir aussi <hi rend="italic">Journal für Literatur, Kunst, Luxus und Mode</hi>,
+              38, 1823, p.&#160;675, notes.</p>
+            </note>. Le dessin «&#160;d’après nature&#160;» avait été réalisé par le
+          peintre <persName ref="114009937" type="idref" xml:base="https://www.idref.fr/">Friedrich Wilhelm
+          Delkeskamp</persName>, de <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName>
+            <note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Gerhard Schuster, Caroline Gille&#160;(éd.), <hi rend="italic">Weimarer Klassik. Wiederholte Spiegelungen.
+              1759–1832. Ständige Ausstellung des Goethe-Nationalmuseums</hi>,
+              München, Hanser, 1999, vol.&#160;1, p.&#160;169</p>
+            </note>
+            <hi> (voir ill. p.&#160;24)</hi>. Un an plus tard, le peintre de
+          paysages <persName type="_temp">Samuel Rösel</persName> envoya à
+          <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> pour son
+          anniversaire un dessin de la cour au puits de <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName>, en même
+          temps que douze tirages à l’aquatinte<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Ibid., p.&#160;170</p>
+            </note>
+            <hi> (voir ill. ci-contre)</hi>. Suivirent d’autres
+          représentations ayant trait à la vie et à l’œuvre de l’écrivain,
+          dont le château de <persName ref="028489497" type="idref" xml:base="https://www.idref.fr/">Götz de Berlichingen</persName> à
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Jaxthausen</placeName>, la
+          maison natale de <persName ref="027155471" type="idref" xml:base="https://www.idref.fr/">Torquato Tasso</persName> ou la
+          maison du Frauenplan<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Christoph Schmälzle, «&#160;Museale Welten. Das Haus am Weimarer
+              Frauenplan&#160;», op.&#160;cit., p.&#160;252</p>
+            </note>. Goethe remercia <persName type="_temp">Rösel</persName>
+          en <date type="_temp" when="1827">1827</date> en lui offrant un
+          poème de circonstance<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Johann Wolfgang von Goethe, <hi rend="italic">Sämtliche Werke
+              nach Epochen seines Schaffens</hi>, éd. Karl Richter [Édition de
+              Munich, désormais abrégée en MA], München, Hanser, 1985-1998,
+              ici vol.&#160;18.1, p.&#160;21, 420 et suiv.</p>
+            </note>. Il offrit l’une des aquatintes à <persName ref="027513815" type="idref" xml:base="https://www.idref.fr/">Friedrich Maximilian
+          Klinger</persName> avec le poème «&#160;An diesem Brunnen hast auch Du
+          gespielt&#160;»<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>MA, vol.&#160;13.1, p.&#160;133, 704</p>
+            </note>. <persName ref="09559793X" type="idref" xml:base="https://www.idref.fr/">Friederike von
+          Mecklenburg</persName>, devenue reine du Hanovre par son troisième
+          mariage, reçut elle aussi l’une de ces gravures.</p>
+          <figure xml:id="d1e215">
+            <graphic url="https://didomena.ehess.fr/downloads/ws859q16s.jpg"/>
+            <head xml:id="d1e216">Figure 1. Friedrich Wilhelm Delkeskamp, La
+            maison parentale de Goethe sur le Großer Hirschgraben à
+            Francfort-sur-le-Main, dessin à la plume aquarellé, 1824
+            (coll.&#160;Klassik Stiftung Weimar). © et clichés Klassik Stiftung
+            Weimar</head>
+          </figure>
+          <figure xml:id="d1e220">
+            <graphic url="https://didomena.ehess.fr/downloads/f4752r15n.png"/>
+            <head xml:id="d1e221">Figure 2. Johann Gottlieb Samuel Rösel, La
+            fontaine dite des princesses, dans la cour de la maison des
+            parents de Goethe à Francfort, dessin à la plume, 1823
+            (coll.&#160;Klassik Stiftung Weimar). © et clichés Klassik Stiftung
+            Weimar</head>
+          </figure>
+          <p xml:id="d1e225">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-myedpthg">éditeur</term>
+              </term>
+            </term>La
+          commercialisation de ce matériel pictural ne tarda pas&#160;: dès <date type="_temp" when="1828">1828</date>, les marchands d’art <persName type="_temp">Morasch</persName> et <persName type="_temp">Skerl</persName> de <placeName ref="6551127" type="geonames" xml:base="https://www.geonames.org/">Dresde</placeName> publièrent
+          des vues du «&#160;Gartenhaus&#160;» (le pavillon dans le parc de l’Ilm) ainsi
+          que de la maison du Frauenplan <hi>(voir ill. p.&#160;28)</hi>, d’après
+          des originaux d’<persName ref="027698270" type="idref" xml:base="https://www.idref.fr/">Otto Wagner</persName>
+            <note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Christian Hecht, <hi rend="italic">Goethes Haus am Weimarer
+              Frauenplan…</hi>, op.&#160;cit., p.&#160;195-199</p>
+            </note>. À la demande de l’éditeur, <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> y
+          ajouta des poèmes que l’on imprima en fac-similé sur les
+          feuillets<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>MA, vol.&#160;18.1, p.&#160;9, 401 et suiv.&#160;; voir aussi MA, vol.&#160;13.1,
+              p.&#160;175.</p>
+            </note>. Il faut dire que le quatrain consacré à sa maison offrait
+          du maître des lieux une image plus amène que celle qu’il pouvait
+          être capable de donner à cette époque, en raison de sa forte charge
+          de travail. «&#160;Pourquoi attendez-vous ici&#160;? / Vous avez là porte et
+          portail. / Si vous entriez simplement, / Vous seriez bien
+          accueillis&#160;». De même pour le «&#160;Gartenhaus&#160;», encore dépourvu de ses
+          portes blanches créées en <date type="_temp" when="1830">1830</date>
+          par <persName ref="134143906" type="idref" xml:base="https://www.idref.fr/">Clemens Wenzeslaus
+          Coudray</persName>&#160;: «&#160;Elle ne paie pas de mine, / Cette modeste
+          chaumine, / Mais quiconque y a vécu, / Du bon temps y a connu&#160;». Les
+          images publiées d’après <persName ref="114009937" type="idref" xml:base="https://www.idref.fr/">Delkeskamp</persName> et <persName ref="027698270" type="idref" xml:base="https://www.idref.fr/">Wagner</persName> expriment par
+          ailleurs clairement le but d’attirer des touristes&#160;: on y voit
+          toujours un personnage jouant les utilités en désignant du geste la
+          maison de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> en tant que «&#160;la
+          chose à voir&#160;».</p>
+          <figure xml:id="d1e240">
+            <graphic url="https://didomena.ehess.fr/downloads/gf06gb159.jpg"/>
+            <head xml:id="d1e241">Figure 3. Ludwig Schütze d’après Otto
+            Wagner, <hi rend="italic">Le «&#160;Gartenhaus&#160;» de Goethe</hi>,
+            aquatinte, 1828 (coll.&#160;Klassik Stiftung Weimar). © et clichés
+            Klassik Stiftung Weimar</head>
+          </figure>
+          <figure xml:id="d1e248">
+            <graphic url="https://didomena.ehess.fr/downloads/n009w973r.jpg"/>
+            <head xml:id="d1e249">Figure 4. Ludwig Schütze d’après Otto
+            Wagner, <hi rend="italic">La maison de Goethe à Weimar</hi>,
+            aquatinte, 1828 (coll.&#160;Klassik Stiftung Weimar). © et clichés
+            Klassik Stiftung Weimar</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e256">
+          <head subtype="level1" xml:id="d1e257">Objets mémoriels
+          privés</head>
+          <p xml:id="d1e259">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-kpbl3dgr">bureau</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>Il ne va
+          pas de soi que les lieux habités par un poète, que ses meubles et
+          ses objets d’usage courant soient sortis, après son décès, d’un
+          éventuel circuit commercial et deviennent des objets de musée. La
+          transformation d’objets utilisés dans la vie pratique en objets à
+          valeur «&#160;symbolique&#160;» nécessite un cadrage institutionnel qui ne
+          s’est construit qu’au cours du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Cf. Krzysztof Pomian, <hi rend="italic">Collectionneurs,
+              amateurs et curieux. Paris,</hi>
+                <hi rend="italic">Venise.
+              XVI</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic"> –
+              XVIII</hi>
+                <hi rend="sup italic">e</hi>
+                <hi rend="italic">&#160;siècle</hi>, Paris, Gallimard, 1987, p.&#160;43</p>
+            </note>. C’est ainsi que <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> déplora en <date type="_temp" when="1795">1795</date> la vente de la maison de ses
+          parents et de son contenu&#160;; mais il ne garda que peu de choses des
+          riches collections de son père, parmi lesquelles les plans relatifs
+          à la transformation de la demeure en <date from="1755" to="1756" type="_temp">1755/56</date>
+            <note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Johann Wolfgang von Goethe, «&#160;Tag-und Jahreshefte&#160;», in <hi rend="italic">Werke </hi>[Édition de Berlin], vol.&#160;16, Berlin,
+              Weimar, Aufbau, 1964, p.&#160;24, 40 et suiv.</p>
+            </note>. Sa joie n’en fut que plus grande lorsque le frère de
+          <persName ref="027214052" type="idref" xml:base="https://www.idref.fr/">Luise</persName> et <persName ref="09559793X" type="idref" xml:base="https://www.idref.fr/">Friederike</persName>, <persName type="_temp">Georg von Mecklenburg</persName>, lui offrit pour son
+          anniversaire<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Du même, <hi rend="italic">Werke</hi>, dans l’éd. commandée
+              par la grande-duchesse Sophie de Saxe, Weimar, Böhlau, 1887–1919
+              [Édition de Weimar, par la suite abrégée en WA], ici&#160;:
+              section&#160;IV, vol.&#160;44, p.&#160;309&#160;; ibid., vol.&#160;25, p.&#160;5.</p>
+            </note> en <date type="_temp" when="1828">1828</date> l’horloge de
+          ses parents, restée jusque-là à <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName>.
+          Aujourd’hui encore celle-ci orne le vestibule de son cabinet de
+          travail, dans la maison du Frauenplan, en tant que souvenir de
+          l’enfance du poète.</p>
+          <p xml:id="d1e296">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-sbnvxjra">mobilier</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-dujlzfqq">dessin</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>Même
+          lorsqu’elle eut d’autres propriétaires, la demeure parentale de
+          <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> resta un lieu de
+          mémoire important. En <date type="_temp" when="1829">1829</date>, le
+          peintre <persName ref="252873637" type="idref" xml:base="https://www.idref.fr/">Caroline Bardua</persName> dessina
+          «&#160;d’après nature&#160;» la mansarde où <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>,
+          croyait-on, aimait se tenir durant sa vie d’écolier <hi>(voir ill.
+          p.&#160;27)</hi>
+            <note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Gerhard Schuster, Caroline Gille&#160;(éd.), <hi rend="italic">Weimarer Klassik. Wiederholte Spiegelungen…</hi>,
+              op.&#160;cit., vol.&#160;1, p.&#160;171</p>
+            </note>. Comme ce dessin, légèrement modifié, servit de
+          frontispice au livre de <persName ref="027375609" type="idref" xml:base="https://www.idref.fr/">Bettina von Arnim</persName>, <hi rend="italic">Correspondance de Goethe avec une enfant</hi>, il
+          atteignit un large public. La chambre que <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>
+          occupait réellement ne fut identifiée que plus tard. À partir de
+          <date type="_temp" when="1840">1840</date>, il y eut dans cette
+          chambre dessinée par <persName ref="252873637" type="idref" xml:base="https://www.idref.fr/">Bardua</persName> un livre d’or. En
+          <date type="_temp" when="1844">1844</date>, on posa une plaque de
+          marbre au-dessus de la porte d’entrée de la maison, la désignant
+          comme maison natale de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>
+            <note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Otto Volger, <hi rend="italic">Goethe’s Vaterhaus. Ein
+              Beitrag zu des Dichters Entwicklungsgeschicht</hi>e,
+              Frankfurt/Main, Freies Deutsches Hochstift, 1863, p.&#160;174 et
+              suiv.&#160;; Petra Maisak, Hans-Georg Dewitz, <hi rend="italic">Das
+              Goethe-Haus in Frankfurt-am-Main</hi>, op.&#160;cit., p.&#160;114.</p>
+            </note>. Le lieu de mémoire privée était équipé de la même façon
+          que ce qu’on connaît pour les maisons de <persName ref="026670488" type="idref" xml:base="https://www.idref.fr/">Schiller</persName> à
+          la même époque&#160;: un buste, quelques manuscrits, un coin de travail
+          avec des meubles, authentiques dans la mesure du possible, et un
+          livre d’or<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Cf. les plans de Goethe pour un mémorial Schiller&#160;: WA,
+              partie&#160;IV, vol.&#160;28, p.&#160;34.</p>
+            </note>.</p>
+          <figure xml:id="d1e323">
+            <graphic url="https://didomena.ehess.fr/downloads/vd66w7622.png"/>
+            <head xml:id="d1e324">Figure 5. Caroline Bardua, <hi rend="italic">La chambre de Goethe</hi>
+              <hi rend="italic"> dans la
+            maison paternelle à Francfort, </hi>dessin à la plume, 1829
+            (coll.&#160;Klassik Stiftung Weimar). © et clichés Klassik Stiftung
+            Weimar</head>
+          </figure>
+          <quote rend="quotation" xml:id="d1e334">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-dujlzfqq">dessin</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-sbnvxjra">mobilier<term ref="doi:10.34817/sv-wmu6j2gm">pupitre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>«&#160;Il
+          y avait là encore le pupitre peint en blanc de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Wolfgang</persName>, des chaises à
+          l’ancienne, des dessins et quelques autographes du poète sous verre
+          et encadrés. Un buste plus grand que nature de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, la tête ornée
+          d’une couronne de laurier véritable, était placé sur la table.
+          Devant le buste se tenait, ouvert, le livre couvert de maroquin
+          rouge dans lequel les visiteurs de la chambre de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> ont l’habitude
+          d’inscrire leur nom&#160;»<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Alexander Lacy [=&#160;Virginia Wunderlich], <hi rend="italic">Santa Casa. </hi>
+                <hi rend="italic">Episode aus
+              Goethes Jugendzeit. Eine Novelle</hi>, Mainz, Kunze, 1853,
+              vol.&#160;2, p.&#160;186</p>
+            </note>.</quote>
+          <p xml:id="d1e345">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-thqaynml">famille</term>
+              </term>
+            </term>À
+          <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, les choses
+          étaient différentes car après la mort de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, la
+          famille continua d’occuper la maison du Frauenplan. Par ailleurs,
+          celui-ci avait pris des précautions quant à la conservation de ses
+          collections, dont il connaissait l’importance et la valeur&#160;: «&#160;mes
+          manuscrits, mes échanges épistolaires, mes collections quelles
+          qu’elles soient, valent qu’on s’en occupe sérieusement&#160;[…] Si j’ai
+          collectionné, ce n’est pas par lubie ou par impulsion, mais avec
+          l’intention et le sérieux projet de progresser dans mes
+          connaissances, et à chaque objet recueilli j’ai appris quelque
+          chose&#160;»<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Paul Kahl, Hendrik Kalvelage&#160;(éd.), <hi rend="italic">Das
+              Goethe-Nationalmuseum in Weimar</hi>, vol.&#160;1&#160;: <hi rend="italic">Das Goethehaus im&#160;19. Jahrhundert</hi>, Göttingen,
+              Wallstein, 2015, p.&#160;41 et suiv.</p>
+            </note> Alors que <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> et ses héritiers
+          pouvaient imaginer une vente séparée des collections, en dehors des
+          murs et du mobilier, le public, lui, commençait à penser que la
+          maison du Frauenplan formait un tout avec ce qu’elle contenait et
+          qu’il fallait donc conserver l’ensemble. C’est dans cette intention
+          que le grand-duc héritier <persName ref="035241454" type="idref" xml:base="https://www.idref.fr/">Carl Alexander</persName> écrivit
+          en <date type="_temp" when="1843">1843</date> au petit-fils de
+          <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, <persName type="_temp">Wolfgang</persName>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e361">«&#160;Le plus important, à côté
+          des collections de ton grand-père, c’est de considérer le lieu qui
+          est là comme une sorte de saint des saints au milieu du bâtiment et
+          des trésors qu’il renferme, ce lieu où régnait son esprit immortel,
+          ce lieu rempli plus que tous les autres de son souvenir&#160;[…] Je veux
+          parler de la pièce où il travaillait et de la chambre à coucher
+          contiguë&#160;»<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>René Jacques Baerlocher, Christa Rudnik&#160;(éd.), <hi rend="italic">“Weimars Pflichten auf der Bühne der
+              Vergangenheit”. Der Briefwechsel zwischen Großherzog Carl
+              Alexander und Walther Wolfgang von Goethe</hi>, Göttingen,
+              Wallstein, 2010, p.&#160;447</p>
+            </note>.</quote>
+          <p xml:id="d1e370">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-rxs3gaea">inventaire</term>
+              </term>
+            </term>Dès
+          <date type="_temp" when="1832">1832</date>, on dressa l’inventaire
+          des objets présents dans ces pièces où <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>
+          travaillait et où il mourut<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Paul Kahl, Hendrik Kalvelage&#160;(éd.), <hi rend="italic">Das
+              Goethe-Nationalmuseum in Weimar…</hi>, op.&#160;cit., vol.&#160;1,
+              p.&#160;67-70</p>
+            </note>. Contrairement aux autres pièces de la maison, celles-ci
+          ne furent plus utilisées<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Paul Kahl, «&#160;Schillers und Goethes Weimarer Arbeitszimmer&#160;»,
+              in Hellmut Seemann, Thorsten Valk&#160;(éd.), <hi rend="italic">Literatur ausstellen…</hi>, op.&#160;cit., p.&#160;85-96,
+              ici p.&#160;94 et suiv.</p>
+            </note>. Sur le souhait de <persName ref="135772044" type="idref" xml:base="https://www.idref.fr/">Walther von Goethe</persName>,
+          elles furent même fermées au public en <date type="_temp" when="1840">1840</date>
+            <note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>Paul Kahl, <hi rend="italic">Die Erfindung des Dichterhauses.
+              Das Goethe-Nationalmuseum in Weimar. Eine Kulturgeschichte</hi>,
+              Göttingen, Wallstein, 2015, p.&#160;53 et suiv.</p>
+            </note>. Ni la prise en charge du bâtiment et de son contenu par
+          le «&#160;Deutscher Bund&#160;» en tant que «&#160;fondation nationale&#160;», ni la
+          vente des collections dont <persName ref="166016209" type="idref" xml:base="https://www.idref.fr/">Christian Schuchardt</persName>
+          dressa à cet effet le catalogue en <date from="1848" to="1849" type="_temp">1848/49</date>
+            <note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Ibid., p.&#160;55-103</p>
+            </note> ne se réalisèrent. Dans le même temps, il y eut des
+          projets alternatifs. <persName type="_temp">Robert
+          Springer</persName> illustra en <date type="_temp" when="1868">1868</date> son livre <hi rend="italic">Weimars
+          klassische Stätten </hi>par une vue du «&#160;Gartenhaus&#160;» de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, alors que la
+          maison du Frauenplan n’était même pas mentionnée dans le
+          sommaire<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Robert Springer, <hi rend="italic">Weimar’s klassische
+              Stätten. Ein Beitrag zum Studium Goethe’s und unserer
+              klassischen Literatur-Epoche</hi>, Berlin, Julius Springer,
+              1868</p>
+            </note>. Des tableaux comme celui, posthume, de <persName ref="135772621" type="idref" xml:base="https://www.idref.fr/">Joseph
+          Schmeller</persName> représentant <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> en
+          train de dicter, qui se trouve depuis <date type="_temp" when="1840">1840</date> dans la salle rococo de la bibliothèque
+          grand-ducale, ou la lithographie de <persName ref="079761607" type="idref" xml:base="https://www.idref.fr/">Carl August Bernhard
+          von Arnswald</persName> intitulée «&#160;Le cabinet d’études de Goethe&#160;»
+          <hi>(voir ill. ci-contre)</hi> devinrent très célèbres en tant que
+          substituts de l’original<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>Gerhard Schuster, «&#160;Goethe diktiert&#160;», in <hi rend="italic">Marbacher Magazin</hi>, 74, 1996, p.&#160;86-91</p>
+            </note>. Ils montrent ce qui pendant presque un demi-siècle, au
+          désespoir des admirateurs de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, ne pouvait être
+          vu dans des conditions normales&#160;: le cœur même de la maison où vécut
+          l’écrivain.</p>
+          <figure xml:id="d1e417">
+            <graphic url="https://didomena.ehess.fr/downloads/5h73q4543.png"/>
+            <head xml:id="d1e418">Figure 6. Carl August Bernhard von Arnswald,
+            Le cabinet d’études de Goethe, lithographie coloriée, vers 1849
+            (coll.&#160;Klassik Stiftung Weimar). © et clichés Klassik Stiftung
+            Weimar</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e422">
+          <head subtype="level1" xml:id="d1e423">Muséification</head>
+          <p xml:id="d1e425">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-z7uufud2">archives</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>Au
+          corpus canonique de la littérature nationale allemande, tel que
+          l’établirent du point de vue académique des historiens de la
+          littérature comme <persName ref="033665362" type="idref" xml:base="https://www.idref.fr/">Georg Gottfried
+          Gervinus</persName>, <persName ref="128128089" type="idref" xml:base="https://www.idref.fr/">Joseph Hillebrand</persName> ou
+          <persName ref="074651218" type="idref" xml:base="https://www.idref.fr/">Hermann Hettner</persName> au
+          milieu du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, ne correspondait à cette époque
+          aucune collection muséale spécialisée. C’est à cette lacune que
+          répondaient les lieux de mémoire dans les maisons de poètes qui
+          apparurent alors et étaient en général le fruit d’initiatives
+          privées, et qui réunissaient des fonds d’archives, de bibliothèques
+          et d’objets en relation avec des personnes<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>Christoph Schmälzle, «&#160;Weltliche Wallfahrt. Schillers
+              Reliquien in den Gedenkstätten des 19. Jahrhunderts&#160;», op.&#160;cit.,
+              p.&#160;63, 83</p>
+            </note>. Le culte qu’on rendait aux «&#160;classiques&#160;» trouvait une
+          résonance politique dans la nation non encore fondée, dont l’unité
+          n’était encore que culturelle, si bien qu’on y apportait en règle
+          générale beaucoup d’attention et que les soutiens ne manquaient pas.
+          La construction d’un bon réseau ferroviaire mit ces «&#160;maisons&#160;» à la
+          portée d’un large public<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>C’est ainsi que parut <hi rend="italic">Schillerhäuser
+              </hi>de Josef Rank en 1856 dans la collection <hi rend="italic">Brockhaus’ Reisebibliothek&#160;;</hi> la <hi rend="italic">Weimar’s klassische Stätten </hi>de Robert
+              Springer (cf.&#160;note&#160;35) commence par un chapitre intitulé <hi rend="italic">Auf der Thüringischen Eisenbahn</hi>.</p>
+            </note>.</p>
+          <p xml:id="d1e449">Un exemple illustre cette dynamique&#160;: lors de
+          l’année Schiller <date type="_temp" when="1859">1859</date>, à
+          l’initiative d’<persName ref="150816170" type="idref" xml:base="https://www.idref.fr/">Otto Volger</persName>, fut créée à
+          <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName> la
+          «&#160;<foreign xml:lang="deu">Freie Deutsche Hochstift für Wissenschaft,
+          Künste und allgemeine Bildung</foreign>&#160;» (Haute fondation pour la
+          science, les arts et la culture générale). En y mettant toute son
+          énergie, <persName ref="150816170" type="idref" xml:base="https://www.idref.fr/">Volger</persName> était parvenu en
+          <date type="_temp" when="1863">1863</date> à acquérir la maison
+          natale de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> dont il voulait
+          faire un «&#160;lieu de fondation&#160;» (<foreign xml:lang="deu">Stiftungsort</foreign>) pour la soustraire au marché
+          immobilier et pouvoir la conserver de manière durable<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>Fritz Adler, <hi rend="italic">Freies Deutsches Hochstift.
+              Seine Geschichte. Erster Teil. 1859-1885</hi>, Frankfurt/Main,
+              Freies Deutsches Hochstift, 1959, p.&#160;101-149</p>
+            </note>. Dorénavant le bâtiment devait servir deux buts bien
+          définis&#160;: devenir un sanctuaire national de la mémoire goethéenne et
+          un endroit consacré aux arts et à la science<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>Otto Volger, <hi rend="italic">Goethe’s Vaterhaus…,
+              </hi>op.&#160;cit., p.&#160;185</p>
+            </note>. Bien avant l’écrit de <persName ref="027500721" type="idref" xml:base="https://www.idref.fr/">Dilthey</persName>
+            <note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>Cf. Wilhelm Dilthey, «&#160;Archive für Literatur&#160;», in <hi rend="italic">Deutsche Rundschau</hi>, 58, 1889, p.&#160;360-375</p>
+            </note> sur la nécessité d’avoir des archives littéraires,
+          <persName ref="150816170" type="idref" xml:base="https://www.idref.fr/">Volger</persName> avait envisagé ce
+          rôle pour la Haute fondation&#160;:</p>
+          <quote rend="quotation" xml:id="d1e472">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-h3wwz88g">texte</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-4xzsjttc">chercheur</term>
+              </term>
+            </term>«&#160;Que
+          parviennent à la postérité et soient conservés dans sa maison
+          parentale pour être à la disposition de la recherche scientifique
+          toutes les éditions de tous les écrits de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>,
+          depuis les textes et poèmes isolés jusqu’aux œuvres complètes, tous
+          les écrits concernant <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> et ses œuvres,
+          tous ses échanges épistolaires avec ses amis, les manuscrits et les
+          portraits de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, de sa famille et
+          de ses amis&#160;»<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>
+                <hi rend="italic">Berichte des Freien Deutschen
+              Hochstifts</hi>, 5, 1864, p.&#160;116&#160;; cf. Joachim Seng, «&#160;“Bilder
+              sind Chiffren des Geistes”. Das Frankfurter Goethe-Museum und
+              seine Erweiterung durch Ernst Beutler&#160;», in Hellmut Seemann,
+              Thorsten Valk&#160;(éd.), <hi rend="italic">Literatur
+              ausstellen….</hi>, op.&#160;cit., p.&#160;151-170, ici p.&#160;151.</p>
+            </note>.</quote>
+          <p xml:id="d1e484">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>En même
+          temps, il fallait s’occuper du bâtiment lui-même et enlever les
+          traces des transformations qui avaient affecté la maison de
+          <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>
+            <note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>Otto Volger, <hi rend="italic">Goethe’s Vaterhaus…,
+              </hi>op.&#160;cit., p.&#160;192</p>
+            </note>. Pour la Haute fondation, la mission de collecter des
+          objets devint pressante car pour pouvoir installer les locaux
+          destinés à devenir le musée, pour en faire des lieux authentiques du
+          point de vue historique, on manquait de matériel si possible
+          d’origine, comme <persName ref="150816170" type="idref" xml:base="https://www.idref.fr/">Volger</persName> l’expliquait dans
+          une lettre en <date type="_temp" when="1879">1879</date>&#160;:</p>
+          <quote rend="quotation" xml:id="d1e493">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>«&#160;Je ne
+          veux pas seulement conserver la maison, mais aussi y remettre peu à
+          peu les objets adéquats. Evidemment il faudra privilégier les choses
+          ayant réellement appartenu à madame la conseillère ou à <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> lui-même.
+          Celles-ci ne pouvant suffire, je complèterai par des objets
+          correspondant à l’époque mais provenant d’ailleurs&#160;»<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>Cité d’après Fritz Adler, <hi rend="italic">Freies Deutsches
+              Hochstift…</hi>, op.&#160;cit., p.&#160;130&#160;; voir aussi Joachim Seng,
+              «&#160;“Geh vom Häuslichen aus und erweitere es zu einer Welt”. Das
+              Frankfurter Goethe-Museum im&#160;19. Jahrhundert&#160;», in Anne
+              Bohnenkamp, Constanze Breuer, Paul Kahl, Stefan Rhein&#160;(éd.), <hi rend="italic">Häuser der Erinnerung. Zur Geschichte der
+              Personengedenkstätte in Deutschland, </hi>Leipzig, Evangelische
+              Verlagsanstalt, 2015, p.&#160;133-151, ici p.&#160;143.</p>
+            </note>.</quote>
+          <p xml:id="d1e505">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>Le
+          travail efficace de la Haute fondation fit parler d’elle à
+          <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>. Dans les
+          <date from="1880" to="1881" type="_temp">années&#160;1880/81</date>, le
+          grand-duc <persName ref="035241454" type="idref" xml:base="https://www.idref.fr/">Carl Alexander</persName> discuta
+          avec <persName ref="150816170" type="idref" xml:base="https://www.idref.fr/">Otto Volger</persName> d’un projet
+          de prise en charge commune des maisons Goethe de <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName> et de
+          <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, mais le
+          projet échoua face à l’habituel scepticisme des héritiers, et aussi
+          parce que la réélection de <persName ref="150816170" type="idref" xml:base="https://www.idref.fr/">Volger</persName> comme président
+          de la Haute fondation ne se fit pas<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>Fritz Adler, <hi rend="italic">Freies Deutsches
+              Hochstift…</hi>, op.&#160;cit., p.&#160;172-190&#160;; Paul Kahl, <hi rend="italic">Die Erfindung des Dichterhauses…</hi>, op.&#160;cit.,
+              p.&#160;120 et suiv.</p>
+            </note>. À la mort en <date type="_temp" when="1885">1885</date>
+          du dernier héritier de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>, <persName ref="135772044" type="idref" xml:base="https://www.idref.fr/">Walther</persName>, l’héritage
+          entier, conservé pendant des décennies sur le Frauenplan, revint par
+          disposition testamentaire au Grand-duché, ce qui permit à <persName ref="035241454" type="idref" xml:base="https://www.idref.fr/">Carl
+          Alexander</persName> de créer la même année le Musée national Goethe
+          (<foreign xml:lang="deu">Goethe-Nationalmuseum</foreign>)<note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Paul Kahl, <hi rend="italic">Die Erfindung des
+              Dichterhauses…</hi>, op.&#160;cit., p.&#160;129-133</p>
+            </note>.</p>
+          <p xml:id="d1e524">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>Lors de
+          l’installation du musée qui ouvrit en deux étapes en <date from="1886" to="1887" type="_temp">1886/87</date>, on reconstitua du
+          mieux qu’on put l’état des pièces d’habitation, en même temps qu’on
+          dut effectuer des réparations indispensables sur le bâtiment
+          lui-même. Il fallait également mettre au point des stratégies
+          adaptées pour la présentation muséale de la collection et des objets
+          de mémoire biographiques. <persName ref="165821051" type="idref" xml:base="https://www.idref.fr/">Carl Ruland</persName>, qui fut le
+          premier directeur du Goethe-Nationalmuseum, opta pour une solution
+          intermédiaire, entre musée et demeure de poète. Il fit construire de
+          nombreuses vitrines qu’on disposa dans les pièces historiques en
+          façade, ce qui permettait de présenter davantage d’objets<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>Louis Held, <hi rend="italic">Goethes Heimstätte in Weimar.
+              20 Ansichten aus dem</hi>
+                <hi rend="italic">Goethe-National-Museum. Einzig autorisierte
+              Aufnahmen</hi>, Weimar, Weissbach, 1886</p>
+            </note>. Son successeur <persName ref="162487932" type="idref" xml:base="https://www.idref.fr/">Karl Koetschau</persName> procéda
+          en <date type="_temp" when="1907">1907</date> à une nouvelle
+          répartition des pièces inspirée des dernières années de vie de
+          <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>
+            <note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>Paul Kahl, <hi rend="italic">Die Erfindung des
+              Dichterhauses…</hi>, op.&#160;cit., p.&#160;143 et suiv.</p>
+            </note>. En même temps, l’espace destiné aux expositions s’étendit
+          jusqu’à la mansarde que <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> n’utilisa
+          jamais<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>Louis Held, <hi rend="italic">20 Ansichten der Sammlungsräume
+              im Dachgeschoß</hi>
+                <hi rend="italic">des Goethehauses und im
+              Anbau</hi>, Weimar, Vereinigung der Freunde des Goethehauses,
+              1916</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e553">
+          <head subtype="level1" xml:id="d1e554">Séparation
+          fonctionnelle</head>
+          <p xml:id="d1e556">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>Dès la
+          fin du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, les maisons Goethe de <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName> et de
+          <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>
+          remplissaient des fonctions hétérogènes. La double vocation de lieu
+          de mémoire dédié à une personne et de musée, la constante croissance
+          des collections et les exigences du public entraînèrent forcément
+          une extension des locaux, mais aussi des institutions elles-mêmes.
+          Celle-ci se fit en plusieurs étapes.</p>
+          <p xml:id="d1e561">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>À
+          <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName>, on
+          accola en <date type="_temp" when="1897">1897</date> un «&#160;musée
+          Goethe&#160;» à la «&#160;maison Goethe&#160;» dans le but de «&#160;débarrasser les
+          pièces de la maison de tout ce qui pouvait “faire musée”&#160;»<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>Berichte des Freien Deutschen Hochstiftes 13, 1897, 88&#160;; cf.
+              Joachim Seng, «&#160;“Bilder sind Chiffren des Geistes”…&#160;», op.&#160;cit.,
+              p.&#160;158 et suiv.</p>
+            </note>. À peine quelques années plus tard, il fallut procéder à
+          un agrandissement qui cependant ne put ouvrir qu’en <date type="_temp" when="1932">1932</date> en tant que musée de l’époque
+          goethéenne «&#160;dédié à l’éclairage réciproque des arts&#160;». Des plans
+          pour un musée du romantisme restèrent à l’état de projet<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>
+                <hi rend="italic">Gegenwärtige Vergangenheit. Das Freie
+              Deutsche Hochstift hundert Jahre nach der Gründung des
+              Frankfurter Goethe-Museums</hi>, Frankfurt-am-Main, Freies
+              Deutsches Hochstift – Frankfurter Goethe-Museum, 1997,
+              p.&#160;28-30</p>
+            </note>. À <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, on sépara
+          d’abord les manuscrits du reste de l’héritage goethéen et la
+          grande-duchesse <persName type="_temp">Sophie</persName> créa pour
+          eux une nouvelle institution qui allait devenir le «&#160;Goethe-und
+          Schiller-Archiv&#160;». Le «&#160;bâtiment des collections&#160;» construit en
+          <date from="1913" to="1914" type="_temp">1913/14</date> pour
+          agrandir le Goethe-Nationalmuseum rendit plus aisé l’accès aux fonds
+          pour les chercheurs<note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>Paul Kahl, <hi rend="italic">Die Erfindung des
+              Dichterhauses…</hi>, op.&#160;cit., p.&#160;145-148</p>
+            </note>. Un nouvel agrandissement concernant les locaux destinés
+          aux expositions ne put être réalisé qu’en <date type="_temp" when="1935">1935</date>, avec l’appui d’<persName ref="185951457" type="idref" xml:base="https://www.idref.fr/">Adolf
+          Hitler</persName>
+            <note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>Ibid., p.&#160;163-196</p>
+            </note>.</p>
+          <p xml:id="d1e583">Le «&#160;Gartenhaus&#160;» de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>
+          resta certes inchangé, mais dans les <date from="1920" to="1939" type="_temp">années&#160;1920/1930</date> servit fréquemment de référence
+          comme une construction «&#160;typiquement allemande&#160;» opposée à ce
+          qu’était alors la modernité architecturale<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>Wolfgang Pehnt, «&#160;Blutwarmes Leben – einfachste Körperform.
+              Zur Rezeption von Goethes Gartenhaus in Zeiten des Bauhauses&#160;»,
+              in Hellmut Seemann, Thorsten Valk&#160;(éd.), <hi rend="italic">Klassik und Avantgarde. Das Bauhaus in Weimar.
+              1919-1925</hi>, Göttingen, Wallstein, 2009, p.&#160;68-84, ici p.&#160;73
+              et suiv.</p>
+            </note>. Pour les festivités de l’année Goethe de <date type="_temp" when="1932">1932</date>, des artisans au chômage en
+          réalisèrent une copie à petite échelle montée sur roulettes,
+          destinée à promouvoir <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, posant
+          accessoirement par là la question de la reproductibilité de
+          l’héritage culturel <hi>(voir ill. ci-contre)</hi>
+            <note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>Paul Kahl&#160;(éd.), <hi rend="italic">Das Goethe-Nationalmuseum
+              in Weimar</hi>, vol.&#160;2, Göttingen, Wallstein, 2019, p.&#160;167</p>
+            </note>.</p>
+          <figure xml:id="d1e601">
+            <graphic url="https://didomena.ehess.fr/downloads/fn107637z.jpg"/>
+            <head xml:id="d1e602">Figure 7. Oskar Klopfleisch, <hi rend="italic">Copie réduite du «&#160;Gartenhaus&#160;» de Goethe</hi>,
+            carte postale, 1932 (coll.&#160;Klassik Stiftung Weimar). © et clichés
+            Klassik Stiftung Weimar</head>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e609">
+          <head subtype="level1" xml:id="d1e610">Identité nationale</head>
+          <p xml:id="d1e612">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+          savoirs<term ref="doi:10.34817/sv-mwscptqe">guerre</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-hygjs9kb">maison</term>
+              </term>
+            </term>Au cours
+          de la <date from="1939-09-01" to="1945-09-02" type="_temp">Seconde
+          Guerre mondiale</date>, les maisons Goethe prirent tôt des
+          précautions contre d’éventuels dommages. Pour les sites de
+          <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName> dédiés aux
+          classiques, le camp de concentration de <placeName ref="2942510" type="geonames" xml:base="https://www.geonames.org/">Buchenwald</placeName> fut
+          contraint de fournir des caisses de bois pour mettre les objets à
+          l’abri. La Haute fondation fit un relevé architectural détaillé du
+          bâtiment en vue d’une éventuelle reconstruction<note n="56" place="foot" type="standard" xml:id="ftn56">
+              <p>Joachim Seng, <hi rend="italic">Goethe-Enthusiasmus und
+              Bürgersinn. Das Freie Deutsche Hochstift – Frankfurter
+              Goethe-Museum. 1881–1960</hi>, Göttingen, Wallstein, 2009,
+              p.&#160;452-454</p>
+            </note>. Il y eut effectivement de lourds impacts de bombes. Dans
+          la maison du Frauenplan, l’entrée cochère à l’ouest avec au-dessus
+          d’elle la chambre dite d’Urbino, ainsi qu’une grande partie de la
+          mansarde, furent totalement détruites <hi>(voir ill.
+          ci-contre)</hi>. De la maison natale de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName> il
+          ne resta à la fin de la guerre qu’un amas de décombres.</p>
+          <figure xml:id="d1e624">
+            <graphic url="https://didomena.ehess.fr/downloads/vd66w763b.png"/>
+            <head xml:id="d1e625">Figure 8. Louis Held, <hi rend="italic">La
+            maison de Goethe après le bombardement</hi>, photographie, 1945
+            (coll.&#160;Klassik Stiftung Weimar). © et clichés Klassik Stiftung
+            Weimar</head>
+          </figure>
+          <p xml:id="d1e632">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-5qgwlkpg">idée</term>
+              </term>
+            </term>À <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName>, les
+          occupants soviétiques étaient pressés de faire disparaître aussi
+          vite que possible les ruines de la guerre. Au-delà de l’objectif de
+          la toute proche année Goethe de <date type="_temp" when="1949">1949</date>, il s’agissait aussi d’une stratégie
+          politico-culturelle d’intégration du classicisme dans leur
+          idéologie<note n="57" place="foot" type="standard" xml:id="ftn57">
+              <p>Bettina Meier, <hi rend="italic">Goethe in Trümmern. Zur
+              Rezeption eines Klassikers in der Nachkriegszeit</hi>,
+              Wiesbaden, DUW, 1989, p.&#160;196-201</p>
+            </note>. À <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName> par
+          contre se développa un débat riche en controverses sur le rôle
+          symbolique de la maison natale de <persName ref="026895528" type="idref" xml:base="https://www.idref.fr/">Goethe</persName>
+            <note n="58" place="foot" type="standard" xml:id="ftn58">
+              <p>Michael&#160;S.&#160;Falser<hi rend="italic">, Zwischen Identität und
+              Authenzität. Zur politischen Geschichte der Denkmalpflege in
+              Deutschland</hi>, Dresden, Thelem, 2008, p.&#160;82-88</p>
+            </note>&#160;: malgré des arguments convaincants plaidant pour la
+          construction d’un bâtiment «&#160;moderne&#160;» pour remplacer l’ancien
+          détruit, les tenants d’une reconstruction fidèle à l’original
+          l’emportèrent – pour rendre ainsi un cadre approprié à l’ensemble
+          des objets sauvés. Le résultat fut convaincant comme le déclara,
+          bien longtemps après l’ouverture qui eut lieu en <date type="_temp" when="1951">1951</date>, le philosophe <persName ref="028357981" type="idref" xml:base="https://www.idref.fr/">Günter
+          Anders</persName>&#160;: «&#160;car le faux peut devenir vrai&#160;!&#160;»<note n="59" place="foot" type="standard" xml:id="ftn59">
+              <p>Cité d’après Philipp Maaß, <hi rend="italic">Die moderne
+              Rekonstruktion. </hi>
+                <hi rend="italic">Eine Emanzipation der
+              Bürgerschaft in Architektur und Städtebau</hi>, Regensburg,
+              Schnell &amp; Steiner, 2015, p.&#160;205</p>
+            </note>
+          </p>
+          <p xml:id="d1e656">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>Les
+          institutions n’ont cependant pas terminé leur évolution. En <date type="_temp" when="1997">1997</date> s’est fait sentir à <placeName ref="2925533" type="geonames" xml:base="https://www.geonames.org/">Francfort</placeName> la
+          nécessité de transformer et d’agrandir les locaux. Et en <date type="_temp" when="2021">2021</date> eut lieu l’inauguration d’un
+          musée du romantisme à proximité immédiate. À <placeName ref="6549750" type="geonames" xml:base="https://www.geonames.org/">Weimar</placeName> fut
+          construite en <date type="_temp" when="1999">1999</date>, année où
+          la ville fut capitale culturelle, une copie du «&#160;Gartenhaus&#160;» du
+          parc de l’Ilm, qui cette fois fut rendue visitable, car pensée comme
+          une création temporaire en vue de susciter une réflexion sur
+          l’authenticité<note n="60" place="foot" type="standard" xml:id="ftn60">
+              <p>Lorenz Engell, «&#160;Von Goethes Gartenhaus zu McGoethe. Eine
+              kleine Geschichte des Duplikats&#160;», in Gerd Zimmermann, Jörg
+              Brauns&#160;(éd.), <hi rend="italic">KulturStadtBauen. Eine
+              architektonische Wanderung durch Weimar. Kulturstadt Europas
+              1999</hi>, Weimar, Universitätsverlag, 1999, p.&#160;93-97, ici p.&#160;93
+              et suiv.</p>
+            </note>. Le Musée national Goethe pour sa part reçut un escalier
+          de forme ovale, riche en significations, afin de modifier la
+          perception, dans un sens plus moderne, de l’annexe de <date type="_temp" when="1935">1935</date>
+            <note n="61" place="foot" type="standard" xml:id="ftn61">
+              <p>Oliver Hamm, <hi rend="italic">Die Treppe im
+              Goethe-Nationalmuseum</hi>, Berlin, Circle, 1999</p>
+            </note>. Une opération générale d’assainissement radical du
+          complexe du Frauenplan devrait être entreprise dans les prochaines
+          années. On ne pourra alors passer à côté d’une réflexion sur ce que
+          peut signifier dans la société contemporaine le classicisme
+          weimarien.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

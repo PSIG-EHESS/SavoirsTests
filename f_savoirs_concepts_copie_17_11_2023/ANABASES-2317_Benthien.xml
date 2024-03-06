@@ -1,0 +1,1391 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="ANABASES-2317_Benthien">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les sociologues parmi les antiquisants&#160;: les
+        contributions d’Henri Hubert et de Paul Huvelin au <hi rend="italic">Dictionnaire des Antiquités Grecques et
+        Romaines</hi>
+        </title>
+        <author role="aut">
+          <forename>Rafael Faraco</forename>
+          <surname>Benthien</surname>
+          <idno type="IDREF">190953101</idno>
+          <affiliation>Université de São Paulo (doctorant) et Boursier <hi rend="small-caps">fapesp</hi>
+          </affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/HU9XWIYF" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">Les sociologues parmi les antiquisants : les
+            contributions d’Henri Hubert et de Paul Huvelin au Dictionnaire
+            des Antiquités Grecques et Romaines</title>
+            <idno type="DOI">10.4000/anabases.2317</idno>
+            <title type="short">Les sociologues parmi les antiquisants</title>
+            <author>
+              <forename>Rafael Faraco</forename>
+              <surname>Benthien</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Anabases. Traditions et réceptions de
+            l’Antiquité</title>
+            <idno type="ISSN">1774-4296</idno>
+            <imprint>
+              <biblScope unit="issue">14</biblScope>
+              <biblScope unit="page">145-159</biblScope>
+              <date>2011</date>
+              <note type="accessed">2022-07-06T07:36:39Z</note>
+              <note type="url">https://journals.openedition.org/anabases/2317</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="lat"/>
+        <language ident="grc"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Dictionary of Greek and Roman Antiquities</item>
+            <item>The Sociological year</item>
+            <item>sociology</item>
+            <item>Greco-Latin studies</item>
+            <item>Hubert Henri</item>
+            <item>Huvelin Paul</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Dictionnaire des Antiquités Grecques et Romaines</item>
+            <item>L’Année Sociologique</item>
+            <item>sociologie</item>
+            <item>études gréco-latines</item>
+            <item>Hubert Henri</item>
+            <item>Huvelin Paul</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName>
+          </term>
+          <term>
+            <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>
+          </term>
+          <term>
+            <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1800" to="1899" type="_temp">XIX<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+          <term>
+            <date from="1877" to="1919" type="_temp">1877-1919</date>
+          </term>
+          <term>
+            <date type="_temp">Antiquité</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Les sociologues parmi les antiquisants&#160;: les
+          contributions d’Henri Hubert et de Paul Huvelin au <hi rend="italic">Dictionnaire des Antiquités Grecques et
+          Romaines</hi>
+            <note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Le présent article découle de mes travaux de recherche dans
+              le cadre du doctorat que je réalise à l’université de São Paulo
+              sous la direction de Francisco Murari Pires, en tant que
+              boursier de la Fundação à Pesquisa do Estado de São Paulo (<hi rend="small-caps">fapesp)</hi>. Ils sont centrés sur les
+              rapports entre sociologues et antiquisants pendant la III<hi rend="sup">e</hi>&#160;République française. Je profite de l’occasion
+              pour remercier Christine Lorre et Pascal Payen, dont les
+              indications bibliographiques m’ont été précieuses. J’aimerais
+              également témoigner ma reconnaissance aux organisateurs de la
+              journée d’études «&#160;Henri Hubert et la Mythologie Républicaine&#160;»,
+              qui a eu lieu à l’université de Chicago à Paris, le
+              11&#160;juin&#160;2010. Une première version de ce texte y a été
+              présentée. Je ne peux pas oublier que Anaïs Boucher a bien voulu
+              se charger de la correction de cet article. Qu’elle en soit
+              aussi remerciée. En ce qui concerne le <hi rend="italic">Dictionnaire des Antiquités Grecques et
+              Romaines</hi>, nous avons utilisé ici l’édition mise en ligne
+              par l’université de Toulouse (<ref target="http://dagr.univ-tlse2.fr/sdx/dagr/index.xsp">
+                  <hi rend="underline">http://dagr.univ-tlse2.fr/sdx/dagr/index.xsp</hi>
+                </ref>).</p>
+            </note>
+          </titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Rafael Faraco Benthien</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:id="d1e251" xml:lang="fre">Entre&#160;1877 et&#160;1919, la librairie
+        Hachette a publié, en plusieurs volumes, un Dictionnaire dédié à
+        l’Antiquité classique. Fondé par Charles Daremberg (1817-1872), mais
+        dirigé effectivement par Edmond Saglio (1828-1911) et Edmond Pottier
+        (1855-1934), le <hi rend="italic">Dictionnaire des Antiquités Grecques
+        et Romaines </hi>a été l’un des plus remarquables monuments de
+        l’érudition française de la III<hi rend="sup">e</hi>&#160;République,
+        réunissant au moins trois générations de chercheurs à un moment-clé,
+        celui des réformes qui ont créé l’Université moderne en France. Le but
+        de cet article est de discuter la place de la sociologie durkheimienne
+        dans cette entreprise éditoriale des latinistes et des hellénistes.
+        Après avoir situé cette publication dans l’histoire de la vie
+        intellectuelle française, nous étudierons le processus de recrutement
+        d’Henri Hubert et de Paul Huvelin, ainsi que les notices qu’ils y ont
+        publiées.</p>
+        <p xml:id="d1e260" xml:lang="eng">Between 1877 and 1919 the Hachette
+        bookshop published in several volumes a Dictionary dedicated to
+        Classical Antiquity. Founded by Charles Daremberg (1817-1872) but run
+        in fact by Edmond Saglio (1828-1911) and Edmond Pottier (1855-1934)
+        the <hi rend="italic">Dictionary of Greek and Roman Antiquities
+        </hi>was one of the outstanding monuments of French scholarship under
+        the III<hi rend="sup">rd</hi>&#160;Republic, bringing together at least
+        three generations of researchers at a crucial moment, that of the
+        reforms which created a modern University in France. The purpose of
+        the article is to discuss the place of durkheimian sociology in this
+        editorial enterprise by Latin and Hellenic scholars. After locating
+        that publication in the history of French intellectual life, we shall
+        study how Henri Hubert and Paul Huvelin recruited collaborators and
+        examine the notices they published in the dictionary.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e272">Au cours des quarante dernières années, période
+        marquée par un intérêt renouvelé et croissant pour l’histoire de
+        l’école dite durkheimienne, beaucoup de choses ont été dites sur les
+        rapports entretenus entre celle-ci et d’autres groupes actifs au sein
+        de l’Université française, en particulier les philosophes, les
+        historiens et les linguistes. Il s’avère que ces importants travaux
+        sont loin d’avoir épuisé la richesse d’un sujet qui, pour cette
+        raison, requiert non seulement d’autres recherches ponctuelles, mais
+        aussi une mise en parallèle des résultats obtenus jusqu’à aujourd’hui.
+        En ce sens, une option intéressante, et encore peu explorée, serait de
+        présenter un tableau mettant en relief les liens unissant les
+        sociologues, les hellénistes et les latinistes. Combler une telle
+        lacune nous semble présenter un caractère d’autant plus urgent que
+        l’espace occupé par la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et la
+        <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> antiques dans
+        l’organisation du système d’enseignement français jusqu’à la <date from="1900" to="1950" type="_temp">première moitié du <hi rend="small-caps">xx</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> était
+        central<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Au-delà de l’analyse de Durkheim lui-même, qui fait figure de
+            pionnier (cf.&#160;<hi rend="small-caps">É.&#160;Durkheim, </hi>
+              <hi rend="italic">L’évolution pédagogique en France</hi>, Paris, 1999,
+            p.&#160;351-382), voir <hi rend="small-caps">F.&#160;Ringer</hi>, <hi rend="italic">Fields of Knowledge</hi>, Cambridge-Paris, 1992,
+            p.&#160;40-45.</p>
+          </note>. La langue et la littérature de ces deux civilisations
+        constituaient en effet la base d’une éducation scolaire largement
+        diffusée et valorisée. Elles offraient par ailleurs aux sociologues
+        des champs de recherche et d’activité professionnelle particulièrement
+        féconds. N’oublions pas que des personnalités comme <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Henri
+        Hubert</persName>, <persName ref="027021688" type="idref" xml:base="https://www.idref.fr/">Antoine Meillet</persName>, <persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Paul
+        Huvelin</persName>, <persName ref="029015375" type="idref" xml:base="https://www.idref.fr/">Pierre Roussel</persName>, <persName ref="026937204" type="idref" xml:base="https://www.idref.fr/">Henri
+        Jeanmaire</persName> et <persName ref="026889102" type="idref" xml:base="https://www.idref.fr/">Louis Gernet</persName> consacrèrent
+        leur carrière, du moins une part de celle-ci, aux études
+        gréco-latines. Cette liste pourrait même être sensiblement élargie si
+        nous prenons en compte tous ceux qui se prévalurent des Anciens à des
+        fins ponctuelles de comparaison.</p>
+        <p xml:id="d1e295">C’est dans cette voie que nous avons choisi
+        d’inscrire notre étude. Nous présenterons donc une analyse de textes
+        qui furent publiés par des chercheurs appartenant au cercle de
+        <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> dans cet ouvrage
+        qui fut la plus grande encyclopédie illustrée de l’<date>Antiquité
+        classique</date> jamais conçue en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, à savoir le
+        <hi rend="italic">Dictionnaire des Antiquités Grecques et Romaines
+        </hi>(<hi rend="italic">
+            <hi rend="small-caps">dagr</hi>
+          </hi>). Le découpage tel qu’il a été conçu pour les objectifs de
+        notre recherche se justifie non seulement en raison de l’importance
+        historique de ladite publication, sur laquelle nous reviendrons
+        ci-après, mais aussi parce que quatre des cinq volumes du dictionnaire
+        qui furent publiés à partir de <date type="_temp" when="1898">1898</date>, soit après le lancement de <hi rend="italic">L’Année sociologique</hi>, comprennent plusieurs
+        articles signés par les sociologues durkheimiens. Certaines questions
+        se posent dès lors à nous. Comment expliquer la présence constante de
+        ces sociologues et la logique de leur recrutement&#160;? Quels thèmes
+        abordèrent-ils&#160;? De quelle manière l’approche sociologique
+        apparaît-elle dans le développement de ces thèmes&#160;? Et pour terminer,
+        par-delà la contribution des sociologues, quel intérêt le travail de
+        l’école durkheimienne suscita-t-il dans l’ensemble de l’ouvrage&#160;? Mais
+        avant de répondre à ces questions, il convient de présenter dans les
+        grandes lignes ce que fut exactement le <hi rend="italic">
+            <hi rend="small-caps">dagr</hi>
+          </hi>.</p>
+        <div type="section1" xml:id="d1e311">
+          <head subtype="level1" xml:id="d1e312">Le Dictionnaire des
+          Antiquités Grecques et Romaines</head>
+          <p xml:id="d1e314">Le <hi rend="italic">Dictionnaire des Antiquités
+          Grecques et Romaines</hi>, édité par Hachette, parut de façon
+          ininterrompue, mais à un rythme irrégulier, <date from="1877" to="1919" type="_temp">de 1877 à 1919</date>. Ainsi, entre la
+          publication du premier volume, relatif aux lettres A-B, et celle du
+          deuxième volume, centré exclusivement sur la lettre&#160;C, nous
+          observons que dix ans se sont écoulés. En revanche, le troisième
+          volume, consacré aux lettres D-E, parut en <date type="_temp" when="1892">1892</date>, soit cinq ans à peine après le précédent.
+          Par la suite, nous remarquons une tendance à la stabilité, avec des
+          intervalles de trois à quatre ans entre deux publications, avec
+          uniquement une interruption lors de l’éclatement de la <date from="1914-07-28" to="1918-11-11" type="_temp">Guerre 14-18</date>,
+          comme l’indique le tableau&#160;1. Il faut ajouter qu’anticipant sur la
+          sortie des grands tomes, la maison d’édition offrait périodiquement
+          au public de petits fascicules, qui contribuèrent beaucoup à
+          dynamiser la production et la circulation de l’ouvrage.</p>
+          <p rend="figure-title" xml:id="d1e319">Tableau&#160;1 – <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>&#160;: périodicité et contenu</p>
+          <table xml:id="d1e325">
+            <row>
+              <cell>
+                <hi rend="italic">Tome</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Année</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Nombre de notices</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Nombre de pages</hi>
+              </cell>
+            </row>
+            <row>
+              <cell>A-B</cell>
+              <cell>1877</cell>
+              <cell>665</cell>
+              <cell>756</cell>
+            </row>
+            <row>
+              <cell>C</cell>
+              <cell>1887</cell>
+              <cell>499</cell>
+              <cell>947</cell>
+            </row>
+            <row>
+              <cell>D-E</cell>
+              <cell>1892</cell>
+              <cell>402</cell>
+              <cell>946</cell>
+            </row>
+            <row>
+              <cell>F-G</cell>
+              <cell>1896</cell>
+              <cell>193</cell>
+              <cell>769</cell>
+            </row>
+            <row>
+              <cell>H-K</cell>
+              <cell>1900</cell>
+              <cell>269</cell>
+              <cell>880</cell>
+            </row>
+            <row>
+              <cell>L-M</cell>
+              <cell>1904</cell>
+              <cell>387</cell>
+              <cell>1262</cell>
+            </row>
+            <row>
+              <cell>N-Q</cell>
+              <cell>1907</cell>
+              <cell>483</cell>
+              <cell>808</cell>
+            </row>
+            <row>
+              <cell>R-S</cell>
+              <cell>1911</cell>
+              <cell>403</cell>
+              <cell>792</cell>
+            </row>
+            <row>
+              <cell>T-Z</cell>
+              <cell>1919</cell>
+              <cell>420</cell>
+              <cell>1077</cell>
+            </row>
+          </table>
+          <p xml:id="d1e420">S’il est vrai que l’année du début de la
+          publication du <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> correspond à la <date from="1870" to="1880" type="_temp">première décennie d’une III<hi rend="sup">e</hi>&#160;République</date> encore fragile, il nous faut
+          reculer un peu plus dans le temps pour arriver à nous faire une idée
+          de ses origines réelles. C’est en <date type="_temp" when="1855">1855</date> que la maison d’édition Hachette et
+          <persName ref="031670598" type="idref" xml:base="https://www.idref.fr/">Charles Daremberg</persName>
+          –&#160;l’inventeur du projet&#160;– signèrent le contrat établissant le
+          contenu de l’ouvrage et le public ciblé. En dépit des changements
+          apportés par la suite, il y était établi que les articles devraient
+          traiter de divers aspects des civilisations grecque et latine, avec
+          une insistance tant sur les coutumes, les croyances et les lois que
+          sur la vie matérielle et sur les monuments conservés<note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Au départ, le <hi rend="italic">
+                  <hi rend="small-caps">dagr</hi>
+                </hi> devait aussi traiter de l’Antiquité Orientale et du
+              Moyen&#160;Âge. Sur ces changements, voir <hi rend="small-caps">C.&#160;Valenti. </hi>«&#160;“Daremberg et Saglio” ou
+              “Saglio et Pottier”&#160;? La difficile gestation d’un dictionnaire
+              savant&#160;», <hi rend="italic">Anabases</hi>&#160;4 (2006),
+              p.&#160;159-167.</p>
+            </note>. Quant à ce qui touchait le public ciblé, l’objectif était
+          de rendre l’érudition accessible au profane. D’où le souci de doter
+          les articles d’illustrations et, quand le cas s’y prêtait, d’une
+          bibliographie générale. Les spécialistes ne furent pas oubliés pour
+          autant&#160;: de copieuses notes en bas de page leur seraient destinées
+          et, en plus de présenter en détail l’état de l’art sur une question
+          déterminée, elles permettraient de justifier des critiques ou
+          d’avancer des thèses.</p>
+          <p xml:id="d1e444">Ainsi, <date from="1855" to="1919" type="_temp">de 1855 à 1919</date>, c’est-à-dire entre la signature
+          du contrat et la conclusion de l’ouvrage, soixante-quatre ans
+          s’écoulèrent. Une telle longévité permet d’entrevoir, sous le vernis
+          de la continuité, une des périodes les plus riches de l’histoire
+          intellectuelle française. Voilà peut-être le plus grand intérêt du
+          <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> pour le chercheur d’aujourd’hui&#160;: sous l’angle des
+          transformations qui touchèrent la direction et le recrutement des
+          collaborateurs, l’ouvrage présente une synthèse du passage d’un
+          modus vivendi centré sur les salons fréquentés par les érudits et
+          sur les académies locales ou nationales vers un registre proprement
+          et principalement universitaire. Penchons-nous maintenant, comme sur
+          un premier indice de ce processus, sur la trajectoire de son
+          fondateur et premier directeur, <persName ref="031670598" type="idref" xml:base="https://www.idref.fr/">Charles
+          Daremberg</persName>.</p>
+          <p xml:id="d1e453">Né dans la ville de <placeName ref="6453767" type="geonames" xml:base="https://www.geonames.org/">Dijon</placeName> en <date type="_temp" when="1817">1817</date>, après avoir été élève dans un
+          séminaire de province, <persName ref="031670598" type="idref" xml:base="https://www.idref.fr/">Daremberg</persName> suivit la
+          carrière de médecin. Mais il ne fut pas un quelconque médecin&#160;:
+          d’abord et avant tout, il fut un érudit. Sous l’influence du cercle
+          positiviste rassemblé autour d’<persName ref="026991640" type="idref" xml:base="https://www.idref.fr/">Émile
+          Littré</persName>, <persName ref="031670598" type="idref" xml:base="https://www.idref.fr/">Daremberg</persName> finit ainsi
+          par consacrer la majeure partie de son temps à l’étude de l’histoire
+          de la médecine. Son premier grand travail dans ce domaine fut une
+          thèse qu’il soutint en <date type="_temp" when="1841">1841</date> à
+          la faculté de médecine de <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>, dans
+          laquelle il étudiait l’œuvre de <persName ref="02776897X" type="idref" xml:base="https://www.idref.fr/">Galien</persName>.
+          Après une période où il exerça la fonction de bibliothécaire dans
+          cette faculté, il se lia à l’Académie des inscriptions, qui l’envoya
+          à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> pour
+          cataloguer des manuscrits relatifs à la médecine antique et
+          conservés au <placeName ref="3164670" type="geonames" xml:base="https://www.geonames.org/">Vatican</placeName>. Selon sa
+          biographe <persName ref="031842062" type="idref" xml:base="https://www.idref.fr/">Danielle Gourevitch</persName>,
+          cette expérience au milieu des archives fut déterminante pour
+          <persName ref="031670598" type="idref" xml:base="https://www.idref.fr/">Daremberg</persName>, au point de
+          faire germer en lui l’idée de publier un dictionnaire<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi rend="small-caps">D.&#160;Gourevitch</hi>, «&#160;Daremberg,
+              Charles&#160;», <hi rend="italic">Dictionnaire Critique des
+              Historiens de l’Art, </hi>Édition en lignes de l’<hi rend="small-caps">inha</hi>, <ref target="http://www.inha.fr/spip.php?article2265">http://www.inha.fr/spip.php?article2265</ref>
+              (site consulté le 20&#160;mai&#160;2010).</p>
+            </note>. De fait, peu d’années après avoir quitté l’<placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>, il entama
+          des négociations avec Hachette, qui ne devaient produire de
+          résultats vraiment concrets qu’en <date type="_temp" when="1877">1877</date>, soit cinq ans après sa mort.</p>
+          <p xml:id="d1e469">L’autre co-fondateur de l’ouvrage, <persName ref="031670628" type="idref" xml:base="https://www.idref.fr/">Edmond
+          Saglio</persName>, servit d’intermédiaire entre cet érudit lié aux
+          salons scientifico-positivistes et les universitaires de la <date from="1870" to="1940" type="_temp">III<hi rend="sup">e</hi>&#160;République</date>. Né à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> en <date type="_temp" when="1828">1828</date>, bachelier et licencié en
+          droit, <persName ref="031670628" type="idref" xml:base="https://www.idref.fr/">Saglio</persName> côtoyait ces deux
+          mondes. En effet, durant une période considérable de sa vie, il se
+          partagea entre son travail d’avocat au sein du ministère de la
+          Justice et ses études touchant l’histoire de l’art et l’archéologie.
+          Au fil des ans, sous le parrainage du spécialiste en études
+          médiévales <persName ref="05654491X" type="idref" xml:base="https://www.idref.fr/">Jules Quicherat</persName>, dont il
+          avait suivi les cours à l’École des Chartes, <persName ref="031670628" type="idref" xml:base="https://www.idref.fr/">Saglio</persName> prend ses
+          distances avec le droit. En <date type="_temp" when="1879">1879</date>, il vint ainsi à occuper la charge de
+          conservateur adjoint au <placeName ref="2997319" type="geonames" xml:base="https://www.geonames.org/">musée du Louvre</placeName>,
+          qu’il laissa plus tard, en <date type="_temp" when="1893">1893</date>, pour assurer la direction du <placeName ref="8504622" type="geonames" xml:base="https://www.geonames.org/">musée de Cluny</placeName>.</p>
+          <p xml:id="d1e474">Il convient de souligner que l’archéologie, un
+          des principaux centres d’intérêt de <persName ref="031670628" type="idref" xml:base="https://www.idref.fr/">Saglio</persName>,
+          représentait l’avant-garde du mouvement de professionnalisation des
+          différents corps lettrés français<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>
+                <hi rend="small-caps">È.&#160;Grand-Aymerich, </hi>
+                <hi rend="italic">Naissance de l’archéologie moderne.
+              1798-1945</hi>, Paris, 1998, p.&#160;41-202.</p>
+            </note>. Sous l’impulsion du succès politico-scientifique des
+          fouilles sur le territoire et en dehors de la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, ce fait se
+          traduisit par la création de nouvelles institutions essentiellement
+          tournées vers la recherche, comme le Musée des antiquités nationales
+          et l’École pratique des hautes études, et aussi par la réforme des
+          institutions anciennes. Préalablement timorées, les reformulations
+          du système d’enseignement français s’accélérèrent et
+          s’approfondirent après la défaite militaire contre la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Prusse</placeName> et grâce à
+          la consolidation de la <date from="1870" to="1940" type="_temp">III<hi rend="sup">e</hi>&#160;République</date>. Recruté par
+          <persName ref="031670598" type="idref" xml:base="https://www.idref.fr/">Daremberg</persName> vers le milieu
+          des <date from="1860" to="1869" type="_temp">années&#160;1860</date>,
+          <persName ref="031670628" type="idref" xml:base="https://www.idref.fr/">Saglio</persName> accompagna de
+          près ces changements et fut sans doute le grand responsable de la
+          sortie du premier volume du <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>. Mais comme la logistique d’une œuvre aussi monumentale
+          s’avérait fort complexe pour un seul et unique homme, un jeune
+          helléniste, entièrement formé dans le contexte des cadres
+          universitaires nouveaux, fut invité à se joindre au projet. Il
+          s’agissait d’<persName ref="029925754" type="idref" xml:base="https://www.idref.fr/">Edmond Pottier</persName>.</p>
+          <p xml:id="d1e493">Si l’université moderne, institution où doit
+          prédominer l’éducation visant la production d’une connaissance
+          scientifique originale, se consolida en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> aux
+          alentours de <date type="_temp" when="1880">1880</date>, comme le
+          soutiennent les spécialistes de l’histoire du système d’enseignement
+          français, il faut considérer qu’<persName ref="029925754" type="idref" xml:base="https://www.idref.fr/">Edmond
+          Pottier</persName> appartenait à la première génération de ce
+          renouveau<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>En plus des auteurs cités dans la note&#160;1, nous renvoyons à la
+              synthèse proposée par <hi rend="small-caps">F.&#160;Mayeur, </hi>
+                <hi rend="italic">Histoire de l’enseignement et de l’éducation.&#160;III.
+              1789-1930</hi>, Paris, 2004, p.&#160;581-635. Quant aux informations
+              sur la trajectoire de Pottier, voire <hi rend="small-caps">R.&#160;Lantier </hi>et <hi rend="small-caps">C.&#160;Picard</hi>, «&#160;Edmond Pottier&#160;», <hi rend="italic">Revue Archéologique&#160;</hi> 2 (1934),
+              p.&#160;v-xxviii.</p>
+            </note>. Né à <placeName ref="2842647" type="geonames" xml:base="https://www.geonames.org/">Sarrebrück</placeName> en <date type="_temp" when="1855">1855</date>, il passa par le lycée
+          Condorcet, pour rejoindre ensuite l’École normale supérieure (<hi rend="small-caps">ens</hi>). Membre de la promotion de <date type="_temp" when="1874">1874</date> et premier à l’Agrégation de
+          Lettres en <date type="_temp" when="1877">1877</date>, <persName ref="029925754" type="idref" xml:base="https://www.idref.fr/">Pottier</persName> se fit remarquer
+          plus tard pendant ses années de travail à l’École française
+          d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, où il eut
+          l’occasion de s’instruire sur ce qu’il y avait de plus moderne en
+          archéologie, en épigraphie et en histoire antique. Son retour en
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> coïncida
+          avec le début de sa carrière comme professeur à l’université. Sa
+          charge débuta aux facultés des lettres de <placeName ref="6432801" type="geonames" xml:base="https://www.geonames.org/">Rennes</placeName> et de
+          <placeName ref="6453974" type="geonames" xml:base="https://www.geonames.org/">Toulouse</placeName>, <date from="1880" to="1883" type="_temp">entre&#160;1880 et&#160;1883</date>, avant
+          de se poursuivre à <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>. Là, il donna
+          des cours d’archéologie à l’<placeName ref="9409632" type="geonames" xml:base="https://www.geonames.org/">École des
+          beaux-arts</placeName> et aussi à l’École du Louvre, assumant un
+          poste de conservateur du <placeName ref="2997319" type="geonames" xml:base="https://www.geonames.org/">Louvre</placeName>, d’abord
+          comme attaché libre (<date type="_temp" when="1884">1884</date>),
+          puis comme adjoint (<date type="_temp" when="1897">1897</date>).
+          <persName ref="029925754" type="idref" xml:base="https://www.idref.fr/">Pottier</persName> devint la
+          référence française en céramiques grecques et occupa aussi la
+          fonction de co-directeur dans une des revues scientifiques
+          françaises les plus anciennes et les plus prestigieuses&#160;: la <hi rend="italic">Revue Archéologique</hi>.</p>
+          <p xml:id="d1e520">De <persName ref="031670598" type="idref" xml:base="https://www.idref.fr/">Daremberg</persName> à <persName ref="029925754" type="idref" xml:base="https://www.idref.fr/">Pottier</persName>, ce sont <hi rend="italic">grosso modo</hi> trois générations réunies autour de
+          la direction d’un même projet éditorial. Mais chacune de ces
+          générations présente par rapport aux autres des modalités distinctes
+          de capital social et intellectuel. <persName ref="031670598" type="idref" xml:base="https://www.idref.fr/">Daremberg</persName>
+          ne devait pas consacrer l’essentiel de sa vie à la recherche et à
+          l’enseignement universitaires. Le positivisme, qui était sa théorie
+          de référence, se développait en dehors de l’université, dont il
+          atteignit seulement les marges au cours de la <date from="1850" to="1899" type="_temp">deuxième moitié du <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+            <note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>J.&#160;<hi rend="small-caps">Heilbron, </hi>
+                <hi rend="italic">Naissance de la sociologie</hi>, Marseille, 2006,
+              p.&#160;269-368.</p>
+            </note>. Quant à <persName ref="031670628" type="idref" xml:base="https://www.idref.fr/">Saglio</persName>, bien qu’ayant
+          débuté sa carrière comme érudit mondain, il adhéra aux premiers
+          mouvements d’avant-garde de la recherche universitaire conçue selon
+          de nouveaux moules. Il fréquenta l’École des Chartes et se joignit
+          aux équipes des musées nationaux. <persName ref="029925754" type="idref" xml:base="https://www.idref.fr/">Pottier</persName>,
+          pour sa part, se différencia de ses prédécesseurs par une carrière
+          entièrement universitaire. Il la commença à l’<hi rend="small-caps">ens</hi>, la compléta lors de stages à l’étranger,
+          et la conclut par des activités de professeur-chercheur.</p>
+          <p xml:id="d1e544">Partant des données quantitatives présentées par
+          <persName ref="156786869" type="idref" xml:base="https://www.idref.fr/">Andurand</persName>, <persName type="_temp">Cazenave</persName> et <persName type="_temp">Delmas</persName> sur la morphologie du <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, nous constatons que le profil incarné par <persName ref="029925754" type="idref" xml:base="https://www.idref.fr/">Pottier</persName> s’imposa au fil
+          des ans à la majorité des collaborateurs de l’ouvrage<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>
+                <hi rend="small-caps">A.&#160;Andurand, J.&#160;Cazenave, S.&#160;Delmas,
+              </hi>«&#160;Appréhender le <hi rend="italic">Dictionnaire des
+              Antiquités grecques et romaines</hi> par sa table d’auteurs. Les
+              données statistiques comme outil d’analyse&#160;», <hi rend="italic">Anabases</hi>&#160;4 (2006), p.&#160;219-223.</p>
+            </note>. Finalement et sans avoir commencé de cette façon, le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> devint une sorte d’extension de l’université de la <date from="1870" to="1940" type="_temp">III<hi rend="sup">e</hi>&#160;République</date>, car il incorporait les
+          transformations survenues dans l’univers intellectuel français.
+          Voilà d’ailleurs un argument clé pour comprendre la présence des
+          sociologues proches de <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName>. À l’inverse
+          des autres groupes qui leur disputaient le contrôle des sciences
+          sociales à la fin du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, les
+          membres de l’équipe de <hi rend="italic">L’Année sociologique</hi>
+          avaient eux aussi un profil universitaire<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Sur les bases d’appui institutionnelles des durkheimiens et
+              des autres groupes qui coexistaient et s’affrontaient par
+              rapport à la destinée des sciences sociales, voir&#160;: <hi rend="small-caps">T.N.&#160;Clark, </hi>
+                <hi rend="italic">Prophets
+              and Patrons</hi>, Cambridge, 1973&#160;; <hi rend="small-caps">V.&#160;Karady</hi>, «&#160;Durkheim, les sciences
+              sociales et l’Université&#160;: bilan d’un semi-échec&#160;», <hi rend="italic">Revue française de sociologie</hi>&#160;17 (1976),
+              p.&#160;267-311&#160;; <hi rend="small-caps">V.&#160;Karady</hi>, «&#160;Stratégies
+              de réussite et modes de faire-valoir de la sociologie chez les
+              durkheimiens&#160;», <hi rend="italic">Revue française de
+              sociologie</hi>&#160;20 (1979), p.&#160;49-82&#160;; <hi rend="small-caps">L.&#160;Mucchielli, </hi>
+                <hi rend="italic">La
+              découverte du social</hi>, Paris, 1998&#160;; <hi rend="small-caps">M.&#160;Consolim, </hi>«&#160;Gabriel Tarde e as
+              ciências sociais francesas&#160;», <hi rend="italic">Mana&#160;</hi>14/1
+              (2008), p.&#160;269-298.</p>
+            </note>. Nous allons voir lesquels de ces membres adhérèrent au
+          <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, et les raisons qui les conduisirent à agir de cette
+          façon.</p>
+        </div>
+        <div type="section1" xml:id="d1e618">
+          <head subtype="level1" xml:id="d1e619">Henri Hubert&#160;: un jeune homme
+          prometteur parmi les antiquisants</head>
+          <p xml:id="d1e621">En termes de chronologie, les premières
+          contributions apportées au <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> par un sociologue proche de <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName>
+          sont attribuables à <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Henri Hubert</persName>. Il rédigea
+          deux notices en tout, une pour le cinquième volume et l’autre pour
+          le sixième, comme nous le voyons dans le cadre ci-dessous.</p>
+          <p rend="figure-title" xml:id="d1e627">Tableau&#160;2 – Henri Hubert et
+          le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>
+          </p>
+          <table xml:id="d1e632">
+            <row>
+              <cell>
+                <hi rend="italic">Notices</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Volume</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Année <lb/>de publication</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Nombre de colonnes</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Pagination</hi>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Kyrèné</hi>
+              </cell>
+              <cell>H-K</cell>
+              <cell>1900</cell>
+              <cell>5</cell>
+              <cell>873-876</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Magia</hi>
+              </cell>
+              <cell>L-M</cell>
+              <cell>1904</cell>
+              <cell>51</cell>
+              <cell>1494-1521</cell>
+            </row>
+          </table>
+          <p xml:id="d1e678">Avant de parler du contenu relatif à ces
+          contributions, il importe de situer celles-ci dans la trajectoire
+          d’<persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Henri Hubert</persName>
+            <note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Pour un aperçu récent et assez complet de la carrière et des
+              publications d’Henri Hubert, voir <hi rend="small-caps">C.&#160;Lorre, </hi>«&#160;Hubert, Henri&#160;», <hi rend="italic">Dictionnaire Critique des Historiens de l’Art,
+              </hi>Édition en lignes de l’<hi rend="small-caps">inha</hi>,
+              <ref target="www.inha.fr/article2370">www.inha.fr/article2370</ref>
+              (site consulté le 22&#160;mai&#160;2010).</p>
+            </note>. Âgé seulement de 28&#160;ans en <date type="_temp" when="1900">1900</date>, ce n’est certainement pas en tant que
+          chercheur prestigieux et achevé qu’il débuta dans le projet du <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>. Il n’avait publié aucun livre. Il ne pouvait se prévaloir
+          que de quelques articles, parmi lesquels se détachaient une étude
+          sur l’État papal et un essai sur le sacrifice écrit en collaboration
+          avec <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Marcel Mauss</persName>, deux
+          travaux datant de <date type="_temp" when="1899">1899</date>
+            <note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Voir, respectivement, <hi rend="small-caps">H.&#160;Hubert,
+              </hi>«&#160;Étude sur la formation des États de l’Église&#160;: les papes
+              Grégoire&#160;II, Grégoire&#160;III, Zacharie et Étienne&#160;II et leurs
+              relations avec les empereurs iconoclastes (726-757)&#160;», <hi rend="italic">Revue historique</hi>&#160;64 (1899), p.&#160;1-40,
+              241-272&#160;; <hi rend="small-caps">H.&#160;Hubert </hi>et<hi rend="small-caps"> M.&#160;Mauss, </hi>«&#160;Essai sur la nature et la
+              fonction social du sacrifice&#160;», <hi rend="italic">L’Année
+              sociologique</hi>&#160;2 (1899), p.&#160;29-138.</p>
+            </note>. Quant à sa position institutionnelle, outre la charge non
+          rémunérée d’attaché libre exercée au sein du Musée des antiquités
+          nationales depuis <date type="_temp" when="1898">1898</date>, il
+          devrait attendre <date type="_temp" when="1901">1901</date> pour que
+          lui soit attribuée celle de maître de conférences à l’École pratique
+          des hautes études (<hi rend="small-caps">ephe</hi>). En résumé, le
+          <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> qui travailla
+          pour le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> n’était autre qu’un débutant dans le monde universitaire.
+          Néanmoins, en tout cas aux yeux des directeurs de la publication, il
+          semble qu’il soit passé pour un jeune homme responsable, et surtout
+          prometteur.</p>
+          <p xml:id="d1e725">Ses rapports avec <persName ref="088927547" type="idref" xml:base="https://www.idref.fr/">Salomon
+          Reinach</persName>, son directeur au Musée des antiquités
+          nationales, ont sans aucun doute fait valoir son nom dans les
+          cercles des antiquisants, sans qu’il soit toutefois possible de
+          déduire de ce fait la participation de <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> au
+          <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>. Une telle déduction demanderait de clarifier préalablement
+          comment la confiance de <persName ref="088927547" type="idref" xml:base="https://www.idref.fr/">Reinach</persName> lui fut acquise,
+          et de confirmer par ailleurs l’influence réelle de celui-ci sur les
+          opinions de <persName ref="031670628" type="idref" xml:base="https://www.idref.fr/">Saglio</persName> et de <persName ref="029925754" type="idref" xml:base="https://www.idref.fr/">Pottier</persName>. Pour échapper à
+          ce qui ne serait qu’une simple chaîne de causes et d’effets, il
+          importe donc, comme le suggérait <persName ref="027194035" type="idref" xml:base="https://www.idref.fr/">Max Weber</persName>,
+          d’envisager les conditions sociales de production et de
+          reconnaissance d’une vocation. Le fait est qu’<persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName>, peut-être plus
+          que n’importe quel autre membre de l’équipe originelle de <hi rend="italic">L’Année sociologique</hi>, présentait toutes les
+          conditions requises pour être perçu comme un jeune chercheur dont le
+          potentiel dans le champ des études gréco-latines était grand. Sa
+          formation explique ce phénomène, du moins en partie. Détenteur d’un
+          prix de version grecque au Concours général au temps du lycée
+          Louis-le-Grand, <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> continua
+          d’étudier en profondeur les langues et les textes anciens à l’<hi rend="small-caps">ens</hi>, d’où il sortit agrégé d’histoire en
+          <date type="_temp" when="1895">1895</date>, et aussi à l’<hi rend="small-caps">ephe</hi>. De cette époque encore date une
+          certaine expérience en épigraphie, comme en témoigne son premier
+          article intitulé «&#160;Deux inscriptions métriques d’Asie Mineure<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>H.&#160;H<hi rend="small-caps">ubert, </hi>«&#160;Deux inscriptions
+              métriques d’Asie Mineure&#160;», <hi rend="italic">Revue
+              archéologique</hi>&#160;1 (1894), p.&#160;308-314.</p>
+            </note>&#160;».</p>
+          <p xml:id="d1e751">À cet entrainement scolaire digne d’un
+          antiquisant, le jeune <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> sut associer les
+          contacts sociaux. L’analyse de sa correspondance passive, conservée
+          dans les archives de l’Institut Mémoires de l’Édition Contemporaine
+          (<hi rend="small-caps">imec</hi>), fait apparaître des révélations
+          importantes dans ce sens. Échangées dans le cercle de ses camarades
+          de l’<hi rend="small-caps">ens</hi>, par exemple, les lettres
+          écrites par <persName ref="032285876" type="idref" xml:base="https://www.idref.fr/">Paul Perdrizet</persName> et
+          <persName ref="031932347" type="idref" xml:base="https://www.idref.fr/">Pierre Jouguet</persName>, tous
+          deux antiquisants, révèlent une amitié et un respect intellectuel
+          profond à l’égard d’<persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName>. Dans une lettre
+          datée de <date type="_temp" when="1894-09">septembre&#160;1894</date>,
+          <persName ref="031932347" type="idref" xml:base="https://www.idref.fr/">Jouguet</persName> vient même à
+          demander que ce dernier reconsidère sa décision de ne pas se rendre
+          à l’École française d’<placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, ce qui
+          prouve au moins que le jeune homme se posa un jour la question<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Archives de l’<hi rend="small-caps">imec</hi>, Fonds
+              Mauss-Hubert, boîte <hi rend="small-caps">mas</hi>&#160;49.</p>
+            </note>. <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> maintint aussi de
+          bons rapports, peut-être même exceptionnellement bons, avec
+          quelques-uns des représentants les plus illustres du champ des
+          études gréco-latines. Parmi ses correspondants de la fin du <date from="1800" to="1899" type="_temp">
+              <hi rend="small-caps">xix</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date> figurent des noms comme celui du
+          latiniste <persName ref="026761866" type="idref" xml:base="https://www.idref.fr/">René Cagnat</persName>, professeur
+          au <placeName ref="6945498" type="geonames" xml:base="https://www.geonames.org/">Collège de France</placeName>,
+          ou celui de l’helléniste <persName ref="076698424" type="idref" xml:base="https://www.idref.fr/">Amédée Hauvette</persName>, de la
+          <placeName ref="6457252" type="geonames" xml:base="https://www.geonames.org/">Sorbonne</placeName>
+            <note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Voir les archives de l’<hi rend="small-caps">imec</hi>, Fonds
+              Mauss-Hubert, boîte <hi rend="small-caps">mas</hi>&#160;47 (Cagnat) e
+              <hi rend="small-caps">mas</hi>&#160;49 (Hauvette).</p>
+            </note>. Celui-ci lui envoie même des invitations pour des soirées
+          privées et lui demande son aide pour la réalisation de menus
+          travaux. Quant au précédent, qui l’appelle «&#160;cher ami&#160;», il lui
+          confie la tâche de s’occuper des inscriptions épigraphiques de
+          <placeName ref="163843" type="geonames" xml:base="https://www.geonames.org/">Syrie</placeName> dans un
+          recueil de sources, travail auquel <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName>
+          renonce toutefois au profit de ses amis<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Hubert est intervenu auprès de Cagnat pour que Pierre Jouguet
+              soit chargé de la tâche, provoquant la réaction suivante de son
+              ami&#160;: «&#160;La démarche que tu as faite auprès de Cagnat me touche
+              beaucoup&#160;; mais je suis confus de te voir abandonner un titre
+              qui te serait très utile et que tu mérites mieux que moi.&#160;»
+              Lettre non datée (elle est probablement de 1898), archives de
+              l’<hi rend="small-caps">imec</hi>, Fonds Mauss-Hubert, boîte <hi rend="small-caps">mas&#160;</hi>49.</p>
+            </note>. De tels exemples sont nombreux<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>C’est le cas du matériel se trouvant dans les archives de
+              l’<hi rend="small-caps">imec</hi>, Fonds Mauss-Hubert, de Franz
+              Cumont (<hi rend="small-caps">mas</hi>&#160;47), Albert Grenier (<hi rend="small-caps">mas</hi>&#160;49) et Théodore Reinach (<hi rend="small-caps">mas</hi>&#160;51).</p>
+            </note>.</p>
+          <p xml:id="d1e818">Les liens d’<persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> avec
+          les latinistes et les hellénistes se manifestent aussi dans ses
+          contacts maintenus avec la Société pour l’Encouragement des Études
+          Grecques en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>. Il fut le
+          premier sociologue à devenir membre de cette institution, en <date type="_temp" when="1898">1898</date>. Ce fait, ignoré de ses
+          biographes, montre combien il se sentait à l’aise pour investir
+          professionnellement et affectivement dans un espace où il
+          connaissait les personnes et dont il dominait les codes. Son
+          engagement même, toujours plus grand, par rapport à la publication
+          de <hi rend="italic">L’Année sociologique</hi> ne le conduisit pas à
+          s’écarter des antiquisants. En définitive, la <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> et la
+          <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName> antiques,
+          ainsi que les autres peuples «&#160;primitifs<hi rend="italic">&#160;»</hi>
+          d’Europe furent attribués à <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> lors du partage
+          des objets d’étude que <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Mauss</persName> et lui fixèrent
+          très tôt<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>
+                <hi rend="small-caps">M.&#160;Mauss, «&#160;</hi>L’œuvre de Mauss par
+              lui-même&#160;», <hi rend="italic">Revue française de
+              sociologie</hi>&#160;20 (1979), p.&#160;209-220.</p>
+            </note>. C’est ce dont attestent les notices signées par lui dans
+          le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>.</p>
+          <p xml:id="d1e841">L’invitation faite à <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> pour
+          qu’il écrive la première de ses contributions au <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> vint de la plume d’<persName ref="029925754" type="idref" xml:base="https://www.idref.fr/">Edmond Pottier</persName>. Dans une
+          lettre de <date type="_temp" when="1899">1899</date>, ce dernier
+          charge le jeune sociologue de rédiger un texte court sur la déesse
+          éponyme de <persName ref="164689869" type="idref" xml:base="https://www.idref.fr/">Cyrène</persName>, la colonie
+          grecque du Nord de l’Afrique<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Archives de l’<hi rend="small-caps">imec</hi>, Fonds
+              Mauss-Hubert, boîte <hi rend="small-caps">mas</hi>&#160;51.</p>
+            </note>. Dans les deux pages et demie consacrées au sujet, nous
+          sommes frappés par l’érudition et par la rigueur méthodologique de
+          l’auteur. En effet, <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> n’opère pas de
+          tri parmi les récits mythiques et les monuments figurés relatifs à
+          la déesse&#160;; il présente au contraire une liste complète et décrit
+          <hi rend="italic">tous</hi> les indices disponibles, en essayant
+          d’identifier les lignes de force censées caractériser la <hi rend="italic">nature</hi> de la divinité, et principalement son
+          culte. Tout en conservant en toile de fond une perspective
+          comparatiste, <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> découvre en
+          <persName ref="164689869" type="idref" xml:base="https://www.idref.fr/">Cyrène</persName> une divinité liée
+          à la fécondité végétale et à la chasse, dont le mythe aurait été
+          marqué par une théomachie (le combat contre un lion) et par une
+          hiéromachie (l’union avec <persName ref="027476537" type="idref" xml:base="https://www.idref.fr/">Apollon</persName>). Des auteurs
+          renommés comme <persName ref="028892585" type="idref" xml:base="https://www.idref.fr/">Usener</persName> et <persName ref="03495886X" type="idref" xml:base="https://www.idref.fr/">Roscher</persName> sont cités par
+          lui, de même que son propre essai sur le sacrifice, qui permettait
+          de mettre en lumière certains invariants présents dans les rituels
+          associés à la déesse. <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> ne néglige pas
+          non plus l’histoire du culte de <persName ref="164689869" type="idref" xml:base="https://www.idref.fr/">Cyrène</persName>,
+          soulevant des hypothèses sur son origine et observant son
+          assimilation à celui d’<persName ref="027852652" type="idref" xml:base="https://www.idref.fr/">Artémis</persName>. Il est dès lors
+          possible de considérer ce texte comme pleinement intégré aux
+          préoccupations du jeune sociologue. Il est directement lié aux
+          réflexions plus générales des membres du groupe de <hi rend="italic">L’Année sociologique</hi> sur les pratiques
+          magico-religieuses. Il anticipe aussi sur les grandes analyses de
+          divinités que lui-même viendra à réaliser plus tard dans le domaine
+          celtique<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Nous faisons allusion ici aux essais rassemblés dans <hi rend="small-caps">H.&#160;Hubert, </hi>
+                <hi rend="italic">Divinités
+              gauloises&#160;: Sucellus et Nantosuelta, Epona, dieux de l’autre
+              monde</hi>, Mâcon, 1925.</p>
+            </note>.</p>
+          <p xml:id="d1e878">
+            <hi rend="italic">Magia</hi>, la deuxième et
+          dernière notice publiée par <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> dans le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, diffère de la précédente par sa longueur –&#160;25&#160;pages et
+          demie&#160;– et par son audace. L’objectif visé est de rendre compte, en
+          les systématisant, des pratiques magiques existant dans tout le
+          bassin méditerranéen, en insistant sur l’existence d’un ensemble
+          cohérent formé après l’expansion militaire macédonienne et surtout
+          romaine. Ainsi, tout en évoquant la multiplicité de contextes
+          historiques particuliers, une évidence s’impose dans le traitement
+          des sources littéraires (<persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName>, <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>, <persName ref="085720917" type="idref" xml:base="https://www.idref.fr/">Hérodote</persName>, <persName ref="031171990" type="idref" xml:base="https://www.idref.fr/">Diogène Laërce</persName>, Apulée,
+          entre autres) et des matières (peintures sur céramique et offrandes
+          votives en plomb)&#160;: les traits systémiques –&#160;les invariants&#160;–
+          semblent l’avoir intéressé au plus haut point. Ce choix, que
+          l’auteur lui-même reconnaît comme provisoire et non scientifique,
+          présente au moins l’avantage de protéger l’analyse de toute
+          tentation de transformation en une paraphrase incontrôlée des
+          sources antiques. Dans cet esprit, l’auteur organise la notice en
+          trois grands blocs&#160;: après une brève introduction (p.&#160;1494-1497), il
+          présente l’histoire de la problématique et les principales sources
+          antiques (p.&#160;1497-1506), pour finalement traiter les procédures
+          rituelles et les pouvoirs du magicien, et aussi pour les situer dans
+          des ensembles cérémoniels plus grands (p.&#160;1506-1514).</p>
+          <p xml:id="d1e886">Sur les thèses défendues ici par <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> et sur leur place
+          dans la production de <hi rend="italic">L’Esquisse d’une Théorie de
+          la Magie</hi>, texte célèbre qu’il viendra à publier avec <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Mauss</persName> en <date type="_temp" when="1904">1904</date>, il n’est pas possible de dire
+          beaucoup plus que ce qui a été formulé par <persName ref="103584382" type="idref" xml:base="https://www.idref.fr/">Marcello
+          Carastro</persName>
+            <note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="small-caps">M.&#160;Carastro, </hi>«&#160;La magie entre
+              histoire et anthropologie. Relire la contribution d’Henri Hubert
+              au <hi rend="italic">
+                  <hi rend="small-caps">dagr</hi>
+                </hi>&#160;», <hi rend="italic">Anabases</hi>&#160;4 (2006),
+              p.&#160;251-255&#160;; <hi rend="small-caps">Id</hi>., «&#160;La fabrique de la
+              notion moderne de magie. Le comparatisme chez Frazer, Hubert et
+              Mauss&#160;», <hi rend="italic">Revista de História</hi> edição
+              especial (2010), p.&#160;231-248.</p>
+            </note>. Comme l’a bien montré cet helléniste, la toile de fond de
+          la notice renvoie à un contexte plus large que le contexte
+          gréco-latin. <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> cite à de
+          nombreuses reprises des spécialistes d’autres peuples et
+          civilisations, ce qui lui permet de polémiquer avec <persName ref="026873842" type="idref" xml:base="https://www.idref.fr/">Frazer</persName> sur les principes
+          généraux de la magie. Il critique surtout la tendance de
+          l’anthropologue britannique à faire dériver toute opération magique
+          d’une logique de sympathie. À l’inverse, ou plutôt en ajout par
+          rapport à la thèse de <persName ref="026873842" type="idref" xml:base="https://www.idref.fr/">Frazer</persName>, <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> s’appuie sur des
+          citations de son propre essai sur le sacrifice pour souligner
+          l’importance de l’opposition sacré/profane comme clé explicative de
+          l’ensemble du phénomène magique. Il s’agit en dernière instance
+          d’une anticipation de ce qui serait produit de meilleur en termes de
+          sociologie religieuse par l’équipe de <hi rend="italic">L’Année
+          sociologique</hi>. Telle est l’importance théorique de la notice
+          publiée dans le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>.</p>
+          <p xml:id="d1e920">Un autre intérêt de cette notice touche au
+          prestige qu’elle octroya au nom d’<persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName>
+          parmi les antiquisants. Les deux lettres que lui adressa <persName ref="031670628" type="idref" xml:base="https://www.idref.fr/">Saglio</persName>, conservées à
+          l’<hi rend="small-caps">imec</hi>, le laissent supposer. Si dans la
+          première de ces lettres, datée du <date type="_temp" when="1901-07-02">2&#160;juillet&#160;1901</date>, le directeur du <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> manifeste sa préoccupation par rapport à l’ampleur que la
+          notice était en train de prendre, dans celle du <date type="_temp" when="1901-07-28">28 du même mois</date>, il félicite <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName>&#160;: «&#160;J’admire le
+          courage et la patience avec lesquels vous vous êtes jeté et vous
+          avez marché, en sachant vous reconnaître, dans ce [domaine&#160;?] des
+          sciences occultes<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Archives de l’Institut de l’édition contemporaine (<hi rend="small-caps">imec</hi>). Fonds Mauss-Hubert, boîte <hi rend="small-caps">mas</hi>&#160;52.</p>
+            </note>.&#160;» Dans la même lettre, <persName ref="031670628" type="idref" xml:base="https://www.idref.fr/">Saglio</persName>
+          invite aussi le sociologue à rédiger un nouvel article, qui devra
+          s’intituler <hi rend="italic">Maleficium</hi>. Celui-ci ne figurera
+          toutefois pas dans le dictionnaire. Publiée dès <date type="_temp" when="1902">1902</date> dans un petit fascicule anticipant sur la
+          sortie du sixième volume, <hi rend="italic">Magia</hi> eut un
+          certain impact, spécialement parmi les hellénistes. Dans la <hi rend="italic">Revue des Études Grecques</hi>, nous avons pu
+          localiser quatre citations de cette notice, toutes situées <date from="1903" to="1907" type="_temp">entre&#160;1903 et&#160;1907</date>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Voir &#160;<hi rend="small-caps">P.&#160;Perdrizet</hi>, «&#160;ΣΦΡΑΓΙΣ
+              ΣΟΛΟΜΩΝΟΣ&#160;», <hi rend="italic">Revue des Études Grecques
+              </hi>(1903), p.&#160;42-61&#160;;<hi rend="small-caps"> P.&#160;Perdrizet,
+              «&#160;</hi>Isopséphie&#160;», <hi rend="italic">Revue des Études
+              Grecques</hi> (1904), p.&#160;350-360&#160;; <hi rend="small-caps">P.&#160;Girard</hi>, «&#160;Ajax fils de Télamon, étude
+              de mythologie héroïque&#160;», <hi rend="italic">Revue des Études
+              Grecques</hi> (1905), p.&#160;1-75&#160;; et enfin <hi rend="small-caps">W.&#160;Deonna</hi>, «&#160;Talismans magiques touvés
+              dans l’île de Thasos&#160;» (1907), p.&#160;373.</p>
+            </note>, tandis que dans la <hi rend="italic">Revue des Études
+          Anciennes</hi>, nous n’en avons localisé qu’une mention, datant de
+          <date type="_temp" when="1920">1920</date>, ce qui témoigne au moins
+          de ce que le texte continua de circuler durant un temps
+          considérablement long<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <hi rend="small-caps">P.&#160;Roussel, </hi>«&#160;Médée et le meurtre
+              de ses enfants&#160;», <hi rend="italic">Revue des Études
+              Anciennes</hi> (1920), p.&#160;157-171.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e991">
+          <head subtype="level1" xml:id="d1e992">Paul Huvelin, le spécialiste
+          consacré</head>
+          <p xml:id="d1e994">Alors que durant la période où il apporta sa
+          contribution au <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>
+            <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Henri Hubert</persName> n’était
+          qu’un jeune homme aux talents prometteurs, <persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName>
+          occupait quant à lui la position de spécialiste reconnu. Né en <date type="_temp" when="1873">1873</date>, soit un an après <persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName>, il acquit des
+          titres et consolida une œuvre personnelle plus tôt que son collègue
+          de <hi rend="italic">L’Année sociologique</hi>. En <date type="_temp" when="1904">1904</date>, lorsque son premier texte fut
+          publié dans le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, il était déjà docteur en droit et professeur de droit
+          romain à l’université de <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>. Son titre lui
+          fut conféré en <date type="_temp" when="1897">1897</date> grâce à la
+          soutenance d’une thèse intitulée l’<hi rend="italic">Essai sur le
+          droit des marchés et des foires</hi>, dont le souffle comparatiste
+          et historique embrassait de longues périodes de l’histoire
+          économique dite occidentale, notamment celle de l’<date>Antiquité
+          gréco-romaine</date>. Concernant son poste, il faut dire
+          qu’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> était déjà passé
+          par l’université d’<placeName ref="6452171" type="geonames" xml:base="https://www.geonames.org/">Aix</placeName>, où il était
+          arrivé vers le milieu de l’année&#160;<date type="_temp" when="1898">1898</date> pour y exercer la fonction de chargé de
+          cours complémentaire d’histoire du droit français. Il s’était rendu
+          à <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName> l’année
+          suivante, à la suite de son succès à l’examen d’agrégation. Sa
+          nomination avait eu lieu un peu plus tard, en <date type="_temp" when="1901">1901</date>, comme professeur d’histoire du droit
+          romain, également à <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName>.</p>
+          <p xml:id="d1e1010">La rapide ascension d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName>
+          s’explique en grande partie par l’inclination de ses investigations
+          intellectuelles. Comme l’a bien montré <persName ref="072250801" type="idref" xml:base="https://www.idref.fr/">Frédéric
+          Audren</persName>, il inaugura les discussions sur une branche du
+          savoir jusqu’alors pratiquement inconnue en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, à savoir
+          l’histoire du droit commercial<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>
+                <hi rend="small-caps">F.&#160;Audren, «&#160;</hi>Paul Huvelin
+              (1873-1923)&#160;: juriste et durkheimien&#160;», <hi rend="italic">Revue
+              d’histoire des sciences humaines&#160;</hi>4/1 (2001), p.&#160;117-130<hi rend="small-caps">.</hi>
+              </p>
+            </note>. Dans ce cas spécifique, <persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName>
+          rompit avec une vision strictement normative de la loi. Cette
+          vision, en radicalisant l’autonomie du droit, passait sous silence
+          la spécificité des rapports entre la loi et le monde, et plus encore
+          la capacité de la loi d’intervenir dans le monde. Il est bien vrai
+          que la perspective d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> n’impliquait pas
+          une négation du statut même du droit, ou pour être plus précis, de
+          sa relative indépendance. Mais <persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> la
+          complexifiait de manière considérable, comme on pourra s’en rendre
+          compte ci-après. Quant à ses études touchant le droit romain, elles
+          opéraient sur des terrains très proches de ceux de la sociologie de
+          la religion produite dans <hi rend="italic">L’Année
+          sociologique</hi>. <hi rend="italic">Grosso modo</hi>, il cherchait
+          à comprendre comment, à partir d’une source magique ou religieuse,
+          un droit pouvait voir le jour sans être ni de la magie ni de la
+          religion.</p>
+          <p xml:id="d1e1031">Le début de la participation d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> au <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> coïncide pratiquement avec son adhésion au projet
+          scientifique dirigé par <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName>. Grâce aux
+          lettres d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> adressées à
+          <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Mauss</persName>, et qui sont
+          conservées à l’<hi rend="small-caps">imec</hi>, nous savons qu’il se
+          rapprochait déjà du champ de la sociologie universitaire depuis
+          <date type="_temp" when="1899">1899</date>
+            <note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Archives de l’<hi rend="small-caps">imec</hi>. Fonds
+              Mauss-Hubert, boîte <hi rend="small-caps">mas</hi>&#160;6.40. La
+              transcription de ces lettres est disponible dans l’article cité
+              de Frédéric Audren (cf.&#160;note&#160;24).</p>
+            </note>. La réciproque était également vraie, étant donné que la
+          production d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> sur l’histoire
+          de l’ancien droit romain fut bien accueillie parmi les disciples de
+          <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName>
+            <note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Durkheim fit mention de sa lecture d’Huvelin dans les lettres
+              adressées à Mauss (<hi rend="small-caps">É.&#160;Durkheim, </hi>
+                <hi rend="italic">Lettres à Marcel Mauss</hi>,<hi rend="italic"/>Paris, 1998, p.&#160;123). Voir aussi le compte rendu
+              écrit par Durkheim à propos d´un des livres d’Huvelin, <hi rend="small-caps">É.&#160;Durkheim,</hi> «&#160;Tablettes magiques et le
+              droit romain&#160;», <hi rend="italic">L’Année sociologique&#160;</hi>6
+              (1903), p.&#160;388-390.</p>
+            </note>. Nous observons qu’il vint à figurer parmi les
+          collaborateurs réguliers de <hi rend="italic">L’Année
+          sociologique</hi> à partir de <date type="_temp" when="1903">1903</date>. Dans le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, auquel il participa dès <date type="_temp" when="1904">1904</date>, nous rencontrons en tout dix notices
+          signées par lui, dont la longueur et les thèmes sont variables,
+          comme le montre le tableau ci-dessous.</p>
+          <p rend="figure-title" xml:id="d1e1078">Tableau&#160;3 – Paul Huvelin et
+          le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>
+          </p>
+          <table xml:id="d1e1083">
+            <row>
+              <cell>
+                <hi rend="italic">Notices</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Volume</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Année de publication</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Nombre de colonnes</hi>
+              </cell>
+              <cell>
+                <hi rend="italic">Pagination</hi>
+              </cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Mercator</hi>
+              </cell>
+              <cell>L-M</cell>
+              <cell>1904</cell>
+              <cell>10</cell>
+              <cell>1731-1736</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Mercatura</hi>
+              </cell>
+              <cell>L-M</cell>
+              <cell>1904</cell>
+              <cell>53</cell>
+              <cell>1743-1769</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Navicularius</hi>
+              </cell>
+              <cell>N-Q</cell>
+              <cell>1907</cell>
+              <cell>2</cell>
+              <cell>20-21</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Negotiator</hi>
+              </cell>
+              <cell>N-Q</cell>
+              <cell>1907</cell>
+              <cell>7</cell>
+              <cell>41-45</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Negotium Gestio</hi>
+              </cell>
+              <cell>N-Q</cell>
+              <cell>1907</cell>
+              <cell>6</cell>
+              <cell>47-50</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Nexum</hi>
+              </cell>
+              <cell>N-Q</cell>
+              <cell>1907</cell>
+              <cell>13</cell>
+              <cell>77-83</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Nomina Transcripticia</hi>
+              </cell>
+              <cell>N-Q</cell>
+              <cell>1907</cell>
+              <cell>2</cell>
+              <cell>97-98</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Obligatio</hi>
+              </cell>
+              <cell>N-Q</cell>
+              <cell>1907</cell>
+              <cell>14</cell>
+              <cell>133-140</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Obvugulatio</hi>
+              </cell>
+              <cell>N-Q</cell>
+              <cell>1907</cell>
+              <cell>1</cell>
+              <cell>141</cell>
+            </row>
+            <row>
+              <cell>
+                <hi rend="small-caps">Solutio</hi>
+              </cell>
+              <cell>R-S</cell>
+              <cell>1911</cell>
+              <cell>7</cell>
+              <cell>1392-1395</cell>
+            </row>
+          </table>
+          <p xml:id="d1e1230">Il est impossible de savoir comment lui fut
+          adressée l’invitation à participer au <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> sans une analyse préalable de sa correspondance passive, ce
+          qui reste à faire. L’initiative peut être partie de <persName ref="031670628" type="idref" xml:base="https://www.idref.fr/">Saglio</persName>, en raison de ses
+          contacts dans le domaine du droit. Elle peut aussi être venue de
+          <persName ref="029925754" type="idref" xml:base="https://www.idref.fr/">Pottier</persName>, bien placé au
+          sein de l’Université française. Quoi qu’il en soit, il faut
+          souligner le fait que les travaux d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName>
+          étaient bien connus dans le milieu des antiquisants. Ses articles et
+          ses livres relatifs à l’histoire du droit et du commerce pendant
+          l’<date>Antiquité</date> sont cités assez fréquemment dans les
+          revues spécialisées<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Tout en excluant les innombrables allusions faites aux
+              travaux d’Huvelin par certains collaborateurs de <hi rend="italic">L’Année sociologique</hi>, voir dans ce sens&#160;: <hi rend="small-caps">P.&#160;Perdrizet</hi>, «&#160;Isopséphie&#160;», <hi rend="italic">Revue des Études Grecques</hi> (1904),
+              p.&#160;350-360&#160;; <hi rend="small-caps">C.&#160;Ruelle</hi>,
+              «&#160;Bibliographie annuelle des études grecques&#160;», <hi rend="italic">Revue des Études Grecques</hi> (1909), p.&#160;444&#160;;
+              <hi rend="small-caps">H.&#160;Lechat, </hi>«&#160;Une guerre d’usure&#160;: la
+              deuxième guerre punique (compte rendu)&#160;», <hi rend="italic">Revue des Études Anciennes </hi>(1917),
+              p.&#160;188-189&#160;; et <hi rend="small-caps">W.&#160;Deonna</hi>, «&#160;Le
+              portrait de Phidias sur le Bouclier de l’Athèna Parthénos&#160;», <hi rend="italic">Revue des Études Anciennes</hi> (1920),
+              p.&#160;291-308.</p>
+            </note>. Il écrivit lui-même pour le <hi rend="italic">Bulletin de
+          correspondance hellénique</hi> des commentaires sur un décret
+          commercial grec qui venait d’être découvert alors<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>
+                <hi rend="small-caps">P.&#160;Huvelin, E.&#160;Schulhof,
+              </hi>«&#160;Fouilles de Délos (1905)&#160;: Inscriptions&#160;; loi réglant la
+              vente du bois et du charbon à Délos&#160;», <hi rend="italic">Bulletin de correspondance hellénique </hi>(1907),
+              p.&#160;46-93.</p>
+            </note>.</p>
+          <p xml:id="d1e1283">Quant aux notices publiées par <persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> dans le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, elles sont très révélatrices des domaines propres à sa
+          spécialité, ce qui montre combien son recrutement fut conscient.
+          D’un côté, nous trouvons des textes portant sur l’analyse de
+          l’histoire des pratiques commerciales et des législations qui leur
+          étaient sous-jacentes. Tel est le cas des notices <hi rend="italic">
+              <foreign xml:lang="lat">mercator</foreign>
+            </hi>, <hi rend="italic">
+              <foreign xml:lang="lat">mercatura</foreign>
+            </hi>, <hi rend="italic">
+              <foreign xml:lang="lat">navicularius</foreign>
+            </hi>, <hi rend="italic">
+              <foreign xml:lang="lat">negociator</foreign>
+            </hi>, <foreign xml:lang="lat">
+              <hi rend="italic">negotium gestio</hi>
+            </foreign> et <hi rend="italic">
+              <foreign xml:lang="lat">nomina transscripticia</foreign>
+            </hi>. D’un autre côté, des textes lui furent commandés sur des
+          aspects précis du droit romain, pas nécessairement en rapport avec
+          le commerce, comme <hi rend="italic">
+              <foreign xml:lang="lat">nexum</foreign>
+            </hi>, <hi rend="italic">
+              <foreign xml:lang="lat">obligatio</foreign>
+            </hi>, <hi rend="italic">
+              <foreign xml:lang="lat">obvugulatio</foreign>
+            </hi> et <hi rend="italic">
+              <foreign xml:lang="lat">solutio</foreign>
+            </hi>. Il est inutile de réaliser ici une description complète de
+          chaque cas, tant est grande la complexité des contextes historiques
+          analysés. À l’inverse, nous présenterons dans les grandes lignes ce
+          qui confère à l’ensemble son unité.</p>
+          <p xml:id="d1e1320">Mises à part les très brèves notices techniques
+          comme <hi rend="italic">
+              <foreign xml:lang="lat">navicularius</foreign>
+            </hi>, <hi rend="italic">
+              <foreign xml:lang="lat">nomina transcripticia</foreign>
+            </hi>et <hi rend="italic">
+              <foreign xml:lang="lat">obvugulatio</foreign>
+            </hi>, la collaboration d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> attire
+          l’attention par la combinaison qu’elle opère entre un récit
+          historique et un comparativisme sociologiquement informé. Ainsi, par
+          exemple, il se prévaut d’un phénomène comme l’afflux de l’or et de
+          l’argent à partir de la conquête de l’Amérique pour expliquer au
+          lecteur l’impact commercial de l’expansion macédonienne (<hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, <date type="_temp" when="1904">1904</date>, p.&#160;1754-1756).
+          Il met aussi en parallèle le transport pratiqué dans l’Europe
+          moderne avec celui du monde méditerranéen ancien (<hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, <date type="_temp" when="1907">1907</date>, p.&#160;42-45).
+          Enfin, il évoque des faits connus du droit germanique pour éclairer
+          certaines pratiques romaines (<hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, 1907, p.&#160;79). Il ne s’agissait pourtant pas d’un
+          comparatisme uniforme. En fait, la comparaison était dirigée pour
+          appréhender les spécificités de plans de la réalité distincts.
+          Surtout dans le cas des notices touchant l’histoire du droit
+          commercial, <persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> propose aussi
+          bien une histoire <hi rend="italic">externe</hi> du commerce,
+          confirmant les pratiques qui le configuraient dans les sociétés
+          anciennes et leurs changements survenus au fil des siècles, qu’une
+          histoire <hi rend="italic">interne</hi>, en l’occurrence l’analyse
+          des lois dans leurs rapports avec les transformations sociales et
+          avec la tradition juridique elle-même.</p>
+          <p xml:id="d1e1350">Une autre donnée importante à souligner est le
+          lien existant entre ses notices et les grands programmes de
+          recherche des fondateurs de <hi rend="italic">L’Année
+          sociologique</hi>. Tout comme ces derniers, mais sans les citer,
+          <persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> parle de <hi rend="italic">division du travail</hi>, de <hi rend="italic">solidarité</hi>, de <hi rend="italic">groupes
+          familiaux</hi>, de <hi rend="italic">magie</hi> et de <hi rend="italic">religion</hi>. Néanmoins, cette adhésion ne va pas
+          sans réserve. Effectivement, en étudiant l’autonomisation de la
+          législation comme un indice de la complexification des sociétés
+          antiques, <persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> ne l’associe
+          pas, comme l’eût fait <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName>, à la
+          solidarité organique<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Voir spécialement&#160;: <hi rend="italic">
+                  <hi rend="small-caps">dagr</hi>
+                </hi>, 1904, p.&#160;1744-1746&#160;; 1907, p.&#160;79-83 et p.&#160;133-135.</p>
+            </note>. L’affaiblissement du droit pénal fondé sur les lois du
+          sang et imprégné par un fond magico-religieux n’était pas
+          nécessairement le reflet d’une augmentation de cette solidarité&#160;; il
+          pouvait tout autant être l’indice d’une sophistication des
+          mécanismes visant à produire des inégalités sociales nuisibles à son
+          implantation.</p>
+          <p xml:id="d1e1380">Il est très malaisé d’évaluer l’impact de ces
+          textes spécifiques d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> parmi les
+          latinistes, les hellénistes et les sociologues. Bien que ses travaux
+          aient connu une circulation plutôt bonne dans ces cercles, nous
+          n’avons trouvé que deux références à la participation d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> au <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>. La première, chronologiquement, a été faite par <persName ref="123578868" type="idref" xml:base="https://www.idref.fr/">Georges Seure</persName>. Dans le
+          <hi rend="italic">Bulletin de correspondance hellénique</hi> publié
+          en <date type="_temp" when="1912">1912</date>, il cite l’article <hi rend="italic">
+              <foreign xml:lang="lat">negotiator</foreign>
+            </hi>
+            <note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>G.&#160;S<hi rend="small-caps">eure</hi>, «&#160;Antiquités thraces de
+              la Propontide&#160;», <hi rend="italic">Bulletin de correspondance
+              hellénique</hi> (1912), p.&#160;557 et&#160;614.</p>
+            </note>. L’autre référence, cette fois-ici à l’article <hi rend="italic">
+              <foreign xml:lang="lat">obligatio</foreign>
+            </hi>, est venue d’un jeune helléniste qui, à l’époque, s’était
+          également engagé dans la sociologie&#160;: <persName ref="026889102" type="idref" xml:base="https://www.idref.fr/">Louis
+          Gernet</persName>. Dans un texte sur le droit primitif en <placeName ref="390903" type="geonames" xml:base="https://www.geonames.org/">Grèce</placeName> publié dans
+          la <hi rend="italic">Revue des Études Grecques</hi> en <date type="_temp" when="1917">1917</date>, il utilise des hypothèses
+          d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName>
+            <note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>L.&#160;G<hi rend="small-caps">ernet</hi>, «&#160;Hypothèses sur le
+              contrat primitif en Grèce&#160;», <hi rend="italic">Revue des Études
+              Grecques</hi> (1917), p.&#160;249-293, 363-383.</p>
+            </note>. Il est toutefois possible que ses contemporains aient
+          tout simplement préféré ne se référer qu’aux travaux plus
+          conséquents de l’auteur. Ce dernier y renvoie effectivement dans ses
+          copieuses notes accompagnant les textes du <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, spécialement à ses articles, notamment celui qu’il publia
+          dans <hi rend="italic">L’Année sociologique</hi>, et aussi à sa
+          thèse.</p>
+        </div>
+        <div type="section1" xml:id="d1e1427">
+          <head subtype="level1" xml:id="d1e1428">Conclusion&#160;: note sur la
+          place de la sociologie dans le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> et sur la place du <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> dans la sociologie</head>
+          <p xml:id="d1e1438">Considérant les cinq volumes du <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> publiés après la sortie de <hi rend="italic">L’Année
+          sociologique</hi>, nous constatons que la présence de la sociologie
+          durkheimienne fut modeste en comparaison des dimensions de l’ouvrage
+          (sur les 4819 pages publiées <date from="1900" to="1919" type="_temp">entre&#160;1900 et&#160;1919</date>, 86&#160;seulement ont été
+          rédigées par des sociologues). En fait, il pouvait difficilement en
+          aller autrement&#160;: l’importance donnée à la vie matérielle et au
+          quotidien des Anciens laissait un espace secondaire aux grands
+          essais d’interprétation socio-historique, où la sociologie
+          durkheimienne pouvait jouer un rôle important. Petit ne veut
+          toutefois pas dire inexistant. Ce fut surtout dans les articles liés
+          aux aspects plus généraux des croyances et des pratiques religieuses
+          que, outre les textes d’<persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Henri Hubert</persName> et de
+          <persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Paul Huvelin</persName>, la
+          sociologie durkheimienne se rendit présente. <persName ref="033692289" type="idref" xml:base="https://www.idref.fr/">Jules
+          Toutain</persName>, dans <hi rend="italic">sacrificium </hi>et <hi rend="italic">religio</hi>, cite les travaux collectifs de <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Mauss</persName> et d’<persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName>, de même que la
+          traduction française du manuel de <persName ref="073272140" type="idref" xml:base="https://www.idref.fr/">Chantepie de la
+          Saussaye</persName>, réalisée sous la direction d’<persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName>
+            <note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>
+                <hi rend="italic">
+                  <hi rend="small-caps">dagr</hi>
+                </hi>, 1911, p.&#160;344 et 454.</p>
+            </note>. De la même façon, <persName ref="032215347" type="idref" xml:base="https://www.idref.fr/">Gustave Fougères</persName>, dans
+          sa notice <hi rend="italic">
+              <foreign xml:lang="grc">maimaktéria</foreign>
+            </hi>, fait allusion à l’<hi rend="italic">Essai sur le
+          Sacrifice</hi> (<hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, <date type="_temp" when="1904">1904</date>, p.&#160;1555). Le
+          fait est que les sociologues durkheimiens étaient devenus
+          incontournables, du moins quant aux théories sur la pratique
+          religieuse. Que ce soit pour marquer son accord ou pour signifier
+          son désaccord par rapport à eux, il fallait nécessairement les
+          citer. Quant aux autres champs de la sociologie, économique et
+          juridique, et pour évoquer ici les divisions qui existaient au sein
+          de <hi rend="italic">L’Année sociologique</hi>, il fallut attendre
+          un peu plus longtemps. L’exception dans ce cas fut <persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName>, mais son
+          autorité n’était reconnue que dans des domaines très
+          spécifiques.</p>
+          <p xml:id="d1e1476">L’autre facette de notre investigation est de
+          considérer le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi> sous l’angle de l’institutionnalisation de la sociologie.
+          Connaissant l’espace prédominant des études gréco-latines dans
+          l’ensemble du système d’enseignement, et en particulier au sein des
+          facultés de lettres, les mêmes qui virent naître les premières
+          chaires de sociologie, nous pouvons dire certainement que cette
+          perspective ne manque pas d’intérêt. Dans la mesure où certains
+          chercheurs proches de <persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Durkheim</persName> se firent
+          représenter dans le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, soit dans des textes directs, soit dans des citations, cela
+          avait des répercussions sur les investissements des antiquisants. De
+          plus, parce qu’elle venait à figurer dans le hall d’entrée des
+          savoirs légitimement applicables à l’étude du monde antique, la
+          sociologie pouvait aussi donner de la valeur aux investissements
+          intellectuels des générations nouvelles. L’augmentation du nombre
+          d’hellénistes dans les filières de <hi rend="italic">L’Année
+          sociologique</hi> jusqu’à la publication du dernier numéro de sa
+          première série, en <date type="_temp" when="1913">1913</date>, ne
+          nous semble pas fortuite. <persName ref="026889102" type="idref" xml:base="https://www.idref.fr/">Louis Gernet</persName>, <persName ref="026937204" type="idref" xml:base="https://www.idref.fr/">Henri
+          Jeanmaire</persName> et <persName ref="029015375" type="idref" xml:base="https://www.idref.fr/">Pierre Roussel</persName>, tandis
+          qu’ils suivaient la voie de la spécialisation, parièrent sur la
+          sociologie comme sur quelque chose qui pouvait renforcer leur projet
+          de carrière. Parmi les latinistes, un raisonnement similaire peut
+          s’appliquer à <persName ref="028309847" type="idref" xml:base="https://www.idref.fr/">André Piganiol</persName>, même
+          s’il n’a pas écrit pour la première série. Par conséquent, il nous
+          paraît que les articles d’<persName ref="026926601" type="idref" xml:base="https://www.idref.fr/">Hubert</persName> et d’<persName ref="076005127" type="idref" xml:base="https://www.idref.fr/">Huvelin</persName> dans le <hi rend="italic">
+              <hi rend="small-caps">dagr</hi>
+            </hi>, plus qu’ils n’ont exercé un impact sur les trajectoires
+          individuelles de tel ou tel individu, ont permis d’élargir les
+          espaces d’insertion institutionnelle d’un groupe.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

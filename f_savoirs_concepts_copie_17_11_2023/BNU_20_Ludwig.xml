@@ -1,0 +1,1317 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-10-02T08:09:17.959+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_20_Ludwig.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La bibliothèque métonymique.</title>
+        <title type="sub">La Bibliothèque Gutenberg, ou de l’interaction entre
+        collecte et exposition des fonds</title>
+        <author role="aut">
+          <forename>Annette</forename>
+          <surname>Ludwig</surname>
+          <idno type="IDREF">118981994</idno>
+        </author>
+        <editor role="translator">
+          <forename>Françoise</forename>
+          <surname>Bornemann</surname>
+          <idno type="IDREF">255486006</idno>
+        </editor>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/T6BF6HQT" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">La bibliothèque métonymique</title>
+            <idno type="DOI">10.4000/rbnu.3653</idno>
+            <author>
+              <forename>Annette</forename>
+              <surname>Ludwig</surname>
+            </author>
+            <respStmt>
+              <resp>translator</resp>
+              <persName>
+                <forename>Françoise</forename>
+                <surname>Bornemann</surname>
+              </persName>
+            </respStmt>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">20</biblScope>
+              <biblScope unit="page">38-49</biblScope>
+              <date>2019</date>
+              <note type="accessed">2022-07-07T09:52:05Z</note>
+              <note type="url">https://journals.openedition.org/rbnu/3653</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+        <language ident="deu"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bilbiothèque
+            Gutenberg</placeName>
+          </term>
+          <term>
+            <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1450">1450</date>
+          </term>
+          <term>
+            <date from="1900" to="2018" type="_temp">1900-2018</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-24T14:04:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">La bibliothèque
+          métonymique.</titlePart>
+          <titlePart style="T_SousTitre" type="sub">La Bibliothèque Gutenberg,
+          ou de l’interaction entre collecte et exposition des
+          fonds</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Annette Ludwig</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Directrice du Musée Gutenberg de
+          Mayence</affiliation>
+        </byline>
+        <byline style="txt_collaborateur">Françoise Bornemann</byline>
+      </titlePage>
+      <div type="prelim" xml:id="d1e56">
+        <epigraph>
+          <quote xml:id="d1e58" xml:lang="eng">Once a book is illustrated or
+          shown in an exhibition it is no longer ‘only’ a book […]<note n="1" place="foot" type="standard" xml:id="ftn1">
+              <p>Vloemans, John, <hi rend="italic">Avantgarda. Typography and
+              photomontage in modernist Czech book production, 1918-1938</hi>,
+              La Haye, 2012, p.<hi>&#160;</hi>XIII. Vloemans précise que
+              concrètement, le livre exposé «&#160;is no longer ‘only’ a book, but
+              also an object with needs to be complete and in good
+              condition&#160;».</p>
+            </note>
+          </quote>
+        </epigraph>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <div type="section1" xml:id="d1e71">
+          <head subtype="level1" xml:id="d1e72">La bibliothèque comme
+          musée</head>
+          <p xml:id="d1e74">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Le
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName> est
+          l’un des plus anciens musées de l’imprimerie, le musée mondial de
+          l’histoire de l’écriture, de l’imprimerie et du livre, mais aussi
+          celui de tout ce qui touche à la chose imprimée, du point de vue
+          technique et culturel. Il en découle qu’une réflexion continue sur
+          les types de bibliothèques, et plus spécialement sur la bibliothèque
+          jointe à ce musée, fait partie de l’institution même<note n="2" place="foot" type="standard" xml:id="ftn2">
+              <p>Eva-Maria Hanebutt-Benz, qui a dirigé la maison de 1987 à
+              2010, s’est particulièrement intéressée à l’histoire de ce
+              musée, de sa bibliothèque et des aspects qui y sont corrélés. Un
+              choix de ses contributions à la recherche est donné par la
+              suite.</p>
+            </note>. Cette bibliothèque mayençaise de consultation et les
+          étages de magasins qui lui sont adjoints, installés dans le bâtiment
+          de style <date type="_temp">Renaissance tardive</date> appelé
+          «&#160;<foreign xml:lang="deu">Römischer Kaiser</foreign>&#160;», avec sa
+          salle de lecture ouverte au public du lundi au samedi, dispose
+          actuellement de 91&#160;000&#160;documents (tous médias confondus), dont
+          50&#160;abonnements de périodiques en cours (voir ill. ci-dessous).</p>
+          <figure xml:id="d1e79">
+            <head xml:id="d1e80">La maison appelée «&#160;Römischer Kaiser&#160;» (À
+            l’empereur romain) à Mayence, qui héberge entre autres la
+            Bibliothèque Gutenberg</head>
+            <p xml:id="d1e82">© Gutenberg-Museum, clichés Martina Pipprich</p>
+          </figure>
+          <p xml:id="d1e84">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-gqmp8449">patrimoine
+          immatériel</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>Elle
+          constitue à la fois une partie de la collection du musée, une
+          section du musée lui-même, un instrument de travail pour les
+          conservateurs, mais aussi un lieu fréquenté par les chercheurs du
+          monde entier. Le fonds patrimonial, appelé fonds mémoriel, est la
+          raison d’être, le cœur du musée&#160;: il contient toutes les
+          informations sur l’invention de l’imprimerie vers <date type="_temp" when="1450">1450</date> par <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Johannes Gutenberg</persName>
+          (<date from="1400" to="1468" type="_temp">1400-1468</date>). Le
+          fonds, en constante augmentation depuis <date type="_temp" when="1900">1900</date>, forme un appareil unique au monde pour ce
+          qui concerne l’histoire de l’imprimerie. Par sa haute valeur
+          scientifique, historique, bibliophilique, muséale et son ancienneté,
+          autant que par les informations et renseignements utiles à la
+          recherche, il n’est pas seulement le reflet du profil unique en son
+          genre de cette bibliothèque et des objets très particuliers qu’on y
+          expose (comme les deux Bibles de <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>
+          qui sont les témoins directs de cette prodigieuse mutation
+          médiatique), ni ne nous fait simplement connaître des points forts,
+          des goûts, des modes, des lacunes ou des désirs&#160;; le vaste panorama
+          que déploie la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          Gutenberg</placeName>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>Sur la signification de la notion de musée apparue à la fin
+              du 19<hi rend="sup">e</hi>&#160;siècle, voir Fabian, Bernhard,
+              «&#160;Warum wir Buchmuseen brauchen&#160;», in <hi rend="italic">Zeichen
+              Bücher Wissensnetze. </hi>
+                <hi rend="italic">125 Jahre Deutsches
+              Buchund Schriftmuseum der Deutschen Nationalbibliothek </hi>/
+              éd. Stephanie Jacobs, Göttingen, 2009, p.&#160;209-213.</p>
+            </note> nous montre aussi qu’un tel fonds, dans un musée du livre,
+          exerce une double fonction qui touche aussi à la communication des
+          documents<note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>Un écrit dactylographié non signé et non daté, intitulé
+              «&#160;Funktion und Aufbau der Bibliothek des Gutenberg-Museums&#160;»
+              (Gutenberg-Bibliothek, 3&#160;p.) pointe également dans cette double
+              fonction celle d’être utilisable pour des séances pédagogiques
+              («&#160;Diese Nutzung der Bibliothek ergibt sich aus ihrer Funktion
+              als Informations-, Auskunfts-, und Anschauungsmittel in enger
+              Bezogenheit auf das, was das Gutenberg-Museum in seinen
+              Ausstellungsräumen zeigt. Die Frage stellt sich also stets für
+              das Museum und die Bibliothek gemeinsam&#160;»).</p>
+            </note>. Un objet exposé, par sa matérialité parfois imposante,
+          présenté dans le contexte d’un musée ou même mis à la disposition du
+          public à des fins de recherche dans la salle de lecture, peut avoir
+          un rôle de documentation critique, en tant que porteur de discours
+          variés et de succédané matériel et «&#160;haptique&#160;». Et dans le sens
+          inverse, le statut de la littérature scientifique se trouve
+          transformé lorsqu’elle est elle-même intégrée en tant qu’artefact
+          dans une exposition où elle garantit métaphoriquement stabilité et
+          continuité au milieu des médias éphémères et fluides de l’ère
+          électronique. «&#160;Les fonds sont alors au croisement des deux rôles, à
+          la fois objets d’exposition et littérature de référence, comme par
+          exemple les manuels d’imprimeurs, les livres anciens spécialisés,
+          les échantillons d’écritures, de caractères, etc.&#160;»<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Citation de Hanebutt-Benz, Eva-Maria, «&#160;Das Gutenberg-Museum
+              in Mainz&#160;», in <hi rend="italic">Buchwissenschaft in
+              Deutschland. Ein Handbuch</hi>. Ed. Ursula Rautenberg. vol&#160;2&#160;:
+              Fachkommunikation, Lehre, Institutionen und Gesellschaften,
+              Berlin/New York, 2010, p.&#160;979-995, ici p.&#160;989.</p>
+            </note>.</p>
+          <p xml:id="d1e108">Peut être objet d’exposition, d’après les
+          indications toujours en usage concernant les fonds documentaires et
+          les acquisitions, «&#160;toute chose imprimée utilisable dans un contexte
+          précis, soit par son ancienneté, sa typographie, la qualité de son
+          illustration, sa reliure, soit par toute autre qualité pouvant
+          intéresser la recherche&#160;»<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Ibidem</p>
+            </note>. Les plus de 3&#160;000&#160;incunables du <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée
+          Gutenberg</placeName> ont dans ce contexte un rôle tout particulier.
+          Il y a là une différence essentielle du musée par rapport aux
+          bibliothèques en général&#160;: «&#160;le contenu des livres n’a pratiquement
+          aucune importance, excepté pour les livres qui traitent de
+          l’histoire de l’imprimerie&#160;»<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Citation de Hanebutt-Benz, Eva-Maria&#160;: «&#160;Bücher im
+              Gutenberg-Museum – oder Leben mit dem Widerspruch&#160;», in <hi rend="italic">Nationale Verantwortung für kulturelle
+              Überlieferung. Symposium aus Anlass des 20-jährigen Bestehens
+              der Sammlung Deutscher Drucke </hi>/ éd. Berndt Dugall et Angela
+              Hausinger, Frankfurt/M., 2010 (<hi rend="italic">Zeitschrift für
+              Bibliothekswesen und Bibliographie</hi>, Sonderband 99),
+              p.&#160;93-102, ici p.&#160;93.</p>
+            </note>. On acquiert les écrits pour des raisons diverses&#160;: leur
+          aspect propre (bibliophilique, géographique, historique), leur
+          écriture, leur impression, leur ornementation, leur design, leur
+          présentation (typographie, illustration, reliure) ou encore leur
+          pertinence (par rapport à leur époque, d’un point de vue technique,
+          social, économique, culturel, par rapport à la communication, aux
+          médias, à la science). Pour toutes ces raisons, ils sont utilisables
+          comme témoins et exemples dans le déroulement d’une présentation,
+          comme on montre en même temps des presses d’imprimerie, des
+          machines, des outils d’imprimeurs, des caractères en plomb ou
+          d’autres objets qui permettent de mieux connaître les bases
+          techniques de la culture du livre.</p>
+          <p xml:id="d1e123">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-8mpceijw">publication</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-kvhruup4">esthétique</term>
+                  </term>
+                </term>
+              </term>
+            </term>Au
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>,
+          les imprimés, qu’ils soient d’importance capitale ou plus marginale,
+          témoignent des innovations, des ruptures, des développements
+          artistiques et esthétiques, des coopérations et des transferts de
+          savoir dans les processus de mise en page, de publication, de
+          distribution, de réception, et par là-même des aléas de leur
+          histoire, par exemple quand des annotations manuscrites nous
+          informent sur la provenance, sur les différents propriétaires ou
+          d’autres détails culturellement significatifs. L’authenticité qui
+          leur est inhérente, l’originalité, l’immédiateté, dans le contexte
+          réel d’une institution qui se porte garante de la qualité et du
+          choix de ce qu’elle expose<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Reisser, Michael, «&#160;Das Konzept ‘Gutenberg’ im Zeitalter von
+              Multimedia und Internet oder Warum der Abschied von den
+              ‘Buchmuseen’ schwerfallen sollte&#160;», in <hi rend="italic">Buch
+              und Bibliothek. </hi>
+                <hi rend="italic">Fachzeitschrift des
+              Vereins der Bibliothekare an Öffentlichen Bibliotheken e.
+              V.</hi>, 49<hi rend="sup">e&#160;</hi>année, 1997, p.&#160;32-39, ici
+              p.&#160;38.</p>
+            </note>, explique la vive et constante attractivité du concept
+          muséal, même si les «&#160;stars sous vitrines&#160;»<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>L’auteur a pris l’exemple des 1,5&#160;Bibles de Gutenberg
+              exposées dans la salle du trésor, accessible au public, du
+              Gutenberg-Museum dans «&#160;Bibliophile Kronjuwelen – Die
+              Gutenberg-Bibeln im Gutenberg-Museum&#160;», exposé prononcé au
+              Ruhr-Museum d’Essen à l’occasion du colloque consacré aux
+              exponats et intitulé «&#160;Die Ausstellungsobjekte – sie sind die
+              Stars der Museen&#160;» (27.09.2018).</p>
+            </note> se dérobent à ce qui serait normalement leur destinée&#160;:
+          être lus, feuilletés, consommés et nous apporter de l’information,
+          mais aussi être touchés et respirés<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Voir à ce propos Hanebutt-Benz, Eva-Maria, «&#160;Aufgaben und
+              Probleme der Darstellung von Buch und Buchdruck im Museum&#160;», in
+              <hi rend="italic">Das Buch in Praxis und Wissenschaft. 40 Jahre
+              Deutsches Bucharchiv München. Eine Festschrift </hi>/ éd. Peter
+              Vosodek, Wiesbaden, 1989, p.&#160;480-490.</p>
+            </note>. L’usager n’est plus qu’un spectateur passif et admiratif.
+          L’ancien directeur général de la Bibliothèque nationale allemande,
+          <persName ref="030775868" type="idref" xml:base="https://www.idref.fr/">Klaus-Dieter Lehmann</persName>,
+          décrit ainsi les objets exposés dans un musée et «&#160;accessibles&#160;» de
+          cette manière particulière&#160;:</p>
+          <quote rend="quotation" xml:id="d1e147">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-5s8ymhcr">interprétation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>Quand
+          le livre devient objet de collection et d’exposition dans un musée,
+          on met en valeur un exemplaire précis et on permet d’autres modes
+          d’approche&#160;: les musées placent leurs objets dans des contextes
+          thématiques, historiques et culturels, les enrichissent par des
+          interprétations, des tris, des sélections. Le rapport émotionnel que
+          les livres permettent par la diversité de leurs significations
+          culturelles, leur aspect esthétique et leur rôle en tant que
+          transmetteurs de connaissances est évident.<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Lehmann, Klaus-Dieter, «&#160;Tradition als lebendige
+              Verpflichtung&#160;», in <hi rend="italic">Zeichen Bücher
+              Wissensnetze</hi>, op.&#160;cit., p.&#160;205-208, ici p.&#160;208</p>
+            </note>
+          </quote>
+          <p xml:id="d1e155">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-hglvocjg">contextualisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-4xzsjttc">chercheur</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-icg5zods">région</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-plnrdjgu">support de
+          conservation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-w5oap9ew">communication</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-qquf8qxp">catalogue</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+          numérique</term>
+              </term>
+            </term>Au <date from="2000" to="2099" type="_temp">21<hi rend="sup">e</hi>&#160;siècle</date>, les
+          bibliothèques ont des missions nouvelles&#160;: en effet, l’utilisation
+          possible de leurs fonds depuis toutes les régions de la planète
+          grâce à la numérisation change la donne pour l’usager et le
+          chercheur. La bibliothèque et les lieux d’exposition ne sont plus
+          soumis aux mêmes contraintes d’horaires et de locaux<note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>Ces frontières ont été surmontées de manière probante en 2011
+              avec le projet d’exposition «&#160;Moving Types – Lettern in
+              Bewegung&#160;». Grâce à des iPads et des codes QR, les exponats
+              pouvaient être rassemblés comme dans autant de médiathèques
+              individuelles, qui rendaient possible l’exposition du
+              Gutenberg-Museum en dehors de ses murs. Le catalogue de
+              l’exposition, avec son «&#160;cinéma incorporé&#160;», a rendu accessibles
+              les exponats devenus «&#160;fluides&#160;». Voir Dringenberg, Ralf&#160;;
+              Ludwig, Annette&#160;; Stöffler, Anja (éd.), <hi rend="italic">Moving
+              Types – Lettern in Bewegung. Eine Retrospektive von den Anfängen
+              des Films bis heute. Medienausstellung</hi>,
+              Neustadt/Weinstraße, 2011 (2<hi rend="sup">e&#160;</hi>éd.&#160;augm. en
+              2013). Voir aussi Ludwig, Annette, «&#160;‘Zeichen unserer Zeit’. Der
+              Einsatz von QR-Codes und iPads am Beispiel des Gutenberg-Museums
+              in Mainz&#160;», in <hi rend="italic">Das Museum der Zukunft – neue
+              Wege, neue Ziele&#160;?! </hi>/ éd.&#160;Barbara Christoph et Günter
+              Dippold, Bayreuth, 2013, p.&#160;95-111.</p>
+            </note>. À côté des livres et de leurs contenus physiques devant
+          être maintenus disponibles sur le long terme, il y a maintenant le
+          numérique pour tout ce qui est du domaine de l’information et de la
+          communication<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>La problématique de la conservation pour ce qui concerne les
+              expositions permanentes au Gutenberg-Museum a été décrite ainsi
+              par Hanebutt-Benz en 2010, avec un regard sur la situation dans
+              tous les musées du livre&#160;: «&#160;[On est] fatalement confronté à la
+              contradiction fondamentale entre un livre en tant qu’artefact,
+              détourné de sa fonction et pas fait pour être ouvert en
+              permanence ni exposé à la lumière. Si on est conséquent avec ses
+              principes de conservation, on ne peut accepter que les
+              expositions temporaires. Mais un musée comme le
+              Gutenberg-Museum, qui a été fondé pour montrer de manière
+              permanente l’histoire de l’imprimerie de la manière la plus
+              complète, ne pourrait fonctionner selon ce principe. En même
+              temps il n’est pas non plus possible, en raison de la nature des
+              fonds, de changer sans cesse les documents les plus
+              exemplaires&#160;: il n’y aurait pas matière suffisante pour
+              traverser ainsi un grand nombre d’années. Ce qui reste à faire,
+              avec un peu de mauvaise conscience, c’est de s’efforcer
+              d’atteindre des conditions d’exposition optimales du point de
+              vue des principes de la conservation&#160;». (Hanebutt-Benz,
+              Eva-Maria, «&#160;Bücher im Gutenberg-Museum – oder Leben mit dem
+              Widerspruch&#160;», op.&#160;cit., p.&#160;99 et suiv.</p>
+            </note>. Il en résulte des possibilités infinies et de nouvelles
+          formes de présentations muséales, intéressantes aussi du point de
+          vue de la conservation&#160;: la numérisation met l’héritage culturel en
+          sécurité, tout en le rendant plus productif et rentable dès lors
+          qu’il est catalogué, contextualisé et archivé de manière pérenne.
+          Elle évite, en les remplaçant, les expositions permanentes d’objets
+          sensibles à la lumière et dont on ne peut contempler en général que
+          la reliure ou une double page, voire une seule page. Elle permet une
+          plus grande visibilité, une approche culturelle plus intense, plus
+          de transparence, et démocratise le savoir comme l’avait déjà fait
+          <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>. Lors des
+          expositions, les réalisations en ligne, encore trop rares au
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>
+          pour des raisons structurelles, permettent une participation active
+          des visiteurs. Ceux-ci peuvent feuilleter, zoomer, aller à la
+          découverte d’éléments précis qu’ils pourront ensuite approfondir,
+          comparer des exemplaires du monde entier puis les télécharger pour
+          leur travail personnel. Les éditions originales fragiles pourront
+          n’être mises à disposition que très exceptionnellement, on évitera
+          les détériorations, on suivra les états de conservation. Une fois
+          numérisés, les images, les films, les textes, la musique et autres
+          pourront être intégrés et utilisés au moment voulu. Des mises en
+          scène «&#160;<foreign xml:lang="eng">multitouch</foreign>&#160;» et des
+          terminaux mobiles permettront leur utilisation directe.</p>
+          <p xml:id="d1e178">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-pbjjwrdy">conceptualisation</term>
+              </term>
+            </term>Mais
+          avec la numérisation, le statut et la valeur des collections
+          change&#160;; elles deviennent des objets de musée. «&#160;Elles perdent
+          malheureusement leur caractère d’instrument, mais leur matérialité
+          gagne en fascination&#160;»<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Assmann, Aleida, <hi rend="italic">Erinnerungsräume. Formen
+              und Wandlungen des kulturellen Gedächtnisses</hi>, München, 4<hi rend="sup">e</hi>&#160;éd.<hi rend="bold"/>&#160;2009, p.&#160;360</p>
+            </note>, a constaté <persName ref="028774922" type="idref" xml:base="https://www.idref.fr/">Aleida Assmann</persName>, dont le
+          diagnostic accompagne la nécessité de veiller au maintien des fonds.
+          Au <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>, où
+          justement les visiteurs s’intéressent à la fonction et à la
+          signification du médium livre dans son processus historique, où ils
+          font connaissance avec l’époque analogique, celle «&#160;du plomb&#160;», et
+          l’expérimentent dans deux ateliers, l’original et son aura
+          continuent de jouer un rôle essentiel. «&#160;Quelqu’un peut demander à
+          connaître réellement les nuances de couleurs des gravures sur
+          cuivre, la qualité haptique du papier ou la consistance de la
+          reliure pour les mettre en rapport avec les textes. Le contenu du
+          livre et sa matérialité font connaître l’instant historico-culturel
+          complexe où l’œuvre fut créée&#160;»<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Knoche, Michael, «&#160;Digital&#160;? Nie ohne das Original. Unsere
+              schriftliche Überlieferung ist in Gefahr. Die Schätze deutscher
+              Bibliotheken können nur gerettet werden, wenn Digitalisierung
+              und Buchrestaurierung Hand in Hand gehen&#160;», in <hi rend="italic">Frankfurter Allgemeine Zeitung</hi>,
+              18.07.2017</p>
+            </note>. Pour celui qui ressent le livre comme un «&#160;porteur
+          tangible de données&#160;»<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>Kaltwasser, Franz Georg, <hi rend="italic">Die Bibliothek als
+              Museum. Von der Renaissance bis heute, dargestellt am Beispiel
+              der Bayerischen Staatsbibliothek</hi>, Wiesbaden, 1999, p.&#160;1</p>
+            </note>, «&#160;il est indispensable d’avoir accès à l’inépuisable
+          potentiel d’évocation que recèle l’original. Il ne peut se
+          satisfaire de la copie dématérialisée qu’en donne le
+          numérique&#160;»<note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Knoche, Michael, «&#160;Digital&#160;?...&#160;», op.&#160;cit.</p>
+            </note>. La numérisation des trésors et des principales pièces
+          exposées ainsi que leur mise à disposition pour l’usager par une
+          stratégie numérique à long terme est l’une des tâches éminemment
+          importantes que se fixe la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          Gutenberg</placeName> pour les prochaines années. Mais étant donné
+          aussi les mesures de restrictions budgétaires, elle ne doit pas
+          oublier la recommandation fondamentale&#160;: «&#160;Veiller à la bonne mise
+          en sécurité de ce qui est numérisé. Ce qui est bien conservé sera
+          numérisé. Le principe est&#160;: pas de conversion sans
+          conservation&#160;»<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>Ibid.</p>
+            </note>.</p>
+          <figure xml:id="d1e213">
+            <head xml:id="d1e214">Vue de la salle de lecture</head>
+            <p xml:id="d1e216">© Gutenberg-Museum, clichés Martina
+            Pipprich</p>
+          </figure>
+        </div>
+        <div type="section1" xml:id="d1e218">
+          <head subtype="level1" xml:id="d1e219">Un monument
+          «&#160;utilisable&#160;»</head>
+          <p xml:id="d1e221">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-uuyfjend">patrimoine
+          matériel</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-hrh7qhzq">mémoire</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+            </term>Créé en <date type="_temp" when="1900">1900</date> suite à l’engagement des
+          citoyens, à l’occasion du cinq-centième anniversaire du plus célèbre
+          fils de la ville de <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>, afin de
+          lui ériger un «&#160;mémorial vivant&#160;»<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Ruppel, Aloys, <hi rend="italic">Denkschrift über den Ausbau
+              des Gutenberg-Museums zum Weltmuseum der Druckkunst</hi>,
+              document dactylographié (Gutenberg-Museum, 37&#160;p.), ici p.&#160;2. Des
+              projets pour ce musée mondial ont maintes fois été publiés. Des
+              monuments de pierre en l’honneur de Gutenberg ont été érigés en
+              1827 (par Joseph Scholl) et en 1837 (par Bertel Thorvaldsen) à
+              Mayence. La statue en pied de Gutenberg, la plus ancienne au
+              monde, celle réalisée en 1827 avec l’appui de la fondation
+              mayençaise «&#160;Casino-Gesellschaft&#160;», a été présentée en 2018 en
+              liaison avec l’exposition jubilaire «&#160;Ohne Zweifel Gutenberg&#160;?
+              Die Erfindung des Buchdrucks in Europa und Asien&#160;» au
+              Gutenberg-Museum. Elle a ensuite été entièrement restaurée.
+              Depuis octobre 2019, elle est exposée au public, conformément à
+              ses souhaits et aux exigences des conservateurs, dans une
+              nouvelle présentation, visible de jour comme de nuit.</p>
+            </note> qui devait aussi être un monument «&#160;utilisable&#160;», le
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>
+          devait réunir l’héritage laissé par son inspirateur, en assurer la
+          conservation, l’étudier et le documenter, l’exposer et le faire
+          connaître –&#160;par conséquent réunir tout ce qui concerne l’histoire
+          européenne de l’imprimerie en caractères mobiles de plomb, inventée
+          en <date type="_temp" when="1450">1450</date> par <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Johannes Gutenberg</persName>, qui
+          révolutionna la communication, répandit et démocratisa le savoir et
+          marqua son siècle, clôturant le <date type="_temp">Moyen-Âge</date>
+          et ouvrant le début de l’époque moderne. Les collections hétérogènes
+          de ce lieu de mémoire, qui furent le socle de l’exposition pour le
+          jubilé de <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>, formées grâce
+          aux dons venus de l’industrie graphique ou de particuliers,
+          trouvèrent une première implantation durable dans le palais des
+          princes-électeurs. Ce lieu de mémoire fut inauguré officiellement le
+          <date type="_temp" when="1901-04-23">23&#160;avril&#160;1901</date>, la veille
+          de la Saint-Jean, saint patron de l’inventeur. Cette institution
+          communale nouvellement créée, le <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée
+          Gutenberg</placeName>, faisait partie de la Bibliothèque municipale
+          de <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>, créée en
+          <date type="_temp" when="1477">1477</date>, elle aussi installée
+          dans ce même palais. Elle garda ce statut durant trente années.</p>
+          <p xml:id="d1e230">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>Des
+          vitrines-tables rectangulaires pour les publications, de hauts
+          éléments muraux remplis de livres, structurant l’espace comprenant
+          des vitrines en bois, le tout surmonté d’une galerie allant jusqu’au
+          plafond (voir ill. ci-dessous), d’innombrables livres présentant
+          leur dos étaient là pour prouver que les promesses faites lors de
+          l’inauguration de <date type="_temp" when="1900">1900</date> avaient
+          été tenues et que la base d’une infrastructure pour la recherche
+          était désormais jetée. Le <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>
+          n’était pas seulement une collection muséale consacrée à
+          l’imprimerie et ouverte au public, il devait aussi comprendre une
+          bibliothèque ouverte à tous et contenant «&#160;en quantité suffisante
+          des ouvrages consacrés à l’imprimerie, à son expansion et à son
+          développement&#160;»<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>
+                <hi rend="italic">Gründungsstatut für das
+              Gutenberg-Museum</hi>, Mayence, 1900, paragraphe&#160;3, cité d’après
+              Geck, Elisabeth, «&#160;Die Gutenberg-Bibliothek&#160;», in <hi rend="italic">Beilage der Allgemeinen Zeitung Mainz zum 500.
+              Todestag Johannes Gutenbergs</hi>, n<hi rend="sup">o</hi>&#160;28,
+              2.2.1968, sans pagination. Sur les débuts du Gutenberg-Museum,
+              voir Hanebutt-Benz, Eva-Maria, «&#160;Das Gutenberg-Museum in der
+              Stadtbibliothek&#160;», in <hi rend="italic">200 Jahre
+              Stadtbibliothek Mainz </hi>/ éd.&#160;Annelen Ottermann et Stephan
+              Fliedner, Wiesbaden, 2005, p.&#160;143-147.</p>
+            </note>.</p>
+          <figure xml:id="d1e248">
+            <head xml:id="d1e249">Les espaces d’exposition du Musée Gutenberg
+            dans le palais des princes-électeurs</head>
+            <p xml:id="d1e251">© Droits réservés. Stadtarchiv Mainz, cote
+            BPSF/5435&#160;A, cliché Johann Kirsch</p>
+          </figure>
+          <p xml:id="d1e253">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>Le
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName> et
+          sa bibliothèque ayant été intégrés dans la bibliothèque municipale,
+          issue elle-même de la Bibliotheca Universitatis Moguntinae (ancienne
+          bibliothèque de l’université) et disposant déjà d’un important fonds
+          ancien, l’ensemble y gagna une position unique&#160;: «&#160;C’est la seule au
+          monde qui soit en possession de tout ce qui a été imprimé concernant
+          <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> et son
+          invention&#160;», peut-on lire dans un hommage publié en <date type="_temp" when="1915">1915</date> dans la revue <hi rend="italic">Deutsche Bauhütte</hi>
+            <note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Vogel, Fr. Rud(olf), «&#160;Die neue Mainzer Stadtbibliothek mit
+              dem Gutenberg-Museum&#160;», in <hi rend="italic">Deutsche
+              Bauhütte</hi>, 1915, p.&#160;73</p>
+            </note>, qui ajoute&#160;: «&#160;Elle est universellement connue pour les
+          trésors qu’elle conserve&#160;»<note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Ibidem. Mais Ruppel avait pu lui-même constater à cette même
+              époque&#160;: «&#160;Un visiteur aurait pu emporter tous les trésors du
+              musée à l’aide d’un simple drap de lit&#160;», cité d’après Schütz,
+              Friedrich, «&#160;<hi rend="italic">Aloys Ruppel. </hi>
+                <hi rend="italic">Leben und Werk&#160;</hi>», Mayence, 1982, p.&#160;69 (<hi rend="italic">Kleiner Druck der Gutenberg-Gesellschaft</hi>,
+              n<hi rend="sup">o</hi>&#160;100).</p>
+            </note>. Il était donc logique à bien des égards que le bâtiment
+          destiné à la bibliothèque avec ses salles destinées tant à celle-ci
+          qu’au musée, construit en <date type="_temp" when="1912">1912</date>
+          par <persName type="_temp">Adolf Gelius</persName> (<date from="1863" to="1945" type="_temp">1863-1945</date>) tout près du
+          château, au n<hi rend="sup">o</hi>&#160;3B de la Rheinallee, se voie orné
+          d’une manière parlante d’un médaillon représentant la tête de
+          l’inventeur, de son blason et d’un échantillon de ses
+          caractères.</p>
+          <p xml:id="d1e282">La définition des objectifs de l’organisme, les
+          modalités d’accès à la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          Gutenberg</placeName> se précisèrent progressivement. Son statut
+          d’autonomie, en tant que bibliothèque spécialisée, ne sera
+          finalement acquis qu’en <date type="_temp" when="1962">1962</date>,
+          lors de son installation dans un nouveau bâtiment du
+          Liebfrauenplatz. Dès l’origine, en lui fixant «&#160;des règles sur la
+          façon de travailler, qui certes ne purent pas toujours être
+          respectées&#160;»<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>Geck, Elisabeth, «&#160;Die Gutenberg-Bibliothek&#160;», op.&#160;cit.</p>
+            </note>, on lui reconnut sa double fonction et se mit en place un
+          système qui est toujours d’actualité&#160;:</p>
+          <quote rend="quotation" xml:id="d1e287">
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-g4hcjbnn">revue</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>Les
+          fonds étaient classés, selon qu’il s’agissait de livres ou de
+          périodiques qui allaient servir à la recherche ou à l’information,
+          ou de pièces qui devaient être exposées pour raconter l’histoire de
+          l’objet livre […] On trouve encore dans plus d’un volume des
+          remarques catalographiques de cette époque.<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>Ibid.</p>
+            </note>
+          </quote>
+          <p xml:id="d1e291">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-unufqjx4">financement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-hyytz8nn">économie des
+          savoirs<term ref="doi:10.34817/sv-mublpqmd">achat</term>
+              </term>
+            </term>Des achats
+          réguliers que permettait son propre budget grâce au «&#160;fonds spécial
+          pour le <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée
+          Gutenberg</placeName>&#160;»<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>Ibid.</p>
+            </note>, des dons en argent ou en nature et d’autres contributions
+          financières permirent d’augmenter les collections de la
+          bibliothèque. Alors qu’en <date from="1923" to="1924" type="_temp">1923/1924</date>, années d’inflation, on enregistra
+          sous la rubrique «&#160;achats divers de livres&#160;» 41&#160;volumes et
+          43&#160;brochures, il y en eut en <date from="1924" to="1925" type="_temp">1924/1925</date> respectivement 406 et 356 (pour
+          6&#160;321,20&#160;Reichsmarks)&#160;; en <date from="1925" to="1926" type="_temp">1925/1926</date>, 862 et 686 (pour 13&#160;870,39&#160;RM)&#160;; en
+          <date from="1926" to="1927" type="_temp">1926/1927</date>, 460 et
+          473 (pour 7&#160;670,70&#160;RM)<note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>Ibid.</p>
+            </note>. Ce bilan témoigne d’un bon soutien financier de la part
+          de la municipalité.</p>
+          <p xml:id="d1e299">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-rl3g4cn3">pédagogie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-vjftyzgc">patrimonialisation</term>
+              </term>
+            </term>À
+          l’occasion du 25<hi rend="sup">e</hi>&#160;anniversaire du <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>, de
+          grands progrès vers l’objectif visé furent réalisés. Les fonds de
+          livres purent être installés dans la bibliothèque municipale, et le
+          local initial réaménagé pour accueillir un atelier <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> reconstitué.
+          Cinquante ans avant l’entrée de la pédagogie dans les musées
+          allemands, on pouvait voir de près, sur une presse de <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> reconstruite à
+          l’identique, comment fonctionnait la mise en place des caractères et
+          l’impression. <persName ref="035041382" type="idref" xml:base="https://www.idref.fr/">Aloys Ruppel</persName> (<date from="1882" to="1977" type="_temp">1882-1977</date>)<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>Sur Ruppel, voir Ludwig, Annette, «&#160;Aloys Leonhard Ruppel –
+              Direktor mult., stellvertretender Vorsitzender und Ehrenmitglied
+              des Mainzer Altertumsvereins&#160;», in&#160;Dobras, Wolfgang&#160;(éd.), <hi rend="italic">Eine Zeitreise in 175 Geschichten. </hi>
+                <hi rend="italic">Der Mainzer Altertumsverein 1844-2019</hi>,
+              Mayence, 2019. Ruppel a été suspendu de ses activités en 1934
+              par les nazis, puis réintégré de 1943 à 1950 et a présidé au
+              Gutenberg-Museum jusqu’en 1962.</p>
+            </note>, qui exerçait depuis <date type="_temp" when="1920">1920</date> à la fois les fonctions de directeur de la
+          bibliothèque et des archives municipales, du <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée
+          Gutenberg</placeName>, du Cabinet numismatique de la ville et de la
+          «&#160;Halle de lecture&#160;», et qui était aussi à la tête de la Société
+          internationale <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> (<foreign xml:lang="deu">Internationale Gutenberg-Gesellschaft</foreign>), a
+          eu un succès mondial par les démonstrations qu’il effectuait sur les
+          presses mêmes en guise d’introduction à la visite du musée. Il plaça
+          très haut les exigences de ce dernier durant les quarante-deux
+          années de sa direction. Il réussit à faire revenir le second volume
+          d’une Bible de <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> (exemplaire
+          <persName type="_temp">Solms-Laubach</persName>) à l’endroit qui
+          l’avait vu naître, et fut à l’origine de bien d’autres acquisitions,
+          comme des imprimés de <persName ref="034949216" type="idref" xml:base="https://www.idref.fr/">Schöffer</persName> ou la première
+          édition du <hi rend="italic">Theuerdank</hi>. Ce conservateur était
+          d’avis que le fait d’être intégré à la bibliothèque municipale était
+          un handicap pour le musée car le fonctionnement de la bibliothèque,
+          en plein développement, accaparait toutes les forces du personnel
+          qui leur était commun et par ailleurs insuffisant, «&#160;si bien que le
+          prestige de la bibliothèque grandissait alors que le musée vivotait
+          péniblement&#160;»<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Ruppel, Aloys, «&#160;50 Jahre Mainzer Gutenberg-Museum&#160;», in <hi rend="italic">Gutenberg-Jahrbuch</hi>, 1950, p.&#160;430-437, ici
+              p.&#160;432</p>
+            </note>. Il rêvait donc d’autonomie, d’expansion,
+          d’internationalisation, d’un musée qui ne se contenterait pas de
+          graviter essentiellement autour de <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>,
+          mais qui s’occuperait de cette «&#160;magie noire telle qu’elle est
+          arrivée jusqu’à nous, en montrant également des outils et des
+          travaux plus actuels&#160;»<note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>Ruppel, A(loys), «&#160;Vorwort&#160;», in <hi rend="italic">Gutenberg-Festschrift zur Feier des 25&#160;jährigen
+              Bestehens des Gutenbergmuseums in Mainz </hi>/ éd.&#160;A(loys)
+              Ruppel, Mayence, 1925, non paginé</p>
+            </note>.</p>
+          <p xml:id="d1e330">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-8mpceijw">publication</term>
+              </term>
+            </term>
+            <persName ref="035041382" type="idref" xml:base="https://www.idref.fr/">Ruppel</persName> sut gagner à sa
+          cause 78&#160;contributeurs aux noms connus et veilla à la parution d’un
+          important volume d’hommages<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Ruppel, A(loys), <hi rend="italic">Gutenberg-Festschrift</hi>, op.&#160;cit.</p>
+            </note> largement diffusé, qui fut la première pierre de la revue
+          annuelle <hi rend="italic">Gutenberg-Jahrbuch. </hi>En <date type="_temp" when="1927-05">mai 1927</date>, les chercheurs
+          travaillant sur <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> purent trouver
+          dans l’hôtel patricien «&#160;<foreign xml:lang="deu">Zum Römischen
+          Kaiser</foreign>&#160;» des locaux qui leur étaient destinés, et en <date type="_temp" when="1933">1933</date>, des «&#160;salons d’honneur
+          <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>&#160;»
+          officiellement inaugurés. «&#160;Plus de 12&#160;000&#160;visiteurs annuels&#160;»<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Ruppel, Aloys, <hi rend="italic">Denkschrift über den
+              Ausbau</hi>, op.&#160;cit., p.&#160;35</p>
+            </note> firent envisager sérieusement un agrandissement en
+          englobant la maison patricienne voisine («&#160;<foreign xml:lang="deu">Zum König von England</foreign>&#160;»). Ruppel toutefois
+          voyait venir le cinq-centième anniversaire de l’invention de
+          l’imprimerie, qui devait être célébré en <date type="_temp" when="1940">1940</date> avec un gigantesque «&#160;Musée mondial de
+          l’imprimerie&#160;». Mais au lieu du «&#160;<foreign xml:lang="deu">Zentralmuseum</foreign>&#160;»<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Ibid., p.&#160;31. Ruppel voyait ce «&#160;Musée mondial&#160;» comme «&#160;le
+              plus beau des monuments pour la paix&#160;» (ibid.).</p>
+            </note> projeté dans la caserne Alice sur le Bismarckplatz et ses
+          1&#160;500&#160;salles, lequel devait comporter une «&#160;Bibliothèque centrale de
+          l’imprimerie&#160;»<note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>Ibid., p.&#160;32. Ruppel projetait quant à lui d’installer la
+              bibliothèque dans un «&#160;plus petit bâtiment du boulevard
+              Barberousse à côté du Casino des officiers, dans lequel
+              l’administration et les locaux techniques devraient également
+              être installés&#160;» (ibid.). Sur l’attribution de personnel au
+              musée et à la bibliothèque, voir ibid., p.&#160;33 et suiv.</p>
+            </note>, la <date from="1939-09-01" to="1945-09-02" type="_temp">Seconde Guerre mondiale</date> entraîna la cessation
+          totale des activités muséales, l’évacuation des collections (en
+          <date type="_temp" when="1939">1939</date>) et la destruction d’une
+          grande partie du bâtiment (en <date type="_temp" when="1945">1945</date>). Après cette date, les fonds furent
+          réinstallés dans la bibliothèque municipale. <persName ref="035041382" type="idref" xml:base="https://www.idref.fr/">Ruppel</persName> reprit ses
+          activités d’<date type="_temp">avant-guerre</date>, avec toujours en
+          tête un <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>
+          indépendant<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>En 1950, le musée reçut à nouveau le statut d’institution
+              municipale.</p>
+            </note>, tant comme institution qu’en ce qui concernerait
+          l’implantation immobilière. En <date type="_temp" when="1957">1957</date>, désormais titulaire de la chaire <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName> à l’Université
+          Johannes-Gutenberg de nouveau ouverte, <persName ref="035041382" type="idref" xml:base="https://www.idref.fr/">Ruppel</persName>
+          déclencha une «&#160;collecte pour la reconstruction du musée&#160;». Nommé
+          citoyen d’honneur de la ville de <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>, il
+          s’installa avec sa bibliothèque dans le «&#160;<foreign xml:lang="deu">Römischer Kaiser</foreign>&#160;» reconstruit et couronna
+          son œuvre lors du bi-millénaire de la ville de <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>, le <date type="_temp" when="1962-06-24">24&#160;juin&#160;1962</date>, avec
+          l’inauguration du <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>
+          dans un bâtiment muséal tout neuf qui comptait parmi les «&#160;bâtiments
+          de musée les plus modernes d’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>&#160;»<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>Presser, Helmut, <hi rend="italic">Gutenberg-Museum Mainz.
+              Weltmuseum der Druckkunst</hi>, Munich, 1963, p. XXIV</p>
+            </note>.</p>
+          <figure xml:id="d1e366">
+            <head xml:id="d1e367">Le «&#160;vieux&#160;» catalogue relié, encapsulé
+            («&#160;Kapselkatalog&#160;»), avatar du catalogue sur fiches</head>
+            <p xml:id="d1e369">© Gutenberg-Museum, clichés Martina
+            Pipprich</p>
+          </figure>
+          <p xml:id="d1e372">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>Une
+          fois installé dans le «&#160;<foreign xml:lang="deu">Schell-Bau</foreign>&#160;» (du nom de son architecte), le
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">musée-bibliothèque
+          Gutenberg</placeName> devint définitivement autonome. Les
+          incunables, tout en restant propriété de la bibliothèque municipale,
+          furent prêtés sur le long terme au <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée
+          Gutenberg</placeName>, et les livres devinrent la propriété de ce
+          dernier. «&#160;On dut procéder péniblement à l’extraction des fiches des
+          catalogues alphabétiques généraux de la bibliothèque municipale. Le
+          catalogue systématique était, lui, tenu par le <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>
+          lui-même&#160;: il n’y en avait à la bibliothèque municipale qu’un double
+          incomplet&#160;»<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>Geck, Elisabeth, «&#160;Die Gutenberg-Bibliothek&#160;», op.&#160;cit.</p>
+            </note>. Jusque dans les <date from="1990" to="1999" type="_temp">années 1990</date>, on tint à jour au musée les
+          différents catalogues sur fiches (voir ill. ci-dessus). Les
+          successeurs de <persName ref="035041382" type="idref" xml:base="https://www.idref.fr/">Ruppel</persName>, <persName ref="097935786" type="idref" xml:base="https://www.idref.fr/">Helmut
+          Presser</persName> (<date from="1914" to="1997" type="_temp">1914-1997</date>), <persName ref="05266659X" type="idref" xml:base="https://www.idref.fr/">Hans-Adolf
+          Halbey</persName> (<date from="1992" to="2003" type="_temp">1922-2003</date>, qui put acquérir aux <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, en
+          <date type="_temp" when="1978">1978</date>, une B42 intégrale),
+          <persName ref="028087054" type="idref" xml:base="https://www.idref.fr/">Eva-Maria Hanebutt-Benz</persName>
+          (*<date type="_temp" when="1947">1947</date>) et nous-même avons
+          œuvré pour enrichir notre collection dans tous les domaines,
+          collection dont l’organisation nouvelle a signifié, depuis la fin
+          des <date from="1970" to="1979" type="_temp">années 1970</date>, un
+          changement de paradigme<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>Ne prenons ici qu’un exemple significatif. Le musée a été
+              «&#160;pendant des décennies dirigé par des bibliothécaires ou des
+              archivistes sans formation spécifique de muséologie. Alors que
+              les fonds de livres ont été inventoriés et catalogués dès
+              l’origine dans les règles de l’art par le personnel de
+              bibliothèque, il n’y eut aucun traitement significatif pour les
+              objets d’une autre nature comme les presses, les outils d’arts
+              graphiques, les caractères d’imprimerie, etc. Une longue
+              opération de rétro-inventaire a alors été entreprise, qui est
+              aujourd’hui bien avancée mais non encore achevée&#160;», citation
+              d’après Hanebutt-Benz, Eva-Maria, «&#160;Das Gutenberg-Museum in
+              Mainz&#160;», op.&#160;cit., p.&#160;987 et suiv.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e380">
+          <head subtype="level1" xml:id="d1e381">Nouvelles perspectives pour
+          le Musée Gutenberg</head>
+          <p xml:id="d1e383">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Dans
+          un endroit consacré à la culture du livre, l’écrit est le fondement
+          même du travail de musée et de bibliothèque. Il est à la base d’une
+          pratique d’expositions ancrée depuis <date type="_temp" when="1962">1962</date> dans le bâtiment muséal, et depuis l’«&#160;année
+          <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>&#160;» <date type="_temp" when="2000">2000</date>, dans le bâtiment qui s’est
+          rajouté à la structure, et qui fonctionne autour d’une exposition
+          permanente se déployant sur 3&#160;000&#160;m<hi rend="sup">2</hi>, à laquelle
+          chaque année s’ajoutent jusqu’à huit expositions temporaires qui
+          puisent dans des collections particulières et s’intéressent à des
+          œuvres singulières. Celles-ci, une fois étudiées, sont
+          contextualisées et présentées à environ 140&#160;000&#160;visiteurs par an,
+          venus du monde entier (voir ill. ci-dessous).</p>
+          <figure xml:id="d1e388">
+            <head xml:id="d1e389">Exemple de présentation lors de l’exposition
+            FUTURA. DIE SCHRIFT (2017)</head>
+            <p xml:id="d1e391">© Gutenberg-Museum, clichés Bernd Eßling</p>
+          </figure>
+          <p xml:id="d1e393">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-eeqgftst">exposition</term>
+                </term>
+              </term>
+            </term>Cette
+          combinaison d’expositions permanentes et temporaires montre le
+          potentiel quasiment inépuisable, la richesse et l’abondance des
+          thèmes que peut suggérer le fonds du musée et celui de la
+          bibliothèque&#160;; elle montre aussi l’insuffisance de ses locaux
+          actuels et l’urgence d’un nouvel aménagement. Depuis notre prise de
+          fonctions en <date type="_temp" when="2010">2010</date>, nous
+          cherchons à faire avancer le concept d’un «&#160;musée du futur&#160;», avec
+          l’aide d’une petite équipe de collaborateurs. Notre réflexion se
+          base sur une idée directrice issue d’une analyse générale de
+          l’existant&#160;: on ne procédera plus par secteurs ou par approche
+          chronologique, mais on ira plutôt vers une mise en scène à caractère
+          variable, avec des thèmes centraux, des associations originales et
+          des chemins de découverte<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>On peut prendre connaissance de ce concept, élaboré depuis
+              2013 en collaboration avec l’atelier Brückner de Stuttgart, par
+              le lien&#160;:
+              http://www.gutenberg.de/inhaltliche-neuausrichtung-gutenberg-museum.php
+              [nde&#160;: lien mort en 2022]</p>
+            </note>. Toujours autour de <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Johannes Gutenberg</persName>, de
+          son invention, de son œuvre et de ses répercussions, et en
+          s’appuyant sur cinq grandes thématiques (intitulées «&#160;technologie&#160;»,
+          «&#160;esthétique&#160;», «&#160;communication&#160;», «&#160;économie&#160;», «&#160;chronologie&#160;»),
+          on racontera l’histoire des médias jusqu’à l’ère du numérique. Des
+          objets exposés, particulièrement significatifs et qui, à l’occasion
+          d’un récolement ou d’une reclassification des fonds faits dans la
+          perspective globale d’un «&#160;musée du futur&#160;», seront répertoriés et
+          en partie recatalogués, deviendront autant de repères dans
+          l’histoire de l’écrit, de l’imprimerie, du livre et des médias, si
+          bien que mis en scène, ils se feront porteurs d’histoires et
+          transformeront une maison remplie de livres muets en un lieu
+          d’histoires vivantes. Les récits associeront le transnational et le
+          transculturel à partir de points de vue multiples et seront comme un
+          pont reliant les fonds anciens, manuscrits et incunables, aux
+          imprimés contemporains, montrant le caractère durable de cette
+          culture et son intérêt pour un travail muséal au <date from="2000" to="2099" type="_temp">21<hi rend="sup">e</hi>&#160;siècle</date>. Ce
+          qu’a accompli <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>, «&#160;l’homme du
+          millénaire&#160;», ainsi que le rôle passé, présent et futur de la ville
+          de <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName> en tant que
+          berceau européen du livre imprimé, voilà ce qu’il faut faire voir à
+          tous les publics que nous ciblons –&#160;faisant également de notre musée
+          un forum axé sur l’évolution actuelle des médias et toutes les
+          questions qui s’y rapportent.</p>
+          <p xml:id="d1e401">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-xiqleu5l">sciences de l’art<term ref="doi:10.34817/sv-jgxxkdpt">arts
+          plastiques</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-rwze3ga3">support de communication<term ref="doi:10.34817/sv-8rsdreyt">journal</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-g4hcjbnn">revue</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-sdqfysab">intellectuel</term>
+              </term>
+            </term>Une
+          des pierres angulaires de ce nouveau concept de musée est la
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          Gutenberg</placeName> qui doit s’ouvrir, en tant que «&#160;salon de
+          lecture&#160;», à un vaste public. Elle sera le cœur intellectuel du
+          musée, un espace de liberté totale où l’on aura envie de s’attarder,
+          qu’on soit usager averti ou simple hôte de passage. Que ces usagers
+          y utilisent les usuels, des livres, des revues ou des journaux,
+          qu’ils y feuillettent les catalogues, y étudient des originaux mis à
+          disposition ou encore y consultent d’autres médias, qu’ils y
+          communiquent avec des collègues du monde entier ou qu’ils y mènent
+          des recherches sur les banques de données et les portails en ligne,
+          le stock d’informations disponible mis à la disposition du chercheur
+          avide, la salle de lecture pour le flâneur, l’infothèque pour les
+          amis des arts graphiques, de la typographie et du design seront
+          ouverts à tous. Le «&#160;salon de lecture&#160;», lieu de rencontre, sera le
+          «&#160;tiers lieu&#160;» animé et recherché que deviennent les bibliothèques
+          depuis un certain temps déjà, et que les musées et leurs
+          bibliothèques devraient prendre pour exemple.</p>
+          <p xml:id="d1e403">Quand elle sera devenue ce «&#160;tiers lieu&#160;», la
+          bibliothèque permettra la recherche, la réflexion, la récréation, et
+          en même temps proposera assistance et services. En outre, dans notre
+          société plurielle et de plus en plus mobile, elle offrira un point
+          d’ancrage «&#160;car s’il est un lieu dans lequel se reflète notre
+          société avec toutes ses valeurs et ses contradictions, et où nous
+          avons la liberté de choisir ce qui nous intéresse dans tout ce qui
+          est mis à notre portée sans avoir à craindre d’être enregistré
+          partout comme le fait Internet, c’est bien celui-ci. Faire en sorte
+          que ce type de lieux ne quitte pas le centre des villes, hors des
+          quartiers élégants, est difficile et coûteux. Mais le prix à payer
+          serait encore plus important si finalement nous y renoncions. C’est
+          là que la notion de ‘société parallèle’ prendrait tout son
+          sens&#160;»<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>Spreckelsen, Tilman, «&#160;Diese Institutionen sind Spiegel
+              unserer Gesellschaft. Zu Büchern findet man nicht von allein&#160;:
+              Leseförderung ohne die öffentlichen Bibliotheken ist Unsinn&#160;»,
+              in <hi rend="italic">FAZ</hi>, 12.06.2018</p>
+            </note>.</p>
+          <p xml:id="d1e412">Certes, la première tranche de travaux pour le
+          nouveau <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>,
+          projet décidé par la municipalité et dont le concours, lancé en
+          <date type="_temp" when="2015">2015</date> au niveau européen, fut
+          gagné par le bureau hambourgeois <foreign xml:lang="deu">DFZ
+          Architekten</foreign> (avec le projet d’une «&#160;Tour de Bible&#160;»
+          revêtue de caractères d’imprimerie) est entrée dans les annales car
+          elle fut stoppée en <date type="_temp" when="2018">2018</date>,
+          année du 550<hi rend="sup">e</hi>&#160;anniversaire de la mort de
+          <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>, par un
+          référendum organisé auprès des habitants de <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName> après de
+          fortes résistances de la part de la population, alors que les
+          travaux étaient déjà entrés dans leur phase&#160;5. Malgré tout, un
+          consensus global s’est fait jour pour la construction d’un «&#160;nouveau
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>&#160;».
+          Désormais, sous l’égide du maire, se mettent en place les grandes
+          lignes d’une participation citoyenne au projet. De plus, une
+          «&#160;association participative <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Musée Gutenberg</placeName>&#160;»,
+          dont font partie les représentants des deux «&#160;initiatives
+          citoyennes&#160;» évoquées, laisse espérer la tenue d’un prochain
+          concours d’architectes. Le contenu du concept initial reste
+          inchangé. Car pour le non-initié aussi il demeure évident, après ce
+          premier échec et suite à toute la réflexion menée depuis, que non
+          seulement la manière de présenter les objets et de les faire
+          connaître sera sujette à de constantes évolutions sur lesquelles il
+          faudra réfléchir et travailler à l’échelle décennale au moins, ce
+          qui donnera lieu à des renouvellements et changements, mais aussi
+          que la manière de regarder et d’appréhender de la part des
+          «&#160;utilisateurs&#160;» et ce qu’ils attendront de nos institutions
+          culturelles évolueront. Chaque génération a sa façon d’approcher les
+          collections et pose des questions qui demandent des réponses
+          appropriées&#160;: participation culturelle, inclusion, interaction sont
+          constitutives du musée du <date from="2000" to="2099" type="_temp">21<hi rend="sup">e</hi>&#160;siècle</date>.</p>
+          <figure xml:id="d1e420">
+            <head xml:id="d1e421">Le fonds de livres&#160;: environ
+            91&#160;000&#160;volumes</head>
+            <p xml:id="d1e423">© Gutenberg-Museum, clichés Martina
+            Pipprich</p>
+          </figure>
+          <p xml:id="d1e425">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Avec
+          ce coup d’arrêt architectural, la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          Gutenberg</placeName> se trouve dans la situation qu’a bien
+          identifiée en <date type="_temp" when="2017">2017</date> le
+          directeur de la Bibliothèque universitaire de <placeName ref="6548737" type="geonames" xml:base="https://www.geonames.org/">Leipzig</placeName> comme
+          «&#160;principal problème de perception&#160;» des bibliothèques actuelles&#160;:
+          «&#160;Elles fonctionnent comme des réservoirs d’écrits, et non comme des
+          lieux de transmission. Et cependant un simple regard sur le <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date> montre que les bibliothèques en tant
+          qu’institutions publiques ont eu ce double rôle, qui est de
+          conserver la culture écrite mais aussi de la mettre à la disposition
+          dans la mesure du possible. Les bibliothèques modernes sont depuis
+          cette époque des institutions qui répondent à la demande&#160;»<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>Schneider, Ulrich Johannes, «&#160;Der Lesesaal ist ein Tor zur
+              Welt. Wenn Schriften digital verfügbar werden, müssen sich
+              Bibliotheken Gedanken über ihre besondere Aufgabe machen. Neu
+              erfinden müssen sie sich nicht&#160;», in&#160;<hi rend="italic">FAZ</hi>,
+              30.05.2017</p>
+            </note>. <persName ref="030846633" type="idref" xml:base="https://www.idref.fr/">Ulrich Johannes
+          Schneider</persName> en conclut que cette double fonction
+          consiste&#160;:</p>
+          <quote rend="quotation" xml:id="d1e437">à faire en sorte que les
+          fonds puissent être utilisés, tout en étant conservés en tant que
+          bien culturel et donc entretenus, soignés et rendus accessibles. À
+          notre époque numérique, cela entraîne un surplus de travail –
+          certains diront un surplus de risques […] La mutation médiatique
+          dans la culture écrite est ressentie comme une agression vis-à-vis
+          de l’institution bibliothèque. Bien évidemment, il y a des
+          évolutions dans le travail en bibliothèque, dans et en-dehors des
+          salles de lecture. Toutefois le travail concret, depuis le <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, ne concerne pas seulement les
+          magasins et la gestion du fonds de livres [voir ill. ci-dessus],
+          mais aussi la transmission du savoir offert à la curiosité générale
+          et professionnelle. Une bibliothèque moderne doit être ouverte et
+          accessible. Idéalement, elle devrait correspondre aux souhaits de
+          ses usagers, car ce sont eux qui par leur intérêt et leur demande la
+          maintiennent en vie.<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>Ibid.</p>
+            </note>
+          </quote>
+          <p xml:id="d1e444">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-zmj9qpgl">base de
+          données</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Par
+          rapport aux souhaits de ses usagers, la <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          Gutenberg</placeName>, qui ne dispose que d’un personnel de deux
+          demi-postes pour la bibliothèque et d’un emploi de surveillant pour
+          la salle de lecture, alors qu’elle fonctionne aussi en tant que
+          service d’archives, a pu satisfaire au début de <date type="_temp" when="2019">2019</date> à une demande qui devenait pressante.
+          Jusque-là, elle n’était rattachée en effet à aucun réseau de
+          bibliothèques, même si ses fonds avaient été informatisés et
+          intégrés dans la base ALLEGRO dès <date type="_temp" when="1996">1996</date>, et que tous ses catalogues sur fiches
+          avaient été numérisés en <date type="_temp" when="2005">2005</date>,
+          puis traités par reconnaissance optique de caractères pour être
+          intégrés dans la base de données et dans l’OPAC du catalogue des
+          bibliothèques spécialisées de <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName>
+            <note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>Gutenberg-Museum, Naturhistorisches Museum, Stadtarchiv,
+              Peter-Cornelius-Konservatorium.</p>
+            </note>. Avec l’aide de la bibliothèque municipale qui fournit une
+          assistance plus que généreuse, en tant qu’ancienne maison-mère, les
+          60&#160;000&#160;notices d’ALLEGRO ont pu être intégrées à partir de <date type="_temp" when="2017">2017</date> au réseau HeBIS. Il a fallu
+          pour cela consulter de nombreux catalogues sur fiches non encore
+          exploitables informatiquement, et saisir manuellement les données du
+          fonds de périodiques. Une fois terminé ce gigantesque transfert de
+          données, il s’avère que ce nouveau catalogue électronique<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>Catalogue en ligne de la Bibliothèque Gutenberg&#160;: voir <ref target="http://www.gutenberg-museum.de/">
+                  <hi rend="underline">http://www.gutenberg-museum.de/</hi>
+                </ref> (rubriques Einrichtungen – Bibliothek –
+              Online-Katalog). À l’heure actuelle, le fonds de la bibliothèque
+              est en augmentation grâce à des achats, des dons, des échanges
+              et des exemplaires du dépôt légal à hauteur d’en moyenne
+              750&#160;volumes par an.</p>
+            </note> trouve un public bien plus nombreux et international en
+          ligne, mais fait également venir des visiteurs bien réels. Car cette
+          <placeName ref="_temp" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          Gutenberg</placeName> avec son réseau désormais planétaire,
+          exploitable à distance et bien visible, a gardé toute son aura&#160;:
+          elle est désormais un «&#160;forum analogique&#160;» dans un monde
+          numérique.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

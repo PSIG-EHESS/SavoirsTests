@@ -1,0 +1,779 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-11-05T20:14:27.723+01:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="BNU_25_Huot-Marchand.xml">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La recherche par le dessin à l’Atelier national de
+        recherche typographique de Nancy</title>
+        <author role="aut">
+          <forename>Thomas</forename>
+          <surname>Huot-Marchand</surname>
+          <idno type="IDREF">193045729</idno>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/WN8EIUDJ" type="journalArticle" xml:lang="fre">
+          <analytic>
+            <title level="a">La recherche par le dessin à l’Atelier national
+            de recherche typographique de Nancy</title>
+            <idno type="DOI">10.4000/rbnu.3983</idno>
+            <author>
+              <forename>Thomas</forename>
+              <surname>Huot-Marchand</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">La Revue de la BNU</title>
+            <idno type="ISSN">2109-2761</idno>
+            <imprint>
+              <biblScope unit="issue">25</biblScope>
+              <biblScope unit="page">60-69</biblScope>
+              <date>2022</date>
+              <note type="accessed">2022-07-22T08:35:51Z</note>
+              <note type="url">https://journals.openedition.org/rbnu/3983</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="eng"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass/>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-v6afogym">lettre</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>
+          </term>
+          <term>
+            <placeName ref="2990999" type="geonames" xml:base="https://www.geonames.org/">Nancy</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="1960" to="2021" type="_temp">de 1960 à 2021</date>
+          </term>
+          <term>
+            <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2022-06-28T13:02:00" who="Microsoft Office User">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart style="T_3_Article" type="main">La recherche par le
+          dessin à l’Atelier national de recherche typographique de
+          Nancy</titlePart>
+        </docTitle>
+        <docAuthor style="txt_auteur">Thomas Huot-Marchand</docAuthor>
+        <byline style="auteur_Institution">
+          <affiliation xml:id="aff01">Directeur de l’ANRT</affiliation>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e50">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-v6afogym">lettre</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>Créer des
+        caractères typographiques a, pendant des siècles, été le privilège de
+        quelques rares personnes. Graver des poinçons requiert patience et
+        habileté, de même qu’un savoir-faire très spécifique pour donner forme
+        aux caractères. Il s’agit en effet de leur donner une forme cohérente,
+        harmonieuse en termes de style, de chasse ou de graisse, et un
+        espacement régulier. Il s’agit aussi, parfois, d’étoffer la casse pour
+        répondre à des besoins d’édition, dans d’autres écritures ou dans
+        d’autres registres<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>La chasse désigne la largeur des lettres (étroites ou larges),
+            la graisse l’épaisseur des traits (gras ou maigre, ou encore bold,
+            light…). La casse est le tiroir, composé de plusieurs cases, où
+            sont rangés les caractères de plomb. Par extension, il désigne
+            l’ensemble des signes contenus dans un caractère typographique, et
+            leur type&#160;: capitales (ou «&#160;uppercase&#160;»), ou bas de casse
+            («&#160;lowercase&#160;») pour les minuscules, qui étaient rangées dans la
+            partie inférieure.</p>
+          </note>. Un graveur expérimenté est en mesure de produire une
+        poignée de poinçons d’acier par jour, selon leur degré de complexité.
+        Ces poinçons vont servir à frapper les matrices, lesquelles
+        permettront de produire les caractères proprement dit, dans un alliage
+        majoritairement composé de plomb. Ce processus est resté le même du
+        <date from="1400" to="1899" type="_temp">15<hi rend="sup">e</hi>&#160;au
+        19<hi rend="sup">e</hi>&#160;siècle</date>&#160;: le poinçon en est l’élément le
+        plus précieux, qui peut ensuite être multiplié indéfiniment. Le métier
+        de graveur de poinçons est rare et exigeant, et souvent entouré de
+        mystère&#160;: sur plus de cinq siècles et dans le monde entier,
+        l’historien <persName ref="028558596" type="idref" xml:base="https://www.idref.fr/">James Mosley</persName>
+          <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>James Mosley, <hi rend="italic">A Dictionary of Punchcutters
+            for Printing Types</hi>, London, 1999</p>
+          </note> n’en dénombre que cinq cents, dont un tiers en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>.</p>
+        <figure xml:id="d1e68">
+          <graphic url="https://didomena.ehess.fr/downloads/w0892k53v.jpg"/>
+          <head xml:id="d1e69">Figure 1. <hi rend="italic">Gotico-Antiqua,
+          Proto-Romain, Hybride. Caractères du XV</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">&#160;siècle entre gothique et
+          romain. Coédition ENSAD Nancy / Poem / Les Presses du réel, 2021,
+          498&#160;p. Cet ouvrage fait la synthèse d’un programme de recherche mené
+          par l’ANRT entre 2016 et 2020, et réunit les actes du colloque et le
+          catalogue de l’exposition organisés par l’ANRT à l’ENSAD de Nancy
+          en&#160;2019. ©&#160;Jérôme Knebusch / Poem - ANRT.</hi>
+          </head>
+        </figure>
+        <p xml:id="d1e80">
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-v6afogym">lettre</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-h3wwz88g">texte</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-xrw7acj4">histoire du
+        livre</term>
+                </term>
+              </term>
+            </term>
+          </term>On ignore si, dans les
+        premiers siècles de l’histoire du livre imprimé, les caractères sont
+        gravés d’après un dessin préliminaire. Mais c’est très peu probable,
+        compte tenu de la spécificité de cette pratique. Les poinçons doivent
+        être produits dans chaque corps de texte, et selon sa taille, un même
+        caractère peut prendre des formes très différentes<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Ces corps optiques répondent à des contraintes à la fois
+            optiques et techniques&#160;: pour pouvoir lire et imprimer
+            correctement de petits corps, par exemple, les caractères sont en
+            général taillés plus larges, plus espacés et moins contrastés.</p>
+          </note>.</p>
+        <p xml:id="d1e85">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-vukhhput">matériau<term ref="doi:10.34817/sv-xanfbfny">métal</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre<term ref="doi:10.34817/sv-5x5ypjpb">féminin</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-dujlzfqq">dessin</term>
+              </term>
+            </term>
+          </term>Ce
+        savoir-faire, essentiellement empirique, va progressivement
+        disparaître à la fin du <date from="1800" to="1899" type="_temp">19<hi rend="sup">e</hi>&#160;siècle</date>, avec la généralisation de l’emploi du
+        pantographe et de l’électrolyse. Toutes les tailles sont alors
+        obtenues à partir d’un gabarit unique, ce qui accélère
+        considérablement le processus. La typographie est devenue
+        industrielle, et la création de caractères se déplace vers la table à
+        dessin. Les nouveaux alphabets s’élaborent dans les fonderies&#160;: aux
+        côtés des directeurs artistiques et de quelques grands noms, ces
+        dessins sont souvent l’œuvre de mains anonymes, essentiellement
+        féminines. Produire un caractère représente un investissement très
+        important et, malgré le grand nombre de fontes en circulation, les
+        créations sont relativement rares. Il en va de même lors du passage de
+        la composition «&#160;chaude&#160;» (linotype, monotype) à la composition
+        «&#160;froide&#160;» (photo-composition). Cinq siècles après <persName ref="02782361X" type="idref" xml:base="https://www.idref.fr/">Gutenberg</persName>, le métal
+        disparaît tout à fait, remplacé par le film.</p>
+        <p xml:id="d1e90">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-8mpceijw">publication</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation<term ref="doi:10.34817/sv-hefvbw9m">diffusion</term>
+            </term>
+          </term>Les
+        planches de lettres transfert<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Technique de transfert à sec, popularisée par Letraset,
+            Mecanorma ou Decadry.</p>
+          </note>, dans les <date from="1960" to="1969" type="_temp">années&#160;1960</date>, vont rendre la typographie accessible
+        au plus grand nombre. Avec des coûts de production très faibles, des
+        compagnies comme Letraset, Mecanorma ou Decadry publient de très
+        nombreuses créations, principalement dans le domaine du titrage. Des
+        concours annuels, ouvert à tous, permettent à des créateurs
+        professionnels ou amateurs de voir leurs alphabets publiés sur les
+        fameuses planches translucides. Au milieu des <date from="1980" to="1999" type="_temp">années&#160;1980</date>, l’apparition de la
+        publication assistée par ordinateur et des premiers éditeurs de fontes
+        numériques (comme Altsys Fontographer, en <date type="_temp" when="1986">1986</date>) va amplifier le phénomène&#160;: il est désormais
+        possible de créer un caractère typographique et de l’imprimer chez soi
+        – et bientôt, de le publier en ligne.</p>
+        <figure xml:id="d1e95">
+          <graphic url="https://didomena.ehess.fr/downloads/8336h973k.jpeg"/>
+          <head xml:id="d1e96">Figure 2. Hiéroglyphes mayas. Transcription
+          typographique du codex de Dresde, Alexandre Bassi. ©&#160;ANRT 2019 /
+          Alexandre Bassi</head>
+        </figure>
+        <p xml:id="d1e102">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-p9bdwj35">profession<term ref="doi:10.34817/sv-2quvas4j">professeur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-j6k6mbcm">étudiant</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+        numérique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-sa78kbak">transmission</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-wc3xyyrs">atelier</term>
+            </term>
+          </term>En <date type="_temp" when="1985">1985</date> est créé l’Atelier national de
+        création typographique (ANCT), au sein de l’Imprimerie nationale. Dans
+        cette institution, créée par <persName ref="027349217" type="idref" xml:base="https://www.idref.fr/">Richelieu</persName>, des générations
+        de graveurs de poinçons se sont succédé, pour constituer une
+        collection unique au monde. Cette transmission se faisait de maître à
+        élève, au gré d’un long apprentissage. Mais avec l’ANCT, l’Imprimerie
+        nationale devient, pour la première fois, un lieu d’enseignement. Sous
+        la tutelle pédagogique de l’École nationale supérieure des arts
+        décoratifs de <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> (ENSAD), une
+        équipe enseignante constituée de professionnels de premier plan
+        (<persName ref="148177581" type="idref" xml:base="https://www.idref.fr/">José Mendoza</persName>, <persName ref="050500376" type="idref" xml:base="https://www.idref.fr/">Ladislas
+        Mandel</persName>, <persName type="_temp">Peter Keller</persName>)
+        forme de jeunes diplômés à la création de caractères typographiques.
+        Il s’agit de relancer la typographie française, qui est alors en voie
+        d’extinction&#160;: toutes les fonderies françaises ont fermé leurs portes,
+        et le métier est en passe de disparaître. L’ANCT est l’un des seuls
+        endroits, en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> et dans le
+        monde, où s’enseigne la création typographique. Les premiers alphabets
+        sont des adaptations de modèles historiques, tirés des collections de
+        l’Imprimerie nationale ou du patrimoine français. Cependant, l’Atelier
+        ne tarde pas à faire naître de nouvelles créations et, quelques années
+        plus tard, à intégrer l’outil informatique pour numériser des fontes.
+        Renommé Atelier national de recherche typographique (ANRT), il
+        déménage à l’ENSAD de <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> en <date type="_temp" when="1997">1997</date>, puis rejoint l’ENSAD de
+        <placeName ref="2990999" type="geonames" xml:base="https://www.geonames.org/">Nancy</placeName> en <date type="_temp" when="2000">2000</date>. L’équipe est alors composée de
+        <persName type="_temp">Peter Keller</persName> (directeur), <persName ref="167892169" type="idref" xml:base="https://www.idref.fr/">André
+        Baldinger</persName>, <persName ref="079316131" type="idref" xml:base="https://www.idref.fr/">Jean-Philippe Bazin</persName>,
+        <persName ref="034373691" type="idref" xml:base="https://www.idref.fr/">Hans-Jürg Hunziker</persName>,
+        <persName ref="262235889" type="idref" xml:base="https://www.idref.fr/">Philippe Millot</persName> et
+        <persName ref="031491472" type="idref" xml:base="https://www.idref.fr/">Jean Widmer</persName>. Après vingt
+        ans d’activité, ayant formé plus de cent étudiants-chercheurs du monde
+        entier, l’ANRT ferme temporairement en <date type="_temp" when="2006-06">juin&#160;2006</date>
+          <note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>En désaccord avec la direction de l’ENSA Nancy de l’époque,
+            Peter Keller a annoncé en octobre&#160;2005 sa volonté de quitter ses
+            fonctions à la fin de l’année scolaire 2005-2006. Aucun
+            recrutement n’ayant été lancé pour sa succession, l’ensemble de
+            l’équipe enseignante a remis sa démission en juin&#160;2006. C’est
+            grâce à l’action de Christian Debize, qui en a fait une priorité
+            dès sa prise de fonction en 2010 à la direction de l’ENSA, que
+            l’ANRT a pu rouvrir ses portes en septembre&#160;2012.</p>
+          </note>.</p>
+        <p xml:id="d1e107">Fin&#160;<date type="_temp" when="2012">2012</date>, il
+        rouvre ses portes avec une nouvelle direction (<persName ref="193045729" type="idref" xml:base="https://www.idref.fr/">Thomas
+        Huot-Marchand</persName>), un nouveau projet scientifique et une
+        nouvelle équipe enseignante, composée de <persName ref="219557306" type="idref" xml:base="https://www.idref.fr/">Jérôme
+        Knebusch</persName>, <persName ref="254771572" type="idref" xml:base="https://www.idref.fr/">Charles Mazé</persName>, <persName type="_temp">Émilie Rigaud</persName> et <persName ref="23507716X" type="idref" xml:base="https://www.idref.fr/">Alice Savoie</persName>
+        – <persName ref="068872623" type="idref" xml:base="https://www.idref.fr/">Roxane Jubert</persName>, <persName ref="167892169" type="idref" xml:base="https://www.idref.fr/">André
+        Baldinger</persName> et <persName ref="262235889" type="idref" xml:base="https://www.idref.fr/">Philippe Millot</persName> y
+        interviennent également pendant les premières années. Les objectifs de
+        l’ANRT au moment de sa réouverture sont multiples&#160;:</p>
+        <list type="unordered" xml:id="d1e109">
+          <item>classer, numériser et publier ses archives, en grande partie
+          inédites&#160;;</item>
+          <item>repositionner l’établissement sur le plan international, dans
+          un secteur devenu très dynamique&#160;;</item>
+          <item>structurer son modèle pédagogique au niveau du troisième cycle
+          (post-master)&#160;;</item>
+          <item>développer une approche de la recherche par la
+          pratique&#160;;</item>
+          <item>susciter des partenariats de recherche avec des laboratoires
+          partenaires, dans des disciplines connexes.</item>
+        </list>
+        <p xml:id="d1e120">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-nknm6ccz">archéologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-wc3xyyrs">atelier</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-zfiw44ea">musée</term>
+            </term>
+          </term>Pour
+        valoriser ses archives, un catalogue rétrospectif a été publié en
+        <date type="_temp" when="2016">2016</date>, et plusieurs expositions
+        ont été organisées pour présenter les productions de l’Atelier (à la
+        galerie My&#160;Monkey à <placeName ref="2990999" type="geonames" xml:base="https://www.geonames.org/">Nancy</placeName> en <date type="_temp" when="2013">2013</date>, au ministère de la Culture à
+        <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> et au Musée de
+        l’imprimerie et de la communication graphique de <placeName ref="2996944" type="geonames" xml:base="https://www.geonames.org/">Lyon</placeName> en <date from="2016" to="2017" type="_temp">2016-17</date>). Les activités
+        d’ouverture, telles que les conférences et colloques internationaux
+        organisés chaque année, ont contribué à faire de l’Atelier, qui
+        bénéficiait déjà d’une image prestigieuse, un lieu important de la
+        scène typographique mondiale. Mais ce sont surtout les projets des
+        étudiants-chercheurs et les programmes de recherche, encadrés par
+        l’équipe enseignante, qui ont permis d’affirmer le nouveau
+        positionnement de cette institution. Dans des domaines aussi variés
+        que la linguistique, l’épigraphie, l’archéologie, la numismatique ou
+        la cartographie, l’objectif est le même&#160;: créer de nouveaux outils
+        typographiques pour permettre la circulation des connaissances dans un
+        environnement numérique.</p>
+        <figure xml:id="d1e123">
+          <graphic url="https://didomena.ehess.fr/downloads/n87100134.jpeg"/>
+          <head xml:id="d1e124">Figure 3. Création d’une famille de caractères
+          typographiques. Pour la numérisation du dictionnaire pan-lexical du
+          gallo-roman de Walther von Wartburg, en partenariat avec
+          l’ATILF-CNRS (Nancy), dans le cadre de la thèse de doctorat de Sarah
+          Kremer. ©&#160;ANRT / ATILF-CNRS / Sarah Kremer</head>
+        </figure>
+        <p xml:id="d1e130">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image<term ref="doi:10.34817/sv-dujlzfqq">dessin</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-mvvrmv8h">édition</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-epe2ahku">informatique<term ref="doi:10.34817/sv-jzf7lact">imagerie
+        numérique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-rjtjbfud">histoire de
+        l’écriture</term>
+            </term>
+          </term>
+          <hi rend="bold">L’histoire de la
+        typographie</hi> occupe naturellement une place importante à l’ANRT –
+        avec la spécificité, cependant, qu’elle est investie par des
+        designers, et par conséquent, constamment irriguée par la pratique, à
+        l’image, par exemple, de la recréation numérique des caractères de
+        <persName ref="138922128" type="idref" xml:base="https://www.idref.fr/">Claude Jacob</persName>, en <date from="2017" to="2018" type="_temp">2017-2018</date>. <persName ref="138922128" type="idref" xml:base="https://www.idref.fr/">Jacob</persName> était graveur de
+        poinçons, formé à <placeName ref="2655603" type="geonames" xml:base="https://www.geonames.org/">Birmingham</placeName> par
+        <persName type="_temp">John Handy</persName>, le graveur de
+        Baskerville. Employé par la Société littéraire et typographique de
+        <placeName ref="3034230" type="geonames" xml:base="https://www.geonames.org/">Beaumarchais</placeName>, il
+        supervise l’acquisition des poinçons de Baskerville auprès de
+        <persName type="_temp">Sarah Eaves</persName>, sa veuve et légataire,
+        pour l’édition des œuvres complètes de <persName ref="027190099" type="idref" xml:base="https://www.idref.fr/">Voltaire</persName> à
+        <placeName ref="6558108" type="geonames" xml:base="https://www.geonames.org/">Kehl</placeName>. Il exerce
+        ensuite à <placeName ref="6441375" type="geonames" xml:base="https://www.geonames.org/">Strasbourg</placeName>, à la fin
+        du <date from="1700" to="1799" type="_temp">18<hi rend="sup">e</hi>&#160;siècle</date>, avant que ses caractères, fortement
+        inspirés par ceux du maître anglais, ne deviennent la propriété de la
+        fonderie Levrault, puis Berger-Levrault&#160;: ils étaient alors qualifiés
+        de caractères «&#160;dans le genre de Baskerwille&#160;». Les caractères de
+        <persName ref="138922128" type="idref" xml:base="https://www.idref.fr/">Jacob</persName>, «&#160;doublure&#160;» de
+        Baskerville, avaient disparu. Ils ont servi de modèles à la promotion
+        <date type="_temp" when="2017">2017</date> de l’ANRT qui a dessiné
+        collectivement les fontes Baskervville, aujourd’hui diffusées sous
+        licence libre<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Baskerville est le nom de l’original, Baskerwille le nom de la
+            «&#160;copie&#160;» qu’en fait Claude Jacob cinquante ans plus tard (mal
+            orthographié par la fonderie Levrault), et Baskervville le nom de
+            l’adaptation numérique du caractère de Jacob fait à l’ANRT.</p>
+          </note>. Autre exemple de rencontre entre l’histoire et le dessin,
+        le vaste projet Gotico-Antiqua, mené <date from="2016" to="2020" type="_temp">entre 2016 et 2020</date>, sur les caractères hybrides
+        entre gothique et romain au <date from="1400" to="1499" type="_temp">15<hi rend="sup">e</hi>&#160;siècle</date>. Coordonné par
+        <persName ref="219557306" type="idref" xml:base="https://www.idref.fr/">Jérôme Knebusch</persName>, il a
+        donné lieu à onze ateliers en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> et en
+        <placeName ref="3175395" type="geonames" xml:base="https://www.geonames.org/">Italie</placeName>. De <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName> à <placeName ref="3169071" type="geonames" xml:base="https://www.geonames.org/">Rome</placeName>, ce programme de
+        recherche a conduit à la création de quinze fontes numériques inédites
+        à partir de modèles historiques, deux expositions, un colloque
+        international à <placeName ref="2990999" type="geonames" xml:base="https://www.geonames.org/">Nancy</placeName> en <date type="_temp" when="2019-04">avril&#160;2019</date> et l’édition, en <date type="_temp" when="2021">2021</date>, d’un important ouvrage qui
+        regroupe les actes du colloque et le catalogue d’exposition <hi>(voir
+        ill. en tête d’article)</hi>.</p>
+        <p xml:id="d1e146">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure numérique<term ref="doi:10.34817/sv-zmj9qpgl">base de
+        données</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-cmdh4zin">humanités
+        numériques</term>
+              </term>
+            </term>
+          </term>
+          <hi rend="bold">Les humanités
+        numériques</hi> constituent un autre champ d’investigation récurrent à
+        l’ANRT&#160;; les problématiques typographiques sont nombreuses dans ce
+        domaine, et suscitent des collaborations fécondes avec des disciplines
+        connexes&#160;:</p>
+        <list type="unordered" xml:id="d1e150">
+          <item>
+            <hi rend="bold">la linguistique</hi>, avec l’ATILF-CNRS
+          (Analyse et traitement informatique de la langue française) à
+          <placeName ref="2990999" type="geonames" xml:base="https://www.geonames.org/">Nancy</placeName>, partenaire
+          de l’ANRT depuis <date type="_temp" when="2013">2013</date>. Cette
+          collaboration a mené à la thèse soutenue par <persName ref="235596604" type="idref" xml:base="https://www.idref.fr/">Sarah
+          Kremer</persName> en <date type="_temp" when="2018">2018</date>, en
+          co-direction entre l’ANRT et l’ATILF, intitulée La réalisation
+          matérielle du Französisches etymologisches Wörterbuch&#160;: impact de la
+          mise en forme typographique sur le développement d’un projet
+          lexicographique (Université de Lorraine), et à la définition d’une
+          nouvelle interface utilisateur pour la base Frantext<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>Voir <ref target="https://www.frantext.fr/">
+                  <hi rend="underline">https://www.frantext.fr</hi>
+                </ref>
+              </p>
+            </note>, par <persName type="_temp">François Élain</persName> en
+          <date type="_temp" when="2019">2019</date>
+            <hi>(voir ill.
+          ci-dessus)</hi>.</item>
+          <item>
+            <hi rend="bold">l’épigraphie</hi>, avec le projet PIM, Police
+          pour les inscriptions monétaires, mené en partenariat avec le
+          département des Monnaies et médailles de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">Bibliothèque
+          nationale de France</placeName> depuis <date type="_temp" when="2015">2015</date>. Ce vaste projet vise la création d’un
+          ensemble de fontes open-source qui intègrent, dans un style unifié
+          et via une interface spécifique, toutes les variantes de dessins
+          identifiées dans des corpus de monnaies anciennes. Après
+          l’adaptation d’un corpus de monnaies mérovingiennes en <date type="_temp" when="2015">2015</date>, par <persName type="_temp">Elvire Volk Leonovitch</persName>, PIM s’étend depuis
+          <date type="_temp" when="2019">2019</date> aux collections de
+          monnaies antiques de la <placeName ref="6452876" type="geonames" xml:base="https://www.geonames.org/">BnF</placeName>&#160;; il est
+          développé par <persName type="_temp">Morgane Pierson</persName>. Les
+          fontes PIM intègrent à ce jour onze systèmes d’écriture, et près de
+          2&#160;500&#160;glyphes <hi>(voir ill. ci-dessous)</hi>
+            <note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Un glyphe est la représentation visuelle d’un caractère. Ce
+              dernier peut être représenté par un ou plusieurs glyphes&#160;: ces
+              variantes morphologiques sont appelées allographes.</p>
+            </note>.</item>
+          <item>
+            <hi rend="bold">la sigillographie</hi>, avec la collaboration
+          engagée en <date type="_temp" when="2021">2021</date> autour du
+          projet Sigilla, base numérique des sceaux conservés en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>.</item>
+          <item>
+            <hi rend="bold">l’égyptologie</hi>, avec <persName type="_temp">Pierre Fournier</persName>, étudiant-chercheur à l’ANRT
+          <date>entre 2015 et 2017</date>, qui poursuit aujourd’hui une thèse
+          de doctorat sur la transcription typographique des hiéroglyphes
+          égyptiens à l’Université Paul Valéry de <placeName ref="6454034" type="geonames" xml:base="https://www.geonames.org/">Montpellier</placeName> et à
+          l’Université de <placeName ref="6431349" type="geonames" xml:base="https://www.geonames.org/">Nîmes</placeName>.</item>
+        </list>
+        <figure xml:id="d1e182">
+          <graphic url="https://didomena.ehess.fr/downloads/00000758v.jpg"/>
+          <head xml:id="d1e183">Figure 4. Police pour les inscriptions
+          monétaires. En partenariat avec la BnF. Fonte latine pour la
+          transcription des allographes d’un corpus de monnaies
+          mérovingiennes, Elvire Volk Leonovitch. ©&#160;ANRT 2015 / Elvire Volk
+          Leonovitch</head>
+        </figure>
+        <p xml:id="d1e189">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-udushbkc">cycle
+        éducatif</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du
+        langage</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+            </term>
+          </term>Plus
+        largement, c’est aussi la relation de la typographie à la langue et à
+        l’apprentissage qui est questionnée, avec par exemple les recherches
+        de <persName type="_temp">Sofie Gagelmans</persName> sur la
+        compréhension de la dyslexie en <date>2018-2019</date>, ou encore les
+        travaux menés actuellement par <persName type="_temp">Eugénie
+        Bidaut</persName> sur l’écriture inclusive. Ce sont aussi les sciences
+        de l’éducation et les sciences de l’info-com, avec la thèse de
+        doctorat d’<persName ref="232520933" type="idref" xml:base="https://www.idref.fr/">Éloïsa Pérez</persName> au CELSA
+        (Centre d’études scientifiques et littéraires appliquées) sur l’usage
+        de la typographie dans les supports d’apprentissage de l’écriture à
+        l’école primaire, ou encore les recherches de <persName type="_temp">Rosalie Wagner</persName> sur l’apprentissage de
+        l’écriture en cours préparatoire <hi>(voir ill. ci-dessous)</hi>.</p>
+        <figure xml:id="d1e194">
+          <graphic url="https://didomena.ehess.fr/downloads/2r36v6122.jpg"/>
+          <head xml:id="d1e195">
+            <hi rend="bold">Figure 5. Apprentissage. Une famille de caractères
+            typographiques pour l’apprentissage de l’écriture et de la lecture
+            au cours préparatoire, Rosalie Wagner. ©&#160;ANRT 2017 / Rosalie
+            Wagner</hi>
+          </head>
+        </figure>
+        <figure xml:id="d1e202">
+          <head xml:id="d1e203">
+            <hi rend="bold">Pré-lettres</hi>
+          </head>
+          <p xml:id="d1e206">L’apprentissage du signe graphique à l’école
+          maternelle, thèse de doctorat d’Éloïsa Pérez, en partenariat avec le
+          CELSA (Centre d’études littéraires et scientifiques appliquées),
+          Paris</p>
+          <p xml:id="d1e208">©&#160;ANRT 2013 / Éloïsa Pérez</p>
+        </figure>
+        <p xml:id="d1e210">
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-5gy67z7p">infrastructure
+        numérique</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences
+        appliquées</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-xmjgnjyk">université</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture</term>
+          </term>Les
+        écritures du monde constituent un dernier champ de recherche important
+        à l’ANRT, par le biais du programme de recherche «&#160;<foreign xml:lang="eng">The Missing Scripts</foreign>&#160;», en partenariat avec
+        l’Université des sciences appliquées de <placeName ref="6554818" type="geonames" xml:base="https://www.geonames.org/">Mayence</placeName> (<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>) et le
+        Department of Linguistics de l’Université de <placeName ref="5327684" type="geonames" xml:base="https://www.geonames.org/">Berkeley</placeName> (<placeName ref="5332921" type="geonames" xml:base="https://www.geonames.org/">Californie</placeName>).
+        <persName ref="152492178" type="idref" xml:base="https://www.idref.fr/">Johannes Bergerhausen</persName>,
+        chercheur associé, souligne que 45&#160;% d’entre elles (133 sur 292, à
+        l’heure actuelle) ne sont pas encodées, et par conséquent ne sont pas
+        accessibles sur ordinateur ou smartphone. Exclues de l’éco-système
+        numérique, ces écritures (vivantes ou anciennes) sont menacées
+        d’extinction. Pour soutenir et préserver cette diversité, l’ANRT
+        accompagne les travaux du <foreign xml:lang="eng">Script Encoding
+        Initiative</foreign> (<placeName ref="5327684" type="geonames" xml:base="https://www.geonames.org/">Berkeley</placeName>&#160;UC) pour
+        intégrer ces écritures disparues ou minoritaires au standard universel
+        Unicode, et leur donner ainsi une forme typographique, souvent pour la
+        première fois <hi>(voir ill. ci-dessous)</hi>.</p>
+        <figure xml:id="d1e215">
+          <graphic url="https://didomena.ehess.fr/downloads/fb494j055.jpg"/>
+          <head xml:id="d1e216">Figure 6. <hi rend="italic">The World’s
+          Writing Systems. Première édition du poster, présentant 292&#160;systèmes
+          d’écriture. A été développé aussi (en 2019) un site web présentant
+          toutes les écritures du monde, vivantes ou disparues, intégrées ou
+          non au standard Unicode. ANRT Nancy / HfG Mainz / SEI Berkeley.
+          Design Johannes Bergerhausen, Type design ANRT. ©&#160;Johannes
+          Bergerhausen</hi>
+          </head>
+        </figure>
+        <p xml:id="d1e223">
+          <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-wc3xyyrs">atelier</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-g3raf3p6">maya</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-emwejs7d">égyptien</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-sonwzjwc">écriture<term ref="doi:10.34817/sv-ddhgmuwf">hiéroglyphe</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-zhtmaszx">paléographie</term>
+                </term>
+              </term>
+            </term>
+          </term>Les
+        écritures paléo-hispanique (<persName type="_temp">Arthur
+        Francietta</persName>, ANRT&#160;<date type="_temp" when="2016">2016</date>), élymaïque (<persName type="_temp">Morgane
+        Pierson</persName>, ANRT&#160;<date type="_temp" when="2017">2017</date>),
+        afàka (<persName type="_temp">Émilie Aurat</persName>, ANRT&#160;<date type="_temp" when="2018">2018</date>), sharada (<persName type="_temp">Parimal Parmar</persName>, ANRT&#160;<date type="_temp" when="2019">2019</date>), dives akuru (<persName type="_temp">Fernando
+        Caro</persName>, ANRT&#160;<date type="_temp" when="2020">2020</date>),
+        book pahlavi (<persName type="_temp">Amir Mahdi Moslehi</persName>,
+        ANRT&#160;<date type="_temp" when="2020">2020</date>), ou encore les
+        hiéroglyphes égyptiens (<persName type="_temp">Pierre
+        Fournier</persName>, ANRT&#160;<date type="_temp" when="2015">2015</date>)
+        et mayas (<persName type="_temp">Alexandre Bassi</persName>,
+        ANRT&#160;<date type="_temp" when="2019">2019</date>) ont ainsi été étudiés
+        et dessinés à l’Atelier ces dernières années. Ces fontes, élaborées
+        avec des experts et des scripteurs de chaque écriture, constituent
+        souvent des défis techniques et scientifiques, et peuvent nécessiter
+        plusieurs années de développement <hi>(voir 2<hi rend="sup">e</hi>&#160;ill. de l’article)</hi>.</p>
+        <p xml:id="d1e229">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-crpfd2ce">formation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-tddokewq">scientificité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-yenrhmkn">collaboration</term>
+            </term>
+          </term>La
+        pratique de la recherche s’est considérablement structurée à l’ANRT
+        ces dix dernières années, à la faveur de nombreuses collaborations
+        dans différents domaines. Résolument transdisciplinaire, l’Atelier
+        bénéficie de son inscription au sein du campus ARTEM (Art,
+        Technologie, Management), qui réunit à <placeName ref="2990999" type="geonames" xml:base="https://www.geonames.org/">Nancy</placeName>
+        l’École des mines, l’ICN&#160;Business School et l’École nationale
+        supérieure d’art et de design. Étendue à quatre semestres après le
+        master, sa formation est depuis l’été&#160;<date type="_temp" when="2021">2021</date> sanctionnée par un Diplôme de spécialisation
+        et d’approfondissement (120&#160;ECTS), reconnu par l’État. Les poursuites
+        en doctorat, menées en co-direction, sont fréquentes. L’action de
+        l’Atelier vise ainsi à soutenir et à promouvoir la recherche en
+        typographie, une recherche non seulement <hi rend="italic">sur</hi>,
+        mais surtout <hi rend="italic">par</hi> le design, nourrie par la
+        pratique et par le dessin.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
