@@ -1,0 +1,1231 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-09-24T15:58:08.022+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LHOM_218_Lacombe">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le mythe hésiodique des races, œuvre de
+        langage</title>
+        <title type="sub">Jean-Pierre Vernant et après</title>
+        <author>
+          <forename>Pierre Judet de La</forename>
+          <surname>Combe</surname>
+          <idno type="IDREF">026942380</idno>
+          <affiliation>
+            <s>École des hautes études en sciences sociales – Centre national
+            de la recherche scientifiqueCentre Georg Simmel, Paris</s>
+          </affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/DS3KPDDN" type="journalArticle" xml:lang="fr">
+          <analytic>
+            <title level="a">Le mythe hésiodique des races, œuvre de
+            langage</title>
+            <idno type="DOI">10.4000/lhomme.28990</idno>
+            <author>
+              <forename>Pierre Judet de La</forename>
+              <surname>Combe</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">L’Homme. Revue française d’anthropologie</title>
+            <idno type="ISSN">0439-4216</idno>
+            <imprint>
+              <biblScope unit="issue">218</biblScope>
+              <biblScope unit="page">239-252</biblScope>
+              <date>2016</date>
+              <note type="url">https://journals.openedition.org/lhomme/28990</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Jean-Pierre Vernant</item>
+            <item>Hésiode</item>
+            <item>mythe des races</item>
+            <item>mythe</item>
+            <item>langage</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Jean-Pierre Vernant</item>
+            <item>Hesiod</item>
+            <item>Ages of Man</item>
+            <item>Language</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-w55wftqy">société</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-5wvg9nc7">héros</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du
+          langage</term>
+              </term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1972">1972</date>
+          </term>
+          <term>
+            <date from="1800" to="1899" type="_temp">
+              <hi rendition="#T10">xix</hi>
+              <hi rend="sup">e</hi> siècle</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Le mythe hésiodique des races, œuvre de
+          langage</titlePart>
+          <titlePart type="sub">Jean-Pierre Vernant et après</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Pierre Judet de La Combe</docAuthor>
+        </byline>
+      </titlePage>
+    </front>
+    <body>
+      <div>
+        <p xml:id="d1e82">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-uxqhekra">modes d’interaction<term ref="doi:10.34817/sv-raoluwcf">conflictualité</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-w55wftqy">société</term>
+            </term>
+          </term>
+          <hi rendition="#T10">Sans qu’il se dise historien</hi>, <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Jean-Pierre Vernant</persName> a
+        l’histoire comme préoccupation centrale. Il ne la conçoit pas comme
+        l’objet d’une discipline établie, mais, de manière plus ouverte, plus
+        problématisante, comme le phénomène général de l’émergence de la
+        nouveauté au sein des sociétés, comme leur capacité, en tant qu’elle
+        s’accomplit, de se transformer, de redéfinir leurs cadres de pensée et
+        leurs pratiques effectives. L’interprète a alors à s’interroger à la
+        fois sur le contenu, chaque fois particulier, de cette nouveauté en la
+        considérant pour elle-même et, dans une perspective généralisante, sur
+        ses conditions d’émergence dans une situation historique donnée et,
+        plus généralement encore, quant aux dimensions de l’esprit ainsi
+        mobilisées. Vernant s’installe dès lors dans une tension permanente et
+        réfléchie, qui fait qu’il ne se plie à aucun <hi rend="italic">diktat</hi>. D’où l’impression de fraîcheur et de
+        nouveauté que procure la relecture de ses textes.</p>
+        <p xml:id="d1e90">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté<term ref="doi:10.34817/sv-gz2gsuem">institution</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-7n3zdbrs">image</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+        Terre et de l’Univers<term ref="doi:10.34817/sv-o4gbygyd">astrophysique<term ref="doi:10.34817/sv-z68mcrvu">cosmologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+          </term>Cette
+        tension, qu’il assume, vient de ce que pour chacun des objets
+        particuliers qu’il aborde, l’espace de la cité, la cosmologie, un
+        mythe, une tragédie, une série d’images, ou, plus largement, un
+        ensemble cohérent et historiquement défini de représentations, il
+        choisit de croiser plusieurs points de vue <hi rend="italic">a
+        priori</hi> antithétiques et de ne pas céder à la tentation, si vive
+        en sciences sociales, de n’en privilégier qu’un. Ce croisement lui
+        semblait requis. L’histoire, en effet, n’est pas un flux continu mais
+        produit sa dynamique en ce qu’elle se concrétise, s’objective dans des
+        «&#160;œuvres&#160;» particulières, au sens d’<persName ref="028410106" type="idref" xml:base="https://www.idref.fr/">Ignace
+        Meyerson</persName>, qui reprend en fait le terme à <persName ref="026917467" type="idref" xml:base="https://www.idref.fr/">Hegel</persName>&#160;: une institution,
+        une représentation définie, une œuvre théorique ou poétique, un rite,
+        etc. L’histoire à la fois produit ces œuvres et peut les contester et
+        les dépasser du fait même qu’elle les a produites et qu’elles prennent
+        donc nécessairement la forme d’objets limités. S’il veut tenir compte
+        des deux dimensions de l’œuvre, sa genèse et son devenir dans un temps
+        historique continu, d’une part, et, de l’autre, sa teneur propre,
+        comme «&#160;précipité&#160;», comme temps d’arrêt qui institue une
+        discontinuité, une nouveauté provisoire au sein de l’histoire,
+        l’interprète aura à naviguer entre des positions contraires, qui ont
+        eu tendance à se figer en disciplines ou en points de vue unilatéraux
+        au sein des disciplines. C’est ce qu’<persName ref="185782906" type="idref" xml:base="https://www.idref.fr/">Aurélien Gros</persName>
+        appelle d’un nom connoté positivement depuis <persName type="idref" xml:base="https://www.idref.fr/">Claude Lévi-Strauss</persName>, le
+        «&#160;bricolage&#160;» de <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName> (dans ce
+        volume,&#160;pp.&#160;219-238)&#160;: il s’agit d’une acceptation argumentée du
+        caractère antinomique de l’interprétation des phénomènes
+        historiques.</p>
+        <p xml:id="d1e96">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+        savoirs</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des savoirs<term ref="doi:10.34817/sv-mf7ofe8n">régime politique<term ref="doi:10.34817/sv-q5vf9h2g">démocratie</term>
+              </term>
+            </term>
+          </term>Pour
+        un même objet, comme la tragédie athénienne, <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName>
+        adoptera simultanément, en problématisant leur relation, deux points
+        de vue différents, habituellement considérés comme exclusifs l’un de
+        l’autre. Sa pensée est dialectique. Un point de vue verra dans la
+        tragédie un témoin privilégié de la construction mouvementée et
+        progressive d’une représentation du droit et de la volonté en lien
+        avec le changement institutionnel radical qu’est l’instauration de la
+        démocratie à <placeName ref="264371" type="geonames" xml:base="https://www.geonames.org/">Athènes</placeName>, dans sa
+        lutte contre une manière aristocratique de représenter et d’exercer
+        une légitimité politique et culturelle. La tragédie sera inscrite dans
+        un <hi rend="italic">continuum</hi> qui, par définition, la dépasse.
+        Il sera donc possible de noter ce qu’elle n’a pas encore complètement
+        élaboré (d’où le titre de l’article fameux de <date type="_temp" when="1972">1972</date>, «&#160;Ébauches de la volonté dans la tragédie
+        grecque&#160;»). L’autre point de vue, au contraire, examinera la
+        configuration tout à fait particulière que prend, dans la tragédie, la
+        contradiction entre deux modes de représentation, l’un ancien et
+        aristocratique, l’autre nouveau et démocratique. La tragédie n’est
+        plus seulement un témoin, mais un objet autonome. Le concept
+        opératoire ne sera alors plus la contradiction entre des états
+        successifs du politique, l’un venant «&#160;relever&#160;» l’autre selon la
+        logique de la négation déterminée, mais l’ambiguïté&#160;: la spécificité
+        de la tragédie vient de ce qu’elle interroge le mythe (archaïque) à
+        partir de la cité en train de se faire et la cité à partir du mythe,
+        dans ce que <persName ref="029913721" type="idref" xml:base="https://www.idref.fr/">Nicole Loraux</persName> (1973) a pu
+        appeler l’«&#160;interférence tragique&#160;». <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName> peut
+        alors être en toute rigueur à la fois hégélien-marxiste et
+        structuraliste, parce que son objet, comme «&#160;œuvre&#160;», comme
+        construction temporelle spécifique, doit être envisagé selon ces deux
+        perspectives. On est loin d’une réduction de l’œuvre à son contexte,
+        ou de l’affirmation du caractère irréductible de l’œuvre, pour
+        mentionner des positions historiennes et philologiques
+        traditionnelles, ou encore d’un fonctionnalisme qui, traitant la
+        tragédie comme une activité rituelle de communication parmi d’autres,
+        efface la dimension historique de ses objets, c’est-à-dire la capacité
+        de rupture qu’ils exercent en tant qu’inventions.</p>
+        <p xml:id="d1e102">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-nxryqn3l">matière</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-gz4vv9sc">théâtre</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-bpfouwze">philologie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-5wvg9nc7">héros</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-caxwu8qa">grec</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-gznzb4bl">divisions historiques des savoirs<term ref="doi:10.34817/sv-bxdtchar">humanisme</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-6eqbyvds">article</term>
+            </term>
+          </term>L’article
+        fondateur de <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName> sur le mythe des
+        races d’<persName type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> (1960) a été un
+        coup de théâtre libérateur dans les études classiques et au-delà, au
+        moins pour deux raisons. D’une part, il s’inscrivait en faux contre
+        une philologie qui, paresseusement, ne lisait dans ce texte qu’une
+        idée générale (la décadence de l’humanité dans la succession de ses
+        «&#160;races&#160;» depuis l’âge d’or). Elle butait dès lors sur le fait que
+        l’une de ces races, celle des héros, la seule qui ne soit pas désignée
+        par un métal, vient contredire ce schéma linéaire, puisqu’elle est
+        dite «&#160;plus juste et plus méritante&#160;» que la précédente. Les analyses,
+        depuis le <date from="1800" to="1899" type="_temp">
+            <hi rendition="#T10">xix</hi>
+            <hi rend="sup">e</hi> siècle</date>,
+        traitaient cette incohérence comme un accident, dû à l’adaptation
+        requise mais maladroite d’un matériau ancien et non grec à la culture
+        grecque où les héros occupaient une place majeure. Cette race devait
+        être ajoutée à un schéma plus ancien, même au prix d’une
+        incohérence<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>C’est encore le point de vue du philologue empiriste
+            britannique qu’était Martin L. West, dans son édition commentée
+            des <hi rend="italic">Travaux et les jours</hi> (in Hesiod 1978&#160;:
+            174), qui ignore totalement les articles de Vernant. Il faut
+            citer, comme exception parmi les philologues, l’étude de Ferdinand
+            Bamberger, publiée en 1842, qui introduit un principe de
+            cohérence. Les deux premières races (or et argent) seraient
+            «&#160;spéculatives&#160;», en ce qu’elles opposent radicalement le bien et
+            le mal, et dessinent ainsi le cadre général du devenir humain. Les
+            autres races seraient «&#160;historiques&#160;», en ce qu’elles manifestent
+            comment cette antithèse se déploie selon les âges
+            traditionnellement connus de l’humanité (Bamberger 1966). Il reste
+            à écrire l’histoire de cette génération de philologues,
+            intellectuels quarante-huitards qui associaient lecture critique
+            et rationnelle des textes et reconstruction de leurs cadres
+            sémantiques généraux. Jean Rudhardt a repris la distinction, en
+            appelant «&#160;mythiques&#160;» les deux premières races (1981&#160;:
+            255-257).</p>
+          </note>. L’approche était génétique. Le texte, tel qu’il se donne,
+        comptait moins que son histoire cachée et supposée. Cet «&#160;accident&#160;»
+        prend au contraire une fonction centrale dans l’analyse de <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName>. Il lui permet de
+        construire les antithèses qui structurent le mythe avec rigueur, selon
+        deux entrées&#160;: l’opposition justice/injustice et la distinction des
+        trois fonctions duméziliennes (royauté, guerre, fécondité). Les héros
+        sont une réalisation plus juste de la race guerrière, dont la race de
+        bronze, qui les précède, a donné une version injuste, de même que, en
+        chiasme, la race d’or est une réalisation juste de la fonction royale,
+        dont la race d’argent, qui la suit, est la dégénérescence injuste.
+        Face à une philologie traditionnelle qui restait généralisante ou
+        intéressée avant tout par l’établissement de faits supposés (les
+        strates du texte) et renonçait par là à sa mission initiale qui était
+        de proposer une interprétation argumentée des textes, l’exigence
+        d’interprétation était, du dehors, puisque <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName> ne
+        s’est jamais considéré comme un philologue, fortement réaffirmée.
+        L’hellénisme universitaire était contesté sur son propre terrain,
+        qu’il avait abandonné<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Dans une dissidence voisine, mais universitaire, à Lille, Jean
+            Bollack se proposait de son côté de réaffirmer et de renouveler la
+            dimension interprétative de la philologie.</p>
+          </note>.</p>
+        <p xml:id="d1e121">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-bszxcbi9">langue<term ref="doi:10.34817/sv-caxwu8qa">grec</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+        savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-h3wwz88g">texte</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-ohaapat7">analyse</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>Mais
+        <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName> opérait une autre
+        rupture. Se détournant d’une approche censée être historique (visant à
+        reconstruire les étapes de la déformation d’un mythe originel) pour
+        proposer une analyse «&#160;structurale&#160;» qui s’oblige à rendre compte de
+        tous les éléments observables du texte considérés dans leur cohérence
+        (ce que ne faisaient pas les professionnels de la lettre), Vernant
+        opère en fait une distorsion, qu’<persName ref="185782906" type="idref" xml:base="https://www.idref.fr/">Aurélien Gros</persName>
+        a justement soulignée, par rapport aux analyses structurales des
+        mythes. Il traite non pas un mythe considéré dans l’ensemble de ses
+        variantes, de manière à en produire la règle de production et de
+        variation, mais un texte. Il y était contraint, car le mythe des races
+        n’entre pas dans un ensemble de variantes&#160;: il est un <hi rend="italic">unicum</hi>, sans variantes, dans l’ensemble des mythes
+        grecs archaïques. Mais, au-delà de cette contrainte, le choix
+        d’appliquer une méthode structurale à un texte particulier, non pas
+        pour définir seulement la logique interne au texte (ce que l’on
+        faisait déjà en poétique pour les textes modernes), mais de manière à
+        comprendre et à situer l’action particulière, historique, qu’a tenté
+        d’accomplir <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> au sein de sa
+        culture, a pu ouvrir sur des questions de fond qui orientent encore la
+        discussion de tels objets. L’analyse rigoureuse et efficace
+        d’<persName ref="185782906" type="idref" xml:base="https://www.idref.fr/">Aurélien Gros</persName> permet de
+        clarifier l’apport de <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName> et ses effets.</p>
+        <p xml:id="d1e127">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-5wvg9nc7">héros</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>L’approche
+        structurale vise, dans le cas du mythe des races, à reconstruire la
+        cohérence et la signification d’un projet individuel d’intervention
+        dans la religion. L’auteur (<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>), contrairement à
+        l’interdit théorique qui dure encore et que commençait alors à poser
+        une interprétation métaphysique des structures qui en faisait des
+        absolus autosuffisants, autotéliques<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Quand la consistance interne d’une «&#160;œuvre&#160;» historique est
+            devenue le modèle pour penser l’histoire elle-même et a été
+            étendue à l’ensemble d’une époque ou d’une société, l’histoire
+            devient par là essentiellement discontinue, ce qui suppose
+            l’abandon de la dimension dialectique maintenue par Jean-Pierre
+            Vernant.</p>
+          </note>, n’est pas gommé ou déclaré impossible, mais fortement mis
+        en valeur comme acteur historique. En raison même de la rigueur de sa
+        construction mythique, Hésiode apparaît comme un réformateur, comme
+        pouvaient l’être les prophètes de la Bible&#160;: l’antithèse prévalante
+        dans le mythe est l’opposition justice/injustice. C’est elle qui
+        réorganise le matériau mythique traditionnel et la présentation des
+        trois fonctions. Comme la justice est l’apanage de la première
+        fonction, celle des rois, que représentent les races d’or et d’argent,
+        on comprend que, selon le texte, seules ces races bénéficient après
+        leur disparition d’un honneur «&#160;royal&#160;» à l’époque présente, ce qui
+        n’est pas le cas des deux races guerrières (bronze et héros), qui sont
+        mises hors jeu, sans effet sur le présent. Les héros et leur
+        idéologie, si puissante chez Homère, sont ainsi minorés, face à la
+        question de la justice, qui est centrale dans le poème d’Hésiode.</p>
+        <p xml:id="d1e135">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-5s8ymhcr">interprétation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-ohaapat7">analyse</term>
+            </term>
+          </term>Le débat
+        qui a suivi, particulièrement riche et partant des résultats de
+        <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName> quand il était
+        sérieux, a porté non pas tant sur la pertinence des catégories
+        sous-jacentes à l’analyse, comme la trifonctionnalité dumézilienne
+        (<persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName> s’est montré
+        lui-même souple sur ce sujet)<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Cf. son texte de 1985, «&#160;Méthode structurale et mythe des
+            races&#160;», pour la cinquième race, qu’il regrette d’avoir trop vite
+            assimilée à la fonction de production dans son premier texte (in
+            Vernant 2007&#160;: 317 <hi rend="italic">sq</hi>.).</p>
+          </note>, que sur la possibilité d’articuler comme il le fait les
+        deux pôles théoriques de son interprétation&#160;: celui, historique, d’une
+        intervention réformatrice d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> et celui,
+        structural, d’une géométrisation, par antithèses, des contenus
+        traditionnels qu’il reconstruit. Cette géométrisation est essentielle
+        chez <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName>, car elle sert de
+        médiation entre l’individualité d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> et la
+        religion commune, puisque celle-ci, comme «&#160;pensée mythique&#160;», est
+        interprétée également en termes structuraux. Le passage du singulier
+        (<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>) au général (le
+        mythe comme mode général de représentation) pouvait se faire sans
+        sacrifier la valeur de l’acte individuel.</p>
+        <p xml:id="d1e145">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre<term ref="doi:10.34817/sv-7htz8int">masculin</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-c5oskknl">sémantique</term>
+                </term>
+              </term>
+            </term>
+          </term>Les
+        données de la discussion ont changé quand l’idée du langage
+        sous-jacente à l’analyse, idée qui était dominante à l’époque (le
+        langage comme organisation de contrastes sémantiques), a été remplacée
+        par une conception pragmatique du langage comme action. La
+        construction géométrique d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>, si elle existe,
+        ne pouvait plus être prise comme l’illustration d’une langue commune à
+        une époque, à un mode collectif de pensée, dans l’idée d’une
+        continuité entre volonté individuelle, texte mythique particulier et
+        le mythe tel qu’il est partagé, comme forme collective, par une
+        société. Un tel <hi rend="italic">medium</hi> commun, qui était à la
+        base de ce que Vernant a parfois appelé l’«&#160;homme grec&#160;», dans sa
+        spécificité et son étrangeté<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>On se souvient des réserves émises quant à l’existence d’une
+            telle entité unifiante par Nicole Loraux (1996).</p>
+          </note>, est moins susceptible d’exister si les énoncés valent
+        d’abord comme discours en situation, comme actes particuliers et non
+        comme expression d’un mode de pensée général, tel que «&#160;la pensée
+        mythique&#160;».</p>
+        <p xml:id="d1e155">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-grv8plzy">sciences appliquées<term ref="doi:10.34817/sv-ognrwtyq">médecine</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-bpfouwze">philologie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+        intellectuelle</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-5wvg9nc7">héros</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du
+        langage</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-dtlbbhdu">sociologie</term>
+              </term>
+            </term>
+          </term>Ainsi,
+        <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Pierre Bourdieu</persName>, dans
+        l’introduction à son livre <hi rend="italic">Le Sens pratique</hi>
+        (1980), s’appuie sur une conception sociologique des actes de langage
+        pour voir, dans le travail poétique d’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>, non
+        l’illustration plus ou moins déviante et novatrice d’une mentalité,
+        mais un coup de force et une stratégie, l’affirmation d’un mode
+        spécifique de considérer les dieux, les humains, les héros, une
+        tentative de capter les mots communs au profit du sens que leur
+        assigne sa propre pratique. En se faisant lui-même structuraliste,
+        <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> ne parle pas la
+        langue de la tribu, mais tente, face à des praticiens d’autres
+        groupes, d’imposer sa position spécifique d’intellectuel<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Et, de fait, on peut avoir parfois l’impression que Vernant
+            prête à Hésiode sa propre pratique interprétative&#160;: «&#160;Quelle
+            qu’ait pu être la visée ou l’intention du poète, il a utilisé,
+            pour faire passer son message, deux types de structures qui
+            devaient être familières à son public&#160;: l’opposition <hi rend="italic">dikè</hi>/<hi rend="italic">hubri</hi>s, qui joue
+            tout au long du texte, et l’opposition souveraineté-activité
+            guerrière qui situe l’un par rapport à l’autre le couple des deux
+            premières races et celui des deux suivantes&#160;» (2007&#160;: 317).</p>
+          </note>. Ce n’est pas un témoin, un informateur, mais un savant qui
+        théorise et fige la religion dans des oppositions fermées (comme, par
+        exemple, dieux olympiens <hi rend="italic">vs</hi> dieux chtoniens),
+        alors que la religion, comme tout univers social, est d’abord affaire
+        de pratiques, d’actions concrètes, de passages, de temporalités
+        différentes, comme <persName ref="027715078" type="idref" xml:base="https://www.idref.fr/">Bourdieu</persName> le montre pour
+        l’espace symbolique de la maison kabyle, dont il reconstruit le
+        dynamisme. Prendre Hésiode et ses schématisations savantes comme
+        document pour reconstruire l’objet qu’il s’approprie, le mythe et la
+        religion, entre en contradiction avec les modes sur lesquels cet objet
+        était pratiqué en réalité et serait en fait un «&#160;philologisme&#160;». Il
+        est vrai que nous attendons encore une sociologie des «&#160;Maîtres de
+        vérité&#160;» grecs archaïques, pour reprendre l’expression de <persName ref="02682891X" type="idref" xml:base="https://www.idref.fr/">Marcel
+        Detienne</persName>, poètes, sages, philosophes présocratiques,
+        médecins, législateurs. De manière contrastive, elle situerait les
+        unes par rapport aux autres, et par rapport à d’autres utilisations
+        professionnelles du discours, les pratiques langagières de ces
+        auteurs. Une telle sociologie évitera un fonctionnalisme neutralisant
+        et unilatéral si, en accord avec l’orientation profonde du travail de
+        <persName ref="02718160X" type="idref" xml:base="https://www.idref.fr/">Vernant</persName>, elle ne considère
+        pas les tentatives de ces auteurs de dire du vrai et du nouveau comme
+        les effets contraints de la dynamique de la communication sociale,
+        dans une réduction à de simples faits, des prétentions des discours à
+        réaliser des formes distinctives de validité.</p>
+        <p xml:id="d1e174">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique rituelle</term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-c5oskknl">sémantique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-kvhruup4">esthétique</term>
+                </term>
+              </term>
+            </term>
+          </term>Quant
+        à l’idée même d’une «&#160;pensée mythique&#160;», comme caractéristique
+        générale d’une époque de l’esprit humain, elle s’est trouvée
+        disqualifiée à partir du moment où l’on y repérait la construction
+        artificielle <hi rend="italic">ex post</hi> d’une modernité en mal de
+        différenciation<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Selon la critique soutenue menée par Marcel Detienne dans <hi rend="italic">L’Invention de la mythologie</hi> (1981), qui a été
+            une révolution dans l’école de Vernant.</p>
+          </note>. Le mythe est introuvable, il n’existe pas en soi, comme
+        forme de discours séparée et identifiable, solidement constituée par
+        ses structures basiques, mais toujours à travers des réalisations
+        particulières mouvantes, dont, parmi beaucoup d’autres, la récitation
+        poétique<note n="8" place="foot" type="standard" xml:id="ftn8">
+            <p>«&#160;Chaque “mythe” ne peut être lu que dans la version
+            particulière qui le porte à son destinataire, dans les conditions
+            d’énonciation et dans la conjoncture historique et culturelle où
+            elle fait sens, avec la pragmatique affective, esthétique,
+            sémantique et rituelle que lui confère une forme poétique et
+            discursive, à chaque fois singulière&#160;», Claude Calame (2015&#160;: 76).
+            On ne peut certes assimiler…/… <hi rend="italic">[Suite de la note
+            8]</hi> les positions de Detienne et de Calame. Le mythe comme
+            récit, par rapport à sa dissolution dans un «&#160;mythique&#160;» diffus
+            qui résulte de la critique portée par Detienne, se trouve ici
+            réhabilité, mais de manière limitée et concrète en ce qu’il
+            devient coextensif à ses réalisations textuelles. En contrepoint
+            de cette limitation, cf. le livre récent de John Scheid &amp;
+            Jesper Svenbro, <hi rend="italic">La Tortue et la lyre</hi>
+            (2014). L’ouvrage insiste sur la prégnance du mythe dans des noms
+            propres et des objets, et non dans des récits poétiques
+            seulement.</p>
+          </note>. Cette insistance sur la singularité de chaque occasion de
+        produire du mythe permet d’éviter des superpositions trop rapides, par
+        exemple quand on assimile les deux «&#160;versions&#160;» du mythe de <persName ref="027687694" type="idref" xml:base="https://www.idref.fr/">Prométhée</persName> que donne
+        successivement <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>, dans sa <hi rend="italic">Théogonie</hi> et dans <hi rend="italic">Les Travaux et
+        les jours</hi>. À partir de matériaux traditionnels et sémantiques
+        identiques, <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> construit en fait
+        deux mythes, deux textes ayant des finalités différentes.</p>
+        <p xml:id="d1e203">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-wnp3yjvp">politique des
+        savoirs</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+        surnaturel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-gb22rumt">pratique artistique<term ref="doi:10.34817/sv-wpud7bak">poésie</term>
+            </term>
+          </term>Mais, par
+        rapport aux analyses de Vernant, on perd sans doute quelque chose si,
+        par défiance contre les grammaires trop générales du sens (les
+        structures sémantiques de base prêtées au mythe comme assurant sa
+        variation en versions différentes et sa transformation en d’autres
+        mythes équivalents), on assimile le mythe, en tant qu’activité
+        discursive, et la performance poétique<note n="9" place="foot" type="standard" xml:id="ftn9">
+            <p>Ce que faisait déjà Friedrich W. Schelling.</p>
+          </note>, comme si construction mythique d’une expérience du sacré et
+        construction poétique d’une forme étaient la même chose. Un texte
+        étonnamment hétérogène et discontinu comme <hi rend="italic">Les
+        Travaux et les jours</hi>, où l’auteur juxtapose théologie de
+        <persName ref="02747237X" type="idref" xml:base="https://www.idref.fr/">Zeus</persName>, récits mythiques,
+        une fable, conseils moraux et politiques, calendrier des activités
+        agricoles et maritimes, proverbes, autobiographie, montre que le mythe
+        n’est que l’un des modes possibles de dire le réel, qu’il existe comme
+        référence, comme objet tiers, que la poésie utilise ou non<note n="10" place="foot" type="standard" xml:id="ftn10">
+            <p>Ainsi, les êtres invisibles qui surveillent les actes des
+            mortels et les punissent s’ils sont injustes sont produits deux
+            fois dans le poème, sous des noms différents&#160;: comme «&#160;démons&#160;»
+            issus de la race d’or disparue (v. 124 <hi rend="italic">sq.</hi>)
+            et, hors récit mythique, une fois définies la justice et
+            l’injustice et leurs conséquences visibles, comme «&#160;immortels&#160;»
+            châtiant les sentences tordues (v. 249-255).</p>
+          </note>. Certes, il ne se réalise sous une forme narrative
+        développée que par le récit poétique qui le porte et le construit,
+        mais la poésie, en y recourant, utilise des significations et des noms
+        propres qui lui sont extérieurs, car ils pouvaient être aussi associés
+        à des images, à des objets, ou à des gestes (voir Scheid &amp; Svenbro
+        2014). Comme l’a rappelé <persName ref="029281962" type="idref" xml:base="https://www.idref.fr/">Lambros Couloubaritsis</persName>, le
+        mythe, en tant qu’acte religieux, a affaire à du réel, à des réalités
+        différentes de l’homme, dont il suppose l’existence et la puissance.
+        Il montre l’enchevêtrement du visible et de l’invisible («&#160;un
+        invisible qui est précisément peuplé de dieux et de démons&#160;»), et
+        porte donc en lui une forme spécifique de vérité référentielle
+        partagée, indépendamment de sa reconstruction poétique particulière
+        (1996&#160;: 483).</p>
+        <p xml:id="d1e220">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-9gkicebm">auteur</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et
+        savoirs</term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-c5oskknl">sémantique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                </term>
+              </term>
+            </term>
+          </term>La
+        pragmatique gagne à être dédoublée. Elle est opérante à deux niveaux.
+        Il y a, d’un côté, la visée propre, orientée vers le réel (invisible),
+        d’une forme comme le mythe, qui peut informer des matériaux
+        sémantiques différents, linguistiques ou autres, et, de l’autre, celle
+        de la poésie, qui sait juxtaposer des formes différentes, dont le
+        mythe, et manifeste par là une autre visée. L’ancienne distinction
+        opérée par <persName ref="026770989" type="idref" xml:base="https://www.idref.fr/">Ernst Cassirer</persName>,
+        distinction parfois dénigrée car elle relèverait d’une pensée
+        idéaliste et téléologique, entre mythe et langage devient alors utile.
+        La tendance de la forme symbolique «&#160;mythe&#160;» (entendu au sens de
+        rapport réglé au sacré, celui-ci se constituant par l’activité de sa
+        mise en forme) est de convoquer une présence du divin, tandis que la
+        forme symbolique «&#160;langage&#160;» tend au contraire vers l’abstraction,
+        l’autonomie du signe et la réflexion distante sur les opérations de
+        symbolisation. Un poème n’est pas «&#160;du mythe&#160;», mais, quand il est
+        marqué, comme chez <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>, <persName ref="026924005" type="idref" xml:base="https://www.idref.fr/">Homère</persName> et les autres
+        auteurs archaïques, par une problématisation explicite et articulée
+        des possibilités du langage, il est au croisement de ces deux formes
+        symboliques et par là fait «&#160;œuvre&#160;». Malgré leur divergence
+        fondamentale d’orientation, il les associe, de manière problématique
+        et précaire, c’est-à-dire singulière et historique.</p>
+        <p xml:id="d1e224">Si l’on garde en tête cette distinction, on peut,
+        je crois, clarifier des questions qui ont arrêté les interprètes dans
+        leur lecture du mythe des races. Tous signalent la difficulté qu’il y
+        a à accorder les différentes représentations du présent (celui de la
+        performance, de la situation mauvaise qu’<persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName> dit
+        vouloir changer en admonestant son frère et les rois chargés de régler
+        leur querelle d’héritage) que l’on trouve dans le poème. Selon le
+        mythe des races, l’âge présent, la race de fer, est voué à un avenir
+        inévitable de destruction, tandis que les admonestations et les
+        conseils éthiques et politiques qui suivent immédiatement le récit
+        mythique&#160;supposent, au contraire, que le présent soit ouvert sur un
+        avenir meilleur. Hésiode insiste lui-même sur la discontinuité qu’il
+        introduit dans son poème&#160;: il annonce le mythe des races, qui vient
+        juste après celui de <persName ref="027687694" type="idref" xml:base="https://www.idref.fr/">Prométhée</persName> et de <persName ref="067696503" type="idref" xml:base="https://www.idref.fr/">Pandore</persName>, comme un autre
+        «&#160;sommet&#160;», une autre «&#160;pointe&#160;» <hi rend="italic">(koruphê)</hi>, qui
+        est donc à considérer d’abord pour elle-même, à part (v. 106)<note n="11" place="foot" type="standard" xml:id="ftn11">
+            <p>Il ne dit donc pas, selon l’interprétation habituelle, que ce
+            mythe vient «&#160;couronner&#160;» l’autre.</p>
+          </note>. Il n’emploiera pas le même terme pour la suite (les
+        conseils concernant la justice et le travail).</p>
+        <p xml:id="d1e234">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-jdb3nyag">temps</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+        surnaturel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-lrxnglhp">divinité</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-5wvg9nc7">héros</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-dxni2k2e">discours</term>
+            </term>
+          </term>Une
+        lecture pragmatique de ce mythe comme discours, selon l’orientation
+        que <persName ref="058549307" type="idref" xml:base="https://www.idref.fr/">Michel Crubellier</persName> a été le
+        premier à proposer<note n="12" place="foot" type="standard" xml:id="ftn12">
+            <p>Cf. «&#160;Le mythe comme discours&#160;: le récit des cinq races
+            humaines dans <hi rend="italic">Les Travaux et les jours</hi>&#160;»,
+            (Crubellier 1996). Ce texte développe la réflexion collective
+            menée à Lille pour la préparation du colloque de 1989 sur Hésiode.
+            Lambros Couloubaritsis a pu reprocher à cette analyse, qu’il
+            appelle «&#160;paradigmatique&#160;» (les races comme modèles construits à
+            partir d’une réflexion sur le présent), de minimiser le rapport au
+            réel du mythe (in Blaise, Judet de La Combe &amp; Rousseau 1996&#160;:
+            482). La critique est juste. Cf. aussi les contributions d’Ada
+            Neschke sur le droit et Jean-Claude Carrière sur la signification
+            politique de l’opposition d’Hésiode à Homère (in <hi rend="italic">Ibid</hi>.).</p>
+          </note>, aide à définir des repères. Cette discontinuité, ou
+        contradiction entre plusieurs modes de poser le présent, vient
+        peut-être de ce que le présent humain n’est pas un objet facile
+        d’élaboration poétique. Contrairement au passé des héros ou des dieux,
+        il ne relève d’aucune forme unitaire de discours dont la cohérence et
+        la vérité seraient assurées par l’omniscience des Muses qui, quand il
+        s’agit du passé, viennent inspirer le poète. Ce présent est, comme le
+        rappelle le tout début du poème, problématique, contradictoire,
+        fluctuant et opaque. Il n’a pas de forme. Aucune Muse n’en a la
+        charge. On néglige trop souvent le fait que <hi rend="italic">Les
+        Travaux et les jours</hi> ne s’affichent pas comme un poème inspiré, à
+        l’inverse de la <hi rend="italic">Théogonie</hi>, qui raconte la
+        naissance des dieux (et non des hommes). Hésiode, sans l’aide des
+        Muses, s’y attache à «&#160;dire des vérités d’expérience&#160;», des <hi rend="italic">etêtuma</hi> (v. 10), et non des vérités cachées, les
+        <hi rend="italic">alêthea</hi> que les Muses, à leur guise, peuvent
+        délivrer selon la <hi rend="italic">Théogonie</hi> (v. 28)<note n="13" place="foot" type="standard" xml:id="ftn13">
+            <p>Ce terme a suscité une immense discussion. Il est, en effet,
+            associé paradoxalement aux «&#160;mensonges&#160;» <hi rend="italic">(pseudea)</hi> que les Muses peuvent aussi
+            transmettre. Cf. les contributions de Heinz Wismann, Jean
+            Rudhardt, Gregory Nagy, Graziano Arrighetti (in Blaise, Judet de
+            La Combe &amp; Rousseau 1996) et, également, Pietro Pucci (in
+            Hesiodus 2007).</p>
+          </note>. Il parle de sa propre autorité et essaie de construire
+        poétiquement le présent. Pour cela, il utilise diverses formes de
+        symbolisation. Le présent, par définition non représentable
+        directement dans une forme homogène<note n="14" place="foot" type="standard" xml:id="ftn14">
+            <p>Il est frappant que, dans la <hi rend="italic">Théogonie</hi>,
+            les Muses, qui, devant Zeus, savent chanter le présent, le futur
+            et le passé (dans cet ordre, v. 39), ne demandent pas à Hésiode,
+            qui chantera devant des humains, de chanter le présent. S’y
+            substituent «&#160;les dieux qui sont toujours&#160;» (v. 33). Le présent,
+            tel que les hommes peuvent l’expérimenter, ne compte pas, face à
+            l’éternel présent des dieux.</p>
+          </note>, résultera de la tension entre ces formes.</p>
+        <p xml:id="d1e277">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-dxni2k2e">discours</term>
+            </term>
+          </term>La marque
+        énonciative de la première personne<note n="15" place="foot" type="standard" xml:id="ftn15">
+            <p>Que le pronom «&#160;je&#160;» renvoie à une personne réelle ou n’ait de
+            réalité que formelle et conventionnelle importe peu. Il note,
+            quelle que soit sa référence, une rupture dans le discours, son
+            ancrage dans la situation de performance.</p>
+          </note> apparaît deux fois dans le mythe, dans son annonce et lors
+        de la présentation de la race présente, celle du fer. Chaque fois,
+        elle introduit un décalage entre l’acte de dire et le contenu
+        narratif. Dans l’ouverture du mythe, elle est injonctive, et demande à
+        <persName ref="050588400" type="idref" xml:base="https://www.idref.fr/">Persès</persName> d’intérioriser ce
+        qui va être dit. Elle annonce le contenu du récit <hi rend="italic">(logos)</hi>, dans un vers qui a pu paraître suspect,
+        car il ne correspond pas factuellement à ce qui va être raconté&#160;:</p>
+        <q rend="quotation">«&#160;Et si tu le veux, je vais pour toi mener à sa
+        pointe un autre récit,<lb/>Correctement et avec science – et toi,
+        introduis-le dans ton esprit –,<lb/>Selon lequel dieux et hommes
+        mortels sont de même origine&#160;».</q>
+        <q rend="quotation">(v. 106 <hi rend="italic">sq</hi>.)</q>
+        <p xml:id="d1e299">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-5wvg9nc7">héros</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-4x2wdhet">généalogie</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-lrxnglhp">divinité</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre</term>
+          </term>Le récit qui
+        suit ne dit rien de cette origine commune<note n="16" place="foot" type="standard" xml:id="ftn16">
+            <p>Le décalage entre le programme narratif posé par un proème et
+            le contenu du récit qui le suit est un trait commun à
+            l’énonciation épique. On le trouve dans l’<hi rend="italic">Iliade</hi>, l’<hi rend="italic">Odyssée</hi> et la
+            <hi rend="italic">Théogonie</hi>.</p>
+          </note>. Le vers ne résume pas le mythe, mais pose un horizon de
+        sens qui éclaire la différence, visible et expérimentée chaque jour,
+        entre hommes et dieux. Cette différence n’est pas donnée, mais doit se
+        penser, dans sa radicalité, comme différenciation et donc à partir de
+        son contraire, une proximité initiale. La succession des cinq races,
+        jusqu’à l’abandon par les dieux de la dernière, la race de fer, quand
+        elle sera devenue autodestrucrice, est ainsi à entendre sur fond d’un
+        autre discours, généalogique<note n="17" place="foot" type="standard" xml:id="ftn17">
+            <p>Comme le posent clairement les mots <hi rend="italic">homothen
+            gegaasi</hi>, «&#160;sont nés d’une même origine&#160;».</p>
+          </note> et non tenu, qui pose une origine partagée et une
+        séparation. L’auditeur est convié à interpréter ce qu’il va entendre
+        selon cette logique d’une division. Ce qui, chez les hommes, est
+        encore proche des dieux est, d’une part, voué à disparaître, mais, de
+        l’autre, sert de référence pour le présent (ainsi, les démons issus de
+        la race d’or comme auxiliaires de justice) ou pour le temps qui le
+        précède juste (l’âge des héros comme retour décalé, et en fait
+        marginal, à l’âge d’or)<note n="18" place="foot" type="standard" xml:id="ftn18">
+            <p>Jenny Strauss Clay insiste sur le fait que ce que les dieux
+            fabriquent par essais successifs d’abord inaboutis, c’est
+            l’humanité telle qu’elle existe aujourd’hui, après sa séparation
+            irréversible d’avec les dieux&#160;; c’est donc le présent qui organise
+            la série (2003&#160;: 129 <hi rend="italic">sqq</hi>.).</p>
+          </note>. Ce que les races concrétisent, ce sont moins des fonctions
+        ou les pôles d’un axe sémantique comme justice/injustice, que des
+        manières, selon les domaines de l’existence, de représenter
+        l’humanité, qui ne peut être pensée que dans sa contradiction, comme
+        prise entre cette proximité initiale avec les dieux et la distance qui
+        s’est instaurée.</p>
+        <p xml:id="d1e330">Ainsi, le bonheur quasi divin et festif des hommes
+        de l’âge d’or (qui représentent moins la justice royale que l’idéal
+        d’une paix sans litige que tout roi-juge du présent doit prendre comme
+        norme quand il a à régler des litiges), hommes qui ne vieillissent
+        pas, ne changent pas, peut être, à l’inverse, figuré du point de vue
+        d’une humanité séparée et condamnée au changement, à la maturation
+        progressive, comme un infantilisme prolongé qui débouche sur la
+        violence (dans l’âge d’argent). S’en tenir à l’opposition
+        justice/injustice est trop figé et ne rend pas compte de l’opération
+        qui produit les deux termes.</p>
+        <p xml:id="d1e333">La seconde intervention de la première personne a
+        fait couler beaucoup d’encre. Elle ouvre, de manière atypique, la
+        présentation de la dernière race. <persName ref="026921286" type="idref" xml:base="https://www.idref.fr/">Hésiode</persName>
+        regrette de lui appartenir&#160;:</p>
+        <q rend="quotation">«&#160;Si seulement je n’avais plus, encore, à faire
+        partie des cinquièmes<lb/>Hommes, et si j’étais mort avant ou si
+        j’étais né ensuite&#160;!<lb/>Car maintenant, c’est la race de fer…&#160;».</q>
+        <q rend="quotation">(v. 174 <hi rend="italic">sq.</hi>)</q>
+        <p xml:id="d1e348">
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+        intellectuelle</term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-lrxnglhp">divinité</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-mzt52qnr">hypothèse</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-g8oqkbfm">histoire</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-5wvg9nc7">héros</term>
+              </term>
+            </term>
+          </term>Comme
+        la race de fer va finir dans le désastre, l’expression «&#160;naître
+        ensuite&#160;», selon Vernant, doit se référer à un temps meilleur qui ne
+        peut, selon la logique du mythe, qu’être ou bien l’âge d’or, qui
+        recommencerait, ou, plus probablement, l’âge des héros. L’histoire
+        humaine repartirait en sens inverse (comme dans le mythe du <hi rend="italic">Politique</hi> de Platon). L’«&#160;ensuite&#160;» redevient
+        l’«&#160;avant&#160;». Mais l’hypothèse d’un cycle est précaire, car elle ne
+        repose que sur une interprétation de cette phrase<note n="19" place="foot" type="standard" xml:id="ftn19">
+            <p>Ce sont plutôt les philosophes qui ont inventé l’idée de cycle
+            pour maintenir l’idée d’une identité initiale se retrouvant dans
+            le temps, malgré la dispersion propre à l’instauration du réel. Le
+            présent trouvait ainsi sa place dans une continuité.</p>
+          </note>. Elle n’a, à juste titre, pas convaincu tous les
+        interprètes, qui ont vu soit dans le «&#160;avant ou ensuite&#160;» une
+        expression polaire traditionnelle pour dire «&#160;surtout pas
+        maintenant&#160;», soit ont cherché directement dans cet «&#160;après&#160;» le temps
+        ouvert par les conseils donnés aux rois<note n="20" place="foot" type="standard" xml:id="ftn20">
+            <p>Si l’on reste dans le cadre d’une temporalité définie par le
+            <hi rend="italic">Mythe</hi>, «&#160;ensuite&#160;» pourrait, plus
+            probablement, renvoyer à la race que Zeus ne manquera pas de créer
+            après qu’il aura détruit la race de fer (v. 180). Même si le <hi rend="italic">Mythe</hi> sature progressivement toutes les
+            possibilités de sens qu’il a ouvertes avec la première race, une
+            utopie serait ainsi désignée (hypothèse suggérée par Christophe
+            Pébarthe lors de mon séminaire à l’E<hi rendition="#T10">hess</hi>, «&#160;Les Temps de l’œuvre&#160;», en décembre
+            2015).</p>
+          </note>, mais cela va contre la logique fermée du mythe, qui, en
+        tant que catalogue, se présente comme une totalité close et
+        indépassable<note n="21" place="foot" type="standard" xml:id="ftn21">
+            <p>Traditionnellement, un catalogue associe une structure
+            principale, notée par la numération de ses éléments et les
+            contrastes majeurs qu’elle déploie, et des possibilités multiples
+            de regroupements. C’est un objet intellectuel complexe, comme un
+            mantra. Glenn W. Most (1997) a détaillé ces possibilités.</p>
+          </note>.</p>
+        <p xml:id="d1e375">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-5wvg9nc7">héros</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-j4tkm8dz">pensée</term>
+            </term>
+          </term>L’apparition
+        du «&#160;je&#160;» a plutôt ici une fonction disruptive. Elle manifeste que,
+        malgré le destin qui attend l’humanité, l’instance qui parle, du fait
+        qu’elle existe et peut, de l’extérieur, raconter le mythe, porte en
+        elle l’indice d’une autre possibilité. Le mythe, qui révèle les
+        tendances profondes de l’histoire humaine, en tant qu’elle se sépare
+        de celle des dieux, est par là désigné comme l’un des modes possibles
+        de penser l’humain, et non le seul. Ce mode suppose une représentation
+        systématique et fermée. Il n’épuise donc pas le réel. On ne vit pas
+        toujours selon le mythe, qui est une forme spécifique. L’enjeu du
+        récit, qui aboutit à une indétermination finale totalement achevée et
+        catastrophique de l’humain, quand les hommes seront des êtres
+        contradictoires, parce qu’ils naîtront «&#160;avec des tempes grises&#160;» et
+        seront donc à la fois vieux et jeunes (v. 181)<note n="22" place="foot" type="standard" xml:id="ftn22">
+            <p>Comme les monstres de la <hi rend="italic">Théogonie</hi> que
+            sont les Vieilles, «&#160;grises de cheveu dès la naissance&#160;» (v.
+            270).</p>
+          </note>, est de rappeler ce destin, pour permettre une conversion.
+        L’indétermination de l’humanité (face aux dieux, toujours stables) est
+        ainsi présentée comme son essence négative. Elle aura à être reconnue
+        pour être transformée en principe des comportements. Les hommes
+        n’auront pas à se considérer comme des dieux ou des héros<note n="23" place="foot" type="standard" xml:id="ftn23">
+            <p>Comme le fait le mauvais frère Persès, dont le nom, «&#160;le
+            pilleur&#160;», rappelle la pratique prédatrice des héros homériques,
+            qui ne travaillent pas, ne produisent pas leur subsistance.</p>
+          </note>. Si elle est pensée comme manque constitutif, comme
+        nécessité d’une activité toujours renouvelée dans le travail, de
+        manière à produire une vie que les dieux tiennent cachée (v. 47), elle
+        débouchera sur une conception plus juste de la justice humaine, qui
+        n’aura pas à répartir des biens déjà disponibles, mais des
+        possibilités de production. Pour le dire avec des mots volontairement
+        anachroniques, on passe d’une perspective théorique sur l’humain, dans
+        le mythe, à une perspective pratique. Aucune synthèse ne vient dans le
+        poème réunir les deux. Elles s’éclairent mutuellement, dans leur
+        différence.</p>
+        <p xml:id="d1e390">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du
+        langage</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-lfxz73x6">sciences des textes<term ref="doi:10.34817/sv-bpfouwze">philologie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+              </term>
+            </term>
+          </term>L’évolution
+        récente de l’anthropologie, plus attentive aux pratiques, et aussi de
+        la philologie, devenue, quand elle le veut, pragmatique<note n="24" place="foot" type="standard" xml:id="ftn24">
+            <p>Cette option n’est pas partagée par l’ensemble de la
+            profession, qui travaille avec des conceptions différentes du
+            langage. Je renvoie à ma reconstruction des ruptures qui
+            traversent ce champ (Judet de La Combe 2008).</p>
+          </note>, permet de maintenir les exigences de Jean-Pierre Vernant,
+        dans un cadre désormais plus ouvert.</p>
+      </div>
+    </body>
+    <back>
+      <div type="bibliography" xml:id="d1e397">
+        <listBibl xml:id="d1e398">
+          <bibl xml:id="d1e399">Bamberger, Ferdinand, 1966 «&#160;Über des Hesiodus
+          Mythus von den ältesten Menschengechlechtern [1842]&#160;», in Ernst
+          Heitsch, ed., <hi rend="italic">Hesiod</hi>. Darmstadt,
+          Wissenschaftliche Buchgesellschaft&#160;: 439-449.</bibl>
+          <bibl xml:id="d1e405">Blaise, Fabienne, Pierre Judet de La Combe
+          &amp; Philippe Rousseau, eds, 1996 <hi rend="italic">Le Métier du
+          mythe. Lectures d’Hésiode</hi>. Villeneuve d’Ascq, Presses
+          universitaires du Septentrion («&#160;Cahiers de philologie&#160;»).</bibl>
+          <bibl xml:id="d1e411">Bourdieu, Pierre, 1980 <hi rend="italic">Le
+          Sens pratique</hi>. Paris, Minuit («&#160;Le Sens commun&#160;»).</bibl>
+          <bibl xml:id="d1e417">Calame, Claude, 2015 <hi rend="italic">Qu’est-ce que la mythologie grecque&#160;?</hi> Paris,
+          Gallimard («&#160;Folio. Essais&#160;»).</bibl>
+          <bibl xml:id="d1e423">Couloubaritsis, Lambros, 1996 «&#160;Genèse et
+          structure dans le mythe hésiodique des races&#160;», in Fabienne Blaise,
+          Pierre Judet de La Combe &amp; Philippe Rousseau, eds, <hi rend="italic">Le Métier du mythe…</hi>&#160;: 479-518.</bibl>
+          <bibl xml:id="d1e429">Crubellier, Michel, 1996 «&#160;Le mythe comme
+          discours&#160;: le récit des cinq races humaines dans <hi rend="italic">Les Travaux et les jours</hi>&#160;», in Fabienne Blaise,
+          Pierre Judet de La Combe &amp; Philippe Rousseau, eds, <hi rend="italic">Le Métier du mythe</hi>…&#160;: 431-463.</bibl>
+          <bibl xml:id="d1e439">Detienne, Marcel, 1981 <hi rend="italic">L’Invention de la mythologie</hi>. Paris, Gallimard
+          («&#160;Tel&#160;»).</bibl>
+          <bibl xml:id="d1e445">Hesiod, 1978 <hi rend="italic">Works and
+          Days</hi> (= <hi rend="italic">Les Travaux et les jours</hi>). Ed.
+          by Martin L. West. Oxford, Clarendon Press.</bibl>
+          <bibl xml:id="d1e454">Hesiodus, 2007 <hi rend="italic">Inno alle
+          Muse (Esiodo, Teogonia, 1-115)</hi>. Testo, introduzione,
+          traduzionen e commento a cura di Pietro Pucci. Pisa-Roma, F.
+          Serra.</bibl>
+          <bibl xml:id="d1e460">Judet de La Combe, Pierre, 2008 «&#160;Sur les
+          conflits en philologie&#160;», <hi rend="italic">Quaderni Urbinati di
+          cultura classica</hi> 119&#160;: 17-30.</bibl>
+          <bibl xml:id="d1e466">Loraux, Nicole, 1973 «&#160;L’interférence
+          tragique&#160;», <hi rend="italic">Critique</hi> 317&#160;: 908-925.</bibl>
+          <bibl xml:id="d1e472">Loraux, Nicole, 1996 «&#160;<hi rend="italic">Back
+          to the Greeks&#160;?</hi> Chronique d’une expédition lointaine en terre
+          connue&#160;», in Jacques Revel &amp; Nathan Wachtel, eds, <hi rend="italic">Une école pour les sciences sociales. De la <hi rendition="#T10">vi</hi>
+              <hi rend="sup">e</hi> section à l’École des
+          hautes études en sciences sociales</hi>. Paris, Le Cerf-Éd. de
+          l’E<hi rendition="#T10">hess</hi> («&#160;Sciences humaines et
+          religion&#160;»)&#160;: 275-297.</bibl>
+          <bibl xml:id="d1e490">Most, Glenn W., 1997 «&#160;Hesiod’ Myth of the
+          Five (or Three or Four) Races&#160;», <hi rend="italic">Proceedings of
+          the Cambridge Philological Society</hi> 43&#160;: 104-127.</bibl>
+          <bibl xml:id="d1e496">Rudhardt, Jean, 1981 «&#160;Le mythe hésiodique des
+          races et celui de Prométhée&#160;: recherche des structures et des
+          significations&#160;», <hi rend="italic">Revue européenne des sciences
+          sociales</hi> 58&#160;: <hi rend="italic">Du mythe, de la religion
+          grecque et de la compréhension d’autrui</hi>&#160;: 246-281.</bibl>
+          <bibl xml:id="d1e505">Scheid, John &amp; Jesper Svenbro, 2014 <hi rend="italic">La Tortue et la lyre. Dans l’atelier du mythe
+          antique</hi>. Paris, <hi rendition="#T10">Cnrs</hi> Éd.</bibl>
+          <bibl xml:id="d1e514">Strauss Clay, Jenny, 2003 <hi rend="italic">Hesiod’s Cosmos</hi>. Cambridge, Cambridge University
+          Press.</bibl>
+          <bibl xml:id="d1e520">Vernant, Jean-Pierre, 1960 «&#160;Le mythe
+          hésiodique des races&#160;: essai d’analyse structurale&#160;», <hi rend="italic">Revue d’histoire des religions</hi> 157 (1)&#160;:
+          21-54.</bibl>
+          <bibl xml:id="d1e526">Vernant, Jean-Pierre, 1972 «&#160;Ébauches de la
+          volonté dans la tragédie grecque&#160;», in Jean-Pierre Vernant &amp;
+          Pierre Vidal-Naquet, <hi rend="italic">Mythe et tragédie en Grèce
+          ancienne</hi>. Paris, Maspero («&#160;Textes à l’appui&#160;»)&#160;: 41-74.</bibl>
+          <bibl xml:id="d1e533">Vernant, Jean-Pierre, 2007 «&#160;Méthode
+          structurale et mythe des races [1985]&#160;», in <hi rend="italic">Œuvres. Religions, rationalités, politique,</hi> 1.
+          Paris, Le Seuil («&#160;Opus&#160;»)&#160;: 314-334.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

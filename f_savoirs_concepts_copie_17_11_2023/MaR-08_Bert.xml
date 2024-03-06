@@ -1,0 +1,1743 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:mathml="http://www.w3.org/1998/Math/MathML" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="MaR-08_Bert">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Athéisme et incrédulité chez un&#160;savant genevois du
+        xviiie&#160;siècle</title>
+        <title type="sub">Ce qu’une approche matérielle des&#160;pratiques savantes
+        peut apporter au&#160;débat science/religion</title>
+        <title type="collection">Actes de colloque Matières à raisonner, sous
+        la direction de Françoise Briegel</title>
+        <author role="aut">
+          <forename>Jean-François</forename>
+          <surname>Bert</surname>
+          <idno type="IDREF">117676934</idno>
+          <affiliation>Université de&#160;Lausanne</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="ND">
+            <forename>Nicole</forename>
+            <surname>Dufournaud</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Première édition numérique, Paris, <date when="2022">2022</date> dans le cadre du projet Savoirs.</edition>
+      </editionStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/Z337MFEV" type="conferencePaper" xml:lang="fre">
+          <analytic>
+            <title level="a">Athéisme et incrédulité chez un&#160;savant genevois
+            du xviiie&#160;siècle</title>
+            <author>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </author>
+            <editor>
+              <forename>Françoise</forename>
+              <surname>Briegel</surname>
+            </editor>
+          </analytic>
+          <monogr>
+            <title type="conferenceName">Matières à raisonner</title>
+            <editor>
+              <forename>Jean-François</forename>
+              <surname>Bert</surname>
+            </editor>
+            <imprint>
+              <pubPlace>Genève</pubPlace>
+              <date>2022</date>
+              <biblScope unit="ordre">8</biblScope>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>Protestantisme</item>
+            <item>religion</item>
+            <item>pratiques savantes</item>
+            <item>science de la matière</item>
+            <item>atome</item>
+            <item>divinité</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-gskfncim">tournant
+          matériel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion<term ref="doi:10.34817/sv-qgdxlfpw">christianisme<term ref="doi:10.34817/sv-keykmqvh">protestantisme</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-ksek4j6u">scepticisme</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-xmvthwt6">méthode</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-a5z4hb43">doute</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-cfanua5r">doctrine</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-11-23T09:56:00" who="Jeanne FLAMANT">Révision</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:id="text">
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Athéisme et incrédulité chez un&#160;savant
+          genevois du <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</titlePart>
+          <titlePart type="sub">Ce qu’une approche matérielle des&#160;pratiques
+          savantes peut apporter au&#160;débat science/religion</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Jean-François Bert</docAuthor>
+          <affiliation>Université de&#160;Lausanne</affiliation>
+        </byline>
+      </titlePage>
+      <div type="abstract">
+        <p xml:lang="fre">Dans cet article nous cherchons à renouveler les
+        connaissances historiques sur les rapports science/religion à
+        <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName> durant <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> en prenant appui sur une perspective
+        historiographique particulière, centrée sur la question des pratiques
+        d’érudition. En suivant l’itinéraire d’un savant genevois, le
+        physicien et mathématicien <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Georges-Louis Le&#160;Sage</persName>
+        (1724-1803), il s’agira d’engager une série de nouvelles hypothèses
+        sur la place jouée par les valeurs religieuses, sur la manière dont sa
+        croyance influa ou non sur sa manière de penser, de voir, d’observer
+        le monde et certains de ses phénomènes, ou encore sur sa manière de
+        délimiter, explicitement, une distinction entre le domaine des
+        sciences(s) et celui de la religion.</p>
+      </div>
+    </front>
+    <body>
+      <div type="chapitre" xml:id="mainDiv">
+        <p xml:id="d1e86">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-cfanua5r">doctrine</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+            </term>
+          </term>Durant le
+        dernier tiers du <date from="1600" to="1699" type="_temp">
+            <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date> un
+        changement s’opère dans la cité de Calvin. L’affaiblissement de
+        l’influence du dogme et de la théologie calviniste réformée
+        s’accompagne de l’éclosion de nouvelles trajectoires scientifiques, en
+        particulier dans les sciences exactes<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Voir&#160;: <hi rend="small-caps">Heyd, 1980&#160;; Pitassi, 1992&#160;;
+            Fatio, 1991.</hi>
+            </p>
+          </note>. Un processus qui trouve une partie de son origine dans
+        l’introduction du cartésianisme à l’Académie de&#160;<placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName> par <persName ref="050597221" type="idref" xml:base="https://www.idref.fr/">Jean-Robert Chouet</persName>
+        (1642-1731) et J<persName type="_temp">ean-Alphonse
+        Turrettini</persName> (1671-1737).</p>
+        <p xml:id="d1e99">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+          </term>Historiens et
+        philosophes des sciences, spécialistes de l’histoire de <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName>, se sont
+        attelés à préciser la chronologie de ce basculement en suivant le
+        grand récit d’une sécularisation progressive qui continue d’être une
+        grille de lecture féconde (surtout en histoire des sciences) lorsqu’il
+        s’agit d’expliquer l’avènement d’une modernité fondée –&#160;disons-le
+        rapidement&#160;– sur un usage critique de la Raison. Une Raison qui,
+        surtout, n’hésite pas à imposer ses points de vue face à d’autres
+        traditions, dont la tradition religieuse.</p>
+        <p xml:id="d1e101">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+        savoirs<term ref="doi:10.34817/sv-rzpyfeps">support</term>
+          </term>Face
+        à ces lectures macrostructurelles, une approche matérielle des savoirs
+        permet de désigner avec bien plus de précision les nombreuses lignes
+        de faille qui se sont ouvertes entre les sciences et la religion dans
+        la <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName> du <date from="1700" to="1799" type="_temp">
+            <hi rend="small-caps">xviii</hi>
+            <hi rend="sup">e</hi>&#160;siècle</date>
+          <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Gingras montre comment les valeurs religieuses continuent de
+            conserver un poids social important en interdisant, en retardant
+            ou en essayant de re-dimensionner certaines recherches
+            scientifiques. Voir&#160;: <hi rend="small-caps">Gingras</hi>,
+            2013.</p>
+          </note>. En effet, le processus de différenciation entre les deux
+        domaines a été particulièrement complexe car même si ils ont bien fini
+        par entretenir des rapports d’exclusion (les sciences modernes
+        –&#160;expérimentales&#160;– demandant des mesures de plus en plus précises,
+        requérant des vérifications et excluant toute supposition d’une
+        exception de type miraculeux ou d’une finalité immanente<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>L’exemple de Genève est d’autant plus intéressant qu’il existe
+            une littérature pléthorique sur la structuration des mondes
+            savants durant l’époque moderne. Les réseaux épistolaires ont
+            aussi été largement utilisés pour dessiner les contours mouvants
+            de ce vaste réseau, ou pour préciser l’existence de plusieurs
+            particularités, dont la monopolisation de l’activité savante par
+            les patriciens de la cité&#160;; le développement d’un fort
+            individualisme qui semble être l’une des causes ayant empêché
+            l’éclosion de véritables équipes de recherche&#160;; voire aussi
+            l’intensification d’un certain goût pour la pratique concrète et
+            l’artisanat. Sur ces différents points, voir&#160;: <hi rend="small-caps">Trembley</hi>, 1987&#160;; <hi rend="small-caps">Ratcliff</hi> et <hi rend="small-caps">Stahl-Gretsh</hi>, 2011&#160;; <hi rend="small-caps">Montandon</hi>, 1975&#160;; <hi rend="small-caps">Benguigui, </hi>2006&#160;; <hi rend="small-caps">Sigrist</hi>, 2004.</p>
+          </note>), sciences et religion ont entretenu pendant une grande
+        partie de ce siècle des relations d’appui, voire de renforcement
+        réciproque<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>
+              <hi rend="small-caps"/>
+              <hi rend="small-caps">Bert</hi>,
+            2021.</p>
+          </note>.</p>
+        <p xml:id="d1e146">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-gskfncim">tournant
+        matériel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques savantes<term ref="doi:10.34817/sv-5hro9act">pratique intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion<term ref="doi:10.34817/sv-qgdxlfpw">christianisme<term ref="doi:10.34817/sv-keykmqvh">protestantisme</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-yuw7gtea">savant</term>
+            </term>
+          </term>À titre
+        d’exemple, une approche matérielle nous conduirait certes à repérer
+        comment les savants genevois ont perçu et présenté dans leurs écrits
+        publiés les grands –&#160;et les petits&#160;– obstacles épistémologiques à
+        surmonter pour véritablement faire œuvre de science. Mais aussi, et en
+        regard de ces textes, à prendre au sérieux la manière dont ils ont mis
+        en scène la question confessionnelle, de manière souvent bien plus
+        libre, dans des documents à caractère privé qu’il s’agisse des
+        correspondances, des brouillons, des carnets, et surtout pour ce qui
+        va nous intéresser ici, des fiches. Sur ce point, la trajectoire du
+        physicien et mathématicien <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Georges-Louis Le&#160;Sage</persName>
+        (1724-1803), connu pour avoir émis une hypothèse mécaniste de la
+        gravitation<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Son hypothèse, au sujet de la gravitation, fait intervenir des
+            transferts instantanés d’impulsion par le biais de «&#160;chocs&#160;» ou de
+            «&#160;collisions&#160;», conçus sur le modèle des chocs entre des boules de
+            billard. Voir&#160;: <hi rend="small-caps">Chabot</hi>, 2003.</p>
+          </note>, pour avoir rédigé vers&#160;<date from="1742" to="1743" type="_temp">1742-1743</date> un traité sur les causes finales, mais
+        aussi pour avoir occupé son temps à remplir des milliers de fiches à
+        partir de cartes à jouer, nous permettra de voir comment celui-ci
+        envisagea la question de Dieu et surtout celle de sa place dans son
+        système physique, par ailleurs assez complexe. À cette fin, nous nous
+        appuierons sur les très nombreux matériaux accumulés par <persName type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> sous
+        forme de fiches et qui rendent compte des petits accommodements du
+        physicien pour repenser l’idée d’un dieu créateur ou, pour reprendre
+        la formule de <persName ref="02704694X" type="idref" xml:base="https://www.idref.fr/">Newton</persName> que <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> fera sienne, d’un
+        «&#160;agent agissant<note n="6" place="foot" type="standard" xml:id="ftn6">
+            <p>Le Sage traduira les fameuses quatre lettres de Newton à
+            Bentley dans lesquelles le premier précise que la force de gravité
+            n’est pas inhérente à la matière et requiert la présence d’un
+            agent immatériel&#160;: «&#160;La gravité doit être causée par un agent
+            agissant constamment selon certaines lois&#160;; mais que cet agent
+            soit matériel ou immatériel, je l’ai laissé à la considération de
+            mes lecteurs.&#160;» Fonds <hi rend="small-caps">Le&#160;Sage</hi>&#160;: Ms. fr.
+            2011 /2, copie annotée de quatre&#160;lettres de Newton à Bentley sur
+            l’existence de Dieu (traduction littérale par Le Sage). Ces
+            lettres ont été publiées sous la rubrique «&#160;Théologie physique&#160;»,
+            dans <hi rend="italic">Bibliothèque Britannique</hi>, t.&#160;4,
+            p.&#160;89-109 et 189-205 (février-mars&#160;1797).</p>
+          </note>&#160;». Nous essaierons de faire hypothèse que la mobilité
+        qu’offre le format des fiches, la possibilité de les mélanger à
+        loisir, de les faire se répondre ou au contraire s’opposer, a eu des
+        répercussions tant sur la créativité scientifique et intellectuelle de
+        <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> que sur sa
+        capacité à faire exploser les dogmes classiques du protestantisme
+        calviniste dans le but de se choisir une croyance qui soit en
+        adéquation avec ses principales hypothèses physiques<note n="7" place="foot" type="standard" xml:id="ftn7">
+            <p>Pour en savoir plus sur le personnage et son fichier&#160;: <hi rend="small-caps">Bert</hi>, 2018.</p>
+          </note>.</p>
+        <div type="section1" xml:id="d1e172">
+          <head subtype="level1" xml:id="d1e173">Un premier décentrement&#160;:
+          logique spatiale et appareillage objectuel</head>
+          <p xml:id="d1e175">À première vue, il peut sembler étrange de faire
+          appel à une histoire matérielle des savoirs afin de documenter la
+          question des rapports entre science(s) et religion dans la modernité
+          genevoise. C’est oublier que cette perspective a déjà été largement
+          adoptée tant en histoire des religions qu’en histoire des sciences,
+          lorsqu’il s’est agi, par exemple, de déterminer le rôle des espaces
+          et des architectures, ou celui des objets, dans la production
+          des&#160;savoirs.</p>
+          <p xml:id="d1e177">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-dtlbbhdu">sociologie<term ref="doi:10.34817/sv-sdgsqpt2">sociologie des
+          sciences</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-qsxs8rem">architecture</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-qblmqvif">espace</term>
+              </term>
+            </term>L’aspect
+          territorial, spatial et architectural des lieux de culte a été une
+          thématique très tôt mise en avant en histoire des religions, comme
+          en témoignent les travaux sociologiques d’<persName ref="026846527" type="idref" xml:base="https://www.idref.fr/">Émile
+          Durkheim</persName> et de <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Marcel Mauss</persName>, pour qui
+          le sacré, au sens propre, s’identifie avec ce qui est séparé et
+          circonscrit, contrairement au profane qui, comme l’indique son
+          étymologie, désigne ce qui se trouve à l’extérieur de l’enceinte
+          réservée (<hi rend="italic">pro-fanum</hi>). C’est en reconnaissant
+          et en définissant le sacré aussi bien dans un ensemble de monuments
+          fixes (églises, chapelles, cimetières) que dans des parcours (lors
+          de pèlerinages), des trajets (lors de processions), des routes et
+          des frontières (entre le permis et l’interdit, le pur et l’impur),
+          que la socio-anthropologie française du religieux s’est détachée
+          d’un point de vue théologique. En effet, dès que l’on prend le
+          «&#160;paysage&#160;» religieux au sérieux, les cultes que l’on croyait
+          jusque-là immémoriaux ne cessent de se transformer. Ils résultent de
+          choix et de la volonté de tel ou tel groupe social. Ils se
+          construisent en fonction de certains rapports de force, de tensions
+          et d’intérêts partagés entre les logiques spirituelles
+          et&#160;temporelles.</p>
+          <p xml:id="d1e182">
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-t3rakkkg">circulation</term>
+            </term>Cette
+          première approche qui a mis volontairement l’accent sur l’ancrage
+          spatial des savoirs et des croyances religieuses a connu un
+          important renouveau au tournant des <date from="1980" to="1989" type="_temp">années&#160;1980</date>, en particulier dans le champ des
+          <hi rend="italic">Science and Technology Studies</hi> (STS)<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Pour une synthèse&#160;: <hi rend="small-caps">Gieryn</hi>, 2000&#160;;
+              <hi rend="small-caps">Withers</hi>, 2009&#160;; <hi rend="small-caps">Besse</hi>, 2010 et récemment <hi rend="small-caps">Bert</hi> et <hi rend="small-caps">Lamy</hi>,
+              2021.</p>
+            </note>. Dans son livre <hi rend="italic">Putting Science in Its
+          Place</hi>
+            <note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>
+                <hi rend="small-caps">Livingstone</hi>, 2003.</p>
+            </note>, l’une des premières synthèses d’ampleur sur la manière
+          dont la dimension spatiale et géographique affecte les activités de
+          savoir à travers l’histoire, <persName type="_temp">D.&#160;N.
+          Livingstone</persName> précise comment toutes les formes d’analyse
+          de distribution des savoirs dans l’espace architecturé d’un lieu
+          précis ou d’une géographie plus vaste sont susceptibles d’offrir un
+          surcroît d’intellection pour mieux cerner, justement, la question de
+          la production de ces savoirs. En un même mouvement, il propose de
+          saisir le locus des savoirs (la configuration spatiale générale),
+          les phénomènes de circulation (les trajets), et les structures
+          profondes de l’organisation des savoirs (les manières dont ils sont
+          mis en forme, mais surtout reformulés et transformés durant leur
+          circulation)<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>
+                <hi rend="small-caps">Besse</hi>, 2004.</p>
+            </note>.</p>
+          <p xml:id="d1e222">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et savoirs<term ref="doi:10.34817/sv-3ryxnaxd">style</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-c3ctxk7e">académie</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu<term ref="doi:10.34817/sv-tstulmk7">bibliothèque</term>
+              </term>
+            </term>Cette
+          approche spatiale des savoirs et des croyances, doublement héritière
+          d’une socio-anthropologie du sacré et d’une histoire des sciences
+          portée sur la question des logiques sociales de production et de
+          diffusion des savoirs savants, semble particulièrement pertinente
+          dans le cas qui nous intéresse ici, à savoir la ville de <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName> au <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date> car
+          il existe alors plusieurs pôles d’affinités, des circulations
+          privilégiées, des divisions plus ou moins évidentes entre science et
+          religion. C’est le cas des différents lieux d’apprentissage que sont
+          l’Académie, le Collège ou la Bibliothèque de <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName> qui
+          structurent alors fortement la production et surtout la diffusion
+          des savoirs dans la cité de Calvin. L’Académie, lieu de formation
+          des pasteurs, aura beau s’ouvrir au début du <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date> à de nouvelles philosophies, telles
+          que le cartésianisme, elle ne cessera jamais d’être une institution
+          conservatrice soucieuse, surtout, de «&#160;transmettre une vision du
+          monde cohérente dans laquelle les acquis scientifiques et
+          philosophiques [peuvent] coexister sans problème avec les fondements
+          logiques et conceptuels de la théologie naturelle et de
+          l’ontologie<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>
+                <hi rend="small-caps">Ratcliff</hi> et <hi rend="small-caps">Candaux,</hi> 2011.</p>
+            </note>&#160;». Ces quelques «&#160;hauts lieux&#160;» de la production des
+          savoirs sont d’autant plus importants qu’ils vont aussi jouer un
+          rôle non négligeable dans la construction d’une forme d’entre-soi,
+          d’une identité, voire d’un «&#160;style&#160;» singulier de faire science
+          à&#160;<placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName>
+            <note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="small-caps">Jacob</hi>, 2007 et 2011.</p>
+            </note>.</p>
+          <p xml:id="d1e251">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument</term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-rkp2ctq5">pratique manuelle<term ref="doi:10.34817/sv-2gfcysnm">savoir-faire</term>
+              </term>
+            </term>Après
+          la prise en compte de cette matérialité spatiale des savoirs, ce que
+          l’on a convenu d’appeler l’<hi rend="italic">object turn</hi> permet
+          d’ajouter une autre ligne d’investigation relative cette fois-ci à
+          la question de la densité des choses, de l’affection portée pour un
+          objet, ou encore de l’apprentissage et des nombreux savoir-faire
+          qu’exige tout engagement dans les pratiques religieuses/savantes. En
+          histoire des religions, et depuis Durkheim et son analyse fondatrice
+          des churingas australiens dans les <hi rend="italic">Formes
+          élémentaires de la vie religieuse</hi> (1912), plusieurs approches
+          récentes ont cherché à prendre au sérieux la question des objets
+          –&#160;surtout de leur façonnement et de leur diffusion&#160;– conduisant les
+          auteurs à mieux documenter l’attachement profond que le croyant
+          développe à leur égard<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Voir ces deux colloques internationaux récents&#160;: «&#160;La force
+              des objets&#160;», organisé en&#160;2013 à l’université
+              Toulouse&#160;2–Jean-Jaurès, et «&#160;Matérialités religieuses&#160;», qui
+              s’est tenu au musée du quai Branly en&#160;2015. <hi rend="small-caps">Albert, Cohen, Kedzierska-Manzon </hi>et<hi rend="small-caps"> Mottier</hi>, 2016.</p>
+            </note>. De la même manière, l’histoire des sciences, en
+          particulier celle portant sur l’époque moderne, s’est longuement
+          interrogée sur la mobilisation par les savants de certains
+          instruments lors de leurs expérimentations, afin de penser et
+          d’élaborer de nouvelles hypothèses scientifiques. <hi rend="italic">Le&#160;Léviathan et la pompe à air</hi> de <persName type="_temp">S.&#160;Shapin</persName> et <persName type="_temp">S.&#160;Schaffer</persName> a ouvert la voie à ce type de
+          description où un instrument, souvent complexe, comme pouvait l’être
+          la pompe à air de <persName type="_temp">Boyle</persName>, se
+          retrouve projeté au cœur d’un conflit théorique et philosophique
+          d’importance, ici concernant le statut de&#160;l’expérimentation<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>
+                <hi rend="small-caps">Shapin</hi> et <hi rend="small-caps">Schaffer</hi>, 1993.</p>
+            </note>.</p>
+          <p xml:id="d1e283">Comme l’approche spatiale, cette manière de
+          prendre en compte la place des objets semble particulièrement
+          heuristique lorsqu’il s’agit de préciser la question de l’essor de
+          l’histoire naturelle, de la physique expérimentale ou encore des
+          sciences de la terre à <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName> durant le
+          <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>. Un
+          détour par les objets mobilisés permet de mieux comprendre la quête
+          de la mesure qui anime alors certains savants, en particulier au
+          travers de l’usage répété des thermomètres, des baromètres ou des
+          hygromètres, ce qui ne manque pas de provoquer d’importantes
+          controverses<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>Par exemple&#160;: <hi rend="small-caps">Sigrist</hi>, 2011.</p>
+            </note>. Ces objets de mesure, souvent inventés spécifiquement
+          pour cela, ont parfois aussi été détournés de leur usage initial.
+          Certains sont venus reconfigurer des pratiques savantes, d’autres
+          ont permis de faire émerger de nouvelles interrogations, dont une
+          partie a pu favoriser l’éloignement progressif des savants genevois
+          du dogme religieux. En utilisant tel ou tel instrument, en mesurant
+          mieux, en comptant mieux, ou encore en accroissant leur capacité à
+          maîtriser la nature, ils ont fini par établir une séparation de plus
+          en plus stricte entre le domaine du religieux et celui de
+          la&#160;science.</p>
+        </div>
+        <div type="section1" xml:id="d1e298">
+          <head subtype="level1" xml:id="d1e299">Le cas des pratiques savantes
+          et des&#160;technologies de&#160;papiers</head>
+          <p xml:id="d1e301">Il est possible d’envisager un troisième
+          déplacement matériel qui, après le détour spatial et objectuel,
+          s’occuperait des pratiques savantes, celles du moins qui disposent
+          les corps savants à observer, classer, manipuler, porter, déplacer,
+          regarder, scruter, lire et écrire. Le naturaliste, on l’oublie trop
+          souvent, collecte et étiquette ses échantillons avant de les
+          analyser et de les inventorier<note n="16" place="foot" type="standard" xml:id="ftn16">
+              <p>On peut penser sur ce point à la «&#160;botanophilie&#160;», mis en
+              lumière par <hi rend="small-caps">Ruppel</hi>, 2019.</p>
+            </note>. Le bibliothécaire, lui, catalogue et indexe ses livres.
+          Le philologue transcrit, corrige et compare ses recueils de mots ou
+          de textes.</p>
+          <p xml:id="d1e310">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-62zgj9wm">statut<term ref="doi:10.34817/sv-hqtabnbr">érudit</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-honnusro">pratique lettrée<term ref="doi:10.34817/sv-qyxkjpqw">compilation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-qyzckmpa">mémorisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-omg7jwnu">documentation</term>
+              </term>
+            </term>Avant
+          d’explorer la nature de ces différents savoirs savants, il paraît
+          essentiel d’observer la chorégraphie des différents gestes qui sont
+          à l’œuvre, par exemple, en suivant l’usage et le maniement par ces
+          mêmes savants d’outils de référencement spécifiques tels que les
+          index ou les thésaurus. Plusieurs historiens de la période moderne
+          ont pu montrer, à ce sujet, qu’une analyse approfondie des méthodes
+          de travail, des manières spécifiques de citer et de mobiliser des
+          textes, de prendre des notes, de commenter, de corriger, ou encore
+          de faire appel à des stratégies mnémotechniques personnelles était
+          tout à fait possible et ce en regardant attentivement comment se
+          transforme la pratique documentaire, qui devient de plus en plus
+          proliférante au cours du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>
+            </date> et du <date from="1700" to="1799" type="_temp">
+              <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+            <note n="17" place="foot" type="standard" xml:id="ftn17">
+              <p>Voir <hi rend="small-caps">Blair</hi>, 2010 et <hi rend="small-caps">Daston</hi>, 2017. Le <hi rend="small-caps">xviii</hi>
+                <hi rend="sup">e</hi>&#160;siècle est
+              porteur de nombreux autres changements. La gestion des
+              connaissances devient plus flexible, de nouvelles pratiques de
+              compilation se développent, le champ des phénomènes qui comptent
+              comme objets légitimes d’étude scientifique évolue et ne cesse
+              de s’élargir. Plus globalement encore, le travail de l’homme de
+              science ne se conçoit plus comme une forme de loisir
+              sophistiqué, mais renvoie à un effort souvent pénible. La
+              perception qu’ont les chercheurs de leur rôle public change
+              aussi, car la science doit contribuer désormais à la réalisation
+              véritable d’un mieux vivre en&#160;commun.</p>
+            </note>. Les mouvements de la pensée s’incarnent dans le maniement
+          de ces objets, et en particulier dans l’emploi de certains supports
+          graphiques.</p>
+          <p xml:id="d1e337">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-qcvnt7ns">liste</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-enb4csg8">codex</term>
+                </term>
+              </term>
+            </term>Pour
+          ce qui est des savants suisses de la République des Lettres, il
+          existe une littérature fournie concernant leurs usages de la
+          correspondance<note n="18" place="foot" type="standard" xml:id="ftn18">
+              <p>
+                <hi rend="sup"/>Voir <hi rend="small-caps">Holenstein</hi>,
+              <hi rend="small-caps">Steinke</hi> et <hi rend="small-caps">Stuber</hi>, 2013&#160;; N<hi rend="small-caps">icoli</hi>, 2013. On peut penser ici au
+              développement de la plate-forme&#160;<hi rend="italic">Haller
+              online</hi>&#160;: <ref target="http://www.albrecht-von-haller.ch/d/hallerstiftung.php">http://www.albrecht-von-haller.ch/d/hallerstiftung.php</ref>.</p>
+            </note>.&#160;Mais il est temps, peut-être de s’interroger, aussi, sur
+          la place du support «&#160;ordinaire&#160;» du travail savant, à savoir le
+          codex sous ses différentes formes (livre, cahier, carnet, registre,
+          etc.), en particulier dans les activités d’observation. Il est sans
+          doute difficile d’expliquer l’extension de la pratique du carnet,
+          surtout à partir du <date from="1600" to="1699" type="_temp">
+              <hi rend="small-caps">xvii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, en
+          essayant de la rattacher à une croyance religieuse particulière,
+          étant donné que la technique est utilisée aussi bien chez les
+          savants catholiques (comme <persName type="_temp">Redi</persName> en
+          Italie) que chez les protestants (comme le fait <persName type="_temp">Boyle</persName>). Par contre, on peut se demander si
+          l’usage du carnet, à <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName>, n’est pas
+          le signe d’une intensification des observations sur la nature qui
+          aurait pour origine la valorisation protestante de l’œuvre de Dieu.
+          Comme d’autres avant nous<note n="19" place="foot" type="standard" xml:id="ftn19">
+              <p>Voir&#160;: <hi rend="small-caps">Bourguet,</hi> 2017&#160;; <hi rend="small-caps">Minzetanu</hi>, 2016&#160;; <hi rend="small-caps">Yeo</hi>, 2014.</p>
+            </note> et tel que nous le verrons dans ce qui suit, nous pensons
+          qu’il existe un lien entre le choix de certains supports
+          d’inscription et la mise en œuvre de rationalités spécifiques. On
+          pourrait d’ailleurs étendre cette hypothèse à l’usage des listes ou
+          à celle des fiches<note n="20" place="foot" type="standard" xml:id="ftn20">
+              <p>Par exemple, <hi rend="small-caps">Bert,</hi> 2017&#160;; <hi rend="small-caps">Delbourgo </hi>et<hi rend="small-caps">
+              Müller-Wille</hi>, 2012.</p>
+            </note>. Ces «&#160;micro-opérations&#160;» savantes peuvent en tout cas
+          faire l’objet d’une histoire comparée, et cela d’autant plus que
+          nous en savons davantage sur l’organisation de certaines cultures
+          savantes particulières<note n="21" place="foot" type="standard" xml:id="ftn21">
+              <p>Par exemple&#160;: <hi rend="small-caps">Shapin</hi>, 2014.</p>
+            </note>.</p>
+          <p xml:id="d1e405">La question est centrale car, si certaines
+          pratiques d’érudition ont bien leur origine dans la construction de
+          l’État moderne et dans le développement de l’action administrative
+          <date from="1100" to="1799" type="_temp">entre le <hi rend="small-caps">xii</hi>
+              <hi rend="sup">e</hi> et le <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>
+            <note n="22" place="foot" type="standard" xml:id="ftn22">
+              <p>Sur ce point&#160;: <hi rend="small-caps">Fossier</hi>, <hi rend="small-caps">Petitjean </hi>et <hi rend="small-caps">Revest</hi>, 2019.</p>
+            </note>, une anthropologie historique et comparée des pratiques
+          savantes pourrait révéler l’existence d’un lien, souvent étroit,
+          avec des pratiques plus anciennes, d’ordre religieuses ou
+          spirituelles. Les archives des savants genevois apporteraient ici de
+          précieuses indications. Il suffit de rappeler quelques trajectoires
+          entre science et religion&#160;: le mathématicien <persName ref="101299761" type="idref" xml:base="https://www.idref.fr/">Gabriel Cramer</persName>
+          (1704-1752) est issu d’une famille protestante&#160;; le physicien
+          <persName ref="02851310X" type="idref" xml:base="https://www.idref.fr/">Jean Jallabert</persName>
+          (1712-1768), consacré pasteur en&#160;<date type="_temp" when="1737">1737</date>, est le fils du théologien <persName ref="11032580X" type="idref" xml:base="https://www.idref.fr/">Étienne Jallabert</persName>&#160;; le
+          naturaliste et biologiste <persName type="_temp">Charles
+          Bonnet</persName> (1720-1793) a conservé une croyance résolue en la
+          religion mais surtout a transformé la pratique de l’examen de
+          conscience, centrale dans le protestantisme réformé calviniste, en
+          un principe épistémologique de réflexivité savante quotidienne<note n="23" place="foot" type="standard" xml:id="ftn23">
+              <p>
+                <hi rend="sup"/>Voir&#160;: <hi rend="small-caps">von
+              Greyerz</hi>, 2016&#160;; <hi rend="small-caps">Hahn</hi>, 1986.</p>
+            </note>&#160;; <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Abraham Trembley</persName>
+          (1710-1784) s’est préparé à devenir pasteur avant de se consacrer à
+          la zoologie&#160;; le météorologue <persName ref="030959977" type="idref" xml:base="https://www.idref.fr/">Jean-André Deluc</persName>
+          (1727-1817) a développé une géologie en partant de données issues de
+          la Genèse<note n="24" place="foot" type="standard" xml:id="ftn24">
+              <p>
+                <hi rend="sup"/>
+                <hi rend="small-caps">Hubner</hi>, 2010.</p>
+            </note>&#160;; le botaniste <persName ref="032377525" type="idref" xml:base="https://www.idref.fr/">Augustin Pyramus
+          de&#160;Candolle</persName> (1778-1841) condamna toute religion
+          dogmatique au profit de la seule légitimité de la Révélation<note n="25" place="foot" type="standard" xml:id="ftn25">
+              <p>
+                <hi rend="sup"/>
+                <hi rend="small-caps">Bungener</hi>, 2018&#160;;
+              <hi rend="small-caps">Bungener, Matille </hi>et<hi rend="small-caps"> Callmander</hi>, 2017.</p>
+            </note>. La plupart de ces savants ont aussi côtoyé, parfois de
+          près, le naturaliste et bibliothécaire <persName ref="05866551X" type="idref" xml:base="https://www.idref.fr/">Jean
+          Senebier</persName> (1742-1809), petit-fils de pasteur devenu
+          lui-même pasteur en&#160;<date type="_temp" when="1769">1769</date>,
+          avant d’être nommé bibliothécaire de la nouvelle bibliothèque de
+          <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName> en&#160;<date from="1772" to="1773" type="_temp">1772-1773</date>
+            <note n="26" place="foot" type="standard" xml:id="ftn26">
+              <p>
+                <hi rend="small-caps">Pictet</hi>, 1988&#160;; <hi rend="small-caps">Grmek</hi>, 1991.</p>
+            </note>.</p>
+          <p xml:id="d1e475">Ces connexions finissent en tout cas par soulever
+          de nombreuses questions qu’il faut, pour certaines, envisager
+          sérieusement&#160;: d’où vient la vocation scientifique&#160;? Comment se
+          déclare-t-elle chez des savants qui ont d’abord «&#160;rêvé&#160;» de devenir
+          pasteurs&#160;? Quel rôle jouent certaines valeurs spécifiquement
+          religieuses, telles que l’humilité, l’honnêteté, la piété, la
+          responsabilité devant Dieu, ou la condamnation de l’oisiveté, que
+          ces savants vont parfois mobiliser au cours de leur activité de
+          recherche&#160;? Quel est l’impact de l’institutionnalisation et de la
+          professionnalisation des activités de recherche savante, en
+          particulier à une époque où elles ne sont pas encore considérées
+          comme une profession, une activité à temps plein, une nécessité
+          pédagogique, politique et&#160;sociale&#160;?</p>
+          <p xml:id="d1e477">En poussant encore plus loin notre hypothèse
+          matérielle, il serait encore possible de distinguer les savants
+          genevois pour qui la question des relations entre science(s) et
+          religion a été un problème à résoudre au préalable, et dont les
+          travaux (ou certaines parties de leurs travaux) s’en ressentent
+          directement ou indirectement (comme <persName ref="085101982" type="idref" xml:base="https://www.idref.fr/">Trembley</persName>,
+          <persName type="_temp">Bonnet</persName>, <persName ref="030959977" type="idref" xml:base="https://www.idref.fr/">Deluc</persName>,
+          <persName ref="05866551X" type="idref" xml:base="https://www.idref.fr/">Senebier</persName>), de ceux pour
+          qui cette différenciation semble moins problématique ou a déjà été
+          réglée (<persName ref="02851310X" type="idref" xml:base="https://www.idref.fr/">Jallabert</persName>, <persName type="_temp">Saussure</persName>, <persName type="_temp">Cramer</persName>, <persName type="_temp">Calandrini</persName>). De ce point de vue, le cas du
+          mathématicien et physicien <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Georges-Louis Le&#160;Sage</persName>
+          qui, dans une de ses nombreuses affirmations de son non-conformisme
+          religieux, dit et répète croire «&#160;à sa manière<note n="27" place="foot" type="standard" xml:id="ftn27">
+              <p>«&#160;Papiers Le Sage&#160;», en particulier BGE Ms. fr. 2001-2067,
+              Ms. suppl. 512-519.</p>
+            </note> », semble intéressant. Il montre en effet concrètement
+          comment s’articule, en particulier durant la <date from="1750" to="1799" type="_temp">seconde moitié du <hi rend="small-caps">xviii</hi>
+              <hi rend="sup">e</hi>&#160;siècle</date>, le
+          jeu de tensions complexes qui s’organise entre science et religion
+          dont les plans d’intelligibilité vont rapidement finir par devenir
+          fondamentalement contradictoires<note n="28" place="foot" type="standard" xml:id="ftn28">
+              <p>Pour en savoir plus sur l’histoire de l’athéisme&#160;durant
+              l’époque des Lumières, voir&#160;: <hi rend="small-caps">Hunter</hi>
+              et <hi rend="small-caps">Wootton</hi>, 1992.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e504">
+          <head subtype="level1" xml:id="d1e505">Georges-Louis Le&#160;Sage et son
+          traité sur les&#160;causes finales</head>
+          <p xml:id="d1e507">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-psdz4hq4">religion</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqh2gctd">livre<term ref="doi:10.34817/sv-r5zhd3lp">manuscrit</term>
+              </term>
+            </term>Outre
+          son travail de physicien et de mathématicien, <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> a aussi
+          longuement réfléchi à la question religieuse, projetant d’écrire à
+          partir des années&#160;<date from="1742" to="1743" type="_temp">1742-1743</date> un traité sur les causes finales. Le
+          manuscrit, malheureusement inabouti, comme plusieurs autres de ses
+          travaux, connaît une histoire complexe. Sollicité par la <persName ref="056580444" type="idref" xml:base="https://www.idref.fr/">duchesse d’Enville</persName>
+          (1716-1797), le physicien genevois lui fait remettre, en&#160;<date type="_temp" when="1763">1763</date>, 72&#160;pages manuscrites.
+          Trente&#160;ans plus tard, en&#160;<date type="_temp" when="1793">1793</date>,
+          <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> lui redemande sa
+          copie qui lui parviendra finalement en&#160;<date type="_temp" when="1794">1794</date>. Désabusé par le peu d’écho rencontré par sa
+          théorie mécanique de la gravitation, <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>
+          décide de reprendre ses notes éparses, sans réussir pourtant à leur
+          donner une forme exploitable avant sa mort en&#160;<date type="_temp" when="1803">1803</date>. En&#160;<date type="_temp" when="1805">1805</date>, l’un de ses élèves, <persName type="_temp">Pierre Prevost</persName> (1751-1839), décide de
+          publier les pages rédigées du traité dans la notice biographique
+          qu’il consacre à <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>&#160;; pages qui ont
+          été revues et corrigées par <persName ref="109292626" type="idref" xml:base="https://www.idref.fr/">Salomon Reverdil</persName>
+          (1732-1808) avec qui <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> s’était
+          entretenu de son projet en&#160;<date type="_temp" when="1755">1755</date>
+            <note n="29" place="foot" type="standard" xml:id="ftn29">
+              <p>
+                <hi rend="small-caps">Prevost</hi>, 1805.</p>
+            </note>.</p>
+          <p xml:id="d1e516">L’ébauche publiée en <date type="_temp" when="1805">1805</date> est loin de rendre compte de la profondeur
+          des vues du physicien comme l’indique d’ailleurs <persName ref="109292626" type="idref" xml:base="https://www.idref.fr/">Reverdil</persName> dans sa courte
+          introduction<note n="30" place="foot" type="standard" xml:id="ftn30">
+              <p>Admis en 1747 à l’Académie de Genève, Reverdil fut consacré
+              en&#160;1755 au ministère ecclésiastique, qu’il n’a cependant jamais
+              exercé. Le boîtier 2009 a/b/c, conservé dans le fonds Le Sage de
+              la BGE, renferme une partie des fiches ayant trait au traité.
+              Les différents sachets ont été annoté par Reverdil en fonction
+              du possible intérêt des vues de Le&#160;Sage. Par exemple, et pour le
+              sachet&#160;15, on peut lire, noté au crayon&#160;: «&#160;Il reste quelques
+              petites idées&#160;»&#160;; pour le&#160;16&#160;: «&#160;Très mélangé&#160;»&#160;; pour le
+              sachet&#160;17&#160;: «&#160;Est plus mathématique que physique&#160;»&#160;; pour le&#160;23,
+              il note&#160;: «&#160;Presque entièrement inutile&#160;»&#160;; pour le&#160;35, il note
+              au contraire qu’il «&#160;peut se conserver&#160;».</p>
+            </note>. Il manque, en particulier, un chapitre entier sur les
+          causes finales des formes différentes des corps organisés. <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> y critique «&#160;la
+          pensée de quelques auteurs, qui admiraient la variété comme un but,
+          ou comme une beauté dans la création, au lieu que ce n’est qu’un
+          résultat de fins et de moyens très supérieurs. Ce chapitre n’a
+          jamais été entièrement rédigé&#160;; il y manque des considérations
+          physico-mathématiques, qui en auraient fait la&#160;richesse<note n="31" place="foot" type="standard" xml:id="ftn31">
+              <p>Comme l’indique Reverdil, on peut retrouver des éléments du
+              traité de Le&#160;Sage dans les <hi rend="italic">Contemplations de
+              la nature</hi> de Charles Bonnet, mais aussi dans la <hi rend="italic">Théologie naturelle</hi> de Paley, publiée en&#160;1802
+              et traduite à Genève en&#160;1815 par Charles Pictet.</p>
+            </note>&#160;».</p>
+          <p xml:id="d1e533">
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-lrxnglhp">divinité</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-barjmjqd">observation</term>
+              </term>
+            </term>La
+          notation est importante. En effet, une lecture rapide du traité
+          pourrait facilement déceler chez <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> des
+          propositions somme toute classiques concernant la place de Dieu, la
+          religion naturelle, ou les aspects rationnels et éthiques de la
+          religion. La théologie naturelle, alors en vogue chez les savants
+          genevois, semble leur offrir la possibilité de concilier facilement
+          le discours de l’expérience et l’observation des merveilles de la
+          nature<note n="32" place="foot" type="standard" xml:id="ftn32">
+              <p>Cet article ne nous permet pas d’aller plus loin sur la
+              question, mais il faudrait, pour bien comprendre la singularité
+              des vues de Le Sage, se demander, par exemple&#160;: qui, des savants
+              genevois de cette époque affirma le caractère autonome du
+              discours scientifique par rapport au discours théologique&#160;? Qui,
+              aussi, décida de proscrire toute explication des phénomènes
+              naturels par les causes finales&#160;? Qui, encore, accepta de
+              s’inscrire en faux contre les interprétations littérales de la
+              Bible en valorisant la vérification et l’expérimentation des
+              hypothèses&#160;?</p>
+            </note>. Il y a cependant plusieurs éléments qui différencient
+          nettement les propositions et les hypothèses de <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> d’autres
+          tentatives concordistes, comme celle de <persName ref="05866551X" type="idref" xml:base="https://www.idref.fr/">Senebier</persName>
+          qui lui aussi chercha à démontrer l’existence de Dieu par les causes
+          finales dans son <hi rend="italic">Essai de téléologie ou théorie
+          des causes finales</hi>
+            <note n="33" place="foot" type="standard" xml:id="ftn33">
+              <p>
+                <hi rend="sup"/>Ms. fr. supplément 472.</p>
+            </note>.</p>
+          <p xml:id="d1e548">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-5wyh9eft">critique</term>
+              </term>
+            </term>En
+          premier, il faut noter l’intention profondément critique du traité
+          de <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>. Si le physicien
+          décide d’écrire sur un tel sujet, c’est d’abord parce qu’il est
+          exaspéré par le caractère vague et hasardeux des ouvrages de
+          théologie qui sont le plus souvent écrits à partir d’observations
+          décousues. N’existe-t-il pas des règles fiables d’analyse pour
+          fonder, sur certaines prémisses, la proposition que Dieu existe&#160;?
+          L’objectif principal du physicien n’est donc pas, comme on pourrait
+          s’y attendre, de «&#160;sauver les apparences<note n="34" place="foot" type="standard" xml:id="ftn34">
+              <p>Selon la formule de Pierre Duhem&#160;: <hi rend="small-caps">Duhem</hi> 1989.</p>
+            </note>&#160;» et de maintenir l’idée d’un Dieu créateur<hi rend="small-caps">,</hi> encore moins de maintenir coûte que coûte
+          l’existence d’une union entre science et religion. Il s’agit, au
+          contraire, d’épingler les faiblesses logiques, argumentatives et
+          théoriques dont sont remplis les traités de théologie qui ignorent
+          le corpus de la nature et, plus particulièrement, le fait qu’il
+          existe des lois régissant son fonctionnement. Pour <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>, tout ne peut
+          pas être la preuve de l’existence d’un être intelligent. Il faut
+          cependant le dire et surtout l’écrire en utilisant un langage mesuré
+          et pesé. En ces questions, il est important de s’écarter d’un
+          discours convenu, idéologique dirions-nous aujourd’hui, mais il faut
+          aussi savoir éviter la précipitation en commençant par accumuler des
+          preuves, peu importe qu’elles soient complètes ou incomplètes. Dieu
+          se logeant dans les détails, c’est dans cette direction qu’il faut,
+          pour <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le Sage</persName>, savoir tourner
+          le regard&#160;: «&#160;il n’y a point d’absurdité à représenter l’Être
+          Éternel occupé à plier l’aile d’un scarabée, ou à compasser
+          l’alvéole d’une abeille<note n="35" place="foot" type="standard" xml:id="ftn35">
+              <p>
+                <hi rend="small-caps">Prevost</hi>, 1805, p.&#160;514-515.</p>
+            </note>&#160;».</p>
+          <p xml:id="d1e568">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-mzt52qnr">hypothèse</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+          discursive<term ref="doi:10.34817/sv-ashhxdrq">argumentation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-tk7kszgy">raisonnement</term>
+              </term>
+            </term>La
+          seconde singularité du traité de <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>
+          réside dans un type particulier de raisonnement qui résulte d’une
+          stricte application de deux méthodes conjointes. Dans un premier
+          temps, <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> fait appel à ce
+          qu’il nomme le «&#160;tâtonnement&#160;», entendant par là un procédé dont le
+          but est de recomposer le tout en partant des différentes parties
+          impliquées&#160;: «&#160;Lorsqu’on ne pourra pas embrasser d’un coup d’œil
+          tout le système proposé, il faudra, suivant les règles ordinaires de
+          la logique, le considérer par parties&#160;: ou, ce qui est la même
+          chose, le décomposer en plusieurs systèmes moindres, pour les
+          considérer chacun à part<note n="36" place="foot" type="standard" xml:id="ftn36">
+              <p>
+                <hi rend="italic">Ibid</hi>
+                <hi rend="small-caps">.</hi>,
+              p.&#160;524.</p>
+            </note>&#160;». En fonction de la présence ou de l’absence d’éléments
+          factuels sur lesquels fonder son raisonnement, Le Sage pourra
+          également avoir recours à une seconde technique, qu’il nomme
+          l’«&#160;hypothèse&#160;»&#160;:</p>
+          <quote rend="quotation" xml:id="d1e580">Lorsqu’une analyse exacte ne
+          peut pas nous conduire à la découverte des fins dans un système
+          proposé, et que toutes les questions qu’on doit résoudre pour en
+          donner une théorie complète se présentent de front (ce qui arrive le
+          plus souvent)&#160;; comme il n’y a pas de preuves qui puissent diriger
+          une analyse régulière, il faudra former une hypothèse qui paraisse
+          répondre à toutes les questions, et tâcher ensuite de confirmer ou
+          de détruire cette hypothèse par la comparaison exacte qu’on en fera
+          avec les&#160;faits<note n="37" place="foot" type="standard" xml:id="ftn37">
+              <p>
+                <hi rend="italic">Ibid</hi>
+                <hi rend="small-caps">.</hi>,
+              p.&#160;527.</p>
+            </note>.</quote>
+          <p xml:id="d1e591">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-xmvthwt6">méthode</term>
+              </term>
+            </term>Cette
+          double «&#160;méthode&#160;» est particulièrement appliquée par le physicien
+          dans le troisième&#160;chapitre de son traité qui porte sur la question
+          de la variété dans la nature. Cherchant à comprendre l’origine de
+          cette variété, Le&#160;Sage ouvre son chapitre ainsi&#160;: «&#160;Nous avons déjà
+          fait voir que Dieu n’a pas créé le monde pour lui-même, ni pour
+          manifester ses perfections&#160;: ce n’est donc pas de pareilles
+          considérations qui ont pu le porter à répandre dans la nature cette
+          variété que l’on se plaît quelques fois à étaler<note n="38" place="foot" type="standard" xml:id="ftn38">
+              <p>
+                <hi rend="italic">Ibid</hi>
+                <hi rend="small-caps">.</hi>,
+              p.&#160;536.</p>
+            </note>&#160;». La variété n’est pas l’œuvre d’un Dieu qui aimerait la
+          contempler car elle serait la preuve de la grandeur de sa création.
+          Elle relève au contraire d’une explication physique, de la
+          confluence de plusieurs phénomènes «&#160;géométriques&#160;» et
+          «&#160;mécaniques&#160;» comme la rotondité de la planète, sa rotation sur un
+          axe, la succession du jour et de la nuit et des saisons, l’inégale
+          répartition de la chaleur et de nourriture…</p>
+          <p xml:id="d1e603">C’est bien par un raisonnement de type
+          «&#160;scientifique&#160;», ascendant (et déductif), que le physicien envisage
+          l’origine de la variété du vivant (végétal et animal)<note n="39" place="foot" type="standard" xml:id="ftn39">
+              <p>
+                <hi rend="italic">Ibid</hi>
+                <hi rend="small-caps">.</hi>,
+              p.&#160;551.</p>
+            </note>.</p>
+        </div>
+        <div type="section1" xml:id="d1e615">
+          <head subtype="level1" xml:id="d1e616">Mettre Dieu en fiche</head>
+          <p xml:id="d1e618">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-rzpyfeps">support<term ref="doi:10.34817/sv-eoosnwc4">support d’inscription<term ref="doi:10.34817/sv-l4zvkhy5">fiche</term>
+                </term>
+              </term>
+            </term>L’adhésion
+          du physicien à ce modèle de raisonnement est encore plus évidente
+          quand on décide de se pencher sur les nombreux matériaux dont
+          <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le Sage</persName> s’est servi pour
+          nourrir son projet de traité, et qui sont rassemblés sur des cartes
+          à jouer qu’il rangea thématiquement dans une multitude de petits
+          sachets<note n="40" place="foot" type="standard" xml:id="ftn40">
+              <p>On pourra consulter également&#160;: Ms. fr. 2053 - Matériaux pour
+              les «&#160;Traités sur les causes finales et la téléologie&#160;». Dans ce
+              dossier, on compte plusieurs manuscrits portant sur les «&#160;Motifs
+              qui ont engagé le Createur a diversifier si considérablement les
+              animaux et les plantes&#160;» (2053 5/6). Plusieurs manuscrits ont
+              également traits à la question religieuse dont un essai sur «&#160;un
+              nouveau système de religion naturelle&#160;» (2057/4)&#160;; un
+              commentaire intitulé «&#160;sur mon incrédulité&#160;» (2057/7)&#160;; une
+              argumentation «&#160;sur les preuves de l’existence de dieu&#160;»
+              (2057/7) et surtout l’ébauche d’un «&#160;entretien d’un athée et
+              d’un théiste&#160;» (2057/7). Dans cette-dernière, non datée, l’athée
+              commence par poser deux questions au théiste&#160;: «&#160;Mais vous,
+              comment pouvez-vous vous assurer de la possibilité de votre
+              agent&#160;?&#160;» et «&#160;pourquoi votre agent, laisse-t-il subsister tant
+              d’imperfections dans son ouvrage, lui qui pouvait le changer
+              continuellement puisqu’il a bien pu le former&#160;? Objection, qu’on
+              ne peut pas faire, contre celui qui croit que le monde ne
+              pouvait pas exister autrement.&#160;»</p>
+            </note>. Ce fichier, commencé au milieu du siècle, est un
+          dispositif complexe qui, en fonctionnant par fragments et par
+          accumulation progressive d’informations, est un témoignage important
+          de la vie savante à <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName>. <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le
+          Sage</persName> fait état des discussions et des polémiques qui
+          agitent ce petit monde, en particulier dans le cas de questions
+          religieuses, dogmatiques et&#160;théologiques<note n="41" place="foot" type="standard" xml:id="ftn41">
+              <p>
+                <hi rend="small-caps">Bert</hi>, 2018. Le travail sur fiche
+              implique différentes contraintes scripturales avec lesquelles
+              Le&#160;Sage a dû apprendre à composer, par exemple, le choix de la
+              «&#160;fragmentation&#160;» comme préalable au déploiement d’une écriture
+              linéaire.</p>
+            </note>.</p>
+          <p xml:id="d1e632">Les nombreux sachets qui portent sur la religion,
+          la téléologie ou l’observation de la nature nous offrent de précieux
+          indices sur la manière dont Le&#160;Sage entend mener sa réflexion sur
+          Dieu. Une réflexion qu’il veut «&#160;expérimentale&#160;», à l’image de ce
+          qui se fait alors dans toutes les autres sciences.</p>
+          <figure xml:id="d1e634">
+            <graphic url="https://didomena.ehess.fr/downloads/hx11xk31s.jpg"/>
+            <head xml:id="d1e635">Figure&#160;1 - Sachet titré « Expérience ; pour
+            décider une question théologique ». Fonds Le Sage, BGE.</head>
+          </figure>
+          <p xml:id="d1e638">Dans plusieurs fiches, le savant genevois décide
+          par exemple d’aborder très directement le problème de la place qu’il
+          faut accorder à Dieu dans le plaisir de l’investigation des
+          phénomènes naturels. Sa conception est, au départ, largement étayée
+          par les propos de <persName ref="02704694X" type="idref" xml:base="https://www.idref.fr/">Newton</persName> qui, sur ce
+          sujet, conçoit la science comme un moyen d’ouvrir les yeux sur Dieu
+          en mettant l’accent sur la perfection d’un système qui repose sur
+          une loi (celle de l’attraction<note n="42" place="foot" type="standard" xml:id="ftn42">
+              <p>Le Sage loue imperturbablement le Newton physicien et
+              mathématicien. Son emballement concerne les grandes qualités du
+              génie que sont la circonspection, la lenteur à publier et
+              l’amour du repos qui deviendront de véritables exemples à
+              suivre. Au titre des qualités de Newton, Le&#160;Sage ajoute sa
+              robuste santé, sa liberté et, enfin et surtout, son intelligence
+              sans&#160;bornes.</p>
+            </note>). Mais à bien y regarder, l’adhésion de <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> aux
+          développements du génie anglais lui permet d’ouvrir la voie à un
+          virage plus matérialiste qui va le contraindre à envisager la
+          possibilité de l’athéisme et de l’impiété à un moment où, encore,
+          ces opinions sont étroitement surveillées par les autorités
+          genevoises. L’autocensure est de mise<note n="43" place="foot" type="standard" xml:id="ftn43">
+              <p>Pittard avait entrevu les conséquences de ce problème sans
+              chercher à le questionner plus avant&#160;: «&#160;Plusieurs savants
+              genevois de cette époque sont passés à côté de grandes
+              découvertes&#160;; les ayant peut-être pressenties, aperçues, ils
+              n’ont pas osé les proclamer.&#160;» <hi rend="small-caps">Pittard</hi>, 1942, p.&#160;436.</p>
+            </note>.</p>
+          <p xml:id="d1e652">C’est là, sans doute, que réside l’intérêt du
+          système de <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>. En effet,
+          n’ayant pas vocation à être lues par d’autres, ses cartes/fiches
+          sont un lieu d’exposition du combat intérieur que le physicien (se)
+          livre entre le basculement complet dans l’athéisme et le respect,
+          nécessaire, d’une certaine morale religieuse. Un choix cornélien,
+          comme <persName type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> l’indique sur
+          l’une de ses cartes&#160;: «&#160;Quoique j’eusse bien assez de religion pour
+          un laïque, je n’étais cependant pas assez orthodoxe pour un
+          ecclésiastique qui serait appelé à prêcher de temps en temps les
+          dogmes&#160;». <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le Sage</persName> sait surtout
+          parfaitement que la question de la religion peut non seulement
+          conduire à l’affrontement, mais qu’elle peut surtout avoir des
+          conséquences néfastes sur la compréhension et la diffusion de
+          certaines hypothèses scientifiques. C’est donc avec une grande
+          précaution oratoire –&#160;y compris dans ses fiches&#160;– que <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> envisage divers
+          scénarios pour se prémunir contre les éventuelles accusations
+          d’impiété qui serait faites à son système d’explication mécanique de
+          la gravitation. Il faut éviter à tout prix que celle-ci soit
+          entendue comme étant un premier pas qui mènerait nécessairement les
+          physiciens vers l’athéisme. Cela ne pourrait être le cas, précise
+          <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> que si –&#160;et
+          seulement si&#160;– les physiciens intéressés par son hypothèse tenaient
+          l’atomisme pour l’explication ultime de toutes les&#160;choses.</p>
+          <p xml:id="d1e654">C’est principalement dans son boîtier 2021b que
+          <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> accumule
+          plusieurs sachets portant sur la question de Dieu. C’est le cas du
+          sachet&#160;10, intitulé «&#160;La pesanteur considérée comme une loi
+          divine&#160;»&#160;; du sachet&#160;27, «&#160;sur l’inexpugnabilité de Dieu&#160;»&#160;; du
+          sachet&#160;33 «&#160;sur le repos de Dieu entendu comme une cessation de
+          mouvoir et de façonner immédiatement la matière&#160;», ou encore du
+          sachet&#160;24, «&#160;arguments adressés aux partisans des causes
+          occasionnelles&#160;».</p>
+          <figure xml:id="d1e656">
+            <graphic url="https://didomena.ehess.fr/downloads/5x21tm04b.jpg"/>
+            <head xml:id="d1e657">Figure&#160;2 - « Agenda sur le repos de Dieu ».
+            [<hi rend="italic">Agenda : Sur le Repos de DIEU ; entendu comme
+            une cessation de mouvoir et de façonner immediatement la Matière.
+            L’Encyclopédie. Checher dans Leibniz, Bilfinger &amp; Bonnet.
+            Demander à Mme LeFort, la 1er forme du commentaire de Mr Chais sur
+            la Bible. Emprunter Theses de Mr Roybaz sur la Creation ; de Mr
+            Martin, DeRochas.</hi>] Fonds Le Sage, BGE</head>
+          </figure>
+          <p xml:id="d1e660">Dans son sachet&#160;11, le physicien reviendra
+          longuement sur l’opinion soutenue par le théurgisme&#160;: «&#160;qui rapporte
+          la pesanteur à une action perpétuelle et immédiate de Dieu
+          lui-même&#160;». <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> veut alors
+          ouvrir une juste discussion sur cette perspective, tout en
+          regrettant&#160;: «&#160;que les partisans de l’Opinion que c’est DIEU
+          lui-même qui produit immédiatement la Pesanteur&#160;; l’ont tellement
+          liée, par plusieurs expressions ambiguës, avec le Dogme respectable
+          de la Providence, qui en est cependant fort distinct, qu’ils ont
+          enlevé à leurs adversaires l’égalité de Liberté qui doit régner dans
+          toute dispute&#160;»<note n="44" place="foot" type="standard" xml:id="ftn44">
+              <p>Fonds Le Sage, Ms. fr. 2021b, sachet 11.</p>
+            </note>. La question est malgré tout importante et poursuivra
+          <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le Sage</persName> bien après la
+          publication de ses travaux scientifiques sur la pesanteur. En&#160;<date type="_temp" when="1782">1782</date>, par exemple, il discute à
+          nouveau du théurgisme avec son élève <persName type="_temp">Pierre
+          Prevost</persName>, recopiant sur l’une de ses cartes à jouer un
+          extrait d’une de ses&#160;lettres&#160;:</p>
+          <quote rend="quotation" xml:id="d1e666">Pour pouvoir mieux réfuter
+          les physiciens qui rapportent la pesanteur à une action immédiate de
+          DIEU&#160;; j’avais d’abord remarqué&#160;; qu’ils le faisaient auteur direct,
+          de tous les maux physiques que produis la chute de certains corps,
+          la grêle par exemple&#160;: Et cela m’avait engagé à sauver la Bonté de
+          DIEU, de la même façon que le faisaient les Stoïciens&#160;; savoir en
+          disant, que la Matière était indocile. Mais&#160;: Pour montrer aux
+          Lecteurs timorés que cette solution, n’aient rien d’Hérétique&#160;: je
+          rassemblais les Passages les plus caractéristiques de tous les
+          Auteurs réputés les plus religieux et les plus sages. Et je faisais
+          voir&#160;: qu’en pressant leurs termes, et en remontant aux Principes
+          qu’ils supposaient en passant&#160;; on retrouvait toujours, la solution
+          des Stoïciens<note n="45" place="foot" type="standard" xml:id="ftn45">
+              <p>Fonds Le Sage, Ms. fr. 2021b, sachet 11.</p>
+            </note>.</quote>
+          <p xml:id="d1e673">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-na4tj2ti">objets d’étude<term ref="doi:10.34817/sv-ec5trazc">nature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-5cyw2kot">sciences de la
+          matière<term ref="doi:10.34817/sv-tjsyqxet">physique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie</term>
+                </term>
+              </term>
+            </term>Cette
+          «&#160;solution des stoïciens&#160;» indique, rappelons-le brièvement, que
+          Dieu et la matière sont au principe de toutes choses,
+          inséparables<note n="46" place="foot" type="standard" xml:id="ftn46">
+              <p>Il peut être étonnant de voir le physicien genevois mobiliser
+              ainsi la pensée stoïcienne qui est, comme le remarquent B.&#160;Joly
+              et P.-Fr.&#160;Moreau, absente des doctrines scientifiques modernes&#160;:
+              «&#160;comme si la physique du Portique n’appartenait qu’au passé et
+              ne pouvait en rien contribuer à l’émergence des nouvelles
+              conceptions du monde qui s’élaborent dès la seconde moitié du
+              <hi rend="small-caps">xvi</hi>
+                <hi rend="sup">e</hi>&#160;siècle&#160;».
+              Cet usage rare tient au fait que les fragments ne sont alors pas
+              disponibles. La connaissance des «&#160;opinions physiques&#160;» des
+              Anciens existe via, surtout, des histoires de la philosophie.
+              Voir <hi rend="small-caps">Joly</hi> et <hi rend="small-caps">Moreau</hi>, 2008.</p>
+            </note>. Si leur physique poursuit l’idée aristotélicienne d’une
+          matière éternelle et incréée, immobile et inactive, celle-ci reste
+          pourtant capable de se transformer en fonction d’un principe actif.
+          On comprend mieux pourquoi <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>, un physicien
+          corpusculaire, s’intéresse à cette solution car en prétendant que la
+          matière, l’âme et dieu sont des corps, cette «&#160;solution&#160;» lui permet
+          de concevoir les rapports de l’homme et du monde autour d’une
+          religiosité sans véritable dieu anthropomorphe<note n="47" place="foot" type="standard" xml:id="ftn47">
+              <p>Le Sage s’est longuement interrogé sur les perspectives de
+              Lucrèce qu’il commença à lire, comme le rappelle Pierre Prevost,
+              à l’âge de 13&#160;ans, avant de lui consacrer un opuscule, le<hi rend="italic"> Lucrèce Newtonien</hi> (1784), dans lequel il
+              fait du poète latin un précurseur des vues de Newton sur
+              l’attraction. Le&#160;Sage n’est alors pas le seul à voir en Lucrèce
+              un compagnon de route et de combat contre le dogmatisme
+              religieux, mais il est sans doute l’un des derniers à croire en
+              sa physique des atomes et à ne pas en faire une absurdité. Sur
+              la réception de Lucrèce au <hi rend="small-caps">xviii</hi>
+                <hi rend="sup">e</hi>&#160;siècle, voir <hi rend="small-caps">Vesperini</hi> 2017.</p>
+            </note>. La nature est d’abord un ordre et un agencement
+          du&#160;sacré.</p>
+          <p xml:id="d1e708">Ce jeu de positionnements apparaît comme d’autant
+          plus subtil que <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> est convaincu
+          que Dieu n’est pas au principe de la variété et qu’il ne pousse pas
+          les corps les uns vers les autres. En un mot, il ne peut pas être la
+          cause immédiate et perpétuelle des mouvements célestes. Là encore,
+          pour asseoir sa conviction, le savant genevois se sert de ses fiches
+          pour échafauder différents scénarios de questions-réponses censés,
+          encore une fois, devancer d’éventuelles accusations d’impiété qui
+          serait faite à son&#160;système&#160;:</p>
+          <quote rend="quotation" xml:id="d1e710">Je ne demande pas à
+          l’athée&#160;: comment il est arrivé&#160;; qu’il n’y ait point d’animaux, qui
+          ayant tout à la fois les jambes longues et le col court. Parce qu’il
+          ne manquerait pas de me répondre&#160;: qu’un concourt fortuit avait bien
+          produit de tel animaux&#160;; mais qu’ils étaient pris de soif et de
+          faim, à cause de la difficulté qu’ils avaient à atteindre leur
+          boisson et leur pâture. Mais je lui demande&#160;: comment il est arrivé
+          qu’un animal n’ait tout à la fois les jambes courtes et le col
+          long&#160;; ou que, n’ayant point de tout de jambes (comme c’est le cas
+          de toutes les espèces de poissons), il ait cependant un col (ce qui
+          n’est le cas d’aucune de ces espèces, si différentes d’ailleurs), vu
+          qu’une longueur superflu dans le col, ou même un col entièrement
+          superflu, ne seraient pas des incommodités suffisantes pour faire
+          périr une espèce entière, ni (à plus forte raison) toutes les
+          espèces qui se seraient trouver dans ce&#160;cas<note n="48" place="foot" type="standard" xml:id="ftn48">
+              <p>Fonds Le Sage, Ms Fr. 2004, sachet 6</p>
+            </note>.</quote>
+          <figure xml:id="d1e716">
+            <graphic url="https://didomena.ehess.fr/downloads/gt54ks06j.jpg"/>
+            <head xml:id="d1e717">Figure 3 - Fiche tirée du sachet Ms Fr.
+            2004-6 (recto). [<hi rend="italic">Je ne demande pas à l’Athée :
+            Comment il est arrivé ; qu’il n’y ait point d’Animaux, qui ayant
+            tout à la fois les jambes longues &amp; le col court. Parce qu’il
+            ne manquerait pas de me repondre : Qu’un concours fortuit, avait
+            bien produit de tels animaux ; mais qu’ils étaient pris de soif
+            &amp; de faim, à cause de la difficulté qu’ils avaient à atteindre
+            leur boisson &amp; leur pâture. Mais je lui demande : Comment il
+            est arrivé ; qu’aucun Animal n’ai tout à la fois les
+            jambes...</hi>] Fonds Le Sage, BGE</head>
+          </figure>
+          <figure xml:id="d1e720">
+            <graphic url="https://didomena.ehess.fr/downloads/np193f29j.jpg"/>
+            <head xml:id="d1e721">Figure&#160;4 - Fiche tirée du sachet Ms Fr.
+            2004-6 (verso). [<hi rend="italic">courtes &amp; le col Long ; ou
+            que, n’ayant point du tout de jambes (comme c’est le cas de toutes
+            les espèces de Poissons), il ait cependant un Col (ce qui n’est le
+            casd’aucune de ces espèces, si différentes d’ailleurs) : Vû
+            quelques longueur superflue dans le Col, ou même un Col
+            entièrement superflû ; ne seraient pas des Incommodités
+            suffisantes, pour faire perir une espèce entière, ni (à plus forte
+            raison) toutes les Espèces qui se seraient trouvées dans ce
+            cas.</hi>] Fonds Le Sage, BGE</head>
+          </figure>
+          <p xml:id="d1e724">Les nombreuses interrogations de <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> sur la religion
+          seront aussi l’occasion, grâce à une longue introspection suscitée
+          par l’accumulation progressive des fiches, de revenir sur son
+          histoire familiale<note n="49" place="foot" type="standard" xml:id="ftn49">
+              <p>
+                <hi rend="sup"/>Rappelons que le 14 février 1752, le père de
+              Georges-Louis Le&#160;Sage, philosophe de son état, fut accusé par le
+              premier syndic de Genève, Michel Lullin de&#160;Châteauvieux, d’avoir
+              publié une brochure dangereuse pour la religion et le
+              gouvernement, intitulée «&#160;L’esprit des lois&#160;». Voir, à ce
+              sujet&#160;: <hi rend="small-caps">Gür</hi>, 1968.</p>
+            </note>, et sur la manière dont son éducation a fini par
+          conditionner certaines de ses croyances, ainsi que sur la légitimité
+          qu’un homme de raison et de science peut encore accorder à des
+          croyances qu’on lui a présentées depuis son enfance comme étant la
+          seule vérité envisageable. C’est le cas sur cette fiche&#160;:</p>
+          <quote rend="quotation" xml:id="d1e735">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-3x9zkwlx">littéralisme</term>
+              </term>
+            </term>Je
+          prenais à la lettre, presque tout ce que je visais ou que
+          j’entendais. À l’âge de douze&#160;ans, par exemple&#160;: je croyais&#160;; que
+          c’était <hi rend="underline">Dieu</hi> en personne, qui faisait
+          croitre les plantes&#160;; et qu’il cessait de le faire tous les
+          Dimanches. Et jusqu’à l’âge de majorité&#160;; j’ajoutais honnêtement
+          foi, aux offres qui m’étaient adressées faites par une simple
+          politesse<note n="50" place="foot" type="standard" xml:id="ftn50">
+              <p>Fonds Le Sage, MS Fr.2001b, sachet&#160;60.</p>
+            </note>.</quote>
+          <figure xml:id="d1e744">
+            <graphic url="https://didomena.ehess.fr/downloads/gh93h355n.jpg"/>
+            <head xml:id="d1e745">Figure 5 - Fiche tirée du sachet MS Fr.
+            2001b-60. [<hi rend="italic">Je prenais à la Lettre, presque tout
+            ce que je visais ou que j’entendais. A l’âge de douze ans par
+            exemple : je croyais ; que c’était Dieu en personne, qui faisait
+            croitre les Plantes ; &amp; qu’il cessait de le faire tous les
+            Dimanches. Et jusqu’à l’âge de majorité ; j’ajoutais bonnement
+            foi, aux offres qui m’étaient faites par une simple
+            politesse.</hi>] Fonds Le Sage, BGE</head>
+          </figure>
+          <p xml:id="d1e748">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-a5z4hb43">doute</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-kqusp4ex">croyance</term>
+              </term>
+            </term>Ce qui
+          occupe <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>, c’est d’essayer
+          de décrire et de comprendre l’évolution de son comportement
+          religieux qui ressemble à une lente séparation vis-à-vis du dogme. À
+          l’âge de 9&#160;ans et demi, note-t-il par exemple&#160;: «&#160;j’abandonnais les
+          prières qu’on m’avait fait apprendre par cœur, pour en composer
+          d’autres que même je changeais en partie suivant les
+          occasions&#160;»<note n="51" place="foot" type="standard" xml:id="ftn51">
+              <p>Fonds Le Sage, MS Fr 2056c, sachet&#160;41.</p>
+            </note>. Le reste de la carte est plus intéressant encore&#160;: «&#160;et,
+          de tous mes condisciples&#160;; il n’y en avait qu’un, qui en fit
+          autant&#160;; et qui même, quoique plus âgé que moi de 9&#160;mois, ne
+          commença à le faire que quelques mois après moi&#160;»<note n="52" place="foot" type="standard" xml:id="ftn52">
+              <p>Ibid</p>
+            </note>.</p>
+          <figure xml:id="d1e758">
+            <graphic url="https://didomena.ehess.fr/downloads/fq977z721.jpg"/>
+            <head xml:id="d1e759">Figure&#160;6 - Fiche extraite du sachet 41,
+            boîtier 2056c. [<hi rend="italic">Dès l’âge de 9 ans &amp; ½ ;
+            j’abandonnai les Prières qu’on m’avait fait apprendre par cœur,
+            pour en composer d’autres que même je changeais en partie suivant
+            les occasions. Et, de tous mes condisciples ; il n’y en avait
+            qu’un, qui en fit autant ; et qui même, quoique plus âgé que moi
+            de 9 mois, ne commença à le faire que quelques mois après
+            moi.</hi>] Fonds Le Sage, BGE</head>
+          </figure>
+          <p xml:id="d1e762">Cette position, rétrospectivement, lui semble
+          proche de celle évoquée par <persName ref="028202368" type="idref" xml:base="https://www.idref.fr/">Rousseau</persName> dans sa
+          profession de foi du vicaire Savoyard que <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>
+          décide justement de relire en&#160;<date type="_temp" when="1798">1798</date>, marquant alors dix&#160;passages qui, selon
+          lui&#160;: «&#160;rendent fort bien, ce qui s’était passé chez moi dans
+          l’Examen de la religion&#160;».</p>
+          <p xml:id="d1e764">Il va aussi accorder une grande importance au cas
+          de son père, remplissant deux sachets de cartes déposés dans le
+          boîtier 2056c&#160;: le sachet&#160;40, intitulé «&#160;opinions théologiques de
+          mon père&#160;» et le sachet&#160;41, «&#160;étude sur la religion&#160;». À lire les
+          fiches de <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>, son père,
+          philosophe atypique, avait eu l’ambition de diminuer ou de
+          simplifier les dogmes à <placeName ref="6458783" type="geonames" xml:base="https://www.geonames.org/">Genève</placeName>, s’efforçant
+          de rapprocher la religion révélée de la religion naturelle,
+          reconnaissant que l’écriture était divinement inspirée «&#160;en gros&#160;»,
+          mais non qu’elle le soit littéralement. Il était surtout pleinement
+          convaincu qu’il existait une religion différente pour chaque peuple.
+          C’est en premier avec son père que <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName> eut
+          plusieurs conversations théologiques, dont une sur le but de la
+          création qui met en chantier, précisément, la difficile question des
+          relations entre science et&#160;religion&#160;:</p>
+          <quote rend="quotation" xml:id="d1e767">
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-cbx9cvwr">instrument d’observation<term ref="doi:10.34817/sv-furtqzbm">télescope</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-khhu7kcc" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">matérialité des
+          savoirs<term ref="doi:10.34817/sv-hfqksxe4">instrument<term ref="doi:10.34817/sv-cbx9cvwr">instrument d’observation<term ref="doi:10.34817/sv-ftqvrc9c">microscope</term>
+                </term>
+              </term>
+            </term>Petite
+          discussion avec mon Père&#160;; sur le but que DIEU s’était proposé, en
+          créant l’univers. Mon Père prétendait (avec la plupart des
+          théologiens)&#160;; que le Créateur s’était proposé d’acquérir de la
+          Gloire auprès de ses créatures. Mais je lui objectais&#160;: Que dans
+          cette supposition&#160;; il se serait hâté de communiqué aux hommes,
+          mille merveilles&#160;; qu’ils n’ont découvert que dans ces derniers
+          temps, à l’aide des microscopes et des télescopes.</quote>
+          <p rend="break" xml:id="d1e769">⁂</p>
+          <p xml:id="d1e771">En religion, comme ailleurs, il faut se ranger à
+          l’idée maîtresse de l’anthropologue <persName ref="027019330" type="idref" xml:base="https://www.idref.fr/">Marcel
+          Mauss</persName> (1872-1950) et décider, à chaque fois que la
+          situation le permet, de partir du concret des situations pour en
+          arriver, ensuite, au plus abstrait, voire au plus intime<note n="53" place="foot" type="standard" xml:id="ftn53">
+              <p>
+                <hi rend="small-caps">Mauss</hi>, 1950.</p>
+            </note>. Ce n’est qu’en étudiant, très prosaïquement, comment les
+          savants citent, mobilisent des textes religieux, prennent des notes
+          (et sur quel support), commentent et corrigent que l’on pourra
+          parvenir, à terme, à mieux envisager la représentation que ces mêmes
+          savants se sont fait de la science et, donc, des rapports qu’elle
+          doit/peut entretenir avec la religion. C’est en prenant au sérieux
+          certains savoir-faire, en prenant conscience des nombreuses
+          implications cognitives du travail de type documentaire, un travail
+          patiemment et inlassablement répété, qu’il sera possible d’accéder à
+          certaines stratégies, certaines logiques sociales et politiques,
+          mais aussi et peut-être surtout à des réalités culturelles et
+          religieuses inaccessibles autrement.</p>
+          <p xml:id="d1e780">Dans le cas de <persName ref="069107300" type="idref" xml:base="https://www.idref.fr/">Le&#160;Sage</persName>,
+          comme nous l’avons indiqué, c’est par l’accumulation de preuves
+          contraires sur ses milliers de cartes, et en particulier de preuves
+          physiques et géométriques, qu’il va finir par envisager, fiche après
+          fiche, les raisons de son adhésion à un système de croyance
+          déterminé, l’amenant petit à petit à le remettre profondément en
+          cause&#160;: comment croire moins fermement se demande-t-il constamment&#160;?
+          Mais aussi, comment continuer à faire confiance tout en gardant un
+          esprit libre de préjugés&#160;: «&#160;une ferme résolution de se rendre aux
+          raisons les plus vraisemblables&#160;»&#160;? Comment, surtout, continuer de
+          soumettre sa raison à la foi&#160;?</p>
+          <p xml:id="d1e782">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-wvqagjvo">certitude</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-ksek4j6u">scepticisme</term>
+              </term>
+            </term>Ces
+          nombreux sachets, accumulés au fil du temps et soigneusement rangées
+          sous la forme d’un savant mille-feuille, ont généré chez lui de
+          l’incertitude, du doute et du scepticisme<note n="54" place="foot" type="standard" xml:id="ftn54">
+              <p>
+                <hi rend="sup"/>Dans le panel des positions possibles,
+              l’«&#160;athéisme&#160;» de Le&#160;Sage est plus un athéisme sceptique qu’un
+              athéisme «&#160;dogmatique&#160;» ou «&#160;affirmatif&#160;».</p>
+            </note>. Pour le physicien, il n’y a qu’une seule chose qui doit
+          finalement compter dans toute sa réflexion, à savoir la vérité&#160;:
+          «&#160;Il semble qu’une méthode où la vérité seule aurait à gagner,
+          serait préférable. Et telle est celle d’un examen, ultérieur à celui
+          de compter en gros quelle est la religion dominante du pays et
+          d’apprendre cette religion telle qu’on nous la&#160;donne<note n="55" place="foot" type="standard" xml:id="ftn55">
+              <p>Fonds Le Sage&#160;: «&#160;Minute d’un avis et des réflexions que je
+              veux écrire au dehors de mon portefeuille de métaphysique&#160;»,
+              n.&#160;d.</p>
+            </note>&#160;».</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliographie" xml:id="d1e796">
+        <head xml:id="d1e797">Bibliographie</head>
+        <listBibl xml:id="d1e799">
+          <bibl xml:id="d1e800">
+            <hi rend="small-caps">Albert</hi>, <hi rend="small-caps">Cohen</hi>, <hi rend="small-caps">Kedzierska-Manzon</hi> et <hi rend="small-caps">Mottier</hi>, 2016&#160;: Jean-Pierre <hi rend="small-caps">Albert</hi>, Anouk <hi rend="small-caps">Cohen</hi>, Agnieszka <hi rend="small-caps">Kedzierska-Manzon</hi> et Damien <hi rend="small-caps">Mottier</hi>, «&#160;Présentation&#160;», <hi rend="italic">Archives de sciences sociales des religions</hi>, 174,
+          p.&#160;9-11. <ref target="https://doi.org/10.4000/assr.27697">
+              <hi rend="underline">https://doi.org/10.4000/assr.27697</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e832">
+            <hi rend="small-caps">Benguigui</hi>, 2006&#160;:
+          Isaac <hi rend="small-caps">Benguigui</hi>, <hi rend="italic">Genève
+          et ses savants. Physiciens, mathématiciens et chimistes aux </hi>
+            <hi rend="small-caps italic">xvii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic"> et </hi>
+            <hi rend="small-caps italic">xix</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">&#160;siècles</hi>, Genève,
+          Slatkine.</bibl>
+          <bibl xml:id="d1e854">
+            <hi rend="small-caps">Bert</hi>, 2017&#160;:
+          Jean-François <hi rend="small-caps">Bert</hi>
+            <hi rend="italic">, Une
+          histoire de la fiche érudite</hi>, Lyon, Presses de&#160;l’ENSSIB.</bibl>
+          <bibl xml:id="d1e863">
+            <hi rend="small-caps">Bert</hi>, 2018&#160;:
+          Jean-François <hi rend="small-caps">Bert</hi>, <hi rend="italic">Comment pense un savant&#160;? Un physicien des Lumières et
+          ses cartes à jouer</hi>, Paris, Anamosa.</bibl>
+          <bibl xml:id="d1e873">
+            <hi rend="small-caps">Bert</hi>, 2021&#160;:
+          Jean-François <hi rend="small-caps">Bert</hi>, «&#160;Les spectres de
+          l’érudition. Un travail de bénédictin&#160;!&#160;», dans SAVOIRS&#160;: <ref target="https://savoirs.app/fr/articles/les-spectres-de-l-erudition-un-travail-de-benedictin">
+              <hi rend="underline">https://savoirs.app/fr/articles/les-spectres-de-l-erudition-un-travail-de-benedictin</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e883">
+            <hi rend="small-caps">Bert</hi> et <hi rend="small-caps">Lamy</hi>, 2021&#160;: Jean-François <hi rend="small-caps">Bert</hi> et Jérôme <hi rend="small-caps">Lamy</hi>, <hi rend="italic">Voir les savoirs.
+          Lieux, objets et gestes de la science, </hi>Paris, Anamosa.</bibl>
+          <bibl xml:id="d1e899">
+            <hi rend="small-caps">Besse</hi>, 2004&#160;:
+          Jean-Marie <hi rend="small-caps">Besse</hi>, «&#160;Le lieu en histoire
+          des sciences. Hypothèses pour une approche spatiale du savoir
+          géographique au <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi>&#160;siècle&#160;», <hi rend="italic">Mélanges de l’École
+          française de Rome</hi>, 116, 2, p. 401-422. <ref target="https://doi.org/10.3406/mefr.2004.10130">
+              <hi rend="underline">https://doi.org/10.3406/mefr.2004.10130</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e917">
+            <hi rend="small-caps">Besse</hi>, 2010&#160;:
+          Jean-Marie <hi rend="small-caps">Besse</hi>, «&#160;Approches spatiales
+          dans l’histoire des sciences et des arts&#160;», <hi rend="italic">L’Espace géographique</hi>, 39, 3, p.&#160;211-224. <ref target="https://doi.org/10.3917/eg.393.0211">
+              <hi rend="underline">https://doi.org/10.3917/eg.393.0211</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e930">
+            <hi rend="small-caps">Blair</hi>, 2010&#160;: Ann
+          M. <hi rend="small-caps">Blair</hi>, <hi rend="italic">Too Much to
+          Know: Managing Scholarly Information before the Modern Age</hi>, New
+          Haven, Yale University Press.</bibl>
+          <bibl xml:id="d1e940">
+            <hi rend="small-caps">Bourguet</hi>, 2017&#160;:
+          Marie-Noëlle <hi rend="small-caps">Bourguet</hi>, <hi rend="italic">Le monde dans un carnet&#160;: Alexander von Humboldt en
+          Italie (1805)</hi>, Paris, Éditions du&#160;Félin.</bibl>
+          <bibl xml:id="d1e950">
+            <hi rend="small-caps">Bungener</hi>, 2018&#160;:
+          Patrick <hi rend="small-caps">Bungener</hi>, «&#160;Un botaniste dans la
+          République des sciences&#160;: Augustin-Pyramus de&#160;Candolle et ses
+          correspondants scientifiques&#160;», <hi rend="italic">Dix-huitième
+          siècle</hi>, 1, 40, p.&#160;153-171.</bibl>
+          <bibl xml:id="d1e961">
+            <hi rend="small-caps">Bungener</hi>, <hi rend="small-caps">Matille</hi> et <hi rend="small-caps">Callmander</hi>, 2017&#160;: Patrick <hi rend="small-caps">Bungener</hi>, Pierre <hi rend="small-caps">Matille</hi> et Martin <hi rend="small-caps">Callmander</hi>, <hi rend="italic">Augustin-Pyramus de&#160;Candolle</hi>
+            <hi rend="italic"> -
+          une passion, un jardin</hi>, Lausanne, Favre.</bibl>
+          <bibl xml:id="d1e986">
+            <hi rend="small-caps">Chabot</hi>, 2003&#160;:
+          Hugues <hi rend="small-caps">Chabot</hi>, «&#160;Georges-Louis Lesage
+          (1724-1803), un théoricien de la gravitation en quête de
+          légitimité&#160;», <hi rend="italic">Archives internationales d’histoire
+          des sciences</hi>, 53, 150-151, p.&#160;157-183.</bibl>
+          <bibl xml:id="d1e996">
+            <hi rend="small-caps">Daston</hi>, 2017&#160;:
+          Lorraine <hi rend="small-caps">Daston</hi>, <hi rend="italic">Science in the Archives: Pasts, Presents,
+          Futures</hi>, Chicago, University of Chicago Press.</bibl>
+          <bibl xml:id="d1e1006">
+            <hi rend="small-caps">Delbourgo</hi> et <hi rend="small-caps">Müller-Wille</hi>, 2012&#160;: James <hi rend="small-caps">Delbourgo</hi> et Staffan <hi rend="small-caps">Müller-Wille</hi>, «&#160;Listmania&#160;», <hi rend="italic">Isis</hi>, 103, 4, p. 710-715. <ref target="https://doi.org/10.1086/669045">
+              <hi rend="underline">https://doi.org/10.1086/669045</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e1025">
+            <hi rend="small-caps">Duhem</hi> 1989&#160;:
+          Pierre Duhem, <hi rend="italic">Sozein ta Phainomena. Essai sur la
+          notion de théorie physique de Platon à Galilée</hi>, Vrin,
+          Paris</bibl>
+          <bibl xml:id="d1e1032">
+            <hi rend="small-caps">Fatio</hi>, 1991&#160;:
+          Olivier <hi rend="small-caps">Fatio</hi>, <hi rend="italic">Les
+          Églises face aux sciences, du Moyen&#160;Âge au </hi>
+            <hi rend="small-caps italic">xx</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">&#160;siècle</hi>, actes du colloque de la Commission
+          internationale d’histoire ecclésiastique comparée tenu à Genève en
+          août&#160;1989, Genève, Droz.</bibl>
+          <bibl xml:id="d1e1048">
+            <hi rend="small-caps">Fossier</hi>, <hi rend="small-caps">Petitjean</hi> et <hi rend="small-caps">Revest</hi>, 2019&#160;: Arnaud <hi rend="small-caps">Fossier</hi>, Johann <hi rend="small-caps">Petitjean</hi> et Clémence <hi rend="small-caps">Revest</hi>, <hi rend="italic">Écritures grises.
+          Les instruments de travail des administrations (</hi>
+            <hi rend="small-caps italic">xii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">-</hi>
+            <hi rend="small-caps italic">xvii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">&#160;siècle)</hi>, École
+          nationale des&#160;chartes / École française de Rome, Paris-Rome.</bibl>
+          <bibl xml:id="d1e1083">
+            <hi rend="small-caps">Gieryn</hi>, 2000&#160;:
+          Thomas <hi rend="small-caps">Gieryn</hi>, «&#160;A Space for Place in
+          Sociology&#160;», <hi rend="italic">Annual Review of Sociology</hi>, 26,
+          p.&#160;463-496.</bibl>
+          <bibl xml:id="d1e1093">
+            <hi rend="small-caps">Gingras</hi>, 2013&#160;:
+          Yves <hi rend="small-caps">Gingras</hi>, <hi rend="italic">Sociologie des sciences</hi>, Paris, PUF.</bibl>
+          <bibl xml:id="d1e1103">
+            <hi rend="small-caps">Grmek</hi>, 1991&#160;:
+          Mirko D.<hi rend="small-caps"> Grmek</hi>, «&#160;Senebier et l'art de
+          faire des expériences&#160;», <hi rend="italic">Cahiers de la faculté de
+          médecine</hi>, 20, p. 13-27</bibl>
+          <bibl xml:id="d1e1113">
+            <hi rend="small-caps">Gür</hi>, 1968&#160;: André
+          <hi rend="small-caps">Gür</hi>, «&#160;Un précédent à la condamnation du
+          “contrat social”. L’affaire Georges-Louis Le&#160;Sage (1752)&#160;», <hi rend="italic">Bulletin de la Société d’Histoire et d’Archéologie de
+          Genève</hi>, XIV, p.&#160;77-94.</bibl>
+          <bibl xml:id="d1e1124">
+            <hi rend="small-caps">Hahn</hi>, 1986&#160;: Alois
+          <hi rend="small-caps">Hahn</hi>, «&#160;Contribution à la sociologie de
+          la confession et autres formes institutionnalisées d’aveu&#160;», <hi rend="italic">Actes de la recherche en sciences sociales</hi>,
+          62-63, p.&#160;54-68.</bibl>
+          <bibl xml:id="d1e1134">
+            <hi rend="small-caps">Heyd</hi>, 1980&#160;:
+          Michael <hi rend="small-caps">Heyd</hi>, «&#160;Un rôle nouveau pour la
+          science&#160;: Jean-Alphonse Turrettini et les débuts de la théologie
+          naturelle à Genève&#160;», <hi rend="italic">Revue de théologie et de
+          philosophie</hi>, 30, 1, p.&#160;25-42.</bibl>
+          <bibl xml:id="d1e1144">
+            <hi rend="small-caps">Holenstein</hi>, <hi rend="small-caps">Steinke</hi> et <hi rend="small-caps">Stuber</hi>,
+          2013&#160;: André <hi rend="small-caps">Holenstein</hi>, Hubert <hi rend="small-caps">Steinke</hi> et Martin <hi rend="small-caps">Stuber</hi>, <hi rend="italic">Scholars in Action:
+          The Practice of Knowledge and the Figure of the Savant in the 18th
+          Century</hi>, Leyde, Brill.</bibl>
+          <bibl xml:id="d1e1167">
+            <hi rend="small-caps">Hubner</hi>, 2010&#160;:
+          Marita <hi rend="small-caps">Hubner</hi>, <hi rend="italic">Jean
+          André Deluc (1727-1817): Protestantische Kultur und moderne
+          Naturforschung</hi>, Göttingen, Vanderhoeck et Ruprecht.</bibl>
+          <bibl xml:id="d1e1177">
+            <hi rend="small-caps">Hunter</hi> et <hi rend="small-caps">Wootton</hi>, 1992&#160;: Michael <hi rend="small-caps">Hunter</hi> and David <hi rend="small-caps">Wootton</hi>, <hi rend="italic">Atheism from the
+          Reformation to the Enlightenment</hi>, Oxford : Clarendon
+          Press.</bibl>
+          <bibl xml:id="d1e1193">
+            <hi rend="small-caps">Jacob</hi>, 2007&#160;:
+          Christian <hi rend="small-caps">Jacob</hi> (dir.), <hi rend="italic">Lieux de savoir, vol.&#160;1&#160;: Espaces et communautés</hi>,
+          Paris, Albin Michel.</bibl>
+          <bibl xml:id="d1e1203">
+            <hi rend="small-caps">Jacob</hi>, 2011&#160;:
+          Christian <hi rend="small-caps">Jacob</hi> (dir.), <hi rend="italic">Lieux de savoir, vol.&#160;2&#160;: Les mains de
+          l’intellect</hi>, Paris, Albin Michel.</bibl>
+          <bibl xml:id="d1e1213">
+            <hi rend="small-caps">Joly</hi> et <hi rend="small-caps">Moreau</hi>, 2008&#160;: Bernard <hi rend="small-caps">Joly</hi> et Pierre-François <hi rend="small-caps">Moreau</hi>, «&#160;La physique des stoïciens aux <hi rend="small-caps">xvi</hi>
+            <hi rend="sup">e</hi> et <hi rend="small-caps">xvii</hi>
+            <hi rend="sup">e</hi>&#160;siècles. Une
+          présence cachée&#160;», <hi rend="italic">Revue d’histoire des
+          sciences</hi>, 61, p.&#160;239-244, DOI&#160;: <ref target="../../../../j.flamant/Downloads/10.3917/rhs.612.0239">
+              <hi rend="underline">10.3917/rhs.612.0239</hi>
+            </ref>.</bibl>
+          <bibl xml:id="d1e1244">
+            <hi rend="small-caps">Livingstone</hi>,
+          2003&#160;: David N. <hi rend="small-caps">Livingstone</hi>, <hi rend="italic">Putting Science in Its Place. Geographies of
+          Scientific Knowledge</hi>, Chicago, University of Chicago
+          Press.</bibl>
+          <bibl xml:id="d1e1254">
+            <hi rend="small-caps">Mauss</hi>, 1950&#160;:
+          Marcel Mauss, «&#160;Les techniques du corps&#160;» (1936), <hi rend="italic">Sociologie et anthropologie</hi>, Paris, PUF.</bibl>
+          <bibl xml:id="d1e1261">
+            <hi rend="small-caps">Minzetanu</hi>, 2016&#160;:
+          Andrei <hi rend="small-caps">Minzetanu</hi>, <hi rend="italic">Carnets de lecture. Généalogie d’une pratique
+          littéraire</hi>, Saint-Denis, Presses universitaires
+          de&#160;Vincennes.</bibl>
+          <bibl xml:id="d1e1272">
+            <hi rend="small-caps">Montandon</hi>, 1975&#160;:
+          Cléopâtre <hi rend="small-caps">Montandon</hi>, <hi rend="italic">Le
+          développement de la science à Genève aux </hi>
+            <hi rend="small-caps italic">xvi</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">et </hi>
+            <hi rend="small-caps italic">xix</hi>
+            <hi rend="sup">e</hi>
+            <hi rend="italic">&#160;siècles</hi>, Vevey, Éditions
+          Delta, coll. «&#160;Sociologie en Suisse&#160;», 5.</bibl>
+          <bibl xml:id="d1e1296">
+            <hi rend="small-caps">Nicoli</hi>, 2013&#160;:
+          Miriam <hi rend="small-caps">Nicoli</hi>, <hi rend="italic">Les
+          savants et les livres. Autour d’Albrecht von Haller (1708-1777) et
+          Samuel-Auguste Tissot (1728-1797)</hi>, Genève, Slatkine.</bibl>
+          <bibl xml:id="d1e1306">
+            <hi rend="small-caps">Pictet</hi>, 1988&#160;:
+          J.-M<hi rend="small-caps"> Pictet</hi>, «&#160;Biographie des savants
+          genevois&#160;», In : Trembley J. (ed). <hi rend="italic">Les savants
+          genevois dans l’Europe intellectuelle du XVIIe au milieu du XIXe
+          siècle</hi>. Genève : Ed. du Journal de Genève, p. 377-453</bibl>
+          <bibl xml:id="d1e1316">
+            <hi rend="small-caps">Pitassi</hi>, 1992&#160;:
+          Maria-Christina <hi rend="small-caps">Pitassi</hi>, <hi rend="italic">De l’orthodoxie aux Lumières</hi>
+            <hi rend="italic">,
+          Genève 1670-1737</hi>, Labor et Fides, Genève.</bibl>
+          <bibl xml:id="d1e1328">
+            <hi rend="small-caps">Pittard</hi>, 1942&#160;:
+          Eugène <hi rend="small-caps">Pittard</hi>, «&#160;Quelques mots sur la
+          vie scientifique à Genève&#160;», <hi rend="italic">Suisse
+          contemporaine</hi>, 5-6, p.&#160;432-447.</bibl>
+          <bibl xml:id="d1e1338">
+            <hi rend="small-caps">Prevost</hi>, 1805&#160;:
+          <hi rend="small-caps">Prevost</hi>, Pierre,<hi rend="italic"/>
+            <hi rend="italic">Notice de la vie et des écrits de Georges-Louis
+          Le&#160;Sage, de Genève, rédigée d’après ses notes par Pierre Prevost,
+          suivie d’un opuscule de Le&#160;Sage sur les Causes finales&#160;; d’extraits
+          de sa correspondance avec divers savans et personnes illustres</hi>
+          [etc.], Genève, J.-J.&#160;Paschoud.</bibl>
+          <bibl xml:id="d1e1350">
+            <hi rend="small-caps">Ratcliff</hi> et <hi rend="small-caps">Candaux</hi>, 2011&#160;: Marc <hi rend="small-caps">Ratcliff</hi> et Jean-Daniel <hi rend="small-caps">Candaux</hi>, «&#160;L’Académie de Genève, un long
+          chemin vers les sciences&#160;», dans Marc Ratcliff et Laurence Isaline
+          Stahl-Gretsh (dir.), <hi rend="italic">Mémoires d’instruments. Une
+          histoire des sciences et des savants à Genève 1559-1914</hi>,
+          Genève, Suzanne Hurter, p.&#160;24-32.</bibl>
+          <bibl xml:id="d1e1366">
+            <hi rend="small-caps">Ratcliff</hi> et <hi rend="small-caps">Stahl-Gretsh</hi>, 2011&#160;: Marc <hi rend="small-caps">Ratcliff</hi> et Laurence Isaline <hi rend="small-caps">Stahl-Gretsh</hi> (dir.), <hi rend="italic">Mémoires d’instruments. Une histoire des sciences et
+          des savants à Genève 1559-1914</hi>, Genève, Suzanne Hurter.</bibl>
+          <bibl xml:id="d1e1382">
+            <hi rend="small-caps">Ruppel</hi>, 2019&#160;:
+          Sophie <hi rend="small-caps">Ruppel</hi>, <hi rend="italic">Botanophilie. Mensch und Pflanze in der
+          aufklärerisch-bürgerlichen Gesellschaft um 1800</hi>, Cologne,
+          Böhlau.</bibl>
+          <bibl xml:id="d1e1392">
+            <hi rend="small-caps">Shapin</hi>, 2014&#160;:
+          Steven <hi rend="small-caps">Shapin</hi>, <hi rend="italic">Une
+          histoire sociale de la vérité. Science et mondanité dans
+          l’Angleterre du </hi>
+            <hi rend="small-caps italic">xvii</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">&#160;siècle</hi>, Paris,
+          La&#160;Découverte</bibl>
+          <bibl xml:id="d1e1408">
+            <hi rend="small-caps">Shapin</hi> et <hi rend="small-caps">Schaffer</hi>, 1993&#160;: Steven <hi rend="small-caps">Shapin</hi> et Simon <hi rend="small-caps">Schaffer</hi>, <hi rend="italic">Léviathan et la
+          pompe à air. Hobbes et Boyle entre science et politique</hi>, Paris,
+          La&#160;Découverte.</bibl>
+          <bibl xml:id="d1e1425">
+            <hi rend="small-caps">Sigrist</hi>, 2004&#160;:
+          René <hi rend="small-caps">Sigrist</hi>, <hi rend="italic">L’</hi>
+            <hi rend="italic">essor de la science moderne à
+          Genève</hi>, Lausanne, Presses polytechniques et universitaires
+          romandes.</bibl>
+          <bibl xml:id="d1e1437">
+            <hi rend="small-caps">Sigrist</hi>, 2011&#160;:
+          René <hi rend="small-caps">Sigrist</hi>, <hi rend="italic">La Nature
+          à l’épreuve. Les débuts de l’expérimentation à Genève
+          (1670-1790)</hi>, Paris, Classique Garnier.</bibl>
+          <bibl xml:id="d1e1447">
+            <hi rend="small-caps">Trembley</hi>, 1987&#160;:
+          Jacques <hi rend="small-caps">Trembley</hi> (dir.), <hi rend="italic">Les savants genevois dans l’Europe intellectuelle du
+          </hi>
+            <hi rend="small-caps italic">xvii</hi>
+            <hi rend="sup">e</hi>
+            <hi rend="italic"> au milieu du </hi>
+            <hi rend="small-caps italic">xix</hi>
+            <hi rend="sup">e</hi>
+            <hi rend="italic">&#160;siècle</hi>, Genève, Édition du Journal
+          de&#160;Genève.</bibl>
+          <bibl xml:id="d1e1469">
+            <hi rend="small-caps">Vesperini</hi>, 2017&#160;:
+          Pierre <hi rend="small-caps">Vesperini</hi>, <hi rend="italic">Lucrèce. Archéologie d’un classique européen</hi>,
+          Paris, Fayard.</bibl>
+          <bibl xml:id="d1e1479">
+            <hi rend="small-caps">von Greyerz</hi>,
+          2016&#160;: Kaspar <hi rend="small-caps">von Greyerz</hi>, «&#160;Écriture de
+          soi et lecture religieuse chez les protestants du monde germanophone
+          en perspective confessionnelle&#160;», dans Danièle Tosato-Rigo (dir.),
+          <hi rend="italic">Appel à témoins&#160;: écrits personnels et pratiques
+          socioculturelles (</hi>
+            <hi rend="small-caps italic">xvi</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">-</hi>
+            <hi rend="small-caps italic">xx</hi>
+            <hi rend="sup italic">e</hi>
+            <hi rend="italic">&#160;s.)</hi>, Lausanne, Études de lettres,
+          p.&#160;39-62.</bibl>
+          <bibl xml:id="d1e1501">
+            <hi rend="small-caps">Withers</hi>, 2009&#160;:
+          Charles W. J. <hi rend="small-caps">Withers</hi>, «&#160;Place and the
+          “Spatial Turn” in Geography and in History&#160;», <hi rend="italic">Journal of the History of Ideas</hi>, 70, 4,
+          p.&#160;637-658.</bibl>
+          <bibl xml:id="d1e1511">
+            <hi rend="small-caps">Yeo</hi>, 2014&#160;:
+          Richard <hi rend="small-caps">Yeo</hi>, <hi rend="italic">Notebooks,
+          English Virtuosi, and Early Modern Science</hi>, Chicago, University
+          of Chicago Press.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

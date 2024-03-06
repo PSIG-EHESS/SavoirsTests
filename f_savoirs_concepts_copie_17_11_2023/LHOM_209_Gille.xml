@@ -1,0 +1,2324 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:opentheso="http://purl.org/umu/uneskos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-09-16T12:01:43.677+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="LHOM_209_Gille">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Une femme, deux visages, un serpent, deux
+        têtes</title>
+        <title type="sub">Cognition, contre-intuition et représentations
+        chimériques</title>
+        <title type="alt" xml:lang="en">Supernatural Beings as Oddities&#160;:
+        Ontological Breach and Chimerical Representations</title>
+        <author>
+          <forename>Baptiste</forename>
+          <surname>Gille</surname>
+          <idno type="IDREF">160686768</idno>
+          <affiliation>
+            <s>University of OxfordCentre for Anthropology and Mind, Oxford
+            (Angleterre)</s>
+          </affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="SN">
+            <forename>Sara</forename>
+            <surname>Nadal</surname>
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>supervision</resp>
+          <name xml:id="ALR">
+            <forename>Axel</forename>
+            <surname>Le Roy</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/KPFWT5H9" type="journalArticle" xml:lang="fr">
+          <analytic>
+            <title level="a">Une femme, deux visages, un serpent, deux têtes.
+            Cognition, contre-intuition et représentations chimériques</title>
+            <idno type="DOI">10.4000/lhomme.23463</idno>
+            <author>
+              <forename>Baptiste</forename>
+              <surname>Gille</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">L’Homme. Revue française d’anthropologie</title>
+            <idno type="ISSN">0439-4216</idno>
+            <imprint>
+              <biblScope unit="issue">209</biblScope>
+              <biblScope unit="page">39-67</biblScope>
+              <date>2014</date>
+              <note type="url">https://journals.openedition.org/lhomme/23463</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>anthropologie et psychologie</item>
+            <item>sciences cognitives de la religion</item>
+            <item>
+              <hi rend="italic">minimal counter-intuitive (M<hi rendition="#T10">ci</hi>
+              </hi>)</item>
+            <item>catégorisation prototypique</item>
+            <item>théologie expérimentale</item>
+            <item>Salish de la côte</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>Anthropology and Psychology</item>
+            <item>Cognitive Science of Religion (C<hi rendition="#T10">sr</hi>)</item>
+            <item>
+              <hi rend="italic">minimal counter-intuitive (M<hi rendition="#T10">ci</hi>
+              </hi>)</item>
+            <item>Basic-Level Category</item>
+            <item>Experimental Theology</item>
+            <item>Coast Salish Peoples</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+          cognitives</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+          religions</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel</term>
+            </term>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="5786899" type="geonames" xml:base="https://www.geonames.org/">Bellingham</placeName>
+          </term>
+          <term>
+            <placeName ref="6185113" type="geonames" xml:base="https://www.geonames.org/">Yakweakwioose</placeName>
+          </term>
+          <term>
+            <placeName ref="5926222" type="geonames" xml:base="https://www.geonames.org/">Colombie-Britannique</placeName>
+          </term>
+          <term>
+            <placeName ref="7152924" type="geonames" xml:base="https://www.geonames.org/">La Conner</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date type="_temp" when="1965-07-28">28 juillet 1965</date>
+          </term>
+          <term>
+            <date type="_temp" when="1936">1936</date>
+          </term>
+          <term>
+            <date from="1962" to="1965" type="_temp">entre 1962 et 1965</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Une femme, deux visages, un serpent, deux
+          têtes</titlePart>
+          <titlePart type="sub">Cognition, contre-intuition et représentations
+          chimériques</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Baptiste Gille</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract" xml:id="d1e101" xml:lang="fr">
+        <p xml:id="d1e102">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+        cognitives</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+        surnaturel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre<term ref="doi:10.34817/sv-5x5ypjpb">féminin</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+              </term>
+            </term>
+          </term>Au
+        moyen d’une nouvelle démarche anthropologique d’analyse morphologique
+        des entités concrètes – notamment des entités protectrices salish&#160;:
+        des esprits féminins et le serpent-à-deux-têtes –, qui nous semble
+        être plus appropriées que les tests abstraits de la théologie
+        expérimentale actuelle, nous présentons la théorie de la violation
+        ontologique proposée par <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Pascal Boyer</persName> et montrons
+        qu’elle peut être développée et étendue à un niveau prototypique.
+        Cette extension permet une appréhension cognitive des entités
+        surnaturelles sur un plan morphologique à partir de descriptions ou
+        représentations iconographiques. <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName>
+        considère que le critère cognitif singulier de la saisie des êtres
+        surnaturels repose sur une violation des attentes d’un domaine
+        ontologique. Nous montrons qu’il y a en effet violation, mais que
+        cette violation se situe – dans certains cas – principalement au
+        niveau des attentes spécifiques ou prototypiques. Nous réhabilitons
+        ainsi le statut de ce que <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Pascal Boyer</persName> nomme
+        «&#160;bizarreries&#160;», qui sont des formes de constructions chimériques et
+        qui, pour lui, ne constituent pas un critère viable permettant de
+        comprendre la nature des entités surnaturelles.</p>
+      </div>
+      <div type="abstract" xml:id="d1e104" xml:lang="en">
+        <p xml:id="d1e105">Supernatural Beings as Oddities&#160;: Ontological
+        Breach and Chimerical Representations<lb/>Suggesting a new
+        anthropological approach for the morphological analysis of
+        supernatural entities (mainly through the analysis of two protective
+        entities of the Coast Salish peoples), I present the theory of the
+        ontological breach suggested by Pascal Boyer, and show that it can be
+        developed and extended to a prototypical level (expectations
+        concerning species). This extension enables a cognitive understanding
+        of supernatural entities on a morphological level, concerning
+        descriptions or iconographic representations. Boyer considers that the
+        intuitive understanding of supernatural beings is based upon a
+        cognitive breach in one’s ontological expectations. I show that there
+        is indeed a breach, but that this violation is mainly situated at the
+        level of our prototypical expectations of what species are expected to
+        be. I rehabilitate the status of what Boyer calls “oddities”, which
+        are examples of chimerical representations, and that, for him, do not
+        constitute a viable criterion for understanding the cognitive
+        structure of supernatural entities.</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p xml:id="d1e110">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+        expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la vie
+        et de l’environnement<term ref="doi:10.34817/sv-e3m5z8w2">biologie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-yulqsnvs">psychologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+        religions</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+        cognitives</term>
+              </term>
+            </term>
+          </term>
+          <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">P<hi rendition="#T10">ascal Boyer</hi>
+          </persName> (1994, 2001, 2003) – dont
+        la démarche a des résonances dans les recherches actuelles en
+        cognition religieuse<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Cf. entre autres&#160;: Scott Atran &amp; Ara Norenzayan (2004)&#160;;
+            Justin Barrett (2000, 2004)&#160;; Jesse Bering (2006)&#160;; Emma Cohen
+            (2007)&#160;; Elizabeth Donovan &amp; Deborah Kelemen (2003)&#160;; Stewart
+            Guthrie (1995)&#160;; Robert McCauley &amp; E. Thomas Lawson (2002)&#160;;
+            Ilkka Pyysiäinen (2001)&#160;; Ilkka Pyysiäinen &amp; Veikko Anttonen
+            (2002)&#160;; Jason Slone (2004)&#160;; Todd Tremlin (2006).<lb/>Je tiens à
+            remercier Pascal Boyer, Carlo Severi, Pierre Déléage et Quentin
+            Ehrmann-Curat pour leur lecture préalable de cet article et leurs
+            conseils précieux.</p>
+          </note> – considère que, pour qu’une divinité puisse être perçue
+        comme une <hi rend="italic">construction théologique pertinente</hi>
+        par les individus, c’est-à-dire pour qu’elle puisse se transmettre
+        facilement, être mémorisée, ou expliquer la cause de malheurs et être
+        redoutée, elle doit répondre à un certain nombre de critères cognitifs
+        (Sperber 1996&#160;; Boyer 2001). En premier lieu, pour être cognitivement
+        optimale, une divinité ne doit pas seulement être «&#160;bizarre&#160;» et
+        étrange, mais doit aussi pouvoir contredire les intuitions
+        fondamentales que nous avons de grands domaines ontologiques
+        (physique, biologique, psycho- logique). Pour conforter l’hypothèse
+        actuelle selon laquelle les individus disposent de processus cognitifs
+        d’inférence pour chacun de ces domaines ontologiques, <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Pascal
+        Boyer</persName> puis <persName ref="12706043X" type="idref" xml:base="https://www.idref.fr/">Justin Barrett</persName> (Boyer
+        1998&#160;; Barrett 2000&#160;; Boyer &amp; Ramble 2001) ont mené une série de
+        tests montrant qu’un individu se remémore plus facilement «&#160;un homme
+        qui passe à travers les murs&#160;» (violation ontologique des attentes de
+        la catégorie de [<hi rendition="#T10">personne</hi>]) qu’un «&#160;homme
+        qui a six doigts&#160;» (bizarrerie ou violation qui n’est pas ontologique
+        mais prototypique, c’est-à-dire correspondant à des attentes vis-à-vis
+        de l’espèce). Et d’en déduire que les constructions religieuses, pour
+        perdurer, doivent se présenter comme des violations explicites de nos
+        attentes cognitives, à un niveau ontologique plutôt que
+        prototypique.</p>
+        <p xml:id="d1e128">
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+        surnaturel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-lrxnglhp">divinité</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-kzthk8py">végétal</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-5vn9njoq">animal</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-oowpylbp">ontologie</term>
+                </term>
+              </term>
+            </term>
+          </term>La
+        <hi rend="italic">violation ontologique</hi> peut donc être définie
+        comme une transgression ou infraction aux règles régissant les
+        attentes de grandes catégories ontologiques ([<hi rendition="#T10">animal</hi>], [<hi rendition="#T10">personne</hi>],
+        [<hi rendition="#T10">artefact</hi>], [<hi rendition="#T10">objet
+        naturel</hi>] et [<hi rendition="#T10">plante</hi>]), attentes que les
+        individus auraient intuitivement&#160;: par exemple, les dieux ont souvent
+        le don d’ubiquité (violation ontologique des attentes correspondant
+        aux propriétés physiques [<hi rendition="#T10">objet naturel</hi>])&#160;;
+        ils ont la faculté de ne pas vieillir et de ne pas mourir (violation
+        ontologique des attentes correspondant aux propriétés biologiques [<hi rendition="#T10">animal</hi>])&#160;; ou encore, ils possèdent des dons de
+        prescience et de perception extra-sensorielle (violation ontologique
+        des attentes correspondant aux propriétés psychologiques de la
+        catégorie [<hi rendition="#T10">personne</hi>]). La violation
+        ontologique comme critère du «&#160;mystère pertinent&#160;» (Sperber 1996)
+        serait dès lors à l’origine du choix des divinités&#160;: le catalogue du
+        surnaturel renvoie à une liste d’entités soumises à des processus
+        cognitifs de sélection des meilleures dérogations ontologiques, celles
+        ne suivant pas cette forme théologique pertinente de «&#160;violation des
+        catégories ontologiques&#160;» étant rapidement oubliées ou considérées de
+        moindre importance.</p>
+        <p xml:id="d1e159">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+        religions</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+        cognitives</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-mzt52qnr">hypothèse</term>
+            </term>
+          </term>Deux
+        approches différentes sont envisageables pour infirmer ou valider
+        cette hypothèse de <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName> concernant la
+        cognition religieuse&#160;:</p>
+        <p xml:id="d1e162">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+        religions</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+        cognitives</term>
+              </term>
+            </term>
+          </term>1)&#160;Soit en s’appuyant, à
+        l’instar de <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName> et de <persName ref="12706043X" type="idref" xml:base="https://www.idref.fr/">Barrett</persName>, sur des tests
+        effectués sur des enfants et des adultes<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>Voir aussi&#160;: Scott Atran &amp; Ara Norenzayan (2004)&#160;; Justin
+            Barrett (2000)&#160;; Justin Barrett &amp; Melanie Nyhof (2001)&#160;;
+            Pascal Boyer &amp; Charles Ramble (2001)&#160;; Douglas Medin &amp;
+            Scott Atran (1999)&#160;; Andrew Shtulman (2008).</p>
+          </note>. Cette méthode, surtout privi-légiée par les chercheurs en
+        psychologie cognitive, est actuellement nommée «&#160;théologie
+        expérimentale&#160;» (Boyer 2001).</p>
+        <p xml:id="d1e169">
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-oowpylbp">ontologie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+        surnaturel</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition</term>
+          </term>2)&#160;Soit – projet
+        que nous nous proposons de suivre dans les lignes qui suivent – en
+        examinant plus particulièrement certaines entités sacrées ancestrales,
+        certains énoncés (Lisdorf 2004), il est possible de mettre en lumière
+        des cas où l’on ne constate pas de violation des attentes d’un domaine
+        ontologique précis. Il faut alors pouvoir proposer un autre modèle de
+        leur architecture formelle. Par exemple, il nous est apparu que la
+        majorité des entités protectrices transmises, recherchées et
+        respectées chez les Salish côtiers<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Les Salish côtiers, ou Salish de la côte, correspondent à un
+            sous-groupe de populations amérindiennes salish, le mot «&#160;côte&#160;»
+            désignant la côte des détroits de Géorgie et de Juan de Fuca en
+            Colombie-Britannique (Canada) et dans l’État de Washington
+            (États-Unis). Les six principales langues salish de la côte (le
+            comox, le pentlatch, le sechelt, le squamish, l’halkomelem et le
+            salish des détroits) appartiennent à la même famille linguistique.
+            Les entités surnaturelles que nous étudierons se trouvent chez les
+            Skagit septentrionaux <hi rend="italic">(Upper Skagit)</hi>,
+            vivant entre Seattle et Bellingham, sur la rivière Skagit, et dans
+            les communautés Stó:lō, vivant sur le fleuve Fraser, à l’est de
+            Vancouver. Ces deux groupes sont ainsi répartis sur une bande
+            territoriale de moins d’une centaine de kilomètres, et connaissent
+            depuis longtemps des échanges et contacts prolongés.</p>
+          </note> se caractérise plutôt par des constructions de type
+        «&#160;violations prototypiques&#160;» (correspondant aux attentes vis-à-vis des
+        espèces) que de type «&#160;violations ontologiques&#160;» (violation des
+        attentes concernant les domaines ontologiques physiques, biologiques
+        et psychologiques). Or, cela nous semble pouvoir s’appliquer à de
+        nombreuses divinités à travers le monde. En effet – pour en citer
+        quelques-unes connues de tout un chacun –, nombreux sont les dieux du
+        panthéon hindouiste mi-humains mi-animaux, comme <hi rend="italic">Ganesh</hi>, dieu mi-homme mi-éléphant, ou comme <hi rend="italic">Shiva</hi>, dieu possédant mille bras<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Variation prototypique sur le modèle de «&#160;L’homme qui avait six
+            doigts&#160;», présenté, nous l’avons vu, par Pascal Boyer (2001&#160;: 118)
+            comme un exemple de ce qui n’est pas une violation ontologique,
+            mais de ce qu’il nomme une bizarrerie.</p>
+          </note>. Ces divinités ancestrales, construites sur le modèle des
+        violations prototypiques et non sur celui des violations ontologiques,
+        n’en sont pas moins pertinentes ou importantes pour autant, puisque
+        vénérées et transmises depuis des millénaires. <hi rend="italic">Ce
+        qui nous conduit à vouloir montrer que les bizarreries, ou
+        constructions chimériques, reposant sur des variations de traits
+        prototypiques peuvent elles aussi servir de support à la compréhension
+        de la formation cognitive des existants surnaturels</hi>.</p>
+        <p xml:id="d1e192">
+          <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+        savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-z5onurxv">expérimentation</term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-oowpylbp">ontologie</term>
+                </term>
+              </term>
+            </term>
+          </term>
+          <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+        savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+        religions</term>
+              </term>
+            </term>
+          </term>Le choix de ne prendre en compte
+        que le seul critère de violation ontologique pour appréhender des
+        constructions théologiques recevables est-il dès lors approprié&#160;? Pour
+        qu’une telle question se pose, c’est qu’il nous semble qu’un problème
+        réside dans la distinction de <hi rend="italic">nature</hi> – et non
+        de <hi rend="italic">degré</hi> – opérée par <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName> (2001)
+        entre «&#160;violations ontologiques&#160;» et «&#160;violations prototypiques&#160;»
+        (phénomènes qu’il considère comme de simples «&#160;bizarreries&#160;» sans les
+        nommer «&#160;variations prototypiques&#160;»). Or, il est tout à fait possible
+        d’envisager que la violation ontologique constitue une violation
+        prototypique exagérée quantitativement, auquel cas des combinatoires
+        prototypiques anormales conduiraient à des violations ontologiques et,
+        à l’inverse, des violations ontologiques pourraient très bien se
+        présenter comme les extensions de variations prototypiques. Ce
+        problème repose en définitive sur le choix des éléments cognitifs que
+        l’on définit comme déterminants dans la théorie de l’esprit <hi rend="italic">(T<hi rendition="#T10">o</hi>M – Theory of Mind)</hi>
+        que l’on utilise. C’est pourquoi, une méthode d’analyse reposant sur
+        la forme même des divinités devrait, à notre sens, être privilégiée
+        par les anthropologues&#160;: s’appuyer sur des représentations concrètes
+        leur permettrait de dépasser les résultats des tests abstraits de la
+        théologie expérimentale, notamment parce qu’ils seraient amenés à
+        rencontrer des entités surnaturelles dont les critères de pertinence
+        ne sont pas exclusivement construits à partir de violations
+        ontologiques fondamentales.</p>
+        <div type="div1" xml:id="d1e207">
+          <head subtype="level1" xml:id="d1e208">Les limites épistémologiques
+          du critère de “violation ontologique”</head>
+          <p xml:id="d1e210">
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-z5onurxv">expérimentation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-bp9rhqhe">concept</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-mzt52qnr">hypothèse</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-jrjkvlca">théorie</term>
+              </term>
+            </term>Selon la
+          théorie cognitive des domaines spécifiques, sur laquelle s’appuie le
+          courant dominant de la théologie expérimentale, nous possédons
+          depuis la toute petite enfance des schémas conceptuels<note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>Nous nous référons à un stade antérieur de la théorie de
+              Boyer. La discussion vise moins ses hypothèses personnelles que
+              les hypothèses dominantes utilisées dans la plupart des
+              recherches en «&#160;théologie expérimentale&#160;». Dans un article
+              ultérieur, Pascal Boyer et Clark Barrett (2005) proposent une
+              cartographie en domaines de compétence (reposant sur des modules
+              inférentiels d’une sélection adaptative évolutionniste) plutôt
+              qu’en vastes domaines ontologiques.</p>
+            </note>, ou catégories ontologiques, dans lesquels nous pouvons
+          ranger nos concepts&#160;: [<hi rendition="#T10">animal</hi>], [<hi rendition="#T10">artefact</hi>], [<hi rendition="#T10">personne</hi>] sont des boîtes génériques de cet
+          ordre. Ce sont des schémas cognitifs très abstraits, nous permettant
+          d’opérer des inférences générales (Fodor 1983&#160;; Hirschfeld &amp;
+          Gelman 1994&#160;; Pinker 1997). Ainsi, le schéma conceptuel ou la
+          catégorie ontologique [<hi rendition="#T10">animal</hi>] organise
+          notre expérience à partir de certaines propriétés inférentielles
+          fondamentales comme, par exemple&#160;: <hi rend="italic">environnement</hi> de vie (arbres, mer, terriers,
+          etc.), <hi rend="italic">nourriture</hi> (autres animaux, plantes,
+          humains, etc.), <hi rend="italic">reproduction</hi> (œufs,
+          progénitures, etc.), <hi rend="italic">organisation corporelle</hi>
+          (ailes, pattes, nageoires, etc.). Dans notre boîte [<hi rendition="#T10">animal</hi>], nous disposons déjà de concepts comme
+          «&#160;morse&#160;», «&#160;pinson&#160;», etc., et, à chaque fois que nous découvrons
+          une nouvelle créature, nous pouvons la ranger dans la catégorie
+          ontologique [<hi rendition="#T10">animal</hi>] si elle répond à ces
+          critères biologiques et écologiques fondamentaux.</p>
+          <p xml:id="d1e248">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+          cognitives</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-yulqsnvs">psychologie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-afoab4qc">catégorisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+          savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-ycqftu2z">schéma</term>
+                </term>
+              </term>
+            </term>Les
+          «&#160;schémas conceptuels&#160;» sont donc les catégories générales les plus
+          abstraites que l’esprit humain puisse construire pour organiser son
+          réel. Ce sont des catégories régulatrices de notre expérience car
+          elles sont des sortes de tiroirs dans lesquels nous rangeons les
+          différents objets que nous rencontrons. Ces grands domaines
+          ontologiques proposés par <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName> s’appuient – de
+          manière implicite – sur une théorie de la catégorisation mise en
+          place dans les années 1970. Les avancées en psychologie cognitive
+          (Berlin, Breedlove &amp; Raven 1973&#160;; Mervis &amp; Rosch 1981&#160;;
+          Rosch 1973, 1975) avaient alors pu montrer l’existence d’une
+          hiérarchie subordonnée de catégories pertinentes&#160;: les individus
+          retiennent mieux certains concepts de base <hi rend="italic">(basic-level categories).</hi> Ainsi aurions-nous
+          intuitivement trois niveaux de catégorisation des objets&#160;: 1) <hi rend="italic">meuble</hi> (catégorie sur-ordonnée) / <hi rend="italic">chaise</hi> (catégorie de base) / <hi rend="italic">chaise roulante</hi> (catégorie subordonnée)&#160;; ou
+          encore 2) <hi rend="italic">véhicule</hi> (catégorie sur-ordonnée) /
+          <hi rend="italic">voiture</hi> (catégorie de base) / <hi rend="italic">voiture de sport</hi> (catégorie subordonnée).</p>
+          <p xml:id="d1e273">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-oowpylbp">ontologie</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+          intellectuelle<term ref="doi:10.34817/sv-afoab4qc">catégorisation</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-jrjkvlca">théorie</term>
+              </term>
+            </term>Les
+          théoriciens des <hi rend="italic">catégorisations prototypiques</hi>
+          ou <hi rend="italic">basic-level categories</hi> soutiennent – à la
+          différence de <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName> – que les éléments
+          cognitifs inférentiels les plus importants ne sont pas les schémas
+          conceptuels abstraits appelés catégories sur-ordonnées supérieures
+          (correspondant aux catégories ontologiques), mais les catégories de
+          base (correspondant aux catégories prototypiques). Pour <persName ref="026961504" type="idref" xml:base="https://www.idref.fr/">George
+          Lakoff</persName> et <persName ref="070720096" type="idref" xml:base="https://www.idref.fr/">Mark Johnson</persName> (1999),
+          l’esprit humain semble beaucoup plus habile à manipuler, retenir et
+          transmettre les catégories de base, dans la mesure où c’est à partir
+          d’elles que se font les inférences les plus courantes. Ces
+          catégories, en effet, ont plusieurs propriétés inductives
+          importantes&#160;:</p>
+          <list type="ordered" xml:id="d1e281">
+            <item>c’est le niveau le plus élevé pouvant être appréhendé par
+            une seule image mentale représentant la catégorie entière&#160;;</item>
+            <item>c’est le niveau le plus élevé autour duquel les membres de
+            la catégorie possèdent des similarités saillantes de forme
+            (prototype)&#160;;</item>
+            <item>c’est le niveau le plus élevé utilisé par une personne afin
+            de mobiliser des actions motrices similaires dans son interaction
+            avec les membres de la catégorie&#160;;</item>
+            <item>c’est le niveau à partir duquel la majorité de notre savoir
+            est organisée.</item>
+          </list>
+          <p xml:id="d1e290">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+          cognitives</term>
+                </term>
+              </term>
+            </term>Ces catégories de base sont
+          souvent considérées comme les catégories prototypiques ou catégories
+          de l’espèce. Si ce niveau d’inférence prototypique est un <hi rend="italic">optimum cognitif</hi> dans les théories mises en
+          lumière par <persName ref="026961504" type="idref" xml:base="https://www.idref.fr/">Lakoff</persName> et <persName ref="070720096" type="idref" xml:base="https://www.idref.fr/">Johnson</persName>
+            <hi rend="italic">(Ibid.)</hi>, il ne l’est plus dans celle de <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName> (2001). Les
+          schémas conceptuels proposés par ce dernier sont des ordres
+          supérieurs d’organisation, supérieurs encore aux catégories
+          sur-ordonnées (meuble, véhicule)&#160;: ces catégories sur-ordonnées
+          meubles et véhicules peuvent elles-mêmes, selon lui, se ranger dans
+          la catégorie supérieure [<hi rendition="#T10">artefact</hi>].
+          S’appuyant sur des modules inférentiels de grands domaines
+          ontologiques, et non sur des inférences à partir des catégories de
+          base, <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName> considère que la
+          liste des «&#160;schémas conceptuels&#160;» – ou «&#160;catégories ontologiques&#160;»,
+          ou «&#160;catégories sur-ordonnées supérieures&#160;» – est «&#160;probablement
+          exhaustive&#160;» (<hi rend="italic">Ibid</hi>.&#160;: 115). Il en propose la
+          classification suivante&#160;: [<hi rendition="#T10">animal</hi>], [<hi rendition="#T10">personne</hi>], [<hi rendition="#T10">artefact</hi>], [<hi rendition="#T10">objet
+          naturel</hi>] et [<hi rendition="#T10">plante</hi>]. De sorte que
+          toute entité surnaturelle se doit de déroger aux règles de l’un de
+          ces domaines cognitifs généraux pour paraître «&#160;théologiquement
+          correcte&#160;». Si elle ne le fait pas, elle sera moins dérangeante,
+          moins étrange, moins mémorisable et, donc, moins transmissible. Son
+          espérance de vie sociale sera dès lors rapidement écourtée.</p>
+          <div type="div2" xml:id="d1e320">
+            <head subtype="level2" xml:id="d1e321">Classification de quelques
+            entités salish à partir des violations ontologiques</head>
+            <p xml:id="d1e323">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et
+            savoirs<term ref="doi:10.34817/sv-u3sxgpv6">langue
+            ancienne</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-w2ckzlem">anthropologie</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être surnaturel<term ref="doi:10.34817/sv-lrxnglhp">divinité</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-jrjkvlca">théorie</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie</term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-oqsgefv3">ethnologie</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+            intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+                </term>
+              </term>Il
+            nous semble que les critères de <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Pascal
+            Boyer</persName> se situent au niveau des catégories les plus
+            abstraites, les domaines ontologiques, et que cette abstraction
+            les contraint peut-être à s’appliquer aux données ethno-graphiques
+            de manière un peu trop lâche. Il s’agit moins de juger que la
+            position à ce niveau d’inférence est inexacte, que de penser que
+            cette extensibilité épistémologique rend difficiles les processus
+            expérimentaux de vérification par falsification (Popper 1973
+            [1935]) des données ethnographiques. Aussi estimons-nous que les
+            études anthropologiques pouvant être choisies pour confirmer la
+            théorie de <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName> à partir de
+            listes de divinités doivent envisager la possibilité que
+            l’extension trop générale de la théorie puisse empêcher toute
+            validation. Par exemple, si nous prenons pour référence quelques
+            entités protectrices recherchées par les peuples salish,
+            partageant autrefois la langue halkomelem (vallée du <placeName ref="12031904" type="geonames" xml:base="https://www.geonames.org/">Fraser</placeName>, dans le
+            sud-ouest de la <placeName ref="5926222" type="geonames" xml:base="https://www.geonames.org/">Colombie-Britannique</placeName>),
+            ou par leurs voisins méridionaux, les Skagit septentrionaux <hi rend="italic">(Upper Skagit)</hi> (situés dans les environs de
+            <placeName ref="5786899" type="geonames" xml:base="https://www.geonames.org/">Bellingham</placeName>, dans
+            l’<placeName ref="5143303" type="geonames" xml:base="https://www.geonames.org/">État de
+            Washington</placeName>), nous constatons que le critère de
+            violation des attentes correspondant à un domaine ontologique
+            général s’applique aisément.</p>
+            <p xml:id="d1e329">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+            surnaturel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-4vqteh8z">monographie</term>
+                </term>
+              </term>Nous
+            nous appuierons pour cela sur un matériel ethnographique
+            principalement constitué de monographies ou de témoignages
+            recueillis lors d’entretiens. <hi rend="italic">The Valley of
+            Spirits</hi>, notamment, est une monographie de l’anthropologue
+            <persName ref="067054013" type="idref" xml:base="https://www.idref.fr/">June Collins</persName> (1974),
+            rédigée à la suite d’un terrain de plusieurs années, effectué dans
+            les <date from="1950" to="1959" type="_temp">années 1950</date>
+            chez les Skagit septentrionaux, dans les environs de <placeName ref="7152924" type="geonames" xml:base="https://www.geonames.org/">La Conner</placeName> (<hi rendition="#T10">wa</hi>), près de <placeName ref="5017787" type="geonames" xml:base="https://www.geonames.org/">Bellingham</placeName> (<hi rend="italic">Ibid</hi>.&#160;: 245). <persName ref="067054013" type="idref" xml:base="https://www.idref.fr/">June
+            Collins</persName> y a rassemblé des descriptions précises, de
+            première main, sur la relation entretenue par les autochtones avec
+            les entités sur-naturelles, descriptions qui lui ont permis de
+            proposer une présentation détaillée de la morphologie et des
+            caractéristiques des pouvoirs accordés à chaque esprit. Les
+            esprits se présentant aux individus à travers des visions, des
+            témoignages visuels peuvent également être consignés. C’est le cas
+            de celui du guérisseur halkomelem <persName type="_temp">Old
+            Pierre</persName>, obtenu par <persName ref="032379552" type="idref" xml:base="https://www.idref.fr/">Diamond
+            Jenness</persName> en <date type="_temp" when="1936">1936</date>
+              <note n="6" place="foot" type="standard" xml:id="ftn6">
+                <p>Old Pierre vivait à Katzie, près de Vancouver, au début du
+                <hi rendition="#T10">xx</hi>
+                  <hi rend="sup">e</hi> siècle (cf.
+                Jenness 1955).</p>
+              </note>&#160;: pour compléter son long récit d’un mythe sur l’origine
+            du monde, <persName type="_temp">Old Pierre</persName> ajouta de
+            nombreux détails sur son enfance, son éducation, ses quêtes de
+            vision et sur les différents pouvoirs accordés aux entités
+            protectrices. Cet ensemble de témoignages est publié par <persName type="_temp">Wayne P. Suttles</persName>, en <date type="_temp" when="1955">1955</date>, dans un texte intitulé <hi rend="italic">Katzie Ethnographic Notes</hi>. Enfin, plus
+            récemment, le représentant culturel Stó:lō <persName type="_temp">Albert Sonny McHalsie</persName> accorda un entretien
+            à l’anthropologue <persName ref="081392001" type="idref" xml:base="https://www.idref.fr/">Bruce Miller</persName> (2007),
+            dans lequel il rappelle la présence d’entités surnaturelles et
+            décrit brièvement leurs caractéristiques morphologiques
+            générales.</p>
+            <p xml:id="d1e353">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-bdoa5n36">spiritualité</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-r3tg8xap">communauté</term>
+              </term>À partir de
+            tous ces éléments, nous avons intégré la série des énoncés sacrés
+            des peuples halkomelem du <placeName ref="5957608" type="geonames" xml:base="https://www.geonames.org/">Fraser</placeName>, ainsi que
+            la désignation des entités protectrices chez les Skagit
+            septentrionaux dans un tableau classificatoire des entités
+            spirituelles, afin de reconnaître le critère de violation d’un
+            domaine ontologique correspondant.</p>
+            <figure xml:id="d1e361">
+              <graphic url="https://didomena.ehess.fr/downloads/x920g480x.jpg"/>
+              <head>Figure 1. Violation d’un domaine intuitif spécifique dans
+              le cas des entités spirituelles salish<note n="7" place="foot" type="standard" xml:id="ftn7">
+                  <p>Cf. Bruce Miller (2007)&#160;; June Collins (1974)&#160;; Wayne
+                  Suttles (1955). D’après les critères proposés par Pascal
+                  Boyer (2000a, 2000b, 2001).</p>
+                </note>
+              </head>
+            </figure>
+            <p xml:id="d1e363">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+            surnaturel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre<term ref="doi:10.34817/sv-7htz8int">masculin</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-oowpylbp">ontologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-mzt52qnr">hypothèse</term>
+                </term>
+              </term>L’hypothèse
+            que nous allons développer est la suivante&#160;: au-delà de ce constat
+            indéniable que chaque entité des Salish côtiers rencontrée est
+            représentative d’une forme de violation des grandes catégories
+            ontologiques, ce sont pourtant bien les saillances morphologiques,
+            les traits prototypiques combinés et ajoutés créant des chimères
+            perceptives qui seront les plus significatifs pour présenter la
+            plupart de ces entités. Par exemple, l’«&#160;homme qui vole&#160;»
+            transgresse certes les attentes d’un domaine ontologique (les [<hi rendition="#T10">personnes</hi>] ne volent pas), mais c’est avant
+            tout parce qu’il possède une variation prototypique (il possède
+            des plumes d’aigle, qui tiennent lieu d’ailes). <hi rend="italic">Ainsi, dans les cultures favorisant les descriptions
+            ou les représentations iconographiques, les analyses prototypiques
+            peuvent suffire à elles seules à rendre compte des bizarreries
+            représentatives des êtres surnaturels</hi>. Il s’agit dès lors de
+            proposer un critère de la contre-intuition qui ne soit plus
+            uniquement fondé sur une violation d’attentes correspondant aux
+            domaines ontologiques, mais également sur une violation d’attentes
+            correspondant aux traits prototypiques et spécifiques.</p>
+          </div>
+          <div type="div2" xml:id="d1e371">
+            <head subtype="level2" xml:id="d1e372">Vers une logique positive
+            de la construction des existants surnaturels</head>
+            <p xml:id="d1e374">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+            cognitives</term>
+                  </term>
+                </term>
+              </term>Nous distinguons, à la suite
+            de <persName type="_temp">Bradley Franks</persName> (2003),
+            plusieurs degrés de contre-intuition, allant d’une négation forte
+            à une négation faible, permettant l’inclusion et la juxtaposition
+            de plusieurs propriétés contradictoires, sans que cela ne pose de
+            problèmes de violation. <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Pascal Boyer</persName> considère
+            que l’acte cognitif à l’origine de la formation d’une
+            représentation religieuse est une violation ouverte (<hi rend="italic">violation</hi> ou <hi rend="italic">breach</hi>)
+            lors de «&#160;transferts&#160;» de propriétés. Or, l’acte cognitif
+            présidant à l’appréhension des propriétés contradictoires peut
+            être saisi comme un doute-inclusion de propriétés contradictoires
+            et non comme un doute-exclusion de ces mêmes propriétés. La
+            catégorie formée à partir des variations prototypiques serait dès
+            lors positive, alors que, dans la logique de <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName>, la catégorie
+            religieuse est forcément une négation d’une intuition initiale.
+            Comment comprendre cette construction contradictoire autrement que
+            comme une «&#160;violation&#160;»&#160;?</p>
+            <p xml:id="d1e383">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-bp9rhqhe">concept</term>
+                </term>
+              </term>Si l’on
+            construit l’entité AB à partir d’une superposition <hi rend="italic">(mapping)</hi> ou d’un transfert de propriétés, deux
+            cas de <hi rend="italic">superposition de propriétés</hi> peuvent
+            être envisagés (Franks 2003). 1) La superposition par <hi rend="italic">unification</hi>&#160;: la propriété α qui est transférée
+            de A vers B est dans la logique onto-logique <hi rend="italic">(consistent)</hi> des propriétés déjà possédées par
+            B, donc α est ajoutée aux propriétés de B pour faire AB (par
+            exemple&#160;: «&#160;pomme rouge&#160;», «&#160;serviette mouillée&#160;», etc.). Ces cas
+            sont les ajouts de la propriété du modificateur aux propriétés du
+            concept principal («&#160;pomme&#160;», «&#160;serviette&#160;», etc.). Donc, si A&#160;=
+            propriétés a, b, c et B&#160;= propriétés d, e, f, alors, dans cette
+            unification, AB&#160;= a, b, c, d, e, f. Rien n’est gagné, rien n’est
+            perdu (<hi rend="italic">Ibid</hi>.&#160;: 12). 2) La superposition par
+            <hi rend="italic">contradiction</hi>&#160;: dans ce cas, la propriété α
+            transférée de A n’est pas en adéquation avec la propriété β de B.
+            Se présentent alors deux possibilités&#160;:</p>
+            <p rend="noindent" xml:id="d1e405">a)&#160;La <hi rend="italic">négation</hi> (ce que Boyer considère être une
+            violation ontologique) apparaît lorsque α viole ou nie ouvertement
+            β. Selon cette logique, si AB possède α, il possède alors ¬ β. Il
+            y a une forme de double négation, négation de négation de α (¬ ¬
+            α&#160;= α). Les exemples proposés par <persName type="_temp">Bradley
+            Franks</persName> (<hi rend="italic">Ibid</hi>.&#160;: 13) pour
+            représenter cette négation sont&#160;: «&#160;image invisible&#160;», «&#160;lion de
+            pierre&#160;», «&#160;faux pistolet&#160;». Il postule que c’est une violation
+            ontologique, dans le sens où c’est une violation d’«&#160;essence&#160;». La
+            propriété ajoutée vient donc violer et nier directement et
+            explicitement les propriétés présentes dans le concept principal
+            (dans l’exemple «&#160;image invisible&#160;», quelle que soit la notion
+            d’invisibilité, elle ne possède pas les propriétés fondamentales
+            de l’image, et donc l’entité «&#160;image invisible&#160;» ne possède pas
+            les propriétés de l’image). De manière schématique, si A&#160;= a, b,
+            c, et si B&#160;= d, e, f, et que a implique ¬ d, alors AB&#160;= a, b, c, ¬
+            d, e, f.</p>
+            <p rend="noindent" xml:id="d1e414">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-mzt52qnr">hypothèse</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-jrjkvlca">théorie</term>
+                </term>
+              </term>b)&#160;Le
+            <hi rend="italic">doute</hi> apparaît lorsque α jette le doute sur
+            β, de manière à ce que AB ne possède ni α ni ¬ α, et ni β ni ¬ β
+            (dès lors ¬ ¬ α ≠ α). Les cas de doute concernant l’essence
+            présentés par <persName type="_temp">Franks</persName>
+              <hi rend="italic">(Ibid.)</hi> sont&#160;: «&#160;ami supposé&#160;», «&#160;citron
+            bleu&#160;», «&#160;présumé criminel&#160;», «&#160;poêle à frire en bois&#160;». La
+            propriété transférée sur le concept principal fait naître un doute
+            sur l’essence du concept principal. Un «&#160;ami supposé&#160;» peut être
+            un ami ou ne pas l’être, un «&#160;présumé criminel&#160;» peut avoir commis
+            ou ne pas avoir commis le crime. On leur laisse donc le bénéfice
+            du doute&#160;: ils ont <hi rend="italic">à la fois</hi> la propriété
+            de l’amitié, ou la propriété du meurtre, et leur négation. Le
+            doute est dès lors cognitivement plus important que les propriétés
+            elles-mêmes. Schématiquement, si A&#160;= a, b, c, et B&#160;= d, e, f, et
+            que a et d jettent le doute l’un sur l’autre, alors la
+            combinatoire à travers la propriété du doute est AB&#160;= ¬ (a &amp; ¬
+            a), b, c, ¬ (d &amp; ¬ d), e, f.</p>
+            <p xml:id="d1e426">La forme du doute peut elle-même suivre deux
+            logiques (Braisby, Franks &amp; Harris 1997&#160;; Franks 2003)&#160;: une
+            logique faible et une logique forte. La forme faible peut être
+            nommée «&#160;exclusion&#160;»&#160;: dans ce cas, une entité n’est pas
+            clairement un membre ou un non-membre de la catégorie,
+            c’est-à-dire que cette entité ne possède pas clairement P ou ¬ P.
+            Cette forme logique est souvent caractéristique du sens de
+            l’expression un «&#160;air de famille&#160;» ou de l’idée de «&#160;flou&#160;» <hi rend="italic">(fuzziness)</hi>
+              <note n="8" place="foot" type="standard" xml:id="ftn8">
+                <p>Cf., par exemple, Iven Van Mechelen <hi rend="italic">et
+                al</hi>. (1992).</p>
+              </note>. La forme forte, à l’inverse, consiste à penser un doute
+            par «&#160;inclusion&#160;»&#160;: <hi rend="italic">une entité est à la fois un
+            membre et un non-membre d’une catégorie, ou possède à la fois P et
+            ¬ P</hi>. Nous pouvons le schématiser ainsi&#160;: AB&#160;= (a &amp; ¬ a),
+            b, c, (d &amp; ¬ d), e, f.</p>
+            <p xml:id="d1e442">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+            religions</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+            cognitives</term>
+                  </term>
+                </term>
+              </term>Nous en déduisons dès lors
+            que la construction prototypique se produit par combinatoire de
+            propriétés contradictoires inclusives et non exclusives. La
+            cognition religieuse, pour tout ce qui est de l’ordre des
+            caractéristiques morphologiques, doit donc prendre en compte la
+            possibilité cognitive d’une mise en doute, non pas sous la forme
+            d’une <hi rend="italic">négation</hi> (Boyer 2001), d’un <hi rend="italic">doute-exclusion</hi> (Sperber 1996), mais sous celle
+            du <hi rend="italic">doute-inclusion</hi> (Franks 2003). Nous
+            considérons que cette superposition cognitive <hi rend="italic">(mapping)</hi> particulière ne peut opérer qu’à
+            l’intérieur de variations des attributs prototypiques et de
+            transferts de propriétés hétéroclites, qui apparaissent dans un
+            second temps comme «&#160;contradictoires&#160;».</p>
+            <p xml:id="d1e457">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-bp9rhqhe">concept</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-yqhh7glf">visualisation<term ref="doi:10.34817/sv-hyv2npxh">visualisation de l’information<term ref="doi:10.34817/sv-ycqftu2z">schéma</term>
+                  </term>
+                </term>
+              </term>Mais
+            comment appréhender les <hi rend="italic">variations</hi>
+            prototypiques&#160;? Elles correspondent souvent à nos attentes
+            spatiales, symétriques, morphologiques et structurales concernant
+            une espèce donnée (humains, ours, loups, aigles, etc.). Elles ne
+            dérogent pas aux règles de ces attentes fondamentales&#160;: comme le
+            fait, par exemple, que les animaux se déplacent dans le sens de
+            leurs organes sensoriels ou qu’ils font preuve d’une certaine
+            symétrie bilatérale, etc. (Ward 1994). Les variations
+            prototypiques ne violent donc pas les attentes ontologiques
+            générales (les schémas conceptuels), mais transforment plutôt
+            quantitativement les propriétés minimales imputées aux existants&#160;:
+            <hi rend="italic">dédoublement, augmentation d’une propriété
+            principale, addition de propriétés trans-spécifiques (hybridité et
+            création de chimères) ou soustraction de propriétés (comme l’œil
+            unique du cyclope)</hi>.</p>
+          </div>
+        </div>
+        <div type="div1" xml:id="d1e465">
+          <head subtype="level1" xml:id="d1e466">Les entités surnaturelles
+          salish comme “bizarreries”</head>
+          <p xml:id="d1e468">
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+          savantes<term ref="doi:10.34817/sv-gb22rumt">pratique
+          artistique<term ref="doi:10.34817/sv-6v4paydr">littérature</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-oqsgefv3">ethnologie</term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+          expérimentales<term ref="doi:10.34817/sv-rkumzggc">sciences de la
+          Terre et de l’Univers<term ref="doi:10.34817/sv-o4gbygyd">astrophysique<term ref="doi:10.34817/sv-z68mcrvu">cosmologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre<term ref="doi:10.34817/sv-5x5ypjpb">féminin</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-mzt52qnr">hypothèse</term>
+              </term>
+            </term>Pour
+          étayer l’hypothèse selon laquelle les entités surnaturelles
+          apparaissent davantage comme des bizarreries que comme des
+          violations ontologiques, nous soumettons à l’analyse les
+          caractéristiques morphologiques de deux types d’êtres surnaturels
+          chez les Salish côtiers&#160;: les esprits féminins à la longue
+          chevelure, présents chez les communautés skagit vivant au nord de
+          <placeName ref="5809844" type="geonames" xml:base="https://www.geonames.org/">Seattle</placeName>, et le <hi rend="italic">si:lhqey</hi>, un esprit connu notamment sous l’aspect
+          d’un serpent-à-deux-têtes chez les communautés Stó:lō vivant à l’est
+          de Vancouver. Le choix des esprits salish s’est imposé à la suite
+          d’une expérience de terrain dans la région ayant permis une
+          meilleure familiarisation avec leur système social et les
+          cosmologies locales. Mais, surtout, parce que ces entités sont
+          souvent bien caractérisées dans la littérature ethno-graphique. Par
+          exemple, il existe des séries de dessins assez récents les
+          représentant, ainsi que des récits et des témoignages d’anciens qui
+          les rencontrèrent directement (Wells 1970, 1987). Ces
+          représentations viennent compléter une littérature ethnographique
+          nord-américaine, généralement riche pour ce qui concerne le complexe
+          des esprits protecteurs chez les Salish côtiers<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Parmi nombre de publications sur ces questions, outre celles
+              déjà évoquées plus haut (Collins 1974&#160;; Jenness 1955&#160;; Suttles
+              1955&#160;; Miller 2007), nous pouvons suggérer&#160;: Pamela Amoss
+              (1978)&#160;; Homer Barnett (1955)&#160;; Crisca Bierwert (1999)&#160;; William
+              Elmendorf (1993)&#160;; Wolfgang Jilek (1974)&#160;; Charles Hill-Tout
+              (1978)&#160;; Sarah Anne Robinson (1963)&#160;; Joyce Annabel Wike
+              (1941).</p>
+            </note>.</p>
+          <p xml:id="d1e478">
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-c5oskknl">sémantique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+          savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                  </term>
+                </term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+          savoirs<term ref="doi:10.34817/sv-ffdwksdj">tradition<term ref="doi:10.34817/sv-rygsst5f">héritage</term>
+              </term>
+            </term>
+            <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+          surnaturel</term>
+              </term>
+            </term>Que ce soit dans les communautés
+          skagit ou Stó:lō, voire à l’échelle d’une vaste aire culturelle
+          salish, le rapport aux entités surnaturelles reste partout
+          similaire&#160;: elles sont sollicitées par les individus dès la fin de
+          l’enfance, elles peuvent être reçues en héritage immatériel ou en
+          héritage avec certains objets&#160;; dans la plupart des cas, elles
+          confèrent un pouvoir à l’individu qui les rencontre et lui offrent
+          un chant. Autrefois, ces esprits se répartissaient entre ceux
+          pouvant être apprivoisés par tout le monde (c’est le cas des esprits
+          féminins que nous présentons) et ceux, beaucoup plus dangereux, ne
+          pouvant l’être que par des individus souhaitant devenir guérisseur
+          (c’est le cas du serpent-à-deux-têtes). Leur ostension se produit
+          soit lors de visions ou de rêves (souvent, dans les langues salish,
+          la racine du verbe «&#160;rêver&#160;» permet de former le substantif
+          désignant les entités surnaturelles)<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Par exemple, le verbe «&#160;rêver&#160;» (/ʔǝliyε/) est, en halkomelem
+              du haut Fraser, la racine du mot «&#160;esprit&#160;» (/syuwél/) (Galloway
+              1994&#160;: 491&#160;; Hilll-Tout 1978&#160;: 110&#160;; Jilek 1974&#160;: 136).</p>
+            </note>, soit par confrontation directe&#160;: le serpent-à-deux-têtes
+          des Stó:lō se manifeste près des lacs ou marécages, alors que les
+          entités féminines des Skagit rôdent plutôt autour des maisons. De
+          nos jours, ces entités sont encore considérées comme importantes,
+          même si elles se révèlent moins prégnantes. Du serpent-à-deux-têtes,
+          il est souvent dit qu’il s’est enfui avec l’arrivée des colons, à
+          cause de l’assainissement des marais et de la construction du chemin
+          de fer (Wells 1987&#160;; Carlson &amp; MacHalsie 2001&#160;; Miller 2007). Le
+          but de cette présentation, surtout dans le cas du
+          serpent-à-deux-têtes qui est une entité stabilisée sur une aire
+          géographique plus vaste, est de mettre en lumière certains
+          mécanismes de construction formelle de ces entités, élaborés à
+          partir de rencontres directes, de visions et processus oniriques,
+          mais aussi à partir de transmissions par déférence, c’est-à-dire en
+          se référant aux témoignages d’autres personnes – un mode de
+          transmission essentiellement alimenté par les rumeurs.</p>
+          <div type="div2" xml:id="d1e484">
+            <head subtype="level2" xml:id="d1e485">Morphologie de quatre
+            esprits féminins skagit</head>
+            <p xml:id="d1e487">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+            surnaturel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre<term ref="doi:10.34817/sv-5x5ypjpb">féminin</term>
+                </term>
+              </term>Certaines
+            propriétés matérielles, comme les cheveux, le visage ou d’autres
+            parties du corps, interviennent dans le processus de construction
+            de la représentation d’esprits tels que les quatre esprits
+            féminins skagit que nous allons analyser ici. Si les
+            augmentations, dédoublements, additions et renforcements des
+            propriétés féminines les caractérisant peuvent bien apparaître
+            comme «&#160;violant&#160;» les attentes de domaines ontologiques, notre
+            objectif est de montrer que cela ne pourra réellement se
+            comprendre qu’une fois mis au jour les procédés par lesquels ces
+            êtres sont préalablement pourvus d’un supplément de propriétés
+            prototypiques.</p>
+            <p xml:id="d1e490">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-y56rtd3h" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">inscription des
+            savoirs<term ref="doi:10.34817/sv-uaqvtxov">genre éditorial<term ref="doi:10.34817/sv-4vqteh8z">monographie</term>
+                </term>
+              </term>La
+            monographie de <persName ref="067054013" type="idref" xml:base="https://www.idref.fr/">June Collins</persName> (1974)
+            sur les peuples skagit offre une description de ces quatre
+            esprits. Ce sont des esprits communs (s.qǝlátitut), ce qui
+            signifie qu’ils ne ressortissent pas aux seuls chamanes, mais
+            qu’ils protègent également les individus ordinaires, en
+            l’occurrence certaines personnes skagit, vivant près de <placeName ref="5646086" type="geonames" xml:base="https://www.geonames.org/">La Conner</placeName> (<hi rendition="#T10">wa</hi>) dans la région de <placeName ref="5786899" type="geonames" xml:base="https://www.geonames.org/">Bellingham</placeName>, au
+            nord de <placeName ref="5809844" type="geonames" xml:base="https://www.geonames.org/">Seattle</placeName>. Ils ont
+            pour caractéristiques communes d’être féminins, de protéger le
+            foyer et de posséder une longue chevelure.</p>
+            <p xml:id="d1e496">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-qcbhpij3">corps<term ref="doi:10.34817/sv-njzdsqjs">santé</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-aeobbu5r">émotion</term>
+              </term>1)&#160;Le premier
+            esprit est une femme nommée /síud/. Il est dit que sa chevelure
+            est si longue qu’elle recouvre complètement sa tête et son corps.
+            <hi rend="italic">Síud</hi> est liée à la maison, qu’elle protège
+            ainsi que les membres de la famille lorsqu’ils se déplacent d’une
+            maisonnée à l’autre (<hi rend="italic">Ibid</hi>.&#160;: 154). Cet être
+            appartient à une classe d’esprits très féminins nommés /cisíud/
+            (litt.&#160;: «&#160;femme-<hi rend="italic">síud</hi>&#160;»). Tous ceux
+            protégés par son pouvoir se doivent de lui ressembler physiquement
+            en arborant la même longue chevelure. Une informatrice skagit de
+            <persName ref="067054013" type="idref" xml:base="https://www.idref.fr/">June Collins</persName> décrit la
+            force de cet esprit, qui lui est conférée par ses cheveux&#160;:</p>
+            <q rend="quotation">«&#160;<hi rend="italic">Síud</hi> est vraiment une
+            vieille femme. Sa chevelure tombe toute droite. Elle protège la
+            maison. Quiconque vit dans la maison et a reçu son pouvoir doit
+            lui ressembler [avoir la même chevelure]. À chaque fois qu’elle se
+            met en colère, quel que soit l’endroit où elle vit, elle emmêle
+            ceux qui l’ont offensée dans sa chevelure <hi rend="italic">[she
+            mixes them up in her hair]</hi>. Elle cache dans ses cheveux
+            quiconque la contrarie. Tout son corps est recouvert de ses longs
+            cheveux. Ma mère, <persName type="_temp">Amie Jones</persName> et
+            <persName ref="251415082" type="idref" xml:base="https://www.idref.fr/">Johnny Jones</persName> sont
+            issus de la lignée de cette femme <hi rend="italic">cisíud</hi>.
+            Ils [les offenseurs de <hi rend="italic">síud</hi> emprisonnés
+            dans sa chevelure] tombent malades et, si on ne les trouve pas,
+            ils meurent. Elle aime que tout soit propre, que tout soit à la
+            bonne place. Elle protège la maison et la famille, si tout le
+            monde fait bien attention à elle.<lb/>Une fois (mon mari et moi
+            sommes jeunes, tu sais, nous n’avions aucune idée de tout cela),
+            nous avions laissé notre radio allumée très tard, et nous faisions
+            beaucoup de bruit. Alors, ma tante, qui habite la porte d’à-côté,
+            eut un rêve. La <hi rend="italic">síud</hi> avait déménagé de la
+            maison à la mort de la mère de ma tante et s’était installée en
+            dehors. Elle entendit le vacarme venant de ma maison et alla voir
+            ce qui se passait. Ma tante rêva de <hi rend="italic">síud</hi> en
+            train d’examiner les fils de la radio, les tenant dans ses mains,
+            se demandant d’où pouvait venir le bruit, et si les fils avaient
+            quelque chose à voir avec ce bruit. Si la <hi rend="italic">síud</hi> était entrée à l’intérieur de la maison,
+            personne n’aurait pu dire ce qui se serait passé. Elle aurait pu
+            s’emparer de quelqu’un avec sa chevelure. Personne ne sait quand
+            <hi rend="italic">síud</hi> est dans les environs. Elle rôde
+            autour des maisons de la famille, vers le frère de ma tante, reste
+            là-bas et demeure à différents endroits&#160;».(<hi rend="italic">Ibid</hi>.&#160;: 154-155, notre traduction)</q>
+            <p xml:id="d1e541">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+                </term>
+              </term>Ce
+            témoignage vient confirmer que l’esprit féminin <hi rend="italic">síud</hi> se caractérise par la longueur anormale de
+            ses cheveux, qui recouvrent tout son corps. Plus encore, l’esprit
+            y est non seulement mis en rapport avec les cheveux, mais aussi
+            avec des fils de radio, c’est-à-dire avec deux éléments qui
+            renvoient à des choses fines et allongées. Or, chez les Salish
+            côtiers, les femmes sont généralement considérées plus à même que
+            les hommes de manipuler ce type d’objets fins&#160;: notamment, dans la
+            division du travail, c’est aux femmes que sont confiées les
+            activités de tissage et de vannerie.</p>
+            <p xml:id="d1e548">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>2)&#160;Le
+            deuxième esprit féminin a la particularité de se dédoubler et de
+            se présenter sous la forme de deux femmes («&#160;two lady spirits&#160;»).
+            Il est nommé /tádi słǝ̓łádǝy/, le terme signifiant littéralement
+            «&#160;plus d’une femme&#160;» (<hi rend="italic">Ibid</hi>.&#160;: 152). Une
+            informatrice de <persName ref="067054013" type="idref" xml:base="https://www.idref.fr/">June Collins</persName> raconte
+            que ces deux femmes apparaissent souvent à l’aube, qu’elles jouent
+            avec la grêle en la faisant rouler jusqu’au crépuscule, d’est en
+            ouest&#160;: c’est cette grêle qui serait à l’origine des arcs-en-ciel
+            <hi rend="italic">(Ibid.)</hi>. <hi rend="italic">Tádi
+            słǝ̓łádǝy</hi> possède un chant (<hi rend="italic">Ibid</hi>.&#160;:
+            153) supposé aider à «&#160;élever les enfants&#160;». L’informatrice de
+            <persName ref="067054013" type="idref" xml:base="https://www.idref.fr/">June Collins</persName> rapporte
+            que son grand-père avait reçu ce chant&#160;; il eut quatre filles, une
+            des femmes de cet esprit double le protégeait lui, tandis que
+            l’autre protégeait l’aînée&#160;: «&#160;On attendait de ses quatre filles
+            qu’elles aient une belle et longue chevelure, et qu’elles la
+            gardent bien longue. Ces quatre filles grandirent et devinrent des
+            femmes&#160;» <hi rend="italic">(Ibid.)</hi>. La chevelure soyeuse est
+            donc à nouveau présente, devant être arborée par les femmes en
+            relation avec l’esprit, tout comme le lien aux affaires
+            domestiques, notamment à l’éducation des enfants. On prétend aussi
+            que ce double-esprit aide à l’accumulation des richesses et
+            protège efficacement des coupures, mêmes mortelles.</p>
+            <p xml:id="d1e566">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+                </term>
+              </term>3)&#160;Le
+            troisième esprit féminin est nommé /spigǝd/ ou /ʔilyábac’us/. Il
+            s’agit d’une femme qui protège le foyer et sait quand une personne
+            est sur le point de mourir (<hi rend="italic">Ibid</hi>.&#160;: 154).
+            Il est dit qu’elle peut voir ce qui se passe derrière elle car
+            elle possède deux visages, l’un de chaque côté de sa tête (<hi rend="italic">Ibid</hi>.&#160;: 152). Tout comme le précédent, cet
+            esprit féminin aide à l’accumulation de biens pour la
+            maisonnée.</p>
+            <p xml:id="d1e575">4)&#160;Un quatrième esprit féminin, très proche de
+            <hi rend="italic">síud</hi>, mais dont on ne sait que très peu de
+            chose, est lui aussi caractérisé par sa longue chevelure&#160;: son nom
+            est /stáłkalb/, qui signifie «&#160;un esprit féminin dont chaque
+            cheveu porte un nom&#160;» (<hi rend="italic">Ibid</hi>.&#160;: 146).</p>
+            <p xml:id="d1e584">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+            intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et
+            savoirs<term ref="doi:10.34817/sv-u3sxgpv6">langue
+            ancienne</term>
+                </term>
+              </term>La longue chevelure est donc
+            l’attribut principal de ces quatre esprits. Pour les décrire,
+            l’accent est d’ailleurs le plus souvent mis sur les cheveux, et il
+            semble que ce soit d’eux que ces esprits tirent leur pouvoir (<hi rend="italic">síud</hi> peut même tuer avec ses cheveux). Cette
+            association entre esprits féminins et longs cheveux est assez
+            commune chez les Salish côtiers (dont font partie les communautés
+            skagit), mais aussi chez la plupart des communautés de la côte
+            nord-ouest. Elle se retrouve jusque dans la terminologie. Les
+            langues ergatives salish utilisent, en effet, le même vocable
+            (/it̓θeʔ/) pour désigner les cheveux, les mèches et les choses
+            fines (comme les fibres végétales pour les paniers et les fils
+            textiles pour les tissus, voire, comme ici, les fils de radio). De
+            la même façon que pour d’autres saillances de forme (sphériques,
+            rondes, bouclées, rectangulaires, cylindriques ou plates), le fait
+            d’être long et fin était une propriété de classification dans la
+            majorité des langues salish (Gerdts &amp; Hinkson 2004&#160;:
+            32-33)<note n="11" place="foot" type="standard" xml:id="ftn11">
+                <p>Toutes les citations de cette référence renvoient aux pages
+                de la version électronique.</p>
+              </note>.</p>
+            <p xml:id="d1e594">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+            surnaturel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et
+            savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-aimsaezx">territoire<term ref="doi:10.34817/sv-icg5zods">région</term>
+                </term>
+              </term>Par
+            ailleurs, il est à noter que si cet esprit <hi rend="italic">síud</hi> est propre aux communautés skagit vivant
+            dans la région de <placeName ref="5786899" type="geonames" xml:base="https://www.geonames.org/">Bellingham</placeName>, il
+            possède la forme d’un prototype plus général dans la région et sur
+            toute la côte nord-ouest, qui est celui de l’«&#160;ogresse au panier&#160;»
+            <hi rend="italic">(basket ogress)</hi>. En effet, dans cette même
+            région de <placeName ref="5786899" type="geonames" xml:base="https://www.geonames.org/">Bellingham</placeName> (le
+            Puget Sound), mais également, avec ses variantes, sur toute la
+            côte nord-ouest du <placeName ref="6251999" type="geonames" xml:base="https://www.geonames.org/">Canada</placeName> (Thompson
+            &amp; Egesdal 2008)<note n="12" place="foot" type="standard" xml:id="ftn12">
+                <p>Ou, par exemple, le mythe Oowekeeno de l’ogresse
+                Ts’ilkigyila ou Atsi, rapporté par Franz Boas (2002 [1895]&#160;:
+                468).</p>
+              </note>, on trouve un mythe assez célèbre rapportant les méfaits
+            de l’esprit surnaturel dit de l’«&#160;ogresse au panier&#160;», volant les
+            enfants pour les manger (Hilbert 1985). Là encore, l’ogresse a
+            pour caractéristiques principales d’avoir une longue chevelure et
+            d’être habile dans l’art de la vannerie, se confectionnant des
+            paniers pour y mettre les enfants qu’elle a volés. Un exemple de
+            l’importance accordée aux cheveux dans la représentation de ce
+            personnage est manifeste dans le célèbre masque de l’ogresse
+            Dzonoqwa des Kwakiutl (aujourd’hui Kwakwaka’wakw)<note n="13" place="foot" type="standard" xml:id="ftn13">
+                <p>Cf., par exemple, Claude Lévi-Strauss (1975).</p>
+              </note>, dont la chevelure noire, épaisse et tombante permet de
+            la reconnaître immédiatement. De sorte qu’il est tout à fait
+            possible de voir dans la femme <hi rend="italic">síud</hi> une
+            variante assez éloignée de l’ogresse au panier.</p>
+            <p xml:id="d1e614">Outre les tâches domestiques et l’éducation des
+            enfants, les différents traits féminins skagit répondent donc à un
+            prototype dont les principaux prédicats sont les cheveux et le
+            rapport aux choses fines. Ce sont là les propriétés minimales
+            permettant de circonscrire la féminité dans le monde salish. Le
+            schéma ci-contre aidera à mettre en lumière le fait que les quatre
+            esprits analysés ici présentent des variantes autour de ces
+            propriétés&#160;: ils sont construits à partir de différentes
+            augmentations ou formes de dédoublement des propriétés initiales
+            (augmentation des cheveux – addition des cheveux – dédoublement
+            des visages – dédoublement des corps), apparaissant comme des
+            variations autour d’un même axe prototypique.</p>
+            <figure xml:id="d1e620">
+              <graphic url="https://didomena.ehess.fr/downloads/1c18dq67s.jpg"/>
+              <head>Figure 2. Schéma 1. Variation de la forme des esprits à
+              partir de l’augmentation, de l’addition ou du dédoublement de
+              propriétés minimales</head>
+            </figure>
+            <p xml:id="d1e622">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+            expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la
+            vie et de l’environnement<term ref="doi:10.34817/sv-vsq9jwul">morphologie
+            biologique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-hsg6mvs4">morphologie
+            linguistique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-c5oskknl">sémantique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-q5lkydsn">sexe et genre<term ref="doi:10.34817/sv-5x5ypjpb">féminin</term>
+                </term>
+              </term>Les
+            quatre entités féminines skagit sont donc sémantiquement et
+            morphologiquement comparables. Elles sont sémantiquement reliées
+            au foyer et à la capacité de prendre soin des enfants qui y
+            grandissent. Elles sont morphologiquement associées aux cheveux et
+            à d’autres propriétés du corps féminin, notamment le visage et le
+            corps, mais tout en se différenciant par des variations
+            quantitatives au niveau du prototype, créées par les
+            dédoublements, additions et augmentations de ces prédicats
+            féminins. Ainsi, même s’il est vrai que ces quatre entités
+            possèdent des caractéristiques générales de violation de domaines
+            spécifiques (comme, par exemple, être présentes tout en étant
+            invisibles, capturer des personnes dans leurs cheveux, etc.), on
+            retient celles spécifiquement morphologiques (expliquant cette
+            possibilité de violation ontologique), se rapprochant donc
+            davantage de variations prototypiques (augmentation de la
+            propriété générale, dédoublement symétrique des supports,
+            combinatoires de propriétés). C’est pourquoi il nous paraît
+            possible d’avancer que de telles entités sont construites à partir
+            de propriétés fondamentalement intuitives, qui s’agencent entre
+            elles, tendant à former des sortes de chimères.</p>
+          </div>
+          <div type="div2" xml:id="d1e624">
+            <head subtype="level2" xml:id="d1e625">Les créatures <hi rend="italic">si:lhqey</hi> chez les Stó:lō</head>
+            <p xml:id="d1e630">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-ml5ro6rg">langage et
+            savoirs<term ref="doi:10.34817/sv-y76ptfev">genre<term ref="doi:10.34817/sv-vdzzpyuu">mythe</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+            surnaturel</term>
+                </term>
+              </term>Nous proposons à présent d’étudier
+            la morphologie d’une entité «&#160;stable&#160;», c’est-à-dire faisant
+            l’objet d’une diffusion sur toute la côte nord-ouest du <placeName ref="6251999" type="geonames" xml:base="https://www.geonames.org/">Canada</placeName>, nommée
+            <hi rend="italic">si:lhqey</hi> chez les peuples vivant à quelques
+            kilomètres au nord des Skagit<note n="14" place="foot" type="standard" xml:id="ftn14">
+                <p>Jan P. Van Eijk (2001) répertorie l’ensemble des
+                désignations de cette créature sur la côte nord-ouest. Pour
+                une occurrence dans les récits mythiques de la plupart des
+                communautés de la côte nord-ouest, cf. Franz Boas (2002
+                [1895]&#160;: 41, 58, 81, 195, 276).</p>
+              </note>, les Stó:lō. Nous nous intéresserons plus
+            particulièrement à la présentation que ces derniers en font, à
+            partir d’une série d’entretiens recueillis auprès des anciens,
+            <date from="1962" to="1965" type="_temp">entre 1962 et
+            1965</date>, par un fermier nommé <persName ref="152673695" type="idref" xml:base="https://www.idref.fr/">Oliver
+            Wells</persName> (cf. 1970, 1987).</p>
+            <p xml:id="d1e640">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+            surnaturel</term>
+                </term>
+              </term>Cette entité appartient à un
+            ensemble de créatures sacrées nommées /stl’áleqem/, qui ont pour
+            habitat principal les marais ou plan d’eau. De nos jours encore,
+            les Stó:lō avertis savent que lorsqu’ils éprouvent une sensation
+            inhabituelle – généralement des picotements dans la nuque –, ils
+            se trouvent en présence d’une entité stl’áleqem (même si celle-ci
+            est invisible ou nécessite un état de vision). Face à ces
+            créatures, lorsqu’elles sont visibles, certains protocoles sont à
+            respecter&#160;: il faut reculer lentement les yeux fixés sur la
+            créature jusqu’à ce qu’elle soit hors de vue, s’arracher un cheveu
+            et l’envoyer en soufflant vers la divinité (Carlson &amp;
+            MacHalsie 2001&#160;: 8&#160;; Van Eijk 2001&#160;: 183&#160;; Wells 1970&#160;: 25). Si
+            l’individu avec lequel elle est entrée en contact a correctement
+            suivi les règles et si la créature sacrée ne s’est pas sentie
+            offensée, alors elle pourra partager une partie de son pouvoir
+            avec lui (Hill-Tout 1978&#160;: II, 73-76&#160;; Van Eijk 2001&#160;: 179&#160;;
+            Suttles 1987&#160;: 75-76&#160;; Wells 1987&#160;: 54-55, 84-85, 156-157). Une
+            telle rencontre, qu’elle ait lieu en rêve, en vision ou de manière
+            ostensive, est considérée comme à la fois hautement sacrée et
+            dangereuse.</p>
+            <p xml:id="d1e643">La morphologie de cette créature connaît de
+            nombreuses variantes prototypiques selon les informateurs
+            interrogés&#160;: il s’agit parfois d’un canard (ou d’un huard),
+            parfois d’un serpent, parfois d’une créature hybride ou
+            indéterminée. Mais, dans ces différents cas, il s’agit toujours
+            d’une créature possédant deux têtes, une à chaque extrémité du
+            corps. C’est d’un serpent qu’il est question, par exemple, dans
+            cet extrait d’entretien entre <persName ref="152673695" type="idref" xml:base="https://www.idref.fr/">Oliver
+            Wells</persName> et l’ancien <persName type="_temp">Bob
+            Joe</persName>, daté du <date type="_temp" when="1965-07-28">28
+            juillet 1965</date> à <placeName>Yakweakwioose</placeName>, où ce
+            dernier nous donne un exemple d’ostension directe avec la
+            créature&#160;:</p>
+            <q rend="quotation">«&#160;Eh bien, je l’ai vu une fois, mais ce
+            n’était pas si grand, à peu près cette taille. Je chassais, et
+            j’ai vu la chose loin dans l’eau profonde. Mon Dieu, ces yeux sont
+            comme du feu. Mon Dieu, je vois cette chose. Je chassais des
+            canards, tu sais, je passais par là.<lb/>Environ deux heures
+            après, je suis repassé par le même chemin, et la chose était à peu
+            près aussi loin de moi que tu l’es maintenant. J’ai pu la voir se
+            déplacer si vite. Je l’ai vu. Je l’ai vu de mes propres yeux. Elle
+            ne m’a pas dérangé. Je ne suis pas devenu fou <hi rend="italic">[I
+            didn’t get crazy from it]</hi>. Je ne cherchais pas cette chose,
+            tu sais. Je devine qu’il savait que je n’étais pas à sa
+            recherche&#160;».(Wells 1987&#160;: 157, notre traduction)</q>
+            <p xml:id="d1e654">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+            surnaturel</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-vdg9xj5e">pratique
+            rituelle<term ref="doi:10.34817/sv-swq24hre">cérémonie</term>
+                </term>
+              </term>Bien
+            que l’aspect reptilien de la créature ne transparaisse pas
+            nettement dans cet extrait, on sait qu’<persName type="idref" xml:base="https://www.idref.fr/">Oliver Wells</persName> l’avait
+            tenu, dès le début, pour une caractéristique implicite du <hi rend="italic">si:lhqey</hi>, connue de tous chez les Stó:lō.
+            <persName type="_temp">Bob Joe</persName> avait notamment tenté de
+            la dessiner lors d’autres entretiens (Wells 1970&#160;: 31-32) et,
+            comme il le rappelle par ailleurs, le <hi rend="italic">si:lhqey</hi> avait été peint sous la forme d’un
+            serpent à deux têtes au fronton d’une ancienne maison cérémonielle
+            nommée Kwawksawpilt<note n="15" place="foot" type="standard" xml:id="ftn15">
+                <p>Voir une description et un dessin du
+                «&#160;serpent-à-deux-têtes&#160;» sur ce fronton dans un entretien de
+                juillet 1964 avec un autre ancien, Dan Milo.</p>
+              </note>.</p>
+            <p xml:id="d1e668">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-qexr4wnk" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">espaces savants<term ref="doi:10.34817/sv-ignfvfg2">lieu</term>
+              </term>À l’inverse,
+            c’est d’un canard qu’il est question lors d’un autre entretien
+            d’<persName ref="152673695" type="idref" xml:base="https://www.idref.fr/">Oliver Wells</persName> avec
+            l’ancien <persName type="_temp">Albert Louie</persName>, réalisé
+            <date from="1962" to="1965" type="_temp">entre 1962 et
+            1965</date>, au cours duquel <persName type="_temp">Albert
+            Louie</persName> se réfère à cette créature indirectement&#160;: il y
+            relate l’expérience dont lui a fait part Chef Joe, son grand-père.
+            Ce dernier passait près d’un grand marécage, au sud de <placeName ref="6056669" type="geonames" xml:base="https://www.geonames.org/">Little Mountain</placeName>,
+            à l’est de <placeName ref="12031862" type="geonames" xml:base="https://www.geonames.org/">Chilliwack</placeName>&#160;:</p>
+            <q rend="quotation">«&#160;Il entendit cette chose voler – et elle se
+            posa juste au milieu du lac – comme un canard – mais quand il
+            arriva près du lac, il se rendit compte que ce n’était pas un
+            canard. Il dit que c’était juste comme une énorme baignoire,
+            flottant, et comme il la regardait, sa tête sortit et il commença
+            à parler. Il parlait comme un canard – comme un Colvert. Mais, peu
+            après, une nouvelle tête surgit – il avait deux têtes – et comment
+            cette chose pouvait voler, je ne saurais le dire&#160;: mais les
+            Indiens disent que cette chose peut voler de lac en lac. Je ne
+            comprends pas, mais c’est une grande chose, tu sais&#160;: mais si tu
+            le dis à un homme blanc, il ne le croirait pas, tu sais, mais mon
+            grand-père, Chef Joe de Kwawksawpilt, il l’a vue deux fois, venir
+            juste vers lui, sur le lac comme un bateau. Il a dit que c’était
+            juste comme une baignoire – puis une tête sortit – et il commença
+            à parler – et puis l’autre tête sortit – comme une tête de canard
+            au bout d’un long cou. C’est le <hi rend="italic">si:lhqey</hi>,
+            c’est ainsi qu’ils l’appellent&#160;».(Wells 1970&#160;: 31, 1987&#160;: 157,
+            notre traduction)</q>
+            <p xml:id="d1e677">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-rbbgzfom">validation<term ref="doi:10.34817/sv-gkskjmkr">témoignage</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-ajg22uda">récit</term>
+                </term>
+              </term>Ces deux
+            récits diffèrent sur plusieurs points&#160;: l’apparence de la créature
+            donc, son comportement, ou encore le fait que le récit de Bob Joe
+            relate une expérience directe, tandis que celui d’<persName type="_temp">Albert Louie</persName> se réfère aux témoignages de
+            son grand-père. Toutefois, <persName type="_temp">Albert
+            Louie</persName> précisera, lors d’un entretien du <date type="_temp" when="1965-07-28">28 juillet 1965</date> à <placeName ref="6185113" type="geonames" xml:base="https://www.geonames.org/">Yakweakwioose</placeName>,
+            avoir lui-même rencontré la créature, comme en témoignent des
+            dessins qu’il proposa à <persName ref="152673695" type="idref" xml:base="https://www.idref.fr/">Wells</persName> et sur lesquels
+            figurent deux têtes de canards surgissant d’une sorte de piscine
+            (Wells 1970&#160;: 31 et <hi rend="italic">sq</hi>.). À l’instar de ces
+            témoignages et de nombreux autres, on comprend que le <hi rend="italic">si:lhqey</hi> n’a pas d’identité spécifique claire,
+            mais correspond à une combinaison de propriétés minimales
+            hétérogènes sur le modèle d’une représentation chimérique&#160;: «&#160;Il a
+            de longues oreilles, comme des oreilles de cheval. Il a un nez, et
+            il a des dents à l’intérieur, comme un alligator, tu vois&#160;» (Wells
+            1987&#160;: 157). On trouve également cette apparence de composites
+            hétérogènes greffés chez les Skagit voisins, où il existe un
+            esprit nommé /tubqwap/, qui est la «&#160;moitié-d’un-serpent&#160;» dont
+            l’assemblage avec une autre moitié identique donne un
+            serpent-à-deux-têtes nommé /vi’lced/ (Wike 1941&#160;: 68). De tels
+            ensembles de parties hétéroclites confèrent donc au <hi rend="italic">si:lhqey</hi> une apparence formelle indéfinie, même
+            si, selon <persName ref="252943228" type="idref" xml:base="https://www.idref.fr/">Bob Joe</persName>, ses couleurs
+            sont quant à elles bien déterminées&#160;:</p>
+            <q rend="quotation">«&#160;Lorsqu’il sortit de l’eau, ce n’était qu’une
+            grosse boule – alors une tête sortit d’un côté, et une autre tête
+            de l’autre côté. Et sur son dos, c’était rond, pas de forme en
+            losange. Tout autour de son corps, c’était noir, mais cette partie
+            était rouge et blanche – autour du côté. Le centre était
+            noir&#160;».(Wells 1970&#160;: 30)</q>
+            <p xml:id="d1e692">Un informateur lummi (communauté skagit, vivant
+            à Bellingham) de <persName type="_temp">Wayne P.
+            Suttles</persName> explique l’indétermination morphologique de
+            cette créature par le fait qu’elle aurait la capacité de se
+            transformer&#160;:</p>
+            <q rend="quotation">«&#160;Il y a un autre animal que tu n’as pas dans
+            ta liste. Ils étaient autrefois dans le coin, mais sont devenus
+            très rares, et les Blancs n’en ont jamais attrapé pour les mettre
+            dans un zoo. Il a un grand corps au milieu de deux têtes, une de
+            chaque côté. Il vit dans des marais où il nage. Mais il pouvait se
+            transformer en couple de malard (canard) et s’envoler. Il avait
+            trois genres de cris, l’un était comme le rire d’un huard, l’autre
+            comme le hurlement d’un chien et le dernier comme le sifflement
+            d’un canard. C’était une bonne chose à avoir pour devenir docteur
+            indien&#160;».(Suttles 1987&#160;: 75)</q>
+            <p xml:id="d1e699">
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+            surnaturel</term>
+                </term>
+              </term>Si l’on résume quelques
+            caractéristiques principales du <hi rend="italic">si:lhqey</hi>
+            décrites dans les différents entretiens d’<persName type="idref" xml:base="https://www.idref.fr/">Oliver Wells</persName> et dans
+            les témoignages des informateurs de <persName type="_temp">Wayne
+            P. Suttles</persName>, la créature possède&#160;: 1) des ailes de
+            canard ou de huard, 2) un corps de serpent, 3) une forme de
+            baignoire volante, 4) une forme de boule volante, 5) des dents de
+            crocodile, 6) des oreilles de cheval, 7) des yeux de feux. 8) Il a
+            la voix d’un canard Colvert ou un sifflement de canard. 9) Il a le
+            rire d’un huard. 10) Il pousse des hurlements, parfois proches de
+            l’aboiement. 11) Il peut s’entortiller <hi rend="italic">(twist
+            around)</hi> autour de ses proies et les rendre malades. 12)
+            L’ancien <persName type="_temp">John Wallace</persName> le décrit,
+            quant à lui, comme mesurant quatre mètres et demi de long et deux
+            de haut, et doté de pieds de castor (Wells 1970&#160;: 26). Ainsi
+            pourra-t-on, en reprenant toutes ces caractéristiques, se donner
+            une idée de la manière dont les propriétés minimales s’agencent
+            pour former des êtres chimériques complexes.</p>
+            <figure xml:id="d1e715">
+              <graphic url="https://didomena.ehess.fr/downloads/1c18dq67s.jpg"/>
+              <head>Figure 3. Schéma 1. Variation de la forme des esprits à
+              partir de l’augmentation, de l’addition ou du dédoublement de
+              propriétés minimales</head>
+            </figure>
+            <p xml:id="d1e717">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-xkb9wxzn">pratique
+            discursive<term ref="doi:10.34817/sv-izsx68ds">description</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+            intellectuelle<term ref="doi:10.34817/sv-afoab4qc">catégorisation</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-oowpylbp">ontologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>Or,
+            partant du <hi rend="italic">si:lhqey</hi>, il serait possible de
+            montrer que d’autres êtres surnaturels sont construits sur ce même
+            modèle d’enchâssement chimérique de propriétés élémentaires. Cela
+            fonctionne, par exemple, pour cette autre entité salish appelée le
+            <hi rend="italic">sasquatch</hi>, sorte de yéti ou «&#160;big foot&#160;» de
+            la région, qui était autrefois sollicitée pour son pouvoir&#160;: <hi rend="italic">les propriétés fondamentales de cette créature
+            robuste [homme + grande taille + corps poilu] laissent penser
+            qu’elle est avant tout construite a) comme une variation
+            prototypique de la masculinité (augmentation quantitative de
+            propriétés masculines telles que la pilosité, la taille et la
+            force), ou encore b) comme une hybridité homme-ours</hi>. Quoi
+            qu’il en soit, cette créature monstrueuse, toujours recherchée
+            aujourd’hui – dont tout le monde parle et que certains disent
+            avoir vue –, ne semble pas construite sur les modalités générales
+            d’une violation ontologique de la catégorie [<hi rendition="#T10">personne</hi>] (homme) ou de la catégorie [<hi rendition="#T10">animal</hi>] (ours), mais bien comme une
+            augmentation de certaines propriétés fondamentales de leurs forces
+            ou puissances respectives sur le modèle d’une construction
+            chimérique.</p>
+          </div>
+          <div type="div2" xml:id="d1e734">
+            <head subtype="level2" xml:id="d1e735">Retour sur la notion de
+            contre-intuition</head>
+            <p xml:id="d1e737">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+            cognitives</term>
+                  </term>
+                </term>
+              </term>Insister sur la pertinence
+            d’un meilleur traitement cognitif des informations
+            contre-intuitives apparaît aujourd’hui, dans le paysage des
+            sciences cognitives, comme une hypothèse plausible mais délicate.
+            Or, à l’appui de ces exemples d’entités protectrices construites
+            comme des bizarreries que nous venons de présenter, nous allons
+            maintenant montrer pourquoi ces critères d’ordre prototypique qui
+            les caractérisent sont tout autant, voire mieux remémorés que ceux
+            d’ordre ontologique&#160;:</p>
+            <p xml:id="d1e740">
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-jrjkvlca">théorie</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+            surnaturel</term>
+                </term>
+              </term>1)&#160;<hi rend="italic">Les variations
+            prototypiques se transmettent facilement car ce sont des
+            assemblages</hi>. Nous postulons ici que le succès des créatures
+            surnaturelles chimériques sur un plan cognitif opère à la manière
+            d’un rappel mnémonique jouant sur la corrélation de deux termes.
+            D’après <persName ref="251527247" type="idref" xml:base="https://www.idref.fr/">Ara Norenzayan</persName>,
+            <persName ref="028741935" type="idref" xml:base="https://www.idref.fr/">Scott Atran</persName>, <persName type="_temp">Jason Faulkner</persName> et <persName ref="083919090" type="idref" xml:base="https://www.idref.fr/">Mark
+            Schaller</persName> (Norenzayan <hi rend="italic">et al</hi>.
+            2006), en effet, les mots allant par paires se retiennent mieux
+            que les mots contre-intuitifs même simples (en revanche, les
+            contre-intuitions semblent mieux remémorées à une semaine
+            d’intervalle). <hi rend="italic">Or, si les paires de mots, les
+            binômes conceptuels sont mieux remémorés que les mots simples, les
+            chimères le sont également puisqu’elles constituent elles aussi un
+            assemblage de plusieurs items</hi>. Ces intuitions théoriques
+            selon lesquelles nous retenons mieux les assemblages de propriétés
+            hétéroclites – et non pas seulement les violations
+            contre-intuitives – s’accordent avec les résultats de nombreuses
+            études sur les <hi rend="italic">stimuli</hi> visuels, qui
+            confirment largement notre attrait mnémonique pour ce qui est
+            «&#160;bizarre&#160;», distordu, complexe et non forcément contre-intuitif
+            (McDaniel <hi rend="italic">et al</hi>. 1995&#160;; Waddill &amp;
+            McDaniel 1998&#160;; McDaniel, Dornburg &amp; Guynn 2005). Nous pouvons
+            donc en déduire qu’une appréhension optimale se situe au niveau
+            prototypique et dans l’ajout de propriétés prototypiques.</p>
+            <p xml:id="d1e758">2)&#160;<hi rend="italic">Les notions d’intuitif et
+            de contre-intuitif dépendent du contexte d’apprentissage</hi>. On
+            se remémorera mieux la catégorie de base intuitive ou la
+            contre-intuition selon le contexte d’apprentissage (Tweney <hi rend="italic">et al</hi>. 2006&#160;; Afzal Upala <hi rend="italic">et
+            al</hi>. 2007). <hi rend="italic">Par exemple, parmi un ensemble
+            de mots que nous jugeons intuitifs au premier abord, nous
+            retiendrons mieux ceux jugés contre-intuitifs&#160;; à l’inverse, parmi
+            des ensembles de termes contre-intuitifs, nous retiendrons mieux
+            ceux qui nous paraissent familiers, ceux qui nous sont
+            intuitifs.</hi> Il s’agit donc d’affirmer qu’au-delà des délicates
+            notions d’intuition et de contre-intuition, nous retenons mieux ce
+            qui contraste avec la logique d’un contexte donné. Cette idée est
+            profondément en accord avec ce que représente une «&#160;chimère&#160;» pour
+            <persName ref="053476174" type="idref" xml:base="https://www.idref.fr/">Carlo Severi</persName> (2007,
+            2009). La chimère comme agencement de propriétés hétéroclites se
+            construit selon une double structure grâce à laquelle elle
+            deviendra une image mémorable&#160;: a) un principe de saillance, ce
+            que nous nommons, dans notre vocabulaire, les propriétés
+            combinatoires minimales (cheveux, pattes, yeux, etc.), qui ne sont
+            en elles-mêmes ni intuitives ni contre- intuitives, mais que b)
+            l’ordre, la combinaison ou l’agencement (ce que nous nommons, dans
+            notre vocabulaire, augmentation, dédoublement, etc.) peuvent
+            éventuellement rendre contre-intuitives. Ainsi, dans une analyse
+            morphologique, si tous les éléments qui composent la chimère
+            incitent le regard à se diriger selon un ordre visuel allant de la
+            droite vers la gauche, il suffit d’un seul élément, attirant le
+            regard dans le sens contraire (de la gauche vers la droite), pour
+            retenir toute l’attention, susciter une prépondérance cognitive et
+            apparaître comme contre-intuitif. Ce n’est pas que cet élément
+            soit contre-intuitif en soi, c’est juste qu’il prend une forme
+            contre-intuitive à l’intérieur du contexte dans lequel il
+            s’insère. Le contexte d’appréhension (ou l’ordre cognitif produit
+            par l’organisation des éléments combinatoires minimaux) est donc
+            fondamental dans la morphologie de la chimère et sa possibilité
+            d’assembler des propriétés contradictoires, à la façon d’une
+            violation cognitive.</p>
+            <p xml:id="d1e773">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-oowpylbp">ontologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-5vn9njoq">animal</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-bp9rhqhe">concept</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-vc658cgq">éducation<term ref="doi:10.34817/sv-yo4dxpj6">apprentissage</term>
+                </term>
+              </term>D’une
+            manière générale, la méthodologie utilisée en théologie
+            expérimentale pose des problèmes de contexte, de sujet et d’item
+            de mémorisation. Certains considèrent que seul le contenu
+            contre-intuitif des items est un véritable enjeu (Barrett 2007),
+            d’autres tentent de montrer que les apprentissages de contenu ne
+            sont jamais indépendants du contexte (Tweney <hi rend="italic">et
+            al</hi>. 2006&#160;; Afzal Upala <hi rend="italic">et al</hi>. 2007&#160;;
+            Bloch 2005). <persName type="_temp">Deborah Kelemen</persName>
+            (2004) reproche notamment à <persName ref="028741935" type="idref" xml:base="https://www.idref.fr/">Scott Atran</persName> et
+            <persName ref="251527247" type="idref" xml:base="https://www.idref.fr/">Ara Norenzayan</persName> (2004)
+            de ne pas utiliser des items de contrôle adéquats, mais des items
+            dont l’ambiguïté rendrait leur interprétation difficile (par
+            exemple, «&#160;un journal qui clignote&#160;»). Son argumentation est
+            claire&#160;: les représentations qui font lien avec la mémoire dans
+            les tests proposés ne sont pas des violations ontologiques, mais
+            sont plutôt ce que nous pouvons nommer à la suite de <persName ref="053476174" type="idref" xml:base="https://www.idref.fr/">Carlo Severi</persName> des
+            «&#160;chimères&#160;», c’est-à-dire des ajouts de propriétés d’autres
+            animaux sur des animaux donnés&#160;:</p>
+            <q rend="quotation">«&#160;Par contraste, il semble parfaitement
+            possible que différents types d’exemples tels que le
+            “crocodile-volant” ou le “cheval-vénéneux” soient de bons
+            candidats mnémoniques, alors que ni l’un ni l’autre de ces
+            concepts n’implique la violation des limites d’un domaine
+            ontologique, la biologie du sens commun <hi rend="italic">[folkbiology]</hi> – ce sont simplement des cas
+            d’animaux avec les propriétés d’autres animaux&#160;».(Kelemen 2004&#160;:
+            300, notre traduction)</q>
+            <p xml:id="d1e789">
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+            intellectuelle<term ref="doi:10.34817/sv-ohaapat7">analyse</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+            religions</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-ewkux826">ethnographie</term>
+                  </term>
+                </term>
+              </term>Ce
+            qui va dans le sens de ce que nous avancions déjà au début de ce
+            texte, à savoir qu’il paraît nécessaire d’opposer des analyses
+            concrètes issues de l’immense matériel ethnographique mondial aux
+            analyses cognitives fondées sur des tests de laboratoire, si l’on
+            souhaite garantir des résultats moins incertains que ceux de la
+            théologie expérimentale.</p>
+          </div>
+          <div type="div2" xml:id="d1e791">
+            <head subtype="level2" xml:id="d1e792">La structure chimérique des
+            êtres surnaturels</head>
+            <p xml:id="d1e794">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-c5oskknl">sémantique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+            cognitives</term>
+                  </term>
+                </term>
+              </term>Nous nommons donc «&#160;chimère
+            cognitive&#160;» un être composé de propriétés minimales – unités
+            sémantico-morphologiques originaires –, greffées et hétéroclites.
+            L’origine de ces superpositions, condensations, augmentations,
+            déplacements de propriétés peut être épidémiologique (processus
+            social) ou proprement onirique (processus mental). Dans les deux
+            cas, en additionnant, augmentant ou dédoublant des traits
+            prototypiques, les êtres surnaturels se complexifient sans perdre
+            leur forme initiale. Pour décrire ce mécanisme, nous nous
+            inspirerons du modèle géométrique d’appréhension de la simplexité
+            (Berthoz 2009) ci-dessous – c’est-à-dire la création de formes
+            simples à partir d’unités minimales agencées de manière
+            complexe.</p>
+            <figure xml:id="d1e799">
+              <graphic url="https://didomena.ehess.fr/downloads/3197xv65q.jpg"/>
+              <head>Figure 3. Schéma 2. Agencement des propriétés de l’esprit
+              si:lhqey</head>
+            </figure>
+            <p xml:id="d1e801">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>Le
+            processus de construction de ces représentations se fait en
+            superposant des propriétés sémantiques minimales qui, dans
+            certains cas, peuvent être portées par des découpages
+            linguistiques. Nous proposons ici quelques directions de travail
+            sur la nature de ces unités minimales, sur lesquelles s’appuient
+            les règles combinatoires non exhaustives (augmentation,
+            dédoublement, addition, soustraction, etc.).</p>
+            <p xml:id="d1e804">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-haac8gyt" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">pratiques
+            savantes<term ref="doi:10.34817/sv-5hro9act">pratique
+            intellectuelle<term ref="doi:10.34817/sv-gvljqk9w">classement</term>
+                </term>
+              </term>1)&#160;Les
+            unités minimales de sens reposent d’abord sur des découpages de
+            <hi rend="italic">parties saillantes élémentaires. Il s’agit de
+            découpages visuels de formes&#160;: rond, carré, ligne, ovale,
+            etc</hi>. Chez les Salish côtiers, ces unités sont présentes,
+            partiellement, dans les règles de suffixation des verbes de
+            l’halkomelem&#160;: choses rondes, choses fines, mèches, etc. Les
+            linguistes <persName ref="028963458" type="idref" xml:base="https://www.idref.fr/">Donna Gerdts</persName> et
+            <persName type="_temp">Mercedes Hinkson</persName> (2004&#160;: 15)
+            proposent des tableaux détaillés de ces classificateurs où, par
+            exemple, le suffixe /–as/ renvoie à toute chose ronde (permettant
+            de construire le mot «&#160;dollar&#160;» à partir de «&#160;pièce ronde&#160;», le
+            mot «&#160;mois&#160;» à partir de «&#160;lune&#160;», etc.), où encore le suffixe
+            /–emǝt̓θ/ tend à désigner les choses longues, fines et rigides
+            (perches, mâts, etc.) alors que le suffixe /–it̓θeʔ/ s’appose
+            davantage comme classificateur de choses longues, fines mais
+            souples (cordes, mèches, fils, etc.).</p>
+            <p xml:id="d1e810">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-up8zkjoc">sciences du langage<term ref="doi:10.34817/sv-fucrfp3n">linguistique</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-wzwcmf2r">sciences formelles et
+            expérimentales<term ref="doi:10.34817/sv-uwezj7w5">sciences de la
+            vie et de l’environnement<term ref="doi:10.34817/sv-e3m5z8w2">biologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>2)&#160;Ces
+            principes morphologiques de saillance opèrent ensuite comme des
+            formes <hi rend="italic">prégnantes, c’est-à-dire comme ayant une
+            importance biologique pour celui qui les perçoit. Il s’agit de
+            formes plus particularisées telles que des têtes, des visages, des
+            cheveux, des ongles, des pagaies, etc</hi>. Ces unités se
+            retrouvent aussi dans le procédé de suffixation des langues
+            salish. Par exemple, les objets matériels se distinguent selon
+            qu’ils sont dénombrés à partir du canoë, de la maison, de la
+            pagaie, ou à partir de la couverture ou du vêtement (<hi rend="italic">Ibid</hi>.&#160;: 26). En halkomelem, le «&#160;visage&#160;» et le
+            «&#160;corps&#160;» ont une importance pour compter et donc pour reconnaître
+            certains animaux dans leur unicité. Le suffixe /–aʔqʷ/ signifiant
+            «&#160;tête&#160;» est utilisé pour compter les poissons et autres espèces
+            marines rondes comme les huîtres, les palourdes, les holothuries,
+            les oursins, etc. (<hi rend="italic">Ibid</hi>.&#160;: 17). De sorte
+            que les suffixes servant à désigner les entités animées se
+            réfèrent aux saillances de l’entité en question, tout en conférant
+            une importance biologique à certaines de ces saillances.</p>
+            <p xml:id="d1e822">3)&#160;Puis, ces unités saillantes et prégnantes
+            s’organisent en <hi rend="italic">unités minimales d’action ou
+            vecteurs métonymiques de force&#160;: on retrouve ici toutes les unités
+            minimales précédentes, mais en tant que ces dernières peuvent se
+            constituer en unités agissantes, c’est-à-dire en unités ayant le
+            pouvoir de faire quelque chose (crocs, griffes, nageoires, yeux de
+            hibou permettant de voir dans la nuit, yeux d’aigle permettant de
+            percevoir de loin, etc.)</hi>. Des schémas fonctionnels de
+            causalité, de puissance d’agir se créent en effet en prenant appui
+            sur ces affordances-sources. Le répertoire des intentions-motrices
+            élémentaires ou <hi rend="italic">unités minimales d’action</hi>
+            se base sur des constructions d’intentions plus abstraites
+            permettant des réajustements, des réarrangements, afin que le
+            mouvement soit en accord avec la cible (proie, nourriture, etc.).
+            C’est à partir de ces unités minimales d’action que se constituent
+            des unités telles que griffes, crocs, serres, yeux, qui ont une
+            utilité dans la survie de l’existant et qui peuvent être greffés
+            aux corps d’autres existants pour leur conférer de la force. <hi rend="italic">Il s’agit donc là d’un vaste réservoir naturel de
+            forces et de pouvoirs pouvant se combiner et se recombiner pour
+            alimenter la morphologie bigarrée des êtres surnaturels</hi>.</p>
+            <p xml:id="d1e835">4)&#160;Enfin, toutes ces unités s’assemblent pour
+            former <hi rend="italic">les chimères</hi>&#160;: ces dernières, loin
+            d’être contre-intuitives, reposent sur les combinaisons
+            particulières de ces différentes unités minimales, par
+            dédoublement, juxtaposition, soustraction, etc. Ainsi est-ce parce
+            que, suivant des besoins pratiques, les entités cumulent des
+            vecteurs métonymiques de forces qu’elles apparaissent rapidement
+            telles des «&#160;chimères&#160;» étranges, violant certaines règles
+            ontologiques intuitives. Les chimères peuvent donc être définies
+            comme des superpositions de propriétés à partir de prototypes
+            spécifiques ou comme des combinatoires de vecteurs métonymiques
+            désignant des forces ou des puissances agissantes.</p>
+            <p xml:id="d1e841">❖</p>
+            <p xml:id="d1e844">
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-srjfaarx">sciences des
+            religions</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-6uwxwkux">sciences
+            cognitives</term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-a3ah58wd" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">construction des
+            savoirs<term ref="doi:10.34817/sv-grm9gkfv">épistémologie<term ref="doi:10.34817/sv-jrjkvlca">théorie</term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-vearcnch" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">typologie des
+            savoirs<term ref="doi:10.34817/sv-n7bdkume">disciplines<term ref="doi:10.34817/sv-smnpcsnv">sciences humaines et sociales<term ref="doi:10.34817/sv-huooc6ip">philosophie<term ref="doi:10.34817/sv-oowpylbp">ontologie</term>
+                    </term>
+                  </term>
+                </term>
+              </term>
+              <term ref="doi:10.34817/sv-ngptjjfm" type="th_savoirs" xml:base="http://data.ehess.fr/thes/savoirs/">acteurs de
+            savoir<term ref="doi:10.34817/sv-b92teugb">acteur non humain<term ref="doi:10.34817/sv-6wrnubsu">être
+            surnaturel</term>
+                </term>
+              </term>La <hi rend="italic">chimère</hi>
+            est un être composé de propriétés minimales simples, agencées
+            selon des lois de transfert, de condensation, d’augmentation et de
+            déplacement, permettant de construire des êtres morphologiquement
+            complexes. Vues sous cet angle, les entités surnaturelles
+            apparaissent moins comme des violations de nos attentes
+            ontologiques que de nos attentes prototypiques. Cette
+            concentration au niveau prototypique ne remet pas en question la
+            théorie éclairante proposée par <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Pascal
+            Boyer</persName>, mais, au contraire, permet de l’étendre,
+            notamment aux parties du monde où les entités se perçoivent <hi rend="italic">via</hi> des visions ou des rencontres directes. Il
+            est donc possible de considérer que la théorie de la
+            contre-intuition minimale reste particulièrement pertinente pour
+            appréhender des entités dans des cultures où les divinités ne sont
+            pas parées d’attributs concrets particuliers<note n="17" place="foot" type="standard" xml:id="ftn17">
+                <p>Nous pensons, par exemple, à la catégorie de <hi rend="italic">yoshi</hi> chez les Sharanahua d’Amazonie
+                occidentale, dont la construction par défaut est présentée par
+                Pierre Déléage (2010).</p>
+              </note>. Des problématiques surgissent de ces nouveaux procédés
+            méthodologiques&#160;: sur le plan théorique, notamment, il nous faut
+            exploiter la possibilité d’un mécanisme cognitif inductif reposant
+            à la fois sur une catégorie ontologique de niveau de base et sur
+            une superposition analogique et métaphorique<note n="18" place="foot" type="standard" xml:id="ftn18">
+                <p>Ce qu’ont cherché à faire George Lakoff et Mark Johnson
+                (1999), ou encore Dedre Gentner, Keith Holyoak &amp; Boicho
+                Kokinov (2001).</p>
+              </note>&#160;; de même, sur le plan théorique, nous perdons pour
+            l’instant une certaine clarté heuristique qui constitue l’attrait
+            incontestable de la théorie proposée par <persName ref="060108819" type="idref" xml:base="https://www.idref.fr/">Boyer</persName>.
+            Une des tâches importantes en cognition religieuse reste la
+            définition de domaines généraux, dont l’établissement de critères
+            évidents de différenciation entre l’intuitif et le contre-intuitif
+            (Bloch 2005), la violation ontologique et la bizarrerie (Kelemen
+            2004), afin de mieux cerner ce que nous pourrions nommer une
+            «&#160;inexactitude théologique&#160;» <hi rend="italic">(theological
+            incorrectness)</hi> (Slone 2004) et de définir les frontières d’un
+            véritable domaine du «&#160;théologiquement correct&#160;».</p>
+          </div>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliography" xml:id="d1e867">
+        <listBibl xml:id="d1e868">
+          <bibl xml:id="d1e869">Afzal Upala, M. et al., 2007&#8194;«&#160;Contextualizing
+          Counterintuitiveness&#160;: How Context Affects Comprehension and
+          Memorability of Counterintuitive Concepts&#160;», <hi rend="italic">Cognitive Science</hi> 31 (3)&#160;: 415-439.</bibl>
+          <bibl xml:id="d1e875">Amoss, Pamela, 1978&#8194;<hi rend="italic">Coast
+          Salish Spirit Dancing. The Survival of an Ancestral Religion</hi>.
+          Seattle, University of Washington Press.</bibl>
+          <bibl xml:id="d1e881">Atran, Scott &amp; Ara Norenzayan,
+          2004&#8194;«&#160;Religion’s Evolutionary Landscape&#160;: Counterintuition,
+          Committment, Compassion, Communion&#160;», <hi rend="italic">Behavioral
+          and Brain Sciences</hi> 27 (6)&#160;: 713-730.</bibl>
+          <bibl xml:id="d1e887">Barnett, Homer G., 1955&#8194;<hi rend="italic">The
+          Coast Salish of British Columbia</hi>. Eugene, University of Oregon
+          Press.</bibl>
+          <bibl xml:id="d1e893">Barrett, Justin L., 2000&#8194;«&#160;Exploring the
+          Natural Foundations of Religion&#160;», <hi rend="italic">Trends in
+          Cognitive Sciences</hi> 4 (1)&#160;: 29-34.</bibl>
+          <bibl xml:id="d1e899">Barrett, Justin L., 2004&#8194;<hi rend="italic">Why
+          Would Anyone Believe in God&#160;?</hi> Walnut Creek, AltaMira
+          Press.</bibl>
+          <bibl xml:id="d1e906">Barrett, Justin L., 2007&#8194;«&#160;Cognitive Science
+          of Religion&#160;: What Is It and Why Is It&#160;?&#160;», <hi rend="italic">Religion Compass</hi> 1 (6)&#160;: 768-786.</bibl>
+          <bibl xml:id="d1e912">Barrett, Justin L. &amp; Melanie A. Nyhof,
+          2001&#8194;«&#160;Spreading Non-Natural Concepts&#160;: The Role of Intuitive
+          Conceptual Structures in Memory and Transmission of Cultural
+          Materials&#160;», <hi rend="italic">Journal of Cognition and Culture</hi>
+          1 (1)&#160;: 69-100.</bibl>
+          <bibl xml:id="d1e918">Bering, Jesse M., 2006&#8194;«&#160;The Folk Psychology
+          of Souls&#160;», <hi rend="italic">Behavioral and Brain Sciences</hi> 29
+          (5)&#160;: 453-462.</bibl>
+          <bibl xml:id="d1e924">Berlin, Brent, Dennis E. Breedlove &amp; Peter
+          H. Raven, 1973&#8194;«&#160;General Principles of Classification and
+          Nomenclature in Folk Biology&#160;», <hi rend="italic">American
+          Anthropologist</hi> 75 (1)&#160;: 214-242.</bibl>
+          <bibl xml:id="d1e930">Berthoz, Alain, 2009&#8194;<hi rend="italic">La
+          Simplexité</hi>. Paris, Odile Jacob.</bibl>
+          <bibl xml:id="d1e936">Bierwert, Crisca, 1999&#8194;<hi rend="italic">Brushed by Cedar, Living by the River. Coast Salish
+          Figures of Power</hi>. Tucson, University of Arizona Press.</bibl>
+          <bibl xml:id="d1e943">Bloch, Maurice, 2005&#8194;<hi rend="italic">Essays
+          on Cultural Transmission</hi>. Oxford-New York, Berg.</bibl>
+          <bibl xml:id="d1e949">Boas, Franz, 2002 [1895]&#8194;<hi rend="italic">Indian Myths and Legends from the North Pacific Coast
+          of America</hi>. Ed. by Randy Bouchard &amp; Dorothy Kennedy.
+          Transl. by Dietrich Bertz. Vancouver, Talonbooks.</bibl>
+          <bibl xml:id="d1e955">Boyer, Pascal, 1994&#8194;<hi rend="italic">The
+          Naturalness of Religious Ideas. A Cognitive Theory of Religion</hi>.
+          Berkeley, University of California Press.</bibl>
+          <bibl xml:id="d1e961">Boyer, Pascal, 1998&#8194;«&#160;Cognitive Tracks of
+          Cultural Inheritance&#160;: How Evolved Intuitive Ontology Governs
+          Cultural Transmission&#160;», <hi rend="italic">American
+          Anthropologist</hi> 100 (4)&#160;: 876-889.</bibl>
+          <bibl xml:id="d1e967">Boyer, Pascal, 2000a&#8194;«&#160;Evolution of a Modern
+          Mind and the Origins of Culture&#160;: Religious Concepts as a
+          Limiting-Case&#160;», in Peter Carruthers &amp; Andrew Chamberlain, eds,
+          <hi rend="italic">Evolution and the Human Mind. Modularity, Language
+          and Meta-Cognition</hi>. Cambridge-New York, Cambridge University
+          Press&#160;: 93-112.</bibl>
+          <bibl xml:id="d1e973">Boyer, Pascal, 2000b&#8194;«&#160;Functional Origins of
+          Religious Concepts&#160;: Ontological and Strategic Selection in Evolved
+          Minds&#160;», <hi rend="italic">Journal of the Royal Anthropological
+          Institute</hi> 6&#160;: 195-214.</bibl>
+          <bibl xml:id="d1e980">Boyer, Pascal, 2001&#8194;<hi rend="italic">Et
+          l’Homme créa les dieux. Comment expliquer la religion</hi>. Paris,
+          Laffont.</bibl>
+          <bibl xml:id="d1e986">Boyer, Pascal, 2003&#8194;«&#160;Religious Thought and
+          Behavior as By-Products of Brain Function&#160;», <hi rend="italic">Trends in Cognitive Sciences</hi> 7 (3)&#160;:
+          119-124.</bibl>
+          <bibl xml:id="d1e992">Boyer, Pascal &amp; Clark Barrett,
+          2005&#8194;«&#160;Evolved Intuitive Ontology&#160;: Integrating Neural, Behavioral
+          and Developmental Aspects of Domain-Specificity&#160;», in David M. Buss,
+          ed., <hi rend="italic">The Handbook of Evolutionary Psychology</hi>.
+          Hoboken, Wiley&#160;: 96-118.</bibl>
+          <bibl xml:id="d1e998">Boyer, Pascal &amp; Charles Ramble,
+          2001&#8194;«&#160;Cognitive Templates for Religious Concepts&#160;: Cross-Cultural
+          Evidence for Recall of Counter-Intuitive Representations&#160;», <hi rend="italic">Cognitive Science</hi> 25 (4)&#160;: 535-564.</bibl>
+          <bibl xml:id="d1e1004">Braisby, Nick R., Bradley Franks &amp; John
+          Harris, 1997&#8194;«&#160;Classification and Concepts&#160;: Fuzzy or
+          Perspectival&#160;?&#160;», in Danièle Dubois, ed., <hi rend="italic">Catégorisation et Cognition. De la perception au
+          discours</hi>. Paris, Kimé&#160;: 163-189.</bibl>
+          <bibl xml:id="d1e1010">Carlson, Keith Thor &amp; Albert (Sonny)
+          McHalsie, eds, 2001&#8194;<hi rend="italic">A S</hi>tó&#160;:lō <hi rend="italic">Coast Salish Historical Atlas</hi>. Vancouver, Douglas
+          &amp; McIntyre / Seattle, University of Washington Press /
+          Chiliwack, Stó:lō, Heritage Trust.</bibl>
+          <bibl xml:id="d1e1020">Cohen, Emma, 2007&#8194;<hi rend="italic">The Mind
+          Possessed&#8239;. The Cognition of Spirit Possession in an Afro-Brazilian
+          Religious Tradition</hi>. Oxford-New York, Oxford University
+          Press.</bibl>
+          <bibl xml:id="d1e1026">Collins, June M., 1974&#8194;<hi rend="italic">Valley of the Spirits, The Upper Skagit Indians of
+          Western Washington</hi>. Seattle, University of Washington
+          Press.</bibl>
+          <bibl xml:id="d1e1032">Déléage, Pierre, 2010&#8194;<hi rend="italic">Le
+          Chant de l’Anaconda. L’apprentissage du chamanisme chez les
+          Sharanahua (Amazonie occidentale).</hi> Nanterre, Société
+          d’ethnologie («&#160;Recherches américaines&#160;»).</bibl>
+          <bibl xml:id="d1e1038">Donovan, Elizabeth &amp; Deborah Kelemen,
+          2003&#8194;<hi rend="italic">Young Children’s Reasoning About Natural
+          Phenomena</hi>. Poster presented at the Biennial Meeting of the
+          Society for Research in Child Development, Tampa (Florida).</bibl>
+          <bibl xml:id="d1e1044">Elmendorf, William W., 1993&#8194;<hi rend="italic">Twana Narratives. Native Historical Accounts of a
+          Coast Salish Culture</hi>. Seattle, University of Washington Press /
+          Vancouver, <hi rendition="#T10">Ubc</hi> Press.</bibl>
+          <bibl xml:id="d1e1053">Fodor, Jerry A., 1983&#8194;<hi rend="italic">Modularity of Mind. An Essay on Faculty
+          Psychology</hi>. Cambridge, M<hi rendition="#T10">it</hi>
+          Press.</bibl>
+          <bibl xml:id="d1e1063">Franks, Bradley, 2003&#8194;«&#160;The Nature of
+          Unnaturalness in Religious Representations&#160;: Negation and Concept
+          Combination&#160;», <hi rend="italic">Journal of Cognition and
+          Culture</hi> 3 (1)&#160;: 41-68 [<ref target="http://eprints.lse.ac.uk/979/1/Natureofunnatural.pdf">http://eprints.lse.ac.uk/979/1/Natureofunnatural.pdf</ref>].</bibl>
+          <bibl xml:id="d1e1072">Galloway, Brent D., 1994&#8194;<hi rend="italic">A
+          Grammar of Upriver Halkomelem</hi>. Berkeley, University of
+          California Press.</bibl>
+          <bibl xml:id="d1e1078">Gentner, Dedre, Keith J. Holyoak &amp; Boicho
+          N. Kokinov, eds, 2001&#8194;<hi rend="italic">The Analogical Mind.
+          Perspectives from Cognitive Sciences</hi>. Cambridge, <hi rendition="#T10">Mit</hi> Press.</bibl>
+          <bibl xml:id="d1e1087">Gerdts, Donna B. &amp; Mercedes Q. Hinkson,
+          2004&#8194;«&#160;Salish Numeral Classifiers&#160;: A Lexical Means to Grammatical
+          End&#160;», <hi rend="italic">Sprachtypologie und
+          Universalienforschung</hi> 57 (2-3)&#160;: 247-278 [<ref target="http://www.sfu.ca/~gerdts/papers/Gerdts_Hinkson_Classifiers.pdf">http://www.sfu.ca/~gerdts/papers/Gerdts_Hinkson_Classifiers.pdf</ref>].</bibl>
+          <bibl xml:id="d1e1096">Guthrie, Stewart, 1995&#8194;<hi rend="italic">Faces in the Clouds. A New Theory of Religion</hi>.
+          New York, Oxford University Press.</bibl>
+          <bibl xml:id="d1e1102">Hilbert, Vi, 1985&#8194;«&#160;Basket Ogress&#160;», in <hi rend="italic">Haboo. Native American Stories from Puget Sound</hi>.
+          Ed. and transl. by Vi Hilbert. Seattle, University of Washington
+          Press&#160;: 42‑44.</bibl>
+          <bibl xml:id="d1e1109">Hill-Tout, Charles, 1978&#8194;<hi rend="italic">The Salish People. The Local Contribution of Charles
+          Hill-Tout</hi>. Ed. by Ralph Maud. Vancouver, Talonbooks. 4
+          vol.</bibl>
+          <bibl xml:id="d1e1115">Hirschfeld, Lawrence A. &amp; Susan A.
+          Gelman, eds, 1994&#8194;<hi rend="italic">Mapping the Mind. Domain
+          Specificity in Cognition and Culture</hi>. Cambridge-New-York,
+          Cambridge University Press.</bibl>
+          <bibl xml:id="d1e1121">Jenness, Diamond, 1955&#8194;<hi rend="italic">The
+          Faith of a Coast Salish Indian</hi>. Ed. by Wilson Duff. Victoria,
+          British Columbia Provincial Museum («&#160;Anthropology in British
+          Columbia, Memoir&#160;» 2-3).</bibl>
+          <bibl xml:id="d1e1127">Jilek, Wolfgang, 1974&#8194;<hi rend="italic">Indian Healing. Shamanic Ceremonialism in the Pacific
+          Northwest Today</hi>. Vancouver, Hancock House.</bibl>
+          <bibl xml:id="d1e1133">Kelemen, Deborah, 2004&#8194;«&#160;Are Children
+          “Intuitive Theists”&#160;? Reasoning About Purpose and Design in
+          Nature&#160;», <hi rend="italic">Psychological Science</hi> 15 (5)&#160;:
+          295-301.</bibl>
+          <bibl xml:id="d1e1139">Lakoff, George &amp; Mark Johnson, 1999&#8194;<hi rend="italic">Philosophy in the Flesh. The Embodied Mind and its
+          Challenge to Western Thought</hi>. New York, Basic Books.</bibl>
+          <bibl xml:id="d1e1146">Lisdorf, Anders, 2004&#8194;«&#160;The Spread of
+          Non-Natural Concepts&#160;», <hi rend="italic">Journal of Cognition &amp;
+          Culture</hi> 4 (1)&#160;: 151-174.</bibl>
+          <bibl xml:id="d1e1152">McCauley, Robert N. &amp; E. Thomas Lawson,
+          2002&#8194;<hi rend="italic">Bringing Ritual to Mind. Psychological
+          Foundations of Cultural Forms</hi>. Cambridge-New York, Cambridge
+          University Press.</bibl>
+          <bibl xml:id="d1e1158">McDaniel, Mark A., Courtney C. Dornburg &amp;
+          Melissa J. Guynn, 2005&#8194;«&#160;Disentangling Encoding Versus Retrieval
+          Explanations of the Bizarreness Effect&#160;: Implications for
+          Distinctiveness&#160;», <hi rend="italic">Memory &amp; Cognition</hi> 33
+          (2)&#160;: 270-279.</bibl>
+          <bibl xml:id="d1e1164">McDaniel, Mark A. et al., 1995&#8194;«&#160;The
+          Bizarreness Effect&#160;: It’s Not Surprising, It’s Complex&#160;», <hi rend="italic">Journal of Experimental Psychology. Learning, Memory,
+          and Cognition</hi> 21 (2)&#160;: 422-435.</bibl>
+          <bibl xml:id="d1e1170">Medin, Douglas L. &amp; Scott Atran, eds,
+          1999&#8194;<hi rend="italic">Folkbiology</hi>. Cambridge, <hi rendition="#T10">Mit</hi> Press.</bibl>
+          <bibl xml:id="d1e1179">Mervis, Carolyn B. &amp; Eleanor Rosch,
+          1981&#8194;«&#160;Categorization of Natural Objects&#160;», <hi rend="italic">Annual
+          Review of Psychology</hi> 32&#160;: 89-115.</bibl>
+          <bibl xml:id="d1e1186">Miller, Bruce Granville, ed., 2007&#8194;<hi rend="italic">Be of Good Mind. Essays on the Coast Salish</hi>.
+          Vancouver, <hi rendition="#T10">Ubc</hi> Press.</bibl>
+          <bibl xml:id="d1e1195">Norenzayan, Ara et al., 2006&#8194;«&#160;Memory and
+          Mystery&#160;: The Cultural Selection of Minimally Counterintuitive
+          Narratives&#160;», <hi rend="italic">Cognitive Science</hi> 30 (3)&#160;:
+          531-553.</bibl>
+          <bibl xml:id="d1e1201">Pinker, Steven, 1997&#8194;<hi rend="italic">How
+          the Mind Works</hi>. New York, Norton.</bibl>
+          <bibl xml:id="d1e1207">Popper, Karl R., 1973 [1935]&#8194;<hi rend="italic">La Logique de la découverte scientifique</hi>. Trad.
+          de l’anglais par Nicole Thyssen-Rutten et Philippe Devaux. Préf. de
+          Jacques Monod. Paris, Payot («&#160;Bibliothèque scientifique&#160;»).</bibl>
+          <bibl xml:id="d1e1213">Pyysiäinen, Ilkka, 2001&#8194;<hi rend="italic">How
+          Religion Works. Towards a New Cognitive Science of Religion</hi>.
+          Leiden-Boston, Brill («&#160;Cognition and Culture Book Series&#160;»
+          1).</bibl>
+          <bibl xml:id="d1e1219">Pyysiäinen, Ilkka &amp; Veikko Anttonen, eds,
+          2002&#8194;<hi rend="italic">Current Approaches in the Cognitive Science
+          of Religion</hi>. London-New York, Continuum.</bibl>
+          <bibl xml:id="d1e1226">Robinson, Sarah Anne, 1963&#8194;<hi rend="italic">Spirit Dancing Among the Salish Indians, Vancouver
+          Island, British Columbia</hi>. Chicago, University of Chicago,
+          PhD.</bibl>
+          <bibl xml:id="d1e1232">Rosch, Eleanor H., 1973&#8194;«&#160;Natural
+          Categories&#160;», <hi rend="italic">Cognitive Psychology</hi> 4 (3)&#160;:
+          328-350.</bibl>
+          <bibl xml:id="d1e1238">Rosch, Eleanor H., 1975&#8194;«&#160;Cognitive Reference
+          Points&#160;», <hi rend="italic">Cognitive Psychology</hi> 7 (4)&#160;:
+          532-547.</bibl>
+          <bibl xml:id="d1e1244">Severi, Carlo, 2007&#8194;<hi rend="italic">Le
+          Principe de la chimère. Une anthropologie de la mémoire</hi>. Paris,
+          Éd. Rue d’Ulm-Musée du quai Branly («&#160;Æsthetica&#160;»).</bibl>
+          <bibl xml:id="d1e1250">Severi, Carlo, 2009&#8194;«&#160;L’univers des arts de
+          la mémoire&#160;: anthropologie d’un artefact mental&#160;», <hi rend="italic">Annales. Histoire, sciences sociales</hi> 64 (2)&#160;:
+          463-497.</bibl>
+          <bibl xml:id="d1e1256">Shtulman, Andrew, 2008&#8194;«&#160;Variation in the
+          Anthropomorphization of Supernatural Beings and Its Implications for
+          Cognitive Theories of Religion&#160;», <hi rend="italic">Journal of
+          Experimental Psychology.</hi>
+          </bibl>
+          <bibl xml:id="d1e1262">
+            <hi rend="italic">Learning, Memory, and
+          Cognition</hi> 34 (5)&#160;: 1123-1138.</bibl>
+          <bibl xml:id="d1e1267">Slone, D. Jason, 2004&#8194;<hi rend="italic">Theological Incorrectness. Why Religious People
+          Believe What They Shouldn’t</hi>. Oxford-New York, Oxford University
+          Press.</bibl>
+          <bibl xml:id="d1e1273">Sperber, Dan, 1996&#8194;<hi rend="italic">La
+          Contagion des idées. Théorie naturaliste de la culture</hi>. Paris,
+          Odile Jacob.</bibl>
+          <bibl xml:id="d1e1279">Suttles, Wayne P., 1955&#8194;<hi rend="italic">Katzie Ethnographic Notes</hi>. Ed. by Wilson Duff.
+          Victoria, British Columbia Provincial Museum («&#160;Anthropology in
+          British Columbia, Memoir&#160;» 2-3).</bibl>
+          <bibl xml:id="d1e1285">Suttles, Wayne P., 1987&#8194;<hi rend="italic">Coast Salish Essays</hi>. Vancouver, Talonbooks /
+          Seattle, University of Washington Press.</bibl>
+          <bibl xml:id="d1e1291">Thompson, M. Terry &amp; Steven M. Egesdal,
+          eds, 2008&#8194;<hi rend="italic">Salish Myths and Legends. One People’s
+          Stories</hi>. Lincoln, University of Nebraska Press.</bibl>
+          <bibl xml:id="d1e1298">Tremlin, Todd, 2006&#8194;<hi rend="italic">Minds
+          and Gods. The Cognitive Foundations of Religion</hi>. New York,
+          Oxford University Press.</bibl>
+          <bibl xml:id="d1e1304">Tweney, Ryan D. et al., 2006&#8194;«&#160;The Creative
+          Structuring of Counterintuitive Worlds&#160;», <hi rend="italic">Journal
+          of Cognition &amp; Culture</hi> 6 (3-4)&#160;: 483-498.</bibl>
+          <bibl xml:id="d1e1310">Van Eijk, Jan P., 2001&#8194;«&#160;Who Is Súnułqaz’&#160;?&#160;:
+          A Salish Quest&#160;», <hi rend="italic">Anthropological Linguistics</hi>
+          43 (2)&#160;: 177-197.</bibl>
+          <bibl xml:id="d1e1316">Van Mechelen, Iven et al., eds, 1992&#8194;<hi rend="italic">Categories and Concepts. Theoretical Views and
+          Inductive Data Analysis</hi>. London, Academic Press.</bibl>
+          <bibl xml:id="d1e1322">Waddill, Paula J. &amp; Mark A. McDaniel,
+          1998&#8194;«&#160;Distinctiveness Effects in Recall&#160;: Differential Processing
+          or Privileged Retrieval&#160;», <hi rend="italic">Memory and
+          Cognition</hi> 26 (1)&#160;: 108-120.</bibl>
+          <bibl xml:id="d1e1328">Ward, Thomas B., 1994&#8194;«&#160;Structured
+          Imagination&#160;: The Role of Category Structure in Exemplar
+          Generation&#160;», <hi rend="italic">Cognitive Psychology</hi> 27 (1)&#160;:
+          1-40.</bibl>
+          <bibl xml:id="d1e1335">Wells, Oliver, 1970&#8194;<hi rend="italic">Myths
+          and Legends. Staw-loh Indians of South Western British
+          Columbia</hi>. Chilliwack, Private Publ.</bibl>
+          <bibl xml:id="d1e1341">Wells, Oliver, 1987&#8194;<hi rend="italic">The
+          Chilliwacks and their Neighbors</hi>. Vancouver, Talonbooks.</bibl>
+          <bibl xml:id="d1e1347">Wike, Joyce Annabel, 1941&#8194;<hi rend="italic">Modern Spirit Dancing of Northern Puget Sound</hi>.
+          Washington, University of Washington, PhD.</bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>
