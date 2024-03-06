@@ -1,0 +1,1121 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_1834_Ducournau.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Les deux (ou trois) carrières de Richard Hoggart</title>
+                <title type="sub">
+                    <hi xml:lang="fr">De la fondation des&#160;</hi>
+                    <hi rend="italic">
+                        <hi xml:lang="fr"/>
+                    </hi>
+                    <hi xml:lang="fr">&#160;aux appropriations de la sociologie française</hi>
+                </title>
+                <title level="a" type="alt" xml:lang="en">The two (or three) careers of Richard Hoggart. From the foundation of cultural studies to the appropriations of French sociology</title>
+                <title level="a" type="alt" xml:lang="es">Las dos (o tres) carreras de Richard Hoggart. Desdé la fundación de las&#160;cultural studies&#160;hasta la apropiación de la sociología francesa</title>
+                <author>
+                    <persName>
+                        <forename>Claire</forename>
+                        <surname>Ducournau</surname>
+                    </persName>
+                    <affiliation> Maîtresse de conférences dans le département de lettres modernes de l’Université Paul Valéry Montpellier&#160;3 et membre du RIRRA21.<ref target="https://orcid.org/0000-0002-6965-047X">https://orcid.org/0000-0002-6965-047X</ref>Adresse&#160;: Université Paul Valéry Montpellier, 3, Route de Mende, FR-34199 Montpellier Cedex&#160;5 (France).Courriel&#160;: ducournau.claire[at]gmail.com </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>sociología</item>
+                        <item>reflexividad</item>
+                        <item>disciplina</item>
+                        <item>circulación transnacionale</item>
+                        <item>carrera</item>
+                        <item>Hoggart (Richard)</item>
+                        <item>Bourdieu (Pierre)</item>
+                        <item>Grignon (Claude)</item>
+                        <item>Passeron (Jean-Claude)</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>sociologie</item>
+                        <item>réflexivité</item>
+                        <item>discipline</item>
+                        <item>circulation transnationale</item>
+                        <item>carrière</item>
+                        <item>Hoggart (Richard)</item>
+                        <item>Bourdieu (Pierre)</item>
+                        <item>Grignon (Claude)</item>
+                        <item>Passeron (Jean-Claude)</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>sociology</item>
+                        <item>reflexivity</item>
+                        <item>discipline</item>
+                        <item>transnational circulation</item>
+                        <item>career</item>
+                        <item>Hoggart (Richard)</item>
+                        <item>Bourdieu (Pierre)</item>
+                        <item>Grignon (Claude)</item>
+                        <item>Passeron (Jean-Claude)</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Les deux (ou trois) carrières de Richard Hoggart </titlePart>
+                    <titlePart type="sub">
+                        <hi xml:lang="fr">De la fondation des&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr"/>
+                        </hi>
+                        <hi xml:lang="fr">&#160;aux appropriations de la sociologie française</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Claire Ducournau</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e281">
+                <p xml:id="d1e282">
+                    <hi xml:lang="fr">Analysant d’abord les hommages posthumes différenciés rendus à Richard Hoggart de part et d’autre de la Manche à sa mort en 2014, cet article défend l’hypothèse d’une double carrière de cette figure intellectuelle et de ses écrits au Royaume-Uni et en France. Auteur d’un succès de librairie lu au-delà du monde universitaire, fondateur institutionnel des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural&#160;studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> à Birmingham, Hoggart est toutefois rapidement vu dans ce domaine comme une référence à dépasser, alors que la traduction, en France, de deux de ses œuvres majeures (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of Literacy</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;et </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">A&#160;Local Habitation</hi>
+          </hi>
+                    <hi xml:lang="fr">) l’y transforme en sociologue. L’importation de ces textes dans les sciences sociales françaises a nourri la première critique d’importance, par Jean-Claude Passeron et Claude Grignon, du système conceptuel mis en place par Pierre Bourdieu, que la lecture de Hoggart a d’abord implicitement nourri. Sélectives, les références à ses œuvres dans la sociologie de la culture ou des classes populaires se sont ensuite routinisées. Ces usages se sont toutefois accompagnés d’un héritage plus souterrain qui semble moins dépendant des frontières nationales. Hoggart a en effet été pionnier pour légitimer dans la recherche universitaire une prise de parole autobiographique marquée par la réflexivité. Les formes scientifiques d’un tel geste se sont cependant aussi conformées à des cadres disciplinaires et à des logiques épistémologiques de plus en plus distincts, propres à la sociologie française d’un côté et aux&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> de l’autre.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e305">
+                <p xml:id="d1e306">
+                    <hi xml:lang="en">Analysing firstly the different posthumous tributes to Richard Hoggart on both sides of the Channel at his death in 2014, this article argues in favor of a double career of this intellectuel figure and of his books in the United Kingdom and in France. Author of a best-selling book, read outside the academic world, and institutional founder of cultural studies at Birmingham, Hoggart has however quickly been considered in this field as a key, if outdated, reference. The French translation of two of his major books,&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">The Uses of Literacy</hi>
+          </hi>
+                    <hi xml:lang="en">&#160;and </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">A&#160;Local Habitation,</hi>
+          </hi>
+                    <hi xml:lang="en"> turned him into a sociologist. The importation of these textes into the French social sciences provided the first important criticism, by Jean-Claude Passeron and Claude Grignon, of Pierre Bourdieu’s conceptual system –itself implicitly informed by Bourdieu’s reading of Hoggart. While selective, these uses have nevertheless also been accompanied by a more subterranean legacy that seems less dependent on the national borders. Hoggart has indeed been pioneer in legitimising an autobiographical mode of speaking in academic research, marked by reflexivity. The scientific forms of such a gesture have complied with more and more distinct disciplinary settings and epistemological logics, characteristic of French sociology on one side, and cultural studies on the other.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e319">
+                <p xml:id="d1e320">
+                    <hi xml:lang="fr">Analizando primero los diferentes homenajes póstumos dados a Richard Hoggart en ambos lados del Canal de La Mancha a su muerte en 2014, este artículo defiende la hipótesis de una doble carrera de esta figura intelectual y de sus escritos en el Reino Unido y en Francia. Autor de un&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">bestseller</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;leído más allá del mundo académico, fundador institucional de las&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> en Birmingham, Hoggart fue sin embargo visto rápidamente en este campo como una referencia a superar, mientras que la traducción en Francia, de dos de sus obras importantes (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of Literacy</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;y </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">A&#160;Local Habitation</hi>
+          </hi>
+                    <hi xml:lang="fr">) lo transformaba en un sociólogo. La importación de estos textos en las ciencias sociales francesas alimenta la primera crítica importante de Jean-Claude Passeron y Claude Grignon, del sistema conceptual establecido por Pierre Bourdieu, que la lectura de Hoggart alimento primero de forma implícita. Selectivas, las referencias a su trabajo en la sociología de la cultura o de las clases populares se volvieron entonces rutinarias. Estos usos son, sin embargo, acompañados por un legado más subterráneo que parece menos dependientes de las fronteras nacionales. Hoggart era de hecho un pionero para legitimar en la investigación académica una voz autobiográfica marcada por la reflexividad. Las formas científicas de tal movimiento, sin embargo, también se conformaron a marcos disciplinarios y lógicas epistemológicas cada vez más distintas, propias a la sociología francesa por un lado y los&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> del otro.</hi>
+                </p>
+            </div>
+            <div type="ack" xml:id="d1e349">
+                <p xml:id="d1e350">
+                    <hi xml:lang="fr">Ce texte tire son origine d’une présentation orale sur le rôle de Richard Hoggart dans les recompositions de la sociologie française, menée avec Arnauld Chandivert dans le cadre de l’atelier du Master d’études culturelles de l’Université Paul Valéry –&#160;Montpellier&#160;3, consacré en 2015 à Richard Hoggart. Que soient remerciés, pour leurs remarques et pour nos échanges, les participants à ce séminaire, en particulier Maxime Del&#160;Fiol, qui a pensé et organisé ces rencontres, Éric Villagordo, Berny Sèbe, et Claude Grignon, invité à la dernière séance de cet atelier, aux côtés de Christiane Grignon. Merci surtout à ce dernier de sa lecture attentive d’une version antérieure de ce texte. Isabelle Gouarné et trois experts anonymes de la </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Revue d’anthropologie des connaissances</hi>
+          </hi>
+                    <hi xml:lang="fr"> m’ont également fait bénéficier de leurs remarques critiques, ce dont je leur sais gré.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e362">
+                <head subtype="level1" xml:id="d1e363">Introduction&#160;: les deux morts de&#160;Richard Hoggart</head>
+                <p xml:id="d1e365">
+                    <hi xml:lang="fr">À son décès à l’âge de 95&#160;ans le 10&#160;avril&#160;2014, Richard Hoggart, fondateur du&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Centre for Contemporary Cultural Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(CCCS) à Birmingham en 1964, a fait l’objet d’hommages posthumes très dissemblables en France et au Royaume-Uni. Salué par la BBC comme un universitaire et un auteur «&#160;dont les écrits ont influencé les idées sur la qualité de la vie, l’éducation et les médias&#160;»</hi>
+                    <note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> <hi xml:lang="fr">La traduction, comme les suivantes, est de nous. </hi>
+              <hi xml:lang="en">***, Academic and author Richard Hoggart dies, aged&#160;95, 11&#160;avril&#160;2014,&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="en">BBC News</hi>
+              </hi>
+              <hi xml:lang="en">.&#160;</hi>
+              <ref target="http://www.bbc.com/news/entertainment-arts-26982331">
+                <hi xml:lang="fr">http://www.bbc.com/news/entertainment-arts-26982331</hi>
+              </ref>
+              <hi xml:lang="fr">, consulté le 13&#160;juin&#160;2016. Cette comparaison du traitement de la mort de Hoggart dans les médias britanniques et français s’appuie sur la constitution d’un dossier de presse à partir de la base de données Europresse regroupant les articles parus durant les deux mois qui ont suivi la mort de Richard Hoggart, base étendue,&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">via</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;Google, aux articles en ligne de quelques grands sites culturels britanniques.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, il a été au contraire honoré en France comme un sociologue. À la profusion d’articles commémoratifs parus outre-Manche dans&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Guardian, The Independant, The Financial Times</hi>
+          </hi>
+                    <hi xml:lang="fr">,&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Daily Telegraph, The Evening Gazette</hi>
+          </hi>
+                    <hi xml:lang="fr">, etc., mettant en avant les multiples facettes de ce critique littéraire, intellectuel public et administrateur culturel, font pendant deux nécrologies beaucoup moins diversifiées dans&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Le Monde</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;et&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Libération</hi>
+          </hi>
+                    <hi xml:lang="fr">. Ces dernières, qui citent toutes deux sur plusieurs lignes Jean-Claude Passeron, introducteur de Hoggart en France, insistent sur la valeur scientifique des écrits de ce «&#160;sociologue britannique&#160;»</hi>
+                    <note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> <hi xml:lang="fr">Clément Ghys. Richard Hoggart, l’intellectuel transfuge.&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Libération</hi>
+              </hi>
+              <hi xml:lang="fr">, 14&#160;avril&#160;2014, p.&#160;25. Hoggart est présenté dans&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Le Monde</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;comme «&#160;l’un des premiers sociologues à s’être intéressé aux cultures populaires ouvrières et urbaines&#160;» (Julie Clarini. Richard Hoggart, sociologue britannique.&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Le Monde</hi>
+              </hi>
+              <hi xml:lang="fr">, 16&#160;avril&#160;2014, p.&#160;14).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, ayant notamment montré la créativité des membres des classes populaires face aux biens culturels. Les articles parus au Royaume-Uni mettent plutôt en avant la lutte menée toute sa vie par Richard Hoggart contre le «&#160;consumérisme populaire&#160;»</hi>
+                    <note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> <hi xml:lang="en">***. Academic and author Richard Hoggart dies, aged&#160;95, 11&#160;avril&#160;2014,&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="en">BBC News</hi>
+              </hi>
+              <hi xml:lang="en">.&#160;</hi>
+              <ref target="http://www.bbc.com/news/entertainment-arts-26982331">
+                <hi xml:lang="fr">http://www.bbc.com/news/entertainment-arts-26982331</hi>
+              </ref>
+              <hi xml:lang="fr">, consulté le 13&#160;juin&#160;2016.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">&#160;et le nivellement d’une culture de divertissement incarnée par certains programmes télévisuels qu’il considérait comme triviaux et commerciaux</hi>
+                    <note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> <hi xml:lang="en">***. Richard Hoggart was a commentator and academic whose&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Uses of Literacy</hi>
+              </hi>
+              <hi xml:lang="en">&#160;lamented the impact of mass culture on traditional working-class life.&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">The Daily Telegraph</hi>
+              </hi>
+              <hi xml:lang="fr">, 23&#160;avril&#160;2014, p.&#160;23.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">.</hi>
+                </p>
+                <p xml:id="d1e478">Ce différentiel, qui touche à la fois l’ampleur, la forme et le contenu de ces «&#160;funérailles de papier&#160;», est l’indice, comme dans le cas de Rawls analysé par Mathieu Hauchecorne (2010, p.&#160;49), d’un fossé entre les réceptions française et britannique des écrits de Hoggart. Comme la plupart des textes qui circulent au-delà des frontières nationales, cette œuvre a en effet été reçue en France sans son contexte d’origine et réinterprétée de manière sélective en fonction d’enjeux propres à un espace intellectuel spécifique, au risque de l’exercice du «&#160;malentendu structural&#160;» pointé par Pierre Bourdieu (Bourdieu, 2002, p.&#160;4).</p>
+                <p xml:id="d1e480">
+                    <hi xml:lang="fr">Les usages savants de l’œuvre de Hoggart en France, où il fut, à sa propre surprise, d’abord considéré comme un sociologue théoricien (Hoggart, 1993a,&#160;p.&#160;95), illustrent cette logique, en un curieux chassé-croisé depuis la fin des années&#160;1960. En 1970, année où paraît&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La Culture du pauvre</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;aux éditions de Minuit, treize ans après l’édition anglaise originale, Hoggart s’exile à Paris, où il occupe durant cinq ans un poste d’assistant du directeur général de l’Unesco. Il semble alors déjà une référence en partie datée à Birmingham. Après un bouillonnement intellectuel et politique lié à mai&#160;1968, marqué par la volonté de se relier aux luttes qui se déroulent à Paris, les étudiants du CCCS s’engagent en effet dans une mise en cause plus politisée et radicale des représentations sociales dominantes,&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">via</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;le marxisme, le féminisme, l’antiracisme (Willis, 2011, pp.&#160;350-357), à l’encontre de la ligne libérale de Hoggart, violemment contestée (Hoggart, 1993a, p.&#160;98). Membre d’une génération d’avant-guerre vu comme «&#160;retardataire, prisonnier de sa nostalgie d’un Nord populaire&#160;» (Rigby, 1999, p.&#160;146), il défend une approche empiriste qui semble alors ringarde en ce qu’elle ne propose pas de théorie générale. C’est en effet le brillant conceptuel qui nourrit au même moment le prestige «&#160;plus ou moins enchanté&#160;» incarné par l’intellectuel français au CCCS, à travers la popularité des textes de Roland Barthes (directement sollicité par Stuart Hall), Jean Baudrillard ou encore Michel de Certeau, traduits en anglais, et utilisés comme des références pour légitimer ces&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;naissantes (Neveu, 2008, pp.&#160;319-320).</hi>
+                </p>
+                <p xml:id="d1e498">
+                    <hi xml:lang="fr">Pour comprendre ce jeu d’aller-retour entre les deux pays, le présent article se propose d’étudier la double carrière de Richard Hoggart et de ses écrits des deux côtés de la Manche, et son articulation avec l’institutionnalisation, dans la seconde moitié du 20</hi>
+                    <hi rend="sup">
+            <hi xml:lang="fr">e</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;siècle, de la sociologie française d’un côté, des études culturelles britanniques de l’autre. La première suit une logique disciplinaire classique, instaurant ses frontières épistémologiques, théoriques et méthodologiques vis-à-vis des domaines concurrents, conquérant un nombre croissant de financements, de postes et de départements universitaires, en s’appuyant sur la création de revues, de centres de recherche et d’associations. Le second courant ne se développe continûment qu’au prix d’une tension maintenue entre le refus de la mise en discipline, qui pousse Stuart Hall à définir les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;plutôt comme une «&#160;formation discursive&#160;», un «&#160;projet ouvert&#160;», une «&#160;pratique conjoncturelle&#160;» et des dispositifs matériels empreints de logiques disciplinaires. Il s’agit en effet d’imposer à l’université des centres qui accueillent des recherches inédites sur les objets culturels, forment des étudiants, défendent des positionnements intellectuels fermes ainsi qu’un «&#160;travail interdisciplinaire sérieux&#160;» (Hall, 2008, pp.&#160;18-19, 57-58, 63).</hi>
+                </p>
+                <p xml:id="d1e511">
+                    <hi xml:lang="fr">Pour comprendre le positionnement de l’œuvre de Hoggart dans ces deux espaces intellectuels, la réflexion proposée transpose, comme d’autres avant elle, la notion de «&#160;carrière&#160;», «&#160;habituellement appliquée aux individus, à l’étude de ces êtres inanimés que sont les productions intellectuelles, ou de ces pratiques que sont les références à celles-ci&#160;» (Belorgey </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">et al.</hi>
+          </hi>
+                    <hi xml:lang="fr">, 2010, p.&#160;11). Cet outil d’objectivation impose alors de contextualiser, de considérer le caractère séquentiel des enchaînements décrits et enfin de tenir compte de leur éventuelle contingence (Belorgey </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">et al</hi>
+          </hi>
+                    <hi xml:lang="fr">., 2010, pp.&#160;12-13). Pour respecter ces trois exigences, l’entrée choisie est diachronique&#160;: d’abord centré sur lapublication de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of Literacy</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;et ses suites en Grande-Bretagne et en France, le texte examine ensuite le rôle qu’a joué l’importation de deux des œuvres de Hoggart dans les recompositions successives de la sociologie française, autour d’une césure (souple) au début des années&#160;1990, puis suggère l’existence d’une troisième carrière des écrits du penseur britannique.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e529">
+                <head subtype="level1" xml:id="d1e530">De la parution de&#160;<hi rend="italic">The Uses of literacy</hi>&#160;à l’invention d’une nouvelle filière universitaire</head>
+                <p xml:id="d1e535">
+                    <hi xml:lang="fr">La carrière de Richard Hoggart au Royaume-Uni et en France est indissociable de celle de son deuxième ouvrage,&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of Literacy</hi>
+          </hi>
+                    <hi xml:lang="fr">, qui, publié en 1957 après un livre de critique littéraire sur le poète W.H.&#160;Auden (paru en 1951), contribue, comme le soulignent bien des hommages posthumes, à changer le cours de la vie de son auteur –&#160;et d’un certain nombre de ses lecteurs. Hoggart avait souligné la manière dont ces derniers, souvent d’origine populaire, s’étaient adressés à lui pour le remercier d’avoir écrit ce livre (puis son autobiographie). Il s’agit notamment de personnes qui saluent la représentation juste qu’il donne des milieux populaires, les autorisant à assumer davantage leurs origines (Hoggart, 1993a, pp.&#160;5-8&#160;; Inglis, 2014, p.&#160;222) –&#160;les lettres parues à son décès dans&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Guardian</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;donnent un aperçu de cette réception de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of Literacy</hi>
+          </hi>
+                    <hi rend="italic">
+            <note type="standard" xml:id="ftn5" place="foot" n="5">
+              <p> <hi xml:lang="en">The late, great Richard Hoggart.&#160;</hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">The Guardian</hi>
+                </hi>
+                <hi xml:lang="en">, 14&#160;avril 2014&#160;: “</hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">The Uses of</hi>
+                </hi>
+                <hi xml:lang="en">&#160;had a profound effect on me.”, “Though far from a scholarship boy and privately educated, my life was changed by&#160;</hi>
+                <hi rend="italic">
+                  <hi xml:lang="en">The Uses of Literacy</hi>
+                </hi>
+                <hi xml:lang="en">&#160;in 1957.”, etc.</hi>
+              </p>
+            </note>
+          </hi>
+                    <hi xml:lang="fr">.</hi>
+                </p>
+                <p xml:id="d1e575">
+                    <hi xml:lang="fr">Rédigé entre 1952 et 1956, alors que Hoggart enseigne à des adultes en reprise d’étude dans le département de formation professionnelle de l’Université de Hull, le texte paraît chez Chatto &amp; Windus, une maison ouverte à la nouveauté intellectuelle et au brouillage des catégories génériques qu’il incarne. Le livre est considéré comme pionnier à la fois par des sociologues et des spécialistes de littérature</hi>
+                    <note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> <hi xml:lang="en">Michael Meadowcroft, Author on language of industrial north.&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Financial Times</hi>
+              </hi>
+              <hi xml:lang="fr">, samedi 12&#160;avril&#160;2014, p.&#160;3.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">&#160;pour la représentation qu’il donne des classes populaires. Il suscite des débats avant de devenir un succès de librairie régulièrement réédité dans la collection «&#160;Pelican&#160;» de Penguin. Cette série publie depuis 1937 des livres de poche à la couverture bleue et au contenu exigeant, mis ainsi à la portée de toutes les bourses (Hoggart, 1970, pp.&#160;388,&#160;398). L’œuvre s’y voit reprise dès 1958 avec le soutien enthousiaste d’Allen Lane, directeur de la maison d’édition et ami de Hoggart. Le titre atteint près de 250&#160;000&#160;exemplaires en dix ans et devient l’un des piliers de la collection, rejoint dans les années&#160;1960 par ceux de Raymond Williams et Edward P.&#160;Thompson, autres figures fondatrices des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr">. Rédacteur en chef de la&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">New Left Review</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;qu’il&#160;a fondée en 1956 avec Raymond Williams, après avoir quitté l’université où il enseignait la littérature anglaise (Inglis, 2014, pp.&#160;155-156), Stuart Hall se dit ainsi «&#160;profondément impressionné par&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of Literacy</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;», «&#160;comme beaucoup de personnes engagées à gauche&#160;»</hi>
+                    <note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p> <hi xml:lang="en">Stuart Hall, The struggles continues.&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">The Guardian</hi>
+              </hi>
+              <hi xml:lang="fr">, Monday April&#160;21, 2014. L’article est la reproduction d’un témoignage posthume, puisque Stuart Hall est décédé en février&#160;2014, deux mois avant Richard Hoggart.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">.</hi>
+                </p>
+                <p xml:id="d1e619">
+                    <hi xml:lang="fr">Devenu, notamment dans la presse nationale, une célébrité, Hoggart voit sa carrière universitaire progresser. Après avoir séjourné aux États-Unis et enseigné la littérature anglaise à l’Université de Leicester, il se voit en effet offrir une chaire visant à renouveler les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">English studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;à l’université de Birmingham. Il ne l’accepte qu’à la condition qu’il pourra créer un centre expérimental voué à l’étude des formes culturelles contemporaines, rattaché au département d’anglais. Celui-ci se voit matériellement soutenu par des maisons d’édition et des journaux en affinité avec ce projet. Le succès critique et public de Hoggart s’est du reste renforcé en même temps que son lien à Penguin à l’occasion de son témoignage considéré comme décisif dans le procès en obscénité intenté en 1960 à l’éditeur contre la publication de la version non expurgée de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">L’Amant de Lady Chatterley</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;de D.H.&#160;Lawrence –&#160;l’un des auteurs cités à plusieurs reprises dans&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of Literacy</hi>
+          </hi>
+                    <hi xml:lang="fr">, notamment pour ses descriptions de l’existence populaire (Hoggart, 1970, p.&#160;41). Après sa victoire au procès, Penguin écoule 200&#160;000 exemplaires en une semaine de la version intégrale du roman, dont Hoggart préface la deuxième édition. Les faibles ressources financières du CCCS, qui doit aussi déménager «&#160;d’une résidence temporaire à une autre&#160;» (Hall, 2008, p.&#160;60), sont compensées par l’aide de cet éditeur qui donne 2400&#160;£ par an pendant sept ans, somme à laquelle s’ajoutent les contributions de Chatto &amp; Windus et de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Observer</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(Hoggart, 1993a, pp.&#160;88-91). Ces apports permettent notamment d’embaucher un directeur adjoint, qui sera Stuart Hall, directement sollicité par Hoggart.</hi>
+                </p>
+                <p xml:id="d1e642">
+                    <hi xml:lang="fr">Recruté en tant que professeur de littérature, Hoggart continue, comme cet adjoint, de donner des enseignements dans ce domaine. Le centre est du reste le fruit de leur profonde insatisfaction face à l’état de cette discipline universitaire davantage tournée vers la transmission pédagogique que vers la recherche (Abbott, 2001, pp.&#160;124-125), et d’une volonté de «&#160;faire un travail sérieux dans les humanités&#160;», en étudiant aussi des objets culturels moins légitimes, tels que des bandes dessinées, des films, des productions médiatiques, etc. Les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">English studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, qui s’étaient institutionnalisées dans la première moitié du 20</hi>
+                    <hi rend="sup">
+            <hi xml:lang="fr">e</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;siècle d’abord dans les universités les moins prestigieuses, concurrençaient en effet déjà les humanités classiques, mais sur le terrain de la littérature. Elles restaient aussi tributaires de «&#160;présupposés idéologiques&#160;», notamment, pour Hall, nationalistes, qui se voient remis en cause au CCCS. Cette démarche déclenche aussitôt une hostilité de la part des départements installés, celui d’anglais bien sûr, mais aussi ceux d’histoire et de sociologie. Les sociologues envoient ainsi une lettre aux deux enseignants précisant, lecture de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of&#160;Literacy</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;à l’appui, que ce qu’ils font n’est «&#160;en rien&#160;» «&#160;de la sociologie&#160;». Cette critique est du reste partagée&#160;: pour «&#160;enseigner un type de sociologie qui serait au service des personnes qui voulaient étudier la culture&#160;», il faut alors, selon Hall, «&#160;dire à des sociologues professionnels que ce qu’ils considèrent comme de la sociologie est tout autre chose&#160;». Hoggart déplore ainsi la disparition de la lecture interne des œuvres artistiques dans les travaux sociologiques qui les étudient. Mais, pour satisfaire leur projet intellectuel et le défendre contre ces attaques, les deux enseignants s’approprient aussi des éléments «&#160;de toutes les disciplines&#160;», lançant «&#160;des raids&#160;» vers ces dernières, afin de théoriser le concept de culture (Hall, 2008, pp.&#160;58-64).</hi>
+                </p>
+                <p xml:id="d1e660">Le programme formulé par Hoggart au lancement du centre comporte ainsi une ouverture à l’histoire, la philosophie, l’esthétique et la sociologie, ainsi qu’aux références étrangères. Cela se retraduit tant au niveau des programmes de lecture imposés aux étudiants (allant de Max Weber à Edgar Morin) que des conférenciers invités, incluant Norbert Elias ou l’historien Thompson, l’un de ses amis de longue date. Cette attitude vise à faire naître une communauté humaine et morale autour du projet du centre (Inglis, 2014, pp.&#160;163-165&#160;; Hoggart, 1993a, pp.&#160;89-96). Hoggart, qui préconise l’utilisation des méthodes de lecture interne pour étudier les textes, les sons et les images, conseille aussi les rares sociologues pratiquant l’enquête de terrain passés par le CCCS sur la mise en œuvre de la méthode ethnographique (Willis, 2011, pp.&#160;376-377), alors que Hall, qui anime le séminaire de recherche hebdomadaire, assure le cadrage théorique des étudiants, sélectionnés au niveau du Master, y compris depuis des cursus en sociologie, en histoire et en science politique.</p>
+                <p xml:id="d1e662">
+                    <hi xml:lang="fr">Cette distance relative vis-à-vis des disciplines instituées se perçoit aussi dans les trajectoires polyvalentes des membres du CCCS. Après son départ du centre, Hall accepte ainsi une chaire en sociologie, se disant «&#160;heureux de l’enseigner&#160;» quand elle «&#160;n’existe plus comme discipline&#160;» (Hall, 2008, p.&#160;58). À son retour de Paris en 1976, Hoggart occupe quant à lui un poste de professeur puis de directeur au Goldmiths College à Londres, jusqu’à sa retraite en 1984. Poursuivant le décloisonnement qu’il avait impulsé vis-à-vis des études littéraires, il contribue à y mettre en place un département de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">media studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;ouvert à la sociologie et à l’éducation, multipliant par ailleurs les engagements dans des débats publics et des comités officiels, notamment dans le domaine de l’éducation pour adultes (Inglis, 2014, pp.&#160;189-198). La réception de ses travaux dans les études littéraires proprement dites, dont il s’est détaché institutionnellement, et marquées par l’héritage marxiste, reste limitée</hi>
+                    <note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> <hi xml:lang="fr">Contrairement à celui de Raymond Williams, son nom n’apparaît pas, ainsi, dans deux ouvrages de référence (Eagleton, 1983&#160;; Howsam, 2015).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. D’anciens étudiants du CCCS occupent ensuite des postes dont l’ancrage disciplinaire peut varier au cours de leur carrière, souvent réalisée entre le Royaume-Uni et les États-Unis à l’instar de représentants aussi éminents qu’Angela McRobbie (professeure en «&#160;Media and communication&#160;» à Goldsmtith College), Dick Hebdige (professeur en «&#160;Film and Media Studies and Art Studio&#160;» en Californie) ou Paul Gilroy&#160;(qui a été professeur en sociologie et en&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, en théorie sociale, et, actuellement, en littérature).</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e683">
+                <head subtype="level1" xml:id="d1e684">L’importation de Hoggart dans la sociologie française</head>
+                <p xml:id="d1e686">
+                    <hi xml:lang="fr">Loin de toucher pareillement le grand public et les études littéraires, et surtout de causer la naissance d’une filière universitaire inédite, l’introduction de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of Literacy</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;en France passe par l’intermédiaire de jeunes philosophes convertis à la sociologie. Cette discipline, décimée et quasi inexistante en 1945, y connaît une reconstruction et une seconde institutionnalisation, venant parachever, sous influence américaine (Abbott, 2001, p.&#160;123), une première structuration entamée par l’école durkheimienne à la fin du 19</hi>
+                    <hi rend="sup">
+            <hi xml:lang="fr">e</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;siècle et au début du 20</hi>
+                    <hi rend="sup">
+            <hi xml:lang="fr">e</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;siècle. Normalien, agrégé de philosophie, Jean-Claude Passeron découvre cet ouvrage en 1961 dans l’édition Penguin. Cela produit un «&#160;rôle de déclencheur&#160;» alors qu’il commence à enseigner la sociologie à la Sorbonne comme assistant de Raymond Aron (créateur, trois ans auparavant, de la licence de sociologie).</hi>
+                </p>
+                <q rend="quotation">Le déclic fut évidemment subjectif&#160;: un choc de proximité (et donc d’empathie), accentué par la distance même entre les cultures nationales comparées. C’était une rencontre improbable et soudaine (quelque chose d’un «&#160;insight culturel&#160;») qui me révélait les expériences de jeunesse d’un boursier orphelin, élevé au sein de la classe ouvrière dans une grande ville du Nord-Est de l’Angleterre d’avant-guerre, et qui venait prendre place, à la seule lecture d’un livre quasi autobiographique (tout en s’y heurtant), au cœur de mon expérience subjective, encore proche, d’écolier élevé dans un milieu populaire français où s’étaient croisées l’influence de ma mère institutrice –<hi xml:lang="fr">&#160;</hi>première étape d’une ascension sociale par l’École à partir d’une famille où dominait l’artisanat traditionnel<hi xml:lang="fr">&#160;</hi>– et celle de mon père, paysan tout aussi traditionnel, migrant du haut de sa montagne méditerranéenne vers un emploi urbain sur la Côte d’Azur<note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p>
+                            <hi xml:lang="fr">Source&#160;: échange de courriels avec Jean-Claude Passeron, 19/11/2014.</hi>
+            </p>
+          </note>.</q>
+                <p xml:id="d1e719">
+                    <hi xml:lang="fr">Cette lecture émue et enthousiaste, faite de proximité et de distance, aboutit près de dix ans plus tard à la parution de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La Culture du pauvre</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;aux éditions de Minuit –&#160;après un délai imposé par Jérôme Lindon, peu convaincu, une fois le texte traduit, par le style de Hoggart, dont il estimait qu’il «&#160;faisait “un peu trop Dickens”&#160;» (Moulin &amp; Veyne, 1996, p.&#160;293). Cette réticence, sur des motifs formels et littéraires, témoigne de la difficulté d’un célèbre lecteur et découvreur de textes à catégoriser celui-ci&#160;: c’est la préface d’une vingtaine de pages de Passeron en proposant une lecture sociologique, doublée de&#160;l’insistance de Pierre Bourdieu, qui emportent finalement l’adhésion de l’éditeur (Pasquali &amp; Schwartz, 2016, p.&#160;26).</hi>
+                </p>
+                <p xml:id="d1e727">
+                    <hi xml:lang="fr">Le titre prend en effet place dans la collection «&#160;Le sens commun&#160;», dirigée depuis 1965 par Bourdieu, faisant paraître, aux côtés des travaux inédits de chercheurs français, ceux d’étrangers inscrits dans différentes disciplines, de la linguistique à l’anthropologie. Doté d’un index plus copieux que celui de l’édition anglaise, mettant en avant les «&#160;concepts sociologiques&#160;» pour faciliter la lecture universitaire (Passeron, 1999, p.&#160;224), il est présenté par Passeron comme «&#160;un corps d’hypothèses systématiquement reliées entre elles&#160;» proposé à «&#160;d’éventuelles recherches d’approfondissement ou de vérification&#160;» à propos des classes populaires (Hoggart, 1970, pp.&#160;14-15). L’œuvre y est désignée comme pionnière vis-à-vis des travaux sociologiques tant français que britanniques portant sur ces catégories sociales (1970, pp.&#160;8,&#160;15-22). La traduction connaît, dès le titre, des infléchissements importants. Ils sont inévitables en raison de la forte indexation du texte au contexte anglais et de la précision de l’écriture hoggartienne, jusque dans ses références à une culture nationale, ayant nécessité l’ajout de notes et d’explications révélant la qualité du travail de transposition effectué. Mais, outre des détails, comme l’apparition mystérieuse d’un «&#160;pot de chambre extra-large&#160;» dans une réclame comique délicate à comprendre (1999, p.&#160;163), les «&#160;trahisons&#160;» apparaissent aussi, plus profondément, dans l’euphémisation du ton conservateur volontiers adopté par Hoggart par endroits, notamment vis-à-vis des aspects les plus américanisés de la culture populaire britannique, dans de «&#160;célèbres passages&#160;», «&#160;qui lui valurent les critiques des enseignants des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Cultural Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» (Rigby, 1999, pp.&#160;154-156). «&#160;Beaucoup moins littérale et intégrale&#160;» que les versions produites dans d’autres langues, cette traduction propose aussi des catégories, comme celle de «&#160;consommation nonchalante&#160;», qui n’apparaissent pas comme telles dans le texte original (Pasquali &amp; Schwartz, 2016, pp.&#160;25-27).</hi>
+                </p>
+                <p xml:id="d1e735">
+                    <hi xml:lang="fr">L’ouvrage connaît une trajectoire de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">long seller</hi>
+          </hi>
+                    <hi xml:lang="fr"> réédité sur le temps long –&#160;34&#160;000&#160;exemplaires ont été vendus à ce jour, moyennant une dizaine de tirages successifs</hi>
+                    <note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> <hi xml:lang="fr">Chiffre communiqué par les éditions de Minuit en décembre&#160;2016.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Il est remarqué par les sociologues français à sa parution, à travers des comptes rendus fouillés parus dans les revues centrales de la discipline comme </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Les&#160;Cahiers internationaux de sociologie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;ou </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La&#160;Revue française de sociologie</hi>
+          </hi>
+                    <hi xml:lang="fr"> (Pasquali &amp; Schwartz, 2016, pp.&#160;23-24). La recension de Michel Verret (spécialiste de la classe ouvrière) dans&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La Pensée</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;témoigne quant à elle de l’accueil que rencontre cette représentation inédite des classes populaires auprès d’anciens intellectuels communistes, militants reconvertis en sociologues, en une période où le marxisme décline, du fait des désillusions politiques (Pudal, 1991).</hi>
+                </p>
+                <p xml:id="d1e766">
+                    <hi rend="italic">
+            <hi xml:lang="fr">A Local Habitation</hi>
+          </hi>
+                    <hi xml:lang="fr">, premier tome de l’autobiographie de Hoggart paru en 1988 chez Chatto &amp; Windus, est quant à lui découvert par le sociologue Claude Grignon, lors d’un séjour à l’Université de Cornell aux États-Unis, sur un prêt amical de S.&#160;Kaplan</hi>
+                    <note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> <hi xml:lang="fr">Source&#160;: entretien informel, 27/04/2015.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Chercheur à l’INRA depuis 1965, Grignon a soutenu une&#160;thèse sur l’enseignement technique sous la direction de Bourdieu. Orphelin de mère comme Hoggart, il a été élevé par des grands-parents maternels en forte ascension sociale, avant de connaître une trajectoire de promotion par l’éducation (Grignon, 2002). La parution du texte en français se fait trois ans plus tard, dans une prestigieuse collection de sciences sociales («&#160;Hautes études&#160;») liées aux éditions Gallimard et Seuil, ce dernier éditeur faisant paraître le texte en poche en 2013. Celui-ci est à nouveau accompagné d’un index plus fourni et théorique que celui qui accompagnait l’édition anglaise (huit pages contre deux pages), et d’une présentation d’une vingtaine de pages rédigée par Grignon, insistant sur la portée sociologique générale du récit.</hi>
+                </p>
+                <p xml:id="d1e780">
+                    <hi xml:lang="fr">Largement ignorées dans les études littéraires françaises, ces deux œuvres se sont cependant vues citées et convoquées, jusqu’à aujourd’hui, dans un panel de travaux sociologiques, historiques, et de sciences politiques à propos des mécanismes de réception culturelle, des classes populaires, mais aussi d’épistémologie et de méthodologie –&#160;et non d’études culturelles, puisque ce domaine n’a pas, en France, d’existence institutionnelle établie. C’est surtout en sociologie que Hoggart devient une référence majeure&#160;: un domaine devenu discipline universitaire sur des critères tout à la fois externes et internes aux universités (associations et section disciplinaires d’un côté, cursus diplômant généralisés de l’autre). S’y multiplient alors des travaux qui, par leur assise empirique et leur ambition générale, visent à fonder une science dotée de ses propres règles de fonctionnement. Ceux de Bourdieu illustrent tout particulièrement ces exigences nouvelles et ce mouvement d’institutionnalisation favorisé par des chercheurs issus d’autres disciplines. Normalien, agrégé de philosophie, ce dernier occupe des postes universitaires en sociologie dès son retour d’Algérie, et mène une grande quantité de recherches empiriques aboutissant à des publications, souvent en collaboration. Ses travaux occupent une place de plus en plus clivante dans cet espace intellectuel. Et il semble fécond de situer l’importation de Hoggart par rapport à eux, plus précisément au service de, puis contre ces derniers.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e783">
+                <head subtype="level1" xml:id="d1e784">Hoggart, une référence stratégique</head>
+                <p xml:id="d1e786">
+                    <hi xml:lang="fr">À travers&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La Culture du pauvre</hi>
+          </hi>
+                    <hi xml:lang="fr">, Hoggart s’est implicitement vu enrôlé à l’appui d’idées et de notions conçues par Bourdieu et Passeron, d’abord dans le cadre d’une sociologie des médias, puis d’une sociologie de l’éducation. Dans un second temps, à partir de la fin des années 1970, sa pensée s’est au contraire vue défendue et illustrée par Passeron et Grignon contre la théorie de la légitimité culturelle. Cette évolution correspond à des usages qui se sont déployés dans deux domaines majeurs, l’étude des cultures populaires d’une part, l’épistémologie des sciences sociales d’autre part.</hi>
+                </p>
+                <p xml:id="d1e794">
+                    <hi xml:lang="fr">Présente dans les séminaires du Centre de sociologie européenne (CSE) dans les années&#160;1960, la référence à Hoggart reste d’abord sous-jacente dans les premiers textes de Passeron et de Bourdieu –&#160;qui ne l’a cependant jamais cité dans ses travaux (Pasquali &amp; Schwartz, 2016, p.&#160;28). En 1963, dans un article publié dans&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Les Temps modernes</hi>
+          </hi>
+                    <hi xml:lang="fr">, ils stigmatisent la prolifération de textes issus de différents courants des sciences sociales critiquant la culture dite de masse. Les auteurs visés, Roland Barthes, Edgard Morin, Jean Duvignaud, ou les figures issues de l’école de Francfort, sont critiqués pour la posture prophétique et spéculative qu’ils endossent dans les colonnes des revues&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Arguments, Prospective</hi>
+          </hi>
+                    <hi xml:lang="fr"> ou </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Communications,</hi>
+          </hi>
+                    <hi xml:lang="fr"> sans investigation empirique. Ce faisant, ces «&#160;mass-médiologues&#160;» oublient la variété sociale des comportements des récepteurs culturels, alors qu’&#160;«&#160;[i]l y a mille manières de lire, de voir et d’écouter&#160;», au nombre desquelles la «&#160;lecture superficielle&#160;» et l’&#160;«&#160;écoute distraite&#160;» (Bourdieu &amp; Passeron, 1963, p.&#160;1009).</hi>
+                </p>
+                <p xml:id="d1e812">
+                    <hi xml:lang="fr">Mais c’est sur un autre domaine, celui du rapport des étudiants à l’éducation, que ces sociologues mènent leurs premières enquêtes, dont les résultats nourrissent&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Les Héritiers</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;en 1964 puis </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La&#160;Reproduction</hi>
+          </hi>
+                    <hi xml:lang="fr"> en&#160;1970. La construction des concepts de capital culturel et de violence symbolique repose sur le constat, révélé par la robustesse des statistiques, d’une inégalité sociale de l’accès à la culture et à l’éducation, en particulier du fait des origines familiales –&#160;ce qui rejoint la peinture, par Hoggart, d’une société divisée en classes sociales globalement étanches. Passeron prend cependant dès les années 1970 ses distances vis-à-vis de cette théorie de plus en plus systématique, comme Grignon, précocement confronté aux difficultés d’application de celle-ci aux classes populaires (Grignon, 1971). Ce mouvement de critique interne débouche sur l’animation d’un séminaire à l’ÉHESS en&#160;1982, année où Pierre Bourdieu se voit élu au Collège de France et où Grignon officialise son départ du Centre de sociologie de l’éducation et de la culture.</hi>
+                </p>
+                <p xml:id="d1e825">
+                    <hi xml:lang="fr">Ouvrage tiré de ce séminaire, paru sept ans plus tard,&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Le Savant et le populaire</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;restitue les discussions savantes et les formalisations scientifiques proposées à cette occasion. L’embarras de départ est ressenti «&#160;chaque fois que le Peuple apparaît dans la littérature, qu’elle soit sociologique ou romanesque&#160;», du fait de discours trop imprécis sur la culture en question. Une telle insatisfaction était clairement exprimée par Hoggart, mais d’une manière moins exigeante théoriquement (1970, pp.&#160;399-400). Est visé, notamment, le légitimisme culturel, c’est-à-dire le fait de penser que la culture dominante a une valeur propre qui justifie qu’elle serve d’étalon&#160;: la description du rapport à la culture des membres des classes populaires dans </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La&#160;Distinction</hi>
+          </hi>
+                    <hi xml:lang="fr">, illustrée par l’expression «&#160;goûts de nécessité&#160;», ne permet par exemple pas de leur reconnaître toutes les dimensions du goût, en faisant prévaloir une réponse mécanique à un grand nombre de contraintes. Dûment cité dans l’ouvrage, Hoggart révèle au contraire, par son regard sur certains aspects, tels que l’importance des formes de solidarité et de sociabilité, du sens de la dignité ou d’une vision du monde clivée par la séparation entre «&#160;eux&#160;» et «&#160;nous&#160;», qu’une recherche sur les cultures populaires peut aussi exiger des questions, des concepts et des méthodes&#160;spécifiques. Pour éviter le double écueil du populisme et du misérabilisme, </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Le&#160;Savant et le&#160;populaire</hi>
+          </hi>
+                    <hi xml:lang="fr"> propose de privilégier l’alternance ou l’ambivalence entre la reconnaissance de l’autonomie des cultures populaires, lesquelles tendent à organiser leurs expériences sociales en un univers symbolique cohérent, et de leur hétéronomie, du fait que la hiérarchisation sociale n’est pas sans effets symboliques réels.</hi>
+                </p>
+                <p xml:id="d1e843">
+                    <hi xml:lang="fr">Le ton juste et les qualités de l’écriture hoggartienne permettent d’éviter ces deux écueils de manière intuitive. Cette écriture restitue ainsi de manière exemplaire des complexités et des subtilités culturelles, ce qui fait de Hoggart un «&#160;écrivain et sociologue&#160;» qui révèle à Passeron que la «&#160;sociologie était un style plus qu’une discipline&#160;» (1999, p.&#160;51). Il reste toutefois un cas exceptionnel, si l’on en croit les attaques adressées par </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Le Savant et le populaire</hi>
+          </hi>
+                    <hi xml:lang="fr"> à l’encontre de la littérature, repoussoir pour la sociologie, assimilée, dans une fameuse citation souvent reprise par Passeron, à la recherche de l’&#160;«&#160;effet romanesque&#160;», soit à des procédés un peu trop faciles qui recréent l’illusion de la réalité (1991, p.&#160;225&#160;; 1999, p.&#160;216&#160;; 2015, p.&#160;342</hi>
+                    <note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p> <hi xml:lang="fr">«&#160;[…] on a souvent vu faire de la bonne littérature avec de la mauvaise sociologie, parfois même avec de la bonne, jamais de la bonne sociologie avec de la littérature, bonne ou mauvaise.&#160;»</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">). En ce sens, ce débat aboutit à une remise en ordre disciplinaire s’agissant des discours sur les catégories sociales dominées. Si le propos prend au départ pour objet autant la littérature que les travaux sociologiques portant sur les classes populaires, dès le titre où ils apparaissent de manière équivalente, il tend à en dissocier fermement la nature et les fonctions. De manière révélatrice, dans&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La Culture du pauvre</hi>
+          </hi>
+                    <hi xml:lang="fr">, enquêtes sociologiques, littérature, voire critique littéraire étaient souvent mises sur le même plan –&#160;moyennant toutefois une distinction entre des représentations plus ou moins justes des classes populaires données par ces textes, notamment à l’aune de l’expérience personnelle de Hoggart (Hoggart, 1970, pp.&#160;30, 37, 40-42).</hi>
+                </p>
+                <p xml:id="d1e864">
+                    <hi xml:lang="fr">La lecture admirative faite de Hoggart est donc sélective&#160;: elle l’est d’autant plus que ce dernier témoigne de prises de position moralisatrices et de jugements de valeur assumés comme tels dans&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La&#160;Culture du pauvre –</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;qui ont été minimisés dans la traduction, notamment par un Passeron qui «&#160;plaide coupable&#160;» (1999, pp.&#160;222-224). Distinguant entre le bon grain et l’ivraie au sein des productions culturelles (1970, pp.&#160;66-67), attaché au passé, Hoggart s’inquiète ainsi, de manière pessimiste, des évolutions en cours qui touchent notamment les imprimés destinés au peuple&#160;: la question centrale du livre est celle d’une rupture en train d’advenir en ce domaine. Cette attitude –&#160;légitimiste&#160;?&#160;– trouve un écho dans le projet du CCCS à sa création&#160;: si Hoggart veut y appliquer le&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">close reading</hi>
+          </hi>
+                    <hi xml:lang="fr"> à certains biens «&#160;hors littérature&#160;», il méprise aussi d’autres œuvres musicales, cinématographiques ou télévisuelles qui ont pu gagner en légitimité et qui ont, surtout, amplement intéressé ses successeurs (Willis, 2011, pp.&#160;351-353).</hi>
+                </p>
+                <p xml:id="d1e877">
+                    <hi rend="italic">
+            <hi xml:lang="fr">Le Savant et le populaire</hi>
+          </hi>
+                    <hi xml:lang="fr"> représente aussi un acquis d’ordre épistémologique pour la recherche en sciences sociales, à travers une démarche que Passeron et Grignon poursuivent ensuite chacun de leur côté, dans une distance maintenue&#160;vis-à-vis de l’approche perçue comme trop systématique de Bourdieu. Les deux sociologues professionnels engagent des dialogues interdisciplinaires distincts pour renforcer les assises de leur discipline&#160;: avec l’histoire et l’anthropologie d’un côté et avec les sciences dites dures de l’autre (Grignon et al., 2001&#160;; 2009), deux domaines plus éloignés des centres d’intérêt de Hoggart.</hi>
+                </p>
+                <p xml:id="d1e883">
+                    <hi xml:lang="fr">Ainsi, le&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Raisonnement sociologique</hi>
+          </hi>
+                    <hi xml:lang="fr"> est, pour Passeron, une poursuite sous d’autres formes du&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Métier de sociologue</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(1968) cosigné avec Bourdieu et Chamboredon, après un renoncement aux deuxième et troisième volumes alors prévus sur la problématique et les outils sociologiques. Y revendiquant une position réaliste et par là modeste (proche en cela de Stuart Hall (2008, p.&#160;30)), il refuse l’ambition d’un système unifié pour prendre acte, de façon polémique, d’une situation de fait, celle de la «&#160;sociologie telle qu’elle se pratique et se parle&#160;» (1991, p.&#160;83). La finalité des sciences historiques qui regroupent sociologie et histoire n’est pas, selon lui, la cumulativité ou l’énonciation de lois stables, mais l’interprétation, située dans une alternance entre des descriptions historiques (où Hoggart reste un exemple) et des raisonnements expérimentaux (liés à des statistiques et à des formalisations graphiques), mobilisant des comparaisons contrôlées et des concepts typologiques, comme les idéaux-types mis en avant par Max Weber.</hi>
+                </p>
+                <p xml:id="d1e896">
+                    <hi xml:lang="fr">Ces réflexions se sont accompagnées de recherches empiriques nourries de la référence à Hoggart&#160;: notamment sur la réception des biens culturels pour Passeron, et sur les pratiques alimentaires pour Grignon. Ce dernier mène un certain nombre de ces recherches de concert avec Christiane Grignon, avec laquelle il traduit le premier tome de l’autobiographie de Hoggart. À partir de cette deuxième parution, qui bénéficie aussi d’une réception moins disciplinaire dans la presse nationale</hi>
+                    <note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p> <hi xml:lang="fr">Jean-Pierre Rioux. L’herbe d’oubli de Mr&#160;Hoggart.&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Le Monde</hi>
+              </hi>
+              <hi xml:lang="fr">, 25&#160;octobre&#160;1991.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, la convocation de Hoggart se routinise et se diffuse tout à la fois dans différents pans de la sociologie française.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e912">
+                <head subtype="level1" xml:id="d1e913">Dissémination et banalisation des usages de Hoggart</head>
+                <p xml:id="d1e915">
+                    <hi xml:lang="fr">À partir des années 1990, l’œuvre de Hoggart se voit en effet l’objet d’usages réguliers, disséminés dans la production sociologique française, qui se spécialise de manière accrue en sous-champs constitués autour de thématiques et d’objets. Ces appropriations touchent les travaux sur les classes populaires, notamment ceux d’Olivier Schwartz. Ils touchent aussi la sociologie de la culture, depuis les enquêtes pionnières d’Anne-Marie Thiesse sur les pratiques de lecture dans les milieux populaires, pour envisager des usages imprévisibles et/ou distanciés des biens culturels, peu conformes à la stricte appartenance de classe, à travers les expressions de «&#160;consommation nonchalante&#160;» et d’&#160;«&#160;attention oblique&#160;»,&#160;souvent reprises (Hoggart, 1970, pp.&#160;294-296&#160;; Thiesse, 2000, pp.&#160;54-56&#160;; Charpentier, 2006, p.&#160;13). En sociologie générale, le cas de Richard Hoggart permet aussi de réfléchir aux modalités de la socialisation dans des univers sociaux différents dans le cadre d’élaborations théoriques (Lahire, 2001, pp.&#160;71-76&#160;; Pasquali &amp; Schwartz, 2016), ou, moins souvent, aux modalités de l’écriture ethnographique.</hi>
+                </p>
+                <p xml:id="d1e918">
+                    <hi xml:lang="fr">Mais si les deux livres de Hoggart continuent, en France, à être lus et cités, ils constituent au moins jusqu’aux années 2000 de relatives exceptions au sein des productions scientifiques des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, qui «&#160;ne repassent pas la Manche&#160;» (Neveu, 2008, p.&#160;321). L’une des raisons majeures de ce barrage réside précisément dans la structuration disciplinaire française, moins accueillante envers l’&#160;«&#160;interdiscipline souple&#160;» qui caractérise ces&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, et marquée par un certain «&#160;provincialisme&#160;». Le dynamisme de la sociologie et de l’histoire, productives et reconnues à l’extérieur des frontières nationales, a favorisé cette cécité aux apports étrangers (Neveu, 2008, pp.&#160;321-325,&#160;332). Il faut attendre le début des années 2000 pour voir se multiplier les traductions et importations (par exemple Charpentier, 2006),</hi>
+                </p>
+                <p xml:id="d1e931">
+                    <hi xml:lang="fr">En Grande-Bretagne, les centres de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160; ’étaient épanouis dans les années&#160;1980, en particulier dans les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">polytechnics</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(des filières techniques ou professionnelles) dépendant souvent des départements de sociologie. Elles reposent sur une sociologie de la culture tacite, mais sans développement épistémologique ferme. Déjà marquées de ce fait par une faible assise disciplinaire, elles se voient fragilisées par les choix politiques suivis dès les années&#160;1990, faisant disparaître la spécificité des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">polytechnics</hi>
+          </hi>
+                    <hi xml:lang="fr"> et finançant en priorité les projets conçus suivant des lignes disciplinaires (Robbins, 2017) –&#160;la fermeture autoritaire du CCCS de Birmingham en 2002 est un symptôme de cette vulnérabilité. Centrées sur des objets (culturels en l’occurrence) et sur des manières de faire de la recherche, les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> ne semblent pas avoir vraiment stabilisé leur existence sur le marché du travail (au niveau des recrutements et des carrières individuelles) ni dans l’enseignement universitaire, puisqu’elle n’apparaissent pas systématiquement dans les curriculum proposés aux étudiants –&#160;deux paramètres (externes et internes) décisifs pour l’existence des disciplines selon Andrew Abbott. Si l’on peut, comme le fait ce dernier, remarquer le caractère arbitraire des savoirs légitimes attendus dans une discipline, un tel fonctionnement ne permet pas de mobiliser une communauté pour défendre des ressources matérielles (notamment des postes universitaires) et des savoirs suffisamment abstraits, alors que la rentabilité des carrières en conformité avec les normes disciplinaires reste en général supérieure (Abbott, 2001, pp.&#160;26-128, 130-135,&#160;149). Hall oppose dès 1992 les difficultés matérielles rencontrées dès le départ au Royaume-Uni à la rapide institutionnalisation qu’ont connue ces études aux États-Unis dans les années&#160;1980 (Hall, 2008, pp.&#160;30-31) –&#160;la forte structuration disciplinaire du système universitaire semble s’y accommoder alors du développement de champs d’étude transdisciplinaires.</hi>
+                </p>
+                <p xml:id="d1e954">
+                    <hi xml:lang="fr">De manière symétrique, les textes de Bourdieu restent peu lus et commentés dans les études culturelles anglaises, où ils font l’objet d’une réception «&#160;tardive et partielle&#160;» (Neveu, 2008, pp.&#160;319-321) –&#160;sans la critique réfléchie de Passeron et Grignon, dont l’ouvrage n’a pas été traduit en anglais. Le travail de Paul Willis, devenu professeur de sociologie au Royaume-Uni puis aux États-Unis, reste une exception. Conseillé par Hoggart et Hall, il se revendique, comme Dick Hebdige et Angela McRobbie, de la sociologie, discute les travaux de Passeron et Bourdieu sur l’éducation et produit un article pour&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Actes de la recherche en sciences sociales</hi>
+          </hi>
+                    <hi xml:lang="fr"> à la demande de ce dernier dans les années 1970. Mais le projet du CCCS devient dès cette période «&#160;beaucoup plus littéraire, beaucoup moins axé sur l’enquête de terrain&#160;» (Willis, 2011, pp.&#160;357, 376-377), ce qui l’éloigne de celui de la sociologie française.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e962">
+                <head subtype="level1" xml:id="d1e963">La possibilité de se «&#160;découvr[ir] soi-même&#160;» (1999, p.&#160;70) comme troisième carrière de Richard Hoggart</head>
+                <p xml:id="d1e965">
+                    <hi xml:lang="fr">Cette entrée chronologique mettant en miroir la sociologie française et les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> britanniques au prisme de Hoggart confirme le constat d’un fossé entre le volume et le contenu de la réception de l’auteur sur les deux rives de la Manche. C’est cependant en partie du fait d’affinités dans les centres d’intérêt et les trajectoires sociales d’universitaires situés dans des champs nationaux différents que se fait l’importation française&#160;: d’ailleurs, la traduction de ses deux ouvrages y a été approuvée par Hoggart, qui parlait français couramment (Hoggart, 1970, p.&#160;26&#160;; Inglis, 2014, p.&#160;173).</hi>
+                </p>
+                <p xml:id="d1e973">
+                    <hi xml:lang="fr">Les différences de carrière constatées prennent leur source dans des appartenances et des systèmes disciplinaires distincts. Alors que la réception de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of Literacy</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;au Royaume-Uni a accéléré la carrière universitaire de Hoggart, en lui permettant de créer un centre inédit, l’ouvrage n’est devenu classique en France qu’en sociologie, notamment du fait d’un filtrage imposé par les médiateurs. Il ne connaît pas, ainsi, le succès de librairie remporté de manière exceptionnelle par&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Les Héritiers</hi>
+          </hi>
+                    <hi xml:lang="fr">, tirés à 100&#160;000&#160;exemplaires jusqu’à aujourd’hui, et qui suscite aussi l’envoi aux auteurs de courriers de lecteurs, en particulier d’anciens boursiers (Masson, 2005&#160;; Pasquali &amp; Schwartz, 2016, p.&#160;28). Cette réception restrictive se développe bien à partir d’une situation de commune effervescence intellectuelle, du fait d’une institutionnalisation scientifique naissante (aussi fragile reste-t-elle dans le cas des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr">), qui repose sur l’accès à l’enseignement supérieur de populations qui en étaient auparavant éloignées.</hi>
+                </p>
+                <p xml:id="d1e991">
+                    <hi xml:lang="fr">Car il semble bien y avoir, dans les modalités de cette circulation transnationale, création de «&#160;fausses ressemblances entre des choses différentes&#160;» –&#160;car les&#160;écrits de Hoggart ont été parfois réduits à une vulgate théorique insistant sur la résistance des catégories populaires, quand il alertait aussi sur leur possible aliénation&#160;– et conjointement d’&#160;«&#160;oppositions fictives entre des choses semblables&#160;» (Bourdieu, 2002, p.&#160;6). Le projet et les caractéristiques des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> britanniques et de la sociologie de la culture française pourraient ainsi être au fond rapprochés. Un apport commun de Hoggart aux sociologues français et aux universitaires inscrits dans le sillage des études culturelles résiderait alors certainement dans le caractère autobiographique assumé de nombre de ses textes. En évoquant sa trajectoire située entre différents milieux culturels et sociaux, il aurait ainsi appris à ses lecteurs à parler d’eux-mêmes. L’écriture a en ce sens précocement représentée pour Hoggart un&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">medium</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;pour se «&#160;découvr[ir] soi-même&#160;» (1999, p.&#160;70), selon un principe de lucidité poussant à reconnaître que «&#160;l’œuvre de chaque homme […] est toujours un portrait de lui-même&#160;», selon un mot de Samuel Butler qu’il affectionne (2013, p.&#160;27). Nombreux à connaître, au même titre que lui, une mobilité sociale ascendante par l’éducation dans le contexte des Trente Glorieuses, les sociologues français évoqués ici ne se sont toutefois pas d’emblée livrés à un tel geste de dévoilement. Bourdieu, Passeron et Grignon l’ont tous trois accompli à la fin de leur carrière –&#160;et, du moins quant aux deux derniers, en évoquant explicitement le Hoggart qu’ils avaient traduit (Passeron, 1999, p.&#160;240</hi>
+                    <note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> <hi xml:lang="fr">Le sociologue, actuellement en train de rédiger ses mémoires, y érige ainsi Hoggart en modèle pour mobiliser un souvenir d’enfance à l’école («&#160;puisque Hoggart le fait sans complexes&#160;»).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">; Grignon, 2002, p.&#160;214). La lecture de Hoggart a pu être libératrice pour de tels chercheurs situés dans une semblable situation d’entre-deux social. Elle ne joue ainsi rien de moins que, chronologiquement, «&#160;le premier rôle dans la&#160;conversion à la sociologie&#160;» pour Passeron (1999, p.&#160;49).</hi>
+                </p>
+                <p xml:id="d1e1012">
+                    <hi xml:lang="fr">Un tel geste aurait été impensable à leurs débuts, autrement que refoulé, dénié et/ou sublimé, ce que, de fait, il a été, à travers des enquêtes de grande ampleur, surtout quantitatives. Des années&#160;1960 aux années&#160;1980, c’est en effet par des recherches marquées par l’objectivité du régime de leur preuve que la sociologie gagne en légitimité scientifique. Depuis les années&#160;1990 au contraire, l’exigence de réflexivité dans le rapport personnel à son objet de recherche et à son terrain d’enquête est devenue une exigence dans la sociologie française, à travers l’analyse des rôles tenus sur le terrain ou des relations avec les enquêtés. Elle est portée par une réflexion sur les pratiques de l’entretien et de l’observation, incitant à articuler les méthodes, voire les entrées disciplinaires pour aborder un même objet.</hi>
+                </p>
+                <p xml:id="d1e1015">
+                    <hi xml:lang="fr">Or cette aptitude réflexive à parler de soi et à se situer dans un espace social, avec tout ce qui peut déterminer une prise de parole scientifique, est aussi, précisément, une étape courante dans les travaux issus des différentes&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> ayant essaimé dans le monde à partir de leur origine britannique (Neveu, 2008). Comme Richard Hoggart, et après lui Stuart Hall (2008, pp.&#160;22-23), les grandes figures des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, telles Edward Said ou Gayatri Spivak, ne cessent ainsi de se présenter comme sujets d’énonciation dotés d’une&#160;biographie et de caractéristiques propres, susceptibles d’influer sur la nature et la forme de leurs discours.</hi>
+                </p>
+                <p xml:id="d1e1028">
+                    <hi xml:lang="fr">Le dixième et dernier chapitre de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La Culture du pauvre</hi>
+          </hi>
+                    <hi xml:lang="fr">, dressant le portrait (largement autobiographique) du boursier autodidacte, peut être relu de ce point de vue là. Comme le remarquent à juste titre Paul Pasquali et Olivier Schwartz, ce chapitre, qui contient de nombreux jugements de valeurs, livre une interprétation en partie pathologique des conséquences de la mobilité sociale sur les personnes issues des classes populaires, en mobilisant le schème du déracinement, alors répandu mais peu productif scientifiquement. Il ne prend ainsi pas suffisamment «&#160;au sérieux la réflexivité et les marges de manœuvre&#160;» dont ces «&#160;déracinés&#160;» disposent (Pasquali &amp; Schwartz, 2016, p.&#160;41). Mais les écrits et la trajectoire de Hoggart, à partir de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Uses of Literacy</hi>
+          </hi>
+                    <hi xml:lang="fr"> apportent par eux-mêmes un démenti à cette remarque. Le penseur, qui insiste sur la difficulté qu’il a eue à écrire ces pages à la tonalité tantôt lyrique, tantôt psychologique, n’y exprime du reste pas clairement l’ambition d’y construire un type sociologique général&#160;: il y définit plutôt une mission d’intérêt public pour cette minorité sociale. Marqué par le malaise, l’insatisfaction, les doutes, mais aussi par les «&#160;qualités éthiques&#160;», l’autodidacte issu du peuple, dont il reste en partie solidaire, «&#160;constitue&#160;» également pour lui «&#160;un peu le sel de la terre&#160;». S’appuyant sur des images concrètes et saisissantes susceptibles de faire sentir et de susciter l’émotion, Hoggart fait de cette population «&#160;les antennes sensibles d’une société&#160;: nous voulons souvent les ignorer, mais les symptômes qu’ils enregistrent nous concernent tous&#160;» (1970, p.&#160;376). Ce chapitre est du reste l’un de ceux qui a été le plus salué dans les courriers de ses lecteurs (Hoggart, 1993a, p.&#160;7).</hi>
+                </p>
+                <p xml:id="d1e1041">
+                    <hi xml:lang="fr">Le lien entre l’homme et son œuvre transparaît peut-être davantage encore dans nombre de ses textes non traduits en français, soit près d’une trentaine de titres différents. C’est le cas dans son travail original et méconnu sur l’Unesco, issu de sa connaissance endogène de l’institution, de son ouvrage sur la ville de Farnham (où il a habité près de trente ans), dans ses essais, où il réfléchit notamment sur son expérience d’enseignant (et dont un volume est significativement intitulé&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">An English Temper</hi>
+          </hi>
+                    <hi xml:lang="fr">). Un apport précurseur de ses écrits, sur le long terme, tiendrait donc aussi à la voix qu’ils font ainsi entendre, novatrice dans sa simplicité et sa franchise.</hi>
+                </p>
+                <p xml:id="d1e1049">
+                    <hi xml:lang="fr">Cet héritage, qui traverse différents pays et divers domaines scientifiques, s’est néanmoins aussi conformé à des cadres disciplinaires. Les réflexions méthodologiques sur les modalités de l’enquête ethnographique, imposant de faire retour sur le positionnement social du chercheur, viennent généralement ainsi appuyer et renforcer l’ancrage épistémologique de la sociologie, voire la rupture qu’elle propose avec le sens commun. Travaillées par des comparaisons, elles se sont du reste généralisées bien au-delà des seuls «&#160;transfuges de classe&#160;», et concernent aussi les chercheurs faisant porter leurs enquêtes sur le haut de l’échelle sociale. Le geste généralement plus personnel et narratif des représentants des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> en langue anglaise s’inscrit quant à lui dans une épistémologie du point de vue qui semble moins collectivement établie.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e1057">
+                <head subtype="level1" xml:id="d1e1058">Conclusion</head>
+                <p xml:id="d1e1060">
+                    <hi xml:lang="fr">C’est en soulignant le fort cadrage disciplinaire qui a nourri la perception française de l’œuvre de Hoggart que cet article voudrait, en somme, inciter à la relire. La double carrière de cette figure intellectuelle britannique révèle la différenciation croissante, des années&#160;1960 aux années&#160;1980, des logiques institutionnelles et épistémologiques à l’œuvre dans deux pays d’Europe marqués par des traditions universitaires distinctes. «&#160;Disciplinarisé&#160;» autant que discipliné en France, convoqué par les sociologues comme un classique sur les cultures populaires jusqu’à aujourd’hui, y compris à l’appui d’approches théoriques, Hoggart a été davantage connu en Grande-Bretagne pour ses engagements publics et sa polyvalence, restituée par une trajectoire universitaire se jouant des disciplines, comme celles de nombre de ses successeurs passés par le CCCS. Les acteurs ultérieurs des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> ont pu voir en Hoggart une figure fondatrice dont il était de bon ton de se démarquer, pour renouer avec l’engagement critique face au marxisme dont il s’était dégagé (d’une manière exceptionnelle au sein de ce mouvement). Sociologue en deçà de la Manche, il n’en inaugure pas moins, au-delà, un nouveau type d’intellectuel «&#160;organique&#160;» et réflexif, cherchant à «&#160;[s]’adresser au grand public&#160;» (Hoggart, 1970, p.&#160;30&#160;; Hall, 2008, pp.&#160;23-24).</hi>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e1072">
+                <listBibl xml:id="d1e1074">
+                    <bibl xml:id="d1e1076">
+                        <hi xml:lang="en">Abbott, A. (2001)&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Chaos of disciplines</hi>
+                        </hi>
+                        <hi xml:lang="en">. Chicago: University of Chicago Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1084">
+                        <hi xml:lang="fr">Belorgey, N., Chateigner, F., Hauchecorne, M., &amp; Penissat, E. (2011). Théories en milieu militant&#160;: introduction.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Sociétés contemporaines</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">1</hi>
+                        </hi>
+                        <hi xml:lang="fr">(81), 5-25.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1097">
+                        <hi xml:lang="fr">Bourdieu, P., &amp; Passeron, J.-C. (1963). Sociologues des mythologies et mythologies des sociologues.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Les Temps modernes</hi>
+                        </hi>
+                        <hi xml:lang="fr">, (211) 998-1021.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1105">
+                        <hi xml:lang="fr">Bourdieu, P., Chamboredon, J.-C., &amp; Passeron, J.-C. (1968).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Le Métier de sociologue&#160;: préalables épistémologiques</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Berlin, New-York, Paris&#160;: Mouton de Gruyter, EHESS.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1113">
+                        <hi xml:lang="fr">Bourdieu, P. (1979).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La Distinction&#160;: critique sociale du jugement</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Minuit.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1121">
+                        <hi xml:lang="fr">Bourdieu, P. (2002). Les conditions sociales de la circulation internationale des idées.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Actes de la recherche en sciences sociales</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">145</hi>
+                        </hi>
+                        <hi xml:lang="fr">(5), 3-8.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1134">
+                        <hi xml:lang="fr">Bourdieu, P. (2004).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Esquisse pour une auto-analyse</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Raisons d’agir.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1142">
+                        <hi xml:lang="fr">Charpentier, I. (dir.) (2006).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Comment sont reçues les œuvres. Actualités des recherches en sociologie de la réception et des publics</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Créaphis.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1150">
+                        <hi xml:lang="en">Eagleton, T. (1983).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Literary Theory: An Introduction</hi>
+                        </hi>
+                        <hi xml:lang="en">. Minneapolis: University of Minnesota Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1158">
+                        <hi xml:lang="fr">Grignon, C. (1971).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Ordre des choses. Les fonctions sociales de l’enseignement technique.</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;Paris&#160;: Minuit.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1167">
+                        <hi xml:lang="fr">Grignon, C., &amp; Passeron J.-C. (1989, 2015).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Le Savant et le populaire&#160;: misérabilisme et populisme en sociologie et en littérature</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Gallimard, Le Seuil.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1175">
+                        <hi xml:lang="fr">Grignon, C. (2002). Comment peut-on être sociologue.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue européenne des sciences sociales</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">XL</hi>
+                        </hi>
+                        <hi xml:lang="fr">(123),181-225.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1188">
+                        <hi xml:lang="fr">Grignon, C., Grenier, J.-Y., &amp; Menger, P.-M. (dir.) (2001).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Le Modèle et le récit.</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;Paris&#160;: Éditions de la Maison des sciences de l’homme.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1196">
+                        <hi xml:lang="fr">Grignon, C., &amp; Kordon, C. (dir.) (2009).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Sciences de l’homme et sciences de la nature. Essais d’épistémologie comparée</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Paris&#160;: Éditions de la Maison des sciences de l’homme.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1204">
+                        <hi xml:lang="fr">Hall, S. (2008).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Identités et cultures. Politiques des</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;cultural studies. Paris&#160;: Amsterdam.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1212">
+                        <hi xml:lang="fr">Hauchecorne, M. (2010). Les deux morts de Rawls. Analyse croisée des hommages posthumes à John Rawls en France et aux États-Unis.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue française d’études américaines</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">4</hi>
+                        </hi>
+                        <hi xml:lang="fr">(126) 41-52.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1225">
+                        <hi xml:lang="fr">Hoggart, R. (1970).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La Culture du pauvre</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Minuit.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1233">
+                        <hi xml:lang="en">Hoggart, R. (1978).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">An Idea and Its Servants: UNESCO from within</hi>
+                        </hi>
+                        <hi xml:lang="en">. London, New York: Chatto and Windus, Oxford University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1241">
+                        <hi xml:lang="en">Hoggart, R. (1982).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">An English Temper: Essays on Education, Culture and Communication.</hi>
+                        </hi>
+                        <hi xml:lang="en">&#160;</hi>
+                        <hi xml:lang="fr">London: Chatoo and Windus.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1251">
+                        <hi xml:lang="fr">Hoggart, R. (1991).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">33 Newport Street. Autobiographie d’un intellectuel issu des classes populaires anglaises</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Seuil.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1259">
+                        <hi xml:lang="en">Hoggart, R. (1993a).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Life and Times, 1959-1991. An Imagined Life</hi>
+                        </hi>
+                        <hi xml:lang="en">. Oxford: Oxford University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1268">
+                        <hi xml:lang="en">Hoggart, R. (1993b).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Townscape with Figures: Farnham –Portrait of an English Town</hi>
+                        </hi>
+                        <hi xml:lang="en">. Londres: Chatto and Windus.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1276">
+                        <hi xml:lang="en">Howsam, L. (ed.). (2015).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Cambridge Companion to the History of the Book,</hi>
+                        </hi>
+                        <hi xml:lang="en">&#160;Cambridge, New York: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1284">
+                        <hi xml:lang="en">Inglis, F. (2014).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Richard Hoggart: Virtue and Reward</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Cambridge: Polity.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1294">
+                        <hi xml:lang="fr">Lahire, B. (2001).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Homme pluriel. Les ressorts de l’action</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Armand Colin/Nathan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1302">
+                        <hi xml:lang="fr">Masson, P. (2005). Premières réceptions et diffusions des Héritiers (1964-1973).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’histoire des sciences humaines</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">13</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 69-98.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1315">
+                        <hi xml:lang="fr">Neveu, É. (2008). Les voyages des&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">cultural studies</hi>
+                        </hi>
+                        <hi xml:lang="fr">.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Homme</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">3</hi>
+                        </hi>
+                        <hi xml:lang="fr">(187-188), 315-341.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1333">
+                        <hi xml:lang="fr">Passeron, J.-C. (éd.). (1999).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Richard Hoggart en France</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Bibliothèque publique d’information, Centre Georges Pompidou.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1341">
+                        <hi xml:lang="fr">Moulin, R., &amp; Veyne, P. (1996). Entretien avec Jean-Claude Passeron. Un itinéraire de sociologue.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue européenne des sciences sociales. Cahiers Vilfredo Pareto</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">XXXIV</hi>
+                        </hi>
+                        <hi xml:lang="fr">(103), 275-354.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1354">
+                        <hi xml:lang="fr">Pasquali, P., &amp; Schwartz, O. (2016). La Culture du pauvre&#160;: un classique revisité. Hoggart, les classes populaires et la mobilité sociale.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Politix</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">2</hi>
+                        </hi>
+                        <hi xml:lang="fr">(114), 21-45.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1367">
+                        <hi xml:lang="fr">Rigby, Brian. (1999). La «&#160;culture populaire&#160;» en France et en Angleterre&#160;: la traduction française de&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">The Uses of Literacy, in</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;Jean-Claude Passeron (dir.).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Richard Hoggart en France</hi>
+                        </hi>
+                        <hi xml:lang="fr">. (pp.&#160;137-168). Paris&#160;: Bibliothèque publique d’information.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1380">
+                        <hi xml:lang="fr">Passeron, J.-C. (2006).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Le raisonnement sociologique&#160;: un espace non poppérien de l’argumentation</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Albin Michel.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1389">
+                        <hi xml:lang="fr">Pudal, B. (1991). Le populaire à l’encan.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Politix</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">4</hi>
+                        </hi>
+                        <hi xml:lang="fr">(14). 53-64.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1402">
+                        <hi xml:lang="fr">Robbins, D. (à paraître en 2017). Sciences sociales et populisme.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Biens symboliques/Symbolic Goods</hi>
+                        </hi>
+                        <hi xml:lang="fr">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">1</hi>
+                        </hi>
+                        <hi xml:lang="fr">.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1415">
+                        <hi xml:lang="fr">Schwartz, O. (1990).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Le monde privé des ouvriers. Hommes et femmes du Nord.</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;Paris&#160;: PUF.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1423">
+                        <hi xml:lang="fr">Thiesse, A.-M. (1984, 2000).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Le Roman du quotidien. Lecteurs et lectures populaires à la Belle Époque</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Le Chemin vert, CNRS.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1431">
+                        <hi xml:lang="fr">Willis, P. (2011).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’École des ouvriers&#160;: comment les enfants d’ouvriers obtiennent des boulots d’ouvriers</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Marseille&#160;: Agone.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

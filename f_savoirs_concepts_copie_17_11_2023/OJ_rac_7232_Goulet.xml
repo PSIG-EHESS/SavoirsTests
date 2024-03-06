@@ -1,0 +1,563 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_7232_Goulet">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Mettre en récits et partager l’expérience</title>
+                <title type="sub">Éléments pour l’étude des savoirs dans des collectifs professionnels</title>
+                <title level="a" type="alt" xml:lang="en">Storytelling and sharing experience. Some elements for a study of knowledge within professional groups</title>
+                <title level="a" type="alt" xml:lang="es">Relatar y compartir experiencias. Elementos para el estudio de los conocimientos dentro de grupos de profesionales</title>
+                <author>
+                    <persName>
+                        <forename>Frédéric</forename>
+                        <surname>Goulet</surname>
+                    </persName>
+                    <affiliation> Sociologue, chercheur au sein du Département Environnements et Sociétés du CIRAD. Ses recherches portent sur les processus d’innovation technique et de production de connaissances en agriculture, et analysent les transformations des relations entre science, agriculture et société. Ses terrains de recherche sont situés principalement en France et en Argentine.ORCID&#160;: <ref target="https://orcid.org/0000-0001-8735-6146">https://orcid.org/0000-0001-8735-6146</ref> Adresse&#160;: UMR Innovation, 73 rue Jean-François Breton, TA C-85/15 FR- 34&#160;398 Montpellier cedex 5 (France)Courriel&#160;: frederic.goulet[at]cirad.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>knowledge</item>
+                        <item>farmer</item>
+                        <item>experiment</item>
+                        <item>story</item>
+                        <item>no-tillage</item>
+                        <item>community of practice</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>semis direct</item>
+                        <item>connaissance</item>
+                        <item>expérience</item>
+                        <item>agriculteur</item>
+                        <item>récit</item>
+                        <item>communauté de pratiques</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>siembra directa</item>
+                        <item>experimentación</item>
+                        <item>conocimiento</item>
+                        <item>relato</item>
+                        <item>comunidad de practicas</item>
+                        <item>agricultore</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Mettre en récits et partager l’expérience</titlePart>
+                    <titlePart type="sub">Éléments pour l’étude des savoirs dans des collectifs professionnels</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Frédéric Goulet</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e241">
+                <p xml:id="d1e242">Dans cet article, nous développons une analyse des procédés par lesquels les expériences individuelles sont partagées au sein d’un collectif d’agriculteurs. À partir d’observations auprès d’une communauté de pratiques organisées autour des techniques de semis direct, nous interrogeons les modalités par lesquelles ces expériences locales, situées dans des contextes physiques ou sociaux contrastés, sont mises en discours pour être rendues accessibles à autrui. Nous mobilisons pour cela les cadres conceptuels de la sociologie des sciences et des techniques et de la sociologie pragmatique, qui permettent de rendre compte des épreuves et des dispositifs assurant la mise en équivalence des expériences et la montée en généricité. Nous montrons notamment que l’utilisation du cadre d’analyse de la sociologie de la traduction, à l’origine conçu autour de l’étude des pratiques de laboratoire, ouvre des pistes de recherche intéressantes pour étudier la dynamique de connaissances autres que scientifiques.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e244">
+                <p xml:id="d1e245">
+                    <hi xml:lang="en">In this paper, we develop an analysis of the processes by which individual experiments are shared within a group of farmers. Based on observations from a community of practice organized around direct seeding techniques, we question the ways in which these local experiences, situated in contrasting physical and social contexts are made into a discourse available for others. We use the conceptual frameworks of the sociology of science and technology and pragmatic sociology, which can account for the tests and processes that ensure the standardization of experience and increased genericity. We show that the use of the analytical framework of the sociology of translation, originally conceived around the study of laboratory practice, opens interesting and useful avenues of research to study the dynamics of other forms of knowledge than the scientific.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e248">
+                <p xml:id="d1e249">
+                    <hi xml:lang="es">En este trabajo, desarrollamos un análisis de los procesos por los que se comparten experiencias individuales dentro de un grupo de agricultores. Con base en las observaciones de una comunidad de práctica organizada en torno a las técnicas de siembra directa, cuestionamos las formas en que estas experiencias locales, situadas en contextos físicos y sociales diferentes, están relatadas para ser accesibles para los demás. Movilizamos los marcos conceptuales de la sociología de la ciencia y de la tecnología y la sociología pragmática, que permiten dar cuenta de las pruebas y dispositivos que garanticen la equivalencia de las experiencias y permiten subir en generalidad. Se demuestra que el uso del marco analítico de la sociología de la traducción, originalmente diseñada en torno al estudio de la práctica de laboratorio, abre vías de investigación para el estudio de la dinámica de los conocimientos que no son científicos.</hi>
+                </p>
+            </div>
+            <div type="ack" xml:id="d1e253">
+                <p xml:id="d1e254">Ce travail a bénéficié d’une aide de l’Agence nationale de la recherche dans le cadre du Programme SYSTERRA portant la référence ANR-08-STRA-10, ainsi que d’un soutien financier du Département Sciences pour l’action et le développement (SAD) de l’Inra.</p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e260">
+                <head subtype="level1" xml:id="d1e261">Introduction</head>
+                <p xml:id="d1e263">La production des connaissances au sein des groupes d’agriculteurs mobilise depuis de nombreuses années les sociologues et anthropologues qui scrutent les mondes agricoles. Dès les années 1970 et 1980, que ce soit dans les pays en développement ou dans les pays industrialisés, des voix se sont élevées (Chambers, Pacey &amp; Thrupp, 1989&#160;; Darré, 1984) pour souligner la capacité des agriculteurs à produire des connaissances par eux‑mêmes. Alors que les processus de modernisation ou de révolution verte étaient portés par l’essor des sciences et techniques agricoles, des innovations conçues dans les stations de recherche, il s’agissait de montrer que les agriculteurs n’étaient pas seulement des réceptacles des innovations conçues en amont, mais bel et bien des producteurs et des détenteurs de savoirs à part entière, distincts des agronomes et des vulgarisateurs. Cette affirmation du statut du paysan producteur de connaissances, en opposition avec la conception d’un modèle fordiste de l’innovation (Kloppenburg, 1991&#160;; Bonneuil <hi rend="iralic">et&#160;al.</hi>, 2006), revêtait alors&#160;– et revêt encore aujourd’hui&#160;– une dimension politique forte. Ainsi, en France, Darré (1999) n’hésitait pas à se revendiquer d’une lutte «&#160;contre un racisme de l’intelligence&#160;». À partir du début des années 1990, et même depuis la fin des années 1980, la montée en puissance des ethnosciences sur les terrains des pays en développement a contribué à renouveler le champ de ces travaux, à partir de l’étude et de la qualification des connaissances indigènes (Sillitoe, 1998) impliquées dans la gestion des milieux cultivés ou naturels. D’une certaine manière, la mise en lumière des connaissances des populations autochtones contribuait là aussi à leur reconnaissance, alors que leur environnement et leur existence étaient parfois mis à mal sous l’effet direct ou indirect du modèle de développement occidental. Mais surtout, l’essor à partir de cette époque de recherches conduites dans les pays industrialisés sur les systèmes agricoles «&#160;alternatifs&#160;» à l’agriculture intensive, a contribué au développement d’une littérature abondante autour des connaissances «&#160;locales&#160;» des agriculteurs (Mc&#160;Corkle, 1989).</p>
+                <p xml:id="d1e268">Les crises sanitaires, environnementales ou sociales suscitées par l’industrialisation de la production ont en effet entraîné dans ces pays l’émergence et le développement d’une multitude de propositions et de modèles techniques alternatifs (van&#160;der&#160;Ploeg, 1994&#160;; Deléage, 2004&#160;; McMahon, 2005) portés par la profession agricole, seule ou alliée à des acteurs des mondes scientifiques ou industriels (Goulet, 2010). L’ensemble des travaux qui ont prêté attention à ces processus et aux transformations qu’ils entraînaient dans la production des connaissances agricoles ont alors souligné deux éléments clés. Un premier trait marquant se dessine tout d’abord dans ces travaux autour de l’importance des connaissances «&#160;locales&#160;», propres aux agriculteurs en tant qu’individus, pour concevoir et gérer ces systèmes de production dès lors qu’ils ne sont plus alignés sur des objets ou des formats d’action standardisés. Le retrait du labour (Goulet &amp; Vinck, 2012), le non-usage des traitements chimiques, induiraient une plus libre expression des spécificités des milieux et des entités vivantes, et imposeraient en conséquence une connaissance localisée des situations (parcelles, terroirs, animaux) par les agriculteurs. La singularité, l’idiosyncrasie s’imposeraient ainsi dans les modes de connaissances et de gestion, au détriment des «&#160;recettes&#160;» établies par une science expérimentale que critiquent les agriculteurs engagés dans ces mouvements (Hassanein, 1999&#160;; Lyon <hi rend="iralic">et&#160;al.</hi>, 2011). Le second trait marquant, étroitement lié au premier, renvoie aux formes de collectifs professionnels qui s’imposeraient autour de ces modèles de productions alternatifs. Les groupes de dialogue et les réseaux apparaissent, en effet, comme des figures centrales de ces mouvements, de nombreux auteurs soulignant le besoin pour ces agriculteurs d’échanger, de se confronter à leurs pairs, de partager leurs expériences du fait du manque de références existant autour de leurs systèmes innovants (Hassanein &amp; Kloppenburg, 1995&#160;; Raedeke &amp; Rikoon, 1997&#160;; Richardson, 2005). Ces collectifs professionnels sont alors décrits comme des espaces déconnectés d’un ancrage géographique localisé dans lesquels se produisent des échanges et une circulation intenses de connaissances entre leurs membres (Warner, 2007&#160;; Hassanein, 1999), en marge des systèmes officiels de recherche et développement agricole. Ainsi donc la connaissance de l’agriculteur&#160;– en tant qu’individu&#160;– et celle des agriculteurs&#160;– en tant que catégorie d’acteurs opposée à d’autres catégories (la recherche agronomique, les institutions de développement agricole) et en tant que collectifs de praticiens&#160;–, seraient au cœur de ces agricultures alternatives, ou du moins traverse les travaux des sociologues qui les ont étudiées.</p>
+                <p xml:id="d1e273">Malgré leurs convergences autour de ces dimensions locales et collectives des connaissances engagées dans l’action, les travaux évoqués abordent pourtant très peu un élément qui apparaît essentiel&#160;: la question des modalités de passage des connaissances des individus vers les collectifs dans lesquels ils sont insérés. En effet, les situations telles qu’elles sont décrites et analysées laissent entrevoir un paradoxe&#160;: les connaissances des agriculteurs seraient plus localisées qu’auparavant mais en contrepartie le besoin de les mettre en partage au sein de collectifs professionnels serait plus prononcé. Dès lors, par quels procédés, par quels mécanismes ces connaissances locales, ces expériences singulières sont-elles mises en partage au sein des collectifs&#160;? C’est à ce questionnement que nous tenterons d’apporter des éléments de réponse dans cet article, en essayant d’analyser finement les procédés par lesquels se construisent les connaissances entre pairs autour d’une innovation donnée, les techniques sans labour, et en empruntant pour cela aux cadres d’analyse de la sociologie pragmatique et de la sociologie des sciences et des pratiques de laboratoire. En «&#160;détournant&#160;» les cadres de cette dernière famille de travaux pour étudier la production de connaissances non scientifiques, nous tenterons par ailleurs de contribuer aux débats portant sur le caractère opportun des oppositions habituellement établies entre les procédés par lesquels sont élaborées respectivement les connaissances scientifiques et les connaissances profanes.</p>
+            </div>
+            <div type="div1" xml:id="d1e275">
+                <head subtype="level1" xml:id="d1e276">De la production des connaissances et des régularités en société</head>
+                <div type="div2" xml:id="d1e278">
+                    <head subtype="level2" xml:id="d1e279">Connaissances et groupes de pairs</head>
+                    <p xml:id="d1e281">La question de la production et du partage des connaissances au sein de groupes d’agriculteurs a été abordée par plusieurs auteurs, en particulier dans le champ de la sociologie rurale francophone. Même s’ils ne posent pas en tant que telle cette question de la mise en partage des expériences locales et du paradoxe qu’elle recouvre, les travaux de Jean-Pierre Darré et du GERDAL (Groupe d’Échange et de Recherche sur le Développement Agricole Local) sur les groupes professionnels locaux (GPL) ont constitué un apport majeur à la compréhension des dynamiques cognitives au sein des groupes d’agriculteurs. À l’échelle du village ou de la petite région, ils se sont attachés à mettre en lumière la structuration des espaces de dialogue technique au sein des communautés rurales, en empruntant à la sociologie des réseaux sociaux (Darré, 1986&#160;; Darré, Le&#160;Guen &amp; Lemery, 1989). Dans ces groupes locaux, Darré a montré que les agriculteurs étaient liés par des interactions régulières de dialogue et par des représentations communes de la réalité formant un système de normes local (Darré, 1984). Ce système de normes, définissant au sein du groupe les bonnes et les mauvaises façons de faire, met l’accent sur la dimension locale, entre pairs, des conditions dans lesquelles s’opère la construction de connaissances pour l’action. Cette analyse des structures sociales a inspiré par la suite de nombreux travaux, partant de l’analyse des réseaux de dialogue pour appréhender les dynamiques de changements techniques en agriculture (Chiffoleau, 2004&#160;; Compagnone, 2004). Pourtant, certains de ces travaux ont signalé les limites d’un modèle de collectif professionnel local comme espace cognitif de référence, du fait d’une diversité accrue des ressources cognitives mobilisées (Magne, Cerf &amp; Ingrand, 2010) et, surtout, de l’éclatement des collectifs professionnels autour de modèles techniques alternatifs (Lémery, 2003). Ces collectifs, non plus définis par leur ancrage géographique mais par leur organisation autour de pratiques spécialisées (agriculture biologique, biodynamie, agriculture de conservation, etc.), constituent autant de «&#160;communautés de pratiques&#160;» (Lave &amp; Wenger, 1991&#160;; Wenger, 1998) dans lesquelles les agriculteurs vont chercher des connaissances sur des domaines spécialisés. En dépit des disparités pédoclimatiques et culturelles entre les membres de ces communautés, les professionnels parviennent à y satisfaire des attentes cognitives que leurs voisins immédiats ne peuvent plus contenter.</p>
+                    <p xml:id="d1e283">La notion de communauté de pratique et les travaux qui ont contribué à la forger et à la documenter ouvrent ainsi des perspectives intéressantes pour éclairer notre questionnement. En effet, ils permettent de rendre compte des mécanismes par lesquels les actions individuelles peuvent être mises en partage au sein de groupes de pairs (Cohen, 1991) et comment se produisent des apprentissages individuels et collectifs, en soulignant l’importance de la négociation collective des significations des expériences individuelles (Wenger, 1998&#160;: Gherardi, 2006). L’engagement des individus dans la communauté, la mise en mots des pratiques individuelles, contribuent à la construction progressive d’un répertoire partagé fait d’objets, de mots, de routines, d’histoires avec lesquels les opérateurs parviennent non seulement à construire des identités mais aussi à produire des cadres d’interprétation et d’apprentissages à partir de leurs pratiques individuelles. Dans le même registre, les travaux sur les organisations collégiales ont également souligné l’importance de cette dimension horizontale dans la mise en partage d’informations, de conseils, en insistant pour leur part moins sur les phénomènes cognitifs et représentationnels que sur les logiques de contrôle et d’interdépendance stratégique qui permettent d’assurer la cohésion du collectif (Lazega, 1999&#160;; Lazega <hi rend="iralic">et&#160;al.</hi>, 2004). Les conditions de l’apprentissage collectif ne relèveraient ainsi donc pas seulement d’une communauté de la pratique des individus, d’un désir de partage pour le bien de tous lié au caractère distribué de la connaissance (Conein, 2004) mais également d’enjeux et de stratégies individuelles qui conduisent les individus à se regrouper. Ces deux logiques explicatives peuvent dès lors se concurrencer ou s’agencer au sein des collectifs, mais il convient de souligner leur difficulté à rendre compte de façon concrète, au‑delà de critères identitaires ou stratégiques, des procédés par lesquels l’expérience individuelle passe d’un registre situé, intime, à des formes plus génériques et accessibles à autrui. Les analyses ethnographiques de la production des connaissances scientifiques, ainsi que les approches pragmatiques de l’action qui posent précisément cette question du découplage et des mises en équivalence des situations, peuvent nous éclairer en ce sens.</p>
+                </div>
+                <div type="div2" xml:id="d1e288">
+                    <head subtype="level2" xml:id="d1e289">Des traductions aux conventions&#160;: approches de la montée en généricité</head>
+                    <p xml:id="d1e291">Depuis ses travaux fondateurs d’analyse ethnographique des activités scientifiques (Latour &amp; Woolgar, 1979&#160;; Callon, 1986&#160;; Akrich, 1989), la nouvelle sociologie des sciences et des techniques constitue un repère essentiel pour étudier les dynamiques de production des connaissances. À partir de l’étude des pratiques d’acteurs dont l’activité même consiste à produire des connaissances, cette sociologie a mis l’accent sur les processus de traduction et sur l’importance, érigée en principe de symétrie, d’une prise en compte des entités non humaines dans ces dynamiques. Cette lecture sociotechnique des déplacements à l’œuvre au cœur du travail de laboratoire pose en effet la traduction, avec les trois étapes qui la caractérisent (Callon, Lascoumes &amp; Barthe, 2001), au cœur de son analyse des processus qui permettent au scientifique de tirer de l’étude des phénomènes en laboratoire des conclusions s’appliquant hors des murs de ce dernier.</p>
+                    <p xml:id="d1e293">La première étape (traduction 1) consiste en «&#160;une réduction du grand monde (le macrocosme), celui de la société qui nous entoure, de l’univers, au petit monde (le microcosme)&#160;», celui du laboratoire. Le grand monde est mobilisé, réduit et transporté au sein du laboratoire pour y subir des expérimentations, des manipulations, et le laboratoire réussit la prouesse qui «&#160;transforme des fouilles grouillantes et dispersées en ces traces qu’un seul coup d’œil embrasse&#160;» (Callon, Lascoumes, Barthe &amp; 2001). La seconde étape (traduction 2) est la constitution de «&#160;collectifs de recherche&#160;»<note type="standard" xml:id="ftn1" place="foot" n="1">
+              <p> Sur cette notion de collectif, cf. Barbier et Trépos (2007) pour un «&#160;bilan d’étape de la sociologie des collectifs&#160;».</p>
+            </note> au sein du laboratoire, mêlant des acteurs humains, chercheurs et techniciens, et leurs instruments. Les compétences sont distribuées dans ces collectifs entre ces acteurs humains et non humains. Les appareils incorporent en effet un certain nombre de connaissances produites en dehors du laboratoire, mais leur utilisation, leur maniement nécessite de la part des acteurs tout un ensemble de savoirs tacites (Collins, 2001) qui font de la science une activité technique et sociale analogue à d’autres sur ce point. Ces collectifs produisent, fabriquent des inscriptions portées par différents supports et c’est à partir de ces dernières que les scientifiques travaillent et débattent. Ces inscriptions, une fois commentées, comparées et recoupées entre elles, révèlent l’existence d’entités, de phénomènes, qu’elles représentent. La troisième étape (traduction&#160;3) est enfin celle du «&#160;retour vers le grand monde&#160;» où la validité des connaissances produites dans le milieu confiné est mise à l’épreuve du monde extérieur et de sa complexité. Pour que les produits du travail dans le microcosme ne se coupent définitivement du monde, il faut avoir intéressé, enrôlé, mobilisé (Callon, 1986) un certain nombre d’alliés qui attestent de la validité des découvertes effectuées, de leur fidélité à ce qui se passe hors des murs du laboratoire.</p>
+                    <p xml:id="d1e299">Au travers de ces trois étapes successives, <hi rendition="#style02">m</hi>ichel Callon donne ainsi à comprendre les procédés par lesquels un fait isolé, attaché à une situation particulière, parvient à être restitué et traduit à autrui sous la forme d’une connaissance découplée des contingences de son origine. Ce modèle de production de la preuve vaut pour ce que Christian Licoppe (1996), dans son histoire des pratiques scientifiques, a qualifié de régime de l’exactitude. Ce dernier distingue, en effet, à partir de l’analyse des récits d’expérience de physiciens du dix-septième siècle, trois régimes de production des connaissances et d’établissement des vérités scientifiques qui se seraient succédé depuis cette époque. Le premier d’entre eux, le régime de la curiosité, est celui de l’incroyable, de l’inhabituel&#160;: les faits scientifiques sont associés à des expériences spectaculaires, données à voir à un certain public dont le statut particulier (aristocrates, lettrés) fait autorité et donne crédibilité aux faits. Ces derniers constituent alors l’<hi rend="iralic">experimentum</hi>, «&#160;expérience singulière, originale, accessible seulement au petit nombre de ceux qui ont été conviés à assister à son organisation&#160;», dissociée de l’<hi rend="iralic">experientia</hi>, «&#160;expérience commune partagée par tous&#160;». Comme le souligne Licoppe, la vérité des faits et des expériences repose dans ce régime sur «&#160;ce qui se donne à voir&#160;», auprès d’un public donné&#160;; le mode de récit dominant est de la forme «&#160;<hi rend="iralic">je fis... je vis&#160;</hi>», mettant en avant le rôle de témoin visuel de l’expérimentateur. Le régime suivant, dit «&#160;d’utilité&#160;» et apparu à la fin du dix-septième siècle, consacre pour sa part l’utilité des faits nouveaux et la reproductibilité des expériences en un autre lieu et un autre moment. Pour reproduire une expérience donnée, quiconque devra donc disposer de certaines habiletés mais, surtout, d’instruments comparables. Ainsi, la mesure et l’identité des instruments sont une dimension stratégique dans l’établissement de ce régime, dépassant les faits isolés pour dégager des grands principes généraux. La vérité repose alors sur une régularité des expériences, sur des instruments et une métrologie unifiés, et sur des théories générales. Toute expérience bien conduite ne peut logiquement que confirmer une théorie générale&#160;; si ce n’est pas le cas, c’est que l’expérience a été selon les défenseurs de cette théorie mal conduite. Dans ce régime, le mode de récit a tendance à être plutôt de la forme «&#160;<hi rend="iralic">je fis... il se produisit&#160;</hi>», renvoyant à des phénomènes qui apparaissent plus autonomes et à un expérimentateur moins engagé&#160;; il n’empêche que lors de controverses, le mode du récit du régime de la curiosité continue à être utilisé et il est coutume d’avoir recours à la présence de témoins qui viennent assister à l’expérience. Le troisième et dernier régime, celui de l’exactitude, dans lequel les traductions de Callon s’inscrivent, naît à la fin du dix‑huitième siècle. Il repose sur la production de données de plus en plus précises et est mieux à même de questionner ou confirmer les théories générales. Pour acquérir cette exactitude, les instruments sont de plus en plus précis et les mesures et expériences réalisées à l’abri des signaux parasites, au sein de laboratoires et de milieux confinés, entre pairs initiés. Pour Callon et les tenants de la nouvelle sociologie des sciences et des techniques, si ce modèle prédomine aujourd’hui dans la production des connaissances scientifiques, ce n’est pas comme aboutissement de trois étapes successives que représenteraient ces trois régimes vers ce qu’il nomme le «&#160;grand enfermement&#160;». Ils sont constitutifs à part entière de ce qu’est la recherche confinée, faite de problématisation autour de faits inhabituels et de construction de collectifs de recherche spécialisés à même de confronter leurs résultats. Ainsi, le laboratoire ne serait qu’un élément d’un dispositif plus large, autour et au sein duquel s’opèrent trois formes successives de traduction.</p>
+                    <p xml:id="d1e316">Pourtant dans l’objet qui nous intéresse ici (la production des connaissances dans les groupes d’agriculteurs), il n’est <hi rend="iralic">a&#160;priori </hi>pas question de laboratoire ni de recherche confinée, mais d’agriculteurs et de champs au grand air, éparpillés à travers la France. Pour aborder ces actions «&#160;ordinaires&#160;», ces épreuves du quotidien et les façons de les inscrire dans des espaces de régularité, les sociologues de l’action et des approches pragmatiques ont placé également les objets au cœur de leur analyse, afin d’éclairer les opérations morales et cognitives par lesquelles les acteurs appréhendent leur environnement et se coordonnent avec autrui (Dodier, 1993a). Par exemple, les études menées sur la formation du jugement ou du goût (Dodier, 1993b&#160;; Bessy &amp; Chateauraynaud, 1995) ont montré que ces opérations sont le produit de rencontres entre des dispositions, des connaissances incorporées par les acteurs et des situations faites d’objets et d’« appuis conventionnels&#160;» (Dodier, 1993c). Les attachements qui adviennent de ces rencontres entre humains et instances matérielles et, surtout, la mise en relation des situations entre elles et la production du jugement, sont alors rendus possibles par la présence de repères disponibles à l’acteur, d’investissements de formes (Thévenot, 1986) facilitant le passage de la singularité contingente à la régularité. Le rôle des objets dans les mécanismes de montée en généralité et de production de l’accord est ainsi au cœur des économies de la grandeur de Luc Boltanski et Laurent Thévenot 1991), avec le passage des cités aux mondes, de la justice vers la justesse, relevant d’une mise à l’épreuve des jugements et justifications dans des situations peuplées d’objets. La succession de modes d’engagements et de qualification dont ceux-ci peuvent faire l’objet renvoie alors pour Thévenot (2006) à une pluralité de régimes d’actions, à différentes modalités de «&#160;commerce&#160;» entre les acteurs et les objets impliqués dans leurs actions (Thévenot, 1990), depuis une sphère intime et domestique à un univers partagé avec autrui.</p>
+                    <p xml:id="d1e321">De l’analyse du travail de laboratoire à celle de l’action ordinaire, l’enjeu est donc de mettre au jour les procédés pratiques et discursifs, les dispositifs matériels et rhétoriques par lesquels les acteurs transforment des réalités singulières en connaissances intelligibles pour autrui. À chaque fois, les travaux évoqués ont prêté un intérêt particulier aux objets, montrant comment les acteurs pouvaient s’appuyer sur eux pour procéder à des montées en généricité ou en régularité. Voyons dès lors comment ces réflexions permettent d’éclairer les procédés auxquels ont recours les agriculteurs pour mettre en partage leurs expériences situées auprès de leurs pairs. Mais auparavant, revenons brièvement sur notre terrain d’étude&#160;: le développement des techniques sans labour en France et des collectifs d’agriculteurs qui y sont associés.</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e323">
+                <head subtype="level1" xml:id="d1e324">Le développement des techniques sans labour en France</head>
+                <p xml:id="d1e326">Dans le contexte d’une segmentation de la profession agricole autour de modèles techniques alternatifs (Lémery, 2003&#160;; Goulet, 2010), les techniques sans labour connaissent un développement important en France depuis le milieu des années 1990. À l’origine, guidés par des intérêts économiques et d’organisation du travail (réduction de consommation de carburant, de temps de travaux), les céréaliers français mettant en pratique ces techniques ont progressivement affirmé par cette innovation leur capacité à gérer les ressources naturelles et, en particulier, à conserver les sols en les protégeant de l’érosion. Dès la fin des années 1990, ils se sont organisés au sein d’associations comme la Fondation Nationale pour une Agriculture de Conservation des Sols (FNACS), ou Bretagne Agriculture Sol et Environnement (BASE), sur le modèle des organisations existantes sur le continent américain où les techniques sans labour ont vu le jour dans les années soixante (Coughenour, 2003&#160;; Ekboir, 2003&#160;; Hall, 1998). Ces collectifs, de même que ceux formés par les fournisseurs de machines ou d’intrants utilisés en non-labour pour créer des communautés d’utilisateurs, sont nés avec un objectif central&#160;: faciliter la mise en partage des expériences et des connaissances acquises autour de la pratique du non-labour. En effet, à l’heure où les premiers pionniers se sont aventurés dans cette pratique<note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> Les cultures sans labour ont depuis gagné de l’importance en France&#160;; ainsi, en 2006 déjà, environ un tiers des surfaces de ces grandes cultures était cultivées sans labour (Agreste, 2008).</p>
+          </note>, les organismes de développement et de vulgarisation agricoles «&#160;officiels&#160;» (Chambres d’Agriculture, coopératives agricoles) ne disposaient que de peu de connaissances autour de ces techniques nouvelles alors que le non-labour pose de véritables problèmes techniques et impose des ajustements parfois lourds pour les agriculteurs&#160;: invasion de ravageurs, déplacement des dates de semis, réglages des semoirs, choix des cultures en fonction de nouveaux critères comme la forme de leur appareil racinaire, etc. Encore aujourd’hui, la compréhension des processus biologiques à l’œuvre et des choix techniques, reste des défis pour la connaissance, et les solutions reposent largement sur l’activité des réseaux d’agriculteurs spécialisés autour de ces pratiques. Ces collectifs mobilisent aujourd’hui encore essentiellement des spécialistes, des passionnés dispersés géographiquement, à l’échelle régionale ou nationale.</p>
+                <p xml:id="d1e332">Ce dernier constat s’applique plus particulièrement au collectif que nous avons étudié dans le cadre de cette recherche. Ce groupe est composé des utilisateurs d’une marque brésilienne de matériel agricole, concevant et commercialisant des semoirs utilisés pour la pratique du semis direct. Le semis direct est l’option technique la plus aboutie du non-labour&#160;: aucun travail du sol n’est réalisé avant les semis, qui sont réalisés directement dans des restes de végétation sur le sol (d’où le terme de semis «&#160;direct&#160;»). Deux conditions <hi rend="iralic">sine qua non </hi>s’imposent pour la réalisation de ces semis particuliers&#160;: i)&#160;l’utilisation de semoirs conçus spécifiquement à cet effet, capables d’implanter à l’aide d’un système de disques la semence dans le sol non travaillé, et ii)&#160;le recours à des herbicides chimiques venant compenser l’absence de travail du sol, dont l’une des fonctions est justement, avec celle d’améliorer la structure des sols, de détruire mécaniquement les mauvaises herbes. Le semis direct se distingue ainsi des techniques culturales simplifiées (TCS), autre option du non-labour, qui autorise un travail du sol superficiel en remplacement du labour, et qui permet d’utiliser des semoirs classiques ou de se passer d’herbicides chimiques. Il se distingue également de l’agriculture biologique, qui prohibe l’usage de pesticides tels que les herbicides utilisés en semis direct.</p>
+                <p xml:id="d1e337">La marque (nous la nommerons ici Plantio) commercialise ses produits en France depuis la fin des années 1990, à partir essentiellement de l’activité d’un agriculteur utilisateur patenté de la marque. Alors qu’il cumulait déjà son activité d’agriculteur avec celle de vendeur-démonstrateur pour une marque allemande de matériel agricole, il participe à la fin des années 1990 à un voyage en Espagne, dont il a pris connaissance au travers d’un hebdomadaire agricole français. Ce voyage est organisé par le premier importateur de la marque Plantio en France, qui pour lancer son activité organise des voyages d’étude en Espagne où la marque est déjà bien implantée. À l’issue du voyage, notre agriculteur-vendeur investit dans un semoir pour son exploitation agricole. L’année suivante, il se rend au Brésil avec l’importateur et d’autres agriculteurs français, à la rencontre d’utilisateurs brésiliens de la marque, et visite le siège de cette dernière. À son retour, il convainc l’importateur de lui confier la responsabilité des ventes et du support technique sur une partie de la France, fonction qu’il occupe toujours aujourd’hui. Mobilisant sa connaissance des outils de la marque à partir de son expérience personnelle, il parvient à assurer au cours des années 2000 le développement de la marque dans l’Hexagone. La marque axe ainsi sa stratégie commerciale sur les conseils techniques que cet «&#160;agriculteur-vendeur&#160;» peut dispenser à ses «&#160;pairs‑clients&#160;», la demande de conseil étant en effet particulièrement forte en semis direct. Cette option technique est la plus radicale, et les effets biologiques et agronomiques sur les milieux cultivés sont les plus marqués. Pour faire face à cette demande de conseil, le vendeur de la marque organise plusieurs fois par an des «&#160;Journées utilisateurs&#160;» afin que les clients puissent se rencontrer, échanger et produire des connaissances autour de leurs expériences et problèmes techniques. Les agriculteurs affluent alors de toute la France, et parfois même de l’étranger (Suisse, Belgique), pour se rencontrer.</p>
+                <p xml:id="d1e339">Notre travail de recherche a alors consisté à conduire des observations ethnographiques de ces journées de rencontre, pour analyser les procédés par lesquels ces agriculteurs mettent en partage leurs expériences situées et singulières. À partir de quatre de ces journées de rencontre, deux dans le Centre de la France, et deux dans le Sud-Ouest, mobilisant entre 70 et 100&#160;agriculteurs, nous nous sommes plus particulièrement intéressés à la conformation de ces dispositifs de rencontre et aux récits d’expériences produits en public par les agriculteurs. Ces journées étaient à chaque fois organisées selon un même ordre du jour. La matinée est consacrée à l’exposé d’un intervenant «&#160;extérieur&#160;», spécialiste d’une thématique donnée à même d’intéresser les praticiens du semis direct&#160;: chercheur en science du sol, agent d’une entreprise de produits fertilisants, ou encore agriculteur sud-américain pionnier du semis direct. Après un repas convivial, au cours duquel se poursuivent les discussions, l’après-midi est consacrée à un débat orchestré par l’agriculteur-vendeur, autour de sujets ou d’expériences sur lesquels les clients le sollicitent spécifiquement. Lors de ce débat, l’agriculteur-vendeur projette à partir de son ordinateur des photographies prises chez ses clients, afin de lancer ou d’illustrer certains sujets. La parole est ouverte à tous, et parfois l’agriculteur-vendeur sollicite directement certains agriculteurs afin qu’ils fassent part d’une expérience particulière. En termes d’organisation spatiale, les agriculteurs sont disposés lors de ces journées sur des rangées de chaises placées face à l’agriculteur-vendeur, seul sur une petite estrade, ou derrière une table sur laquelle est posé son ordinateur et son vidéoprojecteur. C’est d’ailleurs parmi cette assemblée que nous étions installés lors de ces journées, en suivant les débats et en réalisant des enregistrements audio des échanges développés.</p>
+            </div>
+            <div type="div1" xml:id="d1e341">
+                <head subtype="level1" xml:id="d1e342">Mettre en récit, mettre en forme</head>
+                <div type="div2" xml:id="d1e344">
+                    <head subtype="level2" xml:id="d1e345">La communauté de pratique comme microcosme</head>
+                    <p xml:id="d1e347">Alors que des agriculteurs affluent de toute la France et que chacun d’entre eux est confronté à des conditions climatiques, à des trajectoires d’exploitations agricoles, et surtout à des sols&#160;– texture, structure, fertilité&#160;– bien spécifiques, comment parvenir à une compréhension en échangeant des expériences&#160;? La question peut sembler ardue. Elle l’est d’autant plus que les agriculteurs en question insistent, dès qu’on les interroge sur leur exercice du semis direct, sur le fait qu’il contraindrait à revoir les pratiques et les raisonnements qui les sous-tendent. Ils insistent en effet sur le fait que la suppression totale du travail du sol imposerait à l’agriculteur une compréhension affinée des spécificités de chaque parcelle, de chaque sol, spécificités auparavant gommées par le traitement unique et systématique du labour. Comme le souligne un agriculteur du centre de la France, «&#160;<hi rend="iralic">il faut que chacun construise son propre système à lui&#160;</hi>». Et un autre producteur d’ajouter&#160;: «&#160;<hi rend="iralic">les solutions, elles sont dans la tête des gens&#160;</hi>»<hi rend="iralic">.</hi>
+          </p>
+                    <p xml:id="d1e357">Pour réduire cette complexité et faciliter la mise en partage de ces expériences, la nature même des dispositifs et des situations d’échange que nous avons étudiés constitue un premier élément important. Les rencontres des communautés d’utilisateurs de la marque Plantio procèdent en effet selon une logique relevant de la «&#160;traduction&#160;1&#160;» décrite par Callon. Certes, un groupe d’agriculteurs réunis dans la salle des fêtes d’une commune rurale ou d’un bout de champ de Touraine ou du Tarn-et-Garonne s’apparente peu à un laboratoire de recherche. Mais la logique qui conduit à la réunion de ces agriculteurs en un même lieu est la même&#160;: le fait de se regrouper au sein d’une communauté de pratiques, entre agriculteurs de toute la France pratiquant le non‑labour, relève d’une forme de transport et de confinement en un lieu donné d’éléments du macrocosme de la population des agriculteurs et de leurs pratiques. Qui plus est, les agriculteurs en question sont tous des praticiens avertis du semis direct, une famille de pratiques très spécifique au sein des techniques sans labour, et utilisent tous la même machine pour semer leur culture. De ce microcosme que constitue la petite centaine d’agriculteurs présents en une après-midi d’hiver se retrouvent ainsi écartés une multitude de pratiques divergentes, de machines concurrentes et donc autant de «&#160;signaux parasites&#160;» qui viendraient complexifier la tâche de mise en équivalence entre les expériences des uns et des autres. Même si de nombreux éléments diffèrent encore entre les situations de chacun (sols, climats, trajectoires), si toutes les choses ne sont pas encore égales par ailleurs, l’organisation en communauté de pratiques permet l’économie d’efforts supplémentaires de traduction ou de mise en équivalence qu’imposerait la présence de praticiens des TCS (techniques culturales simplifiées) ou du labour. Ainsi, le semoir, équipement commun à tous ces agriculteurs, constitue un facteur de variabilité qui disparaît des échanges et donc aussi de la conscience des acteurs (Vinck, 2006)</p>
+                    <p xml:id="d1e359">L’organisateur de la réunion, l’agriculteur-vendeur de la marque, est là pour rappeler constamment les participants à l’ordre, en leur signifiant que s’ils ne respectent pas la règle du zéro labour comme pratique commune, il deviendra impossible de tirer des conclusions, voire même de se comprendre. Dans l’une de ces rencontres, il souligne&#160;: «&#160;<hi rend="iralic">Il y aura toujours une différence entre semis direct et travail du sol, n’importe quelle forme de travail du sol.&#160;</hi>» En commentant les résultats d’une consultation qu’il a conduite par courrier avant une rencontre, pour identifier les pratiques et les problèmes de chacun, il constate que certains agriculteurs réalisent occasionnellement un travail superficiel du sol. Il souligne alors le risque de ce genre de comportement individuel pour l’avancée collective des connaissances&#160;: «&#160;<hi rend="iralic">On peut uniquement avancer ensemble&#160;[...]&#160;; je vous montre tout à l’heure certaines choses, qui personnellement me choquent&#160;; si on veut éviter qu’il y ait des écarts très importants, il faut quand même essayer de prendre des résultats de tout le monde.&#160;</hi>» Il s’agit ainsi de jouer sur le grand nombre, de mobiliser un maximum d’expériences pour que des tendances robustes se dégagent, que ces expériences diffèrent le moins possible, avec comme enjeu premier de fixer le facteur «&#160;zéro travail du sol&#160;». Un agriculteur breton confirme son point de vue de participant à ces journées&#160;: «&#160;<hi rend="iralic">Si on veut progresser, il faut des gars qui ne parlent que de ça.&#160;</hi>» Quand cette condition est réunie, l’agriculteur-vendeur essaie alors de faire des recoupements entre les différentes situations décrites, avec, en arrière-fond de son jugement, la «&#160;collection&#160;» de ces situations, rapportées lors de cette réunion ou auxquelles il a été confronté par le passé (Bessy &amp; Chateauraynaud, 1995). Il évoque par exemple, au sujet d’un problème de ravageur&#160;: <hi rend="iralic">«&#160;Ça c’est des remarques qui ont été faites par plusieurs utilisateurs, plusieurs personnes qui travaillent dans ces techniques-là.&#160;[…] Tout ce que j’ai vu l’année dernière, sur deux ans maintenant, partout où l’on a laissé les colzas plus qu’un peu vivants, on a eu beaucoup moins de problèmes de limaces qu’ailleurs.&#160;</hi>»</p>
+                    <p xml:id="d1e373">La qualité de cette étape de traduction repose ainsi sur deux piliers complémentaires&#160;: premièrement, l’isolement, la réduction des pratiques du macrocosme au sein du microcosme de la communauté de pratiques et, deuxièmement, la mobilisation des membres de ce microcosme pour aligner leur pratique sur un protocole commun de façon à accroître l’efficacité de la rencontre entre les individus et leurs expériences respectives.</p>
+                </div>
+                <div type="div2" xml:id="d1e375">
+                    <head subtype="level2" xml:id="d1e376">Appuis conventionnels</head>
+                    <p xml:id="d1e378">Une fois les participants réunis, le récit des expériences de chacun constitue ensuite une pièce essentielle de ces rencontres. L’agriculteur-vendeur, en maître de cérémonie, met en débat pendant la réunion des thèmes techniques (le désherbage, la lutte contre les limaces, etc.) et interroge la salle ou sollicite spontanément certains agriculteurs pour qu’ils présentent ce qu’ils ont fait dans leurs parcelles, ce qu’ils ont observé comme effet et les conclusions ou interrogations qu’ils en ont tirées. Dans ce dispositif, pas d’inscription comme celles mises en évidence au sein du laboratoire dans la «&#160;traduction 2&#160;»&#160;: par l’oralité, et uniquement par elle, il s’agit de rendre accessible à autrui l’expérience intime et située, ou en d’autres termes de faire passer les faits d’un régime de familiarité à un régime d’action en plan (Thévenot, 2006).</p>
+                    <p xml:id="d1e380">À cet effet, les agriculteurs mobilisent dans leurs récits des ensembles de ressources cognitives ou matérielles hétéroclites. Ces ressources ont fait l’objet d’investissements de formes préalables qui leur confèrent des niveaux de généralité permettant l’accessibilité et la mise en continuité des situations. Pour illustrer cette démarche, prenons ici un premier exemple. Lors d’une réunion, l’agriculteur‑vendeur interroge les agriculteurs de l’assemblée sur l’intérêt des étrilles. Ces roulettes posées à l’avant des semoirs ont pour fonction de chasser les résidus de la récolte précédente (les pailles) afin de dégager la ligne de semis et rendre optimale l’action des éléments semeurs au contact du sol. Un agriculteur répond&#160;:</p>
+                    <q rend="quotation">Après un précédent orge d’hiver, avec pas mal de feuilles, entre autres la variété Abondance en orge d’hiver, on a donc récolté. On n’a pas touché bien sûr à la paille. Et puis cette parcelle n’avait... du moins, disons, au niveau levée de renouée [mauvaise herbe], étant donné qu’on est sur des sols argilo‑calcaires, habituellement on n’a pas beaucoup de renouées, vu la climatologie de juillet. On a eu donc des levées conséquentes de renouées, et... les enroulements, les étrilles, elles marchent très bien là en fait.</q>
+                    <p xml:id="d1e384">Le constat «&#160;<hi rend="iralic">les étrilles marchent très bien&#160;</hi>» repose ici sur la mobilisation de tout un ensemble d’entités&#160;: culture précédente (orge), sa variété (Adondance), mauvaises herbes (renouées), nature des sols (argilo‑calcaires), climatologie, et enfin étrilles. Publiquement, l’agriculteur donne donc ici les «&#160;raisons&#160;», les conditions de sa réussite locale. La mobilisation de ces nombreuses entités occupe deux fonctions&#160;: dans un premier temps, elle vise à permettre à autrui de «&#160;saisir&#160;» les faits, comme on saisirait un objet, et donc d’avoir prise sur la situation qui est présentée. Le simple constat «&#160;ça marche&#160;» n’aurait en effet de sens et d’utilité pour personne. Il s’agit d’explorer, de donner à voir à autrui pour qu’il puise juger, le réseau tracé par la situation, en dehors duquel celle-ci perd de son sens&#160;: «&#160;L’accès au réseau crée des économies cognitives&#160;: l’objet pointe sur une foule d’acteurs et de ressources qui détiennent, de façon distribuée, la connaissance dont a besoin l’expert&#160;» (Bessy &amp; Chateauraynaud, 1995). Dans un second temps, elle permet de limiter l’engagement personnel de l’individu dans le récit au profit d’une mise en avant de la situation. Pour repartir de l’analyse des modes de récits d’expérience développée par Licoppe, les récits des agriculteurs sont en effet dans une très grande majorité des cas de la forme&#160;: «&#160;<hi rend="iralic">j’ai fait... et il s’est passé ça&#160;</hi>», et très rarement «&#160;<hi rend="iralic">j’ai fait... et j’ai vu que&#160;</hi>». Le discours en devient ainsi très épuré, comme le montrent ces deux autres témoignages&#160;:</p>
+                    <q rend="quotation">Je sème du blé derrière trèfle incarnat-trèfle violet, repoussées de trèfles en production de semences, donc qui sont repoussés, trèfle violet il fait 20<hi xml:lang="fr">&#160;</hi>cm, je ne détruis pas avant de semer, et je n’ai pas de problème de limaces depuis 3 ans, 4 ans, avec derrière des trèfles. Et en laissant le trèfle vivant. Trèfle incarnat trèfle violet, les deux. Luzerne de 3<hi xml:lang="fr">&#160;</hi>ans. 1<hi xml:lang="fr">&#160;</hi>litre de glypho, 5<hi xml:lang="fr">&#160;</hi>grammes d’Allié en même temps, 2<hi xml:lang="fr">&#160;</hi>jours avant. La veille du semis. Semis. Et des limaces derrière. Antilimaces au semis.</q>
+                    <p xml:id="d1e412">Le jugement personnel de l’observateur, les épreuves visuelles ou tactiles, sont de fait réduits au minimum&#160;: ce sont les objets de l’expérience, les processus biologiques qui sont mis en avant. Traduits en mots, le narrateur peut s’appuyer sur ces processus pour tenter, comme le souligne Thévenot (1990), de faire partager à autrui une expérience intime. «&#160;L’expérience qui reste d’ordinaire muette et privée&#160;» est mise en mots et le langage remplit une «&#160;fonction de représentation de la réalité des choses et de leurs usages&#160;». Cette mise en mots engage alors des objets génériques, compréhensibles par tous, permettant à chacun de saisir l’expérience d’autrui. Ainsi, dans le premier récit mentionné plus haut, la culture d’orge, sa variété, le sol argilo‑calcaire, sont autant d’objets dont les propriétés sont pour l’essentiel communément et tacitement définies&#160;: tous connaissent en effet les propriétés de la variété Abondance ou les contraintes et avantages des sols argilo‑calcaires. L’action intime devient ainsi convenable, occultant finalement toute une multitude de détails qui auraient pu ici être dévoilés mais dont la révélation n’aurait finalement fait que brouiller les pistes (comme par exemple la marque du tracteur utilisé). La mise en récit de l’expérience de la part de l’agriculteur s’appuie donc sur un choix d’objets qu’il juge pertinents pour assurer le partage. Dans ce choix, dans cette organisation du récit, se joue aussi une interaction, une mise en scène de soi et de son expérience&#160;; au sens de Goffman (1974a), il s’agit en effet de préserver la face, de ne pas apparaître affaibli ou tout du moins d’affirmer sa fidélité aux principes de la communauté. Ainsi, le détail «&#160;<hi rend="iralic">on n’a pas touché bien sûr à la paille&#160;» </hi>relève aussi bien de la précision d’une étape de l’itinéraire technique, d’un point du protocole, que d’un gage de validité de l’expérience aux yeux de la communauté du semis direct, en s’inscrivant dans son système de normes et dans une logique de contrôle par les pairs (Lazega, 1999). En effet, la règle d’or est de ne pas du tout travailler le sol et de laisser en surface tous les résidus de la récolte précédente, les pailles, pour qu’elles protègent le sol. Avouer un écart à la norme (avoir touché à la paille ou au sol), serait compromettre la crédibilité de l’individu, de l’expérience dans son ensemble et surtout réduire à néant son utilité dans l’exercice de mise en évidence de régularités.</p>
+                </div>
+                <div type="div2" xml:id="d1e417">
+                    <head subtype="level2" xml:id="d1e418">Mobiliser les témoins</head>
+                    <p xml:id="d1e420">Prenons ensuite un second exemple, provenant d’une rencontre organisée en Touraine. Un agriculteur du Sud-Ouest de la France évoque, debout au milieu de la salle, une expérience selon lui réussie d’association de culture permanente entre couvert de luzerne<note type="standard" xml:id="ftn3" place="foot" n="3">
+              <p> Très souvent, les praticiens du semis direct implantent pendant les périodes d’interculture (période comprise, sur une parcelle donnée, entre la récolte d’une culture n et le semis de la culture n+1) des espèces végétales avec pour fonction de couvrir et protéger le sol, et de l’enrichir en lui apportant des éléments minéraux ou organiques.</p>
+            </note> et cultures commerciales&#160;:</p>
+                    <q rend="quotation">Frédéric Thomas était venu à la maison pour voir, au mois de juin. Le tournesol était de ma taille et la luzerne m’arrivait plus haut que le genou.</q>
+                    <p xml:id="d1e428">Le récit est ici peuplé d’éléments qui permettent tout d’abord de prendre la mesure de la situation rapportée&#160;: ainsi le corps du narrateur, avec sa taille et la hauteur de son genou appréciables par tous sur l’instant, permet de faire voyager la situation et ses caractéristiques depuis la parcelle, de ce jour de Juin, jusqu’à la salle de réunion en ce jour d’hiver. Une autre entité vient ensuite donner force et crédibilité à l’expérience relatée&#160;: c’est la présence de Frédéric Thomas, rédacteur en chef de la revue TCS, spécialisée sur le non‑labour, et président de l’association BASE. Thomas est l’« icône&#160;» du mouvement français du non‑labour, dont le statut et la présence au moment des faits viennent apporter caution aux propos. Sa mobilisation dans le discours, le fait qu’il ait assisté à l’expérience et qu’il se soit déplacé en personne dans le champ du narrateur, fait de lui le «&#160;grand témoin&#160;» de la scène, renvoyant au régime de la curiosité dans lequel la vérité des connaissances repose sur le statut social des spectateurs assistant aux expériences.</p>
+                    <p xml:id="d1e430">Ailleurs dans les récits, d’autres témoins sont mobilisés, moins prestigieux, mais dont au contraire le caractère constant et reproductible en tout lieu renforce la compréhension et la crédibilité des expériences conduites. Ce témoin, c’est très souvent le champ du voisin laboureur, qui offre un témoin expérimental à la fois local et universel pour tous les non-laboureurs. Tous ont en effet aux côtés de leurs parcelles, de l’autre côté du chemin ou du fossé, la parcelle d’un voisin laboureur, qui offre un témoin grandeur réelle, conduit dans les conditions pédoclimatiques locales de l’expérience. Certes, chaque voisin est différent, et ne peut servir de témoin qu’à une expérience située&#160;; mais le voisin incarne plus largement un élément du répertoire partagé pour l’ensemble des membres de la communauté de pratique. Le voisin laboureur est en effet très souvent celui qui, par le passé, s’est moqué et se moque encore des pratiques du non-laboureur qui enfreint la norme technique. Sur ce point les non-laboureurs évoquent&#160;: «&#160;<hi rend="iralic">On voit les choses différemment, ce qui rend la communication difficile avec les voisins conventionnels&#160;</hi>»&#160;; «&#160;<hi rend="iralic">Ils nous traiteraient presque qu’on n’est plus agriculteurs.&#160;</hi>» Ainsi, se référer à la parcelle du voisin, c’est autant faire référence à un témoin expérimental qui vient donner du poids au récit, que faire référence à un «&#160;cadre de l’expérience&#160;» (Goffman, 1974b), à un élément de la culture collective contre lequel il est toujours bon et légitime de se distinguer en public et d’affirmer sa réussite. Un agriculteur du Centre évoque ainsi&#160;: <hi rend="iralic">«&#160;En rendement maïs, et puis blé, il y a des effets année. Il y a des effets année mais disons que par rapport aux collègues qui sont... j’ai encore un collègue en labour à côté de chez moi...&#160;[…] ... y’a pas photo.&#160;» </hi>D’autres n’hésitent pas à mobiliser et mettre en scène le jugement de ce voisin laboureur, qu’ils rapportent pour mieux affirmer leur succès, comme le fait ce céréalier beauceron&#160;: «&#160;<hi rend="iralic">le voisin m’a dit&#160;: je sais pas ce que tu as mis sur ton colza, mais la floraison elle est superbe&#160;</hi>», ou encore «&#160;<hi rend="iralic">mes voisins me font l’observation&#160;: c’est incroyable tes sols ce qu’ils sont foncés&#160;</hi>», la différence de couleur désignant ici l’accumulation d’humus en surface entraînée par le non‑labour.</p>
+                </div>
+                <div type="div2" xml:id="d1e447">
+                    <head subtype="level2" xml:id="d1e448">Mobiliser les instruments</head>
+                    <p xml:id="d1e450">Enfin, dans d’autres portions des récits, c’est la mobilisation d’outils, d’un équipement spécifique composés d’artefacts et d’une métrologie assurant la continuité entre les situations, qui donne force au récit. Un agriculteur du Sud-Ouest de la France relate par exemple son expérience&#160;:</p>
+                    <q rend="quotation">On est allé avec le technicien avec le pénétromètre<note type="standard" xml:id="ftn4" place="foot" n="4">
+              <p> Appareil qui permet d’évaluer une éventuelle résistance du sol en profondeur, due à des couches de compaction (les «&#160;semelles&#160;») formées suite au passage répété d’outils de travail du sol.</p>
+            </note> dans le champ du voisin, on arrivait à 25&#160;cm, on arrivait à la semelle de labour.&#160;[…] Moi dans mes luzernes, même dans les endroits avec des cailloux, on le plantait à fond, et quand on retire le pénétromètre la terre le retient. Sous la luzerne, je crois, ça structure mieux le sol en surface. Dessous y’a une structure qui est pour moi parfaite, ça doit descendre dans 3-4&#160;mètres de profondeur, sans aucun problème.</q>
+                    <p xml:id="d1e458">Au-delà de la référence au voisin et à son champ qui viennent de nouveau faire office de témoins, l’instrument «&#160;pénétromètre&#160;» est là pour objectiver cette comparaison entre le sol du laboureur et celui du non-laboureur, tournant à l’avantage du second. Et quand les outils ne sont pas là pour décrire ou mesurer les phénomènes singuliers à l’œuvre, comme pour qualifier par exemple l’action des racines de certaines plantes sur la structure du sol, les opérateurs ont recours à l’analogie avec des outils de travail du sol, à leurs effets bien connus, pour qualifier l’action méconnue de ces plantes. Ainsi une agricultrice évoque&#160;: «&#160;<hi rend="iralic">Le précédent il t’a travaillé le sol pour toi. De la même façon que tu aurais dû le travailler avec certains outils.&#160;[…] Pour moi, l’avoine c’est une sous-soleuse. Même la vesce, les pois, c’est un petit griffon de surface, tout en étant en plus de l’engrais</hi>.</p>
+                    <p xml:id="d1e463">Mais dans l’exemple du pénétromètre, au-delà de l’importance de l’équipement comme dispositif permettant de faire l’économie d’efforts de coordination, un autre élément important transparaît, constituant un dernier élément essentiel dans la compréhension des processus de mise en continuité des situations. Il s’agit du fait que la nature, incarnée par le sol non labouré, prendrait le dessus au sens propre et figuré sur les artefacts qui cherchent à la caractériser, à la mesurer&#160;: la terre «&#160;retient&#160;» littéralement le pénétromètre, son utilisateur ne parvient plus à l’extirper, et la nature qui reprend ses droits surprend l’opérateur et son équipement. Cette représentation de la Nature et de ses lois comme forces supérieures à l’Homme et à la Technique incarne d’ailleurs, comme nous allons le voir, un élément essentiel des dispositifs permettant la mise en équivalence des situations, ou du moins rendant possibles l’analyse et l’intercompréhension à partir de situations distinctes.</p>
+                </div>
+                <div type="div2" xml:id="d1e465">
+                    <head subtype="level2" xml:id="d1e466">La Nature, instance explicative surplombante</head>
+                    <p xml:id="d1e468">Cette lecture des faits par les praticiens introduit en effet un élément essentiel sur la façon dont les objets de la nature sont justement mis en forme dans la production du jugement. Les agriculteurs s’efforcent dans leurs récits, échanges et interprétations de stabiliser l’inconnue des processus biologiques impliquant les objets de la nature, de qualifier l’invisible comme par exemple la faune souterraine ou les micro-organismes invisibles à l’œil nu. Ils s’appuient pour cela sur ce qui s’apparente à des lois universelles, qui s’appliqueraient indistinctement à toutes les situations distribuées dans l’espace et le temps, et qui régiraient dès lors le destin de toute parcelle non‑labourée. Ainsi par exemple, dans le récit précédent, la certitude est acquise de ce qui se passe en profondeur dans le sol&#160;: «&#160;<hi rend="iralic">ça doit descendre dans 3-4&#160;mètres de profondeur, sans aucun problème&#160;</hi>». Dans le même esprit est convoqué le «&#160;<hi rend="iralic">retour&#160;</hi>» inéluctable des vers de terre, des champignons et autres micro-organismes du sol, les «&#160;<hi rend="iralic">équilibres naturels&#160;</hi>» qui ne manqueraient pas de se reconstituer dès lors que l’agriculteur et ses outils n’agissent plus sur le sol. Dans ces conditions, le semis direct peut fonctionner, quel que soit le lieu, en Amérique du Sud ou en France, dans le Sud-Ouest ou en Touraine, quelles que soient les caractéristiques locales de chacune des situations&#160;: la nature constitue dans les représentations sociales partagées par ces agriculteurs une force supérieure et universelle qui, dès lors qu’on lui laisse libre cours, produit des figures constantes. Il revient alors à l’opérateur de savoir se donner le temps de laisser ces caractéristiques se dévoiler, d’observer et d’ajuster ses actes en accord avec les principes du non-labour. Tout comme l’observe Licoppe (1996) en évoquant de nouveau le régime de l’utilité, la production de la vérité est alors intimement liée à celle de théories générales qui permettent d’expliquer toute expérience et toute situation particulière en fonction de grands principes. Si l’expérience révèle des résultats contraires à ceux qui sont attendus, c’est alors qu’elle a été mal conduite. Ainsi, certains écarts observés en semis direct dans les expériences sont aisément assimilés dans les discussions à des écarts à la règle&#160;: réalisation d’un travail superficiel, retour une année donnée au labour, sol laissé nu en hiver, ou encore temps de transition et abandon du travail trop récent pour que la nature ait repris ses droits. L’agriculteur‑vendeur ramène ainsi très souvent, dans les réunions d’utilisateurs de la marque, l’explication d’expériences témoignant d’échecs du semis direct à de mauvaises pratiques des agriculteurs, qui auraient par exemple eu recours à un travail de surface. Également, il s’agit au passage pour lui d’éviter la rupture de la relation marchande qui le lie à ses clients&#160;: en effet, laisser croire que le semis direct ne fonctionnerait pas, laisser émerger la controverse, ce serait prendre le risque que les utilisateurs de la marque reviennent au travail du sol et n’aient plus besoin des semoirs de la marque, et donc de ses services<note type="standard" xml:id="ftn5" place="foot" n="5">
+              <p> Sur le lien entre le contenu des conseils dispensés par l’agriculteur-vendeur et les enjeux marchands de ce dernier, voir Goulet (2011).</p>
+            </note>.</p>
+                    <p xml:id="d1e483">La production et le recours à des énoncés génériques et à des grands principes permettent en tout cas aux opérateurs, en leur offrant un cadre universel d’appui et d’explication du monde, de tirer des interprétations communes des expériences. Ils permettent aussi aux opérateurs, au-delà de nommer les choses et de les rendre ainsi partageables, d’envisager plus sereinement l’avenir dans le contexte d’innovation radicale qui est le leur. Si tout est fait dans les règles de l’art et selon le protocole consacré, l’issue est inéluctable, permettant au passage à l’entreprise de maintenir le lien avec ses clients… La pratique du semis direct dans différents endroits du monde (Brésil, États‑Unis, Australie) n’est-elle pas pour les agriculteurs la meilleure preuve que les conditions locales s’effacent et ne peuvent faire obstacle aux lois universelles de la nature&#160;? Aux côtés de dispositifs matériels, les grandeurs qu’incarnent ces lois universelles constituent autant de passerelles permettant de faire entrer l’expérience singulière dans l’ordre du régulier et de rendre possible le partage d’expériences.</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e485">
+                <head subtype="level1" xml:id="d1e486">Conclusion</head>
+                <p xml:id="d1e488">La nature des collectifs que nous avons étudiés dans cet article, s’apparentant à des communautés de pratiques (Lave &amp; Wenger, 1991&#160;; Wenger, 1998), relève d’une transformation profonde des espaces de dialogue professionnels en agriculture, déjà mise en évidence par de nombreux travaux. Notre objectif était de documenter l’activité de partage et de production des connaissances au sein de ces groupes, en s’attachant précisément à comprendre comment des agriculteurs éloignés géographiquement, mais liés par une pratique technique commune, parvenaient à mettre en partage leurs expériences personnelles et singulières. La mobilisation d’éléments théoriques ancrés dans les champs de la sociologie des sciences et des techniques et de la sociologie pragmatique nous a permis d’apporter des éclairages sur les mécanismes à l’œuvre dans ces activités, à partir de l’analyse de la nature même des dispositifs de rencontre, et des mises en récits des expériences qui y étaient produites. Nous avons ainsi montré que la constitution de ces groupes spécialisés, que le format de leurs rencontres, s’apparentaient au processus de confinement décrit par l’analyse du travail de laboratoire et la sociologie de la traduction (Callon, Lascoumes &amp; Barthe, 2001). De même, nous avons montré que les mises en récit des expériences individuelles, tâche centrale dans la dynamique de ces groupes, procédaient d’une reconstruction <hi rend="iralic">a posteriori </hi>des protocoles de ces expériences et de leur environnement. Cette reconstruction s’effectue sur la base d’éléments permettant non seulement de fournir à autrui des prises sur les situations (Bessy &amp; Chateauraynaud, 1995) mais également de rendre crédibles les faits observés et analysés, de faire preuve de leur authenticité et des interprétations qui en sont tirées. Le recours aux témoins, aux instruments ou aux lois générales sont autant de ressources conventionnelles (Dodier, 1993c&#160;; Thévenot, 1986) qui permettent aux narrateurs de cadrer la description des faits, d’encadrer leur interprétation, rendant ainsi possible la mise en équivalence d’expériences singulières.</p>
+                <p xml:id="d1e493">Cette recherche permet ainsi d’éclairer une facette peu explorée des collectifs professionnels agricoles et de leurs activités cognitives, que les nombreux travaux qui avancent l’importance des connaissances locales peinent parfois à documenter. En effet, si certains de ces travaux se sont efforcés de mettre en évidence, avec une visée parfois politique, romantique ou populiste (Thompson &amp; Scoones, 1994) la capacité des agriculteurs et plus largement des profanes à produire des connaissances au même titre que les scientifiques, il convient de documenter et d’analyser les modalités par lesquelles se construisent ces connaissances. De même, les nombreux travaux rendant compte des modalités par lesquelles ces connaissances hétérogènes peuvent se rencontrer au sein de dispositifs hybrides ou participatifs – le cas des techniques de non‑labour constituant d’ailleurs de ce point de vue un exemple de choix (Goulet, 2008)&#160;–, ou ceux traitant de la pratique de sciences de plein air (Henke, 2000&#160;; Charvolin, Micoud &amp; Nyhart, 2007), ne doivent pas faire oublier l’intérêt de rendre compte des mécanismes d’élaboration des savoirs profanes, indigènes ou locaux, pour ne pas les considérer comme des catégories unifiées ou réifiées. Ces derniers reposent, nous l’avons montré ici, tout comme les connaissances scientifiques, sur des logiques d’administration de la preuve et de production du jugement permettant le découplage des expériences singulières. Les savoirs que l’on place dans la catégorie «&#160;locaux&#160;» reposent donc eux aussi sur des logiques de régularités et de montée en généricité, dont l’étude peut contribuer à une sociologie des épreuves de diagnostic (Jutel &amp; Nettleton, 2011), et plus largement à une sociologie de la connaissance.</p>
+                <p xml:id="d1e495">Enfin, ces observations nous invitent à une réflexion sur l’apport et les usages des cadres théoriques de la sociologie et de l’histoire des sciences et des techniques que nous avons mobilisés. Les résultats présentés montrent l’intérêt d’employer les concepts développés initialement autour de l’étude des connaissances scientifiques pour analyser d’autres formes de connaissances. D’une certaine manière, ce constat va dans le sens du projet initial de la sociologie des pratiques de laboratoire&#160;: en montrant que la connaissance scientifique n’est pas moins construite que toute autre forme de connaissance (Collins &amp; Evans, 2002), qu’elle est le fruit d’arbitrages entre des opérateurs et leur environnement sociotechnique, cette sociologie a finalement développé des concepts ouvrant des perspectives pour traiter de connaissances qui ne sont pas scientifiques, et de dispositifs dans lesquels n’intervient pas le moindre chercheur. Certes, la production des connaissances scientifiques recèle des spécificités qui n’entrent pas dans la description d’autres types de connaissances&#160;: ainsi, les inscriptions structurantes de la traduction&#160;2 ne se retrouvent pas dans un contexte de mise en récit, d’oralité plus que de matérialité. De même la traduction&#160;3, avec le retour vers le grand monde, reste également hors du champ des observations présentées ici, l’enjeu pour les acteurs étant au contraire de construire un petit monde afin d’élaborer des connaissances pour l’action tout en puisant au passage des ressources identitaires. Mais nous avons vu par contre que la construction du récit empruntait alors à d’autres procédés d’administration de la preuve, à d’autres ressources et à d’autres régimes que celui de l’exactitude. Sans prétendre donc à l’identité des formes de connaissances, c’est cependant à l’interrogation des oppositions couramment affirmées entre connaissances scientifiques et connaissances non scientifiques que nous appelons ici. Nous montrons en effet que l’effort de formalisation et de conceptualisation opéré par le sociologue autour de la production des connaissances scientifiques offre une ressource théorique essentielle et ouvre des pistes de recherche fécondes pour l’étude des connaissances non scientifiques.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e501">
+                <listBibl xml:id="d1e503">
+                    <bibl xml:id="d1e505">Agreste (2008). Dans le sillon du non-labour. <hi rend="iralic">Agreste primeur</hi>, 2007.</bibl>
+                    <bibl xml:id="d1e510">Akrich, M. (1989). La construction d’un système sociotechnique. <hi rend="iralic">Anthropologie et Sociétés</hi>, <hi rend="iralic">13</hi>(2), 31-54.</bibl>
+                    <bibl xml:id="d1e518">Barbier, R. &amp; Trépos, J.-Y. (2007). Humains et non-humains&#160;: un bilan d’étapes de la sociologie des collectifs. <hi rend="iralic">Revue d’anthropologie des connaissances</hi>, <hi rend="iralic">1</hi>(1), 35-58.</bibl>
+                    <bibl xml:id="d1e526">Bessy, C. &amp; Chateauraynaud, F. (1995). <hi rend="iralic">Experts et faussaires. Pour une sociologie de la perception. </hi>Paris&#160;: Métailié.</bibl>
+                    <bibl xml:id="d1e531">Boltanski, L. &amp; Thévenot, L. (1991). <hi rend="iralic">De la justification. Les économies de la grandeur. </hi>Paris&#160;: Gallimard.</bibl>
+                    <bibl xml:id="d1e536">Bonneuil, C., Demeulenaere, E., Thomas F. <hi rend="iralic">et&#160;al. </hi>(2006). Innover autrement&#160;? Quelles variétés et semences pour des agricultures paysannes durables&#160;? <hi rend="iralic">Les Dossiers de l’environnement de l’INRA, 30, Paris, </hi>30-51.</bibl>
+                    <bibl xml:id="d1e544">Callon, M. (1986). Éléments pour une sociologie de la traduction. La domestication des coquilles Saint-Jacques et des marins pêcheurs en baie de Saint-Brieuc. <hi rend="iralic">L’Année sociologique</hi>, (36), 169-208.</bibl>
+                    <bibl xml:id="d1e549">Callon, M., Lascoumes, P. &amp; Barthe Y. (2001). <hi rend="iralic">Agir dans un monde incertain. Essai sur la démocratie technique</hi>. Paris&#160;: Le Seuil.</bibl>
+                    <bibl xml:id="d1e554">
+                        <hi xml:lang="en">Chambers, R., Pacey, A. &amp; Thrupp, L. A. (1989). </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Farmer First: Farmer Innovation and Agricultural Research</hi>
+                        </hi>
+                        <hi xml:lang="en">. New-York: The Bootstrap Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e562">
+            <hi xml:lang="en">Charvolin, F., Micoud, A.</hi>
+            <hi xml:lang="en"> &amp;</hi>
+            <hi xml:lang="en"> Nyhart, L. K. (éd.) </hi>(2007) <hi rend="iralic">Des sciences citoyennes&#160;? La question de l’amateur dans les sciences naturalistes</hi>. La&#160;Tour d’Aigues&#160;: Éditions de l’Aube.</bibl>
+                    <bibl xml:id="d1e574">Chiffoleau, Y. (2004). Réseaux d’apprentissage et innovation dans une organisation productive. <hi rend="iralic">
+              <hi xml:lang="en">Recherches sociologiques</hi>
+            </hi>
+            <hi xml:lang="en">, </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">35</hi>
+            </hi>
+            <hi xml:lang="en">(3), 91-101.</hi>
+          </bibl>
+                    <bibl xml:id="d1e586">
+                        <hi xml:lang="en">Cohen, M. D. (1991). Individual Learning and Organizational Routine: Emerging Connections. </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Organization Science</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">2</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 135-139.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e599">
+                        <hi xml:lang="en">Collins, H. M. (2001). Tacit knowledge, Trust and the Q of Sapphire. </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Social Studies of Science</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">31</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 71-85.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e612">
+            <hi xml:lang="en">Collins, H. M.</hi>
+            <hi xml:lang="en"> &amp;</hi>
+            <hi xml:lang="en"> Evans, R. (2002). The Third Wave of Science Studies: Studies of Expertise and Experience. </hi>
+            <hi rend="iralic">Social Studies of Science</hi>, <hi rend="iralic">32</hi>(2), 235-296.</bibl>
+                    <bibl xml:id="d1e625">Conein, B. (2004). Relations de conseil et expertise collective&#160;: comment les experts choisissent-ils leurs destinataires dans les listes de discussion&#160;? <hi rend="iralic">Recherches sociologiques</hi>, <hi rend="iralic">35</hi>(3), 61-74.</bibl>
+                    <bibl xml:id="d1e633">Compagnone, C. (2004). Agriculture raisonnée et dynamique de changement en viticulture bourguignonne&#160;: Connaissance et relations sociales. <hi rend="iralic">
+              <hi xml:lang="en">Recherches sociologiques</hi>
+            </hi>
+            <hi xml:lang="en">, </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">35</hi>
+            </hi>
+            <hi xml:lang="en">(3), 103-121.</hi>
+          </bibl>
+                    <bibl xml:id="d1e645">
+            <hi xml:lang="en">Coughenour, C. M. (2003). Innovating Conservation Agriculture: The Case of No-Till Cropping. </hi>
+            <hi rend="iralic">Rural Sociology</hi>, <hi rend="iralic">68</hi>(2), 278-304.</bibl>
+                    <bibl xml:id="d1e654">Darré, J.-P. (1984). La production des normes au sein d’un réseau professionnel. <hi rend="iralic">Sociologie du travail</hi>, <hi rend="iralic">26</hi>(2), 141-156.</bibl>
+                    <bibl xml:id="d1e662">Darré, J.-P. (1986). La production de connaissances dans les groupes locaux d’agriculteurs. <hi rend="iralic">Agriscope</hi>, (7), 24-29.</bibl>
+                    <bibl xml:id="d1e667">Darré, J.-P. (1999). <hi rend="iralic">La production de connaissances pour l’action. Arguments contre le racisme de l’intelligence</hi>. Paris&#160;: Éditions de la Maison des sciences de l’homme, Institut National de la Recherche Agronomique.</bibl>
+                    <bibl xml:id="d1e672">Darré, J.-P., Le&#160;Guen R. &amp; Lemery, B. (1989). Changement technique et structures professionnelles locales en agriculture. <hi rend="iralic">Économie Rurale</hi>, (192-193), 115-122.</bibl>
+                    <bibl xml:id="d1e678">Deléage, E. (2004). <hi rend="iralic">Paysans. De la parcelle à la planète</hi>. Paris&#160;: Syllepse.</bibl>
+                    <bibl xml:id="d1e683">Dodier, N. (1993a). Les arènes des habiletés techniques. In B.&#160;Conein, N.&#160;Dodier &amp; L.&#160;Thévenot (éd.). <hi rend="iralic">Les objets dans l’action. Raisons Pratiques n°&#160;4</hi> (pp.&#160;115-139). Paris EHESS.</bibl>
+                    <bibl xml:id="d1e688">Dodier, N. (1993b). <hi rend="iralic">L’expertise médicale</hi>. Paris&#160;: Métailié.</bibl>
+                    <bibl xml:id="d1e693">Dodier, N. (1993c). Les appuis conventionnels de l’action. <hi rend="iralic">
+              <hi xml:lang="en">Réseaux</hi>
+            </hi>
+            <hi xml:lang="en">, (62), 63-86.</hi>
+          </bibl>
+                    <bibl xml:id="d1e700">
+                        <hi xml:lang="en">Ekboir, J. M. (2003). Research and technology policies in innovation systems: zero tillage in Brazil. </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Research Policy</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">32</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 573-586.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e713">
+            <hi xml:lang="en">Gherardi, S. (2006). </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">Organizational Knowledge: The Texture of Workplace Learning</hi>
+            </hi>
+            <hi xml:lang="en">. </hi>Oxford: Blackwell.</bibl>
+                    <bibl xml:id="d1e722">Goffman, E. (1974a). <hi rend="iralic">Les Rites d’interaction</hi>. Paris&#160;: Les Éditions de Minuit.</bibl>
+                    <bibl xml:id="d1e727">Goffman, E. (1974ab). <hi rend="iralic">Les Cadres de l’expérience</hi>. Paris&#160;: Les Éditions de Minuit.</bibl>
+                    <bibl xml:id="d1e732">Goulet, F. (2008). Des tensions épistémiques et professionnelles en agriculture. <hi rend="iralic">Revue d’Anthropologie des Connaissances</hi>, <hi rend="iralic">2</hi>(4), 291-310.</bibl>
+                    <bibl xml:id="d1e740">Goulet, F. (2010). Nature et ré-enchantement du monde, in B.&#160;Hervieu, N.&#160;Mayer, P.&#160;Muller, F.&#160;Purseigle &amp; J.&#160;Rémy (éd.). <hi rend="iralic">Les mondes agricoles en politique</hi> (pp.&#160;51-71). Paris&#160;: Presses de Sciences Po.</bibl>
+                    <bibl xml:id="d1e745">Goulet, F. (2011). Accompagner et vendeur. Les firmes de l’agrofourniture dans l’innovation et le conseil en grandes cultures. <hi rend="iralic">Cahiers Agriculture</hi>, <hi rend="iralic">20</hi>(5), 382-386.</bibl>
+                    <bibl xml:id="d1e754">Goulet, F. &amp; Vinck, D. (2012). L’innovation par retrait. Contribution à une sociologie du détachement. <hi rend="iralic">Revue Française de Sociologie</hi>, <hi rend="iralic">53</hi>(2), 195-224.</bibl>
+                    <bibl xml:id="d1e762">Hall, A. (1998). <hi xml:lang="fr">Sustainable agriculture and conservation tillage: managing the contradictions. </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">Canadian review of sociology and anthropology</hi>
+            </hi>
+            <hi xml:lang="en">, </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">35</hi>
+            </hi>
+            <hi xml:lang="en">(2), 221-251.</hi>
+          </bibl>
+                    <bibl xml:id="d1e776">
+                        <hi xml:lang="en">Hassanein, N. (1999). </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Changing the Way America Farms: Knowledge and Community in the Sustainable Agriculture Movement</hi>
+                        </hi>
+                        <hi xml:lang="en">. Lincoln: University of Nebraska Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e784">
+            <hi xml:lang="fr">Hassanein, N.</hi> &amp;<hi xml:lang="fr"> Kloppenburg, J. J. (1995). </hi>
+            <hi xml:lang="en">Where the Grass Grows Again: Knowledge Exchange in the Sustainable Agriculture Movement. </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">Rural Sociology</hi>
+            </hi>
+            <hi xml:lang="en">, </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">60</hi>
+            </hi>
+            <hi xml:lang="en">(4), 721-740.</hi>
+          </bibl>
+                    <bibl xml:id="d1e802">
+                        <hi xml:lang="en">Henke, C. R. (2000). Making a Place for Science: The Field Trial. </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Social Studies of Science</hi>
+                        </hi>
+                        <hi xml:lang="en">, 30(4), 483-511.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e810">
+            <hi xml:lang="en">Jutel, A.</hi> &amp;<hi xml:lang="en"> Nettleton, S. (2011). Towards a sociology of diagnosis: Reflections and opportunities. </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">Social Science &amp; Medecine</hi>
+            </hi>
+            <hi xml:lang="en">, </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">73</hi>
+            </hi>
+            <hi xml:lang="en">(6), 793-800.</hi>
+          </bibl>
+                    <bibl xml:id="d1e826">
+                        <hi xml:lang="en">Kloppenburg, J. J. (1991). Social Theory and the De/Reconstruction of Agricultural Science: Local Knowledge for an Alternative Agriculture. </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Rural Sociology</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">56</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 519-548.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e839">
+            <hi xml:lang="en">Latour, B.</hi> &amp;<hi xml:lang="en"> Woolgar, S. (1979). </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">Laboratory Life: the Construction of Scientific Facts. </hi>
+            </hi>
+            <hi xml:lang="en">Los&#160;Angeles, CA: Sage.</hi>
+          </bibl>
+                    <bibl xml:id="d1e850">
+            <hi xml:lang="en">Lave, J.</hi> &amp;<hi xml:lang="en"> Wenger, E. (1991). </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">Situated Learning. Legitimate Peripherical Participation</hi>
+            </hi>
+            <hi xml:lang="en">. Cambridge: Cambridge University Press.</hi>
+          </bibl>
+                    <bibl xml:id="d1e861">Lazega, E. (1999). Le phénomène collégial&#160;: une théorie structurale de l’action collective entre pairs. <hi rend="iralic">Revue française de sociologie</hi>, <hi rend="iralic">40</hi>(3), 639-671.</bibl>
+                    <bibl xml:id="d1e869">Lazega, E., Mounier, L., Stofer, R. &amp; Tripier, A. (2004). Discipline scientifique et discipline sociale&#160;: réseaux de conseil, apprentissage collectif et innovation dans la recherche française contre le cancer (1997-1999). <hi rend="iralic">Recherches sociologiques</hi>, <hi rend="iralic">35</hi>(3), 3-27.</bibl>
+                    <bibl xml:id="d1e878">Lemery, B. (2003). Les agriculteurs dans la fabrique d’une nouvelle agriculture. <hi rend="iralic">Sociologie du Travail</hi>, <hi rend="iralic">45</hi>(1), 9-25.</bibl>
+                    <bibl xml:id="d1e886">Licoppe, C. (1996). <hi rend="iralic">La formation de la pratique scientifique. Le discours de l’expérience en France et en Angleterre (1630-1820)</hi>. Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e891">
+                        <hi xml:lang="en">Lyon, A., Bell, M. M., Gratton, C. &amp; Jackson, R. (2011). </hi>
+                        <hi xml:lang="en">Farming without a recipe: Wisconsin graziers and new directions for agricultural science. </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Journal of Rural Studies</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">27</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 384-393.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e906">
+            <hi xml:lang="fr">Magne, M. A., Cerf, M.</hi> &amp;<hi xml:lang="fr"> Ingrand, S. (2010). </hi>
+            <hi xml:lang="en">A conceptual model of farmers’ informational activity: a tool for improved support of livestock farming management. </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">Animal</hi>
+            </hi>
+            <hi xml:lang="en">, </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">4</hi>
+            </hi>
+            <hi xml:lang="en">(6), 842-852.</hi>
+          </bibl>
+                    <bibl xml:id="d1e924">
+                        <hi xml:lang="en">McCorkle, C. M. (1989). Toward a Knowledge of Local Knowledge and Its Importance for Agricultural RD&amp;E. </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Agriculture and Human Values</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">6</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 4-12.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e937">
+                        <hi xml:lang="en">McMahon, N. (2005). Biodynamic Farmers in Ireland. Transforming Society Through Purity, Solitude and Bearing Witness? </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Sociologia Ruralis</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">45</hi>
+                        </hi>
+                        <hi xml:lang="en">(1-2), 98-114.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e950">
+            <hi xml:lang="en">Raedeke, A. H.</hi>
+            <hi xml:lang="en"> &amp;</hi>
+            <hi xml:lang="en"> Rikoon, J. S. (1997). Temporal and spatial dimensions of knowledge: Implications for sustainable agriculture. </hi>
+            <hi rend="iralic">Agriculture and Human Values</hi>, <hi rend="iralic">14</hi>(2), 145-158.</bibl>
+                    <bibl xml:id="d1e963">Richardson, M. (2005). À la recherche des savoirs perdus&#160;? Expérience, innovation et savoirs incorporés chez des agriculteurs biologiques au Québec. <hi rend="iralic">
+              <hi xml:lang="es">Vertigo</hi>
+            </hi>
+            <hi xml:lang="es">, </hi>
+            <hi rend="iralic">
+              <hi xml:lang="es">6</hi>
+            </hi>
+            <hi xml:lang="es">(1). </hi>
+            <ref target="http://www.vertigo.uqam.ca/vol6no1/art3vol6no1/mary_richardson.html">
+              <hi xml:lang="es">http://www.vertigo.uqam.ca/vol6no1/art3vol6no1/mary_richardson.html</hi>
+            </ref>
+            <hi xml:lang="es">.</hi>
+          </bibl>
+                    <bibl xml:id="d1e980">
+                        <hi xml:lang="en">Sillitoe, P. (1998). The Development of Indigenous Knowledge. A New Applied Anthropology. </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Current Anthropology</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">39</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 223-252.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e993">Thévenot, L. (1986). Les investissements de forme, in L. Thévenot (éd.). <hi rend="iralic">Conventions économiques</hi> (pp.&#160;21-71). Paris&#160;: CEE-PUF.</bibl>
+                    <bibl xml:id="d1e998">Thévenot, L. (1990). L’action qui convient, in P. Pharo &amp; L. Quéré (éd.) <hi rend="iralic">Les formes de l’action, Raisons Pratiques 1</hi> (pp.&#160;39-65). Paris&#160;: EHESS.</bibl>
+                    <bibl xml:id="d1e1004">Thévenot, L. (2006). <hi rend="iralic">L’action au pluriel&#160;: sociologie des régimes d’engagement</hi>. <hi xml:lang="en">Paris&#160;: La Découverte.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1011">
+            <hi xml:lang="en">Thompson, J.</hi> &amp;<hi xml:lang="en"> Scoones, I. (1994). Challenging The Populist Perspective: Rural People’s Knowledge, Agricultural Research, And Extension Practice. </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">Agriculture and Human Values</hi>
+            </hi>
+            <hi xml:lang="en">, </hi>
+            <hi rend="iralic">
+              <hi xml:lang="en">11</hi>
+            </hi>
+            <hi xml:lang="en">(2/3), 58-76.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1027">
+                        <hi xml:lang="en">van&#160;der&#160;Ploeg, J. D. (1994). Styles of farming: an introductory note on concepts and methodology, </hi>
+                        <hi xml:lang="en">in</hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en"> </hi>
+                        </hi>
+                        <hi xml:lang="en">J.D. van&#160;der&#160;Ploeg &amp; A. Long (éds.) </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Born from within: practice and perspectives of endogenous rural development</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;7-30)</hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">. </hi>
+                        </hi>
+                        <hi xml:lang="fr">Assen: Van Gorcum.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1047">Vinck, D. (2006). L’équipement du chercheur&#160;: comme si la technique était déterminante. <hi rend="iralic">ethnographiques.org</hi>, (9). <ref target="http://www.ethnographiques.org/2006/Vinck.html">
+              <hi xml:lang="en">http://www.ethnographiques.org/2006/Vinck.html</hi>
+            </ref>
+            <hi xml:lang="en">.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1057">
+                        <hi xml:lang="en">Warner, K. D. (2007). </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Agroecology in Action. Extending Alternative Agriculture through Social Networks</hi>
+                        </hi>
+                        <hi xml:lang="en">. Cambridge, MA: The MIT Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1065">
+                        <hi xml:lang="en">Wenger, E. (1998). </hi>
+                        <hi rend="iralic">
+                            <hi xml:lang="en">Communities of practice</hi>
+                        </hi>
+                        <hi xml:lang="en">. New York: Cambridge University Press.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

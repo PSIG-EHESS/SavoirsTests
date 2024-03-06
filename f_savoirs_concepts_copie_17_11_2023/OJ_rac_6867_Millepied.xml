@@ -1,0 +1,695 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_6867_Millepied">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Visualiser l’endométriose</title>
+                <title type="sub">La construction de la vision professionnelle en radiologie</title>
+                <title level="a" type="alt" xml:lang="en">Visualizing endometriosis. The construction of professional vision in radiology</title>
+                <title level="a" type="alt" xml:lang="es">Visualizando la endometriosis. La construcción de la visión profesional en radiología</title>
+                <author>
+                    <persName>
+                        <forename>Anne-Charlotte</forename>
+                        <surname>Millepied</surname>
+                    </persName>
+                    <affiliation> Doctorante en sociologie à l’École des Hautes Études en Sciences Sociales (Iris) et à l’Université de Genève (Institut des études genre). Sa thèse porte sur les enjeux de tangibilité et de légitimité dans le travail de trajectoire autour de l’endométriose, une maladie chronique qui bouscule l’organisation du travail médical et la vie des femmes qui en sont atteintes. Adresse&#160;: Institut de recherche interdisciplinaire sur les enjeux sociaux (IRIS), Bâtiment Recherche Sud, 5 cours des Humanités, FR-93322 Aubervilliers cedex (France)Courriel&#160;: annecharlotte.millepied[at]yahoo.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>dispositif</item>
+                        <item>prise</item>
+                        <item>vision professionnelle</item>
+                        <item>diagnostic</item>
+                        <item>endométriose</item>
+                        <item>imagerie médicale</item>
+                        <item>juridiction</item>
+                        <item>perception</item>
+                        <item>radiologie</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>dispositivo</item>
+                        <item>diagnóstico</item>
+                        <item>visión profesional</item>
+                        <item>endometriosis</item>
+                        <item>imágenes médicas</item>
+                        <item>jurisdicción</item>
+                        <item>percepción</item>
+                        <item>agarre</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>professional vision</item>
+                        <item>diagnostic</item>
+                        <item>aparatus</item>
+                        <item>endometriosis</item>
+                        <item>medical imaging</item>
+                        <item>jurisdiction</item>
+                        <item>perception</item>
+                        <item>hold</item>
+                        <item>radiology</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Visualiser l’endométriose</titlePart>
+                    <titlePart type="sub">La construction de la vision professionnelle en radiologie</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Anne-Charlotte Millepied</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e278">
+                <p xml:id="d1e279">Cet article porte sur la vision professionnelle des radiologues spécialisé·e·s dans l’endométriose. Le diagnostic y est appréhendé comme un dispositif d’authentification des corps. Il s’agit d’aborder, d’une part, les enjeux liés à la division du travail médical et, d’autre part, ceux liés à l’apprentissage d’habiletés techniques et sensorielles, en cherchant à montrer leur imbrication et leurs implications pour faire advenir au monde une maladie –&#160;l’endométriose. La démonstration procède en deux temps&#160;: la première partie porte sur le travail de légitimation de l’expertise visuelle des radiologues à travers un travail de frontières avec la chirurgie gynécologique ayant entraîné un déplacement de juridiction au sein du processus diagnostique&#160;; la deuxième partie se centre sur la façon dont les radiologues apprennent à voir l’endométriose et à donner sens aux images produites par le biais de la mobilisation d’un ensemble de prises et repères perceptuels.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e281">
+                <p xml:id="d1e282">
+                    <hi xml:lang="en">This article focuses on the professional vision of radiologists specialized in endometriosis. The diagnosis is conceptualized as a device for authenticating bodies. On the one hand, I address the issues related to the division of medical work; on the other hand, I examine those related to the learning of technical and sensory skills, seeking to show their interweaving and their implications in the making of endometriosis. The demonstration proceeds in two ways: the first part deals with the legitimization of the visual expertise of radiologists through a boundary work with gynecological surgery, that resulted in a shift of jurisdiction within the diagnostic process. The second part focuses on how radiologists learn to see endometriosis and to make sense of the images produced through the mobilization of a set of perceptual signs.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e285">
+                <p xml:id="d1e286">
+                    <hi xml:lang="es">Este artículo se centra en la visión profesional de los radiólogos especializados en endometriosis. El diagnóstico es visto como un dispositivo para autenticar cuerpos. Se trata de abordar, por un lado, las cuestiones relacionadas con la división del trabajo médico y, por otro, las relacionadas con el aprendizaje de las habilidades técnicas y sensoriales, tratando de mostrar su entrelazamiento y sus implicaciones en la producción de la endometriosis. La demostración se lleva a cabo en dos etapas: la primera se ocupa del trabajo para legitimar la experiencia visual de los radiólogos a través de un trabajo de fronteras con cirugía ginecológica que ha resultado en un cambio de jurisdicción dentro del proceso de diagnóstico. La segunda parte se centra en cómo los radiólogos aprenden a ver endometriosis y a dar sentido a las imágenes producidas a través de la movilización de un conjunto de agarres perceptivos e hitos</hi>
+                </p>
+            </div>
+            <div type="ack" xml:id="d1e290">
+                <p xml:id="d1e291">Je remercie chaleureusement Jean Bienaimé, Janine Barbot, mes collègues du groupe Orgasm, ainsi que les évaluateur·ice·s anonymes et les coordinatrices du numéro pour leurs relectures et conseils aux différentes étapes de la rédaction de cet article. Merci à Caroline Datchary pour son travail d'accompagnement du processus de publication.</p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e297">
+                <head subtype="level1" xml:id="d1e298">Introduction</head>
+                <p xml:id="d1e300">Identifiée dans la deuxième moitié du XIX<hi rend="sup">e</hi>&#160;siècle, l’endométriose est restée longtemps méconnue, que ce soit dans la population générale ou dans la profession médicale elle-même. Pourtant, elle est particulièrement fréquente dans la mesure où elle touche environ une femme sur dix en âge de procréer (Shafrir <hi rend="italic">et&#160;al</hi>., 2018). En raison de plusieurs facteurs comme l’action d’associations de patientes et de médecins, l’endométriose est de plus en plus visible dans l’espace public et tend à devenir un enjeu de santé publique, comme en témoigne la publication des recommandations pour la pratique clinique (RPC) par la Haute Autorité de Santé (HAS) fin 2017. Un des problèmes fréquemment soulevés est le délai de diagnostic<note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Délai estimé entre l’apparition des symptômes et la pose du diagnostic.</p>
+          </note>, qui s’élève en moyenne à sept ans dans les pays occidentaux (Shafrir <hi rend="italic">et&#160;al</hi>., 2018). </p>
+                <p xml:id="d1e316">L’endométriose est aujourd’hui comprise<note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> Par souci d’espace et de clarté, je lisse ici un certain nombre de points d’achoppements&#160;: il existe encore beaucoup de débats et de zones d’ignorance au sujet de l’endométriose.</p>
+          </note> médicalement comme une maladie bénigne et chronique qui se caractérise par la présence de tissu similaire à l’endomètre<note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> L’endomètre est la paroi interne de l’utérus.</p>
+          </note> en dehors de la cavité utérine, engendrant kystes, nodules, lésions et adhérences. Les symptômes les plus fréquents sont les règles douloureuses, les rapports sexuels douloureux, les règles abondantes, la fatigue et les douleurs chroniques, les problèmes urinaires et digestifs, ainsi que l’infertilité<note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> La liste présentée n’est pas exhaustive. L’endométriose peut également être asymptomatique.</p>
+          </note>. Ces symptômes pouvant être invalidants, les répercussions de cette maladie sur la vie quotidienne sont nombreuses. En raison de la tendance à minimiser les douleurs liées aux règles, considérées comme «&#160;normales&#160;», les femmes souffrant d’endométriose rencontrent des difficultés à faire comprendre leur situation à leur entourage et au corps médical. Leurs parcours sont caractérisés par un processus d’errance médicale, d’abord diagnostique puis thérapeutique. L’errance diagnostique peut être abordée sous l’angle des attitudes des femmes vis-à-vis de l’«&#160;étiquette menstruelle&#160;» (Laws, 1990&#160;; Seear, 2009), c’est-à-dire les pratiques de dissimulation des problèmes liés aux règles, les difficultés à en parler au corps médical et les rappels à l’ordre par l’entourage. Cependant, on ne dispose pas d’enquête qui explore les enjeux du diagnostic du côté du travail quotidien des médecins. Cet article entend ainsi apporter une contribution à la sociologie du diagnostic de l’endométriose, en prenant pour objet les pratiques des radiologues.</p>
+                <p xml:id="d1e333">L’échographie endovaginale et l’imagerie par résonance magnétique (IRM) sont actuellement les deux méthodes de première intention pour le diagnostic de l’endométriose en France&#160;; pourtant, les parcours des patientes sont jalonnés par une multitude d’examens d’imagerie médicale qui reviennent «&#160;normaux&#160;»<note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p> Si je me focalise ici sur les enjeux du diagnostic, les radiologues jouent aussi un rôle important dans le suivi et la surveillance de la maladie, ainsi que dans l’accompagnement des parcours thérapeutiques (en procréation médicalement assistée et en chirurgie), où d’autres techniques d’imagerie sont mobilisées.</p>
+          </note> ou pour lesquels les interprétations des radiologues divergent. </p>
+                <p xml:id="d1e340">Plusieurs décennies de travaux en études sociales des sciences ont fourni des analyses des processus de construction des images scientifiques, de leur circulation et utilisation (Lynch, 1985&#160;; Latour, 1985&#160;; Lynch et Woolgar, 1990 [1988]&#160;; Daston et Galison, 2007&#160;; Burri et Dumit, 2008), montrant qu’elles ne parlent pas d’elles-mêmes. Ces travaux nous apprennent que la production et l’utilisation des images soulèvent une tension entre objectivité scientifique et subjectivité&#160;; mais aussi que les contours de l’objectivité ont des conséquences en termes d’administration de la preuve et de définition de la réalité, impliquant des rapports d’autorité et de pouvoir. Ceci est d’autant plus vrai dans le champ médical. Les images, utilisées notamment en contexte clinique, participent activement à l’établissement des diagnostics de même qu’à la définition des stratégies thérapeutiques, en ce qu’elles concourent aux opérations de cadrage des maladies et des états corporels. Aussi, elles ont des implications décisives sur les corps et les expériences des patient·e·s.</p>
+                <p xml:id="d1e342">La plupart des enquêtes en sciences sociales sur l’imagerie médicale ont largement démontré le caractère construit et l’absence de transparence des images produites (Pasveer, 1989&#160;; Boullier, 1995&#160;; Beaulieu, 2002&#160;; Joyce, 2005). Des travaux ont porté sur les processus d’innovation technologique (Yoxen, 1989 [1987]&#160;; Blume, 1992&#160;; Joyce, 2006) et leurs implications en termes de redéfinition des juridictions professionnelles (Burri, 2008), sur la circulation des images dans d’autres mondes sociaux comme la culture populaire ou le cadre judiciaire (Cartwright, 1995&#160;; Kevles, 1997&#160;; Dumit, 1999&#160;; Golan, 2004), ou encore sur la relation de soin (Estival, 2012). D’autres ont davantage mis l’accent sur le rôle structurant des technologies de visualisation dans le façonnement des corps et des maladies, particulièrement dans le domaine de l’échographie fœtale (Duden, 1991&#160;; Rapp, 1998&#160;; Mitchell, 2011), de la neuro-imagerie (Dumit, 1999&#160;; Beaulieu, 2001&#160;; Cohn, 2004) et, plus récemment, de l’imagerie médico-légale (Souffron, 2015&#160;; Schnegg et Rey, 2017).</p>
+                <p xml:id="d1e344">Ces recherches mettent en lumière des enjeux décisifs de production et de circulation des techniques et des images et fournissent quelques éléments pour saisir les processus d’apprentissage perceptuel et leurs accomplissements, qui font de l’activité diagnostique un «&#160;jugement pratique continu&#160;» (Schubert, 2011). Cette démarche a été poussée plus avant par Kerstin Sandell (2010), qui montre à partir du cas de l’échographie fœtale réalisée par les sages-femmes que la vision professionnelle est un savoir pratique, tacite et incorporé et que l’apprentissage doit avant tout être compris comme situé, prenant place dans une communauté de pratiques.&#160;</p>
+                <p xml:id="d1e346">Cet article entend contribuer à ce dernier axe de réflexion en focalisant l’attention sur la vision professionnelle des radiologues spécialisé·e·s dans l’endométriose. Il s’agit d’aborder, d’une part, les enjeux liés à la division du travail médical et, d’autre part, ceux liés à l’apprentissage d’habiletés techniques et sensorielles, en cherchant à montrer leur imbrication et leurs implications pour faire advenir au monde une maladie – l’endométriose. Je m’appuie sur la notion de «&#160;vision professionnelle&#160;» (Goodwin, 1994), qui permet de tenir ensemble trois dimensions&#160;: l’inscription de manières de voir dans des identités et idéologies professionnelles&#160;; des processus d’apprentissage et de transmission&#160;; l’expérience de travail quotidienne. </p>
+                <p xml:id="d1e348">Je propose d’étudier l’engagement de la vision professionnelle au sein du dispositif<note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> Il existe plusieurs approches théoriques des dispositifs. J’ai choisi de m’appuyer sur la définition qu’en donnent Nicolas Dodier et Janine Barbot dans leur travail de clarification de cette notion : «&#160;un enchaînement préparé de séquences, destiné à qualifier ou transformer des états de chose par l’intermédiaire d’un agencement d’éléments matériels et langagiers&#160;» (2016, p.&#160;431). Il et elle mettent l’accent sur quatre propriétés fondamentales des dispositifs&#160;: leur hétérogénéité interne,&#160;; une relation duelle aux idéaux&#160;; le fait de remplir des finalités&#160;; un pouvoir de transformation des individus placés à leur contact.</p>
+          </note> de diagnostic de l’endométriose par imagerie médicale. Pour ce faire, je distingue deux dimensions principales qui, bien qu’imbriquées en pratique, peuvent être séparées sur un plan analytique, et forment la trame de la démonstration&#160;: un travail juridictionnel et un travail perceptuel. </p>
+                <p xml:id="d1e355">Le concept de «&#160;juridiction&#160;», emprunté à Andrew Abbott dans son étude sur les professions (1988), désigne le lien entre un·e professionnel·le et son travail, dont les contours sont définis dans la pratique de travail. Parce que les disputes font pleinement partie des processus de définition des frontières juridictionnelles entre professions, la notion est apparue fertile à faire dialoguer avec celle de «&#160;travail de frontières&#160;» développée par Thomas Gieryn (1993) dans son analyse du travail de démarcation entre science et non-science. Je mobilise ces deux notions pour l’étude des disputes juridictionnelles entre deux spécialités (la radiologie et la chirurgie gynécologique<note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p> Il faut rappeler qu’en France, la gynécologie se divise en deux branches&#160;: la gynécologie médicale et la chirurgie gynécologique (elle-même intégrée à la spécialité «&#160;gynécologie-obstétrique&#160;»). Sur l’histoire de la gynécologie médicale, je renvoie au travail de thèse d’Aurore Koechlin (en cours).</p>
+          </note>) d’une même profession&#160;– la profession médicale – autour du diagnostic d’une maladie – l’endométriose.</p>
+                <p xml:id="d1e361">La notion de «&#160;travail perceptuel&#160;» (Chateauraynaud, 1997) s’appuie sur celle de «&#160;prise&#160;» développée par Christian Bessy et Francis Chateauraynaud afin d’appréhender l’expertise comme un phénomène non réductible à l’application de procédures réglées et codifiées, où «&#160;la prise est le produit de la rencontre entre un dispositif porté par la ou les personnes engagées dans l’épreuve et un réseau de corps fournissant des saillances, des plis, des interstices » (2014 [1995], p.&#160;295). Elle permet de porter attention à la multiplicité des appuis perceptuels, pas toujours formalisés, qui, rassemblés, forment le dispositif diagnostique. </p>
+                <p xml:id="d1e364">La première partie porte sur le travail de légitimation de l’expertise visuelle des radiologues à travers un travail de frontières avec la chirurgie gynécologique. Je montre comment les radiologues se sont positionné·e·s comme point de passage obligé pour le diagnostic de l’endométriose, entraînant un déplacement de juridiction. La deuxième partie envisage le diagnostic comme un dispositif d’authentification des corps qui passe par la mobilisation d’un ensemble de prises et repères perceptuels. Elle se centre sur la façon dont les radiologues apprennent à voir l’endométriose et à donner sens aux images produites. La conclusion permettra d’ouvrir sur les divergences au sein du dispositif diagnostique, qui révèlent un travail politique –&#160;une manière d’agencer la légitimité des pouvoirs entre acteur·ice·s&#160;– sur les formes de l’objectivité médicale.</p>
+                <p xml:id="d1e366">Je m’appuie sur une enquête de terrain dans plusieurs centres de prise en charge de l’endométriose en France<note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> Ce travail s’inscrit dans le cadre d’une thèse de doctorat en sociologie, qui porte sur la construction sociale de l’endométriose dans le contexte français. Je réalise une enquête ethnographique et par entretien dans le monde médical auprès des différent·e·s spécialistes impliqué·e·s dans la prise en charge de cette pathologie, en particulier en chirurgie et en radiologie. A cela s’ajoutent des entretiens biographiques avec des femmes atteintes d’endométriose et une recherche socio-historique à partir de sources primaires et secondaires.</p>
+          </note>. J’analyse plus précisément le travail de trois radiologues parisien·ne·s à partir d’une centaine d’heures d’observation entre 2018 et 2019 et de quatre entretiens semi-directifs (entre&#160;1h et&#160;1h30) réalisés avec elle et eux. A cela s’ajoute la consultation d’un corpus d’articles scientifiques sur l’évaluation de l’échographie et de l’IRM pour le diagnostic de l’endométriose, publiés entre 1994 et 2018. </p>
+                <p rend="box" xml:id="d1e373">Présentation des enquêté·e·s <lb/>
+          <lb/>Le Prof. C a environ 60 ans et fait partie d’un centre spécialisé dans l’endométriose à Paris dans un hôpital universitaire, où il est professeur d’université-praticien hospitalier (PU-PH). Il se forme dans les années 1980, choisit rapidement la radiologie, en particulier gynécologique. Il s’intéresse de plus près à l’endométriose à partir de la fin des années 1990. Il y consacre une partie de son activité, et publie des articles de référence sur le diagnostic de l’endométriose par échographie et IRM à partir des années 2000. <lb/>
+          <lb/>Le Dr. R a environ 60 ans. Avec la volonté d’être psychiatre, il entame des études de médecine. Il pratique la gynécologie et la radiologie pendant son internat, dans les années 1980, avant de choisir la deuxième spécialité. Il découvre l’endométriose dans les années 1990 lors d’un congrès et décide rapidement de s’y intéresser, puis se forme «&#160;seul&#160;». Sa pratique est exclusivement dédiée à l’endométriose. Il co-dirige un centre spécialisé dans l’endométriose à Paris depuis 10 ans, dans un hôpital ESPIC<note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> «&#160;Établissement de santé privé d’intérêt collectif&#160;».</p>
+          </note>, et pratique aussi en cabinet privé. <lb/>
+          <lb/>La Dr. N a une quarantaine d’années. Elle a découvert l’endométriose pendant ses études de médecine car sa sœur a été diagnostiquée à ce moment-là, puis elle s’est formée à l’endométriose au cours de son internat (auprès du Prof.&#160;C) puis de son clinicat dans un centre spécialisé dans l’endométriose à Paris, où elle se spécialise en «&#160;imagerie de la femme&#160;». Elle travaille actuellement depuis le privé mais elle garde une activité hospitalière pour sa pratique de radiologie obstétricale, fœtale et pédiatrique.</p>
+            </div>
+            <div type="div1" xml:id="d1e389">
+                <head subtype="level1" xml:id="d1e390">L<hi xml:lang="fr">égitimer </hi>le regard radiologique sur l’<hi xml:lang="fr">endomé</hi>triose</head>
+                <p xml:id="d1e398">L’endométriose est une maladie «&#160;inventée&#160;»<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> A la suite de Bernike Pasveer et d’autres historiens de la médecine (Didi-Huberman, 2014 [1982]&#160;; Young, 1995) je privilégie le terme d’invention à celui de découverte afin de ne pas postuler une entité préexistante et mettre plutôt l’accent sur sa constitution dans une configuration sociale, spatiale et historique impliquant la rencontre d’acteurs, de pratiques et de techniques.</p>
+          </note> (Pasveer, 2006) par l’anatomo-pathologie<note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> L'étude morphologique, macroscopiques et microscopiques, des tissus biologiques et des cellules pathologiques prélevés sur un être vivant ou mort.</p>
+          </note> à la fin du XIX<hi rend="sup">e</hi> siècle et qui tombe rapidement (au début du XX<hi rend="sup">e</hi>&#160;siècle aux Etats-Unis) dans le domaine de la gynécologie, particulièrement dans son application chirurgicale (Batt, 2011&#160;; Nezhat <hi rend="italic">et&#160;al.</hi>, 2012). La chirurgie gynécologique détient un pouvoir historique de juridiction sur le diagnostic et la thérapeutique de l’endométriose. D’un côté, cette juridiction est renforcée par les évolutions des techniques chirurgicales et le développement de la cœlioscopie (mise au point à la fin des années 1950 et qui se généralise à partir des années 1970 et 1980)<note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p> La cœlioscopie est une technique chirurgicale qui permet d’observer et/ou d’opérer l’intérieur du ventre en faisant de petites incisions autour du nombril&#160;: elle est considérée comme minimalement invasive.</p>
+          </note>&#160;; de l’autre, elle est remise en cause sur le plan thérapeutique par l’utilisation croissante des hormones dites sexuelles à partir des années 1950, puis, sur le plan diagnostique, par les évolutions dans le champ de l’imagerie médicale à partir de la fin des années 1970.</p>
+                <div type="div2" xml:id="d1e425">
+                    <head subtype="level2" xml:id="d1e426">L’introduction d’un nouveau regard</head>
+                    <p xml:id="d1e428">En tant que maladie récente du point de vue de l’intérêt qu’elle suscite dans le monde médical et la santé publique, l’endométriose représente un observatoire privilégié du travail de frontières car il existe un enjeu de production de nouveaux savoirs. Comme l’ont montré certaines recherches sur l’imagerie médicale (Yoxen, 1987&#160;; Koch, 1993<note type="standard" xml:id="ftn13" place="foot" n="13">
+              <p> On peut renvoyer plus largement à ce numéro de <hi rend="italic">Technology and Culture </hi>(vol.&#160;34, n°&#160;4) qui comprend plusieurs études historiques sur les controverses autour de nouvelles technologies médicales ayant entraîné la redéfinition des frontières de juridiction professionnelle et des engagements corporels et sensoriels des médecins. </p>
+            </note>&#160;; Burri, 2008), l’apparition d’une nouvelle technologie –&#160;comme l’échographie ou l’IRM&#160;– suscite des conflits de juridiction. Le prof.&#160;C (PU-PH) déclare ainsi que dans les années 1980, «&#160;<hi rend="italic">l'échographie endovaginale est apparue et les gynécologues étaient totalement opposés à toute forme d'imagerie</hi> […] <hi rend="italic">Le chirurgien gynécologue, il écoutait la patiente, il examinait la patiente et à la limite, après, il opérait quoi</hi>&#160;». L’appui sur la vision n’est pas un phénomène nouveau dans l’endométriose&#160;car son diagnostic a toujours reposé sur des enjeux d’expertise visuelle, et ce avant que les techniques d’imagerie entrent en scène. Pour authentifier les symptômes présentés par les patientes, le/la gynécologue-chirurgien·ne devait (et doit) dans un premier temps recevoir la patiente en consultation, l’interroger, et procéder à un examen gynécologique (généralement composé d’un toucher vaginal et de l’observation du col de l’utérus avec un spéculum) puis, dans un deuxième temps, procéder à une opération chirurgicale afin d’identifier visuellement des éléments organiques comme étant des lésions, des kystes ou des nodules d’endométriose à enlever. Se distinguent ici déjà deux espaces de mise à l’épreuve du corps&#160;: la consultation et l’opération chirurgicale, où sont mobilisés tant la vision que l’écoute et le toucher. Ce diagnostic opératoire doit être confirmé par l’analyse histologique<note type="standard" xml:id="ftn14" place="foot" n="14">
+              <p> L’histologie est la «&#160;science biologique étudiant l’anatomie microscopique des tissus, leur composition chimique et leurs propriétés fonctionnelles&#160;» (définition du <hi rend="italic">Dictionnaire médical de l’Académie de Médecine</hi>).</p>
+            </note> au microscope, menée par un·e anatomo-pathologiste, sur des prélèvements de tissus opérés. L’endométriose s’est donc historiquement trouvée constituée à l’intersection de plusieurs regards&#160;: de l’anatomo-pathologiste&#160;; du chirurgien&#160;et du clinicien&#160;; auxquels s’est ajouté celui du radiologue à partir des années 1980.</p>
+                    <p xml:id="d1e452">Quel a été le déplacement induit par l’introduction d’une nouvelle technique, d’un nouveau regard expert sur l’endométriose&#160;? D’abord, concernant l’usage de la technique elle-même, l’échographie et l’IRM n’ont pas fait l’objet des mêmes conflits dans la mesure où l’échographie a été rapidement appropriée par les spécialistes non-radiologues, en gynécologie comme dans d’autres spécialités. L’IRM reste manipulée uniquement dans le champ de la radiologie<note type="standard" xml:id="ftn15" place="foot" n="15">
+              <p> Cela crée d’autres enjeux internes à la radiologie relatifs au partage des compétences entre médecins et techniciens notamment. Cela vaut aussi pour l’échographie dans d’autres contextes nationaux que celui de la France. Soulignons que le développement de la radiologie interventionnelle a aussi contribué à déplacer des frontières juridictionnelles, en faisant rentrer les radiologues dans le champ de la thérapeutique.</p>
+            </note>. </p>
+                    <p xml:id="d1e459">Le Prof. C soulève ainsi le «&#160;<hi rend="italic">problème</hi>&#160;»&#160;de la «&#160;<hi rend="italic">récupération</hi>&#160;» de l’échographie par les gynécologues, qu’il juge opportuniste. Selon lui, «<hi rend="italic">&#160;</hi>
+            <hi rend="italic">vous ne pouvez pas être chirurgien expert et échographiste expert, vous ne pouvez pas tout faire, faut faire des choix&#160;</hi>». Ce que l’on observe dans les propos de ce radiologue, c’est surtout la volonté de délimiter la place et le rôle de chaque spécialité. La radiologie tirant sa légitimité de la production et l’interprétation d’images médicales, la pratique de l’échographie par des gynécologues vient menacer son territoire d’expertise professionnelle. Les mécanismes de délégitimation à l’encontre des gynécologues portent sur le terrain de la maîtrise technique et de la vision. Il y a d’abord l’idée selon laquelle ce n’est pas le métier du gynécologue&#160;: il n’a pas été suffisamment formé et ne peut donc pas dépasser un certain niveau d’expertise visuelle, notamment parce que c’est l’expérience sur le temps long et le fait de «&#160;<hi rend="italic">ne faire que ça</hi>&#160;» qui font qu’on est «&#160;<hi rend="italic">bon</hi>&#160;»<note type="standard" xml:id="ftn16" place="foot" n="16">
+              <p> Les gynécologues échographistes qui ont une légitimité aux yeux de leurs collègues radiologues sont celles et ceux qui ont décidé de consacrer la totalité de leur pratique professionnelle à l’échographie. </p>
+            </note>. Plus encore, en raison de la différence de formation initiale, il y aurait d’après le Dr.&#160;R (hôpital ESPIC et libéral) une frontière quasi-culturelle entre gynécologie et radiologie au sujet de l’image&#160;: </p>
+                    <q rend="quotation">Les gynécologues n’ont pas la culture de l’image. Ils ne savent pas voir. Ils viennent et ils ne voient pas ce que je vois, il y a un œil formaté pour ça. C’est comme la peinture et l’œil de la peinture&#160;: il y a une culture de l’œil de la peinture abstraite. Les gynécologues n’arrivent pas à accéder à la sémiologie [radiologique]<note type="standard" xml:id="ftn17" place="foot" n="17">
+              <p> En médecine, la sémiologie est l’étude «&#160;des signes et des symptômes, ainsi que de leur valeur diagnostique et pronostique&#160;» (<hi rend="italic">Dictionnaire médical de l’Académie de Médecine</hi>). En radiologie, elle désigne les signes à décrire et à extraire de l’image pour donner une interprétation.</p>
+            </note>
+            <hi rendition="#style03"> </hi>précise. C’est un apprentissage de l’image. Le gynéco ne voit que les kystes. Ils ne partent pas de l’image, ils partent du savoir théorique. Il y a un formatage à la culture de l’image qui fait que le radiologue peut progresser, mais le gynécologue non parce qu’il n’est pas formaté à ça, sauf s’il ne fait que ça.</q>
+                    <p xml:id="d1e496">Le Prof. C comme le Dr.&#160;R déplorent la trop grande confiance des gynécologues dans l’échographie et le fait que les radiologues aient tendance à délaisser l’échographie pour lui préférer l’IRM. L’échographie étant un examen quasi-clinique au sens où le médecin est en contact direct avec la patiente, certain·e·s radiologues préfèreraient la distance qu’offre le dispositif technique de l’IRM. Les radiologues spécialisé·e·s dans l’endométriose que j’ai rencontré·e·s m’expliquent plutôt l’importance de la complémentarité des deux procédés, renforcée par l’utilisation d’autres techniques d’imagerie à certaines étapes de la prise en charge (par exemple, le coloscanner en préparation à une chirurgie). C’est ainsi que les radiologues positionnent la supériorité de leur regard et donc de leur diagnostic comme étant liée à leur capacité à combiner différents points de vue. Une jeune radiologue m’explique que ce sont toutes les techniques qui, ensemble, font la vision du/de la radiologue, parce que leur combinaison permet de regarder l’intérieur du corps sous différents axes et perspectives. Par exemple, l’IRM procède par coupes&#160;sagittales, axiales et coronales qui donnent trois angles de vue de devant à derrière, de haut en bas, de gauche à droite (et inversement). Pour elle, la pratique chirurgicale en gynécologie (par cœlioscopie) entraîne une «&#160;<hi rend="italic">vision opératoire</hi>&#160;» du pelvis féminin, parce qu’on regarde uniquement depuis le haut de l’utérus.</p>
+                </div>
+                <div type="div2" xml:id="d1e501">
+                    <head subtype="level2" xml:id="d1e502">Déplacement de la preuve diagnostique</head>
+                    <p xml:id="d1e504">Dans ce déplacement de regard s’opère une transformation de la preuve, centrale dans le processus diagnostique. Celui-ci consiste en une accumulation d’indices, de repères et de prises, qui impliquent la vision –&#160;le sens de la vue&#160;– mais pas seulement. Il est intéressant ici de faire une distinction entre la vision et le regard. Le terme de vision permet d’ancrer le caractère proprement perceptuel des pratiques du voir, qui impliquent certes d’apprendre à <hi rend="italic">regarder </hi>mais qui doivent avant tout servir à <hi rend="italic">voir </hi>des éléments sur les images qui, sans cet apprentissage, resteraient invisibles. Cependant, il ne s’agit pas de renoncer à la notion de regard qui, à mon sens, comprend davantage que la vision, si l’on se réfère, par exemple, au travail de Michel Foucault sur le regard clinique (1963). Ce regard-là est un ensemble de pratiques et de manières d’observer, d’inspecter, mais aussi d’interroger, d’écouter et de toucher (directement ou par l’intermédiaire d’instruments) dans le but d’objectiver des états corporels en les traduisant dans un langage médical. </p>
+                    <p xml:id="d1e512">On retrouve ce caractère multidimensionnel du regard clinique dans la pratique gynécologique et chirurgicale, comme évoquée ci-dessus, mais on peut aussi déceler des tensions relatives à la combinaison des sens du médecin dans la pratique radiologique. Dans les deux contextes se joue une mise à l’épreuve réciproque de la parole (celle du médecin comme de la patiente) et de la vision (elle-même plus ou moins associée au toucher). Malgré ce rapprochement possible, il reste que la radiologie, avec son déploiement de techniques d’objectivation des corps par des technologies de visualisation, vient bousculer la pratique clinique du/de la chirurgien·ne. </p>
+                    <p xml:id="d1e514">Elle entraine une reconfiguration du processus diagnostique en déplaçant le moment et le statut de la preuve. La volonté des radiologues n’est pas simplement de fournir un indice supplémentaire pour la pose d’un diagnostic chirurgical, mais de poser le diagnostic –&#160;donc d’administrer la preuve de la pathologie. S’ils et elles reconnaissent, à des degrés variables, le fait que le diagnostic définitif est permis par la chirurgie associée à l’anatomo-pathologie, ils et elles s’accordent pour dire que dans la majorité des cas, la confirmation chirurgicale et anatomo-pathologique n’est pas nécessaire pour se mettre d’accord sur le diagnostic posé –&#160;par imagerie&#160;– et pour définir une stratégie thérapeutique.</p>
+                    <p xml:id="d1e516">Ce déplacement de la preuve entraine donc un déplacement de la juridiction autour de l’endométriose. Les chirurgien·ne·s réagissent différemment à ce déplacement –&#160;qui implique de leur part de reconnaitre la fiabilité du diagnostic par imagerie&#160;– en fonction des configurations pratiques et locales. Celles-ci renvoient à différentes formes de coordination entre professionnel·le·s relatives à l’histoire de chaque centre ou équipe (organisation de réunions pluridisciplinaires, interconnaissance) et à leur orientation thérapeutique&#160;: la preuve radiologique a davantage de poids au sein des centres plus axés sur la thérapie hormonale que dans ceux donnant la priorité aux interventions chirurgicales. D’un point de vue plus circonstanciel, le traitement de la preuve radiologique dépend des caractéristiques (étendue et gravité des lésions) de l’endométriose détectée. Dans certains cas (inégalement distribués parmi les chirurgien·ne·s), elle est mobilisée comme un indice vers le diagnostic opératoire et anatomo-pathologique&#160;; dans d’autres, elle est acceptée comme point de départ fiable pour la définition de la stratégie thérapeutique. </p>
+                </div>
+                <div type="div2" xml:id="d1e518">
+                    <head subtype="level2" xml:id="d1e519">Se positionner en appui à la chirurgie</head>
+                    <p xml:id="d1e521">L’entreprise de légitimation des techniques d’imagerie pour le diagnostic de l’endométriose s’est jouée dans l’arène des publications académiques à partir d’un travail actif de collaboration dans la pratique hospitalière. J’appréhende ce travail de légitimation au sein de l’espace-temps particulier que représente l’entretien sociologique, où se rejouent et se donnent à voir les arguments des principaux protagonistes. </p>
+                    <p xml:id="d1e523">Les articles en radiologie sur l’endométriose sont surtout publiés dans les années 1980 et 1990, au moment où l’échographie endovaginale et l’IRM se développent. Ils portent d’abord sur le diagnostic de l’adénomyose et des kystes de l’ovaire. Mais c’est dans le début des années 2000 que sont publiés les articles jugés comme faisant référence pour l’affirmation de la pertinence de ces deux techniques pour effectuer le diagnostic des diverses formes et localisations d’endométriose profonde<note type="standard" xml:id="ftn18" place="foot" n="18">
+              <p> Les atteintes sont dites profondes quand elles pénètrent dans le muscle des organes. Elles sont fréquentes, généralement les plus invalidantes sur le plan de la symptomatologie, et celles que l’on cherche le plus à opérer. Elles étaient aussi réputées plus difficiles à voir que l’adénomyose ou les kystes ovariens, c’est pourquoi l’établissement d’une sémiologie radiologique à leur propos permettant d’organiser l’activité diagnostique est vu par les radiologues interrogé·e·s comme une étape importante dans la légitimation de l’imagerie.</p>
+            </note>. Au sein de ces publications, un premier ensemble évalue la pertinence de l’une des techniques et un deuxième compare la pertinence des deux techniques prises ensemble. Dans les deux cas, les résultats de l’imagerie sont toujours confrontés aux résultats de la chirurgie et à la confirmation histologique, qui représente l’étape de véridiction ultime.</p>
+                    <p xml:id="d1e530">Le travail de frontières est passé par la définition de la place de la radiologie dans la prise en charge de l’endométriose, qui reste dirigée par le/la gynécologue-chirurgien·ne. En effet, pour affirmer leur qualité de professionnel·le·s du diagnostic, les radiologues se sont positionné·e·s comme les collaborateur·ice·s essentiel·le·s des chirurgien·ne·s en mettant en avant l’utilité de l’imagerie médicale pour la préparation de l’acte chirurgical. Par exemple, le Dr.&#160;R déclare&#160;: </p>
+                    <q rend="quotation">C’est fondamental, le chirurgien sans radiologue, il peut rien faire. Et le radiologue sans chirurgien il peut rien faire parce qu’il peut pas traiter la malade. Mais le chirurgien est viscéralement dépendant du radiologue. Sinon il y va à l’aveugle, il ouvre, comme font beaucoup, parce qu’ils n’ont pas de bons radiologues, donc il ouvre et après il referme parce qu’il y en a partout, il sait pas comment faire, il est pas préparé. Nous, les discussions des dossiers, on affiche tout ça, je leur explique, je dis «&#160;voilà vous avez ça&#160;», on fait une carte, point<hi xml:lang="fr">&#160;</hi>1, point<hi xml:lang="fr">&#160;</hi>2, point<hi xml:lang="fr">&#160;</hi>3, comme ça les chirurgiens préparent l’intervention.</q>
+                    <p xml:id="d1e543">Les différent·e·s radiologues rencontré·e·s soulignent l’interdépendance entre les chirurgien·ne·s et les radiologues. La Dr.&#160;N (hôpital universitaire et libéral) insiste ce point&#160;:</p>
+                    <q rend="quotation">Je me suis aperçue que c'était une chirurgie beaucoup menée par le bilan radiologique. Parce que en fait, je pense que vous avez discuté avec des chirurgiens, l'endométriose profonde c'est tout le péritoine, il faut être un peu guidé quoi. Et je me suis aperçue que ce qu'on disait pouvait avoir un impact hyper-important dans la prise en charge chirurgicale. Que ce soit négatif ou positif. C'est-à-dire qu'ils vont s'acharner à trouver quelque chose qu'on leur a décrit alors que ça n’existe pas forcément, et a contrario, laisser des lésions parce qu'on l'a pas décrit. […] J'ai tendance à le dire, souvent dans les bilans, c'est un peu, on est un peu leur GPS aux chirurgiens.</q>
+                    <p xml:id="d1e547">Pour le Prof. C, l’apparition de nouvelles technologies d’imagerie médicale représente un véritable progrès de civilisation&#160;: «&#160;<hi rend="italic">du stade où on écoute une patiente et puis on va opérer pour voir ce qu’elle a, on est passé au stade de la réflexion&#160;</hi>». Il exprime ainsi l’idée selon laquelle l’ère de la chirurgie diagnostique serait dépassée&#160;: tout chirurgien «<hi rend="italic">&#160;avisé&#160;</hi>», donc compétent, doit faire un bilan radiologique avant d’opérer. En creux se dessine l’idée selon laquelle l’imagerie représente un rempart contre les dérives interventionnistes de la chirurgie. Les recommandations de la HAS en 2017 sanctionnent en effet la fiabilité des techniques d’imagerie pour le diagnostic de l’endométriose et concluent que «&#160;<hi rend="italic">que</hi>
+            <hi rend="italic"> la réalisation d’une coelioscopie dans le seul but de confirmer le diagnostic n’est pas recommandée</hi>&#160;» mais qu’elle «&#160;<hi rend="italic">peut être indiquée en cas de suspicion clinique d’endométriose, alors que les examens préopératoires n’en ont pas fait la preuve&#160;</hi>» et dans le cadre d’une «&#160;<hi rend="italic">stratégie de prise en charge des douleurs ou de l’infertilité</hi>&#160;» (2017, p.&#160;15).</p>
+                    <p xml:id="d1e566">Pour se positionner comme professionnel·le·s du diagnostic, les radiologues ont cherché à démontrer le caractère indispensable de l’imagerie médicale pour la chirurgie. Ce travail de légitimation a impliqué un travail de frontières avec les gynécologues, pour délimiter la place et l’expertise de chacun·e dans le diagnostic et la prise en charge. Cependant, il s’agit d’une relation à double sens dans la mesure où, pour apprendre à voir l’endométriose, la collaboration avec les chirurgien·ne·s est incontournable. Il est également à noter que l’établissement de la légitimation des techniques d’imagerie, et, à travers elles, de la vision professionnelle des radiologues, entraînant un nouveau partage des pouvoirs et des rôles dans le processus diagnostique, représente un consensus décisif pour la constitution d’une identité professionnelle pour les radiologues expert·e·s de l’endométriose. Cet effort commun pour circonscrire la juridiction de la radiologie sur le diagnostic ne doit cependant pas masquer des divergences importantes entre les radiologues concernant leurs pratiques du voir et leur positionnement plus large dans la division du travail médical. </p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e568">
+                <head subtype="level1" xml:id="d1e569">Apprendre à voir&#160;: l’acquisition d’une vision professionnelle</head>
+                <p xml:id="d1e571">Christian Bessy et Francis Chateauraynaud (2014 [1995]) définissent l’expertise comme un «&#160;art de la prise&#160;». L’authentification réussie repose sur un dispositif de preuve émergent où les prises surgissent en situation&#160;: «&#160;dans le processus d’expertise, une multiplicité de petites perceptions, plus ou moins confuses, se transforment en un nombre réduit de perceptions claires et distinctes, partageables par une communauté d’acteurs. Du point de vue de l’acteur c’est donc une série de rapprochements et de recoupements qui permettent la prise de décision&#160;» (p.&#160;299). </p>
+                <p xml:id="d1e573">Considérer le diagnostic comme un dispositif d’authentification des corps permet d’appréhender le processus de construction d’une sémiologie radiologique de l’endométriose, qui correspond à l’élaboration de conventions censées unifier les pratiques du voir en radiologie via la définition de critères diagnostiques fiables. La question qui se pose est ainsi de savoir comment s’est fait un premier apprentissage en l’absence de conventions établies. Une fois la sémiologie sanctionnée dans la littérature scientifique, elle doit cependant s’actualiser en pratique. Dans cette partie, je dresse une cartographie des prises et repères permettant l’acquisition d’une habileté visuelle et sa mise en pratique, et qui, rassemblés, forment le dispositif diagnostique. </p>
+                <div type="div2" xml:id="d1e575">
+                    <head subtype="level2" xml:id="d1e576">Encoder et décoder les images </head>
+                    <p xml:id="d1e578">Dans son travail sur la construction des savoirs sur les rayons&#160;X, Bernike Pasveer propose de considérer que «&#160;les objets auxquels les images (médicales) réfèrent font toujours l’objet d’une médiation par les instruments et les méthodes utilisées pour les décrire&#160;» (2006, p.&#160;43), et non pas qu’ils sont simplement dévoilés ou représentés par ces techniques. Elle explique que le processus de décodage des images n’a pu se faire que parce qu’il y a d’abord eu un processus d’encodage, qui donne sens aux images et qui crée le lien entre les images et le corps. Cette activité de&#160;codage permet de transformer le phénomène observé en objet de savoir propre à une profession&#160;; elle est la première dimension pratique de la vision professionnelle identifiée par Charles Goodwin (1994).</p>
+                    <p xml:id="d1e580">D’une manière similaire aux rayons&#160;X, l’élaboration de la sémiologie radiologique de l’endométriose à l’échographie et à l’IRM est passée par un processus de comparaison ayant pour cadre de référence le corps anatomique, avec une première étape de corrélation entre l’interprétation radiologique, les résultats de la chirurgie et la confirmation anatomo-pathologique&#160;; et une étape ultérieure de comparaison entre les images et entre les techniques – entre les images d’échographie et les images d’IRM chez une même patiente.</p>
+                    <q rend="quotation">Comment je me suis formé ? Ah ben parce que ça c'est un métier. […] L'endométriose c'est une facette de l'expert que je suis en imagerie gynéco. Pour être expert dans un domaine, il faut connaître l'anatomie, la radio-anatomie, la sémiologie des diverses pathologies, etc. et après il faut réfléchir. […] On définit [les critères sémiologiques] par la pratique au quotidien, on analyse, on regarde, et après on corrèle avec la chirurgie et à l'histopathologie. On ne fait que progresser qu'en corrélant nos bons diagnostics et surtout le<hi xml:lang="fr">s</hi> mauvais diagnostic<hi xml:lang="fr">s</hi> pour savoir quand est-ce qu'on s'est trompé par rapport à la chirurgie et à l'anapat<note type="standard" xml:id="ftn19" place="foot" n="19">
+              <p> Abréviation d’anatomopathologiste.</p>
+            </note>. (entretien avec le Prof.<hi xml:lang="fr">&#160;</hi>C, PU-PH)</q>
+                    <q rend="quotation">Quand on décide de faire l'imagerie gynéco […], il faut bien connaître l'anatomie, donc y'a déjà toute une part de connaissances anatomiques importante. Après, y'a savoir lire les images et la difficulté du pelvis, de la gynéco, c'est que y'a pas un pelvis qui se ressemble. […] Je suis allée très tôt au bloc, j'ai vu des grosses, grosses chirurgies, des femmes qui étaient opérées pendant<hi xml:lang="fr">&#160;</hi>5-6 heures […] Et puis [les chirurgien·ne·s] m'ont énormément appris, quand je me trompais, ils me disaient «&#160;non c'était pas comme ça, c'est comme ça&#160;», enfin bon voilà, peu à peu… (entretien avec la Dr.<hi xml:lang="fr">&#160;</hi>N, hôpital universitaire et libéral)</q>
+                    <p xml:id="d1e605">La comparaison entre l’interprétation et les données chirurgicales et anatomo-pathologiques demande un travail collaboratif étroit entre les deux spécialités, ainsi qu’une attention égale aux bons diagnostics et aux mauvais. On observe la nécessité de maîtriser l’anatomie du pelvis féminin, normale comme pathologique. Cette connaissance de l’anatomie s’acquiert par plusieurs moyens&#160;: aller au bloc opératoire pour voir en quoi consiste la chirurgie mais surtout à quoi ressemble l’endométriose «&#160;<hi rend="italic">en vrai&#160;</hi>»&#160;; faire des dissections lors d’une formation de radio-anatomie&#160;; lire la littérature spécialisée sur l’endométriose pour en apprendre les spécificités. </p>
+                    <p xml:id="d1e610">Les prises anatomiques ont été décisives pour la constitution d’une sémiologie, donc d’une convention légitime. Une fois l’accord sur la fiabilité du diagnostic radiologique posé –&#160;on se met d’accord sur ce qu’on doit regarder, sur ce qu’on voit, et comment on le nomme&#160;– l’apprentissage pratique des radiologues des générations ultérieures ne passe plus nécessairement autant par le recours à la chirurgie et l’anatomopathologie. La sémiologie radiologique se stabilise et s’autonomise. </p>
+                    <p xml:id="d1e612">Cependant, l’établissement de la preuve au cours d’un examen d’imagerie repose sur une remobilisation permanente des prises anatomiques. Cela se traduit par la capacité à reconnaitre les structures anatomiques sur les images, à se repérer dans l’espace, et à mettre en pratique les critères sémiologiques pour l’interprétation. Par exemple, les critères pour repérer le kyste endométriosique de l’ovaire sont relatifs à la forme, la couleur, les contours, la présence ou non de vaisseaux&#160;: le kyste est gris, avec des contours angulaires et serrés, en raison du tissu figé et fibreux qui l’entoure. </p>
+                    <p xml:id="d1e614">L’activité de décodage des images est facilitée par la mise en relief –&#160;deuxième dimension pratique de la vision professionnelle identifiée par Goodwin&#160;– qui permet de rendre des éléments saillants dans un champ perceptuel complexe, en opérant un marquage. L’échographie produisant une image mouvante, le/la radiologue appuie sur un bouton pour l’immobiliser&#160;: à l’image fixe ainsi produite, il/elle ajoute une description par un mot, désignant ce que l’on peut observer sur l’image, par exemple «&#160;ovaire droit&#160;», «&#160;utérus&#160;», et, parfois, des flèches pour montrer précisément où se trouve l’atteinte. Les images portant des flèches sont surtout utilisées lors de leur diffusion dans des congrès ou des journées de formation, à des fins pédagogiques. Les images d’IRM peuvent être marquées de la même façon, ou en traçant un trait pour rendre visible la mesure d’un organe ou d’une lésion. La mise en relief s’observe également quand le médecin pointe du doigt les éléments à repérer sur l’écran pour les rendre visibles à l’autre&#160;: cet autre pouvant être un·e interne, un·e collègue en formation, ou moi-même en situation ethnographique.</p>
+                </div>
+                <div type="div2" xml:id="d1e616">
+                    <head subtype="level2" xml:id="d1e617">Avoir une «&#160;checklist&#160;» en tête</head>
+                    <p xml:id="d1e619">Quand je demande au Dr.&#160;R comment il trouve les lésions à l’échographie, il m’explique qu’il «&#160;<hi rend="italic">faut avoir une checklist anatomique précise et regarder secteur par secteur. Voilà donc c’est une checklist très précise. L’anatomie des lésions endométriosiques c’est toujours la même</hi>&#160;». A ce moment de l’entretien, il me montre les différentes zones anatomiques sur un petit schéma et ajoute que les lésions se placent souvent dans la «&#160;<hi rend="italic">zone sous-péritonéale postérieure</hi>&#160;»&#160;: derrière le vagin, en arrière du col de l’utérus, vers le rectum. C’est une zone qu’en imagerie gynécologique on ne regarde généralement pas. Cela signifie qu’il faut mettre la sonde à un endroit précis, dans le fond du vagin derrière le col&#160;: «&#160;<hi rend="italic">c’est de là qu’on a la vision circulaire, à 360&#160;degrés de tous les éléments anatomiques autour. Et c’est très important d’être là</hi>&#160;». La défense de l’expertise passe donc aussi par le maniement de l’objet technique. C’est le seul médecin à me signaler l’importance du positionnement exact de la sonde. La «&#160;checklist&#160;», en revanche, semble être un élément partagé. Ainsi, la Dr.&#160;N me dit&#160;: </p>
+                    <q rend="quotation">Dans mes topos souvent je dis que les avions s'écrasent moins depuis que les pilotes ont une checklist à respecter. Ben c'est un peu la même idée, c'est-à-dire que pour éviter de trop faire d'erreur, parce qu'on en fait de toute façon, on sous-estime des lésions, etc. Faut bien penser à chaque fois à avoir rempli toute la checklist. Et c'est pour ça, je pourrais vous montrer un de mes comptes-rendus, moi souvent c'est premièrement, deuxièmement, c'est un peu toujours pareil ma manière de présenter, pour être sûre de ne pas oublier des choses.</q>
+                    <p xml:id="d1e632">Je comprends aussi au cours des observations que la checklist a une valeur pédagogique pour les internes en formation, que ce soit en échographie ou en IRM&#160;:</p>
+                    <q rend="quotation">Suite à un examen pour suspicion d’endométriose, les deux internes commencent à rédiger le compte rendu sur l’ordinateur. Elles utilisent un modèle spécial pour les IRM d’endométriose&#160;: le document texte est structuré en catégories et prend la forme d’un tableau très précis organisé par «&#160;compartiments&#160;» anatomiques<hi xml:lang="fr"> </hi>–<hi xml:lang="fr">&#160;</hi>postérieur, latéral, antérieur<hi xml:lang="fr">&#160;</hi>– sous-divisés en localisations précises. Il y a une colonne où cocher oui ou non et une colonne où indiquer la mesure de l’atteinte. Les deux internes complètent le document ensemble puis font des mesures chacune de leur côté pour comparer si elles trouvent la même chose. Elles regardent longuement les images, comparent différentes coupes et différentes séquences. Elles bloquent sur l’atteinte digestive qu’elles ne savent pas comment mesurer (carnet de terrain –<hi xml:lang="fr">&#160;</hi>IRM, hôpital universitaire, service du Prof.<hi xml:lang="fr">&#160;</hi>C)&#160;</q>
+                    <p xml:id="d1e651">Les internes utilisent généralement le modèle de compte-rendu comme support pour l’interprétation des images, faisant des allers et retours permanents entre le document et les images. Les radiologues confirmé·e·s n’utilisent pas de modèle et interprètent d’abord les images, repérant les diverses atteintes, puis rédigent le compte-rendu à la fin (ou le font rédiger par les internes). On voit ainsi comment la checklist se matérialise pour opérationnaliser le savoir anatomique et soutenir l’apprentissage et la coordination des différents médecins. Véritable «&#160;artefact cognitif&#160;» (Norman, 1993), elle fonctionne comme outil pédagogique, comme outil de standardisation de la vision et comme gage de précision dans l’interprétation des images autant que dans la rédaction finale du compte-rendu. C’est par la routinisation de la pratique diagnostique dans le temps que la checklist se mémorise et se dématérialise. </p>
+                </div>
+                <div type="div2" xml:id="d1e653">
+                    <head subtype="level2" xml:id="d1e654">Un apprentissage sur le temps long</head>
+                    <p xml:id="d1e656">Le temps est présenté comme condition de l’acquisition d’une véritable expertise. Les radiologues mettent l’accent sur l’investissement nécessaire pour être un·e radiologue expert·e de l’endométriose, ce qui implique aussi des coûts.</p>
+                    <p xml:id="d1e658">L’échographie est une technique généralement présentée comme plus longue à maîtriser&#160;: «&#160;<hi rend="italic">je dis toujours, de façon très caricaturale, qu’il faut dix ans pour un expert en échographie, faut un an pour un expert en IRM, pour l'endométriose</hi>&#160;», me dit le Prof.&#160;C. Selon le Dr.&#160;R, c’est dû à la nature de l’image échographique&#160;: «&#160;<hi rend="italic">il faut faire une reconstruction mentale de ce que tu vois. L’image est fugace, elle est en temps réelle, elle est fluide, elle s’évapore. Tu ne vois jamais exactement la même chose. L’image est mouvante, dynamique, donc il faut développer une acuité visuelle particulière</hi>&#160;». Plus tard dans l’entretien, il ajoute&#160;: </p>
+                    <q rend="quotation">Le seul problème c’est que pour apprendre ça, c’est très long, parce que c’est difficile, le cours de l’apprentissage est long. Si vous voyez pas beaucoup beaucoup de malades, vous progresserez pas. Il faut en voir énormément. Donc il faut vouloir en faire sa spécialité. Si vous demandez à un radiologue de voir dix endométrioses par an, il ne progressera jamais, parce qu’en fait il les verra pas.</q>
+                    <p xml:id="d1e668">Le temps renvoie donc à la répétition des cas et à la formation d’une habitude. Bessy et Chateauraynaud (1993) nous invitent à considérer que l’effet de collection fait partie intégrante du dispositif de prise&#160;: il passe par l’accumulation de cas et d’images, consignées, utilisées ensuite dans les publications, les topos dans les congrès et comme support pédagogique<note type="standard" xml:id="ftn20" place="foot" n="20">
+              <p> Les internes vont aussi fréquemment rechercher des examens déjà effectués pour s’exercer.</p>
+            </note>. Cet effet de collection permet à un processus d’imprégnation de se mettre en place, de développer des automatismes et progressivement d’affuter le regard pour voir au premier coup d’œil, ce qui peut ensuite donner une impression d’évidence contenue dans l’image. </p>
+                    <p xml:id="d1e675">Ce temps d’apprentissage soulève aussi plusieurs problèmes&#160;: l’échographie est la technique de première intention pour le diagnostic de l’endométriose, ainsi que la plus répandue et accessible sur le territoire français, mais elle est aussi la moins bien maîtrisée, pour ce qui concerne l’endométriose en particulier. L’autre problème que cela pose concerne la structure du travail en radiologie&#160;: si les radiologues se spécialisent souvent dans une partie du corps plutôt qu’une autre, il est très rare de faire le choix de se consacrer à une unique pathologie. A part le Dr.&#160;R, les radiologues rencontré·e·s n’ont pas une activité exclusivement dédiée à l’endométriose même si elle tend à représenter la majeure partie de leur activité. Ce temps d’apprentissage pose, enfin, un problème de santé publique, l’objectif étant d’assurer le dépistage de la maladie plus que de former uniquement des expert·e·s. Cette tension se retrouve au niveau de l’enseignement, comme me l’explique la Dr.&#160;N, qui forme des internes en gynécologie amené·e·s à pratiquer l’échographie aux urgences&#160;:</p>
+                    <q rend="quotation">Le problème c'est que si on colporte toujours le message de dire «&#160;oh là là l'endométriose ça demande énormément d'expérience, énormément d'années&#160;» et tout, ben ça décourage un peu les gens qui s'y mettent en se disant, «&#160;ben de toute façon...&#160;» donc dans les cours on essaie de plus en plus de démocratiser. En disant «&#160;ça, vous l'avez pas vu mais c'est visible, c'est parce que vous ne saviez pas que ça existait là&#160;», c'est plutôt ce message qu'on essaie de donner quoi.</q>
+                    <p xml:id="d1e679">Que ce soit pour acquérir des bases permettant le dépistage ou pour devenir un·e expert·e de cette pathologie, l’endométriose nécessite une formation spécifique qui implique l’apprentissage de critères sémiologiques et l’acquisition de réflexes techniques et perceptuels. </p>
+                </div>
+                <div type="div2" xml:id="d1e681">
+                    <head subtype="level2" xml:id="d1e682">L’engagement avec la technique et le corps des patientes</head>
+                    <p xml:id="d1e684">Les procédures d’authentification supposent un «&#160;corps à corps&#160;» entre l’expert·e et l’objet. Dans le cadre de la radiologie, l’authentification des corps passe par la médiation d’un dispositif technique, ce qui implique des «&#160;prises conquises par une instrumentation capable de déplacer les frontières du visible par l’engagement d’une chaîne de corps plus longue&#160;» (Bessy et Chateauraynaud, 1993, p.&#160;156). Cependant, l’endométriose est appréhendée à partir de deux techniques d’imagerie très différentes –&#160;l’échographie et l’IRM&#160;– qui ne nécessitent pas le même degré d’engagement sensoriel et corporel de la part des radiologues. On peut faire une distinction similaire à celle proposée par Nicolas Dodier dans son enquête dans une entreprise de fabrication de fûts métalliques. </p>
+                    <p xml:id="d1e686">Il identifie en premier lieu les machines «&#160;peu sensibles à l’engagement corporel des utilisateurs. Il s’agit en particulier des machines <hi rend="italic">digitalisées</hi>&#160;» où «&#160;les repères individuels sont peu mobilisés au niveau des commandes » (Dodier, 1993, p.&#160;132). Cela vaut pour l’IRM, d’autant plus que la commande technique est réalisée par un manipulateur et non par le/la radiologue lui/elle-même, qui donne seulement quelques instructions sur le protocole à suivre et les séquences à faire. Les images arrivent directement sur l’écran de l’ordinateur du/de la radiologue qui peut procéder à l’interprétation des images. C’est donc essentiellement son habileté visuelle qui entre en jeu pour l’interprétation des images, généralement par le biais d’une comparaison constante entre les différentes séquences. </p>
+                    <p xml:id="d1e691">«&#160;A l’opposé, on trouve des commandes <hi rend="italic">très sensibles à des gradients fins d’engagement corporel</hi>&#160;» (p.&#160;132) où «&#160;seuls des repères individuels permettent alors de doser le contact tactile avec la machine, pour discriminer ses effets&#160;» (p.&#160;132). Cela vaut pour l’échographie, dans laquelle la production de l’image est directement dépendante des mouvements du/de la radiologue quand il ou elle manipule la sonde et décide des moments où immobiliser l’image. L’interprétation des images est simultanée à leur production contrairement à l’IRM. L’extrait suivant avec le Dr.&#160;R rend visible cette dimension manuelle&#160;:</p>
+                    <q rend="quotation">Dr. R&#160;: C’est auto-école. [Les internes] ont la sonde, et puis moi je suis derrière, alors ils conduisent et je leur dis «&#160;faut aller à droite, faut aller à gauche&#160;», ça prend un temps fou ça. Donc je les laisse mariner tout seuls, et une fois qu’ils se sont un peu baladés, tout ça, je leur dis «&#160;bon alors qu’est-ce que t’as vu&#160;?&#160;», ils me montrent, en général ils ont rien vu alors je leur remontre, «&#160;il fallait s’arrêter là&#160;», «&#160;là il fallait que tu tournes à droite pour voir ça&#160;», «&#160;là à gauche&#160;», «&#160;là on revient en arrière&#160;». C’est comme l’auto-école. C’est l’embrayage…</q>
+                    <p xml:id="d1e698">Apprendre à voir en échographie implique donc de développer une acuité visuelle spécifique liée à la nature de l’image, mais aussi l’apprentissage de techniques du corps concernant le maniement de la sonde et le contact avec le corps de la patiente (le ou la radiologue doit parfois appuyer sur le ventre pour mieux visibiliser un organe en le rapprochant de la sonde). </p>
+                    <p xml:id="d1e700">Le Dr. R mentionne ensuite le problème de la douleur souvent présente dans cet examen quasi-clinique, dans la mesure où le/la radiologue est en contact direct avec la patiente et où le geste technique implique une pénétration vaginale. La douleur peut entraver le processus d’apprentissage des internes parce qu’ils ne «&#160;<hi rend="italic">peuvent pas passer tout le temps qu’ils veulent, […] on ne peut pas passer trois quarts d’heure à la torturer comme ça</hi>&#160;». Cependant, il souligne aussi le rôle qu’a joué cette douleur provoquée dans la manière dont lui-même a appris, au début de sa spécialisation en endométriose, à déceler certaines lésions. </p>
+                    <q rend="quotation">Donc la sonde d’échographie, c’est comme le doigt pour le toucher vaginal. Sauf que ça amène un peu plus loin, parce que la sonde, […] c’est plus gros qu’un doigt. Alors ça se met dans le vagin et puis je touche les ligaments. Quand on touche un ligament malade, ça fait mal. […] On le fait pas 10<hi xml:lang="fr">&#160;</hi>fois, mais c’est comme ça que j’ai appris moi&#160;! Parce qu’au départ, on est dans le brouillard. Quand on n’a jamais fait d’échographie, que c’est la première fois qu’on cherche l’endométriose, moi je ne me souviens plus mais au départ, c’était dans le nuage total, vous êtes dans la forêt vierge et vous débroussaillez, vous ne savez plus où vous êtes, donc j’appuyais, ça faisait mal, il doit bien y avoir un truc là, donc au départ je voyais rien, mais petit à petit, en connaissant l’anatomie sur le plan théorique, mais aussi en allant au bloc opératoire, en regardant les coupes d’IRM, ben j’ai appris moi, en échographie.</q>
+                    <p xml:id="d1e710">En faisant de la sonde le prolongement du doigt (mais aussi, finalement, de l’œil), le Dr.&#160;R utilise la douleur –&#160;le symptôme corporel de la patiente&#160;– comme une information nécessaire à l’apprentissage visuel, à la définition de ce qui, sur l’image produite par l’échographe, est le signal d’une lésion. On observe ainsi une interaction permanente entre les sens de la patiente et les sens du/de la radiologue, qui ne peut construire son expertise sans elle. On a donc affaire à une opération de traduction du ressenti physique en signal visuel et en savoir médical. Cette traduction fait pleinement partie du processus d’encodage de l’image décrit au début de cette partie et s’associe, comme on le lit à la fin de la citation, aux autres composantes (la connaissance de l’anatomie, l’observation de chirurgies et la comparaison avec d’autres images) de l’acquisition d’une vision professionnelle. Cependant, le Dr.&#160;R est le seul radiologue rencontré à mettre en avant cette prise par la douleur, technique d’apprentissage devenue une technique diagnostique. </p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e712">
+                <head subtype="level1" xml:id="d1e713">Conclusions</head>
+                <p xml:id="d1e715">Pour étudier l’engagement de la vision professionnelle des radiologues dans un dispositif d’authentification des corps –&#160;le diagnostic de l’endométriose par imagerie médicale&#160;– j’ai cherché à tenir ensemble l’inscription des pratiques du voir dans des identités professionnelles, leurs implications en termes de déplacement des frontières juridictionnelles, et le travail perceptuel nécessaire à leur accomplissement en situation. On comprend avec les éléments présentés précédemment que l’œil n’est pas le seul impliqué dans l’apprentissage de la vision. «&#160;Avoir l’œil&#160;» renvoie à un assemblage complexe de prises perceptuelles, de savoirs, d’outils, de techniques du corps et de configurations de pratiques. Si le contexte propre à l’endométriose est structurant pour l’expérience professionnelle étudiée, il cristallise ainsi des enjeux plus larges autour de la place de la vue dans les activités de travail et d’expertise, comme celles étudiées dans les articles de ce numéro. </p>
+                <p xml:id="d1e717">En faisant le choix de porter mon attention sur l’expertise visuelle des radiologues, j’ai occulté certaines séquences du dispositif diagnostique au profit d’autres. Il me faut préciser ici quelques éléments concernant le processus permettant la transformation du «&#160;patient-à-examiner&#160;» en une «&#160;image-à-interpréter&#160;», qui engage un «&#160;long et complexe travail de construction&#160;» et de médiations (Boullier, 1995, p.&#160;24). Ce processus implique la participation de machines jugées efficaces (dont le fonctionnement est vérifié à intervalles réguliers) et le travail d’un certain nombre d’acteur·ice·s, dont les internes, les secrétaires médicales et les aides-soignant·e·s. En IRM, les manipulateur·ice·s en imagerie sont en charge de l’opération technique mais aussi de l’accompagnement corporel (installation dans la machine, injections de produits), voire émotionnel (en cas de peur ou de claustrophobie), des patientes.&#160;Les patientes fournissent également un travail en rassemblant et amenant leur dossier médical, en répondant aux questions de l’interrogatoire<note type="standard" xml:id="ftn21" place="foot" n="21">
+            <p> L'interrogatoire est le moment où l'on interroge le/la patient·e au début d’une consultation ou d’un examen pour recueillir certaines informations, en particulier sur les antécédents médicaux et les symptômes.</p>
+          </note>, en se soumettant à une préparation physique<note type="standard" xml:id="ftn22" place="foot" n="22">
+            <p> Ce point dépend des radiologues. En IRM, il peut s’agir d’un lavement ou d’un gel de contraste en amont de l’examen, ou d’injection de produits antispasmodiques pendant l’examen.</p>
+          </note> ou encore en se pliant aux nécessités du dispositif technique<note type="standard" xml:id="ftn23" place="foot" n="23">
+            <p> Dans l’appareil d’IRM, le corps doit par exemple être placé d’une certaine manière pour permettre une prise d’image satisfaisante. En échographie, le/la radiologue peut demander à ce que le bassin soit légèrement relevé pour ajuster le positionnement de la sonde. Les patientes doivent retenir leur respiration à certains moments précis.</p>
+          </note>. </p>
+                <p xml:id="d1e733">De plus, si je me suis focalisée sur ce qui rassemble les radiologues en termes de travail juridictionnel et de travail perceptuel, les éléments apportés concernant l’engagement corporel avec la technique et le surgissement d’une prise par la douleur me permettent d’ouvrir sur un point essentiel de divergence entre les radiologues&#160;: la prise en compte de la parole des patientes. J’observe en effet sur le terrain différentes manières de se positionner vis-à-vis des patientes qui font écho à la distinction faite par Janine Barbot et Nicolas Dodier dans leur analyse des controverses autour des traitements du Sida en France entre «&#160;tradition clinique&#160;» et «&#160;modernité thérapeutique&#160;» (Dodier et Barbot, 2008). La tradition clinique repose sur une objectivité construite dans la proximité avec les patient·e·s, où l’autorité médicale est légitimée par l’expérience clinique. La modernité thérapeutique se caractérise quant à elle par une objectivité passant par la mise à distance des patient·e·s et le recours à la médecine basée sur les preuves.</p>
+                <p xml:id="d1e735">En radiologie, cela se traduit notamment par des différences concernant la prise en compte du dossier médical par le/la médecin dans l’élaboration de son jugement, le moment (avant ou après l’examen) et le contenu de l’interrogatoire, la nature des résultats divulgués aux patientes et le respect des conventions sémiologiques en vigueur dans la littérature, qui révèlent les agencements multiples du travail perceptuel, ainsi qu’un «&#160;travail politique&#160;» (Dodier, 2003) relatif au partage des pouvoirs entre professionnel·le·s et patientes, mais aussi entre professionnel·le·s. La mise à distance des symptômes se conjugue en effet avec une conception de la division du travail médical où l’annonce du diagnostic par les radiologues se limite à authentifier la maladie, en laissant aux gynécologues le soin d’informer sur la suite de la prise en charge. Le fait de constituer les symptômes en prise perceptuelle à part entière engage quant à lui un rapport à l’objectivité médicale qui inclue la parole et les trajectoires des patientes, et, généralement, une autonomie revendiquée des radiologues vis-à-vis des gynécologues. Cela laisse apparaitre des modalités diverses de mise à l’épreuve réciproque de la parole et de la vision. Je compte poursuivre dans mes recherches ultérieures cette piste d’une articulation différenciée entre travail juridictionnel, travail perceptuel et travail politique permettant de considérer la vision professionnelle comme hétérogène. Appréhender la pluralité des regards radiologiques sur l’endométriose, ainsi que leur relation avec les visions professionnelles des autres spécialistes, devrait contribuer à une meilleure compréhension des parcours d’errance diagnostique des femmes concernées par cette maladie.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e741">
+                <listBibl xml:id="d1e743">
+                    <bibl xml:id="d1e745">
+                        <hi xml:lang="en">Abbott, A. (1988). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The System of Professions: An Essay on the Division of Expert Labor</hi>
+                        </hi>
+                        <hi xml:lang="en">. Chicago: The University of Chicago Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e753">
+                        <hi xml:lang="en">Batt, R. (2011). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">A history of endometriosis. </hi>
+                        </hi>
+                        <hi xml:lang="en">London: Springer.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e761">
+                        <hi xml:lang="en">Beaulieu, A. (2001). Voxels in the brain: Neuroscience, Informatics and Changing Notions of Objectivity. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Social Studies of Science</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">31</hi>
+                        </hi>
+                        <hi xml:lang="en">(5), 635-680.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e774">
+            <hi xml:lang="en">Beaulieu, A. (2002). Images Are Not the (Only) Truth: Brain Mapping, Visual Knowledge, and Iconoclasm. </hi>
+            <hi rend="italic">Science, Technology, &amp; Human Values</hi>. <hi rend="italic">27</hi>(1), 53-86.</bibl>
+                    <bibl xml:id="d1e783">Bessy, C., Chateauraynaud, F. (1993). Les ressorts de l’expertise. In Conein, B., Dodier, N., Thévenot, L. (dir.). <hi rend="italic">Les objets dans l’action. De la maison au laboratoire</hi>. Paris&#160;: Les Editions de l’EHESS.</bibl>
+                    <bibl xml:id="d1e788">Bessy, C., Chateauraynaud, F. (2014 [1995]). <hi rend="italic">Experts et faussaires. Pour une sociologie de la perception</hi>. Paris&#160;: Pétra.</bibl>
+                    <bibl xml:id="d1e793">Blume, S. S. (1992). <hi rend="italic">
+              <hi xml:lang="en">Insight and Industry: On the Dynamics of' Technological Change in Medicine</hi>
+            </hi>
+            <hi xml:lang="en">. </hi>Cambridge: MIT Press.</bibl>
+                    <bibl xml:id="d1e801">Boullier, D. (1995). Du patient à l’image radiologique&#160;: une sociologie des transformations. <hi rend="italic">
+              <hi xml:lang="en">Techniques et culture</hi>
+            </hi>
+            <hi xml:lang="en">, </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">25/26</hi>
+            </hi>
+            <hi xml:lang="en">, 19-34.</hi>
+          </bibl>
+                    <bibl xml:id="d1e813">
+                        <hi xml:lang="en">Burri, R. V. (2008). Doing distinctions: Boundary work and symbolic capital in radiology. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Social Studies of Science</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="en">38(1)</hi>
+                        <hi xml:lang="en">, 35-62.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e825">
+                        <hi xml:lang="en">Burri, R. V., Dumit, J. (2008). Social Studies of Scientific Imaging and Visualization. In Hackett, E.J., Amsterdamska, O., Lynch, M., Wajcman, J. (dir.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Handbook of Science and Technology Studies</hi>
+                        </hi>
+                        <hi xml:lang="en">. Cambridge: MIT Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e834">
+                        <hi xml:lang="en">Cartwright, L. (1995). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Screening the Body:</hi>
+                        </hi>
+                        <hi xml:lang="en"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Tracing Medicine's Visual Culture</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Minneapolis: University of Minnesota Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e849">Chateauraynaud F. (1997). Vigilance et transformation. Présence corporelle et responsabilité dans la conduite des dispositifs techniques. <hi rend="italic">
+              <hi xml:lang="en">Réseaux</hi>
+            </hi>
+            <hi xml:lang="en">, </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">85</hi>
+            </hi>
+            <hi xml:lang="en">(15), 101-127.</hi>
+          </bibl>
+                    <bibl xml:id="d1e861">
+                        <hi xml:lang="en">Cohn, S. (2004). Increasing resolution, intensifying ambiguity: An ethnographic account of seeing life in brain scans. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Economy and Society</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">33</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 52-76.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e874">
+                        <hi xml:lang="en">Daston, L., Galison P. (2007). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Objectivity</hi>
+                        </hi>
+                        <hi xml:lang="en">. New York: Zone Books.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e882">Didi-Huberman. 2014 [1982]. <hi rend="italic">Invention de l’hystérie. Charcot et l’Iconographie photographique de la Salpêtrière</hi>. Paris&#160;: Editions Macula.</bibl>
+                    <bibl xml:id="d1e887">Dodier, N. (1993). Les arènes des habiletés techniques. <hi xml:lang="en">In Conein, B., Dodier, N., Thévenot, L. (dir.). </hi>
+            <hi rend="italic">Les objets dans l’action. De la maison au laboratoire</hi>. Paris&#160;: Les Editions de l’EHESS.</bibl>
+                    <bibl xml:id="d1e894">Dodier, N. (2003). <hi rend="italic">Leçons politiques de l’épidémie du </hi>
+            <hi rend="italic">sida</hi>. Paris&#160;: Editions de l’EHESS.</bibl>
+                    <bibl xml:id="d1e901">
+            <hi xml:lang="fr">Dodier, N., Barbot, J. (2008). </hi>
+            <hi xml:lang="en">Autonomy and Objectivity as Political Operators in the Medical World: Twenty Years of Public Controversy about AIDS Treatments in France. </hi>
+            <hi rend="italic">Science in Context</hi>. <hi rend="italic">21</hi>(3), 403-434.</bibl>
+                    <bibl xml:id="d1e912">Dodier, N., Barbot, J. (2016). La force des dispositifs. <hi rend="italic">Annales «&#160;Histoire, Sciences Sociales</hi>&#160;<hi rend="italic">».</hi>
+                        <hi rend="italic">71</hi>(2), 421-450.</bibl>
+                    <bibl xml:id="d1e923">Duden, B. (1991). <hi rend="italic">
+              <hi xml:lang="en">The Woman Beneath the Skin: A Doctor's Patients in Eighteenth-Century Germany. </hi>
+            </hi>
+            <hi xml:lang="en">Cambridge: Harvard University Press.</hi>
+          </bibl>
+                    <bibl xml:id="d1e930">
+            <hi xml:lang="en">Dumit, J. (1999). Objective Brains, Prejudicial Images. </hi>
+            <hi rend="italic">Science in Context</hi>. <hi rend="italic">12</hi>(1), 173-201.</bibl>
+                    <bibl xml:id="d1e940">Estival, C. (2012). Incidences de l’imagerie médicale sur la pudeur dans la relation patients-soignants.<hi rend="italic"> Histoire, médecine et santé</hi>. 1, 77-91.</bibl>
+                    <bibl xml:id="d1e945">Foucault, M. (1963). <hi rend="italic">Naissance de la clinique</hi>. <hi xml:lang="fr">Paris&#160;: Presses Universitaires de France.</hi>
+          </bibl>
+                    <bibl xml:id="d1e952">
+                        <hi xml:lang="en">Gieryn, T. (1983). Boundary-work and the demarcation of science from non-science: Strains and interests in professional ideologies of scientists. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Sociological Review. </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">48</hi>
+                        </hi>
+                        <hi xml:lang="en">(6), 781-795.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e963">
+                        <hi xml:lang="en">Golan, T. (2004). The Emergence of the Silent Witness: The Legal and Medical Reception of X-rays in the USA. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Social Studies of Science</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">34</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 469-499.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e976">
+                        <hi xml:lang="en">Goodwin, C. (1994). Professional Vision. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Anthropologist</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">96</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 606-633.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e989">
+                        <hi xml:lang="fr">Haute Autorité de Santé. (2017). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Prise en charge de l’endométriose</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Consulté sur </hi>
+                        <ref target="https://www.has-sante.fr/upload/docs/application/pdf/2018-01/prise_en_charge_de_lendometriose_-_recommandations.pdf">
+                            <hi xml:lang="fr">https://www.has-sante.fr/upload/docs/application/pdf/2018-01/prise_en_charge_de_lendometriose_-_recommandations.pdf</hi>
+                        </ref>
+                        <hi xml:lang="fr"> </hi>
+                    </bibl>
+                    <bibl xml:id="d1e1002">
+                        <hi xml:lang="en">Joyce, K. (2005). Appealing Images: Magnetic Resonance Imaging and the Production of Authoritative Knowledge. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Social Studies of Science</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">35</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 437-462.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1015">
+                        <hi xml:lang="en">Joyce, K. (2006). From Numbers to Pictures: The Development of Magnetic Resonance Imaging and the Visual Turn in Medicine. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science as Culture</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">15</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 1-22.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1028">
+                        <hi xml:lang="en">Kevles, B. H. (1997). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Naked to The Bone: Medical Imaging in The Twentieth Century</hi>
+                        </hi>
+                        <hi xml:lang="en">. New Brunswick: Rutgers University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1036">
+            <hi xml:lang="en">Koch, E. B. (1993). In the Image of Science? Negotiating the Development of Diagnostic Ultrasound in the Cultures of Surgery and Radiology. </hi>
+            <hi rend="italic">Technology and Culture</hi>. <hi rend="italic">34</hi>(4), 858-893.</bibl>
+                    <bibl xml:id="d1e1045">Koechlin, A. (en cours). <hi rend="italic">Les mobilisations professionnelles et politiques autour d’une spécialité de la santé des femmes, la gynécologie médicale (1931-2020)</hi>. Thèse de doctorat en sociologie, Université Paris 1 Panthéon-Sorbonne, Paris.</bibl>
+                    <bibl xml:id="d1e1051">Latour, B. (1985). Les vues de l’esprit. <hi rend="italic">
+              <hi xml:lang="en">Culture Technique</hi>
+            </hi>
+            <hi xml:lang="en">. </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">14</hi>
+            </hi>
+            <hi xml:lang="en">, 5-29.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1063">
+                        <hi xml:lang="en">Laws, S. (1990). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Issues of blood: The politics of menstruation</hi>
+                        </hi>
+                        <hi xml:lang="en">.</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en"> </hi>
+                        </hi>
+                        <hi xml:lang="en">Hampshire: Macmillan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1076">
+                        <hi xml:lang="en">Lynch, M. (1985). Discipline and the Material Form of Images: An Analysis of Scientific Visibility. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Social Studies of Science</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">15</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 37-66.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1089">
+                        <hi xml:lang="en">Lynch, M., Woolgar, S. (dir.) (1990 [1988]). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Representation in Scientific Practice</hi>
+                        </hi>
+                        <hi xml:lang="en">. Cambridge: MIT Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1097">
+                        <hi xml:lang="en">Mitchell, L. (2001).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Baby’s First Picture</hi>
+                        </hi>
+                        <hi xml:lang="en">. Toronto: University Toronto Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1105">
+                        <hi xml:lang="en">Nezhat, C., Nezhat, F., Nezhat, C. (2012). Endometriosis: ancient disease, ancient treatments. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Fertility and Sterility</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">98</hi>
+                        </hi>
+                        <hi xml:lang="en">(6S), S1-S62.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1118">
+            <hi xml:lang="en">Norman, D. A. (1993). Les artefacts cognitifs. </hi>
+            <hi xml:lang="en">In Conein, B., Dodier, N., Thévenot, L. (dir.). </hi>
+            <hi rend="italic">Les objets dans l’action. De la maison au laboratoire</hi>. Paris&#160;: Les Editions de l’EHESS.</bibl>
+                    <bibl xml:id="d1e1126">
+                        <hi xml:lang="en">Pasveer, B. (1989). </hi>
+                        <hi xml:lang="en">Knowledge of shadows: the introduction of X-ray images in medicine. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Sociology of Health and Illness</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">11</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 360-383.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1141">
+                        <hi xml:lang="en">Pasveer, B. </hi>
+                        <hi xml:lang="en">(2006). Representing or Mediating. A History and Philosophy of x-ray Images in Medicine. In Pauwels, L. (dir.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Visual cultures of science: rethinking representational practices in knowledge building and science communication</hi>
+                        </hi>
+                        <hi xml:lang="en">. Hanover, London: University Press of New England.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1151">
+                        <hi xml:lang="en">Rapp, R. (1998). Real-Time Fetus: The Role of the Sonogram in the Age of Monitored Reproduction. In Downey, G. L., Dumit J. (dir.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Cyborgs and Citadels: Anthropological Interventions in Emerging Sciences and Technologies</hi>
+                        </hi>
+                        <hi xml:lang="en">. Santa Fe: School of American Research Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1159">
+            <hi xml:lang="en">Sandell, K. (2010). Learning to produce, see and say the (ab)normal: Professional vision in ultrasound scanning during pregnancy. In Johnson, E., Berner, B. (dir.). </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Technology and Medical Practice: Blood, Guts and Machines</hi>
+            </hi>
+            <hi xml:lang="en">. </hi>Farnham: Ashgate.</bibl>
+                    <bibl xml:id="d1e1169">Schnegg, C., Rey, S. (2017). Quand les morts passent un scanner. <hi rend="italic">
+              <hi xml:lang="en">Anthropologie &amp; Santé</hi>
+            </hi>
+            <hi xml:lang="en">, </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">15</hi>
+            </hi>
+            <hi xml:lang="en">.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1181">
+                        <hi xml:lang="en">Schubert, C. (2011). Making sure. A comparative micro-analysis of diagnostic instruments in medical practice. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Social Science and Medicine</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">73</hi>
+                        </hi>
+                        <hi xml:lang="en">, 851-857.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1194">
+                        <hi xml:lang="en">Seear, K. (2009). The etiquette of endometriosis: Stigmatisation, menstrual concealment and the diagnostic delay. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Social Science and Medicine</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">69</hi>
+                        </hi>
+                        <hi xml:lang="en">(8), 1220-1227.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1207">
+            <hi xml:lang="en">Shafrir A. L. </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">et al. </hi>
+            </hi>
+            <hi xml:lang="en">(2018). Risk for and consequences of endometriosis: A critical epidemiologic review. </hi>
+            <hi rend="italic">Best Practice &amp; Research Clinical Obstetrics and Gynaecology</hi>.</bibl>
+                    <bibl xml:id="d1e1218">Souffron, V. (2015). De l’autopsie à la virtopsie&#160;: Voir et ne pas y toucher. <hi rend="italic">
+              <hi xml:lang="en">Communications</hi>
+            </hi>
+            <hi xml:lang="en">. </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">97</hi>
+            </hi>
+            <hi xml:lang="en">(2), 57-71.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1230">
+                        <hi xml:lang="en">Young, A (1995). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Harmony of Illusions:</hi>
+                        </hi>
+                        <hi xml:lang="en"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Inventing Post–Traumatic Stress Disorder</hi>
+                        </hi>
+                        <hi xml:lang="en">. Princeton: Princeton University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1243">
+            <hi xml:lang="en">Yoxen, E. (1989 [1987]). Seeing with sound: a study of the de</hi>
+            <hi xml:lang="en">vel</hi>
+            <hi xml:lang="en">opment of medical images. In Bijker, W., Hughes, T., Pinch, T. (dir.).&#160;</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Social construction of technological systems: new directions in the sociology and history of technology</hi>
+            </hi>
+            <hi xml:lang="en">. </hi>Cambridge: MIT Press.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

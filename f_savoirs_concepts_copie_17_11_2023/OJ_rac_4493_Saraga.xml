@@ -1,0 +1,512 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_4493_Saraga">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Les métamorphoses de la preuve dans le champ psychiatrique</title>
+                <title type="sub">L’exemple des études cliniques sur les psychotropes</title>
+                <title level="a" type="alt" xml:lang="en">Transformations of proof in contemporary psychiatry. The case of clinical trials in psychopharmacology</title>
+                <title level="a" type="alt" xml:lang="es">Las metamorfosis de la prueba en el campo psiquiátrico. El ejemplo de los estudios clínicos sobre sustancias sicotrópicas</title>
+                <author>
+                    <persName>
+                        <forename>Michael</forename>
+                        <surname>Saraga</surname>
+                    </persName>
+                    <affiliation> Médecin, psychiatre-psychothérapeute F.M.H., il est responsable de l’Unité de psychiatrie de liaison de la Policlinique Médicale Universitaire dépendant du CHU de Lausanne (Suisse), un lieu de formation post-graduée à la médecine de premier recours. Une part de ses recherches porte sur la clinique en tant que pratique est située dans un environnement complexe, mobilisant des enjeux multiples, et plus généralement aux spécificités de la relation médecin/malade, qui en constituent le niveau d’effectivité.Adresse&#160;: Unité de psychiatrie de liaison, Policlinique Médicale Universitaire, Rue du Bugnon&#160;44, CH-1011 Lausanne (Suisse).Courriel&#160;: michael.saraga[at]chuv.ch </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>epistemology</item>
+                        <item>psychotropic drugs</item>
+                        <item>evidence-based medicine</item>
+                        <item>clinical trials</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>épistémologie</item>
+                        <item>psychotropes</item>
+                        <item>essais cliniques</item>
+                        <item>evidence-based medicine</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>epistemología</item>
+                        <item>sicotrópicos</item>
+                        <item>medicina basada en evidencia</item>
+                        <item>ensayo clínico</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Les métamorphoses de la preuve dans le champ psychiatrique</titlePart>
+                    <titlePart type="sub">L’exemple des études cliniques sur les psychotropes</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Michael Saraga</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e224">
+                <p xml:id="d1e225">Cet article est une contribution à l’étude des transformations contemporaines du champ de la psychiatrie à partir d’une lecture de la recherche en psychopharmacologie reposant sur l’analyse de la structure et des styles des publications dans le domaine. Il met en évidence trois moments principaux&#160;: (1)&#160;l’âge d’or des découvertes majeures (lithium, chlorpromazine, imipramine), documentée par une description clinique au cas par cas&#160;; (2)&#160;la montée en puissance de l’essai randomisé contrôlé et l’accent mis sur une méthodologie devant permettre d’éviter l’incertitude et les biais de la clinique&#160;; (3)&#160;les années récentes, marquées par une concurrence entre molécules, le développement des approches méta-analytiques et une opacité croissante des articles pour le lecteur clinicien. Cette contribution s’inscrit dans le cadre d’une épistémologie historique des pratiques cliniques<note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Pour une brève présentation de l’article et du dossier thématique dans lequel il s’inscrit, nous renvoyons le/la lecteur/lectrice à l’article introductif de Bovet, Kraus, Panese, Pidoux et Stücklin, «&#160;Les neurosciences à l’épreuve de la clinique et des sciences sociales. Regards croisés&#160;».</p>
+          </note>.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e231">
+                <p xml:id="d1e232">
+                    <hi xml:lang="en">This paper contributes to the study of psychiatry’s contemporary transformations by analyzing the structure and form of the scientific literature in the field psychopharmacology. It highlights three main periods: (1)&#160;the “golden age” of the major discoveries (lithium, chlorpromazine, imipramine), which are reported through case-by-case clinical descriptions; (2)&#160;the emergence of the randomized controlled trial and the growing importance of a strict methodology attempting to avoid the uncertainty and biases of the clinical work; (3)&#160;the recent years, characterized by a competition between similar molecules, the development of meta-analytical methods and a growing opacity of the published literature for the clinician-reader. This contribution is part of a wider historical epistemology of clinical practice.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e235">
+                <p xml:id="d1e236">Este artículo es una contribución al estudio de las transformaciones contemporáneas en el campo de la psiquiatría a partir de un análisis de la investigación en psicofarmacología basado en el análisis de la estructura y de los estilos de publicaciones en este campo. En él se destacan tres etapas principales: (1)&#160;la edad de oro de los grandes descubrimientos (litio, clorpromazina, imipramina), documentada por una descripción clínica en cada caso, (2)&#160;el incremento del ensayo aleatorio controladoy del foco puesto en una metodología para evitar la incertidumbre y los sesgos clínicos, (3)&#160;los últimos años, marcados por la competencia entre las moléculas, el desarrollo de métodos meta-analíticos y el aumento de la opacidad de los artículos para el lector clínico. Esta contribución se inscribe en el contexto de una epistemología histórica de las prácticas clínicas.</p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e242">
+                <head subtype="level1" xml:id="d1e243">Introduction</head>
+                <p xml:id="d1e245">Les protagonistes de ce qu’on a appelé l’&#160;«&#160;Evidence-Based Medicine&#160;» (EBM) poursuivent leur objectif de développement d’une médecine toujours davantage fondée sur les «&#160;preuves&#160;», soit l’idée selon laquelle les décisions médicales devraient par principe se baser sur les résultats d’études cliniques et empiriques ayant démontré leur «&#160;efficacité&#160;» (Evidence-Based Medicine Working Group, 1992). Dans ce cadre, les études empiriques et cliniques accessibles aux médecins –&#160;et qui constituent dès lors les preuves supposées fonder leurs actions&#160;– sont donc essentiellement formées de travaux publiés dans les revues médicales dites «&#160;scientifiques&#160;» et dont la valeur est estimée aujourd’hui selon trois critères principaux&#160;: la plus haute valeur probante revenant aux essais randomisés contrôlés et, de plus en plus fréquemment, aux méta-analyses de tels essais<note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> Nous revenons sur ces termes par la suite.</p>
+          </note>, le nombre de cas étudiés et le facteur d’impact des journaux dans lesquels ces travaux sont publiés. En prenant un peu de recul historique, comme nous allons le montrer, les articles publiés évoluent, à la fois sur le plan méthodologique et sur le plan formel. Ce qui constitue aujourd’hui une «&#160;preuve&#160;», au sens que lui donne le paradigme de l’EBM, est très différent de ce que l’on pouvait trouver dans les revues scientifiques il y a une cinquantaine d’années. Nous pouvons même faire l’hypothèse que des études cliniques dont l’impact a été majeur seraient aujourd’hui considérées comme peu scientifiques et ne seraient pas publiées. Nous nous proposons ici d’étudier trois temps marquants de l’évolution du domaine dont nous sommes le plus proche en tant que psychiatre clinicien&#160;: la psychopharmacologie.</p>
+                <p xml:id="d1e251">Le premier temps, de la fin des années&#160;1940 à la fin des années&#160;1960, est celui de la découverte des premiers psychotropes considérés comme efficaces pour traiter les pathologies psychiatriques majeures, rencontrées dans les asiles&#160;: la manie, la schizophrénie et la mélancolie, à savoir les psychoses classiques<note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> Nous laissons ici de côté la question des «&#160;tranquillisants mineurs&#160;», mécloprobamate et benzodiazépines, dont la trajectoire nous paraît très différente, destinés plutôt à des patients non hospitalisés, prescrits par des généralistes, et dont la contribution à la constitution de la psychopharmacologie, comme champ de compétence et comme promesse de développement de la psychiatrie, semble nettement moindre (cf.&#160;sur ce point, Herzberg, 2011).</p>
+          </note>. Nous montrerons en particulier que les études sur le lithium, la chlorpromazine et l’impramine sont méthodologiquement fondées sur l’observation clinique de série de cas, une caractéristique dont découle une forme narrative et argumentative basée sur la description qualitative de cas singuliers.</p>
+                <p xml:id="d1e257">Le deuxième temps, des années&#160;1970 à la fin du siècle, est celui de l’apparition de l’usage de la statistique comme outil de preuve de l’efficacité d’une molécule, désormais évaluée au cours d’essais dits randomisés et contrôlés, dont l’application en médecine s’étend progressivement à partir des années&#160;1940. Il s’agit là d’un phénomène complexe aux enjeux multiples (avec des dimensions épistémologiques, politiques, industrielles et professionnelles, liste non exhaustive&#160;; Gaudillière, 2006&#160;; Marks, 1997). En psychiatrie, les essais randomisés contrôlés ont impliqué en parallèle le développement des échelles psychométriques de sévérité, ainsi qu’une standardisation progressive des procédures expérimentales, notamment une approche systématique du diagnostic dont on retrouve les principes au cœur du projet du DSM-III<note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> 3<hi rend="sup">e</hi>&#160;édition en 1980 du Diagnostic and Statistical Manual of Mental Disorders publié par l’Association américaine de psychiatrie (APA). Le DSM-III définit des critères qui se veulent précis et relativement simples à appliquer pour chaque trouble mental, dans le but d’améliorer la concordance diagnostique (aussi nommée «&#160;fidélité inter-juge&#160;»).</p>
+          </note>, dont la parution a nettement orienté la recherche clinique psychiatrique à partir des années&#160;1980. Les articles issus de cette démarche apparaissent d’une grande simplicité formelle. Ils peuvent souvent se résumer à un tableau chiffré, censé démontrer l’efficacité mesurée d’une molécule par rapport à un placebo.</p>
+                <p xml:id="d1e266">Le troisième temps couvre ces dix dernières années&#160;; elles sont marquées par une baisse tendancielle de l’innovation psychopharmacologique et se caractérisent par une mise en concurrence de molécules voisines que les auteurs des études publiées s’efforcent de départager en termes d’efficacité. La démarche implique alors une complexité croissante des protocoles des études empiriques et une sophistication poussée des méthodes statistiques permettant d’évaluer des efficacités comparées. Il en résulte des publications qui nous paraissent plus techniques et finalement assez opaques pour les cliniciens.</p>
+                <p xml:id="d1e268">Comme nous allons le voir au cours de cet article, ce troisième temps est problématique à plusieurs égards pour le clinicien se préoccupant des fondements épistémologiques de la construction des preuves censées orienter son action.</p>
+            </div>
+            <div type="div1" xml:id="d1e270">
+                <head subtype="level1" xml:id="d1e271">Temps 1. L’âge d’or<hi xml:lang="fr"> </hi>–&#160;decennium mirabilis</head>
+                <p xml:id="d1e276">Entre 1949 et 1957, sont découvertes coup sur coup les trois classes majeures de psychotropes&#160;: les stabilisateurs de l’humeur (le lithium en 1949), les antipsychotiques (la chlorpromazine en 1954) et les antidépresseurs (l’imipramine en 1957).</p>
+                <p xml:id="d1e278">L’étude originale rapportant l’efficacité des sels de lithium pour traiter «&#160;l’excitation psychotique&#160;» est publiée dans le <hi rend="italic">Medical Journal of Australia</hi>, une revue plutôt modeste sur le plan international. L’auteur, John&#160;F. Cade, rapporte l’évolution de dix cas traités par des sels de lithium, dont il avait constaté l’effet sédatif chez le cochon d’Inde, animal qu’il utilisait pour étudier l’excitation psychotique. Les cas y sont décrits un à un, de façon détaillée mais non systématique. Il est utile de le citer pour rendre compte de la forme et de la structure de l’argument&#160;:</p>
+                <q rend="quotation">W.-B., a male, aged fifty-one years, who had been in a state of chronic manic excitement for five years, restless, dirty, destructive, mischievous and interfering, had long been regarded as the most troublesome patient in the ward. His response was highly gratifying. From the start of treatment on March&#160;29, 1948, with lithium citrate he steadily settled down and in three weeks was enjoying the unaccostumed surroundings of the convalescent ward. As he had been ill so long and confined to a “chronic ward”, he found normal surroundings and liberty of movement strange at first. Owing to this, as well as housing difficulties and the necessity of determining a satisfactory maintenance dose, he was kept under observation for two months. He remained perfectly well and left hospital on July<hi xml:lang="en">&#160;</hi>9, 1948, on indefinite leave with instructions to take a maintenance dose of lithium carbonate, five grains twice a day. The carbonate had been substituted for the citrate as he had become intolerant of the latter, complaining of severe nausea. He was soon back working happily at his old job. However, he became lackadaisical about his medicine and finally ceased taking it. His relatives reported that he had not had any for at least six weeks prior to readmission on January&#160;30, 1949, and was becoming steadily more irritable and erratic. He ceased work just before Christmas. On readmission to hospital he was once again started on lithium carbonate, ten grains three times a day, an in a fortnight had been settled down to normal The dose of carbonate was then reduced to five grains three times a day, and in a further two weeks to five grains twice a day. He is now (February<hi xml:lang="en">&#160;</hi>28, 1949) ready to return to home and work. (Cade, 1949, p.&#160;350)</q>
+                <p xml:id="d1e291">Comme en témoigne cet extrait, la description est colorée, elle assume une part d’appréciation subjective et inclut aussi certains jugements de valeur. Il faut également relever qu’elle suit l’évolution temporelle du cas, donnant ainsi l’impression que l’auteur connaît bien son patient et le suit de près dans le cadre d’une clinique régulière et rapprochée. Les autres cas de l’étude sont décrits de façon similaire. Leur présentation ne suit pas de canevas systématique&#160;: la description des symptômes, les aspects biographiques, l’évolution clinique, les aspects posologiques sont souvent mentionnés dans le désordre et de manière plus ou moins prolixe, renforçant l’impression d’une interpénétration forte entre la démarche expérimentale et le suivi clinique rapproché. Le diagnostic est toujours lié à un état maniaque mais il est formulé de façon aussi variable, sans explication quant à la signification du diagnostic ou la façon dont il a été posé<note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p> <hi xml:lang="en">Par exemple&#160;: «&#160;chronic mania&#160;», «&#160;recurrent mania&#160;», «&#160;manic-depressive insanity associated with alcoholism&#160;».</hi>
+            </p>
+          </note>. Pour les dix cas rapportés, l’efficacité des sels de lithium paraît impressionnante.</p>
+                <p xml:id="d1e299">Trois ans plus tard, les psychiatres français Jean Delay, Pierre Deniker et Jean-Marie Harl présentent à la Société Médico-Psychologique leur expérience avec une molécule mise au point par Henri Laborit, dans le cadre de ses recherches anesthésiologiques&#160;: la chlorpromazine (Delay, Deniker et Harl, 1952a), dont ils décrivent un mois plus tard l’effet sur huit cas «&#160;d’excitation et d’agitation&#160;».</p>
+                <q rend="quotation">Accès d’excitation atypique récidivante&#160;: S… Robert, 21&#160;ans, étudiant, est transféré de l’hôpital Beaujon le 21-11-1951 pour sub-excitation atypique avec procursivité nocturne. On note une tendance au rationalisme morbide et quelques troubles du cours de la pensée.<lb/>Le malade est suivi depuis 1947 à Marseille, pour accès maniaques rapprochés et de plus en plus atypiques. Des rémissions transitoires ont été obtenues par des séries d’électro-chocs, une cure cardiazolique et insulinique.<lb/>Dans la famille, on note un cousin maniaco-dépressif. L’examen est négatif. Dans le service, le malade est en proie à une grande agitation avec insomnie. Devant l’atypicité des troubles, on fait une cure de 32&#160;comas insuliniques, qui amène une rémission relative en mars, le malade restant subexcité. Trois électro-narcoses calment le malade pendant quinze jours, mais l’agitation confuse, les violences, les déclamations, la logorrhée euphorique contraignent de nouveau à maintenir le malade insomnique [<hi rend="italic">sic</hi>].<lb/>Le traitement par le 4560&#160;RP permet dès les premiers jours le retour au calme, coupé de quelques phases de logorrhée. Après 21&#160;jours de traitement, tous les symptômes d’excitation, mais aussi les signes de dissociation mentale et le rationalisme morbide ont disparu. Le malade peut sortir au début de juin, paraissant tout à fait normal.<lb/>Le médicament a donc permis d’obtenir une rémission meilleure chez ce malade que par l’insuline, les chocs ou les électro-narcoses. La manie, très atypique, nous faisait craindre une schizophrénie. (Delay, Deniker et Harl, 1952b, p.&#160;272)</q>
+                <p xml:id="d1e314">La description apparaît plus complexe sur le plan psychopathologique que dans l’étude de John&#160;F. Cade et certains termes peuvent même être assez obscurs pour le lecteur d’aujourd’hui (procursivité, par exemple). La présentation est aussi plus systématique&#160;: symptômes, antécédents, réponse au traitement. Les diagnostics dans la série sont plus variés, et là non plus ils ne sont pas explicités ou discutés<note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> «&#160;Accès maniaque suivi de confusion fébrile&#160;», «&#160;grande excitation confuso-délirante&#160;», «&#160;accès maniaque au cours d’une cyclothymie atypique&#160;», etc.</p>
+          </note>, même si, d’un point de vue clinique, on perçoit le lien entre les symptômes décrits et le diagnostic retenu. Sur le plan méthodologique et formel, les démarches des psychiatres français et de John F.&#160;Cade sont très similaires sur le plan clinique. La lecture des résultats rapportés est là aussi impressionnante.</p>
+                <p xml:id="d1e320">Dans les mêmes années, Heinz&#160;E. Lehmann et Gorman&#160;E. Hanrahan publient dans les <hi rend="italic">Archives of Neurology and Psychiatry</hi> le premier article en anglais rapportant leur expérience sur soixante et onze cas traités par chlorpromazine. Leur approche est pourtant un peu différente des deux précédentes&#160;:</p>
+                <q rend="quotation">Patients receiving the drug become lethargic. Manic patients often will not object to bed rest, and patients who present management problems become tractable. Assaultive and interfering behavior ceases almost<hi xml:lang="en"> </hi>entirely. The patients under treatment display a lack of spontaneous interest in the environment, yet are easily accessible and respond as a rule immediately and relevantly to questions even if awakened from sleep. […] Some patients dislike the treatment and complain of their drowsiness and weakness. Some state that they feel “washed out”, as after an exhausting illness, a complaint which is indeed in keeping with their appearance. Others, however, appreciate the peculiar effect of the drug which allows them to relax from ideational pressure. One manic patient stated after her recovery that with the drug she soon lost the feeling: “I had to live my whole life in one day”. Another patient suffering from long standing anxiety described the effect of small doses of chlorpromazine on her feelings: “It was like a chairman taking control of a meeting where everybody previously had been shouting at once”. (Lehmann et Hanrahan, 1954, p.&#160;230-231)</q>
+                <p xml:id="d1e330">H.-E.&#160;Lehmann et G.-E.&#160;Hanrahan font référence à un ensemble de patients désormais trop important pour qu’ils soient décrits cas par cas et l’évolution temporelle de chacun ne peut plus être détaillée. Les auteurs proposent plutôt une synthèse générale de leurs observations, qu’ils illustrent d’exemples et de citations de ce que les patients disent eux-mêmes de leur expérience. L’approche est non systématique, mais les auteurs construisent cependant une synthèse structurée de leurs résultats, sous la forme d’un tableau rapportant l’évolution des cas –&#160;en quatre degrés non définis&#160;: «&#160;unchanged&#160;», «&#160;improved&#160;», «&#160;much improved&#160;», «&#160;recovered&#160;»&#160;– et selon huit catégories diagnostiques, elles aussi non définies dans l’article&#160;: «&#160;schizophrenia, schizoaffective&#160;», «&#160;manic, acute&#160;», «&#160;psychoneurotic&#160;», etc. Malgré cette approche plus systématique, les auteurs semblent bien connaître leurs patients, dont ils peuvent citer les propos.</p>
+                <p xml:id="d1e333">En 1957, la très modeste <hi rend="italic">Schweizerische medizinische Wochenschrift</hi> publie le premier article rapportant l’action de l’imipramine dans le traitement des états dépressifs. L’auteur, Roland Kuhn, travaille à la clinique de Münsertlingen dans le canton de Turgovie, en Suisse. Il cherche lui aussi un traitement pour ses patients schizophrènes et demande à la société Geigysi si elle dispose d’une molécule expérimentale apparentée à la chlorpromazine que le clinicien pourrait éventuellement expérimenter. L’entreprise accepte et met à sa disposition l’imipramine. Roland Kuhn remarque bientôt que, si cette molécule a assez peu d’efficacité antipsychotique, elle semble améliorer les symptômes dépressifs.</p>
+                <p xml:id="d1e338">L’article de Kuhn se présente lui aussi sous une forme synthétique. L’auteur ne précise pas le nombre de patients traités, mais il est très élevé<note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p> Un article paru un an plus tard parle de plus de 500&#160;sujets traités par imipramine (Kuhn, 1958).</p>
+          </note>. Il ne lui est donc pas possible de présenter l’évolution de chaque cas. La méthode et la forme sont ainsi très similaires à l’article de Lehmann et Hanrahan. L’efficacité du traitement est décrite dans deux paragraphes qu’il convient de citer <hi rend="italic">in extenso</hi> pour rendre compte de la manière dont l’auteur rapporte, structure et commente ses observations&#160;:</p>
+                <q rend="quotation">Les symptômes dépressifs visibles de l’extérieur s’améliorent sous G&#160;22355 de manière remarquable. La mimique se relâche et retrouve<hi xml:lang="fr"> </hi>ses capacités de modulation et d’expression. Les malades deviennent de manière générale plus vivants, le chuchotement dépressif se fait plus audible, les malades apparaissent plus bavards, la lamentation et les pleurs cessent. Lorsque, dans la dépression, on constatait une humeur d’insatisfaction plaintive ou d’hésitation, celle-ci disparaît, laissant apparaître un sujet plus sympathique, satisfait et ouvert. Les plaintes hypocondriaques ou neurasthéniques diminuent ou cessent totalement. Des malades qui ne voulaient pas sortir du lit le matin se lèvent plus tôt, avec les autres patients. Ils entrent à nouveau en relation avec les autres, commencent à converser, participent à la vie du service, reprennent une correspondance et se préoccupent à nouveau de leur famille. Ils reprennent spontanément un travail, parviennent à certains succès, et leur lenteur laisse la place à un tempo de vie normal. Avec cette évolution, les malades sont rapidement appréciés dans l’unité et ils apparaissent plus équilibrés du point de vue de leur humeur et de leur comportement. À plusieurs reprises, des proches ont expliqué avec enthousiasme au médecin qu’ils n’avaient pas vu le malade aller aussi bien depuis longtemps.<lb/>La plupart du temps, mais pas toujours, les malades s’aperçoivent des changements eux-mêmes, ils les reconnaissent, en sont clairement très heureux et parlent de «&#160;cure miracle&#160;». Les sentiments de pesanteur, de fatigue, d’asthénie, d’oppression, de tension interne, de rigidité ou d’inquiétude se relâchent. Les malades se sentent à nouveau libres, l’inhibition de la pensée et du comportement diminue, les pensées et les activités reviennent. Une humeur triste, opprimée, désespérée ou anxieuse devient neutre-insouciante ou discrètement enjouée, avec le sentiment de retrouver la santé et une force croissante&#160;; les sentiments pathologiques de culpabilité, les idées de ruine et de péché disparaissent simplement ou perdent leur impact émotionnel, paraissent plus lointaines, le malade leur est plus indifférent. Une pulsion suicidaire disparaît parfois brusquement&#160;! Si le sommeil était perturbé dans le cadre de la symptomatologie dépressive, il se normalise rapidement, sans faire recours à des hypnotiques, même dans les cas qui n’avaient pas montré de réponse aux somnifères usuels. Les «&#160;rêves pesants&#160;» que racontent parfois les dépressifs, rêves de sang, de corps morts, d’accidents horribles ou de tortures cruelles, souvent associés à une terrible angoisse, n’apparaissent plus sous traitement. L’aggravation matinale et les autres variations diurnes de l’état dépressif disparaissent rapidement. S’il y avait un manque d’appétit, il s’améliore également, de même parfois pour une constipation spécifiquement liée à l’état dépressif. (Kuhn, 1957, p.&#160;1136)<note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> Nous traduisons.</p>
+          </note>
+        </q>
+                <p xml:id="d1e357">L’article de Kuhn est complexe. Il inclut des observations psychopathologiques, où il relève que la molécule est plus efficace dans les cas qu’il considère comme «&#160;endogènes&#160;»<note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> La distinction entre dépression endogène et dépression réactionnelle a disparu depuis le DSM-III, après des débats assez vifs et qui mériteraient peut-être d’être repris.</p>
+          </note>, et des considérations épistémologiques, parfois assez poussées, ainsi que la description chimique de la molécule, et une discussion de ses liens avec la chlorpromazine et de ses effets secondaires. Il s’agit à nouveau d’une évocation synthétique, dans laquelle Kuhn s’intéresse aux symptômes qu’il considère comme les plus importants dans la dépression «&#160;endogène&#160;», à savoir l’aspect psychomoteur au sens large, l’élan vital, et les ruminations classiques des états mélancoliques<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> On peut relever à ce propos que la tristesse et son éventuelle disparition n’y occupent guère de place.</p>
+          </note>.</p>
+                <p xml:id="d1e367">Ces quatre articles ont beaucoup en commun&#160;: une description clinique soigneuse mais peu systématique, sans procédure définie, et une approche descriptive, qui laisse une large part à l’appréciation subjective du clinicien et, dans les deux derniers cas, une place accordée aux patients eux-mêmes, cités directement ou indirectement. La démonstration de l’efficacité des molécules testées repose ainsi sur ce type de description et ne fait appel à aucune procédure statistique. Elle se révèle largement favorable à ces nouvelles molécules dont l’impact sur les pathologies les plus sévères de l’asile psychiatrique est montré comme impressionnant. À les regarder avec les considérations en vigueur aujourd’hui avec la médecine des preuves, ces études ne répondent pas aux exigences contemporaines, non seulement sur le plan méthodologique, mais aussi sur le plan formel. En effet, dans le paradigme de l’EBM, le résultat qu’apporte l’article scientifique est considéré comme devant être accessible sans que l’auteur dudit article ne s’interpose entre le lecteur et la connaissance «&#160;objective&#160;» qu’il cherche à apporter, comme l’illustrent ces recommandations très normatives récemment publiées sur «&#160;l’écriture scientifique&#160;». On peut y voir l’idéal d’une écriture désubjectivée<note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> Nous renvoyons ici aux travaux dans le domaine Science and Technology Studies, notamment Knorr-Cetina (1981), Latour (1985, 1987) ou encore Bazerman (1988). Un apport spécifique de la lecture proposée ici est de corréler «&#160;manière de rendre compte de la preuve&#160;» et «&#160;recherche clinique&#160;».</p>
+          </note>&#160;:</p>
+                <q rend="quotation">Une œuvre littéraire romanesque a, pour l’auteur, comme ambition de faire passer des émotions, des idées, des sentiments, parfois des connaissances au travers de personnages ou de situations plus ou moins inventés. […] Les qualités d’écriture de [l’auteur] ayant un rôle prépondérant pour la bonne transmission de tous ces éléments.<lb/>La littérature scientifique est à l’opposé de tout cela. Aucune émotion ne doit exister dans un article scientifique. Un auteur scientifique ne regrette pas, il ne déplore pas ou ne s’attriste pas d’un résultat. Les mots «&#160;hélas&#160;», «&#160;heureusement&#160;» ou «&#160;par bonheur&#160;» n’ont pas leur place dans la littérature scientifique. Celle-ci ne doit apporter qu’une connaissance objective. Le lecteur ne doit pas se poser la question de savoir ce que l’auteur a bien pu vouloir dire […]<lb/>James Farfor, un médecin écossais, a comparé la lecture scientifique à un aquarium&#160;: la vitre représente la forme et le contenu de l’aquarium, le fond. Si la vitre n’est pas claire le contenu est opaque. Si la vitre est parfaitement transparente, l’intérieur est bien visible. Si un article est mal rédigé son contenu même intéressant est difficile à saisir. Au contraire, correctement rédigé le contenu d’un article est plus facilement assimilable. (Cannac, Viargues et Dot, 2010, p.&#160;4)</q>
+                <p xml:id="d1e379">Pour Cannac et ses collègues, il y aurait sans doute «&#160;trop de littérature&#160;» chez Cade et ses collègues, pour que leurs arguments soient aujourd’hui considérés comme présentés de manière adéquate au style «&#160;scientifique&#160;»&#160;: des résultats décrits comme très probants, certes, mais peu de rigueur, peu de procédure explicite, pas de statistiques, et ce dans des revues bien modestes. Les publications scientifiques des décennies suivantes vont voir progressivement ces caractéristiques s’inverser.</p>
+            </div>
+            <div type="div1" xml:id="d1e381">
+                <head subtype="level1" xml:id="d1e382">Temps 2. Randomiser, mesurer, comparer</head>
+                <p xml:id="d1e384">Les molécules découvertes durant les années&#160;1950 vont s’imposer progressivement dans la clinique, mais non sans controverses. Le lithium, en particulier, se heurte à un scepticisme durable, quant à son efficacité tant thérapeutique que prophylactique (Blackwell et Shepherd, 1968). De nombreux détracteurs américains et britanniques du lithium mettent en doute les résultats de Cade et de ceux qui l’ont suivi, notamment des psychiatres scandinaves. Ces débats s’inscrivent plus généralement dans le contexte de l’émergence de l’essai randomisé contrôlé comme seul dispositif permettant d’établir véritablement l’efficacité d’une molécule (Meldrum, 2000). Une conférence donnée à l’école de médecine de Harvard en 1952 par A.&#160;B.&#160;Hill<note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p> Hill est un statisticien anglais connu pour avoir dirigé ce qui est considéré classiquement comme le premier essai randomisé contrôlé sur l’efficacité de la streptomycine dans la tuberculose.</p>
+          </note> (1952) illustre bien la position des «&#160;réformateurs&#160;»<note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p> Le terme a été proposé par Harry Marks pour décrire les acteurs disparates d’un mouvement qui a cherché à utiliser l’expérimentation contrôlée pour «&#160;diriger la pratique médicale&#160;» selon des principes «&#160;scientifiques&#160;».</p>
+          </note>. Comme H.&#160;Marks (1997) l’a montré, ces exigences méthodologiques procèdent d’une triple méfiance à l’égard des cliniciens quant à (1)&#160;leurs théories sur la physiopathologie et le mode d’action des molécules&#160;; (2)&#160;leur capacité à constituer des groupes de patients homogènes, sans biais de sélection<note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> <hi xml:lang="en">«&#160;[randomization] insures that neither our personal idiosyncrasies (our likes and dislikes consciously or unwittingly applies) nor our lack of balanced judgment has entered into the construction of the different treatment groups&#160;» (Hill, 1952, p.&#160;115).</hi>
+            </p>
+          </note>&#160;; (3)&#160;leur capacité à évaluer de façon fiable<note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> <hi xml:lang="en">«&#160;[…] we turn first to measurable characteristics […] objective characteristics must be sought and are usually found in such features as the duration of fever, the level of the blood sedimentation rate and the presence of infecting organisms&#160;» (Hill, 1952, p.&#160;117).</hi>
+            </p>
+          </note> et objective<note type="standard" xml:id="ftn16" place="foot" n="16">
+            <p> <hi xml:lang="en">«&#160;[…] the judgments must be made without any possibility of bias […] In other words, the assessment must, whenever possible, be “blind” –&#160;the assessing physician must not know the treatment of the patient&#160;» (Hill, 1952, p.&#160;118).</hi>
+            </p>
+          </note> l’action de la molécule. En raison de l’effet placebo, le compte rendu par les patients est considéré comme potentiellement biaisé en faveur du traitement et le patient doit donc lui aussi rester dans l’ignorance de ce qu’il reçoit (la procédure est dite «&#160;en double aveugle&#160;», <hi rend="italic">double-blind</hi> en anglais&#160;: clinicien et patient ignorent si c’est la molécule testée ou la molécule contrôle que le patient reçoit)<note type="standard" xml:id="ftn17" place="foot" n="17">
+            <p> <hi xml:lang="en">«&#160;[…] complete ignorance in both patient and doctor of the treatment actually given [is] essential.&#160;» (Hill, 1952, p.&#160;118).</hi>
+            </p>
+          </note>. En d’autres termes, les études de Cade, Kuhn et les autres, fondées sur l’observation directe et minutieuse de patients sélectionnés par l’investigateur lui-même, sur des bases peu explicites et sans groupe contrôle illustrent tout ce qu’il ne faut pas faire aux yeux de des «&#160;réformateurs&#160;», dont les efforts visent à faire de la médecine en général et de la psychiatrie en particulier une pratique «&#160;scientifique&#160;», supposée pouvoir être libérée des croyances et idiosyncrasies des cliniciens, ou encore de l’influence des firmes pharmaceutiques. Comme nous l’avons mentionné dans l’introduction, le développement des essais randomisés contrôlés implique davantage que les questions méthodologiques qu’il semble simplement venir résoudre. Entre autres perspectives possibles, citons&#160;: l’émergence d’une nouvelle catégorie d’experts issus de l’épidémiologie et de la statistique, avec les luttes de pouvoir et de prestige au sein du monde médical en général et académique en particulier (Marks, 1997), et l’importance d’acteurs non médicaux comme les autorités de régulation, l’industrie pharmaceutique et divers groupes de pression de la société civile (Gaudillière, 2006). Il pose aussi de nombreux problèmes épistémologiques, notamment sur la question de ce qui vaut pour preuve. Pour notre propos, ce qui importe néanmoins est qu’il se soit imposé en médecine.</p>
+                <p xml:id="d1e422">Les premiers essais incluant une forme de randomisation, utilisant un placebo et cherchant à documenter de façon plus méthodique l’évolution clinique des patients traités furent laborieux. Mogens Schou, un psychiatre danois qui s’intéresse beaucoup au lithium, publie en 1954 une étude portant sur trente-huit patients maniaques, dont il évalue l’état clinique par une gradation de 1 à 3 des niveaux émotionnel et moteur (Schou, Juel-Nielsen, Stromgren et Voldby, 1954). Dans certains cas, le traitement est donné de façon ouverte, dans d’autres cas les patients reçoivent soit du lithium soit un placebo, sur une durée «&#160;d’habitude&#160;» de deux semaines. L’article comprend des schémas d’évolution pour quatorze patients considérés comme représentatifs, qui mettent en évidence de manière graphique l’effet du lithium, et l’absence d’effet du placebo, sur les symptômes. La durée d’observation et la procédure expérimentale sont encore très variables d’un patient à l’autre, mais cette étude adopte bien les prémisses des principes de l’essai randomisé contrôlé devenus aujourd’hui standards). Il implique un contrôle des «&#160;biais&#160;» attribués aux cliniciens, par la randomisation et leur ignorance du traitement réellement reçu par les patients, ainsi que des procédures explicites pour déterminer qui sont les patients inclus dans l’étude, mesurer de façon numérique l’évolution clinique et juger du résultat final par un test statistique sur les résultats chiffrés.</p>
+                <p xml:id="d1e424">L’étude de Robert&#160;F. Prien et Jonathan O. Cole (1968) est l’une des premières études que nous avons trouvée qui adopte une stratégie explicite sur chacun de ces points, sauf le diagnostic. Ils mènent ce projet pour le compte du National Institute of Mental Health (l’autorité américaine pour la recherche en psychiatrie), dans sept hôpitaux psychiatriques publics, et l’étude sera publiée dans la principale revue de psychiatrie de l’époque. Elle vise avant tout à clarifier la question du dosage utile de la chlorpromazine dans le traitement de la schizophrénie. Les auteurs commencent leur article en posant sept questions, tout à fait spécifiques&#160;:</p>
+                <q rend="quotation">1.<hi xml:lang="en">&#160;</hi>Is a high dose of 2,000&#160;mg of chlorpromazine administered over a prolonged period of time more effective than the low dose of 300&#160;mg typically used in the treatment of chronic schizophrenia?<lb/>2.<hi xml:lang="en">&#160;</hi>Is high dose chlorpromazine more advantageous than treatment routinely administered to the chronic schizophrenic in the public mental hospital?<lb/>3.<hi xml:lang="en">&#160;</hi>Are the two dose levels of chlorpromazine and the routine hospital treatment more effective than an inert placebo?<lb/>4.<hi xml:lang="fr">&#160;</hi>Do the treatments operate differentially on specific schizophrenic symptoms? For example, is high dose more effective than low dose in reducing delusional thinking?<lb/>5.<hi xml:lang="en">&#160;</hi>Is there a type of patient who responds to one treatment and not to another?<lb/>6.<hi xml:lang="en">&#160;</hi>What proportion of chronic patients show an exacerbation of symptoms following withdrawal of regular medication and initiation of placebo?<lb/>7.<hi xml:lang="en">&#160;</hi>Are there differences between treatments in the nature and/or frequency of side effects? (Prien et Cole, 1968, p.&#160;483)</q>
+                <p xml:id="d1e463">Il vaut la peine de décrire par le détail le protocole adopté qui deviendra bientôt un standard. L’étude est ambitieuse et porte sur huit cent trente-huit patients. L’article décrit soigneusement la procédure. L’échantillon remplit les critères suivants&#160;: diagnostic primaire de schizophrénie&#160;; présence de symptômes actifs (dans au moins une de six catégories spécifiées&#160;: troubles des perceptions, pensée délirante, etc.)&#160;; âge de&#160;19&#160;à 55&#160;ans&#160;; hospitalisation continue d’au moins deux ans,&#160;<hi rend="italic">i.&#160;e</hi>.&#160;sans interruption dépassant huit semaines (critères d’inclusion)&#160;; pas de signe de maladie cérébrale organique (y compris la lobotomie), ni de retard mental (QI en dessous de&#160;70), ou de contre-indications médicales à l’utilisation de hautes doses (critères d’exclusion). Les patients ont ensuite été répartis au hasard («&#160;randomized&#160;») entre quatre groupes de traitement&#160;: «&#160;haute dose&#160;», «&#160;basse dose&#160;», «&#160;placebo&#160;», «&#160;traitement de routine&#160;». Après huit semaines, les patients des trois premiers groupes changeaient de traitement («&#160;switch&#160;»). L’évaluation est faite à l’aide d’échelles spécifiques ayant elles-mêmes fait l’objet de développements et de publications spécifiques. Les échelles sont remplies par les psychiatres («&#160;Inpatient Multidimensional Psychiatric Scale&#160;», 81&#160;items psychopathologiques), les infirmiers («&#160;Nurse’s Observation Scale for Inpatient Evaluation&#160;», 80&#160;items décrivant le comportement du patient dans le service) et les assistants sociaux («&#160;Discharge Readiness Inventory&#160;», 62&#160;items évaluant dans quelle mesure un patient est prêt à quitter l’hôpital). Les psychiatres&#160;remplissaient également une évaluation globale de sévérité et d’amélioration cliniques (sur deux échelles de 1 à 7) et une évaluation des effets secondaires en 40&#160;items. Les résultats sont présentés sous la forme de tableaux assez complexes, compte tenu du nombre de groupes et d’instruments et de sous-analyses en fonction de l’âge et de la durée d’hospitalisation. Les résultats thérapeutiques sont pourtant peu impressionnants sur l’ensemble du collectif&#160;: 10&#160;% de patients avec une amélioration marquée dans le groupe «&#160;haute dose&#160;», contre 6&#160;% dans le groupe «&#160;basse dose&#160;» et 3&#160;% dans les deux derniers, par exemple). L’étude conclut à la supériorité de hautes doses de chlorpromazine.</p>
+                <p xml:id="d1e468">L’article de Prien et Cole n’a ainsi pas grand-chose en commun avec les études des pionniers de la psychopharmacologie. Les auteurs ne connaissent pas les patients&#160;; une procédure explicite doit garantir que le projet puisse se dérouler, dans des conditions relativement similaires, dans sept établissements différents&#160;; le jugement final n’est prononcé ni par les cliniciens ni par les patients, mais par l’opération d’un calcul statistique. Les années qui suivent seront marquées par l’intégration de nombreuses méthodes d’évaluation psychométriques, puis de procédures diagnostiques qui se standardiseront elles aussi, fondées sur l’approche opérationnelle développée par le groupe de l’Université de Washington à Saint-Louis et reprise par le DSM-III (Schwartz et Wiggins, 1986).</p>
+                <p xml:id="d1e470">Il faut toutefois relever que la plupart des essais randomisés contrôlés sont nettement plus simples que l’étude de Prien et Cole. Un exemple parmi d’innombrables autres, l’étude de J.&#160;B.&#160;Cohn et C.&#160;Wilcox publiée en 1985 dans une importante revue de psychiatrie visant à comparer la fluoxétine (la molécule du Prozac® et de la Fluctine®) à l’imipramine et un placebo (Cohn et Wilcox, 1985). Les critères d’inclusion précisent que les patients ont été diagnostiqués «&#160;selon les critères du DSM-III&#160;», une formule désormais canonique dans son contenu<note type="standard" xml:id="ftn18" place="foot" n="18">
+            <p> Cette formule peut légèrement varier dans la forme&#160;: trouble ou patient «&#160;remplissant les critères du DSM-III ou IV ou de l’ICD-10&#160;», etc.</p>
+          </note>. Dans les années suivantes, l’étape diagnostique sera souvent encore plus explicite&#160;: les chercheurs sont invités à établir les diagnostics à l’aide d’&#160;«&#160;instruments&#160;» validés<note type="standard" xml:id="ftn19" place="foot" n="19">
+            <p> Par exemple&#160;: Composite International Diagnostic Interview (CIDI), Structured Clinical Interview for DSM-IV (SCID), etc.</p>
+          </note>, c’est-à-dire que l’on juge l’évaluation clinique, même référée aux critères DSM-III ou IV, insuffisamment rigoureuse pour être considérée comme scientifique. Comme dans l’étude de Prien et Cole, l’efficacité se mesure sur des échelles psychométriques spécifiques<note type="standard" xml:id="ftn20" place="foot" n="20">
+            <p> Par exemple&#160;: Hamilton Depression Scale (HAM-D), Beck Depression Inventory (BDI), Young Mania Scale (YMS), Positive and Negative Syndrome Scale (PANSS), Brief Psychiatric Rating Scale (BPRS), etc.</p>
+          </note>, largement utilisées et reconnues<note type="standard" xml:id="ftn21" place="foot" n="21">
+            <p> On parle généralement d’échelles «&#160;validées&#160;». Notons que les échelles psychométriques soulèvent de nombreuses questions épistémologiques que nous ne pouvons pas aborder ici.</p>
+          </note>. Sous cette forme idéale, l’essai randomisé contrôlé est un texte simple, illustré de deux ou trois figures ou tableaux eux aussi plutôt simples&#160;–, dont le contenu varie peu. À l’instar des sciences de la nature, selon un standard qui s’est largement généralisé, toutes ces études respectent un même canevas formel&#160;: résumé, introduction, méthode, résultat, discussion. Elles sont rapidement lues et aisées à comprendre.</p>
+            </div>
+            <div type="div1" xml:id="d1e488">
+                <head subtype="level1" xml:id="d1e489">Temps<hi xml:lang="fr">&#160;</hi>3. La guerre des molécules, la guerre des compagnies</head>
+                <p xml:id="d1e494">La fin des années&#160;1980 est marquée, d’une part, par le triomphe assez inattendu du DSM-III<note type="standard" xml:id="ftn22" place="foot" n="22">
+            <p> Le DSM-III était un projet ambitieux, dont les auteurs espéraient qu’il aurait un impact majeur sur la clinique et la recherche psychiatrique, mais l’ampleur de son succès a surpris la profession et sans doute les auteurs eux-mêmes.</p>
+          </note>, qui prend une importance dans la clinique, l’enseignement et la recherche que les deux éditions précédentes n’avaient jamais eue&#160;; ce succès touche aussi de nouveaux publics, au-delà du cercle des psychiatres spécialistes. On assiste, d’autre part et de manière concomitante, à l’arrivée sur le marché de la fluoxétine<note type="standard" xml:id="ftn23" place="foot" n="23">
+            <p> Si la fluoxétine n’est pas chronologiquement le premier de la classe des inhibiteurs spécifiques de la recapture de la sérotonine, elle en est le chef de file incontesté.</p>
+          </note>, un nouvel antidépresseur qui rencontre un succès stupéfiant sous le nom de Prozac®. À la croisée de ces deux phénomènes, la psychiatrie fait ainsi une entrée assez remarquable sur la scène publique. D’un côté, la littérature scientifique, dans laquelle on publie essentiellement des essais cliniques assez simples contre placebo ou contre des psychotropes plus anciens, cherche à démontrer l’efficacité des nouvelles molécules contre la dépression et la schizophrénie&#160;; d’un autre, s’affirme une littérature plus «&#160;laïque&#160;» qui commente le succès du Prozac®<note type="standard" xml:id="ftn24" place="foot" n="24">
+            <p> Par exemple, le Prozac® est considéré comme une «&#160;wonder drug&#160;» par le New York Magazine, qui annonce qu’on peut désormais dire «&#160;bye-bye, blues&#160;» (Schumer, 1989).</p>
+          </note> et vante volontiers les progrès supposés de la psychiatrie contemporaine (Schumer, 1989). Dans ce climat que l’on peut qualifier d’enthousiaste, le marché des psychotropes se développe de manière notoire<note type="standard" xml:id="ftn25" place="foot" n="25">
+            <p> Relevons par exemple que 5&#160;% des femmes américaines âgées de 45 à 64&#160;ans ont pris un antidépresseur au cours d’un mois donné dans les années 1988-1994, contre 22&#160;% pour la période 2005-2008 (National Center for Health Statistics, 2011).</p>
+          </note>. Les acteurs politiques, individuels et institutionnels, ne sont pas insensibles à ce climat&#160;: le président américain G.&#160;Bush déclare les années&#160;1990 à 2000 «&#160;décennie du cerveau&#160;» et annonce un ambitieux programme de recherche neuroscientifique devant permettre de développer de nouvelles méthodes de traitement et de prévention pour les maladies neurodégénératives comme la maladie de Parkinson, les traumatismes du système nerveux, les crises épileptiques et les troubles dépressifs.</p>
+                <p xml:id="d1e512">Au terme de cette «&#160;décennie du cerveau&#160;», les cliniciens disposent de deux «&#160;nouvelles générations&#160;» de psychotropes&#160;: les inhibiteurs sélectifs de la recapture de la sérotonine (SSRIs) et de la noradrénaline (SNRIs), ainsi que les antipsychotiques atypiques et quelques «&#160;cousins pharmacologiques&#160;». Des études cliniques ont fait la preuve contre placebo de l’efficacité de ces molécules, mais avec pour principal avantage comparatif, moins un gain important en termes d’efficacité qu’un avantage au niveau de leurs effets secondaires<note type="standard" xml:id="ftn26" place="foot" n="26">
+            <p> Il y aura par la suite des surprises désagréables quant à l’efficacité (mise en doute en raison du biais de publication, sur lequel nous reviendrons brièvement) aussi bien que pour ce qui est des effets secondaires (avec notamment un scandale de l’olanzapine, dont le risque diabétogène a été dissimulé par le fabriquant EliLilly, condamné à de lourdes amendes).</p>
+          </note>. Ces études n’ont cependant pas permis de comparer ces produits entre eux, qui paraissent d’une efficacité très similaire. Dans ce contexte, le National Institute of Mental Health finance quatre grandes études, ambitieuses et coûteuses, afin de déterminer les meilleures stratégies thérapeutiques parmi les nouvelles options, ce dans des conditions qui se rapprochent au mieux du «&#160;monde réel&#160;» («&#160;real-world studies&#160;»). Trois pathologies psychiatriques majeures seront ainsi ciblées&#160;: le trouble bipolaire (étude STEP-BD), la dépression (études STAR*D et TADS) et la schizophrénie (étude CATIE) (National Institute of Mental Health, 2006).</p>
+                <p xml:id="d1e518">Nous présentons ici à titre d’exemple l’étude CATIE (Clinical Antipsychotic Trials of Intervention Effectiveness), menée pour «&#160;déterminer les effets à long terme et l’utilité des médications antipsychotiques chez les personnes avec une schizophrénie […] qui pourraient bénéficier d’un changement de médication&#160;» (ClinicalTrials Feeds, 2006)<note type="standard" xml:id="ftn27" place="foot" n="27">
+            <p> Nous traduisons.</p>
+          </note>. Son objectif est de déterminer la meilleure stratégie thérapeutique lorsqu’un antipsychotique se révèle inefficace ou mal toléré, et ceci dans des conditions se rapprochant de celles de la pratique clinique habituelle. CATIE est un projet complexe, sophistiqué sur le plan méthodologique&#160;: 1&#160;493&#160;sujets ont été inclus et ont, dès lors, reçu un antipsychotique, choisi au hasard parmi quatre nouveaux («&#160;atypiques&#160;») et un ancien («&#160;classique&#160;»)&#160;; les sujets ont ensuite été suivis sur 18&#160;mois. Sur le plan de l’efficacité clinique des traitements, on peut considérer les résultats de cette étude comme extrêmement décevants&#160;: 74&#160;% des sujets ont interrompu leur traitement dans un délai moyen de moins de quatre mois<note type="standard" xml:id="ftn28" place="foot" n="28">
+            <p> La mesure d’efficacité choisie était la suivante&#160;: plus faible était le taux d’interruption ou, à défaut, plus longue était la durée jusqu’à l’interruption, meilleure serait considérée la molécule.</p>
+          </note> (Lieberman, Stroup, McEvoy <hi rend="italic">et&#160;al.</hi>, 2005). Mais surtout, cette étude n’est pas parvenue à démontrer de différences notables entre les divers produits, notamment entre les atypiques et le médicament classique, ce qui était son objectif principal. CATIE a ainsi été une surprise pour les cliniciens et une déception pour les entreprises pharmaceutiques commercialisant ces nouveaux antipsychotiques. Les résultats des études STAR*D pour la dépression et STEP-BD pour le trouble bipolaire<note type="standard" xml:id="ftn29" place="foot" n="29">
+            <p> Les deux études sont différentes dans la façon dont elles sont construites, mais cherchent à répondre au même type de questions.</p>
+          </note> ont été elles aussi décevantes sur le plan de l’efficacité des molécules, et ne sont pas parvenues à les départager.</p>
+                <p xml:id="d1e535">Les nombreux articles qui rendent comptent de ces études apparaissent ainsi bien plus complexes que les simples essais randomisés contrôlés des décennies précédentes, tant au plan méthodologique qu’au niveau des résultats, sont désormais présentés dans de grands tableaux difficiles à lire, même pour les professionnels, et fatalement incomplets tant la quantité d’informations est importante, rendant aux auteurs l’exhaustivité impossible<note type="standard" xml:id="ftn30" place="foot" n="30">
+            <p> Le tableau des résultats principaux de CATIE comprend plus de 70&#160;lignes et s’étend sur deux pleines pages, avec 11&#160;notices explicatives quant à divers sigles utilisés (Lieberman, Stroup, McEvoy et&#160;al., 2005).</p>
+          </note>.</p>
+                <p xml:id="d1e541">Si la simple lecture de ces résultats est peu aisée pour le clinicien, leur appréciation l’est plus encore, et ce d’autant plus qu’ils sont volontiers présentés sous un «&#160;jour flatteur&#160;». Il est à cet égard intéressant de rapporter l’éditorial accompagnant la principale publication sur CATIE, parue dans une prestigieuse revue&#160;:<hi xml:lang="fr"> </hi>
+        </p>
+                <q rend="quotation">The value of CATIE is that it provides solid evidence to help clinicians and their patients make the difficult decisions needed to optimize the treatment of schizophrenia with the compounds currently available. (Freedman, 2005, p.&#160;1288)</q>
+                <p xml:id="d1e547">Cette présentation de CATIE est particulièrement problématique dans la mesure où, comme nous l’avons montré (Saraga et Stiefel, 2011), elle a précisément échoué à déterminer quelle était la meilleure des stratégies cliniques, en montrant au contraire qu’elles étaient toutes également assez médiocres.</p>
+                <p xml:id="d1e549">Après cet échec relatif, apparaissent de nouvelles façons d’aborder cette même question de la détermination comparative de la meilleure molécule pour des pathologies données. Des procédures statistiques hautement sophistiquées permettent désormais de mettre les molécules concurrentes en situation de «&#160;compétition virtuelle&#160;», en intégrant dans le calcul toutes les études publiées les ayant comparées les unes aux autres en vue de produire pour résultat un classement d’efficacité. La prestigieuse revue <hi rend="italic">Lancet</hi> a ainsi publié en 2009 une étude qui conclut à la supériorité de l’escitalopram et de la sertraline (deux SSRI, <hi rend="italic">i.e.</hi>&#160;des «&#160;cousins&#160;» de la fluoxétine) sur leurs concurrents (Cipriani, Furukawa, Salanti <hi rend="italic">et&#160;al.</hi>, 2009). Mais force est de constater que ce genre de conclusion reste problématique&#160;: l’avantage démontré est pour le moins marginal et il faut garder à l’esprit qu’il s’agit du résultat d’un calcul complexe rendu nécessaire par l’absence d’études cliniques concluantes sur la question. Cette procédure dite «&#160;multiple-treatments meta-analysis&#160;»<note type="standard" xml:id="ftn31" place="foot" n="31">
+            <p> La méta-analyse est une méthode statistique permettant de regrouper plusieurs études (typiquement des essais randomisés contrôlés), chercher à les uniformiser et produire ainsi une sorte de super-étude dont la force réside dans le nombre (puisqu’elle s’appuie sur tous les patients inclus dans les études individuelles), au prix de difficultés méthodologiques variées. L’idée est de répondre ainsi à des questions qui restent controversées en dépit des études déjà publiées. C’est aussi une manière commode de publier une étude sans avoir à recruter de patients, puisque l’objet de la méta-analyse est constitué d’autres études (on commence à voir paraître des méta-analyses de méta-analyses). En principe, c’est l’essai randomisé contrôlé qui est la meilleure preuve selon EBM, mais lorsque ceux-ci sont en désaccord, c’est la méta-analyse. La première méta-analyse dans Pubmed date de 1988&#160;; on en compte plus de 9&#160;000 en 2012, et le nombre est exponentiel. L’étude de Cipriani emploie une méthode considérablement plus complexe qu’une méta-analyse standard.</p>
+          </note> pose de nombreux autres problèmes parmi lesquels des biais de publication, l’inclusion d’études sponsorisées, l’absence de prise en compte des doses, ou encore des résultats formulés comme un classement à la signification réelle douteuse puisque la procédure statistique implique que chaque molécule trouve son rang même avec un faible degré de certitude. De plus, les résultats figurent sur des tableaux devenus difficilement compréhensibles<note type="standard" xml:id="ftn32" place="foot" n="32">
+            <p> Nous renvoyons le lecteur à la publication en question pour apprécier la complexité du tableau des résultats.</p>
+          </note> par un clinicien et la procédure statistique dépasse quant à elle de très loin les compétences ordinaires d’un non-statisticien.</p>
+                <p xml:id="d1e568">Le même groupe de recherche a publié en 2011 une étude similaire sur le traitement des épisodes maniaques dont l’un des résultats marquants était la mauvaise performance du lithium qui, en termes d’efficacité, en ressortait comme nettement inférieur à certains antipsychotiques (Cipriani, Barbui, Salanti <hi rend="italic">et&#160;al.</hi>, 2011). Le niveau de compétence statistique nécessaire à la lecture critique de cette étude est tel qu’il faut un effort considérable et la consultation de la centaine de pages annexées sur Internet pour comprendre que la faible performance du lithium résulte en fait de deux études qui lui sont défavorables&#160;: une déjà ancienne contre l’halopéridol (7&#160;patients dans chaque groupe) et une plus récente, contre l’halopéridol et la rispéridone (15&#160;patients dans chaque groupe)<note type="standard" xml:id="ftn33" place="foot" n="33">
+            <p> L’halopéridol est un antipsychotique classique, connu depuis les années 1960&#160;; la rispéridone est un antipsychotique «&#160;atypique&#160;», encore sous licence à l’époque de la parution de cette étude la comparant au lithium et à un placebo. Cette dernière étude est sponsorisée par le fabriquant de la rispéridone&#160;; néanmoins, selon les auteurs, ni l’halopéridol ni la rispéridone ne sont significativement supérieurs au lithium. Mais selon les calculs de Cipriani et&#160;al., la rispéridone et l’halopéridol sont plus efficaces que le lithium.</p>
+          </note>. Ces deux études ne regroupent finalement que 59&#160;patients. En tout, l’analyse de Cipriani <hi rend="italic">et&#160;al.</hi> a inclus 68&#160;essais randomisés contrôlés pour un total de plus de 16&#160;000&#160;patients&#160;; 15&#160;autres études comparant le lithium à un antipsychotique ou un autre stabilisateur de l’humeur étaient incluses dans l’analyse, et elles étaient toutes soit favorables au lithium soit neutres. Par exemple, la comparaison entre le lithium et le valproate, un antimaniaque tout à fait reconnu, était nettement favorable au lithium. Ces 59&#160;patients devaient pourtant peser bien lourd d’un point de vue statistique, puisqu’au terme de la procédure, le lithium est jugé inférieur, en termes d’efficacité, à l’halopéridol, la rispéridone et l’olanzapine, trois antipsychotiques. Sur cette base, les auteurs concluent que les recommandations cliniques devraient être révisées, notamment en retirant au lithium sa place de traitement de première ligne de l’état maniaque. D’un point de vue clinique, on peut rester sceptique devant cette injonction à écarter de la pratique une molécule aussi éprouvée que le lithium, quelle que soit la sophistication statistique de l’étude.</p>
+                <p xml:id="d1e580">Ces dix dernières années sont aussi marquées par une concurrence très rude entre les firmes pharmaceutiques pour un marché en expansion. Il apparaît clairement que de nombreuses études relèvent autant d’enjeux commerciaux que scientifiques ou cliniques, malgré leur sophistication technique. Car pour entrer sur le marché, une nouvelle molécule doit désormais faire la preuve de son efficacité face à ses «&#160;concurrents&#160;», preuve construite notamment par des moyens statistiques. Et en la matière il existe de nombreuses façons de favoriser un produit contre un autre, certaines plus subtiles que d’autres. La plus classique consiste à choisir une dose trop faible du comparateur, c’est-à-dire de la molécule adversaire. Il arrive ainsi souvent que les grandes études complexes que nous avons décrites soient exploitées par les industriels pour mettre en avant leur produit en insistant sur un aspect spécifique qui lui a été favorable (même si ces études sont relativement irréprochables quant à leur indépendance par rapport aux firmes impliquées). En d’autres termes, l’industrie fait également un usage situé et intéressé des résultats produits. Ce point vaut la peine d’être illustré. L’étude CATIE a montré une durée de traitement légèrement plus longue sous olanzapine, ce que son fabricant, Elli-Lilly, n’a pas manqué de souligner, mais aussi une prise de poids moindre sous quetiapine, ce que les représentants d’AstraZeneca, qui la produit, rappellent volontiers. Quant à l’étude de la revue <hi rend="italic">Lancet</hi> sur les antidépresseurs, elle est toujours citée par le délégué de médical de Janssen-Cilag, qui insiste sur le bon résultat de l’escitalopram, sous patente, sans trop s’attarder sur le résultat équivalent de la sertraline, dont la patente est échue depuis plusieurs années déjà.</p>
+                <p xml:id="d1e586">Les firmes pharmaceutiques doivent aussi lutter contre la concurrence des génériques, une fois la licence d’une molécule échue. Une manière de le faire est d’agir sur la forme galénique<note type="standard" xml:id="ftn34" place="foot" n="34">
+            <p> La galénique désigne l’art de composer le médicament à partir de la molécule de base&#160;: il peut exister plusieurs «&#160;formes galéniques&#160;» d’une même molécule (e.g.,&#160;sirop, comprimé, suppositoire, injection intramusculaire, etc.). La galénique a un effet sur la cinétique du médicament, et on met parfois au point des «&#160;formes retard&#160;», qui permettent de réduire le nombre de prises quotidiennes.</p>
+          </note> pour conserver un marché acquis. Par exemple, la patente de la quetiapine (Seroquel®) est échue en mars&#160;2012. Depuis plusieurs années, en réponse aux exigences de la Food and Drug Adminstration, AstraZeneca sponsorise de nombreuses études montrant l’efficacité d’une «&#160;forme retard&#160;» de la molécule, le Seroquel XR®, dans des indications qui sont déjà bien établies pour le Seroquel® standard (par exemple, Cutler, Datto, Nordenhem <hi rend="italic">et&#160;al.</hi>, 2011). Le Seroquel XR® n’est pas plus efficace que le Seroquel® standard, ni que ses concurrents sur le marché des antipsychotiques&#160;; il se prend simplement une fois par jour au lieu de deux ou trois fois pour le Seroquel® standard. C’est certes là un avantage potentiel pour les patients, mais il est bien modeste –&#160;alors que l’enjeu pour la firme AstraZeneca, qui pourra conserver sous patente pendant plusieurs années la même molécule sous une forme galénique un peu différente, est majeur. Pour cette dernière, il s’agit de faire passer un maximum de patients à la forme retard afin d’anticiper sur l’extinction de la patente de la forme standard, qui donnera lieu aussitôt à la production de versions génériques, faisant ainsi fondre le chiffre d’affaires important du Seroquel®. La stratégie n’est pas difficile à comprendre mais reste que, face aux études sur le Seroquel XR®, le clinicien qui est aussi le prescripteur ne saisira que difficilement l’aspect essentiellement commercial d’une démarche qui suit toutes les règles méthodologiques constitutives de la fabrication des preuves scientifiques dans la médecine d’aujourd’hui.</p>
+                <p xml:id="d1e595">Terminons par un dernier point sur la question de l’implication de l’industrie dans la production de preuves. Au cours de ces dernières années, le rôle problématique du sponsoring est apparu de façon plus claire. Les universités ainsi que les organisations gouvernementales comme le National Institute of Mental Health aux États-Unis ou le Fonds National de la Recherche Scientifique en Suisse ont tendance à considérer que les études contre placebo relèvent plutôt de la responsabilité des firmes pharmaceutiques qui en exploitent les brevets. Le principal argument en la matière est que ces études exigées pour l’homologation se rapprochent davantage d’une étape dans le développement d’un produit commercial que d’un effort scientifique à part entière. Or le sponsoring d’études cliniques explique probablement en partie le phénomène du biais de publication, bien démontré pour les études sur les antidépresseurs. En effet, les études publiées sont dans leur grande majorité favorables aux molécules testées, alors que c’est l’inverse pour les études non publiées (Turner, Matthews, Linardatos, Tell et Rosenthal, 2008). Notons toutefois que, depuis 2005, de nombreuses revues scientifiques refusent de publier des études n’ayant pas été enregistrées au préalable, ce qui devrait permettre de corriger progressivement ce biais (De&#160;Angelis, Drazen, Frizelle <hi rend="italic">et&#160;al.</hi>, 2004).</p>
+            </div>
+            <div type="div1" xml:id="d1e600">
+                <head subtype="level1" xml:id="d1e601">Conclusion</head>
+                <p xml:id="d1e603">La psychopharmacologie est une discipline relativement jeune, dont l’histoire s’inscrit évidemment dans celle, plus large, de son temps, au carrefour d’évolutions et de contraintes multiples. Ses méthodes ont évolué avec celles de la recherche médicale en général, passant d’une approche essentiellement clinique centrée sur l’observation méticuleuse des patients à des méthodes d’analyse donnant lieu à des études dans lesquelles les patients sont désormais observés de loin, et leurs caractéristiques cliniques transformées en nombres et analysées par des chercheurs sans lien direct avec eux. Ce développement est celui de l’Evidence-Based Medicine. Elle s’est imposée comme le modèle contemporain d’une médecine qui revendique sa «&#160;scientificité&#160;» et, partant, considère avec une certaine méfiance ce que peut penser, observer et déduire le clinicien impliqué dans la prise en charge singulière de son patient. La force de conviction du nombre est sans doute à situer dans un contexte sociopolitique plus large. En psychopharmacologie, comme dans les sondages d’opinion, les grands nombres (Desrosières, 1993) emportent la conviction dans les approches méta-analytiques qui consistent <hi rend="italic">in fine</hi> à décider d’une vérité selon une forme de votation au cours de laquelle chaque étude voit son vote pondéré par le nombre de sujets qu’elle inclut et ce, sous le couvert d’une apparente lisibilité et le pouvoir de séduction qui lui est lié<note type="standard" xml:id="ftn35" place="foot" n="35">
+            <p> «&#160;Sit down, shut up and show me the numbers&#160;» est une sorte de dicton dans les milieux économiques qui s’appliquerait sans difficulté à la recherche clinique de ces dernières années.</p>
+          </note>. L’Evidence-Based Medicine soulève encore de nombreux problèmes philosophiques (par exemple, les implications de la numérisation de l’humain qu’elle exige pour appliquer ses principes statistiques), épistémologiques (par exemple, sa prétention à constituer la seule démarche scientifique en médecine, dont atteste l’extension sémantique de «&#160;evidence&#160;» vers la «&#160;preuve&#160;», alors que c’est une notion en anglais plus proche de «&#160;indice&#160;») et politiques (par exemple, proposer une démarche supposée scientifique et ainsi indemne d’enjeux politiques pour arbitrer les décisions cliniques –&#160;on voit ainsi se développer un mouvement nommé «&#160;Evidence-Based Policy&#160;» (Haynes, Service, Goldacre et Torgerson, 2012&#160;; Labrousse, 2010)). Notre propos est ici plus modeste, et vise seulement à discuter ce que les transformations formelles des articles médicaux laissent voir des remaniements plus vastes qu’implique ce mouvement.</p>
+                <p xml:id="d1e612">Le développement de l’Evidence-Baded Medicine va de pair, en psychopharmacologie tout du moins –&#160;et peut-être de plus en plus largement en médecine&#160;– avec une stérilité assez frappante de la recherche&#160;: les essais randomisés contrôlés apportent aux cliniciens un certain nombre d’informations utiles, mais fort peu de nouveautés thérapeutiques. Certains auteurs ont d’ailleurs discuté de l’existence d’un lien de causalité entre ces deux constats. D.&#160;F.&#160;Klein (2008) explique cette stérilité par la perte de la «&#160;sérendipité&#160;», cette disponibilité à se laisser toucher par un hasard heureux qui caractériserait les chercheurs cliniciens vigilant et ouverts des années&#160;1950-1960. Selon cet auteur, le phénomène serait lié au manque de temps, en particulier à la brièveté des séjours hospitaliers, mais aussi au modèle même de l’essai randomisé contrôlé dont l’approche par la moyenne s’oppose à un effort de compréhension de ce qui distingue entre eux les sujets répondant favorablement ou défavorablement à une molécule. Il propose d’ailleurs un autre modèle de recherche, plus proche des études de Cade, Kuhn, Delay, Deniker et Harl. D’autres critiques plus sophistiquées de l’approche randomisée contrôlée vont dans le même sens (par exemple et parmi bien d’autres, Jobe, Helgason et Roitberg, 2001&#160;; de Leon, 2012).</p>
+                <p xml:id="d1e614">Un dernier point d’inquiétude est lié à cette opacité plus récente des études, dont les résultats sont souvent présentés de façon péremptoire et dont l’éventuelle finalité commerciale reste évidemment discrète. Le clinicien, pour conserver une posture critique, doit désormais être doté de solides compétences épistémologiques et statistiques, et l’on peut douter que ce soit fréquemment le cas. En se contentant de suivre les recommandations de pratique clinique et les conclusions sommaires des grandes études, il pratiquera une médecine fondée sur des preuves dont la valeur probante est souvent discutable, mais finalement peu discutée.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e620">
+                <listBibl xml:id="d1e622">
+                    <bibl xml:id="d1e624">
+                        <hi xml:lang="en">Bazerman, C. (1988). </hi>
+                        <hi rend="italic">Shaping written knowledge: the genre and activity of the experimental article in science</hi>
+                        <hi xml:lang="en">. London: University of Wisconsin Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e631">
+            <hi xml:lang="en">Blackwell, B., &amp; Shepherd, M. (1968). Prophylactic lithium: another therapeutic myth? </hi>An examination of the evidence to date. <hi rend="italic">Lancet, 1</hi>(7549), 968-971.</bibl>
+                    <bibl xml:id="d1e638">
+            <hi xml:lang="en">Cade, J. F. (1949). Lithium salts in the treatment of psychotic excitement. </hi>
+            <hi rend="italic">Med J Aust, 2</hi>(10), 349-352.</bibl>
+                    <bibl xml:id="d1e644">Cannac, C., Viargues, P., &amp; Dot, D. (2010). L’écriture scientifique&#160;: approche et réflexions. <hi rend="italic">
+              <hi xml:lang="en">Revue d’Odonto-Stomatologie, 39</hi>
+            </hi>
+            <hi xml:lang="en">, 3-75.</hi>
+          </bibl>
+                    <bibl xml:id="d1e651">
+                        <hi xml:lang="en">Cipriani, A., Barbui, C., Salanti, G., Rendell, J., Brown, R., Stockton,&#160;S. </hi>
+                        <hi rend="italic">et&#160;al.</hi>
+                        <hi xml:lang="en"> (2011). Comparative efficacy and acceptability of antimanic drugs in acute mania: a multiple-treatments meta-analysis. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Lancet, 378</hi>
+                        </hi>
+                        <hi xml:lang="en">(9799), 1306-1315.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e663">
+                        <hi xml:lang="en">Cipriani, A., Furukawa, T. A., Salanti, G., Geddes, J. R., Higgins,&#160;J.&#160;P., Churchill,&#160;R. </hi>
+                        <hi rend="italic">et&#160;al.</hi>
+                        <hi xml:lang="en"> (2009). Comparative efficacy and acceptability of 12&#160;new-generation antidepressants: a multiple-treatments meta-analysis. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Lancet, 373</hi>
+                        </hi>
+                        <hi xml:lang="en">(9665), 746-758.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e675">
+                        <hi xml:lang="en">Cohn, J. B., &amp; Wilcox, C. (1985). </hi>
+                        <hi rend="italic">A comparison of fluoxetine, imipramine, and placebo in patients with major depressive disorder</hi>
+                        <hi xml:lang="en">.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e682">
+                        <hi xml:lang="en">Cutler, A. J., Datto, C., Nordenhem, A., Minkwitz, M., Acevedo,&#160;L., &amp; Darko,&#160;D. (2011). Extended-release quetiapine as monotherapy for the treatment of adults with acute mania: a randomized, double-blind, 3-week trial. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Clin Ther, 33</hi>
+                        </hi>
+                        <hi xml:lang="en">(11), 1643-1658.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e690">
+                        <hi xml:lang="en">De Angelis, C., Drazen, J. M., Frizelle, F. A., Haug, C., Hoey,&#160;J., Horton,&#160;R. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">et&#160;al.</hi>
+                        </hi>
+                        <hi xml:lang="en"> (2004). Clinical trial registration: a statement from the International Committee of Medical Journal Editors. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">N Engl J Med, 351</hi>
+                        </hi>
+                        <hi xml:lang="en">(12), 1250-1251.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e703">
+            <hi xml:lang="en">Delay, J., Deniker, P., &amp; Harl, J.-M. (1952a). </hi>Utilisation en thérapeutique psychiatrique d’une phénothiazine d’action centrale élective (4560 RP). <hi rend="italic">
+              <hi xml:lang="en">Ann Med Psychol, 110</hi>
+            </hi>
+            <hi xml:lang="en">(2), 112-117.</hi>
+          </bibl>
+                    <bibl xml:id="d1e713">
+            <hi xml:lang="en">Delay, J., Deniker, P., &amp; Harl, J.-M. (1952b). </hi>Traitement des états d’excitation et d’agitation par une méthode médicamenteuse dérivée de l’hibernothérapie. <hi rend="italic">Ann Med Psychol, 110</hi>(2), 267-273.</bibl>
+                    <bibl xml:id="d1e720">
+            <hi xml:lang="en">de Leon, J. (2012). Evidence-based medicine versus personalized medicine&#160;: are they enemies&#160;?&#160;</hi>
+            <hi rend="italic">J Clin Psychopharmacol, 32</hi>&#160;(2), 153-164.</bibl>
+                    <bibl xml:id="d1e726">Desrosières, A. (1993). La <hi rend="italic">politique des grands nombres&#160;: histoire de la raison statistique.</hi> Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e731">ClinicalTrials Feeds (2006). CATIE-Schizophrenia trial. Consulté à <ref target="http://clinicaltrialsfeeds.org/clinical-trials/show/NCT00014001">http://clinicaltrialsfeeds.org/clinical-trials/show/NCT00014001</ref>
+          </bibl>
+                    <bibl xml:id="d1e735">
+                        <hi xml:lang="en">Evidence-Based Medicine Working Group (1992). Evidence-based medicine. A new approach to teaching the practice of medicine. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">JAMA, 268</hi>
+                        </hi>
+                        <hi xml:lang="en">(17), 2420-2425.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e743">
+            <hi xml:lang="en">Freedman, R. (2005). The choice of antipsychotic drugs for schizophrenia. </hi>
+            <hi rend="italic">N Engl J Med, 353</hi>(12), 1286-1288.</bibl>
+                    <bibl xml:id="d1e749">Gaudillière, J.-P. (2006). <hi rend="italic">La médecine et les sciences</hi>. Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e754">
+                        <hi xml:lang="en">Haynes, L., Service, O., Goldacre, B., &amp; Torgerson, D. (2012). </hi>
+                        <hi rend="italic">Test, learn, adapt: developing public policy with randomised controlled trials. Cabinet Office, Behavioural Insights Team.</hi>
+                        <hi xml:lang="en"> </hi>
+                        <hi xml:lang="fr">Consulté à </hi>
+                        <ref target="https://www.gov.uk/government/publications/test-learn-adapt-developing-public-policy-with-randomised-controlled-trials">
+                            <hi xml:lang="fr">https://www.gov.uk/government/publications/test-learn-adapt-developing-public-policy-with-randomised-controlled-trials</hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e766">
+                        <hi xml:lang="en">Herzberg, D. (2011). Blockbusters and controlled substances: Miltown, Quaalude, and consumer demand for drugs in postwar America. </hi>
+                        <hi rend="italic">Studies in History and Philosophy of Science Part C: Studies in History and Philosophy of Biological and Biomedical Sciences</hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">42</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 415-426.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e778">
+                        <hi xml:lang="en">Hill, A. B. (1952). The clinical trial</hi>
+                        <hi rend="italic">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">N Engl J Med, 247</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 113-119.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e788">
+            <hi xml:lang="en">Jobe, T. H., Helgason, C. M., &amp; Roitberg, B. Z. (2001). “Show me the numbers”: the application of numbers to medical science. </hi>
+            <hi rend="italic">Surg Neurol, 56</hi>(1), 3-7.</bibl>
+                    <bibl xml:id="d1e795">
+                        <hi xml:lang="en">Klein, D. F. (2008). The loss of serendipity in psychopharmacology</hi>
+                        <hi rend="italic">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">JAMA, 299</hi>
+                        </hi>
+                        <hi xml:lang="en">(9), 1063-1065.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e805">
+                        <hi xml:lang="en">Knorr-Cetina, K. (1981). </hi>
+                        <hi rend="italic">The manufacture of knowledge: an essay on the constructivist and contextual nature of science)</hi>
+                        <hi xml:lang="en">. New York: Pergamon Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e812">
+            <hi xml:lang="en">Kuhn, R. (1957). Ueber die Behandlung depressiver Zustande mit einem Iminodibenzylderivat (G 22355). </hi>Sch<hi rend="italic">weiz Med Wochenschr, 87</hi>(35-36), 1135-1140.</bibl>
+                    <bibl xml:id="d1e819">
+                        <hi xml:lang="en">Kuhn, R. (1958). The treatment of depressive states with G&#160;22355 (imipramine hydrochloride). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Am J Psychiatry, 115</hi>
+                        </hi>
+                        <hi xml:lang="en">(5), 459-464.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e827">Labrousse, A., (2010). Nouvelle économie du développement et essais cliniques randomisés&#160;: une mise en perspective d’un outil de preuve et de gouvernement. <hi rend="italic">Revue de la régulation, 7</hi>. Consulté à <ref target="http://regulation.revues.org/7818">http://regulation.revues.org/7818</ref>
+          </bibl>
+                    <bibl xml:id="d1e834">Latour, B. (1985). Les “Vues” de l’esprit&#160;: une introduction à l’anthropologie des sciences et des techniques. <hi rend="italic">
+              <hi xml:lang="en">Culture technique, 14</hi>
+            </hi>
+            <hi xml:lang="en">, 4-30.</hi>
+          </bibl>
+                    <bibl xml:id="d1e841">
+                        <hi xml:lang="en">Latour, B. (1987). </hi>
+                        <hi rend="italic">Science in action: how to follow scientists and engineers through society</hi>
+                        <hi xml:lang="en">. Cambridge, Mass: Harvard University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e848">
+                        <hi xml:lang="en">Lehmann, H. E., &amp; Hanrahan, G. E. (1954). Chlorpromazine; new inhibiting agent for psychomotor excitement and manic states.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">AMA Arch Neurol Psychiatry, 71</hi>
+                        </hi>
+                        <hi xml:lang="en">&#160;(2), 227-237.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e856">
+                        <hi xml:lang="en">Lieberman, J. A., Stroup, T. S., McEvoy, J. P., Swartz, M. S., Rosenheck,&#160;R.&#160;A., Perkins,&#160;D.&#160;O. </hi>
+                        <hi rend="italic">et&#160;al.</hi>
+                        <hi xml:lang="en">&#160;(2005). Effectiveness of antipsychotic drugs in patients with chronic schizophrenia. </hi>
+                        <hi rend="italic">N Engl J Med, 353</hi>
+                        <hi xml:lang="en">(12), 1209-1223.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e867">
+                        <hi xml:lang="en">Marks, H. M. (1997). </hi>
+                        <hi rend="italic">The Progress of Experiment: Science and Therapeutic Reform in the United States, 1900-1990)</hi>
+                        <hi xml:lang="en">. Cambridge: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e874">
+            <hi xml:lang="en">McEvoy, J. P., Lieberman, J. A., Stroup, T. S., Davis, S. M., Meltzer,&#160;H.&#160;Y., Rosenheck,&#160;R.&#160;A. </hi>
+            <hi rend="italic">et&#160;al.</hi>
+            <hi xml:lang="en"> (2006). Effectiveness of Clozapine Versus Olanzapine, Quetiapine, and Risperidone in Patients With Chronic Schizophrenia Who Did Not Respond to Prior Atypical Antipsychotic Treatment. </hi>
+            <hi rend="italic">Am J Psychiatry, 163</hi>(4), 600-610.</bibl>
+                    <bibl xml:id="d1e885">
+            <hi xml:lang="en">Meldrum, M. L. (2000). A Brief History of the Randomized Controlled Trial: From Oranges and Lemons to the Gold Standard. </hi>
+            <hi rend="italic">Hematol Oncol Clin North Am, 14</hi>(4), 745-760.</bibl>
+                    <bibl xml:id="d1e891">
+                        <hi xml:lang="en">National Center for Health Statistics (2011). Health, United States, 2010: with special feature on death and dying. </hi>
+                        <hi xml:lang="fr">Consulté à </hi>
+                        <ref target="http://www.cdc.gov/nchs/data/hus/hus10.pdf">http://www.cdc.gov/nchs/data/hus/hus10.pdf</ref>
+                    </bibl>
+                    <bibl xml:id="d1e898">
+            <hi xml:lang="en">National Institute of Mental Health (2006). Landmark Council Session Spotlights “Real World” Trials. </hi>Science Update. Consulté à <ref target="http://www.nimh.nih.gov/science-news/2006/landmark-council-session-spotlights-real-world-trials.shtml">http://www.nimh.nih.gov/science-news/2006/landmark-council-session-spotlights-real-world-trials.shtml</ref>
+          </bibl>
+                    <bibl xml:id="d1e904">Prien, R. F., &amp; Cole, J. O. (1968). <hi xml:lang="en">High dose chlorpromazine therapy in chronic schizophrenia: Report of national institute of mental health-psychopharmacology research branch collaborative study group. </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Archives of General Psychiatry, 18</hi>
+            </hi>
+            <hi xml:lang="en">(4), 482-495.</hi>
+          </bibl>
+                    <bibl xml:id="d1e913">
+                        <hi xml:lang="en">Saraga, M., &amp; Stiefel, F. (2011). Psychiatry and the scientific fallacy. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Acta Psychiatrica Scandinavica, 124</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 70-72.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e921">
+            <hi xml:lang="en">Schou, M., Juel-Nielsen, N., Stromgren, E., &amp; Voldby, H. (1954). The treatment of manic psychoses by the administration of lithium salts. </hi>
+            <hi rend="italic">J Neurol Neurosurg Psychiatry, 17</hi>(4), 250-260.</bibl>
+                    <bibl xml:id="d1e927">
+                        <hi xml:lang="en">Schumer, F. (1989). Bye-Bye Blues - a new wonder drug for depression. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">New York Magazine, 22</hi>
+                        </hi>
+                        <hi xml:lang="en">, 46-53.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e935">
+                        <hi xml:lang="en">Schwartz, M. A., &amp; Wiggins, O. P. (1986). Logical empiricism and psychiatric classification. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Compr Psychiatry, 27</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 101-114.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e943">
+            <hi xml:lang="en">Turner, E. H., Matthews, A. M., Linardatos, E., Tell,&#160;R.&#160;A., &amp; Rosenthal,&#160;R. (2008). Selective publication of antidepressant trials and its influence on apparent efficacy. </hi>
+            <hi rend="italic">N Engl J Med, 358</hi>(3), 252-260.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

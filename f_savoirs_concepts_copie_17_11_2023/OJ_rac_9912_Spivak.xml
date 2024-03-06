@@ -1,0 +1,556 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_9912_Spivak">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Mobilité scientifique et réflexivité des chercheurs</title>
+                <title type="sub">Comment les déplacements façonnent des modes de production de connaissances</title>
+                <title level="a" type="alt" xml:lang="en">Scientific mobility And reflexivity. How researchers’ displacement mobility shaped modes of producing knowledge</title>
+                <title level="a" type="alt" xml:lang="es">Movilidad científica y reflexividad. De cómo los desplazamientos de los investigadores modelan modos de producir conocimientos</title>
+                <author>
+                    <persName>
+                        <forename>Ana</forename>
+                        <surname>Spivak&#160;L’hoste</surname>
+                    </persName>
+                    <affiliation> Anthropologue, chercheur au CONICET et à l’Université Nationale de San Martin. Elle enseigne à l’Université de Buenos Aires (Argentine).Adresse&#160;: Escuela de Humanidades Campus Miguelete, Edificio Tornavías Martín de Irigoyen AR-n°&#160;3100&#160;1650 San Martín (Provincia de Buenos Aires) ArgentineCourriel&#160;: anaspivak17[at]yahoo.com.ar </affiliation>
+                </author>
+                <author>
+                    <persName>
+                        <forename>Matthieu</forename>
+                        <surname>Hubert</surname>
+                    </persName>
+                    <affiliation> Sociologue, postdoctorant au CONICET et à l’Université Nationale de Quilmes. Il est membre du <hi rend="italic">Centro de Ciencia Tecnología y Sociedad </hi>(Université Maimonides, Buenos Aires, Argentine).Adresse&#160;: Centro CTS Virasoro AR-732&#160;1405 Ciudad de Buenos Aires ArgentineCourriel&#160;: matthieu.hubert[at]voila.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>knowledge production</item>
+                        <item>geographies</item>
+                        <item>scientific mobility</item>
+                        <item>professional careers</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>production de connaissances</item>
+                        <item>géographies</item>
+                        <item>mobilité scientifique</item>
+                        <item>trajectoires professionnelles</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>producción de conocimientos</item>
+                        <item>geografías</item>
+                        <item>movilidad científica</item>
+                        <item>trayectorias profesionales</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Mobilité scientifique et réflexivité des chercheurs</titlePart>
+                    <titlePart type="sub">Comment les déplacements façonnent des modes de production de connaissances</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Ana Spivak&#160;L’hoste</docAuthor>
+                    <docAuthor>Matthieu Hubert</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e261">
+                <p xml:id="d1e262">Cet article se propose de contribuer aux débats concernant la circulation des scientifiques à partir de récits de trajectoires professionnelles de chercheurs argentins. La proposition consiste à cartographier les parcours géographiques et institutionnels de deux physiciens tout au long de leur carrière, et à analyser les façons de penser, valoriser et faire de la recherche qui résultent, au moins en partie, de ces parcours. Elle pose l’hypothèse que les déplacements des scientifiques mettent en circulation des modes de production de connaissances. Ces derniers sont constitués de pratiques, de valeurs et d’identifications collectives et institutionnelles, qui participent des processus de production de connaissances. Ils positionnent les chercheurs au regard de leur activité, en créant des différences à propos de ce qu’ils produisent, leurs objectifs et leurs regards sur leur contexte de travail. À partir de ces analyses, nous discutons un des axes explicatifs de la mobilité scientifique, la distinction entre centre(s) et périphérie(s), et nous proposons de nouveaux axes de réflexion pour approfondir l’analyse de la relation entre mobilité scientifique et modes de production de connaissances.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e264">
+                <p xml:id="d1e265">
+                    <hi xml:lang="en">This article goes deep into the phenomenon of scientific mobility discussing some results of an ongoing work about Argentinean researchers’ career. The proposal is to map the geographic and institutional careers of two physicists and analyze the ways of thinking, valuing and doing research that are the result, at least in part, of their experiences. The point of departure of the article is that scientific mobility affects researchers and their modes of producing knowledge. Such modes are made of practices, values, collective identifications and institutional conditions and processes. We will show how researchers explain and justify the science they produce, their goals and their perceptions of each work environment based on their experiences of mobility. Finally, we will present an alternative interpretation that may help to understand the geography of scientific mobility and will discuss the traditional explanation based on the distinction between center(s) and periphery(s).</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e268">
+                <p xml:id="d1e269">
+                    <hi xml:lang="es">Este artículo se propone contribuir al debate en torno de la movilidad científica a partir de relatos de trayectorias profesionales de investigadores argentinos. La propuesta consiste en cartografiar los recorridos geográficos e institucionales de dos físicos a lo largo de sus carreras y analizar las formas de pensar, valorizar y hacer investigación que resultan, al menos en parte, de esos recorridos. Se parte de la base de que los desplazamientos de los científicos ponen en circulación, además de individuos, modos de producción de conocimientos. Modos que están constituidos por prácticas, valores e identificaciones colectivas e institucionales que participan en los procesos de producción de la ciencia. En ese sentido, los desplazamientos posicionan a los investigadores en relación a sus actividades creando diferencias respecto de aquello que producen, sus objetivos y de las miradas sobre sus contextos de trabajo. A partir de este análisis discutiremos, además, uno de los ejes explicativos de las direcciones que guían la movilidad de científicos: la distinción entre centro(s) y periferia(s) abriendo la reflexión en otras direcciones a profundizar.</hi>
+                </p>
+            </div>
+            <div type="ack" xml:id="d1e273">
+                <p xml:id="d1e274">Nous remercions les deux chercheurs qui ont bien voulu consacrer une partie de leur temps à nous raconter leurs histoires, ainsi que les évaluateurs anonymes pour leurs précieux commentaires de versions antérieures de ce texte.</p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e280">
+                <head subtype="level1" xml:id="d1e281">Introduction</head>
+                <p xml:id="d1e283">La distinction entre centre(s) et périphérie(s) est souvent mobilisée dans les études latino-américaines des relations entre science, technologie et société. Elle s’enracine dans une longue tradition latino-américaine, qui débute avec les travaux de l’économiste argentin Raúl Prebisch, qui l’a conçue dans les années 1940 pour comprendre l’ordre économique à l’échelle mondiale, et expliquer les inégalités entre pays (Prebisch, 1949). Elle sera ensuite reprise par les auteurs de la théorie de la dépendance (Cardoso &amp; Faleto, 1969, entre autres), puis à partir des années 1960 et 1970, par divers analystes de disciplines différentes, qui ont étudié le rôle de la science dans les pays latino‑américains, et ont élaboré plusieurs propositions destinées à utiliser la science en faveur du développement économique et social, et à favoriser l’autonomie technologique nécessaire à l’industrialisation des pays latino‑américains.</p>
+                <p xml:id="d1e285">L’étroite relation entre la théorie de la dépendance et les travaux pionniers des études sociales des sciences et des techniques en Amérique latine a cristallisé différentes approches conceptuelles à propos de la science, dont l’organisation internationale de l’activité scientifique autour d’une division structurelle entre centre et périphérie<note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Dans cette perspective, les pays ayant une moindre tradition scientifique et de moindres ressources matérielles et humaines destinées à la recherche sont considérés comme périphériques, alors que ces conditions sont inversées dans les pays centraux où, de plus, les résultats les plus reconnus sont produits. Pour une revue des études sociales des sciences et des techniques en Amérique latine, voir notamment Kreimer et Thomas (2004), Martinez Vidal et Mari (2002), Dagnino, Thomas et Davyt (1996), Ciapuscio (1994) et Sábato (1975).</p>
+          </note>. De cette même origine découle aussi la lecture traditionnelle d’une bonne partie des études latino‑américaines sur la mobilité scientifique qui, partant de la réalité d’une division territoriale entre centre et périphérie, analyse le sens de circulation des chercheurs au travers de cette division. Ainsi, le modèle centre-périphérie produit une double explication structurelle de la mobilité scientifique. D’une part, la division centre-périphérie est structurante&#160;: elle explique l’origine et la destination des flux scientifiques, en faisant notamment que les chercheurs vont se former aux traditions scientifiques bien établies dans les pays centraux, et retournent ensuite dans les pays périphériques pour y reproduire les mêmes traditions scientifiques&#160;– mais dans une position bien souvent subalterne au sein de la communauté scientifique considérée. D’autre part, la division centre-périphérie est renforcée par ces flux scientifiques&#160;: en reproduisant les traditions scientifiques des pays centraux, la définition des problématiques scientifiques s’aligne sur celles des pays centraux, sans tenir compte des problèmes locaux des pays périphériques&#160;; les sociétés périphériques ne peuvent alors pas bénéficier des recherches publiques qu’elles financent (Díaz <hi rend="italic">et&#160;al.</hi>, 1983&#160;; Kreimer, 1997, 2010&#160;; Kreimer &amp; Thomas, 2006).</p>
+                <p xml:id="d1e294">Wiebke Keim (2010), s’inspirant également des travaux de Cardoso et Faleto (1968), propose un modèle plus formalisé de la distinction centre-périphérie, en distinguant analytiquement trois dimensions. La première dimension, plus externaliste, caractérise l’organisation et l’accès aux ressources, et distingue les pays développés des pays sous‑développés. La deuxième dimension caractérise les conditions d’existence et de reproduction des thématiques scientifiques, où la périphérie est notamment caractérisée par sa dépendance vis‑à-vis des agendas de recherche définis de manière exogène, par le centre. La troisième dimension distingue la centralité de la marginalité du positionnement et de la reconnaissance internationale de la production scientifique d’une zone géographique donnée. La mise en évidence de ces trois dimensions enrichit le modèle centre-périphérie, en différenciant les déterminants matériels et institutionnels, la formulation des stratégies scientifiques, et les structures de diffusion et de reconnaissance scientifique (notamment l’édition).</p>
+                <p xml:id="d1e296">Philippe Losego et Rigas Arvanitis (2008) ont proposé la notion de «&#160;pays non hégémoniques&#160;», afin de pallier certaines limites de la distinction entre centre et périphérie, dont la perspective est affaiblie par la multipolarisation du monde, née de la chute de l’Union soviétique et de l’affirmation de grands pays émergents, comme la Chine, l’Inde ou le Brésil. Comme les pays périphériques, ces pays non hégémoniques sont dominés dans la division internationale du travail scientifique&#160;: les chercheurs des pays périphériques intègrent les grands projets et les grandes collaborations internationales sans détenir les clefs de leur définition et de leur pilotage. Mais, malgré ces phénomènes d’«&#160;intégration subordonnée&#160;» (Kreimer, 2006), propres à des contextes institutionnels ne proposant pas de ressources locales susceptibles de contrebalancer des grands programmes européens et nord-américains, les pays non hégémoniques conservent néanmoins quelques marges de manœuvre face aux organismes de financement qui agissent à l’échelle internationale. En particulier, ils peuvent, d’une part, orienter leur agenda de recherche vers des thématiques plus pertinentes au regard des problématiques locales et, d’autre part, privilégier certains partenaires et certains types de partenariats, plus respectueux des intérêts identifiés localement<note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> «&#160;Nous proposions de parler de pays non hégémoniques car il nous semble que le découpage est multiple plutôt que dual, qu’il ne concerne pas que les “pays en développement” mais l’ensemble des nouveaux entrants dans la recherche, et que la clé de compréhension n’est pas le positionnement par rapport aux pays “centraux” mais par rapport aux agences et organismes de financement qui agissent au niveau mondial&#160;» (Arvanitis, 2011, p.&#160;636).</p>
+          </note>.</p>
+                <p xml:id="d1e302">Ce texte se propose de prolonger les discussions concernant ces différents modèles explicatifs de la géographie mondiale des sciences, en se plaçant du point de vue des chercheurs, et en les abordant sous l’angle de la mobilité scientifique. En particulier, notre idée de départ est de proposer un renversement de perspective&#160;: au lieu d’invoquer <hi rend="italic">a&#160;priori </hi>la géographie mondiale des sciences pour expliquer la circulation des chercheurs et ses effets sur la production des connaissances, il s’agit plutôt de partir d’études empiriques de la circulation des scientifiques et de ses effets épistémiques, afin de produire une géographie des sciences contextualisée et subjective, correspondant davantage au point de vue des chercheurs. S’appuyant sur les parcours de deux chercheurs argentins, l’objectif du texte n’est pas de relativiser cette géographie mondiale des sciences, et encore moins d’affirmer qu’elle n’existe pas, mais plutôt de voir comment les chercheurs se l’approprient pour construire leur propre trajectoire professionnelle. Il s’agit donc moins de critiquer ou de déconstruire les différents modèles de géographie des sciences précédemment évoqués (on ne s’appuie ici que sur deux études de cas, dont le caractère représentatif n’est pas assuré), que de faire le pari que ce renversement de perspective permettra d’alimenter et de complexifier les modèles macroscopiques&#160;– et, éventuellement, les politiques scientifiques qui s’en inspirent.</p>
+                <p xml:id="d1e307">La première partie du texte positionne notre argument par rapport aux travaux concernant la mobilité scientifique, et propose une série d’hypothèses portant sur les effets de la mobilité sur les modes de production de connaissances. La deuxième partie du texte présente les trajectoires des deux chercheurs interrogés, dont le parcours servira de support empirique à l’exposé de notre argument. La troisième partie analyse plus précisément les effets de la circulation des deux chercheurs sur leurs modes de production de connaissances. La conclusion prolongera la discussion introductive au regard des analyses de cas présentées, en reprenant la distinction entre «&#160;espaces de flux&#160;» et «&#160;espaces de lieux&#160;» (Castells, 1998, 1999).</p>
+            </div>
+            <div type="div1" xml:id="d1e309">
+                <head subtype="level1" xml:id="d1e310">Les effets de la mobilité sur les modes de production de connaissances</head>
+                <p xml:id="d1e312">La mobilité scientifique a fait l’objet de nombreux travaux de sciences sociales depuis plus de cinquante ans, qui se focalisent principalement sur la circulation internationale des chercheurs<note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> En effet, au-delà de l’hétérogénéité des approches et des disciplines qui se sont intéressées à la mobilité scientifique (Didou Aupetit, 2008), la plupart des travaux coïncident en ce qu’ils considèrent la circulation des chercheurs entre pays. Voir, par exemple, les travaux ethnographiques, institutionnels et quantitatifs rassemblés par Smith et Favell (2006), portant sur les migrations internationales des travailleurs hautement qualifiés.</p>
+          </note>. Une des perspectives développées pour la décrire et l’expliquer, qui est aussi la plus souvent mentionnée dans les médias, est la fuite des cerveaux<note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> Il faut souligner que la perspective de la fuite des cerveaux a servi de cadre explicatif à une grande diversité de situations de mobilité scientifique&#160;: l’exil des scientifiques allemands durant les années 1930 et 1940, les migrations de chercheurs anglais vers les États‑Unis dans les années 1950 et 1960, le départ forcé de scientifiques latino-américains durant les dictatures des années 1970, ou la migration des populations qualifiées quittant l’Afrique. Pour une revue de travaux selon cette perspective, consulter Brandi (2006).</p>
+          </note>. Celle-ci a notamment pour caractéristique de valoriser négativement la circulation scientifique&#160;– et, plus largement, la mobilité des travailleurs hautement qualifiés&#160;– pour les pays qui voient ainsi partir leurs ressources humaines les mieux formées. Des politiques sont alors conçues pour lutter contre ce qui est considéré comme un problème public, avec un succès qui s’avère bien souvent limité. Des analyses plus récentes ont complexifié le regard porté sur la mobilité scientifique, en reconnaissant que les conséquences négatives de la fuite des cerveaux s’accompagnaient d’autres effets plus positifs pour les pays que les travailleurs hautement qualifiés quittaient (Remedi, 2009). En particulier, les analyses en termes de diasporas scientifiques participent de cette complexification, soulignant le rôle des réseaux formels et informels, qui maintiennent des liens entre chercheurs migrants et chercheurs restés (ou revenus) dans leur pays d’origine, leur permettant ainsi d’échanger informations et ressources (Gaillard &amp; Gaillard, 1997, 1998&#160;; Meyer <hi rend="italic">et&#160;al.</hi>, 1997&#160;; Meyer &amp; Brown, 1999&#160;; Barre <hi rend="italic">et&#160;al.</hi>, 2003&#160;; Meyer, 2011, entre autres).</p>
+                <p xml:id="d1e328">Les travaux portant sur la circulation de scientifiques en Amérique latine mobilisent les deux perspectives mentionnées<note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p> Pour une révision bibliographique des études de cas et des avancées théoriques à propos de la mobilité scientifique dans les pays latino-américains, voir Didou Aupetit et Gérard (2009) ou Hernandez <hi rend="italic">et&#160;al.</hi> (2011).</p>
+          </note>. Ils caractérisent et quantifient les populations de migrants hautement qualifiés et/ou de scientifiques de différents pays (voir, par exemple, Gérard, 2008, pour le Mexique, García de&#160;Fanelli, 2009, ou Luchilo, 2011, pour l’Argentine). Ils décrivent les réseaux qu’ils constituent (Meyer <hi rend="italic">et&#160;al.</hi>, 1997&#160;; Luchilo, 2006) et caractérisent les marchés du travail desquels ces migrants partent, et où ils arrivent (Vessuri, 2008). Certains travaux de sociologie des sciences ont également souligné que la mobilité des chercheurs est aussi le vecteur de la circulation d’objets d’études, de thématiques, de méthodologies et de «&#160;traditions&#160;» scientifiques entre les pays «&#160;centraux&#160;» et les pays «&#160;périphériques&#160;» (Kreimer, 1997)&#160;: «&#160;Fréquemment, les jeunes et prestigieux chercheurs des pays périphériques effectuent des études dans un centre d’excellence situé dans un pays central. L’habitude est de leur assigner une recherche qui réponde à un “agenda” lié aux nécessités des sociétés locales. Quand ces jeunes chercheurs retournent dans leur pays d’origine, ils ont l’habitude de poursuivre les axes de recherche dans lesquels ils ont travaillé durant leur séjour à l’étranger. Il s’ensuit que les chercheurs des pays périphériques continuent de travailler dans des axes de recherche qui s’inscrivent dans des programmes plus vastes&#160;», mais qui ne sont pas nécessairement «&#160;pertinents&#160;» pour les «&#160;sociétés périphériques&#160;» (Kreimer &amp; Zabala, 2008, p.&#160;434).</p>
+                <p xml:id="d1e340">Cet article propose une autre approche de la circulation des scientifiques latino-américains. Il s’agit de saisir la mobilité des chercheurs à partir de leurs récits de trajectoires professionnelles, en se focalisant sur les modes de production de connaissances qui sont formulés au travers de ces récits. Ces modes de production de connaissances sont des manières de penser, de valoriser et de faire de la recherche. Ils sont constitués de pratiques, de stratégies, de valeurs et d’identifications collectives et institutionnelles. Ils différencient les chercheurs selon le regard qu’ils portent sur l’utilité sociale de leur activité, le sens qu’ils attribuent à leur engagement professionnel et les connaissances qu’ils valorisent et privilégient<note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> En ce sens, nous nous inscrivons dans la perspective ouverte par Christopher Henke et Thomas Gyrien (2008), dans le dernier <hi rend="italic">Handbook of Science and Technology Studies</hi>, qui proposent d’analyser la contribution des lieux où les connaissances sont produites sur leur crédibilité scientifique. Néanmoins, dans notre travail, les effets de la circulation des chercheurs sur la nature et la hiérarchie des connaissances produites sont considérés du point de vue des chercheurs interrogés&#160;– autrement dit, tels que ces derniers qualifient et valorisent ces connaissances.</p>
+          </note>.</p>
+                <p xml:id="d1e349">Afin d’accéder à ces modes de production de connaissances, nous nous appuyons sur le travail réflexif de deux physiciens argentins, au regard de leurs trajectoires professionnelles, qui les a amenés à étudier et travailler dans différents pays, avant de revenir en Argentine. Ceux‑ci nous décrivent, fin 2009, leurs propres expériences de vie professionnelle, en articulant des contextes de travail et des manières de penser et de pratiquer la recherche. Ils décrivent le lien entre leurs parcours professionnels et leurs conceptions de la recherche. Ils interprètent, de manière réflexive, les raisons de leurs bifurcations professionnelles et de leurs orientations scientifiques actuelles, en fonction des différents contextes institutionnels et scientifiques dans lesquels ils se sont déplacés et ont travaillé<note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p> Les ethnométhodologues ont proposé ce concept de réflexivité afin d’analyser le travail d’interprétation et de construction de sens des acteurs&#160;: dans cette perspective, l’ordre social ne se reproduit pas à partir de normes préétablies, mais il est produit en situation, au travers d’interactions entre acteurs qui interprètent la situation à laquelle ils sont confrontés (Garfinkel, 1967). En considérant la réflexivité comme un élément façonnant la connaissance du social, d’autres auteurs ont repris le même concept pour mettre au jour les conditions épistémologiques, académiques et politiques qui participent du processus de production de connaissance scientifique (Bourdieu, 1992). Arellano (2007) a fait une revue de parcours de ce concept. Dans notre approche, plus en phase avec la perspective interactionniste, l’utilisation du concept de réflexivité vise à expliciter comment les scientifiques produisent des discours analysant leurs propres expériences de vie professionnelle, faisant en particulier le lien entre des contextes de travail et des manières de penser et de pratiquer la recherche.</p>
+          </note>.</p>
+                <p xml:id="d1e355">Nous faisons ici l’hypothèse du lien entre la circulation des chercheurs et leurs modes de production de connaissances. Plus précisément, nous souhaitons montrer que&#160;: (1) les récits des deux trajectoires singulières permettent la formulation de deux modes de production de connaissances bien distincts&#160;– l’un étant plus académique, l’autre plus entrepreneurial&#160;; (2) le mode de production de connaissances privilégié par l’un et l’autre des chercheurs dépend fortement des lieux et des contextes locaux&#160;– institutionnels, régionaux et nationaux&#160;– au travers desquels ils circulent&#160;; (3) la circulation de ces chercheurs, formés dans des contextes dits «&#160;périphériques&#160;», puis amenés à travailler dans des contextes «&#160;centraux&#160;», avant de retourner dans leurs pays d’origine, ne les conduit pas nécessairement à s’inscrire dans un mode de production de connaissances orienté vers les problématiques de la communauté internationale (qui sont formulées par et pour les pays «&#160;centraux&#160;»). Dans la suite du texte, nous mettons ces hypothèses à l’épreuve des récits de trajectoires professionnelles des deux physiciens argentins.</p>
+            </div>
+            <div type="div1" xml:id="d1e357">
+                <head subtype="level1" xml:id="d1e358">Les cartographies de deux trajectoires professionnelles</head>
+                <p xml:id="d1e360">Fernando et Lorenzo ont des choses en commun. Ils se sont formés à la physique à l’université de La Plata, en Argentine, entre la fin des années 1980 et le début des années 1990. Les deux physiciens argentins ont tous deux obtenu leur doctorat dans cette même université, après avoir réalisé des stages à l’étranger lors de leur formation doctorale. Ils ont également en commun le fait d’avoir réalisé des expériences postdoctorales à l’étranger. Tous deux âgés de quarante-cinq ans environ au moment des entretiens, ils dirigent alors une équipe de recherche en Argentine, et coordonnent des projets en nanosciences, un domaine de recherche devenu prioritaire pour les organismes de financement argentins depuis le milieu des années 2000<note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> Sur les développements des nanosciences en Argentine, voir notamment Spivak <hi rend="italic">et&#160;al. </hi>(2012).</p>
+          </note>.</p>
+                <p xml:id="d1e369">Mais, au-delà de ces coïncidences, Fernando et Lorenzo ont parcouru, tout au long de leur vie professionnelle, des lieux et des institutions bien distincts. Fernando a réalisé pendant une partie de sa thèse des travaux au sein d’un groupe de chercheurs espagnols, à Madrid. Suite à sa formation doctorale, et dans l’attente d’un poste de chercheur permanent en Argentine, il a entamé des collaborations avec le laboratoire du synchrotron<note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> Le synchrotron est un grand instrument électromagnétique destiné à l’accélération à haute énergie de particules élémentaires.</p>
+          </note> de Campinas, au Brésil, où, encore aujourd’hui, il voyage fréquemment. La recherche de poste permanent s’est prolongée et, quelques années après son doctorat, il est parti à l’université de Berkeley pour y effectuer un stage postdoctoral de trois ans. En Californie, son travail de recherche, qui portait sur la catalyse et les rayons Gama, s’est orienté vers les nanosciences. Il y a établi des contacts qui sont devenus des collaborations durables, se prolongeant encore aujourd’hui. Il est revenu des États‑Unis à la fin des années 1990, et a été recruté comme chercheur permanent et à temps complet dans un institut de physico-chimie de l’université de La&#160;Plata, au sein duquel il exerce encore au moment de l’entretien.</p>
+                <p xml:id="d1e375">L’itinéraire académique et professionnel de Lorenzo passe par Kyoto, au Japon, où, dans le cadre d’un stage, il intègre la faculté d’ingénierie pendant un an. Puis, il revient à La&#160;Plata pour réaliser son doctorat, au cours duquel il intègre une entreprise locale de service technologique, où il travaille pendant plusieurs années. Suite à son doctorat, il commence un postdoctorat au début des années 2000, à l’université de Campinas, au Brésil, qui se prolonge durant quatre ans. Là, son objet de recherche qui, jusqu’à son arrivée au Brésil, était désigné comme étude des <hi rend="italic">«&#160;clusters&#160;» </hi>ou «&#160;agglomérats&#160;» de matériaux, a été rattaché au domaine des nanosciences&#160;– sans véritablement en modifier le contenu, précise‑t-il. Après une autre expérience postdoctorale à l’université de Goiania, dans l’État de Goais, au Brésil, Lorenzo est revenu en Argentine en 2007 pour occuper un poste de chercheur permanent et à temps complet au sein du département d’ingénierie de l’université de Buenos Aires. Ce faisant, il a notamment profité d’une série de dispositifs gouvernementaux destinés à faciliter le «&#160;rapatriement&#160;» de scientifiques argentins installés à l’étranger.</p>
+                <p xml:id="d1e380">À ces déplacements géographiques, Fernando et Lorenzo associent des expériences individuelles et collectives dans différents lieux et différentes institutions. Voyons plus en détail comment les deux chercheurs font sens de ces expériences, et les mobilisent au présent pour se positionner et s’orienter dans leur activité professionnelle.</p>
+                <div type="div2" xml:id="d1e382">
+                    <head subtype="level2" xml:id="d1e383">Fernando&#160;: la quête de reconnaissance par la communauté scientifique internationale</head>
+                    <p xml:id="d1e385">
+            <hi rend="italic">«&#160;Je suis physicien expérimental&#160;»</hi>, dit Fernando pour se présenter, avant de raconter ses premières expériences de formation et de recherche dans le domaine des matériaux, apprenant notamment à manipuler une technique de physique nucléaire. Il ne s’étend pas sur cette étape initiale, se contentant de décrire ce travail expérimental. Il insiste néanmoins sur son détour par l’Espagne, qui bénéficie du contact offert par un chercheur de La&#160;Plata y ayant réalisé son doctorat&#160;: <hi rend="italic">«&#160;Une partie de mon doctorat s’est faite avec des applications de matériaux catalytiques en Espagne&#160;[…] dans un institut de catalyse à Madrid.&#160;» </hi>Une fois son doctorat terminé, au milieu des années 1990, il souhaite alors intégrer le monde académique&#160;: <hi rend="italic">«&#160;Je suis revenu [d’Espagne] pour tenter d’obtenir un poste de chercheur permanent, mais c’étaient des années durant lesquelles il n’y avait pas de recrutement, donc nous devions nous nourrir un peu au hasard, avec des bourses et des contrats.&#160;»</hi>
+          </p>
+                    <p xml:id="d1e394">Pendant qu’il cherche un poste en Argentine, poursuivant des activités contractuelles de recherche et d’enseignement à l’université de <hi rendition="#style02">l</hi>a&#160;Plata, Fernando a eu son premier contact avec un grand instrument scientifique&#160;: le synchrotron de Campinas, au Brésil, qui fonctionne depuis la fin des années 1990<note type="standard" xml:id="ftn10" place="foot" n="10">
+              <p> Sur les processus de décision menant à la construction du synchrotron de Campinas, voir Velho et Pessoa (1998).</p>
+            </note>. Au cours de son récit professionnel, Fernando mentionne à plusieurs reprises le Brésil, le plus souvent en référence à ce grand et coûteux instrument, unique en son genre en Amérique latine. Il y voyage fréquemment pour y réaliser des expériences de caractérisation depuis 1997&#160;: <hi rend="italic">«&#160;Par nécessité, mais aussi pour faire quelque chose de motivant, le désir de générer de nouveaux axes de recherche, de se faire des contacts intéressants, je me suis pas mal démené pour pouvoir l’utiliser.&#160;» </hi>Actuellement, lui-même ou un membre de son équipe s’y rend une fois par mois environ. Il s’agit alors de <hi rend="italic">«&#160;profiter au maximum&#160;» </hi>du temps disponible pour avancer le travail expérimental, en laissant provisoirement de côté les tracasseries administratives. Fernando participe également au projet de développement d’un nouveau synchrotron que le Brésil est en train de concevoir, et pour lequel ce pays souhaite associer d’autres pays partenaires, dont l’Argentine.</p>
+                    <p xml:id="d1e409">Campinas n’est pas, pour Fernando, le seul lieu associé à l’expérience du synchrotron. Avant d’obtenir un poste permanent, Fernando a reçu un financement pour effectuer un stage postdoctoral de longue durée dans l’université de Berkeley. Il y a non seulement profité de la proximité du synchrotron&#160;– qu’il estime être <hi rend="italic">«&#160;le plus important du monde&#160;»&#160;</hi>– pour y réaliser de nombreuses expériences scientifiques, mais il y a également appris à identifier les thématiques de recherche privilégiées par les agences de financement&#160;: <hi rend="italic">«&#160;Quand je suis allé aux États-Unis, je me suis rendu compte que le domaine des nanos était immense et offrait d’énormes opportunités. S’il fallait travailler dans quelque chose, il fallait s’orienter dans les nanos, parce qu’il y avait beaucoup de choses très intéressantes à faire. Cette idée m’a attiré quand j’étais à Berkeley, au moment où on commençait à parler de nano, et où la première initiative nano a été lancée aux États‑Unis</hi>
+            <note type="standard" xml:id="ftn11" place="foot" n="11">
+              <p> La <hi rend="italic">National Nanotechnology Initiative </hi>a été l’un des tout premiers grands programmes publics destinés à financer la recherche sur les nanotechnologies. En dix ans d’activité, elle a distribué plus d’une dizaine de milliards de dollars, via une trentaine d’agences de financement nord-américaines.</p>
+            </note>
+            <hi rend="italic">.&#160;» </hi>Lors de son stage postdoctoral à Berkeley, Fernando a également appris à gérer les réseaux de relations sociales qui, encore aujourd’hui, rendent possible ou facilitent son activité scientifique (en particulier, son travail expérimental), et lui permettent de se positionner, de s’orienter et de concevoir ses propres stratégies de recherche&#160;: <hi rend="italic">«&#160;C’est là-bas que sont générées les modes&#160;[…] ce sont les pôles d’où émergent les thématiques de recherche à la mode, et ça m’a beaucoup aidé, pour les accès aux instruments, pour avoir un panorama plus large, pour avoir une perspective différente concernant les thématiques à privilégier.&#160;»</hi>
+          </p>
+                    <p xml:id="d1e428">À la fin des années 1990, Fernando est revenu à l’université de La&#160;Plata en tant que chercheur permanent. Il y a fondé une nouvelle équipe et a lancé de nouveaux axes de recherches, <hi rend="italic">«&#160;qui n’existaient pas en Argentine&#160;»</hi>. Il a commencé à s’équiper et à former des étudiants. Ce travail lui a valu une <hi rend="italic">«&#160;certaine reconnaissance&#160;»</hi>&#160;: <hi rend="italic">«&#160;Nous sommes en mesure de discuter des thématiques et de générer des connaissances pour la communauté scientifique internationale.&#160;» </hi>La reconnaissance internationale des travaux de son groupe s’appuie notamment sur les collaborations avec des groupes de recherche étrangers qui, selon lui, renforcent la possibilité de publier des articles dans les revues internationales les plus reconnues de son domaine.</p>
+                    <p xml:id="d1e439">Alors que jusqu’à son expérience californienne, le récit mettait l’accent sur les aspects scientifiques, le compte rendu de Fernando, à partir de son retour en Argentine, souligne davantage des aspects administratifs et institutionnels de son activité professionnelle. Celui-ci raconte son intégration dans son nouvel institut, l’aide qu’il y a reçue, la situation de l’institut et sa quête permanente de nouveaux espaces de travail (des bureaux comme des salles d’expérimentation). Il décrit les nouvelles tâches administratives qui sont progressivement venues envahir son travail quotidien, ainsi que le temps et l’activité nécessaires à l’acquisition de nouvelles ressources financières et humaines. Il ajoute à cette description des éléments d’évaluation et de valorisation du fonctionnement de son institution (concernant les lourdeurs bureaucratiques, par exemple) et, plus généralement, de la science en Argentine (concernant notamment les modalités de recrutement et de financement de la recherche)&#160;– autant d’éléments qu’il n’évoquait pas en racontant ses précédentes expériences à l’étranger.</p>
+                    <p xml:id="d1e441">Cependant, malgré l’ancrage local de ses nouvelles activités quotidiennes, Fernando fait également référence à des éléments qui dépassent largement le cadre de son institution et de son pays&#160;: <hi rend="italic">«&#160;Nous continuons à faire ce que nous faisions, avec des contacts aux États-Unis, et avec de très bons groupes en Europe&#160;[…] des contacts que j’ai gardés de mon séjour en Espagne, et d’autres relations plus récentes&#160;[…] Nous avons eu la chance de produire beaucoup de travaux scientifiques qui nous ont valu une certaine reconnaissance et l’appui d’autres bons groupes desquels nous sommes proches&#160;[…] À Campinas, nous y allons tous les mois. Je voyage aussi beaucoup à Berkeley et, parfois, j’en profite et nous allons à Stanford. Nous collaborons beaucoup avec les gens de Chicago, de l’Argonne&#160;[…] du synchrotron français Soleil&#160;[…] du synchrotron qui est en Suisse.&#160;» </hi>Ces collaborations sont nées de rencontres passées avec les partenaires, de relations de confiance construites durant les expériences au sein des différentes institutions parcourues, ou de liens plus indirects rendus possibles par ces mêmes expériences, grâce aux réseaux de contacts des anciens collègues. Elles sont liées à des contrats formels pour l’usage d’instruments, ou à des relations informelles nouées lors d’expériences passées.</p>
+                    <p xml:id="d1e446">Les collaborations internationales jouent un rôle central dans le récit que Fernando donne de sa vie professionnelle et de son travail actuel&#160;– bien plus, nous le verrons, que dans le compte rendu de Lorenzo. Bien sûr, Fernando mentionne aussi des collaborations avec des groupes de son institut, de son université et d’autres centres de recherche argentins, pour lesquelles il souligne la complémentarité des compétences et des tâches que ces collaborations supposent. Néanmoins, ce sont les collaborations internationales qu’il mentionne le plus fréquemment, et dont il détaille le plus précisément les caractéristiques, sans même une relance de ses interlocuteurs. C’est au travers de ces collaborations que Fernando présente les projets scientifiques de son groupe, qui sont conçus conjointement avec ses partenaires étrangers, avec le souci de <hi rend="italic">«&#160;maintenir son indépendance et apprendre&#160;»</hi>.</p>
+                </div>
+                <div type="div2" xml:id="d1e451">
+                    <head subtype="level2" xml:id="d1e452">Lorenzo&#160;: de la physique théorique à la recherche technologique finalisée</head>
+                    <p xml:id="d1e454">Le laboratoire de La Plata est le point de départ du récit de Lorenzo. Il marque sa toute première rencontre avec la physique expérimentale, du fait de l’orientation théorique de ses premières années de formation initiale. Lorenzo raconte comment il a intégré l’équipe de recherche, sur quels instruments il a exercé ses premières activités expérimentales, et comment cet exercice a cristallisé les principales motivations qui l’ont orienté dans la suite de sa formation et de sa carrière&#160;: l’observation et l’expérimentation. Cette première expérience a également marqué sa découverte des nanosciences&#160;: <hi rend="italic">«&#160;Je me suis retrouvé dans le laboratoire avec la grande chance de rencontrer un grand directeur pour le travail expérimental, que j’ai ensuite naturellement gardé pour la thèse de licenciatura</hi>
+            <note type="standard" xml:id="ftn12" place="foot" n="12">
+              <p> Mémoire de fin d’étude, avant d’entamer le doctorat.</p>
+            </note>&#160;<hi rend="italic">[…] j’ai fait des expériences avec un appareil d’impression mécanique&#160;[…] sans le savoir, nous faisions des nanotechnologies&#160;[…] nous fabriquions des nanoparticules&#160;[…] nous cherchions à leur donner un nom, nous discutions ensemble pour savoir s’il fallait les appeler cluster ou agglomérats.&#160;»</hi>
+          </p>
+                    <p xml:id="d1e465">Son séjour d’un an au Japon découlait de cette première expérience au laboratoire de La&#160;Plata. Un professeur de l’université de Kyoto, qui avait connu le chef de Lorenzo à partir d’une publication, avait invité un étudiant du laboratoire argentin à travailler avec lui, au Japon, et Lorenzo avait été choisi&#160;: <hi rend="italic">«&#160;il y avait un travail à réaliser, où j’allais superviser un étudiant, mais je pouvais faire d’autres choses&#160;[…] c’était un laboratoire géant, avec 20 ou 25 étudiants travaillant sur des thématiques de science et technologie de l’énergie&#160;[…] une autre manière d’aborder la recherche&#160;[…] avec les entreprises&#160;[…] j’ai écouté le doyen de la faculté d’ingénierie, là où j’étais, qui disait que l’industrie japonaise dépendait de ce que nous faisions ici, et c’était vrai.&#160;» </hi>Selon Lorenzo, «&#160;<hi rend="italic">ce fut une expérience très riche&#160;»</hi>, qui l’amena à réfléchir sur <hi rend="italic">«&#160;ce que faire de la recherche signifiait&#160;»</hi>, au-delà de <hi rend="italic">«&#160;satisfaire sa propre curiosité&#160;»</hi>. En particulier, ce travail au sein d’une grande université publique japonaise, qui forme des ingénieurs pour l’industrie, lui faisait découvrir un autre champ d’action de la science, dépassant le cadre de la formation académique et disciplinaire qu’il avait lui-même reçue&#160;: il s’agissait de former des ingénieurs au fonctionnement et aux enjeux de la production industrielle, ainsi qu’à la gestion de l’innovation technologique.</p>
+                    <p xml:id="d1e479">À son retour du Japon, Lorenzo a poursuivi son doctorat à l’université de La&#160;Plata, tout en menant une activité professionnelle dans une entreprise locale de service technologique. À la fin de son doctorat, au début des années 2000, l’économie argentine est en récession, et la possibilité de trouver un emploi académique s’en trouve amoindrie. Dans ce contexte incertain, Lorenzo profite alors d’une nouvelle opportunité offerte à l’étranger. Cette fois, il se rend à Campinas, au Brésil, pour intégrer un laboratoire qui lui offre un postdoctorat&#160;: <hi rend="italic">«&#160;En 2001, je vais pour la première fois à Campinas pour une rencontre latino‑américaine sur les nanos&#160;[…] bon, dans cette situation-là [de crise], tu t’imagines&#160;[…] lors de la conférence, j’ai connu celui qui est devenu mon chef par la suite&#160;[…] il m’a invité à connaître son laboratoire&#160;[…] je suis tombé des nues en voyant tout ce qu’il y avait et que je n’avais pas vu au Japon&#160;[…] beaucoup de fric dans un tas de choses&#160;[…] mon futur chef m’a dit&#160;: “pourquoi ne fais-tu pas un postdoc ici&#160;?”&#160;»</hi>
+          </p>
+                    <p xml:id="d1e483">La description du laboratoire, dans lequel travaille Lorenzo pendant quatre ans, détaille l’abondance des ressources financières et la qualité des équipements qu’il trouve sur place. Elle rend bien compte du fait que l’université d’État de Campinas&#160;– <hi rend="italic">«&#160;la Unicamp&#160;»&#160;</hi>– est une des trois plus importantes universités de l’État de São Paolo, le plus riche État du Brésil, et celui qui investit le plus dans l’enseignement supérieur et la recherche. Elle rend aussi compte, paradoxalement, des difficultés rencontrées pour recruter des étudiants et des chercheurs capables de profiter de ces conditions de travail, de concevoir de nouveaux projets scientifiques et des expériences innovantes&#160;– les chercheurs présents préférant inscrire leurs recherches dans le <hi rend="italic">«&#160;mainstream&#160;» </hi>des thématiques qu’ils ont développées lors d’expériences de recherche passées, le plus souvent à l’étranger&#160;: <hi rend="italic">«&#160;Tout est défini selon les modes du moment&#160;[…] les bons étudiants quittent le laboratoire pour aller dans les bons laboratoires des pays du premier monde [européens]. Ils y font un doctorat, un postdoctorat, et puis ils reviennent avec la thématique, dans une position un peu subalterne.&#160;»</hi>
+          </p>
+                    <p xml:id="d1e493">Quelques années plus tard, Lorenzo n’a pas retrouvé la même situation d’abondance de ressources instrumentales et financières lorsqu’il est allé occuper un nouveau poste à l’université de Goiania, également située au Brésil. Mais les différences entre les deux universités brésiliennes ne portent pas uniquement sur les conditions matérielles&#160;: <hi rend="italic">«&#160;Dans l’université de Campinas, tu es un postdoc de plus qui assure le boulot et bouche les trous pour les manips et les cours, malgré tout l’équipement disponible&#160;[…] l’expérience de Goiania a été gratifiante&#160;[…] le laboratoire n’avait pratiquement rien. Ils étaient en train d’acheter, mais il y manquait quelqu’un ayant un regard plus technique, et il y avait beaucoup de travail à faire pour changer les choses.&#160;» </hi>Durant ces années passées à Goiania, une ville <hi rend="italic">«&#160;bien de l’intérieur, du Brésil profond&#160;»</hi>, le laboratoire de Lorenzo a obtenu des financements, et a grandi, malgré les complications liées à l’isolement. Dans le récit de Lorenzo, l’université de Campinas apparaît comme le lieu de la science universelle, alors que l’université de Goiania incarne l’intention de faire <hi rend="italic">«&#160;une science indigène&#160;»</hi>, selon ses propres termes, et ce malgré la limitation technique et la difficulté de produire un travail <hi rend="italic">«&#160;100&#160;% local&#160;»</hi>. La première est le point de départ et d’arrivée de chercheurs qui partent dans les laboratoires étrangers pour y apprendre et y travailler les axes de recherche de ces laboratoires, puis reviennent pour les reproduire, alors que la seconde est l’environnement où Lorenzo s’est vu donner la possibilité de générer de nouveaux projets, de soutenir des étudiants et de monter des dispositifs expérimentaux originaux.</p>
+                    <p xml:id="d1e507">Au milieu des années 2000, Lorenzo est revenu en Argentine. Les opportunités professionnelles dans la recherche publique s’y étaient considérablement améliorées au regard de celles offertes durant la crise économique et sociale du début des années 2000, qui avaient motivé son départ. De plus, Lorenzo profite alors d’une initiative du gouvernement national, qui incite et facilite le «&#160;rapatriement&#160;» des chercheurs argentins travaillant à l’étranger, profitant ainsi d’une série d’avantages financiers et matériels offerts par les agences nationales de financement de la recherche<note type="standard" xml:id="ftn13" place="foot" n="13">
+              <p> Le programme RAICES (<hi rend="italic">Red de Argentinos Investigadores y Cientificos en el Exterior</hi>), coordonné par le ministère argentin de la Science, la Technologie et l’Innovation productive, a deux principaux objectifs&#160;: le premier est de renforcer la coopération avec les chercheurs argentins résidents à l’étranger&#160;; le second est d’inciter ces mêmes chercheurs à revenir exercer leur activité professionnelle en Argentine. Ce dispositif a été créé dans les années 1990, mais il a surtout été fortement soutenu à partir de 2003. Environ 800 chercheurs argentins ont ainsi été «&#160;rapatriés&#160;».</p>
+            </note>.</p>
+                    <p xml:id="d1e516">Pour son affectation dans le principal centre national de recherche publique en Argentine, Lorenzo doit choisir une université et un laboratoire de rattachement&#160;: <hi rend="italic">«&#160;Je ne voulais pas revenir à mon Alma Mater&#160;[…] en général, quand les gens reviennent, ils le font au même endroit, mais tu es la cinquième roue du carrosse jusqu’à ce que les professeurs qui étaient les tiens prennent leur retraite&#160;[…] si je revenais, c’était pour jouer en première division.&#160;» </hi>C’est ainsi que Lorenzo justifie son choix de rejoindre l’université de Buenos&#160;Aires, plutôt que celle qui l’accueillit lors de sa formation initiale et doctorale<note type="standard" xml:id="ftn14" place="foot" n="14">
+              <p> Ainsi, peu de temps après notre entretien, la nomination de Lorenzo comme directeur adjoint de son nouveau laboratoire d’accueil confirme la pertinence de son choix stratégique.</p>
+            </note>. Mais il n’a pas seulement préféré un retour dans une autre université pour des raisons de hiérarchies institutionnelles et de perspectives de carrières académiques. D’autres motivations tiennent à la manière de penser et de pratiquer la recherche. En particulier, Lorenzo ne souhaitait pas faire uniquement de la recherche fondamentale. Son séjour à Kyoto lui avait ouvert les yeux sur des options alternatives, et il avait fait le lien entre ces options et son souhait de s’ouvrir des perspectives hors du champ académique&#160;: <hi rend="italic">«&#160;J’ai à l’esprit depuis des années de lancer une activité économique&#160;[…] mon expérience en entreprise a quelque chose à voir avec ça&#160;[…] j’ai suivi les incubateurs de nouvelles technologies au Brésil, j’ai visité des entreprises et j’ai parlé avec eux en voyageant.&#160;» </hi>Pour mener à bien son projet de valorisation, il est nécessaire, selon Lorenzo, de sortir des facultés de sciences et du <hi rend="italic">«&#160;schéma traditionnel de la production scientifique&#160;»</hi>.</p>
+                    <p xml:id="d1e531">C’est donc pour cet ensemble de raisons que Lorenzo a choisi de revenir dans son pays et d’intégrer une faculté d’ingénierie qui, malgré la relative faiblesse de ses recherches académiques et la priorité qu’elle accorde à la professionnalisation des étudiants, génère davantage de confiance aux acteurs économiques et industriels. De plus, le choix de son nouveau groupe de recherche tenait notamment à de précédents contacts qu’il avait eus lors de projets coordonnés depuis le Brésil. De son nouvel environnement de recherche, Lorenzo valorise notamment l’interdisciplinarité et les possibilités offertes pour élaborer de nouveaux projets de recherche finalisée, dont l’utilité économique et sociale est plus tangible&#160;: <hi rend="italic">«&#160;On peut faire beaucoup pour améliorer le niveau de vie et les attentes dans ce pays.&#160;»</hi>
+          </p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e535">
+                <head subtype="level1" xml:id="d1e536">Une géographie subjective et contextualisée des modes de production de connaissances</head>
+                <p xml:id="d1e538">Les trajectoires présentées précédemment mettent en évidence comment les chercheurs interrogés font sens de leurs parcours. Les récits des expériences vécues, qui articulent différentes formes de subjectivation et de contextualisation, leur permettent de justifier ou valoriser des choix, des décisions et des pratiques, qui touchent à l’actualité de leur activité scientifique et professionnelle. En ce sens, les trajectoires professionnelles sont, comme les récits biographiques analysés par Kofes (1984), des sources d’information sur les contextes sociaux par lesquels les personnes interrogées transitent et avec lesquels elles interagissent, et sur les différentes subjectivités que ceux qui les racontent se construisent en parcourant ces contextes<note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> On peut noter que Kofes (1984) identifie une troisième dimension pouvant être analysée au travers de récits biographiques&#160;: il s’agit de la réflexion propre de l’enquêteur vis-à-vis de son terrain. Cette dimension réflexive ne sera néanmoins pas considérée dans ce travail.</p>
+          </note>. Dans la suite, nous souhaitons montrer que, dans les cas étudiés, les formes de subjectivation et de contextualisation activées par les deux chercheurs façonnent des modes de production de connaissances qui leur sont propres, et que nous chercherons à qualifier plus précisément.</p>
+                <div type="div2" xml:id="d1e544">
+                    <head subtype="level2" xml:id="d1e545">Des contextualisations qui façonnent des modes de production de connaissances</head>
+                    <p xml:id="d1e547">Parmi les éléments de contextualisation qui s’articulent dans les comptes rendus des trajectoires de Fernando et Lorenzo, nous nous focaliserons sur certains d’entre eux, que nous considérons être plus pertinents pour discuter notre argument. Il s’agit notamment des arguments qui, en justifiant la circulation des deux chercheurs, participent de la mise en forme de modes de production de connaissances spécifiques.</p>
+                    <p xml:id="d1e549">Au cours des entretiens, les deux chercheurs interrogés caractérisent leurs contextes de travail, en fournissant des informations sur les politiques et les ressources dédiées à la recherche scientifique et technologique, sur les critères de choix des thématiques de formation et de recherche, sur les stratégies des industries de production intensive en connaissances, sur l’évolution du marché du travail scientifique, sur les priorités concernant les flux de migrations qualifiées, sur les différences institutionnelles et régionales à l’intérieur d’un même pays, et, plus généralement, sur les systèmes de recherche, d’enseignement supérieur et d’innovation qu’ils traversent.</p>
+                    <p xml:id="d1e551">Mais ces formes de contextualisation ne sont pas seulement des sources d’information sur les contextes en question. Elles permettent aussi de rendre compte du niveau d’analyse qui permet aux chercheurs de justifier et d’expliquer leur trajectoire. En jouant sur les échelles de description, elles permettent de se focaliser, selon les cas, sur le contexte local de l’institution, sur le contexte national de la recherche, ou sur le contexte socioéconomique plus large dans lequel s’inscrit leur parcours professionnel. Ainsi, lorsque les entretiens mobilisent des éléments de description de la situation économique et politique de l’Argentine, il s’agit alors d’invoquer des restrictions d’offres d’emploi scientifique qui ont accompagné les crises successives qui ont touché le pays&#160;– particulièrement celle de la fin des années 1990 et du début des années 2000. Dans les deux cas, ces crises nationales se trouvent à l’origine de réorientations de carrière et de décisions de mobilité, afin de trouver des perspectives professionnelles plus favorables. De même, l’échelle nationale est pertinente lorsqu’il s’agit d’expliquer le retour de Lorenzo en Argentine au milieu des années 2000, celui‑ci bénéficiant de l’augmentation de l’investissement public dans la recherche, qui s’est traduite par un fort accroissement des offres d’emploi de chercheurs dans le secteur public et par une amélioration du marché du travail scientifique.</p>
+                    <p xml:id="d1e553">De plus, outre l’explication de certains choix de mobilité, certaines formes de contextualisation façonnent plus directement des modes de production de connaissances. Ainsi, l’expérience de Fernando dans l’université de Berkeley lui a donné des certitudes sur la manière de pratiquer la recherche qui lui convient. Celle‑ci le conduit à privilégier certaines thématiques plus en vue, comme les nanosciences, davantage susceptibles de recevoir des financements nationaux et internationaux, et lui offrant de meilleures possibilités en termes d’insertion dans la communauté scientifique internationale. Selon Fernando, un tel mode de production de connaissances repose, en grande partie, sur le réseau de contacts personnels et inter‑institutionnels qui rend possible ou facilite ses recherches (activités expérimentales, publications, etc.), et lui permet d’atteindre un certain niveau de reconnaissance internationale.</p>
+                    <p xml:id="d1e555">De même, le mode de production de connaissances privilégié par Lorenzo dépend en partie des différents contextes institutionnels et géographiques qu’il a traversés, et de sa manière de les appréhender. Les différences de ressources matérielles, humaines, de priorité de formation et de projets scientifiques, entre l’université de Kyoto et les universités brésiliennes, lui ont fait prendre conscience des différentes options alternatives qui peuvent guider sa manière de penser et de pratiquer la recherche (l’une étant plus fondamentale, l’autre plus appliquée). Plus encore, les différences entre les deux universités brésiliennes, Campinas et Goiania, dans lesquelles il a travaillé successivement, l’ont amené à préciser ces options alternatives, entre une forme d’intégration subordonnée dans la communauté académique internationale, et une autre forme plus entrepreneuriale de recherche finalisée. Ainsi, la description que Lorenzo fait de ces différents environnements ne se réduit pas à détailler des contextes locaux, institutionnels, régionaux ou nationaux (qui, au sein d’un même pays, sont plus hétérogènes que ce que l’on pourrait penser). Elle montre également comment les contextualisations qu’il opère participent de l’affirmation d’un mode de production de connaissances spécifique, bien distinct de celui de Fernando<note type="standard" xml:id="ftn16" place="foot" n="16">
+              <p> On peut ajouter que le fait que les deux chercheurs aient également traversé des contextes institutionnels et géographiques proches, à La&#160;Plata et Campinas, souligne la différence entre contexte et contextualisation&#160;– cette dernière dépendant de celui qui l’énonce.</p>
+            </note>.</p>
+                </div>
+                <div type="div2" xml:id="d1e561">
+                    <head subtype="level2" xml:id="d1e562">Les effets épistémiques de la production de subjectivités</head>
+                    <p xml:id="d1e564">Les récits des trajectoires des deux chercheurs interrogés n’explicitent pas seulement de quelle manière les différents contextes locaux avec lesquels ils ont interagi tout au long de leurs parcours ont modelé leurs propres carrières. Ils racontent également ce que les deux scientifiques ont appris, en termes de techniques expérimentales, de stratégies de recherche, de valeurs et de principes qui guident leur engagement professionnel. Ce faisant, ils contribuent à caractériser des subjectivités, qui s’expriment au travers de différents positionnements à propos du travail scientifique, du type de connaissance qui résulte de ce travail, du sens que chacun lui donne, ainsi que des nouvelles perspectives qu’il envisage pour en façonner l’avenir<note type="standard" xml:id="ftn17" place="foot" n="17">
+              <p> Suivant Ortner (2005), nous entendons par subjectivité un ensemble de formes de perception, d’affect, de pensée, de désir, de crainte, etc. Ces formes sont façonnées par leur contexte culturel et social et, en ce sens, elles dépendent des liens et des interactions objectives avec des objets et des individus.</p>
+            </note>.</p>
+                    <p xml:id="d1e570">Dans le récit de Fernando, la mobilité fait partie intégrante de sa pratique professionnelle. Les déplacements, les voyages, quels que soient leurs durées et leurs destinations, constituent l’axe majeur de son récit. C’est à partir de la description de ses mouvements que le chercheur définit son métier de «&#160;physicien expérimental&#160;». C’est dans le cadre de cette mobilité qu’apparaissent une grande partie de ses collègues, qu’il prend certaines décisions concernant les axes de recherche à privilégier, qu’il établit des liens avec les institutions scientifiques qu’il considère comme étant centrales dans son champ de recherche, qu’il collabore avec les scientifiques de ces institutions, et qu’il conçoit des expériences utilisant les mêmes instruments d’expérimentation que ses collaborateurs les plus reconnus.</p>
+                    <p xml:id="d1e572">Outre la mobilité, Fernando se définit également par son souci de positionnement et de projection au sein de sa communauté scientifique d’appartenance. S’il est bien intégré dans les projets et les réseaux nationaux, plus ou moins formels, que constituent les chercheurs argentins afin de structurer le domaine de recherche émergent des nanosciences, son travail s’articule principalement à l’échelle internationale, où il trouve les principaux interlocuteurs qui peuvent faire sens des résultats qu’il obtient&#160;: <hi rend="italic">«&#160;Nous sommes en mesure de discuter des thématiques et générer des connaissances pour la communauté scientifique internationale.&#160;» </hi>Ainsi, les collaborations internationales, en tant que support fondamental de sa manière de pratiquer la recherche, le font agir en assumant deux rôles bien distincts. D’une part, Fernando propose de nouveaux axes de recherche ou de nouvelles expériences aux laboratoires des pays les plus avancés, comme les États‑Unis ou l’Espagne&#160;– qu’il qualifie de <hi rend="italic">«&#160;laboratoires de pointe&#160;» </hi>dans les thématiques qu’il explore. D’autre part, dans son laboratoire de La&#160;Plata, il réalise des expériences conçues par et pour les chercheurs de ces mêmes laboratoires. Dans les deux cas, il publie et signe conjointement les publications qui découlent des résultats produits. Pour Fernando, ces deux rôles relèvent d’un même mode de production de connaissances, principalement orienté vers la communauté académique internationale. Contrairement à Lorenzo, il ne distingue pas les collaborations qui relèveraient d’une intégration subordonnée, de celles qui relèveraient de coopérations scientifiques plus équilibrées. Néanmoins, il souligne bien le souci qu’il a de <hi rend="italic">«&#160;maintenir son indépendance et apprendre&#160;»&#160;</hi>– soulignant par là même que ces conditions ne sont pas nécessairement respectées dans les échanges collaboratifs internationaux.</p>
+                    <p xml:id="d1e583">Lorenzo se positionne différemment. En particulier, son récit de trajectoire professionnelle présente un autre axe explicatif de ses différentes expériences&#160;: il ne s’agit pas seulement, comme Fernando, de pouvoir orienter ses activités de recherche vers les attentes d’une communauté de pairs, mais il s’agit aussi, pour Lorenzo, de s’intéresser aux applications potentielles, industrielles et commerciales, de ses recherches. S’appuyant sur sa propre réflexion concernant chaque expérience vécue tout au long de sa carrière, chaque environnement relationnel et institutionnel, chaque bifurcation professionnelle, il défend et s’identifie à une recherche finalisée, qui se veut utile au-delà du laboratoire et de la communauté académique.</p>
+                    <p xml:id="d1e585">Au fur et à mesure de ses expériences, sa manière de penser, de pratiquer et de valoriser la recherche a évolué. Il est passé de la physique théorique à la physique expérimentale, grâce à ses premières rencontres dans un laboratoire de l’université de La Plata. Il a également travaillé dans une entreprise de service technologique, ce qui l’a sensibilisé au développement et à la commercialisation d’applications et de produits. Son séjour, dans une faculté d’ingénierie au Japon, a été pour lui une expérience porteuse d’une profonde réflexion sur <hi rend="italic">«&#160;ce que faire de la recherche signifiait&#160;»</hi>, au-delà de <hi rend="italic">«&#160;satisfaire sa propre curiosité&#160;»</hi>. Il a poursuivi cette réflexion en analysant le rôle et le fonctionnement du laboratoire de l’université de Campinas, au Brésil, où il était postdoctorant. Il s’est interrogé sur le paradoxe d’un laboratoire riche de ressources matérielles et financières (y compris en comparaison avec ce qu’il avait vu à Kyoto), mais limité du point de vue de sa capacité à explorer de nouvelles pistes de recherche, à proposer des projets scientifiques originaux, et à profiter de l’environnement technologique mis à disposition. Son expérience de travail dans l’université de Goiania a également modifié sa conception de la recherche, puisqu’elle lui a donné l’occasion de valoriser la possibilité de faire une <hi rend="italic">«&#160;science indigène&#160;»</hi>, privilégiant le bricolage local à l’achat d’instruments clefs-en-main. Toutes ces expériences, et le regard réflexif porté sur ces expériences, façonnent également le présent du chercheur, qui a choisi de revenir en Argentine et de s’installer dans une faculté d’ingénierie pour se tenir un peu plus à l’écart du <hi rend="italic">«&#160;schéma traditionnel de production scientifique&#160;»</hi>, qui fait que le chercheur est, selon lui, davantage accaparé par la production de publications scientifiques que par la résolution de problèmes techniques ou sociaux plus concrets.</p>
+                    <p xml:id="d1e599">Il est clair qu’une exploration plus approfondie des trajectoires des deux chercheurs interrogés nous amènerait à nuancer les modes de production de connaissances identifiés, dont nous avons forcé les traits, afin de mieux les différencier et d’avancer dans le sens de notre argument. Ce faisant, et malgré les limites d’un tel exercice, nous avons pu montrer que les modes de production de connaissances adoptés par les deux chercheurs (leurs prises de position, leurs pratiques, leurs stratégies et leurs rôles au sein de la communauté académique) découlent, au moins en partie, des chemins qu’ils ont parcourus&#160;– c’est-à-dire de la mobilité en tant qu’élément constitutif et constituant de leurs carrières respectives.</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e601">
+                <head subtype="level1" xml:id="d1e602">
+          <hi xml:lang="fr">C</hi>onclusion</head>
+                <p xml:id="d1e606">Ce texte avait pour objectif d’alimenter la discussion sur les effets relationnels, épistémiques et pratiques de la circulation des scientifiques, à partir de l’analyse de récits de trajectoires professionnelles de deux physiciens argentins. La proposition consistait à cartographier les parcours géographiques et institutionnels de ces chercheurs, et à analyser les façons de penser et faire de la recherche qui résultent, au moins en partie, de ces parcours. Il s’agissait donc de relier la géographie physique des trajectoires de chercheurs, avec des discours réflexifs portant sur le sens qu’ils donnent à leur pratique professionnelle. L’analyse partait de l’hypothèse que les déplacements des scientifiques mettent en circulation des modes de production de connaissances&#160;– lesquels sont constitués de pratiques, de stratégies, de valeurs, de réflexions, d’identifications collectives et institutionnelles. Ces modes de production de connaissances positionnent les chercheurs au regard de leur activité, en différenciant ce qu’ils produisent, leurs objectifs et leurs regards sur leur contexte de travail. Ils sont des clefs de lecture des manières de pratiquer et de valoriser la production et la profession scientifiques.</p>
+                <p xml:id="d1e608">En particulier, au-delà du lien entre mobilité scientifique et modes de production de connaissances, les cartographies de trajectoires professionnelles nous ont permis d’avancer trois résultats. D’une part, les récits des deux chercheurs permettent la formulation de deux modes de production de connaissances bien distincts&#160;: le premier opère selon une logique académique, produisant des connaissances partagées, évaluées et reconnues par la communauté scientifique internationale&#160;; le second mode de production de connaissances suit davantage une logique entrepreneuriale et stratégique, poursuivant une recherche technologique orientée par son contexte d’application. D’autre part, nous avons pu montrer que le mode de production de connaissances qui est privilégié par les chercheurs interrogés dépend fortement des lieux et des contextes locaux &#160;– institutionnels, régionaux et nationaux&#160;– au travers desquels ils circulent. Enfin, le cas de Lorenzo montre que la circulation de chercheurs formés dans des contextes dits «&#160;périphériques&#160;», puis amenés à travailler dans des contextes «&#160;centraux&#160;», ne les conduit pas nécessairement à s’inscrire dans un mode de production de connaissances orienté vers les problématiques de la communauté scientifique internationale (ou vers celles définies par les grandes agences de financement de la recherche, en Europe et aux États‑Unis notamment).</p>
+                <p xml:id="d1e610">Ces résultats montrent l’intérêt de travailler à la formulation d’une géographie des modes de production de connaissances qui utilise la mobilité scientifique comme ressource analytique. Néanmoins, le dernier résultat évoqué ne peut être expliqué par le modèle centre-périphérie, qui considère que les chercheurs des pays périphériques vont se former aux traditions scientifiques bien établies dans les pays centraux, et retournent ensuite dans leurs pays d’origine pour y reproduire les mêmes traditions&#160;– mais dans une position bien souvent subalterne au sein de la communauté scientifique considérée, et sans tenir compte des problèmes locaux des pays périphériques. Les deux modes de production de connaissances mis en évidence dans ce travail remettent donc en question la possibilité d’expliquer conjointement les mouvements des chercheurs et leur mode de production de connaissances à partir d’une détermination territoriale univoque. Le modèle centre-périphérie rend parfois compte des dynamiques à l’œuvre (par exemple, lorsque Fernando affirme que les modes scientifiques se décident à Berkeley, et en tient compte pour établir ses propres stratégiques scientifiques), mais il semble insuffisamment précis pour prendre en compte la variété et la dynamique des contextes de travail de chaque pays, région ou institution (les différentes configurations rencontrées par Lorenzo lors de ses différentes expériences brésiliennes illustrant bien cette variété au sein d’un même pays)<note type="standard" xml:id="ftn18" place="foot" n="18">
+            <p> Concernant la dynamique des contextes de travail, on peut noter que, si les trajectoires des chercheurs interrogés mettent bien au jour des différences entre zones géographiques, ces différences ne sont pas complètement réductibles à une catégorisation statique dans le temps. En effet, un même espace local&#160;– que ce soit une institution, une région ou un pays&#160;– n’offre pas les mêmes facilités et possibilités de travail et de carrière d’une période à l’autre&#160;– comme le montrent, dans les cas étudiés ici, les différences de politiques publiques d’emploi scientifique en Argentine entre le début des années 2000 et la seconde moitié de la décennie</p>
+          </note>.</p>
+                <p xml:id="d1e616">Afin de dessiner les contours d’une géographie des sciences qui puisse conjointement expliquer, à partir des parcours des deux chercheurs argentins, la divergence de leurs modes de production de connaissances, la question se pose de savoir comment articuler conceptuellement les deux logiques spatiales ambivalentes qui les animent. Bien qu’<hi rend="italic">a&#160;priori </hi>contradictoire, cette double logique a notamment été analysée au travers de la distinction entre «&#160;espaces de flux&#160;» et «&#160;espaces de lieux&#160;», qui a été théorisée par Manuel Castells (1998, 1999). Elle est le reflet d’une tension fondamentale entre, d’une part, des espaces caractérisés par les flux qui les traversent, et constitués par des réseaux connectant des lieux en une unité transterritoriale, et, d’autre part, des espaces caractérisés par les différents lieux qui les composent, enracinant le sens dans l’expérience vécue d’un territoire.</p>
+                <p xml:id="d1e621">Au travers de cette tension entre «&#160;espaces de lieux&#160;» et «&#160;espaces de flux&#160;», on peut mieux saisir ce qui fonde la divergence entre les deux modes de production de connaissances identifiés, alors que les chercheurs interrogés ont en commun d’avoir débuté dans la même université, et d’être ensuite passés par des universités de pays considérés comme «&#160;centraux&#160;», comme le Japon et les États‑Unis. En effet, l’un des deux modes de production de connaissances, privilégiant la production de connaissances académiques, s’inscrit davantage dans un «&#160;espace de flux&#160;», puisqu’il vise à s’insérer dans les réseaux scientifiques internationaux les plus visibles, à publier dans les revues internationales les plus reconnues, et à se positionner stratégiquement, suivant les thématiques internationales dominantes&#160;– que Fernando repère grâce à ses contacts dans les universités les plus prestigieuses, qui sont, selon lui, les nœuds de circulation des grandes tendances scientifiques. Au contraire, le second mode de production de connaissances, privilégiant la recherche technologique et la production de connaissances contextualisées et socialement utiles, s’inscrit davantage dans un «&#160;espace de lieux&#160;»&#160;: il cherche à construire des collaborations durables avec des collègues de laboratoire ou des partenaires industriels, en se préoccupant des besoins scientifiques, économiques et sociaux identifiés localement.</p>
+                <p xml:id="d1e623">Ainsi, Fernando opère selon une logique transnationale de flux, lorsqu’il justifie ses propres stratégies scientifiques par leur insertion dans des grandes tendances internationales, alors que l’importance qu’accorde Lorenzo aux spécificités des contextes institutionnels, à leurs conditions matérielles et leurs priorités stratégiques, l’inscrit dans une logique locale de territoire. Mais les tensions entre «&#160;espaces de lieux&#160;» et «&#160;espaces de flux&#160;» ne se limitent pas aux différentes références spatiales que font les chercheurs interrogés. Elles sont aussi repérables empiriquement au travers des différentes interprétations qu’ils donnent de leur propre expérience d’un même espace de travail. Ainsi, un même territoire peut être considéré, d’une part, comme un espace de lieux «&#160;central&#160;», du point de vue des accès aux ressources et des conditions matérielles de travail qu’il propose, et, d’autre part, comme un espace de flux «&#160;périphérique&#160;», du point de vue de sa capacité à impulser une dynamique de recherche originale et autonome, reconnue par la communauté scientifique internationale&#160;– comme c’est le cas à Campinas, selon Lorenzo.</p>
+                <p xml:id="d1e625">Ces observations montrent que l’analyse de la relation entre mobilité scientifique et modes de production de connaissances se doit de prendre en compte des processus ambivalents, articulant conjointement la dynamique des lieux de recherche (laboratoires, universités, grands instruments, etc.) et la circulation d’entités variées (chercheurs, étudiants, connaissances, échantillons, etc.). À partir de cette polarité analytique, et en ajoutant l’ingrédient de la réflexivité des chercheurs sur leur parcours, comme nous avons tenté de le faire dans ce travail, on évite de naturaliser toute distinction spatiale, et d’en faire une explication univoque de la mobilité scientifique et de ses effets épistémiques.</p>
+                <p xml:id="d1e627">De plus, la mise à jour de ce travail réflexif rend également visible la manière avec laquelle les deux scientifiques prennent en compte les contraintes imposées par les différents contextes institutionnels, scientifiques et sociopolitiques dans lesquels ils travaillent. Elle livre aussi les repères à partir desquels ils évaluent l’autonomie dont ils disposent pour formuler et mettre en œuvre leurs propres stratégies de recherche&#160;– et donc, en particulier, pour accepter, négocier ou résister à l’imposition de thématiques, dont le caractère prioritaire aurait été décidé dans d’autres lieux. On peut ainsi mieux comprendre la complexité des pratiques sociales, éventuellement contradictoires, qui conduisent, d’un côté, à cristalliser des situations de domination ou de subordination (à des politiques scientifiques nationales ou des thématiques dominantes à l’échelle internationale), et, d’un autre côté, à s’assurer des conditions de possibilité d’une certaine autonomie scientifique.</p>
+                <p xml:id="d1e629">L’analyse de la relation entre mobilité scientifique et modes de production de connaissances proposée ici, en se plaçant du point de vue des acteurs concernés, permet donc la prise en compte de processus ambivalents, sans pour autant négliger les relations de pouvoir qui traversent les communautés scientifiques. D’un point de vue analytique, une telle approche nous permet non seulement de recontextualiser les contraintes structurelles au sein d’expériences et d’itinéraires singuliers, mais aussi d’enrichir l’explication des dynamiques à l’œuvre en y ajoutant des éléments empiriques comme les stratégies des groupes de recherche pour s’intégrer dans des réseaux de coopération internationaux (Hubert &amp; Spivak, 2008), ou la construction de différents modes de production de connaissances au travers de parcours géographiques et institutionnels singuliers (comme nous l’avons développée dans ce texte). Les dynamiques scientifiques peuvent ainsi être décrites en ne préjugeant pas des ingrédients qui contribuent à cristalliser des inégalités au sein des communautés de recherche, ou à façonner certaines formes de division du travail scientifique à l’échelle internationale.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e635">
+                <listBibl xml:id="d1e637">
+                    <bibl xml:id="d1e639">
+            <hi xml:lang="es">Arellano A. (2007). Por una reflexividad sin privilegios en los estudios de la ciencia y tecnología latinoamericanos. </hi>REDES, <hi rend="italic">13</hi>(26), 85-97.</bibl>
+                    <bibl xml:id="d1e646">Arvanitis R. (2011). «&#160;La division internationale du travail scientifique&#160;». Dossier édité par Terry Shinn, Dominique Vellard et Roland Waast, 2010, Cahiers de la recherche sur l’éducation et les savoirs. <hi rend="italic">Revue d’anthropologie des connaissances, 5</hi>(3), 635-637.</bibl>
+                    <bibl xml:id="d1e651">Barré R., Hernandez V., Meyer J. B. &amp; Vinck D. (2003). <hi rend="italic">Diasporas scientifiques&#160;: comment les pays en développement peuvent-ils tirer parti de leurs chercheurs et de leurs ingénieurs expatriés&#160;?. </hi>Paris&#160;: Institut de Recherche pour le Développement (IRD) éditions.</bibl>
+                    <bibl xml:id="d1e656">Bourdieu P. (1992). <hi rend="italic">Réponses. Pour une anthropologie réflexive. </hi>Paris&#160;: Seuil.</bibl>
+                    <bibl xml:id="d1e661">Brandi C. (2006). La historia del brain drain. <hi rend="italic">
+              <hi xml:lang="es">Revista Iberoamericana de ciencia, tecnología y sociedad; 3</hi>
+            </hi>
+            <hi xml:lang="es">(7), 65-95.</hi>
+          </bibl>
+                    <bibl xml:id="d1e668">
+                        <hi xml:lang="es">Cardoso F. H. &amp; Faleto E. (1969). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Dependencia y Desarrollo en América Latina: Ensayo de interpretación sociológica. </hi>
+                        </hi>
+                        <hi xml:lang="es">México: Siglo XXI.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e676">
+                        <hi xml:lang="es">Castells M. (1998, 1999). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">L’ère de l’information </hi>
+                        </hi>
+                        <hi xml:lang="es">(3 tomes). Paris&#160;: Fayard.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e684">
+                        <hi xml:lang="es">Ciapusco H. (1994). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Repensando la política tecnológica. </hi>
+                        </hi>
+                        <hi xml:lang="es">Buenos Aires: Nueva Visión.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e692">
+                        <hi xml:lang="es">Dagnino R., Thomas H. &amp; Davyt A. (1996). El pensamiento latinoamericano en Ciencia, Tecnología y Sociedad. Una interpretación política de su trayectoria. REDES, (7), 13-52.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e695">
+                        <hi xml:lang="es">Diaz E., Texera Y. &amp; Vessuri H. (1983). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">La ciencia periférica. </hi>
+                        </hi>
+                        <hi xml:lang="es">Caracas: Monte Avila.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e704">
+                        <hi xml:lang="es">Didou S. (2008). Movilidades académicas y profesionales en América Latina: entre la ignorancia y la polémica. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Revista de la Educación Superior. vol.&#160;</hi>
+                        </hi>
+                        <hi xml:lang="es">XXXVII (4), (148), 71-85.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e712">
+                        <hi xml:lang="es">Didou S. &amp; Gérard E. (2009). Introducción. In: </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Fuga de cerebros, movilidad académica y redes científicas. Perspectivas latinoamericanas. </hi>
+                        </hi>
+                        <hi xml:lang="es">México: IESALC-CINVESTAV-IRD, 15-24.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e720">
+            <hi xml:lang="es">Gaillard J. &amp; Gaillard A. M. (1997). </hi>
+            <hi xml:lang="en">The International Mobility of Brains: Exodus or circulation. </hi>
+            <hi rend="italic">Science, Technology &amp; Society, 2</hi>(2), 195-228.</bibl>
+                    <bibl xml:id="d1e728">Gaillard J. &amp; Gaillard A. M. (1998). Fuite des cerveaux, retours et diasporas. <hi rend="italic">
+              <hi xml:lang="es">Futuribles, </hi>
+            </hi>
+            <hi xml:lang="es">(228), p.&#160;25-50.</hi>
+          </bibl>
+                    <bibl xml:id="d1e735">
+                        <hi xml:lang="es">Garcia de Fanelli, A. (2009). La movilidad académica y estudiantil: reflexiones sobre el caso argentino. In Didou Aupetit,&#160;S. y E.&#160;Gerard (eds.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Fuga de cerebros, movilidad académica y redes científicas. Perspectivas latinoamericanas</hi>
+                        </hi>
+                        <hi xml:lang="es"> (pp.&#160;117-136). México: IESALC-CINVESTAV-IRD.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e743">
+                        <hi xml:lang="en">Garfinkel H. (1967). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Studies in ethnomethodology. </hi>
+                        </hi>
+                        <hi xml:lang="en">New York: Prentice-Hall Englewood Cliffs.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e751">
+                        <hi xml:lang="en">Henke C. R. &amp; Gieryn T. F. (2008). Sites of scientific practice: the enduring importance of place. In: Edward&#160;J. Hackett, Olga Amsterdamska, Michael Lynch, and Judy Wajcman. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Handbook of Science and Technology Studies</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;353-376)</hi>
+                        <hi xml:lang="en">. Cambridge, MA and London: MIT Press, 3</hi>
+                        <hi rend="sup">
+                            <hi xml:lang="en">e</hi>
+                        </hi>
+                        <hi xml:lang="en"> ed.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e766">
+            <hi xml:lang="es">Hernandez V., Mera C., Meyer J.-B. &amp; Oteiza E. (eds) (2011). </hi>
+            <hi rend="italic">
+              <hi xml:lang="es">Circulación de saberes y movilidades internacionales: perspectivas latinoamericanas. </hi>
+            </hi>Buenos&#160;Aires: Biblios.</bibl>
+                    <bibl xml:id="d1e773">Hubert M. &amp; Spivak L’Hoste A. (2008). Prendre la vague des nanotechnologies depuis la périphérie. Le rôle des instruments dans l’insertion de chercheurs argentins au sein de réseaux de coopération scientifique. <hi rend="italic">Revue d’anthropologie des connaissances, 2</hi>(3), 441-468.</bibl>
+                    <bibl xml:id="d1e778">Keim W. (2010). Pour un modèle centre-périphérie dans les sciences sociales. Aspects problématiques des relations internationales en sciences sociales. <hi rend="italic">Revue d’anthropologie des connaissances, </hi>
+            <hi rend="italic">
+              <hi xml:lang="pt">4</hi>
+            </hi>
+            <hi xml:lang="pt">(3), 570-598.</hi>
+          </bibl>
+                    <bibl xml:id="d1e787">
+                        <hi xml:lang="pt">Kofes S. (1984). Experiencias sociais, interpretaciones individuais: historias de vida, suas possibilidades e limites. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Cadernos Pagu, </hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 117-142.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e796">
+                        <hi xml:lang="en">Kreimer P. (1997). Migration of scientists and the building of a laboratory in Argentina. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Science, Technology and Society, 2</hi>
+                        </hi>
+                        <hi xml:lang="es">(2), 229-259.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e804">
+                        <hi xml:lang="es">Kreimer P. (2006). ¿Dependientes o integrados? La ciencia latinamericana y la nueva división internacional del trabajo. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Nómadas-CLASCO, </hi>
+                        </hi>
+                        <hi xml:lang="es">(24), 199-212.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e812">
+                        <hi xml:lang="es">Kreimer P. (2010). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Ciencia y periferia. Nacimiento, Muerte y Resurreccion de la Biologia Molecular en la Argentina. </hi>
+                        </hi>
+                        <hi xml:lang="es">Buenos&#160;Aires: Eudeba.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e820">
+            <hi xml:lang="es">Kreimer P. &amp; Thomas H. (2004). Un poco de reflexividad o ¿de donde venimos? Estudios Sociales de la Ciencia y la Tecnología en América Latina. In: Kreimer,&#160;P. </hi>
+            <hi rend="italic">
+              <hi xml:lang="es">et&#160;al. </hi>
+            </hi>
+            <hi xml:lang="es">(dir.) </hi>
+            <hi rend="italic">
+              <hi xml:lang="es">Producción y uso social de conocimientos: estudios de sociología de la ciencia y la tecnología en América Latina</hi>
+            </hi>
+            <hi xml:lang="fr"> (pp.&#160;11-89)</hi>
+            <hi xml:lang="es">. </hi>Buenos Aires: Universidad Nacional de Quilmes.</bibl>
+                    <bibl xml:id="d1e836">Kreimer P. &amp; Thomas H. (2006). Production des connaissances dans la science périphérique&#160;: l’hypothèse CANA en Argentine. in Meyer&#160;J.-B., Carton&#160;M., <hi rend="italic">La société des savoirs. Trompe-l’œil ou perspectives </hi>
+            <hi xml:lang="en">(pp.&#160;143-167)</hi>
+            <hi rend="italic">. </hi>Paris&#160;: L’Harmattan.</bibl>
+                    <bibl xml:id="d1e845">Kreimer P. &amp; Zabala J. P. (2008). Quelle connaissance et pour qui&#160;? Problèmes sociaux, production et usage social de connaissances scientifiques sur la maladie de Chagas en Argentine. <hi rend="italic">Revue d’anthropologie des connaissances, 2</hi>(3), 413-439.</bibl>
+                    <bibl xml:id="d1e850">Losego P. &amp; Arvanitis R. (2008). La science dans les pays non hégémoniques. <hi rend="italic">
+              <hi xml:lang="es">Revue d’anthropologie des connaissances, 2</hi>
+            </hi>
+            <hi xml:lang="es">(3), 334-342.</hi>
+          </bibl>
+                    <bibl xml:id="d1e857">
+                        <hi xml:lang="es">Luchilo L. (2006). Redes migratorias de personal calificado y fuga de cerebros. In: Albornoz</hi>
+                    </bibl>
+                    <bibl xml:id="d1e860">
+                        <hi xml:lang="es">M. &amp; C. Alfaraz (eds.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Redes de conocimiento: construcción, dinámica y gestión. </hi>
+                        </hi>
+                        <hi xml:lang="es">Buenos Aires: RICYT CITED UNESCO, 229-250.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e868">
+                        <hi xml:lang="es">Luchilo L. (2011). Argentina: una estimación de la emigración de científicos e ingenieros. In: Luchino,&#160;L. (Ed.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Más allá de la fuga de cerebros. Movilidad, migración y diásporas de argentinos calificados</hi>
+                        </hi>
+                        <hi xml:lang="es">. Buenos&#160;Aires: Eudeba.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e876">
+                        <hi xml:lang="es">Martinez Vidal C. &amp; Mari M. (2002). La escuela latinoamericana de Pensamiento en Ciencia, Tecnología y Desarrollo. Notas de un proyecto de investigación. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Revista Iberoamericana en CTS+I. </hi>
+                        </hi>
+                        <hi xml:lang="es">(4).</hi>
+                    </bibl>
+                    <bibl xml:id="d1e885">
+                        <hi xml:lang="es">Meyer J.-B. (2011). La sociología de la diáspora de conocimiento in: Luchino,&#160;L. (Ed.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Más allá de la fuga de cerebros. Movilidad, migración y diásporas de argentinos calificados. </hi>
+                        </hi>
+                        <hi xml:lang="en">Buenos&#160;Aires: Eudeba.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e893">
+                        <hi xml:lang="en">Meyer J.-B. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">et&#160;al. </hi>
+                        </hi>
+                        <hi xml:lang="en">(1997). Turning Brain Drain into Brain Gain: The Colombian Experience of the Diaspora Option. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science, Technology and Society, 2</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 285-315.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e906">
+                        <hi xml:lang="en">Meyer J.-B. &amp; Brown M. (1999). Scientific Diasporas. A new Approach to the Brain Drain. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Conferencia Mundial de Ciencia. </hi>
+                        </hi>
+                        <hi xml:lang="es">Budapest: UNESCO-ICSU.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e914">
+                        <hi xml:lang="es">Prebisch R. (1949). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">El desarrollo económico de América Latina y algunos de sus principales problemas. </hi>
+                        </hi>
+                        <hi xml:lang="es">Santiago (Chile): CEPAL.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e922">
+                        <hi xml:lang="es">Remedi E. (2009). Fuga de cerebros y movilidad profesional: ¿vectores de cambio en la educación superior? in: Didou Aupetit,&#160;S. y E.&#160;Gerard (eds.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Fuga de cerebros, movilidad académica y redes científicas. Perspectivas latinoamericanas</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;89-100)</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">. </hi>
+                        </hi>
+                        <hi xml:lang="es">México: IESALC-CINVESTAV-IRD.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e935">
+                        <hi xml:lang="es">Sábato J. (1975). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">El pensamiento latinoamericano en la problemática ciencia-tecnología-desarrollo-dependencia. </hi>
+                        </hi>
+                        <hi xml:lang="en">Buenos&#160;Aires: Paidos.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e943">
+                        <hi xml:lang="en">Smith M. P. &amp; Favell A. (2006). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The human face of global mobility. International highly-skilled migration in Europe, North America and the Asia-Pasific. </hi>
+                        </hi>
+                        <hi xml:lang="es">Londres: Transaction Publishers.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e951">
+                        <hi xml:lang="es">Spivak L’Hoste A., Hubert M., Figueroa S. &amp; Andrini L. (2012). La estructuración de la investigación argentina en nanociencia y nanotecnología: balances y perspectivas. in: G.&#160;Foladori, E.&#160;Záyago, N.&#160;Invernizzi (dir.) </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Perspectivas sobre el desarrollo de las nanotecnologías en América Latina</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (pp.&#160;33-53)</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">. </hi>
+                        </hi>
+                        <hi xml:lang="pt">Mexico DF: Editions M.A. Porrúa.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e964">
+                        <hi xml:lang="pt">Velho L. &amp; Pessoa O. (1998). </hi>
+                        <hi xml:lang="en">The Decision-Making Process in the Construction of the Synchrotron Light National Laboratory in Brazil. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="es">Social Studies of Science. 28</hi>
+                        </hi>
+                        <hi xml:lang="es">(2), 195-219</hi>
+                    </bibl>
+                    <bibl xml:id="d1e974">
+            <hi xml:lang="es">Vessuri H. (2008). Competición y colaboración en un contexto de multiplicación de “centros de atracción” y “desiertos yermos”. </hi>
+            <hi rend="italic">Revista de la Educación Superior. </hi>
+            <hi rend="italic">XXXVII</hi> (4), (148), 123-139.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

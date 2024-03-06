@@ -1,0 +1,3073 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="snadal" time="2023-09-12T15:25:01.329+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_3731_DiasdeFigueiredo">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">De la nature historique des pratiques
+        d’ingénierie</title>
+        <title level="a" type="alt" xml:lang="en">On the historical nature of
+        engineering practice</title>
+        <title level="a" type="alt" xml:lang="es">De la naturaleza histórica
+        de las prácticas de ingeniería</title>
+        <author>
+          <persName>
+            <forename>Antonio</forename>
+            <surname>Dias&#160;de&#160;Figueiredo</surname>
+          </persName>
+          <affiliation>Professeur émérite en systèmes d’information à la
+          Faculté de science et de technologie de l’Université de Coimbra au
+          Portugal, consultant indépendant et chercheur en technologies de
+          l’information pour l’apprentissage et la formation, en écologie
+          sociale de la formation, de l’innovation et des technologies de
+          l’information, ses intérêts de recherche incluent également les
+          méthodes de recherche, les études sociales des sciences (STS) et
+          l’épistémologie de l’ingénierie et de la conception.<ref target="https://orcid.org/0000-0002-9128-0989">https://orcid.org/0000-0002-9128-0989</ref>Adresse&#160;:
+          Centro de Informática e Sistemas (CISUC), Facudade de Ciências e
+          Tecnologia Universidade de Coimbra –&#160;Polo II, PT-3030-290 Coimbra
+          (Portugal).Courriel&#160;: adiasfigueiredo[at]gmail.com</affiliation>
+        </author>
+        <editor role="translator">
+          <persName>
+            <forename>Richard</forename>
+            <surname>Marion</surname>
+          </persName>
+        </editor>
+        <editor role="translator">
+          <persName>
+            <forename>Dominique</forename>
+            <surname>Vinck</surname>
+          </persName>
+        </editor>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="SN">
+            <forename>Sara</forename>
+            <surname>Nadal</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/SKSKDQ2L" type="journalArticle" xml:lang="fr">
+          <analytic>
+            <title level="a">De la nature historique des pratiques
+            d’ingénierie</title>
+            <idno type="DOI">10.3917/rac.023.0245</idno>
+            <author>
+              <forename>Antonio</forename>
+              <surname>Dias de&#160;Figueiredo</surname>
+            </author>
+            <respStmt>
+              <resp>translator</resp>
+              <persName>
+                <forename>Richard</forename>
+                <surname>Marion</surname>
+              </persName>
+            </respStmt>
+            <respStmt>
+              <resp>translator</resp>
+              <persName>
+                <forename>Dominique</forename>
+                <surname>Vinck</surname>
+              </persName>
+            </respStmt>
+          </analytic>
+          <monogr>
+            <title level="j">Revue d’anthropologie des connaissances</title>
+            <idno type="ISSN">1760-5393</idno>
+            <imprint>
+              <biblScope unit="volume">8</biblScope>
+              <biblScope unit="issue">2</biblScope>
+              <date>2014</date>
+              <note type="accessed">2023-06-22T08:30:56Z</note>
+              <note type="url">https://journals.openedition.org/rac/3731</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>discipline</item>
+            <item>history of engineering</item>
+            <item>engineering education</item>
+            <item>typology</item>
+            <item>engineering practice</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>discipline</item>
+            <item>histoire de l’ingénierie</item>
+            <item>formation</item>
+            <item>typologie</item>
+            <item>pratiques d’ingénierie</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+          <list>
+            <item>disciplina</item>
+            <item>historia de la ingeniería</item>
+            <item>formación</item>
+            <item>tipología</item>
+            <item>práctica de ingeniería</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term>
+            <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>
+          </term>
+          <term>
+            <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>
+          </term>
+          <term>
+            <placeName ref="1269750" type="geonames" xml:base="https://www.geonames.org/">Inde</placeName>
+          </term>
+          <term>
+            <placeName ref="360995" type="geonames" xml:base="https://www.geonames.org/">Gizeh</placeName>
+          </term>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term>
+            <date from="0700" to="0799" type="_temp">
+              <hi xml:lang="fr">VIII</hi>
+              <hi rend="sup">e</hi>
+              <hi xml:lang="fr">&#160;siècle</hi>
+            </date>
+          </term>
+          <term>
+            <date from="1800" to="1830" type="_temp">
+              <hi xml:lang="fr">début du XIX</hi>
+              <hi rend="sup">e</hi>
+              <hi xml:lang="fr">&#160;siècle</hi>
+            </date>
+          </term>
+          <term>
+            <date from="1751" to="1772" type="_temp">entre 1751 et 1772</date>
+          </term>
+          <term>
+            <date type="_temp" when="1747">1747</date>
+          </term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">De la nature historique des pratiques
+          d’ingénierie</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Antonio Dias&#160;de&#160;Figueiredo</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract" xml:id="d1e280" xml:lang="fr">
+        <p xml:id="d1e281">
+          <hi xml:lang="fr">En revisitant l’histoire de l’ingénierie depuis
+          les premières traces préhistoriques dont nous disposons et en
+          s’arrêtant minutieusement sur les trois derniers millénaires,
+          l’article construit une typologie quadridimensionnelle des
+          disciplines nourrissant l’ingénierie à travers les époques et les
+          cultures. Il montre que ces quatre dimensions ne sont jamais
+          complètement intégrées mais que les ingénieurs les plus brillants et
+          innovants sont ceux qui ont su jouer sur ces quatre tableaux et les
+          associer de façon féconde. La réflexion ouvre sur une conception
+          relationnelle de la pluridimensionnalité de l’ingénierie, où
+          importeront davantage les liens entre les différentes dimensions que
+          les dimensions elles-mêmes et le cumul de leurs contenus. L’article
+          donne aussi un message d’espoir quant à l’avenir de l’ingénierie
+          auquel il dit vouloir contribuer en montrant que sa désintégration
+          par détachement des composantes diverses et complexes n’est pas
+          inéluctable, voire pas problématique, dès lors que l’on pense
+          l’ingénierie comme l’art de faire tenir ensemble cette
+          diversité.</hi>
+        </p>
+      </div>
+      <note type="publisher" xml:id="ftn">
+        <p>
+          <hi xml:lang="fr">Traduit de l’anglais par <persName ref="186191529" type="idref" xml:base="https://www.idref.fr/">Richard
+          Marion</persName> et révisé par <persName ref="028601963" type="idref" xml:base="https://www.idref.fr/">Dominique
+          Vinck</persName>. Cet article est une version révisée par <persName ref="028601963" type="idref" xml:base="https://www.idref.fr/">Dominique Vinck</persName> et par
+          l’auteur, en fonction des indications du Comité de rédaction de
+          la</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">Revue d’Anthropologie des Connaissances</hi>
+          </hi>
+          <hi xml:lang="fr">, d’un chapitre publié dans <persName type="_temp">Bill Williams</persName>, <persName type="_temp">José
+          Figueiredo</persName> &amp; <persName ref="086103075" type="idref" xml:base="https://www.idref.fr/">James Trevelyan</persName>
+          (eds.),</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">Engineering practice in a global context:
+            understanding the technical and social</hi>
+          </hi>
+          <hi xml:lang="fr">, Taylor &amp; Francis, pp.&#160;7-32.</hi>
+        </p>
+      </note>
+    </front>
+    <body>
+      <div type="div1" xml:id="d1e311">
+        <head subtype="level1" xml:id="d1e312">Introduction</head>
+        <p xml:id="d1e314">
+          <hi xml:lang="fr">Avec son ouvrage remarqué sur la profession
+          d’ingénieur,</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">Retooling: A Historian Confronts Techological
+            Change</hi>
+          </hi>
+          <hi xml:lang="fr">, <persName ref="193079674" type="idref" xml:base="https://www.idref.fr/">Rosalind Williams</persName>
+          –&#160;éminente historienne et doyenne au&#160;</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">Massachusetts Institute of Technology</hi>
+          </hi>
+          <hi xml:lang="fr">&#160;– affirme que «&#160;l’établissement d’une profession
+          d’ingénieur autonome orientée vers des idéaux de responsabilité
+          sociale étendue... ne s’est pas encore produit et ne se produira
+          pas&#160;» (Williams, 2002, p.&#160;80). Son livre a été écrit du point de vue
+          de quelqu’un qui a intensément participé à la transformation
+          organisationnelle et intellectuelle du MIT à cette période&#160;; le
+          façonnage de ses arguments traduit les controverses, les barrières
+          de communication et les impasses qui émergent lorsque les
+          universitaires discutent du futur de leur discipline. Le désaccord
+          au sujet de la nature des pratiques d’ingénierie est cependant bien
+          ancien et les jardins cloisonnés de l’Université n’en ont pas le
+          monopole. La crise identitaire de la profession d’ingénieur, à
+          laquelle <persName ref="193079674" type="idref" xml:base="https://www.idref.fr/">Williams</persName> se réfère quand
+          elle relève que les ingénieurs contemporains suivent le flux de
+          l’innovation davantage qu’ils ne sont fidèles à une organisation
+          (Williams, 2002, p.&#160;63), est une des crises identitaires qui ont
+          scandé l’évolution de l’ingénierie au cours des deux derniers
+          siècles. Ces crises n’ont jamais été résolues et mon hypothèse est
+          que l’on aurait beaucoup gagné à ce que les personnes concernées par
+          la solution à ces crises avaient élargi leurs perspectives en
+          prêtant attention à la riche histoire des pratiques
+          d’ingénierie.</hi>
+        </p>
+        <p xml:id="d1e327">
+          <hi xml:lang="fr">Selon <persName ref="193079674" type="idref" xml:base="https://www.idref.fr/">Williams</persName> (2002, p.&#160;30),
+          l’ingénierie entre dans un processus de «&#160;désintégration extensive&#160;»
+          suscitée par son propre succès. La quantité de personnes se
+          désignant elles-mêmes comme ingénieurs augmente et les activités de
+          type ingénierie sont en expansion. Or l’émergence de la
+          technoscience brouille les frontières entre disciplines, de sorte
+          qu’ingénieurs et non-ingénieurs sont maintenant impliqués dans des
+          projets multidisciplinaires qui remplacent les disciplines comme
+          principes organisateurs d’activités techno-scientifiques. Du point
+          de vue de <persName ref="193079674" type="idref" xml:base="https://www.idref.fr/">Williams</persName>, cela provoque
+          la disparition de l’ingénierie comme activité cohérente et
+          indépendante. Par ailleurs, de son point de vue, la maîtrise de la
+          nouvelle ingénierie (désintégrée) ne devrait revenir ni à l’État ni
+          à l’armée ni aux corporations ni au marché, mais à la démocratie
+          (Williams, 2002, p.&#160;87).</hi>
+        </p>
+        <p xml:id="d1e330">
+          <hi xml:lang="fr">Personnellement, en tant qu’ingénieur, je pense
+          que les «&#160;identités occupationnelles&#160;» (Becker &amp; Carper, 1956)
+          sont essentielles pour la performance qualifiée de toute activité à
+          la fois techno-scientifique et sociale. Je considère aussi que, quel
+          que soit le devenir de la prévision de <persName ref="193079674" type="idref" xml:base="https://www.idref.fr/">Williams</persName>,
+          l’acceptation abstraite de la démocratie comme un guide pour la
+          construction et l’évolution d’une identité occupationnelle est trop
+          vague pour être d’une quelconque utilité. Comme l’écrit <persName ref="080648525" type="idref" xml:base="https://www.idref.fr/">Nelson
+          Foote</persName>, le premier à avoir attiré notre attention sur
+          l’importance de l’identité comme motivation&#160;:</hi>
+        </p>
+        <q rend="quotation">Le doute sur l’identité ou la confusion, là où
+        cela ne provoque pas de désorientation complète, vide clairement
+        l’action de sa signification et limite ainsi la mobilisation de
+        l’investissement corporel, de la volonté et de l’énergie qui
+        constituent l’impulsion introspectivement perçue de l’action motivée.
+        (Foote, 1951, p.&#160;19)</q>
+        <p xml:id="d1e335">
+          <hi xml:lang="fr">Ceux qui souhaitent se désigner comme ingénieurs,
+          qui sont responsables de la formation des ingénieurs du futur ou
+          sont impliqués dans la production de nouveaux savoirs dans des
+          domaines liés à l’ingénierie auront beaucoup à gagner à prêter
+          attention au précieux héritage de millénaires d’ingénierie.</hi>
+        </p>
+        <p xml:id="d1e338">
+          <hi xml:lang="fr">L’objectif de cet article est de proposer une
+          description de cet héritage et une interprétation exploratoire de sa
+          pertinence à clarifier la nature des pratiques d’ingénierie.
+          L’article débute avec une description de l’évolution de l’ingénierie
+          depuis les premières pratiques dont nous ayons trace jusqu’à la fin
+          de la Renaissance. Puisque l’histoire de l’ingénierie s’est
+          considérablement accélérée depuis, à travers les révolutions
+          industrielles et de l’information, il est impossible de synthétiser
+          une telle expansion en un seul article. C’est pourquoi la période
+          allant de la Renaissance au temps présent est analysée à travers une
+          brève digression sur l’histoire de la formation à l’ingénierie.
+          C’est à partir de cet historique que l’article propose un cadre
+          d’interprétation où l’ingénierie est vue comme la combinaison
+          transdisciplinaire de quatre dimensions disciplinaires clefs.
+          L’article conclut en proposant un concept d’ingénieur complet pour
+          décrire l’agrégation organique de ces quatre dimensions.</hi>
+        </p>
+      </div>
+      <div type="div1" xml:id="d1e341">
+        <head subtype="level1" xml:id="d1e342">Les premières pratiques
+        d’ingénierie</head>
+        <p xml:id="d1e344">
+          <hi xml:lang="fr">La première manifestation d’une pratique
+          d’ingénierie doit avoir eu lieu il y a deux millions et demi
+          d’années (Roberts, 2002, p.&#160;9), quand nos ancêtres préhistoriques
+          ont appris qu’ils pouvaient affûter les arêtes des pierres qu’ils
+          utilisaient comme outils et ont réalisé que l’exploration de ces
+          outils améliorés pouvait amener à la découverte de nouvelles
+          pratiques. Cela signifiait que la pratique de l’utilisation
+          d’artefacts engendrait un savoir de production et d’amélioration des
+          outils dans une relation circulaire entre pratique et savoir,
+          décrite par John Dewey comme «&#160;action intelligente&#160;», au fondement
+          de l’ingénierie en tant que discipline et profession. Dans
+          l’expression de <persName type="_temp">Dewey</persName>, «&#160;l’action
+          intelligente&#160;», contrairement à une méthode classique d’essais et
+          erreurs, utilise la pensée pour «&#160;s’entraîner (par imagination) dans
+          différentes directions d’actions concurrentes&#160;» (Dewey, 1930,
+          p.&#160;179). L’imagination constitue, en fait, un ingrédient essentiel
+          des pratiques d’ingénierie. Une grande part de l’évolution de
+          l’ingénierie résulte de rêves individuels et collectifs au sujet de
+          choses qui n’avaient jamais existé. Les pratiques d’ingénierie
+          peuvent être vues dans une large mesure comme la réalisation et la
+          mise en œuvre de ces rêves.</hi>
+        </p>
+        <p xml:id="d1e347">
+          <hi xml:lang="fr">Nous savons très peu de choses de l’évolution des
+          pratiques d’ingénierie avant l’invention de l’écriture, mais les
+          premières tablettes mésopotamiennes en argile portant une écriture
+          cunéiforme montrent que les ingénieurs babyloniens s’étaient
+          intéressés dès 3000&#160;ans avant Jésus-Christ à des problèmes pratiques
+          sophistiqués sur le plan des mathématiques, des équations
+          algébriques, des triangles rectangles, des surfaces agraires, des
+          volumes de maçonnerie, du contenu volumique des canaux devant être
+          creusés (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;10) ou encore de l’approximation de
+          règles algorithmiques (Chiu, 2011, p.&#160;175). Ils utilisaient un
+          système numérique en base 60 qui a inspiré notre système actuel de
+          mesure des angles et du temps (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;10). La civilisation égyptienne a
+          également laissé des traces de l’utilisation des mathématiques dans
+          l’ingénierie&#160;; ils ont établi un système numérique non positionnel
+          en base 10. Comme la majorité de leurs écrits ont été produits sur
+          de fragiles papyrus séchés, ces traces ne sont pas parvenues jusqu’à
+          notre époque. Cependant, les quelques écrits retrouvés à ce jour,
+          comme les papyrus Rhind et Moscow, donnent des indications clés sur
+          le rôle joué par les mathématiques dans la vie égyptienne (Imhausen,
+          2006, p.&#160;19) et suggèrent leur importance dans l’érection de temples
+          et monuments massifs comme les grandes obélisques et colonnes, les
+          ouvrages élaborés d’ingénierie hydraulique et les constructions
+          navales sophistiquées qui caractérisent les exploits de l’ingénierie
+          égyptienne à partir de 3000&#160;ans avant J.-C. (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990). Les traces issues de la <placeName ref="8378519" type="geonames" xml:base="https://www.geonames.org/">Mésopotamie</placeName> et de
+          l’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> ancienne,
+          sans même considérer celles qui viennent d’<placeName ref="1269750" type="geonames" xml:base="https://www.geonames.org/">Inde</placeName> et de
+          <placeName ref="1814991" type="geonames" xml:base="https://www.geonames.org/">Chine</placeName>, montrent que
+          nos ancêtres ingénieurs ont très tôt assis leur «&#160;action
+          intelligente&#160;» sur une pensée mathématique et abstraite.</hi>
+        </p>
+        <p xml:id="d1e365">
+          <hi xml:lang="fr">Au-delà de l’action intelligente et de la pensée
+          mathématique, ils ont aussi recouru à des dessins et des moyens de
+          représentation graphique. Comme l’ont suggéré Madsen et Madsen
+          (2011, p.&#160;10), les dessins et gravures des cavernes préhistoriques
+          qui ont donné forme aux attraits artistiques de nos ancêtres
+          constituaient aussi des formes pionnières de communication graphique
+          devenues essentielles au progrès de l’ingénierie (Ferguson, 1992).
+          Des restes retrouvés en <placeName ref="8378519" type="geonames" xml:base="https://www.geonames.org/">Mésopotamie</placeName>
+          ancienne suggèrent que des dessins de structures schématisées, comme
+          des ziggourats, qui étaient déjà utilisées 2000&#160;ans avant J.-C.
+          (Kirby&#160;</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;10). Des traces de l’histoire de
+          l’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> ancienne
+          indiquent aussi l’utilisation de dessins, à la fois dans le plan et
+          dans l’espace, et la construction de modèles à l’échelle (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;24). Cela se comprend si nous gardons à
+          l’esprit que les pierres des bâtiments égyptiens, souvent de grandes
+          dimensions, devaient être façonnées dès la carrière avant d’être
+          transportées vers le site de construction, ce qui requérait que les
+          ingénieurs développent des plans détaillés de leurs structures et
+          prédisent rigoureusement la place que les pierres occuperaient au
+          sein des édifices achevés (Kirby&#160;</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;24).</hi>
+        </p>
+        <p xml:id="d1e383">
+          <hi xml:lang="fr">Ce souci de la gestion de projet indique une autre
+          caractéristique de l’ingénierie antique, au-delà de la pratique de
+          l’action intelligente, de l’application d’outils mathématiques et de
+          l’utilisation de dessins et de représentations graphiques&#160;: celle de
+          gérer leurs propres projets, y compris la gestion des personnes
+          impliquées. En <placeName ref="8378519" type="geonames" xml:base="https://www.geonames.org/">Mésopotamie</placeName>, le
+          Code Hammourabi traite explicitement des règles, responsabilités et
+          standards acceptables de production des maîtres d’œuvres (Chiu,
+          2011, p.&#160;35) qui devaient les respecter pour toutes leurs activités
+          et pour celles des personnes travaillant pour eux. Dans l’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> ancienne, le
+          maître d’œuvre, qui était également architecte, ingénieur et
+          bâtisseur, jouissait en général d’un très haut statut social et
+          était responsable de la gestion du processus complet de l’extraction
+          des pierres au transport vers le site de construction, supervisant
+          la construction complète et organisant l’immense force de travail
+          (Chiu, 2011, p.&#160;59). La gestion de projet dans l’ancienne Égypte
+          s’est considérablement améliorée au cours du temps, recourant
+          parfois à des prototypes à grande échelle, comme dans le cas de la
+          pyramide rhomboïdale à <placeName ref="358483" type="geonames" xml:base="https://www.geonames.org/">Dahshur</placeName>, qui était
+          utilisée comme un dispositif expérimental pour tester différentes
+          inclinaisons de pente pour la gigantesque pyramide de <placeName ref="360995" type="geonames" xml:base="https://www.geonames.org/">Gizeh</placeName> (Miroslav,
+          2001) et montre la mesure dans laquelle, très tôt, la gestion des
+          projets d’ingénierie pouvait se trouver profondément intriquée avec
+          tout le processus de production.</hi>
+        </p>
+        <p xml:id="d1e386">
+          <hi xml:lang="fr">L’ingénierie primitive débute dans le domaine de
+          l’artisanat, inspiré par des considérations utilitaires et
+          artistiques. Dans l’ancienne Mésopotamie, les ingénieurs étaient des
+          maîtres d’œuvres ayant débuté comme artisans, devenus bâtisseurs
+          expérimentés au service des projets d’extension urbanistique et de
+          construction publique qui ont fait de la <placeName ref="8378519" type="geonames" xml:base="https://www.geonames.org/">Mésopotamie</placeName> le
+          berceau de la civilisation. En <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>, les
+          ingénieurs étaient aussi des maîtres d’œuvres qui avaient débuté
+          comme artisans, nombre d’entre eux venant de la prêtrise, mais
+          élargissant leurs attributions à travers la construction et la
+          supervision de temples, de projets d’irrigation, d’aqueducs, ou
+          encore de l’extension de routes qui requéraient un nombre croissant
+          de personnes qualifiées (Chiu, 2011, p.&#160;59). Cette brève description
+          des débuts de l’ingénierie est suffisante pour souligner quelques
+          tendances ou aspects des pratiques d’ingénierie. Tout d’abord, ces
+          pratiques sont issues de l’activité et de la culture de l’artisanat.
+          Ensuite, elles se sont développées autour de l’utilisation de plans,
+          de dessins et de modèles, correspondant à ce qui est qualifié
+          aujourd’hui de travail de conception. Elles reposent aussi sur la
+          mesure rigoureuse, le calcul et –&#160;dans une certaine mesure&#160;– sur la
+          pensée abstraite, soit autant de manifestations précoces de la
+          science. Enfin, elles reconnaissent le besoin d’organiser et
+          d’administrer les projets et les gens, c’est-à-dire une dimension de
+          sciences sociales (commerce et gestion inclus).</hi>
+        </p>
+      </div>
+      <div type="div1" xml:id="d1e389">
+        <head subtype="level1" xml:id="d1e390">La science grecque et
+        l’ingénierie romaine</head>
+        <p xml:id="d1e392">
+          <hi xml:lang="fr">Bien que les civilisations grecques et romaines
+          aient été fortement influencées par les cultures mésopotamiennes et
+          égyptiennes, leurs attitudes à l’égard du savoir et de la pratique
+          ont évolué dans des directions radicalement différentes, causant la
+          première rupture fondamentale entre les cultures de la science et de
+          l’ingénierie. Jusqu’au VI</hi>
+          <hi rend="sup">e</hi>
+          <hi xml:lang="fr">&#160;siècle avant notre ère, quand les Grecs anciens
+          ont commencé à faire l’hypothèse de l’existence de «&#160;lois de la
+          nature&#160;» générales, le savoir humain était développé à partir de
+          l’expérience. Le changement radical introduit par les Grecs anciens
+          fut de reconnaître l’existence d’un ordre caché dans la nature et de
+          formuler l’hypothèse de l’existence de lois naturelles générales qui
+          gouverneraient cet ordre et pourraient être découvertes par l’homme
+          (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;42). Cela explique pourquoi les Grecs
+          anciens sont considérés comme ayant créé la science –&#160;la capacité à
+          construire du savoir par dévoilement des théories des phénomènes
+          naturels et des mystères des mathématiques. Les Mésopotamiens et les
+          Égyptiens étaient capables de résoudre des problèmes pratiques de
+          géométrie mais la réelle rupture a été l’invention de la géométrie
+          abstraite par <persName ref="027649660" type="idref" xml:base="https://www.idref.fr/">Thalès de Milet</persName>, dont la
+          théorie générale des relations et des propriétés des lignes, angles,
+          surfaces, plans et solides fut développée indépendamment de tout
+          objet concret auquel elle pourrait se référer (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;42). L’invention grecque de
+          représentions sous la forme de diagrammes et de langages
+          mathématiques constitue une contribution majeure discutée dans
+          l’étude de <persName ref="080087523" type="idref" xml:base="https://www.idref.fr/">Reviel Netz</persName> (2003) sur
+          l’origine du formalisme,</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">&#160;The Shaping of Deduction in Greek
+            Mathematics</hi>
+          </hi>
+          <hi xml:lang="fr">, où il décrit l’invention du raisonnement
+          apodictique (moyens de convaincre par la démonstration) par les
+          mathématiciens grecques</hi>
+          <note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>
+              <hi xml:lang="fr">Voir aussi Latour (2007).</hi>
+            </p>
+          </note>
+          <hi xml:lang="fr">. Trois cents ans plus tard, dans la période
+          hellénistique, <persName ref="026854651" type="idref" xml:base="https://www.idref.fr/">Euclide</persName> a écrit ses
+          vastes&#160;</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">Éléments</hi>
+          </hi>
+          <hi xml:lang="fr">, un ensemble de treize livres de définitions,
+          axiomes, propositions et preuves de géométrie, algèbres et théorie
+          des nombres qui déploierait l’influence de la science grecque
+          jusqu’à nos jours. D’une façon similaire, la physique d’<persName ref="026690276" type="idref" xml:base="https://www.idref.fr/">Aristote</persName>, inspirant
+          traité de philosophie de la nature, est devenue une fondation
+          importante de la science pour plusieurs siècles.</hi>
+        </p>
+        <p xml:id="d1e429">
+          <hi xml:lang="fr">De façon curieuse, les ingénieurs grecs n’ont pas
+          trouvé grand usage de ces théories, de sorte que l’histoire des
+          ingénieurs de la Grèce antique était principalement fondée sur
+          l’adaptation habile de pratiques de civilisations antérieures avec,
+          cependant, une différence significative&#160;: la beauté et le sens des
+          proportions de leurs réalisations, notamment en architecture
+          (Kirby&#160;</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;43). La planification de leurs
+          constructions, fondée sur les caractéristiques générales de la
+          cité-État, dessinait seulement les dimensions générales –&#160;volume,
+          surface, épaisseur des murs, taille des fenêtres&#160;– de sorte que
+          l’</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">architekton</hi>
+          </hi>
+          <hi xml:lang="fr">, dont le rôle était identique à celui de
+          l’ingénieur d’aujourd’hui, était libre d’user de sa créativité et de
+          son esprit artistique au fur et à mesure que les constructions
+          progressaient, conférant ainsi à ses bâtiments l’effet architectural
+          stupéfiant dont nous sommes aujourd’hui témoins (Kirby&#160;</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;43). L’</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">architekton&#160;</hi>
+          </hi>
+          <hi xml:lang="fr">était considéré comme un artisan et entrepreneur
+          du bâtiment, engagé par l’État ou par des clients aisés, qui
+          dessinait les bâtiments, engageait et dirigeait le personnel, et
+          s’assurait que la construction soit achevée dans le temps et le
+          budget impartis (Chiu, 2011, p.&#160;79). Le statut de l’</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">architekton</hi>
+          </hi>
+          <hi xml:lang="fr">ne semble pas avoir été très prisé dans la Grèce
+          antique et même ceux qui sont aujourd’hui reconnus comme des génies,
+          comme <persName ref="223303739" type="idref" xml:base="https://www.idref.fr/">Iktinos</persName> –&#160;l’architecte
+          principal du Parthénon&#160;–, ne semblent pas avoir été célèbres à leur
+          époque (Chiu, 2011, p.&#160;79).</hi>
+        </p>
+        <p xml:id="d1e457">
+          <hi xml:lang="fr">À l’époque hellénistique, lorsque la culture
+          grecque se diffusait vers le monde non grec au fur et à mesure des
+          conquêtes d’<persName ref="195050088" type="idref" xml:base="https://www.idref.fr/">Alexandre le Grand</persName>, le
+          mépris grec pour les pratiques d’ingénierie fut modéré afin de
+          relever les défis du développement de la nouvelle civilisation.
+          <persName type="_temp">Archimède de Syracuse</persName> fut un
+          exemple de ce changement. Il a été simultanément scientifique de
+          premier plan et brillant ingénieur praticien ayant contribué à la
+          découverte des principes de la physique statique, de
+          l’hydrostatique, de l’énergie mécanique et de la mesure, mais aussi
+          à l’invention de la poulie composée, de la vis et d’un large
+          éventail de machines, leviers, grues et catapultes. Quoi qu’il en
+          soit, la marque durable de la culture grecque antique était que ses
+          plus brillants esprits ont créé une science abstraite et se sont
+          détournés des considérations pratiques de l’ingénierie.
+          Contrairement à la civilisation romaine qui vint ensuite, la
+          civilisation grecque a mis l’accent sur le savoir et déconsidéré la
+          pratique (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, pp.&#160;95-96).</hi>
+        </p>
+        <p xml:id="d1e465">
+          <hi xml:lang="fr">L’ingénierie romaine constituait l’exemple par
+          excellence de l’ingénierie dans l’Antiquité classique, laissant son
+          empreinte dans toute l’Europe occidentale et propageant son
+          influence à travers les siècles jusqu’à la Renaissance alors
+          qu’aucun scientifique romain de premier plan n’a émergé (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;56). Les Romains avaient du génie pour
+          la gestion et l’administration. Ils n’avaient guère le goût de la
+          théorisation, mais ils apprenaient rapidement et étaient
+          remarquablement compétents pour adapter et améliorer les idées et
+          les pratiques des autres (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;57). Ils ont fait preuve d’un intérêt
+          marqué pour l’ingénierie et apprécié sa valeur à la fois pour les
+          affaires militaires et civiles. Ils ont aussi encouragé et, en fait,
+          subventionné la formation systématique de jeunes apprentis
+          prometteurs (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;59). La combinaison de ces facteurs, y
+          compris leur goût pour la gestion et leur sens de l’efficacité et de
+          l’économie, explique en grande partie le succès de l’ingénierie
+          romaine. Une de leurs découvertes majeures semble avoir eu lieu par
+          chance, le genre de chance qui sourit davantage à ceux qui ont
+          exploré méthodiquement les pratiques en s’y étant mentalement
+          préparés&#160;: la découverte du béton. L’immense dôme du Panthéon romain
+          qui, 2000&#160;ans après sa construction, constitue toujours le plus
+          grand dôme du monde en béton non armé est à la fois une preuve de la
+          compétence technique des ingénieurs romains et un exemple historique
+          de la façon dont une technologie peut être balayée lorsqu’une
+          civilisation s’effondre. La technologie du béton a en effet disparu
+          avec la chute de la civilisation romaine et c’est seulement au début
+          du</hi>
+          <date from="1800" to="1899" type="_temp">
+            <hi xml:lang="fr">XIX</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">, presque deux millénaires après l’achèvement du
+          Panthéon, que cette technologie sera entièrement reconstruite
+          (Pacey, 1992, p.&#160;5).</hi>
+        </p>
+        <p xml:id="d1e488">
+          <hi xml:lang="fr">Un défaut majeur de l’ingénierie romaine résidait
+          dans le manque de connaissances mathématiques, malgré les efforts de
+          <persName ref="027648869" type="idref" xml:base="https://www.idref.fr/">Vitruve</persName>, l’ingénieur
+          romain auteur du</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">De architectura</hi>
+          </hi>
+          <hi xml:lang="fr">, un traité détaillé des méthodes d’ingénierie,
+          qui s’est efforcé de pénétrer l’héritage scientifique des Grecs et
+          d’en tirer des règles opératoires dans ses livres. <persName ref="027648869" type="idref" xml:base="https://www.idref.fr/">Vitruve</persName> incitait les
+          ingénieurs qui le suivaient à travailler leur connaissance des
+          mathématiques, des sciences et des arts, mais son conseil ne fut
+          d’aucun effet. L’ingénieur romain, ou</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">architectus</hi>
+          </hi>
+          <hi xml:lang="fr">, n’avait en effet pas de connaissance formelle en
+          physique statique et ne comprenait pas la trigonométrie grecque.
+          Puisqu’il ne maîtrisait pas de théorie systématique du calcul des
+          contraintes, des poussées et de la distribution des charges et qu’il
+          ne comprenait pas, sur le plan théorique, le comportement des
+          matériaux sous tension, compression, torsion et cisaillement
+          (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990 p.&#160;80), il devait recourir fréquemment à
+          des tests empiriques et appliquer d’amples facteurs de
+          sécurité.</hi>
+        </p>
+        <p xml:id="d1e506">
+          <hi xml:lang="fr">Les ingénieurs romains, ou maîtres d’œuvres, ont
+          agi simultanément comme concepteurs et bâtisseurs et ont organisé
+          leurs projets à grande échelle en suivant une organisation
+          hiérarchique fortement inspirée par les hiérarchies politiques de la
+          société romaine. Ils ont divisé le travail en de multiples sections
+          afin de permettre la construction simultanée de différents
+          composants des édifices tandis qu’ils assuraient la supervision
+          générale du chantier (Chiu, 2011, p.&#160;191). Selon <persName ref="027648869" type="idref" xml:base="https://www.idref.fr/">Vitruve</persName>, ils devaient
+          également être suffisamment cultivés pour comprendre la
+          signification symbolique de ce qu’ils étaient en train de construire
+          (Oleson, 2008, p.&#160;255), ce qui impliquait une bonne connaissance des
+          mathématiques, de la géométrie, de la philosophie, de la musique, du
+          droit, de l’astronomie et de la médecine, et d’être «&#160;des gens de
+          lettres capables de produire une rédaction littéraire de leurs
+          travaux, appelés à faire durablement partie des annales de
+          l’Empire&#160;» (Chiu, 2011, p.&#160;113). En d’autres termes, ils devaient
+          être des gens très cultivés et pas uniquement des artisans.</hi>
+        </p>
+        <p xml:id="d1e509">
+          <hi xml:lang="fr">Les quatre dimensions des pratiques d’ingénierie
+          identifiées pour les civilisations anciennes de <placeName ref="8378519" type="geonames" xml:base="https://www.geonames.org/">Mésopotamie</placeName> et
+          d’<placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>
+          –&#160;l’artisanat, la conception, la science et les sciences sociales (y
+          compris le commerce et la gestion)&#160;– se retrouvent également dans
+          les pratiques d’ingénierie de la Grèce et de la Rome classiques.
+          L’</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">architekton</hi>
+          </hi>
+          <hi xml:lang="fr">grec et l’</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">architectus</hi>
+          </hi>
+          <hi xml:lang="fr">romain commençaient généralement leur carrière
+          comme artisans –&#160;ou comme artistes, dans le cas de l’</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">architekton</hi>
+          </hi>
+          <hi xml:lang="fr">grec&#160;– et progressaient en complexité et niveau de
+          responsabilité de leurs tâches au fur et à mesure que leurs
+          compétences s’élevaient par l’apprentissage et la pratique. Leurs
+          solides compétences de conception –&#160;la conception étant comprise
+          comme la capacité à concevoir de nouvelles solutions&#160;–, peuvent être
+          appréciées à travers les nombreux monuments grecs que nous pouvons
+          visiter dans les régions faisant anciennement partie de l’Empire
+          grec et à travers la richesse des monuments, ponts, aqueducs,
+          canaux, barrages et autres constructions romaines répandues à
+          travers le vaste Empire romain. En revanche, la dimension
+          scientifique n’était pas une composante particulièrement forte des
+          pratiques d’ingénierie de la Grèce et de la Rome classiques. D’un
+          côté, les contributions scientifiques grecques étaient tellement
+          avancées qu’elles ne sont pas parvenues à se diffuser aux pratiques
+          ingénieures de leur époque et n’ont été véritablement appréciées que
+          2000&#160;ans plus tard</hi>
+          <note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>
+              <hi xml:lang="fr">En fait, la science grecque se tournait vers
+              la philosophie mécanique comme en témoigne l’œuvre de Héron
+              d’Alexandrie avec ses trains d’engrenages (par exemple, son
+              odomètre), sa science de l’hydraulique, son éolipile ancêtre de
+              la machine à vapeur et sa science de la programmation et de la
+              régulation par rétroaction. Cette science se faisait surtout au
+              bénéfice de l’art de la mise en scène rituelle et théâtrale
+              plutôt qu’au bénéfice de la construction d’édifices et
+              d’infrastructures.</hi>
+            </p>
+          </note>
+          <hi xml:lang="fr">. De l’autre côté, malgré l’engagement
+          mathématique de <persName ref="027648869" type="idref" xml:base="https://www.idref.fr/">Vitruve</persName> –&#160;le plus grand
+          représentant de la pensée ingénieuriale romaine&#160;–, les ingénieurs
+          romains n’avaient pas grand goût de développer une pensée abstraite
+          de leurs projets. Contrairement à la composante scientifique, la
+          composante de sciences sociales (commerce et gestion compris) était
+          particulièrement développée, grâce à l’invention grecque de la
+          démocratie occidentale et à l’excellence romaine en matières
+          organisationnelle et gestionnaire, qui ont imprégné leurs pratiques
+          d’ingénierie. Bien que <persName ref="028260929" type="idref" xml:base="https://www.idref.fr/">Socrate</persName> définisse la
+          gestion comme une «&#160;compétence distincte de la connaissance
+          technique et de l’expérience&#160;» (Pindur</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1995, p.&#160;60), l’</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">architekton</hi>
+          </hi>
+          <hi xml:lang="fr">grec combinait les rôles d’artisan, d’artiste, de
+          bâtisseur et de gestionnaire de projet, ce qui impliquait la
+          supervision, l’inspection, l’approbation et l’autorisation du
+          paiement des travailleurs et des sous-traitants (Chiu, 2011, p.&#160;86).
+          Ces compétences gestionnaires incluaient également la pratique de la
+          délégation, la reconnaissance de la division du travail et de la
+          spécialisation, la compréhension des motivations des travailleurs et
+          le souci de diriger et de gérer au sein d’environnements
+          démocratiques (Chiu, 2011, p.&#160;188). Les approches gestionnaires
+          romaines, inspirées par la tradition démocratique grecque, ont été à
+          leur tour renforcées par les modèles et les pratiques romaines en
+          termes de hiérarchie d’organisation, de planification et
+          d’optimisation de l’utilisation des matériels et des travailleurs.
+          La tradition démocratique romaine exigeait par ailleurs que l’</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">architectus</hi>
+          </hi>
+          <hi xml:lang="fr">se comporte comme un dirigeant capable de
+          mobiliser sa force de travail et de parvenir à s’accorder avec
+          celle-ci (Chiu, 2011, p.&#160;192).</hi>
+        </p>
+      </div>
+      <div type="div1" xml:id="d1e551">
+        <head subtype="level1" xml:id="d1e552">La refondation de l’ingénierie
+        au Moyen Âge</head>
+        <p xml:id="d1e554">
+          <hi xml:lang="fr">Lorsque, au Moyen Âge, l’expansion du commerce, de
+          l’industrie et de l’architecture religieuse conduisent à refonder
+          l’ingénierie, particulièrement visible dans l’invention de forces de
+          travail non humaines et la construction de cathédrales, celle-ci
+          tire profit de la tradition romaine de l’ingénierie davantage que de
+          la science abstraite des Grecs (Kirby&#160;</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990 p.&#160;95). Cette science abstraite des Grecs
+          avait migré vers les pays musulmans, où les travaux les plus
+          représentatifs avaient été traduits en arabe, et vers l’Inde, où
+          elle était parvenue grâce aux écrivains du Moyen-Orient syriaque et
+          par la route maritime qui reliait Alexandrie au nord-ouest de l’Inde
+          (O’Leary, 1949). C’est pourquoi, du</hi>
+          <date from="1100" to="1399" type="_temp">
+            <hi xml:lang="fr">XII</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;au XIV</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">, en l’absence de science formelle, l’évolution de
+          l’ingénierie fut surtout le fruit de l’action intelligente. Quand
+          des problèmes apparaissaient et persistaient dans les constructions
+          de grande ampleur comme les cathédrales médiévales, ils étaient
+          résolus grâce à l’habileté et au génie des ingénieurs qui tentaient
+          des solutions que personne n’avait encore essayées. Les solutions
+          qui en résultaient étaient ensuite utilisées pour inspirer la
+          résolution de nouveaux problèmes, similaires, mais plus complexes.
+          En utilisant la terminologie de Kuhn, les solutions qu’ils
+          concevaient à leurs problèmes étaient «&#160;exemplaires&#160;» en ce qu’elles
+          contenaient le savoir tacite&#160;acquis à travers la pratique (Kuhn,
+          1970, p.&#160;44&#160;; Kuhn, 1977), savoir tacite qui était appris par la
+          pratique davantage que par l’acquisition des règles de l’art (Kuhn,
+          1970, p.&#160;253). C’est ainsi qu’à partir du</hi>
+          <date from="0700" to="0799" type="_temp">
+            <hi xml:lang="fr">VIII</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">, les ingénieurs européens ont appris à bâtir des
+          églises de plus en plus grandes, ont remplacé les traditionnels
+          toits en bois par des voûtes en pierre résistant au feu, étendu
+          l’utilisation de voûtes aux nefs et aux ailes, passant des voûtes
+          romaines aux voûtes gothiques, appris la physique statique par
+          l’expérience, inventé et amélioré les élégants arcs-boutants qui
+          soutiennent les importantes charges latérales transmises du plafond
+          vers les murs des églises gothiques (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, pp.&#160;102-103). Pour faciliter le
+          développement de ces constructions, ils ont aussi eu fortement
+          recours à la modélisation, faisant constamment usage de gabarits à
+          l’échelle et de dessins détaillés (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;105).</hi>
+        </p>
+        <p xml:id="d1e588">
+          <hi xml:lang="fr">La spécialisation de l’ingénieur comme métier à
+          part entière est un phénomène très récent (Hill, 1996, p.&#160;7). À
+          travers les époques classique et médiévale jusqu’au</hi>
+          <date from="1700" to="1799" type="_temp">
+            <hi xml:lang="fr">XVIII</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">, l’ingénieur a accumulé des fonctions techniques
+          et bien d’autres fonctions. Parfois, il était principalement un
+          artisan parvenu au plus haut niveau de sa profession jusqu’à devenir
+          maître-maçon ou maître-forgeron (Hill, 1996, p.&#160;9), mais il pouvait
+          aussi être un homme du clergé, un noble ou un moine qui, à la
+          demande de son patron, prenait un grand rôle dans la conception et
+          la réalisation de bâtiments, de machines et de divers objets. Les
+          ingénieurs de nombreuses cathédrales du Moyen Âge étaient des hommes
+          du clergé&#160;: le premier instigateur du mouvement des cathédrales
+          était l’<persName ref="028147421" type="idref" xml:base="https://www.idref.fr/">abbé Suger</persName>, du monastère
+          de <placeName ref="2980916" type="geonames" xml:base="https://www.geonames.org/">Saint-Denis</placeName>, à
+          <placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName>&#160;; la
+          cathédrale pionnière de <persName type="_temp">Durham</persName> a
+          été érigée, bien avant, par un évêque français et la cathédrale de
+          <placeName ref="6613904" type="geonames" xml:base="https://www.geonames.org/">Sens</placeName>, en Bourgogne,
+          une des premières églises gothiques, a été construite par un évêque,
+          <persName type="_temp">Henry de Sens</persName>. La plupart de ces
+          hommes du clergé appartenaient à l’ordre cistercien, qui
+          fonctionnait comme un réseau social efficace d’échange d’idées
+          techniques (Pacey, 1992). Leur approche de l’ingénierie consistait
+          en un mélange de valeurs idéalistes et religieuses, d’innovations
+          esthétiques, de symbolismes artistiques et d’enthousiasme pour
+          l’expérimentation. Cela explique pourquoi l’esprit de l’ingénieur
+          médiéval était façonné par une culture qui transcendait les
+          solutions pragmatiques pour contempler, à travers l’expérimentation,
+          des idéaux de créativité et de beauté ainsi qu’une aspiration à la
+          perfection se rapprochant autant que possible de l’idéal divin
+          (Pacey, 1992, pp.&#160;8-9).</hi>
+        </p>
+        <p xml:id="d1e596">
+          <hi xml:lang="fr">La prédominance de l’ingénierie sur la science
+          s’est poursuivie tout au long du Moyen Âge, mais, comme les ordres
+          religieux se répandaient largement et que leur culture influençait
+          une population éduquée croissante de marchands, de médecins, de
+          banquiers, d’avocats et d’autres professions séculières pour
+          lesquelles l’alphabétisation et l’apprentissage de l’arithmétique
+          prenaient de la valeur, la recherche de savoirs plus formels
+          commençait à prendre tout son sens. L’émergence des universités
+          –&#160;<placeName ref="2968815" type="geonames" xml:base="https://www.geonames.org/">Paris</placeName> (autour de
+          1150), Oxford (1190), Bologne (1200)&#160;– était intimement liée à cet
+          environnement. <persName ref="027593223" type="idref" xml:base="https://www.idref.fr/">Robert Grosseteste</persName>, un
+          scolastique ayant enseigné la théologie à Oxford au</hi>
+          <date from="1200" to="1299" type="_temp">
+            <hi xml:lang="fr">XIII</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">et ayant eu une influence majeure dans la pensée
+          de Roger Bacon, est décrit comme le penseur médiéval ayant fondé la
+          science moderne expérimentale via la reprise de la tradition
+          méthodologique aristotélicienne de validation des affirmations
+          scientifiques par combinaison d’analyse et de synthèse, de
+          «&#160;résolution et composition&#160;». La séparation de la science et de
+          l’ingénierie, qui s’est produite 600&#160;ans avant notre ère avec la
+          divergence de la science grecque des traditions empiriques de leurs
+          ancêtres et conquérants, était maintenant sur le point de se
+          refermer avec le retour en Europe à la fois de la science et de la
+          philosophie islamiques, profondément nourries par les traditions
+          scientifiques et philosophiques grecques traduites en arabe et aux
+          contributions des savants indiens (Kirby&#160;</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;96). Aux principaux avant-postes de ce
+          flux-retour se trouvent la <placeName ref="2523119" type="geonames" xml:base="https://www.geonames.org/">Sicile</placeName> et
+          l’<placeName ref="2510769" type="geonames" xml:base="https://www.geonames.org/">Espagne</placeName>, notamment
+          <placeName ref="2510407" type="geonames" xml:base="https://www.geonames.org/">Tolède</placeName> où une
+          intense activité de traduction de l’arabe vers le latin s’est
+          développée à la suite de la conquête de la ville par les chrétiens.
+          Les républiques maritimes italiennes ont aussi contribué à ce flux
+          et la supériorité reconnue de la science et de la technologie
+          islamiques a motivé, du</hi>
+          <date from="1000" to="1399" type="_temp">
+            <hi xml:lang="fr">XI</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;au XIV</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">, des séjours réguliers de savants chrétiens dans
+          les pays arabes où ils apprenaient les sciences et suivaient les
+          cours des principaux centres musulmans d’enseignement supérieur. La
+          solide culture d’ingénierie expérimentale de l’époque, désormais
+          combinée avec l’abondance de littérature grecque et islamique
+          traduite en latin, et la volonté de poursuivre la recherche
+          philosophique et théorique dans les monastères et les universités,
+          explique dans une large mesure le cap pris alors, via la
+          Renaissance, vers l’expansion de la science moderne au</hi>
+          <date from="1600" to="1699" type="_temp">
+            <hi xml:lang="fr">XVII</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">.</hi>
+        </p>
+        <p xml:id="d1e624">
+          <hi xml:lang="fr">Les quatre dimensions des pratiques d’ingénierie
+          identifiées dans les sections précédentes –&#160;l’artisanat, la
+          conception, la science et les sciences sociales (commerce et gestion
+          compris)&#160;– se retrouvent également au Moyen Âge. L’importance de
+          l’artisanat constituait certainement une caractéristique de cette
+          période, étroitement associée au développement des guildes et
+          confréries d’artisans qui renforçaient la compétence technique,
+          consolidaient l’apprentissage comme voie de reproduction du savoir
+          et confortaient leur réputation. Nous savons que des associations
+          d’artisans ont existé en <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName> à l’époque
+          hellénistique et des organisations similaires se sont répandues à
+          travers tout l’Empire romain à partir du III</hi>
+          <hi rend="sup">e</hi>
+          <hi xml:lang="fr">&#160;siècle avant J.-C. Les guildes médiévales ont
+          cependant joué un rôle pivot dans la création de communautés
+          étendues d’artisans qui échangeaient des techniques à travers
+          l’Europe, préservant leurs secrets, protégeant leurs intérêts
+          collectifs, encourageant l’entraînement et contribuant activement à
+          la qualité de leurs métiers. La différenciation en niveaux
+          hiérarchiques, qui reconnaissait et récompensait l’expérience, le
+          mérite et les réalisations de leurs membres, devint si réputée
+          qu’elle est toujours visible dans les diplômes et les rituels
+          académiques de nos universités. Les idéaux religieux ont aussi joué
+          un rôle dans le renforcement du statut des artisans en Europe,
+          notamment à partir du</hi>
+          <date from="1100" to="1199" type="_temp">
+            <hi xml:lang="fr">XII</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">sous l’influence des moines cisterciens qui
+          attachaient une valeur morale accrue au travail manuel. Une
+          influence religieuse similaire fut à nouveau ressentie au</hi>
+          <date from="1600" to="1699" type="_temp">
+            <hi xml:lang="fr">XVII</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">, inspirée par l’éthique du travail protestante
+          qui prévalait parmi les nations où la révolution industrielle se
+          préparait (Pacey, 1992). La pensée religieuse et philosophique de
+          <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">saint Augustin</persName>
+          (pp.&#160;354-430), qui a tellement influencé la vision médiévale du
+          monde, a, dans une grande partie, soutenu le mouvement des
+          cathédrales gothiques du</hi>
+          <date from="1100" to="1199" type="_temp">
+            <hi xml:lang="fr">XII</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">et contribué à l’émergence d’une combinaison
+          unique entre conception et science. <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">Augustin</persName>
+          voyait la perfection esthétique dans les «&#160;proportions&#160;» émergeant
+          des «&#160;ratios parfaits&#160;» et affirmait que la création artistique ne
+          pouvait pas exister sans que les «&#160;lois des nombres&#160;» soient
+          observées (Simson, 1956, p.&#160;23). Il dédaignait l’architecte qui
+          agissait comme un pur praticien tandis qu’il estimait celui qui
+          appliquait les règles mathématiques et agissait ainsi comme un
+          «&#160;scientifique&#160;» de son art (Simson, 1956, p.&#160;23). Pour <persName ref="027280896" type="idref" xml:base="https://www.idref.fr/">Augustin</persName>, le processus
+          créatif ne pouvait pas exister en l’absence de proportions dictées
+          par les lois mathématiques, seules capables de mener l’esprit «&#160;du
+          monde des apparences à la contemplation de l’ordre divin&#160;» (Simson,
+          1956, p.&#160;24). Hors du souci central de l’harmonie des parties ou des
+          proportions, l’architecture gothique attachait également une
+          importance exceptionnelle à la luminosité, laquelle symbolisait
+          l’éclairage de l’esprit humain par l’intelligence divine (Simson,
+          1956, p.&#160;52). Cela mena au remplacement osé de robustes murs par des
+          vitraux de verre peint et a contribué à l’intrication de la relation
+          entre la conception et la science dans l’architecture gothique et à
+          la création d’une «&#160;nouvelle relation entre fonction et forme,
+          structure et ornement&#160;» (Simson, 1952, p.&#160;6). Contrairement aux
+          dimensions «&#160;science&#160;» et «&#160;conception&#160;», qui se sont
+          particulièrement développées dans les pratiques d’ingénierie du
+          mouvement cathédral, la dimension «&#160;sciences sociales&#160;» (commerce et
+          gestion compris) de ces pratiques médiévales ne semble pas avoir
+          ajouté grand-chose aux pratiques précédentes de construction de
+          vastes édifices. L’introduction de systèmes de production de force
+          de travail non humaine doit avoir eu un impact significatif dans
+          d’autres secteurs de l’ingénierie du Moyen Âge et peut-être même
+          dans la construction de cathédrales mais nous disposons de très peu
+          de traces de cela dans la rare littérature historique sur le
+          sujet.</hi>
+        </p>
+      </div>
+      <div type="div1" xml:id="d1e647">
+        <head subtype="level1" xml:id="d1e648">L’ingénierie de la Renaissance
+        et le pouvoir de la conception</head>
+        <p xml:id="d1e650">
+          <hi xml:lang="fr">Au cœur du</hi>
+          <date from="1400" to="1499" type="_temp">
+            <hi xml:lang="fr">XV</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">, époque d’expansion massive du commerce, de
+          croissance rapide de la classe marchande, d’intense urbanisation et
+          de grandes rivalités entre cités-États italiennes, les
+          artistes-ingénieurs étaient des figures très appréciées et
+          respectées dans la vie de cour italienne (Bjerklie, 1998). D’un
+          côté, ils imaginaient des solutions techniques essentielles à la
+          réalisation des ambitions militaires défensives et offensives de
+          leurs riches seigneurs. De l’autre côté, ils concevaient de
+          magnifiques bâtiments et travaux publics soutenus par ces seigneurs
+          et inventaient les améliorations agricoles et industrielles
+          nécessaires à leur succès et à leur réputation (Galluzzi, 1987&#160;;
+          Bjerklie, 1998). Quatre artistes-ingénieurs célèbres illustrent le
+          génie et la singularité de l’ingénierie de la Renaissance&#160;:
+          <persName ref="027272885" type="idref" xml:base="https://www.idref.fr/">Filippo Brunelleschi</persName>,
+          <persName type="_temp">Mariano di Iacopo</persName>, <persName ref="027383717" type="idref" xml:base="https://www.idref.fr/">Francesco di Giorgio</persName> et
+          <persName ref="085975915" type="idref" xml:base="https://www.idref.fr/">Léonard de Vinci</persName>
+          (Bjerklie, 1998). Leur accomplissement le plus révolutionnaire, qui
+          a radicalement changé les pratiques d’ingénierie, a été d’utiliser
+          la représentation graphique d’une manière telle qu’elle rende
+          possibles des modes de raisonnement bien plus puissants, des
+          descriptions bien meilleures et une bien meilleure communication des
+          idées dépassant les frontières du savoir tacite –&#160;qui sont tellement
+          insondables quand il s’agit d’imaginer et de bâtir quelque chose qui
+          n’existe pas. Cette révolution incluait l’utilisation de croquis
+          comme outil intellectuel, la découverte des lois de la perspective
+          et l’exploration des techniques de plan de coupe, de vues éclatées
+          et en rotation (Bjerklie, 1998).</hi>
+        </p>
+        <p xml:id="d1e658">
+          <hi xml:lang="fr">
+            <persName ref="027272885" type="idref" xml:base="https://www.idref.fr/">Filippo Brunelleschi</persName>
+          (1377-1446), plus connu aujourd’hui comme l’ingénieur qui a conçu et
+          bâti le dôme de la cathédrale de <placeName ref="3176959" type="geonames" xml:base="https://www.geonames.org/">Florence</placeName>,
+          réalisation d’ingénierie considérée encore aujourd’hui comme
+          impressionnante du point de vue des standards actuels, était célèbre
+          à la Renaissance pour sa contribution à l’invention des lois
+          mathématiques de la perspective linéaire et pour la construction
+          d’un grand nombre de machines élaborées. Ses inspirations et
+          expérimentations empiriques sur la perspective linéaire, codifiées
+          et publiées plus tard par un de ses disciples, <persName ref="029152879" type="idref" xml:base="https://www.idref.fr/">Leon
+          Battista Alberti</persName> (1404-1472), sont devenues, pour la
+          culture occidentale, «&#160;un style de pensée, une perception
+          culturelle, une façon d’imaginer le monde&#160;» (Romanyshyn, 1989,
+          p.&#160;69). Bien avant <persName ref="027287165" type="idref" xml:base="https://www.idref.fr/">Descartes</persName> (1596-1650),
+          en effet, <persName ref="027272885" type="idref" xml:base="https://www.idref.fr/">Brunelleschi</persName> et ses
+          disciples nous ont fait voir le monde de l’extérieur, comme des
+          spectateurs regardant à travers une fenêtre, et nous ont légué les
+          vertus et les vices de l’hypothèse épistémologique selon laquelle
+          nous pourrions mieux connaître le monde en le regardant à distance
+          (Cypher &amp; Richardson, 2006). En fait, même la façon dont nous
+          regardons le monde aujourd’hui sur nos téléviseurs et écrans
+          d’ordinateurs –&#160;convention culturellement assimilée&#160;– est une
+          conséquence de cette invention (Cypher &amp; Richardson, 2006).</hi>
+        </p>
+        <p xml:id="d1e661">
+          <hi xml:lang="fr">Contrairement à <persName ref="027272885" type="idref" xml:base="https://www.idref.fr/">Brunelleschi</persName>, qui s’est
+          vu lui-même comme un artisan et non comme un auteur, <persName type="_temp">Mariano di Iacopo</persName> (1382-1458), également
+          connu sous le nom de <persName ref="030383072" type="idref" xml:base="https://www.idref.fr/">Taccola</persName>, et <persName ref="112464505" type="idref" xml:base="https://www.idref.fr/">Francesco di Giorgio</persName>
+          (1439-1501), tous deux de <placeName ref="6541466" type="geonames" xml:base="https://www.geonames.org/">Sienne</placeName>, sont
+          devenus célèbres non seulement pour leurs réussites impressionnantes
+          en tant qu’ingénieurs, mais aussi pour leurs écrits. La dimension
+          révolutionnaire de leurs traités était l’invention du plan de coupe,
+          des vues éclatées et l’utilisation d’illustrations abondantes pour
+          exprimer graphiquement ce qu’il aurait été difficile ou impossible
+          d’exprimer avec des mots (Bjerklie, 1998). <persName ref="030383072" type="idref" xml:base="https://www.idref.fr/">Taccola</persName> a
+          été pionnier dans l’usage systématique de cahiers de croquis
+          personnels pour consigner ses idées et observations, et <persName ref="112464505" type="idref" xml:base="https://www.idref.fr/">di
+          Giorgio</persName> a développé une classification hiérarchique
+          étendue des machines fondée sur l’identification des principes, ce
+          qui l’a conduit à produire des conceptions plus avancées (Bjerklie,
+          1998). En d’autres termes, il a démontré que l’on pouvait faire
+          progresser la connaissance et la pratique grâce au recours à des
+          principes abstraits à partir de données empiriques et que l’on
+          pouvait ensuite partir de ces principes pour imaginer et valider de
+          meilleures solutions.</hi>
+        </p>
+        <p xml:id="d1e664">
+          <hi xml:lang="fr">
+            <persName ref="085975915" type="idref" xml:base="https://www.idref.fr/">Léonard de Vinci</persName>
+          (1452-1519), souvent décrit dans la littérature comme un génie
+          solitaire, était, au contraire, le fruit et le fleuron de
+          l’environnement d’ingénierie créative de la Renaissance italienne.
+          Il s’est largement appuyé sur les contributions de ses prédécesseurs
+          et a mis en avant les modèles de pratique et de connaissance qu’ils
+          avaient atteints comme artistes-ingénieurs. Ses cahiers qui, comme
+          ceux de <persName ref="030383072" type="idref" xml:base="https://www.idref.fr/">Taccola</persName> et de <persName ref="112464505" type="idref" xml:base="https://www.idref.fr/">di
+          Giorgio</persName>, combinaient textes et images constituent
+          d’éloquentes illustrations de la mesure dans laquelle la combinaison
+          intelligente de dessins et de textes peut soutenir le raisonnement
+          et devenir une puissante forme d’expérimentation intellectuelle. En
+          ce sens, ils représentent une rupture majeure dans les pratiques
+          d’ingénierie&#160;: l’exploration de l’art du croquis, du dessin et de la
+          modélisation –&#160;c’est-à-dire la conception&#160;– comme une puissante aide
+          à la pensée (Buxton, 2007, p.&#160;105). L’utilisation du cahier comme
+          forme d’enregistrement personnel systématique de l’avancée d’un
+          ingénieur dans ses projets constituait une autre innovation dans les
+          pratiques d’ingénierie de la Renaissance italienne qui s’est
+          également étendue aux pratiques scientifiques.</hi>
+        </p>
+        <p xml:id="d1e667">
+          <hi xml:lang="fr">La méthode constructiviste de <persName ref="085975915" type="idref" xml:base="https://www.idref.fr/">Léonard de Vinci</persName> pour
+          développer de nouvelles idées et solutions apportait aussi une
+          contribution majeure aux pratiques d’ingénierie et au progrès des
+          sciences et de la philosophie de la connaissance (Le Moine, 1999).
+          Formulé comme une métaréflexion dans un de ses cahiers, on peut
+          lire&#160;:</hi>
+        </p>
+        <q rend="quotation">Mais d’abord je devrais réaliser des expériences
+        avant de poursuivre plus avant, car mon but est de citer l’expérience
+        en premier et ensuite de montrer avec le raisonnement que l’expérience
+        s’enchaîne d’une certaine manière. Et ceci est la véritable règle avec
+        laquelle ceux qui s’interrogent sur les effets de la nature doivent
+        procéder. <hi xml:lang="fr">(Ms E, folio 55r) (Capra, 2007,
+        p.&#160;161)</hi>
+        </q>
+        <p xml:id="d1e674">
+          <hi xml:lang="fr">Plus d’un siècle avant <persName ref="026879255" type="idref" xml:base="https://www.idref.fr/">Galilée</persName>,
+          <persName ref="085975915" type="idref" xml:base="https://www.idref.fr/">Léonard de Vinci</persName> avait
+          ainsi posé les fondations de la science expérimentale, fait qui n’a
+          été découvert que récemment, alors que la récupération, la
+          compilation et l’étude des livres éparpillés de <persName ref="085975915" type="idref" xml:base="https://www.idref.fr/">de
+          Vinci</persName> progressent. Il est intéressant de relever que
+          l’approche constructiviste de de Vinci fut renforcée par sa
+          devise,</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">ostinato rigore</hi>
+          </hi>
+          <hi xml:lang="fr">(rigueur obstinée) (Wilson, 2000, p.&#160;97) qui
+          établit la rigueur tenace comme une fin en soi, une valeur typique
+          de l’artisan, comme un élément clef de sa méthode.</hi>
+        </p>
+        <p xml:id="d1e682">
+          <hi xml:lang="fr">Des quatre composantes des pratiques d’ingénierie
+          discutées dans les sections précédentes –&#160;l’artisanat, la
+          conception, la science et les sciences sociales&#160;– la seule qui se
+          démarque à la Renaissance pour son originalité et sa contribution au
+          progrès des pratiques d’ingénierie est le travail de
+          conception.</hi>
+        </p>
+      </div>
+      <div type="div1" xml:id="d1e685">
+        <head subtype="level1" xml:id="d1e686">La formation en
+        ingénierie</head>
+        <p xml:id="d1e688">
+          <hi xml:lang="fr">L’histoire de l’ingénierie au cours des trois
+          derniers siècles se déploie de façon assez parallèle à l’histoire de
+          la formation à l’ingénierie. Trois grandes traditions ont inspiré la
+          formation à l’ingénierie dans le monde occidental. La plus ancienne
+          s’est développée dans la bureaucratie centralisée de la monarchie
+          française du</hi>
+          <date from="1500" to="1599" type="_temp">
+            <hi xml:lang="fr">XVI</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">quand le gouvernement royal français a intégré à
+          son armée un corps permanent d’ingénieurs dédiés non seulement à
+          l’art de la guerre (artillerie, édification de forteresses,
+          construction de routes et de ponts pour le déploiement des troupes),
+          mais aussi aux principales constructions de l’État-nation centralisé
+          (réseaux de routes et de ponts, canaux, aménagement de rives et de
+          ports, système d’acheminement d’eau) (Reynolds, 1991, pp.&#160;7-8). En
+          s’appuyant sur cette tradition et dans le but d’accroître sa force
+          de travail en ingénieurs qualifiés, la monarchie française a établi,
+          en <date type="_temp" when="1747">1747</date>, l’</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">École des Ponts et Chaussées</hi>
+          </hi>
+          <hi xml:lang="fr">, un tournant vis-à-vis des stratégies
+          traditionnelles fondées sur l’apprentissage vers des pratiques
+          d’enseignements davantage systématisées et inspirées par les
+          principes de la science et des mathématiques. Cette nouvelle
+          approche eut un tel succès qu’elle a mené dans les années suivantes
+          à la création d’autres écoles techniques formelles et a culminé en
+          <date type="_temp" when="1794">1794</date>, déjà sous les auspices
+          de la Révolution française, avec la fondation de l’</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">École Polytechnique</hi>
+          </hi>
+          <hi xml:lang="fr">, toujours reconnue aujourd’hui comme une icône de
+          la formation théorique et mathématique à l’ingénierie en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> (Reynolds,
+          1991, p.&#160;8). La révolution industrielle, qui s’est déployée au
+          <placeName ref="2648147" type="geonames" xml:base="https://www.geonames.org/">Royaume-Uni</placeName> avant
+          de s’étendre rapidement à l’Europe centrale, a considérablement
+          élargi le besoin d’ingénieurs et conduit à l’émergence d’un nouveau
+          type d’ingénierie excédant largement les besoins militaires. Pour
+          cette raison, elle fut appelée ingénierie civile (au sens de non
+          militaire). L’ingénierie civile constituait la matrice des futures
+          branches d’ingénierie –&#160;ingénierie mécanique, ingénierie chimique,
+          ingénierie électrique&#160;– qui ont progressivement émergé comme
+          conséquence de la spécialisation technologique accrue. Avant <date type="_temp" when="1800">1800</date>, l’ingénierie bénéficiait, en
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, d’un statut
+          social élevé et d’une activité professionnelle bien établie, dont
+          une proportion significative de ses membres venait de la petite
+          noblesse et de la classe moyenne supérieure (Reynolds, 1991,
+          p.&#160;8).</hi>
+        </p>
+        <p xml:id="d1e706">
+          <hi xml:lang="fr">Une autre tradition européenne ayant influencé la
+          formation à l’ingénierie a émergé au <placeName ref="2648147" type="geonames" xml:base="https://www.geonames.org/">Royaume-Uni</placeName> comme
+          résultat de la révolution industrielle. La rapide expansion
+          commerciale et industrielle subséquente a rapidement conduit à la
+          création d’entreprises et de partenariats qui ont porté plusieurs
+          projets ambitieux requérant une force de travail en ingénierie
+          (Reynolds, 1991, p.&#160;8). Contrairement à son pendant français, la
+          formation britannique à l’ingénierie se fondait toujours fortement
+          sur l’apprentissage&#160;; l’activité attirait des personnes issues de
+          toutes les classes. Cela a encouragé une approche pratique et
+          empirique de la résolution de problèmes, tendant à considérer les
+          approches mathématiques et théoriques comme suspectes (Reynolds,
+          1991, p.&#160;9). Dans ce contexte, <persName ref="034674136" type="idref" xml:base="https://www.idref.fr/">John
+          Smeaton</persName> (1724-1792), souvent décrit comme le père de
+          l’ingénierie civile britannique, a produit une contribution décisive
+          à l’affermissement des fondations de l’ingénierie britannique. D’un
+          côté, il a encouragé, en <date type="_temp" when="1771">1771</date>,
+          la formation de la «&#160;Société civile des ingénieurs&#160;», qui a
+          contribué au développement d’un sentiment aigu d’identité du groupe
+          professionnel. De l’autre côté, il s’est battu avec insistance
+          contre les lacunes de la formation britannique en ingénierie et a
+          souligné l’importance de la recherche minutieuse, de la mesure et
+          des essais (Pacey, 1992, p.&#160;179). Ce n’est cependant qu’au cours
+          du</hi>
+          <date from="1800" to="1899" type="_temp">
+            <hi xml:lang="fr">XIX</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">que le renouveau de la formation à l’ingénierie
+          fut influencé significativement par les dynamiques d’innovation
+          provenant d’<placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> via les
+          <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>
+          d’Amérique.</hi>
+        </p>
+        <p xml:id="d1e714">
+          <hi xml:lang="fr">La troisième tradition a émergé en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> au début
+          du</hi>
+          <date from="1800" to="1899" type="_temp">
+            <hi xml:lang="fr">XIX</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">, inspirée par les réformes universitaires
+          qu’avait proposées <persName type="_temp">Wilhelm
+          von&#160;Humboldt</persName> à l’Université de <placeName ref="2950159" type="geonames" xml:base="https://www.geonames.org/">Berlin</placeName> et durant
+          son court mandat de ministre prussien de l’Éducation. Rompant avec
+          la tradition médiévale des universités européennes, qui mettaient
+          l’accent sur la conservation et la reproduction du savoir davantage
+          que sur la découverte de nouveaux savoirs, <persName type="_temp">von&#160;Humboldt</persName> a soutenu une vision de
+          l’université fondée sur l’unité entre l’enseignement et la
+          recherche. Bien que ce modèle n’ait paradoxalement pas eu une
+          influence immédiate en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>, il fut
+          rapidement adopté dans les principales universités états-uniennes,
+          où il remporta un énorme succès et ouvrit la voie au développement
+          d’universités de recherche, financées par des institutions externes.
+          C’est seulement après sa réussite aux <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName> que le
+          modèle revint en Europe pour y être adopté, d’abord en <placeName ref="2648147" type="geonames" xml:base="https://www.geonames.org/">Grande-Bretagne</placeName> et
+          en <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName>, puis
+          dans le reste de l’Europe. À une époque où la formation en
+          ingénierie constituait un sujet de débats intenses aux <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, ce
+          modèle a naturellement eu une influence majeure dans ce débat.</hi>
+        </p>
+        <p xml:id="d1e722">
+          <hi xml:lang="fr">Avant <date type="_temp" when="1900">1900</date>,
+          la plupart des universités du monde étaient toujours orientées vers
+          la formation de bons ingénieurs de terrain. Elles avaient remplacé
+          les apprentissages comme élément central de la formation, mais elles
+          transmettaient toujours, dans une large mesure, la culture des
+          pratiques d’ingénierie (Seely, 1997, p.&#160;345). Soixante années plus
+          tard, le scénario avait considérablement changé et environ la moitié
+          de la formation de premier cycle universitaire était fondée sur «&#160;de
+          la théorie dérivée des sciences exprimée en langage mathématique&#160;»
+          (Seely, 1997, p.&#160;346). Ce changement est apparu au cours d’une
+          période troublée pour la reconnaissance, le statut et l’image des
+          ingénieurs dans les pays anglophones et particulièrement aux
+          <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>. En
+          <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>, un
+          ingénieur était un professionnel respecté, diplômé de l’École
+          Polytechnique ou d’une université qui reproduisait cet idéal
+          scientifique et de formalisme. Il n’y avait pas, aux <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, une
+          telle référence unique. En <placeName ref="2648147" type="geonames" xml:base="https://www.geonames.org/">Angleterre</placeName>,
+          <persName ref="085881716" type="idref" xml:base="https://www.idref.fr/">Thomas Tredgold</persName>
+          (1788-1829) avait soutenu la reconnaissance de l’ingénierie comme
+          science appliquée, empruntant ainsi à la science la réputation
+          qu’elle avait acquise depuis le</hi>
+          <date from="1600" to="1699" type="_temp">
+            <hi xml:lang="fr">XVII</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;siècle</hi>
+          </date>
+          <hi xml:lang="fr">(Layton, 1991, p.&#160;60). Cette interprétation fut
+          appréciée des ingénieurs états-uniens dans leurs efforts de dépasser
+          le manque de considération et le faible statut social accordés à
+          leur métier. Contrairement aux professionnels d’autres secteurs,
+          comme le droit ou la médecine, dont les valeurs et les identités
+          professionnelles avaient renforcé leur indépendance vis-à-vis des
+          employeurs et des clients, les ingénieurs étaient considérés comme
+          de loyaux serviteurs de leurs commanditaires tandis qu’ils étaient
+          tenus responsables, dans l’opinion publique, de bien des horreurs
+          commises dans les usines, les fabriques et les mines durant la
+          révolution industrielle (Layton, 1991, p.&#160;60&#160;; Seely, 2005, p.&#160;122).
+          L’affiliation au domaine scientifique était par conséquent des plus
+          attrayantes. Ainsi, les ingénieurs américains, qui se voyaient
+          eux-mêmes comme responsables de «&#160;la conception, l’exploitation et
+          la maintenance de vastes systèmes dont les Américains étaient de
+          plus en plus dépendants, allant des systèmes hydrauliques et
+          électriques urbains aux grands ponts et aux réseaux ferroviaires&#160;»
+          (Seely, 2005, p.&#160;116), pouvaient difficilement supporter la
+          frustration et le complexe d’infériorité lié à la faiblesse de leur
+          statut social (Seely, 2005, p.&#160;116). <persName ref="061075493" type="idref" xml:base="https://www.idref.fr/">Vannevar
+          Bush</persName> (1945), un défenseur enthousiaste de cette
+          considération de l’ingénierie comme «&#160;science appliquée&#160;», a
+          constitué une voix influente dans le débat sur la nature du métier
+          d’ingénieur aux <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>.</hi>
+        </p>
+        <p xml:id="d1e730">
+          <hi xml:lang="fr">Une autre contribution importante au tournant
+          scientifique de la formation américaine en ingénierie a été le
+          financement massif de la recherche universitaire par le gouvernement
+          fédéral suite à la Seconde Guerre mondiale, en particulier après
+          l’introduction du programme spatial en <date type="_temp" when="1957">1957</date>. Ce tournant scientifique a rendu presque
+          indifférenciables les diplômés d’ingénierie des diplômés
+          scientifiques&#160;; des plaintes se sont progressivement élevées de la
+          part des employeurs vis-à-vis des approches académiques
+          excessivement analytiques, des faibles capacités de résolution de
+          problèmes des diplômés et de l’absence de compréhension mutuelle
+          entre les universités et le monde de l’entreprise (Sealy, 2005,
+          p.&#160;117). Le débat continue aujourd’hui, mais d’importantes mesures
+          ont été prises par des institutions comme le Bureau d’accréditation
+          pour l’ingénierie et la technologie (ABET) pour retrouver un
+          équilibre entre science et ingénierie et pour incorporer des notions
+          venues des sciences sociales et humaines, de façon à préparer les
+          diplômés d’ingénierie «&#160;à des positions de direction dans la société
+          et le monde des affaires&#160;» (Seely, 2005, p.&#160;119).</hi>
+        </p>
+        <div type="div2" xml:id="d1e733">
+          <head subtype="level2" xml:id="d1e734">Les quatre dimensions de
+          l’ingénierie</head>
+          <p xml:id="d1e736">
+            <hi xml:lang="fr">Dans le récit historique qui précède, j’ai
+            identifié les quatre principales dimensions des pratiques
+            d’ingénierie&#160;: l’artisanat, la conception, les sciences
+            fondamentales et les sciences sociales (commerce et gestion
+            compris). Dans cette section, je les discute séparément et comme
+            formant un tout en me référant au diagramme holonique</hi>
+            <note n="3" place="foot" type="standard" xml:id="ftn3">
+              <p>
+                <hi xml:lang="fr">La notion de holon renvoie à la nature
+                hybride des parties d’un système, à la fois unités autonomes
+                et autosuffisantes dans leurs relations avec leurs parties
+                subordonnées et dépendantes vis-à-vis du système.</hi>
+              </p>
+            </note>
+            <hi xml:lang="fr">de la figure 1, adapté de <persName type="_temp">Figueiredo</persName> (2002, 2008) et Adams</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">et&#160;al.</hi>
+            </hi>
+            <hi xml:lang="fr">(2011). La dénomination de l’axe vertical
+            suggère que les composantes de la moitié supérieure ont
+            historiquement porté une fondation théorique solide, alors que les
+            composantes de la moitié inférieure ont été historiquement
+            davantage inspirées par le monde de la pratique. La moitié gauche
+            suggère que les composantes correspondantes concernent davantage
+            des personnes alors que la droite concerne davantage la nature
+            (vie, matière, énergie) et l’information (dont des entités
+            mathématiques abstraites incluses dans le concept d’information).
+            Mon hypothèse est que chaque ingénieur s’approprie les différents
+            héritages de ces traditions historiques en les combinant de façon
+            variable, accentuant l’une ou l’autre de ses composantes en
+            fonction du style personnel, de l’accumulation d’expérience dans
+            le métier et de la pression des circonstances. De purs ingénieurs
+            praticiens, si tant est que cela ait jamais existé, seraient
+            fondamentalement des personnes d’action suivant les valeurs
+            culturelles de l’artisanat. Les purs ingénieurs concepteurs
+            excelleraient comme visionnaires et intégrateurs, travaillés par
+            leur imagination et leur pensée synthétique et projective. Les
+            purs ingénieurs scientifiques agiraient comme des penseurs,
+            préoccupés par l’analyse et l’explication. Les purs
+            ingénieurs-managers brilleraient comme entrepreneurs,
+            gestionnaires, négociants et communicants. Comme il n’existe
+            toutefois pas de type d’ingénieur pur, chaque ingénieur dispose
+            d’une identité multiple qui incorpore des interpénétrations
+            fécondes de ces quatre dimensions.</hi>
+          </p>
+          <figure xml:id="d1e756">
+            <graphic url="https://didomena.ehess.fr/downloads/v118rn80s.png"/>
+            <head>Figure 1. Les quatre dimensions de l’ingénierie</head>
+          </figure>
+          <p rend="figure-license" xml:id="d1e758">
+            <hi xml:lang="fr">Source&#160;: élaboré par Antonio Dias de
+            Figueiredo</hi>
+          </p>
+          <p xml:id="d1e761">
+            <hi xml:lang="fr">Le concept d’identités personnelles multiples,
+            qui était difficilement accepté il y a quelques années, est
+            aujourd’hui reconnu. <persName ref="029097401" type="idref" xml:base="https://www.idref.fr/">Marvin Minsky</persName>,
+            chercheur en cognition, critique dans</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">The society of mind</hi>
+            </hi>
+            <hi xml:lang="fr">l’absurdité de la croyance traditionnelle en un
+            moi unique qui aurait, selon lui, gravement entravé les progrès de
+            la psychologie (Minsky, 1988, p.&#160;51). <persName type="_temp">Boltanski</persName> et <persName type="_temp">Thévenot</persName>, auteurs de</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">De la justification. Les économies de la
+              grandeur</hi>
+            </hi>
+            <hi xml:lang="fr">, travail fondateur de la sociologie
+            post-bourdivine, défendent l’idée que les gens soutiennent la
+            justification de leurs actions sur des logiques conflictuelles
+            variées et entrant en concurrence pour légitimer leurs
+            perspectives (Boltanski &amp; Thévenot, 1991). Le concept
+            d’identités multiples est aussi vu comme essentiel par les
+            spécialistes de la complexité comme <persName type="_temp">Kurz</persName> et <persName type="_temp">Snowden</persName> (2003, p.&#160;464) qui nous rappellent
+            qu’une seule personne peut simultanément être parent, jumelle,
+            épouse et professionnelle tout en pouvant se comporter
+            différemment, à travers des combinaisons multiples de ces rôles,
+            en fonction du contexte. <persName ref="026965763" type="idref" xml:base="https://www.idref.fr/">François Laplantine</persName>,
+            anthropologue culturaliste français, défend aussi
+            l’irréductibilité de la personne à un comportement unitaire et
+            décrit les individus comme des êtres composites sous l’influence
+            de plusieurs affiliations (Laplantine, 1994).</hi>
+          </p>
+        </div>
+        <div type="div2" xml:id="d1e774">
+          <head subtype="level2" xml:id="d1e775">Les arts et métiers
+          (dimensions artisanales)</head>
+          <p xml:id="d1e777">
+            <hi xml:lang="fr">Comme observé plus haut, l’ingénierie primitive
+            a débuté dans le monde de l’artisanat, inspirée à l’origine par
+            des raisons utilitaristes et artistiques. L’esprit des arts et
+            métiers dans l’ingénierie resta fort jusqu’au</hi>
+            <date from="1700" to="1799" type="_temp">
+              <hi xml:lang="fr">XVIII</hi>
+              <hi rend="sup">e</hi>
+              <hi xml:lang="fr">&#160;siècle</hi>
+            </date>
+            <hi xml:lang="fr">quand il commença soudainement a être remplacé
+            par l’esprit des sciences. Toujours au</hi>
+            <date from="1700" to="1799" type="_temp">
+              <hi xml:lang="fr">XVIII</hi>
+              <hi rend="sup">e</hi>
+              <hi xml:lang="fr">&#160;siècle</hi>
+            </date>
+            <hi xml:lang="fr">, la considération pour les pratiques des
+            artisans était manifeste à travers la reconnaissance de
+            publications largement répandues comme les 35&#160;volumes de l’</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Encyclopédie</hi>
+            </hi>
+            <hi xml:lang="fr">, ou&#160;</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Dictionnaire Raisonné des Sciences, des Arts
+              et des Métiers</hi>
+            </hi>
+            <hi xml:lang="fr">, publiée <date from="1751" to="1772" type="_temp">entre 1751 et 1772</date> sous la direction de
+            <persName ref="026831406" type="idref" xml:base="https://www.idref.fr/">Denis Diderot</persName>, qui
+            devint un succès mondial, atteignant des lecteurs aussi divers que
+            <persName ref="029120047" type="idref" xml:base="https://www.idref.fr/">Catherine de Russie</persName> ou
+            des commerçants de <placeName ref="5128638" type="geonames" xml:base="https://www.geonames.org/">New York</placeName>
+            (Mitcham, 1994, p.&#160;115&#160;; Sennet, 2008, p.&#160;90). L’</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Encyclopédie</hi>
+            </hi>
+            <hi xml:lang="fr">française célébrait les pratiques quotidiennes
+            de travail et les valeurs de ces artisans qui s’attachaient au
+            travail bien fait comme objectif en soi (Sennett, 2008, p.&#160;90).
+            Comme les artistes-ingénieurs de la Renaissance, les auteurs de
+            l’</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Encyclopédie</hi>
+            </hi>
+            <hi xml:lang="fr">ont réalisé que, comme presque tout le savoir
+            des artisans était tacite, au-delà de ce qui pouvait être exprimé
+            par des mots, sa dissémination requérait non seulement
+            l’utilisation abondante d’images, mais aussi l’immersion de ses
+            disséminateurs dans la pratique (Sennett, 2008, p.&#160;96). C’est
+            ainsi que <persName ref="026831406" type="idref" xml:base="https://www.idref.fr/">Diderot</persName> et certains de
+            ses collaborateurs, parmi lesquels des scientifiques et des
+            philosophes français de premier plan, en sont venus à réaliser la
+            valeur des essais et erreurs comme outil de recherche et la
+            pertinence de l’erreur pour le progrès de la connaissance et de la
+            pratique (Sennett, 2008, pp.&#160;96-97). D’autres éléments attestant
+            l’importance des artisans aux</hi>
+            <date from="1700" to="1799" type="_temp">
+              <hi xml:lang="fr">XVIII</hi>
+              <hi rend="sup">e</hi>
+            </date>
+            <hi xml:lang="fr">&#160;et</hi>
+            <date from="1800" to="1899" type="_temp">
+              <hi xml:lang="fr">XIX</hi>
+              <hi rend="sup">e</hi>
+              <hi xml:lang="fr">&#160;siècles</hi>
+            </date>
+            <hi xml:lang="fr">sont illustrés par la décision du gouvernement
+            britannique de produire une loi prohibant l’émigration d’artisans
+            qualifiés et le témoignage que, malgré cette loi, qui est restée
+            en vigueur plus d’un siècle, des milliers d’artisans ont émigré
+            dans les premières décennies du</hi>
+            <date from="1800" to="1899" type="_temp">
+              <hi xml:lang="fr">XIX</hi>
+              <hi rend="sup">e</hi>
+              <hi xml:lang="fr">&#160;siècle</hi>
+            </date>
+            <hi xml:lang="fr">de la <placeName ref="2648147" type="geonames" xml:base="https://www.geonames.org/">Grande-Bretagne</placeName>
+            pour le continent, attirés par des salaires bien plus élevés
+            (Landes, 1998, pp.&#160;278-280).</hi>
+          </p>
+          <p xml:id="d1e826">
+            <hi xml:lang="fr">La popularité des arts et métiers suggérée par
+            la publication de l’</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Encyclopédie</hi>
+            </hi>
+            <hi xml:lang="fr">et par le flux de talent technologique de
+            <placeName ref="2648147" type="geonames" xml:base="https://www.geonames.org/">Grande-Bretagne</placeName>
+            vers le continent au</hi>
+            <date from="1700" to="1799" type="_temp">
+              <hi xml:lang="fr">XVIII</hi>
+              <hi rend="sup">e</hi>
+            </date>
+            <hi xml:lang="fr">&#160;et au</hi>
+            <date from="1800" to="1830" type="_temp">
+              <hi xml:lang="fr">début du XIX</hi>
+              <hi rend="sup">e</hi>
+              <hi xml:lang="fr">&#160;siècle</hi>
+            </date>
+            <hi xml:lang="fr">ne dura cependant pas longtemps&#160;; la période
+            marqua un déclin irréversible du savoir-faire artisanal comme
+            fondement principal de l’ingénierie. Beaucoup d’inventions de la
+            révolution industrielle avaient été produites par des artisans qui
+            étaient relativement ignorants de la science (Pacey, 1992,
+            p.&#160;178). Les ingénieurs-artisans de l’âge industriel, comme
+            <persName type="_temp">James Watt</persName>, <persName type="_temp">George Lee</persName>, <persName type="_temp">William
+            Reynolds</persName> et <persName type="_temp">John
+            Banks</persName> disposaient cependant d’un savoir scientifique
+            considérable et les problèmes techniques posés par l’utilisation
+            de la technologie métallique et de la machine à vapeur dans les
+            industries textiles dépassaient clairement les connaissances
+            limitées d’un artisan, quelles que soient ses compétences
+            manuelles et intellectuelles (Pacey, 1992, p.&#160;178). Cela avait
+            aussi été reconnu en <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName> où, comme
+            mentionné plus haut, la fondation de l’</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">École des Ponts et Chaussées</hi>
+            </hi>
+            <hi xml:lang="fr">a marqué la reconnaissance du fait que la
+            formation à l’ingénierie devait être fortement ancrée dans les
+            principes de la science et des mathématiques. Malgré ce qui peut
+            être décrit aujourd’hui comme l’extinction des arts et métiers,
+            des auteurs variés (Mintzberg, <date type="_temp" when="1987">1987</date>&#160;; Suchmann &amp; Trigg, 1996&#160;; Ciborra,
+            1998&#160;; Sennett, 2008) ont défendu l’idée d’un renouvellement de
+            l’esprit artisanal comme une voie de dépassement de l’approche
+            excessivement mécaniste de notre époque.</hi>
+          </p>
+          <p xml:id="d1e849">
+            <hi xml:lang="fr">Bien que le savoir-faire artisanal ne constitue
+            plus le principal fondement de l’ingénierie, beaucoup de son
+            esprit et de ses valeurs reste profondément enraciné dans la
+            culture du métier d’ingénieur et contribue notablement à sa
+            richesse. Pour cette raison, il est utile de résumer ici ses
+            principales contributions à l’héritage des pratiques d’ingénierie.
+            Les artisans sont réalisateurs, au sens où ils ont une forte
+            propension à vouloir que les choses s’accomplissent. Ils sont
+            aussi des perfectionnistes qui agrègent continuellement des
+            compétences, font preuve d’un profond engagement dans leur
+            travail, d’une fierté de leur production ainsi que du souci de
+            bien accomplir leur travail pour sa valeur propre (Sennett, 2008).
+            Ils ressentent le besoin d’explorer des univers de possibles en
+            improvisant, grâce à leur imagination, et en surmontant avec
+            persévérance les résistances et les ambiguïtés (Sennette, 2008).
+            Bien qu’ils apprécient aussi naturellement la résolution de
+            problèmes, ils excellent habituellement à relier résolution de
+            problèmes et définition de problèmes (Sennett, 2008). Les
+            expressions les plus tangibles du succès des bons artisans sont
+            leurs chefs-d’œuvre offerts à l’humanité (Figueiredo, 2008).</hi>
+          </p>
+        </div>
+        <div type="div2" xml:id="d1e852">
+          <head subtype="level2" xml:id="d1e853">La conception</head>
+          <p xml:id="d1e855">
+            <hi xml:lang="fr">La conception</hi>
+            <note n="4" place="foot" type="standard" xml:id="ftn4">
+              <p>
+                <hi xml:lang="fr">«&#160;Design&#160;» dans le texte original.</hi>
+              </p>
+            </note>
+            <hi xml:lang="fr">au sens du mot de la Renaissance italienne</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">disegno</hi>
+            </hi>
+            <hi xml:lang="fr">, la capacité à concevoir quelque chose de
+            nouveau, est au cœur de l’ingénierie.</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Disegno</hi>
+            </hi>
+            <hi xml:lang="fr">, du verbe latin</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">designare</hi>
+            </hi>
+            <hi xml:lang="fr">(désigner, assigner un sens, une signification
+            à, destiner, imaginer une destinée pour), recouvre un éventail de
+            significations allant de «&#160;dessiner&#160;» à «&#160;concevoir&#160;», mais la
+            plus constante, qui persiste aujourd’hui, est celle de
+            «&#160;concevoir&#160;». La conception signifie ainsi la capacité à imaginer
+            et à produire de nouveaux appareils, systèmes et solutions. En ce
+            sens, <persName ref="171092902" type="idref" xml:base="https://www.idref.fr/">Edwin Layton</persName> (1976,
+            p.&#160;69) écrit&#160;:</hi>
+          </p>
+          <q rend="quotation">Du point de vue de la science moderne, la
+          conception n’est rien, mais du point de vue de l’ingénierie, la
+          conception est tout. Elle représente l’adaptation à dessein de
+          moyens pour atteindre une fin préconçue, l’essence profonde de
+          l’ingénierie.</q>
+          <p xml:id="d1e883">
+            <hi xml:lang="fr">Quinze années plus tard, il insiste&#160;:
+            «&#160;L’ingénieur est un bâtisseur de systèmes et l’ingénierie l’art
+            et la science de bâtir ces systèmes&#160;» (Layton, 1991, p.&#160;73). Il
+            maintient aussi que la «&#160;capacité à concevoir&#160;» constitue la
+            caractéristique définitoire de la «&#160;véritable&#160;» ingénierie
+            professionnelle (Layton, 1991, p.&#160;68). Ainsi comprise,
+            l’identification de l’ingénierie à la conception devint très
+            répandue au sortir de la Seconde Guerre mondiale (Layton, 1991,
+            p.&#160;68), la conception représentant pour certains auteurs le
+            fondement distinctif de toute une philosophie de l’ingénierie
+            (Lifson &amp; Klin, 1968&#160;; Lewin, 1983&#160;; Lewin, 1979). Évoquant
+            spécifiquement la recherche en ingénierie, <persName ref="059911476" type="idref" xml:base="https://www.idref.fr/">Douglas Lewin</persName> (1979,
+            p.&#160;114) affirme que, pour éviter la dégénérescence de la recherche
+            en ingénierie en recherche scientifique conventionnelle, les
+            ingénieurs devraient garder fermement à l’esprit le but et
+            l’application de l’ingénierie et la recherche «&#160;devrait dériver de
+            la fonction de conception elle-même&#160;» (Lewin, 1979, p.&#160;114).</hi>
+          </p>
+          <p xml:id="d1e886">
+            <hi xml:lang="fr">À la Renaissance, avec la découverte de la
+            capacité à maîtriser la composante non verbale de la création
+            technologique, s’est produite la grande révolution de l’activité
+            de conception, qui a profondément transformé la pratique de
+            l’ingénierie. C’est pourquoi l’historien de l’ingénierie Eugene
+            Ferguson déclara au début de son ouvrage</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Engineering and the mind’s eye</hi>
+            </hi>
+            <hi xml:lang="fr">(1992, p.&#160;xii)&#160;:</hi>
+          </p>
+          <q rend="quotation">Une formation à l’ingénierie qui ignorerait le
+          riche héritage de l’apprentissage non verbal produirait des diplômés
+          dangereusement ignorants de la myriade de subtiles façons à travers
+          lesquelles le monde réel diffère du monde mathématique enseigné par
+          leurs professeurs.</q>
+          <p xml:id="d1e896">
+            <hi xml:lang="fr">Cette capacité de la conception à «&#160;voir&#160;» avec
+            l’œil de l’esprit avait déjà été reconnue par <persName ref="027329305" type="idref" xml:base="https://www.idref.fr/">Karl
+            Marx</persName> dans sa comparaison entre l’abeille et
+            l’architecte&#160;:</hi>
+          </p>
+          <q rend="quotation">Une araignée conduit des opérations qui
+          ressemblent à celles d’un tisserand et une abeille humilie de
+          nombreux architectes avec la construction de ses cellules. Mais ce
+          qui distingue le plus mauvais architecte de la meilleure des
+          abeilles est que l’architecte érige sa structure dans son imaginaire
+          avant de le faire dans la réalité. (Marx, 1906, p.&#160;157)</q>
+          <p xml:id="d1e901">
+            <hi xml:lang="fr">La popularité récente du design graphique comme
+            discipline artistique et professionnelle qui se concentrerait sur
+            la communication visuelle a considérablement brouillé la
+            compréhension traditionnelle de l’activité de conception parce
+            qu’elle met en exergue une essence artistique qui semble aller à
+            l’encontre de la capacité à imaginer et produire des appareils,
+            des systèmes et des solutions techniques complexes, c’est-à-dire
+            le cœur de l’entreprise de l’ingénierie. Pour dépasser cette
+            confusion, des auteurs se réfèrent à</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">engineering design</hi>
+            </hi>
+            <note n="5" place="foot" type="standard" xml:id="ftn5">
+              <p>
+                <hi xml:lang="fr">NDLT&#160;: En français,</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">engineering design</hi>
+                </hi>
+                <hi xml:lang="fr">se traduit par «&#160;conception&#160;» tandis
+                qu’</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">industrial design</hi>
+                </hi>
+                <hi xml:lang="fr">se traduit par «&#160;design&#160;». Les deux termes
+                se réfèrent à la création et à la définition de solutions,
+                mais le premier terme porte principalement à la
+                fonctionnalité, à l’utilité et aux performances de la solution
+                tandis que le second concerne surtout l’esthétique, le sens et
+                l’ergonomie.</hi>
+              </p>
+            </note>
+            <hi xml:lang="fr">, mais ce n’est pas la même chose&#160;: l’ingénierie
+            concerne autant la conception technique que les arts graphiques,
+            les systèmes d’information ou d’autres disciplines, y compris de
+            sciences sociales. L’activité de conception est transversale à de
+            multiples disciplines et c’est en ce sens général et de plus en
+            plus riche qu’elle devrait être comprise. Ainsi, lorsque nous
+            discutons la nature des pratiques d’ingénierie, le mot conception
+            sera utilisé en ce sens général.</hi>
+          </p>
+          <p xml:id="d1e926">
+            <hi xml:lang="fr">La nature de la conception comme pilier de
+            l’ingénierie est plus facile à saisir si nous la positionnons en
+            regard de la nature de la science. En ce qui concerne la méthode,
+            la distinction donnée par <persName type="_temp">Gregory</persName> est éclairante&#160;:</hi>
+          </p>
+          <q rend="quotation">La méthode scientifique est un modèle de
+          comportement de résolution de problèmes employé pour découvrir la
+          nature de ce qui existe alors que la méthode de conception est un
+          modèle de comportement employé pour inventer des choses de valeur
+          qui n’existent pas encore. La science est analytique&#160;; la conception
+          est constructive. (Gregory, 1996)</q>
+          <p xml:id="d1e932">
+            <hi xml:lang="fr">De même, à propos de la méthode, concernant son
+            rôle dans le processus de création de nouvelles choses, <persName ref="06016414X" type="idref" xml:base="https://www.idref.fr/">Nigel Cross</persName> observe&#160;:
+            alors que la méthode est vitale à la pratique de la science –&#160;où
+            il est essentiel de valider les résultats&#160;–, elle peut ne pas être
+            pertinente à la pratique de l’activité de conception –&#160;où les
+            résultats n’ont pas besoin d’être répliqués (et dans de nombreux
+            cas ne doivent pas l’être) (Cross, 2001, p.&#160;54). Il prétend aussi
+            qu’au-delà de nos approches traditionnelles fondées sur la
+            science, nous devons nous concentrer sur des manières de
+            connaître, penser et agir inspirées du travail de conception
+            (Cross, 2007).</hi>
+          </p>
+          <p xml:id="d1e935">
+            <hi xml:lang="fr">L’argument en faveur de l’acceptation d’autres
+            façons de connaître, penser et agir, au-delà des approches
+            scientifiques, avait aussi été exploré par <persName type="_temp">Archer</persName> (1992) soulignant que le processus
+            scientifique cherche à isoler un phénomène et des principes
+            généralisables abstraits, sans préoccupation pour l’utilité
+            immédiate des résultats, laissant les scientifiques s’occuper
+            l’esprit avec ce qui les intéresse, à condition qu’ils le fassent
+            de façon scientifique. Inversement, la conception «&#160;tend vers la
+            satisfaction d’un besoin particulier, produisant un résultat
+            pratique et représentant un ensemble de valeurs technologiques,
+            économiques, marchandes, esthétiques, écologiques, culturelles et
+            éthiques déterminées par son contexte fonctionnel, commercial et
+            social&#160;» (Archer, 1992, p.&#160;8). Ce point de vue sur la conception
+            entre en résonance avec celui, identique, qu’exprime
+            Vincenti&#160;:</hi>
+          </p>
+          <q rend="quotation">Pour les ingénieurs, contrairement aux
+          scientifiques, le savoir n’est ni une fin en soi ni l’objectif
+          central de leur métier. C’est plutôt… un moyen en vue d’une fin
+          utilitaire… (Vincenti, 1990, p.&#160;6)</q>
+          <p xml:id="d1e940">
+            <hi xml:lang="fr">L’importance de la conception comme dimension
+            centrale de l’ingénierie justifie le fait d’identifier les
+            principaux traits distinctifs des ingénieurs quand ils agissent
+            comme concepteurs. Les concepteurs valorisent avant tout la
+            synthèse, bien davantage que l’analyse, et enracinent leur
+            pratique dans des visions holistiques, contextuelles et intégrées
+            du monde, plutôt que dans des visions partielles telles qu’elles
+            sont recherchées en science. En ce sens, les concepteurs sont
+            stratèges&#160;: ils sont mus par une vision de la totalité, un rêve
+            d’évolution où le tout génère les parties et les parties génèrent
+            le tout. Contrairement aux scientifiques, les concepteurs
+            apprécient les problèmes complexes et non précisément définis
+            qu’ils aiment à approcher de façon exploratoire, tolérant
+            l’ambiguïté, l’exploration de l’alternative et du compromis, la
+            pratique de l’improvisation, l’investigation via l’usage d’un
+            raisonnement non scientifique et de prise de décision en situation
+            de savoir incomplet, aidé de l’intuition, de l’expérience et, très
+            souvent, du travail en équipe et de la création conjointe (Cross,
+            2007&#160;; Figueiredo &amp; Cunha, 2007&#160;; Adams</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">et&#160;al.</hi>
+            </hi>
+            <hi xml:lang="fr">, 2011). Ils privilégient le raisonnement
+            abductif sur le raisonnement déductif&#160;; ils font place à
+            l’analogie et à la métaphore et ils aiment progresser de façon
+            dialectique, se mouvant entre «&#160;voir que&#160;» et «&#160;voir comme&#160;»
+            (Wittgenstein, 1953). C’est une des raisons pour lesquelles leurs
+            pratiques, souvent décrites comme pensée de conception (</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">design thinking</hi>
+            </hi>
+            <hi xml:lang="fr">), sont souvent perçues comme davantage
+            appropriées que l’approche scientifique pour se confronter aux
+            problèmes d’ingénierie, de plus en plus complexes
+            aujourd’hui.</hi>
+          </p>
+        </div>
+        <div type="div2" xml:id="d1e953">
+          <head subtype="level2" xml:id="d1e954">Les sciences</head>
+          <p xml:id="d1e956">
+            <hi xml:lang="fr">De la même façon que la naissance de la science
+            dans la Grèce antique a mis longtemps à influencer les pratiques
+            d’ingénierie, le développement de la science moderne au</hi>
+            <date from="1600" to="1699" type="_temp">
+              <hi xml:lang="fr">XVII</hi>
+              <hi rend="sup">e</hi>
+              <hi xml:lang="fr">&#160;siècle</hi>
+            </date>
+            <hi xml:lang="fr">s’est propagé de façon lente dans le monde de
+            l’ingénierie (Kirby</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">et&#160;al.</hi>
+            </hi>
+            <hi xml:lang="fr">, 1990, p.&#160;126). L’attitude expérimentale en
+            ingénierie a en revanche joué un rôle important en stimulant les
+            créateurs de la science moderne. En fait, certains d’entre eux
+            étaient ingénieurs et beaucoup d’autres ont confronté leurs points
+            de vue avec ceux des ingénieurs ou collaboré à la discussion sur
+            la relation entre leurs théories et la conception de leurs
+            installations expérimentales. Cela a été explicitement reconnu
+            dans les premières lignes du</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Dialogue des deux systèmes du monde de
+              Ptolémée et de Copernic</hi>
+            </hi>
+            <hi xml:lang="fr">de Galilée (Kirby</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">et&#160;al.</hi>
+            </hi>
+            <hi xml:lang="fr">, 1990, p.&#160;126). L’influence de la science sur
+            l’avancée du monde de l’ingénierie commence seulement à devenir
+            manifeste avec l’</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">École des Ponts et Chaussées</hi>
+            </hi>
+            <hi xml:lang="fr">au</hi>
+            <date from="1700" to="1799" type="_temp">
+              <hi xml:lang="fr">XVIII</hi>
+              <hi rend="sup">e</hi>
+              <hi xml:lang="fr">&#160;siècle</hi>
+            </date>
+            <hi xml:lang="fr">, juste avant qu’elle ne devienne surpuissante
+            et irréversible au</hi>
+            <date from="1800" to="1899" type="_temp">
+              <hi xml:lang="fr">XIX</hi>
+              <hi rend="sup">e</hi>
+              <hi xml:lang="fr">&#160;siècle</hi>
+            </date>
+            <hi xml:lang="fr">. Bien que certaines branches de l’ingénierie
+            moderne trouvent leur origine dans les temps anciens, comme
+            l’ingénierie civile et mécanique, d’autres branches n’auraient
+            jamais existé en l’absence de contextes scientifiques de pointe.
+            Deux grands exemples sont le génie électrique et le génie chimique
+            qui se sont développés en collaboration étroite avec la physique
+            et la chimie (Auyang, 2004, p.&#160;45). Les sciences informatiques
+            constituent un autre exemple&#160;: développée à l’origine comme une
+            discipline mathématique, elle a évolué jusqu’à inclure de
+            l’ingénierie.</hi>
+          </p>
+          <p xml:id="d1e995">
+            <hi xml:lang="fr">La dimension scientifique est aujourd’hui, avec
+            raison, la composante la plus forte de l’ingénierie. Elle ne doit
+            cependant pas être considérée comme le cœur de l’ingénierie, mais
+            comme une aide essentielle. Voici comment <persName ref="027396320" type="idref" xml:base="https://www.idref.fr/">Herbert Hoover</persName>,
+            31</hi>
+            <hi rend="sup">e</hi>
+            <hi xml:lang="fr">&#160;président des <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName> et
+            lui-même ingénieur, explique l’ingénierie comme métier&#160;:</hi>
+          </p>
+          <q rend="quotation">C’est un grand métier. Il y a la fascination de
+          regarder un fruit de l’imagination émerger via l’aide de la science
+          jusqu’à un plan sur papier. Il s’agit ensuite de passer à la
+          réalisation en pierre ou en métal ou en énergie. Puis elle fournit
+          du travail et des maisons aux hommes. Elle élève enfin les standards
+          de vie et ajoute aux conforts de vie. C’est le grand privilège de
+          l’ingénierie. (Hoover, 1954)</q>
+          <p xml:id="d1e1005">
+            <hi xml:lang="fr">Les sciences, vues comme une dimension centrale
+            des pratiques d’ingénierie, mettent l’accent sur le recours à des
+            méthodes rigoureuses, à l’abstraction mathématique, au
+            raisonnement logique, aux données mesurables et à l’exactitude de
+            la prédiction des résultats. Quand les ingénieurs exercent dans ce
+            registre scientifique, leur activité préférée, pour laquelle ils
+            sont bien considérés, concerne les sciences pour l’ingénieur et
+            les expressions les plus tangibles de leur succès sont des
+            contributions scientifiques originales publiables dans
+            d’excellentes revues scientifiques et présentées lors de
+            conférences scientifiques de haut niveau (Figueiredo, 2008).</hi>
+          </p>
+        </div>
+        <div type="div2" xml:id="d1e1008">
+          <head subtype="level2" xml:id="d1e1009">Les sciences sociales</head>
+          <p xml:id="d1e1011">
+            <hi xml:lang="fr">
+              <persName ref="120436841" type="idref" xml:base="https://www.idref.fr/">Hardy Cross</persName>
+            (1885-1959), ingénieur-structure et professeur d’université dont
+            les précieuses réflexions sur la nature de l’ingénierie ont été
+            publiées à titre posthume dans le livre</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Engineering and Ivory Towers</hi>
+            </hi>
+            <hi xml:lang="fr">, soutient que les ingénieurs ne sont pas
+            principalement des scientifiques&#160;:</hi>
+          </p>
+          <q rend="quotation">S’ils devaient être classés, ils devraient être
+          considérés davantage comme des humanistes que comme des
+          scientifiques. Ceux qui dédient leur vie à l’ingénierie se sentent
+          probablement en contact avec presque toutes les sphères de
+          l’activité humaine. Ils doivent non seulement prendre des décisions
+          importantes sur la conception mécanique d’ensemble de structures et
+          de machines, mais ils sont aussi confrontés aux problèmes des
+          réactions humaines à l’environnement et constamment impliqués dans
+          des problèmes juridiques, économiques et sociologiques. (Cross,
+          1952, p.&#160;5)</q>
+          <p xml:id="d1e1021">
+            <hi xml:lang="fr">Exprimant son point de vue sur la nature de
+            l’ingénierie, <persName ref="171092902" type="idref" xml:base="https://www.idref.fr/">Edwin Layton</persName> a observé
+            que «&#160;l’ingénierie implique nécessairement du changement social&#160;»
+            (Layton, 1991, p.&#160;74). Interrogé par le journal</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Interactions</hi>
+            </hi>
+            <hi xml:lang="fr">(revue ACM sur l’interface humain-machine),
+            <persName type="_temp">Austin Henderson</persName> soulignait que
+            lorsque nous concevons dans l’espace technique nous sommes aussi
+            en train de concevoir une activité sociale (Ehrlich, 1998).</hi>
+          </p>
+          <p xml:id="d1e1029">
+            <hi xml:lang="fr">Contrairement aux scientifiques, qui travaillent
+            souvent pour leur propre plaisir intellectuel, indépendamment de
+            l’utilité immédiate, les ingénieurs travaillent toujours pour des
+            commanditaires, en réponse à des requêtes. Ils travaillent</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">pour</hi>
+            </hi>
+            <hi xml:lang="fr">et</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">avec</hi>
+            </hi>
+            <hi xml:lang="fr">d’autres personnes. Ce qu’ils conçoivent et
+            construisent change le monde, souvent de façon irréversible, et
+            cela peut affecter des centaines, des milliers, voire des millions
+            de personnes. La nature sociale de leur action inclut la
+            clarification des exigences techniques et commerciales avec leurs
+            clients, la négociation des choix de conception avec les
+            populations concernées (hommes politiques, écologistes et autres
+            groupes de pression), la mobilisation de leurs équipes, la
+            construction de compromis entre les participants au processus de
+            construction et de déploiement des solutions ainsi que
+            l’anticipation des risques sociaux de ces solutions. Ils doivent
+            aussi appréhender finement la dimension commerciale de leurs
+            projets, qu’ils doivent souvent gérer du tout début jusqu’à leur
+            déploiement. En contraste complet avec le stéréotype des pirates
+            informatiques ayant retourné leur veste, les ingénieurs
+            rencontrant le plus de succès sont au contraire de remarquables
+            experts sociaux.</hi>
+          </p>
+          <p xml:id="d1e1042">
+            <hi xml:lang="fr">La reconnaissance de la nature sociale de
+            l’ingénierie semble être passée de l’ignorance à l’acceptation,
+            avec toutefois quelques contretemps. La définition populaire de
+            l’ingénierie de <persName ref="085881716" type="idref" xml:base="https://www.idref.fr/">Thomas Tredgold</persName>
+            (1788-1829) comme «&#160;l’art d’orienter les ressources de la nature
+            pour l’usage et la commodité de l’homme&#160;», inscrite dans la charte
+            de <date type="_temp" when="1828">1828</date> de l’Institution
+            [britannique] des ingénieurs civils (Layton, 1991, p.&#160;60&#160;;
+            Ferguson, 1992, p.&#160;1), a reçu de nombreuses améliorations au cours
+            du temps. Une de ces améliorations, apparemment introduite pour
+            dépasser le sentiment de culpabilité ressenti par les ingénieurs
+            au sujet des effets sociaux négatifs de la technologie, a été de
+            redéfinir les valeurs clefs de l’ingénierie pour les aligner avec
+            le bien de la société (Layton, 1991). Cette redéfinition était
+            toutefois loin d’être efficace pour contrer la croyance en la
+            neutralité de l’action des ingénieurs qui, faisant confiance à
+            l’objectivité de la science, voyaient leur activité comme neutre
+            sur le plan des valeurs (Layton, 1991). En décomposant les tâches
+            et en les isolant d’une vue d’ensemble, la bureaucratisation et la
+            division du travail des ingénieurs œuvrant au sein de grandes
+            organisations ont aussi contribué à renforcer cette croyance
+            (Pacey, 1999, p.&#160;176). Un exemple parlant est donné par Pacey&#160;:
+            comme le napalm ne collait initialement pas assez aux corps des
+            victimes, qui pouvaient le gratter et sauver leur vie, les
+            ingénieurs impliqués dans le projet ont eu à résoudre le problème
+            scientifique abstrait consistant à rendre le napalm collant, ce
+            qu’ils ont effectivement réalisé, apparemment sans penser aux
+            tragiques conséquences de leur solution (Pacey, 1999, p.&#160;176).
+            Aujourd’hui, un consensus davantage répandu semble exister sur la
+            reconnaissance que la technologie est sociale (Bijker &amp; Law,
+            1992, p.&#160;4) et que l’ingénierie «&#160;est un instrument du changement
+            social et de révolution sociale&#160;» (Layton, 1991, p.&#160;74).</hi>
+          </p>
+          <p xml:id="d1e1045">
+            <hi xml:lang="fr">Un autre aspect de la nature sociale des
+            pratiques d’ingénierie est l’engagement des ingénieurs dans le
+            monde des affaires. <persName type="_temp">Layton</persName>
+            (1971) a analysé cette dimension de façon détaillée dans son
+            ouvrage</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">The revolt of the engineers: social
+              responsibility and the American engineering profession</hi>
+            </hi>
+            <hi xml:lang="fr">, où il souligne le rôle critique des tensions
+            entre science et commerce dans le façonnage du métier d’ingénieur.
+            Il note d’un côté que «&#160;l’ingénieur est à la fois un scientifique
+            et un homme d’affaires. L’ingénierie est une profession
+            scientifique, bien que la validation du travail de l’ingénieur ne
+            se trouve pas au laboratoire, mais sur le marché&#160;» (Layton, 1971,
+            p.&#160;1). Il met d’un autre côté l’accent sur le fait que le
+            problème-clef de l’ingénieur est qu’&#160;«&#160;il est supposé être à la
+            fois un scientifique et un homme d’affaires, mais il n’est ni l’un
+            ni l’autre&#160;» (Layton, 1971, p.&#160;2). Cette tension constitue un des
+            multiples aspects des pratiques d’ingénierie que le diagramme en
+            figure&#160;1 tente d’illustrer. Indépendamment des multiples solutions
+            au dilemme qui engage les autres composantes du diagramme, la
+            gestion, composante centrale de l’activité commerciale, se trouve
+            aussi être une des composantes centrales de l’activité d’un
+            ingénieur. Il est peut-être utile de rappeler dans ce contexte que
+            <persName type="_temp">Frederick Taylor</persName> (1856-1915),
+            père du management moderne, était un ingénieur mécanicien qui
+            avait essayé de promouvoir la refondation de la gestion sur la
+            base de principes d’ingénierie et croyait avec ses confrères de la
+            Société américaine des ingénieurs mécaniciens (ASME) que tous les
+            problèmes sociaux pouvaient être résolus en appliquant des
+            méthodes d’ingénierie (Layton, 1971).</hi>
+          </p>
+          <p xml:id="d1e1053">
+            <hi xml:lang="fr">La reconnaissance des sciences sociales comme
+            composante centrale de l’ingénierie nous permet de voir les
+            professionnels de l’ingénierie non seulement comme des
+            technologues, mais aussi comme des gestionnaires, des hommes
+            d’affaires et des experts sociaux capables d’embrayer sur la
+            nature sociale des marchés qu’ils ciblent et d’agir</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">sur –&#160;mais aussi avec</hi>
+            </hi>
+            <hi xml:lang="fr">&#160;– la complexité sociale des équipes auxquelles
+            ils appartiennent. Considérés de ce point de vue, les ingénieurs
+            sont particulièrement concernés par la création de valeur sociale
+            et économique, la satisfaction des utilisateurs finaux ainsi que
+            l’efficacité et la motivation de leurs équipes (Figueredo,
+            2008).</hi>
+          </p>
+        </div>
+      </div>
+      <div type="div1" xml:id="d1e1061">
+        <head subtype="level1" xml:id="d1e1062">L’ingénieur complet</head>
+        <p xml:id="d1e1064">
+          <hi xml:lang="fr">La grille d’analyse proposée dans la figure&#160;1
+          rassemble les quatre composantes disciplinaires de l’ingénierie
+          discutées dans cet article. Si nous prenons en compte les
+          différences entre ces composantes et si nous gardons à l’esprit que
+          l’épistémologie concerne l’examen de la nature et des potentialités
+          de la connaissance, les méthodes de production du savoir et la
+          valeur du savoir dans un domaine donné, alors nous devenons capables
+          d’anticiper d’importantes difficultés épistémologiques liées à la
+          combinaison de ces quatre dimensions. Des exemples de tensions entre
+          les composantes commerciales et scientifiques dans l’ingénierie ont
+          été discutés par Layton (1971). Des tensions similaires ont été
+          observées dans le débat entre «&#160;avocats de la science&#160;», «&#160;avocats
+          de la conception&#160;» et «&#160;avocats du système&#160;» décrit par Williams
+          (2002), dans son récit des guerres disciplinaires au MIT de la fin
+          des <date from="1990" to="1999" type="_temp">années&#160;1990</date>. Un
+          exemple plus consensuel et intégrateur se trouve dans la suggestion
+          d’Henderson selon laquelle la science, la conception et l’ingénierie
+          représenteraient des activités complémentaires d’analyse,
+          d’imagination et d’implémentation (Ehrlich, 1998).</hi>
+        </p>
+        <p xml:id="d1e1067">
+          <hi xml:lang="fr">Dans sa réflexion sur les bases biologiques de la
+          créativité, <persName type="_temp">&lt;Martindale</persName> (1999,
+          p.&#160;137) rappelle que la pensée créative requiert une combinaison
+          d’un petit assortiment de traits relativement courants
+          (intelligence, persévérance, non-conventionalité et capacité à
+          penser différemment). Pour lui, ce qui singularise la créativité
+          c’est le rassemblement exceptionnel en une seule personne de ces
+          différents traits. Quelque chose de similaire se produit avec
+          l’ingénierie. Selon notre cadre d’analyse, un «&#160;ingénieur complet&#160;»
+          serait une combinaison de stratège-intégrateur, de
+          scientifique-penseur, d’homme d’affaires-humaniste-négociateur et
+          d’homme d’action. Chacune de ces composantes est relativement
+          fréquente mais la tendance académique dominante consistant à former
+          les ingénieurs comme des scientifiques unidimensionnels rend
+          l’occurrence combinée de ces quatre composantes en un seul diplômé
+          presque impossible. Cette transformation de l’ingénieur complet en
+          un chercheur formaté en ingénierie s’accélère du fait que la plupart
+          de ceux qui décident de l’avenir des formations d’ingénieur sont
+          eux-mêmes des chercheurs spécialisés (unidimensionnels) en
+          ingénierie et convergent vers une forme d’autoperpétuation.</hi>
+        </p>
+        <p xml:id="d1e1070">
+          <hi xml:lang="fr">Dans ce contexte, <persName ref="199335338" type="idref" xml:base="https://www.idref.fr/">Rosalind
+          Williams</persName> pourrait avoir raison quand elle déclare que
+          l’ingénierie comme profession est en train de se désintégrer. Cela
+          se produirait non seulement parce que la popularité de l’ingénierie
+          fait que le métier se répand et se dilue mais aussi parce que les
+          quatre composantes disciplinaires qui ont fait de l’ingénierie un
+          tout puissant et cohérent durant plus d’un millénaire sont en train
+          de se séparer. En fait, des réalisations majeures en ingénierie de
+          notre temps n’ont pas été initiées par des diplômés en ingénierie,
+          mais par des personnes qui, à la lumière des quatre composantes
+          historiques de notre cadre d’analyse, peuvent être reconnues comme
+          ingénieurs.</hi>
+        </p>
+        <p xml:id="d1e1073">
+          <hi xml:lang="fr">L’approche des frères Wright, au <date from="1900" to="1930" type="_temp"> début des années&#160;1900</date>, avec leur
+          invention d’un aéroplane motorisé doté d’une aile fixe contrôlable
+          et du système de contrôle à trois axes des aéroplanes d’aujourd’hui,
+          a été «&#160;celle d’un ingénieur –&#160;essais sans restriction</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">a priori</hi>
+          </hi>
+          <hi xml:lang="fr">, tabulation systématique des données,
+          interprétation intelligente de résultats, tout cela avec l’audace de
+          suivre les faits là où ils mènent&#160;» (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;146). Le fait que les frères Wright
+          étaient mécaniciens de bicyclettes davantage qu’ingénieurs renforce
+          le rôle clef de la culture de la persévérance de l’artisan dans la
+          quête de perfection. Le tunnel à vent des frères Wright, où ils ont
+          testé plus de 200&#160;types de surfaces ailées et mesuré les mouvements
+          ascendants et descendants avec des modèles monoplan, biplan et
+          triplan (Kirby</hi>
+          <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al.</hi>
+          </hi>
+          <hi xml:lang="fr">, 1990, p.&#160;146) est un exemple marquant de cette
+          culture. <persName ref="067719627" type="idref" xml:base="https://www.idref.fr/">Thomas Edison</persName>, qui n’a
+          jamais entrepris d’études universitaires mais a compté parmi les
+          innovateurs les plus célébrés dans l’ingénierie électrique, était un
+          homme d’action et de persévérance, un homme d’affaires passionné et
+          un exceptionnel concepteur (Hughes, 1991&#160;; Carlson, 1999) qui a
+          surmonté son manque de connaissance scientifique en employant des
+          scientifiques de premier plan comme Francis Upton, ancien élève de
+          <persName ref="031053130" type="idref" xml:base="https://www.idref.fr/">von Helmholtz</persName> en
+          <placeName ref="2921044" type="geonames" xml:base="https://www.geonames.org/">Allemagne</placeName> (Pacey,
+          1990, p.&#160;170). Un autre contributeur de premier plan aux progrès de
+          l’ingénierie électrique, <persName ref="034983023" type="idref" xml:base="https://www.idref.fr/">Nikola Tesla</persName>, n’obtint
+          jamais de diplôme d’ingénierie mais était considéré comme un des
+          plus brillants ingénieurs de son temps. Sans surprise, il a combiné
+          les quatre composantes de notre modèle de l’ingénieur complet. Plus
+          récemment, des entrepreneurs comme <persName ref="188633057" type="idref" xml:base="https://www.idref.fr/">Steve Jobs</persName>
+          et <persName ref="032108222" type="idref" xml:base="https://www.idref.fr/">Bill Gates</persName> offrent des
+          exemples sans égal d’innovateurs en ingénierie sans avoir de diplôme
+          d’ingénierie mais en assumant avec succès les quatre composantes
+          historiques de l’ingénieur complet.</hi>
+        </p>
+        <p xml:id="d1e1091">
+          <hi xml:lang="fr">Entre la désintégration inévitable suggérée par
+          <persName type="_temp">Williams</persName> (2002) et la
+          réconciliation parfaite, je voudrais défendre une tentative de
+          compromis en vue d’une position intermédiaire. Le développement
+          d’une compréhension théorique partagée d’un domaine de savoir comme
+          l’ingénierie, à partir de différentes composantes, suggérerait
+          d’explorer l’interpénétration mutuelle entre les épistémologies de
+          ces composantes disciplinaires. Cela voudrait dire adopter une
+          approche transdisciplinaire pour explorer la synergie continue et
+          l’interaction entre les quatre composantes dans une grande diversité
+          de contextes d’application. La désintégration du métier d’ingénieur
+          pourrait ainsi être évitée par l’exploration de la nature
+          transdisciplinaire des liens entre les quatre composantes. Il serait
+          ensuite possible de parler d’une idéologie de l’ingénierie (Layton,
+          1976) et de ses identités professionnelles (Becker &amp; Carper,
+          1956). Bien sûr, cela ne requerrait pas de chaque ingénieur qu’il
+          soit un être complet dans chacune de ces quatre composantes. Le
+          style personnel et les étapes de développement professionnel de
+          chacun détermineraient au contraire l’accent mis sur chaque
+          composante et l’approche adoptée pour gérer les tensions entre
+          elles. La capacité à reconnaître l’existence de ces composantes
+          aiderait à visualiser les opportunités de collaboration entre elles.
+          Elle faciliterait aussi le dialogue et la synergie entre les
+          professionnels associant les myriades de combinaisons possibles au
+          sein de ce cadre d’analyse. Si cela était pris en compte dans la
+          formation des futurs ingénieurs, cela les guiderait aussi dans la
+          sélection de leurs profils et améliorerait leur capacité à traverser
+          les frontières et à maintenir le dialogue au sein d’équipes multi et
+          transdisciplinaires. Bien qu’aucun ingénieur ne puisse couvrir
+          intégralement les quatre composantes, toute perspective
+          professionnelle devrait idéalement être consciente de l’attractivité
+          et de la cohérence du tout et du défi de se montrer capable de
+          collaborer par-delà les frontières.</hi>
+        </p>
+        <p xml:id="d1e1094">
+          <hi xml:lang="fr">Deux difficultés majeures empêchent encore
+          d’accéder à une vision d’ensemble consolidée de l’ingénierie. L’une
+          est la négligence systématique actuelle du rôle central de la
+          conception en ingénierie. L’autre est la compréhension limitée des
+          pratiques d’ingénierie comme simple résolution de problèmes. Les
+          deux difficultés sont liées et semblent résulter d’un échec à
+          conceptualiser l’ingénierie dans la complexité du monde
+          d’aujourd’hui. La globalisation, le pouvoir croissant des
+          ordinateurs, l’explosion du nombre de systèmes humains et
+          technologiques, la dépendance accrue entre ces systèmes, la vitesse
+          croissante des communications, les changements d’environnements
+          compétitifs et de besoins organisationnels et, surtout, les
+          dimensions humaines et sociales de tous ces problèmes contribuent à
+          accroître considérablement la complexité de notre monde.
+          Aujourd’hui, la conception d’un système se développe souvent à
+          partir d’un puzzle d’exigences incomplètes qui ne cessent de changer
+          tandis que coexistent les activités de conception et
+          d’implémentation. L’incertitude se trouve dans les «&#160;vilains
+          problèmes&#160;» (Rittel &amp; Webber, 1973) de plus en plus nombreux,
+          dans lesquels l’interdépendance entre facteurs technologiques,
+          sociaux et organisationnels requiert des stratégies de conception où
+          la formulation et la solution se développent en parallèle, et se
+          renforcent mutuellement. Il convient alors de considérer également
+          de façon fine l’émergence de ces problèmes (Figueiredo &amp; Cunha,
+          2007). Cela signifie que le rôle le plus saillant de l’ingénierie
+          aujourd’hui n’est pas de résoudre des problèmes mais de les
+          clarifier et de les formuler au sein des contextes, requérant des
+          visions englobantes, une conscience sociale ainsi qu’une pensée
+          projective. La science est essentielle pour permettre aux ingénieurs
+          de travailler sur différentes parties d’un problème mais ce sont les
+          approches englobantes de la conception qui les amènent à voir le
+          tout. Plus le monde devient socialement et technologiquement
+          complexe et interdépendant, plus il dépend de la capacité des
+          ingénieurs à agir en concepteurs de systèmes sociotechniques
+          complets.</hi>
+        </p>
+      </div>
+      <div type="div1" xml:id="d1e1097">
+        <head subtype="level1" xml:id="d1e1098">Conclusions</head>
+        <p xml:id="d1e1100">
+          <hi xml:lang="fr">Au début de cet article, en commentant
+          l’affirmation de <persName type="_temp">Williams</persName> (2002)
+          selon laquelle l’ingénierie souffrirait d’un processus de
+          «&#160;désintégration extensive&#160;», je rappelais les multiples crises
+          d’identité que les professionnels ont traversées au cours des deux
+          derniers siècles. Je suggérais aussi que ceux qui désirent se
+          réclamer de l’ingénierie ainsi que les responsables de la formation
+          des ingénieurs à venir auraient beaucoup à gagner en étudiant
+          l’héritage de milliers d’années de pratiques d’ingénierie. Dans cet
+          article, j’ai essayé de traverser ces milliers d’années afin de
+          pouvoir identifier, à l’aide d’un cadre d’analyse simple, les
+          caractéristiques définitoires de l’ingénieur qui restent fidèles aux
+          valeurs historiques de la profession. Cet «&#160;ingénieur complet&#160;» est,
+          dans une certaine mesure, l’antithèse de l’&#160;«&#160;ingénieur désintégré&#160;»
+          décrit par <persName type="_temp">Williams</persName>. Je crois,
+          cependant, que les deux concepts sont utiles. C’est un fait bien
+          connu de l’histoire et de la légende que les créations les plus
+          vertueuses ont souvent été édifiées sur les ruines d’un glorieux
+          passé. Comme <persName type="_temp">Williams</persName> annonce la
+          fin d’un glorieux passé, nous pourrions nous souvenir du phénix,
+          l’oiseau mythologique qui se brûle lui-même jusqu’aux cendres toutes
+          les quelques centaines d’années avant de renaître de ses propres
+          cendres, en combinant l’énergie et la créativité de la jeunesse avec
+          la maturité et la sagesse de son précieux passé. Ce que j’ai essayé
+          de faire dans ce chapitre est de contribuer au travail de fondation
+          d’une telle renaissance.</hi>
+        </p>
+      </div>
+    </body>
+    <back>
+      <div type="bibliography" xml:id="d1e1107">
+        <listBibl xml:id="d1e1109">
+          <bibl xml:id="d1e1111">
+            <hi xml:lang="en">Adams, R., Evangelou, D., English, L.,
+            Figueiredo, A. D., Mousoulides,&#160;N., Pawley,&#160;A. L.,
+            Schifellite,&#160;C., Stevens,&#160;R., Svinicki, M., Trenor,&#160;J.&#160;M., &amp;
+            Wilson,&#160;D.&#160;M. (2011). Multiple Perspectives on Engaging Future
+            Engineers.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Journal of Engineering Education</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">100</hi>
+            </hi>
+            <hi xml:lang="en">(1), 48-88.</hi>
+          </bibl>
+          <bibl xml:id="d1e1124">
+            <hi xml:lang="en">Archer, B. (1992). The Nature of Research in
+            Design and Design Education. In B.&#160;Archer, K.&#160;Baynes, &amp;
+            P.&#160;Roberts (eds.).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Nature of Research into Design and
+              Technology Education: Design Curriculum Matters</hi>
+            </hi>
+            <hi xml:lang="en">. Loughborough: Department of Design and
+            Technology, Loughborough University.</hi>
+          </bibl>
+          <bibl xml:id="d1e1132">
+            <hi xml:lang="en">Auyang, S. Y. (2004).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Engineering –An Endless Frontier</hi>
+            </hi>
+            <hi xml:lang="en">. Cambridge, Mass: Harvard University
+            Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1140">
+            <hi xml:lang="en">Becker, H. S. &amp; Carper, J. W. (1956). The
+            Development of Identification with an Occupation.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The American Journal of Sociology</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">61</hi>
+            </hi>
+            <hi xml:lang="en">(4), 289-298.</hi>
+          </bibl>
+          <bibl xml:id="d1e1153">
+            <hi xml:lang="en">Bijker, W. E. &amp; Law, J. (1992).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Shaping Technology/Building Society: Studies
+              in Sociotechnical Change</hi>
+            </hi>
+            <hi xml:lang="en">. Cambridge, Mass: MIT Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1161">
+            <hi xml:lang="en">Bjerklie, D. (1998). The Art of Renaissance
+            Engineering.</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">MIT’s Technology Review Magazine</hi>
+            </hi>
+            <hi xml:lang="fr">.</hi>
+            <ref target="http://www.technologyreview.com/featured-story/400136/the-art-of-renaissance-engineering/">
+              <hi xml:lang="fr">http://www.technologyreview.com/featured-story/400136/the-art-of-renaissance-engineering/</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e1172">
+            <hi xml:lang="fr">Boltanski, L. &amp; Thévenot, L. (1991).</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">De la Justification&#160;: Les Économies de la
+              Grandeur</hi>
+            </hi>
+            <hi xml:lang="fr">. Paris&#160;: Gallimard.</hi>
+          </bibl>
+          <bibl xml:id="d1e1180">
+            <hi xml:lang="en">Bush, V. (1945).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Science The Endless Frontier</hi>
+            </hi>
+            <hi xml:lang="en">. United States Government Printing Office.</hi>
+            <ref target="http://www.nsf.gov/od/lpa/nsf50/vbush1945.htm">
+              <hi xml:lang="fr">http://www.nsf.gov/od/lpa/nsf50/vbush1945.htm</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e1191">
+            <hi xml:lang="en">Buxton, B. (2007).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Sketching User Experiences: Getting the Design
+              Right and the Right Design</hi>
+            </hi>
+            <hi xml:lang="en">. San Francisco: Focal Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1199">
+            <hi xml:lang="en">Capra, F. (2007).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Science of Leonardo</hi>
+            </hi>
+            <hi xml:lang="en">. New York: Anchor Books.</hi>
+          </bibl>
+          <bibl xml:id="d1e1208">
+            <hi xml:lang="en">Carlson, W. B. (1999).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Banishing Prometheus? Edison, Invention, and
+              Representation</hi>
+            </hi>
+            <hi xml:lang="en">. Critical Studies Workshop: Writing Science.
+            The Stanford Humanities Center.</hi>
+            <hi xml:lang="fr">Consulté à</hi>
+            <ref target="http://www.stanford.edu/dept/HPS/WritingScience/etexts/Carlson/Prometheus.html">
+              <hi xml:lang="fr">www.stanford.edu/dept/HPS/WritingScience/etexts/Carlson/Prometheus.html</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e1221">
+            <hi xml:lang="en">Chiu, Y. C. (2011).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">A History of Ancient Project Management: From
+              Mesopotamia to the Roman Empire</hi>
+            </hi>
+            <hi xml:lang="en">. Delft: Eburon Academic Publishers.</hi>
+          </bibl>
+          <bibl xml:id="d1e1229">
+            <hi xml:lang="en">Ciborra, C.U. (1998). Crisis and Foundations: an
+            Inquiry into the Nature and Limits of Models and Methods in the
+            Information Systems Discipline.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Journal of Strategic Information Systems</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">7</hi>
+            </hi>
+            <hi xml:lang="en">, 5-16.</hi>
+          </bibl>
+          <bibl xml:id="d1e1242">
+            <hi xml:lang="en">Cross, H. (1952).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Engineers and Ivory Towers</hi>
+            </hi>
+            <hi xml:lang="en">. New York: McGraw-Hill, Inc.</hi>
+          </bibl>
+          <bibl xml:id="d1e1250">
+            <hi xml:lang="en">Cross, N. (2001). Designerly ways of knowing:
+            design discipline versus design science.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Design Issues</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">17</hi>
+            </hi>
+            <hi xml:lang="en">(3).</hi>
+          </bibl>
+          <bibl xml:id="d1e1263">
+            <hi xml:lang="en">Cross, N. (2007).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Designerly Ways of Knowing</hi>
+            </hi>
+            <hi xml:lang="en">. Berlin: Birhäuser.</hi>
+          </bibl>
+          <bibl xml:id="d1e1271">
+            <hi xml:lang="en">Cypher, M. &amp; Richardson, I. (2006). An
+            Actor-Network Approach to Games and Virtual Environments.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Proceedings of the 2006 International
+              Conference on Game Research and Development. 4-6 December 2006,
+              Australia</hi>
+            </hi>
+            <hi xml:lang="en">, Murdoch University, 254-259.</hi>
+          </bibl>
+          <bibl xml:id="d1e1279">
+            <hi xml:lang="en">Dewey, J. (1930).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Human Nature and Conduct</hi>
+            </hi>
+            <hi xml:lang="en">. New York: Modern Library.</hi>
+          </bibl>
+          <bibl xml:id="d1e1287">
+            <hi xml:lang="en">Ehrlich, K. (1998). A conversation with Austin
+            Henderson.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Interactions</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">5</hi>
+            </hi>
+            <hi xml:lang="en">(6), 36-47.</hi>
+          </bibl>
+          <bibl xml:id="d1e1300">
+            <hi xml:lang="en">Ferguson, E. S. (1992).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Engineering and the Mind’s Eye</hi>
+            </hi>
+            <hi xml:lang="en">. Cambridge, Mass: The MIT Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1308">
+            <hi xml:lang="en">Figueiredo, A. D. (2002). Accreditation and
+            Quality Assessment in a Changing Profession.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Proceedings of the International Conference on
+              Engineering Education, ICEE 2002, July 30-August&#160;3 2012, UK</hi>
+            </hi>
+            <hi xml:lang="en">. Manchester.</hi>
+          </bibl>
+          <bibl xml:id="d1e1317">
+            <hi xml:lang="fr">Figueiredo, A. D. &amp; Cunha, P. R.
+            (2007).</hi>
+            <hi xml:lang="en">Action Research and Design in Information
+            Systems: Two Faces of a Single Coin. In N.&#160;Kock (ed.).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Information Systems Action Research: An
+              Applied View of Emerging Concepts and Methods</hi>
+            </hi>
+            <hi xml:lang="en">(pp.&#160;61-96.). New York: Springer.</hi>
+          </bibl>
+          <bibl xml:id="d1e1327">
+            <hi xml:lang="en">Figueiredo, A. D. (2008). Toward an Epistemology
+            of Engineering.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Proceedings of the Workshop on Philosophy
+              &amp; Engineering (WPE 2008), 10-12 November 2008</hi>
+            </hi>
+            <hi xml:lang="en">. London: Royal Engineering Academy.</hi>
+          </bibl>
+          <bibl xml:id="d1e1335">
+            <hi xml:lang="en">Foote, N. N. (1951). Identification as the Basis
+            for a Theory of Motivation.</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">American Sociological Review</hi>
+            </hi>
+            <hi xml:lang="fr">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">16</hi>
+            </hi>
+            <hi xml:lang="fr">(1), 14-21.</hi>
+          </bibl>
+          <bibl xml:id="d1e1348">
+            <hi xml:lang="en">Galluzzi, P. (1987). The Career of a
+            Technologist. In J.&#160;Terry (ed.).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Leonardo da Vinci: Engineer and Architect</hi>
+            </hi>
+            <hi xml:lang="en">. Montreal: Montreal Museum of Fine Arts.</hi>
+          </bibl>
+          <bibl xml:id="d1e1356">
+            <hi xml:lang="en">Gregory, S. A. (1966).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Design Method</hi>
+            </hi>
+            <hi xml:lang="en">. London: UK, Butterworth.</hi>
+          </bibl>
+          <bibl xml:id="d1e1364">
+            <hi xml:lang="en">Kirby, R. S., Withington, S., Darling, A. B.,
+            &amp; Kilgour, F. G. (1990).</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Engineering in History</hi>
+            </hi>
+            <hi xml:lang="fr">. New York: Dover Publications.</hi>
+          </bibl>
+          <bibl xml:id="d1e1372">
+            <hi xml:lang="en">Kurtz, C. F. &amp; Snowden, D. J. (2003). The
+            New Dynamics of Strategy: Sensemaking in a Complex and Complicated
+            World.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">IBM Systems Journal</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">42</hi>
+            </hi>
+            <hi xml:lang="en">(3), 462-482.</hi>
+          </bibl>
+          <bibl xml:id="d1e1385">
+            <hi xml:lang="en">Hill, D. (1996).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">A History of Engineering in Classical and
+              Medieval Times</hi>
+            </hi>
+            <hi xml:lang="en">. London: Routledge.</hi>
+          </bibl>
+          <bibl xml:id="d1e1393">
+            <hi xml:lang="en">Hoover, H. (1954). Engineering as a
+            Profession.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Engineer’s Week</hi>
+            </hi>
+            <hi xml:lang="en">.</hi>
+            <ref target="http://hooverpresidentialfoundation.org/engineering_as_a_profession.php">
+              <hi xml:lang="en">http://hooverpresidentialfoundation.org/engineering_as_a_profession.php</hi>
+            </ref>
+          </bibl>
+          <bibl xml:id="d1e1404">
+            <hi xml:lang="en">Hughes, T. P. (1991). The Electrification of
+            America: the System Builders. In T.&#160;S.&#160;Reynolds, (ed.).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Engineer in America: A Historical
+              Anthology from Technology and Culture</hi>
+            </hi>
+            <hi xml:lang="en">(pp.&#160;191-228). Chicago: The University of
+            Chicago Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1412">
+            <hi xml:lang="en">Imhausen, A. (2006). Ancient Egyptian
+            Mathematics: New Perspectives on Old Sources.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Mathematical Intelligencer</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">28</hi>
+            </hi>
+            <hi xml:lang="en">(1), 19-27.</hi>
+          </bibl>
+          <bibl xml:id="d1e1426">
+            <hi xml:lang="en">Kuhn, T. S. (1970). The Structure of Scientific
+            Revolutions. In Neurath, O., Carnap,&#160;R. &amp; Morris,&#160;C.
+            (eds.).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Foundations of the Unity of Science</hi>
+            </hi>
+            <hi xml:lang="en">(vol. 2). Chicago: The University of Chicago
+            Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1434">
+            <hi xml:lang="en">Kuhn, T. S. (1977). Second Thoughts on
+            Paradigms. In F.&#160;Suppe (ed.).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Essential Tension</hi>
+            </hi>
+            <hi xml:lang="en">. Chicago: University of Chicago Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1442">
+            <hi xml:lang="en">Kirby, R. S., Withington, S., Darling, A. B.,
+            &amp; Kilgour, F. G. (1990).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Engineering in History</hi>
+            </hi>
+            <hi xml:lang="en">. New York: Dover Publications. Inc.</hi>
+          </bibl>
+          <bibl xml:id="d1e1450">
+            <hi xml:lang="en">Landes, D. S. (1998).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Wealth and Poverty of Nations</hi>
+            </hi>
+            <hi xml:lang="en">. London: Abacus.</hi>
+          </bibl>
+          <bibl xml:id="d1e1458">
+            <hi xml:lang="fr">Laplantine, F. (1994).</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Transatlantique. Entre Europe et Amérique
+              latine</hi>
+            </hi>
+            <hi xml:lang="fr">. Paris&#160;: Payot.</hi>
+          </bibl>
+          <bibl xml:id="d1e1466">
+            <hi xml:lang="fr">Latour, B. (2007). Un livre de Reviel Netz pour
+            une approche non formaliste des formalismes.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Revue d’anthropologie des connaissances</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">3</hi>
+            </hi>
+            <hi xml:lang="en">(2), 185-206.</hi>
+          </bibl>
+          <bibl xml:id="d1e1479">
+            <hi xml:lang="en">Layton, E. T. (1971).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Revolt of the Engineers: Social
+              Responsibility and the American Engineering Profession</hi>
+            </hi>
+            <hi xml:lang="en">. Cleveland, Ohio: The Press of Case Western
+            Reserve University.</hi>
+          </bibl>
+          <bibl xml:id="d1e1487">
+            <hi xml:lang="en">Layton, E. T. (1976). American Ideologies of
+            Science and Engineering.</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Technology and Culture</hi>
+            </hi>
+            <hi xml:lang="fr">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">17</hi>
+            </hi>
+            <hi xml:lang="fr">(4), 688-701.</hi>
+          </bibl>
+          <bibl xml:id="d1e1500">
+            <hi xml:lang="en">Layton, E. T. (1991). A Historical Definition of
+            Engineering. In P.&#160;T.&#160;Durbin (ed.).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Critical Perspectives on Nonacademic Science
+              and Engineering</hi>
+            </hi>
+            <hi xml:lang="en"/>
+            <hi xml:lang="fr">(pp.&#160;60-79). Cranbury, NJ: Lehigh University
+            Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1510">
+            <hi xml:lang="fr">LeMoigne, J.-L. (1999).</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Les Épistémologies constructivistes</hi>
+            </hi>
+            <hi xml:lang="fr">. 2</hi>
+            <hi rend="sup">
+              <hi xml:lang="fr">nd</hi>
+            </hi>
+            <hi xml:lang="fr">edition. Paris&#160;: Presses universitaires de
+            France.</hi>
+          </bibl>
+          <bibl xml:id="d1e1523">
+            <hi xml:lang="en">Lewin, D. (1979). On the Place of Design in
+            Engineering.</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">Design Studies</hi>
+            </hi>
+            <hi xml:lang="fr">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">1</hi>
+            </hi>
+            <hi xml:lang="fr">(2), 113-117.</hi>
+          </bibl>
+          <bibl xml:id="d1e1537">
+            <hi xml:lang="en">Lewin, D. (1983). Engineering Philosophy: The
+            Third Culture.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Leonardo</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">16</hi>
+            </hi>
+            <hi xml:lang="en">(2), 127-132.</hi>
+          </bibl>
+          <bibl xml:id="d1e1550">
+            <hi xml:lang="en">Lifson, M. W. &amp; Kline, M. B. (1968).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Design: The Essence of Engineering</hi>
+            </hi>
+            <hi xml:lang="en">. Los Angeles: University of California.</hi>
+          </bibl>
+          <bibl xml:id="d1e1558">
+            <hi xml:lang="en">Madsen, D. A. &amp; Madsen, D. P. (2011).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Engineering Drawing and Design.</hi>
+            </hi>
+            <hi xml:lang="en">5th edition. Delmar Cengage Learning.</hi>
+          </bibl>
+          <bibl xml:id="d1e1566">
+            <hi xml:lang="en">Martindale, C. (1999). Biological Bases of
+            Creativity. In R.&#160;Sternberg (ed.).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Handbook of Creativity</hi>
+            </hi>
+            <hi xml:lang="en">. New York: Cambridge University Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1574">
+            <hi xml:lang="en">Marx, K. (1906).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Capital: A Critical Analysis of Capitalist
+              Production</hi>
+            </hi>
+            <hi xml:lang="en">. Swan Sonnenschein &amp; Co.</hi>
+          </bibl>
+          <bibl xml:id="d1e1582">
+            <hi xml:lang="en">Minsky, M. (1988).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Society of Mind</hi>
+            </hi>
+            <hi xml:lang="en">. New York: Simon &amp; Schuster.</hi>
+          </bibl>
+          <bibl xml:id="d1e1590">
+            <hi xml:lang="en">Mintzberg, H. (1987). Crafting Strategy.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Harvard Business Review</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">65</hi>
+            </hi>
+            <hi xml:lang="en">(4), 66-75.</hi>
+          </bibl>
+          <bibl xml:id="d1e1603">
+            <hi xml:lang="en">Miroslav, V. (2001).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Pyramids: The Mystery, Culture, and
+              Science of Egypt’s Great Monuments</hi>
+            </hi>
+            <hi xml:lang="en">. New York: Grove Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1611">
+            <hi xml:lang="en">Mitcham, C. (1994).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Thinking Through Technology: the Path Between
+              Engineering and Philosophy</hi>
+            </hi>
+            <hi xml:lang="en">. Chicago: The University of Chicago Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1619">
+            <hi xml:lang="en">Netz. R. (2003).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Shaping of Deduction in Greek Mathematics:
+              A Study in Cognitive History</hi>
+            </hi>
+            <hi xml:lang="en">. Cambridge: Cambridge University Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1627">
+            <hi xml:lang="en">O’Leary, D. L. (1949).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">How Greek Science Passed to the Arabs</hi>
+            </hi>
+            <hi xml:lang="en">(1st ed.). London: Routledge &amp; Kegan
+            Paul.</hi>
+          </bibl>
+          <bibl xml:id="d1e1636">
+            <hi xml:lang="en">Oleson, J. P. (2008).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Oxford Handbook of Engineering and
+              Technology in the Classical World</hi>
+            </hi>
+            <hi xml:lang="en">. Oxford, UK: Oxford University Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1644">
+            <hi xml:lang="en">Pacey, A. (1990).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Technology in World Civilization: A Thousand
+              Year History</hi>
+            </hi>
+            <hi xml:lang="en">. Cambridge, Mass.: The MIT Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1652">
+            <hi xml:lang="en">Pacey, A. (1992).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Maze of Ingenuity: Ideas and Idealism in
+              the Development of Technology</hi>
+            </hi>
+            <hi xml:lang="en">(2nd ed.). Cambridge, Mass.: The MIT Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1660">
+            <hi xml:lang="en">Pacey, A. (1999).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Meaning in Technology</hi>
+            </hi>
+            <hi xml:lang="en">. Cambridge, Mass.: The MIT Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1668">
+            <hi xml:lang="en">Pindur, W., Rogers, S. E. &amp; Kim, P. S.
+            (1995). The History of Management: a Global Perspective.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Journal of Management History</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">1</hi>
+            </hi>
+            <hi xml:lang="en">(1). 59-77.</hi>
+          </bibl>
+          <bibl xml:id="d1e1681">
+            <hi xml:lang="en">Reynolds, T. S. (1991). The Engineer in
+            19th-Century America. In T.&#160;S.&#160;Reynolds (ed.),</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Engineer in America: A Historical
+              Anthology from Technology and Culture</hi>
+            </hi>
+            <hi xml:lang="en">(pp.&#160;7-26). Chicago: The University of Chicago
+            Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1689">
+            <hi xml:lang="en">Rittel, H. &amp; Webber, M. (1973). Dilemmas in
+            a General Theory of Planning.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Policy Sciences</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">4</hi>
+            </hi>
+            <hi xml:lang="en">, 155-169.</hi>
+          </bibl>
+          <bibl xml:id="d1e1702">
+            <hi xml:lang="en">Roberts, J. M. (2002).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The New Penguin History of the World</hi>
+            </hi>
+            <hi xml:lang="en">(4th ed.). London: Penguin Books.</hi>
+          </bibl>
+          <bibl xml:id="d1e1710">
+            <hi xml:lang="en">Romanyshyn, R. D. (1989).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Technology as Symptom and Dream</hi>
+            </hi>
+            <hi xml:lang="en">. London: Routledge.</hi>
+          </bibl>
+          <bibl xml:id="d1e1718">
+            <hi xml:lang="en">Sennett, R. (2008).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Craftsman</hi>
+            </hi>
+            <hi xml:lang="en">. New Haven, CT: Yale University Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1726">
+            <hi xml:lang="en">Seely, B. E. (1997). Research, Engineering and
+            Science in American Colleges: 1900-1960. In S.&#160;H.&#160;Cutcliffe &amp;
+            T.&#160;S.&#160;Reynolds (eds.).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Technology and American History: A Historical
+              Anthology from Technology and Culture</hi>
+            </hi>
+            <hi xml:lang="en">(pp.&#160;345-387). Chicago: The University of
+            Chicago Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1735">
+            <hi xml:lang="en">Seely, B. E. (2005). Patterns in the History of
+            Engineering Education Reform: A Brief Essay.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Educating the Engineer of 2020: Adapting
+              Engineering Education to the New Century</hi>
+            </hi>
+            <hi xml:lang="en">. Committee on Engineering Education, National
+            Academy of Engineering, Washington, National Academic of
+            Sciences.</hi>
+          </bibl>
+          <bibl xml:id="d1e1743">
+            <hi xml:lang="en">Simson, O. G. von (1952). The Gothic Cathedral:
+            Design and Meaning.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Journal of the Society of Architectural
+              Historians</hi>
+            </hi>
+            <hi xml:lang="en">,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">11</hi>
+            </hi>
+            <hi xml:lang="en">(3), 6-16.</hi>
+          </bibl>
+          <bibl xml:id="d1e1756">
+            <hi xml:lang="en">Simson, O. G. von (1956).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Gothic Cathedral: Origins of Gothic
+              Architecture and the Medieval Concept of Order</hi>
+            </hi>
+            <hi xml:lang="en">. New York: Harper &amp; Row.</hi>
+          </bibl>
+          <bibl xml:id="d1e1764">
+            <hi xml:lang="en">Suchman, L. A. &amp; Trigg, R. H. (1996).
+            Artificial Intelligence as Craftwork. In S.&#160;Chaiklin &amp; J.&#160;Lave
+            (eds.).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Understanding Practice</hi>
+            </hi>
+            <hi xml:lang="en">(pp.&#160;144-178). Cambridge, UK: Cambridge
+            University Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1772">
+            <hi xml:lang="en">Vincenti, W. G. (1990).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">What Engineers Know and How They Know It:
+              Analytical Studies from Aeronautical History</hi>
+            </hi>
+            <hi xml:lang="en">. Baltimore: The John Hopkins University
+            Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1780">
+            <hi xml:lang="en">Williams, R. (2002).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Retooling: A Historian Confronts Technological
+              Change</hi>
+            </hi>
+            <hi xml:lang="en">. Cambridge, Mass: MIT Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1788">
+            <hi xml:lang="en">Wilson, C. S. J. (2000).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Architectural Reflections: Studies in the
+              Philosophy and Practice of Architecture</hi>
+            </hi>
+            <hi xml:lang="en">. Manchester, UK: Manchester University
+            Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e1796">
+            <hi xml:lang="en">Wittgenstein, L. (1953).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Philosophical Investigations. Translated by
+              G.E.M. Ascombe</hi>
+            </hi>
+            <hi xml:lang="en">.</hi>
+            <hi xml:lang="fr">New York: Macmillan Publishing, Co., Inc.</hi>
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

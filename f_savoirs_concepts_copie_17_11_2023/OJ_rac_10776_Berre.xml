@@ -1,0 +1,562 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_10776_Berre">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">De mineur à expert environnemental</title>
+                <title type="sub">Apprentissage, transformation d’un métier et invention d’un nouveau regard sur la mine (1950-2010)</title>
+                <title level="a" type="alt" xml:lang="en">From miner to environmental expert. Learning and transformation of the miner's work, and invention of a new way of seeing the mine (1950-2010)</title>
+                <title level="a" type="alt" xml:lang="es">De minero a experto en medio ambiente. Aprendizaje y transformación del trabajo del minero, invención de una nueva perspectiva sobre la mina(1950-2010)</title>
+                <author>
+                    <persName>
+                        <forename>Sylvain Le</forename>
+                        <surname>Berre</surname>
+                    </persName>
+                    <affiliation> Post-doctorant en science politique au département Logique des Usages, des Sciences Sociales et de l'Information (LUSSI) de l’Institut Mines-Télécom&#8206; (IMT) Atlantique. Adresse&#160;: IMT Atlantique, Campus de Brest, <hi rend="bold">Technopôle Brest-Iroise, CS83818, FR-29238 Brest Cedex 03 (France).</hi>Courriel&#160;: syl20lb[at]gmail.com </affiliation>
+                </author>
+                <author>
+                    <persName>
+                        <forename>Sophie</forename>
+                        <surname>Bretesché</surname>
+                    </persName>
+                    <affiliation> Professeure de sociologie à l’Institut Mines-Télécom (IMT) Atlantique. Membre du LEMNA (Laboratoire d’Économie et de Management de Nantes Atlantique), elle est responsable de la chaire régionale RITE «&#160;Risques, Technologies Émergentes et régulation&#160;».Adresse&#160;: IMT Atlantique, Campus de Nantes, 4, rue Alfred Kastler – 44307 Nantes Cedex 03.Courriel&#160;: sophie.bretesche[at]imt-atlantique.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>learning</item>
+                        <item>mining</item>
+                        <item>miner</item>
+                        <item>professionnal vision</item>
+                        <item>regime of attention</item>
+                        <item>technical change</item>
+                        <item>uranium</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>aprendizaje</item>
+                        <item>visión profesional</item>
+                        <item>uranio</item>
+                        <item>minero</item>
+                        <item>régimen de atención</item>
+                        <item>cambio técnico</item>
+                        <item>minería</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>apprentissage</item>
+                        <item>vision professionnelle</item>
+                        <item>uranium</item>
+                        <item>mineur</item>
+                        <item>régime d’attention</item>
+                        <item>changement technique</item>
+                        <item>mine</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">De mineur à expert environnemental</titlePart>
+                    <titlePart type="sub">Apprentissage, transformation d’un métier et invention d’un nouveau regard sur la mine (1950-2010)</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Sylvain Le Berre</docAuthor>
+                    <docAuthor>Sophie Bretesché</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e300">
+                <p xml:id="d1e301">
+                    <hi xml:lang="fr">
+            <hi xml:lang="ar">En France, l’exploitation de l’uranium a duré un demi-siècle (1948-2001). L’objet de cette enquête est de prendre en compte le temps long de la fabrique du regard, des gestes et des pratiques, afin de retracer la trajectoire d’apprentissage et de transformation de la </hi>
+            <hi rend="italic">
+              <hi xml:lang="ar">vision professionnelle</hi>
+            </hi>
+          </hi>
+                    <hi xml:lang="ar"> des mineurs, à travers l’âge des paysans mineurs, des mutations de l’âge des machines et des mines à ciel ouvert, jusqu’à la reconversion des dernières équipes en experts environnementaux à partir des années 1990, quand les mines sont fermées et réaménagées. L’article montre que la vision professionnelle des mineurs d’uranium ne se résume pas à une dimension optique, mais mobilise tous les sens, et s’inscrit dans un régime d’attention situé (à soi, aux autres, aux aléas) dans des configurations contextuelles.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e310">
+                <p xml:id="d1e311">
+                    <hi xml:lang="en">In France, uranium mining was carried out for half a century (1948-2001), a time span marked by considerable transformations in the training and in the professional vision of miners. This article analyses the transformations of vision, gestures and practices of the workers: starting with the peasant miners, it describes the changes produced by the introduction of machines and by the exploitation of open-pit mines until the reconversion in the 1990s of the last teams into environmental experts. While stating that the professional vision of uranium miners is not limited to an optical dimension, but mobilizes all the senses, the analysis focuses on the perceptions and attention of workers and on their various contextual configurations (attention to oneself, to others, to external dangers).</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e314">
+                <p xml:id="d1e315">
+                    <hi xml:lang="es">En Francia, la extracción de uranio se llevó a cabo durante medio siglo (1948-2001). El propósito de este estudio es trazar la trayectoria de aprendizaje y transformación de la visión profesional de los mineros. Para ello, se tiene en cuenta el largo tiempo de realización de la visión, los gestos y las prácticas: desde la época de los mineros campesinos, los cambios en la edad de las máquinas y las minas a cielo abierto, hasta la reconversión de los últimos equipos en expertos en medio ambiente a partir de los años 90, cuando se cerraron y reconvirtieron las minas. El artículo muestra que la visión profesional de los mineros de uranio no es sólo una dimensión óptica, sino que moviliza todos los sentidos, y forma parte de un régimen de atención situado (a sí mismo, a los demás, a los peligros) en configuraciones contextuales.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e322">
+                <head subtype="level1" xml:id="d1e323">Introduction</head>
+                <p xml:id="d1e325">En France, l’exploitation de 250 mines d’uranium sur le territoire national s’étend de 1948 à 2001. La singularité de cette industrie réside d’abord dans son caractère stratégique&#160;: les premières années, les fouilles et sondages miniers sont réalisés dans le plus grand secret par le Commissariat à l’Énergie Atomique (Ponnet &amp; Chardon, 2014&#160;; Blanc, 2008&#160;; Paucard, 1992). L’ouverture des premières mines d’uranium est nimbée du halo glorieux de la victoire des Alliés, du progrès scientifique et de la grandeur de l’État (Lenoir, 2016, p.&#160;99&#160;; Brunet, 2004). La deuxième singularité de cette industrie est que la radioactivité de l’uranium est un danger invisible et pour les mineurs, ce n’est pas «&#160;le nucléaire&#160;» qui fait peur, c’est «&#160;la mine&#160;» (Le&#160;Berre &amp; Bretesché, 2019&#160;; Bernhard <hi rend="italic">et&#160;al.</hi>, 1992, p.&#160;491).</p>
+                <p xml:id="d1e330">Cinq régimes professionnels traversent l’histoire des mineurs d’uranium français. Des années 1950 aux années 1970, l<hi rend="italic">’âge des paysans mineurs</hi> renvoie aux dures conditions de travail et à l’équipement rudimentaire de mineurs cumulant les métiers agricoles et ouvriers. Des années 1970 aux années 1980 succède l<hi rend="italic">’âge des machines </hi>et la course aux volumes&#160;: machines plus lourdes, galeries plus vastes, puits remplacés par des descenderies, puis arrivent les mines à ciel ouvert. Les mineurs ne travaillent alors plus seulement <hi rend="italic">au fond</hi> mais aussi désormais <hi rend="italic">au jour</hi>, ce qui transforme leur regard et savoir-faire. Suit <hi rend="italic">l’âge de l’électronisation</hi> avec l’évolution des méthodes de prévision et de travail, réduisant la place du <hi rend="italic">coup de main</hi> au profit de la technologie. Faute de rentabilité les mines vendéennes commencent à fermer à la fin des années 1980. Départs, retraites anticipées ou reconversion&#160;: c’est<hi rend="italic"> l’âge de l’uranium social</hi>. Enfin, à partir des années 1990 apparaît un nouveau rapport à la mine&#160;: la surveillance de son impact environnemental par une poignée d’anciens mineurs. La problématique stratégique et industrielle de l’uranium s’efface au profit de la problématique environnementale du réaménagement des sites (Brunet, 2004)&#160;: c’est tout à la fois la vision d’une industrie, d’un corps de métier et d’un territoire qui se transforment.</p>
+                <div type="div2" xml:id="d1e354">
+                    <head subtype="level2" xml:id="d1e355">
+                        <hi xml:lang="fr">Cadrage théorique et problématisation</hi>
+                    </head>
+                    <p xml:id="d1e358">Faire la socio-genèse des métiers et des valeurs de la mine n’est pas nouveau (Michel, 1993), néanmoins le contexte des <hi rend="italic">mines d’uranium</hi> reste un terrain peu exploré par les sciences sociales. De même, si les travaux d’histoire et d’anthropologie se sont déjà penchés sur les nombreux témoignages biographiques d’anciens mineurs (Malva, 1978&#160;; Malva &amp; Blampain, 1983&#160;; Lengrand &amp; Craipeau, 1974&#160;; Viseux, 1991&#160;; Fechner, 2001&#160;; Cooper-Richet, 2015), et sur la dimension socio-culturelle de la mine (Absi, 2004&#160;; Baudin <hi rend="italic">et&#160;al.</hi> 2016&#160;; Baudin, 2018) il n’en existe guère sur l’histoire des mineurs d’uranium (Bretesché &amp; Ponnet, 2012) et, de surcroît, peu ont décrit la transformation du <hi rend="italic">regard</hi> des mineurs<note type="standard" xml:id="ftn1" place="foot" n="1">
+              <p> Trois grandes approches regroupent les travaux sur les mines&#160;: une approche culturelle (valeurs et la culture du monde minier), une approche organisationnelle (organisation et contrôle du travail minier), et une approche politique (mobilisations et grèves minières).</p>
+            </note>.</p>
+                    <p xml:id="d1e374">Si la mine concentre un territoire, quadrille l’espace de ses galeries et de ses carrières, elle n’est pas que territorialité<note type="standard" xml:id="ftn2" place="foot" n="2">
+              <p> Dans cet article, le <hi rend="italic">territoire</hi> désigne le lieu de la mine (son sol et sous-sol) mais aussi l’étendue des communes proches où résident les mineurs, et dont la vitalité est liée à l’économie et à la démographie de la mine. La <hi rend="italic">territorialité</hi> renvoie à la dynamique d’appartenance, d’appropriation, de définition sociale qui donne corps au territoire. La <hi rend="italic">spatialité</hi> renvoie au champ perceptif de l’espace comme expérience du corps du sujet.</p>
+            </note>, c’est aussi un <hi rend="italic">«&#160;espace radicalement sémiotisé&#160;»</hi> (Parret, 2009). La matière dont est constituée une mine n’échappe jamais à un système de signes et de représentations&#160;: géologique, cartographique, économique, technique, mais aussi symbolique et culturel. Le regard que pose le mineur sur cet espace et la matière est donc tout entier orienté par la lecture de ces signes.</p>
+                    <p xml:id="d1e393">Mais le champ perceptif ainsi construit n’est pas que visuel, il convoque tous les sens. C’est pourquoi nous considérons l’espace de la mine comme un champ phénoménal (Merleau-Ponty, 2010, pp.&#160;676 et 679). L’entrée dans le monde minier demande pour tout nouveau mineur autant l’apprentissage d’un savoir-faire que l’appréhension d’un espace optique, haptique, mais aussi thermique et sonore<note type="standard" xml:id="ftn3" place="foot" n="3">
+              <p> Sur les concepts d’espace optique et d’espace haptique, voir Deleuze (2002). Bien que nous ferons plusieurs fois référence à la sonorité de la mine ou encore à la sensibilité thermique, nous nous concentrerons ici sur les dimensions optiques et haptiques de la perception.</p>
+            </note>&#160;: tout le corps du mineur est engagé dans les plis de la mine<note type="standard" xml:id="ftn4" place="foot" n="4">
+              <p> «&#160;Être corps, c’est être noué à certain monde […] et notre corps n’est pas d’abord dans l’espace&#160;: il est à l’espace&#160;» (Merleau-Ponty, 2010, p.&#160;832).</p>
+            </note>. L’appréhension des replis de la matière requiert en effet pour le mineur une aptitude, mobilisant le corps, à combiner tout en même temps le visuel et le tactile, la forme, la structure et la texture – ce que Valéry appelle <hi rend="italic">«&#160;la main de l’œil&#160;»</hi> (Valéry, 1988), c’est-à-dire un mode perceptif où l’optique (le regard et le savoir visuel) et l’haptique (le touché et le «&#160;coup de main&#160;») sont imbriqués. «<hi rend="italic">&#160;La </hi>spatialisation haptique<hi rend="italic"> n’est rien d’autre que la mise-en-espace du corps par le geste de cette main-là&#160;»</hi> (Parret, 2009).</p>
+                    <p xml:id="d1e413">Le travail dans la mine nécessite l’apprentissage d’un champ chargé de signes et saturé de sensations. La mine est donc aussi <hi rend="italic">affective</hi>&#160;:<hi rend="italic"> </hi>en tant qu’elle engage, affecte le corps du mineur, elle implique nécessairement un rapport subjectif au lieu et au travail, mais aussi un rapport collectif. La vision du mineur est donc aussi une incorporation au sens où celle-ci inscrit le sujet dans un collectif –&#160;en l’occurrence, être «&#160;mineurs de fond&#160;». La mine est donc aussi un lieu d’identité, impliquant une vision de soi et du métier.</p>
+                    <p xml:id="d1e421">La <hi rend="italic">vision professionnelle</hi> (Goodwin, 1994) est ici le résultat de ces dimensions sensorielles, techniques et identitaires de la mine. Nous partons de l’hypothèse d’une relation intrinsèque entre l’évolution du lieu (de la mine au site environnemental) et l’évolution de la vision professionnelle (de mineur à expert). Et nous souhaitons comprendre comment cette vision professionnelle s’est construite, transformée et transmise dans le temps long, à l’interconnexion de changements technologiques, économiques, organisationnels et identitaires, depuis le régime de l’ouvrier-paysan à celui de l’expert environnemental. Il s’agit de retracer les modalités d’apprentissage et de transformation de la vision professionnelle des mineurs d’uranium, depuis les premiers pas sous terre des paysans mineurs jusqu’à la mutation du savoir-minier en savoir-expert, mettant en lumière le temps long de la fabrique du regard, des gestes et des pratiques (Sicard, 1998).</p>
+                </div>
+                <div type="div2" xml:id="d1e426">
+                    <head subtype="level2" xml:id="d1e427">Méthodologie et terrains</head>
+                    <p xml:id="d1e429">Comme le soulignent Yohana Ruffiner et Dominique Vinck (2019), la mine constitue un terrain sensible, qui requiert une prise en compte du geste, de la technique et du savoir-faire local. Deux obstacles se sont posés à l’analyse de cette perception sensible de la technique (Hutchins, 1995). Tout d’abord, la dernière mine d’uranium sur le territoire métropolitain a fermé il y a près de vingt ans&#160;; il n’est donc pas possible de faire une observation située du travail des mineurs. Deuxièmement, l’uranium est une ressource stratégique, et les archives sur les mines d’uranium sont peu accessibles. Si nous avons tout de même pu consulter des archives minières, c’est principalement par l’étude des récits d’anciens mineurs que nous avons reconstruit la fabrication de leur vision professionnelle&#160;; les données recueillies sont le fruit d’un travail de mémoire opéré par les interviewés, ce qui constitue également un biais cognitif.</p>
+                    <p xml:id="d1e431">Notre «&#160;politique de terrain&#160;» (Olivier&#160;de&#160;Sardan, 1995) s’est appuyée sur le croisement de trois types de données&#160;: archives minières, photographies relatives au monde et au travail de la mine, et récits de mineurs. Premièrement, un corpus d’archives a été collecté&#160;: 31 consignes d’exploitation et de sécurité des mines d’uranium produites par l’exploitant entre 1958 et 1991. Deuxièmement, un ensemble de photographies relatives au travail dans ces mines, à plusieurs périodes de leur histoire, a également été collecté. Troisièmement, une première série d’entretiens a été réalisée entre 2006 et 2010 dans le cadre d’un travail de collecte coordonné par une association intercommunale. Nous avons utilisé cette première série d’entretiens à la manière d’un groupe témoin, d’une part pour comprendre l’évolution de l’activité depuis les années 1950 et d’autre part pour construire les hypothèses pour l’analyse de la construction et de la transformation de leur vision professionnelle. Basée sur le cadrage réalisé à partir des témoignages du groupe témoin, une deuxième série d’entretiens a été réalisée dans le cadre d’un projet régional consacré à la mémoire de l’uranium entre 2011 et 2012, complétée entre 2015 et 2018 dans le cadre d’un projet pluridisciplinaire d’étude de l’impact des pollutions diffuses dans le bassin versant sud-Loire. Lors de cette deuxième série d’entretiens, ceux-ci ont été conduits en s’appuyant sur les photographies et les archives, présentées aux mineurs, pour qu’ils témoignent de leur expérience avec la confrontation de ces archives, afin de saisir au mieux l’ancrage de ces récits dans leur pratique professionnelle et leur contexte historique. Au total, 51&#160;entretiens semi-directifs ont été réalisés, avec un panel constitué d’habitants des communes minières (42&#160;% des interviewés), de mineurs (29&#160;%), d’agents des pouvoirs publics chargés de la gestion de l’après-mine (14&#160;%), de personnels de l’usine de traitement de l’uranium de la Société Industrielle des Minerais de l’Ouest (SIMO) (7&#160;%), et de membres d’associations écologistes locales (7&#160;%).</p>
+                    <p xml:id="d1e433">Afin de dépasser l’obstacle de la diversité des expériences industrielles et pour ne pas en rester à une compilation de points de vue subjectifs, nous avons sélectionné les récits portant sur des sites similaires du point de vue des techniques et de la chronologie de l’exploitation. Les mines d’uranium françaises sont en effet réparties sur 27&#160;départements, avec des conséquences inégales selon l’étendue des activités&#160;: exploration minière, extraction de minerais, traitement de minerais (8&#160;sites avec usines), stockage de résidus de traitement (16&#160;sites). Cette étude porte donc sur les anciennes mines d’uranium de la Division de Vendée, regroupant 44&#160;mines ayant produit 14000 tonnes d’uranium entre 1952 et 1991, ce qui place la Vendée au deuxième rang des sites d’extraction d’uranium en France sur cette période (Chapot <hi rend="italic">et&#160;al.</hi>, 1996). L’histoire de l’uranium vendéen commence en 1951, quand une mission de recherche est formée pour prospecter la zone granitique entre Clisson et Parthenay. De nombreuses mines ont été ouvertes sous l’administration de la Division de Vendée, en Vendée bien-sûr, mais aussi dans les Deux-Sèvres, en Loire-Atlantique et en Maine-et-Loire. Notre terrain d’étude se focalise sur quatre sites&#160;: la Commanderie, la Chapelle Largeau, le Chardon et l’Ecarpière. Avec environ 12&#160;000 tonnes d’uranium produites, La Commanderie, Le Chardon et L’Ecarpière sont les principaux gisements de la Division.</p>
+                    <p rend="figure-title" xml:id="d1e438">Tableau 1&#160;: Terrains de l’étude</p>
+                    <table xml:id="d1e440">
+                        <row>
+                            <cell>
+                                <hi rend="bold">Sites</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">Commune et département</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">Période de fonctionnement</hi>
+                            </cell>
+                            <cell>
+                                <hi rend="bold">Type</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>La Commanderie</cell>
+                            <cell>Treize Vents (85) et Le Temple-Mauléon (79)</cell>
+                            <cell>1955-1991</cell>
+                            <cell>MS + MCO</cell>
+                        </row>
+                        <row>
+                            <cell>L’Ecarpière</cell>
+                            <cell>Gétigné (44)</cell>
+                            <cell>1952-1991</cell>
+                            <cell>MS + MCO</cell>
+                        </row>
+                        <row>
+                            <cell>La Chapelle Largeau</cell>
+                            <cell>La Chapelle Largeau (79)</cell>
+                            <cell>1958-1970</cell>
+                            <cell>MS</cell>
+                        </row>
+                        <row>
+                            <cell>Le Chardon</cell>
+                            <cell>Gorges (44)</cell>
+                            <cell>1957-1991</cell>
+                            <cell>MS + MCO</cell>
+                        </row>
+                    </table>
+                    <p rend="figure-legend" xml:id="d1e490">MS&#160;: Mine Souterraine&#160;; MCO&#160;: Mine à Ciel Ouvert</p>
+                    <p rend="figure-license" xml:id="d1e492">Élaboré par Sylvain Le Berre et Sophie Bretesché</p>
+                    <p xml:id="d1e494">Nous souhaitons contribuer à retracer l’histoire des mineurs d’uranium en partant de leur <hi rend="italic">point de vue</hi> (Merleau-Ponty, 2010, p.&#160;1114), c’est-à-dire du rapport entre le regard, les gestes et la matière, dans la définition de soi et dans l’évolution du métier<note type="standard" xml:id="ftn5" place="foot" n="5">
+              <p> Cette approche s’apparente également à la sociologie du point de vue développée par Dorothy Smith (2018).</p>
+            </note>. Les métiers de la mine étant nombreux et diversifiés, nous nous focalisons ici sur quelques postes&#160;: abatteur, prospecteur, échantillonneur, géologue, chauffeur, et porion (contremaître). L’analyse des verbatims vise donc à reconstruire le point de vue<hi rend="italic"> </hi>de ces agents à partir d’une approche inspirée de l’analyse de récit phénoménologique<note type="standard" xml:id="ftn6" place="foot" n="6">
+              <p> «&#160;La phénoménologie, en tant que support de recherche, suppose une démarche inductive qui part de l’étude d’expériences vécues et décrites par des personnes. Il s’agit de comprendre le sens d’une expérience, d’en saisir son essence pour celui qui l’a vécue tout en respectant la posture de celui qui a expérimenté un phénomène […] La recherche phénoménologique vise alors à appréhender le vécu de l’expérience humaine en recueillant une diversité de points de vue. Le récit phénoménologique a pour caractéristique d’explorer un phénomène vécu par un individu. La méthode de recherche consiste à recueillir des expériences, à les faire expliciter pour les conceptualiser ou au moins à les catégoriser.&#160;» (Ntebutse &amp; Croyere, 2016, p.&#160;29).</p>
+            </note>. Nous n’avons en effet pas opté pour une analyse statistique des énoncés, mais pour une analyse qualitative basée sur une lecture thématique afin de faire ressortir les éléments relatifs à l’expérience phénoménologique de la mine&#160;: perception de l’environnement minier (espace, son, odeur, vision…), perception de la radioactivité, perception du travail et de l’organisation, vision de soi et identité collective. L’objectif étant de reconstruire leurs pratiques (<hi rend="italic">practices of seeing</hi>) et leurs manières de voir (<hi rend="italic">ways of seeing</hi>) (Goodwin, 1994, 1995, 2001) dans l’environnement minier. Cette méthode permet de saisir l’apprentissage et la transformation de compétences visuelles et certaines interactions perceptives entre les mineurs.</p>
+                    <p xml:id="d1e519">La première partie de l’article porte sur le cadre originel de la vision professionnelle de ces mineurs, c’est-à-dire sur la fabrication de leur champ perceptif à partir de la situation du travail en galerie, qui constitue une expérience sensorielle formant la singularité de cette vision. Dans la seconde partie nous verrons comment ce champ perceptif et cette vision professionnelle ont évolué conjointement à l’évolution de l’organisation, du travail et du lieu.</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e521">
+                <head subtype="level1" xml:id="d1e522">La fabrication de la vision professionnelle&#160;: l’expérience sensorielle de la mine</head>
+                <p xml:id="d1e524">Le métier de mineur est une <hi rend="italic">expérience située</hi> (Suchman, 1987) et <hi rend="italic">distribuée</hi> (Hutchins, 1994, 1995), notamment entre le travail «&#160;au fond&#160;» et «&#160;au jour&#160;», engageant un rapport singulier au corps (Absi, 2004&#160;; Pillon, 2012). Les mineurs doivent apprendre à voir et prévoir les <hi rend="italic">«&#160;scènes habituelles&#160;»</hi> de leur travail, à structurer une compétence visuelle et perceptive nécessaire à leur activité (Grosjean, 2014, p.&#160;&#160;153&#160;; Goodwin &amp; Goodwin, 2002).</p>
+                <div type="div2" xml:id="d1e535">
+                    <head subtype="level2" xml:id="d1e536">Faire l’expérience de la mine, entre vision professionnelle et communauté de pratiques</head>
+                    <p xml:id="d1e538">Le monde de la mine se distingue entre <hi rend="italic">le jour</hi> à la surface, et <hi rend="italic">le fond</hi>, sous terre. <hi rend="italic">«&#160;Les yeux dans la nuit&#160;»</hi>, <hi rend="italic">«&#160;les yeux en bas&#160;»</hi>&#160;: la métaphore visuelle est fréquente pour distinguer ce qui, entre le jour et le fond de la mine, apparaît comme étant davantage qu’une image –&#160;la perception extérieure et celle du corps propre étant en effet inséparables (Merleau-Ponty, 2010, p.&#160;893).</p>
+                    <div type="div3" xml:id="d1e552">
+                        <head subtype="level3" xml:id="d1e553">Descendre à la mine&#160;: expérience sensorielle et rite de passage</head>
+                        <p xml:id="d1e555">La première expérience que l’on a du travail dans la mine est la descente sous terre. Avant l’arrivée des descenderies dans les années 1970 (galeries remontant jusqu’à la surface pour la descente du matériel), la descente au fond est littéralement un plongeon dans les entrailles de la terre, une chute dans le noir qui marque le corps et perturbe les sens –&#160;la cage de l’ascenseur s’enfonce sous terre à une vitesse de huit mètres par secondes en moyenne&#160;: les oreilles sifflent, l’estomac remonte, puis c’est le froid saisissant du souterrain, l’humidité envahissante et l’obscurité. Dans le vocabulaire minier, on dit d’ailleurs «&#160;dévaler&#160;»<hi rend="italic"> </hi>pour désigner cette brusque descente sous terre. Tous les récits de mineurs racontent le choc physique de la descente&#160;:</p>
+                        <q rend="quotation">On y voyait rien du tout&#160;! C’était un trou noir. Tout était noir. (Chauffeur de locotracteur)</q>
+                        <q rend="quotation">
+              <hi xml:lang="fr">Quand vous descendez le premier jour par la cage, c’est sûr que l’ébranlement de la cage dans le puits c’est impressionnant. </hi>(Abatteur)</q>
+                        <p xml:id="d1e566">Marquée par l’étroitesse de la cage de l’ascenseur du puits, le sentiment d’enfermement et le vertige de la chute, l’expérience de la descente est autant visuelle que physique. Même après les années 1970, lorsqu’on entre désormais dans la mine en locotracteur, par la descenderie, cette première expérience d’un monde clos, humide, froid et obscur reste marquante pour ces jeunes hommes entrant pour la première fois dans la mine.</p>
+                        <q rend="quotation">J’en ai vu qui étaient descendus le matin à 5<hi xml:lang="fr">&#160;</hi>heures et demi et puis à 10h qui étaient remontés. Ils étaient claustrophobes, ils ne sont jamais revenus. (Chauffeur de locotracteur)</q>
+                        <p xml:id="d1e573">Cette première fois se fait souvent avec un parent ou un proche travaillant à la mine. C’est donc un rite de passage et une expérience de la transmission, permettant d’entrer dans la famille des mineurs. Le travail au fond est une expérience sensorielle totale, que la descente se fasse en puits ou en descenderie, car la vision et l’audition se confondent aux <hi rend="italic">«&#160;sensations spatiales&#160;»</hi> (Merleau-Ponty, 2010, p.&#160;779) de la vie souterraine.</p>
+                    </div>
+                    <div type="div3" xml:id="d1e578">
+                        <head subtype="level3" xml:id="d1e579">«&#160;Les yeux en bas&#160;»&#160;: définition et transmission de l’identité minière</head>
+                        <p xml:id="d1e581">
+              <hi rend="italic">La nuit dans les yeux</hi> est le titre d’un récit de mineur de fond racontant le travail dans l’obscurité des galeries (Malva &amp; Blampain, 1983). Cette métaphore renvoie à la verticalité et à la luminosité de la mine&#160;: il y a ceux qui travaillent sur le carreau, <hi rend="italic">à la lumière du jour</hi>, et ceux qui travaillent dans les galeries, <hi rend="italic">dans l’obscurité du fond</hi>
+              <note type="standard" xml:id="ftn7" place="foot" n="7">
+                <p> Cette division du jour et du fond se couple d’une division statutaire du travail&#160;: les ouvriers sont en majorité dans les galeries, au fond, les ingénieurs dans les bureaux en surface, «&#160;sur la moquette&#160;» comme le disent les mineurs de fond –&#160;les ouvriers du fond bénéficiant cependant de primes, ils avaient des salaires supérieurs aux ouvriers du jour. Il s’agit également d’une division genrée du travail&#160;: les seules femmes sont en surface, à l’administration ou à l’usine. A part le cas singulier d’une femme géologue à la mine Henriette (Limousin), les mineurs de fond sont exclusivement des hommes (Brunet, 2004, p.&#160;100).</p>
+              </note>. Seuls les géologues ont la particularité de travailler à la fois au jour, pour la prospection minière en amont, et au fond, en tant qu’échantillonneurs, pour guider les mineurs dans l’orientation des galeries. D’ailleurs, pour définir sa fonction dans la mine, un ancien géologue nous explique qu’il était <hi rend="italic">«&#160;les yeux en bas&#160;»</hi>. Ce rapport au regard amène deux commentaires. D’abord il apparaît que la vision de l’espace minier renvoie à une <hi rend="italic">spatialité de position –&#160;«&#160;l’ancrage du corps actif dans un objet&#160;»&#160;– </hi>et une <hi rend="italic">spatialité de situation</hi> –&#160;<hi rend="italic">«&#160;la situation du corps en face de ses tâches&#160;»</hi> (Merleau-Ponty, 2010, p.&#160;779). Deuxièmement, cela traduit que la vision de l’espace implique une vision de soi, reflétant la spatialité et la sensorialité des statuts et des identités, c’est-à-dire combien cette vision résulte d’une expérience <hi rend="italic">située</hi> (Suchmann, 1987) et <hi rend="italic">distribuée</hi> (Hutchins, 1994, 1995) selon les statuts professionnels.</p>
+                        <p xml:id="d1e613">A l’âge des paysans mineurs, le <hi rend="italic">savoir-voir</hi> (Cornu, 1996) s’apprend sur le tas, par compagnonnage, c’est-à-dire via une transmission-imitation entre un mineur expérimenté et l’apprenti&#160;:</p>
+                        <q rend="quotation">La formation se fait par compagnonnage, en binôme, sur le terrain. La sécurité tu l’apprends avant, c’est obligatoire. Mais après tu apprends à connaître la mine en tant que telle. C’est grand quand même. Et en étant avec un ancien, tu apprends le métier, visuellement si tu veux, au contact des mineurs<hi xml:lang="fr">.</hi> (Géologue-échantillonneur)</q>
+                        <p xml:id="d1e623">Le «&#160;contact&#160;» entre l’ancien et l’apprenti est la clef du compagnonnage&#160;: c’est par mimétisme que s’effectue la transmission d’une vision professionnelle et d’un regard sur soi partagés par les mineurs. Ce type de socialisation tisse aussi un lien affectif, quasi familial (<hi rend="italic">«&#160;mon père professionnel&#160;»</hi>, <hi rend="italic">«&#160;comme des frères&#160;»</hi> sont des expressions récurrentes lorsque les mineurs qualifient cette relation de compagnonnage), qui joue à la fois sur la construction professionnelle du mineur et sur sa construction identitaire. Il se noue ainsi à travers ce mode de transmission une communauté de pratiques et de valeurs (Goodwin, 1994) structurant le travail au fond comme la vie collective à la surface. Le mode du compagnonnage traverse le temps et se maintient même lorsque arrive au tournant des années 1970 la nouvelle génération de mineurs formée en amont, car l’école des mines ne remplace pas l’expérience du sous-terrain.</p>
+                    </div>
+                </div>
+                <div type="div2" xml:id="d1e631">
+                    <head subtype="level2" xml:id="d1e632">Travailler dans une mine d’uranium, entre régime du visible et de l’invisible</head>
+                    <p xml:id="d1e634">
+            <hi rend="italic">La vision</hi> dans une mine d’uranium est une question d’expérience et de coup d’œil. C’est aussi la maîtrise de compétences et d’équipements visuels. C’est enfin apprendre à percevoir l’invisible radioactivité.</p>
+                    <div type="div3" xml:id="d1e638">
+                        <head subtype="level3" xml:id="d1e639">Voir, être vu, visualiser</head>
+                        <p xml:id="d1e641">Avoir en tête la carte mentale de la mine, se déplacer avec aisance dans les galeries, repérer la trace du minerai, creuser le filon, veiller aux risques d’éboulements sont autant de <hi rend="italic">pratiques d’espace</hi> (De&#160;Certeau, 1990) façonnant et façonnées par la perception et l’attention du mineur. Dans un espace de travail où l’air peut manquer et les risques de glissade renforcés par l’humidité, il est important de bien savoir où sont les cul-de-sacs, dans lesquels l’air se raréfie, et les cheminées où l’on risque de chuter. Le manque d’attention peut être fatal, comme en novembre 1957, à Clisson, lorsqu’un mineur travaillant au fond d’une galerie disparaît subitement dans le trou d’une cheminée&#160;:</p>
+                        <q rend="quotation">Il était à un mètre du puits. Il travaillait, et il est parti, pouf&#160;! Ça a parti à… 50 mètres hein, dans l’puits. Il s’est loupé, pof, il a glissé, il est parti. (Abatteur)</q>
+                        <p xml:id="d1e648">En mine souterraine (MS) comme en mine à ciel ouvert (MCO), le danger peut venir du sol (les trous et aspérités), du manque d’air et des poussières (les gaz toxiques), mais aussi des parois ou du toit de la galerie (chutes de roches). En MCO, plus l’extraction est profonde, plus les gradins sont fragiles (risque de glissement de terrain). En MS ou MCO, il faut avoir constamment le coup d’œil pour déceler la roche friable et garder une attention sur l’ensemble du chantier. Ce coup d’œil n’engage pas qu’une aptitude visuelle, mais bien aussi une aptitude haptique, une appréhension tant de l’espace (forme, orientation, longueur, localisation) que de la matière (texture, composition)&#160;:</p>
+                        <q rend="quotation">Y a des risques. Il fallait faire attention. D’abord au tir, on a une barre à purge&#160;: on purgeait le terrain pour voir s’il n’y avait pas de cailloux qui pouvaient tomber. Il fallait en faire tomber le maximum. Quand on ne pouvait plus faire tomber quoique ce soit, si on voyait que le terrain était friable, on mettait du grillage avec des boulons pour éviter que ça tombe. (Chauffeur de locotracteur)</q>
+                        <p xml:id="d1e652">Enfin, tous les témoignages soulignent l’importance de la couleur des équipements dans l’environnement obscur et poussiéreux de la mine. La couleur des combinaisons et des casques distingue le statut des agents&#160;: ingénieurs et agents extérieurs en blanc, ouvriers en kaki, puis en bleu foncé, puis orange.</p>
+                        <q rend="quotation">La première fois j’ai eu un casque rouge, en plastique. Que j’ai gardé&#160;! Et une lampe ELO, avec une p’tite batterie en aluminium, un ceinturon, une combinaison kaki, comme à l’armée, parce que c’était le CEA&#160;! Y avait la ch’mise kaki… les bottes noires… et puis ils nous donnaient un ciré, un ciré jaune. On étouffait là-dedans&#160;! (Porion)</q>
+                        <p xml:id="d1e656">Le changement de couleurs des combinaisons permet de suivre la chronologie de l’organisation minière, entre modernisation du matériel et changement de nature de l’exploitant. Avant 1976, sous le Commissariat à l’Énergie Atomique (CEA) les combinaisons rappellent le matériel militaire, puis avec le passage à la Compagnie Générale des Matières Nucléaires (COGEMA) marquant le développement du nucléaire civil, les combinaisons deviennent bleu foncé puis orange.</p>
+                        <q rend="quotation">Suite à la C<hi xml:lang="fr">OGEMA</hi> on a eu des tenues bleues. On a changé les casques. Ça s’est modernisé. Les lampes étaient beaucoup plus performantes. On a eu des bottes qui s’voyaient, c’était des bottes jaunes. Oh, ça f’sait un peu canard mais enfin… Et ensuite on a eu des combinaisons réfléchissantes. C’était des combinaisons oranges. (Porion)</q>
+                        <p xml:id="d1e663">Lorsqu’on les interroge sur leurs équipements, les anciens mineurs parlent aussitôt de leur couleur et de leur visibilité, car dans un monde caractérisé par l’obscurité et le manque de visibilité, l’importance de voir et d’être vu est une question de sécurité.</p>
+                    </div>
+                    <div type="div3" xml:id="d1e665">
+                        <head subtype="level3" xml:id="d1e666">L’instrumentation du regard sur le front de taille</head>
+                        <p xml:id="d1e668">En MS comme en MCO, l’extraction du minerai se fait sur le front de taille (plan vertical où l’on découpe la roche à l’aide d’explosifs) par une équipe de deux ou trois mineurs composée en général d’un abatteur et d’un chef de chantier. Une fois l’orientation du filon identifiée, l’avancée est divisée en phases qui se répètent de manière cyclique&#160;: perforation, tir, dégagement et soutènement. Être «&#160;mineur de&#160;U&#160;»<note type="standard" xml:id="ftn8" place="foot" n="8">
+                <p> U est le symbole chimique de l’uranium dans le Tableau périodique des éléments chimiques. «&#160;Mineurs de&#160;U&#160;»&#160;: c’est ainsi par la dimension chimique de la matière qu’ils travaillent, que les mineurs d’uranium se qualifient.</p>
+              </note>, c’est maîtriser un ensemble de <hi rend="italic">practices of seeing</hi> nécessaires à ces cycles, instrumenter son regard pour lire les indices du terrain.</p>
+                        <q rend="quotation">Il y a plusieurs phases. D’abord tu fais de la découverte. Tu sais que y a de l’uranium à un endroit. Donc tu fais une galerie, tu vas voir, tu fais un tracé. Et tu avances au coup par coup. Avant il y a eu les sondages&#160;: tu sais que du minerai il y en a là et là, mais entre les deux tu dois vérifier. Donc on fait de la reconnaissance, l’échantillonneur dit au mineur «&#160;tu tires dans ce sens<hi xml:lang="fr">-</hi>là&#160;» car le filon va plutôt par là. Tu orientes le mineur au coup par coup. Si devant tu sais qu’il y a du minerai, tu continues. (Géologue-échantillonneur)</q>
+                        <p xml:id="d1e683">Sonder, repérer, vérifier, orienter, révéler, visualiser&#160;: cette grammaire montre combien vision et action sont intimement imbriquées. L’ensemble du corps est mobilisé pour explorer les plis de la mine, pour identifier, séquencer et ordonner les étapes du travail.</p>
+                        <p xml:id="d1e685">Les mineurs ont une prime au rendement, c’est-à-dire au nombre de mètres avancés dans le chantier. Il faut donc aller vite, mais pas n’importe comment, car les journées sont longues, le travail physique et les conditions éprouvantes&#160;: le bruit, la chaleur, l’humidité, la poussière sont le lot quotidien du mineur. Il faut donc apprendre à gérer son corps, ses gestes et savoir comment se mouvoir dans les galeries.</p>
+                        <q rend="quotation">Pour que quelqu’un soit capable d’avoir du rendement, premièrement il faut faire attention à soi-même, à son «&#160;intégrité corporelle&#160;», deuxièmement, garder la machine en bon état, il faut que ça fonctionne dans la tête et il faut repérer à temps des avaries éventuelles, il faut repérer quelque chose qui est prêt à s’écrouler pour qu’on fasse du soutènement. Il faut avoir de la perception, une patience terrible et de la ténacité, et il faut avoir conscience des autres, de ceux qui travaillent tout autour et, le plus important, il faut avoir de l’expérience (Kassapi, 2001, p.&#160;425).</q>
+                    </div>
+                    <div type="div3" xml:id="d1e689">
+                        <head subtype="level3" xml:id="d1e690">Révéler l’invisible radioactivité</head>
+                        <p xml:id="d1e692">Ces mineurs ont la spécificité de travailler l’uranium. Contrairement à d’autres minerais comme le charbon qui se dessine en larges filons, l’uranium est difficile à repérer à l’œil nu. Pour <hi rend="italic">voir</hi> l’uranium, l’attention du mineur se porte sur l’invisible&#160;: la radioactivité qui s’en dégage. Ici, l’échantillonneur, aussi appelé porte-compteur en raison du compteur Geiger qu’il porte, tient un rôle clef&#160;:</p>
+                        <q rend="quotation">Les échantillonneurs passent sur les fronts de taille, dans les galeries, les zones d’abattage pour marquer, délimiter les zones radioactives à abattre, à tous les postes de travail, plusieurs fois par jour si nécessaire. (Contrôleur géologue)</q>
+                        <p xml:id="d1e699">L’échantillonneur oriente la foration et l’abattage en détectant les concentrations de radioactivité qui révèlent la trace de l’uranium. Il guide les autres mineurs en leur donnant des <hi rend="italic">«&#160;prises visuelles&#160;» </hi>(Grosjean, 2014, p.&#160;161).</p>
+                        <q rend="quotation">Ils nous disaient «&#160;bon, le minerai il est là, vous allez dans cette direction&#160;». Ils nous disaient où creuser. (Porion)</q>
+                        <p xml:id="d1e706">La radioactivité de l’uranium est invisible et inodore. L’abatteur est donc aveugle sans le géologue qui cartographie la ligne du filon et le porte-compteur qui en repère les concentrations et les variations sur le front de taille. En MS comme en MCO, une autre tactique pour repérer l’uranium est d’arroser les parois et d’observer la couleur de l’eau qui ruisselle car l’uranium peut être accompagné de fluorine.</p>
+                        <q rend="quotation">L’eau a la propriété magique de faire ressortir les couleurs. On voulait absolument arroser car l’eau a cette double propriété extraordinaire de faire ressortir les couleurs et de fixer les poussières. (Contrôleur géologue)</q>
+                        <p xml:id="d1e710">Comme on peut le voir dans l’interaction entre le géologue, le porte-compteur et l’abatteur, les <hi rend="italic">practices of seeing</hi> des mineurs sont distribuées selon les diverses aptitudes perceptives, entités matérielles, et prises sur le terrain&#160;; ce que Goodwin qualifie de <hi rend="italic">«&#160;configuration contextuelle&#160;»</hi> (Goodwin, 2002)&#160;: s’ils disposent des repères cartographiques des géologues les mineurs ont besoin des compteurs Geiger pour suivre les plis de l’uranium dans le sous-sol et de l’échantillonneur pour guider et calibrer le travail de foration. Les compteurs «&#160;qualifient&#160;» la roche, aiguillent le regard, orientent le geste vers là où se situe précisément la matière à extraire.</p>
+                        <q rend="quotation">Voir et savoir voir ici s’entremêlent. Voir, c’est repérer des signes dans les choses et les situations, signes qui renseignent sur l’invisible, le non-présent. […] Regarder, observer, remarquer, prévoir, autant d’étapes dans le processus de voir. Le regard ne suffit pas, les autres sens s’en mêlent (Cornu, 1996).</q>
+                        <p xml:id="d1e720">Comme le disent à plusieurs reprises les mineurs interviewés, <hi rend="italic">voir</hi> pour le mineur d’uranium n’est pas simplement <hi rend="italic">regarder</hi>, c’est <hi rend="italic">faire attention</hi>. Orienter le filon, pré-voir le danger, rendre visible la radioactivité, voir et être vu dans l’obscurité et la poussière. La vision du mineur ne se réduit pas qu’au regard, elle repose sur la construction d’un <hi rend="italic">champ perceptif</hi> (Merleau-Ponty, 2010, p.&#160;703) dont le régime d’attention porte tout à la fois sur du <hi rend="italic">visible</hi>, de <hi rend="italic">l’invisible</hi> et du <hi rend="italic">sensible</hi>.</p>
+                    </div>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e744">
+                <head subtype="level1" xml:id="d1e745">La transformation de la vision professionnelle&#160;: du souterrain à la carrière, du mineur à l’expert</head>
+                <p xml:id="d1e747">Confrontées à la mécanisation, à l’électronisation et à l’arrivée des MCO, ces pratiques et manières de voir vont évoluer. Puis l’effondrement du cours de l’uranium entraîne la fermeture des sites et leur réaménagement. Un nouveau champ perceptif apparaît sans pour autant qu’il se joue une rupture nette entre leur vision professionnelle antérieure et les nouvelles compétences requises.</p>
+                <div type="div2" xml:id="d1e749">
+                    <head subtype="level2" xml:id="d1e750">Le changement dans la mine, entre mécanisation et électronisation</head>
+                    <p xml:id="d1e752">De la pioche des années 1950 à la pelleteuse des années 1980, de la mine souterraine d’avant 1970 à la MCO des dernières décennies, toute mutation s’accompagne de l’invention de nouvelles fonctionnalités et d’une transformation de l’espace, de son organisation et de sa vision (Gardey, 2008, p.&#160;182).</p>
+                    <div type="div3" xml:id="d1e754">
+                        <head subtype="level3" xml:id="d1e755">De la pioche à la pelleteuse</head>
+                        <p xml:id="d1e757">Jusqu’aux années 1970, la majorité des premiers mineurs vendéens étaient des petits paysans issus des villages aux alentours, cultivant la vigne ou pratiquant l’élevage en parallèle du travail minier. Ces paysans mineurs sont <hi rend="italic">«&#160;durs à la tâche&#160;»</hi> et ont un matériel sommaire&#160;: <hi rend="italic">«&#160;une pelle et une pioche&#160;»</hi> comme ils le résument souvent. La division du travail est alors importante, les tâches sont très distinctes et les mineurs spécialisés&#160;: le foreur perce les puits&#160;; l’abatteur abat le minerai sur le front de taille&#160;; le purgeur purge les galeries des roches branlantes&#160;; le boutefeu à la charge des explosifs&#160;; le chargeur déblaye le chantier&#160;; le chauffeur conduit le wagonnet&#160;; le boiseur fait le soutènement, etc. Les métiers de la mine se traduisent en des pratiques incarnées, spécialisées et situées. Chacun à sa place, chacun <hi rend="italic">fait corps</hi> avec ses instruments, sa technique et sa fonction dans la division du travail.</p>
+                        <q rend="quotation">Fallait charger à la main. On était deux par front de taille à charger, un de chaque côté. On coupait les manches de pelle parce qu’ils étaient trop longs pour avoir la place de passer, on faisait bien attention de faire chacun son tour. C’était rythmé&#160;! Puis ça s’est mécanisé… On a eu des petites chargeuses, des scrapers. (Chargeur)</q>
+                        <p xml:id="d1e770">Les premiers paysans mineurs ont un équipement rudimentaire. La mécanisation arrive cependant dès le milieu des années 1950 (marteau-piqueur, perforateur mécanique…). Si elle diminue la pénibilité du travail, elle augmente cependant le bruit et les gaz&#160;:</p>
+                        <q rend="quotation">Au début on n’avait pas de casque [anti-bruit], on n’avait pas de masque, on avait rien&#160;! […] Quand on travaillait dans les puits, dans l’eau, qu’y avaient les quatre marteaux en même temps, on s’entendait pas&#160;! […] Dans un puits, renfermés dans 2 mètres 50 sur 2 mètres, y avait pas moyen de s’entendre. Et puis l’eau qui vous tombait sur la tête, pas moyen de lever les yeux. C’était un travail de forçat&#160;! (Abatteur)</q>
+                        <q rend="quotation">Celui qui voulait quand même des casques sur les oreilles… des fois c’était emmerdant, il l’enlevait et il ne faisait pas attention puis après on est sourd. (Abatteur)</q>
+                        <q rend="quotation">Les engins ça mange beaucoup d’oxygène et ça envoie des gaz. (Chauffeur de locotracteur)</q>
+                        <p xml:id="d1e778">Puis au courant des années 1970, les machines et les équipements sont de plus en plus volumineux et imposent l’élargissement des galeries. Les puits deviennent rapidement trop étroits pour descendre de tels engins et les descenderies apparaissent de la fin des années 1970 au milieu des années 1980.</p>
+                        <q rend="quotation">En 1975 c’était encore un travail manuel avec des machines pneumatiques, branchées sur l’air comprimé. Après il y a eu des engins sur pneus, des diesels… Pas toujours marrant avec les gaz et tout. Et plus les engins ont grossi, plus les galeries ont grossi. On est descendu avec des camions de 12<hi xml:lang="fr">&#160;</hi>tonnes, puis de 30<hi xml:lang="fr">&#160;</hi>tonnes. (Porion)</q>
+                        <p xml:id="d1e788">Avec le passage du CEA à la COGEMA en 1976, les mineurs vont davantage accéder à la formation au fil de la carrière&#160;: les ouvriers deviennent polyvalents et changent de poste selon les besoins. Cette modernisation contribue à une reconfiguration des rôles, les mineurs doivent désormais effectuer plusieurs tâches. Mais les machines changent le travail&#160;: les mineurs qui ont connu l’âge antérieur à celui des machines disent tous regretter cette époque car bien que les conditions de travail étaient plus rudes, les ouvriers étaient plus solidaires et le travail renvoyait davantage au savoir-faire artisanal du <hi rend="italic">coup de main</hi> qu’à la compétence mécanique et électronique du mineur moderne.</p>
+                        <q rend="quotation">La mécanisation a changé le rapport entre les gens. C’est des engins... C’est pas les mêmes relations. Le métier était dur pour les mineurs, ils faisaient tout à la main, et il y avait moins de gaz moins de trucs. C’est un beau métier mais il a été changé par la mécanisation. (Géologue-échantillonneur)</q>
+                        <p xml:id="d1e796">À l’usine de traitement de l’uranium (la SIMO) de l’Ecarpière, la modernisation des équipements et des techniques transforme aussi les pratiques –&#160;en particulier la lecture des informations, désormais calculées et affichées automatiquement sur les écrans&#160;– l’organisation et le rapport à l’espace&#160;:</p>
+                        <q rend="quotation">Ça s’est beaucoup modernisé au bout de vingt ans, énormément. Là où il y avait quinze bonhommes avant, il n’en a fallu plus que deux. Ils contrôlaient toute la production par écran voyez-vous. Nos appareils au labo ont évolué dans le même sens. Au début on avait des balances comme dans les épiceries. Après on appuyait sur un bouton, c’était électronique, ça faisait le travail. [...] Les dernières années, en tout et pour tout, c’était deux hommes par poste et ils pouvaient contrôler toute la fabrication, à deux, dans une cabine centralisée. (Échantillonneur à la SIMO)</q>
+                        <p xml:id="d1e800">L’évolution des équipements et des procédures entraîne ainsi une modification de l’organisation spatiale, qui elle-même transforme le regard des acteurs et leurs pratiques (Goodwin, 1995, p.&#160;238).</p>
+                    </div>
+                    <div type="div3" xml:id="d1e802">
+                        <head subtype="level3" xml:id="d1e803">De la Mine souterraine à la Mine à ciel ouvert</head>
+                        <p xml:id="d1e805">A partir des années 1970 les mines sont tellement profondes qu’il devient plus rentable de creuser directement en surface, sur le modèle des carrières. Ainsi apparaissent les MCO. L’organisation spatiale de la mine se transforme&#160;: les galeries, étages et chambres propres aux MS laissent la place aux gradins, banquettes, talus et quartiers aux dimensions standardisées des MCO. Le paysage change aussi&#160;; on parle de «&#160;dent creuse&#160;» pour désigner l’énorme fosse creusée dans le sol par terrassements successifs. Les quantités de roches extraites sont plus importantes, augmentant considérablement la hauteur des déverses à stériles et la superficie de la mine.</p>
+                        <q rend="quotation">Le mineur au fond il a pas intérêt à remonter du stérile au jour, c’est du caillou qui vaut rien et qui coûte. En MCO, le volume des machines, le changement de méthode a augmenté les sorties de stériles. (Prospecteur)</q>
+                        <p xml:id="d1e809">Le travail se fait toujours sur un front de taille mais l’organisation se rapproche de celle des carrières et l’extraction répond de plus en plus au calcul prévisionnel de l’ingénieur et au plan du géomètre, et moins au <hi rend="italic">«&#160;flair&#160;»</hi> du prospecteur et savoir-voir du géologue. La méthode générale change pour extraire le minerai&#160;: une fois le filon repéré, les volumes sont planifiés et on excave la dent creuse moins précisément qu’en galerie.</p>
+                        <q rend="quotation">Au début, la carrière, elle est prévue sur des plans et on respecte le plan, comme le plan d’une maison. La première étape c’est décaper, mettre le terrain bien à plat. Ensuite les échantillonneurs font leur plan avec des petits piquets, pour voir les trous de forage. Après on faisait péter la roche, on triait, et on chargeait. (Conducteur d’engins en MCO)</q>
+                        <q rend="quotation">Si tu veux aller à 50 mètres il faut que tu prennes large comme ça, parce que tu as des normes de sécurité, c’est normé, si le minerai est là [il montre au milieu] tu dois enlever tout ça [il montre tout autour] et s’il n’y a pas de minerai dedans c’est du stérile&#160;! Et le stérile y en avait toujours plus.<hi rend="italic"> </hi>(Prospecteur)</q>
+                        <p xml:id="d1e821">Sur le front de taille cependant, les compétences visuelles requises sont similaires à celles du mineur de fond&#160;: repérer, forer, tirer, abattre, excaver, sécurisation et soutènement. Le régime d’attention –&#160;à soi, aux autres, aux aléas&#160;– reste également similaire. Les mineurs interviewés ne parlent d’ailleurs jamais d’une grande différence technique entre MS et MCO. En revanche, ils parlent tous d’un changement de mentalité, d’approche générale du métier, et tout simplement de l’environnement de travail&#160;: l’obscurité et le monde clos des galeries a laissé la place aux profondes dents creuses et à la poussière.</p>
+                    </div>
+                </div>
+                <div type="div2" xml:id="d1e823">
+                    <head subtype="level2" xml:id="d1e824">La fermeture de la mine&#160;: de la gestion industrielle à la gestion environnementale</head>
+                    <p xml:id="d1e826">Bien que profond, le changement opéré par le passage du paradigme industriel au paradigme environnemental ne signifie cependant pas pour les mineurs chargés du réaménagement une rupture totale en termes de savoir-voir et de savoir-faire.</p>
+                    <div type="div3" xml:id="d1e828">
+                        <head subtype="level3" xml:id="d1e829">De l’uranium social à la mise en abandon</head>
+                        <p xml:id="d1e831">Alors que la crise des hydrocarbures des années 1970 a donné un élan déterminant à l’industrie de l’uranium pour répondre aux besoins du nouveau programme national d’énergie électronucléaire, la valeur de l’uranium français chute brusquement dans les années 1980, à cause de la découverte de gisements plus riches en Amérique du Nord, en Afrique et en Australie. Dès 1985, la COGEMA programme la fermeture des concessions vendéennes à partir de 1989, et cesse les investissements dans la division et les activités de recherche. Les mineurs qui le peuvent partent en retraite anticipée, d’autres sont mutés ou quittent la COGEMA. Seule une poignée de mineurs est conservée pour procéder au démantèlement des sites. Succédant à deux décennies dorées pour l’uranium, l’annonce de la fermeture de la Division est un choc pour les mineurs.</p>
+                        <q rend="quotation">La fermeture est une période douloureuse. (Contremaître à la SIMO)</q>
+                        <q rend="quotation">Tout le monde a été surpris&#160;! On ne voyait pas la société fermer. (Agent de maintenance du matériel)</q>
+                        <p xml:id="d1e837">Travaillant auparavant au nom du rendement et de la productivité de la mine, il leur faut désormais démanteler puis réaménager. Avec la fermeture, ce n’est pas seulement le regard sur l’activité et la mine qui change, mais aussi le regard sur soi.</p>
+                        <q rend="quotation">On faisait de l’uranium avec des équipes de mineurs qui savaient que 6<hi xml:lang="fr">&#160;</hi>mois ou 1<hi xml:lang="fr">&#160;</hi>an plus tard c’était fini. Moi j’ai appelé ça de «&#160;l’uranium social&#160;». On les faisait travailler mais on avait un rôle en tant qu’encadrement d’aller les voir, d’aller parler, au fond, savoir comment ils allaient. Enfin moi c’était mon soucis. T’avais ce côté humain qu’il fallait surtout pas négliger, parce que les gars, quand ils sont au fond ils sont seuls. (Chef d’équipe pour le réaménagement des sites)</q>
+                        <p xml:id="d1e847">En 1991, la mine du Chardon, dernier site de la Division encore en activité, cesse de fonctionner.</p>
+                        <q rend="quotation">Moi j’ai vu monter le dernier camion de minerai… On a pris un canon mais… c’était pas la joie. Voilà c’était fermé. On fermait… Et il a fallu démanteler. (Mineur en MCO)</q>
+                        <p xml:id="d1e851">Les tours du puits sont abattues, les équipements démantelés, les bâtiments rasés. Les galeries sont comblées ou inondées.</p>
+                        <q rend="quotation">Ce qui fait mal c’est de voir la mine se vider, puis de voir les pompes démontées et l’eau monter dans le fond de la mine… Moi j’ai vu avec un des chefs porions l’eau monter dans un des réfectoires, où on avait l’habitude de casser la croûte, où on a passé des moments importants entre nous… Là vous voyez l’eau qui monte. Qui rentre dans le réfectoire... Ça vous fait quelque chose hein&#160;! Ça vous prend les tripes. (Mineur polyvalent)</q>
+                        <p xml:id="d1e855">La<hi rend="italic"> mise en abandon</hi>, comme on appelle alors la procédure, bouleverse le paysage des sites.</p>
+                        <q rend="quotation">J’y suis retourné en mars-avril pour des papiers. Ça ressemblait à une ville bombardée&#160;! Tout était en l’air, tout était par terre. Un tas de ferraille. Ah ça fait drôle… ça m’a fait drôle. C’était une ville bombardée quoi. Ils avaient tout foutu en l’air. (Échantillonneur à la SIMO)</q>
+                        <p xml:id="d1e863">Au départ, la COGEMA souhaite en effet effacer les traces de l’exploitation de l’uranium. En 1998, une brochure de communication de la COGEMA fait ainsi le bilan du réaménagement&#160;: <hi rend="italic">«&#160;Retour à la nature sous surveillance&#160;»</hi> et sous-titre <hi rend="italic">«&#160;Faire disparaître l'usine, en toute sécurité </hi>
+              <hi rend="italic">et en toute transparence&#160;» </hi>(COGEMA, 1998). Derrière sa doctrine du «&#160;retour à l’herbe&#160;», ce qui prime concrètement pour l’exploitant c’est surtout <hi rend="italic">«&#160;de passer le balai et de céder le foncier&#160;»</hi>, comme nous l’explique un ancien mineur. Mais la crainte des effets de la radioactivité renforcée des sites, de la part des riverains ou d’associations environnementales locales, va entraîner une plus grande prise en compte de l’impact environnemental de l’après-mine.</p>
+                    </div>
+                    <div type="div3" xml:id="d1e876">
+                        <head subtype="level3" xml:id="d1e877">De mineur à expert environnemental&#160;: continuité et discontinuité d’une vision professionnelle</head>
+                        <p xml:id="d1e879">Pour réaménager un site minier, il faut tout d’abord savoir manier la pelle et la pioche, savoir déblayer, remblayer, combler une galerie. Il est aussi nécessaire de savoir conduire les lourds engins de chantiers. Il faut aussi être capable d’identifier et de mesurer les points de concentration de radioactivité. Il faut également savoir lire une carte, et disposer de la carte mentale des galeries pour anticiper et diagnostiquer les éventuels aléas. En outre, le réaménagement est confié par la loi à l’exploitant. C’est donc naturellement que la COGEMA confie le réaménagement puis le suivi environnemental des sites à des équipes d’anciens mineurs. Pour eux, il y a une continuité entre le savoir-faire minier et le savoir-calculer de l’expert.</p>
+                        <q rend="quotation">Tu fermes la mine, bon… ça se noie, tu fais les travaux de mise en sécurité etc. mais après tu as tous les travaux de réaménagement à faire&#160;: donc finalement c’est comme au fond de la mine, il faut des gars qui ont des compteurs, qui savent lire des plans, qui savent surveiller l’eau et tout. Et puis tu as besoin de gens qui savent conduire des engins...On était des gens habitués à faire de la mesure. On avait des profils qui se prêtaient à pouvoir aller vers la surveillance de l’environnement et éventuellement la mesure de la radioactivité dans l’environnement. (Chef d’équipe pour le réaménagement)</q>
+                        <p xml:id="d1e883">Au lendemain de Tchernobyl, la crainte de la radioactivité et la méfiance des populations envers l’industrie du nucléaire contribue à la mise à l’agenda de la problématique sanitaire et environnementale comme devant se situer au cœur du réaménagement des mines d’uranium. Les années 1990 sont donc caractérisées par une demande croissante d’expertise en matière de suivi environnemental des mines. AREVA (ex&#160;COGEMA) va confier ce suivi environnemental aux mineurs ayant travaillé au réaménagement des sites, lesquels vont inventer et mettre en application un protocole de surveillance environnementale. Mais ce protocole d’expertise ne naît pas non plus <hi rend="italic">ex&#160;nihilo</hi>. On assiste au recyclage de compétences et prises visuelles antérieures. Auparavant habitués à traquer les traces de radioactivité au fond, ces anciens mineurs devenus experts en traquent désormais les résurgences en surface.</p>
+                        <q rend="quotation">On connaissait le travail de la mine, on connaissait les plans, on savait lire un plan. Les géologues étaient utiles pour ça. Et quand tu as fait de la géochimie tu sais comment positionner tes points, ton plan de surveillance. Si tu vois un rejet, tu ne te mets pas à moins de 100 mètres pour que ce soit de bons mélanges, la «&#160;zone de bon mélange&#160;» comme on dit, là où le prélèvement est représentatif. Et donc on a accompagné les travaux en même temps que commençait la surveillance de l’environnement. (Chef d’équipe pour le réaménagement)</q>
+                        <p xml:id="d1e890">Le savoir-faire comme le matériel sont importés du Centre de Radioprotection des Mines (CRPM), lié à la COGEMA, qui était en effet chargé dès la fin des années 1970 de surveiller la qualité de l’air et des eaux, au moment de l’installation des premières stations de traitement des eaux dans les mines. L’équipe chargée de la transition, qui prendra en 1995 le nom de Service Qualité Sécurité Environnement, reprend alors l’ensemble des points de mesure, les seuils et les indicateurs, les techniques et les technologies du CRPM.</p>
+                        <q rend="quotation">Il y avait déjà des points de prélèvement des rejets. Parce qu’on a retrouvé, quand on a pris le relais, des notes papiers avec des mesures, donc il y avait déjà de la mesure avant la fermeture de la mine. Mais avec le temps on est devenu de plus en plus fins, dans notre approche, avec la technologie mais aussi dans les mesures, puisque les seuils de détection se sont affinés. (Chef d’équipe pour le réaménagement)</q>
+                        <p xml:id="d1e894">Si le savoir-voir et la connaissance du site sont recyclés, de nouveaux savoir-faire apparaissent, comme quand le géologue se transforme en chimiste pour comprendre les résurgences de radioactivité, et en informaticien pour analyser dans le temps long les évolutions de l’après-mine.</p>
+                        <q rend="quotation">Filtrer de l’eau à 45<hi xml:lang="fr">&#160;</hi>microns, moi tu sais tu m’aurais dit ça avant… euh… Mais ça aussi on se l’est appris par compagnonnage entre moi le chef et mes gars. Puis on nous a fait des formations en radioprotection<hi xml:lang="fr">,</hi> etc. Préleveur c’est un métier. Ça s’apprend. Mais une fois sur le terrain, c’est comme quand tu étais géologue ou prospecteur tu vois. Le site tu le connais. (Chef d’équipe pour le réaménagement)</q>
+                        <p xml:id="d1e904">La vision de ces anciens mineurs évoluera encore au gré des controverses et des polémiques sur les risques de radioactivité des sites, lesquelles leur demande de ne plus être de simples surveillants des mines fermées, mais de devenir des <hi rend="italic">experts</hi>, capables tout autant de produire de la connaissance technique que de fournir un travail de communication publique.</p>
+                        <q rend="quotation">Au départ y avait rien d’informatisé, c’était que du papier. Les premiers dossiers qu’on a fait c’était beaucoup de dessin à la main&#160;! Mon équipe de préleveurs c’était un ancien mécano et un ancien électricien, et moi qui validais les résultats. Maintenant les systèmes de qualité se sont greffés&#160;: c’est plus structuré, plus performant. Au début, les prélèvements d’eau on les faisait avec un seau, un bidon, puis sont arrivés les débitmètres, puis les débitmètres sont devenus électroniques. Hein, au début pour mesurer le niveau d’eau dans la carrière on prenait un mètre, tu mets un piquet dans l’eau et tu mesures. Ça s’est perfectionné aussi, on est passé à des détecteurs électroniques reliés à des émetteurs, qui transmettent les données directement au bureau, sur l’écran&#160;! Maintenant le mec qui surveille il a tout en direct sur son ordinateur. Et puis on a dû faire beaucoup d’information. On a fait des précisions, donné l’information qui vient de chez nous, parce que beaucoup de choses ont circulé, mais nous on connaît le terrain. (Chef d’équipe pour le réaménagement)</q>
+                        <p xml:id="d1e912">La fermeture des mines et leur mise en expertise environnementale a ainsi contribué à la transformation des pratiques, des techniques et de la vision de ces agents, conjointement à l’émergence d’une nouvelle territorialité et d’une nouvelle spatialité de la mine. Toutefois, ce changement n’a pas entraîné une transformation totale du savoir-faire et du savoir-voir de ces anciens mineurs, lesquels puisent dans leur connaissance du «&#160;terrain&#160;» et leurs compétences antérieures pour mener à bien cette nouvelle mission d’experts environnementaux.</p>
+                    </div>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e914">
+                <head subtype="level1" xml:id="d1e915">Conclusion</head>
+                <p xml:id="d1e917">Le monde clos, obscur, humide, bruyant, poussiéreux et dangereux de la mine est une expérience totale du corps, nécessitant pour le jeune mineur la construction d’un champ perceptif singulier. Ce champ perceptif nécessite l’apprentissage d’un<hi rend="italic"> régime d’attention situé</hi>, basé sur une aptitude à lire du visible, de l’invisible et du sensible, particulièrement dans un contexte de radioactivité naturelle renforcée liée à l’extraction de l’uranium. Ce régime d’attention est individuel dans le sens où il se distribue selon les manières de voir et les savoir-faire des différents corps de métiers, et selon les espaces miniers&#160;: entre l’abatteur et l’échantillonneur par exemple, ou entre le jour et le fond. Son apprentissage repose sur le compagnonnage, mode d’organisation traditionnel du monde minier. La transmission par compagnonnage fait que ce régime d’attention est aussi collectif, dans le sens où cette transmission forge la vision professionnelle du mineur, renvoyant bien-sûr à la dimension du savoir-voir et du savoir-faire, mais aussi à une forme d’identité professionnelle, qui perdure ainsi d’une génération à l’autre, et apporte une continuité dans les formes communes de construction du regard et d’une connaissance sensible du milieu, mobilisée jusque dans la période de surveillance post-exploitation de la mine.</p>
+                <p xml:id="d1e922">Chaque évolution technologique des métiers et compétences des industries extractives, chaque évolution organisationnelle et spatiale de la mine, entraîne une mutation de la vision des mineurs. L’électronisation et la mécanisation des mines et des usines de traitement ont entraîné une reconfiguration du champ d’action et de vision. Lorsque adviennent la perspective de la fermeture et le processus de réaménagement des sites miniers, les agents devront aussi faire évoluer leur regard sur la mine et leur savoir-faire minier pour s’adapter d’une part à la perspective de l’arrêt de la production et à la mise en abandon des sites, d’autre part à la perspective du réaménagement et de la surveillance environnementale. S’il s’agit d’un changement du rapport au lieu et au travail minier, passant d’un régime productif et industriel à un régime d’expertise et de gestion environnementale, le nouveau régime d’attention des agents chargés de la post-exploitation des mines ne se forge pas <hi rend="italic">ex&#160;nihilo</hi>, mais puise dans les ressources techniques, les compétences visuelles et haptiques du régime d’attention développé antérieurement par ces anciens mineurs. En somme, si les différents changements techniques, organisationnels ou encore économiques engendrent une mutation de la vision des mineurs, les modes d’apprentissage et de transmission spécifiques de l’expérience sensible d’une mine d’uranium font perdurer dans le temps des formes communes de cette vision.</p>
+            </div>
+            <div type="div1" xml:id="d1e927">
+                <head subtype="level1" xml:id="d1e928">Discussion</head>
+                <p xml:id="d1e930">L’approche développée ici invite à discuter quatre angles de la recherche&#160;: sur les limites du dispositif méthodologique, sur l’articulation théorique choisie, sur la comparaison des résultats, et enfin sur la question de l’accès au terrain dans des mondes sociaux fermés.</p>
+                <p xml:id="d1e932">Tout d’abord, d’un point de vue méthodologique, si le recours aux photographies et aux archives s’est avéré très utile pour faire resurgir les routines et les sensations du travail dans la mine, l’âge et l’étiolement de la mémoire des anciens mineurs ont constitué des limites non négligeables pour reconstruire leur perception. L’utilisation de l’ethnométhodologie et d’une observation en situation (Garfinkel, 2007) auraient été fécondes pour saisir plus finement la spatialité du regard et des pratiques. Mais les mines d’uranium étudiées, en Vendée, ayant été fermées, il y a près de trente ans, et les traces de l’exploitation très largement effacées, cette approche était impossible. Il serait donc intéressant de prolonger le travail ici réalisé à partir d’une approche ethnométhodologique sur d’autres mines d’uranium encore en activité.</p>
+                <p xml:id="d1e934">D’un point de vue théorique, il peut paraître paradoxal d’articuler approche phénoménologique et approche discursive (c’est-à-dire l’analyse des témoignages rapportés dans le cadre des entretiens), mais ce parti pris, inspiré de l’analyse des récits phénoménologiques (Ntebutse &amp; Croyere, 2016), nous a pourtant bien permis de reconstruire la fabrication, l’apprentissage et la transformation de la vision professionnelle des mineurs d’uranium, comme le résultat d’une <hi rend="italic">expérience située</hi> (Suchman, 1987) et d’une <hi rend="italic">cognition</hi>
+                    <hi rend="italic">distribuée</hi> (Hutchins, 1994).</p>
+                <p xml:id="d1e945">D’une part, cette approche aide à <hi rend="italic">«&#160;comprendre les phénomènes à partir du sens que prennent les choses pour les individus&#160;» </hi>(Ntebutse &amp; Croyere, 2016, p.&#160;29)&#160;: les récits sont en effet nécessairement situés dans des <hi rend="italic">points de vue </hi>et offrent à voir le monde vécu des individus. On pourrait alors reprocher à cette approche de se réduire à une somme de témoignages individuels, mais, en montrant que la vision professionnelle des mineurs, et plus largement le monde social de la mine d’uranium, est le résultat de la coordination de ces points de vue, cela permet de montrer combien les phénomènes sociaux sont le résultat d’une dimension profondément historique, située et relationnelle. Car l’étude de ces récits donne à voir autant l’expérience vécue de ces mineurs que les conditions matérielles concrètes de leur travail, c’est-à-dire de saisir à bras le corps la question de la connexion entre le régime d’expérience individuel et le régime institutionnel du monde social (Malbois &amp; Barthélémy, 2018, p.&#160;10).</p>
+                <p xml:id="d1e953">D’autre part, partir du récit de l’expérience des corps permet également de saisir la spatialité des points de vue. La construction et la transmission de la vision professionnelle des mineurs illustrent que perception et action sont indissociables (Merleau-Ponty, 2010, p.&#160;777-831). On saisit que le corps des mineurs est tout entier <hi rend="italic">mobilisé</hi> et <hi rend="italic">affecté</hi> vers les tâches à accomplir dans l’espace<note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> <hi rend="italic">«&#160;La spatialité du corps est le </hi>déploiement<hi rend="italic"> de son être de corps, la manière dont il se réalise comme corps.&#160;» </hi>(Merleau-Ponty, 2010, p.&#160;833).</p>
+          </note>. Ainsi, la construction du<hi rend="italic"> régime d’attention situé</hi> des mineurs d’uranium ne résulte pas que d’une position dans l’espace, mais aussi d’une situation<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> «&#160;Le schéma corporel est dynamique. Ramené à un sens précis, ce terme veut dire que mon corps m’apparaît comme posture en vue d’une certaine tâche actuelle ou possible. Et en effet sa spatialité n’est pas comme celle des objets extérieurs ou comme celle des “sensations spatiales” une spatialité de position, mais une spatialité de situation&#160;» (Merleau-Ponty, 2010, p.&#160;779).</p>
+          </note>. On le voit avec les récits de ces travailleurs de leur expérience de la mine&#160;: la perception de l’espace est inséparable de l’expérience du corps, et réciproquement. Ce qui confirme l’hypothèse de départ d’une relation entre l’évolution de l’espace minier et l’évolution de la vision professionnelle des mineurs d’uranium.</p>
+                <p xml:id="d1e978">Ainsi, en combinant un paradigme subjectif et une logique compréhensive, cette approche –&#160;qu’on peut rapprocher d’une sociologie du point de vue<note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> Pour approfondir la discussion sur ce point, nous renvoyons aux travaux de Dorothy Smith (2018).</p>
+          </note>&#160;– permet donc de saisir que pour le mineur comme pour l’expert, le regard se confond dans la pratique du lieu, le savoir-faire dans le savoir-voir, car la mine est un espace tout à la fois pratiqué et situé. La modernisation de la mine ainsi que les reconfigurations spatiales et professionnelles qu’elle induit modifie la vision des mineurs. Le travail dans la mine comme l’expertise de l’après-mine témoignent que toute technique et manière de voir est incarnée, instrumentée et située selon des configurations de contexte différenciées. Mais la distinction entre le regard individuel et le territoire de l’organisation, ou entre l’espace et ses signes n’est pas aussi nette qu’il n’y paraît&#160;: la vision d’un métier, des risques comme des lieux apparaît aussi toujours relative à un <hi rend="italic">point de vue </hi>et à des <hi rend="italic">aptitudes</hi> qui peuvent perdurer dans le temps.</p>
+                <p xml:id="d1e990">Pour ce qui est des résultats, si ce travail s’inscrit dans la littérature consacrée à la compréhension de la vision professionnelle et du regard des mineurs, il s’en singularise au travers du contexte de l’exploitation de l’uranium et de son inscription dans la filière nucléaire. L’explicitation du travail de l’invisible suggère alors de développer des analyses comparatives avec des travaux consacrés à d’autres activités du nucléaire, notamment ceux de Françoise Zonabend (1989) sur le rapport entre voisinage et nucléarité à La&#160;Hague et de Pierre Fournier (2012) sur le travail ordinaire dans l’industrie du nucléaire.</p>
+                <p xml:id="d1e992">Enfin, pour terminer, les difficultés que nous avons rencontrées pour constituer le matériau de cette enquête participe plus largement des difficultés pour les chercheurs à accéder au terrain dans les univers stratégiques et risqués tel que le secteur nucléaire, renvoyant aux questions soulevées par Mathilde Bourrier (2010) sur une «&#160;sociologie embarquée&#160;» des univers à risque&#160;: la difficulté d’accéder à ces mondes sociaux fermés impose d’engager un long travail de négociation, de multiplier les techniques d'enquête et les stratégies d'accès au terrain.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e998">
+                <listBibl xml:id="d1e1000">
+                    <bibl xml:id="d1e1002">Absi, P. (2004). Le diable et les prolétaires. Le travail dans les mines de Potosi, Bolivie. <hi rend="italic">Sociologie du travail.</hi>
+                        <hi rend="italic">46</hi>(3), 379-395.</bibl>
+                    <bibl xml:id="d1e1010">Baudin, C. (2018), Les dimensions socio-culturelles à l'œuvre dans l'activité&#160;: le cas des orpailleurs de la région amazonienne du Pérou. Dans F.&#160;Hubault (dir.), <hi rend="italic">L’Activité en question </hi>(Col. Ergonomie). Toulouse&#160;: Ed. <hi xml:lang="en">Octarès.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1017">
+                        <hi xml:lang="en">Baudin, C., Maillard, L. &amp; Ruffiner Y. (2016). Wanamei: An Intervention for and with the Small Gold Mining Communities in the Peruvian Amazon, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Practicing Anthropology, 38</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 5-11.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1025">Bernhard, S., Pradel, J., Tirmarche, M. &amp; Zettwoog, P. (1992). Bilan et enseignement de la radioprotection dans les mines d’uranium depuis 45&#160;ans (1948-1992). <hi rend="italic">Revue Générale Nucléaire</hi>, (6), 491-497.</bibl>
+                    <bibl xml:id="d1e1030">Blanc, J. (2008). Les mines d’uranium et leurs mineurs français&#160;: une belle aventure. <hi rend="italic">Réalités Industrielles</hi>, (3), 35-43.</bibl>
+                    <bibl xml:id="d1e1035">Bourrier, M. (2010). Pour une sociologie «&#160;embarquée&#160;» des univers à risque&#160;? <hi rend="italic">Revue de la société suisse d’Ethnologie, </hi>(15), 28-37.</bibl>
+                    <bibl xml:id="d1e1040">Bretesché, S. &amp; Ponnet, M. (2012). Le risque au défi de la mémoire organisée&#160;: l’exemple de la gestion des mines d’uranium françaises. VertigO - la revue électronique en sciences de l'environnement [En ligne], <hi rend="italic">12</hi>(1), 1|&#160;mai 2012. <ref target="https://journals.openedition.org/vertigo/11992">https://journals.openedition.org/vertigo/11992</ref>
+          </bibl>
+                    <bibl xml:id="d1e1047">Brunet, P. (2004). <hi rend="italic">La nature dans tous ses états. Uranium, nucléaire et radioactivité en Limousin.</hi> Limoges&#160;: Presses Universitaires de Limoges.</bibl>
+                    <bibl xml:id="d1e1052">Chapot, G., Couprie, R., Dumas, J., Leblanc, P. &amp; Kerouanton,&#160;J.-L. (1996). <hi rend="italic">L'uranium vendéen&#160;: 40&#160;ans de recherches et d'exploitations minières dans le massif Armoricain.</hi> Col. Cahiers du Patrimoine. Nantes&#160;: Inventaire Général.</bibl>
+                    <bibl xml:id="d1e1057">COGEMA. (1998). <hi rend="italic">Le réaménagement des sites miniers en France.</hi> Les Cahiers de Cogemagazine, Février.</bibl>
+                    <bibl xml:id="d1e1063">Cooper-Richet, D. (2015). Les hommes du charbon face aux grands chocs de la deuxième moitié du XX<hi rendition="#style02">e</hi> siècle. Dans S.&#160;Aprile<hi rend="italic">, </hi>M.&#160;de&#160;Oliveira, B.&#160;Touchelay et K.-M.&#160;Hoin (dir.) <hi rend="italic">Les Houillères entre l’État, le marché et la société. Les territoires de la résilience (XVIII</hi>
+            <hi rendition="#style02">
+              <hi rend="italic">e</hi>
+            </hi>
+            <hi rend="italic">-XXI</hi>
+            <hi rendition="#style02">
+              <hi rend="italic">e</hi>
+            </hi>
+            <hi rend="italic"> siècles)</hi> (pp.&#160;23-32). Lille&#160;: Presses Universitaires du Septentrion.</bibl>
+                    <bibl xml:id="d1e1084">Cornu, R. (1996). Voir et savoir. Dans D.&#160;Chevallier (dir.), <hi rend="italic">Savoir faire et pouvoir transmettre. Transmission et apprentissage des savoir-faire et des techniques </hi>(pp.&#160;83-100)<hi rend="italic">. </hi>Paris&#160;: Éditions de la Maison des sciences de l’homme.</bibl>
+                    <bibl xml:id="d1e1092">De Certeau, M. (1990). <hi rend="italic">L’invention du quotidien. Arts de faire</hi> (t.1). Paris&#160;: Gallimard.</bibl>
+                    <bibl xml:id="d1e1097">Deleuze, G. (2002 [1981]),<hi rend="italic"> Francis Bacon, logique de la sensation</hi>. Paris&#160;: Seuil.</bibl>
+                    <bibl xml:id="d1e1102">Fechner E. (2001). <hi rend="italic">Paroles de </hi>mineurs.<hi rend="italic"> </hi>Paris&#160;: Calmann-Lévy.</bibl>
+                    <bibl xml:id="d1e1110">Fournier, P. (2012). <hi rend="italic">Travailler dans le nucléaire. Enquête au cœur d’un site à risque</hi>. Paris&#160;: Armand Colin.</bibl>
+                    <bibl xml:id="d1e1115">Gardey, D. (2008). <hi rend="italic">Écrire, calculer, classer. Comment une révolution de papier a transformé les sociétés contemporaines (1800-1940).</hi> Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e1120">Garfinkel, H. (2007 [1967]). <hi rend="italic">Recherches en ethnométhodologie</hi>. Paris&#160;: PUF.</bibl>
+                    <bibl xml:id="d1e1125">Goodwin, C. &amp; Goodwin, M. (2002). Voir comme activité située&#160;: formuler des avions. Dans J.-P.&#160;Thibaud (dir.) <hi rend="italic">Regards en action. Ethnométhodologie des espaces publics </hi>(pp.&#160;113-150)<hi rend="italic">.</hi>
+                        <hi xml:lang="en">Paris&#160;: À&#160;la Croisée.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1135">
+                        <hi xml:lang="en">Goodwin, C. (2001). Practices of seeing. Visual analysis: an ethnomethodological approach. Dans T.&#160;Van&#160;Leeuwen et C.&#160;Jewitt (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Handbook of Visual Analysis </hi>
+                        </hi>
+                        <hi xml:lang="en">(pp.&#160;157-182). London: Thousand Oaks.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1143">
+                        <hi xml:lang="en">Goodwin, C. (1995). Seeing in depth. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Social Studies of Science</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">25</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 237-274.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1157">
+                        <hi xml:lang="en">Goodwin, C. (1994). Professionnal Vision. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Anthropologist</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">96</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 606-633.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1170">Grosjean, S. (2014). Existe-t-il une manière de voir organisationnelle&#160;? De l’intérêt de suivre les «&#160;practices of seeing&#160;» en organisation. <hi rend="italic">Revue d’anthropologie des connaissances</hi>, <hi rend="italic">8</hi>(1), 143-177.</bibl>
+                    <bibl xml:id="d1e1178">Hutchins, E. (1994). Comment le «&#160;cockpit&#160;» se souvient de ses vitesses. <hi xml:lang="en">Sociologie du travail. 36</hi>
+            <hi xml:lang="en">(</hi>
+            <hi xml:lang="en">4), 451-474.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1186">
+                        <hi xml:lang="en">Hutchins, E. (1995). </hi>
+                        <hi xml:lang="en">Cognition in the wild. </hi>
+                        <hi xml:lang="en">Cambridge: MIT Press. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e1193">
+            <hi xml:lang="en">Kassapi, A. (2001). </hi>«&#160;L'art de travailler au fond de la mine. Enquête à Kassandra en Grèce du Nord&#160;». <hi rend="italic">
+              <hi xml:lang="en">Ethnologie française, </hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">31</hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">(</hi>
+            </hi>
+            <hi xml:lang="en">3), 423-430.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1208">
+                        <hi xml:lang="fr">Le Berre, S. &amp; Bretesché, S. (2019). </hi>
+                        <hi xml:lang="en">Having a high risk job: Uranium miners’ perception of occupational risk in France. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Extractive Industries and Society</hi>
+                        </hi>
+                        <hi xml:lang="en">, Elsevier, </hi>
+                        <ref target="https://doi.org/10.1016/j.exis.2019.11.011">
+                            <hi xml:lang="en">https://doi.org/10.1016/j.exis.2019.11.011</hi>
+                        </ref>
+                        <hi xml:lang="en"> </hi>
+                    </bibl>
+                    <bibl xml:id="d1e1223">
+            <hi xml:lang="en">Lengrand, L. &amp; Craipeau, M. (1974). </hi>
+            <hi rend="italic">Mineur du nord.</hi> Paris&#160;: Seuil.</bibl>
+                    <bibl xml:id="d1e1229">Lenoir, Y. (2016). <hi rend="italic">La comédie atomique. L’histoire occultée des dangers des radiations</hi>. Paris&#160;: La&#160;Découverte.</bibl>
+                    <bibl xml:id="d1e1234">Malbois, F. &amp; Barthélémy, M. (2018 [2005]). De l’expérience au texte. Une sociologie de l’organisation locale et extra-locale de l’action. Dans D.&#160;Smith (2018). <hi rend="italic">L’ethnographie institutionnelle. Une sociologie pour les gens</hi>. Paris&#160;: Economica.</bibl>
+                    <bibl xml:id="d1e1239">Malva, C. (1978). <hi rend="italic">Ma nuit au jour le jour.</hi> Paris&#160;: François Maspero.</bibl>
+                    <bibl xml:id="d1e1244">Malva, C. &amp; Blampain, D. (1983). <hi rend="italic">La nuit dans les yeux.</hi>
+                        <hi xml:lang="en">Paris&#160;: Labor.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1252">
+            <hi xml:lang="en">Merleau-Ponty, M. (2010 </hi>[1945]<hi xml:lang="en">). </hi>
+            <hi rend="italic">Phénoménologie de la perception</hi>. Dans <hi rend="italic">Œuvres </hi>(pp.&#160;655-1167)<hi rend="italic">.</hi> Paris&#160;: Quarto Gallimard.</bibl>
+                    <bibl xml:id="d1e1267">Michel, J. (1993). <hi rend="italic">La mine dévoreuse d’hommes.</hi> Paris&#160;: Gallimard.</bibl>
+                    <bibl xml:id="d1e1272">Ntebutse, J. &amp; Croyere, N. (2016). Intérêt et valeur du récit phénoménologique&#160;: une logique de découverte. <hi rend="italic">Recherche en soins infirmiers</hi>, <hi rend="italic">124</hi>(1), 28-38. </bibl>
+                    <bibl xml:id="d1e1280">Parret, H. (2009), Spatialiser haptiquement. Actes Sémiotiques. (112). En ligne, consulté le 15/04/2020. <ref target="https://www.unilim.fr/actes-semiotiques/2570">https://www.unilim.fr/actes-semiotiques/2570</ref>
+          </bibl>
+                    <bibl xml:id="d1e1284">Paucard, A. (1992). <hi rend="italic">La mine et les mineurs de l’uranium français. Tome 1&#160;: Les temps légendaires (1946-1950).</hi> Brive&#160;: Ed.&#160;T.&#160;Parquet.</bibl>
+                    <bibl xml:id="d1e1289">Pillon, T. (2012). <hi rend="italic">Le corps à l’ouvrage.</hi> Paris&#160;: Stock.</bibl>
+                    <bibl xml:id="d1e1294">Ponnet, M. &amp; Chardon, P. (2014). Du temps de la matière au temps des hommes. Dans S. Bretesché et B. Grambow (dir.), <hi rend="italic">Le nucléaire au prisme du temps </hi>(pp.&#160;39-50)<hi rend="italic">.</hi> Paris&#160;: Presses des Mines.</bibl>
+                    <bibl xml:id="d1e1302">Ruffiner, Y. &amp; Vinck, D. (2019). Des traits pour un terrain sensible. <hi rend="italic">Techniques &amp; Culture</hi>, (71), 184-197. <ref target="https://doi.org/10.4000/tc.11870">https://doi.org/10.4000/tc.11870</ref>
+          </bibl>
+                    <bibl xml:id="d1e1309">Olivier de Sardan, J.P. (1995). La politique du terrain. <hi rend="italic">Enquête</hi>, (1), 71-109.</bibl>
+                    <bibl xml:id="d1e1314">Sicard, M. (1998). <hi rend="italic">La fabrique du regard.</hi> Paris&#160;: Odile Jacob.</bibl>
+                    <bibl xml:id="d1e1319">Smith, D. (2018 <hi xml:lang="en">[2005]</hi>). <hi rend="italic">L’ethnographie institutionnelle. Une sociologie pour les gens</hi>
+            <hi xml:lang="fr">. </hi>
+            <hi xml:lang="en">Paris&#160;: Economica.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1331">
+            <hi xml:lang="en">Suchman, L. (1987). </hi>
+            <hi xml:lang="en">Plans and situated actions. The problems of human/machine communication</hi>
+            <hi xml:lang="en">. </hi>Cambridge: Cambridge University Press. </bibl>
+                    <bibl xml:id="d1e1339">Valéry, P. (1988). Cahiers <hi rend="italic">II</hi>, [1903] (Col. La&#160;Pléiade). Paris&#160;: Gallimard.</bibl>
+                    <bibl xml:id="d1e1344">Viseux, A. (1991). <hi rend="italic">Mineur de fond.</hi> Paris&#160;: Plon.</bibl>
+                    <bibl xml:id="d1e1349">Zonabend, F. (1989). <hi rend="italic">La Presqu’île du nucléaire</hi>. Paris&#160;: Odile Jacob.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

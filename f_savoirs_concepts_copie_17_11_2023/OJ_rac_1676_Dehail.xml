@@ -1,0 +1,872 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_1676_Dehail">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">De la classification scientifique des instruments de
+                    musique </title>
+                <title type="sub">Le rôle du musée dans le développement de l’organologie</title>
+                <title level="a" type="alt" xml:lang="en">On the scientific classification of
+                    musical instruments. The role of the museum in the development of
+                    organology</title>
+                <title level="a" type="alt" xml:lang="es">Clasificación científica de los
+                    instrumentos musicales. El papel del museo en el desarrollo de la
+                    organología</title>
+                <author>
+                    <persName>
+                        <forename>Judith</forename>
+                        <surname>Dehail</surname>
+                    </persName>
+                    <affiliation> Maîtresse de conférences à l’Université d’Aix-Marseille, elle est
+                        chercheuse au Laboratoire d’Études en Sciences des Arts et au Centre Marc
+                        Bloch (Berlin) et enseigne dans le secteur Médiation culturelle des Arts, au
+                        sein du département des Arts d’Aix-Marseille Université.Adresse&#160;:
+                        Laboratoire en Sciences des Arts (LESA –&#160;EA 3274), Aix-Marseille Université,
+                        29, avenue Robert-Schuman, FR-13621 Aix-en-Provence Cedex&#160;1
+                        (France).Courriel&#160;: judith.dehail[at]univ-amu.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>organology</item>
+                        <item>museology</item>
+                        <item>scientific classification</item>
+                        <item>new organology</item>
+                        <item>critical organology</item>
+                        <item>sound studies</item>
+                        <item>music</item>
+                        <item>science</item>
+                        <item>museum</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>études du son</item>
+                        <item>organologie</item>
+                        <item>muséologie</item>
+                        <item>classification scientifique</item>
+                        <item>nouvelle organologie</item>
+                        <item>organologie critique</item>
+                        <item>musique</item>
+                        <item>science</item>
+                        <item>musée</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>estudios de sonido</item>
+                        <item>organología</item>
+                        <item>museología</item>
+                        <item>clasificación científica</item>
+                        <item>nueva organología</item>
+                        <item>organología crítica</item>
+                        <item>música</item>
+                        <item>ciencia</item>
+                        <item>museo</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">De la classification scientifique des instruments de
+                        musique </titlePart>
+                    <titlePart type="sub">Le rôle du musée dans le développement de
+                        l’organologie</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Judith Dehail</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e272">
+                <p xml:id="d1e273">Cet article s’intéresse au développement que suit la science des
+                    instruments de musique, l’organologie, au cours du 20<hi rendition="#style01">e</hi>&#160;siècle, et tente d’expliciter le rôle du musée dans l’élaboration de
+                    la conception spécifique des instruments associée à ce développement. Il examine
+                    la façon dont les normes qui structurent la muséalisation et l’exposition des
+                    objets au musée dès le milieu du 19<hi rendition="#style01">e</hi>&#160;siècle ont
+                    influencé les représentations des instruments de musique construites au siècle
+                    suivant, notamment au travers de l’élaboration d’une classification scientifique
+                    des instruments excluant toute donnée culturelle ou musicale. L’influence du
+                    tournant matériel en musicologie a cependant ouvert, plus récemment, des
+                    perspectives nouvelles pour la théorisation des instruments de musique, autour
+                    desquelles l’article se conclut.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e281">
+                <p xml:id="d1e282">
+                    <hi xml:lang="en">This article focuses on the development of organology, the
+                        science of musical instruments, in the course of the 20</hi>
+                    <hi rendition="#style01">
+                        <hi xml:lang="en">th</hi>
+                    </hi>
+                    <hi xml:lang="en">&#160;Century, and on the specific understanding of musical
+                        instruments that this science promotes. It examines how this development is
+                        intertwined with the museum, looking into the ways in which the norms that
+                        structure the musealisation and the exhibition of objects in the museum have
+                        affected the representations of musical instruments, notably by influencing
+                        the elaboration of a scientific classification that leaves out the cultural
+                        and the musical aspects of the instruments. This paper concludes with the
+                        consideration of the new perspectives that have however been recently
+                        opened, for the theorization of musical instruments, by the influence of the
+                        material turn on musicology.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e290">
+                <p xml:id="d1e291">Este artículo trata del desarrollo de la ciencia de los
+                    instrumentos musicales y la organología durante el siglo&#160;XX. Intenta explicar el
+                    papel del museo en el desarrollo de una concepción de los instrumentos en
+                    relación con este desarollo. Examina las normas que estructuran la musealización
+                    y exhibición de objetos en el museo desde mediados del siglo&#160;XIX, y como han
+                    influido en las representaciones de los instrumentos musicales, especialmente a
+                    través del desarrollo de una clasificación científica de los instrumentos,
+                    excluyendo otros datos culturales o musicales. La influencia del «material turn»
+                    en la musicología, sin embargo, abrió nuevas perspectivas para la teorización de
+                    los instrumentos musicales, alrededor de los cuales concluye el artículo.</p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e297">Dans leur ouvrage intitulé <hi rend="italic">Sound knowledge&#160;: Music
+                    and Science in London 1789-1851, </hi>James&#160;Q.&#160;Davies, Helen&#160;Lockhart et les
+                différents auteurs éclairent la façon dont les rapports entre musique et sciences
+                évoluent au cours de la période décrite, ce qui change le «&#160;statut épistémologique&#160;»
+                (Davies et Lockart, 2016, p.&#160;23) de la musique. Ces évolutions reposent, entre
+                autres, sur une conception transformée des traces matérielles de la musique, et
+                notamment des instruments de musique. À la fin du dix-huitième siècle, ceux-ci ne
+                semblent pas avoir de statut distinct d’autres objets «&#160;représentant&#160;» la musique,
+                comme des fragments mélodiques. Ainsi, ils sont «&#160;interchangeables&#160;» (Dolan, 2016,
+                p.&#160;41) dans les représentations de l’histoire de la musique. Près d’un siècle plus
+                tard cependant, les instruments de musique montrés lors de l’exposition universelle
+                de 1851 sont présentés comme des «&#160;artefacts matériels divorcés, pour la plupart, de
+                considérations concernant leur usage dans la performance musicale&#160;» (Willson, 2016,
+                p.&#160;237), transformant la conception de la musique ainsi donnée à voir. Le présent
+                article s’intéressera à certains des facteurs ayant contribué à poursuivre ce
+                développement et ainsi à exclure, dans ces objets, toute donnée culturelle ou
+                musicale, pour en proposer une conception dite «&#160;scientifique&#160;». Il s’agira ainsi
+                d’étudier les circonstances du développement de l’organologie comme discipline
+                scientifique et universitaire au cours du vingtième siècle en soulignant
+                l’influence, sur ce développement, du lieu au sein duquel cette discipline
+                s’élabore&#160;: le musée.</p>
+            <div type="div1" xml:id="d1e302">
+                <head subtype="level1" xml:id="d1e303">Prémices de l’organologie comme discipline
+                    scientifique et universitaire</head>
+                <p xml:id="d1e305">L’organologie se définit comme la discipline scientifique
+                    consacrée à l’étude des instruments de musique. Dans son sens actuel
+                    (c’est-à-dire à partir de l’école de Berlin<note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Cf. <hi rend="italic">infra</hi>.</p>
+          </note>), elle
+                    emploie des techniques interdisciplinaires, empruntées principalement au domaine
+                    de l’histoire de l’art, mais aussi à l’ethnologie et à la physique. Elle
+                    comprend en effet la description (mesure et documentation) des instruments et
+                    l’étude de leur histoire, de leur fonction dans leur environnement
+                    «&#160;traditionnel&#160;», au sein des différentes cultures auxquelles ils appartiennent
+                    (et rejoint en cela l’ethnomusicologie), l’étude de leur structure et des
+                    aspects techniques des modes de production du son des instruments (domaine où
+                    elle recoupe en partie la discipline de l’acoustique musicale) et elle comprend
+                    surtout la classification des instruments.</p>
+                <p xml:id="d1e315">On retrouve déjà des documents s’intéressant aux instruments de
+                    musique dans de nombreuses cultures anciennes, qui étudiaient leur utilisation
+                    et leur rôle dans la société et qui incluaient parfois des systèmes de
+                    classification. En Occident, les premières publications s’intéressant au sujet
+                    datent du seizième siècle, avec notamment les travaux de Sebastian&#160;Virdung et
+                    Martin&#160;Agricola, ou encore les travaux de Praetorius et de Marin&#160;Mersenne au
+                    dix-septième siècle, comme l’<hi rend="italic">Harmonie universelle </hi>(1636).
+                    Puis, c’est au vingtième siècle qu’apparaît réellement un intérêt ravivé pour
+                    l’organologie. Les diverses explorations du monde ayant eu lieu aux dix-huitième
+                    et dix-neuvième siècles ont permis de rapporter en Europe de nombreux
+                    instruments issus de diverses cultures, et ont ainsi constitué d’importantes
+                    collections d’instruments de musique qui ont ranimé le désir d’en établir des
+                    classifications. Le vingtième siècle se souvient surtout des travaux de Curt
+                    Sachs, et en particulier du système de classification qu’il réalise en 1914 avec
+                    Erich&#160;von&#160;Hornbostel et qui porte leurs noms&#160;: c’est le système
+                    Hornbostel-Sachs. Ce système est, encore aujourd’hui, le plus utilisé par les
+                    organologues et les ethnomusicologues.</p>
+                <p xml:id="d1e320">Le système Hornbostel-Sachs propose une classification
+                    quadripartite des instruments se fondant sur le mode de production des sons, et
+                    plus précisément sur la nature du matériau vibrant. Elle est composée des
+                    cordophones (le son est produit par la vibration d’une ou plusieurs cordes
+                    tendues), des aérophones (le son est produit par la vibration de l’air,
+                    l’instrument lui-même ne vibre pas et il n’y a pas de corde ou de membrane
+                    vibrante), des membranophones (le son est produit par une ou deux membrane(s)
+                    mise(s) en vibration par percussion ou friction), et enfin, des idiophones (le
+                    son est produit par la vibration du corps de l’instrument lui-même –&#160;plutôt que
+                    celle d’une corde, d’une membrane ou d’une colonne d’air, par exemple des
+                    cymbales). Cette classification a été complétée en 1940 par Sachs, qui ajoute
+                    une nouvelle rubrique prenant en compte les instruments inventés depuis le
+                    vingtième siècle et qui fonctionnent de manière électrique&#160;: les
+                    électrophones.</p>
+                <p xml:id="d1e322">Ce système de classification suit une logique universaliste
+                    puisqu’il cherche à rassembler, sous des catégories bien définies, les
+                    instruments du monde entier. Il avait précisément pour objectif de répondre aux
+                    limites du système sur lequel il se fonde, celui de Victor-Charles&#160;Mahillon.
+                    Mahillon, premier conservateur du Musée instrumental de Bruxelles, avait
+                    développé, entre 1880 et 1922, un système visant à classifier les instruments.
+                    Ce système quadripartite divisait les instruments suivant la nature du matériau
+                    vibrant à l’origine de la production du son, mais ne fonctionnait pas toujours
+                    bien pour les instruments extra-européens. Sachs et Hornbostel proposent donc un
+                    système plus flexible autorisant des adaptations au fur et à mesure des
+                    évolutions, et permettant d’englober réellement les instruments de toutes les
+                    cultures du monde.</p>
+                <p xml:id="d1e324">Ce projet s’inscrit dans celui de l’école de Berlin, première
+                    école ethnomusicologique (alors nommée école de musicologie comparée) fondée au
+                    tournant du vingtième siècle par Carl&#160;Stumpf, Otto&#160;Abraham, et
+                    Erich&#160;von&#160;Hornbostel. La classification élaborée par Hornbostel et Sachs suit,
+                    tout comme les travaux des chercheurs de cette école, des ambitions
+                        comparatistes<note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> Il
+                            s’agit pour Sachs et Hornbostel d’étudier la diffusion des instruments
+                            et les manifestations de traits musicaux spécifiques dans le monde
+                            entier.</p>
+          </note>. Le projet de classification des instruments de
+                    musique du monde constitué par Hornbostel et Sachs marque, par la même occasion,
+                    l’émergence de l’organologie en tant que discipline scientifique et
+                    universitaire. Cette discipline s’affirme, à partir des années&#160;1950, par la
+                    création d’associations et de revues dédiées à l’étude des instruments de
+                    musique et par la création de chaires d’organologie et de programmes doctoraux
+                    dans plusieurs universités en Europe et aux États-Unis. </p>
+                <p xml:id="d1e331">L’organologie conçue comme discipline scientifique se développe
+                    donc certes non loin de la musicologie mais reste une discipline indépendante
+                    (voir notamment Sherwood, 1971). Un volet central de cette science se concentre
+                    en effet sur un projet typologique et taxonomique concernant les instruments de
+                    musique et l’organologie laisse ainsi de côté les phénomènes musicaux, qui
+                    constituent quant à eux, les objets de la musicologie.</p>
+            </div>
+            <div type="div1" xml:id="d1e333">
+                <head subtype="level1" xml:id="d1e334">Le musée et l’organologie, une relation
+                    symbiotique</head>
+                <p xml:id="d1e336">Si l’on considère Curt&#160;Sachs comme l’initiateur de la définition
+                    actuelle de l’organologie (c’est-à-dire la conception de l’organologie comme une
+                    discipline scientifique et universitaire), on peut alors affirmer que cette
+                    discipline est née au musée. Aussi bien Sachs que Mahillon étaient conservateurs
+                    de musée et travaillaient au catalogage des collections en même temps qu’ils
+                    développaient leur système de classification. Mahillon à Bruxelles et Sachs à
+                    Berlin, puis à Paris (au musée d’ethnographie du Trocadéro) lorsqu’il est déchu
+                    de ses positions par le régime nazi, et enfin au Metropolitan Museum de New
+                    York. La classification des instruments de musique est donc d’abord développée,
+                    comme le note Margaret&#160;Kartomi, dans l’objectif de «&#160;remédier à l’état encore
+                    quelque peu chaotique des collections d’instruments de musique&#160;» (1990, p.&#160;168).
+                    Il s’agit de donner un sens à des collections d’instruments de musique
+                    existantes, et ce travail occupera Sachs tout au long de sa carrière. C’est ce
+                    que montre notamment l’article qu’il publie en 1934 dans la revue <hi rend="italic">Mouseion</hi> intitulé «&#160;La signification, la tâche et la
+                    technique muséographique des collections d’instruments de musique&#160;» (Sachs,
+                    1934, 2003) –&#160;texte grâce auquel il devient le premier «&#160;théoricien de la
+                    muséologie musicale&#160;» (Gétreau, 2005).</p>
+                <p xml:id="d1e341">L’analyse des premiers catalogues de collections muséales
+                    d’instruments de musique publiés à la fin du dix-neuvième siècle donne une
+                    dimension historique à ce phénomène, puisqu’on peut y trouver les traces de la
+                    préparation du développement de l’organologie en tant que discipline au siècle
+                    suivant. Pour Gabriele&#160;Rossi-Rognoni, ces catalogues scientifiques sont en effet
+                    des «&#160;lieux&#160;» privilégiés de l’établissement des principaux éléments qui
+                    constituent la définition de l’organologie moderne. La création du Musée
+                    instrumental du Conservatoire de musique de Paris en 1864 (l’ancêtre de l’actuel
+                    musée de la Musique) amorce l’ouverture d’une série de musées de ce type en
+                    Europe, principalement dans les Conservatoires, et dans ce cadre, la publication
+                    de catalogues devint «&#160;une opportunité pour les conservateurs d’organiser et de
+                    présenter leurs idées sur un sujet encore en train de se définir&#160;» (2008,
+                    p.&#160;5).</p>
+                <p xml:id="d1e343">D’autres catalogues de cette époque reflètent également ce
+                    développement. C’est le cas notamment des catalogues du Musée Instrumental de
+                    Paris et du Musée des instruments de musique de Leipzig en Allemagne<note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> Ces deux musées sont
+                            les cas d’étude choisis dans le cadre de la recherche dont cet article
+                            est issu. Voir Dehail,&#160;J. (2017). <hi rend="italic">Les musées de
+                                musique à l’épreuve de leurs visiteurs. Analyse critique des normes
+                                muséales et des rapports aux </hi>savoirs. Thèse de doctorat en
+                            Sciences de l’information et de la communication, Université
+                            Paris-Sorbonne.</p>
+          </note>. Ils illustrent, au travers du positionnement
+                    de leurs auteurs vis-à-vis du nouveau système développé par Mahillon, une étape
+                    de l’installation progressive d’une certaine manière d’étudier les instruments
+                    de musique, qui se présente peu à peu comme «&#160;scientifique&#160;». Gustave&#160;Chouquet
+                    détaille ainsi, au début de son catalogue raisonné du Musée Instrumental, la
+                    façon dont il y a classé les instruments et qui correspond à celle dont les
+                    objets sont présentés dans le musée parisien à l’époque. Il les organise selon
+                    les «&#160;trois grandes catégories d’instruments de musique&#160;» que l’on a «&#160;depuis
+                    longtemps coutume d’établir&#160;»&#160;: «&#160;les instruments de percussion, les instruments
+                    à vent et les instruments à cordes&#160;», classés de manière géographique (1884,
+                    p.&#160;XI). Il justifie cependant ce choix en l’opposant au système de Mahillon<note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> Chouquet a connaissance
+                            du système de V.&#160;Mahillon. Ce dernier a en effet publié le premier
+                            volume de son catalogue en 1880, et en 1874 ses <hi rend="italic">Éléments d’acoustique </hi>musicale<hi rend="italic"> et
+                                instrumentale. </hi>Voir Mahillon,&#160;V. (1874). <hi rend="italic">Éléments d’acoustique musicale &amp; instrumentale.
+                                </hi>Bruxelles&#160;:<hi rend="italic"> </hi>C.&#160;Mahillon. Sans désigner
+                            explicitement V.&#160;Mahillon, Chouquet se positionne par rapport aux
+                            «&#160;acousticiens de nos jours&#160;» (Chouquet, 1884, p.&#160;XI).</p>
+          </note> qui se
+                    fonde quant à lui, nous l’avons vu, sur «&#160;la nature différente des corps
+                    employés comme sources sonores&#160;». S’il reconnaît que cette dernière
+                    classification se veut plus «&#160;rigoureusement scientifique&#160;», Chouquet décide de
+                    ne pas l’adopter et renonce aussi à utiliser la «&#160;nouvelle terminologie&#160;» qui y
+                    est développée et «&#160;qui embarrasserait&#160;», selon lui, «&#160;un certain nombre de
+                    lecteurs&#160;» (1884, p.&#160;XI). Georg&#160;Kinsky, conservateur de la collection Heyer –&#160;à
+                    l’origine de la création du musée de Leipzig&#160;– explique, dans le premier volume
+                    de son catalogue publié quelque vingt-cinq ans plus tard, avoir –&#160;lui aussi&#160;–
+                    connaissance du système de classification développé par Mahillon<note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p> Kinzky fait
+                            explicitement référence à l’essai de V.&#160;Mahillon sur la classification
+                            des instruments de musique. Mahillon,&#160;V. (1880). «&#160;Essai de
+                            classification méthodique de tous les instruments anciens et modernes&#160;»,
+                            pp.&#160;1-89. Le système Mahillon est de plus en plus utilisé à l’époque où
+                            G.&#160;Kinsky publie ses catalogues.</p>
+          </note> mais, pour des «&#160;raisons
+                    pratiques&#160;», avoir choisi de ne pas s’en servir pour son premier catalogue<note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> Il explique avoir
+                            l’intention de donner un aperçu de la collection selon cette
+                            classification dans son second volume (cf. Kinsky, 1912, p.&#160;9). Aucune
+                            mention de cet aperçu n’est cependant faite dans son second volume pour
+                            lequel il utilise la même classification que pour le volume précédent.
+                                <hi xml:lang="en">Voir Kinsky,&#160;G. (1910). </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Katalog. Musikhistorisches Museum von Wilhelm
+                                    Heyer in Cöln.</hi>
+              </hi>
+              <hi xml:lang="en"> Vol.&#160;1. </hi>
+              <hi rend="italic">Besaitete Tasteninstrumente, Orgeln und orgelartige
+                                Instrumente, Friktionsinstrumente</hi>. Breitkopf &amp; Härtel&#160;:
+                            Leipzig.</p>
+          </note>. Cette classification des instruments de musique est
+                    en effet, selon lui, «&#160;certes plus exacte scientifiquement mais moins claire&#160;»
+                    que la classification qu’il décide d’utiliser et qui catégorise les instruments
+                    selon «&#160;cinq ou six grands groupes&#160;». La classification, par grands groupes
+                    d’instruments qu’il choisit d’utiliser lui permet d’inclure directement dans son
+                    catalogue des liens entre les instruments et le contexte de leur développement
+                    et de décrire des circonstances de leur utilisation<note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p> La classification proposée par
+                            V.&#160;Mahillon oriente davantage la constitution du catalogue et les
+                            renseignements qui y sont fournis vers des considérations techniques
+                            autour de la fabrication des instruments et de l’acoustique
+                            musicale.</p>
+          </note>. Kinzky explique en effet avoir voulu suivre, pour
+                    son catalogue, «&#160;la tendance du musée&#160;», et ainsi avoir consciemment évité un
+                    excès de détails techniques sur la construction des instruments «&#160;qui
+                    n’intéresse que le spécialiste&#160;» pour privilégier l’histoire de la musique et de
+                    la culture (1910, p.&#160;10). Si l’adoption du nouveau système de classification
+                    développé par Mahillon n’est pas d’une évidence immédiate pour les conservateurs
+                    du tournant du vingtième siècle, on remarque cependant la notoriété qu’il a déjà
+                    acquise auprès d’eux. On peut alors voir dans la prise en compte graduelle de ce
+                    système une phase du développement d’une manière jugée scientifique d’étudier
+                    les instruments. Elle avait certes commencé dès la publication du premier
+                    catalogue raisonné d’une collection d’instruments<note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> G.&#160;Rossi-Rognoni attribue le premier
+                            catalogue à Federico Vellani qui publie en 1866 un catalogue intitulé
+                                <hi rend="italic">Raccolta di Antichi Strumenti Armonici conservati
+                                nel Liceo Musicale del Comune di Bologna</hi>, alors qu’il était
+                            secrétaire du <hi rend="italic">Liceo Musicale </hi>de Bologne (il n’y a
+                            pas de précision sur l’éditeur). Voir Rossi-Rognoni (2008, p.<hi rend="italic">&#160;</hi>6).</p>
+          </note>, mais elle s’affirme ici avec
+                    l’adoption progressive d’un nouveau degré d’abstraction dans la catégorisation
+                    des instruments, ou, comme l’écrit Chouquet pour justifier son rejet de la
+                    classification de Mahillon, d’une «&#160;simplification plus apparente peut-être que
+                    réelle&#160;» (1884, p.&#160;XI). Ces exemples illustrent autrement dit la genèse d’une
+                    «&#160;science des instruments de musique&#160;», qui ne s’institue réellement en tant que
+                    telle qu’au milieu du vingtième siècle.</p>
+            </div>
+            <div type="div1" xml:id="d1e410">
+                <head subtype="level1" xml:id="d1e411">La classification évolutive des instruments
+                    de musique</head>
+                <p xml:id="d1e413">La manière dont les conservateurs de musée de la fin du
+                    dix-neuvième siècle envisageaient les instruments de musique se fondait par
+                    ailleurs directement, comme le souligne Laurence&#160;Libin, sur le travail de
+                    Charles&#160;Darwin dans le domaine de la biologie. Cette représentation des
+                    instruments de musique prenait ainsi en compte le «&#160;concept d’une évolution
+                    biologique et technologique implicite aux systèmes de classification et aux
+                    expositions de musées typiques de la fin du dix-neuvième siècle&#160;» (2000,
+                    p.&#160;187). L’idéologie des études ou de la science des instruments de musique
+                    prend donc sa forme actuelle avec la création des musées à l’époque victorienne.
+                    Ces derniers mettaient en œuvre, comme le rappelle Libin, un programme politique
+                    paternaliste –&#160;fonctionnant en symbiose avec leurs objectifs éducationnels&#160;– qui
+                    visait à inculquer des comportements civiques à leurs visiteurs (et plus
+                    particulièrement aux visiteurs issus des classes ouvrières). Ils adoptaient de
+                    plus une posture impérialiste vis-à-vis du reste du monde, les formes les plus
+                    évoluées des instruments se trouvant, selon cette pensée, dans l’Europe
+                    d’aujourd’hui, et les formes «&#160;primitives&#160;» de ces mêmes instruments, dans les
+                    pays non européens. Libin s’appuie pour son analyse sur les écrits de la
+                    collectionneuse Crosby&#160;Brown, dont la collection d’instruments de musique est
+                    une des principales composantes à l’origine de celle du Metropolitan Museum à
+                    New York. On trouve cependant des illustrations de cette volonté de montrer une
+                    telle évolution dans d’autres catalogues de l’époque, comme le catalogue
+                    raisonné des collections du Musée Instrumental de Paris, rédigé par
+                    Gustave&#160;Chouquet, conservateur de 1871 à 1886. Chouquet y explique avoir
+                    «&#160;réservé [dans le musée] la place d’honneur aux instruments qui sont la plus
+                    haute expression de l’art moderne et relégué aux arrière-plans les instruments
+                    des nations peu civilisées ou étrangères à notre système musical&#160;». Il continue
+                    ainsi&#160;: «&#160;Par la même raison, nous avons placé dans ce Catalogue les instruments
+                    de l’Europe avant ceux de l’Asie, de l’Afrique, de l’Amérique et de l’Océanie
+                    […]&#160;» (1884, p.&#160;XII).</p>
+                <p xml:id="d1e415">La pensée muséologique était ainsi dominée par des idéaux
+                    scientifiques privilégiant les sciences naturelles et le «&#160;positivisme&#160;»
+                    d’Auguste&#160;Comte (1864), pour qui les sciences naturelles se devaient de
+                    remplacer l’Église romaine catholique comme nouvelles instigatrices de l’ordre
+                    du monde. Ce développement, qui s’accélère au dix-neuvième siècle, s’élabore
+                    notamment au travers de la construction visuelle d’un ordre spécifique, à
+                    l’intérieur d’espaces dédiés, où les objets se juxtaposent. Le musée se voit dès
+                    lors investi de la mission de promouvoir un idéal de progrès lent, de
+                    progression, par opposition au changement brusque et perturbateur qu’avaient
+                    notamment représenté les révolutions ayant secoué l’Europe en 1848-49. Les mots
+                    d’Augustus&#160;Henry&#160;Pitt-Rivers, le fondateur du Musée Pitt-Rivers à Oxford,
+                    trahissent quelque peu ces intentions socialisatrices&#160;: «&#160;Les données sur
+                    l’évolution et le processus de développement progressif constituent le vaste
+                    savoir qu’il nous appartient d’inculquer, et ce savoir peut être enseigné par
+                    les musées à condition qu’ils soient ordonnés de telle manière que ceux qui
+                    courent puissent lire –&#160;les classes ouvrières n’ont que peu de temps&#160;» (cité
+                    dans Libin, 2000, p.&#160;190). Pitt-Rivers avait lui-même commencé à collectionner
+                    des artefacts humains (des armes d’abord, puis des moyens de navigation, des
+                    objets d’art et d’ornementation, de la poterie, des outils ou encore des
+                    vêtements) dans l’idée de développer, à partir de ses collections, une théorie
+                    de l’évolution dans la culture matérielle. Celle-ci se devait d’illustrer la
+                    façon dont l’esprit humain s’était «&#160;développé du plus simple au plus complexe,
+                    et de l’homogène à l’hétérogène&#160;» (Pitt-Rivers, cité dans van&#160;Keuren, 1984,
+                    p.&#160;175) –&#160;tout en défendant l’idée selon laquelle seule la race caucasienne
+                    était capable d’atteindre l’état de civilisation. Au travers des expositions des
+                    musées qu’il avait fondés, il s’agissait de donner à voir, par l’intermédiaire
+                    de l’art matériel, un message de progrès et d’évolution, décrivant le mouvement
+                    général de l’univers aussi bien que celui de l’état social (van&#160;Keuren, 1984,
+                    pp.&#160;182-186).</p>
+                <p xml:id="d1e417">Ces notions d’évolution ont donc permis une conception du
+                    développement des instruments de musique sur le modèle des formes vivantes. On
+                    analyse les «&#160;améliorations&#160;», apportées par des compétences artistiques et un
+                    goût bonifiés, permettant aux instruments d’&#160;«&#160;évoluer&#160;». Sachs exprimait ainsi,
+                    en 1940, l’opinion que, «&#160;[i]nfluencés par l’orchestration moderne, tous les
+                    instruments ont été développés jusqu’à atteindre la plus grande efficacité
+                    technique et le meilleur rendement musical&#160;» (cité dans Libin, 2000, p.&#160;191). À
+                    la suite de Rossi-Rognoni, on peut affirmer que le système de Mahillon, sur
+                    lequel celui de Sachs se fonde, a justement été développé dans le but de
+                    (re)construire l’évolution générale des instruments de musique. Le critère qui
+                    se fonde sur le générateur sonore, choisi par Mahillon (et à sa suite par Sachs
+                    et Hornbostel) pour organiser sa classification, permettait ainsi de souligner
+                    les relations entre les instruments, «&#160;en minimisant le rôle de la provenance,
+                    de la datation et de caractéristiques “supra-structurelles” comme les
+                    décorations, la forme du corps, les matériaux qui pourraient dépendre de
+                    variations locales et par conséquent distraire de la reconstruction du processus
+                    d’évolution&#160;» (Rossi-Rognoni, 2008, p.&#160;16). Le critère géographique était donc
+                    clairement contre-productif pour mettre en évidence cette évolution puisque
+                    l’étude des instruments non européens devait permettre d’identifier «&#160;l’état
+                    embryonnaire des instruments européens modernes&#160;»<note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> Le dernier critère identifié à l’époque
+                            comme potentiellement utilisable pour fonder une classification, le
+                            critère chronologique, était jugé comme impossible à utiliser par
+                            Mahillon luimême «&#160;puisque le savoir que nous possédons sur ce sujet est
+                            encore très incomplet&#160;». Voir Rossi-Rognoni (2008)<hi rend="italic">.</hi>
+            </p>
+          </note>.</p>
+                <p xml:id="d1e426">Cette vision évolutionniste continue d’influencer largement
+                    l’approche théorique des instruments tout au long du vingtième siècle. Comme l’a
+                    souligné Ardal&#160;Powell (2006), il existe une distinction encore peu questionnée
+                    entre une approche dite scientifique des instruments, qui emploie des techniques
+                    scientifiques pour mesurer et documenter les instruments, et les études
+                    culturelles qui se concentrent sur leur conception, sur leurs significations et
+                    sur leurs usages. Cette distinction est plus exactement entretenue par l’idée
+                    que l’approche dite «&#160;scientifique&#160;» ne l’est qu’à condition qu’elle se garde de
+                    considérer toute variable imprévisible –&#160;et le culturel (au contraire de la
+                    matière) n’est précisément pas prévisible. Ce n’est qu’ainsi, dans cette
+                    logique, que l’on prétendra à une analyse «&#160;objective&#160;» de l’objet sensible
+                    étudié (2006, p.&#160;5). Par exemple, c’est dans cette optique que des outils
+                    d’analyse tels que le Brass Instrument Analysis System (surnommé BIAS) sont
+                    utilisés dans le cadre de l’étude de certains instruments de musique. BIAS a été
+                    développé dans les années 1980 par l’Institut für Wiener Klangstil à Vienne, en
+                    Autriche, dans le but d’étudier «&#160;objectivement&#160;» le son des orchestres
+                    viennois. Cet outil a ensuite été commercialisé dans les années 1990 pour aider
+                    les fabricants à améliorer leurs instruments. BIAS est qualifié d’outil
+                    «&#160;objectif&#160;» car, contrôlé par un ordinateur, il permet de mesurer les
+                    propriétés acoustiques d’un instrument sans l’intervention d’un musicien. Ses
+                    prédécesseurs, comme l’outil développé par la compagnie Conn sous les directives
+                    de Earle&#160;Kent et surnommé «&#160;Hot Lips Harry&#160;», avaient également pour but
+                    d’établir des standards pour juger les sons émis par les instruments et ainsi de
+                    «&#160;mieux définir la terminologie musicale puisqu’elle se rapporte aux sons&#160;»
+                    (Banks, 2010). «&#160;Hot Lips Harry&#160;» était une embouchure artificielle pour jouer
+                    et tester les cuivres, spécialement conçue pour éviter le «&#160;souffle
+                    préjudiciable&#160;» du musicien. Au travers de ces outils et de l’approche qu’ils
+                    mettent en œuvre, l’instrument est considéré au mieux comme un objet
+                    théoriquement acoustique –&#160;que l’on va représenter par un ensemble de mesures&#160;–
+                    tout en évitant méticuleusement de prendre en compte la manière dont cet objet
+                    matériel peut s’inscrire dans une pratique culturelle.</p>
+            </div>
+            <div type="div1" xml:id="d1e428">
+                <head subtype="level1" xml:id="d1e429">Vers une «&#160;nouvelle&#160;» organologie&#160;? Quelques
+                    perspectives actuelles</head>
+                <p xml:id="d1e431">On constate ainsi que la construction de la science des
+                    instruments de musique –&#160;l’organologie&#160;– doit beaucoup à l’espace qui l’a vu
+                    naître, le musée. En se constituant directement à partir des collections de
+                    musées, cette discipline s’est donné pour objectif d’y instaurer un ordre,
+                    qu’elle a naturellement calqué sur celui qui caractérisait déjà le musée. Cet
+                    ordre était celui de la marche du progrès, de l’évolution du plus simple au plus
+                    complexe, du «&#160;sauvage&#160;» au «&#160;civilisé&#160;». Les instruments de musique ont pour
+                    cela été classés selon des catégories, qui, afin de permettre cette
+                    construction, ont évincé les données culturelles ou musicales. L’objectif était
+                    en effet double&#160;: au-delà de la volonté de rendre cette évolution apparente, il
+                    s’agissait de développer une étude des instruments de musique que l’on puisse
+                    qualifier de «&#160;scientifique&#160;» – engendrant l’évacuation de toute donnée
+                    imprévisible et non mesurable. L’organologie qui se construisait au musée a donc
+                    fait entrer les instruments de musique dans des catégories qui, parce qu’elles
+                    se voulaient objectives et reproductibles, ont exclu ce qui dans l’instrument se
+                    rapportait à la manière dont il était inséré dans le «&#160;concret de la vie&#160;»
+                    (Chaumier, 2010, p.&#160;1). Au musée, cette exclusion permet la transformation de
+                    l’instrument de musique en un objet auquel on a soustrait sa fonction d’usage
+                    pour lui faire acquérir une valeur symbolique une fois présenté dans
+                    l’exposition.</p>
+                <p xml:id="d1e433">Le manque qui résulte de cette «&#160;mise à nu&#160;» de l’instrument, de
+                    sa scission d’avec les pratiques qui le reliaient au monde est déploré
+                    aujourd’hui par une nouvelle génération d’ethnomusicologues et d’organologues
+                    qui tentent de concevoir une science des instruments qui penserait ces derniers
+                    en premier lieu au travers de leur caractère social et culturel. Leur travail,
+                    influencé, entre autres, par le tournant matériel en musicologie et le
+                    développement des <hi rend="italic">Sound Studies</hi>, appelle à décloisonner
+                    musique et sciences (et leurs objets) dans les représentations du monde et de
+                    l’histoire, notamment au musée. Il s’agit en effet d’élaborer une «&#160;nouvelle
+                    organologie&#160;» (ou «&#160;organologie critique&#160;») réconciliant, d’un point de vue
+                    théorique, l’approche matérielle et l’approche culturelle des instruments, tout
+                    en les inscrivant dans une analyse de la culture. Les auteurs qui développent
+                    cette approche (voir notamment Bates, 2012&#160;; Roda, 2007&#160;; Sonevytsky, 2008&#160;;
+                    Wood et Dolan, 2014) réprouvent les pratiques d’exposition des instruments au
+                    musée qui reflètent la vision unique de l’instrument dans laquelle l’organologie
+                    l’a figé. La démarche consiste alors à débrider le rôle sémantique de
+                    l’instrument, à la fois au sein de l’exposition muséale et dans les analyses
+                    (ethno)musicologiques. De simple preuve matérielle dans un raisonnement
+                    universaliste, l’instrument se meut en prisme permettant l’analyse d’une culture
+                    musicale particulière. Cette ambition de décloisonnement entre disciplines (et
+                    ainsi de réforme de l’organologie) pour repenser la constitution des savoirs de
+                    la musique est entendue, dans une certaine mesure, par les conservateurs de
+                    musées d’instruments de musique qui se saisissent de ces questionnements pour
+                    les travailler depuis le musée<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> À titre d’exemple, on peut citer la conférence «&#160;Musical
+                            Instruments and Material Culture&#160;» organisée en 2015 au Horniman Museum
+                            à Londres.</p>
+          </note>. De nombreux projets d’exposition témoignent ainsi
+                    du fait que la recherche et la réflexion sur les savoirs et leur caractère
+                    composite n’ont pas pour seul terreau les laboratoires universitaires&#160;: elles
+                    s’élaborent aussi au sein des institutions muséales<note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> Afin de rester sur le terrain de la
+                            musique (même si des exemples existent dans d’autres types de musées),
+                            on citera ici l’exemple du musée des musiques populaires de Montluçon
+                            (le MuPoP) dont l’équipe de conservation était parvenue à faire intégrer
+                            entièrement, dans les collections du musée, le studio de répétition d’un
+                            groupe de rock&#160;: des instruments de musique, aux cendriers pleins, en
+                            passant par les canettes de bières vides négligemment posées par les
+                            musiciens du groupe. Pour l’équipe du musée, il s’agissait là de
+                            travailler à une élaboration de savoirs musicaux et une représentation
+                            de la musique qui prenne en compte sa dimension sociale (les
+                            interactions entre les musiciens, les rencontres autour des répétitions,
+                            les habitudes liées à la pratique de la musique en groupe, etc.). Voir
+                            Touché,&#160;M. (2007). Muséographier les musiques électroamplifiées. Pour
+                            une socio-histoire du sonore. <hi rend="italic">Terrain,</hi>
+                            <hi rend="italic">141</hi>(2), 97-141.</p>
+          </note>, et au travers de
+                    collaborations entre recherche et musée<note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p> La discipline de la muséologie est à ce titre
+                            exemplaire. Elle a pris depuis longtemps en charge l’approfondissement
+                            de problématiques concernant le rôle du musée dans l’élaboration des
+                            savoirs (voir notamment Davallon, 2006), souvent en collaboration
+                            étroite avec des professionnels de musées.</p>
+          </note>.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e463">
+                <listBibl xml:id="d1e465">
+                    <bibl xml:id="d1e467">
+                        <hi xml:lang="en">Banks, M. D. (2010). Dynamic Research: Erle L. Kent and
+                            Conn’s Research Deparment. Newsletter du National Music Museum. </hi>
+                        <ref target="http://orgs.usd.edu/nmm/News/Newsletter/August2010/ConnResearch.html#Harry">
+                            <hi xml:lang="en">http://orgs.usd.edu/nmm/News/Newsletter/August2010/ConnResearch.html#Harry</hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e473">
+            <hi xml:lang="en">Bates, E. (2012). The Social Life of
+                            Musical Instruments. </hi>
+            <hi rend="italic">Ethnomusicology,</hi>
+                        <hi rend="italic">56</hi>(3), 363-395.</bibl>
+                    <bibl xml:id="d1e482">Chaumier S. (2010.) L’objet de Musée. Dossier documentaire
+                        réalisé dans le cadre de l’exposition <hi rend="italic">L’objet
+                            collectionné, au Musée de la vie bourguignonne de Dijon</hi>.</bibl>
+                    <bibl xml:id="d1e487">Chouquet, G. (1884). <hi rend="italic">Le musée du
+                            Conservatoire national de Musique. Catalogue descriptif et
+                        raisonné</hi>. Nouvelle édition, ornée de figures, Paris. Réédité&#160;:
+                        Chouquet, G. (1993). <hi rend="italic">Le musée du Conservatoire de Musique
+                            avec les I</hi>
+            <hi rendition="#style01">
+              <hi rend="italic">er</hi>
+            </hi>
+            <hi rend="italic">, II</hi>
+            <hi rendition="#style01">
+              <hi rend="italic">e</hi>
+            </hi>
+            <hi rend="italic"> et III</hi>
+            <hi rendition="#style01">
+              <hi rend="italic">e</hi>
+            </hi>
+            <hi rend="italic">
+                            suppléments par Léon Pillaut</hi>, Introduction et Index par Florence
+                        Gétreau. Genève&#160;: Minkoff.</bibl>
+                    <bibl xml:id="d1e510">Comte, A. (1864). <hi rend="italic">Cours de philosophie
+                            positive</hi>. Paris&#160;: Bachelier.</bibl>
+                    <bibl xml:id="d1e515">Davallon, J. (2006). <hi rend="italic">Le Don du
+                            patrimoine&#160;: une approche communicationnelle de la patrimonialisation.
+                        </hi>Paris&#160;: Hermès Sciences-Lavoisier.</bibl>
+                    <bibl xml:id="d1e520">Davies, J. Q. &amp; Lockhart H. (dir.) <hi xml:lang="en">(2016). </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Sound knowledge: Music
+                                and Science in London 1789-1851. </hi>
+            </hi>
+            <hi xml:lang="en">Chicago: The University of Chicago Press.</hi>
+          </bibl>
+                    <bibl xml:id="d1e529">Dehail, J. (2017). <hi rend="italic">Les musées de musique
+                            à l’épreuve de leurs visiteurs. Analyse critique des normes muséales et
+                            des rapports aux savoirs</hi>. Thèse de doctorat en Sciences de
+                        l’information et de la communication, Université Paris-Sorbonne.</bibl>
+                    <bibl xml:id="d1e534">
+                        <hi xml:lang="en">Gétreau, F. (2005). Curt Sachs as a theorist for music
+                            museology. In Z.&#160;Blazekovic &amp; B.&#160;Dobbs Mackenzie (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Music’s Intellectual History: Founders, Followers
+                                &amp; Fads</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;303-313). New York: RILM Perspective Series.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e542">
+                        <hi xml:lang="en">Kartomi, M. J. (1990). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">On concepts and classifications of musical
+                                instruments</hi>
+                        </hi>
+                        <hi xml:lang="en">. Chicago, London: The University of Chicago Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e551">
+                        <hi xml:lang="en">Keuren, D. K. (van) (1984). Museums and Ideology: Augustus
+                            Pitt-Rivers, Anthropological Museums, and Social Change in Later
+                            Victorian Britain. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Victorian Studies</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">28</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 171-189.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e564">
+                        <hi xml:lang="en">Kinsky, G. (1910). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Katalog. Musikhistorisches Museum von Wilhelm Heyer in
+                                Cöln, Vol. 1:</hi>
+                        </hi>
+                        <hi xml:lang="en"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Besaitete Tasteninstrumente, Orgeln und orgelartige
+                                Instrumente, Friktionsinstrumente</hi>
+                        </hi>
+                        <hi xml:lang="en">. Leipzig: Breitkopf &amp; Härtel.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e577">
+                        <hi xml:lang="en">Kinsky, G. (1912). Musikhistorisches Museum von Wilhelm
+                            Heyer. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Cöln. Katalog von Georg Kinsky Konservator des
+                                Museums. </hi>
+                        </hi>
+                        <hi xml:lang="en">Vol.&#160;2.</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en"> Zumpf- und Streichinstrumente</hi>
+                        </hi>
+                        <hi xml:lang="en">. Leipzig: Breitkopf &amp; Härtel.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e590">
+                        <hi xml:lang="en">Libin, L. (2000). Progress, Adapation, and the Evolution
+                            of Musical Instruments. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal of the Americal Musical Instrument
+                                Society</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">26</hi>
+                        </hi>
+                        <hi xml:lang="en">, 187-213.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e603">
+            <hi xml:lang="en">Mahillon, V.-C. (1893). </hi>
+            <hi rend="italic">Catalogue descriptif et analytique du Musée Instrumental
+                            du Conservatoire Royal de Musique de Bruxelles</hi>, avec un essai de
+                        classification méthodique de tous les instruments anciens et modernes<hi rend="italic">, </hi>deuxième édition. Gand: Hoste.</bibl>
+                    <bibl xml:id="d1e612">Mahillon, V.-C. (1874). <hi rend="italic">Éléments
+                            d’acoustique musicale &amp; instrumentale. </hi>Bruxelles&#160;:<hi rend="italic"> </hi>C. Mahillon.</bibl>
+                    <bibl xml:id="d1e620">
+            <hi xml:lang="en">Powell, A. (2006). Change lays not her
+                            hand: Organology and the museum. </hi>Présentation lors de la 35<hi rendition="#style01">e</hi> conférence de l’American Musical Instrument
+                        Society en collaboration avec la Galpin Society et le CIMCIM. <hi xml:lang="fr">Vermillion SD, États-Unis.&#160;Consulté à&#160;</hi>
+            <ref target="https://www.academia.edu/6461804/Change_lays_not_her_hand_Organology_and_the_museum">https://www.academia.edu/6461804/Change_lays_not_her_hand_Organology_and_the_museum</ref>
+          </bibl>
+                    <bibl xml:id="d1e631">
+                        <hi xml:lang="en">Roda, A. (2007). Toward a New Organology: Material Culture
+                            and the Study of Musical Instruments. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Material World Blog</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Consulté à&#160;</hi>
+                        <ref target="http://www.materialworldblog.com/2007/11/toward-a-new-organology-material-culture-and-the-study-of-musical-instruments/">
+                            <hi xml:lang="fr">http://www.materialworldblog.com/2007/11/toward-a-new-organology-material-culture-and-the-study-of-musical-instruments/</hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e644">
+                        <hi xml:lang="en">Rossi-Rognoni, G. (2008). The development of Organology as
+                            a discipline through early museum catalogues., Document non publié. </hi>
+                        <ref target="https://www.academia.edu/8690501/The_Development_Of_Organology_as_a_Discipline_Through_Early_Museum_Catalogues">
+                            <hi xml:lang="en">https://www.academia.edu/8690501/The_Development_Of_Organology_as_a_Discipline_Through_Early_Museum_Catalogues</hi>
+                        </ref>
+                        <hi xml:lang="en"> </hi>
+                    </bibl>
+                    <bibl xml:id="d1e652">Sachs, C. (2003). La signification, la tâche et la
+                        technique muséographique des collections d’instruments de musique. <hi rend="italic">
+              <hi xml:lang="en">Cahiers d’ethnomusicologie,</hi>
+            </hi>
+            <hi xml:lang="en"> </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">16</hi>
+            </hi>
+            <hi xml:lang="en">, 11-41.</hi>
+          </bibl>
+                    <bibl xml:id="d1e664">
+                        <hi xml:lang="en">Sherwood, T. (1971). Definition of organology. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Galpin Society Journal</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">24</hi>
+                        </hi>
+                        <hi xml:lang="en">, 124.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e678">
+            <hi xml:lang="en">Touché, M. (2007). </hi>Muséographier
+                        les musiques électroamplifiées. Pour une socio-histoire du sonore. <hi rend="italic">
+              <hi xml:lang="en">Terrain,</hi>
+            </hi>
+            <hi xml:lang="en"> </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">141</hi>
+            </hi>
+            <hi xml:lang="en">(2), 97-141.</hi>
+          </bibl>
+                    <bibl xml:id="d1e692">
+                        <hi xml:lang="en">Wood, J. &amp; Dolan, E. (2014). Perspectives on Critical
+                            Organology. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Newsletter of the American Musical Instrument Society,
+                                43</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 14-16.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

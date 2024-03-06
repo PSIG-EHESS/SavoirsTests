@@ -1,0 +1,341 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_4279_Beltrame">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Cataloguer, indexer, encoder</title>
+                <title type="sub">Ou comment les données prennent vie</title>
+                <title level="a" type="alt" xml:lang="en">Cataloguing, Indexing and Encoding. How Data Come to Life</title>
+                <title level="a" type="alt" xml:lang="es">Catalogar, indexar, codificar. O cómo los datos toman vida</title>
+                <author>
+                    <persName>
+                        <forename>Tiziana&#160;Nicoletta</forename>
+                        <surname>Beltrame</surname>
+                    </persName>
+                    <affiliation> Docteure en ethnologie, affiliée au Laboratoire d’Ethnologie et Sociologie Comparative (LESC-CNRS) et au Département «&#160;Uomo e Territorio&#160;» de l’Université de Pérouse (Italie), sa thèse intitulée «&#160;Ethnographie de la patrimonialisation. Numériser, inventorier et classer la collection du musée du quai Branly&#160;» porte sur la reconfiguration de la collection muséale par le biais de l’informatisation du système documentaire et de gestion des objets. Elle a publié plusieurs articles sur ce thème, et collabore également avec la plate-forme «&#160;Artmap&#160;», qui réunit des anthropologues, des historiens de l’art et des sciences et des praticiens expérimentant de nouveaux modes d’appréhension du milieu ambiant et de la culture matérielle.Adresse&#160;: LESC, Maison René-Ginouvès, 21, allée de l’Université, FR-92023 Nanterre Cedex, (France).Courriel&#160;:<hi rend="italic"> </hi>tiziana.beltrame[at]u-paris10.fr </affiliation>
+                </author>
+                <author>
+                    <persName>
+                        <forename>Christine</forename>
+                        <surname>Jungen</surname>
+                    </persName>
+                    <affiliation> Anthropologue, elle est chargée de recherche CNRS au IIAC-LAU (EHESS/CNRS). Après avoir travaillé sur les enjeux et les pratiques de l’hospitalité dans le Sud jordanien (<hi rend="italic">Politique de l’hospitalité dans le Sud jordanien</hi>, Paris&#160;; Beyrouth: Karthala&#160;; IFPO, 2009), elle poursuit aujourd’hui ses recherches au Moyen-Orient sur l’écriture de l’histoire et les dispositifs documentaires spécifiques à partir desquels celle-ci est produite, dans le cadre, plus largement, d’une réflexion sur les pratiques du savoir et les relations aux environnements matériels qui s’y constituent.Adresse&#160;: Institut interdisciplinaire d’anthropologie du contemporain, Laboratoire d’anthropologie urbaine, 27, rue Paul-Bert, FR-94204 Ivry-sur-Seine Cedex (France).Courriel&#160;:<hi rend="italic"> </hi>christine.jungen[at]cnrs.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>knowledge production</item>
+                        <item>digital</item>
+                        <item>data</item>
+                        <item>systems</item>
+                        <item>accumulation</item>
+                        <item>information infrastructure</item>
+                        <item>material culture</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>production de connaissances</item>
+                        <item>numérique</item>
+                        <item>dispositif</item>
+                        <item>donnée</item>
+                        <item>accumulation</item>
+                        <item>infrastructure informationnelle</item>
+                        <item>culture matérielle</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>producción de conocimientos</item>
+                        <item>digital</item>
+                        <item>dispositivo</item>
+                        <item>datos</item>
+                        <item>acumulación</item>
+                        <item>infraestructura de información</item>
+                        <item>cultura material</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Cataloguer, indexer, encoder</titlePart>
+                    <titlePart type="sub">Ou comment les données prennent vie</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Tiziana&#160;Nicoletta Beltrame</docAuthor>
+                    <docAuthor>Christine Jungen</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e295">
+                <p xml:id="d1e296">L’article se penche sur la production et la manipulation de dispositifs de gestion de l’accumulation. Il entre dans les infrastructures conçues pour mettre en ordre et rendre accessible l’accumulation des connaissances par la clé de la matérialité et s’interroge sur les productions, configurations et manipulations in situ d’informations, de données, d’inscriptions. Les problèmes et enjeux de ces dispositifs se situent à la croisée de plusieurs champs de réflexion, notamment la taxinomie, la fabrication des données et de la production de standards, l’écologie des infrastructures informationnelles et la coopération entre communautés de pratique. Les technologies de l’information et de la communication sur laquelle reposent les économies de la société de l’information se fondent sur des équipements qui amplifient la diffusion, le stockage et l’organisation d’agrégats hétéroclites. Ces équipements sont des structures invisibles mais éminemment politiques de la production des connaissances. La perspective adoptée hérite de l’anthropologie des cultures matérielles autant que de l’attention portée aux ontologies et aux modes de présence des humains et non humains. Il s’agit de réinscrire les techniques numériques de stockage des connaissances dans un ensemble de pratiques de gestion documentaire dont la liste, l’inventaire ou le catalogue, la fiche ou l’imprimé. Ces technologies numériques sont dotées d’une matérialité dont il s’agit d’explorer les propriétés et les spécificités. Elles constituent des lieux d’exercice de politiques de contrôle en même temps que les données constituent des environnements dotés d’une texture spécifique qui agissent en retour sur les structures normatives dans lesquels elles s’inscrivent.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e298">
+                <p xml:id="d1e299">
+                    <hi xml:lang="en">The article looks at the production and manipulation of accumulation management systems. It enters into the infrastructures designed to put in order and make accessible the accumulation of knowledge through their materiality and questions the productions, configurations and manipulations of information, data and inscriptions. The problems and issues at stake in these systems lie at the crossroads of several fields of reflection, including taxonomy, data and standards production, the ecology of information infrastructures and cooperation between communities of practice. The information and communication technologies on which the information society is based are based on equipment that amplifies the dissemination, storage and organization of heterogeneous aggregates. These systems of knowledge production are invisible but highly political. The perspective adopted inherits as much from the anthropology of material cultures as from the attention paid to ontologies and modes of human and non-human presence. The aim is to situate digital techniques for storing knowledge into a set of document management practices, including listing, inventory or catalogue, card or print. These digital technologies are endowed with a materiality whose properties and specificities must be explored. They constitute places for exercising control policies at the same time as data constitute environments with a specific texture that act in return on the normative structures in which they are inscribed.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e302">
+                <p xml:id="d1e303">
+                    <hi xml:lang="es">El artículo examina la producción y el manejo de los sistemas de gestión de la acumulación. Entra en las infraestructuras destinadas a ordenar y hacer accesible la acumulación de conocimientos a través de la materialidad y cuestiona las producciones, configuraciones y manipulaciones de información, datos e inscripciones. Los problemas y cuestiones en juego se encuentran en el encuentro de varios campos de reflexión, entre ellos la taxonomía, la producción de datos y normas, la ecología de las infraestructuras de información y la cooperación entre comunidades de práctica. Las tecnologías de la información y las comunicaciones en que se basan la sociedad de la información se basan en un equipo que amplía la difusión, el almacenamiento y la organización de agregados heterogéneos. Estas instalaciones son estructuras invisibles pero altamente políticas de producción de conocimiento. La perspectiva adoptada hereda tanto de la antropología de las culturas materiales como de la atención prestada a las ontologías y modos de presencia humana y no humana. El objetivo es reinscribir las técnicas digitales de almacenamiento de conocimientos en un conjunto de prácticas de gestión de documentos que incluyen la elaboración de listas, inventarios o catálogos, tarjetas o impresos. Estas tecnologías digitales están dotadas de una materialidad cuyas propiedades y especificidades deben ser exploradas. Constituyen lugares de ejercicio de políticas de control al mismo tiempo que los datos constituyen entornos con una textura específica que actúan a cambio en las estructuras normativas en las que están inscritos. </hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e310">En quoi est-il<hi rend="italic"> compliqué </hi>de traiter numériquement des êtres humains&#160;? Par quels indices est<hi rend="italic"> instaurée </hi>une population de loups&#160;? Comment des tags<hi rend="italic"> agissent</hi>-ils sur une photographie&#160;? Ce sont quelques-unes des questions abordées dans ce dossier, dont l’objet est d’examiner la production et la manipulation de dispositifs de gestion de l’accumulation. Le parti adopté ici est simple&#160;: entrer dans les infrastructures conçues pour mettre en ordre et rendre accessible l’accumulation des connaissances –&#160;catalogues, banques de données, inventaires, index&#160;– par la clé de la matérialité&#160;; s’interroger sur les productions, configurations et manipulations<hi rend="italic"> in situ </hi>d’informations, de données, d’inscriptions.</p>
+            <p xml:id="d1e324">Les problèmes et enjeux des dispositifs de gestion des ressources documentaires se situent à la croisée de plusieurs champs de réflexion&#160;: citons, en vrac, celui de la taxinomie et des catégorisations opérant sur le monde&#160;; celui de la fabrication des données et de la production de standards&#160;; celui de l’écologie des infrastructures informationnelles, et plus largement, des «&#160;objets-frontières&#160;» comme lieu d’articulation et de coopération entre communautés de pratique. Ces sujets et les débats qui s’y rattachent ayant très largement été exposés au cours de ces dernières années dans la<hi rend="italic"> Revue d’anthropologie des connaissances</hi>
+        <note type="standard" xml:id="ftn1" place="foot" n="1">
+          <p> On renvoie ici aux dossiers qui ont été consacrés à ces différents sujets&#160;: Faugère &amp; Mauz, 2013 sur la taxinomie&#160;; Milanovic, 2011 sur les ressources biologiques&#160;; Trompette et Vinck, 2009 et 2010 sur l’objet-frontière&#160;; Denis &amp; Pontille, 2012a sur les «&#160;petites mains&#160;» de l’information.</p>
+        </note>, nous focalisons ici le propos sur les lignes directrices qui ont présidé à la constitution de ce dossier, et proposons quelques clés de lecture –&#160;non exhaustives bien sûr&#160;– des contributions qui le composent<note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p> Ce dossier est le fruit d’une réflexion qui a été engagée lors des Journées d’études «&#160;Manipuler, accommoder, ranger. Catalogues, inventaires et bases de données&#160;» (1-2&#160;mars 2010, Musée du Quai Branly) qui se sont tenues dans le cadre du programme ANR «&#160;Archiver. Les pratiques historiographiques dans le Moyen-Orient contemporain&#160;» (IISMM, EHESS).</p>
+        </note>.</p>
+            <p xml:id="d1e337">Thésauriser, classer et redistribuer des données à des échelles de plus en plus grandes est une des caractéristiques des pratiques de savoir dans le monde contemporain. Les technologies de l’information et de la communication sur laquelle reposent aujourd’hui les économies de cette «&#160;société de l’information&#160;» se fondent sur des équipements qui génèrent une amplification à grande échelle de la diffusion, de la capacité de stockage, mais aussi, plus largement, d’organisation d’agrégats souvent hétéroclites. Rendus possibles par l’articulation et la coordination d’une grande variété de dispositifs et d’opérations, par la catégorisation et la normalisation de matières diverses en «&#160;données&#160;» et en «&#160;informations&#160;» redistribuables, ces équipements font partie de ces structures, aussi invisibles qu’éminemment politiques, de la production des connaissances (Bowker, 2000&#160;; Bowker &amp; Star, 1999).</p>
+            <p xml:id="d1e339">La nécessité de produire des outils permettant de gérer des masses de données de plus en plus considérables a conduit à des mutations profondes dans les modes d’organisation et d’accès des ressources documentaires, et plus largement du savoir. De la liste, au catalogue, à la base de données, les dispositifs pour gérer l’assemblage d’objets, de connaissances, de données, d’informations se sont ainsi progressivement multipliés, transformés, complexifiés. Index, inventaires, banques de données et collections numériques, répertoires, moteurs de recherche, tables, logiciels de gestion forment ainsi aujourd’hui un ensemble dialogique de structures physiques et numériques répondant à un objectif commun&#160;: accommoder des éléments au sein d’ensembles, les ranger, les retrouver.</p>
+            <p xml:id="d1e341">Dans la continuité des travaux qui ont souligné, à rebours de l’appréhension du classement comme opération relevant exclusivement de l’intellect, le rôle central de la matérialité dans les pratiques de rassemblement, d’agencement et d’organisation des ressources documentaires et informationnelles (Baratin &amp; Jacob, 1996&#160;; Denis &amp; Pontille 2012a&#160;; Gardey, 2008&#160;; Jacob, 2011&#160;; Ruhleder, 1995), ce dossier aborde la fabrication et la manipulation de ces dispositifs comme des artefacts à part entière, dotés de matérialités singulières qui agissent sur le travail d’accumulation, de classement, de catégorisation et de configuration de ces ressources. La perspective adoptée ici doit beaucoup, également, au renouvellement récent de l’anthropologie des cultures matérielles (Ingold, 2007, 2011) autant qu’à celui d’une attention portée aux paradigmes ontologiques et aux modes de présence des humains et non humains, leur manière d’&#160;«&#160;être-au-monde&#160;» (Ingold, 2000&#160;; Piette, 2009, 2010&#160;; Stengers &amp; Latour, 2009)&#160;: en choisissant d’aborder les dispositifs de gestion de l’accumulation par leurs textures matérielles, en cadrant la focale sur les opérations empiriques d’accommodement, d’attachement, de tissage de matériaux effectués par des techniciens, praticiens et concepteurs, le propos est, ici, de saisir des objets –&#160;et des<hi rend="italic"> êtres</hi>&#160;– plutôt que des données, des<hi rend="italic"> accommodements </hi>plutôt que des classifications, des<hi rend="italic"> environnements </hi>plutôt que des catégories.</p>
+            <div type="div1" xml:id="d1e352">
+                <head subtype="level1" xml:id="d1e353">De la liste à la base de données&#160;: la domestication technique de l’accumulation</head>
+                <p xml:id="d1e355">De la liste, forme d’énumération méthodique, à la base de données fondée sur la mise en relation, les modalités d’agencement de l’information se sont profondément transformées au cours du temps. Il n’est pas inutile, dans ce cadre, de revenir sur la diversité des dispositifs matériels qui ont précédé l’avènement, dans l’histoire occidentale, de l’ère informatique.</p>
+                <p xml:id="d1e357">Qu’est-ce qu’exactement une liste&#160;? Jack Goody, dans son examen des techniques d’écriture en Mésopotamie ancienne, en avait rappelé quelques principes&#160;:</p>
+                <q rend="quotation">La liste implique discontinuité et non-continuité. Elle suppose un certain agencement matériel, une certaine disposition spatiale&#160;; elle peut être lue en différents sens, latéralement et verticalement, de haut en bas comme de gauche à droite, ou inversement&#160;; elle a un commencement et une fin bien marqués, une limite, un bord, tout comme une pièce d’étoffe. Elle facilite, c’est le plus important, la mise en ordre des articles par leur numérotation, par le son initial ou par catégories. Et ces limites, tant externes qu’internes, rendent les catégories plus visibles et en même temps plus abstraites. (Goody, 1986, p.&#160;150)</q>
+                <p xml:id="d1e361">Comme le souligne Goody, la liste se distingue par un formatage visuel et matériel des informations –&#160;la disposition sur la tablette, la finitude, mais aussi la mise en ordre et la hiérarchisation auxquelles donne lieu le dispositif de l’énumération&#160;– intimement lié au traitement des données ainsi agencées&#160;:<hi rend="italic"> discontinuité </hi>des informations –&#160;on découpe, on retranche, on ordonne en séparant&#160;– et<hi rend="italic"> linéarité </hi>constituent ainsi dans l’opération de fabrication d’une liste les principes formels des catégories et de ce qu’elles contiennent.</p>
+                <p xml:id="d1e369">L’histoire des techniques de gestion de l’accumulation est indissociable de celle de ses supports matériels. Aux listes et premiers catalogues sur tablettes d’argile de la Mésopotamie ancienne succèdent les catalogues sous forme de rouleaux de la Grèce antique. De même que la liste agence et contraint des modes précis d’organisation du savoir, le format du livre, rouleau puis codex à la fin de l’Antiquité, implique des modes d’écriture, de lecture, et d’&#160;«&#160;arts de mémoire&#160;» précis, comme le rappelle Christian Jacob&#160;:</p>
+                <q rend="quotation">Le livre médiéval, sous forme de codex, a pu donner lieu à des arts de mémoire sophistiqués, reposant parfois sur une analogie étroite entre la configuration matérielle d’une page précise et son image intériorisée, sa “photocopie mentale” (différents espaces d’écriture à l’intérieur de la page, miniature, couleurs, lettre initiale enluminée, etc.). Le rouleau de papyrus alexandrin n’offrait que la succession linéaire de colonnes d’écritures sans séparation des mots, avec des repères visuels beaucoup moins prégnants […] (Jacob, 1996, p.&#160;57)</q>
+                <p xml:id="d1e373">L’avènement de la mécanisation des techniques d’écriture, en premier lieu celui de l’imprimerie induit de nouvelles formes de rationalisation des connaissances&#160;: l’imprimerie fixe physiquement les écrits du passé, standardise les textes, permet leur diffusion dans l’espace public (Eisenstein, 1991). Cette profonde transformation que connaît l’Europe moderne dans ses pratiques de l’écrit est suivie, au XIX<hi rend="sup">e</hi>&#160;siècle, par ce que Delphine Gardey a appelé la «&#160;révolution de papier&#160;», au cours de laquelle</p>
+                <q rend="quotation">[…] un monde s’invente dans cette frénésie mécanicienne, la multiplication des accessoires, les transferts et correspondances de matériels et de formats autorisant une profusion nouvelle de lettres et de chiffres. Un monde s’invente parce que le rapport au monde, le mode d’agir, les<hi rend="italic"> possibilités d’intervention sur le monde </hi>sont transformés&#160;: ces médiations mécaniques et de papier, ces ordonnancements, ce tramage chiffré, ces quadrillages reconfigurent les formes d’activité, permettent de les redéployer et produisent une grandeur nouvelle du capitalisme et du gouvernement. (Gardey, 2008, p.&#160;9)</q>
+                <p xml:id="d1e383">Mise en liste, quadrillage, standard&#160;: ces «&#160;économies de l’écrit&#160;» qui produisent autant de modes d’&#160;«&#160;intervention sur le monde&#160;» ont ainsi fait l’objet d’une sédimentation successive, à partir de laquelle a pu se déployer la révolution numérique et les changements que celle-ci a amenés dans nos pratiques de gestion de l’information.</p>
+                <p xml:id="d1e385">De ce point de vue, le souci de ce dossier est double&#160;: réinscrire, d’une part, les techniques digitales de stockage des connaissances dans un ensemble de pratiques de gestion documentaire dont la liste, l’inventaire ou le catalogue, la fiche ou l’imprimé constituent à la fois des formes complémentaires ou alternatives aux technologies informatiques. Restituer, d’autre part, à ces technologies et aux univers propres qu’elles font émerger leur matérialité&#160;: nous partons ici du principe que les bases de données numériques, au même titre que les tablettes en argile sumériennes, les catalogues en rouleau de papyrus, les imprimés, formulaires ou fiches papier sont, à rebours des discours sur la «&#160;dématérialisation&#160;», dotés d’une matérialité dont il s’agit d’explorer les propriétés et les spécificités.</p>
+            </div>
+            <div type="div1" xml:id="d1e387">
+                <head subtype="level1" xml:id="d1e388">Des propriétés de la matière</head>
+                <p xml:id="d1e390">Une première remarque s’impose à ce stade&#160;: une multiplicité de formats et supports matériels cohabitent aujourd’hui, sont manipulés concurremment les uns avec les autres. La constitution de dispositifs de gestion des données donne ainsi lieu à un travail incessant de coordination entre différents supports, de va-et-vient, à des opérations de traduction, de translation d’un support à l’autre. Plusieurs contributions font état des chaînes opératoires dans lesquelles s’enchaînent et s’alternent, de manière plus ou moins fluide, des séries<hi rend="italic"> </hi>d’inscriptions&#160;: de celles portées manuellement sur un formulaire ou une fiche jusqu’aux codes entrés dans une base de données, qu’il s’agisse d’herbiers ou de matériaux biologiques à faire «&#160;entrer&#160;» dans une base de données (Lorna Heaton et Florence Millerand), de symptômes de maladie à modeler en code d’un logiciel de gestion (Pierre-André Juven), ou de traces animales à muter en outil statistique (Antoine Doré). De ce point de vue, les infrastructures de gestion de collections et de données, si elles peuvent se lire comme l’aboutissement d’un travail d’extraction, de traduction et de réduction (Latour, 1996), forment également, dans le même temps, des collectifs de coordination de matériaux multiples dont le dispositif final –&#160;la base de données&#160;– ne constitue que la composante la plus visible.</p>
+                <p xml:id="d1e395">Cette question de la coordination et de la distribution, lors de la constitution des bases et catalogues, de matériaux hétérogènes appelle à revenir sur le problème de la saisie de la matérialité et de ses enjeux. Tim Ingold émet une critique corrosive d’une tradition d’anthropologie de la matérialité qui, remarque-t-il, s’est tant préoccupée de<hi rend="italic"> matérialité </hi>qu’elle n’a, finalement, que très peu à dire sur la<hi rend="italic"> matière </hi>proprement dite (Ingold, 2007). Le reproche principal qu’il fait à cette littérature est de s’être nourrie –&#160;et d’avoir nourri en retour&#160;– d’une série de partitions, telle celle entre l’esprit et la matière, ou encore entre les objets naturels et les artefacts. À la suite des travaux de Gibson sur les<hi rend="italic"> affordances </hi>(Gibson, 1986), Ingold propose quant à lui de considérer les matières non comme des objets physiques stables, mais comme des constituants actifs du «&#160;monde-en-formation&#160;» (<hi rend="italic">world-in-formation</hi>). Prises comme produits d’histoires (<hi rend="italic">stories</hi>), en continuel renouvellement, les matières ne sont pas tant nanties d’&#160;«&#160;attributs&#160;» fixes que susceptibles d’être transformées en permanence dans les interactions auxquelles elles se trouvent soumises dans l’environnement. Dans une perspective qui rejoint celle de la «&#160;matérialité relationnelle&#160;» proposée par John Law et Annemarie Mol (Law &amp; Mol, 1995), les composants matériels de l’environnement sont dotés de «&#160;propriétés relationnelles&#160;»&#160;; il convient d’en examiner non pas des qualités intrinsèques, mais les trajectoires et les mutations, les<hi rend="italic"> affordances </hi>dans un environnement qui se «&#160;déplie&#160;» (<hi rend="italic">unfold</hi>) au fur et à mesure des interactions.</p>
+                <p xml:id="d1e419">Cette approche propose des outils en premier lieu pour saisir des formes de matérialisations particulièrement évanescentes, à l’instar de celles qui nous préoccupent ici&#160;: inscriptions, codes, chiffres sont autant d’artefacts, qui, si stables et solides soient-ils, sont dotés de «&#160;modes de présence&#160;» particulièrement «&#160;minimaux&#160;», pour emprunter à Albert Piette (Piette, 2009), sur le traitement desquels vient régulièrement buter la description empirique. C’est une des raisons, sans doute, aussi, pour lesquelles les techniques informatiques sont si souvent appréhendées sous l’angle de la dématérialisation&#160;: on aurait ainsi d’un côté un monde physique, tangible, peuplé d’objets dotés d’une tactilité immédiate, patente –&#160;des objets qui tombent, littéralement, sous la main, offrent des prises et des adhérences évidentes&#160;; de l’autre, un monde fait de surfaces parcourues par des lignes, traits, chiffres, codes, et dont la matérialité beaucoup plus fugace, subreptice appelle à des modes d’engagement singulièrement<hi rend="italic"> </hi>autres&#160;; la transformation et reconfiguration de matières entre ces mondes et ces formats, semble, de la sorte, se subsumer sous une disparition, magique presque, de la matière au profit de la représentation symbolique. Comme le remarquent Jérôme Denis et David Pontille, ces opérations sont pourtant, bien au contraire, des moments d’&#160;«&#160;instanciation&#160;» matérielle de l’information (Denis &amp; Pontille, 2012b) dont il convient d’examiner les modalités.</p>
+                <p xml:id="d1e424">En second lieu, l’approche par la matière et ses dépliements peut également être particulièrement riche pour saisir une des conditions centrales de la production de ces «&#160;infrastructures-frontières&#160;» (Bowker &amp; Star, 1999) que constituent les dispositifs de gestion de l’accumulation, celle du formatage et de la standardisation. Comment, en effet, se<hi rend="italic"> comportent </hi>les standards et ces «&#160;mobiles immuables&#160;» (Latour, 1989) dont le caractère unifié et stabilisé permet la circulation à grande échelle&#160;? Les contributions dans ce dossier montrent, à des échelles diverses, comment la «&#160;mise au standard&#160;» s’accompagne, localement, d’un travail de manipulation et de mise en forme(s) de la matière dont l’analyse met en valeur la diversité, précisément, de ces «&#160;propriétés relationnelles&#160;»&#160;: Dominique Boullier et Maxime Crépel notent ainsi, à propos de l’intégration de photographies dans la banque d’images Flickr que l’effort de standardisation d’un format unifié des images lors de leur mise en ligne dans la base s’accompagne d’opérations de mises en relation par des dispositifs tels le «&#160;tagging&#160;» qui remodèlent en profondeur le statut de la photo. Sophie Houdart souligne la difficulté, dans les catalogues d’éléments de composition de dessins d’architectures, à trouver le «&#160;bon format&#160;» de l’être humain, et plus encore, à le faire voisiner dans un même espace digital avec d’autres éléments au format numérique pourtant identique.</p>
+                <p xml:id="d1e429">Les transformations, traductions, formatages, le rééquipement des matières et matériaux font ainsi souvent l’objet à chaque moment de procédures aussi laborieuses que fragiles, comme le montrent Lorna Heaton et Florence Millerand&#160;: intégrer des planches d’herbier ou des échantillons de planctons à une base de données numérique ne va,<hi rend="italic"> de facto</hi>, jamais de soi. Les procédures de transformations matérielles et les nouvelles relations que celles-ci produisent aboutissent à des échafaudages toujours précaires et instables&#160;: comme si «&#160;l’effacement des modalités&#160;» (Latour &amp; Woolgar, 1988) nécessaires à la standardisation s’accompagnait de nouvelles dispositions de la base de données et des éléments qui la composent à fragiliser la fermeté de l’infrastructure et son aptitude à faire circuler correctement les nouvelles matières-en-relation. Cette capacité de la matière à résister à la standardisation, et à produire<hi rend="italic"> quelque chose d’autre</hi>, se retrouve également dans le travail de catalogage de manuscrits arabes, analysée par Christine Jungen. Ici, c’est la matérialité floue, incertaine de copies microfilmées de manuscrits originaux qui constitue le point de départ d’une série de réagencements matériels et intellectuels dans la production de catalogues&#160;: la construction des notices du catalogue –&#160;et la résistance que celui-ci incarne à toute forme d’uniformisation et d’anonymisation&#160;– vient alors s’inscrire dans des interactions multiples entre le microfilm, le catalogueur, et les aspérités et prises de l’environnement dans lequel celui-ci travaille.</p>
+            </div>
+            <div type="div1" xml:id="d1e437">
+                <head subtype="level1" xml:id="d1e438">Recomposer les corps</head>
+                <p xml:id="d1e440">Entasser des données à partir du monde, concevoir et manipuler des outils pour gérer celles-ci, s’effectue par la fragmentation et le réassemblage d’entités, le travail de réduction de la singularité, par des opérations de catégorisation, de redistribution et de mise en réseau dans et en dehors des différents dispositifs destinés à gérer l’accumulation de matériaux. Dans ce cadre, décomposer, façonner, recomposer ou recompiler sont, de la part des praticiens de la ressource documentaire et informationnelle, des opérations souvent parfaitement anodines et routinières. Elles n’en produisent pas moins des occurrences matérielles particulièrement efficaces pour «&#160;intervenir sur le monde&#160;», pour reprendre la formule employée par D.&#160;Gardey. Les dispositifs de gestion de collections sont, de fait, également des espaces par excellence à partir desquels s’exercent un pouvoir, un contrôle, une domestication. La capacité à accumuler la matière informationnelle, à construire des lieux où celle-ci est stockable, manipulable, et trouvable, peut, de fait, faire tenir des empires<note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> C’est ce que montre par exemple Thomas Richards à propos de l’Empire britannique, qui s’est appuyé pour contrôler ses territoires sur un usage extensif de la collecte d’informations&#160;: bibliothèques et musées deviennent les lieux dans lesquels existent, véritablement, l’Empire et son administration (Richards, 1993)&#160;; plus proche de nous, citons l’exemple de Google, qui a construit son empire aussi puissant que diversifié à partir d’un des impératifs les plus basiques de la gestion des connaissances&#160;: trouver facilement une information.</p>
+          </note>.</p>
+                <p xml:id="d1e446">Ces dispositifs constituent des lieux d’exercice d’un pouvoir, en premier lieu dans l’action que les classements et catégorisations ont sur le réel (Fradin, Quéré &amp; Widmer, 1994), de même que, comme l’a montré Alain Desrosières, leur «&#160;naturalisation&#160;» à travers la constitution d’instruments de gouvernance (Desrosières, 1993). L’opération d’encodage du réel qui se manifeste dans la réduction, le chiffrage, la division en «&#160;plus petits dénominateurs communs&#160;», en unités minimales, et leur réarticulation dans de nouveaux assemblages permet non seulement de manier et recomposer à grande échelle&#160;; ce sont aussi des lieux où sont reconstitués, voire fabriqués de nouvelles formes de la réalité, de nouveaux corps sur lesquels peuvent venir s’exercer des politiques de contrôle et de surveillance.</p>
+                <p xml:id="d1e448">C’est à ce travail de décomposition et recomposition matérielles que s’intéressent respectivement Frédéric Keck et Antoine Doré dans des contextes où il s’agit, avant tout, de saisir et surveiller des entités aussi fuyantes que menaçantes (le virus, le loup). Frédéric Keck examine la double gestion, bio-informatique et écologique, des virus et des oiseaux qui les portent. Produire des occurrences matériellement analysables et saisissables du virus passe dans ce cadre moins par un travail de réduction que celui d’un<hi rend="italic"> dédoublement </hi>qui rejoue ou suspend les partitions entre espèces&#160;: entre la culture de cellules et leur transposition bio-informatique, entre le vivant et le code. Les bases de<hi rend="italic"> </hi>données constituent alors «&#160;un espace codé&#160;» aux relations «&#160;suspendues&#160;», où l’on peut «&#160;“jouer” avec les données, c’est-à-dire essayer des mouvements possibles afin de deviner l’avenir&#160;».</p>
+                <p xml:id="d1e456">Dans le cas analysé par Antoine Doré –&#160;la gestion biopolitique d’une population animale par la détection de leur présence&#160;–, il s’agit, de manière similaire, d’obtenir à travers la collecte et le travail d’encodage et de décodage d’indices, d’échantillons, des cristallisations matérielles d’une entité à la fois potentiellement menaçante et rebelle à la saisie. Les pratiques de détection des loups dans la constitution de bases de données à partir des indices de présence qu’ils laissent sur le territoire ne sont pas, de fait, très éloignées des «&#160;pratiques divinatoires&#160;» décrites par F.&#160;Keck&#160;: l’instauration arithmétique d’une population animale aussi insaisissable qu’invisible passe par la détection, les recompilations, codages et décodages, alignements statistiques d’indices et de traces –&#160;crottes, urines, poils. Les différentes combinaisons et les modes de consomption de ces indices aboutissent ainsi à recréer, au bout de la chaîne, une «&#160;population loup&#160;» comme référent ontologique stable, dont on peut gérer et prévoir à distance les développements.</p>
+                <p xml:id="d1e458">Contenir l’incertitude par des opérations de cristallisation, de «&#160;précipitation&#160;» pour user d’une métaphore chimique, aboutit ainsi à produire de nouveaux référents, de nouveaux corps à partir desquelles peuvent désormais s’exercer d’autres logiques de gestion, voire de nouveaux<hi rend="italic"> êtres</hi>&#160;: c’est la conclusion à laquelle aboutit Pierre-André Juven dans son examen du travail de codage des maladies dans le cadre des gestions hospitalières&#160;: le corps du malade est transformé en un code gestionnaire suite à une série d’extractions et de transformations qui produisent des entités susceptibles d’êtres inscrites dans des catégories de coûts. Des malades à l’hôpital deviennent ainsi, par le travail d’encodage de la maladie, des «&#160;êtres de gestion&#160;» poursuivant désormais une nouvelle trajectoire dans les bases de données de l’Assurance maladie&#160;: les dispositifs de gestion et de contrôle d’entités mouvantes et instables –&#160;la maladie, le virus, le loup&#160;– sont aussi des lieux où, par le travail d’encodage, de recomposition, de dédoublement, ces entités sont dotées de matérialités et d’ontologies alternatives (ou parfois suspendues) sur lesquelles peuvent alors s’exercer les logiques de gestion, de surveillance, ou d’endiguement.</p>
+            </div>
+            <div type="div1" xml:id="d1e463">
+                <head subtype="level1" xml:id="d1e464">Manières d’habiter et modes de présence</head>
+                <p xml:id="d1e466">Plusieurs contributions de ce dossier le signalent, l’architecture matérielle des collections digitales prolonge souvent et amplifie, plus qu’elle ne transforme radicalement, des dispositifs élaborés à l’extérieur de l’univers informatique. Les techniques numériques de gestion des collections ont, en revanche, opéré un basculement dans un autre domaine&#160;: celui du point de vue à partir duquel sont effectuées les manipulations de données, et celui du lieu d’où se construit<hi rend="italic"> </hi>l’engagement à ces dispositifs. Ainsi, un catalogue imprimé, une série de fiches ou une liste sur une feuille de papier s’appréhendent par une vue «&#160;d’en haut&#160;». Les informations inscrites dans ces supports sont «&#160;tenues sous le regard&#160;», pour reprendre la formule de Bruno Latour (Latour, 1996), saisissables par l’œil dans leur ensemble –&#160;et dans leur finitude&#160;: la liste comporte un bord, l’imprimé une reliure, le fichier un panneau. On les parcourt comme on parcourt une surface, mais c’est une surface déterminée et délimitée par ses contours tangibles. À l’inverse, une base de données informatique, une banque d’images, une bibliothèque numérique ont la capacité à s’agrandir de manière quasiment infinie&#160;; elles se naviguent bien plus qu’elles ne s’arpentent&#160;; et le praticien d’une banque numérique ne voit, littéralement, que des parcelles, des bribes de la base complète dans laquelle il se déplace en suivant des liens.</p>
+                <p xml:id="d1e471">De ce point de vue, le passage du support papier au support digital, de la surface à l’environnement digital n’est pas sans rappeler le mouvement, inverse, que Tim Ingold souligne dans l’histoire de l’imagerie européenne du globe terrestre&#160;: celui qui, dans l’Europe moderne, a vu le déplacement de l’homme vers l’extérieur de la sphère terrestre, désormais représentée visuellement sous forme de globe. <hi xml:lang="en">Ingold remarque à ce propos&#160;:</hi>
+        </p>
+                <q rend="quotation">Thus the movement from spherical to global imagery is also one in which ‘the world’, as we are taught it exists, is drawn ever further from the matrix of our lived experience. It appears that the world as it really exists can only be witnessed by leaving it, and indeed much scientific energy and resources have been devoted to turning such an imaginative flight into an achieved actuality. One consequence is the alleged discrepancy between what, in modern jargon, are called ‘local’ and ‘global’ perspectives. Insofar as the latter, afforded to a being outside the world, is seen to be both real and total, the former, afforded to beings-in-the-world (that is, ordinary people) is regarded as illusory and incomplete. (Ingold, 2000, p.&#160;211)</q>
+                <p xml:id="d1e477">Si l’on applique le raisonnement d’Ingold au (re)basculement qu’ont opéré les techniques informatiques dans la gestion des ressources documentaires, on peut alors formuler le questionnement dans les termes suivants&#160;: comment la perspective<hi rend="italic"> locale</hi> –&#160;celle de celui, qui, d’un terminal, a accès à une vision parcellisée de l’ensemble de la collection à laquelle il contribue&#160;– s’articule-t-elle à la perspective<hi rend="italic"> englobante</hi>, totale, le «&#160;rêve panoptique&#160;» (Bowker, 2000, p.&#160;645) que paradoxalement les bases numériques briguent comme horizon ultime<note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> G.&#160;Bowker donne pour exemples les entreprises de bases de données génétiques (tel le Human Genome Initiative), et plus largement biologiques, qui ont pour objectif de collecter et «&#160;mettre en banque&#160;» l’ensemble de la «&#160;vie&#160;». Ces projets entrent également en écho avec le «&#160;mal d’archive&#160;» et la frénésie mémorielle disséquée par Jacques Derrida (Derrida, 1995)&#160;; un des exemples les plus récents en est le projet Internet Archive (<ref target="http://www.archive.org/">www.archive.org</ref>), qui a pour ambition de collecter et stocker toutes les pages web et plus largement toute production digitale depuis la création d’internet…</p>
+          </note>&#160;? Quelles sont, plus largement, les formes d’expérience particulière que ces environnements suscitent&#160;?</p>
+                <p xml:id="d1e492">Il s’agit donc aussi, pour aller plus loin, de prendre ici au pied de la lettre la proposition, formulée par Geoffrey Bowker et Susan Star, d’examiner comment des données «&#160;habitent&#160;» physiquement des contextes donnés (Bowker &amp; Star, 1999). De fait, si les dispositifs de gestion de l’information constituent des interfaces de coopération entre de multiples communautés de pratiques, entre différentes formes de localité, ils constituent également des environnements physiques, dotés d’une texture spécifique, et éminemment diverse&#160;: les bases de données numériques recouvrent des réalités extrêmement hétérogènes, dont les contributions à ce dossier se font l’illustration&#160;: une base de données bio-informatique n’est pas de même nature qu’un catalogue d’images ou une collection d’herbiers numérisés, ni ne propose les mêmes agencements relationnels. Les items qui circulent et/ou sont stockés dans les infrastructures informatiques proposent des modes d’&#160;«&#160;être&#160;» dans leur environnement numérique à chaque fois uniques.</p>
+                <p xml:id="d1e494">La contribution de Sophie Houdart éclaire cette perspective dans son analyse des catalogues numériques d’êtres humains à usage des agences d’architectures, en interrogeant les modes de présence, de voisinage et la bonne manière d’&#160;«&#160;être réel&#160;» des éléments du catalogue&#160;; de fait, les figures humaines rassemblées dans ces banques d’éléments de figuration ne sont pas de simples représentations, mais bien une «&#160;manière d’être&#160;» très spécifique dans l’environnement numérique. Se posent alors des problèmes d’équivalences –&#160;du point de vue de son format informatique, un ciel est ainsi équivalent à une figure humaine bien qu’il ne le soit pas ontologiquement&#160;– mais aussi de «&#160;récalcitrances&#160;» des êtres humains à entrer dans l’univers digital&#160;: l’environnement numérique, du fait qu’il traite de la même manière les différentes composantes d’un dessin d’architecture, se trouve par là même confronté à la cohabitation malaisée, problématique, des êtres humains avec d’autres entités numériques, en dépit des différentes procédures mises en œuvre pour extraire les figures humaines de leur contexte référentiel d’origine.</p>
+                <p xml:id="d1e496">En d’autres termes, importer des êtres, humains ou non humains, dans un catalogue ou dans une base de données impose de devoir composer avec leur ontologie et leur manière propre d’habiter et de circuler dans un environnement. Cette perspective amène donc à examiner comment humains et non-humains «&#160;peuplent&#160;» le monde (Houdart &amp; Thiery, 2011), ici celui de l’univers produit par les bases digitales. Les techniques numériques permettent non seulement de traduire et de réduire des collections en inscriptions, mais également d’importer des matériaux sous le format informatique&#160;: les banques de données ne contiennent ainsi plus seulement des inscriptions, mais permettent de véritables coalescences du monde et de ce qu’il contient sous forme numérique&#160;: des planctons et des humains, des photographies et des malades, des livres, des virus et des loups, pour reprendre les cas traités ici, soit une diversité d’éléments qui poursuivent, sous leur identité informatique, une trajectoire de vie distinctive dans le nouvel environnement que constituent la base, le catalogue, la collection dans laquelle ils sont désormais pleinement intégrés.</p>
+                <p xml:id="d1e498">Comment rendre compte de ces trajectoires, de ces biographies singulières&#160;? C’est à un véritable pari épistémologique que se livrent dans leur contribution Dominique Boullier et Maxime Crépel, en examinant les parcours de photographies dans la banque d’images Flickr. La photographie, prise ici comme sujet à suivre au sein de la banque d’images, est au centre de l’examen des<hi rend="italic"> agencies </hi>qui sont à l’œuvre dans Flickr&#160;: les différentes entités –&#160;l’utilisateur, les tags, les photographies, la base de données&#160;– possèdent ainsi des<hi rend="italic"> agencies </hi>distribuées à travers lesquelles la photographie acquiert ses catégories, se transforme en permanence, et génère autour d’elles des «&#160;associations vivantes&#160;». Le changement de point de vue que les auteurs adoptent, et la lecture tardienne de la base de données à laquelle ils se livrent –&#160;la photographie «&#160;et ce qu’elle emmène avec elle&#160;»&#160;– permet d’éclairer la banque de données non plus comme une structure fixe dans laquelle sont rangés des éléments, mais comme un habitat à l’architecture lâche, où les «&#160;sociations&#160;» s’élaborent et se recomposent au fur et à mesure des circulations et des reclassements des photographies.</p>
+                <p rend="break" xml:id="d1e506">* * *</p>
+                <p xml:id="d1e508">Concluons ce tour d’horizon par un constat&#160;: un effort important a été porté, dans la littérature sur les infrastructures informationnelles comme en sociologie des sciences, sur la déconstruction des «&#160;boîtes noires&#160;» qui supportent la construction des connaissances, sur le dévoilement des structures invisibles qui organisent nos pratiques, de savoir et au-delà. Dans ce cadre est notamment, régulièrement, soulignée la force d’inertie de ces structures informationnelles une fois qu’elles ont été stabilisées et rendues invisibles, leur forme d’irréversibilité (Bowker, 2000&#160;; Bowker &amp; Star 1999&#160;; Callon, 1991). Ce que suggèrent les contributions à ce dossier, c’est aussi le penchant du monde et des êtres qui le composent à agir en retour sur les structures normatives dans lesquels ils sont inscrits, à s’y soustraire, à faire problème&#160;; à remodeler, également, ces dispositifs de l’intérieur&#160;: une capacité à<hi rend="italic"> repeupler</hi>, en somme, des infrastructures qui sont, de toute évidence, moins inertes qu’il n’y paraît.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e517">
+                <listBibl xml:id="d1e519">
+                    <bibl xml:id="d1e521">
+            <hi xml:lang="en">Baratin, M. &amp; Jacob, C. (eds.) </hi>(1996).<hi rend="italic"> Le pouvoir des bibliothèques&#160;: la mémoire des livres en Occident</hi>. Paris&#160;: A.&#160;Michel.</bibl>
+                    <bibl xml:id="d1e528">
+                        <hi xml:lang="en">Bowker, G. C. (2000). Biodiversity Datadiversity.</hi>
+                        <hi rend="italic"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Social Studies of Science</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">30</hi>
+                        </hi>
+                        <hi xml:lang="en">(5), 643-683.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e543">
+                        <hi xml:lang="en">Bowker, G. C., &amp; Star, S. L. (1999).</hi>
+                        <hi rend="italic"> Sorting Things Out: Classification and its Consequences</hi>
+                        <hi xml:lang="en">. Cambridge, Mass.: MIT Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e550">
+                        <hi xml:lang="en">Callon, M. (1991). Techno-economic networks and irreversibility, in J.&#160;Law (ed.). </hi>
+                        <hi rend="italic">A Sociology of Monsters: Essays on Power, Technology and Domination</hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">(pp.&#160;132-161). London: Routledge.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e559">
+            <hi xml:lang="fr">Denis, J. &amp; Pontille, D. (2012a).</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr"> </hi>
+            </hi>
+            <hi rend="italic">Les petites mains de l’information</hi>. Dossier de la<hi rend="italic"> Revue d’anthropologie des connaissances</hi>, <hi rend="italic">6</hi>(1).</bibl>
+                    <bibl xml:id="d1e574">
+            <hi xml:lang="en">Denis, J. &amp; Pontille, D. (2012b). </hi>Travailleurs de l’écrit, matière de l’information.<hi rend="italic"> Revue d’anthropologie des connaissances, 6</hi>(1), 1-20.</bibl>
+                    <bibl xml:id="d1e581">Derrida, J. (1995).<hi rend="italic"> Mal d’archive&#160;: une impression freudienne</hi>. Paris&#160;: Galilée.</bibl>
+                    <bibl xml:id="d1e586">Desrosières, A. (1993).<hi rend="italic"> La Politique des grands nombres&#160;: histoire de la raison statistique</hi>, Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e591">Eisenstein, E. L. (1991).<hi rend="italic"> La révolution de l’imprimé à l’aube de l’Europe moderne </hi>(trad. M.&#160;Sissung &amp; M.&#160;Duchamp). Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e596">Faugère, E. &amp; Mauz, I. (2013).<hi rend="italic"> Le renouveau de la taxonomie&#160;: modalités, effets et enjeux pratiques</hi>. Dossier de la<hi rend="italic"> Revue d’anthropologie des connaissances</hi>, <hi rend="italic">7</hi>(2).</bibl>
+                    <bibl xml:id="d1e608">Fradin, B., Quéré, L. &amp; Widmer, J. (eds.) (1994).<hi rend="italic"> L’enquête sur les catégories, de Durkheim à Sacks</hi>. Paris&#160;: EHESS.</bibl>
+                    <bibl xml:id="d1e613">Gardey, D. (2008).<hi rend="italic"> Écrire, calculer, classer&#160;: comment une révolution de papier a transformé les sociétés contemporaines, 1800-1940</hi>. Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e618">
+                        <hi xml:lang="en">Gibson, J. (1986).</hi>
+                        <hi rend="italic"> The Ecological Approach to Visual Perception</hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Hillsdale (N.J.): L.&#160;Erlbaum.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e627">Goody, J. (1986).<hi rend="italic"> La Raison graphique. La domestication de la pensée sauvage </hi>(trad. J.&#160;Bazin &amp; A.&#160;Bensa). Paris&#160;: Minuit.</bibl>
+                    <bibl xml:id="d1e632">
+            <hi xml:lang="en">Houdart, S. &amp; Thiery, O. (eds.) </hi>(2011).<hi rend="italic"> Humains, non-humains&#160;: comment repeupler les sciences sociales</hi>. Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e639">
+                        <hi xml:lang="en">Ingold, T. (2000).</hi>
+                        <hi rend="italic"> The Perception of the Environment: Essays on Livelihood, Dwelling &amp; Skill</hi>
+                        <hi xml:lang="en">. London; New York: Routledge.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e646">
+                        <hi xml:lang="en">Ingold, T. (2007). Materials Against Materiality.</hi>
+                        <hi rend="italic"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Archaeological Dialogues</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">14</hi>
+                        </hi>
+                        <hi xml:lang="en">, 1-16.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e661">Jacob, C. (éd.) (2011).<hi rend="italic"> Lieux de savoir</hi>. Tome&#160;2.<hi rend="italic"> Les mains de l’intellect</hi>. Paris&#160;: Albin Michel.</bibl>
+                    <bibl xml:id="d1e669">Jacob, C. (1996). Lire pour écrire&#160;: navigations alexandrines, in M.&#160;Baratin &amp; C.&#160;Jacob (eds.). <hi rend="italic">Le pouvoir des bibliothèques&#160;: la mémoire des livres en Occident</hi>. (pp.&#160;47-83). Paris&#160;: Albin Michel.</bibl>
+                    <bibl xml:id="d1e674">Latour, B. (1989).<hi rend="italic"> La science en action </hi>(trad. M.&#160;Biezunski). Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e679">Latour, B. &amp; Woolgar, S. (1988).<hi rend="italic"> La vie de laboratoire&#160;: la production des faits scientifiques </hi>(trad. par M.&#160;Biezunski). Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e685">Latour, B. (1996). Ces réseaux que la raison ignore. Laboratoires, bibliothèques, collections, in M.&#160;Baratin &amp; C.&#160;Jacob (eds.). <hi rend="italic">Le pouvoir des bibliothèques&#160;: la mémoire des livres en Occident</hi>. (pp.&#160;23-46). Paris&#160;: Albin Michel.</bibl>
+                    <bibl xml:id="d1e690">
+                        <hi xml:lang="en">Law, J., &amp; Mol, A. (1995). Notes on materiality and sociality.</hi>
+                        <hi rend="italic"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Sociological Review</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">43</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 274-294.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e705">
+            <hi xml:lang="en">Milanovic, F. (2011).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en"> </hi>
+            </hi>
+            <hi rend="italic">Les ressources biologiques</hi>. Dossier de la<hi rend="italic"> Revue d’anthropologie des connaissances</hi>, <hi rend="italic">5</hi>(2).</bibl>
+                    <bibl xml:id="d1e720">Piette, A. (2009).<hi rend="italic"> L’acte d’exister&#160;: une phénoménographie de la présence</hi>. Marchienne-au-Pont&#160;: Socrate Ed. Promarex.</bibl>
+                    <bibl xml:id="d1e725">Piette, A. (2010).<hi rend="italic"> Propositions anthropologiques&#160;: pour refonder la discipline</hi>. Paris&#160;: Pétra.</bibl>
+                    <bibl xml:id="d1e730">
+                        <hi xml:lang="en">Richards, T. (1993).</hi>
+                        <hi rend="italic"> The Imperial Archive: Knowledge and the Fantasy of the Empire</hi>
+                        <hi xml:lang="en">. London, New York: Verso.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e737">
+            <hi xml:lang="en">Ruhleder, K. (1995). Reconstructing Artifacts, Reconstructing Work: From Textual Edition to On-Line Databank.</hi>
+            <hi rend="italic"> Science, Technology, &amp; Human Values</hi>, <hi rend="italic">20</hi>, 39-64.</bibl>
+                    <bibl xml:id="d1e746">Stengers, I. &amp; Latour, B. (2009). Le sphinx de l’œuvre, in E.&#160;Souriau.<hi rend="italic"> Les différents modes d’existence </hi>[1947]. (pp.&#160;1-75). Paris&#160;: Presses universitaires de France.</bibl>
+                    <bibl xml:id="d1e751">Trompette, P. &amp; Vinck, D. (2009).<hi rend="italic"> Retour sur la notion d’objet-frontière</hi>. Dossier de la<hi rend="italic"> Revue d’anthropologie des connaissances</hi>, <hi rend="italic">3</hi>(1).</bibl>
+                    <bibl xml:id="d1e762">Trompette, P. &amp; Vinck, D. (2010).<hi rend="italic"> Retour sur la notion d’objet-frontière (2)</hi>. Dossier de la<hi rend="italic"> Revue d’anthropologie des connaissances</hi>, <hi rend="italic">4</hi>(1).</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

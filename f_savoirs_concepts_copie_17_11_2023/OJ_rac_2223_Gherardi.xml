@@ -1,0 +1,902 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="cjacob" time="2023-08-25T15:47:02.192+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_2223_Gherardi">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">La théorie de la pratique serait-elle à court de&#160;carburant&#160;?</title>
+                <author>
+                    <persName>
+                        <forename>Silvia</forename>
+                        <surname>Gherardi</surname>
+                    </persName>
+                    <affiliation> Professeure à l’Université de Trento, Italie, et à l’Université d’Oslo, elle a été directrice de l’unité de recherche sur la communication, l’apprentissage organisationnel et l’esthétique (<ref target="http://www.unitn.it/rucola">
+              <hi rend="underline">
+                <hi xml:lang="fr">www.unitn.it/rucola</hi>
+              </hi>
+            </ref>). Son dernier ouvrage (<hi rend="italic">
+              <hi xml:lang="fr">How to conduct a practice-based study: problems and methods</hi>
+            </hi>, Edward Elgar, 2012) est consacré à une discussion des méthodologies en usage dans les études empiriques des apprentissages et des connaissances dans les pratiques du travail. Elle a publié avec Antonio Strati un ouvrage accompagnant ce livre (<hi rend="italic">
+              <hi xml:lang="fr">Learning and Knowing in Practice-based studies</hi>
+            </hi>, Edward Elgar, 2012), il propose une sélection de travaux empiriques produits dans l’unité RUCOLA.<ref target="https://orcid.org/0000-0001-7026-2418">https://orcid.org/0000-0001-7026-2418</ref>Adresse&#160;: University of Trento, Dipartimento di Sociologia e Ricerca Sociale, Via Vedi&#160;26, IT-38122 Trento (Italy).Courriel&#160;: silvia.gherardi[at]unitn.it </affiliation>
+                </author>
+                <editor role="translator">
+                    <persName>
+                        <forename>Marc</forename>
+                        <surname>Barbier</surname>
+                    </persName>
+                </editor>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>agencement</item>
+                        <item>objet de connaissance</item>
+                        <item>épistémologie post-humaniste</item>
+                        <item>études des pratiques</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La théorie de la pratique serait-elle à court de&#160;carburant&#160;?</hi>
+                        </hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Silvia Gherardi</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e210">
+                <p xml:id="d1e211">
+                    <hi xml:lang="fr">Cet article pose la question de savoir si, au cours des dix dernières années, les études empiriques des pratiques cognitives auraient perdu tant leur élan que l’énergie nécessaire pour poursuivre le travail de redéfinition du statut des connaissances dans les sociétés contemporaines et dans les études organisationnelles. Il illustre comment le mouvement intellectuel, qui a été engagé avec les études empiriques de la connaissance comme pratique située, a été aussi un mouvement pour penser le décentrement du sujet humain. L’épistémologie post-humaniste des pratiques considère celles-ci comme des agencements hétérogènes d’éléments (des savoirs, des techniques et des activités) qui, de par leurs connexions et leur devenir, énactent une certaine agencéité. De la sorte, les études situées des pratiques n’ont pas perdu de leur force. Elles redéfinissent l’objet de la connaissance en passant d’une focale sur la cognition distribuée (au sein de pratiques singulières ou au sein d’activités spécifiques à une certaine pratique), à une agencéité distribuée au sein d’une texture de pratiques. La focale est alors placée sur les modes d’existence et le devenir des agencements ainsi que sur le pouvoir qui indexe des régimes de visibilité et d’invisibilité. Les publications de la&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">RAC</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;mettent en évidence la manière dont l’objet de recherche a changé durant les dix dernières années et, comment cela a, dans le même temps, permis d’ouvrir des pistes pour des recherches futures.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <p xml:id="d1e223">
+                <hi xml:lang="fr">En 2004, Bruno Latour propose un article sous le titre «&#160;Pourquoi la critique est à court de carburant&#160;?&#160;». Il utilise l’image d’une machine à vapeur à court d’énergie pour poser une distinction entre les faits indiscutables (</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">matters of facts</hi>
+        </hi>
+                <hi xml:lang="fr">) et les faits disputés (</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">matters of concern</hi>
+        </hi>
+                <hi xml:lang="fr">), cela afin de mettre en débat une critique qui semble ne plus viser la bonne cible. J’apprécie cette métaphore et souhaite l’utiliser ici pour faire entendre la voix de ceux qui pensent –&#160;comme moi&#160;– que la critique des&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">practices-based studies</hi>
+        </hi>
+                <hi rend="italic">
+          <note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> <hi xml:lang="fr">NDLR&#160;: les&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">practice-based studies</hi>
+              </hi>
+              <hi xml:lang="fr"> regroupent des études fondées sur l’observation et la théorisation des pratiques&#160;; on conservera l’expression anglo-saxonne pour la suite du texte&#160;; pour une généalogie, voir Gherardi (2000).</hi>
+            </p>
+          </note>
+        </hi>
+                <hi xml:lang="fr"> pourrait être aussi à court de carburant. Pour l’occasion, je vais m’appuyer de façon située sur une rétrospective des dix années de publications de la&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">Revue d’anthropologie des connaissances</hi>
+        </hi>
+                <hi xml:lang="fr"> (</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr">), revue pour laquelle la question de l’objet des connaissances est une préoccupation centrale&#160;; et je mobiliserai également des travaux du domaine des études qui, à partir du concept de pratique, ont théorisé la connaissance comme étant à la fois située et enjeu d’une activité collective. Ma contribution est ainsi construite autour de la question de savoir si, durant les dix dernières années, les&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">practices-based studies </hi>
+        </hi>
+                <hi xml:lang="fr">n’auraient pas perdu leur élan et manqué d’énergie pour poursuivre le travail de redéfinition des statuts de la connaissance dans les sociétés contemporaines et dans les études organisationnelles.</hi>
+            </p>
+            <p xml:id="d1e269">
+                <hi xml:lang="fr">Les années&#160;1990 représentent un moment particulier qui a vu naître la critique de la dé-contextualisation des processus de production de connaissances dans des disciplines aussi nombreuses que différentes. Qu’on me permette de rappeler l’introduction des concepts d’action située par Suchman (1987), de la notion d’apprentissage situé dans des participations périphériques légitimes au sein de communautés de pratiques par Lave et Wenger (1991), de la science comme pratique et comme culture par Pickering (1992), de la cognition distribuée par Hutchins (1995), de pratique située par Goodwin (1997). Ces mêmes années et les suivantes ont vu le fleurissement d’expérimentations méthodologiques pour asseoir l’étude des actes de connaissances dans les contextes mêmes de leur production&#160;: l’ethnographie a alors prouvé son utilité pratique avec l’étude de Orr (1996) sur les photocopieurs&#160;; les études fondées sur l’interactionnisme symbolique ont pris les interactions home-machine comme objet (Heath&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">et&#160;al</hi>
+        </hi>
+                <hi xml:lang="fr">., 2000)&#160;; la théorie de l’activité a inspiré des études empiriques portant sur la cognition et sur la communication dans la sphère du travail (Engeström &amp; Middleton, 1996) et le modèle d’intervention utilisé dans la clinique de l’activité (Clot, 2002)&#160;; les études des sciences et des techniques ont commencé à développer une approche politique et historique pour analyser la construction sociale des savoirs technologiques (Bijker, 1995).</hi>
+            </p>
+            <p xml:id="d1e277">
+                <hi xml:lang="fr">J’ai volontairement limité l’exercice de la référence à des travaux apparus dans les années 1990 et ayant eu un impact majeur dans les années qui ont suivi leur publication. Cependant, beaucoup d’autres auteurs pourraient être pris comme exemples de cet intérêt croissant pour la connaissance en tant qu’elle&#160;est à la fois incorporée et inscrite dans les contextes de travail (Quéré, 2003) et objet d’approches cognitives nouvelles (Borzeix&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">et&#160;al</hi>
+        </hi>
+                <hi xml:lang="fr">., 2003). Les années suivantes, celles de la décennie 2000, ont alors été nommées les années du tournant de la pratique (Schatzki&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">et&#160;al</hi>
+        </hi>
+                <hi xml:lang="fr">., 2001). Même si la redécouverte du concept de pratique sociale a alors été consommée de façon disparate et pour des objectifs différenciés (Miettienen&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">et&#160;al</hi>
+        </hi>
+                <hi xml:lang="fr">., 2009), les critiques et les questions introduites dans les années 1990 restent centrales dans les débats qui se cristallisent autour de l’idée d’un «&#160;connaître en pratique&#160;» (Gherardi, 2000&#160;; Orlikowski, 2002).</hi>
+            </p>
+            <p xml:id="d1e295">
+                <hi xml:lang="fr">Si on se penche sur la publication du premier numéro de la&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr"> où Dominique Vinck (2007, p.&#160;ii) définit de façon générique ce que pourrait être une anthropologie des connaissances, on peut lire&#160;:</hi>
+            </p>
+            <q rend="quotation">L’anthropologie des connaissances, dans son acception la plus large, renvoie à l’étude pluridisciplinaire des connaissances réalisées comme discours, comme pratiques, ou comme dispositifs techniques&#160;; sur les conditions de leur production, de leur utilisation, de leur transmission et, plus largement, de leur mobilisation par les collectifs d’humains.</q>
+            <p xml:id="d1e305">
+                <hi xml:lang="fr">On note dans ses propos à la fois une continuité avec le sujet de la connaissance en contexte (dans les institutions, dans les organisations, dans les collectifs) et l’introduction corrélative d’un questionnement problématique sur ce qu’il s’agirait de considérer dès lors comme «&#160;connaissance&#160;».</hi>
+            </p>
+            <p xml:id="d1e308">
+                <hi xml:lang="fr">En d’autres termes, le statut de la connaissance –&#160;comme objet ou comme activité raisonnée&#160;– était et reste une question ouverte. Il ne s’agit pas d’une question qui pourrait ou qui devrait être définitivement résolue à partir d’une définition univoque&#160;; il s’agit bien plus d’un problème définitionnel dont l’ambiguïté peut conduire à bien des incompréhensions non intentionnelles. En fait, la connaissance considérée comme le résultat d’un raisonnement est communément définie comme une cognition ayant recours à des schèmes mentaux, et cela peut engendrer des difficultés quand une approche cognitive est considérée&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">a contrario </hi>
+        </hi>
+                <hi xml:lang="fr">d’une approche par les pratiques, à savoir quand s’opposent une approche de la connaissance comme prenant place dans le cerveau des personnes et une approche de la connaissance comme activité que les personnes conduisent ensemble (Gergen, 1985). Par ailleurs, si on suit Poitou (2007), on comprend qu’un aspect fondamental de toute activité cognitive est de reposer sur une gestion</hi>
+                <note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p> <hi xml:lang="fr">NDLR&#160;: traduire «&#160;knowledge management&#160;» par gestion des connaissances est la solution la plus directe, mais il ne s’agit pas ici de managérialisme.</hi>
+          </p>
+        </note>
+                <hi xml:lang="fr">&#160;et une mobilisation des connaissances&#160;; de la sorte, toute anthropologie des connaissances s’inscrit dans une théorisation de la pensée engagée dans une gestion des connaissances. De la même façon, une ambiguïté s’impose quand la connaissance comme objet est confondue avec un objet de connaissance. Dans ce cas, une objectification de la connaissance comme quelque chose qui peut être manipulé, acheté, vendu ou transféré risque d’être confondue avec l’objet de connaissance. De ce point de vue, le&#160;premier numéro de la&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr"> était notoirement intitulé «&#160;Cet obscur objet de connaissance&#160;» et de façon poétique Vinck (2007, p.&#160;6) écrivait alors&#160;:</hi>
+            </p>
+            <q rend="quotation">L’objet ici ne se réduit pas à ce qu’il s’agit de connaître et qui s’opposerait au sujet, comme dans la perspective cartésienne d’une pensée confrontée aux choses. Il s’agit plutôt de tout cet ensemble matériel, sorte de glaise avec laquelle se fait la connaissance.</q>
+            <p xml:id="d1e331">
+                <hi xml:lang="fr">L’image de la glaise comme matière représentant la plasticité des connaissances assemblées est pour moi très évocatrice de la relation entre la connaissance et l’action de connaître, du fait que cela suggère justement l’idée que la connaissance est à la fois un produit et un processus (voir aussi Brassac, 2007). Passer de la connaissance à l’action de connaître représente le passage d’une épistémologie de la possession à une épistémologie de la pratique, définissant alors la connaissance non pas comme une chose possédée, mais comme une partie de ce que les gens font et de ce qu’ils sont (Cook &amp; Brown, 1999).</hi>
+            </p>
+            <p xml:id="d1e334">
+                <hi xml:lang="fr">De plus, l’idée de connaître pris comme une activité située n’est pas la seule dimension majeure d’une épistémologie de la pratique, concevoir la matérialité de cette action est tout aussi central. Cette idée a été mise en avant pour la première fois à travers cette «&#160;masse manquante&#160;» (Latour, 1992) des objets exclus de la théorie sociologique&#160;; plus récemment, elle a été reprise avec le néologisme de «&#160;socio-matérialité&#160;» que le féminisme matérialiste (Braidotti, 2002) a introduit pour porter l’engagement du féminisme dans le traitement de la matérialité et de la corporéité. L’expression de Barad’s (2007) de «&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">entangled material agencies</hi>
+        </hi>
+                <hi xml:lang="fr">&#160;» renvoie à une façon de connaître dans laquelle celui qui connaît n’est pas extérieur au monde ou préexistant à celui-ci (ce «&#160;point de vue de nulle part&#160;» tant critiqué par Haraway, 1988)&#160;; </hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">a&#160;contrario</hi>
+        </hi>
+                <hi xml:lang="fr">, celui qui connaît et la chose connue ne préexistent pas à leurs interactions mais émergent à travers elles comme une production de leur intrication. Pour ces raisons, l’image de la glaise est une image heureuse pour représenter la sociomatérialité des pratiques épistémiques, et le terme français d’agencement devrait d’ailleurs être préféré à sa traduction anglaise d’</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">assembly</hi>
+        </hi>
+                <hi xml:lang="fr"> (Gherardi, 2016) puisqu’il comprend l’idée d’un collectif qui prend forme.</hi>
+            </p>
+            <p xml:id="d1e353">
+                <hi xml:lang="fr">De nombreux problèmes délicats apparaissent ainsi dans la traduction de l’anglais aux langues romaines. Pour n’en mentionner qu’un, l’anglais n’utilise que le mot de connaissance quand le français, l’italien ou l’espagnol et le portugais en utilisent deux</hi>
+                <note type="standard" xml:id="ftn3" place="foot" n="3">
+          <p> <hi xml:lang="fr">NDLR&#160;: il s’agit bien entendu du mot «&#160;connaissance&#160;» (du latin&#160;</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">agnoscere</hi>
+            </hi>
+            <hi xml:lang="fr">, issu du grec&#160;</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">gignosko</hi>
+            </hi>
+            <hi xml:lang="fr"> qui signifie apprendre à connaître, se rendre compte) et du mot «&#160;savoir&#160;» (du latin&#160;</hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">sapere</hi>
+            </hi>
+            <hi xml:lang="fr">, avoir de l’intelligence, du goût ou du jugement).</hi>
+          </p>
+        </note>
+                <hi xml:lang="fr">. Développer ce point nous entraînerait trop loin, mais il est relié à l’existence d’une revue multilingue comme la&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr">, puisque cela pourrait expliquer un phénomène particulier dans cette communauté française qui prend sa part au tournant de la pratique (le&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">practice-turn</hi>
+        </hi>
+                <hi xml:lang="fr">) mais préfère utiliser le terme d’&#160;«&#160;activité&#160;» à celui de «&#160;pratique&#160;». Je me sens ici concernée, car la production intellectuelle sur cette thématique de la connaissance située est très significative tant du point&#160;de vue quantitatif que qualitatif –&#160;et la&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr"> en témoigne&#160;– mais cette thématique n’est pas aussi connue que ce qu’elle devrait l’être dans la littérature relevant des&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">practice-based studies.</hi>
+        </hi>
+                <hi xml:lang="fr"> Une explication a été proposée par Licoppe (2009, p.&#160;158)&#160;:</hi>
+            </p>
+            <q rend="quotation">La notion de “pratique”, qui semblerait la traduction la plus naturelle en français de “<hi rend="italic">practice</hi>” est assez lourdement connotée en France par les travaux marxistes et la sociologie critique. C’est donc le terme activité qui est apparu chez nous plus ouvert et propice à fédérer différents courants de recherche sur le travail et les organisations affichant une forte orientation ethnographique et qui est d’ailleurs employé aujourd’hui même à cette fin dans la constitution de réseaux de recherche (Bidet&#160;<hi rend="italic">et</hi>
+        <hi rend="italic">
+          <hi xml:lang="fr">&#160;</hi>
+        </hi>
+        <hi rend="italic">al</hi>., 2006). Il paraît donc plus approprié de parler de tournant de l’activité pour rendre compte en français du “<hi rend="italic">practice turn</hi>” des recherches anglo-saxonnes.</q>
+            <p xml:id="d1e415">
+                <hi xml:lang="fr">Quand Christian Licoppe décrit cet espace particulier où la recherche est centrée sur le travail tel qu’il se produit, il délimite un carré dont les côtés sont&#160;: la cognition distribuée, la théorie de l’activité, l’ethnométhodologie et les Études sur la science et la technologie (STS). On retrouve encore ici les principaux courants de recherche sur lesquels la littérature sur les pratiques est constituée. Bien entendu, on peut comprendre que le legs de Bourdieu soit lourd en France&#160;; néanmoins, le terme d’activité serait-il trop vague (qu’il n’impliquerait seulement une sensibilité ethnographique pour l’étude du travail&#160;?) ou bien serait-il trop étroitement lié à la théorie de l’activité&#160;? De mon point de vue, l’enjeu épistémologique que posent les&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">practice-based studies</hi>
+        </hi>
+                <hi xml:lang="fr"> est ici menacé de déperdition, et l’inventivité de la contribution française risque de demeurer cachée derrière une étiquette mal placée.</hi>
+            </p>
+            <p xml:id="d1e423">
+                <hi xml:lang="fr">Ce n’est pas une tâche facile que de rendre compte de l’inventivité d’un effort de recherche collectif, et cet exercice semble toujours prétentieux et stérile. Néanmoins, prendre une certaine distance par rapport au flot des recherches et réfléchir sur ce qui a été produit par une revue sur une période de dix ans dans le contexte d’une conversation continue sur une thématique similaire est une opportunité intéressante d’apprentissage. En relisant les articles de la&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr">&#160;proches de mon champ d’intérêt et de compétence, j’ai réfléchi aux thèmes qui ont contribué significativement aux&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">practice-based studies</hi>
+        </hi>
+                <hi xml:lang="fr"> et à la façon dont ils se sont conjugués en une voix distinctive au sein du débat sur les pratiques. De mon point de vue, le thème de l’invisibilité et celui du régime de visibilité/invisibilité forment les contributions les plus significatives parmi celles qui ont été proposées par la&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr"> à travers l’édition de plusieurs dossiers thématiques qui rassemblent chacun les voix de plusieurs collectifs de recherche.</hi>
+            </p>
+            <p xml:id="d1e441">
+                <hi xml:lang="fr">Le thème du travail visible/invisible trouve ses racines dans la réflexion de Strauss (1988) et de Corbin et Strauss (1993). Il est traditionnellement lié au travail qu’il faut réaliser pour accomplir une activité et inscrire les technologies dans la pratique. Dans cette perspective, rendre les pratiques de connaissance visibles et les processus de connaissance réalisés en pratiques observables et descriptibles est l’un des intérêts majeurs de l’anthropologie des connaissances. Sans surprises, la&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr"> a poursuivi la tradition des études de laboratoires (voir&#160;le dossier thématique 2007/2 intitulé «&#160;Retour vers le laboratoire comme espace de production de connaissances&#160;» édité par Dominique Vinck). Grâce à une analyse sociologique et ethno-méthodologique du travail scientifique, ce dossier thématique rend visibles les processus de gestion et les pratiques organisationnelles qui étaient absents des travaux en STS. Bien que le laboratoire soit une des organisations typiques de la société de la connaissance, ce qui lui est spécifique –&#160;selon Vinck&#160;– est son habileté à reconfigurer les entités à la fois du monde social et du monde naturel. Ces laboratoires constituent un système d’action. Ils absorbent et redirigent des ressources et des entités socio-techniques préexistantes&#160;; ils déconnectent et transforment ces entités, les redéploient finalement dans un nouvel univers de phénomènes, de relations et d’émotions. Ce dossier thématique offre l’opportunité de penser les agencements transformateurs que ces ressources, connectées en un tissu de pratiques organisationnelles, acquièrent du fait qu’elles soient connectées et reconfigurées dans une situation spécifique. Dans le même temps, ce qui est visible du fait de cette interconnexion et d’une stabilisation temporaire le doit à ce qui est absent ou rendu invisible au sein du même processus. Ce processus complémentaire a été repris et mis en avant à travers le renouveau d’un concept frondeur comme celui d’objet frontière (Star &amp; Griesemer, 1989) et de l’interactionnisme symbolique dans lequel il plonge ses racines.</hi>
+            </p>
+            <p xml:id="d1e449">
+                <hi xml:lang="fr">Deux dossiers thématiques ont été consacrés à l’ambition de porter ce renouveau&#160;: le dossier 2009/1 «&#160;Retour sur la notion d’objet frontière&#160;» et le dossier 2010/1 «&#160;Retour sur la notion d’objet-frontière (2). Fécondité de la notion dans l’analyse écologique des objets innovants&#160;», édités par Pascale Trompette et Dominique Vinck.</hi>
+            </p>
+            <p xml:id="d1e452">
+                <hi xml:lang="fr">La richesse de ce concept a été revisitée à l’aune d’un retour sur la théorie de l’acteur-réseau, du développement d’une perspective écologique sur l’action collective et sur l’innovation, et de son appropriation par la communauté de la gestion des connaissances.</hi>
+            </p>
+            <p xml:id="d1e455">
+                <hi xml:lang="fr">En tant que concept analytique, la notion d’objet-frontière rend possible la description à la fois des processus de mise en relation et du poids de cette inertie qui affecte les infrastructures informationnelles. Il permet de décrire tout mécanisme d’interface entre la connaissance et les acteurs&#160;; il matérialise et transporte une infrastructure invisible faite de standards, de catégories, de classifications et de conventions qui sont spécifiques à un ou plusieurs mondes sociaux. À l’origine de ce concept –&#160;comme illustré par Star (2010, p.&#160;24)&#160;– préside l’idée du travail invisible&#160;; une conceptualisation que Susan Leigh Star avait rencontrée au cours de sa militance féministe, dans le cadre d’une mise en visibilité du travail domestique non rémunéré (Star &amp; Strauss, 1999). Elle a poursuivi par l’étude des modèles du travail invisible dans le développement des systèmes informatiques et par l’examen des types de matérialité impliqués dans les représentations muséales. Le travail invisible a subtilement influencé le développement des objets frontières dans le sens où il a rendu justice aux ajustements locaux, une forme de travail qui reste invisible pour le groupe pris&#160;dans son ensemble et qui porte une représentation partagée qui peut rester assez vague tout en étant concomitamment très utile.</hi>
+            </p>
+            <p xml:id="d1e458">
+                <hi xml:lang="fr">Dans l’étude des pratiques du travail, «&#160;l’ajustement local&#160;» forme le connaître en pratique tel qu’il est encastré dans des infrastructures organisationnelles. Dans les&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">practice-based studies</hi>
+        </hi>
+                <hi xml:lang="fr">, l’ethnographie des infrastructures repose ses fondations sur des éléments hérités du passé et illustre la façon dont des classifications performent des cours d’action de façon invisible. Dans les termes de Trompette et Vinck, c’est à travers des irrégularités, des excès, des tensions, causés par des enjeux que le chercheur est à même de pister le travail silencieux des infrastructures&#160;: le mutisme des acteurs déclassés&#160;; la façon dont des choses similaires sont forcées d’entrer dans des catégories standardisées&#160;; la façon d’exclure de la connaissance ce qui n’est pas descriptible.</hi>
+            </p>
+            <p xml:id="d1e466">
+                <hi xml:lang="fr">Les contributions de ces deux dossiers thématiques offrent une opportunité de réfléchir à la manière dont les pratiques de connaissance sont constituées sur un régime de visibilité/invisibilité en pleine réminiscence de la théorie foucaldienne. Il est possible de suivre à la trace la façon selon laquelle cette perspective se déploie dans la&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr">&#160;de façon continue jusqu’au dossier thématique 2012/1, «&#160;Les petites mains de la société d’information&#160;», édité par Jérôme Denis et David Pontille. </hi>
+                <hi xml:lang="en">Il s’ouvre d’ailleurs avec une citation de Star&#160;:</hi>
+            </p>
+            <q rend="quotation">To do a sociology of the invisible means to take on the erasing process as the central human behavior of concern, and then to track that comparatively across domains. This is, in the end, a profoundly political process, since so many modern forms of social control rely on the erasure or silencing of various workers, on deleting their work from representations of the work.<hi xml:lang="en"> </hi>
+        <hi xml:lang="fr">(Star, 1991, p.&#160;291)</hi>
+      </q>
+            <p xml:id="d1e483">
+                <hi xml:lang="fr">L’invisibilité –&#160;capturée à travers l’image des «&#160;petites mains de la société de l’information&#160;»&#160;– renvoie essentiellement à cette catégorie du travail et de travailleurs qui soutiennent le réseau des pratiques de traitement de l’information mais qui sont condamnées à l’invisibilité du fait de leur statut, de leur position dans les réseaux sociotechniques, et du fait que ce qui compte comme «&#160;travail&#160;» fait l’objet d’une catégorisation exprimant un certain ordre moral. La focale des articles de ce dossier est de traiter plus la production relationnelle et récursive du visible et de l’invisible que les processus d’effacement. Néanmoins, ce dossier contribue aux études des infrastructures en appliquant au domaine des infrastructures informationnelles des approches qui portaient initialement sur les pratiques scientifiques. Ce choix est très pertinent puisqu’il permet des analyses fines qui mettent l’accent sur les liens étroits entre la mise en visibilité du travail, la valorisation des données et l’identification de l’organisation sous-jacente. En fait, la fabrique des données est une pièce maîtresse pour une approche anthropologique de la connaissance en pratique, et cette «&#160;fabrique&#160;» implique aussi l’engagement du chercheur avec le monde des données. Comme Benozzo&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">et&#160;al</hi>
+        </hi>
+                <hi xml:lang="fr">. (2013, 309) ont pu le formuler&#160;: «&#160;Plutôt que de conceptualiser les données comme une ressource potentielle d’information, nous sommes intéressés par les données pour ce qu’elles produisent, pour la manière dont elles circulent et pour la façon dont les chercheurs peuvent leur donner vie et sens, c’est à dire comment les données peuvent nous constituer autant comme personnes que comme chercheurs.&#160;»</hi>
+            </p>
+            <p xml:id="d1e491">
+                <hi xml:lang="fr">Cette approche de la production relationnelle de la mise visibilité/invisibilité nous apprend à nous méfier d’une conception de l’information comme étant «&#160;immatérielle et transparente&#160;». En fait, questionner une définition essentialiste et désincarnée de l’information est une démarche politique au regard de la société de l’information et de nous-mêmes comme chercheurs. La matérialité de l’information est au cœur de l’approche sociotechnique des infrastructures informationnelles présentée dans l’introduction de Denis et Pontille (2012), et cette perspective est également présente dans le dossier thématique 2013/4, «&#160;Les textures matérielles de l’accumulation&#160;», édité par Tiziana Nicoletta Beltrame et Christine Jungen, qui intitule l’article introductif&#160;: «&#160;Cataloguer, indexer, encoder, ou Comment les données prennent vie&#160;». Ainsi, la matérialité de l’information peut prendre une signification différente quand le regard se porte sur les données. En fait, les pratiques de connaissances du monde contemporain se caractérisent par la classification, le stockage et la redistribution des données à des échelles de plus en plus grandes. Il en découle un changement dans l’approche des pratiques de connaissances –&#160;dont l’analyse a été l’un des principaux centres d’intérêt de la </hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr">&#160;– à travers l’édition de plusieurs dossiers&#160;: «&#160;Compter, démontrer, formaliser&#160;» 2009/2 (Avarnitis, 2009), «&#160;Approche écologique, pragmatique et politique de l’expertise&#160;» 2013/1 (Barbier&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">et&#160;al</hi>
+        </hi>
+                <hi xml:lang="fr">., 2013), «&#160;Pratiques d’ingénierie&#160;» 2014/2 (Vinck, 2014), «&#160;Le renouveau de la taxonomie&#160;: modalités, effets et enjeux pratiques&#160;» 2013/2 (Faugére &amp; Mauz, 2013), «&#160;Les ressources biologiques&#160;» 2011/2 (Milanovic, 2011).</hi>
+            </p>
+            <p xml:id="d1e504">
+                <hi xml:lang="fr">Dans «&#160;Cataloguer, indexer, encoder&#160;» de Beltrame et Jungen (2013), nous reconnaissons là trois types de pratiques de connaissances par lesquelles les bases de données sont fabriquées et grâce auxquelles une infrastructure d’information peut être mise en action. Et quand on aborde le sous-titre «&#160;comment les données prennent vie&#160;», on prend intuitivement conscience de la différence entre «&#160;les choses qui sont&#160;» et «&#160;les choses qui acquièrent une existence et un devenir&#160;». Comme le notent les éditeurs, un gros effort a été déployé pour déconstruire les «&#160;boîtes noires&#160;» en soulignant la construction des connaissances pour identifier les infrastructures invisibles qui organisent les pratiques de connaissance, et pour mettre au jour l’inertie qui caractérise ces structures d’informationnelles. Pour autant, comment nos méthodologies viennent-elles à changer si nous nous demandons comment le monde et ses composantes sont comme performés en retour par ces structures normatives qui sont les sites de leur enregistrement&#160;? Quelles conséquences en tirer si nous supposons qu’elles ont une capacité à&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">repeupler</hi>
+        </hi>
+                <hi xml:lang="fr"> les infrastructures&#160;? Ce raisonnement indique le sens d’un déplacement d’une cognition distribuée vers une agencéité distribuée ou, comme je préfère le dire, un&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">agencement</hi>
+        </hi>
+                <hi xml:lang="fr"> distribué.</hi>
+            </p>
+            <p xml:id="d1e517">
+                <hi xml:lang="fr">Le mouvement intellectuel qui a été rendu possible par l’étude empirique des connaissances comme pratiques situées a été un mouvement de décentrement du sujet humain, partant d’une théorie humaniste de la pratique (quand la pratique&#160;est définie comme un éventail d’activités détachées des humains) pour aller vers une théorie post-humaniste de la pratique. Une épistémologie post-humaniste de la pratique considère la pratique comme étant un&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">agencement</hi>
+        </hi>
+                <hi xml:lang="fr"> d’éléments hétérogènes qui énactent l’agencéité de leurs relations et de leur devenir (Gherardi, 2016). Nous avons pu déjà expérimenter les difficultés (et les déconvenues) de l’édiction de frontières entre l’humain et le non-humain. Ce que Foucault (1976) nomme la «&#160;biopolitique&#160;» concerne le pouvoir grandissant des humains sur la vie elle-même, et la façon dont le pouvoir et la connaissance prennent en compte les processus de vie et envisagent de les contrôler et de les modifier.</hi>
+            </p>
+            <p xml:id="d1e525">
+                <hi xml:lang="fr">Je souhaiterais illustrer ce point en donnant un exemple de la manière dont l’agencement des pratiques joue dans la séparation de la mise en visibilité et en invisibilité. Je prendrai le cas de la biosécurité, définie par son accomplissement dans des pratiques de surveillance situées, c’est-à-dire de bas vers le haut, en renvoyant au dossier thématique «&#160;La surveillance des animaux&#160;» 2015/2 édité par Nicolas Fortané et Frédéric Keck.</hi>
+            </p>
+            <p xml:id="d1e528">
+                <hi xml:lang="fr">L’émergence d’un nouveau pathogène, qui peut être transmis de l’animal à l’homme, est considérée comme un événement pour lequel les autorités sanitaires se doivent d’être préparées en imaginant des conséquences pourtant incertaines pour la population humaine. Des réarrangements sont alors nécessaires dans les réseaux de santé publique au niveau global, particulièrement au niveau d’une coordination entre des données de santé animale et de santé humaine. Alors que des formes précédentes de biopolitique sont établies sur la base de modèles statistiques qui rendent possibles la prédiction et la mesure de risques, la biosécurité est aussi une préparation à une possible catastrophe dont la probabilité n’est pas calculable. Le terme biosécurité dénote alors une nouvelle rationalité du risque (un déplacement du «&#160;management international des menaces&#160;» vers une «&#160;gouvernance globale du risque&#160;») en lien avec le management des êtres vivants. Ainsi, du point de vue de la biosécurité, le développement de mécanismes de monitoring global tend à devenir le principal instrument de cette nouvelle logique de la gestion des risques fondée sur la surveillance, et les autorités sanitaires occupent alors une position centrale dans la standardisation et la coordination de la gestion globale de l’émergence de maladies infectieuses.</hi>
+            </p>
+            <p xml:id="d1e531">
+                <hi xml:lang="fr">Ce qui est ici pertinent selon moi n’est pas tant le fait que durant les vingt dernières années, le nombre de crises sanitaires causées par la transmissibilité de maladies animales à l’homme a conduit à changer les normes qui gouvernent la surveillance des populations animales. Comme Fortané et Keck (2015) l’ont souligné, c’est plutôt le fait que des pratiques de surveillance, non seulement conduisent à de nouvelles formes de connaissance et de compréhension du monde en relation aux maladies animales, mais surtout favorisent la production et/ou le maintien de l’ignorance. S’il est établi que les instruments de la surveillance de la santé animale mettent en lumière ce qui est parfois hautement controversé (par exemple le rôle de la faune sauvage dans l’émergence de nouvelles maladies), ils laissent de côté certains aspects plus difficiles à renseigner (tels que l’impact de la circulation de populations d’animaux domestiques au sein de secteurs de confinement).</hi>
+            </p>
+            <p xml:id="d1e534">
+                <hi xml:lang="fr">Les pratiques de gestion de la production agricole, les pratiques du monde des affaires, les pratiques académiques et les pratiques de monitoring des populations humaines ou celles visant à maintenir la biodiversité sont réindexées comme des pratiques de biosécurité dont la finalité est de produire les données de la surveillance. Fortané et Keck (2015, p.&#160;133) concluent ainsi&#160;:</hi>
+            </p>
+            <q rend="quotation">La biosécurité étend ainsi au niveau mondial ce qui avait déjà été observé pour la traçabilité en Europe&#160;: les signes par lesquels sont perçues les maladies nouvelles n’auraient pas de sens s’ils ne s’inscrivaient pas dans des pratiques qui leur préexistent. La biosécurité n’existe donc que par les agencements qu’elle est capable d’organiser entre des savoirs, des techniques et des activités qui peuvent simultanément répondre à d’autres finalités, souvent complémentaires mais parfois aussi contradictoires.</q>
+            <p xml:id="d1e539">
+                <hi xml:lang="fr">Je souhaite compléter mon propos illustré ci-dessus avec cet exemple de la biosécurité prise comme texture de différentes pratiques qui acquièrent de l’agencéité du fait de l’agencement de connaissances, de techniques et d’activités. Je soutiens que les&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">practice-based studies</hi>
+        </hi>
+                <hi xml:lang="fr"> ne sont pas tombées en panne de carburant durant ces vingt dernières années&#160;; au contraire, elles ont redéfini l’objet de la connaissance en partant d’un intérêt central pour la cognition distribuée au sein de pratiques individualisées et d’activités composant une certaine pratique, pour aller vers l’étude des agencements distribués dans une texture de pratiques, où l’intérêt porte sur la façon dont les agencements viennent à exister et sur la façon dont le pouvoir établit des régimes de visibilité et d’invisibilité.</hi>
+            </p>
+            <p xml:id="d1e547">
+                <hi xml:lang="fr">La&#160;</hi>
+                <hi rend="italic">
+          <hi xml:lang="fr">RAC</hi>
+        </hi>
+                <hi xml:lang="fr"> donne un bon exemple de changement d’un objet de connaissance sur la dernière décennie et, en même temps, suggère des pistes de recherches futures.</hi>
+            </p>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e559">
+                <listBibl xml:id="d1e561">
+                    <bibl xml:id="d1e563">
+                        <hi xml:lang="en">Arvanitis,&#160;R. &amp; Grossetti,&#160;M. (2009). Counting, demonstrating, formalizing. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">3</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 177-182.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e576">
+                        <hi xml:lang="en">Barad, K. (2007).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning.</hi>
+                        </hi>
+                        <hi xml:lang="en"> </hi>
+                        <hi xml:lang="fr">Durham, NC: Duke University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e586">
+                        <hi xml:lang="fr">Barbier,&#160;M.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">et&#160;al.</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;(2013). Pour une approche pragmatique, écologique et politique de l’expertise. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">7</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 1-23.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e604">
+                        <hi xml:lang="en">Beltrame, T.&#160;N. &amp; Jungen, C. (2013). </hi>
+                        <hi xml:lang="fr">Cataloguer, indexer, encoder. Ou comment les données prennent vie. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">7</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 747-759.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e619">
+                        <hi xml:lang="en">Benozzo, A, Bell, H. &amp; Koro-Ljungber, M (2013). Moving between nuisance, splinters and secrets as data. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Cultural Studies Critical Methodologies</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">13</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 309-315.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e632">
+                        <hi xml:lang="fr">Bidet, A., Borzeix, A., Pillon, T., Rot, G., &amp; Vatin, F. (eds.), (2006). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Sociologie du travail et activité</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Toulouse&#160;: Octarès.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e640">
+                        <hi xml:lang="en">Bijker, W. (1995).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">On Bikes, Bakelites and Bulbs: Towards a Theory of Socio-Technical Change. </hi>
+                        </hi>
+                        <hi xml:lang="fr">Cambridge, Ma: MIT Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e648">
+                        <hi xml:lang="fr">Borzeix, A. Bouvier, A. &amp; Pharo, P. (2003). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Sociologie et connaissance. Nouvelles approches cognitives</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: CNRS Éditions.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e656">
+                        <hi xml:lang="en">Braidotti, R. (2002).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Metamorphoses: Towards a Feminist Theory of Becoming</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Cambridge: Polity Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e666">
+                        <hi xml:lang="fr">Brassac, C. (2007). Une vision praxéologique des architectures de connaissances dans les organisations. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">1</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 121-135.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e680">
+                        <hi xml:lang="fr">Clot, Y. (2002). Clinique de l’activité et répétition. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Cliniques méditerranéennes,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">66</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 31-53.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e693">
+                        <hi xml:lang="en">Cook, S. N., &amp; Brown, J. S. (1999). Bridging epistemologies: The generative dance between organizational knowledge and organizational knowing. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Organization Science,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">10</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 373-390.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e706">
+                        <hi xml:lang="en">Corbin, J. M., &amp; Strauss, A. L. (1993). The articulation of work through interaction. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">The Sociological Quarterly</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">34</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 71-83.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e719">
+                        <hi xml:lang="fr">Denis, J. &amp; Pontille, D. (2012) Travailleurs de l’écrit, matières de l’information. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">6</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 1-20.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e732">
+                        <hi xml:lang="en">Engestrom, Y. &amp; Middleton, D. (eds.), (1996). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Cognition and Communication at Work.</hi>
+                        </hi>
+                        <hi xml:lang="en"> </hi>
+                        <hi xml:lang="fr">Cambridge: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e742">
+                        <hi xml:lang="fr">Faugère, E. &amp; Mauz, I. (2013). Une introduction au renouveau de la taxonomie. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">7</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 349-364.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e755">
+                        <hi xml:lang="fr">Fortané, N. &amp; Keck, F. (2015). Ce que fait la biosécurité à la surveillance des animaux. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">9</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 125-137.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e768">
+                        <hi xml:lang="fr">Foucault M. (1976).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Histoire de la sexualité.</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;Tome&#160;1. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La volonté de savoir</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Gallimard.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e781">
+                        <hi xml:lang="en">Gergen, K. (1985). The social constructionist movement in modern psychology. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Psychologist,</hi>
+                        </hi>
+                        <hi xml:lang="en"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">March</hi>
+                        </hi>
+                        <hi xml:lang="en">, 266-275.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e794">
+                        <hi xml:lang="en">Gherardi, S. (2000). Practice-based theorizing on learning and knowing in organizations: An introduction to the special issue on ‘Knowing in practice’. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Organization</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">7</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 211-223.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e807">
+                        <hi xml:lang="en">Gherardi, S. (2016). To start practice-theorizing anew: the contribution of the concepts of&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">agencement</hi>
+                        </hi>
+                        <hi xml:lang="en">and formativeness. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Organization, online first</hi>
+                        </hi>
+                        <hi xml:lang="fr">. </hi>
+                        <ref target="https://doi.org/10.1177/1350508415605174">
+                            <hi xml:lang="fr">https://doi.org/10.1177/1350508415605174</hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e824">
+                        <hi xml:lang="en">Goodwin, C. (1997). The Blackness of Black: Color Categories as Situated Practices. In L.&#160;Resnick, R.&#160;Saljo, C.&#160;Pontecorvo &amp; B.&#160;Burge (eds.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Discourse, Tools and Reasoning: Essays on Situated Cognition</hi>
+                        </hi>
+                        <hi xml:lang="en">. (pp.&#160;111-140). Berlin: Springer.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e832">
+                        <hi xml:lang="en">Haraway, D. (1988). Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Feminist Studies,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">14</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 575-599.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e845">
+                        <hi xml:lang="en">Heath, C., Knoblauch, H. &amp; P. Luff (2000). Technology and Social Interaction: The Emergence of ‘Workplace Studies’. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">British Journal of Sociology,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">51</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 299-320.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e858">
+                        <hi xml:lang="en">Hutchins, E. (1995).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Cognition in the wild.</hi>
+                        </hi>
+                        <hi xml:lang="en">&#160;</hi>
+                        <hi xml:lang="fr">Cambridge, Mass.: MIT Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e868">
+                        <hi xml:lang="en">Latour, B. (1992). Where are the missing masses? Sociology of a few mundane artefacts. In W.&#160;Bijker &amp; J.&#160;Law (eds.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Shaping Technology, Building Society: Studies in Sociotechnical Change.</hi>
+                        </hi>
+                        <hi xml:lang="en"> Cambridge (pp.&#160;225-258). MA: MIT Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e876">
+                        <hi xml:lang="en">Latour, B. (2004). Why has critique run out of steam? From matters of fact to matters of concern. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Critical Inquiry,</hi>
+                        </hi>
+                        <hi xml:lang="en"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">30</hi>
+                        </hi>
+                        <hi xml:lang="en">, 225-248.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e889">
+                        <hi xml:lang="en">Lave, J. &amp; Wenger, E. (1991). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Situated Learning: Legitimate Peripheral Participation</hi>
+                        </hi>
+                        <hi xml:lang="en">. Cambridge, MA: University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e897">
+                        <hi xml:lang="en">Licoppe, C. (2009) In the “activity square”: International perspectives on labor, work and activity. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Sociologie du travail</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">51</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Supplement 2, 155-169 (Initially published as Licoppe, C. (2008). Dans le carré de «&#160;l’activité&#160;»&#160;: perspectives internationales sur le travail et l’activité, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Sociologie du travail, 50</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 287-302.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e915">
+                        <hi xml:lang="en">Miettinen, R., Samra-Fredericks, D. &amp; Yanow, D. (2009). Re-turn to Practice: An Introductory Essay. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Organization Studies</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">30</hi>
+                        </hi>
+                        <hi xml:lang="fr">(12), 1309-1327.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e928">
+                        <hi xml:lang="fr">Milanovic, F. (2011). Les ressources biologiques. Enjeux transversaux de connaissance, socialisation, régulation. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">5</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 189-205.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e941">
+                        <hi xml:lang="en">Orlikowski, W. J. (2002). Knowing in practice: Enacting a collective capability in distributed organizing. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Organization Science</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">13</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 249-273.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e955">
+                        <hi xml:lang="en">Pickering, A. (1992).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science as Practice and Culture</hi>
+                        </hi>
+                        <hi xml:lang="en">. Chicago: University of Chicago Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e963">
+                        <hi xml:lang="fr">Poitou, J.P. (2007). Des techniques de gestion des connaissances à l’anthropologie des connaissances. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">1</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 11-34.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e976">
+                        <hi xml:lang="fr">Quéré, L. (2003). La cognition comme action incarnée. In A.&#160;Borzeix, A.&#160;Bouvier &amp; P.&#160;Pharo, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Sociologie et connaissance. Nouvelles approches cognitives</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (pp.&#160;143-164). Paris&#160;: CNRS Éditions.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e984">
+                        <hi xml:lang="en">Schatzki, T. R., Knorr Cetina, K. &amp; von Savigny, E. (eds.) (2001). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Practice Turn in Contemporary Theory</hi>
+                        </hi>
+                        <hi xml:lang="en">. London and New York: Routledge.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e992">
+                        <hi xml:lang="en">Star, S. L. (1991). The sociology of the invisible: the primacy of work in the writings of Anselm Strauss. In D.&#160;Maines (ed.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Social Organization and Social Process: Essays in Honor of Anselm Strauss</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;265-283). Hawthorne, NY: Aldine de Gruyter.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1000">
+                        <hi xml:lang="fr">Star, S. L. (2010). Ceci n’est pas un objet-frontière&#160;! Réflexions sur l’origine d’un concept. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">4</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 18-35.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1013">
+                        <hi xml:lang="en">Star, S. L. &amp; Griesemer, J. (1989). Institutional ecology, ‘translations’ and boundary objects: amateurs and professionals on Berkeley’s museum of vertrebate zoologie. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Social Studies of Science,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">19</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 387-420.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1026">
+                        <hi xml:lang="en">Star, S. L. &amp; Strauss, A. (1999). Layers of silence, arenas of voice: The ecology of visible and invisible work. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Computer Supported Cooperative Work,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">8</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 9-30.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1039">
+                        <hi xml:lang="en">Strauss, A. (1988). The articulation of project work: An organizational process. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Sociological Quarterly</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">29</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 163-178.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1052">
+                        <hi xml:lang="en">Suchman, L. (1987).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Plans and situated actions. The problems of human/machine communication</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Cambridge: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1062">
+                        <hi xml:lang="fr">Trompette, P. &amp; Vinck, D. (2009). Retour sur la notion d’objet-frontière. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">3</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 5-27.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1076">
+                        <hi xml:lang="fr">Trompette, P. &amp; Vinck, D. (2010). Retour sur la notion d’objet-frontière (2). Fécondité de la notion dans l’analyse écologique des objets innovants. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">4</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">(</hi>
+                        </hi>
+                        <hi xml:lang="fr">1), 11-15.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1092">
+                        <hi xml:lang="fr">Vinck, D. (2007a). Cet obscur objet de connaissances. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">1</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 5-10.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1105">
+                        <hi xml:lang="fr">Vinck, D. (2007b). Retour sur le laboratoire comme espace de production de connaissances. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">1</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 159-165.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1118">
+                        <hi xml:lang="fr">Vinck, D. (2014). Pratiques d’ingénierie. Les savoirs de l’action. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’anthropologie des connaissances,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">8</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 225-243.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

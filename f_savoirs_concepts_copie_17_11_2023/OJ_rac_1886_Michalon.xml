@@ -1,0 +1,2535 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_1886_Michalon">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi>Les&#160;</hi>
+                    <hi rend="italic">
+                        <hi xml:lang="fr">Animal Studies</hi>
+                    </hi>
+                    <hi xml:lang="fr"> peuvent-elles nous aider à penser l’émergence des épistémès réparatrices&#160;?</hi>
+                </title>
+                <title level="a" type="alt" xml:lang="en">How Animal Studies can help us understand the rise of compensation épistemés</title>
+                <title level="a" type="alt" xml:lang="es">Como los&#160;Animal Studies pueden ayudarnos a pensar en la emergencia del episteme reparador</title>
+                <author>
+                    <persName>
+                        <forename>Jérôme</forename>
+                        <surname>Michalon</surname>
+                    </persName>
+                    <affiliation> Docteur en sociologie et anthropologie politique, il est chercheur associé au Centre Max Weber (UMR 5283) –&#160;Université de Lyon. Ses travaux portent sur les évolutions récentes des rapports humains/animaux, les pratiques de médiation animale et le militantisme pro-animaux, dans une perspective de sociologie pragmatique et de sociologie politique des sciences.<ref target="https://orcid.org/0000-0002-6151-7324">https://orcid.org/0000-0002-6151-7324</ref>Adresse&#160;: Centre Max Weber, 6&#160;rue Basse des Rives, FR-42023 Saint-Étienne (France).Courriel&#160;: jerome.michalon[at]gmail.com </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>sociology</item>
+                        <item>animals studies</item>
+                        <item>zoocentrism</item>
+                        <item>social movements</item>
+                        <item>science</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>sociología</item>
+                        <item>animal studies</item>
+                        <item>zoocentrismo</item>
+                        <item>movimientos sociales</item>
+                        <item>ciencia</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>sociologie</item>
+                        <item>animal studies</item>
+                        <item>zoocentrisme</item>
+                        <item>mouvements sociaux</item>
+                        <item>science</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">
+                        <hi>Les&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Animal Studies</hi>
+                        </hi>
+                        <hi xml:lang="fr"> peuvent-elles nous aider à penser l’émergence des épistémès réparatrices&#160;?</hi>
+                    </titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Jérôme Michalon</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e238">
+                <p xml:id="d1e239">
+                    <hi xml:lang="fr">Cet article vise à décrire ce que sont les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> dans une perspective d’histoire des savoirs et de sociologie des sciences. Il s’agira de décrire l’évolution du domaine des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> tout autant que de la communauté qui y prend part, en situant cette description dans le cadre de l’évolution récente des relations humains/animaux (montée en puissance du zoocentrisme). À travers trois sites éditoriaux, les revues </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Anthrozoös</hi>
+          </hi>
+                    <hi xml:lang="fr">, </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Society &amp; Animals</hi>
+          </hi>
+                    <hi xml:lang="fr">, et le&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Journal of Critical Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, on cherchera à décrire comment les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> se constituent en tant que&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">. On parlera d’un processus de «&#160;montée en&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;», procédant par étapes, et se traduisant, pour les tenants des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, par l’affirmation progressive et conjointe de la nécessité d’une posture zoocentrée et d’une indexation de la production de savoirs sur des ambitions normatives pro-animaux.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e288">
+                <p xml:id="d1e289">
+                    <hi xml:lang="en">This article aims at describing Animal Studies in a perspective of history of knowledge and sociology of sciences. The evolution of Animal Studies domain is depicted as well as the community which takes part in it. This description is placed within the broader context of the recent evolutions of human-animals relations (the rise of&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">zoocentrism</hi>
+          </hi>
+                    <hi xml:lang="en">). Through three editorial sites, </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Anthrozoös</hi>
+          </hi>
+                    <hi xml:lang="en">, </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Society and Animals</hi>
+          </hi>
+                    <hi xml:lang="en">, and the&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Journal of Critical Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="en">, we will describe how&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="en"> try to constitute as&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Studies</hi>
+          </hi>
+                    <hi xml:lang="en">. We will describe this process of “becoming studies”, which results in the progressive and joint assertion, by the&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="en"> community, of the necessity of a zoocentric perspective and the necessity to line up knowledge production on pro-animals normative ambitions.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e328">
+                <p xml:id="d1e329">
+                    <hi xml:lang="fr">Este artículo pretende describir lo que son los&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> en una perspectiva de la historia del saber y de la sociología de las ciencias. Se tratá de describir la evolución del campo de los&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> y de la comunidad que participa en este, situando esta descripción en el marco de la evolución reciente de las relaciones humanas / animales (el aumento en potencia del zoocentrismo). A través de tres sitios editoriales, la revista </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Anthrozoös</hi>
+          </hi>
+                    <hi xml:lang="fr">, </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Society and Animals</hi>
+          </hi>
+                    <hi xml:lang="fr">, y el&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Journal of Critical Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, procuramos describir cómo los&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> se constituyen como&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">. Hablamos de un proceso de «aumento en estudios», procediendo por etapas, y traduciéndose, para los defensores de los&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, por la afirmación progresiva y conjunta de la necesidad de una postura zoocentrada y de una indización de la producción de saber sobre ambiciones normativas pro-animales.</hi>
+                </p>
+            </div>
+            <div type="ack" xml:id="d1e374">
+                <p xml:id="d1e375">
+                    <hi xml:lang="fr">L’auteur tient à remercier chaleureusement les évaluateurs, ainsi que Fabien Carrié, pour leur relecture attentive de la première version de cet article.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e382">
+                <head subtype="level1" xml:id="d1e383">Introduction</head>
+                <p xml:id="d1e385">
+                    <hi xml:lang="fr">En janvier 2012, le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">New&#160;York&#160;Times</hi>
+          </hi>
+                    <hi xml:lang="fr"> publiait un article intitulé «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies Cross Campus to Lecture Hall</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;». Son auteur y fait le constat de l’ampleur prise par une communauté de recherche&#160;: celle des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies,</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;qui s’évertue depuis une trentaine d’années à comprendre la place qu’occupent les animaux dans les sociétés humaines. Pour donner la mesure du dynamisme de cette communauté, le journaliste explique que plus d’une centaine de cours dédiés à cette thématique émargent désormais au programme des universités nord-américaines. Plus étonnant encore, nous dit-il, ces cours ne sont pas exclusivement dispensés par les sciences de la nature, et on les trouve plus volontiers du côté des humanités et des sciences sociales&#160;: les animaux ont donc traversé le campus, rejoignant des univers disciplinaires desquels ils avaient été longtemps absents. Qu’est-ce qui a pu permettre une telle circulation&#160;? L’article évoque les évolutions des sciences de l’environnement, qui ont mis en lumière le rôle de l’espèce humaine dans le devenir d’autres espèces animales et ont ainsi accru l’idée d’interdépendance entre les vivants. L’éthologie est convoquée également, tant cette science a remis en cause l’idée d’une irréductible différence entre humains et animaux, amenant à reconsidérer les frontières disciplinaires bien en place. Pour autant, à en croire le journaliste, c’est un philosophe qui a exercé l’influence la plus importante sur les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;: Peter Singer, à travers son ouvrage&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Liberation</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(1975), a remis en cause la légitimité morale de certains modes de relation aux animaux, générant chez ces derniers de la souffrance physique ou psychique (principalement, l’élevage, la consommation de viande et l’expérimentation animale). Appelant de ses vœux une abolition de ces pratiques, Singer a donné à l’étude des relations humains/animaux une problématisation politique, qui s’est traduite par la naissance de plusieurs mouvements prônant la libération animale (dont le «&#160;Animal Liberation Front&#160;», pratiquant l’action directe). Ainsi, le développement des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> serait à relier à celui de l’éthique animale (Jeangène-Vilmer, 2009), au mouvement des droits des animaux (Jasper &amp; Nelkin, 1992), et à la manière dont le sort des animaux devient un objet de «&#160;concernement&#160;» de plus en plus partagé dans les sociétés occidentales. C’est au titre de ces évolutions sociales que des anthropologues et des sociologues sont enfin cités dans l’article, tout autant pour expliquer le pourquoi-du-comment des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> que le pourquoi-du-comment des reconfigurations récentes du rapport aux animaux&#160;; qui ne sont peut-être qu’une seule et même question. Le portrait des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies </hi>
+          </hi>
+                    <hi xml:lang="fr">dressé par le&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">New York Times</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;met donc en avant leur caractère pluridisciplinaire&#160;: réunies sous le patronage de l’éthique animale, biologie, éthologie, philosophie, anthropologie et sociologie se côtoient. L’article décrit également une communauté où des questions politiques et morales rencontrent des enjeux scientifiques, où les scientifiques eux-mêmes s’impliquent au nom de leurs connaissances –&#160;et&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">par</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;leurs connaissances&#160;– en faveur d’une réévaluation des rapports entre humains et&#160;animaux, où ambitions normatives et dimensions épistémiques se confondent et s’alimentent mutuellement</hi>
+                    <note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p>
+              <hi xml:lang="en"> <hi xml:lang="fr">La première conférence internationale sur les&#160;</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Animal Studies</hi>
+                </hi>
+                <hi xml:lang="fr">&#160;a eu lieu en 2009, à Newcastle (Australie). Le titre de la conférence,&#160;</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Minding Animals</hi>
+                </hi>
+                <hi xml:lang="fr">, portait en lui-même le double souci de réfléchir à la place de l’animal dans les sociétés humaines et de s’en préoccuper au sens éthique du terme&#160;: «&#160;</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">minding</hi>
+                </hi>
+                <hi xml:lang="fr">&#160;» signifie aussi bien «&#160;</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">caring</hi>
+                </hi>
+                <hi xml:lang="fr">&#160;» que «&#160;</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">thinking</hi>
+                </hi>
+                <hi xml:lang="fr">&#160;». Ainsi, l’ambition explicite de la conférence était de «&#160;construire des ponts entre les sciences, les humanités et l’activisme ». Voir&#160;</hi>
+                <ref target="http://www.mindinganimals.com/">
+                  <hi rendition="#style03">
+                    <hi xml:lang="fr">http://www.mindinganimals.com/</hi>
+                  </hi>
+                </ref>
+              </hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">.</hi>
+                </p>
+                <p xml:id="d1e479">
+                    <hi xml:lang="fr">Qu’est-ce que les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(AS) ont à nous apprendre du format&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;? Est-ce que cette hybridation entre académie et militantisme et de cette interdisciplinarité affichée se retrouvent dans d’autres mouvements étiquetés&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;? Est-ce que le développement des AS fait écho à l’évolution d’autres&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;? L’objectif du présent article n’est pas de répondre point par point à ces interrogations mais d’y contribuer en donnant un aperçu –&#160;forcément partiel et partial&#160;– de la communauté AS, de décrire son évolution à travers trois sites éditoriaux (les revues&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Anthrozoös</hi>
+          </hi>
+                    <hi xml:lang="fr">,&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Society and Animals</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;et&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Journal of Critical Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">) et d’inscrire ce développement dans le cadre plus large des évolutions des mobilisations pro-animaux. À travers une approche d’histoire des savoirs, à la croisée d’une perspective internaliste et externaliste, il s’agira de prendre au sérieux et de documenter les ambitions normatives et épistémiques des AS et de décrire la manière dont se construit progressivement tant une communauté qu’une identité des AS&#160;; processus que j’appellerai «&#160;montée en&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;».</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e523">
+                <head subtype="level1" xml:id="d1e524">Une proposition de généalogie des&#160;<hi rend="italic">Animal Studies</hi>
+        </head>
+                <p xml:id="d1e528">
+                    <hi xml:lang="fr">Comme l’explique Stéphane Van Damme (2004) à propos des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Cultural Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, c’est une véritable gageure de s’engager dans la généalogie de mouvements étiquetés&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">tant leurs ramifications sont multiples, leurs origines difficiles à saisir d’un point de vue purement historiographique. De plus, leur revendication a-disciplinaire (voire «&#160;anti-disciplinaire&#160;» –&#160;Maigret, 2013) rend moins aisée l’application des théories classiques sur le développement des disciplines. La question de la délimitation de l’objet dont il faudrait établir la filiation est également problématique&#160;: le risque est grand d’appréhender l’histoire de ces mouvements à partir de la forme qu’ils peuvent avoir aujourd’hui, une forme qui serait perçue, sous l’effet de l’analyse, comme stabilisée, finalisée. Enfin, les généalogies de ces mouvements peuvent être perçues comme des tentatives d’imposition d’une orientation particulière, servant le propos et/ou les intérêts de celui/celle qui se livre à l’exercice&#160;; ou encore comme une volonté de réification réductionniste de mouvements attachés précisément à une grande flexibilité et à la liberté de circulation qui leur a permis de se développer. Ces difficultés sont à prendre au sérieux, mais je pense qu’elles ne doivent&#160;pas nous empêcher de proposer une histoire des AS, à condition précisément qu’elle ne soit que ça&#160;: une&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">proposition</hi>
+          </hi>
+                    <hi xml:lang="fr">. Une proposition parmi d’autres&#160;: il sera utile au lecteur de consulter les autres versions disponibles de ce que sont les AS (Hurn, 2012&#160;; Taylor, 2013&#160;; Waldau, 2013&#160;; Weil, 2012). Une proposition qui s’appuie sur une recherche bibliographique, pensée comme la première étape d’une enquête sociologique plus consistante concernant la morphologie de la communauté AS et de ses membres. Cette recherche s’est fondée sur deux types de matériau&#160;: la totalité des références bibliographiques de chacune des revues analysées depuis leur création et les articles signés par les éditeurs de ces revues</hi>
+                    <note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p>
+              <hi xml:lang="en"> <hi xml:lang="fr">Il s’agit des articles des éditeurs en chef des revues, en place pendant plusieurs années, et parfois co-signés avec des éditeurs invités.</hi>
+              </hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Les notices bibliographiques ont été compilées sur&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Endnote</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;et analysées à l’aide de mots clefs afin d’obtenir une vision globale de l’évolution des contenus, de l’univers sémantique, de chacune des revues. Les articles des éditeurs regroupent des textes publiés lors du lancement d’une revue, à l’occasion d’un changement d’éditeur ou pour une date anniversaire de la revue. Ils ont été sélectionnés car ils permettaient d’avoir accès tout à la fois aux orientations éditoriales voulues par les éditeurs, mais aussi au bilan que ceux-ci font du contenu de leur revue. Ces textes donnent également accès à la manière dont les éditeurs perçoivent la constitution du domaine AS. Il faut dire à nouveau que cette enquête est très exploratoire et qu’il sera nécessaire d’analyser plus en profondeur le corpus des revues en question (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">via</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;une véritable analyse bibliométrique des références et une analyse lexicométrique des articles).</hi>
+                </p>
+                <p xml:id="d1e566">
+                    <hi xml:lang="fr">Enfin, travaillant moi-même, en tant que sociologue, sur les relations humains/animaux, et bien que cultivant une certaine distance critique vis-à-vis des AS, il m’est difficile de me définir comme étant totalement extérieur à cette communauté. Mais c’est précisément parce que je suis sociologue des sciences et des relations humains/animaux que les AS, en tant qu’objet d’étude, m’intéressent tout particulièrement.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e569">
+                <head subtype="level1" xml:id="d1e570">Les&#160;<hi rend="italic">Animal Studies </hi>comme avatar contemporain de la cause animale</head>
+                <p xml:id="d1e575">
+                    <hi xml:lang="fr">Parmi les évolutions importantes des deux derniers siècles, l’émergence d’initiatives structurées dédiées à la prise en charge bienveillante des animaux, de leur souffrance, de leur existence, et globalement le développement d’une «&#160;sensibilité&#160;» au sort des animaux, est un fait notable (Thomas, 1988&#160;; Ritvo, 1987&#160;; Baratay, 2003&#160;; Baldin, 2014). Le développement des mouvements de protection animale au XIX</hi>
+                    <hi rend="sup">
+            <hi xml:lang="fr">e</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;siècle est la traduction concrète de cette volonté de réformer les rapports que les humains entretiennent avec les animaux,&#160;sous un angle qui serait favorable à ces derniers. Ces mouvements ont prospéré depuis et ont accompagné l’émergence d’un mode de pensée que le sociologue Adrian Franklin (1999, 2001) nomme «&#160;zoocentrisme&#160;». Défini succinctement, le zoocentrisme désigne une manière de penser les relations humains/animaux à travers le prisme des intérêts et le point de vue de ces derniers. Selon Franklin, le zoocentrisme prend de l’ampleur depuis le début du XX</hi>
+                    <hi rend="sup">
+            <hi xml:lang="fr">e</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;siècle, dans le monde occidental, sans se substituer à l’anthropocentrisme dominant. Je fais l’hypothèse que le développement des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies </hi>
+          </hi>
+                    <hi xml:lang="fr">est à interpréter tout autant comme un rouage important de la formalisation et de l’expression publique du mode de pensée zoocentriste que comme une forme contemporaine de mobilisation pro-animaux. Et qu’à ce titre il importe d’inscrire l’apparition des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies </hi>
+          </hi>
+                    <hi xml:lang="fr">dans la continuité de l’histoire des relations entre sciences et «&#160;cause animale&#160;» (Traïni, 2011a). Les historiens qui se sont intéressés aux origines des mouvements de protection animale (Agulhon, 1981&#160;; Pelosse, 1981, 1982&#160;; Pierre, 1997&#160;; Baratay, 2003&#160;; Bacot, Baratay et al., 2003), ont décrit le rôle occupé par les sciences et les scientifiques dans ces mouvements&#160;: au XIX</hi>
+                    <hi rend="sup">
+            <hi xml:lang="fr">e</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;siècle, alors que les premières associations de protection comptent en leur sein de nombreux scientifiques, les polémiques sur la vivisection vont diviser le mouvement (Bory, 2013&#160;; Carrié, 2015b). Sciences et cause animale entretiennent à l’époque une relation ambivalente, puisque les sciences sont à la fois ce qui doit être critiqué et ce qui donne également du poids aux revendications pro-animaux. Cette relation ambivalente est-elle toujours d’actualité&#160;? Il est difficile de l’affirmer tant les travaux sociologiques sur la question sont rares, et tant ils ne se focalisent pas sur les relations entre production de savoirs et cause animale. Dans son ouvrage de 2011, Christophe Traïni cherche précisément à rendre compte des évolutions sur le long terme de la cause animale, dont il interprète l’émergence comme l’un des symptômes du processus de civilisation eliasien. Ce faisant, Traïni se focalise sur les dimensions morales et émotionnelles de l’engagement pro-animaux</hi>
+                    <note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p>
+              <hi xml:lang="en"> <hi xml:lang="fr">Cette dimension émotionnelle est documentée par Traïni (2011b, 2012) dans d’autres travaux, mobilisant des entretiens avec des militants de la cause animale.</hi>
+              </hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, dans le prolongement des travaux de James Jasper (Jasper &amp; Nelkin, 1992&#160;; Jasper, 1997) qui ont abordé la cause animale (à travers le mouvement des droits des animaux) comme une nouvelle forme de croisades morales (Gusfield, 1963&#160;; Mathieu, 2005). Si ces analyses se sont montrées très fructueuses, elles ont délaissé la question du rôle de la production de savoirs scientifiques dans les dynamiques de mobilisation pro-animaux. Une telle entrée me paraît pourtant pertinente. Outre les éléments historiques qui attestent d’une proximité entre les scientifiques et les militants pro-animaux, il est légitime de penser que les scientifiques (en particulier ceux qui œuvrent en sciences naturelles) ont un poids particulier dans la manière dont sont construits, traduits, représentés ce que seraient les intérêts des animaux. La cause en elle-même semble suggérer une forme particulière de porte-parolat (Carrié, 2015a, 2014), dans laquelle les sciences et les scientifiques peuvent occuper une place privilégiée.&#160;De plus, l’émergence depuis les années&#160;1970 des mouvements pour les droits des animaux, de la libération animale et de l’antispécisme</hi>
+                    <note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p>
+              <hi xml:lang="en"> <hi xml:lang="fr">Si l’on définit le racisme et le sexisme comme une différence de traitement justifiée par un argument biologique (une différence biologique entraîne une différence de traitement), le spécisme est le fait de traiter les animaux différemment en raison de leur appartenance à des espèces différentes de l’espèce humaine. L’antispécisme est une forme de pensée, et d’engagement, qui se refuse à pratiquer ces différences de traitement entre espèces. Le terme spécisme est souvent associé à Peter Singer, qui l’a utilisé dans son ouvrage de 1975&#160;</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Animal Liberation</hi>
+                </hi>
+                <hi xml:lang="fr">. Pour une histoire détaillée du concept, voir l’entrée «&#160;Antispécisme&#160;» dans l’</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Encyclopedia universalis</hi>
+                </hi>
+                <hi xml:lang="fr">, rédigée par Fabien Carrié&#160;:&#160;</hi>
+                <ref target="http://www.universalis.fr/encyclopedie/antispecisme/">
+                  <hi rendition="#style03">
+                    <hi xml:lang="fr">http://www.universalis.fr/encyclopedie/antispecisme/</hi>
+                  </hi>
+                </ref>
+              </hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">&#160;témoigne d’une forte convergence entre cause animale et monde universitaire (Dubreuil, 2013). En effet, même si pour une part ils se développent sur la base de mouvements antérieurs, la particularité de ces mouvements réside dans le fait d’utiliser des concepts et des mots d’ordre forgés par des universitaires, des scientifiques, souvent eux-mêmes très impliqués.</hi>
+                </p>
+                <p xml:id="d1e636">
+                    <hi xml:lang="fr">L’apparition des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">AS</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;peut donner l’impression que l’une des formes contemporaines de mobilisations pro-animales consiste en une mobilisation des universitaires et des militants, tous ensemble regroupés autour de l’objectif de faire avancer la condition animale, par la production de savoirs notamment</hi>
+                    <note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p>
+              <hi xml:lang="en"> <hi xml:lang="fr">Ce n’est sans doute pas une particularité propre aux mouvements pro-animaux, mais cette dimension n’a pas été explorée par les travaux de sociologie de la cause animale.</hi>
+              </hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Les AS pourraient donc se présenter comme une configuration historiquement nouvelle, où l’on se mobiliserait conjointement&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">pour</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;les animaux et&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">pour</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;la production de savoirs. C’est à ce titre que les AS me semblent être un objet particulièrement pertinent pour comprendre les reconfigurations récentes des rapports aux animaux et des rapports aux sciences.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e663">
+                <head subtype="level1" xml:id="d1e664">Trois sites éditoriaux&#160;:<hi xml:lang="fr"> </hi>
+          <hi rend="italic">Anthrozoös, Society &amp; Animals, Journal of Critical Animal Studies</hi>
+        </head>
+                <p xml:id="d1e670">
+                    <hi xml:lang="fr">Ancrer la généalogie des AS dans l’histoire de la cause animale et plus globalement dans l’évolution des rapports humains/animaux, marquée notamment par la montée du zoocentrisme, permet à la fois de rendre visible&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Big Picture</hi>
+          </hi>
+                    <hi xml:lang="fr">, mais également de défendre l’idée que le développement des AS témoigne aussi et surtout de celui du zoocentrisme comme mode de pensée, comme cadre cognitif et épistémique. Pour le montrer, je vais décrire trois sites éditoriaux des AS, à savoir trois revues&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Anthrozoös</hi>
+          </hi>
+                    <hi xml:lang="fr">, </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Society &amp; Animals</hi>
+          </hi>
+                    <hi xml:lang="fr"> et le&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Journal of Critical Animal Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, qui me semblent importantes à plusieurs titres. D’une part, ces trois revues ont été choisies parce qu’elles se présentent elles-mêmes comme des lieux centraux de publication des AS</hi>
+                    <note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p>
+              <hi xml:lang="en"> <hi xml:lang="fr">De fait, il existe aujourd’hui moins d’une dizaine de publications régulières consacrées aux relations humains/animaux en général, et bien moins encore consacrées aux AS en elles-mêmes.</hi>
+              </hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, qu’elles produisent&#160;un discours sur cette communauté et qu’elles se positionnent les unes par rapport aux autres. D’autre part, ces revues apparaissent successivement et chacune de ces apparitions témoigne tout autant de la constitution des AS comme communauté que des évolutions épistémiques notables, des ruptures et des continuités en termes de politiques éditoriales notamment. Par ailleurs, ces revues ont été choisies parce qu’elles ont été initiées et sont encore basées aux États-Unis&#160;: cette origine commune permet aux éditeurs de ces revues, lorsqu’ils doivent justifier de la spécificité de leur ligne éditoriale, de mobiliser des références partagées relatives au monde académique étatsunien, à ses rapports à l’activisme, ses habitudes de publication, d’évaluation des articles, etc. Enfin, outre leur contenu, chacun de ces sites éditoriaux donne à voir les liens que la communauté AS entretien avec différents acteurs non académiques (États, industriels, fondations, associations de protection animale). En résumé, le choix de ces trois revues permet de comprendre les mécanismes de «&#160;montée en&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» à la fois du point de vue de qui compose cette communauté AS et du point de vue des valeurs (épistémiques ou politiques) qui rassemblent ses membres.</hi>
+                </p>
+                <div type="div2" xml:id="d1e708">
+                    <head subtype="level2" xml:id="d1e709">Anthrozoös</head>
+                    <div type="div3" xml:id="d1e711">
+                        <head subtype="level3" xml:id="d1e712">La communauté Human-Animal Interactions&#160;: une autre généalogie des <hi rend="italic">Animal Studies</hi>
+            </head>
+                        <p xml:id="d1e716">
+                            <hi xml:lang="fr">Une manière de présenter les AS est de recourir, comme le journaliste du&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">New York Times</hi>
+              </hi>
+                            <hi xml:lang="fr">, à une narration qui placerait la philosophie de la libération animale (Singer, 1975) et celle des droits des animaux (Regan, 1983) à l’origine du mouvement</hi>
+                            <note type="standard" xml:id="ftn7" place="foot" n="7">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">On retrouve cette narration aussi bien sous la plume d’auteurs impliqués dans les AS (Shapiro &amp; DeMello, 2010), que sur la page Wikipédia dédiée aux AS&#160;: </hi>
+                    <ref target="https://en.wikipedia.org/wiki/Animal_studies">
+                      <hi xml:lang="fr">https://en.wikipedia.org/wiki/Animal_studies</hi>
+                    </ref>
+                    <hi xml:lang="fr">.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. Pour autant, les représentants actuels des AS reconnaissent également que la revue&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anthrozoös</hi>
+              </hi>
+                            <hi xml:lang="fr"> a été un site éditorial important. En s’intéressant à cette revue et à son contexte de création, c’est une tout autre généalogie des AS qui se donne à voir, moins ancrée dans les théories philosophiques et moins marquée par la radicalité politique. Cette généalogie fait également apparaître les acteurs et les infrastructures qui ont rendu possible l’émergence du domaine AS. Cette généalogie prend place également dans les années&#160;1970, dans le monde anglo-saxon</hi>
+                            <note type="standard" xml:id="ftn8" place="foot" n="8">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Pour une version bien plus étoffée de cette généalogie, voir Michalon (2014).</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. À cette époque, un certain nombre de travaux concernant l’utilisation de certains animaux dans des contextes de soins psychiques et/ou d’accompagnement social commencent à être publiés et discutés. La&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Pet-Facilitated Therapy</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;(Levinson, 1962, 1969), comme on l’appelle, est alors expérimentée tant par des psychothérapeutes que par des psychiatres, qui voient dans le contact animalier un moyen d’améliorer la prise en charge de patients avec lesquels la communication est difficile voire impossible.&#160;Conjointement, des pratiques de visites animalières dans des établissements de soin (maisons de retraite, hôpitaux) sont organisées par des associations de protection animale (Hines, 2003). Les médias de l’époque contribuent activement à la diffusion de ces interactions positives entre animaux et humains souffrants et/ou en situation de handicap. La rencontre entre «&#160;animal&#160;» et «&#160;prise en charge de la santé humaine&#160;» apparaît alors sous un aspect encore inédit</hi>
+                            <note type="standard" xml:id="ftn9" place="foot" n="9">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Les modalités de rencontre entre «&#160;animal&#160;» et «&#160;santé humaine&#160;» sont en effet multiples, mais les plus facilement identifiables sont bien souvent les plus «&#160;négatives&#160;», les plus dommageables pour les animaux&#160;: vivisection, expérimentation animale, abattages sanitaires dans le cas des épizooties, etc.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. C’est ce qui motive la constitution d’une communauté de recherche, que j’ai nommée communauté «&#160;HAI&#160;» pour&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Human-Animal Interactions</hi>
+              </hi>
+                            <hi xml:lang="fr">, du nom de l’objet qui va fédérer ses membres. Schématique, la communauté HAI comprend trois «&#160;groupes d’intérêt&#160;»&#160;: (1)&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">les industriels de l’alimentation pour animaux de compagnie</hi>
+              </hi>
+                            <hi xml:lang="fr">, marché qui explose dans les années&#160;1970, et intéresse des multinationales de l’agroalimentaire, comme Mars qui a été l’une des premières à investir assez massivement dans la recherche sur la nutrition des animaux de compagnie</hi>
+                            <note type="standard" xml:id="ftn10" place="foot" n="10">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Via l’institut Waltham notamment, voir :&#160;</hi>
+                    <ref target="https://www.waltham.com/">
+                      <hi rendition="#style03">
+                        <hi xml:lang="fr">https://www.waltham.com/</hi>
+                      </hi>
+                    </ref>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">, mais également sur les effets positifs du contact animalier, sur la santé humaine et sur la société en général. Sous l’impulsion directe de l’industrie, plusieurs organisations spécialisées (des HAI</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">O</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;–&#160;pour&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Organizations</hi>
+              </hi>
+                            <hi xml:lang="fr">) seront créées dans différents pays (États-Unis, Royaume-Uni, France, Belgique, Autriche entre autres) dans le but d’encourager les recherches sur les interactions avec l’animal à but thérapeutique, de fédérer les premiers praticiens et de diffuser auprès du grand public les résultats de ces recherches et, globalement, des messages sur les bienfaits de la présence animale pour les humains&#160;; (2)&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">les vétérinaires pour animaux de compagnie</hi>
+              </hi>
+                            <hi xml:lang="fr">, qui au milieu des années&#160;1970 deviennent majoritaires au sein de la profession, alors que jusqu’ici dominaient les vétérinaires pour animaux de rente. Ce tournant n’est pas aisé à négocier tant cette spécialité «&#160;animaux de rente&#160;» a fondé la légitimité sociale de la profession vétérinaire&#160;: le soin aux animaux de compagnie est perçu comme une tâche moins noble, ne participant pas réellement à l’accomplissement d’objectifs de santé publique. Les vétérinaires pour animaux de compagnie sont décrits par leurs collègues comme des «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">poodle parlor vets</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» (Hines, 2003, p.&#160;10)&#160;: des praticiens qui écoutent leurs clients parler de leurs caniches. La relation qui unit les propriétaires à leurs animaux est jugée trop anthropomorphique, excessivement affective, et pour le moins futile. Les recherches sur les HAI vont être l’occasion de revaloriser cet attachement&#160;: en montrant l’impact positif des animaux de compagnie sur la santé humaine, la futilité de la relation devient toute relative. Les travaux mettant en avant le lien positif entre possession d’animaux de compagnie et santé cardiovasculaire (Friedman </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">et&#160;al</hi>
+              </hi>
+                            <hi xml:lang="fr">., 1980, 1983) notamment, seront largement mobilisés dans cette optique. Ainsi, les écoles vétérinaires nord-américaines abriteront les premiers congrès dédiés aux HAI et mettront sur pied des centres de recherche&#160;spécialisés sur la question&#160;; (3)&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">les associations «&#160;animalitaires&#160;»</hi>
+              </hi>
+                            <hi rend="italic">
+                <note type="standard" xml:id="ftn11" place="foot" n="11">
+                  <p>
+                    <hi xml:lang="en"> <hi xml:lang="fr">J.-P.&#160;Digard (2009) utilise le terme «&#160;animalitaire&#160;» en écho à celui d’«&#160;humanitaire&#160;» pour souligner les similitudes entre ces deux univers marqués par un rapport similaire entre charité et philanthropie.</hi>
+                    </hi>
+                  </p>
+                </note>
+              </hi>
+                            <hi xml:lang="fr">, qui perçoivent assez rapidement le développement des recherches sur les HAI comme un moyen de légitimer le bien-fondé de leur cause. Un courant en particulier, celui de la&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Humane Education</hi>
+              </hi>
+                            <hi xml:lang="fr">, a été particulièrement actif dans la communauté HAI. Émergeant en Europe occidentale (Rouhiainen &amp; Vuorisalo, 2014) et en Amérique du Nord au XIX</hi>
+                            <hi rend="sup">
+                <hi xml:lang="fr">e</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;siècle (Pearson, 2011), l’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Humane Education</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;se trouve au carrefour de deux mouvements de philanthropie importants à l’époque&#160;: la protection des animaux et la protection de l’enfance. Le principe de l’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Humane Education</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;est que la violence infligée aux enfants est de même nature que celle faite aux animaux&#160;: c’est une violence de toute-puissance, déclenchée par l’asymétrie entre l’agresseur et l’agressé. À ce titre, l’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Humane Education</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;met en avant le potentiel contagieux de cette violence (Agulhon, 1981)&#160;: une personne qui maltraite un animal donne un indice très fort de sa capacité à maltraiter un enfant. Dès lors, les associations Humane chercheront à diffuser des messages pacifiques, insistant sur les vertus éducatives et socialisatrices de la bientraitance envers les animaux&#160;; misant ainsi sur une contagion de la bienveillance plutôt que de la violence. Les associations&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Humane</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;n’ont pu qu’adhérer et soutenir les recherches HAI visant à montrer que des relations pacifiées avec les animaux pouvaient avoir un effet bénéfique sur la santé psychique et physique des humains. Elles soutiendront financièrement la communauté HAI sous différentes formes, dont le soutien à des publications périodiques.</hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e860">
+                        <head subtype="level3" xml:id="d1e861">Une orientation biomédicale et anthropocentrée</head>
+                        <p xml:id="d1e863">
+                            <hi xml:lang="fr">La communauté HAI rassemble donc des acteurs tous intéressés à défendre l’idée que le contact bienveillant à l’animal est aussi bénéfique pour les humains&#160;: une manière de servir la cause animale en insistant sur l’aspect «&#160;gagnant/gagnant&#160;» en quelque sorte</hi>
+                            <note type="standard" xml:id="ftn12" place="foot" n="12">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Pour se rendre compte de la morphologie et des orientations de la communauté HAI, il suffit de se rendre sur le site de l’IAHAIO&#160;:&#160;</hi>
+                    <ref target="http://www.iahaio.org/">
+                      <hi rendition="#style03">
+                        <hi xml:lang="fr">http://www.iahaio.org</hi>
+                      </hi>
+                    </ref>
+                    <hi xml:lang="fr">.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. Avec pour ambition d’objectiver cette conviction, la communauté HAI à la fin des années&#160;1970 se structure autour des recherches visant à explicitement à documenter les&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">effets positifs</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;du contact animalier. Pour ce faire, plusieurs conférences sont organisées aux États-Unis, dont les actes sont publiés dans des ouvrages collectifs et dans le journal de la Delta Society (Hines, 2003). La Delta Society est l’une de ces HAIO précédemment évoquées, ces organisations financées par l’industrie des animaux de compagnie. En 1987, ce journal deviendra&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anthrozoös</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;qui se présente comme la première revue&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">peer-reviewed</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;dédiée aux HAI. Elle restera la propriété de la Delta Society jusqu’en 2000 (Rowan, 2012&#160;; Podberscek, 2012), avant de passer aux mains des Purdue University Press, puis à l’éditeur Berg. Les membres du comité éditorial de la revue sont initialement des universitaires étatsuniens et, même s’ils dominent encore aujourd’hui, d’autres pays anglo-saxons sont représentés (l’Australie, le&#160;Royaume-Uni et le Canada). La revue se veut pluridisciplinaire, ouverte aussi bien à la psychologie, à l’anthropologie qu’à l’éthologie, la médecine humaine et vétérinaire</hi>
+                            <note type="standard" xml:id="ftn13" place="foot" n="13">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Comme l’univers HAI est fortement porté par la médecine vétérinaire, il n’est pas étonnant qu’Andrew Rowan, le premier rédacteur en chef d’</hi>
+                    <hi rend="italic">
+                      <hi xml:lang="fr">Anthrozoös</hi>
+                    </hi>
+                    <hi xml:lang="fr">&#160;soit lui-même vétérinaire.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. Elle sera surtout le site d’élaboration d’un nouveau domaine&#160;: l’anthropozoologie. En effet, l’International Society for AnthroZoology (ISAZ) naît dans le sillage direct d’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anthrozoös</hi>
+              </hi>
+                            <hi xml:lang="fr">, qui est d’ailleurs aujourd’hui la revue officielle de l’association</hi>
+                            <note type="standard" xml:id="ftn14" place="foot" n="14">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Voir&#160;</hi>
+                    <ref target="http://www.isaz.net/">
+                      <hi rendition="#style03">
+                        <hi xml:lang="fr">www.isaz.net</hi>
+                      </hi>
+                    </ref>
+                    <hi xml:lang="fr">.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. L’anthropozoologie se construisant au carrefour de l’anthropologie biologique, de la zoologie, de l’histoire, et l’archéologie, ces disciplines seront très présentes dans&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anthrozoös</hi>
+              </hi>
+                            <hi rend="italic">
+                <note type="standard" xml:id="ftn15" place="foot" n="15">
+                  <p>
+                    <hi xml:lang="en"> <hi xml:lang="fr">Il est intéressant de noter que bien que l’anthropozoologie soit présentée comme un domaine de recherche (selon l’ISAZ), le terme «&#160;anthropozoologie&#160;» renvoie à la sémantique disciplinaire, puisqu’il est la compression des noms de deux disciplines, l’anthropologie et la zoologie. Cette ambiguïté entre domaine et discipline explique que l’anthropozoologie connaisse des déclinaisons différentes selon les contextes nationaux&#160;: en France, où l’attachement aux disciplines est fort, elle s’inscrira à la convergence de l’ethnozootechnie et de l’archéozoologie. L’anthropozoologie est représentée en France par deux UMR placées sous l’égide du Muséum national d’histoire naturelle&#160;: «&#160;Archéozoologie et archéobotanique&#160;» (</hi>
+                      <ref target="http://archeozoo-archeobota.mnhn.fr/">
+                        <hi rendition="#style03">
+                          <hi xml:lang="fr">http://archeozoo-archeobota.mnhn.fr/</hi>
+                        </hi>
+                      </ref>
+                      <hi xml:lang="fr">) et Éco-anthropologie et ethnobiologie (</hi>
+                      <ref target="http://www.ecoanthropologie.cnrs.fr/">
+                        <hi rendition="#style03">
+                          <hi xml:lang="fr">http://www.ecoanthropologie.cnrs.fr/</hi>
+                        </hi>
+                      </ref>
+                      <hi xml:lang="fr">).</hi>
+                    </hi>
+                  </p>
+                </note>
+              </hi>
+                            <hi xml:lang="fr">. Les publications de ce type décrivent les grandes évolutions historiques et évolutionnaires des relations humains/animaux, largement abordées sous le prisme de la domestication, des usages des animaux et des relations qui les unissent à leurs propriétaires. Ces recherches en anthropozoologie, plutôt historiques, côtoient des travaux portant sur la période contemporaine, mais qui s’inscrivent dans un tout autre style épistémique. Le contenu d’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anthrozoös</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;fait en effet la part belle aux travaux portant sur les thérapies assistées par l’animal et aux bénéfices sanitaires de la possession d’animaux. Ce qui est cohérent avec les ambitions de la communauté HAI évoquées plus haut. Cet agenda a conduit la communauté HAI à privilégier un modèle épistémique particulier&#160;: celui de l’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">evidence-based medecine</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;ou médecine de la preuve (Marks, 1999&#160;; Timmermans &amp; Berg, 2003&#160;; Michalon, 2014). Cette manière de faire science se caractérise par une prévalence des protocoles expérimentaux (essais cliniques contrôlés, randomisés, en double aveugle par exemple) et des méthodologies statistiques (analyse statistique des résultats des essais cliniques, épidémiologie). Ce modèle conçu comme le seul scientifiquement valable par la communauté HAI, est également celui qui est le plus à même de convaincre les autorités médicales, dont la reconnaissance est espérée en priorité (Michalon, 2014). Les recherches sur l’impact des animaux sur la santé cardiovasculaire adoptent naturellement ce style épistémique, qui deviendra dominant pour les articles d’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anthrozoös</hi>
+              </hi>
+                            <hi rend="italic">
+                <note type="standard" xml:id="ftn16" place="foot" n="16">
+                  <p>
+                    <hi xml:lang="en"> <hi xml:lang="fr">Si bien que le rédacteur en chef de la revue Andrew Rowan déplore même la réticence des chercheurs à publier des articles qui sortiraient de ce format (des études de cas par exemple –&#160;cf.&#160;Rowan, 2012).</hi>
+                    </hi>
+                  </p>
+                </note>
+              </hi>
+                            <hi xml:lang="fr">. L’accueil d’épistémès différentes ou même la mise en discussion des épistémès dominantes n’apparaissent pas beaucoup dans le contenu de la revue, qui s’oriente plutôt sur la production et l’analyse de données empiriques sur les relations humains/animaux. Il s’agit avant tout de documenter la réalité et l’importance de ces relations, en respectant une division stricte entre les faits et les valeurs. Les faits suffiront par eux-mêmes à montrer que l’objet HAI est tout sauf anecdotique. Cette orientation biomédicale ne semble donc pas favoriser la réflexivité épistémologique et met à distance les disciplines et/ou les chercheurs qui ne se reconnaissent pas dans ces manières de faire science.</hi>
+                        </p>
+                        <p xml:id="d1e980">
+                            <hi xml:lang="fr">De plus, elle va amener les chercheurs à se concentrer sur les humains, sur ce que les animaux, leur présence et leur contact leur font. Le modèle de l’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">evidence-based medecine</hi>
+              </hi>
+                            <hi xml:lang="fr">, conçu pour évaluer des traitements pharmacologiques, implique cette focale sur les effets (Servais, 1999), et moins sur la relation qui les produit&#160;: le point de vue des humains est le prisme à travers lequel est évaluée l’importance de la recherche. En dépit de l’appellation HAI, les interactions humains/animaux seront surtout abordées à travers leurs effets (positifs) sur les humains, en particulier dans les recherches sur les thérapies assistées par l’animal. À partir des années&#160;2000, on rencontre néanmoins quelques travaux qui pointent l’importance de se pencher également sur ce que ces thérapies font aux animaux qui y sont engagés. Ces travaux, plutôt éthiques, portent le souci de ne pas faire des pratiques de soin par le contact animalier une nouvelle forme d’exploitation animale. Ils participent ainsi à la critique de l’orientation anthropocentrique du domaine HAI, du fait de la prévalence des recherches sur la santé humaine, et qui sera décrite par les tenants des AS comme un obstacle intellectuel et éthique majeur. La ligne éditoriale de la revue&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Society &amp; Animals</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;portera progressivement cette critique de l’anthropocentrisme et cherchera précisément à y remédier.</hi>
+                        </p>
+                    </div>
+                </div>
+                <div type="div2" xml:id="d1e993">
+                    <head subtype="level2" xml:id="d1e994">Society &amp; Animals</head>
+                    <p xml:id="d1e996">
+                        <hi xml:lang="fr">L’histoire de la revue&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Society &amp; Animals</hi>
+            </hi>
+                        <hi xml:lang="fr"> est liée à celle de Kenneth J. Shapiro, psychologue étatsunien et fondateur en 1981 de la PsyETA (</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Psychologists for the Ethical Treatment of Animals</hi>
+            </hi>
+                        <hi xml:lang="fr">), association dédiée à la promotion de la bientraitance des animaux dans les pratiques de recherche en psychologie (Shapiro, 1983). La PsyETA (dont l’acronyme dérive de la célèbre PETA –&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">People for Ethical Treatment of Animals</hi>
+            </hi>
+                        <hi xml:lang="fr">) a cherché à faire pression sur l’</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">American Psychological Association</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;pour faire évoluer les manières d’utiliser les animaux (contre les euthanasies, les expérimentations douloureuses, privilégier les techniques non invasives et l’étude en milieu naturel par exemple). L’association s’inscrit dans la mouvance&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Humane</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;décrite plus haut, mais elle est également réceptive à des formes de critiques plus radicales des rapports humains/animaux, celles formulées par Singer et Regan notamment. C’est ce qui explique que lors de la création de&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Society &amp; Animals</hi>
+            </hi>
+                        <hi xml:lang="fr">, en 1993 et sous l’égide de la PsyETA, Kenneth Shapiro propose une généalogie des AS ancrée dans le mouvement des droits des animaux</hi>
+                        <note type="standard" xml:id="ftn17" place="foot" n="17">
+              <p>
+                <hi xml:lang="en"> <hi xml:lang="en">“</hi>
+                  <hi rend="italic">
+                    <hi xml:lang="en">The emergence of an academic field of study has paralleled each of three recent progressive social movements (Civil Rights, Women’s and Environmental Movements). This strongly suggests the inevitability of an animal studies subfield that will parallel the Animal Rights Movement</hi>
+                  </hi>
+                  <hi xml:lang="en">” (Shapiro, 1993, p.&#160;2).</hi>
+                </hi>
+              </p>
+            </note>
+                        <hi xml:lang="fr">, sans pour autant rompre avec le courant&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Humane</hi>
+            </hi>
+                        <hi xml:lang="fr">, notamment&#160;sur le plan des partenariats financiers</hi>
+                        <note type="standard" xml:id="ftn18" place="foot" n="18">
+              <p>
+                <hi xml:lang="en"> <hi xml:lang="fr">La&#160;</hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">Humane Society of The United States</hi>
+                  </hi>
+                  <hi xml:lang="fr">&#160;est un partenaire régulier de l’</hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">Animals and Society Institute</hi>
+                  </hi>
+                  <hi xml:lang="fr">, successeur de laPsyETA et éditeur actuel de&#160;</hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">Society &amp; Animals&#160;</hi>
+                  </hi>
+                  <hi xml:lang="fr">(</hi>
+                  <ref target="http://www.animalsandsociety.org/">
+                    <hi rendition="#style03">
+                      <hi xml:lang="fr">http://www.animalsandsociety.org</hi>
+                    </hi>
+                  </ref>
+                  <hi xml:lang="fr">).</hi>
+                </hi>
+              </p>
+            </note>
+                        <hi xml:lang="fr">. Ce positionnement entre deux courants de la cause animale témoigne du fait que l’apparition de&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Society &amp; Animals</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;marque une rupture à la fois vis-à-vis d’</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Anthrozoös</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;et une transition vers les AS telles qu’elles se présentent aujourd’hui</hi>
+                        <note type="standard" xml:id="ftn19" place="foot" n="19">
+              <p>
+                <hi xml:lang="en"> <hi xml:lang="fr">Comme&#160;</hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">Anthrozoös</hi>
+                  </hi>
+                  <hi xml:lang="fr"> cependant, </hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">Society &amp; Animals</hi>
+                  </hi>
+                  <hi xml:lang="fr"> est basée aux États-Unis et son comité éditorial est encore aujourd’hui très majoritairement composé d’universitaires de ce pays. À noter que certains membres se présentent comme des «&#160;</hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">independant scholar</hi>
+                  </hi>
+                  <hi xml:lang="fr">&#160;», ce que l’on retrouvera dans le&#160;</hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">Journal of Critical Animal Studies</hi>
+                  </hi>
+                  <hi xml:lang="fr">.</hi>
+                </hi>
+              </p>
+            </note>
+                        <hi xml:lang="fr">. Dès l’éditorial du premier numéro de&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Society &amp; Animals</hi>
+            </hi>
+                        <hi xml:lang="fr">, le terme «&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Animal Studies</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;» est utilisé (Shapiro, 1993), alors qu’on ne le rencontrait pas dans les pages d’</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Anthrozoös</hi>
+            </hi>
+                        <hi xml:lang="fr">. Le ton est donné, la revue sera donc la première consacrée entièrement aux AS. Passant du HAI, de l’anthropozoologie, aux AS, on assiste au premier acte d’une «&#160;montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;». Comment se caractérise-t-elle&#160;?</hi>
+                    </p>
+                    <div type="div3" xml:id="d1e1139">
+                        <head subtype="level3" xml:id="d1e1140">Les sciences sociales&#160;: acte inaugural des <hi rend="italic">Studies</hi>&#160;?</head>
+                        <p xml:id="d1e1145">
+                            <hi xml:lang="fr">D’une part,&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Society &amp; Animals</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;marque l’arrivée des sciences sociales&#160;: psychologie, sociologie, anthropologie, géographie, sciences politiques sont d’abord mises à l’honneur, ainsi que toutes les recherches qui empruntent le style épistémique qui caractérise les sciences sociales (Shapiro, 1993). Cette ouverture sur des épistémès de l’enquête et non plus exclusivement sur les statistiques et les recherches cliniques est clairement un tournant par rapport aux recherches sur les HAI. Pour autant, il y a une volonté affichée de privilégier une définition restreinte des sciences sociales&#160;: les données empiriques, issues de méthodes de terrain rigoureuses, doivent être la base des recherches présentées dans S&amp;A. Ce qui explique que la revue ne publie qu’occasionnellement des articles issus des «&#160;humanités&#160;» (critique littéraire, artistique, histoire et philosophie sont citées). Cette focale s’élargira d’abord en 1997, quand la revue s’ouvre aux humanités (Shapiro, 1997) puis en 2002, avec l’accueil de textes véritablement philosophiques et théoriques. D’abord inscrite dans la continuité d’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anthrozoös</hi>
+              </hi>
+                            <hi xml:lang="fr">, avec un ancrage empirique fort, la ligne éditoriale de S&amp;A évolue progressivement vers l’abstraction, la réflexivité épistémologique et les considérations éthiques. Cette évolution s’accompagne en outre d’une pluridisciplinarité plus importante&#160;: si l’ambition pluridisciplinaire d’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anthrozoös</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;a pu être contrariée par un attachement à une vision restrictive du faire science, S&amp;A semble l’actualiser plus franchement en accueillant significativement les humanités. Ceci peut nous donner des pistes sur ce que serait le phénomène de montée en&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;: dans le cas des AS, il y a une concordance entre l’utilisation du terme «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» et l’arrivée des sciences sociales et des humanités. Est-ce que ces disciplines seraient les plus promptes à formaliser l’identité des «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;»&#160;?</hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e1179">
+                        <head subtype="level3" xml:id="d1e1180">Un social plus sombre</head>
+                        <p xml:id="d1e1182">
+                            <hi xml:lang="fr">Concrètement, qu’apporte cette arrivée des sciences sociales version S&amp;A à l’étude des relations humains/animaux&#160;? Une nouvelle façon de thématiser le «&#160;social&#160;». Si les recherches sur les HAI avaient bel et bien abordé la dimension sociale des relations aux animaux, c’était sous un angle très restreint&#160;: celui de la démographie. Le social dont il était question dans ces recherches correspondait, par exemple, au nombre d’interactions positives générées par la présence d’un chien guide d’aveugle, ou encore à la fréquence de participation des propriétaires d’animaux de compagnie à des réunions de famille, pour comprendre la densité de leur réseau social. Un social qu’il fallait quantifier et croiser avec d’autres variables. Le social que S&amp;A va insérer dans l’étude des relations humains/animaux dépasse simplement la cette quantification des rapports sociaux. C’est un social qui prend plutôt des connotations de problème social. Alors que la communauté HAI s’était attachée à promouvoir une vision des relations entre humains et animaux sous leurs aspects les plus positifs, les thématiques abordées dans S&amp;A vont contrebalancer cet irénisme. Sont en effet investigués les pratiques d’abattage des animaux d’élevage, les euthanasies dans les refuges de protection animale, les cliniques vétérinaires ou les laboratoires d’expérimentation animale&#160;: la mort animale prend une place très importante. De la même façon que la thématique de la maltraitance animale, abordée sous l’angle de la criminologie, est extrêmement présente dans S&amp;A. En particulier, toute une littérature visant à prouver l’existence d’un lien, causal et objectif, entre les violences interpersonnelles (homicides, violence domestique, violence sur les enfants) et la maltraitance animale, trouve dans S&amp;A un site éditorial conséquent</hi>
+                            <note type="standard" xml:id="ftn20" place="foot" n="20">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Pour se rendre compte de l’importance de ce domaine de recherche, on peut consulter la bibliographie présente sur le site de la&#160;</hi>
+                    <hi rend="italic">
+                      <hi xml:lang="fr">National Coalition Link</hi>
+                    </hi>
+                    <hi xml:lang="fr">&#160;:&#160;</hi>
+                    <ref target="http://nationallinkcoalition.org/resources/bibliographies">
+                      <hi rendition="#style03">
+                        <hi xml:lang="fr">http://nationallinkcoalition.org/resources/bibliographies</hi>
+                      </hi>
+                    </ref>
+                    <hi xml:lang="fr">.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. Outre le fait qu’il s’agisse d’un objet permettant de fédérer de nombreuses disciplines et des pratiques de terrain</hi>
+                            <note type="standard" xml:id="ftn21" place="foot" n="21">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Comme le travail social par exemple.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">, l’existence de ce lien se trouve être au cœur de la philosophie de l’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Humane education</hi>
+              </hi>
+                            <hi xml:lang="fr">, basée sur l’idée d’une violence interspécifique contagieuse. C’est donc un social historicisé, politisé, sur lequel l’humain a une prise qui est réintégré par S&amp;A. Un social dont on ne se contente pas d’enregistrer passivement les effets, mais au contraire qu’il faut agir puisque l’on cherche à améliorer conjointement la condition humaine et la condition animale</hi>
+                            <note type="standard" xml:id="ftn22" place="foot" n="22">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">On parle beaucoup plus de politique dans S&amp;A que dans&#160;</hi>
+                    <hi rend="italic">
+                      <hi xml:lang="fr">Anthrozoös</hi>
+                    </hi>
+                    <hi xml:lang="fr">.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. Là où le domaine HAI évoquait les effets positifs de la présence animale sur les humains, les auteurs de S&amp;A rappellent plus volontiers le tribut payé par les animaux.</hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e1233">
+                        <head subtype="level3" xml:id="d1e1234">La montée progressive du zoocentrisme</head>
+                        <p xml:id="d1e1236">
+                            <hi xml:lang="fr">Ce souci de rééquilibrage, de focalisation nouvelle sur les animaux plus que sur les humains, plus sur les souffrances que sur les bénéfices générés par les&#160;interactions humains/animaux, apparaîtra dès les débuts de S&amp;A et prendra de plus en plus d’ampleur. En effet, dans son premier éditorial, K.&#160;Shapiro assumera un certain anthropocentrisme de la revue, devant selon lui se concentrer sur la compréhension de «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">the human side of human/nonhuman animal interactions</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» (Shapiro, 1993, p.&#160;1). Quelques phrases plus loin cependant l’anthropocentrisme est reconnu comme étant un problème&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">On the face of it, this emerging field itself might contribute to the anthropocentrism which many discussants contend is the root cause of animal exploitation</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» (Shapiro, 1993, p.&#160;1). Cette ambiguïté persistera dans la revue et est encore d’actualité&#160;: l’hésitation entre le terme&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">HAS</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;(Human-Animal Studies) et celui d’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Animal Studies </hi>
+              </hi>
+                            <hi xml:lang="fr">témoigne de ce positionnement d’entre-deux de S&amp;A, dont l’évolution fait figure de phase transitoire. Mais vers quoi&#160;? L’évolution de S&amp;A donne à voir le rejet progressif de l’anthropocentrisme et la montée du zoocentrisme. Et ce, à travers deux dimensions. Le souci de l’animal, clairement affirmé par ailleurs, se traduit d’une part par un ensemble de précautions langagières et terminologiques. Le terme&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">nonhuman animals</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;est sciemment utilisé dans la revue pour ne pas reconduire l’idée d’exceptionnalité de l’espèce humaine, qui constitue le fondement, selon de nombreux auteurs, de l’exploitation animale&#160;: il s’agit de rappeler que les humains sont aussi des animaux, d’un point de vue biologique, et que l’animalité n’est pas un état dégradé, déprécié du vivant. Cette terminologie scientifiquement correcte contient un sous-texte antispéciste visant à souligner l’arbitraire de l’opposition entre humanité et animalité</hi>
+                            <note type="standard" xml:id="ftn23" place="foot" n="23">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Là encore, Shapiro (1993) évoque l’embarras dans lequel il se trouve par rapport au nom de la revue, qui pour être conforme à ses idéaux devrait se nommer «&#160;</hi>
+                    <hi rend="italic">
+                      <hi xml:lang="fr">human society and nonhuman animals</hi>
+                    </hi>
+                    <hi xml:lang="fr">&#160;» (Shapiro, 1993, p.&#160;3).</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. On parlera ainsi dans les pages de S&amp;A des rapports entre les «&#160;humains et les autres animaux&#160;» (Noske, 1989).</hi>
+                        </p>
+                        <p xml:id="d1e1279">
+                            <hi xml:lang="fr">La seconde dimension du zoocentrisme est plus explicite encore&#160;: il s’agit de conférer aux recherches présentées dans S&amp;A une orientation épistémique particulière qui documente le point de vue des animaux et qui prenne en compte leurs intérêts. </hi>
+                            <hi xml:lang="en">Aux débuts de la revue, cette ambition s’exprime par le souci de pallier l’absence des animaux dans les descriptions des sociétés humaines&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="en">We can no longer read Jansen’s introduction to the history of art and fail to see that there are virtually no women artists represented there, or a history of the rise of a civilization without becoming aware of the fall of a habitat, or an experiment on maternal deprivation in primates without registering the consequences to the animals involved</hi>
+              </hi>
+                            <hi xml:lang="en">&#160;» (Shapiro, 1993, p.&#160;3). </hi>
+                            <hi xml:lang="fr">Cette réévaluation rétrospective de la place et du rôle des animaux dans les sociétés humaines fait référence à la manière dont les recherches féministes ont permis un changement de perspective concernant la description de la réalité. C’est ce qui rapproche les AS d’autres formes de&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Studies </hi>
+              </hi>
+                            <hi xml:lang="fr">comme les&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Gender Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">, les&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Post-colonial Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">, les&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Subaltern Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">, les&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Disability Studies </hi>
+              </hi>
+                            <hi xml:lang="fr">et les&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Cultural Studies </hi>
+              </hi>
+                            <hi xml:lang="fr">dans leur ensemble&#160;: revaloriser les points de vue minoritaires et/ou minorisés sur le monde, relire l’historique et&#160;le contemporain au prisme de ces points de vue</hi>
+                            <note type="standard" xml:id="ftn24" place="foot" n="24">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">C’est ce que fait l’historien français Éric Baratay depuis plusieurs années par exemple, dans la lignée de l’&#160;«&#160;histoire des vaincus&#160;» ou de «&#160;l’histoire par le bas&#160;» (Pouchepadass, 2000).</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">&#160;et militer même pour une épistémologie des points de vue (Harding, 2003). Dans les pages de&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">S&amp;A</hi>
+              </hi>
+                            <hi xml:lang="fr">, à partir des années 2000, cette ambition de prendre en compte le point de vue et les intérêts des animaux évolue&#160;: il ne s’agit plus simplement de réintroduire des animaux dans la description de la réalité, mais de décrire la réalité de leur point de vue (Shapiro, 2002&#160;; Shapiro &amp; DeMello, 2010). C’est une nouvelle étape dans la montée du zoocentrisme, que l’on pourrait appeler&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">phase perspectiviste</hi>
+              </hi>
+                            <hi xml:lang="fr">, et qui succède à une&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">phase réparatrice.</hi>
+              </hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e1345">
+                        <head subtype="level3" xml:id="d1e1346">Vers la <hi rend="italic">scholar advocacy</hi>&#160;?</head>
+                        <p xml:id="d1e1351">
+                            <hi xml:lang="fr">Cette montée du zoocentrisme est une nouvelle configuration des liens consubstantiels entre AS et militantisme pro-animaux, dans la mesure où le concernement s’exprime dans la manière même de produire de la connaissance&#160;: la dynamique épistémique devient intrinsèquement politique. C’est dans cette même perspective qu’il faut lire l’appel de K.&#160;Shapiro et M.&#160;DeMello (2010) au développement du&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">scholar advocate</hi>
+              </hi>
+                            <hi xml:lang="fr">. Pour les éditeurs de S&amp;A, se contenter du produire de la connaissance dans le domaine des AS n’est plus suffisant&#160;: la séparation entre les faits et les valeurs, entre les&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">scholar</hi>
+              </hi>
+                            <hi xml:lang="fr"> et les&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">advocate</hi>
+              </hi>
+                            <hi rend="italic">
+                <note type="standard" xml:id="ftn25" place="foot" n="25">
+                  <p>
+                    <hi xml:lang="en"> <hi xml:lang="fr">Sur le terme «&#160;advocacy&#160;» et son utilisation en contexte anglo-saxon, voir Granjou (2003).</hi>
+                    </hi>
+                  </p>
+                </note>
+              </hi>
+                            <hi xml:lang="fr">, qui prévalait dans la communauté HAI n’est plus d’actualité et il faut que les chercheurs assument également une casquette de militant, assument de porter les deux casquettes à la fois. S’appuyant sur les travaux en philosophie et sociologie des sciences ayant déconstruit la représentation de la neutralité scientifique, les deux auteurs expliquent qu’il est opportun d’affirmer l’influence réciproque du concernement sur la production de savoirs. Cet appel intervient à un moment particulier de l’institutionnalisation des AS. D’une part, en 2010 les AS sont enseignées dans de nombreuses universités, elles ont des réseaux de diffusion d’information bien structurés (via les listes de diffusion notamment), ont des collections dédiées chez des éditeurs renommés (Berg, Brill, Palgrave-Mac Millan notamment) et peuvent compter sur plusieurs&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">readers</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;publiés. L’ancrage des AS dans le monde académique n’est donc plus un enjeu. D’autre part, 2010 c’est également le moment où la communauté AS commence à se structurer internationalement, via notamment les colloques&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Minding Animals</hi>
+              </hi>
+                            <hi xml:lang="fr"> évoqués plus haut et l’association éponyme</hi>
+                            <note type="standard" xml:id="ftn26" place="foot" n="26">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Voir&#160;</hi>
+                    <ref target="https://mindinganimals.com/">
+                      <hi rendition="#style03">
+                        <hi xml:lang="fr">https://mindinganimals.com</hi>
+                      </hi>
+                    </ref>
+                    <hi xml:lang="fr">.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. Le credo de&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Minding Animals</hi>
+              </hi>
+                            <hi xml:lang="fr"> est précisément celui de la fusion entre le monde académique et le monde militant. Nous allons voir maintenant que cette «&#160;politisation&#160;» explicite des AS va se poursuivre et se radicaliser avec le développement des&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Critical Animal Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;(CAS).</hi>
+                        </p>
+                    </div>
+                </div>
+                <div type="div2" xml:id="d1e1413">
+                    <head subtype="level2" xml:id="d1e1414">Les <hi rend="italic">Critical Animal Studies</hi>
+          </head>
+                    <div type="div3" xml:id="d1e1418">
+                        <head subtype="level3" xml:id="d1e1419">Entre radicalisation et académiquement correct</head>
+                        <p xml:id="d1e1421">
+                            <hi xml:lang="fr">Au début des années&#160;2000, le&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Center of Animal Liberation Affairs</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;(CALA) voit le jour, en réaction à un contexte sociopolitique particulier, celui de l’Amérique post-11&#160;septembre 2001. L’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Animal Liberation Front</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;(ALF), né à la fin des années&#160;1970, est une organisation d’activistes prônant la libération animale (entendue comme fin de la consommation et de l’exploitation des animaux sous toutes ses formes) et pratiquant l’action directe (libération d’animaux de laboratoire ou d’élevage, captation et diffusion d’images de maltraitance sur animaux dans des élevages, des abattoirs par exemple). Ayant déjà un pied dans l’illégalité, l’ALF ainsi que d’autres associations environnementales et de protection animale</hi>
+                            <note type="standard" xml:id="ftn27" place="foot" n="27">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Certaines associations très «&#160;grand public&#160;» comme Greenpeace et la PETA seront également inquiétées, bien que non catégorisées comme «&#160;terroristes&#160;».</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">, vont être catégorisées comme groupes terroristes par le FBI, suite à l’adoption du&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Patriot Act</hi>
+              </hi>
+                            <hi xml:lang="fr"> par le gouvernement de G.W.&#160;Bush&#160;Jr (Best, 2003). Dans le cadre de ce régime d’exception destiné à contrôler et réprimer toute activité contestataire en la rattachant à une entreprise terroriste, plusieurs sympathisants de l’ALF se mirent en tête de défendre, si ce n’est les actions, au moins les idées et les valeurs de la libération animale. Ainsi, le CALA naquit de la volonté de regrouper des universitaires étatsuniens sensibles à la libération animale, dans le but de renforcer la base idéologique du mouvement, de lui donner un espace de discussion et de visibilité, et de lui conférer ainsi une légitimité académique, qui lui faisait défaut jusqu’ici. Le recours au monde universitaire était un moyen à la fois de gagner en respectabilité au moment même où le mouvement se voyait attaqué par le gouvernement</hi>
+                            <note type="standard" xml:id="ftn28" place="foot" n="28">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Fortement poussé par les lobbys industriels, visiblement désireux de mettre un terme aux actions des associations (Best, 2003, 2007).</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">, mais également de donner au mouvement une assise intellectuelle plus conséquente, à la manière du mouvement des droits civiques, des droits de femmes ou d’autres mouvements, révolutionnaires quant à eux (</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anarchist Black Cross, IRA, Zapatistes du Chiapas</hi>
+              </hi>
+                            <hi xml:lang="fr">, etc.). Le&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Animal Liberation Philosophy and Policy Journal</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;(ALPPJ) publie son premier numéro en 2003 avant de devenir en 2007, le&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Journal of Critical Animal Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">, conjointement à la création de l’Institute for Critical Animal Studies (ICAS) qui remplacera le CALA.</hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e1473">
+                        <head subtype="level3" xml:id="d1e1474">Des fanzines obscurs à l’excellence académique</head>
+                        <p xml:id="d1e1476">
+                            <hi xml:lang="fr">Le premier numéro du ALPPJ ne laisse aucun doute sur la stratégie adoptée par le CALA&#160;: outre les raisons évoquées plus haut, il s’agit d’académiser le débat sur la libération animale pour faire changer la perception du mouvement par le grand public&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">If the public learned that the ALF has supporters other than their stereotyped images of young punks with spiked purple hair, nose rings, and combat boots, and that</hi>
+              </hi>
+                            <hi xml:lang="fr"> –</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">in their perceptions– there are other people explaining&#160;and defending animal liberation with strong logical positions, then the ALF could gain the popular support it needs to grow as a mature liberation movement. </hi>
+              </hi>
+                            <hi rend="italic">
+                <hi xml:lang="en">Rather than marginalized to obscure zines and secret email lists, there could be books, articles, journals, and conferences discussing the ALF in the most serious manner and bringing ALF actions and ideas to new audiences such as university students, the literati, and community forums</hi>
+              </hi>
+                            <hi xml:lang="en">&#160;» (Editorial Board, 2003, p.&#160;2). </hi>
+                            <hi xml:lang="fr">Cette volonté de rendre «&#160;présentables&#160;» les théories de la libération animale prend plusieurs formes. Présenter le&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Journal of Critical Animal Studies </hi>
+              </hi>
+                            <hi xml:lang="fr">comme publiant des articles «&#160;rigoureusement évalués par les pairs, au plus haut niveau de la recherche académique&#160;»</hi>
+                            <note type="standard" xml:id="ftn29" place="foot" n="29">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="en">«&#160;The&#160;</hi>
+                    <hi rend="italic">
+                      <hi xml:lang="en">Journal for Critical Animal Studies</hi>
+                    </hi>
+                    <hi xml:lang="en">&#160;publishes rigorously peer-reviewed academic work of the highest quality.&#160;» Voir&#160;</hi>
+                    <ref target="http://journalforcriticalanimalstudies.org/">
+                      <hi rendition="#style03">
+                        <hi xml:lang="en">http://journalforcriticalanimalstudies.org/</hi>
+                      </hi>
+                    </ref>
+                    <hi xml:lang="fr">.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">&#160;en est une. Changer d’identité visuelle en est une autre&#160;: en 2008, le logo de l’ALF (représentant une patte de chien et un poing humain, côte à côte, tendus, avec pour fond une étoile à cinq branches rappelant les mouvements révolutionnaires) qui ornait la page de garde du ALPPJ, laisse place au logo de l’Institute for&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Critical Animal Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">, représentant simplement un oiseau en vol</hi>
+                            <note type="standard" xml:id="ftn30" place="foot" n="30">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">On peut également se rendre compte de ce changement d’identité visuelle à travers l’évolution du site Internet de l’ICAS&#160;:&#160;</hi>
+                    <ref target="http://www.criticalanimalstudies.org/2015/08/institute-for-critical-animal-studies-website-design-history/">
+                      <hi rendition="#style03">
+                        <hi xml:lang="fr">http://www.criticalanimalstudies.org/2015/08/institute-for-critical-animal-studies-website-design-history/</hi>
+                      </hi>
+                    </ref>
+                    <hi xml:lang="fr">.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. La publication d’ouvrages (Best &amp; Nocella II, 2004&#160;; Nocella II, Sorenson et al., 2014) et création de collections dédiées aux CAS chez des éditeurs reconnus</hi>
+                            <note type="standard" xml:id="ftn31" place="foot" n="31">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Voir la collection&#160;</hi>
+                    <hi rend="italic">
+                      <hi xml:lang="fr">Critical Animal Studies</hi>
+                    </hi>
+                    <hi xml:lang="fr">&#160;chez Brill&#160;:&#160;</hi>
+                    <ref target="http://www.brill.com/products/series/critical-animal-studies">
+                      <hi rendition="#style03">
+                        <hi xml:lang="fr">http://www.brill.com/products/series/critical-animal-studies</hi>
+                      </hi>
+                    </ref>
+                    <hi xml:lang="fr">.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">&#160;témoignent également de cette volonté d’inscrire les réflexions de la libération animale dans le domaine académique, et en particulier au sein des&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Animal Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">.</hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e1565">
+                        <head subtype="level3" xml:id="d1e1566">L’ambition critique des CAS</head>
+                        <p xml:id="d1e1568">
+                            <hi xml:lang="fr">Se présentant tout autant comme un mouvement militant que comme un mouvement intellectuel, les CAS revendiquent une proximité avec les mouvances libertaires, anarchistes, et partagent avec celles-ci un attachement conjoint à l’action et à la réflexion. «&#160;[…]&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">scholars can be activists and activists can be scholars</hi>
+              </hi>
+                            <hi rend="italic">
+                <note type="standard" xml:id="ftn32" place="foot" n="32">
+                  <p>
+                    <hi xml:lang="en"> <hi xml:lang="en">Voir Institute for Critical Animal Studies (2016). </hi>
+                      <hi xml:lang="fr">«&#160;ICAS handout 2016&#160;», from&#160;</hi>
+                      <ref target="http://www.criticalanimalstudies.org/wp-content/uploads/2016/03/ICAS-Handout-2016.pdf">
+                        <hi rendition="#style03">
+                          <hi xml:lang="fr">http://www.criticalanimalstudies.org/wp-content/uploads/2016/03/ICAS-Handout-2016.pdf</hi>
+                        </hi>
+                      </ref>
+                      <hi xml:lang="fr">. Cette conviction se traduit notamment par le fait que certains membres du comité éditorial sont des membres d’ONG pro-animaux, sans rattachement universitaire. Pour autant, d’autres membres du comité éditorial sont présentés avant tout comme des universitaires, sans mentionner qu’ils sont également membres actifs d’ONG.</hi>
+                    </hi>
+                  </p>
+                </note>
+              </hi>
+                            <hi xml:lang="fr">.&#160;» Ainsi, les CAS assument une forte dimension critique qui s’applique&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">en premier lieu</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;au monde académique et en particulier aux AS, version&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anthrozoös</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;et&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Society &amp; Animals</hi>
+              </hi>
+                            <hi xml:lang="fr">, qualifiées de «&#160;Mainstream&#160;» (Best, 2009). Plusieurs choses leur sont reprochées. D’une part, la déconnexion entre les recherches menées sur l’objet «&#160;relations humains/animaux&#160;» et un horizon d’émancipation des animaux&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Lacking a coherent moral context, and populated by careerists and opportunists climbing onto the trendy bandwagon, MAS</hi>
+              </hi>
+                            <hi xml:lang="fr">[Mainstream Animal Studies]&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">is a field where theorists can examine human/animal relations as an intellectual exercise undertaken without social, ethical, and political contexts or consequences</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» (Best, 2009, p.&#160;22) Le carriérisme</hi>
+                            <note type="standard" xml:id="ftn33" place="foot" n="33">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">On voit qu’il s’agit là d’une accusation formulée dans le contexte nord-américain et anglo-saxon en général, où les AS peuvent donner lieu à des carrières universitaires. Du point de vue français, l’accusation peut presque prêter à sourire.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">, la cooptation, le corporatisme du milieu des AS sont dénoncés car ils ne participeraient pas activement, directement, à la libération animale, entretiendraient une hiérarchie spéciste et ajouteraient de l’exploitation à l’exploitation&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">The animals have already been exploited enough, and they do not need MAS theorists to add insult to their injury and exploit their suffering for their work without working to end their suffering</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» (Best, 2009, pp.&#160;26-27). Mais ce sont parfois les chercheurs eux-mêmes qui sont désignés nommément comme des traîtres à la cause&#160;: du fait qu’ils ne soient pas végétariens, ni vegans, ni antispécistes, ou encore qu’ils refusent de se prononcer pour ou contre l’expérimentation animale ou l’élevage, ces chercheurs travaillant sur les rapports aux animaux sont jugés doublement responsables de l’exploitation animale</hi>
+                            <note type="standard" xml:id="ftn34" place="foot" n="34">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Voir la virulente dénonciation de Steven Best à l’encontre de l’historienne Anita Guerrini qui avait témoigné de sa perplexité face à l’implicite voulant qu’être membre de la communauté AS signifiait être nécessairement contre la consommation de viande (Best, 2009).</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. Ne pas être vegan et se revendiquer des AS serait, dans cette logique, l’équivalent d’être pro-esclavage lorsque l’on travaille sur la condition des Afro-Américains (Best, 2009).</hi>
+                        </p>
+                        <p xml:id="d1e1641">
+                            <hi xml:lang="fr">L’émergence de cette critique de l’académie peut être analysée comme la conséquence logique de l’ouverture des AS («&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Mainstream</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;») à la réflexivité épistémologique, de leur appel au décloisonnement plus franc entre activisme et monde académique, au renoncement à la neutralité axiologique, ou encore à l’affirmation des points de vue situés. L’arrivée des CAS est une suite logique de l’expansion de la réflexivité, qui devient alors «&#160;dévoilement&#160;». A-t-on affaire à une nouvelle étape du processus de montée en&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;? Est-ce que la critique de l’académisme et de l’académie ne fait pas partie intégrante de l’identité des&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;? Et ce d’autant plus que cette critique se fait&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">de l’intérieur</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;du monde académique</hi>
+                            <note type="standard" xml:id="ftn35" place="foot" n="35">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Marie-Hélène/Sam Bourcier (2016) définit l’identité des&#160;</hi>
+                    <hi rend="italic">
+                      <hi xml:lang="fr">Studies</hi>
+                    </hi>
+                    <hi xml:lang="fr">&#160;précisément à travers cette fonction critique vis-à-vis de l’institution académique, et en particulier de sa dimension disciplinaire.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">&#160;? C’est ce que suggère en tout cas l’évolution des AS.</hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e1678">
+                        <head subtype="level3" xml:id="d1e1679">Un rapport ambivalent à la théorie</head>
+                        <p xml:id="d1e1681">
+                            <hi xml:lang="fr">Chronologiquement, cette dénonciation de l’apolitisme et l’apparente neutralité des AS apparaissent parallèlement au plaidoyer en faveur du&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">scholar-advocate</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;dans&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Society &amp; Animals</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;évoqué plus haut. Pour autant, s’il s’agissait alors d’une invitation, c’est bien une&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">injonction</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;qui est faite par les CAS, dont le but explicite est de réarticuler «&#160;théorie&#160;» et «&#160;pratique&#160;» du militantisme</hi>
+                            <note type="standard" xml:id="ftn36" place="foot" n="36">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Voir&#160;</hi>
+                    <ref target="http://www.criticalanimalstudies.org/about/">
+                      <hi rendition="#style03">
+                        <hi xml:lang="fr">http://www.criticalanimalstudies.org/about/</hi>
+                      </hi>
+                    </ref>
+                    <hi xml:lang="fr">.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. La critique des CAS porte en effet également sur l’aspect théorique des AS&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Mainstream</hi>
+              </hi>
+                            <hi xml:lang="fr">. Depuis les années 2000,&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Society &amp; Animals</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;s’est en effet beaucoup ouvert aux travaux&#160;philosophiques et théoriques mais aussi aux recherches littéraires et artistiques. Cet élargissement du spectre des AS aux humanités, se traduisant notamment par la création de la revue&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Humanimalia</hi>
+              </hi>
+                            <hi rend="italic">
+                <note type="standard" xml:id="ftn37" place="foot" n="37">
+                  <p>
+                    <hi xml:lang="en"> <hi rend="italic">
+                        <hi xml:lang="fr">Humanimalia</hi>
+                      </hi>
+                      <hi xml:lang="fr">&#160;aurait pu faire partie du corpus de cette recherche, et elle le fera sans doute par la suite. Pour autant, il m’a semblé plus intéressant de se pencher sur le segment «&#160;critique&#160;» des&#160;</hi>
+                      <hi rend="italic">
+                        <hi xml:lang="fr">Animal Studies</hi>
+                      </hi>
+                      <hi xml:lang="fr">, dans la mesure où cette critique se formule explicitement vis-à-vis des revues précédentes et du domaine&#160;</hi>
+                      <hi rend="italic">
+                        <hi xml:lang="fr">Animal Studies</hi>
+                      </hi>
+                      <hi xml:lang="fr">&#160;en train de se construire.&#160;</hi>
+                      <hi rend="italic">
+                        <hi xml:lang="fr">Humanimalia</hi>
+                      </hi>
+                      <hi xml:lang="fr"> ne se positionne pas explicitement contre </hi>
+                      <hi rend="italic">
+                        <hi xml:lang="fr">Anthrozoös</hi>
+                      </hi>
+                      <hi xml:lang="fr"> ou </hi>
+                      <hi rend="italic">
+                        <hi xml:lang="fr">Society &amp; Animals</hi>
+                      </hi>
+                      <hi xml:lang="fr"> et ne cherche pas à marquer une rupture forte. Sa ligne éditoriale s’inscrit au contraire dans la continuité de </hi>
+                      <hi rend="italic">
+                        <hi xml:lang="fr">Society &amp; Animals</hi>
+                      </hi>
+                      <hi xml:lang="fr"> mais cherche à intégrer plus clairement des travaux plus conceptuels et/ou portant sur des productions culturelles relatives aux animaux. Voir&#160;</hi>
+                      <ref target="http://www.depauw.edu/humanimalia/index.html">
+                        <hi rendition="#style03">
+                          <hi xml:lang="fr">http://www.depauw.edu/humanimalia/index.html</hi>
+                        </hi>
+                      </ref>
+                      <hi xml:lang="fr">.</hi>
+                    </hi>
+                  </p>
+                </note>
+              </hi>
+                            <hi xml:lang="fr">, a amené à la production de quantités d’analyse sur les représentations humaines des relations aux animaux, dans une perspective très&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Cultural Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">. Pour les tenants des CAS, il faut lire cette évolution comme une poussée vers l’abstraction, qui éloigne toujours plus de la réalité de la condition animale. On dénonce alors ces travaux dans lesquels les animaux sont des entités abstraites, des représentations culturelles, des constructions sociales, des prétextes à théorises, pour rappeler que les animaux ne sont pas des «&#160;textes&#160;» mais des êtres vivants et «&#160;sentients&#160;» et qu’ils doivent être abordés uniquement sous cet angle. C’est donc en réaction à ces travaux qui désincarneraient la condition animale que les CAS se situent&#160;: si la «&#160;théorie pour le plaisir de la théorie&#160;» (Best, 2009) est prise pour cible, il ne s’agit pas pour autant de renoncer à la théorie, mais de l’indexer intrinsèquement au militantisme. Et ce, sous plusieurs modalités, non exclusives&#160;: (1)&#160;mettre la théorie au service du militantisme, (2)&#160;intégrer la pratique militante dans la théorie, (3)&#160;théoriser la pratique militante. </hi>
+                            <hi xml:lang="en">Dans cette ambition, le leadership de la philosophie est par ailleurs assumé&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="en">Whereas MAS remains entombed in the catacombs of academia, CAS seeks to breakdown and mediate oppositions between theory and practice, college and community, and scholarship and citizenship, in order to make philosophy (in a broad sense) again a force of change and to repatriate intellectuals to the public realm. Against MAS, CAS seeks to illuminate problems and pose solutions through vivid, concrete, and accessible language</hi>
+              </hi>
+                            <hi xml:lang="en">&#160;» (Best, 2009, p.&#160;12). </hi>
+                            <hi xml:lang="fr">Ainsi, on trouvera beaucoup de philosophes dans les pages du&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Journal of Critical Animal Studies.</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;Si la ligne éditoriale de la revue est ouverte à toutes les disciplines, on constate que les contributeurs se situent plutôt du côté de la philosophie donc, du droit, des sciences sociales et des humanités</hi>
+                            <note type="standard" xml:id="ftn38" place="foot" n="38">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">Il faut dire que la dénonciation de toute forme d’utilisation animale, y compris à des fins scientifiques, peut dissuader des chercheurs en sciences naturelles de proposer des contributions à la revue.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. On constate également un changement de style épistémique&#160;: les articles de la revue sont, pour une grande part, éloignés de l’ancrage résolument empirique d’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Anthrozoös</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;et&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Society &amp; Animals</hi>
+              </hi>
+                            <hi xml:lang="fr">. On a donc plutôt affaire ici à des «&#160;essais&#160;» qu’à des articles de recherche. C’est-à-dire que, sans être purement théoriques, les contributions présentées s’appuient rarement sur les protocoles d’enquête&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">ad hoc</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;des sciences sociales, et réutilisent plutôt des données de seconde main pour donner corps à leur propos. Car, en effet, c’est le propos qui fait l’unité éditoriale de la revue et il est univoque&#160;: les animaux souffrent et sont&#160;exploités par les humains, l’idéologie spéciste existe et nous empêche de voir cette réalité</hi>
+                            <note type="standard" xml:id="ftn39" place="foot" n="39">
+                <p>
+                  <hi xml:lang="en"> <hi xml:lang="fr">L’utilisation «&#160;naturelle&#160;» des catégories «&#160;spéciste&#160;» et «&#160;antispéciste&#160;» est d’ailleurs l’une des marques de fabrique des CAS.</hi>
+                  </hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">, et tout cela doit cesser. Les discussions portent alors sur les meilleures stratégies pour atteindre l’émancipation de tous les animaux, revisitent les théories philosophiques et juridiques de la protection animale, apportent des précisions, des amendements, sans jamais remettre en cause le bien-fondé de la libération animale.</hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e1832">
+                        <head subtype="level3" xml:id="d1e1833">Le zoocentrisme pleinement assumé des CAS</head>
+                        <p xml:id="d1e1835">
+                            <hi xml:lang="fr">En dernier lieu, il faut signaler que l’arrivée des CAS entérine assez clairement l’évolution des AS vers le zoocentrisme. En effet, d’un point de vue sémantique, on ne parle plus d’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Human-Animal Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">, mais seulement d’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Animal Studies</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;: l’humain est effacé de l’objet d’étude. De manière encore plus directe et récurrente que dans </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Society &amp; Animals</hi>
+              </hi>
+                            <hi xml:lang="fr">, l’anthropocentrisme est fustigé&#160;: ce n’est plus seulement une figure repoussoir, un travers à éviter au maximum, mais un vrai ennemi de la pensée, au même titre que le spécisme. De plus, l’indexation des réflexions à la pratique militante pro-animaux a pour conséquence de mettre les intérêts des animaux au centre de toutes les discussions&#160;: le zoocentrisme exemplifié. Qui trouve de surcroît sa conceptualisation épistémologique sous la plume de l’un des leaders des CAS. Avec l’</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Animal Standpoint Theory</hi>
+              </hi>
+                            <hi xml:lang="fr">, Steven Best (2009, 2014) formalise très clairement ce que devrait être selon lui une posture tout à la fois épistémique, morale et politique pour aborder la condition animale. Se placer du point de vue de l’animal, comme on se place du point de vue des subalternes (Pouchpadass, 2000&#160;; Merle, 2004), est conçu comme la seule option possible pour pouvoir produire des savoirs justes (politiquement et scientifiquement). Ici, l’ambition de représenter la manière dont les animaux perçoivent le monde et celle de représenter politiquement leurs intérêts se rejoignent.</hi>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e1858">
+                <head subtype="level1" xml:id="d1e1859">Conclusion</head>
+                <p xml:id="d1e1861">
+                    <hi xml:lang="fr">Résumons le parcours retracé ici. Tout en l’inscrivant dans le sillage de la cause animale, j’ai fait débuter la protohistoire des AS dans les années 1970, où les premiers travaux philosophiques sur les droits des animaux et la libération animale sont publiés, mais également où la communauté HAI commence à émerger. Le domaine HAI donne naissance à l’anthropozoologie, et s’épanouit éditorialement avec la revue&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Anthrozoös</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(1987). Les travaux sur les HAI sont anthropocentrés, du fait notamment de leur orientation médicale. Malgré l’orientation des recherches sur les effets positifs du contact animalier, le style épistémique dominant, axé sur la quantification et l’objectivisme, implique une séparation affirmée entre science et activisme. J’ai ensuite décrit la revue&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Society &amp; Animals</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(1993) comme le site où l’on commence à utiliser le terme «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;». J’ai indiqué que cette entrée en&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies </hi>
+          </hi>
+                    <hi xml:lang="fr">coïncidait avec l’arrivée des sciences sociales et une thématisation du social plus politique qu’auparavant. L’évolution de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">S&amp;A</hi>
+          </hi>
+                    <hi xml:lang="fr">, d’abord très ancrée dans le travail empirique, est marquée par l’affirmation progressive d’une plus grande réflexivité épistémologique et l’accueil de disciplines issues des humanités (donnant lieu à des articles plus théoriques et/ou traitant d’objets plus abstraits). Cette évolution se fait conjointement à l’affirmation de la nécessité d’un lien plus étroit entre science et activisme, la mise à distance de tout idéal de neutralité vis-à-vis de l’étude des relations humains/animaux. S&amp;A évolue également dans le sens d’un rejet de plus en plus fort de l’anthropocentrisme, figure repoussoir de la bonne science. Cette montée du zoocentrisme connaît son apogée avec l’arrivée des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Critical Animal Studies </hi>
+          </hi>
+                    <hi xml:lang="fr">(2003 –&#160;puis JCAS en 2007), qui consacre l’utilisation du terme&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Animal Studies </hi>
+          </hi>
+                    <hi xml:lang="fr">(évacuation de la dimension humaine). L’adoption du point de l’animal est conceptualisée comme la seule manière de réarticuler science et activisme, après une phase d’institutionnalisation académique décrite alors comme problématique (car politiquement stérile). Au début des années&#160;2010, cette indexation semble entérinée par une communauté AS qui se structure internationalement et qui en appelle à développer des liens avec d’autres formes de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Studies </hi>
+          </hi>
+                    <hi xml:lang="fr">(</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">gender, disability, subaltern, postcolonial…</hi>
+          </hi>
+                    <hi xml:lang="fr">) et les mouvements environnementalistes, dans le but d’inscrire les AS dans des projets plus larges de critique et de changement social.</hi>
+                </p>
+                <div type="div2" xml:id="d1e1910">
+                    <head subtype="level2" xml:id="d1e1911">Les <hi rend="italic">Studies</hi> comme objet de sociologie politique des sciences</head>
+                    <p xml:id="d1e1916">
+                        <hi xml:lang="fr">Quelles leçons tirer de ce débroussaillage –&#160;bien trop rapide&#160;– de l’évolution des AS&#160;?</hi>
+                    </p>
+                    <p xml:id="d1e1919">
+                        <hi xml:lang="fr">À propos des&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Cultural Studies</hi>
+            </hi>
+                        <hi xml:lang="fr">, Stéphane Van&#160;Damme (2004) évoque deux tropismes qui concernent à mon sens les&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">en général&#160;: leur lien avec les mondes artistiques et militants et le fait qu’elles constituent des domaines d’expertise propre. J’aimerais examiner le premier à propos des AS. Parler des&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">comme étant en lien avec le monde militant présente l’inconvénient de laisser à penser que les deux univers (militant et académique) sont radicalement séparés, ce que de nombreux travaux en sociologie politique des sciences nous amènent à relativiser (Bérard &amp; Roger, 2015&#160;; Frickel &amp; Gross, 2005&#160;; Frickel &amp; Moore, 2006&#160;; Granjou &amp; Arpin, 2015). Outre l’insistance de ces travaux sur le caractère engagé de l’activité scientifique (Mauz &amp; Granjou, 2013&#160;; Lacey, 2015), ils documentent les multiples relations que le monde militant entretient avec le monde académique. Dans une perspective similaire, j’ai essayé de montrer que les liens entre le militantisme pro-animaux et la production de savoirs précédaient de beaucoup l’émergence des AS&#160;: les associations de protection animale (associations «&#160;animalitaires&#160;» et&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Humane Education</hi>
+            </hi>
+                        <hi xml:lang="fr">) ont par exemple fait beaucoup pour le développement du domaine HAI, qui servira de base éditoriale et institutionnelle aux AS. Par la suite, la montée en puissance des&#160;AS s’est faite grâce aux ONG de protection animale. Avec les CAS, elle prend même la forme d’une conversion des militants pro-animaux aux formats du monde académique. Ainsi, il ne serait pas juste de parler de la montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">uniquement comme d’un processus de politisation des sciences, qui supposerait une séparation initiale entre science et politique, entre monde académique et monde militant, se rejoignant progressivement. Dans le cas des AS, la montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">ne réside pas dans&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">la création</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;de liens entre ces mondes, puisqu’ils existent déjà. En revanche, on a pu voir que ces liens n’avaient pas été assumés ou thématisés de la même manière selon les époques, selon les auteurs et les revues&#160;: là où&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Anthrozoös</hi>
+            </hi>
+                        <hi xml:lang="fr"> affirme respecter la division entre militantisme et production de savoirs, les&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Critical Animal Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">en appellent au contraire à leur indistinction. De fait, la montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">est&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">à la fois</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;un processus de politisation des sciences et d’épistémisation de la militance</hi>
+                        <note type="standard" xml:id="ftn40" place="foot" n="40">
+              <p>
+                <hi xml:lang="en"> <hi xml:lang="fr">Parlant des&#160;</hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">studies</hi>
+                  </hi>
+                  <hi xml:lang="fr">&#160;(dans leur rapport à la sociologie), J.-L.&#160;Génard et M.&#160;Roca&#160;i&#160;Escoda (2016) nous disent que «&#160;le changement de perspective qu’elles appellent n’est pas seulement épistémologique ou politique, il se situe là où épistémologie, politique et éthique de la sociologie se rejoignent, se complètent et interfèrent&#160;».</hi>
+                </hi>
+              </p>
+            </note>
+                        <hi xml:lang="fr">, qui se traduit par la&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">publicisation</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;progressive des liens entre monde militant et monde académique, et l’</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">affirmation</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;que l’entretien de ces liens est non seulement inévitable mais surtout souhaitable. Dans cette mesure, le développement des&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies</hi>
+            </hi>
+                        <hi xml:lang="fr">, pointant vers le décloisonnement de ces univers, n’est pas totalement déconnecté de ce que David Hess (2007) nomme la «&#160;modernisation épistémique&#160;», à savoir la perméabilité progressive entre les mondes scientifiques, industriels, politiques et les mouvements sociaux.</hi>
+                    </p>
+                </div>
+                <div type="div2" xml:id="d1e2008">
+                    <head subtype="level2" xml:id="d1e2009">La montée en <hi rend="italic">Studies</hi> comme processus de subjectivation</head>
+                    <p xml:id="d1e2014">
+                        <hi xml:lang="fr">Cette volonté d’ouverture et de décloisonnement des&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">n’empêche en rien, donc, le second tropisme pointé par S.&#160;Van&#160;Damme, à savoir le fait que les&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">balisent et délimitent un domaine d’expertise pour lequel elles s’estiment les plus compétentes. De fait, l’émergence des AS correspond bien à la publication de recherches totalement inédites sur les relations humains/animaux, tendant vers le développement d’une spécialisation autour de cet «&#160;objet&#160;». Mais précisément, peut-on dire que la montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">des AS correspond uniquement à la construction d’un&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">objet</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;? Dans ma description de l’évolution des AS, j’ai insisté sur le passage d’une posture anthropocentrée (HAI) à une posture zoocentrée (AS) puis zoocentrique (CAS). Je trouve important de souligner, et c’est en lien avec l’idée précédente, que les AS ne sont pas le fruit d’une importation de la cause animale dans la recherche scientifique et le monde académique, mais bel et bien le développement d’une nouvelle manière d’envisager nos rapports aux animaux, à la fois d’un point de vue scientifique et politique&#160;: conjointement à l’affirmation d’une articulation nécessaire entre science et militantisme, s’affirme la nécessité d’un recentrage du regard sur les animaux,&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">et seulement eux</hi>
+            </hi>
+                        <hi xml:lang="fr">. Ce n’est donc pas uniquement un objet nouveau&#160;qui apparaît avec les AS, c’est aussi une manière nouvelle de voir cet objet, en essayant autant que possible d’adopter son point de vue. Ce qui se joue dans la montée du zoocentrisme, en tant que cadre moral, normatif et épistémique, c’est précisément le passage pour les animaux du statut d’objet à celui de sujet. La montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">serait donc finalement à interpréter comme un processus ayant de forts enjeux ontologiques, un&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">processus de subjectivation</hi>
+            </hi>
+                        <hi xml:lang="fr">. Cette dimension subjectivante n’est pas propre aux AS</hi>
+                        <note type="standard" xml:id="ftn41" place="foot" n="41">
+              <p>
+                <hi xml:lang="en"> <hi xml:lang="fr">Génard et Roca&#160;i&#160;Escoda (2016) l’ont en effet identifié comme un élément identitaire des&#160;</hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">Studies</hi>
+                  </hi>
+                  <hi xml:lang="fr">.</hi>
+                </hi>
+              </p>
+            </note>
+                        <hi xml:lang="fr">, mais, puisqu’elles intègrent des êtres qui ne sont pas reconnus socialement (ni juridiquement) comme des sujets, les AS nous forcent à voir ce processus en pleine lumière. De plus, à partir des AS, on peut décomposer ce processus en plusieurs étapes successives</hi>
+                        <note type="standard" xml:id="ftn42" place="foot" n="42">
+              <p>
+                <hi xml:lang="en"> <hi xml:lang="fr">Ces étapes peuvent se chevaucher bien entendu.</hi>
+                </hi>
+              </p>
+            </note>
+                        <hi xml:lang="fr">&#160;: une étape d’objectivation («&#160;nos objets sont des objets scientifiquement légitimes&#160;»), une étape réparatrice («&#160;nos objets ont été oubliés, négligés, occultés, il faut les rapatrier dans la description de la réalité&#160;»), une étape critique («&#160;il faut désigner qui a participé de l’occultation de nos objets&#160;»), une étape perspectiviste («&#160;il faut se placer du point de vue de nos objets&#160;»), une étape subjectiviste («&#160;nos objets ne sont pas des objets, ce sont des sujets&#160;»). Cette modélisation du processus de subjectivation à l’œuvre dans les AS fait ressortir deux éléments. D’une part, c’est la dimension réparatrice de la montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">qui est rendue visible&#160;: construire les animaux comme des sujets, c’est également les construire comme victimes d’un préjudice qu’il faut réparer. La montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">peut en effet être vue comme la montée d’une exigence de justice, formulée d’abord en termes scientifiques («&#160;la description de la réalité n’est pas complète sans la prise en compte des animaux&#160;») puis en termes politiques et moraux («&#160;la non prise en compte des animaux dans la description de la réalité ne sert pas leurs intérêts&#160;»). Ainsi, pourrait-on parler d’épistémès réparatrices à propos des AS, puisque l’horizon vers lequel elles tendent est celui d’une indistinction entre exigences de justice et ambitions épistémiques. D’autre part, ma description de l’évolution des AS intègre une phase d’objectivation&#160;: il a fallu en effet que la communauté HAI passe par une phase très active de construction d’un objet scientifique, susceptible d’intéresser un certain nombre d’acteurs, pour que les infrastructures éditoriales et institutionnelles des AS puissent émerger. C’est sur ce substrat d’un animal objectivé que les AS se sont développées, tout en critiquant cette objectivation&#160;: cela rend très visible le fait que pour que l’on puisse faire passer l’objet du côté du sujet, encore faut-il que l’objet existe.</hi>
+                    </p>
+                </div>
+                <div type="div2" xml:id="d1e2087">
+                    <head subtype="level2" xml:id="d1e2088">L’interdisciplinarité à l’épreuve</head>
+                    <p xml:id="d1e2090">
+                        <hi xml:lang="fr">En dernier lieu, j’aimerais examiner un autre des tropismes des&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies</hi>
+            </hi>
+                        <hi xml:lang="fr">, à savoir leur rapport aux disciplines. En effet, l’identité des&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">se construirait sur une critique (plus ou moins sévère) des disciplines et du régime disciplinaire.&#160;Plus précisément, cette identité reposerait tout à la fois sur un principe d’interdisciplinarité et sur l’horizon d’une a-disciplinarité&#160;: les&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">émergent dans un premier temps à travers un appel à toutes les disciplines à collaborer autour d’un même objet, à le construire ensemble, puis, dans un second temps, revendiquent une fusion des disciplines, et s’affirment contre leur existence même. Quid de cette double revendication d’interdisciplinarité et d’a-disciplinarité dans le cas des AS&#160;? L’affirmation d’une ouverture de principe à toutes les disciplines a été présente dès les origines des AS, mais il s’est plus agi d’un appel à la pluridisciplinarité (cohabitation de plusieurs disciplines autour d’un même objet) que d’une réelle interdisciplinarité (collaboration entre ces disciplines). De plus, quand on examine les disciplines qui&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">de facto</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;contribuent aux AS, on se rend compte que même la pluridisciplinarité n’est bien souvent qu’un principe&#160;: on a vu que la montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">des AS témoignait d’une évolution partant des disciplines médicales (psychiatrie, psychologie, médecine vétérinaire, médecine humaine, épidémiologie…), puis intégrant progressivement les sciences sociales (anthropologie, histoire, sociologie, géographie…), puis les humanités (droit, philosophie, critique littéraire…). Cette évolution ne semble pas réellement cumulative&#160;: les disciplines que l’on rencontre le plus dans&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Anthrozoös</hi>
+            </hi>
+                        <hi xml:lang="fr"> ne sont pas celles que l’on rencontre le plus dans le&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Journal of Critical Animal Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">par exemple. L’arrivée de nouveaux sites éditoriaux favorise bien l’arrivée de nouvelles disciplines sur le domaine, mais pour autant à l’intérieur de ces sites éditoriaux, les disciplines présentes initialement évoluent peu. C’est-à-dire que la montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">ne se traduit pas réellement par une pluridisciplinarité accrue, mais par l’arrivée successive de nouvelles disciplines dont chacune définit ce que devrait être l’identité des AS (tout en maintenant une ouverture de principe à toutes les disciplines).</hi>
+                    </p>
+                    <p xml:id="d1e2134">
+                        <hi xml:lang="fr">Puisque la montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">peut être assimilée à un processus de subjectivation, il n’est pas étonnant que l’on trouve «&#160;en bout de chaîne&#160;» des disciplines pour lesquelles la notion de «&#160;sujet&#160;» est importante&#160;: le leadership actuel de la philosophie sur les AS (et sur les&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">en général&#160;?) peut ainsi aisément se comprendre. Pour autant, dans le cas des AS, cette évolution conduit à un phénomène pour le moins surprenant&#160;: au sein des AS, ce sont les disciplines des humanités qui vont s’intéresser le plus au point de vue de l’animal. En effet, les disciplines des sciences naturelles et plus particulièrement celles qui étudient traditionnellement les animaux (zoologie, éthologie, primatologie) sont assez peu présentes au sein des AS. Quand elles le sont, c’est à travers des figures tutélaires de l’éthologie et de la primatologie subjectivistes comme Jane Goodall ou Marc Bekoff, qui sont beaucoup citées mais qui ne publient pas dans les revues analysées. C’est ce qui me fait penser que plutôt que de parler de «&#160;disciplines&#160;» pour analyser la montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies</hi>
+            </hi>
+                        <hi xml:lang="fr">, il serait plus juste de parler de «&#160;cultures épistémiques&#160;» (Knorr-Cetina, 1999)&#160;: de la même manière que seule une certaine forme d’éthologie est convoquée dans les AS, ce ne sont pas tous les philosophes, tous les psychologues ou tous les juristes qui s’y trouvent impliqués, mais seulement certains pour qui la question de&#160;la subjectivité est importante. Le développement des AS incarnerait, selon cette lecture, l’arrivée de cultures épistémiques de plus en plus attachées à la subjectivité et à la subjectivation. Placer au centre de la montée en&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies </hi>
+            </hi>
+                        <hi xml:lang="fr">la dimension épistémique plutôt que la dimension disciplinaire me paraît produire une description plus réaliste de ce que sont les&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Studies</hi>
+            </hi>
+                        <hi xml:lang="fr">.</hi>
+                    </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e2166">
+                <listBibl xml:id="d1e2168">
+                    <bibl xml:id="d1e2170">
+                        <hi xml:lang="fr">Agulhon, M. (1981). Le sang des bêtes. Le problème de la protection des animaux en France au XIX</hi>
+                        <hi rend="sup">
+                            <hi xml:lang="fr">e</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;siècle.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Romantisme</hi>
+                        </hi>
+                        <hi xml:lang="fr">, (31), 81-109.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2183">
+                        <hi xml:lang="en">Animals Liberation Philosophy and Policy Journal Editorial Board (2003). The History and Philosophy of the Center on Animal Liberation Affairs,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal for Critical Animal Studies,</hi>
+                        </hi>
+                        <hi xml:lang="en">&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">1</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 2-5.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2196">
+                        <hi xml:lang="en">Arluke, A. (2002). A Sociology of Sociological Animal Studies,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Society &amp; Animals Journal of Human-Animal Studies</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">10</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 369-374.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2209">
+                        <hi xml:lang="en">Bacot, P., Baratay, E., Barbet, D., Faure, O., &amp; Mayaud, J-L. </hi>
+                        <hi xml:lang="fr">(Dir.) (2003).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’animal en politique</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Paris&#160;: L’Harmattan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2219">
+                        <hi xml:lang="fr">Baldin, D. (2014).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Histoire des animaux domestiques (XIX</hi>
+                        </hi>
+                        <hi rend="sup">
+                            <hi rend="italic">
+                                <hi xml:lang="fr">e</hi>
+                            </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">-XX</hi>
+                        </hi>
+                        <hi rend="sup">
+                            <hi rend="italic">
+                                <hi xml:lang="fr">e</hi>
+                            </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">&#160;siècle)</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Paris&#160;: Le Seuil.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2241">
+                        <hi xml:lang="fr">Baratay, E. (2003).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Et l’homme créa l’animal,</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;Paris&#160;: Odile Jacob.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2249">
+                        <hi xml:lang="en">Beck, A.M., &amp; Katcher, A.H. (2003). Future directions in human-animal bond research, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Behavioral Scientist</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">47</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 79-93.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2262">
+                        <hi xml:lang="fr">Bérard, Y., &amp; Roger, A. (2015). Ronds-points théoriques et passages à niveau analytiques. La sociologie politique peut-elle rencontrer la sociologie des sciences&#160;?, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Politix</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">3</hi>
+                        </hi>
+                        <hi xml:lang="fr">(111), 9-26.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2275">
+                        <hi xml:lang="en">Best, S. (2003). The Son of Patriot Act and the Revenge Against Democracy, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal for Critical Animal Studies</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">1</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 6-15.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2288">
+                        <hi xml:lang="en">Best, S. (2007). The Animal Enterprise Terrorism Act: New, Improved, and ACLU-Approved,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal for Critical Animal Studies</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">5</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 65-81.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2302">
+                        <hi xml:lang="en">Best, S. (2009). The Rise of Critical Animal Studies: Putting Theory into Action and Animal Liberation into Higher Education,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal for Critical Animal Studies</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">7</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 9-51.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2315">
+                        <hi xml:lang="en">Best, S. (2014).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Politics of Total Liberation: Revolution for the 21st Century</hi>
+                        </hi>
+                        <hi xml:lang="en">, New York, NY: Palgrave McMillan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2323">
+                        <hi xml:lang="en">Best, S., &amp; Nocella II, A.J. (eds.) (2004).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Terrorists or Freedom Fighters?: Reflections on the Liberation of Animals</hi>
+                        </hi>
+                        <hi xml:lang="en">, Brooklyn: Lantern Books.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2331">
+                        <hi xml:lang="en">Birke, L., Bryld, M., &amp; Lykke, N. (2004). Animal performances. An exploration of intersections between feminist science studies and studies of human/animal relationships,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Feminist Theory</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">5</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 167-183.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2344">
+                        <hi xml:lang="fr">Bory, J.-Y. (2013).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La douleur des bêtes, la polémique sur la vivisection au XIX</hi>
+                        </hi>
+                        <hi rend="sup">
+                            <hi xml:lang="fr">e</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">siècle en France</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Rennes&#160;: PUR.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2360">
+                        <hi xml:lang="fr">Bourcier, M.-H./S. (2016). Le nouveau conflit des facultés : biopouvoir, sociologie et queer studies dans l’université néo-libérale française, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">SociologieS</hi>
+                        </hi>
+                        <hi xml:lang="fr"> /Dossiers, Sociétés en mouvement, sociologie en changement, Consulté à </hi>
+                        <ref target="http://sociologies.revues.org/5271">
+                            <hi xml:lang="fr">http://sociologies.revues.org/5271</hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e2371">
+                        <hi xml:lang="fr">Carrié, F. [non daté]. Antispécisme, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encyclopædia universalis</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Consulté à </hi>
+                        <ref target="http://www.universalis.fr/encyclopedie/antispecisme/">
+                            <hi xml:lang="fr">http://www.universalis.fr/encyclopedie/antispecisme/</hi>
+                        </ref>
+                        <hi xml:lang="fr"> </hi>
+                    </bibl>
+                    <bibl xml:id="d1e2384">
+                        <hi xml:lang="fr">Carrié, F. (2015a).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Parler et agir au nom des bêtes&#160;: production, diffusion et réception de la nébuleuse idéologique «&#160;animaliste&#160;» (France et Grande-Bretagne, 1760-2010)</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Thèse de Sciences Politiques soutenue à Paris&#160;X Nanterre.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2392">
+                        <hi xml:lang="fr">Carrié, F. (2015b). Le savant, le cobaye et l’antivivisectionniste. Circulation, réception et universalisation des innovations expérimentales dans les sciences du vivant (France et Grande-Bretagne, 1860-1890),&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Politix</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">28</hi>
+                        </hi>
+                        <hi xml:lang="fr">(111), 69-92.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2405">
+                        <hi xml:lang="fr">Debailly, R. (2013). La politisation de la science. Revues éphémères et mouvements de critique des sciences en France,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Année sociologique</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">63</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 399-427.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2418">
+                        <hi xml:lang="fr">Digard, J.-P. (2009). Raisons et déraisons des revendications animalitaires. Essaie de lecture anthropologique et politique,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Pouvoirs</hi>
+                        </hi>
+                        <hi xml:lang="fr">, (131), 97-111.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2427">
+                        <hi xml:lang="fr">Dodier, N, Joly, P.-B., &amp; Lemieux, C. (dir.) (2003).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La question animale.</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;Numéro spécial de&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Politix</hi>
+                        </hi>
+                        <hi xml:lang="fr">.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2440">
+                        <hi xml:lang="fr">Dubreuil, C.-M. (2013).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Libération animale et végétarisation du monde. Ethnologie de l’antispécisme français</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Paris&#160;: Éditions du Comité des Travaux historiques et scientifiques.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2448">
+                        <hi xml:lang="en">Franklin, A. (1999).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Animals and Modern Cultures: A Sociology of Human-Animal Relations in Modernity</hi>
+                        </hi>
+                        <hi xml:lang="en">, London: Sage Publications.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2456">
+                        <hi xml:lang="en">Franklin, A., &amp; White, R. (2001). Animals and modernity: changing human–animal relations, 1949-98,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal of Sociology</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">37</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 219-38.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2469">
+                        <hi xml:lang="en">Frickel, S., &amp; Gross, N. (2005). A General Theory of Scientific/Intellectual Movements,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Sociological Review</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">70</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 204-32.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2482">
+                        <hi xml:lang="en">Frickel, S., &amp; Moore, K. (eds.) (2006).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The New Political Sociology of Science. </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Institutions, Networks, and Power</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Madison: University of Wisconsin Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2493">
+                        <hi xml:lang="en">Génard, J.-L., Roca i Escoda, M. (2016). </hi>
+                        <hi xml:lang="fr">Un regard à décentrer, des frontières disciplinaires à décloisonner. Introduction aux Dossiers du Congrès «&#160;Sociétés en mouvement, sociologie en changement&#160;»,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">SociologieS</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;/&#160;Dossiers, Sociétés en mouvement, sociologie en changement, Consulté à </hi>
+                        <ref target="http://sociologies.revues.org/5321">
+                            <hi xml:lang="fr">http://sociologies.revues.org/5321</hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e2506">
+                        <hi xml:lang="en">Gorman, J. (2012). Animal Studies Cross Campus to Lecture Hall,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The New York Times</hi>
+                        </hi>
+                        <hi xml:lang="en">, New York City.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2514">
+                        <hi xml:lang="fr">Granjou, C. (2003). L’expertise scientifique à destination politique,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Cahiers internationaux de Sociologie</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;(CXIV), 175-83.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2522">
+                        <hi xml:lang="en">Granjou, C., &amp; Arpin, I. (2015). Epistemic Commitments. Making Relevant Science in Biodiversity Studies.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science, Technology &amp; Human Values</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">40</hi>
+                        </hi>
+                        <hi xml:lang="en">(6), 1022–1046. </hi>
+                        <ref target="https://doi.org/10.1177%2F0162243915587361">
+                            <hi xml:lang="en">https://doi.org/10.1177%2F0162243915587361</hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e2538">
+                        <hi xml:lang="en">Harding, S. (ed.) (2003).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Feminist Standpoint Theory Reader: Intellectual and Political Controversies</hi>
+                        </hi>
+                        <hi xml:lang="en">, London: Routledge.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2547">
+                        <hi xml:lang="en">Hess, D. (2007).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Alternative Pathways in Science and Industry</hi>
+                        </hi>
+                        <hi xml:lang="en">, Boston: MIT Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2555">
+                        <hi xml:lang="en">Hines, L.M. (2003). Historical Perspectives on the Human-Animal Bond,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Behavioral Scientist</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">47</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 7-15.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2568">
+                        <hi xml:lang="en">Hosey, G., &amp; Melfi, V. (2014). Human-animal interactions, relationships and bonds: a review and analysis of the literature,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">International Journal of Comparative Psychology</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">27</hi>
+                        </hi>
+                        <hi xml:lang="en">(1).</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2581">
+                        <hi xml:lang="en">Hurn, S. (2012).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Humans and Other Animals: Cross-Cultural Perspectives on Human-Animal Interactions</hi>
+                        </hi>
+                        <hi xml:lang="en">, London: Pluto Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2589">
+                        <hi xml:lang="en">Institute for Critical Animal Studies (2016). </hi>
+                        <hi xml:lang="fr">ICAS handout, Consulté à&#160;</hi>
+                        <ref target="http://www.criticalanimalstudies.org/wp-content/uploads/2016/03/ICAS-Handout-2016.pdf">
+                            <hi xml:lang="en">http://www.criticalanimalstudies.org/wp-content/uploads/2016/03/ICAS-Handout-2016.pdf</hi>
+                        </ref>
+                        <hi xml:lang="en">.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2599">
+                        <hi xml:lang="en">Jasper, J.M., &amp; Nelkin, D. (1992).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Animal Rights Crusade: The Growth of a Moral Protest</hi>
+                        </hi>
+                        <hi xml:lang="en">, New York: Free Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2607">
+                        <hi xml:lang="fr">Jeangène&#160;Vilmer, J.-B. (2009).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Éthique animale</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Paris&#160;: Presses universitaires de France.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2615">
+                        <hi xml:lang="en">Knorr-Cetina, K. (1999).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Epistemic Cultures: How the Sciences Make Knowledge</hi>
+                        </hi>
+                        <hi xml:lang="en">, Cambridge, Ma: Harvard University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2623">
+                        <hi xml:lang="fr">Lacey, H., &amp; Lefèvre, M. (2015). Agroécologie&#160;: la science et les valeurs de la justice sociale, de la démocratie et de la durabilité,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Écologie &amp; politique</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">51</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 27-39.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2636">
+                        <hi xml:lang="en">Levinson, B.M. (1962). The dog as “co-therapist”,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Mental Hygiene</hi>
+                        </hi>
+                        <hi xml:lang="en">, (46), 59-65.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2644">
+                        <hi xml:lang="en">Levinson, B.M. (1969).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Pet Oriented Child Psychotherapy</hi>
+                        </hi>
+                        <hi xml:lang="en">, Springfield: Charles C Thomas.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2653">
+                        <hi xml:lang="fr">Maigret, E. (2013). Ce que les&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">cultural studies</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;font aux savoirs disciplinaires. Paradigmes disciplinaires, savoirs situés et prolifération des studies,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Questions de communication.</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">24</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Consulté à </hi>
+                        <ref target="http://questionsdecommunication.revues.org/8684">
+                            <hi xml:lang="fr">http://questionsdecommunication.revues.org/8684</hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e2674">
+                        <hi xml:lang="fr">Marks, H. (1999).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La médecine des preuves. Histoire et anthropologie des essais cliniques (1900-1990)</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Paris&#160;: Sanofi-Synthelabo.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2682">
+                        <hi xml:lang="en">Mauz, I., &amp; Granjou, C. (2013). The rise of biodiversity modeling and the re-valuation of naturalist data. Insights from a case study in France,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science as Culture</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">22</hi>
+                        </hi>
+                        <hi xml:lang="en">(1).</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2695">
+                        <hi xml:lang="en">McCune, S., Kruger, K.A., Griffin, J.A., Esposito, L., Freund, L.S., Hurley,&#160;K.J., &amp; Bures,&#160;R. (2014). Evolution of research into the mutual benefits of human-animal interaction,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Animal Frontiers</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">4</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 49-58.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2708">
+                        <hi xml:lang="fr">Merle, I. (2004). Les&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Subaltern Studies</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Retour sur les principes fondateurs d’un projet historiographique de l’Inde coloniale,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Genèses</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">56</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 131-47.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2726">
+                        <hi xml:lang="fr">Michalon, J. (2014).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Panser avec les animaux. Sociologie du soin par le contact animalier</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Paris&#160;: Presses des Mines ParisTech.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2734">
+                        <hi xml:lang="fr">Michalon, J., Doré, A., Mondémé, C. (2016). Une sociologie avec les animaux&#160;: faut-il changer de sociologie pour étudier les relations humains/animaux&#160;?&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">SociologieS</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Dossiers, Sociétés en mouvement, sociologie en changement, Consulté à </hi>
+                        <ref target="http://sociologies.revues.org/5329">
+                            <hi xml:lang="fr">http://sociologies.revues.org/5329</hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e2745">
+                        <hi xml:lang="fr">Munro, L. (2012). </hi>
+                        <hi xml:lang="en">The Animal Rights Movement in Theory and Practice: A Review of the Sociological Literature,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Sociology Compass</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">6</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 166-181.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2760">
+                        <hi xml:lang="en">Naguib&#160;Pellow, D. (2014).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Total Liberation. The Power and Promise of Animal Rights and the Radical Earth Movement</hi>
+                        </hi>
+                        <hi xml:lang="en">, University of Minnesotta Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2768">
+                        <hi xml:lang="fr">Neveu, E., &amp; Mattelart, A. (2003).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Introduction aux Cultural Studies</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Paris&#160;: La Découverte.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2776">
+                        <hi xml:lang="fr">Nocella II, A.J., Sorenson, J., Socha, K., &amp; Matsuoka, A. (eds.) </hi>
+                        <hi xml:lang="en">(2014).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Defining Critical Animal Studies. An Intersectional Social Justice Approach for Liberation</hi>
+                        </hi>
+                        <hi xml:lang="en">, Bern: Peter Lang.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2787">
+                        <hi xml:lang="en">Noske, B. (1989).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Humans and Other Animals Beyond the Boundaries of Anthropology</hi>
+                        </hi>
+                        <hi xml:lang="en">, London: Pluto Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2795">
+                        <hi xml:lang="en">Pearson, S.J. (2011).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Rights of the Defenseless. Protecting Animals and Children in Gilded Age America</hi>
+                        </hi>
+                        <hi xml:lang="en">, Chicago: The University of Chicago Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2803">
+                        <hi xml:lang="fr">Pelosse, V. (1981). Imaginaire social et protection de l’animal. Des amis des bêtes de l’an&#160;X au législateur de 1850 (1</hi>
+                        <hi rend="sup">
+                            <hi xml:lang="fr">re</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;partie),&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Homme</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">21</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 5-33.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2821">
+                        <hi xml:lang="fr">Pelosse, V. (1982). Imaginaire social et protection de l’animal. Des amis des bêtes de l’an&#160;X au législateur de 1850 (2</hi>
+                        <hi rend="sup">
+                            <hi xml:lang="fr">e</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;partie),&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Homme</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">22</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 33-51.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2839">
+                        <hi xml:lang="fr">Pierre, E. (1997). La zoophilie dans ses rapports à la philanthropie, en France, au XIX</hi>
+                        <hi rend="sup">
+                            <hi xml:lang="fr">e</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;siècle,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Cahiers d’histoire</hi>
+                        </hi>
+                        <hi xml:lang="fr">, (3-4), 655-675.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2852">
+                        <hi xml:lang="en">Podberscek, A.L. (2012). From Near Extinction to 25th Anniversary: After the First Ten Years of Anthrozoos FOREWORD,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Anthrozoos</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">25</hi>
+                        </hi>
+                        <hi xml:lang="en">, S9-S10.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2865">
+                        <hi xml:lang="fr">Pouchepadass, J. (2000). Les&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Subaltern Studies </hi>
+                        </hi>
+                        <hi xml:lang="fr">ou la critique postcoloniale de la modernité,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Homme,</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;(156), 161-186.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2878">
+                        <hi xml:lang="en">Regan, T. (1983).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Case for Animal Rights</hi>
+                        </hi>
+                        <hi xml:lang="en">, Berkeley: University of California Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2886">
+                        <hi xml:lang="en">Rouhiainen, H., &amp; Vuorisalo, T. (2014). In search for the ideological roots of non-formal environment-related education in Finland: the case of Helsinki Humane Society before World War&#160;II,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Environmental Education Research</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">20</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 145-60.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2899">
+                        <hi xml:lang="en">Rowan, A.N. (2012). The Origins and First Ten Years of Anthrozoos FOREWORD,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Anthrozoos</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">25</hi>
+                        </hi>
+                        <hi xml:lang="en">, S5-S7.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2912">
+                        <hi xml:lang="en">Sanders, C.R. (2007).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Sociology of Non-Human Animals and Society</hi>
+                        </hi>
+                        <hi xml:lang="en">, in Bryant, C.D., Peck D.L. (eds.),&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">21st Century Sociology: A Reference Handbook</hi>
+                        </hi>
+                        <hi xml:lang="en"> (vol.&#160;2, pp.&#160;2-7). London: Sage Publications.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2926">
+                        <hi xml:lang="en">Sanders, C.R., &amp; Arluke, A. (1993). If lions could speak: investigating the animal-human relationship and the perspectives of nonhuman others,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Sociological Quarterly</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">34</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 377-390.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2939">
+                        <hi xml:lang="fr">Servais, V. (1999). Enquête sur le «&#160;pouvoir thérapeutique&#160;» des dauphins. Ethnographie d’une recherche,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Gradhiva,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (25), 93-105.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2947">
+                        <hi xml:lang="en">Shapiro, K. (2002). Editor’s introduction: The state of human-animal studies: Solid, at the margin!&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Society &amp; Animals</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">10</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 331-337.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2960">
+                        <hi xml:lang="en">Shapiro, K., &amp; DeMello, M. (2010). The State of Human-Animal Studies,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Society &amp; Animals</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">18</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 307-318.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2973">
+                        <hi xml:lang="en">Shapiro, K.J. (1983). Psychology and its animal subjects,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">International Journal for the Study of Animal Problems</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">4</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 188-191.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2986">
+                        <hi xml:lang="en">Shapiro, K.J. (1993). Editor’s Overview,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Society &amp; Animals</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">1</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 107-109.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2999">
+                        <hi xml:lang="en">Shapiro, K.J. (1997). Editor’s introduction,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Society &amp; Animals</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">5</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 1-1.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3012">
+                        <hi xml:lang="en">Singer, P. (1975).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Animal Liberation: A New Ethics for Our Treatment of Animals</hi>
+                        </hi>
+                        <hi xml:lang="en">, New York: Avon.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3020">
+                        <hi xml:lang="en">Singer, P. (1993).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Practical Ethics</hi>
+                        </hi>
+                        <hi xml:lang="en">, New York: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3028">
+                        <hi xml:lang="en">Taylor, N. (2013).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Humans, Animals, and Society: An Introduction to Human-Animal Studies</hi>
+                        </hi>
+                        <hi xml:lang="en">, New York: Lantern Books.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3036">
+                        <hi xml:lang="en">Timmermans, S., &amp; Berg, M. (2003).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Gold Standard. The Challenge of Evidence-Based Medicine and Standardization in Health Care</hi>
+                        </hi>
+                        <hi xml:lang="en">, Philadelphia: Temple University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3045">
+                        <hi xml:lang="fr">Traïni, C. (2011a).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La cause animale (1820-1980). Essai de sociologie historique</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Paris&#160;: Presses universitaires de France.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3053">
+                        <hi xml:lang="fr">Traïni, C. (2011b). Les émotions de la cause animale. Histoires affectives et travail militant,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Politix</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">93</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 69-92.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3066">
+                        <hi xml:lang="fr">Traïni, C. (2012). Entre dégoût et indignation morale. Sociogenèse d’une pratique militante,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue française de science politique</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">62</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 559-581.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3079">
+                        <hi xml:lang="fr">Van&#160;Damme, S. (2004). Comprendre les Cultural Studies&#160;: une approche d’histoire des savoirs,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’histoire moderne et contemporaine</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">5</hi>
+                        </hi>
+                        <hi xml:lang="fr">(51-4bis), 48-58.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3092">
+                        <hi xml:lang="en">Waldau, P. (2013).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Animal Studies: An Introduction</hi>
+                        </hi>
+                        <hi xml:lang="en">, Oxford: Oxford University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3100">
+                        <hi xml:lang="en">Weil, K. (2012).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Thinking Animals: Why Animal Studies Now?</hi>
+                        </hi>
+                        <hi xml:lang="en">, New York: Columbia University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3108">
+                        <hi xml:lang="en">White, R.J. (2009). Introduction,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal for Critical Animal Studies,</hi>
+                        </hi>
+                        <hi xml:lang="en">&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">7</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 4-8.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e3121">
+                        <hi xml:lang="en">Wolfe, C. (2008). Animal Studies and Disability Studies, or, Learning from Temple Grandin, in W.&#160;Wheeler &amp; H.&#160;Dunkerley (eds.),&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Earthographies: Ecocriticism and Culture - special issue of New Formations</hi>
+                        </hi>
+                        <hi xml:lang="en">, 110-123.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

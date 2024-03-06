@@ -1,0 +1,715 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_1658_Tkaczyk">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Recherche en histoire de l’acoustique moderne</title>
+                <title type="sub">Entretien avec Viktoria&#160;Tkaczyk, directrice de l’équipe <hi rend="italic">Epistemes of Modern Acoustics,</hi> Max&#160;Planck Institute for
+                    the History of Science, Berlin</title>
+                <title level="a" type="alt" xml:lang="en">Research in the history of modern
+                    acoustics. Interview with Viktoria Tkaczyk, Director of the Epistemes of Modern
+                    Acoustics, Max Planck Institute for the History of Science, Berlin</title>
+                <title level="a" type="alt" xml:lang="es">Investigación en la historia de la
+                    acústica moderna. Entrevista con Viktoria Tkaczyk, Directora de Epistemes of
+                    Modern Acoustics, Instituto Max Planck de Historia de la Ciencia, Berlín</title>
+                <author>
+                    <persName>
+                        <forename>Viktoria</forename>
+                        <surname>Tkaczyk</surname>
+                    </persName>
+                    <affiliation> Directrice de l’équipe <hi rend="italic">
+              <hi xml:lang="en">Epistemes of Modern Acoustics,</hi>
+            </hi> Max&#160;Planck Institute for
+                        the History of Science, Berlin </affiliation>
+                </author>
+                <editor role="translator">
+                    <persName>
+                        <forename>Pauline</forename>
+                        <surname>Brouard</surname>
+                    </persName>
+                </editor>
+                <author>
+                    <persName>
+                        <forename>François</forename>
+                        <surname>Ribac</surname>
+                    </persName>
+                    <affiliation> Compositeur de théâtre musical et maître de conférences dans le
+                        département d’Information et Communication de l’Université de Bourgogne, ses
+                        recherches portent sur les musiques populaires et la reproduction sonore,
+                        l’expertise culturelle et les arts face aux défis écologiques. Dernier
+                        ouvrage publié (avec Catherine Dutheil-Pessin)<hi rend="italic"> La Fabrique
+                            de la programmation culturelle</hi> (La&#160;Dispute, 2017).ORCID&#160;:Adresse&#160;:
+                        Laboratoire Cimeos, 36&#160;rue Chabot Charny, FR-21000 Dijon (France).Courriel&#160;:
+                        francois.ribac[at]u-bourgogne.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+                        Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à
+                    l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS
+                    (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une
+                    archive d’articles ou une collection de livres, il s’agit d’une bibliothèque
+                    «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture
+                    heuristiques et réflexifs entre les textes, grâce à différents algorithmes de
+                    recherche et de suggestions reposant notamment sur un balisage des lieux, des
+                    dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs
+                        (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel
+                        XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données
+                        géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour
+                        l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références
+                        Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes
+                        pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>sonic turn</item>
+                        <item>sound studies</item>
+                        <item>science and technology studies (STS)</item>
+                        <item>instrument</item>
+                        <item>history of science</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>histoire des sciences</item>
+                        <item>études du son</item>
+                        <item>tournant sonore</item>
+                        <item>sciences techniques et sociétés (STS)</item>
+                        <item>instrument</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>estudios de sonido</item>
+                        <item>giro sonoro</item>
+                        <item>ciencia tecnología y sociedad (CTS)</item>
+                        <item>instrumento</item>
+                        <item>historia de la ciencia</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Recherche en histoire de l’acoustique moderne</titlePart>
+                    <titlePart type="sub">Entretien avec Viktoria&#160;Tkaczyk, directrice de l’équipe
+                            <hi rend="italic">Epistemes of Modern Acoustics,</hi> Max&#160;Planck
+                        Institute for the History of Science, Berlin</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Viktoria Tkaczyk</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e303">
+                <p xml:id="d1e304">Dans cet entretien, Viktoria&#160;Tkaczyk, directrice de l’équipe
+                    «&#160;Epistemes of Modern Acoustics&#160;» au Max&#160;Planck Institute de Berlin traite des
+                    travaux en cours, des perspectives de recherche et du tournant sonore dans
+                    l’histoire des sciences. Elle présente son groupe de travail et leurs objets de
+                    recherche, une série de travaux sur la place du son et de la musique dans les
+                    sciences depuis la Révolution scientifique. Elle rend compte de la façon dont
+                    émergent une conception et une autre histoire des sciences en donnant à certains
+                    acteurs une place qu’ils/elles n’avaient pas et en montrant comment le son a été
+                    utilisé, par exemple par Mach, comme un outil de connaissance pour explorer des
+                    terrains non soniques, édifier des laboratoires, produire des objets, etc. Elle
+                    résume un panorama de travaux, peu connus en France, qui croisent histoire des
+                    sciences, <hi rend="italic">sound studies</hi> et savoirs de la musique. Musique
+                    et son sont abordés sous l’angle de l’histoire des sciences, des mesures et des
+                    standardisations&#160;; en même temps, l’histoire des sciences est en quelque sorte
+                    «&#160;resonorisée&#160;».</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e309">
+                <p xml:id="d1e310">In this article, Viktoria Tkaczyk, who leads the research team
+                        <hi rend="italic">Epistemes of Modern Acoustics</hi> at the Max Plank
+                    Institute in Berlin, discusses the ongoing works, the research perspectives and
+                    the “sound” turn within history of sciences. She introduces her working team
+                    members and their research objects, which encompass a range of several works
+                    dealing with the situation of sound and music within the sciences since the
+                    Scientific Revolution. As she highlights the importance of some actors who tend
+                    to be omitted, she points out how another conception and history of sciences
+                    arose. She also shows how sound can be used, like Mach did for example, as a
+                    tool of knowledge in order to investigate fieldworks that might not be related
+                    to sound at first sight, or to build up laboratories, to produce new objects and
+                    so on. She draws a condensed survey of works, very little known in France yet,
+                    that combine History of Sciences, Sound Studies and Music Knowledge. Music and
+                    sound are addressed from the perspective of the history sciences, including
+                    measures and standardization; and simultaneously, the history of sciences is
+                    sort of considered through a “re-sonification”.</p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e315">
+                <p xml:id="d1e316">En esta entrevista, Viktoria Tkaczyk, directora del equipo de
+                    Epistemes of Modern Acoustics en el Instituto Max Planck de Berlín, analiza el
+                    trabajo actual, las perspectivas de investigación y el giro sonoro en la
+                    historia de la ciencia. Presenta a su grupo de trabajo y sus objetos de
+                    investigación, una serie de trabajos sobre la importancia del sonido y de la
+                    música en la ciencia desde la Revolución científica. Cuenta cómo emergen una
+                    concepción y una otra historia de la ciencia, dando a unos actores un papel que
+                    no tenían antes, y mostrando cómo se usó el sonido, por ejemplo, con Mach, como
+                    medio de conocimiento para explorar terrenos no sónicos, construir laboratorios,
+                    producir artefactos, etc. Resume un panorama de obras, poco conocidas en Francia
+                    que cruzan la historia de la ciencia, los estudios de sonido y el conocimiento
+                    de la música. La música y el sonido aparecen desde la perspectiva de la historia
+                    de la ciencia, la medición y la estandarización; al mismo tiempo, la historia de
+                    la ciencia está de alguna manera «&#160;sonorizada&#160;».</p>
+            </div>
+        </front>
+        <body>
+            <p rend="question" xml:id="d1e322">François <hi rend="ismall-caps">Ribac</hi>&#160;:
+                Pourriez-vous vous présenter en quelques mots&#160;?</p>
+            <p rend="answer" xml:id="d1e327">Viktoria <hi rend="ismall-caps">Tkaczyk</hi>&#160;: Je
+                dirige actuellement le groupe de recherche «&#160;Epistemes of Modern Acoustics&#160;», qui se
+                déroule sur une durée de cinq ans, au Max Planck Institute for the History of
+                Science à Berlin, et j’occupe une chaire de professeure en Histoire du Savoir à
+                l’Humboldt-Universität de Berlin. Peut-être puis-je ajouter quelques informations
+                bibliographiques&#160;: j’ai obtenu mon doctorat en Études théâtrales à la Freie
+                Universität Berlin, en soutenant ma thèse sur l’histoire de la technologie de la
+                scène au début de la période moderne. Cela m’a menée vers l’histoire de la mécanique
+                et de l’expérimentation et à l’histoire des sciences de manière plus générale. Ainsi
+                ai-je commencé à associer des thématiques, des méthodes et des approches issues de
+                différentes disciplines&#160;: études théâtrales, <hi rend="italic">cultural studies</hi>
+                et histoire des sciences et des technologies. J’ai passé une année, en contrat
+                postdoctoral affilié à la Fondation Feodor&#160;Lynen, au sein de deux laboratoires du
+                CNRS à Paris (l’Atelier de recherche sur l’intermédialité des arts du spectacle et
+                l’équipe de Recherches Épistémologiques et Historiques sur les Sciences Exactes et
+                les Institutions Scientifiques). Puis, avant de retourner à Berlin, j’ai été
+                professeure associée en arts et nouveaux médias à l’Université d’Amsterdam.</p>
+            <p rend="question" xml:id="d1e335">FR&#160;: Pourriez-vous expliquer le nom du groupe de
+                recherche «&#160;Epistemes of Modern Acoustics&#160;»&#160;?</p>
+            <p rend="answer" xml:id="d1e337">VT&#160;: Notre groupe s’inspire des méthodes
+                d’épistémologie historique, et nous sommes partis du terme foucaldien «&#160;épistémè&#160;»,
+                entendu comme les conditions de construction, de production et de diffusion du
+                savoir. Nous examinons les différentes façons selon lesquelles le savoir acoustique
+                émerge au cours de la période moderne, et comment certains contextes culturels le
+                favorisent. Nous nous intéressons aux circonstances sociopolitiques et religieuses,
+                aux infrastructures technologiques et aux pratiques artistiques, mais aussi aux
+                possibilités intellectuelles qui ont rendu possible l’étude de l’acoustique.</p>
+            <p rend="question" xml:id="d1e339">FR&#160;: Que signifie le mot «&#160;acoustics&#160;»&#160;?</p>
+            <p rend="answer" xml:id="d1e341">VT&#160;: Nous envisageons l’«&#160;acoustique&#160;» au regard des
+                définitions et des redéfinitions que les acteurs historiques en ont données, du
+                dix-huitième siècle à nos jours. Si l’on considère les dix-huitième et dix-neuvième
+                siècles, il est intéressant de voir que les premiers manuels et documents
+                n’abordaient pas seulement la nature physique du son, mais aussi des questions de
+                perception et de physiologie. La plupart de ces écrits, produits par Joseph&#160;Sauveur,
+                Ernst&#160;Chladni, ou les frères Weber, témoignent d’un triple intérêt&#160;: la propagation,
+                la réflexion du son, ainsi que la perception du son par des moyens plus
+                psycho-physiologiques. Pour ce qui est du vingtième siècle, notre intérêt se porte
+                sur la façon dont l’acoustique, en tant que discipline, s’est divisée en différentes
+                sous-disciplines telles que la bioacoustique, l’électroacoustique, l’acoustique
+                intérieure (room acoustics), l’aéroacoustique… Il n’y avait (et il n’y a toujours)
+                aucune discipline de l’acoustique en tant que telle, mais il s’agit plutôt d’un
+                champ de recherche fragmenté –&#160;de telle sorte que ce domaine se comporte comme un
+                «&#160;parasite&#160;»&#160;: il se glisse sous le couvert d’autres disciplines. Les chercheurs de
+                celles-ci mènent des travaux sur le son sans nécessairement les qualifier de
+                recherches en acoustique.</p>
+            <p rend="answer" xml:id="d1e343">Notre groupe de recherche comprend à la fois deux
+                chercheurs post-doctorants, quatre chercheurs associés en contrat pré-doctoral et
+                deux à trois chercheurs invités. Les projets individuels vont de l’émergence des
+                concepts spécifiques à l’acoustique (comme celui de «&#160;mémoire auditive&#160;» ou de
+                «&#160;bruit de fond&#160;») aux normes de l’acoustique (comme celle du «&#160;diapason&#160;» ou de
+                «&#160;niveau de bruit&#160;»), en passant par l’invention des ressources et technologies de
+                l’acoustique (comme la photographie sonore (<hi rend="italic">sound
+                photography</hi>) ou les systèmes de reconnaissance vocale) et la généalogie de
+                sous-disciplines de l’acoustique, aux multiples variantes dont l’électroacoustique,
+                l’audiologie ou la bioacoustique. Nous analysons le son en prenant en compte sa
+                fonction duale, simultanément objet de recherche et outil épistémique. Tout d’abord,
+                nous nous intéressons à la construction de la discipline de l’acoustique au cours de
+                la période moderne, et nous explorons les conditions historiques qui permettent au
+                savoir acoustique de devenir un savoir scientifique puis d’imprégner les pratiques
+                des musiciens, architectes, ingénieurs ou des auditeurs ordinaires. Ensuite, nous
+                regardons les stratégies de production de savoir sur le son, au sein de diverses
+                disciplines issues des sciences et des humanités. Quel savoir historique peut être
+                acquis uniquement par des techniques d’écoute&#160;? Pourquoi, comment et quand les
+                instruments de musique, les technologies audio ou les nouveaux appareils sonores
+                déployés ont-ils constitué des outils alternatifs pour la recherche&#160;?</p>
+            <p rend="question" xml:id="d1e348">FR&#160;: Pour en rester encore à l’intitulé de votre
+                groupe de recherche, le terme «&#160;moderne&#160;» renvoie-t-il plus aux dix-neuvième et
+                vingtième siècles&#160;? Vous ne faites pas remonter la modernité à la Révolution
+                scientifique&#160;?</p>
+            <p rend="answer" xml:id="d1e350">VT&#160;: Nous ne prédéfinissons pas ce qu’est la modernité,
+                ou quelles sont les périodes et régions auxquelles les chercheurs devraient
+                s’intéresser. Si vous regardez la variété des projets au sein de notre groupe, vous
+                verrez qu’en fonction des thèmes individuels, chaque chercheur⋅e produit sa propre
+                interprétation de la modernité. Mais nous ne remontons certainement pas jusqu’à
+                Aristote pour situer la modernité. Je dirais que le repère temporel se trouve au
+                dix-huitième siècle, avec des prémisses autour de quelque chose comme 1700. En 1701,
+                le mathématicien français Joseph&#160;Sauveur a défini l’acoustique comme une discipline
+                scientifique pour la première fois. Lorsque que j’ai postulé pour ce projet, Sauveur
+                était mon point de départ, sans pourtant autant que cela soit trop formellement
+                arrêté, car je m’étais plutôt appuyée sur la notion de «&#160;modernités multiples&#160;» de
+                Shmuel&#160;N. Eisenstadt, ou sur la lecture critique, par Fredric&#160;Jameson, des
+                idéologies et des mythes qui ont façonné les termes de «&#160;modernité&#160;» et de
+                «&#160;modernisme&#160;». Je pense qu’avec l’histoire de l’acoustique, tout particulièrement,
+                il est fascinant de se demander s’il est possible de déterminer un début ou une fin
+                de la modernité, voire si cela est nécessaire.</p>
+            <p rend="question" xml:id="d1e352">FR&#160;: Dans <hi rend="italic">La Nouvelle
+                    Atlantide</hi> de Francis&#160;Bacon (Bacon, 1627), on trouve un court passage à
+                propos de la maison des sons, où l’auteur décrit comment le son peut y être
+                transformé et transporté… Mais ce passage n’est pas souvent évoqué par les
+                historien·ne·s de sciences.</p>
+            <p rend="answer" xml:id="d1e358">VT&#160;: Il y a ce livre formidable de Penelope&#160;Gouk
+                (1999), intitulé <hi rend="italic">Musique, science et magie naturelle au
+                    dix-septième siècle en Angleterre,</hi> dans lequel elle étudie les écrits de
+                Bacon sur le son dans <hi rend="italic">La Nouvelle Atlantide</hi> et le <hi rend="italic">Sylva Sylvarum</hi>. Comme pour de nombreux autres phénomènes,
+                Bacon a ouvert la voie à une approche à la fois académique et expérimentale du son.
+                Le dix-septième siècle est une période particulièrement intéressante pour l’étude de
+                l’acoustique parce qu’il s’y trouve des idées d’une grande diversité à propos de la
+                nature du son et une multiplicité de méthodes dédiées à son étude, que ce soit
+                théoriquement, expérimentalement ou dans la pratique. J’ai été à la tête d’un autre
+                petit sous-projet, «&#160;Acoustic Dissonances&#160;», au Centre de Recherche Collaborative
+                «&#160;Epistemes in Motion&#160;» de la Freie Universität Berlin, qui se focalisait sur la
+                formation de l’acoustique au dix-septième siècle. Un de mes collègues dans ce
+                projet, Leendert van&#160;der&#160;Miesen, travaille actuellement sur Marin Mersenne et
+                René&#160;Descartes –&#160;en rapportant leurs écrits théoriques sur le son à la culture
+                matérielle du dix-septième siècle en France et aux Pays-Bas. Il décrit l’influence
+                des pratiques de <hi rend="italic">musicking</hi>
+        <note type="standard" xml:id="ftn1" place="foot" n="1">
+          <p> Small, C. (2011). <hi rend="italic">Musicking: The
+                            Meanings of Performing and Listening (Music Culture).</hi> Hanover:
+                        Wesleyan University Press.</p>
+        </note>, de la fabrication des instruments, du
+                chant et de la composition, ainsi que des conflits au sein de l’acoustique. Une
+                autre collègue, Anna&#160;Laqua, travaille sur les techniques acoustiques de surveillance
+                et d’espionnage en Angleterre, sous Oliver Cromwell dans la seconde moitié du
+                dix-septième siècle.</p>
+            <p rend="question" xml:id="d1e379">FR&#160;: J’ai maintenant une question générale sur la
+                prééminence de la vision. Beaucoup de personnes pensent que le son, et d’une
+                certaine façon la musique également, ont été négligés par les études de sciences et
+                les humanités. Que diriez-vous à ce propos&#160;?</p>
+            <p rend="answer" xml:id="d1e381">VT&#160;: Dans les premières années des <hi rend="italic">sound studies </hi>(Pinch et Bijsterveld, 2012), la domination traditionnelle
+                de la vision dans la culture occidentale a souvent été considérée comme un argument
+                afin de changer de perspective et de prôner un «&#160;tournant sonore&#160;» (<hi rend="italic">sonic turn</hi>) au sein des humanités. Au moment de ma
+                candidature pour ce projet, il y a déjà cinq ans, les recherches étaient peu
+                nombreuses à s’intéresser à l’histoire du son, ou plus particulièrement à l’histoire
+                de la formation du savoir acoustique. À cette époque, les historiens des sciences
+                avaient largement publié autour de l’histoire du télescope ainsi que d’autres médias
+                visuels, ou sur des méthodes de recherche optiques, comme la photographie ou les
+                rayons-X. À l’exception des études de Myles&#160;W. Jackson (Hui, Kursell et Jackson,
+                2013&#160;; Jackson, 2008), Emily&#160;Thompson (Thompson, 2002) et Olivier&#160;Darrigol
+                (Darrigol, 2012), il n’y avait aucun autre travail notable sur le son et les
+                sciences. Cependant, le champ s’est rapidement développé. Désormais, il existe tant
+                d’excellents chercheur·e·s travaillant sur le son et tant de travaux innovants, que
+                j’ai presque de la peine pour l’histoire de l’art et les études visuelles&#160;! Les
+                raisons en sont très certainement multiples. Les processus de numérisation, et donc
+                la disponibilité accrue des données audio et des outils d’analyse du son, comptent
+                probablement parmi les principales d’entre elles.</p>
+            <p rend="question" xml:id="d1e389">FR&#160;: En France, pendant longtemps, le mot
+                «&#160;acoustique&#160;» a renvoyé à Émile&#160;Leipp (1984), et cela prenait une connotation très
+                scientifique pour les musiciens et les autres personnes qui travaillaient sur
+                l’acoustique. Comment expliquez-vous le silence à propos du son avant ce changement
+                que vous avez mentionné&#160;?</p>
+            <p rend="answer" xml:id="d1e393">VT&#160;: Cela a sûrement à voir avec les changements dans
+                les pratiques d’usage et dans le savoir en général. Avant l’ère numérique, les
+                connaissances générales à propos du fonctionnement de la photographie ou d’autres
+                médias optiques étaient bien plus détaillées et plus répandues que les connaissances
+                concernant le gramophone, l’enregistrement sur bande ou le traitement audio –&#160;ce
+                dernier étant toujours associé principalement aux musiciens, aux ingénieurs du son
+                ou aux enregistrements amateurs. Avec l’ère numérique, les champs d’expertise et
+                d’intérêt ont été modifiés par la mise à disposition de technologies
+                d’enregistrement abordables et de logiciels audio. De nos jours, les personnes
+                possédant leur propre studio sonore à la maison et les chercheurs universitaires
+                travaillant sur le son ou l’histoire du son sont de plus en plus nombreux. Dans le
+                monde académique, cet intérêt tardif peut aussi être la conséquence de stratégies de
+                publication. Il est plus facile d’inclure des images dans une publication et de
+                faire circuler des données visuelles, tandis que les phénomènes acoustiques sont
+                plus difficiles à saisir et à représenter.</p>
+            <p rend="question" xml:id="d1e395">FR&#160;: Quand le livre de Jonathan&#160;Sterne, The Audible
+                Past (Sterne, 2003), traduit en français sous le titre Une histoire de la modernité
+                sonore, a été publié, beaucoup ont découvert que le stéthoscope était aussi utilisé
+                pour le gramophone et la radio. L’étude du son nous permet alors d’appréhender tout
+                à la fois des formes de circulation du savoir et de considérer d’une autre façon
+                l’histoire et pratique de la médecine.</p>
+            <p rend="answer" xml:id="d1e397">VT&#160;: Le livre <hi rend="italic">The Audible Past</hi>
+                de Jonathan Sterne est une étude brillante, qui parle aux chercheurs en <hi rend="italic">media studies</hi>, en histoire des sciences et en <hi rend="italic">sound studies</hi>. D’ailleurs, le livre est probablement sorti
+                juste au bon moment. Au sein des humanités, un tournant en entraîne un autre –&#160;le
+                tournant iconique, le tournant spatial, le tournant performatif… Le moment était
+                venu pour un tournant sonore et pour une attention accrue à ce «&#160;passé audible&#160;» qui
+                outrepasse les conceptions de l’histoire de la musique ou de l’histoire de
+                l’acoustique.</p>
+            <p rend="question" xml:id="d1e408">FR&#160;: S’agit-il d’une explication kuhnienne (Kuhn,
+                1983)&#160;?</p>
+            <p rend="answer" xml:id="d1e411">VT&#160;: Je n’en suis pas certaine. Les paradigmes, au sens
+                kuhnien, sont bien plus complexes et d’une bien plus grande portée que ce que nous
+                appelons les «&#160;tournants&#160;» en humanités. Kuhn décrit les variations de paradigme
+                comme des changements fondamentaux dans les perspectives ou les «&#160;modes
+                académiques&#160;». Les variations de paradigme surgissent une à deux fois par siècle,
+                alors que les tournants savants vont et viennent au fil des décennies.</p>
+            <p rend="question" xml:id="d1e413">FR&#160;: Qu’en est-il à l’extérieur du champ
+                scientifique&#160;?</p>
+            <p rend="answer" xml:id="d1e415">VT&#160;: Je dirais que cela ne concerne pas l’intérieur ou
+                l’extérieur du champ universitaire. Au contraire, des disciplines diverses traitant
+                du son, au sein des sciences et des humanités, ont commencé à s’ouvrir à d’autres
+                façons d’appréhender leurs objets. Pensez à la discipline traditionnelle de la
+                musicologie. Depuis la fin du dix-neuvième siècle jusqu’aux années 1980, les
+                départements de musicologie à l’université ressemblaient fortement aux études
+                littéraires, se préoccupant des partitions et interprétations philologiques –&#160;et
+                pourtant maintenant la discipline est de plus en plus tournée vers les questions de
+                performance, de transfert culturel et de technologie musicale. Réciproquement, les
+                praticiens actuels semblent bien moins enclins à s’engager dans la théorie de la
+                musique ou les <hi rend="italic">sound studies</hi>.</p>
+            <p rend="question" xml:id="d1e421">FR&#160;: Vous avez présenté un article à propos de
+                Ernst&#160;Mach, au workshop Betwixt and Between<note type="standard" xml:id="ftn2" place="foot" n="2">
+          <p> Conférence Betwixt and Between: Sound in the Humanities
+                        and Sciences les 15 et 16 février 2018 au Max Planck Institute for the
+                        History of Science, Berlin. Organisée par Viktoria Tkaczyk, Hansjakob Ziemer
+                        et Julia Kursell. <ref target="https://www.mpiwg-berlin.mpg.de/sites/default/files/2018-02/Betwixt%26Between%20Workshop%20booklet%20A5_online.pdf">https://www.mpiwg-berlin.mpg.de/sites/default/files/2018-02/Betwixt%26Between%20Workshop%20booklet%20A5_online.pdf</ref>
+          </p>
+        </note>,
+                et il me semble que l’un des points essentiels que vous avez montrés est que le son
+                était un outil de savoir. Cela semble être au cœur de votre propre recherche,
+                n’est-ce pas&#160;?</p>
+            <p rend="answer" xml:id="d1e433">VT&#160;: Dans mon travail sur le physicien Ernst&#160;Mach, je
+                retrace comment, à la fin du dix-neuvième siècle, le son est passé du statut d’objet
+                de recherche scientifique à celui d’outil de recherche. La recherche de Mach sur les
+                ondes de choc en est un exemple parlant. Il compare la vitesse des matières
+                explosives ou des projectiles à la vitesse du son dans un même milieu (l’air). Ces
+                mesures expérimentales ont conduit à ce que nous appelons aujourd’hui le nombre de
+                Mach. En aviation, le nombre de Mach représente le rapport entre la vitesse d’un
+                objet volant (<hi rend="italic">flow velocity</hi>) à la vitesse locale du son dans
+                le même milieu. Le nombre de Mach n’est donc pas une quantité absolue, mais un
+                chiffre sans dimension représentant le rapport entre deux quantités –&#160;d’un point de
+                vue épistémique, la vitesse du son devient une caractéristique relationnelle.
+                Comment Mach a-t-il abouti à cette fonctionnarisation épistémique du son&#160;? Cette
+                présentation fait partie d’un projet plus large que je mène sur les nouvelles
+                fonctions épistémiques du son autour de 1900. Je m’intéresse à la découverte du
+                cortex auditif dans le cerveau humain, dans la neuro-anatomie de la fin du
+                dix-neuvième siècle, et à la façon dont des disciplines issues tant de la
+                psychologie, la psycho-analyse, la phonétique et la linguistique, que de la
+                pédagogie du langage et de la musicologique, ou encore de la physique (par Mach,
+                mais d’autres également) se sont approprié ces travaux.</p>
+            <p rend="question" xml:id="d1e438">FR&#160;: Considérez-vous donc cela comme une étape
+                charnière&#160;?</p>
+            <p rend="answer" xml:id="d1e440">VT&#160;: Les historiens des sciences et de la technologie
+                ont souvent décrit la fin du dix-neuvième siècle comme une étape charnière, amorcée
+                par l’invention de nouveaux médias auditifs (Kittler, 1999), par de nouveaux travaux
+                sur la psychophysiologie de l’audition –&#160;(Alexandra, Hui 2012)&#160;– ou par toute une
+                nouvelle série de pratiques culturelles d’écoute, l’ensemble étant lié à l’invention
+                de nouveaux médias (Jonathan&#160;Sterne). J’aspire cependant à proposer une autre
+                perspective sur la période avoisinant 1900, en avançant que ce sont principalement
+                les recherches sur la cognition auditive qui ont facilité l’émergence de nouveaux
+                concepts pour «&#160;penser avec le son&#160;» au sein d’un éventail large de disciplines et
+                de domaines de l’art et de la communication.</p>
+            <p rend="question" xml:id="d1e442">FR&#160;: Les études de sciences (Science and Technology
+                Studies) se caractérisent par un intérêt et une abondante bibliographie sur les
+                façons de travailler dans les laboratoires de recherche. Suivez-vous cette
+                tradition&#160;?</p>
+            <p rend="answer" xml:id="d1e444">VT&#160;: La recherche n’a jamais commencé dans les
+                laboratoires. En ce qui me concerne, ainsi que pour beaucoup de mes collègues, nous
+                travaillons bel et bien sur les laboratoires de recherche et sur l’histoire des
+                expérimentations. Mais nous considérons cela comme un point d’arrivée, plutôt qu’un
+                point de départ, dans le but de montrer comment de tels laboratoires furent
+                élaborés, quelles conditions politiques ont permis leur émergence. Si nous portons
+                notre regard sur la recherche de laboratoire sur le son au cours du dix-neuvième
+                siècle, par exemple, nous pouvons remarquer que de nombreux instruments utilisés en
+                ces lieux étaient dérivés de la fabrication d’instruments de musique, et que même
+                l’expertise des physiciens ou des physiologistes découlait d’une formation musicale.
+                Nous envisageons donc le laboratoire comme une place transitoire, avec un dedans et
+                un dehors. Dans les années 1980 et 1990, les chercheurs en «&#160;études de laboratoire&#160;»
+                ont eu tendance à appréhender le laboratoire plutôt en tant que cadre expérimental
+                ou système expérimental, afin d’analyser ce système et ses dynamiques dans ses
+                moindres détails et sur une plus longue période. Actuellement, les chercheurs
+                s’intéressent de plus en plus aux conditions sociales du laboratoire, en lien avec
+                le passage des expérimentations aux tests standardisés, ou les mises en pratique
+                politiques de recherche scientifique, ou en ce qui concerne la disponibilité et la
+                durabilité des ressources utilisées dans les laboratoires, et ainsi de suite.</p>
+            <p rend="question" xml:id="d1e446">FR&#160;: Dans l’histoire de la reproduction du son, les
+                laboratoires industriels de Bell et Edison ont eu une importance considérable. Ils
+                ne fonctionnaient pourtant pas exactement à l’instar de laboratoires scientifiques
+                (Reich, 1985). Quel sens cela pourrait-il avoir pour l’acoustique&#160;?</p>
+            <p rend="answer" xml:id="d1e448">VT&#160;: Certains membres de notre groupe de recherche
+                travaillent en ce moment sur les laboratoires Bell et sur Edison. La chercheuse
+                invitée Alexandra&#160;Hui, par exemple, mène un projet fantastique sur l’histoire de la
+                musique d’ambiance dans l’entreprise de phonographes d’Edison. Il s’agit d’un cas
+                précurseur de laboratoire industriel de recherche sur la musique et d’utilisation de
+                la musique à des fins de manipulation psychologique.</p>
+            <p rend="question" xml:id="d1e450">FR&#160;: Je voudrais maintenant revenir à votre
+                présentation à propos de Mach, que nous avons déjà évoquée plus haut. Vous montriez
+                que Mach a utilisé une installation très compliquée pour ses expérimentations. En
+                vous écoutant, je me suis demandé&#160;: qui a construit cette installation&#160;? Qui étaient
+                les ouvriers, les ingénieurs&#160;? Comment a-t-elle été faite&#160;? Qu’en est-il du réseau
+                de personnes impliquées&#160;? Avez-vous également travaillé sur cela&#160;?</p>
+            <p rend="answer" xml:id="d1e452">VT&#160;: Au sujet de Mach, nous savons qu’il avait un
+                laboratoire plutôt bien équipé à l’institut de physique de Prague, avec des
+                fabricants d’instruments et plusieurs assistants scientifiques afin de l’aider dans
+                ses recherches. La plupart des recherches de Mach sur les ondes de choc sont le
+                fruit d’un travail collectif –&#160;à tel point qu’on pourrait questionner la paternité
+                de Mach. Au cours de la collaboration entre Mach et le physicien Peter&#160;Salcher, par
+                exemple, des lettres révèlent que ce fut Salcher, et non pas Mach, qui a réalisé de
+                longues séries d’expérimentations sur les ondes de choc, a amélioré les méthodes de
+                photographie sonore et a abouti à la découverte la plus significative au regard de
+                ce qui sera connu ultérieurement comme le «&#160;nombre de Mach&#160;». Les travaux de Mach et
+                de Salcher étaient financés par l’armée, l’industrie de guerre et les donateurs
+                privés.</p>
+            <p rend="question" xml:id="d1e454">FR&#160;: Quand les Beatles ont enregistré en studio dans
+                les années&#160;1960, le magnétophone était souvent en marche pendant les pauses. Les
+                archives sur les enregistrements des Beatles nous fournissent donc, non seulement
+                toutes leurs chansons, mais aussi leurs discussions, improvisations, erreurs,
+                expérimentations et prises alternatives. C’est incroyable et vraiment utile pour la
+                recherche (Lewisohn, 1990). Comment faire l’histoire du son avant le phonographe,
+                avant que l’on ne dispose d’enregistrements&#160;? Avez-vous trouvé de nouvelles
+                méthodologies&#160;?</p>
+            <p rend="answer" xml:id="d1e457">VT&#160;: Les recherches pionnières en son ont été
+                documentées via des protocoles, des rapports, des croquis visuels, des lois, des
+                journaux, des correspondances, etc. Mais l’enregistrement sonore a très certainement
+                modifié les méthodes universitaires. Les premières archives sonores scientifiques
+                sont apparues dans les années&#160;1890, bien qu’elles fussent alors peu nombreuses.
+                Beaucoup ont été détruites, ou les enregistrements restants s’avèrent difficiles à
+                comprendre. Et pour la période antérieure aux années&#160;1870, il n’y a, exception faite
+                des phonautogrames désormais reconstitués de Léon&#160;Scott de&#160;Martinville<note type="standard" xml:id="ftn3" place="foot" n="3">
+          <p> Sur la fabrication des
+                        phonautogrames de Léon Scott de&#160;Martinville, voir<ref target="http://www.firstsounds.org/">
+                    www.firstsounds.org.</ref>
+          </p>
+        </note>, aucun enregistrement sonore. Cependant,
+                les musicologues et les archéologues des médias nous ont transmis des techniques de
+                reconstruction des sons du passé –&#160;qu’il s’agisse de partitions, de l’utilisation
+                historique d’instruments ou de reconstructions historiques de salles de concert. Les
+                collègues de notre groupe de recherche travaillent également avec des
+                reconstructions d’expérimentations acoustiques.</p>
+            <p rend="question" xml:id="d1e468">FR&#160;: Comme Otto&#160;Sibum l’a fait avec les instruments
+                de Joule (Sibum, 1995)&#160;?</p>
+            <p rend="answer" xml:id="d1e470">VT&#160;: Roland&#160;Wittje (2016) élabore des reconstitutions
+                d’expérimentations acoustiques. Lorsqu’il était invité au sein de notre groupe de
+                recherche, il a reconstruit l’arc de chant et de parole de Theodor&#160;Simon, selon
+                l’usage qu’il en était fait à Göttingen. Avec Paolo&#160;Brenni à Florence, Wittje a
+                recréé exactement les installations de ce laboratoire qui permettaient de capter et
+                de reproduire des voix, de façon à saisir ce que les écrits seuls ne permettaient
+                    pas<note type="standard" xml:id="ftn4" place="foot" n="4">
+          <p> &#160;<ref target="https://acoustics.mpiwg-berlin.mpg.de/contributor-essays/speaking-and-singing-arc-sound-electricity-fin-de-siecle">https://acoustics.mpiwg-berlin.mpg.de/contributor-essays/speaking-and-singing-arc-sound-electricity-fin-de-siecle</ref>
+          </p>
+        </note>.C’est
+                seulement à l’issue de cette reconstitution qu’ils réalisèrent que Simon utilisait
+                certains outils qu’il ne mentionnait pas dans son expérimentation et ses réglages.
+                L’architecture acoustique est un autre objet intéressant de reconstruction
+                historique. Un collègue à la Technische Universität Berlin, Stefan&#160;Weinzierl, s’est
+                appuyé sur une simulation informatique pour reconstruire les salles de concert de
+                Beethoven, les théâtres de la Renaissance, ou plus récemment l’Agora d’Athènes. De
+                telles simulations s’appuient sur des mesures relevées sur les bâtiments préservés
+                ou issues de traités et de plans architecturaux. Il n’est probablement pas possible
+                de reproduire l’exact son de l’époque ou de savoir comment le son était perçu par
+                les auditeurs, mais les méthodes de reconstruction soulèvent de nouvelles
+                questions&#160;: quels matériaux étaient utilisés pour les bâtiments&#160;? Tous les sièges de
+                l’audience étaient-ils occupés&#160;? Les fenêtres étaient-elles ouvertes ou fermées&#160;?
+                Pour notre groupe de recherche, néanmoins, la méthode traditionnelle d’analyse de
+                discours reste importante. Nous ne nous intéressons pas uniquement aux sons que
+                produisaient certains objets historiques, mais aussi à la façon dont les acteurs
+                historiques considéraient ces sons et en parlaient, ou encore comment l’écoute était
+                étudiée et comment certaines technologies furent inventées et qui les utilisaient.
+                Quel type de manuels était produit, qui les a réutilisés et produits dans d’autres
+                contextes&#160;? Le spectrographe est l’un des exemples d’une technologie ayant parcouru
+                l’histoire de la bioacoustique du vingtième siècle, mais qui a aussi continué à être
+                utilisé et modifié par d’autres domaines de recherche.</p>
+            <p rend="question" xml:id="d1e481">FR&#160;: Tout cela nous ramène à la matérialité des
+                choses&#160;?</p>
+            <p rend="answer" xml:id="d1e483">VT&#160;: La «&#160;matérialité des choses&#160;» est extrêmement
+                pertinente pour l’histoire de l’acoustique. Deux ans auparavant, nous avions un
+                projet sur les archives sonores dans les sciences et les humanités<note type="standard" xml:id="ftn5" place="foot" n="5">
+          <p> Voir aussi Carolyn Birdsall
+                        et Viktoria Tkaczyk (dir.) (forthcoming 2019). “Listening to the Archive:
+                        Sound Data in the Humanities and Sciences”, numéro spécial de Technology and
+                        Culture.</p>
+        </note>, et notre projet actuel «&#160;Sound Objects in Flux&#160;»
+                s’attache à remonter à la source de la conception et de la réalisation, sur le long
+                terme et à grande échelle, d’objets particuliers tels que les cloches, les
+                instruments à cordes, les lampes (<hi rend="italic">vacuum tubes</hi>), les salles
+                de concert ou les voix intérieures (<hi rend="italic">inner voices</hi>). Nous
+                interrogeons la manière dont les formes et les matériaux de ces objets sont liés à
+                des cadres sociopolitiques et culturels, aux savoirs des professionnels et des
+                usagers profanes, ainsi qu’à l’expertise des scientifiques.</p>
+            <p rend="question" xml:id="d1e496">FR&#160;: Travaillez-vous sur la circulation des
+                connaissances à propos du son&#160;?</p>
+            <p rend="answer" xml:id="d1e498">VT&#160;: Cela joue un rôle important dans presque tous nos
+                projets. Notamment dans le projet postdoctoral de Fanny&#160;Gribenski sur la
+                standardisation du diapason –&#160;dont l’histoire débute par des négociations intenses
+                entre les musiciens et les scientifiques ou les chercheurs, mais qui devient par la
+                suite un problème dans la vie quotidienne&#160;: les standards conditionnent l’écoute du
+                son, sa perception, sa commercialisation, et la déclinaison des lois et des échanges
+                commerciaux. La question de la diffusion des savoirs liés au son est également
+                essentielle dans le travail de Joeri&#160;Bruyninckx sur l’histoire de la bioacoustique
+                (Bruyninckx, 2018), puisqu’il analyse comment les amateurs et les
+                semi-professionnels ont participé à l’élaboration de plusieurs découvertes
+                scientifiques relatives au chant des oiseaux. Ces ornithologues amateurs ont adopté
+                certaines approches scientifiques, mais les ont aussi développées, modifiées et,
+                parfois même, les ont réintroduites dans le champ universitaire. Le projet de
+                Xiaochang Li sur l’histoire de la reconnaissance automatique du discours en est un
+                autre exemple, qui se situe encore une fois dans le champ des sciences appliquées et
+                qui montre comment les ingénieurs ont endossé un rôle de linguiste.</p>
+            <p rend="question" xml:id="d1e500">FR&#160;: Vous connaissez l’interprétation de Foucault,
+                selon laquelle le savoir scientifique est disséminé dans la société et (per) forme
+                les individus de diverses manières&#160;: la subjectivation. À quoi cela renvoie-t-il si
+                on s’intéresse au son&#160;?</p>
+            <p rend="answer" xml:id="d1e502">VT&#160;: Il est important de souligner que la recherche
+                acoustique ne s’effectue pas exclusivement dans le domaine des sciences. L’intérêt
+                scientifique pour le son est plus large et comprend également les sciences sociales,
+                les sciences naturelles et les humanités. En outre, cela nous ramène également à
+                votre question concernant notre groupe de recherche. Je ne donnerai jamais la
+                priorité à la recherche scientifique, puisque l’origine d’un dispositif ne se trouve
+                pas uniquement dans la recherche scientifique, mais bien dans une combinaison de
+                pratiques culturelles, religieuses, artistiques et politiques, en lien avec des
+                conditions politiques, sociales et architecturales particulières –&#160;c’est tout cela
+                qui aboutit à du savoir scientifique. Nous pourrions ainsi examiner comment une
+                connaissance particulière devient importante, par exemple comment le «&#160;nombre de
+                Mach&#160;» fut défini, puis comment cela permit par la suite de réguler et de
+                standardiser l’aviation, mais évidemment, il s’agit toujours d’un processus très
+                long, qu’il est nécessaire de replacer dans différents contextes. La réponse à votre
+                question est donc qu’il n’existe jamais de paradigme en tant que tel ni de
+                dispositif en tant que tel. On ne peut plus affirmer qu’il existe des ruptures
+                nettes entre différents dispositifs, dans la mesure où nous pensons désormais
+                beaucoup plus en termes de modes de transition, de transformation et de
+                réutilisation selon des contextes particuliers. Notre groupe de travail «&#160;Sound
+                Objects in Transition&#160;» se trouve exactement dans cette lignée&#160;: même si un
+                instrument donné a, par exemple, plus de mille ans, il y a toujours quelque chose
+                qui le précède et qui a soutenu cette invention ou ce dispositif.</p>
+            <p rend="question" xml:id="d1e504">FR&#160;: C’est une bonne manière de conclure, merci&#160;!</p>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e510">
+                <listBibl xml:id="d1e512">
+                    <bibl xml:id="d1e514">&#160;&#160;</bibl>
+                    <bibl xml:id="d1e516">Bacon, F. (1627). <hi rend="italic">La Nouvelle
+                            Atlantide,</hi> Paris&#160;: Flammarion.</bibl>
+                    <bibl xml:id="d1e521">Birdsall, C. &amp; Tkaczyk, V. (dir.) (forthcoming 2019).
+                        Listening to the Archive: Sound Data in the Humanities and Sciences, numéro
+                        spécial de <hi rend="italic">Technology and Culture</hi>.</bibl>
+                    <bibl xml:id="d1e526">Bruyninckx, J. (2018). <hi rend="italic">Listening in the
+                            Field: Recording and the Science of Birdsong</hi>. Cambridge: MIT
+                        Press.</bibl>
+                    <bibl xml:id="d1e531">Darrigol, O. (2012). <hi rend="italic">A History of Optics
+                            from Greek Antiquity to the Nineteenth Century</hi>. Oxford: Oxford
+                        University Press.</bibl>
+                    <bibl xml:id="d1e536">Gouk, P. (1999). <hi rend="italic">Music, Science and
+                            Natural Magic in Seventeenth-Century England</hi>. Yale: Yale University
+                        Press.</bibl>
+                    <bibl xml:id="d1e541">Hui, A. (2012). <hi rend="italic">The Psychophysical Ear:
+                            Musical Experiments, Experimental Sounds, 1840–1910</hi>. Cambridge: The
+                        MIT Press.</bibl>
+                    <bibl xml:id="d1e546">Hui, A., Kursell J., &amp; Jackson, M.W. (ed.). (2013).
+                            <hi rend="italic">Music, Sound and the Laboratory from 1750 to 1980</hi>
+                        (Osiris, vol.&#160;1). Chicago: University of Chicago Press.</bibl>
+                    <bibl xml:id="d1e551">Jackson, M.W. (2008). <hi rend="italic">Harmonious Triads:
+                            Physicists, Musicians, and Instrument makers in Nineteenth-Century
+                            Germany</hi>. Cambridge: MIT Press.</bibl>
+                    <bibl xml:id="d1e556">Kittler, F. (1999). <hi rend="italic">Gramophone Film
+                            Typewriter</hi>. Palo Alto: Stanford University Press.</bibl>
+                    <bibl xml:id="d1e562">Kuhn, T. S. (1983). <hi rend="italic">La structure des
+                            révolutions scientifiques</hi>. (L. Meyer, Trad.). Paris&#160;; Genève&#160;:
+                        Champs Flammarion.</bibl>
+                    <bibl xml:id="d1e567">Leipp, É. (1984). <hi rend="italic">Acoustique et
+                            musique</hi>. Paris: Masson.</bibl>
+                    <bibl xml:id="d1e572">Lewisohn, M. (1990). <hi rend="italic">The Beatle:
+                            Recording Sessions</hi>. New York: Harmony Books.</bibl>
+                    <bibl xml:id="d1e577">Pinch, T., Bijsterveld K. (Ed.). (2012). <hi rend="italic">The Oxford Handbook of Sound Studies</hi>. Oxford: Oxford University
+                        Press.</bibl>
+                    <bibl xml:id="d1e582">Reich, L. S. (1985). <hi rend="italic">The Making of
+                            American Industrial Research, Science &amp; Business at GE and
+                        Bell</hi>. Cambridge University Press.</bibl>
+                    <bibl xml:id="d1e587">Sibum, O. (1995). Reworking the Mechanical Value of Heat:
+                        Instruments of Precision and Gestures of Accuracy in Early Victorian
+                        England. <hi rend="italic">Studies in History and Philosophy of
+                        Science</hi>, <hi rend="italic">26</hi>(1), 73–106.</bibl>
+                    <bibl xml:id="d1e595">Sterne, J. (2003). <hi rend="italic">The Audible Past:
+                            Cultural Origins of Sound Reproduction</hi>. Durham: Duke University
+                        Press.</bibl>
+                    <bibl xml:id="d1e600">Thompson, E. (2002). <hi rend="italic">The Soundscape of
+                            Modernity: Architectural Acoustics and the Culture of Listening in
+                            America, 1900–1933</hi>. Cambridge: MIT Press.</bibl>
+                    <bibl xml:id="d1e605">Wittje, R. (2016). <hi rend="italic">The Age of
+                            Electroacoustics: Transforming Science and Sound</hi>. Cambridge&#160;: MIT
+                        Press.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

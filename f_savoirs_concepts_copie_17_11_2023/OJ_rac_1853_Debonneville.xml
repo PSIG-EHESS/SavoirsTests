@@ -1,0 +1,1390 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_1853_Debonneville">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">(Re)connaissances anthropologiques du postcolonial</title>
+                <title type="sub">Circulations, résistances et institutionnalisations</title>
+                <title level="a" type="alt" xml:lang="en">Anthropology and postcolonial studies. Resistance, circulation and institutionalization in France</title>
+                <title level="a" type="alt" xml:lang="es">Antropología y postcolonial studies. Resistencia, circulación e institutionalización en Francia</title>
+                <author>
+                    <persName>
+                        <forename>Julien</forename>
+                        <surname>Debonneville</surname>
+                    </persName>
+                    <affiliation> Maître-assistant et postdoctorant à l’Institut des études genre de l’Université de Genève.Adresse&#160;: Université de Genève, Études genre, 40&#160;bd du Pont d’Arve, CH-1211 Genève&#160;4 (Suisse).Courriel&#160;: julien.debonneville[at]unige.ch </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>France</item>
+                        <item>anthropology</item>
+                        <item>institutionalization</item>
+                        <item>postcolonial studies</item>
+                        <item>international knowledge transfers</item>
+                        <item>United States of America</item>
+                        <item>resistance</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>France</item>
+                        <item>anthropologie</item>
+                        <item>circulation des connaissances</item>
+                        <item>postcolonial</item>
+                        <item>disciplinarisme</item>
+                        <item>études postcoloniales</item>
+                        <item>États-Unis</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>Francia</item>
+                        <item>antropología</item>
+                        <item>institucionalización</item>
+                        <item>Estados Unidos de América</item>
+                        <item>resistencia</item>
+                        <item>circulación de conocimiento</item>
+                        <item>poscolonial</item>
+                        <item>estudios poscoloniales</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">(Re)connaissances anthropologiques du postcolonial</titlePart>
+                    <titlePart type="sub">Circulations, résistances et institutionnalisations</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Julien Debonneville</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e259">
+                <p xml:id="d1e260">
+                    <hi xml:lang="fr">Cette contribution a pour objectif d’étudier la trajectoire des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> dans le champ académique de la France métropolitaine afin d’interroger le processus de circulation et d’institutionnalisation des savoirs. En montrant comment les études postcoloniales sont entrées depuis «&#160;les marges&#160;» dans le monde académique français, cet article pointe comment la structuration du monde académique français centrée sur les disciplines a participé à constituer un terreau propice aux résistances envers les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">. Ce texte révèle ainsi comment l’anthropologie sociale dominée par le structuralisme a constitué un frein majeur à l’essor des études postcoloniales en France. L’article pointe à ce titre le rôle des deux ruptures épistémologiques opérées par Lévi-Strauss avec la philosophie et l’anthropologie étatsunienne dans l’éclosion tardive des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> dans les sciences sociales françaises.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e278">
+                <p xml:id="d1e279">
+                    <hi xml:lang="en">This article analyzes the trajectory of Postcolonial Studies in the global academic world in order to question the process of international knowledge transfer and institutionalization. By showing how Postcolonial Studies have entered into the French academic field, this article points to the disciplines, such as Anthropology, which play a fundamental role in the resistance encountered by Postcolonial Studies in France. Moreover, this article underlines how Social Anthropology dominated by Structuralism was a major obstacle to the rise of Postcolonial Studies in France. It therefore highlights the role of two epistemological ruptures led by Lévi-Strauss, with Philosophy and American Anthropology, to explain the late emergence of Postcolonial Studies in the field of French Anthropology, and more broadly, in the Social Sciences.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e282">
+                <p xml:id="d1e283">
+                    <hi xml:lang="fr">Esta contribución tiene como objetivo estudiar la trayectoria de los&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> en el campo académico francés metropolitano con el fin de interrogar el proceso de circulación y de institucionalización de los saberes. Mostrando como los estudios postcoloniales entraron en el mundo académico francés por «las márgenes», este artículo revela como la estructuración del mundo académico francés alrededor de disciplinas participó a constituir un terreno fértil para las resistencias contra los&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">. Así, este texto muestra como la antropología social, dominada por el estructuralismo, constituyó un freno mayor a la subida de los estudios postcoloniales en Francia. Como tal, el articulo subraya el papel de las dos rupturas epistemológicas operadas por Lévi-Strauss con la filosofía y la antropología estadounidense en la eclosión tardía de los&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postclonoial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> en la ciencias sociales francesas.</hi>
+                </p>
+            </div>
+            <div type="ack" xml:id="d1e302">
+                <p xml:id="d1e303">
+                    <hi xml:lang="fr">Je suis reconnaissant à Saba Mahmood pour nos discussions sur l’histoire de l’anthropologie et pour avoir stimulé ma réflexion sur la problématique de cet article. Je remercie également le groupe de réflexion PostCit –&#160;«&#160;Penser la différence raciale et postcoloniale&#160;» et Iulia Hasdeu pour leurs conseils avisés, ainsi que Pablo Diaz pour son travail de relecture et son aide à la traduction en espagnol.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e310">
+                <head subtype="level1" xml:id="d1e311">Introduction</head>
+                <p xml:id="d1e313">
+                    <hi xml:lang="fr">Le 17&#160;mars&#160;2016, en marge de sa leçon inaugurale,&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Lettres noires&#160;: des ténèbres à la lumière</hi>
+          </hi>
+                    <hi xml:lang="fr">, suite à sa nomination à la Chaire de création artistique du Collège de France, l’écrivain Alain Mabanckou rappelait que «&#160;les études postcoloniales, africaines, sont des domaines encore considérés en France comme suspects&#160;»</hi>
+                    <note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> <ref target="http://afrique.lepoint.fr/culture/alain-mabanckou-l-afrique-des-lettres-entre-au-college-de-france-16-03-2016-2025845_2256.php">
+                <hi xml:lang="fr">http://afrique.lepoint.fr/culture/alain-mabanckou-l-afrique-des-lettres-entre-au-college-de-france-16-03-2016-2025845_2256.php</hi>
+              </ref>
+              <hi xml:lang="fr">, consulté le 26&#160;mai&#160;2016.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Si la présence d’Alain Mabanckou au Collège de France constitue une vitrine historique afin de prolonger l’héritage de la&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Négritude</hi>
+          </hi>
+                    <hi xml:lang="fr"> en France métropolitaine</hi>
+                    <note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> <hi xml:lang="fr">Il sera principalement question dans cet article de questionner la trajectoire des études postcoloniale dans l’espace de la France métropolitaine. En effet, la trajectoire de cette approche théorique dans les Antilles françaises tend à différer notamment en raison d’un héritage historique singulier.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, cette reconnaissance institutionnelle à l’égard de cet auteur majeur de la littérature africaine d’expression française intervient néanmoins dix ans après sa nomination comme professeur en&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">French and Francophone studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> à&#160;UCLA (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">University of California, Los Angeles</hi>
+          </hi>
+                    <hi xml:lang="fr">). La nomination de l’écrivain franco-congolais participe ainsi à l’institutionnalisation de ce qu’il est désormais devenu usage de nommer «&#160;les études postcoloniales&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">)</hi>
+                    <note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> <hi xml:lang="fr">Soulignons d’entrée que les&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">postcolonial studies</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;représentent un champ de recherche complexe, éclectique, loin d’être monolithique ou univoque (Zecchini &amp; Lorre, 2010, p.&#160;73), contrairement à la façon dont certains de ses détracteurs tentent les représenter. La circulation des théories entre les contextes géographiques et disciplinaires apparaît en effet comme l’une des sources d’homogénéisation et de cristallisation du savoir.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. L’institutionnalisation</hi>
+                    <note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> <hi xml:lang="fr">Par institutionnalisation, j’entends un processus de formalisation et de reconnaissance d’un savoir sur la scène académique à travers l’émergence de départements, de cursus académiques, de revues, de colloques et d’un champ de recherche consacrés à ce savoir. Ce processus passe également par l’identification et la revendication des acteur-trice-s à ce savoir.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">&#160;des études postcoloniales en France métropolitaine se caractérise néanmoins par sa temporalité relativement longue et des résistances à leur égard. En effet, depuis leur prémisse dans la veine des luttes politiques anticoloniales pour l’indépendance dans les années&#160;1950, leur éclosion dans le monde académique anglo-saxon dans les années&#160;1980, leur institutionnalisation la plus aboutie en&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> dans les années&#160;1990 dans les études littéraires et les sciences sociales aux États-Unis, et enfin leur internationalisation croissante jusqu’à aujourd’hui, les études postcoloniales ont été en proie aux critiques, aux controverses et aux résistances, en particulier en France.</hi>
+                </p>
+                <p xml:id="d1e387">
+                    <hi xml:lang="fr">Le présent article propose ainsi de se pencher sur la trajectoire des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;dans le champ académique de la France métropolitaine afin d’interroger le processus de circulation et d’institutionnalisation de cette approche théorique à la lumière des résistances émises à leur encontre. En questionnant la trajectoire de ces&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;en France en comparaison avec les États-Unis, nous tenterons de comprendre comment se manifeste la force normative associée à la production des savoirs disciplinaires à l’échelle nationale en analysant également la constitution des frontières disciplinaires académiques&#160;et l’institutionnalisation de communautés liées (Mullins, 1972), mais surtout les luttes, les compétitions et les résistances qui en découlent. Cette focalisation sur les résistances disciplinaires telles que celles manifestées par l’anthropologie, qui dans le cas des études postcoloniales apparaissent comme particulièrement tenaces, sera ainsi au premier plan. En étudiant la trajectoire des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> dans l’espace académique français, nous verrons dès lors comment le champ du savoir académique en France s’est construit sur une structuration disciplinaire relativement étanche aux&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi rend="italic">
+            <note type="standard" xml:id="ftn5" place="foot" n="5">
+              <p> <hi xml:lang="fr">Voir par exemple dans le cas de l’histoire et des études genre&#160;: Gardey&#160;D. (2013). L’histoire, les féministes &amp; others’ studies, in Granger&#160;C.,&#160;</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">À quoi pensent les historiens&#160;?</hi>
+                </hi>
+                <hi xml:lang="fr">, Paris&#160;: Autrement, 209-224.</hi>
+              </p>
+            </note>
+          </hi>
+                    <hi xml:lang="fr">. Cette analyse de la circulation des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> permettra en ce sens de saisir ce que font les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> aux disciplines, et inversement, ce que font les disciplines aux&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr">. En mettant en perspective des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, c’est-à-dire des approches inter/transdisciplinaires construites à partir d’«&#160;objets&#160;» d’étude, et des disciplines, pensées ici comme un ensemble de connaissances relativement hermétiques qui se définissent à partir d’une tradition de recherche et une méthodologie singulière, nous verrons comment ces modes de production de la connaissance se structurent dans un rapport de hiérarchisation dans lequel les disciplines occupent une place dominante dans le champ académique dans le cas français. C’est ce rapport de distinction, et sa portée normative, qui prend pour référent les disciplines, que je nommerai ici le&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">disciplinarisme</hi>
+          </hi>
+                    <hi xml:lang="fr"> et qui sera illustré à travers le rapport entre les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> et l’anthropologie.</hi>
+                </p>
+                <p xml:id="d1e453">
+                    <hi xml:lang="fr">Pour ce faire, cet article s’inspire de la littérature sur les études sociales des sciences qui a documenté l’historicité des «&#160;vérités&#160;» et des paradigmes scientifiques (Kuhn, 1983&#160;; Pestre, 2006, 2013&#160;; Raj, 2007). Cette littérature a en effet contribué à faire émerger la «&#160;science [comme] un&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">objet historique</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» «&#160;chargé “idéologiquement“&#160;» afin d’&#160;«&#160;analyser, comprendre et penser les sciences et les pratiques de science&#160;» (Pestre, 2013, p.&#160;10). À travers l’étude des controverses épistémologiques, la portée normative d’objets nouveaux, ou encore les dynamiques variées qui font se mouvoir les sciences, les études sociales des sciences proposent notamment un décentrement du regard pour analyser l’émergence de savoirs dits «&#160;hétérodoxes&#160;» (Pestre, 2013, p.&#160;12). D’un point de vue méthodologique, cet article propose une histoire des idées en s’appuyant sur la littérature académique, mais également sur l’étude des textes, des concepts, du positionnement des acteur-e-s, de leurs croyances, et de leur travail de distanciation vis-à-vis d’autres formes de savoirs. Plus concrètement, cet article se penchera dans un premier temps sur la définition des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> ainsi que leur institutionnalisation dans le monde académique étatsunien où son rayonnement est le plus important. Dans un second temps, nous nous pencherons sur la trajectoire des études postcoloniales et leur place actuelle dans le monde francophone où le processus d’institutionnalisation sur la scène académique se caractérise par des résistances. Finalement, la dernière section de cet article reviendra plus en détails sur les résistances à l’égard des études&#160;postcoloniales afin de pointer le rôle joué par les disciplines et le disciplinarisme en France métropolitaine, tout en mettant en perspective le monde anglo-saxon plus enclin aux&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;d’un point de vue institutionnel. Il s’agira ici de mettre en perspective l’anthropologie interprétative étatsunienne et l’anthropologie structuraliste française afin de comprendre comment la première a constitué un terreau fertile dans l’institutionnalisation des études postcoloniales aux États-Unis, et la seconde, à l’inverse, un terreau des résistances majeures à l’égard de ces&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr">.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e476">
+                <head subtype="level1" xml:id="d1e477">De la genèse à la labellisation&#160;: retour sur la trajectoire institutionnelle des «&#160;<hi rend="italic">postcolonial studies</hi>&#160;»</head>
+                <p xml:id="d1e482">
+                    <hi xml:lang="fr">Bien que ce courant de pensée ne se laisse que difficilement résumer du fait qu’il se nourrit d’une «&#160;pensée de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">enchevêtrement</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» (Mbembe, 2006, p.&#160;119), les définitions convergent toutefois vers le fait que les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> proposent un décentrement par rapport à une conception de la «&#160;modernité politique&#160;» européocentrée et à ce que la colonisation a produit de son temps et après. L’élaboration théorique des études postcoloniales repose ainsi sur l’idée que les ramifications du&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">moment colonial</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;dépassent la temporalité de la colonisation tant dans ses formes économiques, politiques, sociales, que culturelles. Il s’agit pour ces dernières de décrypter les ressorts de la construction de l’altérité et ses implications politiques aujourd’hui depuis l’expérience de la domination coloniale.</hi>
+                </p>
+                <p xml:id="d1e500">
+                    <hi xml:lang="fr">La labellisation «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» n’a toutefois pas accompagné immédiatement les premiers écrits associés à ce courant. Ce n’est qu’en 1989, avec la publication de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Empire Writes Back</hi>
+          </hi>
+                    <hi xml:lang="fr"> par Bill Ashcroft, Gareth Griffiths et Helen Tiffin, trois chercheur-e-s australien-ne-s, que sont baptisés «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;». Cette labélisation constitue toutefois une invention du monde «&#160;occidental&#160;» (Spivak, 2000, p.&#160;xv). Il apparaît par ailleurs réducteur et anachronique de résumer la naissance de ce courant à cette œuvre. Il importe en effet d’inscrire la genèse de ce projet théorique dans une temporalité plus lointaine et diffuse, mais également dans un registre plus politique. Pour Achille Mbembe, «&#160;le moment inaugural [des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">] est celui des luttes anticoloniales&#160;» (2006, p.&#160;123). Ces études ont donc la particularité de s’être développées au gré des luttes politiques, cultivant ainsi un rapport étroit avec des savoirs transdisciplinaires à l’instar des études de genre. Les années&#160;1980-1990 vont néanmoins constituer un tournant historique majeur dans l’essor et le processus d’institutionnalisation des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> dans le monde anglophone (Sibeud, 2004). C’est à ce moment qu’elles «&#160;prennent leur essor&#160;institutionnel pour devenir un point nodal des recherches en sciences humaines au cours des années 1990&#160;» (Hargreaves, 2007, pp.&#160;24-25). Cet avènement coïncide également avec une transformation plus large du monde académique étatsunien avec le début de l’institutionnalisation de champs de recherche telle que&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">gender, feminist, African American, ethnic</hi>
+          </hi>
+                    <hi xml:lang="fr">, et </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">gay studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> qui ont tous la particularité de critiquer les effets de pouvoir du savoir (Parry, 2004, pp.&#160;67-68). Plus spécifiquement, les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> sont nées «&#160;de la rencontre, aux États-Unis, entre le poststructuralisme français et certaines grandes figures intellectuelles francophones de la lutte anticoloniale comme Aimé Césaire, Albert Memmi et Frantz Fanon&#160;» (Zecchini &amp; Lorre, 2010, p.&#160;69). Elles prennent tout d’abord racine dans les départements étatsuniens d’études littéraires (qui abritent de nombreuses hétérodoxies), puis dans les sciences humaines et sociales. La complexitié des influences et des ramifications des études postcoloniales transcendent les discplines académiques, mais également les aires géographiques. À ce titre, le courant des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cultural studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> nées en Angleterre dans les années&#160;1960 a particulièrement infuencé les études postcoloniales. En effet, les réflexions sur l’identité, ainsi que certains auteur-e-s comme Stuart Hall ont été mobilisés des deux côtés de l’Atlantique, tout en faisant également l’objet d’importantes résistances en France (Van&#160;Damme, 2004&#160;; Glevarec&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">et al.</hi>
+          </hi>
+                    <hi xml:lang="fr">, 2013).</hi>
+                </p>
+                <p xml:id="d1e554">
+                    <hi xml:lang="fr">Bien que le rayonnement des études postcoloniales soit aujourd’hui mondial, c’est donc aux États-Unis qu’elles ont connu le plus d’émulation et qu’on les retrouve sous leur forme la plus institutionnalisée au point d’être devenue «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">a major intellectual trend in the humanities</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» (Go, 2012, p.&#160;25). Les possibilités institutionnelles des études postcoloniales aux États-Unis peuvent s’expliquer au regard de deux types de facteurs&#160;: académique et politique. Sur le plan académique, Laurent Dubreuil évoque tout d’abord «&#160;la possibilité de pouvoir créer des programmes transversaux par rapport aux départements (généralement disciplinaires)&#160;», «&#160;la nécessité de renouvellements périodiques dans les méthodes&#160;» et «&#160;l’importance accordée par les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">humanités</hi>
+          </hi>
+                    <hi xml:lang="fr"> à&#160;la&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">theory</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» (2006, p.&#160;47). On notera également l’existence des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Area studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, en particulier les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Latin American studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;/&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Chicana/o and Latina/o Studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, incluant de nombreux universitaires des régions en question, qui ont bien souvent favorisé la réception de cette approche. Sur le plan politique, on constate principalement une articulation «&#160;entre lutte des minorités et facultés depuis les années 1960&#160;» (Dubreuil, 2006, p.&#160;47). Finalement, un autre facteur politique souvent mobilisé afin d’expliquer l’émergence des études postcoloniales aux États-Unis est le discours sur «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">the American exceptionalism</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» (l’exceptionnalisme américain) (Schwarz, 2000, p.&#160;9). Cette expression évoque le fait que les États-Unis se sont construits dans un souci de distinction avec les pratiques coloniales européennes, que ce soit politiquement mais également à travers la visibilisation de certaines thématiques de recherche (Schwarz, 2000, p.&#160;11). L’ouverture académique sur cette thématique avait ainsi pour fonction d’asseoir ce discours politique d’&#160;«&#160;extériorité&#160;» des États-Unis au projet colonial. Lorsque l’on analyse cette visibilité des études postcoloniales, on constate qu’elle fut particulièrement forte dans un premier temps au sein des études littéraires et de l’anthropologie&#160;(Collignon, 2007). Il n’est pas étonnant de voir que dans les années 1980 ce sont des chercheur-e-s des études littéraires tels qu’Edward Saïd, Gayatri Chakravorty Spivak ou Homi Bhabha qui vont poursuivre la critique de colonisation. À titre illustratif, le premier numéro de la revue&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">African Literature Today</hi>
+          </hi>
+                    <hi xml:lang="fr">, créé par Eldred et Marjorie Jones en 1968, traitait déjà de cette problématique (Lazarus, 2004). Du côté de l’anthropologie, lors des années&#160;1970-1990, des auteur-e-s comme Talal Asad, Clifford Geertz, James Clifford et George Marcus ou encore Arjun Appadurai ont participé à problématiser de près ou de loin l’héritage colonial dans la pratique même de l’enquête anthropologique, sans toujours revendiquer explicitement une affiliation aux&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">. La question coloniale a ainsi progressivement été étudiée dans l’anthropologie étatsunienne au point d’être devenue une problématique transversale de la discipline. Les études littéraires et l’anthropologie ont donc, chacune à leur façon, joué un rôle déterminant dans la visibilisation de l’approche postcoloniale et son institutionnalisation. Il est toutefois important de rappeler que si les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> ont eu dans les années&#160;1980-1990 une forte résonance dans la littérature anglophone, puis dans l’ensemble des sciences humaines et sociales anglo-saxonnes, leur émergence a suscité (et suscite encore) certaines résistances, notamment en sociologie (Go, 2012).</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e608">
+                <head subtype="level1" xml:id="d1e609">Les prémisses des&#160;<hi rend="italic">postcolonial studies</hi>&#160;en France&#160;: une entrée depuis «&#160;les marges&#160;»</head>
+                <p xml:id="d1e614">
+                    <hi xml:lang="fr">Les années&#160;2005-2010 voient émerger à large échelle les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;en France. Que ce soit à travers des journées d’étude, des ouvrages collectifs ou des numéros de revues</hi>
+                    <note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> <hi xml:lang="fr">Voir notamment les numéros de revue&#160;: «&#160;La question postcoloniale&#160;»,&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Hérodote</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;(2006)&#160;; «&#160;Faut-il être postcolonial&#160;?&#160;»,&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Labyrinthe. Atelier interdisciplinaire</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;(2006)&#160;; «&#160;Pour comprendre la pensée postcoloniale&#160;»,&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Esprit</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;(2006)&#160;; «&#160;Sexisme, racisme et postcolonialisme&#160;»,&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Nouvelles Questions Féministes</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;(2006)&#160;; «&#160;Féminismes décoloniaux, genre et développement&#160;»,&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Revue Tiers Monde</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;(2012)&#160;; «&#160;Intellectuels en diaspora et théories nomades&#160;»,&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">L’Homme</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;(2000)&#160;; «&#160;Genre et perspectives postcoloniales&#160;»,&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Les Cahiers du CDREF</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;(2010)&#160;; Bancel&#160;N., Blanchard&#160;P., Lemaire&#160;S. (2005).&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">La fracture coloniale. La société française au prisme de l’héritage colonial</hi>
+              </hi>
+              <hi xml:lang="fr">. Paris&#160;: La Découverte.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, les travaux s’inscrivant dans la veine des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> prolifèrent dans le champ académique français. C’est également à cette période que les ouvrages anglophones de référence majeurs du champ sont traduits en français plus de quinze ans après leur première édition anglaise</hi>
+                    <note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p> <hi xml:lang="fr">Voir par exemple les ouvrages et articles d’Homi Bhabha ([1994] 2007).&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Les lieux de la culture. Une théorie postcoloniale</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;; de Gayatri Chakravorty Spivak ([1988] 2006).&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Les subalternes peuvent-elles parler&#160;;</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;ou encore de Paul Gilroy ([1993] 2010).&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">L’Atlantique noir. Modernité et double conscience</hi>
+              </hi>
+              <hi xml:lang="fr">.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Cette prolifération apparaît comme «&#160;une indigénisation des études postcoloniales en France&#160;» (Hargreaves, 2007, p.&#160;31). La question&#160;postcoloniale et la critique de la «&#160;race&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Critical race theory</hi>
+          </hi>
+                    <hi xml:lang="fr">) arrivent ainsi sur le devant de la scène académique française par le travail de traduction des textes classiques (à défaut d’une restructuration institutionnelle ou de la création de départements), mais également par certains ouvrages produits par des chercheur-e-s à la croisée de la scène académique anglo-saxonne et francophone. Parmi les ouvrages les plus retentissants, on notera celui d’Elsa Dorlin en philosophie (2006), de Didier Fassin et Éric Fassin (2006) en sociologie, ou encore de Pascal Blanchard, Nicolas Bancel et Sandrine Lemaire (2005) en histoire. La question du «&#160;postcolonial&#160;» n’est toutefois pas nouvelle en France. Il serait erroné d’avancer que le monde académique français a découvert la question «&#160;postcoloniale&#160;» dans les années&#160;2000. Cette problématique était, comme nous l’avons vu, déjà présente dans les années&#160;1950 à travers les écrits d’auteur-e-s comme Frantz Fanon ou Aimé Césaire, pour ne citer que les plus reconnus. Toutefois, la particularité de l’élaboration des études postcoloniales au 21</hi>
+                    <hi rend="sup">
+            <hi xml:lang="fr">e</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;siècle résulte de l’intensification d’échanges intellectuels entre la France et les États-Unis sous la forme d’un «&#160;mouvement d’aller-retour&#160;»</hi>
+                    <note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> <hi xml:lang="fr">Rappelons cependant que, bien que la France et les États-Unis aient été des terreaux fertiles pour l’élaboration directe ou indirecte de ces approches postcoloniales, il serait réducteur d’associer la parentalité de cette pensée à ce «&#160;balancier&#160;» transatlantique, alors que ces approches se sont également développées par l’intermédiaire des luttes politiques pour l’indépendance en Afrique, en Asie et en Amérique latine (Zecchini &amp; Lorre, 2010, p.&#160;67).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, marqué de «&#160;continuités&#160;» et d’&#160;«&#160;enchevêtrements&#160;» (Zecchini &amp; Lorre, 2010). Dans un premier temps, il y a eu, lors des années 1980-1990, l’exportation d’une pensée poststructuraliste élaborée en France, par la suite labélisée comme «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">French theory</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» aux États-Unis (Zecchini &amp; Lorre, 2010, p.&#160;67), puis dans un second temps, on observe depuis les années 2000 à un «&#160;rapatriement hexagonal&#160;» de cette&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">French theory</hi>
+          </hi>
+                    <hi xml:lang="fr">, après sa «&#160;germination théorique&#160;» américaine, sous l’appellation de «&#160;théorie postcoloniale&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">ibid.</hi>
+          </hi>
+                    <hi xml:lang="fr">). Les études postcoloniales se sont ainsi développées par l’intermédiaire de figures isolées, de niches académiques (Cohen </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al</hi>
+          </hi>
+                    <hi xml:lang="fr">., 2007, p.&#160;8). Ce qui qualifie le plus l’émergence des études postcoloniales en France, c’est donc le fait de s’être introduit dans le champ de la connaissance depuis «&#160;les marges&#160;» des sciences sociales (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">ibid.</hi>
+          </hi>
+                    <hi xml:lang="fr">), c’est-à-dire depuis d’autres&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;telles que les études de genre ou les études de développement. L’autre caractéristique majeure est le «&#160;retard significatif&#160;» des «&#160;sciences sociales et historiques françaises [qui] ont fini par aborder de nouveaux territoires, élaborer de nouvelles problématiques, et en fin de compte s’intéresser au vaste chantier des “</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">” et des “</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">subaltern studies</hi>
+          </hi>
+                    <hi xml:lang="fr">” ouvert depuis bientôt trente ans dans le monde anglophone&#160;» (Cohen </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al</hi>
+          </hi>
+                    <hi xml:lang="fr">., 2007, p.&#160;8). Cette lente émergence française révèle ainsi comment ces&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> font face, «&#160;dans les milieux universitaires, [à] des résistances ouvertes et quelques tentatives de réappropriation en vue de leur neutralisation&#160;» (Cohen &amp; Basto, 2008, p.&#160;79). Des résistances à l’égard des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> qui ont probablement trouvé leur paroxysme aux débuts des années&#160;2010 avec l’organisation de colloques et de publications aux États-Unis sur la question des&#160;résistances françaises aux études postcoloniales</hi>
+                    <note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> <hi xml:lang="fr">Zecchini et Lorre rappellent que «&#160;la manière dont la France négocie la «&#160;question postcoloniale&#160;» suscite un intérêt croissant outre-Atlantique, comme l’illustre le colloque organisé par&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Columbia University</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;en mars&#160;2010 «&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Thinking the Postcolonial in French: History, Politics, Literature</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;» (2010, p.&#160;81).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">&#160;et qui amènent certain-e-s chercheur-e-s à avancer que «&#160;les “études postcoloniales”, ayant pour cadre la France et son (ex)-empire colonial, sont plus développées dans le monde anglophone que dans l’hexagone&#160;» (Cohen &amp; Basto, 2008, p.&#160;78).</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e793">
+                <head subtype="level1" xml:id="d1e794">Résistances académiques en France&#160;: une entrée par les disciplines</head>
+                <p xml:id="d1e796">
+                    <hi xml:lang="fr">«&#160;Alors, qui a peur du postcolonial&#160;?&#160;» demande Jim Cohen (et al.) (2007, p.&#160;12). En guise de préambule, il est nécessaire de rappeler qu’il n’existe pas «&#160;d’ennemi principal à dénoncer, sinon l’impensé colonial qui ronge la société française et les hiérarchies sociales dont il assure la pérennité dans une “continuité discontinue”&#160;» (Cohen&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">et al.</hi>
+          </hi>
+                    <hi xml:lang="fr">, 2007, p.&#160;12), notamment dans les sphères politiques, médiatiques ou académiques, dont les intérêts sont parfois antinomiques (Cohen&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">et&#160;al</hi>
+          </hi>
+                    <hi xml:lang="fr">., 2007, p.&#160;9). Si les résistances françaises à l’égard des études postcoloniales ont déjà fait l’objet de nombreuses analyses, peu d’entre elles ont néanmoins problématisé ces résistances au prisme des rapports de force entre&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> et disciplines. Afin de comprendre la trajectoire particulière des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> et la circulation de cette approche vers le monde francophone, j’aimerais déplacer la focale sur les enjeux épistémologiques liés à la circulation des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> dans un monde académique français dont l’une des particularités est d’être fortement structuré autour des disciplines, au point que certain-e-s auteur-e-s parlent de «&#160;disciplinarisme nationaliste français&#160;» (Bourcier, 2007). Les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> et les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies </hi>
+          </hi>
+                    <hi xml:lang="fr">dans leur ensemble ont en effet la particularité de provoquer un «&#160;brouillage disciplinaire&#160;». Un brouillage qui, comme dans le cas des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, fait surgir d’importantes résistances au moment de leur importation dans le contexte francophone (Zecchini &amp; Lorre, 2010, p.&#160;75). Pour comprendre cette tension, il est donc nécessaire de revenir sur le rôle de tremplin (ou non) joué par les disciplines dans la circulation des idées et des théories, et plus largement dans l’essor de ces&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr">.</hi>
+                </p>
+                <p xml:id="d1e845">
+                    <hi xml:lang="fr">Si la&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">French theory</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;et les études postcoloniales ont été élaborées aux États-Unis dans les départements de littérature comparée –&#160;qui abritent bien souvent les hétérodoxies de la connaissance</hi>
+                    <note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> <hi xml:lang="fr">On peut citer par exemple l’éminente philosophe Judith Butler, reconnue notamment pour ses travaux sur le féminisme et la théorie&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">queer</hi>
+              </hi>
+              <hi xml:lang="fr">, qui occupe la chaire Maxine Elliot dans le département de littérature comparée de l’Université de Californie à Berkeley.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">&#160;– avant de prendre leur essor dans les sciences sociales à travers l’anthropologie, «&#160;la théorie postcoloniale&#160;» est principalement rentrée en France par l’intermédiaire des sciences sociales et politiques, de l’histoire et de l’anthropologie (Zecchini &amp; Lorre, 2010, p.&#160;68).&#160;Les départements de littérature n’ont en effet pas été enclins à ouvrir leurs portes à ces théories, en raison notamment du fait que «&#160;l’enseignement de la littérature se montre particulièrement résistant à l’érosion de ce que Gérard Noiriel a appelé dans un autre contexte “la tyrannie du national”&#160;» (Hargreaves, 2007, p.&#160;27). La «&#160;réception&#160;» des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> en&#160;France s’est faite dans certaines niches (souvent marginales) en sciences sociales, où des thèmes proches, voire similaires, étaient déjà abordés, tels que la question de l’ethnicité en anthropologie ou du rôle des femmes pendant la colonisation en histoire, ce qui n’a pas été sans éveiller certaines résistances. Pour le reste, elles ont souvent suscité des résistances et des mises à distance qui se sont manifestées par un renforcement des frontières disciplinaires et des formes de disqualification des savoirs. Dans le cas de leur réception dans le champ de l’anthropologie en France, les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> ont ainsi été perçues par les franges les plus radicales de la critique des études postcoloniales comme un «&#160;carnaval académique&#160;» (Bayart, 2010, p.&#160;66), qualifié d’&#160;«&#160;idéologique&#160;» (Amselle, 2008), issues de «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">jetsetters</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» (Deliège, 2007), influencées par des philosophes «&#160;européocentristes&#160;» « tous stores baissés&#160;» (Amselle, 2008</hi>
+                    <note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> <hi xml:lang="fr">À noter que l’anthropologue Jean-Loup Amselle, à la fois proche et très critique à l’égard des approches postcoloniales, fut «&#160;un temps admiratif du structuralisme de Lévi-Strauss, dont il souligne que&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Les Structures élémentaires de la parenté</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;ou&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Anthropologie structurale</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;pouvaient se lire avec enthousiasme&#160;», avant de se tourner vers les écrits de Georges Balandier (Smith, 2006, p.&#160;196).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">). Si la critique en France a porté sur des questions d’ordre méthodologique, épistémologique, théorique, et politique, elle a également pris une tournure particulièrement acerbe, en s’attachant à l’identité des chercheur-e-s associé-e-s à ce courant. Ces critiques en viennent ainsi à associer ces auteur-e-s à un «&#160;groupe relativement restreint d’écrivains et de penseurs de style occidental et formés à l’occidentale, qui servent d’intermédiaires dans le négoce des produits culturels du capitalisme mondial avec la périphérie&#160;» (Bayart, 2010, p.&#160;7). Par ailleurs, l’un des propos dominants de cette mise à distance réfère à l’idée de «&#160;déjà vu&#160;» ou, pour reprendre les termes de Bayart&#160;: «&#160;On a déjà donné&#160;!&#160;» (2010, p.&#160;20). En effet, avec l’arrivée des études postcoloniales, c’est bien toute une génération de chercheur-e-s, notamment d’africanistes ayant travaillé sur l’ethnicité et l’altérité, qui voit ses travaux directement mis en concurrence et questionnés.</hi>
+                </p>
+                <p xml:id="d1e900">
+                    <hi xml:lang="fr">Lorsque l’on analyse le cheminement disciplinaire de ces&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, on saisit dès lors pourquoi l’essence des tensions réside dans ce processus d’importation des études postcoloniales en France qui a impliqué «&#160;un procédé inversement symétrique de dé-littérarisation (ou d’éloignement du littéraire) des théories postcoloniales, qui continue à susciter malentendus et méprise&#160;» (Zecchini &amp; Lorre, 2010, p.&#160;68). Il s’agit en effet d’un «&#160;glissement qui s’opère entre territoires disciplinaires&#160;» (Zecchini &amp; Lorre 2010, pp.&#160;67-68). Ce malentendu autour de l’appartenance disciplinaire, portée par une inscription transdisciplinaire croissante, a dès lors généré des «&#160;réactions corporatistes&#160;» dans les sciences sociales françaises du fait que les différentes disciplines comme l’histoire, l’anthropologie ou la sociologie ont été mises dans une position de soupçon pour&#160;la raison de ne pas avoir problématisé la question coloniale (Zecchini &amp; Lorre, 2010, p.&#160;73). À cela, il faut ajouter un certain «&#160;conservatisme des institutions de l’enseignement supérieur et de la recherche&#160;» (Hargreaves, 2007, p.&#160;27). Hargreaves précise en effet qu’en France «&#160;le découpage administratif des études supérieures se prête moins bien à des initiatives pluridisciplinaires&#160;» (2007, p.&#160;27) et encore moins inter/transdisciplinaires. En ce sens, les études postcoloniales ont fait (et font) face à des formes marquées de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">disciplinarisme</hi>
+          </hi>
+                    <hi xml:lang="fr"> dans le contexte académique français comme nous allons le voir dans la prochaine section.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e913">
+                <head subtype="level1" xml:id="d1e914">L’anthropologie structuraliste comme terreau des résistances aux&#160;<hi rend="italic">postcolonial studies</hi>
+        </head>
+                <p xml:id="d1e918">
+                    <hi xml:lang="fr">Je vais maintenant évoquer les enjeux autour des cultures épistémiques propres à la discipline de l’anthropologie qui, comme nous l’avons vu, a joué un rôle déterminant dans l’essor des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> aux États-Unis et, à l’inverse, fut l’un des canaux de (non-)circulation des études postcoloniales en France, et un terreau propice aux résistances envers les&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">. Pour ce faire, il incombe de revenir sur la relation asymétrique entre l’anthropologie étatsunienne et l’anthropologie française à l’égard des études postcoloniales</hi>
+                    <note type="standard" xml:id="ftn12" place="foot" n="12">
+            <p> <hi xml:lang="fr">Il est important de rappeler que tant l’anthropologie étatsunienne que l’anthropologie française ne doivent pas être pensées comme des blocs monolithiques. Qu’une approche théorique puisse dominer une discipline, cela ne signifie pas pour autant que cette dernière ne soit pas habitée par des débats et que plusieurs approches puissent cohabiter en son sein, comme l’illustrent les écrits de l’anthropologue Georges Balandier sur la&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">situation coloniale</hi>
+              </hi>
+              <hi xml:lang="fr">.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Une relation asymétrique, mais également complexe et ambiguë, qui résulte en premier lieu des liens tissés entre ces deux écoles anthropologiques et la philosophie (Abélès, 2008, p.&#160;106). L’une des scissions majeures qui ont distingué l’anthropologie sociale française et l’anthropologie culturelle (puis interprétative) étatsunienne est étroitement liée à ce rapport à la philosophie. D’un côté, l’anthropologie sociale britannique (avec Edward Evans-Pritchard et Meyer Fortes), puis française (sous l’influence de Lévi-Strauss), se sont très tôt distancées de la philosophie, au point de cultiver une véritable «&#160;méfiance&#160;» à l’égard de la philosophie (Abélès, 2008, p.&#160;105). Pendant que l’anthropologie française poursuivait son renouveau dans les années&#160;1950-1960 dans un rapport de mise à distance de la philosophie, l’anthropologie étatsunienne prenait d’autres chemins. Cette dernière a en effet amorcé un tournant radical vers la philosophie, notamment vers l’École de Francfort et le poststructuralisme (notamment les écrits de Jacques Derrida et Michel Foucault) dans les années&#160;1980 (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">ibid.</hi>
+          </hi>
+                    <hi xml:lang="fr">). Abélès va même plus loin en pointant la construction d’une «&#160;relation référentielle&#160;» entre l’anthropologie étatsunienne et la philosophie&#160;poststructuraliste venue d’Europe (2008, p.&#160;112). Une relation encore visible aujourd’hui dans les écrits anthropologiques étatsuniens, et qui s’est étendue progressivement aux sciences sociales. Cette relation s’inscrit dans la continuité d’une remise en question profonde amorcée dans les années&#160;1970 qui fut alimentée par une volonté de rupture avec les travaux précédents. Cette critique émerge dans un contexte bien spécifique, celui de l’instrumentalisation de l’anthropologie à des fins militaires dans le cadre de la guerre du Vietnam, menant ainsi à une critique des notions d’objectivité et des critères de scientificité de la discipline (Abélès, 2008, p.&#160;110). On peut ainsi retenir deux moments distincts qui vont amorcer ce tournant paradigmatique vers la philosophie (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">ibid.</hi>
+          </hi>
+                    <hi xml:lang="fr">). D’une part, les débats autour du thème «&#160;anthropologie et impérialisme&#160;» au sein de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">American Anthropological Association</hi>
+          </hi>
+                    <hi xml:lang="fr">, et d’autre part, ce que l’on nomme aujourd’hui le&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">tournant réflexif</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;de l’anthropologie étatsunienne dans la veine des travaux de James Clifford et George Marcus (1986), Clifford Geertz (1988) et surtout de Talal Asad (1973). Ce tournant réflexif a dans le même temps impliqué une reconceptualisation des notions de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">savoir</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;et de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">pouvoir</hi>
+          </hi>
+                    <hi xml:lang="fr">. La réflexivité sur la production de la connaissance anthropologique s’est dès lors retrouvée au cœur de l’anthropologie étatsunienne, bouleversant la notion de «&#160;culture&#160;» et ses implications dans la construction du «&#160;Nous&#160;» (occidentaux, anthropologues) et des «&#160;Autres&#160;». Si cette critique de l’orientalisme et du colonialisme dans l’anthropologie n’est pas nouvelle en soi, les années&#160;1980 ont la particularité d’amorcer un véritable changement de paradigme dans l’anthropologie étatsunienne sous l’influence de la philosophie continentale et notamment des écrits de Michel Foucault, qui sont alors traduits et publiés en anglais et vont avoir un impact retentissant dans le monde académique étatsunien. Il est intéressant de noter que «&#160;l’un des introducteurs de Foucault aux États-Unis n’est autre que Paul Rabinow, lui-même anthropologue et ancien élève de Clifford Geertz. Il est l’éditeur du&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Foucault Reader</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(1984), l’un des textes les plus diffusés dans les universités&#160;» (Abélès, 2008, p.&#160;110). Ce décentrement opéré par rapport à la pratique anthropologique va par la suite radicalement influencer les sciences sociales et constituer un terreau favorable à l’éclosion de la problématique postcoloniale, et dans une certaine mesure des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, dans les recherches anthropologiques étatsuniennes, pendant que l’anthropologie française, sous l’influence de Lévi-Strauss</hi>
+                    <note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p> <hi xml:lang="fr">L’influence de Lévi-Strauss et du structuralisme sur l’anthropologie française fut prépondérante jusqu’à la fin des années 1980. Si le structuralisme lévi-straussien s’est par la suite progressivement effacé du devant de la scène, aucun autre «&#160;programme intellectuel&#160;» ou «&#160;chef de file disciplinaire&#160;» n’a néanmoins réussi à s’imposer (Rogers, 2002). Toutefois, les œuvres de Lévi-Strauss ont continué de stimuler la production du savoir, sans toutefois que les chercheur-e-s revendiquent leur appartenance au structuralisme lévi-straussien (Shallins, 2010). L’influence de Lévi-Strauss s’est par ailleurs manifestée par le biais de proches collaborateur-trice-s. Que ce soit, par exemple, à travers sa collaboratrice de longue date, Françoise Héritiers, qui lui succéda au Collège de France (Bertholet, 2008), où à travers son associé au Laboratoire d’anthropologie sociale, Isac Chiva, dans la mise en place d’une&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Mission du Patrimoine ethnologique</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;(Rogers, 2002).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, prolongera son rapport asymétrique à la philosophie.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e999">
+                <head subtype="level1" xml:id="d1e1000">Lévi-Strauss, la philosophie et le poststructuralisme</head>
+                <p xml:id="d1e1002">
+                    <hi xml:lang="fr">La période des années&#160;1980 marque à l’inverse des États-Unis, un véritable «&#160;décrochage&#160;» de l’anthropologie française avec l’anthropologie étatsunienne, «&#160;au point que la référence à Lévi-Strauss finit par être éclipsée aux États-Unis, au profit de l’invocation des poststructuralistes, alors que, côté français, on observe une rigidification d’une anthropologie qui semble attachée à défendre ses territoires et ses thèmes traditionnels (parenté, symbolisme, rituel, etc.)&#160;» (Abélès, 2008, pp.&#160;113-114). Dans le contexte français, «&#160;la philosophie apparaissait au mieux comme un luxe inutile, au pire comme un tissu de préjugés inadéquats&#160;» (Abélès, 2008, p.&#160;107). À l’inverse des multiples passerelles qui se sont construites aux États-Unis entre la philosophie poststructuraliste française et l’anthropologie, l’anthropologie française s’est fortement distinguée de la philosophie. Entre les années&#160;1970 et les années&#160;1980-1990, l’approche structuraliste développée par Lévi-Strauss a profondément marqué la discipline au point de changer le nom de la discipline passant de l’ethnologie à l’anthropologie sociale, propulsant le structuralisme sur le devant de la scène des sciences sociales. Ouvert à certains égards à l’interdisciplinarité (mathématiques, linguistique, écologie, etc.) et philosophe de formation, Lévi-Strauss a paradoxalement manifesté peu d’intérêt pour cette discipline comme il en témoigne dans le chapitre&#160;6 de son œuvre&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Tristes tropiques</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;: «&#160;La philosophie n’était pas&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">ancilla scientiarum</hi>
+          </hi>
+                    <hi xml:lang="fr">, la servante et l’auxiliaire de l’exploration scientifique, mais une sorte de contemplation esthétique de la conscience par elle-même&#160;» (1955, pp.&#160;53-54). Cette mise à distance, voire ce «&#160;dégoût&#160;», de la philosophie passa par un fort rapprochement avec l’ethnologie&#160;: «&#160;Je devine des causes plus personnelles au dégoût rapide qui m’éloigna de la philosophie et me fit m’accrocher à l’ethnographie comme à une planche de salut&#160;» (Lévi-Strauss, 1955, p.&#160;54). Dès lors, «&#160;eu égard à l’influence de Lévi-Strauss dans le développement de l’anthropologie française, on ne s’étonnera pas que les philosophes en général, et Foucault en particulier, aient été en quelque sorte considérés comme hors-champ&#160;» (Abélès, 2008, p.&#160;107). Lévi-Strauss s’inscrit ainsi dans une production anthropologique orientée vers le travail concret de recueil des données et l’enquête de terrain justifiée par un souci de scientificité (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">ibid.</hi>
+          </hi>
+                    <hi xml:lang="fr">). Si son programme anthropologique est connu pour avoir marqué une coupure dans le schéma nature-culture, ce dernier préconise également une mise à distance de la philosophie et marque une rupture avec l’anthropologie culturelle (telle qu’elle est pratiquée à l’époque aux États-Unis). L’anthropologue structuraliste revendique ainsi une anthropologie sociale (et non culturelle) comme un moyen pour s’inscrire dans une tradition sociologique durkheimienne centrée sur l’investigation des structures et de l’historicité du social, tout en marquant une rupture avec une anthropologie philosophique (Balibar, 2012, pp.&#160;89-90).</hi>
+                </p>
+                <p xml:id="d1e1020">
+                    <hi xml:lang="fr">Pour comprendre plus en détail cette rupture entre l’anthropologie française et la philosophie, il est nécessaire de saisir les différences majeures qui ont opposé le philosophe Michel Foucault et l’anthropologue Lévi-Strauss. Bien qu’au moment de la parution des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Mots et les choses</hi>
+          </hi>
+                    <hi xml:lang="fr">, Michel Foucault ait esquissé des liens avec le structuralisme afin d’affirmer «&#160;l’existence d’un “système” de pensée dont “le sens n’était probablement qu’une sorte d’effet de surface” produit par ce “système”, et non par un sujet&#160;» (Liotta, 2014, p.&#160;101), le philosophe s’est rapidement empressé par la suite de clamer sa non-appartenance au structuralisme en historicisant par ailleurs cette notion de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">système</hi>
+          </hi>
+                    <hi xml:lang="fr">. En effet, ce qui distingue fondamentalement Foucault de Lévi-Strauss est le rapport à l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">événement</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;que Foucault oppose à l’idée de structures invariantes. Foucault, à l’instar des philosophes poststructuralistes, cherche plutôt à décrire «&#160;les structures dominantes à l’intérieur de certains types de discours (ethnologie, psychanalyse, critique littéraire, marxisme, etc.)&#160;» (Beaulieu, 2003, p.&#160;211). L’idée d’événement, en opposition à celle de structures invariantes, constitue un moyen d’objectiver ces structures prises dans des forces historiques en mouvement, comme le précise Foucault&#160;: «&#160;Je ne m’intéresse pas à ce qui ne bouge pas, je ne m’intéresse pas à ce qui reste stable sous le chatoiement des apparences, je m’intéresse à l’événement. […] Autrement dit, nous sommes traversés par des processus, des mouvements, des forces&#160;; ces processus et ces forces, nous ne les connaissons pas, et le rôle du philosophe, c’est d’être sans doute le diagnosticien de ces forces, de diagnostiquer l’actualité&#160;» (1994, p.&#160;573). Avec la notion d’événement, le philosophe français prend le contrepied du structuralisme en considérant l’événement comme possibilité de nouveauté et de transformations dans les discours. L’objectif de la philosophie est dès lors de comprendre la condition d’émergence de ces événements dans des contextes historiques et théoriques à partir des «&#160;règles de formation&#160;» des discours. C’est donc en ce sens que la philosophie foucaldienne devient une entreprise d’archéologie du savoir et s’oppose radicalement au structuralisme de Lévi-Strauss qui problématise très peu le changement dans les sociétés. Cette opposition constitue ainsi l’une des raisons majeures de la rupture entre la philosophie et l’anthropologie française expliquant la forte étanchéité de l’anthropologie française aux&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> fortement imprégnées des préceptes théoriques post-structuralistes dans leur ensemble et foucaldiens en particulier.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e1043">
+                <head subtype="level1" xml:id="d1e1044">Anthropologie française et étatsunienne: une double rupture</head>
+                <p xml:id="d1e1046">
+                    <hi xml:lang="fr">Toutefois, cette distanciation avec la philosophie n’est pas la seule prise de distance qui peut expliquer l’éloignement pris par l’anthropologie sociale sous Lévi-Strauss. En effet, la rupture avec l’anthropologie culturelle étatsunienne de&#160;Franz Boas, puis de Clifford Geertz, proposée par l’anthropologue structuraliste, apparaît également révélatrice pour saisir le retard des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> en France. Rappelons tout d’abord que la pensée de Lévi-Strauss est née à la croisée des influences de la linguistique structuraliste, de la sociologie durkheimienne et de l’anthropologie culturelle étatsunienne. Une anthropologie culturelle avec laquelle il va très vite prendre ses distances. En 1941, lorsque Lévi-Strauss s’exile aux États-Unis, il fait la connaissance des anthropologues Franz Boas et Robert Lowie qui vont fortement l’influencer dans l’élaboration de sa théorie sur la parenté, mais également dans son approche méthodologique et son souci pour l’empirisme, comme il le raconte dans&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Tristes tropiques</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;: «&#160;La révélation m’est seulement venue vers 1933 ou 34, à la lecture d’un livre rencontré par hasard et déjà ancien&#160;:&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Primitive Society</hi>
+          </hi>
+                    <hi xml:lang="fr"> de&#160;Robert H.&#160;Lowie. Mais c’est qu’au lieu de notions empruntées à des livres et immédiatement métamorphosées en concepts philosophiques, j’étais confronté à une expérience vécue des sociétés indigènes et dont l’engagement de l’observateur avait préservé la signification. Ma pensée échappait à cette sudation en vase clos à quoi la pratique de la réflexion philosophique la réduisait&#160;» (1955, p.&#160;62). Ses écrits témoignent ainsi d’un intérêt pour une approche empirique systématique et, à nouveau, cette distanciation avec la philosophie. Cependant, Lévi-Strauss va rapidement critiquer «&#160;ses maîtres » et leur empirisme qu’il perçoit comme «&#160;insuffisamment systématisé&#160;» (Jeanpierre, 2004, p.&#160;25). Mais c’est surtout à l’égard du projet «&#160;culturaliste&#160;» que Lévi-Strauss se montre particulièrement critique avec l’anthropologie étatsunienne. Le schisme entre les anthropologies étatsunienne et française arrivera ainsi à son paroxysme avec Clifford Geertz. Architecte d’une anthropologie post-culturaliste, il développera une anthropologie interprétative fortement influencée par la philosophie post-structuraliste, ce qui alimentera un peu plus l’opposition avec l’anthropologie structuraliste de Claude Lévi-Strauss</hi>
+                    <note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> <hi xml:lang="fr">Si le fait de se focaliser sur ces deux figures résonne dans une certaine mesure comme une forme de réductionnisme, ces figures rappellent néanmoins que ces auteurs et leurs approches ont occupé une place centrale dans l’anthropologie. Présenter ces figures d’un point de vue idéal typique permet néanmoins de saisir les points de frictions et de tension entre ces courants.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Quant à Clifford Geertz, bien qu’il n’ait jamais revendiqué un ancrage dans le champ des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">, il endossera rapidement une position critique aux antipodes du structuralisme et de Lévi-Strauss. Geertz a en effet reproché au courant structuralo-fonctionnaliste dominant dans l’anthropologie des années 1960-70-80 «&#160;d’ignorer la subjectivité de l’individu et de la dissoudre dans les structures, présupposant que les hommes forment une Société, catégorie supra-organique, susceptible d’être analysée scientifiquement comme n’importe quel objet de science&#160;» (Addi, 2010, p.&#160;15). Dans son article «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The cerebral savage: the structural anthropology of Claude Lévi-Strauss</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» (1967), Geertz critique ainsi les usages de la notion de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">culture</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;faits par Lévi-Strauss dans son ouvrage&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La pensée sauvage</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;([1962] 1990) afin de dénoncer son positionnement positiviste et universaliste&#160;: «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">no anthropologist has made greater claims for ethnology as a positive science</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» (Geertz, 1967, p.&#160;25). Dans&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">La pensée&#160;sauvage</hi>
+          </hi>
+                    <hi xml:lang="fr">, Lévi-Strauss avance en effet que «&#160;le but dernier des sciences humaines n’est pas de constituer l’homme, mais de le dissoudre. La valeur éminente de l’ethnologie est de correspondre à la première étape d’une démarche qui en comporte d’autres&#160;: par-delà la diversité empirique des sociétés humaines, l’analyse ethnographique veut atteindre des invariants, dont le présent travail montre qu’ils se situent parfois aux points les plus imprévus. […] Pourtant, ce ne serait pas assez d’avoir résorbé des humanités particulières dans une humanité générale ; cette première entreprise en amorce d’autres, […] qui incombent aux sciences exactes et naturelles&#160;: réintégrer la culture dans la nature, et finalement, la vie dans l’ensemble de ses conditions physico-chimiques&#160;» (1990, p.&#160;294). Cette conception de la culture va ainsi à l’encontre de la vision interprétative de Geertz qu’il dénonce comme le souligne cet extrait du célèbre ouvrage&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">The Interpretation of Cultures: Selected Essays</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;:</hi>
+                </p>
+                <q rend="quotation">Culture is most effectively treated, the argument goes, purely as a symbolic system (the catch phrase is, “in its own terms”), by isolating its elements, specifying the internal relationships among those elements, and then characterizing the whole system in some general way – according to the core symbols around which it is organized, the underlying structures of which it is a surface expression, or the ideological principles upon which it is based.<hi xml:lang="en"> </hi>
+          <hi xml:lang="fr">(Geertz, 1973, p.&#160;17)</hi>
+        </q>
+                <p xml:id="d1e1115">
+                    <hi xml:lang="fr">Même si Lévi-Strauss n’est pas explicitement mentionné ici, on saisit en creux comment Geertz se positionne par rapport au structuralisme afin de proposer une approche&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">interprétative</hi>
+          </hi>
+                    <hi xml:lang="fr"> dans laquelle la notion de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">culture</hi>
+          </hi>
+                    <hi xml:lang="fr"> devient&#160;:</hi>
+                </p>
+                <q rend="quotation">this acted document, thus is public like a burlesqued wink or a mock sheep raid. Though ideational it does not exist in someone’s head; though unphysical is not an occult entity. […] Once human behavior is seen as (most of the time; there are true twitches) symbolic action which, like phonation in speech, pigment in painting, line in writing, or sonance in music, signifies - the question as to whether culture is patterned conduct or a frame of mind, or even the two somehow mixed together, loses sense.<hi xml:lang="en"> </hi>
+          <hi xml:lang="fr">(Geertz, 1973, p.&#160;10)</hi>
+        </q>
+                <p xml:id="d1e1134">
+                    <hi xml:lang="fr">La distinction entre les approches de Geertz et de Lévi-Strauss réside ainsi dans le fait que «&#160;Lévi-Strauss met l’accent sur les catégories&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">cognitives</hi>
+          </hi>
+                    <hi xml:lang="fr"> et les aspects de la culture, alors que Geertz le met sur l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">éthos</hi>
+          </hi>
+                    <hi xml:lang="fr"> –&#160;les aspects axiologiques, éthiques, esthétiques et affectifs de la signification des phénomènes sociaux&#160;» (Gorunovic, 2009, p.&#160;58). Gorunovic avance même que, malgré des ressemblances, on peut classer de façon&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">idéale typique</hi>
+          </hi>
+                    <hi xml:lang="fr"> les différences entre Lévi-Strauss et Geertz dans une série de binarité telles que «&#160;l’anthropologie sociale&#160;/&#160;l’anthropologie culturelle, le structuralisme&#160;/&#160;le culturalisme, l’analyse structurale&#160;/&#160;l’analyse interprétative, approche étique&#160;/&#160;émique ou nomothétique /idéographique, explication/interprétation, l’objectif&#160;/&#160;le subjectif, le modèle déductif&#160;/&#160;le modèle inductif d’explication, l’universalisme rationaliste&#160;/&#160;le particularisme relativiste&#160;; théorie systémique dans le cas de&#160;Lévi-Strauss, un éloignement conscient du travail sur les systèmes, dans celui de Geertz&#160;» (2009, p.&#160;56). Au regard de ces antagonismes, on comprend pourquoi l’anthropologie étatsunienne a constitué un terreau favorable à l’éclosion des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> à l’inverse de l’anthropologie française. Geertz deviendra ainsi l’un premiers à «&#160;susciter&#160;» la question postcoloniale en anthropologie (sans toutefois y adhérer complètement) (Addi, 2010, p.&#160;30)</hi>
+                    <note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> <hi xml:lang="fr">Il est intéressant de noter que, bien que l’Américain Clifford Geertz ait été considéré avec Claude Lévi-Strauss comme l’anthropologue le plus éminent et influent de la seconde partie du 20</hi>
+              <hi rend="sup">
+                <hi xml:lang="fr">e</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;siècle, il n’a pas fait école en France (Addi &amp; Obadia, 2010, p.&#160;4).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Pour cela, il opérera un décentrement vers une herméneutique du&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">sujet</hi>
+          </hi>
+                    <hi xml:lang="fr">, une critique de la notion de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">culture</hi>
+          </hi>
+                    <hi xml:lang="fr">, mais également une déconstruction de l’idée d’un «&#160;Ailleurs&#160;», la réflexivité du/de la chercheur-e et la place accordée aux savoirs locaux. Geertz dénoncera en ce sens l’ethnocentrisme en vigueur dans la pratique de l’anthropologie. Il mettra en effet en avant «&#160;les puissantes hégémonies politiques et professionnelles, largement non reconnues, qui se glissent dans les descriptions de l’ethnologue, celles qui affleurent dans son épistémologie ou ses jugements&#160;» (Assayag, 2010, p.&#160;49). Il prônera donc une réflexivité sur la pratique anthropologique afin d’interroger le «&#160;droit de “parler pour autrui”&#160;», «&#160;la question des “lieux du discours”&#160;», le «&#160;problème de l’“Orientalisme”, de l’étude des catégories de genre (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">gender studies</hi>
+          </hi>
+                    <hi xml:lang="fr">) ou de la “race“ (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">racial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">), à la fois dans la critique littéraire, les études ethniques, la relecture du colonialisme et la réinterprétation de la dépendance entre “centre(s)” et “périphérie(s)”&#160;» (Assayag, 2010, p.&#160;49). Si l’anthropologie française, sous l’ère Lévi-Strauss, s’est fermée du point épistémologique, théorique et thématique à la problématique de la postcolonialité comme en témoignent ses écrits&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Race et histoire</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(1952) et&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Race et culture</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;(1971) dans lequel il dénonce l’uniformisation des cultures, et promeut une «&#160;diversité culturelle&#160;», l’anthropologie interprétative de Clifford Geertz a constitué à l’inverse la prémisse de l’élaboration de cette problématique dans l’anthropologie étatsunienne.</hi>
+                </p>
+                <p xml:id="d1e1202">
+                    <hi xml:lang="fr">Au final, retenons que Clifford Geertz, en compagnie d’autres auteur-e-s comme Talal Asad, George Marcus, Lila Abu Lugod, et plus tard Arjun Appadurai, a déconstruit la scénographie de l’enquête de terrain, mais surtout ouvert une réflexion autour du couple savoir/pouvoir tout en plaçant la postcolonialité au cœur de la pratique de l’anthropologie. Cette critique des savoirs anthropologiques des années&#160;1980, d’inspiration poststructuraliste, a guidé l’anthropologie étatsunienne sur le chemin de la postcolonialité, favorisant l’éclosion des&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr"> en anthropologie, et progressivement dans les sciences sociales. À l’inverse, en France, le structuralisme de Lévi-Strauss a constitué un terreau fécond dans l’éclosion des résistances à la philosophie, et plus spécifiquement à la philosophie poststructuraliste, ainsi qu’à l’anthropologie étatsunienne, et aux études postcoloniales.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e1210">
+                <head subtype="level1" xml:id="d1e1211">Conclusion</head>
+                <p xml:id="d1e1213">
+                    <hi xml:lang="fr">En analysant les traditions théoriques dominantes de l’anthropologie en France et aux États-Unis, ainsi que le rapport asymétrique à la philosophie poststructuraliste qu’entretiennent l’anthropologie interprétative de Clifford Geertz et l’anthropologie structuraliste de Claude Lévi-Strauss, cet article a retracé le processus d’institutionnalisation des études postcoloniales dans les sciences sociales étatsuniennes, et d’autre part a permis de poser un certain nombre de balises pour comprendre comment l’anthropologie sociale française, sous l’influence du structuralisme de Lévi-Strauss, et les ruptures de ce dernier avec la philosophie et l’anthropologie étatsunienne a constitué le terreau des résistances contemporaines aux&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">postcolonial studies</hi>
+          </hi>
+                    <hi xml:lang="fr">. L’analyse de ce rapport asymétrique permet ainsi de mieux saisir la profondeur des résistances actuelles à l’égard des études postcoloniales en France.</hi>
+                </p>
+                <p xml:id="d1e1221">
+                    <hi xml:lang="fr">Ces résistances et cet intérêt tardif de la France pour les études postcoloniales peuvent néanmoins devenir un atout pour penser «&#160;au-delà du postcolonialisme&#160;» et apporter un renouvellement théorique à un champ qui se dirige actuellement vers une saturation conceptuelle. Au regard de ce débat sur l’&#160;«&#160;au-delà&#160;» du postcolonialisme qui émerge actuellement dans le monde anglo-saxon</hi>
+                    <note type="standard" xml:id="ftn16" place="foot" n="16">
+            <p> <hi xml:lang="fr">Voir Loomba A.&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">et al.</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;</hi>
+              <hi xml:lang="en">(2005).&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Postcolonial Studies and Beyond</hi>
+              </hi>
+              <hi xml:lang="en">. Durham: Duke University Press; Cooper&#160;F. (2005).&#160;</hi>
+              <hi rend="italic">
+                <hi xml:lang="en">Colonialism in Question. Theory, Knowledge, History.</hi>
+              </hi>
+              <hi xml:lang="en">&#160;Berkeley: University of California Press.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, les recherches sur la France contemporaine et son histoire coloniale pourraient ainsi constituer une aubaine pour le renouvellement de ces approches. À cet égard, l’historienne française Emmanuelle Sibeud souligne que «&#160;notre intérêt tardif est un atout –&#160;il nous permet de bénéficier de synthèses critiques de la qualité de&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Penser le postcolonial</hi>
+          </hi>
+                    <hi xml:lang="fr"> [en italique dans le texte]&#160;–, mais il pourrait aussi être à l’origine de véritables contresens si nous nous contentons d’une importation paresseuse du postcolonialisme anglophone, présenté comme panacée universelle, au lieu de construire les transferts qui nous permettront d’entrer dans un débat global, où nous avons beaucoup à apprendre, mais aussi des éléments originaux à apporter&#160;» (2007, p.&#160;150).</hi>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e1258">
+                <listBibl xml:id="d1e1260">
+                    <bibl xml:id="d1e1262">
+                        <hi xml:lang="fr">Abélès, M. (2008). Michel Foucault, l’anthropologie et la question du pouvoir.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Homme</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">187-188</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 105-122.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1275">
+                        <hi xml:lang="fr">Addi, L. (2010). Clifford Geertz, anthropologue critique du positivisme. In L.&#160;Addi &amp; L.&#160;Obadia (dir.).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Clifford Geertz, interprétation et culture</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (pp.&#160;15-31). Paris&#160;: Éditions des Archives contemporaines.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1283">
+                        <hi xml:lang="fr">Addi, L., &amp; Obadia, L. (2010),&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Clifford Geertz, interprétation et culture</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Éditions des Archives contemporaines.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1291">
+                        <hi xml:lang="fr">Amselle, J.-L. (2008).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Occident décroché&#160;: enquête sur les postcolonialismes</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Stock.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1299">
+                        <hi xml:lang="en">Asad, T. (1973).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Anthropology &amp; the Colonial Encounter</hi>
+                        </hi>
+                        <hi xml:lang="en">. London: Ithaca Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1307">
+                        <hi xml:lang="en">Assayag, J. (2010).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La mondialisation des sciences sociales</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Téraèdre.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1315">
+                        <hi xml:lang="fr">Balibar, E. (2012. L’anthropologie philosophique et l’anthropologie historique en débat.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue Descartes</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">75</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 81-101.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1328">
+                        <hi xml:lang="en">Basto, M.-B., &amp; Cohen, J. (2008). </hi>
+                        <hi xml:lang="fr">Quelles possibilités pour les études postcoloniales en France&#160;?.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Africultures</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">72</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 78-81.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1343">
+                        <hi xml:lang="fr">Bayart, J.-F. (2010).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Les Études postcoloniales, un carnaval académique</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Karthala.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1351">
+                        <hi xml:lang="fr">Beaulieu, A. (2003). Y a-t-il quelque chose à comprendre&#160;? Sur L’opposition entre la philosophie herméneutique et les philosophies de l’événement,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Symposium</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">7</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 211-225.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1365">
+                        <hi xml:lang="fr">Bertholet, D. (2008).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Claude Lévi-Strauss</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Odile Jacob.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1373">
+                        <hi xml:lang="fr">Bourcier, M.-H. (2006). Études culturelles et minorités indisciplinées dans la France métropolitaine.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Médias et informations</hi>
+                        </hi>
+                        <hi xml:lang="en">, (24-25), 87-99.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1381">
+                        <hi xml:lang="en">Clifford, J., &amp; Marcus, G. (1986).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Writing Culture: The Poetics and Politics of Ethnography: A School of American Research Advanced Seminar</hi>
+                        </hi>
+                        <hi xml:lang="en">. Berkeley: University of California Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1389">
+                        <hi xml:lang="fr">Cohen, J., Dorlin, E., Nicolaïdis, D., Rahal, M., &amp; Simon, P. (2007). Le tournant postcolonial à la française.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Mouvements</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">51</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 7-12.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1402">
+                        <hi xml:lang="fr">Collignon, B. (2007). Note sur les fondements des&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">postcolonial studies</hi>
+                        </hi>
+                        <hi xml:lang="fr">,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">EchoGéo</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">1</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Consulté à&#160;</hi>
+                        <ref target="https://echogeo.revues.org/2089">
+                            <hi rendition="#style03">
+                                <hi xml:lang="fr">https://echogeo.revues.org/2089</hi>
+                            </hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e1424">
+                        <hi xml:lang="fr">Dorlin, E. (2006).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La Matrice de la race. Généalogie sexuelle et coloniale de la Nation française</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: La Découverte.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1432">
+                        <hi xml:lang="fr">Dubreuil, L. (2006). Alter, inter&#160;: académisme et postcolonial studies.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Labyrinthe</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">24</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 47-61.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1445">
+                        <hi xml:lang="fr">Fassin D., &amp; Fassin, É. (dir.) (2006).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">De la question sociale à la question raciale&#160;? Représenter la société française</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: La Découverte.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1453">
+                        <hi xml:lang="fr">Foucault, M. (1994).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Dits et Écrits, Vol.&#160;1&#160;: 1954-1969</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Gallimard.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1461">
+                        <hi xml:lang="en">Geertz, C. (1967). The cerebral savage: the structural anthropology of Claude Lévi-Strauss.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encounter</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">28</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 25-32.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1474">
+                        <hi xml:lang="en">Geertz, C. (1973).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Interpretation of Cultures: Selected Essays</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">New York: Basic Books.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1485">
+                        <hi xml:lang="en">Geertz, C. (1988).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Works and Lives: The Anthropologist as Author</hi>
+                        </hi>
+                        <hi xml:lang="en">. Stanford: Stanford University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1493">
+                        <hi xml:lang="en">Glevarec, H., Macé, E., &amp; Maigret, E. (2014).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Cultural studies. Anthropologie</hi>
+                        </hi>
+                        <hi xml:lang="en">. Paris&#160;: Armand Colin.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1501">
+                        <hi xml:lang="en">Go, J. (2012). For a Postcolonial Sociology.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Theory and Society</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">42</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 25-55.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1514">
+                        <hi xml:lang="en">Gorunovi, G. (2009). </hi>
+                        <hi xml:lang="fr">Geertz vs. Lévi-Strauss: des hypothèses structurales sous-jacentes dans le culturalisme de Geertz&#160;?.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Problèmes d’ethnologie et d’anthropologie,</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">4</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 53-74.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1529">
+                        <hi xml:lang="fr">Hargreaves, A. (2007). Chemins de traverse. Vers une reconnaissance de la postcolonialité en France.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Mouvements</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">51</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 24-31.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1542">
+                        <hi xml:lang="fr">Jeanpierre, L. (2004). Une opposition structurante pour l’anthropologie structurale&#160;: Lévi-Strauss contre Gurvitch, la guerre de deux exilés français aux États-Unis.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’histoire des sciences humaines</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">11</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 13-44.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1555">
+                        <hi xml:lang="fr">Kuhn, T., (1983),&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La structure des révolutions scientifiques</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Flammarion.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1563">
+                        <hi xml:lang="en">Lazarus, N. (2004). Introduction, in Lazarus N. (ed.),&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Cambridge Companion to Postcolonial Literary Studies</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;1-10). Cambridge: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1571">
+                        <hi xml:lang="en">Lévi-Strauss, C. (1955).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Tristes Tropiques</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Plon.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1579">
+                        <hi xml:lang="fr">Lévi-Strauss, C. (1971).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Race et Culture</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: UNESCO.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1587">
+                        <hi xml:lang="fr">Lévi-Strauss, C. (1987).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Race et Histoire</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: UNESCO.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1596">
+                        <hi xml:lang="fr">Lévi-Strauss, C. (1990).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La pensée sauvage</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Plon.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1604">
+                        <hi xml:lang="fr">Liotta, D. (2014). Foucault et Lévi-Strauss en miroir.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Philosophie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">123</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 98-121.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1617">
+                        <hi xml:lang="fr">Mbembe, A. (2006). Qu’est-ce que la pensée postcoloniale&#160;?.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Esprit</hi>
+                        </hi>
+                        <hi xml:lang="fr">, décembre (12), 117-133.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1625">
+                        <hi xml:lang="en">Mullins, N. (1972). The Development of a Scientific Speciality: The Phage Group and the Origins of Molecular Biology.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Minerva</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">10</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 51-82.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1638">
+                        <hi xml:lang="en">Parry, B. (2004). The institutionalization of postcolonial studies, in Lazarus N. (ed.),&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Cambridge Companion to Postcolonial Literary Studies</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;66-80). Cambridge: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1646">
+                        <hi xml:lang="en">Pestre, D. (2006).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Introduction aux science studies</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: La Découverte.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1654">
+                        <hi xml:lang="fr">Pestre, D. (2013).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">A contre-science. Politiques et savoirs des sociétés&#160;: Politiques et savoirs des sociétés contemporaines</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Le Seuil.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1662">
+                        <hi xml:lang="fr">Raj, K. (2007).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Relocating Modern Science: Circulation and the Construction of Knowledge in South Asia and Europe, 1650-1900</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Basingstoke &amp; New York: Palgrave Macmillan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1672">
+                        <hi xml:lang="fr">Rogers, S.C. (2002). L’anthropologie en France,&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Terrain</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">39</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 141-162.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1685">
+                        <hi xml:lang="fr">Sahlins, M. (2010). L’anthropologie de Lévi-Strauss.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">ethnographiques.org</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">20</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Consulté à&#160;</hi>
+                        <ref target="http://www.ethnographiques.org/2010/Sahlins">
+                            <hi rendition="#style03">
+                                <hi xml:lang="fr">http://www.ethnographiques.org/2010/Sahlins</hi>
+                            </hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e1702">
+                        <hi xml:lang="fr">Saillant, F. (2010). Une critique postcoloniale du savoir local de Clifford Geertz, In L.&#160;Addi &amp; L.&#160;Obadia (dir.)&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Autour de Clifford Geertz&#160;: interprétation et culture </hi>
+                        </hi>
+                        <hi xml:lang="fr">(pp.&#160;55-72). Paris&#160;: Éditions des Archives contemporaines.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1711">
+                        <hi xml:lang="en">Schwarz, H. (2000). Mission impossible: Introducing Postcolonial Studies, In H.&#160;Schwarz &amp; S.&#160;Ray (eds.).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">A Companion to Postcolonial Studies</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;1-20). Oxford: Wiley-Blackwell,</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1719">
+                        <hi xml:lang="en">Sibeud, E. (2004). </hi>
+                        <hi xml:lang="fr">Post-Colonial et Colonial Studies&#160;: enjeux et débats.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’histoire moderne et contemporaine</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">51-4bis</hi>
+                        </hi>
+                        <hi xml:lang="fr">(5), 87-95.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1734">
+                        <hi xml:lang="fr">Sibeud, E. (2007). Du postcolonialisme au questionnement postcolonial&#160;: pour un transfert critique.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’histoire moderne et contemporaine</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">54-4</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 142-155.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1747">
+                        <hi xml:lang="fr">Smith, E. (2006). Les études postcoloniales&#160;: entretien avec Jean-Loup Amselle.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Raisons politiques</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">22</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 195-202.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1760">
+                        <hi xml:lang="en">Spivak, G.C. (2000). Upon Reading the Companion to Postcolonial Studies, In H.&#160;Schwarz &amp; S.&#160;Ray (eds.)&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">A Companion to Postcolonial Studies</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;xv-xxii). Oxford: Blackwell Publishing.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1768">
+                        <hi xml:lang="en">Van&#160;Damme, S. (2004). </hi>
+                        <hi xml:lang="fr">Comprendre les Cultural Studies&#160;: une approche d’histoire des savoirs.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue d’histoire moderne et contemporaine</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">54-4</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 48-58.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1783">
+                        <hi xml:lang="fr">Zecchini, C., &amp; Lorre, L. (2011). Le Postcolonial dans ses allers-retours transatlantiques&#160;: glissements, malentendus, réinvention.&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue française d’études américaines</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">126</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 66-81.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

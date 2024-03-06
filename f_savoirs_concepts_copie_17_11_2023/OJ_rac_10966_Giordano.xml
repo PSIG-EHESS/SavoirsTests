@@ -1,0 +1,551 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_10966_Giordano">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Apprécier un regard expert dans la débrouille</title>
+                <title type="sub">Un apprentissage chez les mécaniciens de rue </title>
+                <title level="a" type="alt" xml:lang="en">A skilled view to manage the repairs. An apprenticeship with the street mechanics</title>
+                <title level="a" type="alt" xml:lang="es">Apreciar la skilled view en las dificultad. Un aprendizaje entre los mecánicos de calle</title>
+                <author>
+                    <persName>
+                        <forename>Denis</forename>
+                        <surname>Giordano</surname>
+                    </persName>
+                    <affiliation> Sociologue en post-doctorat au Centre Maurice Halbwachs de Paris (CNRS-ENS-EHESS) et membre du LCSP de l’Université Paris Diderot. Ses thématiques de recherche concernent la sociologie du travail, les relations professionnelles et la précarité, les inégalités et la négociation collective. Adresse&#160;: Centre Maurice-Halbwachs, 48 Boulevard Jourdan, FR-75014 Paris (France) Courriel&#160;: giordano.denis[at]gmail.com </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>aprendizaje</item>
+                        <item>mecánico de calle</item>
+                        <item>skilled view</item>
+                        <item>conocimiento sensible</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>apprentissage</item>
+                        <item>regard expert</item>
+                        <item>mécanicien de rue</item>
+                        <item>connaissance sensible</item>
+                        <item>débrouille</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>apprenticeship</item>
+                        <item>street mechanics</item>
+                        <item>skilled view</item>
+                        <item>sensible knowledge</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Apprécier un regard expert dans la débrouille</titlePart>
+                    <titlePart type="sub">Un apprentissage chez les mécaniciens de rue</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Denis Giordano</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e236">
+                <p xml:id="d1e237">Cette contribution identifie les étapes nécessaires à franchir pour mettre en évidence le regard expert des mécaniciens de rue face aux réparations. Réalisée dans le département de la Seine-Saint-Denis, l’immersion ethnographique dans le monde social des personnes réparant des véhicules en plein air a offert au chercheur la possibilité d’un apprentissage de leur travail grâce au choix d’un engagement direct. Parmi les spécificités de cette activité professionnelle, l’article met en évidence l’importance d’une attention orientée au corps, à la sensorialité, aux outils et aux relations. Les mécaniciens de rue s’apparentent à des experts de la débrouille et proposent différents services à la clientèle en profitant de chaque ressource matérielle et relationnelle à leur disposition.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e239">
+                <p xml:id="d1e240">
+                    <hi xml:lang="en">The aim of this contribution is to highlight the steps that must be taken to appreciate the street mechanics' skilled view of repairs. Held in the French department of Seine-Saint-Denis, the ethnographic immersion in the social world of people repairing vehicles in the open air offered the researcher the opportunity of learning their work through the choice of a direct commitment. Attention to the body, sensoriality, tools and relationships underlines the specificities of street mechanics' repairs. They present themselves as experts and they propose different services to clients by taking advantage of each material and relational resource at their disposal.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e243">
+                <p xml:id="d1e244">
+                    <hi xml:lang="es">Esta contribución tiene por objeto destacar las etapas que hay que superar para apreciar la skilled view de los mecánicos de calle frente a las reparaciones. En el departamento Francés de Seine-Saint-Denis, la inmersión etnográfica en el mundo social de las personas que reparan vehículos en la calle ha ofrecido al investigador la posibilidad de aprender de su trabajo gracias a la elección de una postura participante. Un enfoque en el cuerpo, la sensorialidad, las herramientas y las relaciones subraya las especificidades de las reparaciones de los mecánicos de calle. Estos últimos se muestran como expertos en ingenio y ofrecen diferentes servicios a la clientela aprovechando cada recurso material y relacional a su disposición.</hi>
+                </p>
+            </div>
+            <div type="ack" xml:id="d1e248">
+                <p xml:id="d1e249">L’auteur tient à remercier les réviseurs anonymes, les coordinatrices du numéro et le comité de la revue pour la précieuse aide dans la rédaction et finalisation de l’article.</p>
+            </div>
+        </front>
+        <body>
+            <p rend="epigraph" xml:id="d1e255">«&#160;Les sens doivent faire sens pour orienter le rapport au monde. Il faut apprendre à voir. (...)<lb/>Voir n'est pas un enregistrement, mais un apprentissage.&#160;»<lb/> David Le&#160;Breton - La saveur du monde </p>
+            <div type="div1" xml:id="d1e261">
+                <head subtype="level1" xml:id="d1e262">
+                    <hi xml:lang="fr">Introduction&#160;: pratique de la réparation de rue </hi>
+                </head>
+                <q rend="quotation">
+                    <hi xml:lang="fr">Un parking traversé par du vent froid s’ouvre au milieu des tours, une radio crache de loin de vieux morceaux des années 60, une Twingo vert pomme avec le capot ouvert est soulevée par deux maigres béquilles d’acier. C’est la scène qui précède la vue d’un homme avec une salopette en jeans qui, allongé sur un carton mouillé de pluie, manœuvre un tournevis et une clé de la forme bizarre sur le moteur de la vieille voiture (18.02.2011).</hi>
+                </q>
+                <p xml:id="d1e268">Ces notes consignent le premier regard porté sur l'objet de ma recherche doctorale sur les mécaniciens de rue et illustrent la distance du chercheur engagé dans un questionnement sociologique à l’égard de cette activité. Une distance qui se manifeste par l’ignorance de l’outillage spécifique et de la structure du moteur, mais également, par l’éloignement du contexte dans lequel ces activités se déroulent. </p>
+                <p xml:id="d1e270">Dans cette contribution, je décris comment le dépassement de la barrière entre mécaniciens de rue et chercheur à travers l'engagement direct de ce dernier a permis une interrogation sur les manières de devenir expert. Considérer les pratiques du travail implique de se concentrer sur les processus qu'accompagnent l'agir situé, sur le tissu relationnel dans lesquelles se déroulent et sur l'univers socio-matériel mobilisé. Je m'inscris ainsi dans la perspective théorique des études sur les pratiques ou «&#160;<hi rend="italic">Practice-Based Studies</hi>&#160;» (Gherardi, 2000&#160;; Schatzki <hi rend="italic">et&#160;al.</hi>, 2001), selon l'acception détaillée par Silvia Gherardi dans cette même revue (2017). Ce courant de recherche, pour reprendre les mots de Sylvie Grosjean, s'intéresse aux modalités d'action qui permettent la production et la circulation de la connaissance. Cette dernière résulte donc «&#160;non comme un capital, mais comme une activité banale, située historiquement, socialement et culturellement&#160;» (Grosjean, 2014, p.&#160;47). Il s'agit alors de se confronter aux pratiques de travail mises en œuvre en les considérant comme une performance plus ou moins compétente (Garfinkel, 1967), alimentée par l'exercice, mais ouverte aux innovations et en permanence influencée par des interactions sociales et matérielles du contexte (Gherardi, 2008&#160;; Grosjean, 2014a).</p>
+                <p xml:id="d1e278">Le cadre théorique de l'analyse des pratiques se montre pertinent dans le questionnement sur les compétences mobilisées par les mécaniciens de rue. Et, en particulier, dans un regard adressé au suivi des réparations réalisées grâce aux ressources matérielles (outils, pièces) et relationnelles (collaborations, services). La description des modalités d'accumulation de l'expérience, de la manifestation et de la circulation du savoir des mécaniciens de rue a été rendue possible par la posture d’apprenti endossée par le chercheur. De cette manière, j'ai pu apprécier l'importance des formes de connaissance sensible<note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Pour connaissance sensible, j’indique «&#160;cela qui est perçu à travers les sens, jugé à travers les sens, et produit et reproduit à travers les sens&#160;» (Strati, 2006, p.&#160;62, traduction par mes soins). Cette connaissance se manifeste par les cinq sens (la vue, l’ouïe, le goût, le toucher, l’odorat). </p>
+          </note> mobilisées pour s’orienter dans la réparation qui concourent à la formation d’un regard expert pour inspecter les véhicules et planifier l’intervention. </p>
+                <p xml:id="d1e284">Cette conception permet de ne pas se limiter à considérer la dimension visuelle, en s’intéressant à une forme de connaissance qui peut être intériorisée grâce au corps, à la mobilisation des cinq sens et à l'expérience relationnelle intimement liée à la pratique de travail. L'attention à la sensorialité et au corps dans l’analyse des formes de savoir est particulièrement explorée par les recherches ethnographiques consacrées aux travaux manuels, comme l’enquête de Munz (2019) chez les horlogers, lesquels doivent apprendre à réaliser des tâches dans un univers minuscule, ainsi que celle d’O'Connor chez les souffleurs de verre de New York (2005). </p>
+                <p xml:id="d1e286">Ma démarche se décline dans le contexte de l’activité des mécaniciens de rue qui sont sollicités pour s'occuper de véhicules souvent vieux et cabossés. Pour exercer leur métier, ils accumulent des expériences dans la réparation et dans la manipulation des matériaux et des outils qui aident au diagnostic et à la résolution des pannes. Face aux voitures, ils doivent ainsi «&#160;apprendre à voir&#160;» (Le&#160;Breton, 2006) le moteur à travers toute forme d'indice pour s'orienter et agir. Comme le rappelle Dant (2010) dans sa recherche sur les gestes de garagistes, la compétence des mécaniciens réside dans la combinaison d'expérience sensorielle et de maîtrise de leur outillage. Les mécaniciens de rue se doivent de répondre aux demandes des clients en agissant dans un contexte précaire avec un outillage limité. Dans la plupart de cas, les réparations de rue ne sont pas comparables en qualité avec celles des garagistes et suivent d’autres priorités, notamment la plus grande rapidité pour répondre aux sollicitations et un prix économique. Quelles sont les étapes qui permettent au mécanicien de rue de disposer d'un regard expert pour se confronter aux réparations&#160;?</p>
+                <p xml:id="d1e288">Cette contribution, une fois présenté le contexte de la recherche, souligne l'importance d'une posture de participation directe et d'apprentissage du chercheur afin de mieux saisir les pratiques de travail des mécaniciens de rue et pour questionner les formes de partage des connaissances. La deuxième partie se concentre sur les éléments qui consolident l'expérience nécessaire pour faire face aux difficultés quotidiennes de la mécanique de rue. Les modalités de déploiement du regard expert des mécaniciens de rue qui dessine également les particularités de leur service aux clients seront présentées en conclusion. </p>
+            </div>
+            <div type="div1" xml:id="d1e290">
+                <head subtype="level1" xml:id="d1e291">
+                    <hi xml:lang="fr">Le contexte des mécaniciens de rue</hi>
+                </head>
+                <p xml:id="d1e294">Le terme «&#160;mécanicien de rue&#160;» désigne les individus qui se proposent de réparer des véhicules, sans avoir une autorisation pour opérer dans les lieux où ils s’installent. Le mécanicien de rue s’occupe de réparer en «&#160;plein air&#160;» des pannes et des problèmes sur les véhicules qui lui sont confiés. Leur rétribution se réalise en dehors de toute fiscalité, ils travaillent avec un outillage limité et, selon les constructeurs automobiles, leurs réparations n’offrent aucune garantie de sécurité. Le caractère informel de cette activité définit des conditions de travail rendant difficile une stabilité de revenu et imposant des précautions particulières. Ainsi, les mécaniciens de rue cherchent à conserver la bienveillance des riverains et à échapper aux rondes policières pour ne pas se faire expulser des lieux qu'ils investissent.</p>
+                <p xml:id="d1e296">L’activité des mécaniciens de rue se déroule dans un espace, géographique et relationnel, qui loin d'être confiné, s'alimente de nombreux entrelacements avec les acteurs de l'économie formelle et informelle. Il s'agit d'un contexte et d'une activité qui soulignent les porosités et les interconnexions entre formel et informel, déjà illustrés par Coletto (2010) sur le contexte brésilien, par Williams (2013) en détaillant un regard comparatiste et par Caldéron <hi rend="italic">et&#160;al.</hi> (2016) qui propose un bilan sur diverses expériences de recherche.</p>
+                <p xml:id="d1e301">Les mécaniciens de rue se confrontent à une précarité que l’on peut qualifier d’existentielle<note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> Le terme de précarité existentielle, renvoie à une forme d'incertitude qui s’exprime bien au-delà du contrat de travail et qui s’étend à l’ensemble des conditions de vie, tout comme aux perspectives d’avenir de la personne.</p>
+          </note> (Bouffartigue, 2012&#160;; Cingolani, 2014) et ne respectent pas les normes légales, comme souligné par diverses recherches françaises (Laé, 1989&#160;; Jounin, 2008&#160;; Weber, 2008). Ces travailleurs sont particulièrement visibles sur les territoires marqués par des taux de chômage importants et par une précarité diffuse, comme le Collectif Rosa Bonheur (2017 et 2019) l’a démontré dans les résultats d’une recherche menée dans l’agglomération lilloise, rejoignant ainsi les analyses des pratiques informelles dans les ghettos de Chicago (Venkatesh, 2006). Dans la banlieue parisienne, la présence des mécaniciens de rue est fréquente et on peut facilement les rencontrer en sillonnant de nombreux quartiers, en particulier dans la ceinture nord-est de la capitale, comme l’ont souligné Morelle et Jacquot (2018). Cette activité devient d’autant plus visible lors des tensions entre mécaniciens, riverains et pouvoirs publics, comme le remarquent Ndaye <hi rend="italic">et&#160;al.</hi> (2019), dans leur analyse sur cette forme «&#160;d’économie de la débrouille&#160;». Les journaux participent eux-aussi à cette mise en visibilité (par exemple, un article du <hi rend="italic">Parisien</hi> y a été consacré en novembre 2019<note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> Aurélie Foulon, Maïram Guissé et Florian Loisy&#160;: «&#160;Ile-de-France&#160;: comment les mécanos clandestins ont envahi les parkings des cités&#160;», <hi rend="italic">Le Parisien</hi>, 19.11.2019, source&#160;: <ref target="http://www.leparisien.fr/yvelines-78/ile-de-france-comment-les-mecanos-clandestins-ont-envahi-les-parkings-des-cites-18-11-2019-8195457.php">www.leparisien.fr/yvelines-78/ile-de-france-comment-les-mecanos-clandestins-ont-envahi-les-parkings-des-cites-18-11-2019-8195457.php</ref>.</p>
+          </note>). Toutefois, cette activité restait encore peu médiatisée quand j’ai débuté mon terrain. Cette recherche a été menée entre janvier 2011 et juillet 2012 dans plusieurs communes de la Seine-Saint-Denis et en particulier aux alentours de Montaigne<note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> Nom d’emprunt pour garantir l’anonymat des personnes.</p>
+          </note>.</p>
+                <p xml:id="d1e327">Pour développer mon analyse de la dimension pratique et relationnelle des mécaniciens de rue, j’ai adopté une approche ethnographique. Mon engagement sur le terrain a débuté par de simples moments d’observation pour évoluer ensuite vers une participation observante (Bourgois, 2001&#160;; Wacquant, 2002&#160;; Cartron, 2003). L'immersion dans un monde social permet à la fois de mieux saisir les enjeux liés à la réalisation du travail ainsi que les difficultés du métier, mais facilite également l’échange et l'empathie avec les acteurs (Wacquant, 2005&#160;; Lévy-Vroelant, 2016&#160;; Perez-Bustos, 2017). Pour pouvoir confronter les modalités de travail dans la rue et celles dans les garages «&#160;officiels&#160;», j’ai également entrepris des périodes d’observation dans trois garages situés dans les mêmes quartiers de la recherche.</p>
+            </div>
+            <div type="div1" xml:id="d1e329">
+                <head subtype="level1" xml:id="d1e330">
+                    <hi xml:lang="fr">Travailler avec&#160;: devenir apprenti</hi>
+                </head>
+                <p xml:id="d1e333">Au début de la recherche, les notes de mon carnet correspondaient à une froide description des opérations des mécaniciens, accompagnées de quelques mots d’explication que j’arrivais à recueillir, mais sans avoir une compétence précise sur les opérations effectuées ou l'outillage employé. Pour mieux apprécier les activités des mécaniciens de rue, il fallait s’y engager pour montrer une connaissance concrète des opérations observées (Arborio <hi rend="italic">et&#160;al.</hi>, 2008&#160;; Pink, 2009 et 2013). En suivant cette démarche, je me suis inspiré des recommandations de Sarah Pink (2001, p.&#160;271) qui incite les chercheurs à «&#160;<hi rend="italic">being in</hi>&#160;» l’univers social analysé et «&#160;<hi rend="italic">engaging in</hi>&#160;» le terrain de recherche&#160;: j’ai ainsi dû me faire accepter par les mécaniciens de rue pour ensuite faire mes preuves avec eux.</p>
+                <div type="div2" xml:id="d1e344">
+                    <head subtype="level2" xml:id="d1e345">
+                        <hi xml:lang="fr">Se faire accepter</hi>
+                    </head>
+                    <p xml:id="d1e348">Dans mon cas, la volonté de participer activement a pris corps suite à une période où je m’étais limité à l’observation des mécaniciens de rue, réalisée en sillonnant à vélo les quartiers dans quatre communes autour de Montaigne. Une distance considérable me séparait d’eux, je n’arrivais pas à établir de familiarité et ma présence était de moins en moins bienvenue. Pour construire des liens de confiance et d’échange avec les mécaniciens, j’ai valorisé des éléments associés à ma présence sur le terrain. D’abord, le fait d’habiter depuis cinq années dans les mêmes quartiers et être donc familier des lieux. Ensuite, j’ai pu «&#160;profiter&#160;» d’être facilement reconnu en tant qu’étranger par l’accent pour mieux me faire accepter dans un milieu où nombreuses sont les personnes dans cette situation. On peut y retrouver quelques traits de l’expérience de Wacquant dans le ghetto de Chicago (2002) où sa position d’apprenti boxeur blanc, mais français et donc étranger, a facilité son acceptation.</p>
+                    <p xml:id="d1e350">Pour franchir le pas, j'ai bénéficié de l'indispensable intermédiation de quelques connaissances, habitants ou travailleurs des quartiers de la recherche comme Nora et Jim qui m'ont introduit aux mécaniciens de rue qu’ils fréquentaient. Après quelque temps passé à observer et à rendre familière ma présence, j’ai demandé à ceux avec qui j’avais une relation plus consolidée de bien vouloir m'accepter à leurs côtés pour apprendre quelques rudiments de leur activité. J'ai ainsi participé quotidiennement pendant plus de six mois aux journées de travail de trois mécaniciens&#160;:</p>
+                    <list type="unordered" xml:id="d1e352">
+                        <item>
+                            <p xml:id="d1e354">Mel<note type="standard" xml:id="ftn5" place="foot" n="5">
+                  <p> Pseudonyme, comme les prénoms suivants.</p>
+                </note>, 58 ans, en 2013, avec qui j’ai passé le plus de temps et qui faisait également quelques missions ponctuelles en tant que brancardier dans un hôpital parisien&#160;;</p>
+                        </item>
+                        <item>
+                            <p xml:id="d1e361">Guy, 41 ans, ancien garagiste au chômage à l’époque de la recherche&#160;;</p>
+                        </item>
+                        <item>
+                            <p xml:id="d1e364">Daimou, 23 ans et sans-papiers, qui gagnait sa vie grâce aux réparations qu’il arrivait à réaliser.</p>
+                        </item>
+                    </list>
+                    <p xml:id="d1e366">Le parcours d’apprentissage a débuté d’abord en occupant une position périphérique et marginale sur la scène de la réparation (Lave et Wenger, 1991), pour ensuite obtenir une confiance suffisante et devenir un acteur à part entière. L’imitation et la pratique ont été les deux leviers de l’intégration. Les premiers pas de la collaboration avec les mécaniciens consistaient à suivre des yeux leurs opérations et à leur passer les bons outils au bon moment lorsqu’ils réalisaient les réparations. Se mettre dans la peau d'un apprenti mécanicien a permis de souligner l'importance de l'imitation comme source de connaissance&#160;: suivre (et comprendre) les étapes de la réparation conduit à être proactif en anticipant la demande d'outillage. Toutefois, pour confirmer la volonté d’apprendre et ainsi légitimer ma posture d’apprenti, une participation plus directe est apparue comme une épreuve nécessaire. Ma présence ne pouvait se cantonner à un rôle marginal, il fallait prendre l’initiative&#160;:</p>
+                    <q rend="quotation">
+                        <hi xml:lang="fr">Soudain Mel se tourne vers moi, il tend le tournevis cruciforme et exclame&#160;: </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">«&#160;Vas-y&#160;!&#160;»</hi>
+                        </hi>
+                        <hi xml:lang="fr"> Je reste un peu surpris, j’étais conscient de devoir commencer à faire quelque chose rapidement, mais je n’attendais pas ça si vite&#160;! Mel et Ben me fixent, peut-être qu’ils veulent me mettre à l’épreuve… Je ne suis pas du tout tranquille en m’accroupissant au sol pour fixer les vis du cache moteur</hi>
+                        <note type="standard" xml:id="ftn6" place="foot" n="6">
+                            <p> Le cache-moteur est une plaque généralement en matière plastique ou métallique <hi rend="bold">fixée sous le véhicule</hi> de façon à cacher l'accès inférieur au moteur et le protéger. </p>
+                        </note>
+                        <hi xml:lang="fr">… (carnet de terrain, 23.04.2011) </hi>
+                    </q>
+                    <p xml:id="d1e385">Là encore, cette phase d’apprentissage de la mécanique de rue partage des traits communs avec l’expérience de Wacquant parmi les boxeurs où il décrit son parcours comme «&#160;une maîtrise pratique, une connaissance viscérale de l’univers analysé&#160;» qui s’appuie «&#160;sur l’expérience la plus intime, celle du corps&#160;» (2010, p.&#160;117). Une fois que les mécaniciens de rue m’ont accepté à leurs côtés, l’opportunité de bénéficier de leurs enseignements à partir de la pratique a aidé à mieux comprendre les modalités mobilisées pour s’engager dans les réparations. La meilleure connaissance de leur travail m’a également permis d’apprécier leur compétence experte. </p>
+                </div>
+                <div type="div2" xml:id="d1e387">
+                    <head subtype="level2" xml:id="d1e388">
+                        <hi xml:lang="fr">Travailler dans la rue</hi>
+                    </head>
+                    <p xml:id="d1e391">Faire de la mécanique de rue oblige à opérer dans des conditions de travail plus fatigantes et dangereuses que dans un garage équipé. Les limitations majeures sont dues à l’absence d’un espace adapté aux réparations et au manque parfois important d’outils. Le corps, en disposant de moins de technologie et d'outillage, est davantage sollicité dans les activités de travail et les implications de son engagement intense apparaissent rapidement.</p>
+                    <q rend="quotation">Mel m’a demandé de remonter le carter d’huile<note type="standard" xml:id="ftn7" place="foot" n="7">
+              <p> Ce carter est une cuve étanche pour stocker l'huile du moteur du véhicule. </p>
+            </note>. Le cric ne soulève pas assez la voiture et pour y accéder je m’allonge en dessous de la voiture, un brin préoccupé pour ma sécurité comme à chaque fois. La position de travail est inconfortable, j’ai mal à l’épaule. Même en allongeant complètement le bras je n’arrive pas bien à fixer la pièce et le tournevis glisse à deux reprises sur le béton. Mel le rattrape, se couche sous la voiture et termine rapidement l’opération&#160;: «&#160;<hi rend="italic">C’est avec la pratique que tu vas y arriver</hi>&#160;» commente-t-il en souriant (carnet de terrain, 11.06.2011).</q>
+                    <p xml:id="d1e402">Lors des journées passées en accompagnant les mécaniciens, j’étais à plusieurs reprises enjoint à apprécier le bon déroulement d’une opération. Pour cela, les mécaniciens font référence à un ensemble de compétences&#160;: valoriser l’expérience, l’intuition et la connaissance sensible pour atteindre le résultat souhaité. Il s’agit de développer un regard expert capable d’apprécier la situation et d’évaluer les opérations réalisées. La pratique permet d’intérioriser les gestes attentivement observés afin de les imiter jusqu’au moment où l’apprenti devient capable de les réaliser correctement. Mel répétait souvent qu’il fallait «&#160;sentir&#160;» la bonne position d’un outil ou la réussite d’une opération sans pour autant être capable d'expliciter clairement par des mots chaque détail, verbalisation qu'il aurait d'ailleurs trouvée inutile (et complexe). Cette posture souligne une connaissance tacite (Polany, 1962) composée d’un ensemble de compétences liées à l'intériorisation des gestes qui sont difficiles à exprimer verbalement, mais qui constituent un patrimoine crucial pour réaliser les opérations.</p>
+                    <p xml:id="d1e404">Une simple opération –&#160;comme fixer une pièce&#160;– peut devenir pénible à réaliser, sans le confort et la sécurité d’un pont élévateur pour les voitures<note type="standard" xml:id="ftn8" place="foot" n="8">
+              <p> La présence d’au moins un pont élévateur ou une fosse est un élément presque incontournable des garages, dans les trois où j’ai mené les observations il y en avait au moins un.</p>
+            </note>. Les mécaniciens de rue se contentent de crics ordinaires ainsi que de chandelles de levage<note type="standard" xml:id="ftn9" place="foot" n="9">
+              <p> Structures généralement en acier permettant de stabiliser les véhicules qu’il faut maintenir soulevés.</p>
+            </note>. Le risque d’accident est toujours présent&#160;; j’étais d’ailleurs plutôt stressé lors des réparations par crainte de me blesser bien que, lors de mon travail avec les mécaniciens, je n’ai heureusement assisté à rien d’autre qu’à de légères coupures aux mains et au visage. L'urgence d'intervenir sur les véhicules et d'obtenir une rémunération implique souvent une lassitude dans l’application des mesures de prévention, favorisant la prise de risque. Grâce à l'expérience directe, une fois intégré le contexte social des mécaniciens de rue, j'ai pu apprécier leurs réparations arrangées qui sont la manifestation de leur expertise.</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e414">
+                <head subtype="level1" xml:id="d1e415">
+                    <hi xml:lang="fr">Mobiliser les ressources pour former un regard expert.</hi>
+                </head>
+                <p xml:id="d1e418">Les pratiques quotidiennes des mécaniciens et leurs adaptations aux contraintes illustrent l’acquisition d’un regard expert pour affronter les réparations. Les réparations «&#160;de rue&#160;» sont finalisées dans un contexte hostile et précaire où chaque ressource ou opération est soumise aux imprévus. Les mécaniciens de rue sont souvent obligés de manipuler un outillage vieillissant, tout en privilégiant l’emploi d’outils polyvalents moins performants et non électriques, faute d’argent et de conditions pour les utiliser<note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> Dans la rue la disponibilité d’électricité est problématique. Parfois, l’emplacement permet de se raccorder aux prises domestiques comme c’est le cas de Mel qui travaille pratiquement en bas de chez lui et utilise une rallonge.</p>
+          </note>. Le suivi de leurs pratiques permet de souligner le rôle du tissu relationnel et des collaborations qu’ils entretiennent avec les acteurs du monde de la réparation indispensables pour agir.</p>
+                <div type="div2" xml:id="d1e424">
+                    <head subtype="level2" xml:id="d1e425">
+                        <hi xml:lang="fr">La sensorialité au travail</hi>
+                    </head>
+                    <p xml:id="d1e428">L’expérience accumulée par les mécaniciens est fondamentale pour finaliser les réparations face aux limitations et aux imprévus. Je me concentre sur les manifestations du regard expert à partir des phases de recherche de l’origine des problèmes des véhicules. Pour les mécaniciens de rue, il s’agit d’un moment clé pendant lequel ils mobilisent leurs manières de voir affinant les sens. «&#160;Sentir&#160;» avec les mains, presque en caressant le moteur, leur permet de percevoir d’éventuels problèmes. L’ouïe est aussi en alerte pour détecter des «&#160;bruits bizarres&#160;» du moteur orientant les opérations. Un contrôle général se déroule en suivant des étapes pour examiner le véhicule, comme cet exemple le détaille&#160;:</p>
+                    <q rend="quotation">
+                        <hi xml:lang="fr">Mel ouvre le capot de la fourgonnette. Il contrôle le niveau d’huile, glisse son index à côté de la batterie où il y a des taches noires et porte le gant imprégné au nez pour le renifler. «&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Fais gaffe </hi>
+                        </hi>
+                        <hi xml:lang="fr">– dit-il au conducteur – </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">ça peut être une fuite d’huile, il s’affiche comment au compteur&#160;? Est-ce que t’as fait récemment la remise à niveau&#160;?</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;» Ensuite, il vérifie si les parties du moteur sont bien soudées en les secouant fermement avec les deux mains. Enfin, après avoir demandé de «&#160;donner du gaz&#160;», il observe les émissions de fumée et évalue la viscosité du résidu sur les bords internes du pot d’échappement en se frottant les doigts. (carnet de terrain, 21.03.2011)</hi>
+                    </q>
+                    <p xml:id="d1e443">Dans la mécanique de rue, cette expérience sensorielle se révèle cruciale compte tenu de l’absence (ou de la quasi-absence) d'alternative dans la recherche et l’identification de la panne<note type="standard" xml:id="ftn11" place="foot" n="11">
+              <p> Dans les garages «&#160;officiels&#160;» où j’ai mené mes observations, les véhicules étaient systématiquement soumis au diagnostic électronique lors de la recherche de la panne. Les mécaniciens de rue peuvent à l’occurrence utiliser ces outils techniques, notamment la valise électronique, mais cela s’avère difficile. Mel a acheté une valise « multimarque » économique et parfois demande à un ami garagiste d'utiliser son outillage professionnel. Le recueil de données pour établir un diagnostic dans les voitures progresse notamment suite à l’adoption en 2001 du système OBDII (On Board Diagnostic&#160;II). Si les voitures plus récentes sont déjà fabriquées pour faciliter leur suivi électronique, ce n’est pas le cas pour les modèles les plus anciens qui constituent la plupart des réparations des mécaniciens de rue.</p>
+            </note>. La recherche de la source d'un problème constitue un moment où l’univers sensoriel est particulièrement sollicité, avec la vue, le toucher et l’ouïe&#160;: </p>
+                    <q rend="quotation">
+                        <hi xml:lang="fr">L’Opel Zafira a de gros problèmes&#160;: le moteur, une fois allumé, «&#160;cale&#160;» sensiblement en risquant de s’éteindre à tout moment. Guy cherche à comprendre l’origine du problème. Il demande au conducteur de répéter maintes fois le démarrage pour écouter chaque vibration du moteur. D’abord convaincu d’une panne au démarreur, il vérifie sans trouver d’anomalie. Finalement, en touchant attentivement la surface des bougies d’allumage, il détecte une partie oxydée responsable du problème. (</hi>
+                        <hi xml:lang="fr">carnet de terrain</hi>
+                        <hi xml:lang="fr">, 13.03.2012)</hi>
+                    </q>
+                    <p xml:id="d1e456">La recherche d’une panne prend également appui sur les échanges entre clients et mécaniciens, riches de détails sur les bruits du moteur ou sur les sensations corporelles qui accompagnent la conduite (une voiture qui «&#160;tire&#160;» d’un côté, les freins qui «&#160;glissent&#160;» sous la pluie). Les mécaniciens de rue s'appuient donc sur la connaissance sensible capable de valoriser leur expérience. Ils mobilisent ainsi toute forme d'indication fournie par les détails du véhicule pour isoler les problèmes et imaginer leur solution. Leur manière d'agir rappelle les musiciens experts capables de maîtriser les morceaux classiques, tout comme d'improviser une composition, grâce à leur compétence technique et à l'expérience de la musique (Sudnow, 1978&#160;; Crawford, 2010).</p>
+                    <p xml:id="d1e458">L’exercice de ce métier oblige également à prendre en compte ses conséquences&#160;: en travaillant à l’extérieur et le plus souvent à même le sol, on est exposé au froid, au vent et à l’humidité et les douleurs au dos sont récurrentes. La maîtrise des mécaniciens de rue ne se limite pas aux prouesses techniques, mais se manifeste aussi dans la prise en compte des difficultés et des risques d’accident, car leur corps est un capital fragile. L'expérience permet d'anticiper et, dans la mesure du possible, limiter les contraintes et les inconvénients pour mieux s'organiser. Mel réduit les réparations l’hiver, surtout celles des «&#160;gros travaux&#160;» qui l’obligent à de nombreuses heures de travail. Guy a tout fait pour gagner la disponibilité d’un entrepôt où réaliser les opérations plus complexes quand il reçoit les voitures en consigne, pour limiter les heures de travail à l’extérieur et ses douleurs lombaires.</p>
+                </div>
+                <div type="div2" xml:id="d1e460">
+                    <head subtype="level2" xml:id="d1e461">
+                        <hi xml:lang="fr">Les ressources relationnelles</hi>
+                    </head>
+                    <p xml:id="d1e464">Les mécaniciens de rue se proposent à leurs clients pour différents services&#160;: préparer et accompagner les voitures aux contrôles techniques, se déplacer rapidement pour des dépannages, récupérer des pièces d’occasion dans les casse-auto, suivre la manutention ordinaire et extraordinaire du véhicule. Ces exemples illustrent quelques-unes des activités du mécanicien, bien au-delà de la simple exécution des réparations.</p>
+                    <p xml:id="d1e466">La dimension relationnelle est cruciale pour garder et élargir son réseau de clients, récupérer des outils ou avoir des «&#160;plans&#160;» pour les pièces détachées, «&#160;faire passer&#160;» des véhicules au contrôle technique ou préparer des achats ou des cessions. Les voitures les plus fréquemment proposées aux mécaniciens de rue sont en effet plutôt anciennes et les contrôles techniques périodiques deviennent des rendez-vous problématiques pour les clients soucieux de limiter les frais. </p>
+                    <p xml:id="d1e468">Une spécialisation consiste à s’occuper des véhicules déjà passés par des réparations sommaires. La priorité des propriétaires est de les garder en état de marche en limitant les frais et les mécaniciens de rue répondent à ces nécessités. Pour les mécaniciens agissant dans la rue, il est donc prioritaire de disposer d’un réseau de contacts comme le soulignent en particulier les cas de Mel et Guy. Tous les deux ont de bonnes relations –&#160;presque des collaborations&#160;– avec des gérants des contrôles techniques qui peuvent en l’occurrence fermer l’œil sur certains aspects de la voiture lors du test de pollution et délivrer la précieuse vignette. Les arrangements avec d’autres professionnels du monde de la réparation peuvent se faire par l’intermédiaire d’une gratification monétaire, mais aussi –&#160;tout simplement&#160;– grâce à des intermédiaires ou des relations de connaissance.</p>
+                    <p xml:id="d1e470">Le mécanicien de rue peut ainsi offrir plusieurs formes de services aux clients en valorisant les multiples contacts dont il dispose avec d’autres figures professionnelles du monde de la réparation. Il peut également se déplacer plus facilement avec son outillage dans le coffre pour des dépannages rapides, en faisant parfois économiser l’intervention de la dépanneuse. De manière analogue, en échange d’un «&#160;billet&#160;», il peut superviser la récupération des pièces ou l’achat d’une voiture d’occasion.</p>
+                    <p xml:id="d1e472">Ce n’est que suite à un temps assez long aux côtés des mécaniciens, pendant lequel j'avais la possibilité de les accompagner lors de leurs multiples services, que j’ai eu accès à leur réseau de connaissances et à leurs «&#160;bons plans&#160;». Contrairement à l’idée reçue de la mécanique de rue comme activité individuelle, la dimension relationnelle s’avère au contraire indispensable. Quand Mel échangeait avec Paco, son ami garagiste, il lui demandait son avis sur la voiture dont il était en train de s'occuper<note type="standard" xml:id="ftn12" place="foot" n="12">
+              <p> Mel avait un bon rapport avec Paco, gérant d'un garage, qui lui laissait utiliser ses outils de diagnostic et parfois lui prêtait de l'outillage.</p>
+            </note>&#160;; Guy savait profiter de la visite de Dan, un autre mécanicien de rue, pour qu’il lui montre comment faire quelques interventions de carrosserie. Les contacts permettent d’obtenir des ressources, matérielles en premier lieu, mais aussi des conseils, des formations et du transfert de compétences.</p>
+                </div>
+                <div type="div2" xml:id="d1e478">
+                    <head subtype="level2" xml:id="d1e479">
+                        <hi xml:lang="fr">Comment devenir un expert&#160;?</hi>
+                    </head>
+                    <p xml:id="d1e482">Devenir un mécanicien de rue expert, c'est-à-dire capable de répondre à la plupart des demandes de services des clients, implique de maîtriser les démarches pour réaliser les opérations et de développer une mémoire –&#160;sensorielle, elle aussi&#160;– des pannes réparées. L’expérience et la capacité de s'orienter dans les situations imprévues mettent en valeur les mécaniciens de rue. Un exemple lorsqu’une nouvelle voiture s’approche (19.10.2011)&#160;:</p>
+                    <q rend="quotation">
+                        <hi xml:lang="fr">Mel voit la 206 qu’il attendait s’approcher de la grille du parking. Il ouvre avec la télécommande et la regarde attentivement. Un instant après, il me demande&#160;: «&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">écoute&#160;! T'entends ce bruit-là&#160;? Cette espèce de grincement là… ça ne va pas ça. C’est un problème des freins</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;». J’ai cherché de me concentrer sur le bruit, mais même si j’arrivais à détecter «&#160;quelque chose&#160;» d’anormal, je n’avais pas d’avis sur la source du problème. Entre-temps, Mel a rejoint le conducteur pour lui demander&#160;: «&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Dis-moi, t’as de problèmes avec les freins par hasard&#160;? Je pense qu’ils font un bruit bizarre</hi>
+                        </hi>
+                        <hi xml:lang="fr">…</hi>
+                    </q>
+                    <p xml:id="d1e497">Cet exemple illustre le regard expert alimenté par l’incorporation de la connaissance. Si les réparations plus ordinaires peuvent être réalisées sans trop de planification, le talent du mécanicien se voit dans sa capacité à identifier la source des problèmes pour ensuite intervenir. Les réparations dans la rue peuvent réussir grâce à la capacité de «&#160;se faire suffire&#160;» les outils à disposition. Cette règle implique des fortes limitations dans l’intervention et des conditions de travail plus pénibles. Les mécaniciens de rue cherchent ainsi à se spécialiser dans la recherche de panne pour conseiller et orienter leurs clients, mais doivent également réussir à répondre aux demandes concernant des opérations fréquentes sur les voitures. Un exemple est la substitution des freins arrière. Cette opération de simple routine dans les ateliers des garagistes, n’est pas la même pour les mécaniciens de rue&#160;:</p>
+                    <q rend="quotation">Changer les freins arrière est complexe. Il faut tourner le piston, il doit faire des tours complets. Avant je faisais ça avec un tournevis, mais il était trop long, parfois deux heures pour une roue&#160;! Du coup j’ai acheté un repousse-piston, même si je n’ai pas à disposition l’air comprimé pour l’alimenter. Il me suffit l’utiliser à la main pour faire beaucoup plus vite. (Mel, 11.02.2012)</q>
+                    <p xml:id="d1e501">L’exemple montre la débrouille des mécaniciens qui se font suffire leurs simples outils comme le tournevis ou s’arrangent avec du matériel plus technique même sans pouvoir l’alimenter. La compétence du mécanicien s’illustre dans la rapidité de planification des nécessités de chaque réparation pour choisir si s’engager (ou pas). La rapidité est cruciale dans la rue&#160;: les propriétaires veulent se séparer de leur véhicule le moins longtemps possible.</p>
+                    <p xml:id="d1e503">Dans ce contexte, le mécanicien de rue maximise les possibilités de ses outils. Le tournevis, souvent dans ses mains, devient à l’occasion un cutter, une spatule pour nettoyer de pièces oxydées ou même une sorte de stéthoscope<note type="standard" xml:id="ftn13" place="foot" n="13">
+              <p> Dans plusieurs occasions, Mel rapprochait son oreille d’un long tournevis pour mieux apprécier les vibrations du moteur, puisqu’il ne disposait pas d’un stéthoscope de mécanicien. </p>
+            </note>. Les mécaniciens de rue se saisissent ainsi de chaque «&#160;occasion&#160;» (Gibson, 1979) qui peut surgir de leurs outils pour pailler leur dotation limitée. Lors des réparations, ils doivent «&#160;faire avec&#160;» grâce à leur expérience et leur talent pour des solutions arrangées. Ils peuvent ainsi fixer un pare-chocs avec une pince à rivet plutôt que des vis ou adapter les pièces d’un autre modèle récupérées à la casse pour les installer. </p>
+                    <p xml:id="d1e509">L’expertise du mécanicien de rue, et de son regard, se révèle quand il peut annoncer une réparation capable de «&#160;sauver&#160;» certaines parties du véhicule et intégrer des pièces d’occasion plutôt que de nouvelles. Dans ce cadre, les qualités professionnelles valorisées permettent une convergence entre les nécessités de débrouille du mécanicien et les attentes de clients à minimiser les changements, l’achat de pièces et donc les prix de la réparation. </p>
+                    <p xml:id="d1e511">Le devenir expert du mécanicien réside également dans sa capacité à mettre en récit sa compétence auprès des collègues, clients et apprentis via le détail des opérations à réaliser ou les comptes rendus des réussites passés. Ces échanges font également circuler d'autres informations essentielles pour travailler&#160;: les nouvelles habitudes de la police dans le quartier, les tensions avec certains clients ou riverains, les possibilités d'avoir des arrangements avec tel professionnel de la réparation mécanique. Ces récits s’apparentent parfois à des contes pour mettre en exergue les priorités à prendre en considération et l’importance des détails, comme lors de cet échange avec Zine, un mécanicien de rue&#160;:</p>
+                    <q rend="quotation">Un jour, pendant une vidange d'une Citroën 2&#160;CV j’étais pressé. La bagnole était garée n’importe comment sur le trottoir, mais l’opération à faire était rapide, le proprio mettait la pression. J’avais seulement à la soulever un peu. J’ai mis le cric dans la partie avant de la voiture pour faire plus d’espace là où il y avait la boîte de l’huile. Mais comme un con, j’ai fixé le cric à l’avant sans réfléchir, il n’était pas du tout bien positionné, du coup à la première secousse il a glissé et BOUM la bagnole m’est arrivée au visage. Et tu sais pourquoi je peux te raconter ça aujourd’hui&#160;? Tu piges&#160;? Je t’avais dit qu’était une 2<hi xml:lang="fr">&#160;</hi>CV toute à l’heure non&#160;? Les 2<hi xml:lang="fr">&#160;</hi>CV ont un châssis haut, pour ça les deux tonnes de la caisse m’ont seulement frôlé&#160;! (Zine, 04.10.11)</q>
+                    <p xml:id="d1e521">Cette histoire montre la nécessité pour le mécanicien de rue de disposer d'un regard expert qui ne doit pas se limiter aux apparences, mais doit rester attentif aux détails. Ces échanges sont aussi un moyen pour partager la connaissance en tant que supports pédagogiques (Grosjean, 2014a&#160;; Grasseni,&#160;2004) pour valoriser leur mémoire et leur expérience. Pour apprendre à se confronter aux imprévus, il est important de partager les récits des «&#160;victoires&#160;» sur des pannes complexes, garder en tête les possibilités d’obtenir des outils ou des coups de main par d’autres acteurs liés au monde de la réparation. La pédagogie mobilisée à cette occasion peut s’inscrire dans le registre des<hi rendition="#style02"> </hi>«&#160;histoires de guerre&#160;» (Orr, 1990&#160;; Lee, 1995). Il s'agit de récits qui ont l’objectif de sensibiliser les novices aux pratiques de travail, en indiquant – parfois avec exagération et pathos – les risques et les astuces du métier. L'usage de ces récits souligne et manifeste la connaissance du conteur qui peut valoriser son savoir se faire reconnaître en tant qu'acteur expert.</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e526">
+                <head subtype="level1" xml:id="d1e527">
+                    <hi xml:lang="fr">Conclusion</hi>
+                </head>
+                <p xml:id="d1e530">Le parcours d’apprentissage m'a permis de saisir, au-delà du travail exécutif de la mécanique de rue, toute l’importance –&#160;difficile à saisir par un regard extérieur&#160;– de la connaissance sensible et des relations avec les acteurs qui permettent le déroulement des réparations (garagistes, gérants de casses auto, opérateurs du contrôle technique et autres mécaniciens de rue).</p>
+                <p xml:id="d1e532">Les mécaniciens de rue, pour reprendre les mots de Le&#160;Breton (2006), «&#160;apprennent à voir&#160;» les véhicules pour les inspecter et chercher la panne. Leur rapport avec les moteurs est intense du point de vue sensoriel&#160;: ils caressent les pièces, reniflent les émissions du pot d’échappement, évaluent chaque bruit ou frottement avec une oreille musicale pour détecter les anomalies à l’harmonie du moteur (Sudnow, 1978). Si dans les garages, la recherche des problèmes est souvent dictée par le diagnostic électronique, dans la rue sont indispensables l’expérience et l’intuition.</p>
+                <p xml:id="d1e534">Ces formes de connaissance sensible sont constituantes des manières de voir (Grosjean, 2014a&#160;; Munz, 2019) ou <hi rend="italic">practice of seeing</hi> (Goodwin, 1994) du mécanicien de rue. L'expérience sensorielle contribue à lui fournir des éléments pour évaluer la situation et décider les moyens pour intervenir. Il s'agit donc d'une forme de regard expert, inspiré de la conception de <hi rend="italic">skilled vision</hi> telle qu’elle a été définie par Grasseni (2004, p.&#160;41) indiquant une vision –&#160;ou une manière de voir&#160;– qui ne se limite pas à l'observation détachée, mais se manifeste comme une forme de connaissance sensible non exclusivement visuelle. Le regard expert dans le cas des mécaniciens de rue se configure comme un ensemble de compétences qui concurrent à sa capacité d'agir face à un contexte incertain. Avant de commencer une réparation ou se rendre disponible pour un service, il est indispensable recueillir tout type d'information sur le problème technique. La répétition et l'expérience permettent de cumuler des répertoires d'action envisageables et de s'y orienter pour focaliser le problème. La capacité de «&#160;coder&#160;» (Goodwin, 1994) la masse d'informations et la mémoire sensorielle aident à détecter les indices pertinents à identifier une panne. </p>
+                <p xml:id="d1e542">La formation du regard expert se manifeste également dans l'habilité d'aborder la réparation de manière à minimiser l'intervention technologique, privilégiant un changement ponctuel de pièce plus qu'une substitution de système<note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> Dans ce cadre, on retrouve une différence avec les garagistes&#160;: si ces derniers face à une panne proposent souvent un changement de système pour des raisons de sécurité, les mécaniciens de rue sont sollicités pour se limiter aux seules pièces cassées. </p>
+          </note>
+          <hi rend="italic">. </hi>Une telle attitude cherche dans le même temps à limiter l'effort physique nécessaire. Les mécaniciens de rue savent donc se débrouiller avec des ressources et des disponibilités limitées&#160;: avec les «&#160;moyens de bord », pour reprendre une expression de Lévi-Strauss (1962) à propos des bricoleurs. Cette figure évoque de manière précise la compétence de composer et recomposer un ensemble, matériel et relationnel, d’outils et de ressources.<hi rend="italic"> </hi>
+        </p>
+                <p xml:id="d1e552">Les mécaniciens, face aux limites de leur situation, se saisissent de l’<hi rend="italic">affordance</hi> des ressources matérielles et relationnelles à disposition (Gibson, 1979). Ils emploient les outils même au-delà de leur fonction spécifique (Pillon, 2014&#160;; Munz, 2017) comme le tournevis qui reste souvent dans leurs mains prêt à l'emploi, également pour réaliser des tâches imprévues. Ils profitent ainsi de toutes les occasions suggérées par les ressources afin d’élaborer des plans d'action. Ils recourent à une «&#160;organisation de l'immédiat&#160;» pour essayer de neutraliser les conséquences des imprévus constamment présents dans leur contexte. </p>
+                <p xml:id="d1e557">Dans cette situation, la disponibilité de temps et la flexibilité des lieux de travail peuvent devenir une opportunité. Le mécanicien de rue se positionne dans les interstices du monde de la réparation pour proposer des services en tant que facilitateur. Grâce aux contacts, il se présente comme un consultant capable d’orienter vers une réparation à bas prix. Il devient une «&#160;personne de confiance&#160;» à qui confier un véhicule problématique pour trouver une solution ou faciliter l'intervention d'autres professionnels.</p>
+                <p xml:id="d1e559">Le regard expert des mécaniciens de rue est enfin une compétence relationnelle qui se manifeste également grâce à la reconnaissance autrui. Leurs qualités professionnelles ne sont pas reconnues par des diplômes, mais exclusivement par les résultats obtenus face aux réparations et par la satisfaction des clients. Les demandes de services d'accompagnement et de réparation ont dans la plupart de cas l'objectif de prolonger la durée de roulement des véhicules. Qui s'adresse aux mécaniciens de rue est le premier à ne pas vouloir une réparation structurale, il préfère changer le moins de pièces possible, et donc à payer le moins possible. Ces clients cherchent en effet des réparations débrouillardes&#160;!<note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> Didier, un client, le résume ainsi&#160;: «&#160;<hi rend="italic">Ils (les mécaniciens de rue) ne te font pas la voiture nickel, mais font un travail qui tient la route, qu’il est solide quoi… Pas quelque chose qui serait à norme, mais une bagnole avec laquelle tu peux rouler.</hi>&#160;» (cdt. 20.04.11)</p>
+          </note>
+                </p>
+                <p xml:id="d1e568">Le rôle des mécaniciens de rue bénéficie ainsi d'une légitimation dans le quartier où ils travaillent comme déjà souligné par Venkatesh (2007) et le Collectif Rosa Bonheur (2019). Plutôt qu’apparaitre seulement comme des concurrents déloyaux des garagistes, leurs pratiques suggèrent une spécialisation professionnelle s’adressant à une portion de population à la recherche de mécaniciens experts dans la débrouille pour des réparations rafistolées.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e574">
+                <listBibl xml:id="d1e576">
+                    <bibl xml:id="d1e578">
+            <hi xml:lang="en">Arborio, A.M., Cohen, Y., Fournier P., Hatzfeld, N., Lomba, C. &amp; Müller, S. (2008). </hi>
+            <hi rend="italic">Observer le travail&#160;: histoire, ethnographie, approches combinées.</hi> Paris&#160;: La&#160;Découverte.</bibl>
+                    <bibl xml:id="d1e584">Bouffartigue, P. (2012). Ambivalences dans l’expérience du travail précaire&#160;: Paroles de postiers&#160;» in P.&#160;Cingolani (dir<hi rend="italic">.</hi>). <hi rend="italic">Un travail sans limites&#160;: Subordination, tensions, résistances</hi>, Toulouse&#160;: ERES.</bibl>
+                    <bibl xml:id="d1e592">Bourgois, P. (2002). <hi rend="italic">
+              <hi xml:lang="en">In search of respect. Selling crack in El Barrio.</hi>
+            </hi>
+            <hi xml:lang="en"> Cambridge: University of Cambridge Press.</hi>
+          </bibl>
+                    <bibl xml:id="d1e599">
+            <hi xml:lang="en">Calderón, J. A., Demailly, L. &amp; Muller, S. (2016). </hi>
+            <hi rend="italic">Aux marges du travail.</hi> Toulouse&#160;: Octares Editions.</bibl>
+                    <bibl xml:id="d1e605">Cartron, D. (2003). Le sociologue pris en sandwich&#160;! Retour sur une observation participante au McDonald's. <hi rend="italic">Travail et Emploi</hi>, (94), 59-64.</bibl>
+                    <bibl xml:id="d1e610">Cingolani, P. (2014). <hi rend="italic">Révolutions précaires. Essai sur l’avenir de l’émancipation.</hi>
+                        <hi xml:lang="en">Paris: La Découverte.</hi>
+          </bibl>
+                    <bibl xml:id="d1e617">
+                        <hi xml:lang="en">Coletto, D. (2010). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The informal economy and employment in Brazil: Latin America, modernization, and social changes</hi>
+                        </hi>
+                        <hi xml:lang="en">, New York: Palgrave Macmillan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e625">Collectif Rosa Bonheur (2017). Les garages à ciel ouvert&#160;: configurations sociales et spatiales d’un travail informel. <hi rend="italic">Actes de la recherche en sciences sociales</hi>, <hi rend="italic">216-217</hi> (1), 80-103.</bibl>
+                    <bibl xml:id="d1e633">Collectif Rosa Bonheur (2019). <hi rend="italic">La ville vue d'en bas. Travail et production de l'espace populaire</hi>. Paris&#160;: Amsterdam Éditions.</bibl>
+                    <bibl xml:id="d1e638">Crawford, M. B. (2016). <hi rend="italic">Éloge du carburateur&#160;: essai sur le sens et la valeur du travail</hi>. <hi xml:lang="en">Paris&#160;: La&#160;Découverte.</hi>
+          </bibl>
+                    <bibl xml:id="d1e646">
+                        <hi xml:lang="en">Dant, T. (2010). The work of repair: Gesture, emotion and sensual knowledge. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Sociological Research Online</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">15</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 97-118.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e659">
+                        <hi xml:lang="en">Garfinkel, H. (1967). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Studies in Ethnomethodology,</hi>
+                        </hi>
+                        <hi xml:lang="en"> Engelwood Cliff: Prentice-Hall.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e667">
+            <hi xml:lang="en">Gherardi, S. (2000). Practice-based theorizing on learning and knowing in organizations: An introduction to the special issue on ‘Knowing in practice’. </hi>
+            <hi rend="italic">Organization</hi>, <hi rend="italic">7</hi>(2), 211-223.</bibl>
+                    <bibl xml:id="d1e676">Gherardi, S. (2008). Aujourd’hui les plaques sont molles&#160;! Savoir situé et ambiguïté dans une communauté de pratiques. <hi rend="italic">Revue d'anthropologie des connaissances</hi>, <hi rend="italic">2</hi>(1), 3-35.</bibl>
+                    <bibl xml:id="d1e684">Gherardi, S. (2017). La théorie de la pratique serait-elle à court de carburant&#160;? <hi rend="italic">Revue d'anthropologie des connaissances</hi>, <hi rend="italic">11</hi>(2), 165-176.</bibl>
+                    <bibl xml:id="d1e692">Gibson, J. (1979). <hi rend="italic">The ecological approach to visual perception</hi>, Boston: Houghton Mifflin.</bibl>
+                    <bibl xml:id="d1e697">Goodwin, C. (1994). Professional Vision. <hi rend="italic">American Anthropologist</hi>, <hi rend="italic">3</hi>, 606-633.</bibl>
+                    <bibl xml:id="d1e705">
+                        <hi xml:lang="en">Goodwin, C. (2000). Action and embodiment within situated human interaction. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal of Pragmatics</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">32</hi>
+                        </hi>
+                        <hi xml:lang="en">, 1489-1522.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e718">
+            <hi xml:lang="en">Grasseni, C. (2004). Skilled vision: An apprenticeship in breeding aesthetics. </hi>
+            <hi rend="italic">Social Anthropology</hi>, <hi rend="italic">12</hi>(1), 41–55.</bibl>
+                    <bibl xml:id="d1e727">Grasseni, C. &amp; Ronzon, F. (2004). <hi rend="italic">Pratiche e cognizione. Note di ecologia della cultura</hi>, Roma: Meltemi.</bibl>
+                    <bibl xml:id="d1e732">Grosjean, S. (2014). </bibl>
+                    <bibl xml:id="d1e735">Grosjean, S. (2014a). Existe-t-il une <hi rend="italic">manière de voir </hi>organisationnelle: de l'intérêt de suivre les « <hi rend="italic">practices of seeing </hi>» en organisation. <hi rend="italic">Revue d'anthropologie des connaissances</hi>, <hi rend="italic">8</hi>(1), 143-177.</bibl>
+                    <bibl xml:id="d1e749">Jounin, N. (2008). <hi rend="italic">Chantier interdit au public&#160;: enquête parmi les travailleurs du bâtiment.</hi> Paris&#160;: La&#160;Découverte.</bibl>
+                    <bibl xml:id="d1e754">Lave, J. &amp; Wenger, E., (1991). <hi rend="italic">Situated Learning. Legitimate Peripheral Participation</hi>. Cambridge, Mass: Cambridge University Press.</bibl>
+                    <bibl xml:id="d1e759">Laé, J-F. (1989). <hi rend="italic">Travailler au noir.</hi> Paris&#160;: Métailié.</bibl>
+                    <bibl xml:id="d1e764">Le Breton, D. (2006). <hi rend="italic">La saveur du monde. Une anthropologie des sens. </hi>
+            <hi xml:lang="fr">Paris&#160;: Métailié.</hi>
+          </bibl>
+                    <bibl xml:id="d1e770">
+                        <hi xml:lang="en">Lee, R. (1995). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Dangerous fieldwork.</hi>
+                        </hi>
+                        <hi xml:lang="en"> Thousand Oaks, CA: Sage.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e778">Lévi-Strauss, C. (1961). <hi rend="italic">La pensée sauvage.</hi> Paris&#160;: Plon.</bibl>
+                    <bibl xml:id="d1e783">Lévy-Vroelant, C. (2016). Se mouiller au propre comme au figuré. De l’observation à l’ethnographie dans les bains-douches parisiens. <hi rend="italic">Espaces et sociétés</hi>, <hi rend="italic">164-165</hi>(1), 127-142.</bibl>
+                    <bibl xml:id="d1e791">Morelle, M. &amp; Jacquot, S. (2018). Comment penser l’informalité dans les villes «&#160;du Nord&#160;», à partir des théories urbaines «&#160;du Sud&#160;»&#160;? <hi rend="italic">Métropoles</hi>, (22).</bibl>
+                    <bibl xml:id="d1e796">Munz, H. (2017). Les doigts fertiles&#160;: La formation du regard professionnel dans les transferts de savoirs entre la Suisse et Hong Kong. <hi rend="italic">Socio-Anthropologie</hi>, (35), 75–91.</bibl>
+                    <bibl xml:id="d1e801">Munz, H. (2019). Fabriquer la visibilité. Technographies et pratiques d’inscription dans l’apprentissage du regard professionnel. <hi rend="italic">Techniques &amp; Culture</hi>, <hi rend="italic">71</hi>(1), 144-159.</bibl>
+                    <bibl xml:id="d1e810">Ndiaye, A., Mamou K. &amp; Deboulet A. (2019). La mécanique de rue&#160;: vertus cachées d’une économie populaire dénigrée. <hi rend="italic">Metropolitiques</hi>.eu, adresse URL: https://hal.archives-ouvertes.fr/hal-02615305/document.</bibl>
+                    <bibl xml:id="d1e815">
+                        <hi xml:lang="en">O’Connor, E. (2005). Embodied knowledge: The experience of meaning and the struggle towards proficiency in glassblowing. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Ethnography</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">6</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 183–204. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e828">
+                        <hi xml:lang="en">Orr, J. (1990). Sharing Knowledge, Celebrating Identity: War Stories and Community Memory in a Service Culture, In D.&#160;Middleton &amp; D.&#160;Edwards (dir.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Collective Remembering: Memory in Society</hi>
+                        </hi>
+                        <hi xml:lang="en">, Beverley Hills: Sage.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e836">
+            <hi xml:lang="en">Pérez-Bustos, T. (2017). </hi>
+            <hi xml:lang="fr">Penser avec soin. </hi>Effilage et raccommodage dans une ethnographie de broderie artisanale et&#160;technologie. <hi rend="italic">Revue d'anthropologie des connaissances</hi>, <hi rend="italic">11</hi>(1), 1-22.</bibl>
+                    <bibl xml:id="d1e848">Pillon, T. (2012). <hi rend="italic">Le corps à l’ouvrage.</hi>
+                        <hi xml:lang="en">Paris&#160;: Stock.</hi>
+          </bibl>
+                    <bibl xml:id="d1e855">
+                        <hi xml:lang="en">Pink, S. (2001). Doing ethnography: Images, media and representation in research. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Forum Qualitative Sozialforschung/Forum: Qualitative Social Research</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">3</hi>
+                        </hi>
+                        <hi xml:lang="en">(1).</hi>
+                    </bibl>
+                    <bibl xml:id="d1e868">
+                        <hi xml:lang="en">Pink, S. (2009). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Doing Sensory Ethnography</hi>
+                        </hi>
+                        <hi xml:lang="en">, Sage.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e876">
+                        <hi xml:lang="en">Pink, S. (2013). Engaging the Senses in Ethnographic Practice. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Senses and Society</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">8</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 261-267.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e889">
+                        <hi xml:lang="en">Polany, M. (1962). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Personal knowledge.</hi>
+                        </hi>
+                        <hi xml:lang="en"> Londres: Routledge.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e897">
+                        <hi xml:lang="en">Schatzki, T. R., Knorr-Cetina K. &amp; von Savigny E. (2001). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Practice Turn in Contemporary Theory</hi>
+                        </hi>
+                        <hi xml:lang="en">, Londres: Routledge.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e905">
+                        <hi xml:lang="en">Strati, A. (2007). Sensible knowledge and practice-based learning. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Management Learning</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">38</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 61–77. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e919">
+                        <hi xml:lang="en">Sudnow, D. (1978). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Ways of the Hand. The Organization of Improvised Conduct</hi>
+                        </hi>
+                        <hi xml:lang="en">, Cambridge: Harvard University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e927">Tafferant, N. (2007). <hi rend="italic">Le “Bizness”&#160;: Une économie souterraine</hi>, Paris&#160;: PUF.</bibl>
+                    <bibl xml:id="d1e932">
+                        <hi xml:lang="en">Venkatesh, S. (2006). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Off the books. The underground economy of the urban poor</hi>
+                        </hi>
+                        <hi xml:lang="en">, Cambridge: Harvard University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e940">Wacquant, L. (2002). <hi rend="italic">Corps et âme&#160;: Carnets ethnographiques d’un apprenti boxeur.</hi> Marseille&#160;: Agone.</bibl>
+                    <bibl xml:id="d1e945">
+            <hi xml:lang="fr">Wacquant, L. (2005). Carnal Connections: On Embodiment, Membership and Apprenticeship. </hi>
+            <hi rend="italic">Qualitative Sociology</hi>, <hi rend="italic">28</hi>(4), 445-471.</bibl>
+                    <bibl xml:id="d1e954">Wacquant, L. (2010). L’habitus comme objet et méthode d’investigation. Retour sur la fabrique du boxeur. <hi rend="italic">Actes de la recherche en sciences sociales,</hi> (184), 108-121.</bibl>
+                    <bibl xml:id="d1e959">Weber, F. (1989). <hi rend="italic">Le travail à-côté. Une ethnographie des perceptions</hi>, Paris&#160;: Éditions de l’EHESS.</bibl>
+                    <bibl xml:id="d1e964">Weber, F. (2008). <hi rend="italic">Le travail au noir&#160;: une fraude parfois vitale&#160;? </hi>
+            <hi xml:lang="en">Paris</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">&#160;</hi>
+            </hi>
+            <hi xml:lang="en">:</hi>
+            <hi rend="italic">
+              <hi xml:lang="en"> </hi>
+            </hi>
+            <hi xml:lang="en">Éditions Rue d'Ulm.</hi>
+          </bibl>
+                    <bibl xml:id="d1e980">
+            <hi xml:lang="en">Williams, C. (2013). Out of the shadows: a classification of economies by the size and character of their informal sector. </hi>
+            <hi rend="italic">Work, Employment &amp; Society</hi>, <hi rend="italic">28</hi>(5), 1-19.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

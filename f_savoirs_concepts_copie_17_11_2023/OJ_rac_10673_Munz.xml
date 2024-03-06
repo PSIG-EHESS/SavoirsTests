@@ -1,0 +1,463 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-07-21T10:40:09.115+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_10673_Munz">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">(Sa)voir, voiler, valoir</hi>
+                </title>
+                <title type="sub">
+                    <hi xml:lang="fr">Les pratiques de voilement comme façonnages du regard professionnel</hi>
+                </title>
+                <title level="a" type="alt" xml:lang="en">Knowing How to See, Dissimulating, Valuing. Practices of veiling as Ways of Shaping the Visual Expertise</title>
+                <title level="a" type="alt" xml:lang="es">Saber, ocultar, valorizar. Prácticas de ocultamiento y modelado de la mirada profesional</title>
+                <author>
+                    <persName>
+                        <forename>Hervé</forename>
+                        <surname>Munz</surname>
+                    </persName>
+                    <affiliation> Après une thèse en anthropologie sur la transmission et la patrimonialisation des savoirs dans l’industrie des montres en Suisse, Hervé Munz a mené des recherches postdoctorales sur la circulation des formations horlogères «&#160;<hi rend="italic">Swiss made</hi>&#160;» en Grande Chine. Depuis 2017, il coordonne un projet sur l’invocation de la mondialité dans le Patrimoine Culturel Immatériel de l’UNESCO à l’Université de Genève.Adresse&#160;: Département de géographie, Faculté des Sciences de la société, Université de Genève, 66 Bd Carl-Vogt, CH-1205 Genève (Suisse). Courriel&#160;: Herve.Munz[at]unige.ch </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>value</item>
+                        <item>learning</item>
+                        <item>way of knowing</item>
+                        <item>visual expertise</item>
+                        <item>visibility</item>
+                        <item>practice of veiling</item>
+                        <item>material</item>
+                        <item>watchmaking</item>
+                        <item>Switzerland</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>valores</item>
+                        <item>aprendizaje</item>
+                        <item>conocimiento</item>
+                        <item>mirada profesional</item>
+                        <item>visibilidad</item>
+                        <item>velo</item>
+                        <item>materiale</item>
+                        <item>relojería</item>
+                        <item>Suiza</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>apprentissage</item>
+                        <item>matérialité</item>
+                        <item>regard professionnel</item>
+                        <item>savoir</item>
+                        <item>visibilité</item>
+                        <item>voilement</item>
+                        <item>valeur</item>
+                        <item>horlogerie</item>
+                        <item>Suisse</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">(Sa)voir, voiler, valoir</titlePart>
+                    <titlePart type="sub">Les pratiques de voilement comme façonnages du regard professionnel</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Hervé Munz</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e284">
+                <p xml:id="d1e285">
+                    <hi xml:lang="fr">Comment exercer ou apprendre un métier alors que l’accès visuel à ses composantes est stratégiquement obstrué ou empêché par autrui&#160;? Dans l’optique de répondre à cette question, le présent article s’intéresse à la formation du regard professionnel chez les horloger·ère·s de l’industrie des montres suisses. S’inscrivant dans la lignée de travaux en sciences humaines et sociales qui questionnent les rapports entre voir, savoir et appartenir, l’article examine la façon dont les horloger·ère·s acquièrent un certain regard expert en faisant l’expérience de problèmes de visibilité induits par des pratiques de voilement commises par des pairs (secrets, dissimulations, masquages mais également silences et non-dits). Sur la base de récits et d’observations collectés au cours d’une ethnographie de quatre années, menée avec des professionnel-le-s et des apprenti·e·s dans des entreprises, des écoles et des foires professionnelles de l’Arc jurassien suisse, l’article entend montrer que les voilements constituent certaines des modalités particulières par lesquelles le savoir voir des horloger·ère·s et le regard professionnel qu’il fonde, se façonnent, s’apprennent et se transmettent.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e288">
+                <p xml:id="d1e289">
+                    <hi xml:lang="en">How can we practice or learn a craft when visual access to its components is strategically obstructed or prevented by others? In order to answer that question, this article focuses on the formation of visual expertise among watchmakers in the Swiss watch industry. In line with works in the humanities and social sciences which question the relationships between seeing, knowing and belonging, the article examines the ways in which watchmakers acquire a certain visual expertise by experiencing visibility problems induced by practices of dissimulation and veiling committed by peers (secrets, concealment, masking but also silences and unspoken). On the basis of stories and observations collected during a four-year ethnography, conducted with professionals and apprentices in companies, schools and professional fairs of the Swiss Jura Arc region, the article aims to show that practices of veiling constitute some of the particular modalities by which the skilled vision of watchmakers and the visual expertise that it establishes, is shaped, learned and transmitted.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e292">
+                <p xml:id="d1e293">
+          <hi xml:lang="fr">Cómo practicar o aprender un oficio cuando el acceso visual a sus componentes está estratégicamente obstruido o impedido por otros? </hi>Para responder a esta pregunta, este artículo se centra en la capacitación de los ojos profesionales entre los relojeros de la industria relojera suiza. En línea con los trabajos en humanidades y ciencias sociales que cuestionan las relaciones entre ver, conocer y pertenecer, el artículo examina la forma en que los relojeros adquieren un cierto aspecto experto al experimentar problemas de visibilidad inducidos por prácticas de disimulación y velo cometidas por pares (secretos, ocultamiento, enmascaramiento pero también silencios y palabras no dichas). Sobre la base de cuentos y observaciones recopiladas durante una etnografía de cuatro años, realizada con profesionales y aprendices en empresas, escuelas y ferias profesionales del arco jurásico suizo, El artículo pretende mostrar que las prácticas de ocultamiento constituyen algunas de las modalidades particulares mediante las cuales se forma, aprende y transmite el conocimiento de ver a los relojeros y la mirada profesional que establece.</p>
+            </div>
+        </front>
+        <body>
+            <p rend="epigraph" xml:id="d1e301">
+                <hi xml:lang="fr">A Liaudatte, barque en ciel.</hi>
+            </p>
+            <div type="div1" xml:id="d1e304">
+                <head subtype="level1" xml:id="d1e305">
+                    <hi xml:lang="fr">Une anthropologie du regard et de la visibilité professionnels</hi>
+                </head>
+                <p xml:id="d1e308">Comment exercer ou apprendre un métier alors que l’accès visuel à ses composantes est stratégiquement obstrué ou empêché&#160;par autrui&#160;? En quoi ces visibilités contrariées (voire impossibles) participent du façonnage même du regard expert et des logiques qui président à son acquisition&#160;? En résonance avec ces interrogations, la présente contribution constitue le dernier volet d’un triptyque d’articles qui vise la réalisation d’une anthropologie des savoirs, des regards professionnels et des visibilités qui les fondent. S’inscrivant dans la lignée de travaux en sciences humaines et sociales qui questionnent les rapports entre voir, savoir et appartenir (Cornu, 1991&#160;; Goodwin, 1994&#160;; Downey, 2007&#160;; Grasseni, 2009&#160;; Pentimalli &amp; Rémery, 2018), ces trois articles s’intéressent à la formation du regard expert chez les horloger·ère·s travaillant dans la production des montres suisses<note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> <hi xml:lang="fr">Celle-ci ne se situe pas nécessairement </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">en Suisse</hi>
+              </hi>
+              <hi xml:lang="fr"> puisqu’elle concerne aujourd’hui une industrie globalisée qui se trouve disséminée et pratiquée à de nombreux endroits du monde.</hi>
+            </p>
+          </note>. L’expression «&#160;formation du&#160;regard professionnel&#160;» revêt une double acception, à la fois métaphorique&#160;et littérale&#160;: d’une part, elle désigne l’acquisition progressive d’un rapport au monde propre au métier de l’horlogerie&#160;; d’autre part, elle renvoie à la détermination du sens de la vue dans cette appréhension professionnelle du monde, à la composition matérielle de l’expertise visuelle des horloger·ère·s et aux facteurs qui favorisent ou compromettent leur visibilité. </p>
+                <div type="div2" xml:id="d1e321">
+                    <head subtype="level2" xml:id="d1e322">
+                        <hi xml:lang="fr">Visibilité, voile et voilement</hi>
+                    </head>
+                    <p xml:id="d1e325">La visibilité ne définit pas ici la qualité passive de <hi rend="italic">ce qui est vu</hi> mais le processus actif qui <hi rend="italic">fait voir</hi>. Elle est «&#160;l’agencement –&#160;pour un individu ou un collectif, dans un contexte socio-historique précis&#160;– (…) de facultés sensorielles (non limitées à la vue), d’éléments matériels, de pratiques <hi rend="italic">mais également </hi>de discours, de valeurs et d’institutions qui rend un objet ou un processus visible, et configure (un) regard&#160;(professionnel).&#160;» (Munz, 2019, p.&#160;147)</p>
+                    <p xml:id="d1e336">Les trois articles susmentionnés sont basés sur deux enquêtes ethnographiques relatives à la transmission et à l’acquisition des savoirs horlogers, menées en Europe de l’ouest (principalement en Suisse) et en Grande Chine (principalement à Hong Kong), durant respectivement quatre et deux ans. Ils portent plus particulièrement sur les obstacles visuels auxquels les particularités sociotechniques de l’activité horlogère confrontent les praticien·ne·s. Ce triptyque examine comment ces obstacles modèlent, à différents niveaux, le regard connaissant des gens de métier et quelles stratégies ces derniers élaborent afin de les contourner et de «&#160;fabriquer la visibilité&#160;» (Munz, 2019, p.&#160;147) que leurs actions requièrent. </p>
+                    <p xml:id="d1e338">L’exercice du regard professionnel dans l’industrie des garde-temps<note type="standard" xml:id="ftn2" place="foot" n="2">
+              <p> Instrument horaire de grande précision, employé́ dans ce texte comme synonyme de «&#160;montre&#160;». </p>
+            </note> helvétiques offre, en effet, un cas d’étude intéressant car l’enjeu de la visibilité y pose un problème redoublé. De l’aveu des acteurs·rice·s et organisations de la branche, l’accès visuel aux savoirs présente deux difficultés majeures. D’une part, l’horlogerie est une activité faite de microgestes effectués sur des pièces minuscules, souvent masquées par les corps des praticien·ne·s au travail. La petitesse et le nombre de pièces –&#160;en particulier dans les montres bracelets mécaniques&#160;– la superposition enchevêtrée de diverses «&#160;strates&#160;» d’éléments dans un «&#160;mouvement&#160;»<note type="standard" xml:id="ftn3" place="foot" n="3">
+              <p> Moteur d’une montre, composé de l’ensemble de ses principaux organes.</p>
+            </note>, la complexité du fonctionnement de certains mécanismes, ainsi que l’échelle microscopique à laquelle sont réalisées la plupart des interventions compliquent la visibilité du travail horloger. </p>
+                    <p xml:id="d1e348">D’autre part, la fabrication des montres «&#160;<hi rend="italic">Swiss made</hi>&#160;» prend place dans une industrie où prévaut, de manière séculaire, une&#160;«&#160;tradition du secret&#160;» (Munz, 2011, 2016). Nombre d’entretiens et d’observations réalisés avec des horloger·ère·s attestent de l’importance de cette «&#160;tradition&#160;» dans l’évocation du métier ainsi que de la récurrence du motif de l’opacité dans les échanges qui ont lieu en entreprise et entre entreprises. De manière plus générale, la branche est perçue, en Suisse et dans le monde entier, comme «&#160;impénétrable&#160;», tant par les historiens et ethnologues qui peinent à l’étudier (Donzé, 2011, p.&#160;7&#160;; Feuz 2013, p.&#160;9) que par ses représentant·e·s. Ces derniers-ères jouent néanmoins la carte d’une telle réputation en capitalisant, plus ou moins ostensiblement, sur ce qui est caché&#160;: silences et rétentions d’informations affichés en public, restrictions d’accès aux marques lors de salons, mises en scène de l’exclusivité propres à l’univers du luxe, clauses de confidentialité, propriété intellectuelle. </p>
+                    <p xml:id="d1e353">De l’aveu des horloger·ère·s rencontré·e·s, ce ne sont toutefois pas les caractéristiques techniques de la fabrication des montres elle-même qui débordent sur les interactions sociales et les conduisent à développer et entretenir cette culture professionnelle du voilement. Il n’y a pas d’articulation logique, ni de rapport d’enchaînement entre ces deux ordres de réalité distincts mais une forme de contiguïté sociotechnique qui conduit l’un et l’autre ordre à renforcer, en parallèle, la manière dont l’enjeu de la visibilité fait problème pour les gens de métier.</p>
+                    <p xml:id="d1e355">Faisant écho à ces réalités entremêlées, les deux premiers articles du triptyque évoqué plus haut ont traité des problèmes de visibilité induits par les propriétés matérielles de l’activité horlogère –&#160;les <hi rend="italic">voiles</hi>&#160;– et des solutions synesthésiques (Munz, 2017) et «&#160;technographiques&#160;» (Munz, 2019) que les praticien·ne·s y apportent. En complément à ces textes, la présente contribution étudie les problèmes de visibilité que rencontrent horloger·ère·s, dans le cadre de leur apprentissage du métier et de leur travail quotidien, suite à des actes intentionnels de <hi rend="italic">voilement</hi> commis par des tiers, à l’échelle du secteur. </p>
+                    <p xml:id="d1e363">A dessein, nous employons ici la notion de «&#160;voilement&#160;» plutôt que celle de «&#160;secret&#160;» car la première citée est plus générique que la seconde. Le secret ne constitue, en effet, que l’un des modes particuliers du voilement (Munz, 2016, p.&#160;156). La notion de «&#160;voilement&#160;» renvoie à un large spectre de pratiques et de discours qui inclut des phénomènes tels que la mise en secret, la dissimulation, le masquage mais aussi la mise sous silence ou le non-dit. Si ces phénomènes ne se superposent pas les uns aux autres, l’intérêt heuristique de les ranger sous la rubrique de «&#160;voilement&#160;» réside précisément dans la propension de cette notion à ramener des phénomènes distincts à un même dénominateur commun, lié à la dialectique de la visibilité. Le voilement désigne, en effet, toute pratique sociale qui, de manière volontaire et selon de multiples modalités, restreint l’accès visuel (mais aussi tactile ou auditif) à un objet particulier (procédé, technique, information, protocole, geste). Une telle pratique n’empêche pas définitivement l'accès à l’item mais le régule en ménageant la possibilité de «&#160;jeux de dévoilement&#160;» et de recouvrement qui sont autant de jeux de pouvoir (Petitat 2000, p.&#160;8) où se construisent des rapports sociaux, des hiérarchies, des valeurs et des formes d’appartenance professionnels.</p>
+                </div>
+                <div type="div2" xml:id="d1e365">
+                    <head subtype="level2" xml:id="d1e366">Du voilement comme visibilité </head>
+                    <p xml:id="d1e368">Le voile recouvrant l’accès au terrain d’enquête et troublant le regard de l’enquêteur·rice constitue certes un thème classique de l’ethnographie (Mitchell, 1993) et le secret, depuis Simmel (1908), un topos privilégié pour penser les dynamiques sociales de création des valeurs (MEN, 2016). Toutefois, ces dernières décennies ont également vu le fleurissement de travaux d’anthropologie des connaissances (Dilley, 1989&#160;; Adell, 2008&#160;; Prentice, 2012) questionnant spécifiquement les formes d’apprentissage professionnel et l’enjeu du voilement, dont le secret constitue l’une des déclinaisons les plus documentées. Ces travaux ont fait valoir différentes propositions dont l’orientation du présent article s’inspire. </p>
+                    <p xml:id="d1e370">Premièrement, l’acquisition d’un savoir-faire met régulièrement en jeu l’incorporation d’un «&#160;savoir-taire&#160;» (Zempéni, 1996) et d’un «&#160;pouvoir dire&#160;» (Jamin, 1979). Les interactions entre experts/novices ou formateurs/apprenants sont souvent traversées par des formes de rétention et de rapt, témoignant de dynamiques agonistiques de rivalité, de mise au défi et d’initiation. Les élèves sont parfois conduits à acquérir leurs compétences en les «&#160;volant&#160;» plus ou moins littéralement à leurs maîtres (Noyes, 1989&#160;; Marchand, 2002&#160;; Buob, 2012). Deuxièmement, il n’est de secrets et de voilements qu’incarnés (Herzfeld 2004, Marchand 2007). Ceux-ci ne sont pas des entités abstraites, intangibles ou invisibles mais bien les produits d’un «&#160;faire&#160;» (Adell, 2014), soit d’actes, de sensorialités, de gestes et de techniques qui mettent les corps et les matérialités en jeu. Enfin, le voilement n’existe socialement qu’à la faveur de ce qui peut apparaître comme un paradoxe&#160;: il ne restreint l’accès à un item qu’à la faveur de la monstration de cette restriction. Il existe dans la manifestation même de ce qu’il voile. Il est une performance, au sens scénique du terme. Comme le relève Giraud (2005, p.&#160;260), il «&#160;se donne à voir, à entendre et enfin, à comprendre à travers des pratiques, des alliances, des exclusions et des appartenances, qui sont autant de mises en scène de ce qui est caché et de ce qui est valorisé.&#160;» </p>
+                    <p xml:id="d1e372">Par conséquence, le secret constitue une forme de communication (Zempléni, 1996) et, contrairement à une idée reçue et répandue, voilement et visibilité ne s’opposent pas. Loin de ne constituer qu’un envers de la visibilité (gage supposé de toute transmission des savoirs), le voilement ne l’annule pas, il la reconfigure. Les pratiques de voilement peuvent certes contrarier voire empêcher les praticien·ne·s d’avoir accès à certaines composantes de métier, mais ces formes de contrariété ou d’empêchement n’invalident pas la fabrique du regard professionnel. Elles ne sont jamais des annulations complètes des possibilités de voir et de savoir mais des recompositions de la manière dont l’opération de regarder est articulée au savoir. </p>
+                </div>
+                <div type="div2" xml:id="d1e374">
+                    <head subtype="level2" xml:id="d1e375">
+                        <hi xml:lang="fr">La formation du regard horloger à partir des pratiques de voilement</hi>
+                    </head>
+                    <p xml:id="d1e378">Les pratiques de voilement sont donc sources de connaissance&#160;: à défaut de donner accès immédiatement à ce qu’elles recouvrent, elles fournissent –&#160;par l’acte même de recouvrement qu’elle constitue&#160;– d’autres informations sur le fait qu’elles voilent certains items, indiquant implicitement des statuts et des principes hiérarchiques. Si le voilement empêche l’accès direct à des techniques professionnelles ou le diffère dans le temps, il renseigne, à d’autres niveaux, sur l’usage même de ces techniques et éclaire les valeurs qui caractérisent un métier et sa transmission. Les voilements ont également une dimension <hi rend="italic">incitative</hi>&#160;; ils peuvent conduire ceux et celles devant lesquels ils se déploient, à chercher d’autres moyens d’avoir visuellement accès à une profession. Autrement dit, voiler, c’est toujours rendre visible. Mais quoi, de quelles manières et en quoi ces visibilités <hi rend="italic">autres</hi> façonnent-elles le regard horloger et son apprentissage&#160;?</p>
+                    <p xml:id="d1e386">Afin de répondre à ces questions, nous nous appuierons sur des matériaux collectés durant une enquête ethnographique de quatre années, menée dans une quinzaine d’entreprises (marques et sous-traitants) de différentes tailles (petits ateliers et usines), quatre écoles techniques et diverses foires professionnelles de l’Arc jurassien suisse. Nous étudierons plus spécifiquement trois ensembles de cas&#160;: des récits d’apprentissage professionnel recueillis au cours d’une centaine d’entretiens formels et informels conduits avec des horloger·ère·s&#160;; des dynamiques d’apprentissage du métier en situation de travail en entreprise&#160;; des dynamiques d’apprentissage du métier en situation de formation en école professionnelle. Ces pratiques ont été observées lors de séquences d’enquête en atelier où nous avons caractérisé les modalités de passation et de valorisation de la profession horlogère et l’avons ponctuellement apprise. Dans ce qui suit, deux terrains retiendront tout particulièrement notre attention&#160;: l’un nous a amené à caractériser, trois années durant, la vie d’une petite marque indépendante et l’autre à fréquenter, pendant deux ans, les cours de pratique que les élèves de deux écoles horlogères dispensant une formation professionnelle initiale (appelée «&#160;apprentissage&#160;» en Suisse) suivaient deux à trois jours par semaine. À chacun des cas considérés, nous adresserons les questions suivantes&#160;: Quelles sont les pratiques de voilement&#160;en jeu&#160;? Que donnent-elles à voir et font-elles faire <hi rend="italic">autrement</hi>&#160;aux praticien·ne·s qui les expérimentent&#160;? En quoi ces visibilités recomposées et réaménagées sont-elles constitutives des sujets horloger·ère·s&#160;?</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e391">
+                <head subtype="level1" xml:id="d1e392">
+          <hi xml:lang="fr">Le savoir voir </hi>et l’économie du <hi xml:lang="fr">voilement</hi>
+        </head>
+                <div type="div2" xml:id="d1e398">
+                    <head subtype="level2" xml:id="d1e399">La «&#160;couverture sur la main&#160;» dans les récits horlogers</head>
+                    <p xml:id="d1e401">Lors de la centaine d’entretiens menés avec des horloger·ère·s, les figures du voilement et de ses déclinaisons ont structuré de nombreux récits d’apprentissage du métier et des façons de (ne pas) voir qui y étaient associées. La thématisation des dissimulations et des mises en secret ne s’est cependant jamais produite n'importe quand et n'importe comment. Si le secret sous-tend la mise en discours de la pratique horlogère et qu’en retour, cette dernière l'informe, un tel jeu a cependant ses règles et il convient d'en esquisser brièvement les contours. Comme figure, le secret est fréquemment invoqué par les gens de métier de plus de cinquante ans pour caractériser leurs débuts&#160;: ce qui n'est pas montré, fait avec&#160;la «&#160;couverture sur la main&#160;» ou caché, semble avoir encadré leur apprentissage et marqué leurs premiers pas dans la branche. Ils n'assignent toutefois pas n'importe quel sens au secret. Celui-ci renvoie d’abord aux rapports entretenus avec leurs collègues aînés ou leurs maîtres d'apprentissage. Hugues, 60&#160;ans, horloger rhabilleur, c’est-à-dire réparateur, et responsable d'un centre de formation privé, relate&#160;: </p>
+                    <q rend="quotation">
+            <hi xml:lang="fr">I</hi>l y a trente ans, <hi xml:lang="fr">d</hi>ans l'atelier où j'ai commencé à travailler comme horloger, <hi xml:lang="fr">se trouvait </hi>un ancien<hi xml:lang="fr"> que j’avais pour collègue</hi>.<hi xml:lang="fr"> Il n’était pas</hi> franchement généreux de sa connaissance.<hi xml:lang="fr"> Q</hi>uand j'espérais <hi xml:lang="fr">voir ce qu’il faisait et obtenir </hi>des tuyaux<hi xml:lang="fr"> </hi>pour <hi xml:lang="fr">avancer, comme l’horlogerie est univers minuscule, je ne pouvais pas me contenter de jeter un coup d’oeil, de loin&#160;; alors, je m’approchais et </hi>lui demandais&#160;<hi xml:lang="fr">:</hi>
+                        <hi xml:lang="fr">«&#160;</hi>comment faites-vous cela<hi xml:lang="fr">&#160;</hi>?<hi xml:lang="fr">&#160;». I</hi>l<hi xml:lang="fr"> ne me regardait même pas, haussait les épaules et </hi>répondait : "A l'huile de coude&#160;!"</q>
+                    <p xml:id="d1e448">En écho au témoignage de Hugues, les récits d’horloger·ère·s qualifiant les liens entre secret et transmission professionnelle convoquent souvent trois motifs&#160;: premièrement, le secret est lié aux <hi rend="italic">générations aînées</hi> d'horlogers mâles et s'incarne dans les figures humaines de l'&#160;«&#160;ancien&#160;» et du «&#160;vieil horloger&#160;»&#160;qui détenaient le savoir et décidaient de sa diffusion&#160;; deuxièmement, le secret ne signale pas seulement la compétence de ces horlogers mais aussi leur fierté, leur entêtement, et leur arrogance&#160;: les «&#160;anciens&#160;» estimaient et <hi rend="italic">valorisaient</hi> à l’excès ce qu'ils savaient et faisaient. L’expression «&#160;… et ils sont morts avec leurs secrets !&#160;» est de celles qui ont ponctué les anecdotes de multiples informateur·rice·s, exprimant les regrets et la nostalgie que de tels silences avaient pu générer. Enfin, la thématisation du secret fait souvent référence aux pratiques d'un temps passé dont <hi rend="italic">l'écart</hi> avec le présent se voit souligné. Des exclamations telles que «&#160;aujourd’hui, on n’a rien à cacher&#160;!&#160;», «&#160;désormais, on montre tout&#160;!&#160;» ou «&#160;la transmission aux générations futures est une responsabilité morale&#160;» rendent bien compte de la posture de nos interlocuteur·rice·s.</p>
+                    <p xml:id="d1e459">Que la construction discursive du secret horloger ait régulièrement renvoyé au passé n’a rien d’étonnant au vu de l’histoire récente de l’industrie suisse. En effet, au cours du XX<hi rendition="#style02">e</hi> siècle, celle-ci s'est construite sur un principe de voilement institutionnalisé, traduit par une volonté étatique de protéger la&#160;recette nationale de fabrication des garde-temps. De 1921 à 1971, l’horlogerie suisse fut organisée en système cartellaire de droit privé et publique, motivé par la volonté politique de prévenir, entre autres, le risque de «&#160;transplantation des techniques à l'étranger&#160;» (Boillat, 2013). Le cartel a également conduit à la mise en place d'une politique de restriction de l'accès au métier&#160;: imposition d'un «&#160;permis d'établissement&#160;» pour la fabrication des montres&#160;; interdiction aux étranger·ère·s, jusqu'en 1968, d’entreprendre une formation d’horloger-ère. Il est ainsi attesté que le voilement a constitué le mode par lequel le politique a investi le problème de la conservation et de la transmission du savoir horloger dans l’horlogerie suisse, durant près d’un demi-siècle.</p>
+                    <p xml:id="d1e464">Plus globalement, la convocation des motifs du secret et de la dissimulation permet aux horloger·ère·s de se créer des filiations professionnelles et de qualifier la teneur de leur regard connaissant. Le topos du voilement met en exergue les formes et contraintes que l'acquisition des habiletés leur a imposées. Les ateliers d'horlogerie d'antan sont représentés comme des lieux fermés sur eux-mêmes, dans lesquels le secret recouvrait l'exercice de la profession et en restreignait fortement l'accès. Un des effets de ces mises en récit est de rendre visible les particularités du processus par le biais duquel les savoirs de métier ont tout de même été acquis par les contemporain·e·s. La thématisation du secret comme obstacle ou frein au processus d'acquisition des compétences conduit à valoriser celles-ci en rendant compte de la difficulté avec laquelle elles ont été dénichées et appropriées. De tels récits font l'objet d'un important partage au niveau sectoriel qui tend à positionner avantageusement l'horlogerie actuelle dans la hiérarchie des savoirs professionnels et à instituer l’idée selon laquelle n’entre pas qui veut dans cette branche.</p>
+                    <p xml:id="d1e466">Par ailleurs, alors qu’aux dires de certain·e·s horloger·ère·s, les secrets n’ont plus cours dans les ateliers d’aujourd'hui, il en est pourtant régulièrement question lorsque sont évoquées les modalités présentes de la transmission du métier. Le topos du secret teinte, en particulier, le récit des phases durant lesquelles de nouvelles collaborations de travail se mettent en place entre praticien·ne·s. Une de mes informatrices privilégiées, Martine, 55&#160;ans, horlogère rhabilleuse, salariée dans une marque moyen de gamme, affirme qu'elle entend continuer à «&#160;cacher certaines de ses astuces&#160;» mais que «&#160;ne pas montrer, ne veut pas dire "cacher pour le plaisir de garder secret"&#160;!&#160;» Au cours de notre entretien, elle détaille&#160;:</p>
+                    <q rend="quotation">
+            <hi xml:lang="fr">A</hi>vec l'expérience, j'ai des tours de main, des trucs. Ça concerne, par exemple, les types de graisse, la teneur des huiles choisies pour la lubrification des pièces, les outils utilisés pour les appliquer, la dose, le lieu où et l’ordre avec lequel on les applique. Ces choses, je ne les montre pas aux autres. D'abord, parce que ne pas montrer comment on fait, permet d<hi xml:lang="fr">’évaluer </hi>comment l'autre s'y prend, de voir comment il se débrouille. Et ensuite, c'est aussi une manière de dire&#160;<hi xml:lang="fr">: «&#160;</hi>démerde-toi, <hi xml:lang="fr">nous, </hi>on en a assez chié pour y arriver!<hi xml:lang="fr">&#160;»</hi>
+          </q>
+                    <p xml:id="d1e483">Pour Martine, la mise en secret constitue une forme d'examen où celui qui est examiné doit faire ses preuves. Elle incite à la traversée d’une épreuve quasiment rituelle (en «&#160;chier&#160;» pour y arriver ou «&#160;montrer&#160;» qu'on y arrive) qui garantit, ou non, que des valeurs professionnelles telle que la persévérance ou l’audace ont été apprises et que la temporalité exigée par le travail bien fait, a été appropriée. Ce qui passe à travers ces gestes de dissimulation sont d’abord des invectives à acquérir ou à montrer que l'on a acquis une «&#160;exigence de qualité&#160;», soit un certain rapport au travail horloger, fait d’habiletés sensorielles, d’aptitudes à orchestrer des tâches et de valeurs favorisant l’appréciation visuelle des propriétés des objets. L’enjeu du secret est ainsi de faire quelque chose. En ce sens, le voilement participe bien de la construction interactionnelle d’un plan de visibilité sur lequel il est requis, pour un·e praticien·ne tiers/tierce, de (dé)montrer sa compétence.</p>
+                </div>
+                <div type="div2" xml:id="d1e485">
+                    <head subtype="level2" xml:id="d1e486">La pédagogie du voilement ou l’affûtage de l’œil novice</head>
+                    <p xml:id="d1e488">Dans la même veine, l’ethnographie de l’apprentissage horloger prenant place dans les écoles professionnelles nous a rendu fréquemment témoin de tactiques de voilement analogues, instituées, à dessein, par des formateur·rice·s qui entendaient inculquer le «&#160;sens mécanique&#160;» à leurs apprenti·e·s. De telles tactiques ne sont pas des mises en secret à proprement parler. Elles ne participent pas de strictes rétentions d’informations mais font jouer une forme de trouble ou d’obscurcissement dans le rapport qu’entretiennent les apprenti·e·s avec un savoir, une information ou une technique. L’école professionnelle n’est ainsi pas un lieu de savoir monolithiquement axée sur les principes de démonstration et de décomposition des gestes adéquats, à répéter par imitation. Le mimétisme présente, aux dires d’enseignant·e·s, d’évidentes limites car il ne conduit pas les élèves à développer leur aptitude à la résolution de problèmes qui suppose l’incorporation d’un fort principe d’autonomie. Certain·e·s expert·e·s admettent ainsi que pour mieux transmettre, il faut parfois préalablement cacher ou taire l’accès à certains «&#160;trucs » aux élèves. L’acquisition du métier est en partie déterminée par un type de didactique scolaire qui conduit les enseignant·e·s à voiler leur savoir. </p>
+                    <p xml:id="d1e490">Les apprenti·e·s sont alors engagé·e·s à explorer l’accès au «&#160;comment faire&#160;?&#160;» par d’autres voies. Il ne s’agit pas d’empêcher totalement leur accès à la connaissance, mais de masquer provisoirement celle-ci. Ces pratiques de voilement ne restreignent jamais cet accès définitivement, mais le différent dans le temps pour «&#160;inciter&#160;» les apprenti·e·s à l’observation. Dans ce modèle-ci, la communication à l’atelier n’est pas rompue. L’économie de la parole s’organise simplement selon un autre canevas. L’envie de transmettre n’est pas davantage exclue d’un tel processus qui a pour objectif d’optimiser l’apprentissage technique et d’inscrire les élèves dans une éthique professionnelle où l’indépendance est capitale&#160;: il s’agit de faire sien·ne la «&#160;contrainte à la&#160;démerde&#160;». Ce qui est ainsi transmis consiste en un principe d’autonomie dans le travail et une manière de «&#160;devenir pro&#160;». </p>
+                    <p xml:id="d1e492">De surcroît, dans bien des situations ethnographiées en école, les pratiques de voilement des formateur·rice·s sont également doublées par des injonctions plus ou moins nettes à ne pas poser de questions, formulées à l’adresse des apprenti·e·s&#160;: ceux/celles-ci ne sont pas ouvertement encouragé·e·s à poser les questions qu’ils/elles désirent. L’apprentissage de la technique horlogère, au sein même de l’institution scolaire, est un processus traversé par une frontière tacite entre ce qui peut être demandé à la figure de l’autorité et ce qui ne peut l’être, sans encourir le risque de mettre en jeu sa propre légitimité. De leur côté, les novices intègrent que l’apprentissage dans le cadre de cette formation revêt une dimension d’épreuve. Il convient de ne pas solliciter frontalement le concours des enseignant·e·s mais de développer des stratagèmes et des tactiques, à la fois individuels et collectifs, pour se donner à voir autrement les problèmes rencontrés et les résoudre. </p>
+                    <p xml:id="d1e494">Afin de sortir de ces absences apparentes de visibilité qui en apprennent néanmoins beaucoup sur le fait d’apprendre, les élèves consultent des livres&#160;; retournent la documentation technique où figurent des schémas et des croquis de pièces dans tous les sens possibles&#160;; lorgnent méthodiquement sur l’établi de leurs voisin·e·s&#160;; et échangent des renseignements, à voix basse. Ce qui passe informellement «&#160;par les copains et les copines&#160;» en classe est crucial. À ce propos, un échange avec Soraya et Guillaume, apprentie et apprenti de 16 ans, inscrit·e·s en classe de première année à l’école technique du Locle, nous apprit comment certains élèves percevaient les choses&#160;: lorsqu’ils étaient confrontés à un problème, ils avaient à disposition un nombre restreint de «&#160;cartouches&#160;» pour réclamer l’aide du «&#160;prof’ Valentin&#160;», cartouches qu’ils ne pouvaient pas «&#160;griller&#160;» à chaque fois. Aussi, plutôt que de prendre le risque d’être sévèrement examinés par l’enseignant et possiblement mal jugés, ils avaient développé des micro-échanges d’informations entre eux pour ne recourir à lui que si toutes les autres «&#160;techniques&#160;» avaient préalablement été «&#160;épuisées&#160;», sans succès. </p>
+                    <p xml:id="d1e496">Significativement, un tel cas contribue à récuser le partage entre savoir professionnel et savoir scolaire, récemment reconduit par Bloch (2013, p.&#160;254) qui soulignait, à propos des travaux de Jack Goody, Jean Lave et Etienne Wenger, que le «&#160;mode de transmission d’un savoir pratique (marqué par «&#160;l’absence d’enseignements explicites et par le découragement à poser des questions au maître&#160;», <hi rend="italic">ma traduction</hi>) ne ressembl(ait) en rien aux méthodes utilisées dans des contextes scolaires&#160;». Or, il n’en est rien. De toute évidence, dans les écoles d’horlogerie suisses, des formes implicites de découragement sont aussi employées pour optimiser l’acquisition des compétences chez les apprenti·e·s, même si les savoirs concernés par de telles pratiques ne se dérobent évidemment pas à toute politique d’apprentissage. </p>
+                    <p xml:id="d1e501">De manière plus générale, les pratiques de formation professionnelle en école envisagées ci-dessus fournissent le moyen de réévaluer l’approche de certains anthropologues tels que Fabre (2008) qui oppose deux institutions de transmission de connaissances et de statuts sociaux&#160;: la <hi rend="italic">pédagogie</hi>, basée sur un impératif de transparence et d’explicitation, qui organiserait l’instruction et la formation en école&#160;; et l’<hi rend="italic">initiation</hi>, faisant la part belle aux secrets et aux épreuves ritualisées, qui concernerait davantage l’univers de la pratique et le monde du travail. <hi rend="italic">A contrario</hi>, l’institution scolaire liée à la formation professionnelle initiale en horlogerie et le modèle pédagogique de transmission qu’elle incarne demeurent traversés, de part en part, par des pratiques de masquage. Dans un certain nombre de cas, la passation des compétences et des valeurs qui sous-tendent les savoirs horlogers se réalise précisément dans des formes de voilement&#160;: cette transmission tire son efficacité de la dissimulation même de certaines techniques qui ont trait au métier. Les habiletés s’acquièrent alors dans ce qui n’est pas immédiatement révélé, soit au travers de ces autres visibilités qui assombrissent les principes de transparence et la formalisation, chers à une certaine idéologie de la pédagogie en école. </p>
+                </div>
+                <div type="div2" xml:id="d1e512">
+                    <head subtype="level2" xml:id="d1e513">Savoir taire pour faire voir</head>
+                    <p xml:id="d1e515">Notre troisième et dernier cas d’étude est celui d’une petite entreprise artisanale et indépendante, nommée Colomb SA et active dans la fabrication de montres mécaniques de luxe. Dans son atelier, les connaissances circulent, entre les travailleurs en présence, à la faveur de diverses formes de voilement. Celles-ci constituent autant de “sismographes” des relations sociales permettant de mesurer les rapports de hiérarchie et de confiance en jeu entre les collaborateurs. Sise à Genève et spécialisée dans la réalisation de petites séries de pièces dont le prix d’entrée s’élève à 30&#160;000 euros, l’entreprise porte le nom de son fondateur et directeur, Bjorn Colomb, horloger de soixante-dix ans, d’origine allemande et installé en Suisse depuis le début des années 1960. Au moment où nous avons conduit notre ethnographie, Bjorn était entouré de quelques collaborateurs temporaires et d’un employé fixe, prénommé Richard. Âgé de 25&#160;ans, ébéniste de formation, ce dernier s’était reconverti quelques années auparavant, suite à un accident de travail. Il avait alors suivi quelques modules de formation horlogère et avait débarqué dans l’entreprise, peu avant notre arrivée. L’accord oral qui nous avait ouvert les portes de l’atelier avait été passé avec Bjorn. Il impliquait que nous y assumions le rôle d’observateur, occupé à trier d’anciens magazines horlogers et des archives, sans que nous ne «&#160;dérang(ions) les horlogers au travail&#160;». </p>
+                    <p xml:id="d1e517">Ces trois années d’enquête dans l’entreprise nous permirent de décrire un univers où Richard n’était pas explicitement invité à voir le travail de son maître et à le regarder de près. L’amitié qui nous lia graduellement au novice nous fit découvrir que, dans un très grand nombre de cas, Bjorn ne lui en disait pas beaucoup plus qu’à nous, qui détenions un statut d’externe et n’étions pas expert. Bien souvent, Bjorn nommait les tâches que Richard devait réaliser mais ne lui donnait que peu d’explications et ne lui montrait pas nécessairement <hi rend="italic">comment </hi>les exécuter. À l’atelier, nous nous appliquâmes à observer très attentivement toutes les interactions entre Bjorn et Richard. Il y avait, en effet, peu de transmissions formalisées à travers des échanges directs. Il s’agissait avant tout de formulations de consignes, matérialisées dans des indications succinctes, accompagnées de peu de démonstrations. Rares étaient les temps d’explicitation détaillée. Lorsque Richard revenait – très rarement – demander une précision, il lui était fourni quelques brèves informations, souvent ponctuées de formules comme «&#160;il faut réfléchir&#160;!&#160;» ou «&#160;c’est logique&#160;!&#160;». Richard nous l’avait confirmé, lorsqu’il devait exécuter une tâche, Bjorn lui donnait verbalement les consignes une fois mais ne répétait pas. Pour les opérations très spécifiques, le patron ne montrait l’opération qu’une seule fois et lançait&#160;: «&#160;Je te laisse continuer !&#160;» Dave concédait qu’il y avait un «&#160;défi perpétuel&#160;» dans ces formes d’interaction et que c’était continûment de «&#160;l’apprentissage par l’improvisation ». À une occasion, nous fûmes témoins d’une interaction qui conduisit Richard, résolu, à faire remarquer à Bjorn que «&#160;sans bien voir ce qu’(il) a(vait) à faire, (il)&#160;perd(ait) du temps&#160;» et que ce n’était pas «&#160;facile de se&#160;mettre le métier dans l’œil&#160;» en devant «&#160;regarder par-dessus l’épaule d(e) (son) chef&#160;!&#160;» Bjorn se retourna avec vigueur et l’apostropha&#160;: «&#160;ce que tu cherches, trouve-le par toi-même. Une partie de ce que je sais, je ne le montre pas. Je forme des indépendants ici, par autre chose&#160;!&#160;» Ainsi, les retentions d’informations de Bjorn n’étaient pas seulement volontaires, elles étaient calculées&#160;: le voilement relayait une éthique professionnelle régie par une exigence d’autonomie. </p>
+                    <p xml:id="d1e522">Richard se le tint pour dit. Il ne fut jamais découragé par l’attitude sibylline de Bjorn. Bien au contraire, de son propre aveu, il fut encouragé à faire davantage preuve d’audace et d’initiative pour «&#160;montrer sa valeur&#160;». Il nous disait : «&#160;Je sais que c’est une affaire de confiance et de temps. Je dois faire mes preuves. Je veux prouver que je suis digne de pratiquer ce genre de techniques complexes. Je ne suis pas horloger de formation mais je suis bon et j’ai de la volonté. Je me sens capable d’y arriver, alors je donne tout et j’ai des ambitions&#160;!&#160;» </p>
+                    <p xml:id="d1e524">Mais que faire quand ce que l’on désire connaître est rendu peu visible par autrui&#160;? Comment peut-on générer un savoir à partir de telles absences&#160;? Quels rôles peuvent jouer les matérialités et les sens&#160;dans l’élaboration de stratégies d’apprentissage alternatives&#160;? L’absence d’accès immédiats aux savoirs de Bjorn renforça l’enjeu du «&#160;mieux voir&#160;» que Richard expérimentait déjà face à l’échelle minuscule des opérations qu’il devait effectuer sur les mouvements de montres mécaniques et leurs composants. Au même titre que ces contraintes visuelles liées à l’aspect matériel du travail horloger<note type="standard" xml:id="ftn4" place="foot" n="4">
+              <p> Contraintes<hi xml:lang="fr"> que nous avons qualifiées de «&#160;voiles&#160;», comme mentionné plus haut, et plus </hi>amplement<hi xml:lang="fr"> documentées ici&#160;: (Munz, 2019).</hi>
+              </p>
+            </note>, les voilements qu’il éprouvait, incitèrent Richard à apprendre à regarder différemment et à mettre en œuvre de nouvelles actions pour aménager des visibilités propices à l’exercice continu de son métier. Graduellement, sans demander son reste et en demeurant patient, Richard élabora des stratégies sociotechniques de contournement de ces manques d’accès visuel aux savoirs. Parmi elles, la production et l’usage de supports graphiques et de documents jouèrent un rôle crucial dans le dévoilement des procédures techniques à suivre et l’affinement de son regard. </p>
+                    <p xml:id="d1e535">La plupart du temps, il se débrouillait seul et réalisait son travail avec le souci d’y insuffler un rythme dans lequel il dosait sa mobilité, ne s’interrompait pas chaque heure pour faire une pause et prenait soin de se montrer communicatif et disponible. Parallèlement aux tâches à effectuer dans l’entreprise de Bjorn, il avait débuté une activité de réparation de montres et prenait des cours d’anglais à l’Université populaire de Genève. À l’atelier, lorsqu’il avait une question, il ne s’autorisait plus, de son propre aveu, à la poser tout de suite. Il réfléchissait, «&#160;trifouillait&#160;», allait, dans des armoires, chercher les documents où certaines gammes opératoires ou méthodes étaient inscrites, sortait ses notes de cours, ouvrait ses bouquins d’horlogerie, croisait les informations. Dans un casier fixé sous son établi, était disposé tout un matériel de notes et de croquis contenu dans des cahiers et des classeurs munis de fourres plastiques. Sur ces supports, les étapes à accomplir pour fabriquer tel ou tel organe de la pièce ou du composant étaient décrites. Dans le casier, se trouvaient également différents livres d’horlogerie, dont un manuel qu’il avait employé durant sa formation à l’école, et un «&#160;classique&#160;» que Bjorn lui avait offert à l’un de ses anniversaires. Quant aux moments où Bjorn concédait quelques explications ou faisait une démonstration, Richard avait mis au point une manière d’apprendre, de retenir rapidement ce qu’il avait entendu ou vu et de s’en souvenir, si possible sans poser de questions. Il opérait en déléguant la responsabilité de mise en mémoire de l’interaction à différents supports de notation et de captation qui constituaient autant de repères pour les actions à entreprendre. De manière très systématique, il prenait des notes rapides au fur et à mesure que Bjorn parlait et faisait des photos avec son téléphone portable des pièces réalisées, de la disposition du matériel ou de l’angle avec lequel entreprendre telle opération d’usinage. Ainsi, la manipulation de tels espaces graphiques – que Latour et Woolgar (1979, pp.&#160;41-42) dénomment «&#160;inscripteurs&#160;», soit des appareils ou des supports d’inscription qui «&#160;transforment (…) la matière en chiffres, diagrammes, croquis (ou) schémas&#160;» – étaient cruciaux dans la manière dont Richard recomposait visuellement son savoir.</p>
+                    <p xml:id="d1e537">De manière plus générale, les pratiques de voilement orchestrées par Bjorn ont constitué des prismes pertinents pour repenser l’incorporation des hiérarchies et la transmission des valeurs structurant le regard professionnel de Richard, au sein de Colomb SA. À travers ces voilements, Bjorn communiquait tout d’abord à son collaborateur que le savoir-faire se manifestait par un savoir-taire, présidant à sa mise en œuvre. La détention d'une habilité technique supposait l’appropriation de compétences discursives. Le savoir-faire était un savoir-être dont l'existence sociale était caractérisée par un devoir-taire&#160;: le fait de dissimuler quelque chose attestait d’un tel savoir-être&#160;; celui qui savait faire était aussi celui qui savait (se) taire. Les voilements de Bjorn ont renseigné ensuite certains processus par le biais desquels la valorisation de ses savoirs était socialement produite et négociée. Comme le dit Giraud (2005, p.&#160;1), «&#160;rendre compte de ce qui est secret, c'est rendre compte de cet objet à propos duquel se construisent des rapports à des valeurs, à des croyances&#160;». En jouant sur la croyance selon laquelle seul un objet de qualité a ce paradoxal «&#160;privilège&#160;» d'être caché, l'opération de voilement s'affiche comme un geste de préservation et implicite la valeur de ce qu'elle voile. En limitant l'accès à un objet, le secret en produit et en institue ostensiblement le prestige et la consécration. Pour un horloger indépendant tel que Bjorn, de tels usages du secret constituaient ainsi également des moyens de signifier son excellence et d’imprimer la relation à Richard de sa marque. Enfin, en limitant les accès de Richard à son savoir, Bjorn se réservait la possibilité de moduler cette limite. Savoir lui taire certaines pratiques, c'était se réserver le pouvoir de les lui révéler. En ce sens, voiler permettait d'ouvrir un champ d'actions possibles et d'exercer sur le jeune horloger influence et autorité. Dans ces opérations de voilement, s'établissait, de manière performative, la construction d'une hiérarchie sociale fondée sur un partage possible. Cette possibilité de partage permettait à Bjorn de marquer la valeur de sa position par rapport à celle de Richard. Se transmettait et s’incorporait ainsi le sens d’un ordre professionnel très stratifié. </p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e539">
+                <head subtype="level1" xml:id="d1e540">Le<hi xml:lang="fr">s</hi> voilement<hi xml:lang="fr">s</hi> comme <hi xml:lang="fr">modes de transmission du regard professionnel</hi>
+        </head>
+                <p xml:id="d1e550">En tant qu’objet de discours et enjeu de pratique, le voilement et ses multiples déclinaisons travaillent fortement l’exercice de l’horlogerie dans l’industrie helvétique. Aux contraintes visuelles liées à la fabrication même de ces petits objets que sont les montres bracelets, s’ajoutent les restrictions de visibilité intentionnellement opérées par la dialectique du voiler/dévoiler. Le regard des horloger·ère·s qui se distribue entre de multiples objets et qualités sensorielles, se trouve coloré par une économie particulière de la visibilité, de la parole et du partage de connaissances, régulée par des principes de restriction d’accès plus ou moins stricts&#160;: les faits de ne pas (pouvoir) voir et de ne pas (toujours) montrer en font intégralement partie. </p>
+                <p xml:id="d1e552">En effet, tout ce qui importe dans l’apprentissage du métier ne fait pas et ne doit pas faire l’objet de mises en visibilité explicites. L’impossibilité de voir et d’avoir accès par la vue participe de la logique même qui préside à l’acquisition du savoir horloger. «&#160;Être un pro&#160;», c’est aussi apprendre à se taire et à se «&#160;démerder&#160;». C’est accéder à un ensemble de connaissances et de valeurs acquises par soi-même en dialoguant avec les environnements sociaux et matériels. C’est dans cet agencement noueux de processus exigeants et éprouvants qu’émergent les sujets horloger·ère·s. Les pratiques de voilement ont un impact sur les praticien·ne·s en ce qu’elles les contraignent à regarder autrement. Les contournements de ces obstacles visuels sont donc autant de signes d’autonomie et de polyvalence, et des marques de compétence. Être horloger-ère implique ainsi d’accepter de ne pas pouvoir voir, de s’approprier cet état de fait et de composer avec, en improvisant des chemins de connaissance. C’est bien cette capacité d’adaptation qui fonde la définition de la compétence horlogère et qui est l’objet premier de l’apprentissage, tant elle innerve de nombreux devenirs possibles pour les professionnel-le-s. Du côté des maîtres et formateur·rice·s, il n’y a pas lieu de montrer préalablement à l’apprenant·e ou au/à la praticien·ne en herbe les moyens de passer ces épreuves&#160;: cela n’est pas révélable et n’a pas à être révélé. Il ne s’agit pas là seulement du maintien d’un quelconque rapport de privilège. L’enjeu cardinal est celui de contraindre les novices à expérimenter, affronter et vivre ces moments-épreuves. Ne pas leur expliquer comment faire constitue le meilleur moyen de favoriser les conditions qui leur permettront d’accéder à l’autonomie et de devenir horloger-ère. </p>
+                <p xml:id="d1e554">Qu’il prenne place en situations de formation ou de travail, l’apprentissage est ainsi teinté de voilements, et les réaménagements de la visibilité que ces voilements induisent forgent le regard des horloger·ère·s. La formation et la transmission de ce regard gagne donc à être étudiés à leur lumière. À ce propos, le principe même du voilement ne s’oppose pas au processus de transmission des savoirs, instancié dans les contextes éducatifs et professionnels. Bien au contraire, il en constitue l’un des vecteurs. L’expression «&#160;savoir de l’absence&#160;» – empruntée au travail d’Octave Debary (2002) sur la mise en patrimoine et l’oubli – rend ici bien compte d’un tel phénomène&#160;: les voilements sont des modes de passation, à parts entières, des valeurs constitutives du métier et des leviers de compréhension des hiérarchies qui y prévalent. Voiler, c’est donc façonner le savoir voir des horloger·ère·s et le regard professionnel qu’il fonde, et ainsi participer de leur transmission.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e560">
+                <listBibl xml:id="d1e562">
+                    <bibl xml:id="d1e564">Adell, N. (2008). <hi rend="italic">Des hommes de devoir&#160;: les compagnons du Tour de France (XVIII</hi>
+            <hi rendition="#style02">
+              <hi rend="italic">e</hi>
+            </hi>
+            <hi rend="italic"> -XX</hi>
+            <hi rendition="#style02">
+              <hi rend="italic">e</hi>
+            </hi>
+            <hi rend="italic"> siècle)</hi>. Paris&#160;: Éditions de la Maison des Sciences de l’Homme.</bibl>
+                    <bibl xml:id="d1e579">Adell, N. (2014).&#160;Introduction. Faire le secret. <hi rend="italic">Mondes contemporains</hi>, <hi rend="italic">5</hi>, 3-10.</bibl>
+                    <bibl xml:id="d1e587">Boillat, J. (2012). <hi rend="italic">Les véritables maîtres du Temps&#160;: le cartel horloger suisse (1919-1941)</hi>. Neuchâtel&#160;: Alphil. </bibl>
+                    <bibl xml:id="d1e592">Buob, B. (2012). Du vol à l’appropriation du savoir&#160;: Controverse sur l’apprentissage de la lutherie à Mirecourt. Dans B.&#160;Buob &amp; V.&#160;Klein (dir.), <hi rend="italic">Luthiers de la main à la main</hi>
+                        <hi xml:lang="fr">(pp.&#160;136-151). Arles&#160;: Actes Sud.</hi>
+          </bibl>
+                    <bibl xml:id="d1e599">Buob, B., Chevallier, D. &amp; Gosselain, O. (2019). Technographies, <hi rend="italic">
+              <hi xml:lang="fr">Techniques &amp; Culture</hi>
+            </hi>
+            <hi xml:lang="fr">, </hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">71</hi>
+            </hi>
+            <hi xml:lang="fr">, 10-25.</hi>
+          </bibl>
+                    <bibl xml:id="d1e611">
+                        <hi xml:lang="fr">Cornu, R. (1991). Voir et savoir. Dans D. Chevallier (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Savoir faire et pouvoir transmettre. Transmission et apprentissage des savoir-faire et des techniques</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (pp.&#160;83-100). Paris&#160;: Éditions de la MSH.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e619">
+            <hi xml:lang="fr">Debary O. (2002). </hi>Le savoir de l'absence. Dans M.-O. Gonseth <hi rend="italic">et&#160;al.</hi>
+                        <hi xml:lang="en">(dir.), </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Le musée cannibale</hi>
+            </hi>
+            <hi xml:lang="en"> (pp.&#160;263-272). Neuchâtel: MEN.</hi>
+          </bibl>
+                    <bibl xml:id="d1e633">
+                        <hi xml:lang="en">Dilley, R. (1989). Secrets and Skills: Apprenticeship Among Tukolor Weavers. In M.&#160;Coy (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Apprenticeship</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;181-198). Albany: SUNY Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e641">
+            <hi xml:lang="en">Downey, G. (2007). Seeing without Knowing. Learning with the Eyes: Visuomotor “Knowing” and the Plasticity of Perception. In M. Harris (dir.), </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Ways of Knowing. New Approaches in the Anthropology of Knowledge and Learning</hi>
+            </hi>
+            <hi xml:lang="en"> (pp.&#160;222-241). </hi>New York/Oxford: Berghahn Books.</bibl>
+                    <bibl xml:id="d1e650">
+            <hi xml:lang="fr">Fabre, D., (2008). </hi>À propos de la forme scolaire de transmission. Communication présentée au Séminaire du Laboratoire d'anthropologie et d'histoire de l'institution de la culture (LAHIC), Paris.</bibl>
+                    <bibl xml:id="d1e655">
+                        <hi xml:lang="en">Gowlland, G. (2009). Learning to See Value: Exchange and the Politics of Vision in a Chinese Craft, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Ethnos</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">44</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 229-250. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e668">
+                        <hi xml:lang="en">Grasseni, C. (2009). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Developing Skill, Developing Vision. Practices of Locality at the Foot of the Alps</hi>
+                        </hi>
+                        <hi xml:lang="en">. New York, Oxford: Berghahn Books.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e676">
+                        <hi xml:lang="en">Goodwin, C. (1994). Professional Vision. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Anthropologist</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">96</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 606-633.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e689">
+                        <hi xml:lang="en">Herzfled, M. (</hi>
+                        <hi xml:lang="en">2004).</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en"> The Body Impolitic: Artisans and Artifice in the Global Hierarchy of Value</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Chicago: </hi>
+                        <ref target="http://www.press.uchicago.edu/cgi-bin/hfs.cgi/00/15849.ctl">
+                            <hi xml:lang="fr">University of Chicago Press</hi>
+                        </ref>
+                        <hi xml:lang="fr">.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e706">Jamin, J. (1979). <hi rend="italic">Les lois du silence&#160;: essai sur la fonction sociale du secret. </hi>
+            <hi xml:lang="en">Paris&#160;: Maspero.</hi>
+          </bibl>
+                    <bibl xml:id="d1e712">
+                        <hi xml:lang="en">Marchand, T. (2002). In the Shadow of a Master, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The British Yemeni Society Journal</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">10</hi>
+                        </hi>
+                        <hi xml:lang="en">, 8-15.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e725">
+                        <hi xml:lang="en">Marchand, T. (2007). Fortifying Futures on Blessed Foundations: Masons, Secrets and Guarantees in Djenné, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Mande Studies</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">7</hi>
+                        </hi>
+                        <hi xml:lang="en">, 89-98.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e738">MEN (Musée d’ethnographie de Neuchâtel) (2016). <hi rend="italic">Secrets : Opacités du patrimoine culturel immatériel</hi>. <hi xml:lang="en">Neuchâtel</hi>
+            <hi xml:lang="en">&#160;:</hi>
+            <hi xml:lang="en"> Musée d'ethnographie.</hi>
+          </bibl>
+                    <bibl xml:id="d1e749">
+                        <hi xml:lang="en">Mitchell, R. G. (1993). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Secrecy and fieldwork</hi>
+                        </hi>
+                        <hi xml:lang="en">. Newbury Park, London: Sage.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e757">Munz, H. (2011).&#160;Le savoir-faire et le savoir-taire. Du secret et de la transmission dans les pratiques horlogères de l’Arc jurassien suisse&#160;». Dans N.&#160;Adell &amp; Y.&#160;Pourcher (dir.), <hi rend="italic">Transmettre quel(s) patrimoine(s) </hi>(pp.&#160;86-96). Paris&#160;: Michel Houdiard Éditeur.</bibl>
+                    <bibl xml:id="d1e762">Munz, H. (2016). <hi rend="italic">La transmission en jeu. Apprendre, pratiquer, patrimonialiser l’horlogerie en Suisse</hi>. <hi xml:lang="fr">Neuchâtel&#160;: Éditions Alphil. </hi>
+          </bibl>
+                    <bibl xml:id="d1e770">
+                        <hi xml:lang="fr">Munz, H. (2017). Les doigts fertiles. La formation du regard professionnel dans les transferts de savoir entre la Suisse et Hong Kong, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Socio-Anthropologie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">35</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1),</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr"> </hi>
+                        </hi>
+                        <hi xml:lang="fr">75-91.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e788">Munz, H. (2019). Fabriquer la visibilité. Technographies et pratiques d’inscription dans l’apprentissage du regard professionnel, <hi rend="italic">Techniques &amp; Culture</hi>, <hi rend="italic">71</hi>, 57-77.</bibl>
+                    <bibl xml:id="d1e796">
+                        <hi xml:lang="en">Noyes, D. (</hi>
+                        <hi xml:lang="en">1989).</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en"> The Uses of Tradition: Arts of Italian Americans in Philadelphia</hi>
+                        </hi>
+                        <hi xml:lang="en">. Philadelphia: Philadelphia Folklore Project and Samuel S. Fleisher Art Memorial.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e806">Pentimalli, B. &amp; Rémery, V. (2018). La fabrication du regard et des «&#160;façons de voir&#160;» dans l’apprentissage du métier, Appel à Contributions, <hi rend="italic">Revue d’anthropologie des connaissances</hi>. En ligne&#160;: <ref target="http://www.socanco.org/article485.html">http://www.socanco.org/article485.html</ref> (consulté le 20 janvier 2020).</bibl>
+                    <bibl xml:id="d1e814">Petitat, A. (2000).<hi rend="italic"> Secret et lien social. </hi>
+            <hi xml:lang="en">Paris: L'Harmattan.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en"> </hi>
+            </hi>
+          </bibl>
+                    <bibl xml:id="d1e823">
+                        <hi xml:lang="en">Prentice, R. (2012). “No One Ever Showed Me Nothing”: Skill and Self-making Among Trinidadian Garment Workers, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Anthropology &amp; Education Quarterly</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">43</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 400-414.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e836">
+                        <hi xml:lang="fr">Simmel, G. (1908), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Secret et sociétés secrètes</hi>
+                        </hi>
+                        <hi xml:lang="fr">, Paris : Circé. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e844">Zempléni, A. (1996). Savoir taire&#160;: du secret et de l’intrusion ethnologique dans la vie des autres, <hi rend="italic">Gradhiva</hi>, <hi rend="italic">20</hi>, 23-43.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

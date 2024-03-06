@@ -1,0 +1,1059 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_3580_Oualhaci">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Les savoirs dans la salle de boxe thaï</title>
+                <title type="sub">Transmission de savoirs, hiérarchies et reconnaissance locale dans une salle de boxe thaï en banlieue populaire</title>
+                <title level="a" type="alt" xml:lang="en">Knowledge in the Thai boxing gym. Transmission of knowledge, hierarchies and local recognition in a Thai boxing gym in a working-class suburb </title>
+                <title level="a" type="alt" xml:lang="es">Conocimiento en el gimnasio de boxeo tailandés. La transmisión del conocimiento, las jerarquías y el reconocimiento en un gimnasio de boxeo tailandés en un barrio popular</title>
+                <author>
+                    <persName>
+                        <forename>Akim</forename>
+                        <surname>Oualhaci</surname>
+                    </persName>
+                    <affiliation> Docteur en sociologie (Université Paris Ouest Nanterre La Défense et CUNY Graduate Center), ATER à l’Université de Bretagne occidentale, membre associé de l’équipe «&#160;Sciences sociales &amp; Sport&#160;» du Centre de Recherches sur le Sport &amp; le Mouvement (E.A. 2931), ses recherches portent sur les transformations et l’encadrement des classes populaires urbaines en France et aux États-Unis ainsi que leurs pratiques sportives et culturelles.<ref target="https://orcid.org/0000-0002-6307-5654">https://orcid.org/0000-0002-6307-5654</ref>Adresse&#160;: Université Paris Ouest Nanterre La Défense, 200&#160;av. de la République, FR-92001 Nanterre Cedex (France).Courriel&#160;: akim1_o[at]yahoo.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>knowledge</item>
+                        <item>transmission</item>
+                        <item>thai boxing</item>
+                        <item>banlieue</item>
+                        <item>hierarchy</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>connaissance</item>
+                        <item>transmission</item>
+                        <item>boxe thaï</item>
+                        <item>banlieue</item>
+                        <item>hiérarchie</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>transmisión</item>
+                        <item>conocimiento</item>
+                        <item>boxeo tailandés</item>
+                        <item>jerarquía</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Les savoirs dans la salle de boxe thaï </titlePart>
+                    <titlePart type="sub">Transmission de savoirs, hiérarchies et reconnaissance locale dans une salle de boxe thaï en banlieue populaire</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Akim Oualhaci</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e233">
+                <p xml:id="d1e234">
+                    <hi xml:lang="fr">À partir d’une enquête ethnographique par observation participante et entretiens dans une salle de boxe thaïlandaise d’une banlieue populaire, l’article propose d’analyser les modalités de transmission de la boxe thaï et ses effets sociaux. L’apprentissage de la boxe thaï, qui repose sur un entre-soi viril, agonistique et solidaire, la discipline, l’éthique du travail, et le rapprochement corps/esprit en acte, constitue une forme de socialisation des fractions viriles de la jeunesse populaire urbaine qui leur apporte des savoirs sportifs, leur inculque des manières d’être et leur confère un statut social. Le combat et la circulation de savoirs pugilistiques et de «&#160;valeurs&#160;» morales créent une hiérarchie au sommet de laquelle se tient une noblesse sportive virile et ancrée localement qui jouit d’une certaine reconnaissance sociale par les pairs et plus récemment par les services municipaux.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e237">
+                <p xml:id="d1e238">
+                    <hi xml:lang="en">Based on an ethnographic study through participant observation and interviews in a Thai boxing gym in a working-class banlieue, this article analyses the modalities of the transmission of Thai boxing and its social effects. The learning process of Thai boxing is a form of socialization for the virile fractions of the working-class banlieue youth that brings them sport knowledge, ways of being, and a social status. I show the teaching and supervision of the trainers only begin to be mildly recognized by the municipality despite the gym’s long history.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e241">
+                <p xml:id="d1e242">
+                    <hi xml:lang="es">De un estudio etnográfico a través de la observación participante y entrevistas en un gimnasio de boxeo tailandés en un barrio popular, el artículo se propone analizar los modos de transmisión de boxeo tailandés y sus efectos sociales. Aprender boxeo tailandés es una forma de socialización de las fracciones varoniles de la juventud urbana popular que lleva su conocimiento de los deportes, inculcar sus formas de ser y les da estatus. Mostramos cómo el trabajo de la enseñanza y los entrenadores del club está empezando a ser un poco reconocida por el municipio a pesar de la larga historia del club.</hi>
+                </p>
+            </div>
+            <div type="ack" xml:id="d1e246">
+                <p xml:id="d1e247">
+                    <hi xml:lang="fr">Je tiens à remercier chaleureusement François Bonnet pour m’avoir aidé à parvenir à une version de cet article que j’espère plus aboutie mais les imperfections qui demeurent sont de mon seul fait.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e254">
+                <head subtype="level1" xml:id="d1e255">Introduction</head>
+                <p xml:id="d1e257">
+                    <hi xml:lang="fr">Les «&#160;jeunes de banlieue&#160;» ont de grandes chances d’être dépeints dans les médias, et perçus, comme peu cultivés, agressifs ou délinquants (Berthaut, 2013&#160;; Sedel, 2013), </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">a fortiori</hi>
+          </hi>
+                    <hi xml:lang="fr"> lorsqu’ils pratiquent la boxe thaï, associée à un «&#160;sport de racailles&#160;» violent, au point que les compétitions ont pu être temporairement interdites. Ces représentations homogénéisantes des fractions jeunes et «&#160;ethnicisées&#160;» des classes populaires urbaines ont entravé la reconnaissance de ce sport ainsi que ses pratiquants et reposent sur un triple aveuglement&#160;: la non-reconnaissance de savoirs légitimes (notamment scolaires) acquis par ces jeunes, la non-reconnaissance de savoirs relativement illégitimes, comme ceux acquis dans la salle de boxe thaï, et l’homogénéité supposée des «&#160;jeunes de banlieue&#160;». L’étude ethnographique d’une salle de boxe thaï permet de mieux comprendre comment des jeunes garçons des classes populaires urbaines apprennent volontiers un sport de combat qui reste mal (re)connu. Notre enquête montre que la transmission de la boxe thaï est valorisée dans le «&#160;monde de la cité&#160;» mais bien moins auprès des groupes sociaux dominants ou extérieurs au quartier.</hi>
+                </p>
+                <p xml:id="d1e265">
+                    <hi xml:lang="fr">On se propose d’exposer les modalités de transmission des techniques de boxe thaï, la manière dont elle produit une hiérarchie spécifique et contestée qui confère une autonomie et un statut aux boxeurs les plus expérimentés et ancrés localement. La salle de boxe thaï est le lieu où des garçons peuvent se forger une virilité affirmée (Connell, 1991&#160;; Messner, 1992), une dignité et une légitimité sociale qu’on leur nie par ailleurs (Sayad, 2006), renforcer un réseau d’interconnaissance mais aussi acquérir et transmettre des savoirs agonistiques reconnus par le groupe de pairs, voire au-delà. Outre qu’elle renforce les relations sociales entre pratiquants, la circulation de savoirs pugilistiques produit un microcosme spécifique à la fois clos et en lien avec la vie du quartier. Quelles sont les modalités de transmission de savoirs pugilistiques relativement illégitimes dans une salle de boxe thaï d’une banlieue populaire et quels en sont les effets&#160;?</hi>
+                </p>
+                <p xml:id="d1e268">
+                    <hi xml:lang="fr">En m’appuyant sur une enquête ethnographique dans un club de boxe thaï d’une banlieue populaire, je montre que la transmission de savoirs pugilistiques qui repose principalement sur les ressources sportives et d’interconnaissance, confère aux boxeurs un statut social et leur permet d’obtenir une reconnaissance des pairs et, dans une moindre mesure, de la municipalité. On se propose d’exposer dans un premier temps la manière dont les entraîneurs enseignent les techniques de boxe thaï en inculquant également des manières d’être et comment se forme la hiérarchie interne malgré les affirmations égalitaires et familialistes des entraîneurs, parfois des boxeurs eux-mêmes. Puis, on montrera comment certains boxeurs et les entraîneurs obtiennent une reconnaissance relative sur la scène municipale locale.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e271">
+                <head subtype="level1" xml:id="d1e272">Boxer en banlieue populaire&#160;: entre<hi xml:lang="fr"> </hi>«&#160;capital pugilistique&#160;» et «&#160;capital d’autochtonie&#160;»</head>
+                <p xml:id="d1e277">
+                    <hi xml:lang="fr">Peu d’études ont porté sur la transmission de savoirs sportifs dans une cité de banlieue populaire et ses effets sur les scènes locales. Renahy (2001) montre comment des joueurs de foot ruraux s’approprient le territoire communal et comment le match de football «&#160;symbolise&#160;» le village. Choron-Baix (1995) a analysé les transferts culturels de Thaïlande vers la France chez les pratiquants français de boxe thaï en montrant que certains d’entre eux «&#160;bricolaient&#160;» une nouvelle culture sportive influencée par la culture thaïlandaise. Wacquant (2000) dans son étude pionnière dans un </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">gym</hi>
+          </hi>
+                    <hi xml:lang="fr"> de Chicago, détaille la fabrique de l’&#160;«&#160;habitus pugilistique&#160;» et analyse dans le détail les phases d’apprentissage corporel de la boxe (2010). Spencer (2009) a exploré la construction de l’&#160;«&#160;habitus du combattant de MMA&#160;». Van Bottenburg et Heilbron (2006) décrivent l’histoire de l’apparition du MMA comme rupture avec les normes acceptées de violence, et Downey (2007) son aspect technique et le rapport à la douleur. Dans leurs thèses sur la boxe thaï en Thaïlande, Vail (1998) et surtout Rennesson (2005) traitent de l’apprentissage. Dans l’unique étude d’une salle de boxe thaï en banlieue populaire française, Bujon (2009) montre, d’un point de vue interactionniste, que l’apprentissage de la boxe thaï permet de distinguer entre les «&#160;débutants&#160;» qui doivent apprendre un ensemble de techniques et de règles implicites et les «&#160;anciens&#160;» qui les ont déjà acquises. Abramson et Modzelewski (2011) étudient l’engagement de membres des classes moyennes américaines dans la pratique des </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Mixed Martial Arts</hi>
+          </hi>
+                    <hi rend="italic">
+            <note type="standard" xml:id="ftn1" place="foot" n="1">
+              <p> <hi xml:lang="fr">Le MMA est un sport de combat récent qui combine de nombreuses techniques issues des autres disciplines alliant percussions, corps à corps, projections, et immobilisations.</hi>
+              </p>
+            </note>
+          </hi>
+                    <hi xml:lang="fr"> et montrent que malgré leur position sociale privilégiée et les sacrifices que ce sport implique, ces combattants participent à cette «&#160;sous-culture&#160;» non parce que, comme les pratiquants traditionnels de sports de combat issus des classes populaires, ils y trouvent une voie d’accès à un statut social valorisé mais parce qu’ils sont attirés par l’aspect moral et affectif de la pratique. Ces deux thèses sont complémentaires&#160;: les pratiquants sont moralement et affectivement «&#160;séduits&#160;» (Katz, 1988) par leur sport de combat mais ceux qui appartiennent aux classes populaires ont plus de chances de voir leur sport comme un accès à la mobilité sociale sans pour autant en faire nécessairement leur métier, comme cela est le cas de la plupart des pratiquants du club de boxe thaï étudié. Néanmoins, ces travaux disent peu de choses sur les effets de la transmission des sports de combat sur les structures de sociabilité extérieures à la salle. Certains boxeurs de l’enquête parviennent à obtenir une reconnaissance des entraîneurs, des boxeurs, voire d’autres acteurs locaux, responsables politiques et habitants. En mettant au cœur de l’analyse les boxeurs d’un club d’une banlieue populaire, tant par leurs expériences pratiques que par leur parole, afin de saisir les effets sociaux de la circulation des savoirs pugilistiques, cette enquête qui renouvelle l’apport sur la structuration et la socialisation des classes populaires urbaines, vient à la fois confirmer et nuancer celle de Masclet (2003) qui montre que l’engagement des «&#160;jeunes de cités&#160;» dans l’encadrement sportif et socioculturel ne leur apporte aucune reconnaissance des autorités politiques locales.</hi>
+                </p>
+                <p xml:id="d1e297">
+                    <hi xml:lang="fr">Dans un lieu où les jeunes garçons ont toutes les chances à la fois d’être désignés comme déviants et d’être objectivement «&#160;attirés&#160;» par la déviance, la distinction entre pratiques et savoirs légitimes et illégitimes est utile afin de mieux comprendre la spécificité des pratiques de ces acteurs en même temps que les représentations qui en sont faites. Willis (2011) a montré que les jeunes garçons des milieux populaires ont toutes les chances de développer une «&#160;culture anti-école&#160;». Néanmoins, l’allongement de la scolarité et l’élévation des aspirations (Beaud, 2002&#160;; Macleod, 1995) nous poussent à être très prudent sur la place qu’occupe une éventuelle «&#160;culture anti-école&#160;» parmi les jeunes des classes populaires urbaines tout en soulignant que les boxeurs de cette enquête semblent être plus disposés à acquérir des savoirs pugilistiques que des savoirs scolaires sans forcément vouloir devenir boxeurs professionnels. Si la boxe thaï est perçue comme un «&#160;sport de racailles&#160;» violent et relativement illégitime, c’est parce que les boxeurs sont vus comme des «&#160;racailles&#160;» de banlieue qui «&#160;se tapent dessus&#160;» en utilisant tous les membres du corps. Cette perception repose sur une double erreur que l’enquête empirique invalide&#160;: si la commune est dans le haut du classement des statistiques de la délinquance, les boxeurs, qui appartiennent au «&#160;pôle viril de l’espace des styles de vie ‘conformes’ des classes populaires&#160;» plutôt qu’au «&#160;monde des bandes&#160;» (Mauger, 2006), apprennent à contrôler leur violence et se distinguent vigoureusement des «&#160;racailles&#160;» (Anderson, 1999&#160;; Elias, Scotson, 1997). Les boxeurs, tout en rejetant cette image, comme Seb pour qui la boxe thaï est un «&#160;sport noble&#160;», apprennent ces savoirs spécifiques avec un intérêt prononcé parce que ceux-ci reposent sur des «&#160;valeurs&#160;» telles que la virilité, le courage, le travail physique, l’agilité, le «&#160;respect&#160;». Ils acquièrent des compétences pratiques qui, même si elles sont peu reconnues (par exemple par l’institution scolaire), leur permettent de se construire une identité sociale valorisée. Ces compétences sont reconnues par leurs pairs et les conduisent, lorsqu’ils les transmettent à leur tour, à en tirer un statut social que l’école ne leur confère pas nécessairement.</hi>
+                </p>
+                <p xml:id="d1e300">
+                    <hi xml:lang="fr">Il paraît pertinent d’utiliser les concepts de «&#160;capital pugilistique&#160;» et de «&#160;capital d’autochtonie&#160;» dans la mesure où ce sont les deux formes de ressources principales qui déterminent la hiérarchie du club et les modalités de transmission des savoirs, sachant que d’une part, une fois la cotisation de 122&#160;€ payée, les ressources économiques jouent peu, les entraîneurs étant bénévoles et les boxeurs pratiquant la plupart en loisir, et d’autre part, tous les boxeurs ne résident pas dans la grande cité où se situe le club, ni même dans la commune. On peut alors rendre compte plus fidèlement de l’hétérogénéité sociale des banlieues populaires (Chamboredon et Lemaire, 1970) et nuancer une théorie de la domination en donnant à voir un groupe, certes dominé économiquement et culturellement mais capable de produire&#160;des pratiques relativement autonomes sans être totalement écrasé par la domination. Le «&#160;capital pugilistique&#160;» est, selon Wacquant (2003), «&#160;un ensemble d’habiletés et dispositions susceptibles de produire de la valeur dans le champ de la boxe professionnelle sous forme de reconnaissance, de titres et de flux de revenus&#160;»</hi>
+                    <note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> <hi xml:lang="fr">Contrairement aux boxeurs étudiés par Bujon (2009) qui «&#160;dévalorisent la compétition sportive&#160;», ceux des Gants du Siam, qui a une tradition de club formateur de champions, y attachent une certaine importance, éprouvent de la «&#160;fierté&#160;» à appartenir à ce club désormais bien enraciné, et nombreux sont les boxeurs qui réclament aux entraîneurs de les faire combattre et ainsi porter les couleurs du club et gagner des titres, les entraîneurs étant souvent contraints de les tempérer et de leur dire qu’une proposition de combat «&#160;se mérite&#160;».</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Selon Retière (2003), le «&#160;capital d’autochtonie&#160;» est «&#160;une sociabilité de l’ancrage qui requiert nécessairement de l’ancienneté résidentielle&#160;», «&#160;agit comme un sésame des réseaux de sociabilité où le style populaire peut s’épanouir sans être dédaigné&#160;», «&#160;concourt à la différenciation des classes populaires résidentes&#160;» et sa possession «&#160;agit comme un tremplin qui favorise l’entrée dans des sphères de sociabilité –&#160;voire propulse à l’intérieur de ces dernières&#160;–, son manque constitue un frein en étouffant la volonté d’y pénétrer&#160;». Pour donner lieu à des rétributions sur la scène locale, ce capital qui «&#160;se construit quotidiennement dans les interactions&#160;» doit être reconnu par les élus locaux mais n’est pas reconnu hors de l’espace local et peut même constituer un «&#160;handicap&#160;» (Renahy, 2010). Mis en concurrence à l’intérieur de la salle, à «&#160;capital pugilistique&#160;» plus ou moins égal, les boxeurs qui résident dans la grande cité peuvent faire valoir leur «&#160;capital d’autochtonie&#160;». Comment se transmettent des savoirs relativement illégitimes auprès de jeunes d’une banlieue populaire et quels sont les effets de cette transmission&#160;?</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e311">
+                <head subtype="level1" xml:id="d1e312">Enquête dans la salle de boxe thaï</head>
+                <p xml:id="d1e314">
+                    <hi xml:lang="fr">Pour répondre à cette question, je m’appuie sur une enquête ethnographique menée entre 2009 et 2010 dans une salle de boxe thaïlandaise d’une banlieue populaire au cours de laquelle j’ai participé aux entraînements trois fois par semaine, assisté à des compétitions, aux événements organisés par le club (fêtes, démonstrations, etc.), consignant rigoureusement mes observations dans un carnet de terrain, mené une trentaine d’entretiens approfondis et de nombreux entretiens informels avec des boxeurs, du débutant au plus confirmé, les entraîneurs et divers acteurs locaux, et analysé la presse spécialisée.</hi>
+                </p>
+                <p xml:id="d1e317">
+                    <hi xml:lang="fr">L’association sportive les Gants du Siam est située au cœur de la cité Prévert</hi>
+                    <note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> <hi xml:lang="fr">Les noms propres ont été modifiés pour garantir l’anonymat.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr"> classée «&#160;zone urbaine sensible&#160;» (ZUS) d’une banlieue populaire de plus de 35&#160;000&#160;habitants (nommée Y.) où il y a environ 100&#160;nationalités différentes et où la moitié des logements sont de type HLM. Si les immigrants du Maghreb et d’Afrique subsaharienne représentent 40&#160;% de la population immigrée française, les immigrants non européens sont presque deux fois plus&#160;ségrégués que les immigrants européens (Préteceille, 2009), les Africains (au sens large) ayant plus de difficultés à s’extraire des banlieues paupérisées dites «&#160;ZUS&#160;» (Pan Ké Shon, 2009). Si la composition de la salle est pluriethnique, on observe une surreprésentation de boxeurs d’origine maghrébine, africaine et antillaise. Le taux de chômage de la commune est de 35&#160;% chez les 15-24&#160;ans, et 43,5&#160;% pour ceux de la ZUS. Environ 45&#160;% de la population non scolarisée de 15&#160;ans ou plus n’a aucun diplôme. Près de 20&#160;% des salariés de la ville n’ont pas d’emploi stable. 28&#160;% de la population sont des ouvriers et 25&#160;% des employés, les deux groupes représentant 83&#160;% de la population active de la ZUS (INSEE).</hi>
+                </p>
+                <p xml:id="d1e328">
+                    <hi xml:lang="fr">Alors que la boxe thaï était balbutiante en France, le club a été créé en 1984 par un habitant de la commune et son frère, d’origine vietnamienne, nés au Cambodge, qui avaient de la famille en Thaïlande. Ils ont commencé par la pratique du karaté, puis du full-contact et découvrent la boxe thaï, à la fois en Thaïlande et par l’intermédiaire de leur professeur de karaté. Ils ont bénéficié d’une subvention de la mairie qui déjà favorisait la création d’associations dans les quartiers dits difficiles. Les frères misaient sur l’implantation dans la cité Prévert comme vivier de potentiels boxeurs qui «&#160;avaient faim&#160;». Le club, qui a commencé avec une cinquantaine d’adhérents pour rapidement dépasser la centaine, s’est imposé dans la région avant de devenir rapidement l’un des meilleurs de France en formant de nombreux champions. Dans les années&#160;1990, le club a joui d’une forte réputation car les boxeurs participaient victorieusement à de nombreuses compétitions. Les entraîneurs reproduisaient ce qu’ils avaient vu dans les camps d’entraînement en Thaïlande au cours de séances très intensives, les boxeurs devaient «&#160;tout donner&#160;». Le club a longtemps traîné une réputation «&#160;sulfureuse&#160;» liée à son emplacement et son histoire émaillée d’&#160;«&#160;incidents&#160;» (bagarres, certains boxeurs impliqués dans la déviance, etc.). Le club a été interdit de compétitions pendant trois ans dans les années&#160;1990 parce que l’un des entraîneurs, estimant qu’un boxeur avait été «&#160;volé&#160;» au cours d’un combat, avait frappé un officiel qui lui aurait apparemment «&#160;manqué de respect&#160;». Cette image s’améliore à partir de la fin des années&#160;1990, principalement par l’euphémisation de la pratique et, selon plusieurs enquêtés, le changement de recrutement des boxeurs, parmi les fractions plus stabilisées des jeunes de la commune et autour. Le club est désormais une institution sportive locale dont le travail d’encadrement et de socialisation de la jeunesse est reconnu par les habitants et de plus en plus par la municipalité mais insuffisamment selon plusieurs enquêtés. Les fondateurs ont passé la main à quatre anciens boxeurs du club et habitants de la commune, bénévoles, non diplômés, sauf un qui passe son Brevet Professionnel de la Jeunesse, de l’Éducation Populaire et du Sport (BPJEPS) Activités Pugilistiques mention muay thaï</hi>
+                    <note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> <hi xml:lang="fr">Depuis l’importation de la discipline en France dans les années&#160;1980, l’enseignement de la boxe thaï dans les banlieues populaires a souvent été effectué par d’anciens boxeurs ou des «&#160;grands frères&#160;» qui n’ont pas reçu de formation d’éducateur sportif, qui par ailleurs requiert un niveau scolaire de plus en plus élevé. La boxe thaï étant inscrite dans un processus de «&#160;sportivisation&#160;» (Elias et Dunning, 1994) et d’institutionnalisation, les municipalités exigent de plus en plus des entraîneurs diplômés pour pouvoir enseigner cette discipline.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, qui encadrent une centaine de licenciés, âgés de 15 à 35&#160;ans, qui viennent des cités ou des communes populaires voisines. Une dizaine de jeunes filles sont inscrites mais rares sont celles qui viennent régulièrement. Il y a essentiellement des étudiants (lycéens, bac pro, études commerciales, STAPS…), des employés et ouvriers (conducteur de bus et de métro, chauffeur de taxi, électricien, sapeur-pompier, éducateur spécialisé, etc.), des intérimaires et des chômeurs. La plupart des boxeurs sont là pour le «&#160;loisir&#160;» même s’ils sont amenés à faire de la compétition, et une grosse dizaine de boxeurs sont des compétiteurs de haut niveau dont Seb, un professionnel.</hi>
+                </p>
+                <div type="div2" xml:id="d1e339">
+                    <head subtype="level2" xml:id="d1e340">Transmettre des savoirs pugilistiques et des manières d’être</head>
+                    <div type="div3" xml:id="d1e342">
+                        <head subtype="level3" xml:id="d1e343">Modalités d’apprentissage de la boxe thaï</head>
+                        <p xml:id="d1e345">
+                            <hi xml:lang="fr">La transmission des techniques de boxe thaï aux Gants du Siam est une manière de transmettre des savoirs sportifs, d’établir des processus d’identification, de produire des croyances, et d’inculquer des dispositions qui participent du style de vie des fractions viriles de la jeunesse d’une banlieue populaire. Les entraîneurs du club transmettent des savoirs pugilistiques mais également des manières d’être. Bien que des guides d’entraînement soient commercialisés, les boxeurs ne les utilisent pas. Schématiquement, le cours de boxe thaï se déroule comme suit&#160;: après un échauffement collectif, les entraîneurs, avec l’aide d’un boxeur, montrent une série d’exercices techniques (exécution d’un </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">middle-kick</hi>
+              </hi>
+                            <hi xml:lang="fr"> par exemple, ou d’un coup de genou) que la plupart des boxeurs, réunis en cercle autour d’eux, sauf les plus expérimentés, observent attentivement dans une «&#160;attitude […] proche de la contemplation&#160;» (Bruant, 1992, p.&#160;209) et reproduisent par mimétisme. Puis, par binômes de niveau relativement égal, en «&#160;combat libre&#160;», les boxeurs perfectionnent les techniques sans trop appuyer les coups. Les plus aguerris montent sur le ring faire du </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">sparring</hi>
+              </hi>
+                            <hi xml:lang="fr">, les coups y étant beaucoup plus appuyés, d’autres travaillent au sac de frappe. L’entraînement se termine par un travail physique (abdominaux, gainage, pompes, etc.), puis par un rassemblement et un salut collectifs. Tout au long de la séance, entraîneurs et boxeurs donnent des indications aux autres, corrigent un geste, montrent une technique, afin que ceux-ci s’améliorent. L’apprentissage de la boxe thaï passe donc par une mise en scène des gestes techniques à effectuer. Lorsqu’un boxeur expérimenté, ou un entraîneur, apprend à un pratiquant moins expérimenté comment lancer un coup de pied ou coup de poing, il lui montre comment faire le geste souvent accompagné de quelques mots («&#160;lève le poing&#160;», «&#160;pivote le pied d’appui&#160;», etc.).</hi>
+                        </p>
+                        <p xml:id="d1e358">
+                            <hi xml:lang="fr">Si, dans son étude du conflit, Boilleau (1995, p.&#160;98) fait bien d’affirmer que les «&#160;jeunes sportifs issus des milieux défavorisés&#160;» ne s’engagent pas tous dans une carrière sportive uniquement pour «&#160;se sortir de la misère&#160;» mais aussi par attrait pour la dimension agonistique, dont Lepoutre (1992) a montré l’importance et la cohérence au sein de la «&#160;culture des rues&#160;», notamment dans sa composante linguistique, il évacue, trop rapidement la domination et le pouvoir de l’&#160;«&#160;Agôn&#160;» et le sépare trop facilement du «&#160;Logos&#160;», ce qui revient à séparer le corps et l’esprit, le geste et la parole. Or la pédagogie observée dans la salle de boxe, qui repose en grande partie sur l’obtention de la part des entraîneurs de la docilité des boxeurs, allie le geste à la parole (Faure, 2000). Semblable, par de nombreux aspects, à DeeDee, l’entraîneur du </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">gym</hi>
+              </hi>
+                            <hi xml:lang="fr"> étudié par Wacquant (2000), Fabrice, l’entraîneur le plus expérimenté et «&#160;respecté&#160;» des Gants du Siam, est cependant plus prolixe et intervient davantage auprès des boxeurs en circulant dans les rangs, s’arrêtant auprès d’eux en expliquant et en montrant le geste correct et sa conception de la boxe thaï. Fabrice s’adresse à Hassan qui exécute un </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">low-kick</hi>
+              </hi>
+                            <hi xml:lang="fr"> incorrectement&#160;: «&#160;t’as vu là quand il t’a mis le </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">low-kick</hi>
+              </hi>
+                            <hi xml:lang="fr">, c’est en souplesse, et toi t’es trop rigide, t’es là comme ça, [il l’imite en le caricaturant, reste droit, fixe, et met un enchaînement gauche droite très stéréotypé], nan, il faut être souple [Fabrice se met en bonne position, bouge en souplesse, et se met en face de l’autre boxeur, Hassan les observe] comme ça, là regarde, si lui il te met un </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">low-kick</hi>
+              </hi>
+                            <hi xml:lang="fr">, tu bloques tranquille et tu remises en souplesse&#160;». Le boxeur met doucement un </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">low-kick</hi>
+              </hi>
+                            <hi xml:lang="fr"> à Fabrice qui bloque et remise. Fabrice prévient&#160;: «&#160;avec la garde haute, sinon, lui il t’envoie ses poings&#160;!&#160;», baisse sa garde et le boxeur envoie ses poings pour montrer que sans garde, ils percutent le visage.</hi>
+                        </p>
+                        <p xml:id="d1e386">
+                            <hi xml:lang="fr">Si la boxe thaï est pratiquée en «&#160;loisir&#160;», que les entraîneurs ne cessent de répéter que le club est «&#160;une famille&#160;» et que de nombreux boxeurs intériorisent ce discours, l’organisation du club et les modalités d’entraînement induisent une hiérarchie. L’échange entre boxeurs est fondé sur une réciprocité des coups mais, contrairement aux coureurs qui ne doivent pas dépasser le «&#160;leader&#160;» à l’entraînement (Schotté, 2012, p.&#160;166), un boxeur peut, s’il en a les capacités, dominer son partenaire d’entraînement et bousculer la hiérarchie de la salle. Dans ce cas, l’entraîneur, ou un boxeur expérimenté, comme s’il voulait conserver cette hiérarchie, met en garde le boxeur expérimenté pour le motiver&#160;: «&#160;Attention, il est en train de t’avoir&#160;!&#160;». Lorsqu’un champion, dont certains peuvent penser qu’il est «&#160;trop fort&#160;» ou «&#160;doué&#160;»</hi>
+                            <note type="standard" xml:id="ftn5" place="foot" n="5">
+                <p> <hi xml:lang="fr">Chez les coureurs marocains, les «&#160;lièvres&#160;» sont disposés à accepter cette position subalterne en partie parce qu’ils croient en la «&#160;baraka&#160;» du champion (Schotté, 2012, pp.&#160;172-176).</hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">, dirige un échauffement, tous les boxeurs obéissent à ses directives. Cette logique pugilistique fait que les boxeurs intériorisent une représentation hiérarchisée de la salle qui apparaît comme allant de soi, même si les champions ont conscience qu’ils doivent continuer à travailler pour ne pas se faire détrôner par les jeunes qui sont «&#160;morts de faim&#160;» comme dit Seb et même si les boxeurs veulent prendre le dessus en </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">sparring</hi>
+              </hi>
+                            <hi xml:lang="fr">. Seb, 30&#160;ans, ancien gardien d’immeuble dans la cité, «&#160;métis&#160;» d’origine ivoirienne, assez grand, sec, musclé, qui a débuté à 13&#160;ans en suivant son grand frère, alors qu’il pratiquait le foot «&#160;à un bon niveau&#160;», est champion du monde et le seul professionnel de la salle. Il pratique aussi la boxe anglaise dans la même commune, a effectué quelques combats&#160;amateurs et a failli «&#160;passer pro&#160;» mais a préféré se consacrer à la boxe thaï. Il est très technique, a une boxe très «&#160;propre&#160;» sans «&#160;déchets&#160;», «&#160;féline&#160;». Au pied du ring, il discute avec un jeune boxeur et lui dit qu’un autre boxeur de la salle va bientôt être meilleur que celui-ci qui répond dépité&#160;: </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">«&#160;Ouais je sais&#160;»,</hi>
+              </hi>
+                            <hi xml:lang="fr"> puis Seb dit en souriant que s’ils montent ensemble sur le ring il va être obligé de le «&#160;piquer&#160;», et le jeune boxeur montre qu’il ne le souhaite pas tout en admettant cette possibilité objective. Mais Seb confirme&#160;: «&#160;Ben si, je vais être obligé&#160;!&#160;» toujours en souriant, comme pour rappeler sa supériorité.</hi>
+                        </p>
+                        <p xml:id="d1e407">
+                            <hi xml:lang="fr">L’économie pugilistique des Gants du Siam repose en grande partie sur la double obligation paradoxale de recevoir et de donner des coups et de transmettre des connaissances, de boxer avec la «&#160;tête&#160;» et prendre du plaisir comme le rappelle sans cesse Fabrice. Le rapport pédagogique est marqué par un mécanisme d’obligations réciproques qui intensifie des relations sociales préexistantes (De Grave, 2001&#160;; Mauss, 2006) et donne l’occasion aux boxeurs de montrer leur sens de la solidarité en actes&#160;: obligation d’apprendre des autres, obligation de transmettre ses connaissances, tout en faisant croître son prestige. Ce faisant, le boxeur se hisse «&#160;au-dessus&#160;» des autres qui reconnaissent implicitement sa place dans la hiérarchie de la salle. La variation du «&#160;capital pugilistique&#160;», couplée à celle du «&#160;capital d’autochtonie&#160;», implique une hiérarchie implicite à l’intérieur de la salle au sein de laquelle des classements s’effectuent en fonction de ces deux formes de capital. Ces opérations de classement symbolique peuvent s’affiner en jaugeant le style du boxeur, la qualité de ses techniques, son allure, ou sa puissance et se fondent également en partie sur des caractéristiques sociales extérieures à la salle («&#160;réputation&#160;» dans le quartier, famille ou fratrie «&#160;connue&#160;», hiérarchie symbolique locale, insertion dans un réseau d’interconnaissance, compétences extra-pugilistiques liées notamment à d’autres pratiques sportives ou culturelles, etc.). Plus ces formes de capital sont élevées, plus un boxeur a de probabilité d’avoir un accès prioritaire à un sac de frappe, à un espace spécifique de la salle, de participer aux discussions informelles, de donner des conseils, voire des ordres comme cet «&#160;ancien&#160;» qui interpelle d’un ton sec un jeune boxeur qui a transgressé une règle de la salle et pénétré le tatami sans saluer à la thaï&#160;: </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">«&#160;on salue le tatami en entrant&#160;!&#160;»</hi>
+              </hi>
+                            <hi xml:lang="fr">, le jeune s’exécute. Il a plus de chances d’obtenir la reconnaissance des autres pratiquants, d’habitants de la commune, d’avoir les attentions du public qui assiste aux entraînements, d’être sollicité par l’extérieur (presse spécialisée, tournage d’un clip de rap, recrutement comme agent de sécurité…), etc. Sur une idée de Rafik, Seb a ainsi participé à un court-métrage intitulé «&#160;Volonté&#160;» dans lequel il fait du </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">sparring</hi>
+              </hi>
+                            <hi xml:lang="fr"> avec un champion de boxe anglaise du club de la commune. Ce clip fait l’éloge de la détermination et de la passion que les gens mettent dans leur quotidien afin de parvenir à réaliser leurs objectifs, ainsi que de la nécessité de transmettre cette passion aux autres.</hi>
+                        </p>
+                        <p xml:id="d1e420">
+                            <hi xml:lang="fr">Fabrice trône au sommet de la hiérarchie. Viennent les trois autres entraîneurs Aimé, Chérif et Alain (frère cadet de Fabrice), Rafik, plus jeune, passe son BPJEPS muay thaï et commence à prendre des responsabilitéspédagogiques, puis Ahmed et Seb, champions du monde, suivi de divers champions (européens, nationaux, etc.), enfin les autres boxeurs, en distinguant </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">grosso modo</hi>
+              </hi>
+                            <hi xml:lang="fr"> entre «&#160;débutants&#160;» (première année de pratique et/ou qui n’a pas les «&#160;bases&#160;» techniques) et «&#160;anciens&#160;» (au moins une année de pratique et/ou qui a les «&#160;bases&#160;» techniques), ceux qui ont fait de la compétition et ceux qui n’en ont pas fait. Un stage d’entraînement dans un camp et </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">a fortiori</hi>
+              </hi>
+                            <hi xml:lang="fr"> des combats en Thaïlande ajoute une «&#160;plus-value&#160;» parce que c’est le berceau de la discipline et la référence pour tous les pratiquants. Trois éléments déterminent principalement la structure de la hiérarchie de la salle, en rapport avec l’univers local extérieur&#160;: le «&#160;capital pugilistique&#160;», l’ancienneté dans le club et le «&#160;capital d’autochtonie&#160;».</hi>
+                        </p>
+                        <p xml:id="d1e433">
+                            <hi xml:lang="fr">Plutôt que de transgresser la hiérarchie de la salle, les boxeurs ont toutes les chances de «&#160;rester à leur place&#160;». Lorsqu’il «&#160;tourne&#160;» avec un débutant, Mounir «&#160;essaie de le faire travailler&#160;», quitte à le toucher pour lui montrer que «&#160;c’était ouvert&#160;» mais avoue ne pas trop aimer donner des conseils aux autres boxeurs car cela serait «&#160;prétentieux&#160;». Mounir se dit «&#160;pas encore prêt&#160;» et plus disposé à recevoir des conseils d’un «&#160;ancien&#160;» qu’à véritablement en donner. Boxeur plus expérimenté qui pratique depuis cinq ans, qui a six combats à son actif et s’est entraîné en Thaïlande, Omar ne se dit en rien supérieur aux autres boxeurs mais il se permet de donner quelques conseils aux débutants lorsqu’&#160;«&#160;ils font des fautes&#160;» («&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Ouais fais attention, fais comme ça&#160;»&#160;; «&#160;Nan vas-y tranquille, travaille tranquille, essaie de t’appliquer dans ton geste</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;») et de leur montrer le bon geste, comme l’ont fait les «&#160;anciens&#160;» avec lui. Pour autant, la transmission des savoir-faire pugilistiques d’un boxeur à l’autre ne va pas sans heurt et peut renvoyer à des conceptions différentes de la pratique. Au cours d’un exercice où les boxeurs, par binômes, doivent effectuer tour à tour un «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">front kick</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» (coup de pied direct dans l’abdomen de l’adversaire servant en général à le repousser lorsque celui-ci avance sur son opposant), un jeune boxeur débutant d’environ 17&#160;ans fait l’exercice avec un boxeur plus expérimenté d’environ 30&#160;ans, fraîchement arrivé au club et n’habitant pas la commune. Ce dernier, comme s’il prônait une pratique plus traditionnelle, dit au jeune boxeur qu’il ne devrait pas chercher à frapper son adversaire avec cette technique mais plutôt à le repousser. Le jeune boxeur rétorque&#160;: «&#160;Nan c’est comme ça que je fais moi.&#160;» Le boxeur plus âgé conclut l’échange verbal&#160;: «&#160;Comme tu veux, je dis ça pour toi.&#160;» La docilité, relative, des boxeurs, loin d’être acquise&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">a priori</hi>
+              </hi>
+                            <hi xml:lang="fr">, est à conquérir, par exemple par le travail disciplinaire d’Alain qui contrôle, sans relâche, jusqu’au moindre détail&#160;: s’ils se sont salués, si la tenue est correcte et adaptée, le short doit être de préférence un short de boxe thaï, si le t-shirt est rentré dans le short (pour ne pas qu’un boxeur se prenne le pied dans un t-shirt ballant), si les boxeurs ont une bouteille d’eau, des claquettes aux pieds, leur carte de membre, s’ils sont souriants, etc.</hi>
+                        </p>
+                        <p xml:id="d1e451">
+                            <hi xml:lang="fr">La transmission de la boxe thaï, par le geste et la parole, crée une hiérarchie et un microcosme qui autorisent la transmission de manières d’être.</hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e454">
+                        <head subtype="level3" xml:id="d1e455">Transmettre des manières d’être</head>
+                        <p xml:id="d1e457">
+                            <hi xml:lang="fr">D’apparence purement technique, l’enseignement de la boxe thaï est aussi un moyen de transmettre des manières d’être et de penser culturelles et morales relatives aux différences de classe, de genre, d’âge voire ethniques comme l’a montré Alter dans le cas de lutteurs en Inde (1992, pp.&#160;59, 66-67). En plus de transmettre des savoirs sportifs, les entraîneurs, dont la présence et les actions sont relativement enveloppantes, estiment qu’ils transmettent des «&#160;valeurs&#160;» et des «&#160;repères&#160;» aux jeunes et ainsi les détournent de la petite délinquance de rue. Ce discours est à la fois une croyance et une manière de légitimer la pratique et leur travail d’encadrement de la jeunesse de la commune et des alentours. Si les entraîneurs se targuent auprès des élus de la commune d’encadrer les jeunes «&#160;les plus durs&#160;», ils exigent de ces derniers qu’ils «&#160;respectent&#160;» les règles et leurs directives à l’entraînement. Il arrive que certains jeunes fougueux du quartier viennent à une première séance d’entraînement persuadés qu’ils sont plus «&#160;forts&#160;» que les autres, assimilant la boxe thaï à de la «&#160;bagarre de rue&#160;». Ils sont vite repérés par les entraîneurs qui les prennent en </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">sparring</hi>
+              </hi>
+                            <hi xml:lang="fr"> et les «&#160;remettent&#160;à leur place&#160;». De là, soit ils se montrent plus dociles et suivent les «&#160;règles&#160;», soit ils ne reviennent plus</hi>
+                            <note type="standard" xml:id="ftn6" place="foot" n="6">
+                <p> <hi xml:lang="fr">Abramson et Modzelewski (2011) notent le même processus dans des clubs de MMA.</hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. Une première sélection permet donc d’évincer les moins dociles. Les écarts de comportement ne sont pas tolérés. Au cours d’un </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">sparring</hi>
+              </hi>
+                            <hi xml:lang="fr">, Manu (28&#160;ans, chauffeur de bus, d’origine espagnole) s’est énervé parce qu’il a raté un coup et a jeté son gant de colère sur le ring. Tous les boxeurs sur le ring se sont arrêtés, surpris, et l’ont regardé. Alain s’est aussi arrêté et l’a fait immédiatement sortir du ring&#160;: «&#160;tiens tu prends ton gant et tu sors&#160;!&#160;», sans broncher Manu s’est exécuté.</hi>
+                        </p>
+                        <p xml:id="d1e478">
+                            <hi xml:lang="fr">Les entraîneurs insistent sur le fait de se «&#160;servir de sa tête&#160;». Comme le signale Wacquant (2000) dans le cas de la boxe anglaise, la transmission de la boxe thaï constitue une altération en acte de la ligne de séparation entre le corps et l’esprit au cours de laquelle les boxeurs développent une capacité à exécuter de manière instantanée les techniques pugilistiques sans un long processus de réflexion. Néanmoins, aux Gants du Siam, les entraîneurs font constamment appel à la présence d’esprit des boxeurs en situation pratique d’exercice et les enjoignent à être «&#160;relâchés&#160;», «&#160;sérieux&#160;», «&#160;lucides&#160;» mais aussi «&#160;explosifs&#160;», à «&#160;travailler&#160;» et à «&#160;utiliser leur tête&#160;». Une séance peut être entièrement dédiée à renforcer l’endurance et la résistance des boxeurs, à tester leur détermination et leur concentration au cours de laquelle les exercices «&#160;physiques&#160;» (relevés de genoux, pompes, coups de poings en fractionné, séries de roulades avant qui donnent le tournis pour simuler les sensations d’ébranlement lorsqu’on est «&#160;sonné&#160;», etc.) s’enchaînent avec très peu de repos. Aux premiers signes d’épuisement de certains boxeurs, Aimé demande&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Vous êtes fatigués les gars&#160;? Eh ben c’est maintenant qu’il faut être lucide&#160;!</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;». Cette séance a une fonction de renforcement des capacités d’endurance, comme le rappelle Chérif aux boxeurs&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Vous verrez cette séance elle va vous faire du bien</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» et permet aussi de préparer le boxeur à faire appel à sa présence d’esprit lorsqu’il est fatigué, donc à rapprocher le corps et l’esprit, capacité qui lui sera fort utile en situation de combat en l’autorisant à maîtriser son corps malgré l’épuisement ou l’ébranlement et faire les bons «&#160;choix&#160;» tactiques et techniques en un minimum de temps.</hi>
+                        </p>
+                        <p xml:id="d1e491">
+                            <hi xml:lang="fr">Fabrice est celui qui cherche le plus à amener les boxeurs vers plus de réflexivité, à être moins impulsifs et à moins utiliser la force physique. Lorsqu’il clame avec force à tous les boxeurs au début de l’entraînement&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">On boxe avec sa tête&#160;!</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» et le répète en insistant à la fin de la session, il réfute la dissociation corps/esprit tout en proposant une représentation autre que celle du boxeur dépourvu d’intelligence ou celle de la boxe thaï comme «&#160;bagarre&#160;» ou «&#160;sport de racailles&#160;». Il montre son biceps et répète qu’on ne boxe pas avec sa force mais avec intelligence et se distingue des méthodes plus brutales des autres clubs de la région&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Il faut être malin, si vous regardez, les champions en général sont les plus malins. Quand vous serez crevés, y’aura plus de force qui tienne, ça sera l’intelligence</hi>
+              </hi>
+                            <hi xml:lang="fr">… </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Si vous voulez vous taper, allez dans les autres clubs, eux ils cognent&#160;! Mais après en compétition&#160;: ‘Hé l’arbitre il m’a volé&#160;!’</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;», Fabrice boîte et titube. Il dit qu’il faut boxer «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">avec la tête et les yeux</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» pas avec les muscles ou la force, «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">si vous ne boxez pas intelligemment, et en force, vous allez vous prendre un parpaing et vous allez vous réveiller au vestiaire et là c’est une autre histoire&#160;!</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;». Fabrice aime à prendre des bons boxeurs –&#160;que ce soit en boxe anglaise ou en boxe thaï&#160;– comme exemples à suivre, il me dit au début d’une séance&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">T’as vu comment il a gagné&#160;?</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;», </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">je</hi>
+              </hi>
+                            <hi xml:lang="fr"> demande&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Qui&#160;?</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» et Fabrice répond&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Pacquiao</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» [champion du monde de boxe anglaise qui a victorieusement défendu son titre la veille de l’entraînement], je dis&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Ah oui&#160;!</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;», il poursuit&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">T’as vu&#160;? Ça c’est un boxeur&#160;! J’aime les boxeurs comme ça&#160;! Il est intelligent&#160;!</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;». Il prend régulièrement les boxeurs thaïlandais en référence car ils sont «&#160;malins&#160;» et savent jouer du temps et de l’espace de combat&#160;: au cours du «&#160;pot de l’amitié&#160;», Fabrice et deux autres boxeurs, dont un qui s’est déjà entraîné en Thaïlande, échangent, Fabrice explique à Mounir qu’il faut être malin, et dit&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Demande-lui, en Thaïlande comment ils sont malins, ils sont tout petits mais ils te mettent des coups, ils te touchent et ils tournent, alors que nous on veut tout de suite rendre et on s’énerve.</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» Rompant avec le sens commun et la hiérarchie symbolique des pratiques sportives, Fabrice déclare&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Je le répète, la boxe c’est un sport intelligent.</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» Ce discours est plus qu’un discours de légitimation d’une pratique mal reconnue puisqu’il est destiné aux boxeurs, dont la plupart sont convaincus de la légitimité et de la «&#160;noblesse&#160;» de leur sport. Il sert plutôt à «&#160;emmener&#160;» les boxeurs vers plus de réflexivité et vers plus de contrôle de leur force. Les entraîneurs connaissent la manière de boxer de leurs boxeurs, effectuent des classifications et les utilisent afin d’orienter la pratique dans ce sens-là. Sur le ring, alors qu’il demande à deux boxeurs au style différent de boxer ensemble, Alain s’adresse à l’un d’eux plus expérimenté&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Bon lui il va foncer, toi boxe avec ta tête&#160;!</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;», suffisamment fort pour que l’autre entende, ce qui a pour effet de forcer le boxeur débutant qui «&#160;fonce&#160;» à boxer de manière plus réfléchie. Alain essaie ainsi de le transformer en boxeur plus «&#160;intelligent&#160;» ou tout du moins de le faire tendre vers cette catégorie.</hi>
+                        </p>
+                        <p xml:id="d1e566">
+                            <hi xml:lang="fr">Les Gants du Siam sont aussi une «&#160;école de moralité&#160;», comme l’ont noté pour d’autres cas Abramson et Modzelewski (2011), Bujon (2009), Rennesson (2012) et Wacquant (2000), qui repose sur la volonté affichée par les entraîneurs de transmettre des «&#160;valeurs&#160;», de détourner les boxeurs de la déviance, dans l’exhortation à «&#160;se donner à fond&#160;» et à être solidaire entre boxeurs et avec les autres</hi>
+                            <note type="standard" xml:id="ftn7" place="foot" n="7">
+                <p> <hi xml:lang="fr">Après le séisme en Haïti en 2010, le club a organisé une collecte qu’un boxeur d’origine haïtienne s’est chargé d’envoyer. Le club participe également aux journées Téléthon organisées par la commune sous la forme de démonstrations techniques, ce qui constitue également une stratégie d’obtention d’une certaine reconnaissance institutionnelle.</hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr">. Les entraîneurs sont en charge de transmettre des savoirs pugilistiques et sont des autorités morales. Le club a affiché sur la vitre de son bureau un «&#160;Code du sportif&#160;» composé de sept «&#160;règles&#160;» cardinales qui dicte au pratiquant le comportement qu’il est censé avoir dans le cadre de sa pratique et en dehors&#160;:</hi>
+                        </p>
+                        <p rend="box" xml:id="d1e577">
+                            <hi rend="italic">
+                <hi xml:lang="fr">Tout sportif, débutant ou champion, s’engage à&#160;:<lb/>Connaître les règles du jeu et s’y conformer<lb/>Respecter les décisions de l’arbitre<lb/>Respecter les adversaires, partenaires et officiels<lb/>Refuser toute forme de violence et de tricherie<lb/>Être maître de soi en toutes circonstances<lb/>Être loyal dans le sport et dans la vie<lb/>Être exemplaire, généreux et tolérant</hi>
+              </hi>
+                        </p>
+                        <p xml:id="d1e596">
+                            <hi xml:lang="fr">Les boxeurs doivent manifester leur valeur sportive mais aussi morale afin d’apparaître dignes de l’apprentissage qu’ils reçoivent, gagner la reconnaissance de leurs pairs, l’estime des entraîneurs, être mieux perçus par les habitants et, pourquoi pas, obtenir une reconnaissance plus institutionnelle. Si de nombreux boxeurs finissent par l’intérioriser, sans que cela n’empêche qu’ils y contreviennent parfois, ce code a également pour fonction, puisqu’il est visible par d’autres personnes extérieures au club qui viennent au gymnase, d’afficher les «&#160;valeurs&#160;» morales du club et de donner une bonne image du club et de ses membres.</hi>
+                        </p>
+                        <p xml:id="d1e599">
+                            <hi xml:lang="fr">L’inculcation de techniques pugilistiques modifie plus ou moins les dispositions acquises et confère des allures plus sportives et viriles au style de vie de ces boxeurs à travers l’incorporation de schèmes moteurs, cognitifs, esthétiques, de «&#160;règles&#160;», d’injonctions (Defrance, 2006, p.&#160;56). Paradoxalement, on inculque aux boxeurs à être solidaires mais aussi plus réfléchis en faisant le lien, inattendu, entre boxe et intelligence. En entretien, les boxeurs témoignent souvent du fait que la boxe thaï est un «&#160;mode de vie&#160;», qu’elle les a «&#160;calmés&#160;» et leur a apporté une «&#160;nouvelle façon de penser&#160;». Le boxeur rapproche action et réflexion, et acquiert des manières d’être et des catégories de pensée qui structurent sa vision de la salle et dans une certaine mesure du reste du monde social qu’il sera amené à transmettre à son tour. Les boxeurs se conforment ainsi aux normes du groupe et à sa hiérarchie tout en acquérant une relative autonomie.</hi>
+                        </p>
+                        <p xml:id="d1e602">
+                            <hi xml:lang="fr">Les savoirs sportifs et les manières d’être transmis aux boxeurs, réflexifs et fortement socialisateurs, sont reconnus par les pairs sans pour autant l’être nécessairement par les groupes institutionnels ou dominants (école, municipalité, entreprises, médias, etc.).</hi>
+                        </p>
+                    </div>
+                </div>
+                <div type="div2" xml:id="d1e605">
+                    <head subtype="level2" xml:id="d1e606">Transmission de savoirs pugilistiques et statut social</head>
+                    <p xml:id="d1e608">
+                        <hi xml:lang="fr">Voyons comment la reconnaissance par les boxeurs du travail de transmission des entraîneurs procure un statut social à ces derniers à l’intérieur de la salle, puis comment, en retour, les boxeurs se construisent une estime de soi et un statut social à la salle et, finalement, comment ce statut commence à être relativement reconnu à l’extérieur.</hi>
+                    </p>
+                    <div type="div3" xml:id="d1e611">
+                        <head subtype="level3" xml:id="d1e612">L’entraîneur charismatique</head>
+                        <p xml:id="d1e614">
+                            <hi xml:lang="fr">La relative docilité dont font preuve les boxeurs s’explique par leur volonté de progresser techniquement, la perception enchantée de la salle comme lieu de loisir qui contraste avec l’école ou le travail (Weber, 1989), et leur adhésion au charisme des entraîneurs, notamment Fabrice, ou des champions. Fabrice, 47&#160;ans, est l’un des premiers champions du club et appartient à la première génération de compétiteurs en France dans les années&#160;1980. Il quitte la Guinée pour la France à l’âge de 5&#160;ans. Électricien, marié, deux enfants, il habite une cité dans la commune. Son «&#160;temps libre&#160;» est entièrement pris par le club, les entraînements, les compétitions, les fêtes… On dit de ses tibias qu’ils sont en «&#160;pierre&#160;». Il est le plus âgé et expérimenté des entraîneurs, président du club et la pièce maîtresse du processus de distribution de statut dans la salle. Il est reconnu de tous les boxeurs, dans le monde de la boxe thaï et des habitants de la commune qui le surnomment «&#160;tonton&#160;» (floqué sur son short de boxe thaï) et le saluent dans la rue. Certains le craignent. Lorsque Fabrice était boxeur, lui et d’autres ont «&#160;corrigé&#160;» un membre du club qui avait volé dans les vestiaires et qui fait «&#160;profil bas&#160;» depuis&#160;: «&#160;Je le croise maintenant dans la rue et croyez-moi il baisse les yeux quand il me voit&#160;», dit Fabrice aux boxeurs à la suite d’un probable vol de téléphone portable dans les vestiaires, comme pour les dissuader. Il passe toute la séance à montrer, expliquer et corriger les défauts des boxeurs et utilise des métaphores qui «&#160;parlent&#160;» aux boxeurs&#160;: en assimilant le boxeur à un ouvrier qui usine une pièce, à un paysan qui fauche le blé, le mouvement de pivot de la jambe d’appui lorsqu’on effectue un </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">middle-kick</hi>
+              </hi>
+                            <hi xml:lang="fr"> au fait d’écraser un mégot avec son pied, etc. Il n’a de cesse d’inciter les pratiquants à boxer avec leur «&#160;tête&#160;» et non pas en force, ce qui tend à valoriser les boxeurs qui, en retour, «&#160;respectent&#160;» d’autant plus Fabrice. Son «&#160;charisme&#160;» (Sauvadet, 2006&#160;; Turner, 2003&#160;; Weber, 1995) et sa légitimité reposent sur son expérience de boxeur et son </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">éthos</hi>
+              </hi>
+                            <hi xml:lang="fr"> à la fois viril et populaire, sa manière de parler, son vocabulaire, une disposition à «&#160;chambrer&#160;», une certaine assurance, une présence virile, une démarche chaloupée, une allure et une manière de s’habiller sportives (jeans, baskets), un goût pour l’effort physique, etc., sur un certain prestige social qui déborde l’enceinte de la salle, voire sur son appartenance ethnique.</hi>
+                        </p>
+                        <p xml:id="d1e627">
+                            <hi xml:lang="fr">D’origine antillaise, converti à l’islam, Omar, 27&#160;ans, conducteur de métro, habite une cité «&#160;connue&#160;», proche de la salle dans une commune populaire voisine. Il a six combats à son actif, un stage d’entraînement en Thaïlande et connaît pas mal de boxeurs, dont certains champions issus de sa cité, ce qui le place à une position intermédiaire dans la hiérarchie de la salle. Grand, endurant, assez complet, il s’en tire bien dans la plupart des </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">sparrings</hi>
+              </hi>
+                            <hi xml:lang="fr">. Il décrit le caractère quasi magique du </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">low-kick</hi>
+              </hi>
+                            <hi xml:lang="fr"> que lui a asséné Fabrice afin de lui montrer comment faire le geste&#160;:</hi>
+                        </p>
+                        <q rend="quotation">Le premier<hi xml:lang="fr"> </hi>
+              <hi rend="italic">low-kick</hi>
+              <hi xml:lang="fr"> </hi>qu’il m’a mis comment j’avais la jambe j’crois qu’il allait me l’arracher, j’ai fait&#160;: «&#160;Waow&#160;!&#160;» et sans mettre de vitesse rien du tout, c’était simple, juste avec la hanche. J’imagine s’il balance vraiment un coup…</q>
+                        <p xml:id="d1e649">
+                            <hi xml:lang="fr">Omar croit aux capacités agonistiques de Fabrice transposables, selon lui, aussi hors de la salle dans un éventuel «&#160;combat de rue&#160;».&#160;Il dit que malgré sa relative petite taille (environ 1&#160;m&#160;70), Fabrice, qu’il a croisé alors que celui-ci officiait dans un service de sécurité, pourrait mettre tout belligérant hors d’état de nuire&#160;:</hi>
+                        </p>
+                        <q rend="quotation">C’était le plus petit, c’était le plus petit de tous les mecs, ils étaient tous baraqués, ils faisaient tous deux mètres et tout et j’l’avais croisé et j’m’étais dit si ça part en cacahuète franchement le mec qui se retrouve face à lui franchement c’est foutu pour lui, parce qu’à mon avis il va se diriger vers lui en se disant ouais c’est le plus petit mais euh…</q>
+                        <p xml:id="d1e654">
+                            <hi xml:lang="fr">Les boxeurs reconnaissent ce pouvoir symbolique de l’entraîneur charismatique</hi>
+                            <note type="standard" xml:id="ftn8" place="foot" n="8">
+                <p> <hi xml:lang="fr">Comme le note Rennesson (2012, p.&#160;108), en Thaïlande, la reconnaissance des boxeurs envers leur maître se matérialise dans le rituel du «&#160;</hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">wai khru</hi>
+                  </hi>
+                  <hi xml:lang="fr">&#160;» emprunt de bouddhisme et effectué avant chaque combat au cours duquel ils effectuent une sorte de danse autour du ring en l’honneur de l’entraîneur. L’importation de la boxe thaï en France l’ayant sensiblement vidée de son contenu spirituel, bien que la situation charismatique soit maintenue, les boxeurs sont beaucoup moins nombreux à l’exécuter. Le </hi>
+                  <hi rend="italic">
+                    <hi xml:lang="fr">wai khru</hi>
+                  </hi>
+                  <hi xml:lang="fr"> est cependant obligatoire à partir d’un certain niveau de compétition officielle (classe&#160;B).</hi>
+                </p>
+              </note>
+                            <hi xml:lang="fr"> qui trouve son explication en partie hors de la salle, notamment dans le «&#160;capital d’autochtonie&#160;» et qui est à l’œuvre lors du discours rituel en fin de séance, moment privilégié pendant lequel les entraîneurs disent collectivement ce qu’ils ont à dire aux boxeurs (bilan de séance, compétitions à venir, etc.). Ce rituel est l’occasion pour les entraîneurs de mettre en scène leur autorité pédagogique et, souvent, pour «&#160;faire la morale&#160;» aux boxeurs si nécessaire. Cette reconnaissance facilite le processus pédagogique et prédispose les boxeurs à écouter les conseils de Fabrice. Il arrive parfois que des boxeurs rechignent, surtout les plus âgés ou les plus expérimentés qui ont moins à apprendre et qui ne «&#160;s’en&#160;laissent pas conter&#160;», lorsque les entraîneurs «&#160;font la morale&#160;» aux boxeurs. Si certains appliquent les conseils, Fabrice s’exaspère devant l’entêtement de certains boxeurs qui ont une «&#160;pierre&#160;» dans la tête.</hi>
+                        </p>
+                        <p xml:id="d1e675">
+                            <hi xml:lang="fr">Fabrice, d’après Seb, «&#160;dégage quelque chose de puissant&#160;»&#160;; il a, selon Djamel, cette capacité à faire «&#160;sortir&#160;» des choses du corps des boxeurs. D’origine marocaine, Djamel, 31&#160;ans, est médiateur culturel, après avoir été manutentionnaire, chauffeur, livreur. Son père, manutentionnaire et ancien boxeur, et sa mère, caissière, se séparent quand il a 12&#160;ans. Incité par son père, il commence par la boxe anglaise à 11&#160;ans, puis la boxe thaï à 15&#160;ans. Son BEP en poche, il rate un bac pro comptabilité. Le plus grand de la salle, ses longs membres le rendent difficile à boxer. Même s’il n’a jamais fait de compétition à cause d’un décollement de la rétine, il possède un certain prestige auprès des boxeurs par son investissement dans la «&#160;culture urbaine&#160;» (hip hop, </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">streetwear</hi>
+              </hi>
+                            <hi xml:lang="fr">, etc.) et se hisse donc assez haut dans la hiérarchie de la salle. Il est très ami avec le champion Seb et s’entend très bien avec Rafik. Il a enseigné la boxe thaï aux jeunes d’une commune populaire voisine pendant trois ans. Pour Djamel, Fabrice a «&#160;une expérience exceptionnelle&#160;», parvient à tirer le meilleur des boxeurs comme par «&#160;magie&#160;», leur permet de se surpasser et leur redonne confiance en eux. Selon Djamel, Fabrice lui «&#160;apporte beaucoup&#160;» par les mots qu’il emploie&#160;: «&#160;plaisir&#160;», «&#160;goût&#160;», «&#160;sensation&#160;». Fabrice parvient à mettre des mots sur les expériences corporelles des boxeurs et même à transformer ces expériences grâce à ces mots. C’est parce qu’il verbalise l’expérience de la pratique que les boxeurs vivent avant tout sur un mode corporel et que cela induit une réflexivité que ces derniers valorisent cette compétence chez Fabrice. Le langage de Fabrice permet de rationnaliser et légitimer la pratique auprès des boxeurs (Berger et Luckmann, 2012), et la mise en accord des mots et de l’expérience corporelle procure aux boxeurs un sentiment de complétude qu’ils ont exprimé en entretien. Cette capacité, associée à un fort «&#160;«&#160;capital pugilistique&#160;» (Wacquant, 2003) et d’&#160;«&#160;autochtonie&#160;» (Retière, 2003&#160;; Renahy, 2010), maintient Fabrice au sommet de la hiérarchie de la salle et lui a permis d’acquérir un statut social dans la commune.</hi>
+                        </p>
+                        <p xml:id="d1e683">
+                            <hi xml:lang="fr">Parce qu’ils ont reçu les savoirs de Fabrice, les boxeurs acquièrent progressivement un statut à l’intérieur de la salle (les «&#160;anciens&#160;») et une reconnaissance par le groupe de pairs de la cité.</hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e686">
+                        <head subtype="level3" xml:id="d1e687">La pratique de la boxe thaï procure un statut social</head>
+                        <p xml:id="d1e689">
+                            <hi xml:lang="fr">La pratique de la boxe thaï permet aux boxeurs de se forger une estime de soi et leur confère un statut social parmi les pairs. Désirant conserver leur prestige local et se maintenir, voire se hisser, dans la hiérarchie locale, certains boxeurs issus de la cité Prévert sont enclins, en présence de leurs amis de la cité venus assister à l’entraînement, à vouloir montrer qu’ils dominent l’échange lorsqu’ils font du </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">sparring</hi>
+              </hi>
+                            <hi xml:lang="fr">, et donc à «&#160;appuyer&#160;» leurs coups, </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">a fortiori</hi>
+              </hi>
+                            <hi xml:lang="fr"> lorsque l’autre boxeur n’est pas de cette cité ou qu’il est d’une commune voisine, comme s’ils voulaient montrer qu’ils sont plus forts et qu’ils boxent «&#160;à domicile&#160;». Le public qui assiste aux entraînements ne manque pas de commenter des séances de </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">sparring</hi>
+              </hi>
+                            <hi xml:lang="fr"> («&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Ah ce qu’il lui met&#160;!</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;»). Mounir, 19&#160;ans, étudiant en BTS informatique (il a «&#160;raté&#160;» sa première année), habite une commune populaire voisine, pratique depuis deux ans et n’a pas encore combattu. Il est donc en bas de la hiérarchie de la salle sans vraiment être un débutant. Relativement petit mais «&#160;teigneux&#160;» en </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">sparring</hi>
+              </hi>
+                            <hi xml:lang="fr">, il paraît moins que son âge, Scolarisé dans un lycée situé dans une autre banlieue populaire que celle où il réside, Mounir doit à la pratique de la boxe thaï la confiance nécessaire pour faire face aux provocations des garçons du lycée qui le «&#160;testent&#160;» parce qu’il est nouveau et n’est pas du quartier. Il «&#160;respecte&#160;» plus Fabrice que ses professeurs car les entraîneurs sont pour lui comme des «&#160;grands frères&#160;» qui lui transmettent des savoirs qui participent du style de vie des jeunes garçons de banlieues populaires. Concevant la pratique différemment, Mounir a dû faire face à un boxeur originaire de la cité Prévert qui a voulu épater ses amis venus le regarder s’entraîner&#160;:</hi>
+                        </p>
+                        <q rend="quotation">Le mec tapait fort, il était pas technique, il cherchait que la cogne et en plus il me provoquait, c’était un mec de Prévert, donc y’avait ses potes qui regardaient, genre il regardait ses potes, il souriait tout ça, il avait l’allonge, moi j’ai fait l’erreur de perdre mon sang-froid, je rentrais dedans, bon j’ai pris deux front-kicks, après j’ai réussi à le cueillir sur une droite, après ça allait un peu dégénérer, de son côté tu vois, parce que je suis petit de taille, je fais pas très âgé, y’en a ils croient que je suis un petit tu vois, lui il a du se dire&#160;: ‘ouais devant mes potes je me fais masser par un petit’. Voilà j’ai essayé de continuer bien, après Alain m’a fait sortir parce qu’il a vu que je perdais mon sang-froid et que ça commençait à chauffer.</q>
+                        <p xml:id="d1e719">
+                            <hi xml:lang="fr">L’engagement dans une pratique agonistique telle que la boxe thaï est l’occasion de s’affirmer face au groupe de pairs et participe d’une logique réputationnelle. Certains jeunes du quartier, aux qualités agonistiques avérées dans la «&#160;rue&#160;», sont convaincus qu’ils peuvent les faire valoir dans le club de boxe thaï. Souvent, ne sachant pas contrôler leur agressivité, ils déchantent car, ayant assimilé la boxe à de la «&#160;bagarre&#160;», ils tombent face à des boxeurs dotés de compétences pugilistiques qui les surclassent et les mettent «&#160;hors jeu&#160;». Il y aurait toutefois, selon les entraîneurs, des expériences réussies de transformation de ses compétences de «&#160;bagarre de rue&#160;» en compétences pugilistiques.</hi>
+                        </p>
+                        <p xml:id="d1e722">
+                            <hi xml:lang="fr">En tant que bénévoles, les entraîneurs des Gants du Siam apparaissent comme des agents désintéressés qui «&#160;donnent de leur temps&#160;». Fabrice, comme beaucoup de boxeurs, a eu un véritable «&#160;coup de foudre&#160;» pour ce «&#160;sport magnifique&#160;»&#160;; il dit que «&#160;rien ne lui a autant apporté&#160;» et qu’il ne pourra pas «&#160;rendre ce que la boxe thaï lui a donné&#160;». La boxe thaï pour Fabrice est une passion chevillée au corps qui l’oblige à «&#160;rendre&#160;» ce qu’elle lui a «&#160;donné&#160;». Rendre sans compter à la boxe thaï, c’est-à-dire sacrifier sa vie de famille, venir tous les jours à l’entraînement par tout temps, après son travail, se déplacer aux compétitions avec les boxeurs, etc., lui octroie une estime de soi et du prestige social. Plus Fabrice obtient de reconnaissance pour son travail de transmission&#160;et d’encadrement, plus il croit que la boxe thaï «&#160;lui a tout donné&#160;».</hi>
+                        </p>
+                        <p xml:id="d1e725">
+                            <hi xml:lang="fr">Transmettre des connaissances pugilistiques à mesure que l’on s’établit dans le club est une forme de réhabilitation symbolique et d’accès à un nouveau statut social pour des boxeurs qui vivent l’expérience de la domination de classe et ethnique dans un quartier de relégation urbaine. Nabil, 23&#160;ans, surveillant en lycée, a fait «&#160;sciences de l’éducation&#160;» après son bac. Il a grandi dans la cité Prévert, possède un fort «&#160;capital d’autochtonie&#160;» (fort réseau d’interconnaissance, oncles et cousins «&#160;connus&#160;» dans le quartier, il est ami avec le fils de l’entraîneur Aimé) et prend part à des actions du tissu associatif local (maraudes et distribution de nourriture l’hiver, sorties pour les «&#160;jeunes&#160;», etc.). Même s’il n’a pas fait de compétition, ce qui le place «&#160;en dessous&#160;» de Rafik, il s’entraîne au club depuis une quinzaine d’années. Issu d’une famille nombreuse d’origine marocaine, ses parents ne pouvant pas lui payer l’inscription, il venait regarder les entraînements par la fenêtre jusqu’au jour où les entraîneurs l’invitent à s’entraîner gratuitement. Tout se passe comme si Nabil avait contracté une dette envers le club qu’il allait rendre plus tard en donnant de son temps et en transmettant ce qu’il a appris. Désormais, il aide les entraîneurs à encadrer les enfants qui ont, depuis peu, une session. Lorsque les entraîneurs lui ont proposé de les aider à entraîner les petits, il n’&#160;«&#160;a pas hésité une seconde&#160;» (Loirand, 2005) et entame ainsi un processus de notabilisation sportive et de consécration sociale. Il confie avoir beaucoup de plaisir à entraîner les enfants auprès de qui il «&#160;apprend énormément&#160;» car «&#160;quand ils mettent leurs coups, ils sont vraiment décontractés, ils prennent plaisir&#160;». Ses mots traduisent à la fois la vision enchantée du club et de son microcosme, que partagent notamment les boxeurs les plus investis, et l’intériorisation du vocabulaire utilisé notamment par Fabrice et des «&#160;valeurs&#160;» que celui-ci ou les autres entraîneurs –&#160;et boxeurs&#160;– mettent en avant&#160;: «&#160;plaisir&#160;», «&#160;goût&#160;», «&#160;souplesse&#160;», «&#160;intelligence&#160;», «&#160;solidarité&#160;», «&#160;sérieux&#160;», «&#160;hygiène de vie&#160;», etc. Même si ce sport n’est pas encore tout à fait légitime et si les boxeurs peuvent encore être perçus comme «&#160;violents&#160;», encadrer les enfants au club est gratifiant et confère une certaine reconnaissance notamment hors de la salle, comme Nabil a pu le remarquer lors d’une cérémonie de mariage où un des enfants qu’il entraîne l’a reconnu et s’est exclamé, «&#160;tout content&#160;», à sa grande cousine&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Hé, c’est mon entraîneur de boxe&#160;!</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;». Transmettre des savoirs pugilistiques, faire avec les autres, notamment les plus jeunes, ce que les «&#160;anciens&#160;» ont fait avec soi-même, c’est transmettre la volonté, voire la vocation, de «&#160;redonner&#160;» aux autres ce qu’on a appris, et ainsi reproduire le groupe de boxeurs et ses statuts, comme le remarque Nabil&#160;:</hi>
+                        </p>
+                        <q rend="quotation">Voilà ça montre que nous, ce que les anciens nous ont appris, je suis en train, parmi tant d’autres, je suis en train de l’imprégner aux petits, et les petits, eux, quand ils vont grandir&#160;: «&#160;Ah, lui c’était mon entraîneur de boxe, il faisait ça et ça, moi aussi je veux faire…&#160;», et après ça devient un cercle.</q>
+                        <p xml:id="d1e735">
+                            <hi xml:lang="fr">Si la transmission de savoirs pugilistiques sert à «&#160;former à la fois des citoyens exemplaires et des sportifs prêts à affronter l’épreuve du ring&#160;» dans les camps de boxe thaï en Thaïlande (Rennesson, 2012), elle constitue aussi un mode de reproduction des fractions viriles des classes populaires urbaines et de leurs structures de socialisation et d’encadrement. Les transmetteurs, comme Rafik et Nabil, au «&#160;capital pugilistique&#160;» et d’&#160;«&#160;autochtonie&#160;» significatif, ont passé le filtre de la sélection objective qui égraine le nombre de pratiquants à mesure que le temps passe, que la fatigue lasse, que les blessures s’accumulent ou que la démotivation s’installe.</hi>
+                        </p>
+                        <p xml:id="d1e738">
+                            <hi xml:lang="fr">Rafik, 32&#160;ans, marié, un enfant, agent technique aux «&#160;espaces verts&#160;» de la commune, habite une cité située juste en face de la salle. Il a été auparavant animateur auprès des jeunes de la commune qui le «&#160;respectaient&#160;» parce qu’il «&#160;était de la cité&#160;» et en partie parce qu’ils savaient qu’il était boxeur. C’est l’entraîneur Alain, qui était aussi son voisin de palier, qui lui a suggéré de venir s’entraîner à la salle lorsqu’il avait 14&#160;ans. Il a été champion de France et médaillé de bronze aux championnats du monde amateurs à Bangkok. Au moment de l’enquête, il est en formation pour passer son BPJEPS en boxe thaïlandaise, commence à avoir des responsabilités à l’entraînement et a organisé deux grosses compétitions de niveau national dans le gymnase avec conférences de presse à la mairie. Rafik dit que ne pas partager «&#160;tout ce qu’[il a] appris pendant ces années&#160;» serait un acte «&#160;égoïste&#160;» et inscrit son rapport à la boxe thaï dans une relation d’échange de savoirs. Les plus aptes à s’engager dans un travail de transmission de savoirs pugilistiques sont très conscients d’être porteurs d’un héritage légué par les «&#160;anciens&#160;». Rafik le dit clairement, il veut «&#160;faire comme&#160;» les entraîneurs, notamment les fondateurs du club qui l’ont formé et «&#160;qui ont donné énormément de temps, de leur vie&#160;» et est ainsi porté à reproduire le groupe et son </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">éthos</hi>
+              </hi>
+                            <hi xml:lang="fr">. Ce travail de transmission des savoirs et des manières d’être a un coût social&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">C’est aussi une forme de sacrifice, le fait de venir, après le boulot comme ça, de pas être avec ses enfants ni sa femme…</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» Ainsi, de par son double «&#160;capital pugilistique&#160;» et «&#160;d’autochtonie&#160;», Rafik s’est hissé au sommet de la hiérarchie de la salle, juste derrière les entraîneurs, dirige les séances d’échauffement à la corde en donnant des ordres («&#160;on accélère&#160;!&#160;», «&#160;on ralentit&#160;», «&#160;on arrête de parler&#160;!&#160;», «&#160;plus haut les genoux&#160;!&#160;», etc.), et tient aussi les </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">paos</hi>
+              </hi>
+                            <hi rend="italic">
+                <note type="standard" xml:id="ftn9" place="foot" n="9">
+                  <p> <hi xml:lang="fr">Les </hi>
+                    <hi rend="italic">
+                      <hi xml:lang="fr">paos</hi>
+                    </hi>
+                    <hi xml:lang="fr"> sont des boucliers de cuir rembourrés en mousse que l’entraîneur tient à mi-hauteur afin que le boxeur puisse lancer des coups de pied et de genoux à pleine puissance.</hi>
+                  </p>
+                </note>
+              </hi>
+                            <hi xml:lang="fr"> aux compétiteurs, privilège réservé d’ordinaire à l’entraîneur.</hi>
+                        </p>
+                        <p xml:id="d1e768">
+                            <hi xml:lang="fr">L’économie pugilistique est à la fois un duel et une transmission de savoirs pratiques. Immergés dans un ascétisme sportif, les boxeurs sont pris dans ce paradoxe selon lequel ils transmettent leurs savoirs pratiques tout en rivalisant les uns avec les autres. Dans un club essentiellement amateur comme les Gants du Siam où la boxe thaï n’est pas à proprement parler un emploi rémunérateur, cette double dimension cognitive et agonistique de l’économie pugilistique a partie liée pas tant avec une logique économique qu’avec une logique réputationnelle qui confère aux boxeurs une estime de soi et une certaine reconnaissance sociale, comme l’affirme l’entraîneur Chérif&#160;: «&#160;</hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">Ça fait bien de faire de la boxe thaï, t’es reconnu</hi>
+              </hi>
+                            <hi xml:lang="fr">&#160;» par les autres boxeurs et d’autres jeunes du quartier qui prêtent aux boxeurs d’éventuelles compétences de «&#160;combat de rue&#160;» et les «&#160;respectent&#160;». Les boxeurs sont reconnus par le groupe de pairs du quartier sans l’être nécessairement par ailleurs (école, monde de l’entreprise, etc.).</hi>
+                        </p>
+                    </div>
+                    <div type="div3" xml:id="d1e776">
+                        <head subtype="level3" xml:id="d1e777">Une reconnaissance relative de la réussite des boxeurs et du travail d’encadrement des entraîneurs</head>
+                        <p xml:id="d1e779">
+                            <hi xml:lang="fr">Les entreprises, même locales, ne reconnaissent pas non plus ces savoirs&#160;: lorsque des boxeurs du club sont engagés comme agent de sécurité, c’est souvent dans la société d’un habitant de la cité, et donc grâce à leur réseau d’interconnaissance dans la cité. La reconnaissance des boxeurs et des entraîneurs peut néanmoins déborder le groupe de pairs et le cercle des habitants du quartier pour atteindre les services municipaux. Le club entretient des relations ambivalentes avec la municipalité, voire avec d’autres clubs sportifs. Il y a quelques années, Fabrice avait décidé de ne plus aller aux réunions des associations de la commune car le club n’avait presque plus de matériel pour fonctionner correctement faute de subventions. La situation s’est améliorée en partie grâce à de meilleures relations avec la responsable des associations qui est originaire d’une cité de la commune qui, selon Fabrice, connaît bien le «&#160;terrain&#160;». Si la boxe thaï est en voie d’institutionnalisation, elle demeure associée à un sport violent pratiqué par des jeunes de cité turbulents voire délinquants. Les responsables du club de judo, dont certains sont employés du service des sports, ont, selon certains boxeurs, une «&#160;mauvaise image&#160;» de la boxe thaï. Des boxeurs, comme Nabil qui pense que c’est grâce au «&#160;piston&#160;», regrettent le fait que le club de judo, qui enseigne également depuis peu le ju-jitsu brésilien, soit parvenu à organiser, avec l’aide municipale, un stage d’entraînement au Brésil alors que certains boxeurs, dont Rafik et Nabil, essaient, depuis des années d’organiser un stage en Thaïlande. L’année de l’enquête, le club n’a pas obtenu de subventions municipales parce qu’il n’a pas pu rendre à temps le projet de club. La question des subventions est importante non seulement du point de vue des entraîneurs car elles leur permettent de payer les déplacements lors des compétitions, de renouveler le matériel d’entraînement, etc., mais aussi parce qu’elle détermine, pour partie, les orientations éducatives du club. Pour obtenir ces subventions, le club doit répondre à certaines exigences de la municipalité vis-à-vis de ses associations comme l’obligation récente de mixité de genre. Les entraîneurs des Gants du Siam y répondent en mettant en avant les rares filles qui viennent s’entraîner, par exemple en leur demandant de se mettre systématiquement aux premiers rangs lorsque les boxeurs se réunissent à la fin de l’entraînement pour le salut final. Les boxeurs bien ancrés dans le club et dans la commune, comme Rafik ou Nabil, se plaignent de l’absence de reconnaissance du club par la municipalité malgré sa longue histoire de réussite sportive et d’encadrement de jeunes soi-disant «&#160;durs&#160;» de la commune.</hi>
+                        </p>
+                        <p xml:id="d1e782">
+                            <hi xml:lang="fr">Toutefois, depuis peu, on observe une relative reconnaissance des services municipaux du «&#160;mérite&#160;» des boxeurs des Gants du Siam qui obtiennent des résultats sportifs. Trois boxeurs du club ont été récompensés des honneurs de la ville au cours d’une cérémonie annuelle «&#160;Mise à l’honneur des sportifs et des jeunes diplômés&#160;» de la commune. Des «&#160;Trophées de la réussite&#160;» (coupes au nom du lauréat, chèques-cadeaux, bourses d’un montant pouvant aller jusqu’à 1&#160;500&#160;euros) sont décernés et remis par le Maire, communiste, à des jeunes qui se sont illustrés à l’école (bac avec mention par exemple) et dans les pratiques sportives. Cette soirée a lieu dans la salle des fêtes en présence d’élus, agents municipaux et du public composé des représentants de certains clubs, des familles, amis, etc. Une dizaine de boxeurs et les entraîneurs sont présents. La soirée est très festive&#160;: on y mange des petits fours, serre des mains et échange avec des élus et différents acteurs locaux, un spectacle d’un groupe de rap et de danseurs hip-hop de la commune se tient sur une estrade. Certains boxeurs et l’entraîneur Aimé se moquent d’un des danseurs «&#160;efféminé&#160;». Le discours du Maire valorisant la réussite scolaire ou sportive des jeunes de la commune est suivi d’applaudissements nourris. Si ce type de cérémonies «&#160;font l’élu&#160;» (Mariot et Weber, 1999&#160;; Rougier, 2010), elles constituent, depuis peu, une forme de reconnaissance relative des savoirs pugilistiques, du travail d’encadrement des entraîneurs des Gants du Siam et de la réussite sportive des boxeurs. Cette cérémonie illustre la volonté de l’équipe municipale de mettre en avant la réussite scolaire et sportive et, à travers elle, toute sorte de «&#160;valeurs&#160;» telles que l’éthique du travail, la discipline, la méritocratie, etc., </hi>
+                            <hi rend="italic">
+                <hi xml:lang="fr">contre</hi>
+              </hi>
+                            <hi xml:lang="fr"> d’autres pratiques, «&#160;valeurs&#160;», etc. telles que les pratiques délinquantes, l’oisiveté, l’échec, etc. C’est l’occasion pour les élus, et indirectement le public, de montrer aux entraîneurs et à certains boxeurs qu’ils reconnaissent et valorisent leur travail d’encadrement des fractions viriles de la commune, notamment dans la mesure où ils croient que celui-ci empêche ces jeunes de s’engager dans une carrière délinquante en leur donnant des outils pour au contraire «&#160;réussir&#160;» sportivement et socialement.</hi>
+                        </p>
+                        <p xml:id="d1e790">
+                            <hi xml:lang="fr">Ainsi, comme l’affirme Retière (2003), le «&#160;capital d’autochtonie&#160;», ne devient ressource que s’il est reconnu sur la scène locale, ce qui vaut aussi pour le «&#160;capital pugilistique&#160;». L’enquête ethnographique a permis de suivre les boxeurs hors de la salle au cours d’un déplacement à la Halle Carpentier à Paris pour assister aux combats de deux boxeurs du club à l’affiche d’une compétition nationale pour laquelle le club a eu des tarifs privilégiés. Déplacés, les boxeurs «&#160;perdent&#160;» leur «&#160;capital d’autochtonie&#160;» et leur «&#160;capital pugilistique&#160;» et sont mêmes perçus de manière suspicieuse. Une dizaine de boxeurs du club se retrouve devant la Halle et décide d’aller acheter de la boisson dans un supermarché du quartier au pied de ce qui ressemble à des tours HLM, ce qui provoque les mots suivants de Bastien, surpris de trouver des barres HLM à Paris intra-muros&#160;: «&#160;on quitte la cité pour retrouver des cités en plein Paris&#160;!&#160;», et Nabil fera une remarque similaire peu de temps après, ajoutant qu’il n’a «&#160;jamais vu autant de Chinois, même à Y.&#160;!&#160;». Cet étonnement des jeunes boxeurs laisse entendre qu’ils ne se rendent pas souvent à Paris et passent la plupart de leur temps à Y. et ses environs. L’arrivée du groupe à l’intérieur du centre commercial fait son effet auprès des vigiles et des clients qui lui portent des regards interrogateurs. Certains boxeurs saluent les vigiles comme pour désamorcer d’éventuelles suspicions. Ce qui est en fait une solidarité de groupe fondée sur la socialisation pugilistique semble immédiatement perçu comme une «&#160;bande&#160;» potentiellement menaçante par le regard extérieur. Une fois les boissons choisies, l’arrivée à la caisse provoque les regards encore une fois interrogateurs si ce n’est méfiants de l’hôtesse. Gêné par ces regards, Nabil me confie alors son malaise et le fait qu’il n’aime pas être en groupe, puis exprime l’envie de vite régler et sortir du supermarché. Cette scène montre la différence de perception du groupe de boxeurs placé hors de son microcosme, voire la suspicion qu’il éveille, et donc l’importance de l’association entre «&#160;capital pugilistique&#160;» et «&#160;capital d’autochtonie&#160;» dans la reconnaissance qu’il reçoit. La reconnaissance relative des boxeurs par les services municipaux ne vaut que si elle s’enracine dans la scène locale.</hi>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e793">
+                <head subtype="level1" xml:id="d1e794">Conclusion</head>
+                <p xml:id="d1e796">
+                    <hi xml:lang="fr">On a vu comment des savoirs relativement illégitimes se transmettent auprès de jeunes boxeurs d’une banlieue populaire et les effets socialisateurs et hiérarchisants de cette transmission. On a détaillé les modalités d’enseignement de la boxe thaï aux Gants du Siam qui constituent une transmission de manières d’être propres au groupe qui reposent sur un entre-soi viril, agonistique et solidaire, la discipline, l’éthique du travail et le rapprochement corps/esprit en acte. La salle de boxe thaï est un lieu où se nouent à la fois des formes de solidarité virile et des rapports hiérarchiques fondés sur la transmission de connaissances et l’ancrage local. Les boxeurs se créent une estime de soi, et pour les plus ancrés localement et les plus aptes à transmettre leurs compétences, obtiennent un statut social. Le duel sportif et la circulation apparemment désintéressée de savoirs pugilistiques et de «&#160;valeurs&#160;» morales créent une hiérarchie au sommet de laquelle se tient une noblesse sportive moralisée et virile qui jouit d’une certaine reconnaissance sociale par les pairs et plus récemment par les services municipaux. Dans la mesure où cette reconnaissance repose sur le «&#160;capital pugilistique&#160;» et le «&#160;capital d’autochtonie&#160;», elle est profondément locale et ne vaut plus lorsque les boxeurs se déplacent hors de l’espace local. On a tenté, à la différence de nombreux travaux sur les sports de combat, de montrer la porosité de la salle de boxe thaï et de ses liens avec la scène locale de ce quartier populaire. Il faudrait en retracer précisément l’histoire, cependant on peut dire que la longue absence de reconnaissance du club de boxe thaï s’explique par le fait que celui-ci était perçu comme un passeur de savoirs sportifs illégitimes. Ce début de reconnaissance institutionnelle, sans totalement légitimer les savoirs pugilistiques, repose en partie sur la croyance, partagée par les entraîneurs, les boxeurs et les élus, selon laquelle la socialisation de jeunes des cités de la commune dans le club de boxe thaï les détournerait de la délinquance de rue.&#160;Il paraît dès lors important de mener des enquêtes sur le rapport entre savoirs légitimes et savoirs illégitimes, pratiques conformes et pratiques déviantes, ainsi que leurs effets sociaux sur la vie ordinaire des «&#160;jeunes de cité&#160;».</hi>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e803">
+                <listBibl xml:id="d1e805">
+                    <bibl xml:id="d1e807">
+                        <hi xml:lang="en">Abramson, C. &amp; Modzelewski, D. (2011). Caged Morality: Moral Worlds, Subculture, and Stratification Among Middle-Class Cage-Fighters. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Qualitative Sociology</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">34</hi>
+                        </hi>
+                        <hi xml:lang="en">, 143-175.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e820">
+                        <hi xml:lang="en">Anderson, E. (1999). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Code of the Street: Decency, Violence, and the Moral Life of the Inner City</hi>
+                        </hi>
+                        <hi xml:lang="en">. New York: Norton.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e828">
+                        <hi xml:lang="en">Alter, J. (1992). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Wrestler’s Body. Identity and Ideology in Nothern India</hi>
+                        </hi>
+                        <hi xml:lang="en">. Berkeley: University of California Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e836">
+                        <hi xml:lang="en">Beaud, S. (2002). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">80&#160;% au bac… et après&#160;? </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Les enfants de la démocratisation scolaire</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: La Découverte.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e847">
+                        <hi xml:lang="fr">Berger, P. &amp; Luckmann, T. (2012). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La construction sociale de la réalité</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Armand Colin.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e855">
+                        <hi xml:lang="fr">Berthaut, J. (2013). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La Banlieue du «&#160;20&#160;heures&#160;». Ethnographie de la production d’un lieu commun journalistique</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Marseille&#160;: Agone.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e863">
+                        <hi xml:lang="fr">Boilleau, J-L. (1995). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Conflit et lien social. La rivalité contre la domination</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: La Découverte/M.A.U.S.S.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e871">
+                        <hi xml:lang="fr">Bruant, G. (1992). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Anthropologie du geste sportif. La construction sociale de la course à pied</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: PUF.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e879">
+                        <hi xml:lang="fr">Bujon, T. (2009). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Boxing Club. Sociologie d’une salle de boxe thaïe en banlieue</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Saint-Étienne&#160;: Publications de l’Université de Saint-Étienne.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e887">
+                        <hi xml:lang="fr">Chamboredon, J.-C. &amp; Lemaire, M. (1970). Proximité spatiale et distance sociale. Les grands ensembles et leur peuplement. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue française de sociologie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">XI</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 3-33.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e901">
+                        <hi xml:lang="fr">Choron-Baix, C. (1995). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Le choc des mondes&#160;: les amateurs de boxe thaïlandaise en France</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Kimé.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e909">
+                        <hi xml:lang="fr">Connell, R. (1991). </hi>
+                        <hi xml:lang="en">Live Fast and Die Young: The Construction of Masculinity among Young Working-class Men on the Margin of the Labour Market. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Australian and New Zealand Journal of Sociology</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">27</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 141-171.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e924">
+                        <hi xml:lang="en">Dale, S. (2009), Habit(us), Body Techniques and Body Callusing: An Ethnography of Mixed Martial Arts. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Body &amp; Society</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">15</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 119-143.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e937">
+                        <hi xml:lang="fr">Defrance, J. (2006). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Sociologie du sport</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: La Découverte, 5</hi>
+                        <hi rend="sup">
+                            <hi xml:lang="fr">e</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;édition.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e950">
+                        <hi xml:lang="fr">De Grave, J.-M. (2001). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Initiation rituelle et arts martiaux. Trois écoles de kanuragan javanais</hi>
+                        </hi>
+                        <hi xml:lang="fr">. </hi>
+                        <hi xml:lang="en">Paris&#160;: L’Harmattan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e960">
+                        <hi xml:lang="en">Downey, G. (2007). Producing Pain: Techniques and Technologies in No-Holds-Barred Fighting. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Social Studies of Science</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">37</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 201-226.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e973">
+                        <hi xml:lang="fr">Elias, N. &amp; Dunning, E. (1994). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Sport et civilisation, la violence maîtrisée</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Fayard.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e981">
+                        <hi xml:lang="en">Elias, N. &amp; Scotson, J.L. (1997). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Logiques de l’exclusion</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Fayard.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e989">
+                        <hi xml:lang="fr">Faure, S. (2000). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Apprendre par corps&#160;: socio-anthropologie des techniques de danse</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: La Dispute.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e997">
+                        <hi xml:lang="en">Katz, J. (1988). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Seductions of Crime: Moral and Sensual Attractions in Doing Evil</hi>
+                        </hi>
+                        <hi xml:lang="en">. New York: Basic Books.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1005">
+                        <hi xml:lang="fr">Lepoutre, D. (1992). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Coeur de banlieue&#160;: Codes, rites et langages</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Odile Jacob.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1014">
+                        <hi xml:lang="fr">Loirand, G. (2005). De la permanence des relations «&#160;d’homme à homme&#160;» dans le travail d’encadrement sportif. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Cahiers lillois d’économie et de sociologie</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">46</hi>
+                        </hi>
+                        <hi xml:lang="en">, 147-170.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1027">
+                        <hi xml:lang="en">Macleod, J. (1995). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Ain’t No Makin’ It: Aspirations and Attainment in a Low-Income Neighborhood</hi>
+                        </hi>
+                        <hi xml:lang="en">. Boulder: Westview Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1035">
+                        <hi xml:lang="en">Mariot, N. &amp; Weber, F. (1999). </hi>
+                        <hi xml:lang="fr">«&#160;Honneur à notre élu&#160;». Analyse ethnographique d’une coutume postélectorale en Dordogne. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Politix</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">12</hi>
+                        </hi>
+                        <hi xml:lang="fr">(45), 21-37.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1050">
+                        <hi xml:lang="fr">Masclet, O. (2003). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La gauche et les cités. Enquête sur un rendez-vous manqué</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: La Dispute.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1058">
+                        <hi xml:lang="fr">Mauger, G. (2006). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Les bandes, le milieu et la bohème populaire&#160;: études de sociologie de la déviance des jeunes des classes populaires (1975-2005).</hi>
+                        </hi>
+                        <hi xml:lang="fr"> Paris&#160;: Belin.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1066">
+                        <hi xml:lang="fr">Mauss, M. (2006). Essai sur le don&#160;: forme et raison de l’échange dans les sociétés archaïques. In </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Sociologie et anthropologie</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi xml:lang="en">(pp. 145-279). Paris&#160;: Quadrige/PUF.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1076">
+                        <hi xml:lang="en">Messner, M. (1992). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Power at Play: Sports and the Problem of Masculinity</hi>
+                        </hi>
+                        <hi xml:lang="en">. Boston: Beacon Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1084">
+                        <hi xml:lang="en">Pan Ké Shon, J.-L. (2009). </hi>
+                        <hi xml:lang="fr">Ségrégation ethnique et ségrégation sociale en quartiers sensibles&#160;: L’apport des mobilités résidentielles. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue Française de Sociologie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">50</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 451-487.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1099">
+                        <hi xml:lang="fr">Préteceille, E. (2009). La ségrégation ethno-raciale a-t-elle augmenté dans la métropole parisienne&#160;? </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue française de sociologie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">50</hi>
+                        </hi>
+                        <hi xml:lang="fr">(3), 489-519.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1112">
+                        <hi xml:lang="fr">Renahy, N. (2001). Football et représentation territoriale&#160;: un club amateur dans un village ouvrier. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Ethnologie française</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">31</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 707-715.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1125">
+                        <hi xml:lang="fr">Renahy, N. (2010). Classes populaires et capital d’autochtonie. Genèse et usages d’une notion. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Regards sociologiques</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">40</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 9-26.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1139">
+                        <hi xml:lang="fr">Retière, J.-N. (2003). Autour de l’autochtonie. Réflexions sur la notion de capital social populaire. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Politix</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">16</hi>
+                        </hi>
+                        <hi xml:lang="fr">(63), 121-143.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1152">
+                        <hi xml:lang="fr">Rennesson, S. (2005). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">«&#160;Muay Thai&#160;». Une ethnographie de la filière de la boxe en pays issane (Nord-Est thaïlandais)</hi>
+                        </hi>
+                        <hi xml:lang="fr">, thèse d’ethnologie, Université Paris&#160;X-Nanterre.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1160">
+                        <hi xml:lang="fr">Rennesson, S. (2006). La boxe thaïlandaise&#160;: assurer le spectacle et ne pas perdre la face. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Ethnologie française</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">36</hi>
+                        </hi>
+                        <hi xml:lang="fr">(4), 643-650.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1173">
+                        <hi xml:lang="fr">Rennesson, S. (2012). Du corps entraîné aux boxeurs entraînants. La question de la transmission dans la boxe thaïlandaise. In J.-M.&#160;De Grave (éd.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Dimensions formelle et non formelle de l’éducation en Asie Orientale. Socialisation et rapport au contenu d’apprentissage</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (pp.&#160;105-125). Aix-en-Provence&#160;: Presses universitaires de Provence.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1181">
+                        <hi xml:lang="fr">Rougier, C. (2010). Usages politiques et appropriation «&#160;populaire&#160;» d’une tradition «&#160;réinventée&#160;»&#160;: la Fête des Ponts à Limoges. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Politix</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">4</hi>
+                        </hi>
+                        <hi xml:lang="fr">(92), 125-143.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1194">
+                        <hi xml:lang="fr">Sauvadet, T. (2006). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Le capital guerrier&#160;: concurrence et solidarité entre jeunes de cité</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Armand Colin.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1202">
+                        <hi xml:lang="fr">Sayad, A. (2006). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’immigration ou les paradoxes de l’altérité. Les enfants illégitimes</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Raisons d’agir.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1210">
+                        <hi xml:lang="fr">Schotté, M. (2012).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La construction du «&#160;talent&#160;». Sociologie de la domination des coureurs marocains.</hi>
+                        </hi>
+                        <hi xml:lang="fr"> Paris&#160;: Raisons d’agir.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1218">
+                        <hi xml:lang="fr">Sedel, J. (2013). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Les médias et la banlieue.</hi>
+                        </hi>
+                        <hi xml:lang="fr"> Lormont&#160;: INA/Le Bord de l’eau, édition augmentée [2009].</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1226">
+                        <hi xml:lang="en">Turner, B. (2003). Warrior Charisma and the Spiritualization of Violence. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Body and Society</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">9</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 93-108.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1239">
+                        <hi xml:lang="en">Vail, P. (1998). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Violence and Control: Social and Cultural Dimensions of Boxing in Thailand</hi>
+                        </hi>
+                        <hi xml:lang="en">. Ithaca, NY, Unpublished PhD Dissertation in Anthropology, Cornell University.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1248">
+                        <hi xml:lang="en">Van Bottenburg, M. &amp; Heilbron, J. (2006), De-sportization of fighting contests: The Origins and Dynamics of No Holds Barred Events and the Theory of Sportization. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">International Review for the Sociology of Sport</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">41</hi>
+                        </hi>
+                        <hi xml:lang="en">(3-4), 259-282.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1261">
+                        <hi xml:lang="en">Wacquant, L. (1995). Pugs at Work: Bodily Capital and Bodily labor Among Professional Boxers. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Body &amp; Society</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">1</hi>
+                        </hi>
+                        <hi xml:lang="fr">(1), 65-93.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1274">
+                        <hi xml:lang="fr">Wacquant, L. (2000). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Corps et âme. Carnets ethnographiques d’un apprenti boxeur</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Marseille&#160;: Agone.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1282">
+                        <hi xml:lang="fr">Wacquant, L. (2003). La fabrique de la cogne. Capital corporel et travail corporel chez les boxeurs professionnels. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Quasimodo</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">7</hi>
+                        </hi>
+                        <hi xml:lang="fr">, 181-201.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1295">
+                        <hi xml:lang="fr">Wacquant, L. (2010). L’habitus comme objet et méthode d’investigation. Retour sur la fabrique du boxeur. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Actes de la recherche en sciences sociales</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">4</hi>
+                        </hi>
+                        <hi xml:lang="fr">(184), 108-121.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1308">
+                        <hi xml:lang="fr">Weber, F. [1989] (2001). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Le travail à-côté&#160;: étude d’ethnographie ouvrière</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Éditions de l’EHESS.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1316">
+                        <hi xml:lang="fr">Weber, M. (1995). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Économie et société</hi>
+                        </hi>
+                        <hi xml:lang="fr">. </hi>
+                        <hi xml:lang="en">Tome&#160;1. Paris&#160;: Plon.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1326">
+                        <hi xml:lang="fr">Willis, P. (2011). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’école des ouvriers. Comment les enfants d’ouvriers obtiennent des boulots d’ouvriers.</hi>
+                        </hi>
+                        <hi xml:lang="fr"> Traduit de l’anglais par Bernard Hoepffner. Marseille&#160;: Agone.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

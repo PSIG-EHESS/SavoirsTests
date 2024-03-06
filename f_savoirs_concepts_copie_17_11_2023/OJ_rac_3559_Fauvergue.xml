@@ -1,0 +1,1971 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_3559_Fauvergue">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">
+                    <hi xml:lang="fr">L’</hi>
+                    <hi rend="italic">
+                        <hi xml:lang="fr">Encyclopédie</hi>
+                    </hi>
+                    <hi xml:lang="fr"> hors du livre</hi>
+                </title>
+                <title level="a" type="alt" xml:lang="en">The Encyclopedia out of the book</title>
+                <title level="a" type="alt" xml:lang="es">La Enciclopedia fuera del libro</title>
+                <author>
+                    <persName>
+                        <forename>Claire</forename>
+                        <surname>Fauvergue</surname>
+                    </persName>
+                    <affiliation> Chercheur associé au Centre de Recherches Interdisciplinaires en Sciences humaines et Sociales de l’Université de Montpellier III, elle est l’auteur de <hi rend="italic">
+              <hi xml:lang="fr">Diderot, lecteur et interprète de Leibniz </hi>
+            </hi>(2006) et publiera prochainement un second ouvrage chez H.&#160;Champion, issu de son Habilitation à Diriger des Recherches, intitulé <hi rend="italic">
+              <hi xml:lang="fr">Les Lumières et Leibniz avant la publication des Nouveaux essais sur l’entendement humain</hi>
+            </hi>.Adresse&#160;: Centre de Recherches Interdisciplinaires en Sciences Humaines et Sociales (CRISES-E.A. 4424), Université Montpellier III., Site Saint-Charles, rue du Professeur Henri Serre, FR-34090 Montpellier (France).Page web personnelle&#160;: <ref target="https://crises.www.univ-montp3.fr/fr/fauvergue-claire">https://crises.www.univ-montp3.fr/fr/fauvergue-claire</ref>Courriel&#160;: claire.fauvergue.1[at]gmail.com </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>Encyclopedia</item>
+                        <item>book</item>
+                        <item>reading</item>
+                        <item>representation</item>
+                        <item>viewpoint</item>
+                        <item>cross-reference</item>
+                        <item>visualisation</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>livre</item>
+                        <item>Encyclopédie</item>
+                        <item>lecture</item>
+                        <item>représentation</item>
+                        <item>visualisation</item>
+                        <item>point de vue</item>
+                        <item>renvoi</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>libro</item>
+                        <item>Enciclopedia</item>
+                        <item>lectura</item>
+                        <item>punto de vista</item>
+                        <item>remite</item>
+                        <item>representación</item>
+                        <item>visualización</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+            <docTitle>
+                <titlePart type="main">
+            <hi rend="italic">
+                    <hi xml:lang="fr">Encyclopédie</hi>
+                </hi>
+                    <hi xml:lang="fr"> hors du livre</hi>
+          </titlePart>
+            </docTitle>
+            <byline>
+                <docAuthor>Claire Fauvergue</docAuthor>
+            </byline>
+        </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e267">
+                <p xml:id="d1e268">
+                    <hi xml:lang="fr">L’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> des Lumières comprend tous les éléments conceptuels permettant de renouveler le genre encyclopédique hors du livre. Nous pensons plus particulièrement aux concepts de point de vue et de renvoi définis dès le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr"> et le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Discours préliminaire des éditeurs</hi>
+          </hi>
+                    <hi xml:lang="fr">, les renvois d’un article à l’autre remplaçant dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> les composants du livre appartenant à l’appareil paratextuel. En sollicitant la participation du lecteur à la constitution de l’enchaînement des sciences, les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> libèrent celui-ci du livre. Ils ont pressenti dès le projet que le livre ne convenait pas à la visualisation de l’ordre encyclopédique des connaissances humaines. De fait, la réalisation de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> remet en question les conditions de la composition d’un livre en multipliant les points de vue, combinant ainsi plusieurs arrangements de connaissances. Nous envisageons dans cet article comment l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> peut être lue comme une encyclopédie et nourrir notre réflexion sur l’épistémologie correspondant aux savoirs se développant hors du livre. Enfin, nous examinerons dans cette perspective comment les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ont élaboré les notions de représentation et de visualisation des connaissances.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e312">
+                <p xml:id="d1e313">
+                    <hi xml:lang="en">The </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Encyclopedia</hi>
+          </hi>
+                    <hi xml:lang="en"> published by the Enlightenment thinkers contains all the conceptual elements able to renew the encyclopedic genre outside the book. We think more specifically about the concepts of viewpoint and of cross-reference defined from the </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="en"> and </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Prelimary Discourse</hi>
+          </hi>
+                    <hi xml:lang="en"> to the </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Encyclopedia</hi>
+          </hi>
+                    <hi xml:lang="en">, because the cross-references from one entry to another entry in the </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Encyclopedia</hi>
+          </hi>
+                    <hi xml:lang="en"> take the place of the components of the book belonging to the paratextual apparatus. By requesting the involvement of the reader in the setting of the chain of knowledge, the editors of the Encyclopedia free him from the book. They sensed since the beginning of their project that the book was not appropriate for visualizing the encyclopedic order of human knowledge. Indeed, by increasing the number of viewpoints and combining in this way several layouts of knowledge, the achievement of the </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Encyclopedia</hi>
+          </hi>
+                    <hi xml:lang="en"> questions the requirements for a book‘s composition. We consider in this article how the Encyclopedia can be read as an </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Encyclopedia</hi>
+          </hi>
+                    <hi xml:lang="en"> and how it sustains our thought for the epistemology corresponding to the knowledge developing outside the book. Finally, we shall examine from this standpoint how the editors of the </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Encyclopedia</hi>
+          </hi>
+                    <hi xml:lang="en"> developed the notions of representation and visualization of knowledge.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e357">
+                <p xml:id="d1e358">
+                    <hi xml:lang="es">La </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">Enciclopedia</hi>
+          </hi>
+                    <hi xml:lang="es"> de la Ilustración comprende todos los elementos conceptuales permitiendo de renovar el genero enciclopédico fuera del libro. Pensamos más particularmente a los conceptos de punto de vista y de remisión definidos desde el </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="es"> y el </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">Discurso Preliminario</hi>
+          </hi>
+                    <hi xml:lang="es"> de los editores, las remisiones de un articulo al otro reemplazando en la </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">Enciclopedia</hi>
+          </hi>
+                    <hi xml:lang="es"> los componentes del libro perteneciendo al aparato paratextual. Solicitando la participación del lector a la constitución del encadenamiento de las ciencias, los editores de la </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">Enciclopedia</hi>
+          </hi>
+                    <hi xml:lang="es"> le libertan del libro. Han presentido desde el proyecto que el libro no convenía a la visualización del orden enciclopédico de los conocimientos humanos. Puesto que la realización de la </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">Enciclopedia</hi>
+          </hi>
+                    <hi xml:lang="es"> pone en tela de juicio las condiciones de la composición de un libro multiplicando los puntos de vista, combinando así varios arreglos de conocimientos. Tenemos presente en este articulo como la Enciclopedia puede ser leída como una </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">Enciclopedia</hi>
+          </hi>
+                    <hi xml:lang="es"> y alimentar nuestra reflexión sobre la epistemología correspondiendo a los saberes que se desarrollan fuera del libro. Por fin, examinaremos en esta perspectiva como los editores de la </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">Enciclopedia</hi>
+          </hi>
+                    <hi xml:lang="es"> han elaborado las nociones de representación y de visualización de los conocimientos.</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e406">
+                <head subtype="level1" xml:id="d1e407">Introduction</head>
+                <p xml:id="d1e409">
+                    <hi xml:lang="fr">Le présent article, en abordant la question de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> hors du livre, s’inscrit dans le prolongement des études critiques suscitées ces dernières années par l’édition électronique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie ou Dictionnaire raisonné des Sciences, des Arts et des Métiers</hi>
+          </hi>
+                    <hi xml:lang="fr">. P.&#160;Chartier soulignait en 2002 les «&#160;possibilités intellectuelles ouvertes par ces nouveaux outils&#160;» que représentent les «&#160;Encyclopédies électroniques&#160;». Les versions numérisées, précisait-il, «&#160;peuvent à la fois se donner pour le prolongement “naturel”, ou du moins légitime, du grand dictionnaire [...] et, le reproduisant, être pourtant autre chose que lui, </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">un autre texte</hi>
+          </hi>
+                    <hi xml:lang="fr">, et même un </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">autre objet</hi>
+          </hi>
+                    <hi xml:lang="fr"> qui, n’étant pas un livre, suppose une lecture et une utilisation toutes nouvelles&#160;» (Chartier, 2002, pp.&#160;7-8). Loin de voir dans les Encyclopédies électroniques de nouvelles ouvertures pour la connaissance, certaines études s’interrogent au contraire sur la limitation des possibilités intellectuelles inhérente à la numérisation d’un ouvrage tel que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">. Y.&#160;Séité voit dans la numérisation une réduction du livre au texte et conçoit celle-ci comme «&#160;une&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">transposition</hi>
+          </hi>
+                    <hi xml:lang="fr">, une&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">traduction</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;du livre original&#160;» (Séité, 2002, p.&#160;280). Si tout le monde est prêt à admettre qu’il résulte d’une telle traduction une nouvelle lecture du livre original, la question de la qualité de cette lecture reste entière. Ainsi s’agira-t-il pour nous de déterminer quelle représentation des connaissances et quelle lecture de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> favorisent l’édition électronique.</hi>
+                </p>
+                <p xml:id="d1e453">
+                    <hi xml:lang="fr">Il existe à présent trois éditions de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> consultables en ligne, l’édition d’ARTFL, réalisée sous la direction de R.&#160;Morrissey (Université de Chicago), l’édition consultable à l’adresse </hi>
+                    <ref target="http://alembert.fr/">
+            <hi rend="underline">
+              <hi xml:lang="fr">http://alembert.fr</hi>
+            </hi>
+          </ref>
+                    <hi xml:lang="fr">, enfin celle de la plate-forme Wikisource. L’heure est à la critique et les études portant sur l’édition électronique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> sont de plus en plus nombreuses.</hi>
+                </p>
+                <p xml:id="d1e472">
+                    <hi xml:lang="fr">Nous voudrions contribuer à la réflexion qui s’y engage en nous attachant à définir l’enjeu épistémologique que représente tout projet d’édition d’une Encyclopédie. Nous partirons à cet effet de l’observation suivante&#160;: la première édition de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> des Lumières et les éditions électroniques ont en commun d’être subversives dans la mesure où elles troublent notre rapport à la connaissance. C’est au niveau cognitif que se joue dans les deux cas cette subversion. N’oublions pas qu’il s’agissait pour Diderot et d’Alembert de «&#160;changer la façon commune de penser&#160;»</hi>
+                    <note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> <hi xml:lang="fr">Diderot et d’Alembert (1751-1765). </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Encyclopédie, ou Dictionnaire raisonné des Sciences, des Arts et des métiers.</hi>
+              </hi>
+              <hi xml:lang="fr"> Diderot. Article Encyclopédie (</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Philosophie</hi>
+              </hi>
+              <hi xml:lang="fr">), V, p.&#160;642 (désormais Enc.).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. L’hypothèse selon laquelle l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> est le lieu d’un changement de modèle cognitif a guidé notre choix quant au corpus auquel nous nous référons dans la présente étude. Notre attention a plus particulièrement porté sur les textes appartenant au corps même de l’ouvrage où l’on voit les éditeurs réfléchir au projet encyclopédique au cours de la réalisation de celui-ci et redéfinir certaines notions générales, comme celle de point de vue. Par l’adoption de l’ordre alphabétique, d’une part, et par l’introduction de renvois internes, d’autre part, le corps de l’ouvrage encyclopédique est le lieu d’une double subversion de la liaison des connaissances. Or il en est de même des nouvelles éditions électroniques de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;: certains critiques y voient une menace d’éclatement. P.&#160;Stewart compare par exemple l’Encyclopédie informatisée à une «&#160;galaxie éclatée&#160;». Cette nouvelle forme de dispersion résulte, explique-t-il, de la possibilité de consulter les éditions électroniques de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> «&#160;non seulement par ordre alphabétique mais dans tous les sens en même temps&#160;» (Stewart, 2002, pp.&#160;189-190). En mettant l’accent sur la notion de point de vue, les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> des Lumières nous ont pourtant indiqué quel était le moyen de circuler dans les savoirs et d’en faire le tour, quel qu’en soit le désordre. En d’autres termes, la liaison des connaissances ne résulte pas dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> de quelque forme préétablie comme celle du livre ou de tout autre support, y compris informatique, elle est produite par le point de vue sur la connaissance que toute personne est à même d’acquérir par elle-même.</hi>
+                </p>
+                <p xml:id="d1e524">
+                    <hi xml:lang="fr">C.&#160;Godin donne un excellent aperçu des paradoxes de notre rapport à l’Encyclopédie lorsqu’il déclare&#160;: «&#160;quel reproche, en somme, peut-on adresser à l’encyclopédie, sinon celui de n’être pas assez encyclopédique&#160;?&#160;» (Godin, 1997, p.&#160;298). Ainsi ce qui subsiste à l’heure actuelle de l’encyclopédisme n’est autre que le savoir encyclopédique lui-même. De ce point de vue, toute réédition de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;des Lumières ne peut ignorer l’enjeu épistémologique qu’elle représente encore aujourd’hui. C’est la question de cet enjeu que B.&#160;Melançon met en relief dans un article intitulé «&#160;Sommes-nous les premiers lecteurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;?&#160;». B.&#160;Melançon déplore dans cet article le fait que «&#160;les éditeurs modernes se contentent […] de baliser la lecture comme on le faisait il y a deux cent cinquante ans&#160;». On comprend que B.&#160;Melançon mette en garde les lecteurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> que nous sommes&#160;: «&#160;Les usagers du numérique semblent oublier que le virtuel a dès longtemps été précédé par des lecteurs en chair et en os. Interroger l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> sur support numérique ne devrait jamais se faire en les perdant de vue&#160;» (Melançon, 2004, pp.&#160;145 et 159).</hi>
+                </p>
+                <p xml:id="d1e547">
+                    <hi xml:lang="fr">Nous retiendrons de cette mise en garde que les éditions électroniques de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ne se développeront pas plus hors du livre que la première, si elles ne prennent pas en considération les virtualités propres à la lecture. Tel sera le point de vue que nous défendrons dans la présente étude, sachant qu’il ne faut pas compter seulement sur le support numérique pour que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> soit lue hors du livre. De même que toute nouvelle édition de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, l’édition électronique ne s’accompagne pas nécessairement d’une nouvelle utilisation ou d’une nouvelle lecture de l’ouvrage. Il convient donc de saisir les enjeux épistémologiques de toute édition de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, l’enjeu principal consistant, selon nous, à favoriser une lecture encyclopédique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">. De ce point de vue, la première édition de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> représente un objet d’étude privilégié. En effet, l’édition originale négligeait déjà les contraintes du livre et offrait toutes les «&#160;possibilités intellectuelles&#160;» auxquelles P.&#160;Chartier fait, à juste titre, allusion. L’édition électronique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie </hi>
+          </hi>
+                    <hi xml:lang="fr">n’est donc pas la première édition à déconstruire le livre. Diderot et d’Alembert ont conçu l’ouvrage encyclopédique qu’ils éditaient afin qu’il se développe hors du livre. En prévoyant plusieurs ordres de lecture dans le même ouvrage, ils ont engagé la déconstruction du livre et ont ouvert la possibilité d’une </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> se réalisant hors du livre.</hi>
+                </p>
+                <p xml:id="d1e591">
+                    <hi xml:lang="fr">En introduction de l’ouvrage </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Les encyclopédies&#160;: construction et circulation du savoir de l’Antiquité à Wikipédia</hi>
+          </hi>
+                    <hi xml:lang="fr">, M.&#160;Groult souligne la différence entre l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> des Lumières et les dictionnaires qui l’ont précédé, tel l’ouvrage de Chambers, la </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Cyclopaedia</hi>
+          </hi>
+                    <hi xml:lang="fr">. «&#160;On est désormais dans une forme moderne de pensée scientifique où l’entendement a pris la place de l’érudition&#160;», écrit M.&#160;Groult (2011b, p.&#160;15). À la différence de l’Encyclopédie de Chambers, l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> des Lumières ne puise pas dans les livres la totalité de sa matière. Diderot reproche à Chambers de ne pas avoir rencontré d’artistes, alors qu’il y a pour un encyclopédiste tant de choses à apprendre dans les ateliers. À la définition des mots vient désormais s’ajouter celle des choses signifiées par les mots. L’Encyclopédie devient pour cette raison même une œuvre collective. Les éditeurs ont fait appel à de nombreux savants et artistes, chacun rédigeant les articles traitant de la science ou de l’art dont il était spécialiste. Enfin, il appartient à chaque auteur, dans les articles qu’il rédige pour l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, de fixer les limites de sa discipline et d’en compléter le vocabulaire. Nous sommes en présence d’une conception ouverte du savoir dont l’origine revient à Bacon. Dans l’article intitulé «&#160;Le chantier sans maître, l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> et la question de la technique&#160;», P.&#160;Caye rappelle que «&#160;Bacon conçoit la recherche scientifique, le développement technologique et d’une façon générale la marche de la société comme un chantier sans maître, qui se déploie spontanément sans anticipation ni projet déterminé&#160;» (Caye, 2009, p.&#160;454). Il montre comment le travail éditorial de Diderot procède dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> de la même conception. Diderot, écrit-il, vise à «&#160;donner la parole au chantier sans pour autant lui imposer un maître&#160;: il s’agit de la parole propre du chantier et non de celle d’une instance extérieure et supérieure&#160;» (Caye, 2009, p.&#160;459). Cette «&#160;parole propre au chantier&#160;» est, selon nous, produite par la multiplicité des points de vue dont l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> est composée. Diderot énonce dans le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr"> de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> que «&#160;le nombre des systèmes possibles de la connaissance humaine, est aussi grand que le nombre des esprits&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr">, p.&#160;8). Tous les systèmes possibles de la connaissance humaine sont des points de vue s’exerçant à l’intérieur de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, et l’on comprend qu’il soit ici utile de recourir à une métaphore architecturale afin de rendre compte des possibilités offertes par l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> en matière de visualisation des connaissances. Parler de conception ouverte du savoir signifie que non seulement le nombre des points de vue est infini mais aussi qu’ils participent tous à la connaissance humaine sans suivre d’autre règle que celle de l’ordre encyclopédique qu’ils composent par eux-mêmes. Ainsi Diderot attend-il des auteurs comme des lecteurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> qu’ils fassent moins preuve d’érudition que d’acquisition d’un point de vue sur la connaissance.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e666">
+                <head subtype="level1" xml:id="d1e667">L’<hi rend="italic">Encyclopédie</hi>
+          <hi xml:lang="fr"> </hi>et la question de la lecture</head>
+                <p xml:id="d1e674">
+                    <hi xml:lang="fr">C’est avant tout par le type de lecture qu’elle met en jeu que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> tend à se développer hors du livre. Loin de penser qu’une telle tendance résulte des nouvelles possibilités offertes par les éditions électroniques de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie, n</hi>
+          </hi>
+                    <hi xml:lang="fr">ous considérons que les éditeurs de la première édition ont contribué aux mutations du livre en s’appliquant à définir le type de lecture auquel se prête l’ouvrage encyclopédique.</hi>
+                </p>
+                <p xml:id="d1e687">
+                    <hi xml:lang="fr">De fait, l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> combine plusieurs ordres d’exposition des connaissances qu’il est matériellement difficile de concilier dans un même livre, à savoir l’ordre alphabétique et l’ordre encyclopédique, dont dépend la liaison du système de la connaissance humaine. Or, si l’ordre alphabétique est tout à fait adapté aux contraintes éditoriales du livre, l’ordre encyclopédique ne l’est pas. D’Alembert écrit à propos de celui-ci qu’il consiste à rassembler les connaissances «&#160;dans le plus petit espace possible&#160;»</hi>
+                    <note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> <hi xml:lang="fr">D’Alembert, </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Discours préliminaire</hi>
+              </hi>
+              <hi xml:lang="fr">, Enc.&#160;I, p.&#160;XV.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. À ces deux premiers ordres s’ajoute l’ordre généalogique des connaissances. Chaque ordre est présenté par les éditeurs comme arbitraire relativement à l’ordre naturel des idées qui n’est autre que l’ordre produit par nos sensations. Il est dès lors possible de reconstituer l’ordre généalogique des opérations de l’esprit, la première et la principale d’entre elles relevant de la combinaison des idées. Diderot distingue à cet effet l’ordre naturel des idées de l’ordre d’institution et de l’ordre scientifique. Il explique dans la </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Lettre sur les sourds et muets</hi>
+          </hi>
+                    <hi xml:lang="fr"> que ce sont les objets sensibles qui ont d’abord frappé les sens et que les adjectifs sont par conséquent «&#160;les premiers dans l’ordre naturel des idées&#160;»</hi>
+                    <note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> <hi xml:lang="fr">Diderot, </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Lettre sur les sourds et muets. Œuvres complètes</hi>
+              </hi>
+              <hi xml:lang="fr">, IV, p.&#160;137.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, puisqu’ils représentent des qualités sensibles. D’Alembert décrit pour sa part le progrès naturel de l’esprit dans le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Discours préliminaire</hi>
+          </hi>
+                    <hi xml:lang="fr"> de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> tout en soulignant qu’il ne peut être représenté par l’ordre encyclopédique et que c’est dans ce dernier que résident l’unité des connaissances humaines et le principe de leur enchaînement.</hi>
+                </p>
+                <p xml:id="d1e737">
+                    <hi xml:lang="fr">Les études consacrées à cette question sont relativement nombreuses et très détaillées. Nous nous référerons à deux d’entre elles. M.&#160;Leca-Tsiomis souligne dans l’article intitulé «&#160;Une tentative de conciliation entre ordre alphabétique et ordre encyclopédique&#160;» que la conciliation des ordres alphabétique et encyclopédique se heurte à de nombreuses difficultés d’ordre pratique et épistémologique. M.&#160;Leca-Tsiomis considère toutefois, en conclusion de son étude, que ce qui «&#160;demeure, en tout cas, essentiel dans cette volonté de structurer les connaissances éparses du dictionnaire est que le système du savoir ait été conçu hors de toute référence à un ordonnancement divin, mais aussi que fut envisagé un dispositif permettant de greffer un ordre rationnel sur l’ordre alphabétique, sans se priver des bienfaits de cet ordre alphabétique&#160;» (Leca-Tsiomis, 2006, 66). Il est en effet caractéristique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> qu’aucun ordre ne prévale sur un autre, afin qu’une libre circulation y soit possible. Dans l’ouvrage </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Savoir et matière, pensée scientifique et théorie de la connaissance de l’Encyclopédie à l’Encyclopédie méthodique</hi>
+          </hi>
+                    <hi xml:lang="fr">, M.&#160;Groult s’intéresse pour sa part à la question de la lecture et apporte une précision importante en remarquant qu’il est possible de lire l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> à condition de «&#160;ne pas séparer encyclopédie et dictionnaire&#160;» (Groult, 2011a, p.&#160;9). Nous retiendrons qu’il appartient au lecteur de savoir concilier l’ordre encyclopédique avec l’ordre alphabétique. Il apparaît dès lors essentiel d’accorder la plus grande importance à la lecture afin de comprendre les enjeux épistémologiques de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> des Lumières&#160;: il s’agira de mettre en valeur les possibilités de lecture encyclopédique offertes par celle-ci.</hi>
+                </p>
+                <p xml:id="d1e760">
+                    <hi xml:lang="fr">L’ordre encyclopédique consiste principalement à rassembler toutes nos connaissances sous un même point de vue afin d’en donner une représentation simple. Ainsi en est-il du </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr"> qui se présente sous la forme d’un «&#160;arbre généalogique ou encyclopédique&#160;»</hi>
+                    <note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> <hi rend="italic">
+                <hi xml:lang="fr">Discours préliminaire, Enc.</hi>
+              </hi>
+              <hi xml:lang="fr"> I, p.&#160;XIV. Pour une reproduction du </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+              </hi>
+              <hi xml:lang="fr">, on consultera l’édition numérique de l’</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Encyclopédie</hi>
+              </hi>
+              <hi xml:lang="fr">. </hi>
+              <hi xml:lang="en">Morrissey&#160;R. (The University of Chicago). </hi>
+              <hi rend="italic">
+                <hi xml:lang="en">The ARTFL Encyclopédie Project</hi>
+              </hi>
+              <hi xml:lang="en">. </hi>
+              <ref target="http://encyclopedie.uchicago.edu/">
+                <hi rend="underline">
+                  <hi xml:lang="en">http://encyclopedie.uchicago.edu/</hi>
+                </hi>
+              </ref>
+            </p>
+          </note>
+                    <hi xml:lang="fr"> et auquel renvoient tous les articles de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">. La fonction de renvoi prendra finalement une telle importance que l’ordre encyclopédique en sera profondément modifié. Non seulement cet ordre s’inscrit matériellement dans le corps de l’ouvrage grâce aux renvois, mais il présente aussi la particularité de dépendre de la lecture, tant et si bien que sa restitution pose un problème éditorial majeur</hi>
+                    <note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p> <hi xml:lang="fr">Concernant l’édition numérique des renvois, nous renvoyons à Guilbaud </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">et&#160;al.</hi>
+              </hi>
+              <hi xml:lang="fr"> (2013, pp.&#160;233-236).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. En effet, si les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> accordent la plus grande attention à l’insertion des renvois, ils n’en font pas un système. Ils considèrent en effet que l’édition des renvois ne remplacera pas l’intelligence de la lecture&#160;; aussi d’Alembert s’adresse au lecteur de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> dès le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Discours préliminaire</hi>
+          </hi>
+                    <hi xml:lang="fr"> en lui expliquant ce qu’il attend de lui, à savoir qu’il participe à la réalisation de l’enchaînement des sciences. Toujours dans le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Discours préliminaire</hi>
+          </hi>
+                    <hi xml:lang="fr">, d’Alembert explique comment chaque article trouve sa place dans l’ordre encyclopédique en se rapportant à une science. Si le nom de cette science n’est pas désigné immédiatement après le mot indiquant le sujet de l’article, il reviendra au lecteur de trouver par lui-même la science à laquelle l’article appartient. C’est ici qu’il faut souligner tout ce qui sépare une Encyclopédie d’un dictionnaire, le principal objet de ce dernier étant de commencer par donner des définitions. D’Alembert prend d’ailleurs soin de signaler dès le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Discours préliminaire</hi>
+          </hi>
+                    <hi xml:lang="fr"> que le rapport entre l’ordre alphabétique et l’ordre encyclopédique ne sera pas toujours explicité dans le corps de l’ouvrage. Il appartiendra parfois au lecteur de déterminer la science à laquelle se rapporte un article en en considérant la matière, ce qui revient à savoir replacer l’article dans l’ordre encyclopédique des connaissances. «&#160;S’il arrive que le nom de la Science soit omis dans l’article&#160;», écrit d’Alembert, «&#160;la lecture suffira pour connaître à quelle Science il se rapporte&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;I, p.&#160;xviij). En d’autres termes, il est attendu du lecteur qu’il développe une lecture véritablement encyclopédique des articles composant l’ouvrage et qu’il poursuive ainsi le travail de l’éditeur.</hi>
+                </p>
+                <p xml:id="d1e849">
+                    <hi xml:lang="fr">Cet avertissement au lecteur révèle que les renvois n’ont jamais formé aux yeux des éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> un système achevé ou clos sur lui-même</hi>
+                    <note type="standard" xml:id="ftn6" place="foot" n="6">
+            <p> <hi xml:lang="fr">Voir à ce sujet Le Ru (1994).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Certes, les renvois sont nécessaires afin de former l’ordre encyclopédique, mais ils sont à extraire des matières dont traitent les articles. La contribution des éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> consiste à définir la fonction des renvois, puis à en vérifier l’insertion dans le texte encyclopédique. On peut néanmoins supposer qu’aux renvois insérés dans le texte des articles s’ajoutent les renvois laissés implicites par les éditeurs, de telle sorte que toute nouvelle lecture évoluera librement dans le corps de l’ouvrage en jouant sur les virtualités de l’enchaînement des connaissances qu’il contient.</hi>
+                </p>
+                <p xml:id="d1e870">
+                    <hi xml:lang="fr">Il semble de ce point de vue évident que l’édition numérique devrait faciliter la circulation à l’intérieur de l’ouvrage et la découverte progressive, au fil de la lecture, de l’ordre et de l’enchaînement des connaissances humaines. On peut même espérer qu’en se situant d’emblée hors du livre l’édition numérique permette de lire l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> comme une encyclopédie. Pourtant les études sur </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Wikipédia</hi>
+          </hi>
+                    <hi xml:lang="fr"> menées par les spécialistes de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> des Lumières révèlent que l’épistémologie de cette encyclopédie collaborative établie sur Internet n’est pas celle de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">. Certes, en offrant au lecteur la possibilité d’être un auteur, </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Wikipédia</hi>
+          </hi>
+                    <hi xml:lang="fr"> se situe en continuité avec l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, cependant, comme le remarque M.&#160;Groult (2008, p.&#160;42), «&#160;</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Wikipédia</hi>
+          </hi>
+                    <hi xml:lang="fr"> ne se pose pas la question de la systématicité de la connaissance&#160;». Autrement dit, le processus cognitif qu’elle met en jeu n’est pas celui de l’invention, véritable méthode que les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> préconisaient aux auteurs des articles. De plus, l’enjeu, avec </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Wikipédia</hi>
+          </hi>
+                    <hi xml:lang="fr">, ne réside plus dans l’enchaînement des sciences ou dans la saisie de leurs points de communication. Ainsi, malgré la conception ouverte du savoir qu’elle représente, l’épistémologie de </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Wikipédia</hi>
+          </hi>
+                    <hi xml:lang="fr"> rejoint plus l’épistémologie des dictionnaires que celle de l’Encyclopédie.</hi>
+                </p>
+                <p xml:id="d1e924">
+                    <hi xml:lang="fr">Il est donc fort possible que les éditions numériques déçoivent notre attente et qu’il ne soit finalement pas si simple de lire l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> comme une encyclopédie. Si l’édition numérique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> diffère de l’édition de 1751 autant par le texte que par l’objet, à ne considérer que l’ordre encyclopédique, toute édition de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> se trouve nécessairement confrontée aux mêmes difficultés. Autrement dit, l’ouvrage encyclopédique est destiné à une réédition perpétuelle à cause du renouvellement constant des connaissances humaines, alors que la réalisation de l’ordre encyclopédique dépend toujours des mêmes éléments, à savoir de l’intelligence des renvois. Or, comme le remarque M.&#160;Groult concernant l’édition d’ARTFL, réalisée sous la direction de R.&#160;Morrissey, «&#160;la technique informatique réorganise les disciplines par similarité lexicale&#160;» (Groult, 2013, p.&#160;7). Dans l’édition électronique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, ce sont les mots et les matières qui prévalent sur l’ordre encyclopédique indiqué par les renvois.</hi>
+                </p>
+                <p xml:id="d1e947">
+                    <hi xml:lang="fr">Ces considérations d’ordre épistémologique révèlent que la question de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;hors du livre n’est pas sans liaison avec celle, plus générale, de ce qui devrait être communiqué et transmis à la postérité d’une édition de l’ouvrage encyclopédique à l’autre. Cette dernière question se pose d’autant plus pour l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> que la matière d’un tel ouvrage se renouvelle continuellement. Considérer que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> se développe hors du livre au travers de ses éditions successives, ne revient pourtant pas, selon nous, à affirmer que seul subsiste «&#160;l’esprit de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;» (Brouzeng, 2001, pp.&#160;484-494). Ce qui se transmet d’une édition à l’autre, nous semble-t-il, devrait être un certain modèle encyclopédique de la saisie intellectuelle. C’est ce modèle que nous tenterons de définir dans les pages qui suivent comme relevant de la représentation et de la visualisation des connaissances.</hi>
+                </p>
+                <p xml:id="d1e970">
+                    <hi xml:lang="fr">En guise d’introduction à la problématique que nous développerons dans la suite de l’article concernant la représentation et la visualisation des connaissances, nous citerons J.&#160;Starobinski dans ses «&#160;Remarques sur l’“Encyclopédie”&#160;». Ce dernier conçoit la lecture comme dialogue et décrit comment l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> fait appel à plusieurs modalités de lecture, le lecteur n’étant pas seulement animé par le désir de connaître mais aussi par celui de participer au jeu des renvois amorcé par les auteurs des articles&#160;: le «&#160;génie du dialogue, si caractéristique de Diderot&#160;», écrit-il, apparaît «&#160;dans la succession même des articles, dans la supposition d’une alternance rapide entre les initiatives du lecteur et les provocations des auteurs&#160;» (Starobinski, 1970, p.&#160;287).</hi>
+                </p>
+                <p xml:id="d1e978">
+                    <hi xml:lang="fr">Toujours concernant la variété des lectures dont l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> peut faire l’objet, nous renvoyons à l’article intitulé «&#160;Le texte contre le livre&#160;» auquel nous nous sommes référés plus haut. En développant une perspective critique et prenant en considération l’édition électronique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, Y.&#160;Séité opère dans cet article une distinction entre la lecture de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> et la lecture des articles la composant&#160;: «&#160;Pour lire l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">,&#160;», écrit-il, «&#160;l’hypertexte est irremplaçable. Il est sûr que pour lire les articles qui la composent, le cotexte –&#160;et donc le fac-similé ou le tirage papier&#160;– ont de beaux jours devant eux&#160;». Dans la mesure où l’accès au fac-similé original est conservé, l’édition électronique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> devrait permettre au lecteur de choisir entre plusieurs ordres de lecture. De plus, il lui est désormais possible de lire véritablement l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> et d’atteindre «&#160;ce point de vue embrassant auquel Diderot, lui-même, éditeur de l’ouvrage, déplore, dans l’article ENCYCLOPÉDIE, de n’avoir jamais pu accéder&#160;» (Séité, 2002, p.&#160;281).</hi>
+                </p>
+                <p xml:id="d1e1013">
+                    <hi xml:lang="fr">Cette dernière remarque met en lumière le fond du problème, et c’est ici que se situera notre questionnement. Celui-ci pourrait être formulé comme suit&#160;: n’est-ce pas hors du livre qu’il faudrait lire l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;? ou encore, est-il possible de lire l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> sinon hors du livre&#160;? Tout nous porte à penser que les éditeurs avaient pensé à cette possibilité de lecture ou de saisie intellectuelle de l’enchaînement des sciences hors du livre. L’originalité de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> réside à nos yeux dans le fait qu’elle ouvre la possibilité d’une lecture encyclopédique&#160;dès sa première édition, l’édition électronique n’apportant finalement rien de nouveau, sinon le moyen de mettre facilement en œuvre une telle lecture.</hi>
+                </p>
+                <p xml:id="d1e1031">
+                    <hi xml:lang="fr">Nous analyserons dans les pages suivantes comment Diderot et d’Alembert conçoivent l’utilité de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, comment ils en définissent l’usage et défendent l’idée que l’ouvrage qu’ils éditent est à lire comme une Encyclopédie.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e1039">
+                <head subtype="level1" xml:id="d1e1040">Du traité scientifique à l’<hi rend="italic">Encyclopédie</hi>
+        </head>
+                <p xml:id="d1e1044">
+                    <hi xml:lang="fr">L’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;des Lumières n’est pas un livre au sens strict, si l’on entend par livre «&#160;un ouvrage séparé faisant seul un tout à part&#160;»</hi>
+                    <note type="standard" xml:id="ftn7" place="foot" n="7">
+            <p> <hi xml:lang="fr">Article Livre (</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Littérature</hi>
+              </hi>
+              <hi xml:lang="fr">), non signé, </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Enc.</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;IX, p.&#160;601.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Certes, il s’agit bien d’un ouvrage, mais celui-ci ne se contente pas de développer les principes d’une science ou d’un art en particulier comme le fait habituellement un traité scientifique se présentant sous la forme d’un ouvrage séparé. Comme Diderot l’indique dans les premières lignes du </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr"> de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> en rappelant l’étymologie du terme «&#160;encyclopédie&#160;», l’enjeu de l’ouvrage dont il est l’éditeur réside dans le projet de représenter l’&#160;«&#160;enchaînement des sciences&#160;». Il s’agira encore, précise-t-il, «&#160;d’indiquer les liaisons éloignées ou prochaines des êtres qui composent la Nature, et qui ont occupé les hommes&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr">, p.&#160;1). L’enjeu de tout projet encyclopédique réside dans la représentation des liaisons existant entre les objets les plus hétérogènes, ceux-ci allant des phénomènes naturels aux productions de l’art et de la science, de telle sorte que le lecteur puisse aisément circuler à l’intérieur de l’ensemble des connaissances humaines. Nous envisagerons dans ce qui suit comment les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;parviennent à réaliser un tel projet en combinant plusieurs formes de représentation du savoir dans un même ouvrage.</hi>
+                </p>
+                <p xml:id="d1e1091">
+                    <hi xml:lang="fr">Notre propos consiste à montrer que le livre, considéré non seulement comme objet mais aussi comme représentatif d’une façon de penser dont les encyclopédistes voulaient libérer leur lecteur, ne convient pas à la formation de l’ordre encyclopédique des connaissances humaines. Nous citerons ici un passage de l’article ENCYCLOPÉDIE où Diderot se montre très explicite à ce sujet&#160;: «&#160;Dans les traités scientifiques&#160;», écrit-il, «&#160;c’est l’enchaînement des idées ou des phénomènes qui dirige la marche&#160;; à mesure qu’on avance, la matière se développe, soit en se généralisant, soit en se particularisant, selon la méthode qu’on a préférée. Il en sera de même par rapport à la forme générale d’un article particulier d’Encyclopédie, avec cette différence que le dictionnaire ou la coordination des articles aura des avantages qu’on ne pourra guère se procurer dans un traité scientifique, qu’aux dépens de quelque qualité&#160;; et de ces avantages, elle en sera redevable aux renvois, partie de l’ordre encyclopédique la plus importante&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;642). On voit dans ce passage comment Diderot marque la différence entre l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> et les traités scientifiques. Il est évident qu’il compte sur les renvois afin de réordonner les connaissances préalablement extraites des livres.</hi>
+                </p>
+                <p xml:id="d1e1104">
+                    <hi xml:lang="fr">Diderot considère en effet qu’une Encyclopédie s’appuie moins sur le discours que sur le caractère démonstratif des renvois afin de mettre en lumière la communication entre les différentes sciences et de favoriser l’accès de la connaissance humaine à une plus grande universalité. Comme il l’écrit dans l’article ENCYCLOPÉDIE&#160;: «&#160;Si ces renvois de confirmation et de réfutation sont prévus de loin, et préparés avec adresse, ils donneront à une Encyclopédie le caractère que doit avoir un bon dictionnaire&#160;; ce caractère est de changer la façon commune de penser&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;642). Diderot pense très précisément ici aux «&#160;renvois de choses&#160;». Ceux-ci ont pour fonction principale d’éclaircir la matière abordée dans les articles. Par exemple, lorsqu’un auteur évoquera un phénomène, il renverra à l’article où celui-ci est traité en détail. La fonction des renvois de choses est d’indiquer des liaisons entre les objets et des analogies entre les notions et les principes. Diderot en donne la définition suivante dans l’article ENCYCLOPÉDIE&#160;: «&#160;Les renvois de choses éclaircissent l’objet, indiquent ses liaisons prochaines avec ceux qui le touchent immédiatement, et ses liaisons éloignées avec d’autres qu’on en croirait isolés&#160;; rappellent les notions communes et les principes analogues&#160;; fortifient les conséquences&#160;; entrelacent la branche au tronc, et donnent au tout cette unité si favorable à l’établissement de la vérité et à la persuasion&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;642). S’ils mettent le plus souvent en lumière des convergences, les renvois de choses peuvent aussi indiquer des divergences, ceci en opposant les notions ou encore en faisant contraster les principes. En résumé, les renvois de choses, comme l’écrit Diderot, ont «&#160;la double fonction de confirmer et de réfuter&#160;». Cependant, ils ne procèdent pas selon la logique qui, dans un traité scientifique, est habituellement celle du discours. En effet, les renvois encyclopédiques relèvent, selon les termes mêmes de Diderot, de «&#160;l’art de déduire tacitement les conséquences les plus fortes&#160;». Ainsi Diderot conçoit-il l’art de démontrer par les renvois comme un art caché dont les effets seront progressivement «&#160;sensibles avec le temps&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;642). Il en résulte l’idée que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> sera démonstrative avec le temps.</hi>
+                </p>
+                <p xml:id="d1e1127">
+                    <hi xml:lang="fr">Diderot souligne ainsi la visée démonstrative de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, bien que la logique des renvois ne soit pas celle du discours. Ce n’est, à la rigueur, qu’à l’intérieur des articles que les idées s’enchaînent dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> comme dans un traité scientifique. Il convient donc, comme nous l’avons expliqué ci-dessus, de distinguer la lecture de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> de celle des articles composant l’ouvrage. Autrement dit, les modalités de lecture de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ne sont pas celles du livre, puisque les renvois encyclopédiques, ne relevant pas du discours, ne sont pas réellement démonstratifs. C’est par leur qualité métadémonstrative que se distinguent les renvois encyclopédiques. Nous renvoyons ici à J.&#160;Starobinski qui relève le caractère «&#160;métadémonstratif&#160;» (Starobinski, 1995, p.&#160;181) du récit diderotien. Dans l’article «&#160;Diderot et l’art de la démonstration&#160;», J.&#160;Starobinski explique en effet comment le récit diderotien replace les démonstrations dans le contexte vécu et donne par conséquent à voir celles-ci. Comme le note encore J.&#160;Starobinski, le caractère métadémonstratif de l’écriture diderotienne n’est pas absent de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">. Il se retrouve dans la logique des renvois telle que Diderot en fait la description dans l’article ENCYCLOPÉDIE. La principale fonction des renvois est de rendre visible la liaison du système de la connaissance humaine ainsi que les vides de ce système. Ainsi le lecteur de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> pourra s’instruire de ce qui lui reste à connaître et acquérir une nouvelle manière de penser. Ce n’est donc pas au moyen du discours, mais au moyen de l’ordre indiqué par les renvois que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> changera la façon de penser de ses lecteurs.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e1166">
+                <head subtype="level1" xml:id="d1e1167">L’<hi rend="italic">Encyclopédie</hi>
+          <hi xml:lang="fr"> </hi>et les livres</head>
+                <p xml:id="d1e1174">
+                    <hi xml:lang="fr">D’abord conçue comme une bibliothèque rassemblant toute la variété des connaissances humaines, ou encore comme un ouvrage suppléant aux «&#160;livres élémentaires&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr">, p.&#160;5), c’est-à-dire aux livres contenant les éléments de quelque science en particulier, l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> tient plus du catalogue que du livre au sens strict.</hi>
+                </p>
+                <p xml:id="d1e1187">
+                    <hi xml:lang="fr">Rappelons à ce propos que Leibniz, en qui Diderot voyait un prédécesseur, concevait l’Encyclopédie sur le modèle des catalogues ou des journaux, ceux-ci renvoyant à l’emplacement où se trouvent les meilleurs livres ainsi qu’aux matières dont traitent ces livres. Leibniz prévoyait de compléter ces premiers catalogues par des répertoires dans lesquels les diverses matières seraient désignées par des termes simples classés dans l’ordre alphabétique. Ces répertoires alphabétiques renverront le lecteur aux endroits où les matières inventoriées sont traitées dans les livres par les meilleurs auteurs. Enfin, Leibniz prévoyait également des répertoires systématiques et détaillés où chaque matière serait présentée de façon démonstrative.</hi>
+                </p>
+                <p xml:id="d1e1190">
+                    <hi xml:lang="fr">Le modèle du catalogue sert à mettre en place une première esquisse du projet encyclopédique dans la mesure où il constitue un moyen pratique d’ordonner les vérités éparpillées dans les livres. Dans les </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Nouveaux essais sur l’entendement humain</hi>
+          </hi>
+                    <hi xml:lang="fr">, Leibniz compare les vérités singulières aux livres d’une bibliothèque et part d’un fait d’expérience en remarquant que «&#160;ceux qui rangent une Bibliothèque, ne savent bien souvent où placer quelques livres étant suspendus entre deux ou trois endroits également convenables&#160;». Il tire de ce constat une règle générale, à savoir qu’&#160;«&#160;une même vérité peut être placée en différents endroits&#160;»</hi>
+                    <note type="standard" xml:id="ftn8" place="foot" n="8">
+            <p> <hi xml:lang="fr">Leibniz, </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Nouveaux essais sur l’entendement humain</hi>
+              </hi>
+              <hi xml:lang="fr">. A. VI, VI, pp.&#160;523-524.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Ce constat ainsi que la règle que Leibniz en déduit valent autant pour un bibliothécaire que pour un encyclopédiste. Ainsi se trouve justifiée l’introduction de renvois dans l’Encyclopédie. Il s’agira d’indiquer par des renvois internes à l’ouvrage l’emplacement de vérités, sachant que celles-ci seront disposées dans l’Encyclopédie selon plusieurs arrangements.</hi>
+                </p>
+                <p xml:id="d1e1211">
+                    <hi xml:lang="fr">De façon assez similaire, Diderot évoque dans le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr"> l’idée que l’ordre encyclopédique permettra au lecteur de «&#160;faire sans s’égarer le tour du Monde Littéraire&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr">, p.&#160;1). Cependant, l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> des Lumières dépasse les différents modèles qui la lient aux livres, ceci non seulement en établissant des rapports entre toutes les matières sans exception, mais aussi en liant toutes les sciences et les arts à un ordre général. Le rapport entre l’art de la bibliographie et la représentation encyclopédique des connaissances humaines pourrait même aller jusqu’à s’inverser. Nous en voulons pour preuve la remarque formulée par l’auteur de l’article CATALOGUE de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> qui affirme que le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr"> inséré au début de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;pourrait fournir le modèle d’un nouveau «&#160;système bibliographique&#160;»</hi>
+                    <note type="standard" xml:id="ftn9" place="foot" n="9">
+            <p> <hi xml:lang="fr">David, article CATALOGUE (</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Littérature et Librairie</hi>
+              </hi>
+              <hi xml:lang="fr">), </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Enc.</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;II, p.&#160;765.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">.</hi>
+                </p>
+                <p xml:id="d1e1263">
+                    <hi xml:lang="fr">Une telle remarque révèle à quel point l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> représentait un nouveau système de la connaissance aux yeux de ses lecteurs contemporains. Cependant, on ne saurait oublier que la matière première de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> est en grande partie extraite des livres. Ainsi les encyclopédistes n’ont pas mené à terme leur projet éditorial sans avoir la plus grande connaissance des livres et de leurs usages. C’est de cette connaissance préliminaire dont nous parlerons à présent, tout en insistant sur l’aspect critique qu’elle comporte.</hi>
+                </p>
+                <p xml:id="d1e1276">
+                    <hi xml:lang="fr">L’article anonyme consacré au livre dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> définit le livre comme étant composé de matières, arrangées selon un certain ordre et liées à un sujet principal, auxquelles s’ajoutent des éléments accessoires, tels que le titre, l’épître dédicatoire, la préface, les sommaires et la table des matières (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;IX, p.&#160;601). Or ces éléments dits accessoires sont absents de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">. L’auteur d’un article encyclopédique ne retient des diverses sources auxquelles il se réfère que les matières en constituant le sujet principal. Tout l’appareil paratextuel composant habituellement un livre est supprimé dans les articles rédigés pour l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, ainsi en est-il, comme l’explique Diderot dans l’article ENCYCLOPÉDIE, des «&#160;avant-propos, des introductions, des préfaces, des exordes, des épisodes, des digressions, des conclusions&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;643). Il en est de même des composants de la page que sont le texte et les notes&#160;: les articles de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ne comportent pas de notes. En résumé, les éléments paratextuels sont remplacés dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> par l’enchaînement des connaissances.</hi>
+                </p>
+                <p xml:id="d1e1315">
+                    <hi xml:lang="fr">Ce choix éditorial amène Diderot à énoncer une règle générale selon laquelle on ne traite bien d’un sujet qu’en renvoyant à un autre. La fonction des composants paratextuels d’un livre, explique-t-il, n’est autre que d’introduire le sujet dont traite celui-ci, fonction à laquelle s’ajoute celle d’ouvrir sur des sujets voisins, voire sur des sujets restant à traiter. Or ces composants sont à proprement parler «&#160;hors du sujet&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;643) traité dans le corps des livres et n’ont par conséquent aucune raison d’être dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">. Ils seront remplacés par des renvois, ceux-ci assurant la fonction des éléments paratextuels du livre, en marquant les limites d’une matière et sa liaison avec d’autres, sans toutefois enfler le texte des articles de discours superflus.</hi>
+                </p>
+                <p xml:id="d1e1328">
+                    <hi xml:lang="fr">Si nous entrons dans ces détails, c’est qu’il nous semble important de souligner que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ne se développe pas hors du livre sans en connaître les éléments constituants et sans maîtriser les usages de chacun d’eux. Ainsi insistons-nous sur le fait que les encyclopédistes rédigent le texte de l’ouvrage qu’ils éditent en procédant à une décomposition systématique des éléments constitutifs du livre. Les renvois introduits à l’intérieur de l’ouvrage remplacent les composants du livre ayant été supprimés au cours de la rédaction des articles. Ils assurent, au niveau du texte des articles, une liaison entre les matières réordonnées dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> hors du livre dont elles ont été extraites.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e1341">
+                <head subtype="level1" xml:id="d1e1342">L’utilité de l’<hi rend="italic">Encyclopédie</hi>
+        </head>
+                <p xml:id="d1e1346">
+                    <hi xml:lang="fr">Nous lisons à l’article LIVRE que, si l’on peut attendre en général des livres l’acquisition de nouvelles connaissances, leurs usages sont extrêmement nombreux et variés. Le but d’un ouvrage dépend généralement de la nature de celui-ci. L’auteur anonyme de l’article LIVRE distingue les livres qui «&#160;sont faits pour montrer l’origine des choses ou pour exposer de nouvelles découvertes&#160;», de livres faits «&#160;pour fixer et établir quelque vérité, ou pour pousser une science à un plus haut degré&#160;». Il mentionne également l’existence de livres dont le but est de «&#160;fixer plus précisément les idées des choses&#160;» et des mots. Enfin, certains livres ont pour but de «&#160;dégager les esprits des idées fausses&#160;» et «&#160;d’éclaircir, de constater la vérité des faits, des événements&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;IX, p.&#160;605). Cette analyse fournit au lecteur de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> les critères nécessaires pour savoir juger de l’utilité des livres. L’auteur de l’article LIVRE se montre parfaitement en accord avec la critique des livres formulée par les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> en remarquant que l’incertitude et les contradictions y régnant sont telles «&#160;qu’il paraît plus aisé de découvrir la vérité dans la nature et la raison des choses&#160;» que dans les livres. «&#160;D’ailleurs&#160;», poursuit-il, «&#160;les livres ont fait négliger les autres moyens de parvenir à la connaissance des choses, comme les observations, les expériences, etc.&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;IX, p.&#160;606).</hi>
+                </p>
+                <p xml:id="d1e1369">
+                    <hi xml:lang="fr">Les termes de cette critique du livre révèlent en outre que l’objet de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> n’est pas tant d’instaurer un nouvel ordre entre les disciplines que de circonscrire le champ d’exercice de chacune d’elles, ceci tout en mettant à jour, lorsqu’il y a lieu, l’existence de principes communs à plusieurs disciplines. Le principal problème auquel se trouvent confrontés les encyclopédistes dans un tel projet est celui du rapport entre une science et son mode d’exposition. Il n’est pas certain en effet que le livre soit un mode d’exposition approprié à toutes les sciences. Le livre s’avère extrêmement utile pour certaines disciplines, à commencer par l’histoire, mais n’a pas la même utilité pour le développement des sciences naturelles ou pour celui des mathématiques. Selon l’auteur de l’article LIVRE, un livre n’est utile que s’il ne s’écarte pas du but principal de la science dont il traite. Par exemple, un livre de mathématiques devrait solliciter chez son lecteur l’exercice de l’invention. S’il ne présentait que l’histoire des mathématiques et ne contenait rien sur «&#160;l’art ou la science de résoudre des questions&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;IX, p.&#160;606), il ne serait d’aucune utilité pour un mathématicien. Il serait préférable que ce dernier en abandonne la lecture et apprenne les mathématiques par lui-même en faisant tout simplement confiance à sa capacité de réflexion et d’invention. Ainsi, les auteurs des articles contribuant à l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ne sauraient se contenter d’y présenter l’histoire de leur discipline. Ce n’est d’ailleurs pas par hasard que l’auteur anonyme de l’article LIVRE prend l’exemple des mathématiques afin d’étayer son propos. Celles-ci constituent aux yeux des éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> un véritable modèle en termes de méthode parce qu’elles sollicitent l’esprit d’invention et emploient des renvois&#160;: «&#160;Le géomètre renvoie d’un théorème ou d’un problème à un autre, et l’encyclopédiste d’un article à un autre&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;643), explique en effet Diderot dans l’article ENCYCLOPÉDIE.</hi>
+                </p>
+                <p xml:id="d1e1397">
+                    <hi xml:lang="fr">Nous retiendrons de cette série de remarques qu’il n’est pas sûr qu’un livre serve à exercer les compétences requises par la science dont il traite. Il est à plus forte raison peu probable que le livre soit adapté à un ouvrage pluridisciplinaire tel que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">. On comprend que la question de l’utilité de l’ouvrage qu’ils éditent se pose de façon très aiguë aux éditeurs, d’autant plus que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> n’a d’autre ambition que d’être utile au progrès des connaissances. C’est le rapport que chacun de nous entretient avec les différentes sciences que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> remet en question. Ainsi, les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> mettent l’accent sur la lecture et défendent l’idée qu’il appartient au lecteur de réaliser le cercle des connaissances, toute lecture participant à la perfection de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie </hi>
+          </hi>
+                    <hi xml:lang="fr">par le jeu de renvois qu’elle met en œuvre. Diderot et d’Alembert attendent donc du lecteur de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> qu’il ne lise pas celle-ci comme il lirait un traité scientifique et y introduisent à cet effet la notion de point de vue dès l’énonciation de leur projet. Ce faisant, ils font appel à un système de représentation peu adapté au livre et se trouvent dans l’obligation de concilier dans un même ouvrage différents modes de représentation du savoir.</hi>
+                </p>
+                <p xml:id="d1e1431">
+                    <hi xml:lang="fr">La réorganisation des connaissances afin d’en donner la meilleure représentation possible dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> s’accompagne de la part des éditeurs d’un questionnement concernant l’utilité de l’ouvrage qu’ils publient. En effet, le projet encyclopédique ne prend pas forme sans considérer l’état de conservation des connaissances que nous avons reçues en héritage et sans envisager les conditions de leur usage et de leur transmission aux générations futures. Nous rappellerons ici qu’une des hypothèses servant de base à un tel projet est qu’aucune vérité n’est inutile. Il faudra donc, au cours de la réalisation du projet encyclopédique, vérifier si les vérités sont à leur place dans les livres et, à défaut, en corriger l’arrangement. Or les encyclopédistes prévoient que le nombre de livres ira en s’accroissant et que les vérités seront nécessairement toujours plus isolées au milieu de la masse des ouvrages. Ils pensent, à la suite de Leibniz, qu’il est temps d’extraire les vérités consignées dans les livres et de les réordonner. Comme l’écrit en effet Diderot dans l’article ENCYCLOPÉDIE, «&#160;on prévoit un moment où il serait presque aussi difficile de s’instruire dans une bibliothèque, que&#160;dans l’univers, et presque aussi court de chercher une vérité subsistante dans la nature, qu’égarée dans une multitude immense de volumes&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;644). L’utilité d’une Encyclopédie est en quelque sorte prouvée par le nombre croissant de livres, sachant qu’il sera toujours plus difficile d’accéder aux connaissances que ces livres contiennent.</hi>
+                </p>
+                <p xml:id="d1e1444">
+                    <hi xml:lang="fr">Si l’usage de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> diffère par conséquent de l’usage courant des livres, les éditeurs de l’ouvrage sont conscients de la difficulté de passer outre aux contraintes matérielles liées au livre. Dès le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Discours préliminaire</hi>
+          </hi>
+                    <hi xml:lang="fr">, d’Alembert souligne le désaccord entre l’ordre naturel des idées, constituant pour lui un véritable modèle de pensée, et la représentation unifiée qu’en donne le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr">. Cette représentation sous forme d’arbre est en effet loin de rendre compte du «&#160;système général des sciences et des arts&#160;» que d’Alembert compare à un «&#160;labyrinthe&#160;» où l’esprit s’engage sans avoir aucune visibilité. La génération des idées introduit un certain désordre dans l’esprit et crée une discontinuité dans la suite de ses opérations. D’Alembert insiste sur la nécessité d’un tel désordre et souligne l’intérêt que celui-ci représente pour l’encyclopédiste soucieux d’approfondir sa connaissance de l’art de raisonner. Il considère néanmoins que ce désordre ne peut en aucun cas être représenté tel quel dans le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr">. En effet, il «&#160;défigurerait, ou plutôt anéantirait entièrement un Arbre encyclopédique dans lequel on voudrait le représenter&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;I, p.&#160;xiv). Pourtant cette remarque ne vaut que si l’on s’en tient au projet encyclopédique et au choix qui est alors celui des éditeurs de représenter le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr"> sous un point de vue unique. De fait, la représentation de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> sous la forme du </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr"> est défigurée dans le corps de l’ouvrage, ne serait-ce que par la multiplication des points de vue et par les possibilités de lecture ou de circulation dans les savoirs offertes par les renvois.</hi>
+                </p>
+                <p xml:id="d1e1488">
+                    <hi xml:lang="fr">On peut donc considérer que les différents ordres entrant dans la composition de l’ouvrage encyclopédique traduisent plus ou moins imparfaitement l’ordre naturel des idées. Cet ordre est premier si l’on considère l’ordre généalogique des connaissances, mais il resterait inaperçu si on ne le représentait pas sous un point de vue unique, ainsi que l’exige toute représentation visuelle sous forme de figure. Pour autant les encyclopédistes ne renonceront pas à représenter l’ordre naturel des idées dans l’ouvrage qu’ils éditent. Leur principale préoccupation n’est-elle pas de montrer l’unité des connaissances humaines en mettant celles-ci en ordre, même si l’idéal encyclopédique d’unité est continuellement menacé par la diversité infinie des points de vue&#160;? D’ailleurs, les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;sont les premiers à reconnaître que la représentation de l’enchaînement des sciences sera imparfaite tant qu’elle résultera du choix arbitraire d’un point de vue unique. La formulation d’un tel questionnement ne se limite pas aux </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr"> et au </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Discours préliminaire</hi>
+          </hi>
+                    <hi xml:lang="fr">, elle traverse tout l’ouvrage encyclopédique et nous en trouvons un résumé sous la plume de Diderot dans l’article ANIMAL. Ce dernier observe que nos idées générales ont l’avantage de «&#160;rassembler une grande quantité d’objets dans le même point de vue&#160;»</hi>
+                    <note type="standard" xml:id="ftn10" place="foot" n="10">
+            <p> <hi xml:lang="fr">Diderot, article ANIMAL (</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Ordre encyclopédique, Entendement, Raison, Philosophie ou science, Science de la nature, Zoologie, Animal</hi>
+              </hi>
+              <hi xml:lang="fr">), </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Enc.</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;I, p.&#160;469.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, mais qu’elles ne parviennent pas à les comprendre tous. Ainsi peut-on supposer que la multiplicité des approches disciplinaires et l’insertion de renvois dans le corps de l’ouvrage ont pour fonction de représenter l’enchaînement des sciences de façon plus détaillée et moins arbitraire que ne le fait le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr">.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e1529">
+                <head subtype="level1" xml:id="d1e1530">La fonction des renvois</head>
+                <p xml:id="d1e1532">
+                    <hi xml:lang="fr">Il revient à Diderot et d’Alembert d’avoir renouvelé le genre encyclopédique en introduisant des renvois à l’intérieur de l’ouvrage dont ils étaient les éditeurs. D’Alembert précise dans le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Discours préliminaire</hi>
+          </hi>
+                    <hi xml:lang="fr"> que les renvois n’ont pas seulement une fonction explicative mais qu’ils participent à «&#160;la liaison des matières&#160;» entrant dans la composition de l’ouvrage (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;I, p.&#160;xviij). La liaison du système des connaissances humaines dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> dépend en effet, comme l’explique Diderot dès le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr">, de «&#160;la fréquence des renvois&#160;» et de leur exactitude (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr">, p.&#160;8). Les renvois n’ont donc rien d’accessoire dans la formation de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">. Ils sont les éléments d’une forme de savoir n’ayant aucun équivalent dans les traités scientifiques ou dans les livres consacrés à une science ou à un art singulier. Enfin, c’est grâce aux renvois que les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> parviennent à concilier dans un même ouvrage plusieurs ordres ou arrangements.</hi>
+                </p>
+                <p xml:id="d1e1571">
+                    <hi xml:lang="fr">Bien que le corps de l’ouvrage se présente comme un texte, il invite le lecteur à visualiser les connaissances humaines selon une multiplicité de points de vue différents. L’ordre encyclopédique représente une infinité de points de vue en étant composé de plusieurs types de renvois. Ainsi s’ajoutent aux renvois de choses, dont nous avons donné ci-dessus la définition, des «&#160;renvois de mots&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;642). Ceux-ci ont pour fonction de renvoyer à la définition d’un mot, ce qui permet d’éviter les répétitions inutiles et l’obscurité conséquente à l’explication d’un même mot envisagé selon plusieurs sciences différentes. Les mots ne seront donc pas définis dans tous les articles où ils apparaissent et les auteurs renverront à l’article où le mot qu’ils emploient est défini. Nous prendrons l’exemple de l’article ÉRUDITION (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Philosophie et littérature</hi>
+          </hi>
+                    <hi xml:lang="fr">)</hi>
+                    <note type="standard" xml:id="ftn11" place="foot" n="11">
+            <p> <hi xml:lang="fr">D’Alembert, article ÉRUDITION (</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Philosophie et littérature</hi>
+              </hi>
+              <hi xml:lang="fr">), </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Enc.</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;V, p.&#160;914. Pour une présentation détaillée des renvois dans l’</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Encyclopédie</hi>
+              </hi>
+              <hi xml:lang="fr">, nous renvoyons à l’annexe de l’ouvrage de M.&#160;Groult. (1999).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr"> dans le texte duquel l’auteur, d’Alembert, insère les renvois suivants&#160;: BIBLIOTHÈQUE, ÉLÉMENS, LOGIQUE, DEGRÉ, DICTIONNAIRE, DICTIONNAIRES DES SCIENCES ET DES ARTS et ÉCLECTIQUE. C’est au moyen des renvois de mots que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> se libère du genre du dictionnaire et renouvelle la fonction des définitions.</hi>
+                </p>
+                <p xml:id="d1e1612">
+                    <hi xml:lang="fr">Lorsque l’ordre alphabétique ne suffira pas à régler les questions de nomenclature, les renvois de mots seront relayés par l’enchaînement des sciences. Tel est le cas lorsqu’un même mot fait l’objet de plusieurs entrées dans le corps de l’ouvrage suite à la variété de ses acceptions. Il s’agira alors de configurer les sous-articles selon les diverses matières appartenant au </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr"> et d’ordonner celles-ci en partant du mot employé comme titre de l’article principal. Il suffira à cet effet de se laisser guider par le sens propre et le sens figuré de ce mot et d’ordonner les différentes acceptions de celui-ci en allant du simple au figuré. Il en résultera une distribution de l’article en sous-articles correspondant à différentes disciplines. L’ordre qui en résultera sera déduit des différentes acceptions des mots. De manière générale, il semble naturel, aux yeux de Diderot, qu’en suivant cette méthode la Grammaire vienne en premier, qu’elle soit suivie de la Logique, de la Métaphysique et de la Théologie, etc. Ainsi défini, l’ordre des disciplines prévalant pour la distribution des articles remet en question le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr">.</hi>
+                </p>
+                <p xml:id="d1e1625">
+                    <hi xml:lang="fr">Nous prendrons un premier exemple, celui de l’article PREMIER de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie&#160;:</hi>
+          </hi>
+                    <hi xml:lang="fr"> le mot «&#160;premier&#160;» y est d’abord défini en </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Grammaire</hi>
+          </hi>
+                    <hi xml:lang="fr">, puis en </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Géométrie</hi>
+          </hi>
+                    <hi xml:lang="fr"> et en </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Astrologie</hi>
+          </hi>
+                    <hi xml:lang="fr">, avant d’être défini en </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Critique sacrée</hi>
+          </hi>
+                    <hi xml:lang="fr"> et en </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Histoire moderne</hi>
+          </hi>
+                    <hi rend="italic">
+            <note type="standard" xml:id="ftn12" place="foot" n="12">
+              <p> <hi rend="italic">
+                  <hi xml:lang="fr">A</hi>
+                </hi>
+                <hi xml:lang="fr">rticle non signé PREMIER (</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Grammaire</hi>
+                </hi>
+                <hi xml:lang="fr">), </hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Enc.</hi>
+                </hi>
+                <hi xml:lang="fr">&#160;XIII, p.&#160;288. Sous-articles Premier (</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Géométrie</hi>
+                </hi>
+                <hi xml:lang="fr">), La Chapelle, Enc. XIII, p.&#160;288. Premier mobile (</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">dans l’Astronomie de Ptolomée</hi>
+                </hi>
+                <hi xml:lang="fr">), D’Alembert, Enc. XIII, p.&#160;289. Premier, planètes premières (</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Astronomie)</hi>
+                </hi>
+                <hi xml:lang="fr">, D’Alembert, </hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Enc.</hi>
+                </hi>
+                <hi xml:lang="fr">&#160;XIII, p.&#160;289. Premier, premier vertical (</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Astronomie</hi>
+                </hi>
+                <hi xml:lang="fr">), D’Alembert, </hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Enc.</hi>
+                </hi>
+                <hi xml:lang="fr">&#160;XIII, p.&#160;289. Premier (</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Critique sacrée</hi>
+                </hi>
+                <hi xml:lang="fr">), Jaucourt, </hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Enc.</hi>
+                </hi>
+                <hi xml:lang="fr">&#160;XIII, p.&#160;289. Premier (</hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Histoire moderne</hi>
+                </hi>
+                <hi xml:lang="fr">), </hi>
+                <hi rend="italic">
+                  <hi xml:lang="fr">Enc.</hi>
+                </hi>
+                <hi xml:lang="fr">&#160;XIII, p.&#160;289, non signé. etc.</hi>
+              </p>
+            </note>
+          </hi>
+                    <hi xml:lang="fr">. On observera qu’un tel ordre disciplinaire ne correspond pas à celui du </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr">. La nécessité de traiter d’une même matière en envisageant successivement celle-ci selon plusieurs disciplines amène les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> à multiplier les points de vue au niveau des articles quitte à contredire la représentation figurée du système des connaissances insérée au tout début de l’ouvrage. Nous illustrerons ce propos par un second exemple. Il s’agit de l’article AUTORITÉ où plusieurs sous-articles sont compris sous une même dénomination, celle-ci constituant l’entrée principale de l’article. Dans le cas de l’article AUTORITÉ, il nous semble qu’au-delà des différences disciplinaires la distribution de l’article en sous-articles contribue à la définition progressive de la notion. Le terme «&#160;autorité&#160;» y est d’abord défini du point de vue de la grammaire. Ce premier article est suivi du sous-article Autorité politique, puis d’un second sous-article traitant de l’Autorité </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">dans les discours et dans les écrits, </hi>
+          </hi>
+                    <hi xml:lang="fr">enfin de deux autres sous-articles</hi>
+                    <note type="standard" xml:id="ftn13" place="foot" n="13">
+            <p> <hi xml:lang="fr">Diderot, article AUTORITÉ, </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">pouvoir, puissance, empire</hi>
+              </hi>
+              <hi xml:lang="fr"> (</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Grammaire</hi>
+              </hi>
+              <hi xml:lang="fr">), sous-articles Autorité politique et Autorité </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">dans les discours et dans les écrits</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;; sous-article non signé, Autorité, et sous-article signé Toussaint, Autorité, </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Enc.</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;I, pp.&#160;898-901. Pour l’étude de l’article Autorité politique, voir Lough (1968, pp.&#160;424-462).</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">. Dans l’article ENCYCLOPÉDIE, Diderot écrit au sujet de ce type de distribution pluridisciplinaire qu’elle doit rester libre et variée. Enfin, il précise qu’il est nécessaire qu’elle obéisse «&#160;à la génération des idées, à l’analogie des matières, à leur enchaînement naturel&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;641).</hi>
+                </p>
+                <p xml:id="d1e1780">
+                    <hi xml:lang="fr">Cette dernière remarque révèle que, si l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> obéit à plusieurs ordres, tous ces ordres dépendent du libre jeu de la génération des idées, de telle sorte que les auteurs des articles peuvent faire preuve d’invention et renouveler la définition des notions de façon radicale, comme c’est le cas dans l’article AUTORITÉ. La réorganisation du </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr"> dont le corps de l’ouvrage encyclopédique s’avère avoir été le lieu, nous amène à nous poser la question de la marge de liberté laissée aux auteurs des articles dans l’usage des renvois et à nous demander, plus généralement, quelle est la participation du lecteur à la visualisation de l’enchaînement des sciences.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e1793">
+                <head subtype="level1" xml:id="d1e1794">De la représentation à la visualisation des connaissances</head>
+                <p xml:id="d1e1796">
+                    <hi xml:lang="fr">Diderot imagine que l’ordre naturel des idées pourrait être consultable dans un «&#160;livre magique&#160;»</hi>
+                    <note type="standard" xml:id="ftn14" place="foot" n="14">
+            <p> <hi xml:lang="fr">Diderot, article ÉCLECTISME (</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Histoire de la philosophie ancienne et moderne</hi>
+              </hi>
+              <hi xml:lang="fr">), </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Enc.</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;V, p.&#160;273.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">, conservé en quelque endroit du monde, où les pensées des hommes iraient se graver au moment même où elles prendraient forme dans l’entendement. La métaphore du livre magique, véritable mémoire vivante de toutes les opérations de l’entendement, remplace celle de la bibliothèque universelle. Elle renouvelle l’idée de représenter les connaissances de façon figurée en obéissant au modèle perspectif. Enfin, elle révèle l’écart existant entre la forme usuelle de représentation du savoir qu’est le livre et la visualisation de l’enchaînement des connaissances que sollicite le savoir encyclopédique. De toute évidence, les encyclopédistes préféraient la représentation au discours&#160;: «&#160;Un coup d’œil sur l’objet ou sur sa représentation en dit plus qu’une page de discours&#160;», écrit explicitement Diderot (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Prospectus</hi>
+          </hi>
+                    <hi xml:lang="fr">, p.&#160;4).</hi>
+                </p>
+                <p xml:id="d1e1822">
+                    <hi xml:lang="fr">Dès lors, la question qui se pose à eux, et que formule d’Alembert dans l’article ÉLÉMENS DES SCIENCES avec la plus grande précision, est la suivante&#160;: si le système des connaissances humaines dépend du choix d’un point de vue sur les différents objets de nos connaissances, comment parvenir à en avoir «&#160;une connaissance détaillée&#160;»</hi>
+                    <note type="standard" xml:id="ftn15" place="foot" n="15">
+            <p> <hi xml:lang="fr">D’Alembert, article ÉLÉMENS DES SCIENCES (</hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Philosophie</hi>
+              </hi>
+              <hi xml:lang="fr">), </hi>
+              <hi rend="italic">
+                <hi xml:lang="fr">Enc.</hi>
+              </hi>
+              <hi xml:lang="fr">&#160;V, p.&#160;491.</hi>
+            </p>
+          </note>
+                    <hi xml:lang="fr">&#160;? Même en faisant l’hypothèse que la totalité des phénomènes de l’univers trouve son expression en l’homme, les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> conviennent que l’homme devra quitter la position de point de vue général où ils l’ont placé afin de connaître en détail les divers objets de ses connaissances. Car il ne suffit pas que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> contienne tout ce qu’il lui est possible de connaître, encore faut-il que l’homme soit libre de parcourir l’ouvrage et de choisir l’itinéraire qu’il suivra parmi les différentes matières le composant. De fait, il ne percevra le détail des divers objets de ses connaissances que s’il suit les différents ordres dont procède l’ouvrage encyclopédique. Ainsi l’introduction de renvois dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ne sert pas uniquement à assurer la liaison entre les points de vue les plus divers&#160;; elle est également nécessaire afin d’indiquer les ordres de lecture convenant à un ouvrage tel que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">. Les renvois permettent au lecteur de visualiser les connaissances qu’il a acquises non pas de façon définitive, comme dans le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr">, mais de façon évolutive, puisqu’il circulera naturellement d’un point de vue à l’autre au cours de sa lecture.</hi>
+                </p>
+                <p xml:id="d1e1869">
+                    <hi xml:lang="fr">Il est aussi prévu que les auteurs encyclopédistes participent à la visualisation des connaissances au cours de la rédaction des articles. Les renvois n’ont en effet rien de préétabli et leur insertion est laissée à leur entière décision. C’est ainsi que le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr"> fait l’objet d’une reconfiguration dans le corps de l’ouvrage. En effet, l’auteur d’un article encyclopédique ne traite d’un sujet qu’en marquant la liaison que celui-ci entretient avec un autre. Ainsi prévoit-il, par l’insertion d’un renvoi, ce qui resterait à connaître et anticipe-t-il sur le texte d’un article qui, parfois, n’est pas encore écrit. Diderot apporte de nouvelles précisions concernant la fonction des renvois dans l’article ENCYCLOPÉDIE en décrivant le processus rédactionnel des articles et en expliquant qu’un renvoi n’est parfois qu’un moyen d’indiquer qu’un article est incomplet et que sa matière mérite un éclaircissement. Chaque auteur, écrit-il, «&#160;fait son renvoi à l’endroit convenable, non sur ce qu’il contient, car il ne lui a point été communiqué, mais sur ce qu’il présume y devoir être contenu, pour éclaircir et compléter l’article qu’il travaille&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;642). Diderot indique à l’intention des auteurs quelques règles de rédaction et émet l’idée que la meilleure marche à suivre à l’intérieur d’un article est celle relevant de «&#160;la méthode d’invention&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;642). Une telle méthode, outre qu’elle reflète l’ordre naturel des idées, présente l’avantage de s’appliquer à toutes les sciences et à tous les arts sans exception. Elle conduit des phénomènes individuels et particuliers à des connaissances toujours plus générales, jusqu’à parvenir à quelque principe ou à quelque axiome. L’important, finalement, est que l’encyclopédiste sache parcourir l’espace correspondant à la matière dont on traite et qu’il parvienne à fixer de lui-même les limites de celle-ci.</hi>
+                </p>
+                <p xml:id="d1e1887">
+                    <hi xml:lang="fr">D’Alembert fait allusion à une méthode similaire dans le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Discours préliminaire</hi>
+          </hi>
+                    <hi xml:lang="fr"> en suggérant qu’il faudrait ne définir une science dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> qu’après avoir exposé celle-ci en détail&#160;: «&#160;ce qu’on appelle définition de chaque science&#160;», explique-t-il, «&#160;serait mieux placé à la fin qu’au commencement du livre qui en traite&#160;». Une telle définition présenterait en effet «&#160;le résultat extrêmement réduit de toutes les notions qu’on aurait acquises&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;I, p.&#160;xxxvij) au cours de sa lecture. La définition d’une science sert ainsi à marquer les limites de celle-ci. D’Alembert remarque cependant que l’ordre scientifique qu’il souhaiterait mettre en place dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> n’est pas celui consacré par l’usage, celui-ci voulant que l’on traite d’une science dans un dictionnaire comme dans les autres ouvrages en commençant par en donner la définition. Même si d’Alembert souligne par ailleurs la nécessité de se conformer à l’usage en matière de définition, il met ici en lumière la divergence existant entre l’ordre d’exposition auquel obéissent les traités scientifiques ou les dictionnaires et l’ordre qui conviendrait à un ouvrage encyclopédique.</hi>
+                </p>
+                <p xml:id="d1e1910">
+                    <hi xml:lang="fr">Le travail de visualisation de l’enchaînement des connaissances entamé par les auteurs des articles sera complété par celui des éditeurs. Ces derniers introduiront des renvois supplémentaires dans chaque volume de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> à la relecture de l’ensemble du manuscrit. Ainsi trouve-t-on sous la plume de Diderot de précieuses indications sur la façon dont il faudrait non seulement écrire, mais aussi lire l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, l’important étant que tout homme, qu’il soit en position d’auteur, d’éditeur ou encore de lecteur, puisse apprécier la liaison du système des connaissances humaines à partir du seul texte des articles et reconstituer spontanément la continuité de l’ordre encyclopédique lorsque celle-ci n’est pas parfaite.</hi>
+                </p>
+                <p xml:id="d1e1923">
+                    <hi xml:lang="fr">Il est intéressant de remarquer combien Diderot souligne toutefois l’importance pour l’éditeur d’avoir l’ensemble du manuscrit sous les yeux afin de corriger les renvois et d’en ajouter de supplémentaires. C’est d’un seul coup d’œil qu’il pourra vraiment juger de la justesse des renvois et avoir une idée de l’architecture de l’ouvrage. Comme l’explique Diderot dans l’article ENCYCLOPÉDIE, si l’éditeur de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> n’avait entre les mains que des parties du manuscrit, il lui serait aussi difficile de juger de l’ensemble de l’ouvrage, que «&#160;de l’ordonnance générale d’un morceau d’architecture, dont on ne verrait les différents ordres que séparés, et les uns après les autres&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;643). Toujours est-il que Diderot pense qu’il est possible à l’éditeur de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;de visualiser l’enchaînement des sciences en parcourant le corps de l’ouvrage et en prenant connaissance des points de vue qu’il réunit. L’intelligence des renvois lui permet, en partant de la lecture et du détail de nos connaissances, de revenir à un aperçu général.</hi>
+                </p>
+                <p xml:id="d1e1941">
+                    <hi xml:lang="fr">Si l’on considère la reconfiguration du </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr"> qui se joue dans le corps de l’ouvrage, l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ressemble, comme le suggère Diderot, plus à une architecture ouverte qu’à un livre, nécessairement clos sur lui-même à partir du moment où il est publié. Diderot se montre d’ailleurs conscient des limites inhérentes à l’édition d’un ouvrage tel que l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, et il est tout à fait significatif qu’il en envisage la postérité en estimant «&#160;le point d’instruction le plus élevé&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;V, p.&#160;637) que l’espèce humaine puisse atteindre. En établissant un rapport entre la réception de l’ouvrage qu’il édite et les limites du niveau d’instruction, Diderot laisse entendre qu’à la différence du livre, l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ne connaît d’autre clôture que l’horizon de la connaissance humaine.</hi>
+                </p>
+                <p xml:id="d1e1969">
+                    <hi xml:lang="fr">Les éditeurs de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ont continuellement réfléchi à la méthode la plus adéquate afin que celle-ci atteigne le plus haut degré de perfection. Ils ne se sont pas contentés de la représentation de l’enchaînement des sciences qu’est le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr"> et ont introduit dans le corps de l’ouvrage des éléments comme les renvois permettant à l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> de se réaliser hors du livre. L’ouvrage encyclopédique présente sous cet aspect la particularité de solliciter chez le lecteur la faculté de visualiser ses connaissances, celles qu’il a acquises, certes, mais aussi celles qu’il lui reste à acquérir. Le processus cognitif dont procèdent les renvois devrait servir à apprécier la véritable étendue des connaissances humaines. Il devrait conduire chacun de nous à nous situer par rapport à nos connaissances. On ne sera pas surpris que Diderot décrive ce processus en faisant appel à une métaphore architecturale. Il compare les renvois à des «&#160;pierres d’attente&#160;» se détachant sur un mur ou sur la voûte d’un édifice en construction. Les intervalles qui séparent ces pierres d’attente, explique-t-il, «&#160;annoncent ailleurs de pareils intervalles et de pareilles pierres d’attente&#160;» (</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Enc.</hi>
+          </hi>
+                    <hi xml:lang="fr">, V, p.&#160;644). Ainsi comparés à des pierres d’attente, c’est-à-dire à des éléments indiquant la dimension ou l’échelle d’un ouvrage inachevé, les renvois donnent une excellente image de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, celle-ci ayant évolué, du </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Discours préliminaire</hi>
+          </hi>
+                    <hi xml:lang="fr">&#160;au texte des articles, d’une représentation fixe à une visualisation dynamique des connaissances.</hi>
+                </p>
+            </div>
+            <div type="div1" xml:id="d1e2003">
+                <head subtype="level1" xml:id="d1e2004">Conclusion</head>
+                <p xml:id="d1e2006">
+                    <hi xml:lang="fr">Notre étude s’est efforcée de rendre compte du point de vue interne à l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, c’est-à-dire d’un point de vue construit par l’homme&#160;; ce point de vue résulte de notre capacité à circuler librement dans toute l’étendue de nos connaissances et à ouvrir de nouvelles perspectives. La démarche qui a été la nôtre a permis de montrer que si Diderot propose d’inscrire l’homme comme point de vue dans l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">, c’est qu’il le considère comme le principal acteur de la visualisation dont les connaissances y font l’objet. La possibilité d’une lecture de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> hors du livre est comprise dans le corps même de l’ouvrage encyclopédique, dans la mesure où les auteurs des articles ainsi que les lecteurs accèdent à un autre point de vue que celui représenté par le </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+          </hi>
+                    <hi xml:lang="fr">. L’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> des Lumières porte en elle les principes de son propre renouvellement hors du livre. Il est dès lors permis de mettre en évidence un questionnement qui pourrait faire sens lors de l’examen d’autres tentatives d’organisation et de visualisation des connaissances. Ainsi s’agit-il, selon nous, de considérer l’édition électronique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> en revenant aux problèmes épistémologiques inhérents à toute conception encyclopédique de la connaissance. En effet, quelle que soit l’imperfection de l’ouvrage que nous ont laissé Diderot et d’Alembert ou celle des éditions numériques contemporaines et à venir, c’est en développant un point de vue sur les connaissances humaines que notre lecture sera à la hauteur des possibilités intellectuelles que nous offre l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr">.</hi>
+                </p>
+                <p xml:id="d1e2045">
+                    <hi xml:lang="fr">Considérant l’édition électronique de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ou encore d’autres projets de visualisation des connaissances comme, par exemple, </hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Wikipedia</hi>
+          </hi>
+                    <hi xml:lang="fr">, nous pourrions poursuivre notre réflexion en examinant attentivement les effets que le support technique lui-même introduit sur le plan cognitif et le renouvellement que l’on peut en attendre de notions telles que celle de point de vue. Il conviendrait d’ajouter, à l’analyse exposée dans cet article, l’étude des transformations, liées aux outils du numérique notamment, dans les modes de production, d’acquisition, de circulation et de restitution des savoirs. En combinant l’examen du point de vue interne et des supports, il serait possible d’explorer plus avant et de comparer les épistémologies des éditions papiers et numériques de l’</hi>
+                    <hi rend="italic">
+            <hi xml:lang="fr">Encyclopédie</hi>
+          </hi>
+                    <hi xml:lang="fr"> ou d’autres efforts d’organisation et de visualisation des connaissances et, notamment, de traiter de questions comme&#160;: ces différentes représentations de la connaissance invitent-elles les lecteurs au même processus cognitif et au même parcours dans les savoirs&#160;? Notre enquête a déjà permis de montrer qu’il ne suffisait pas de passer au numérique pour faire disparaître les problèmes épistémologiques soulevés par l’organisation encyclopédique des connaissances. Au contraire, les supports numériques nous conduisent à prêter une attention particulière à des problèmes épistémologiques de fond concernant la façon de circuler dans les savoirs.</hi>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e2067">
+                <listBibl xml:id="d1e2069">
+                    <bibl xml:id="d1e2071">
+                        <hi xml:lang="fr">Barthes, R. (1980). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Œuvres complètes (1974-1980)</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Éditions du Seuil.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2079">
+                        <hi xml:lang="fr">Brouzeng, P. (2001). La vulgarisation scientifique au XIX</hi>
+                        <hi rend="sup">
+                            <hi xml:lang="fr">e</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;siècle en France et l’esprit de l’Encyclopédie de Diderot et d’Alembert. In J.&#160;Michon &amp; J.-Y.&#160;Mollier (dir.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Les Mutations du livre et de l’édition dans le monde du XVIIIe siècle à l’an 2000</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Actes du colloque international. (pp.&#160;484-494). Sherbrooke&#160;: Les Presses de l’Université de Laval-L’Harmattan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2092">
+                        <hi xml:lang="fr">Burke, P. (2000). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">A Social history of knowledge from Gutenberg to Diderot</hi>
+                        </hi>
+                        <hi xml:lang="en">. Oxford, United Kingdom: Polity Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2100">
+                        <hi xml:lang="en">Burke, P. (2012). A Social history of </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">knowledge.</hi>
+                        </hi>
+                        <hi xml:lang="en"> Vol.&#160;2. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">From the Encyclopédie to Wikipedia</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Oxford, United Kingdom: Polity Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2115">
+                        <hi xml:lang="fr">Caye, P. (2009). Le chantier sans maître, l’</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr"> et la question de la technique. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Dix-huitième</hi>
+                        </hi>
+                        <hi xml:lang="en">, (41), 449-467.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2128">
+                        <hi xml:lang="en">Chambers, E. (1728). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Cyclopaedia or an Universal Dictionary of Arts and Sciences</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Londres, 2&#160;vol.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2138">
+                        <hi xml:lang="fr">Chartier, P. (éd.) (2002). Présentation. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Encyclopédie en ses nouveaux atours électroniques&#160;: vices et vertus du virtuel, Recherches sur Diderot et sur l’Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, (31-32), 7-11.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2146">
+                        <hi xml:lang="fr">Diderot &amp; d’Alembert. (1751-1765). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">ou Dictionnaire raisonné des Sciences, des Arts et des métiers</hi>
+                        </hi>
+                        <hi xml:lang="fr">. 17&#160;vol. fol.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2159">
+                        <hi xml:lang="fr">Diderot. (1975 et suiv.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Œuvres complètes</hi>
+                        </hi>
+                        <hi xml:lang="fr">, H.&#160;Dieckmann, J.&#160;Proust &amp; J.&#160;Varloo (éd.). Paris&#160;: Hermann.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2167">
+                        <hi xml:lang="fr">Eco, U. (2010). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">De l’arbre au labyrinthe, études historiques sur le signe et l’interprétation</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: Grasset.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2176">
+                        <hi xml:lang="fr">Fauvergue, C. (2011). Point de vue et vérité dans l’</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Hermeneutic Study and Education of Textual Configuration (Hersetec)</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">5</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 35-45.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2194">
+                        <hi xml:lang="en">Fauvergue, C. (2012). </hi>
+                        <hi xml:lang="fr">Horizon et point de vue chez Leibniz et Gadamer. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">De l’herméneutique philosophique à l’herméneutique du texte</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Université de Nagoya, 29-35.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2204">
+                        <hi xml:lang="fr">Foglia, M. (dir.) (2008). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Wikipédia, Média de la connaissance démocratique</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Limoges&#160;: FYP Éditions.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2212">
+                        <hi xml:lang="fr">Godin, C. (1997) Tensions et apories de l’encyclopédisme. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Philosophies</hi>
+                        </hi>
+                        <hi xml:lang="fr">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">24</hi>
+                        </hi>
+                        <hi xml:lang="fr">(2), 285-298.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2225">
+                        <hi xml:lang="fr">Groult, M. (1999). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">D’Alembert et la mécanique de la vérité dans l’Encyclopédie.</hi>
+                        </hi>
+                        <hi xml:lang="fr"> Paris&#160;: Champion.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2233">
+                        <hi xml:lang="fr">Groult, M. (2008). Du «&#160;public qui lit&#160;» au «&#160;public qui écrit dans le dictionnaire qu’il lit&#160;». In M.&#160;Foglia (dir.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Wikipédia, Média de la connaissance démocratique</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Limoges&#160;: FYP Éditions.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2241">
+                        <hi xml:lang="fr">Groult, M. (2011a). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Savoirs et Matières, Pensée scientifique et théorie de la connaissance de l’Encyclopédie à l’Encyclopédie méthodique</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: CNRS Éditions.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2249">
+                        <hi xml:lang="fr">Groult, M. (éd.) (2011b). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Les encyclopédies&#160;: Construction et circulation du savoir de l’Antiquité à Wikipédia</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: L’Harmattan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2257">
+                        <hi xml:lang="fr">Groult, M. (2013). La classification du savoir et l’édition électronique. Le cas de l’</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Chantiers des Lumières&#160;: L’Encyclopédie de Diderot et D’Alembert à l’âge de la numérisation.</hi>
+                        </hi>
+                        <hi xml:lang="fr"> </hi>
+                        <hi xml:lang="en">University of Chicago. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">ARTFL Encyclopédie Project</hi>
+                        </hi>
+                        <hi xml:lang="en">. Working papers. </hi>
+                        <ref target="http://encyclopedie.uchicago.edu/content/working-papers">
+                            <hi rend="underline">
+                                <hi xml:lang="fr">http://encyclopedie.uchicago.edu/content/working-papers</hi>
+                            </hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e2281">
+                        <hi xml:lang="fr">Guilbaud, A. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">et&#160;al. </hi>
+                        </hi>
+                        <hi xml:lang="fr">(2013). “Entrer dans la forteresse”&#160;: pour une édition numérique collaborative et critique de l’</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (projet ENCCRE). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Recherches sur Diderot et sur l’Encyclopédie,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (48), 225-261.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2299">
+                        <hi xml:lang="fr">Leca-Tsiomis, M. (2006). Une tentative de conciliation entre ordre alphabétique et ordre encyclopédique. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Les branches du savoir dans l’Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Recherches sur Diderot et sur l’Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, (40-41), 55-66.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2313">
+                        <hi xml:lang="fr">Leibniz. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Nouveaux essais sur l’entendement humain</hi>
+                        </hi>
+                        <hi xml:lang="fr">. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Leibniz, Sämtliche Schriften und Briefe</hi>
+                        </hi>
+                        <hi xml:lang="en">. Darmstadt-Berlin: Akademie-Verlag. 1923-…, VI, VI.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2326">
+                        <hi xml:lang="en">Locke. &amp; Nidditch, P. H. (éd.) (1975). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">An Essay, concerning Human Understanding</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">Oxford: The Clarenton Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2336">
+                        <hi xml:lang="fr">Le Ru, V. (1994). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Jean Le Rond d’Alembert philosophe</hi>
+                        </hi>
+                        <hi xml:lang="fr">. </hi>
+                        <hi xml:lang="en">Paris&#160;: Vrin.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2346">
+                        <hi xml:lang="en">Lough, J. (1968). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Essays on the Encyclopédie of Diderot and d’Alembert</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <hi xml:lang="fr">London: Oxford University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2356">
+                        <hi xml:lang="fr">Ludwig, B. (1987). L’utilisation des renvois dans la lecture de l’</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, in&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Encyclopédie et ses lectures</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (pp.&#160;35-54). Caen&#160;: Éditions de l’École normale du Calvados.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2369">
+                        <hi xml:lang="fr">Matsuzawa, K. &amp; Séginger, G. (éd.) (2010). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La Mise en texte des savoirs</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Strasbourg&#160;: Presses universitaires de Strasbourg.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2377">
+                        <hi xml:lang="fr">Melançon, B. (2004). Sommes-nous les premiers lecteurs de l’</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;? In. J.-M.&#160;Salaün &amp; C.&#160;Vandendorpe (dir.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Les défis de la publication sur le Web&#160;: hyperlectures, cybertextes et méta-éditions</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (pp.&#160;143-159). Villeurbanne&#160;: Presses de l’Enssib, coll. «&#160;Référence&#160;».</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2390">
+                        <hi xml:lang="fr">Michon, J. &amp; Mollier, J.-Y. (dir.). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Les Mutations du livre et de l’édition dans le monde du XVIII</hi>
+                        </hi>
+                        <hi rend="sup">
+                            <hi rend="italic">
+                                <hi xml:lang="fr">e</hi>
+                            </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">&#160;siècle à l’an 2000</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Actes du colloque international. Sherbrooke&#160;: Les Presses de l’Université de Laval. Paris&#160;: </hi>
+                        <hi xml:lang="en">L’Harmattan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2407">
+                        <hi xml:lang="en">Morrissey, R. (The University of Chicago).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The ARTFL Encyclopédie Project</hi>
+                        </hi>
+                        <hi xml:lang="en">. </hi>
+                        <ref target="http://encyclopedie.uchicago.edu/">
+                            <hi rend="underline">
+                                <hi xml:lang="en">http://encyclopedie.uchicago.edu/</hi>
+                            </hi>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="d1e2419">
+                        <hi xml:lang="en">Morrissey, R. &amp; Roger, P. (éd.) </hi>
+                        <hi xml:lang="fr">(2001).&#160;</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">L’Encyclopédie&#160;: du réseau au livre et du livre au réseau</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Paris&#160;: H.&#160;Champion.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2429">
+                        <hi xml:lang="fr">Neveu, V. (2013). Classer les livres selon le </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Système figuré des connaissances humaines</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;: émergence et déclin des systèmes bibliographiques d’inspiration baconienne (1752-1812). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Recherches sur Diderot et sur l’Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, (48), 203-223.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2443">
+                        <hi xml:lang="fr">Séité, Y (2002). Le texte contre le livre. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Recherches sur Diderot et sur l’Encyclopédie,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (31-32), 267-282.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2451">
+                        <hi xml:lang="fr">Starobinski, J. (1970). Remarques sur l’&#160;«&#160;Encyclopédie&#160;». </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Revue de métaphysique et de morale, 75</hi>
+                        </hi>
+                        <hi rend="sup">
+                            <hi rend="italic">
+                                <hi xml:lang="fr">e</hi>
+                            </hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">&#160;année</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (3), 284-291.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2466">
+                        <hi xml:lang="fr">Starobinski, J. (1995). Diderot et l’art de la démonstration. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Recherches sur Diderot et sur l’Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, (18-19), 171-190.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2474">
+                        <hi xml:lang="fr">Stewart, P. (2002). L’</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr"> éclatée. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Recherches sur Diderot et sur l’Encyclopédie,</hi>
+                        </hi>
+                        <hi xml:lang="fr"> (31-32), 189-197.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2487">
+                        <hi xml:lang="fr">Sumi, Y. &amp; Koseki, T. (2009). Pour une édition critique informatisée de l’</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">&#160;: quelques précisions sur les métadonnées. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Recherches sur Diderot et sur l’Encyclopédie</hi>
+                        </hi>
+                        <hi xml:lang="fr">, (44), 207-218.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

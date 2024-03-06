@@ -1,0 +1,828 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="mhuart" time="2023-09-11T14:56:58.32+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_4796_Massot">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Kuhn dans la «&#160;révolution cognitive&#160;»</title>
+                <title type="sub">Réceptions et appropriations de la théorie kuhnienne dans le champ de la psychologie états-unienne à partir des années 1970</title>
+                <title level="a" type="alt" xml:lang="en">Kuhn and the “cognitive revolution”. Receptions and appropriations of Kuhn’s theory in the field of American psychology as from 1970</title>
+                <title level="a" type="alt" xml:lang="es">Kuhn et la «revolución cognitiva». Recepción y apropiación de la teoría de Kuhn en el área de la Psicología en los Estados Unidos, a partir los años 70</title>
+                <author>
+                    <persName>
+                        <forename>Arthur</forename>
+                        <surname>Massot</surname>
+                    </persName>
+                    <affiliation> Doctorant en Épistémologie et histoire des sciences à l'Université de Strasbourg et membre du laboratoire AHP-PReST (UMR 7117 - CNRS - Université de Lorraine - Université de Strasbourg). Titulaire d’un Master en Psychologie clinique et d’un Master en Histoire et philosophie des sciences, sa thèse porte sur les liens entre science et psychanalyse chez Freud et Lacan.ORCID&#160;: <ref target="https://orcid.org/0000-0002-1747-9690">https://orcid.org/0000-0002-1747-9690</ref>Adresse&#160;: AHP-PReST, Université de Strasbourg, 7 rue de l'Université, Bureau&#160;104, FR-67&#160;000 Strasbourg (France)Courriel&#160;: a.massot[at]unistra.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>performativity</item>
+                        <item>Kuhn (Thomas)</item>
+                        <item>paradigm</item>
+                        <item>history of psychology</item>
+                        <item>cognitive revolution</item>
+                        <item>behaviorism</item>
+                        <item>cognitivism</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>performativité</item>
+                        <item>Kuhn (Thomas)</item>
+                        <item>paradigme</item>
+                        <item>histoire de la psychologie</item>
+                        <item>révolution cognitive</item>
+                        <item>béhaviorisme</item>
+                        <item>cognitivisme</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>performatividad</item>
+                        <item>Kuhn (Thomas)</item>
+                        <item>paradigma</item>
+                        <item>historia de la psicología</item>
+                        <item>revolución cognitiva</item>
+                        <item>conductismo</item>
+                        <item>cognoscitivismo</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Kuhn dans la «&#160;révolution cognitive&#160;»</titlePart>
+                    <titlePart type="sub">Réceptions et appropriations de la théorie kuhnienne dans le champ de la psychologie états-unienne à partir des années 1970</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Arthur Massot</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e264">
+                <p xml:id="d1e265">En 1962 paraissait <hi rend="italic">La Structure des révolutions scientifiques</hi>, l'ouvrage qui a rendu célèbre l'historien des sciences Thomas Kuhn. À partir de 1970, cet ouvrage a fait l'objet d'un accueil à la fois vaste et controversé au sein de la psychologie états-unienne. Dans cet article, nous revenons sur les enjeux historiques et épistémologiques de ces controverses. Ce sont en particulier les défenseurs de la psychologie cognitive naissante qui ont mobilisé la théorie kuhnienne dans le but d'imposer leur orientation contre le béhaviorisme, qui dominait alors la psychologie états-unienne. Plusieurs caractéristiques associées au modèle de Kuhn ont favorisé l'imposition du cognitivisme en psychologie&#160;: sa vision internaliste, discontinuiste, monopolistique et universaliste de la science, l'ambiguïté de ses formulations, l'autorité dont Kuhn jouissait dans les années 1970, et enfin, la répétition des énoncés proclamant la survenue d'une «&#160;révolution cognitive&#160;» en psychologie. </p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e270">
+                <p xml:id="d1e271">
+                    <hi xml:lang="en">The now well-known book of Thomas S. Kuhn, </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">The Structure of scientific revolutions</hi>
+          </hi>
+                    <hi xml:lang="en">, was first published in 1962. In the field of American psychology, this book was widely quoted from the 1970s onwards, although not without debates. The aim of this paper is to highlight the historical and epistemological issues behind those debates. In particular, the proponents of the emerging cognitive psychology have used the Kuhnian theories to enforce their approach against behaviorism, which back then was dominant in American psychology. The rise of cognitivism has been supported by several characteristics of Kuhn's model: its internalist, discontinuous, monopolistic and universalist vision of science; the ambiguity of its formulations; the recognition of Kuhn by a wide audience during the 1970s; and the reiteration of the idea of a “cognitive revolution” that would have occurred in psychology.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e279">
+                <p xml:id="d1e280">
+          <hi xml:lang="es">El renombrado libro de Thomas S. Kuhn, </hi>
+          <hi rend="italic">
+            <hi xml:lang="es">La Estructura de las revoluciones científicas</hi>
+          </hi>,<hi xml:lang="es"> fue publicado por primera vez en 1962. A partir de 1970, el contenido del libro fue ampliamente citado y a la vez criticado en el área de la Psicología en los Estados Unidos. Este artículo explora el origen histórico y epistemológico de esta controversia. Con el propósito de reforzar su oposición contra el conductismo, corriente psicológica dominante en ese momento en los Estados-Unidos, los defensores de la emergente psicología cognitiva movilizaron particularmente la teoría de Kuhn. Diversas características asociadas al modelo de Kuhn favorecieron el posicionamiento del Cognoscitivismo, entre ellas: su visión de la ciencia como internalista, discontinuista, monopolista y universalista, sus formulaciones ambiguas, el reconocimiento público del cual gozaba Kuhn durante los años 70 y la idea reiterada de una inminente </hi>«<hi xml:lang="es">revolución cognitiva</hi>»<hi xml:lang="es"> en el área de la Psicología.</hi>
+        </p>
+            </div>
+            <div type="ack" xml:id="d1e296">
+                <p xml:id="d1e297">Je tiens à remercier Johanna Gouzouazi pour ses retours critiques sur ce texte, ainsi qu’Andrea Morales pour sa traduction de l’abstract en espagnol.</p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e303">
+                <head subtype="level1" xml:id="d1e304">
+                    <hi xml:lang="fr">Introduction</hi>
+                </head>
+                <p xml:id="d1e307">En 1962 paraissait <hi rend="italic">La Structure des révolutions scientifiques</hi> de Thomas S. Kuhn, ouvrage dont l'importance sera par la suite largement reconnue dans le champ de l'histoire et la philosophie des sciences (Maudlin, 1996, p.&#160;428&#160;; Nadeau, 1994, p.&#160;168). Kuhn (1962/2008, pp.&#160;28-30) y décrivait la <hi rend="italic">science normale</hi> comme une activité basée sur un <hi rend="italic">paradigme</hi>, c'est-à-dire un ensemble d'accomplissements scientifiques passés reconnus par une même communauté scientifique et fonctionnant comme un cadre de recherche. La progression de la science normale se heurterait parfois à des <hi rend="italic">anomalies</hi>, «&#160;c'est-à-dire l'impression que la nature […] contredit les résultats attendus dans le cadre du paradigme&#160;» (p.&#160;83). La persistance et/ou l'accumulation d'anomalies au sein d'un paradigme pourrait le mener à une situation de <hi rend="italic">crise</hi> (pp.&#160;100-113), et, à terme, à une <hi rend="italic">révolution scientifique</hi>, c'est-à-dire à un <hi rend="italic">changement de paradigme</hi> (pp.&#160;134-136). Le paradigme fonctionnant comme un réel cadre d'intelligibilité, deux paradigmes différents seraient entre eux <hi rend="italic">incommensurables</hi> (pp.&#160;157-188). Avant de posséder un paradigme unique, la <hi rend="italic">pré-science</hi> serait marquée par la prolifération de théories divergentes et de nombreuses oppositions entre scientifiques (pp.&#160;36-39).</p>
+                <p xml:id="d1e337">L'influence de Kuhn a largement dépassé le seul champ de l'histoire et de la philosophie des sciences, connaissant un fort succès auprès des sciences sociales (Dubois, 2001, p.&#160;44&#160;; Suppe, 1984, p.&#160;89&#160;; Urry, 1973). En psychologie, <hi rend="italic">La Structure</hi> aurait ainsi été citée, entre 1969 (date de sa réédition) et 2001, dans 1&#160;816 articles, soit une moyenne annuelle d'environ 55 citations par an<note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Coleman et Salamon (1988) ont compté 652&#160;articles de psychologie citant <hi rend="italic">La Structure</hi> entre 1969 et&#160;1983&#160;; Driver-Linn (2003) en a relevé (à l’aide du <hi rend="italic">Social Sciences Citation Index</hi>) 1164 de 1984 à 2001&#160;; soit 1816&#160;articles sur la période 1969-2001, pour une moyenne d’environ 55 par an.</p>
+          </note> (Driver-Linn, 2003, p.&#160;275). Au-delà du succès de cet essai auprès des psychologues, il faut souligner, derrière ces chiffres, une réception controversée des théories kuhniennes dans leur champ disciplinaire, ainsi que nous le verrons (Driver-Linn, 2003, pp.&#160;274-276). Dans cet article, nous souhaitons revenir sur les raisons historiques et les enjeux épistémologiques de ces controverses. Plus précisément, nous chercherons à comprendre ce qui a motivé les psychologues à s'approprier si massivement, entre les années 1970 et 1990, le modèle de Kuhn, en prenant en compte à la fois les qualités intrinsèques de ce modèle et l'état structural du champ de la psychologie.</p>
+                <p xml:id="d1e352">Dans un premier temps, nous présenterons rapidement le corpus d'articles écrits par des psychologues et portant sur les théories de Kuhn qui a constitué le point de départ de nos réflexions<note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> Considérant le nombre d'articles répondant à ces critères, nous n'aurions évidemment pas pu les traiter exhaustivement dans le cadre d’une analyse qualitative. Pour la majorité de ces articles toutefois, la référence à Kuhn n’était que très ponctuelle ou superficielle (Driver-Linn, 2003, p.&#160;275). Ainsi, nous avons d’abord écarté tous les textes qui ne traitaient pas de façon centrale et détaillée de l’application de l’historiographie kuhnienne à la psychologie. Par la suite, les articles retenus l’ont été en tant qu’ils formaient plusieurs ensembles dialogiques, ce qui nous a permis de comparer les arguments employés par chacun des acteurs en présence et de mieux comprendre les enjeux des controverses les opposant.</p>
+          </note>. D'un point de vue méthodologique, nous traiterons ces articles comme des actes de discours non seulement constatifs, mais aussi performatifs, c'est-à-dire comme des «&#160;énonciations qui, abstraction faite de ce qu'elles sont vraies ou fausses, font quelque chose (et ne se contentent pas de le dire)&#160;» (Austin, 1962/1970, p.&#160;181). Il s'agit de reconnaître que des sciences comme la psychologie, par leur usage du discours, «&#160;ne se limitent pas à représenter le monde : elles le réalisent, le provoquent, le constituent aussi, du moins dans une certaine mesure et sous certaines conditions&#160;» (Muniesa et Callon, 2008, p.&#160;1). De cette façon, un article scientifique doit être compris non seulement eu égard à son contenu, mais aussi à ses virtualités effectives, c'est-à-dire sa capacité potentielle à agir sur la structure du champ scientifique, voire social (Bourdieu, 1981-83/2015, p.&#160;41&#160;; Vaara, Sorsa et Pälli, 2010, p.&#160;686). Ainsi, après une discussion critique de l'histoire de la «&#160;révolution cognitive&#160;» telle qu'elle est généralement perçue par les psychologues contemporains, nous montrerons de quelle façon les articles de notre corpus ont historiquement contribué à «&#160;faire&#160;» cette histoire en s'appuyant sur l'historiographie kuhnienne. Nous mettrons d'abord en évidence quatre caractéristiques du modèle de Kuhn (celui-ci présentant une vision <hi rend="italic">internaliste</hi>, <hi rend="italic">discontinuiste</hi>, <hi rend="italic">monopolistique</hi> et <hi rend="italic">universaliste</hi> de la science), qui, bien que parfois latentes, ont eu pour les psychologues défenseurs du cognitivisme un intérêt stratégique pour subvertir la définition dominante de la psychologie de l'époque. À ces quatre caractéristiques, nous ajouterons trois conditions sociales (relatives à l'<hi rend="italic">ambiguïté</hi> des théories kuhniennes, à l'<hi rend="italic">autorité</hi> associée au nom de Kuhn, et à la <hi rend="italic">répétition</hi> des énoncés déclarant l’avènement d'une «&#160;révolution cognitive&#160;») de réception des stratégies performatives pro-cognitivistes qui ont concourues à la réussite de ces stratégies. Précisons dès maintenant que, si nous parlerons de la sorte des «&#160;stratégies&#160;» mises en œuvre par les psychologues de façon à servir leurs «&#160;intérêts&#160;», ce vocabulaire ne présuppose pas nécessairement que ceux-ci soient toujours conscients d’agir de façon stratégique. Pour Bourdieu (1997, pp.&#160;21-22), le «&#160;sens du placement&#160;», qui oriente chaque chercheur dans ses stratégies de recherche, est la résultante de l’incorporation, <hi rend="italic">essentiellement non consciente</hi>, des normes implicites et de la structure objective du champ scientifique.</p>
+            </div>
+            <div type="div1" xml:id="d1e383">
+                <head subtype="level1" xml:id="d1e384">Une histoire controversée de la psychologie</head>
+                <p xml:id="d1e386">La thèse de cet article est que la théorie de Kuhn a été mobilisée par des psychologues de façon à écrire une certaine histoire de leur discipline. Avant de s’attarder sur les mécanismes de cette mobilisation, il nous faut d’abord revenir sur les controverses qu’a suscité l’introduction du modèle kuhnien en psychologie, ainsi que sur l’histoire de l’émergence de la psychologie cognitive telle que les psychologues la conçoivent usuellement aujourd’hui.</p>
+                <div type="div2" xml:id="d1e388">
+                    <head subtype="level2" xml:id="d1e389">
+                        <hi xml:lang="fr">Paradigmes et «&#160;révolution cognitive&#160;» : un aperçu des controverses</hi>
+                    </head>
+                    <p xml:id="d1e392">
+                        <hi xml:lang="fr">Dans un article de 1971 publié dans </hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">Science Studies</hi>
+            </hi>
+                        <hi xml:lang="fr">, et prolongeant ce faisant une hypothèse formulée un an auparavant (Palermo, 1970), le chercheur en psychologie David S.&#160;Palermo cherchait à appliquer le modèle de Kuhn à l'histoire de la psychologie. Il décrivait celle-ci selon trois phases successives : 1)&#160;jusqu'à la fin du XIX</hi>
+                        <hi rend="sup">
+              <hi xml:lang="fr">e</hi>
+            </hi>
+                        <hi xml:lang="fr"> siècle, une phase pré-scientifique, notamment marquée par la philosophie associationniste&#160;; 2)&#160;à la fin de ce siècle, le psychologue allemand Wundt aurait imposé, avec la méthode de l'introspection expérimentale, le premier paradigme en psychologie&#160;; 3) suite à une crise de ce paradigme, c'est le béhaviorisme de Watson, basé sur la stricte observation du comportement, qui aurait pris sa place. Palermo (1971) émettait finalement l'hypothèse selon laquelle la psychologie du début des années 1970 serait de nouveau en crise, crise marquée par la réintroduction de l'esprit au sein de ses théories. En réponse à Palermo, Briskman (1972), MacKenzie (1972) et Lipsey (1974) disaient douter du statut réellement paradigmatique de l'introspectionnisme comme du béhaviorisme. En relevant le caractère américano-centré de l'analyse de Palermo, Warren (1971) soulignait que la psychologie du début du XX</hi>
+                        <hi rend="sup">
+              <hi xml:lang="fr">e</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;siècle aurait plus été marquée par la prolifération de différents courants que par l'imposition d'un paradigme unique. Weimer et Palermo (Weimer, 1974a, 1974b&#160;; Weimer et Palermo, 1973) répondront à leurs critiques en notant que ceux-ci feraient une lecture trop rigide du concept kuhnien de paradigme, ainsi qu'en avançant d'autres arguments pour défendre le statut paradigmatique de l'introspectionnisme et du béhaviorisme. </hi>
+                    </p>
+                    <p xml:id="d1e410">
+                        <hi xml:lang="fr">À partir de ce moment, et sans que ceux-ci ne citent nécessairement les auteurs de cette première série d'articles, de nombreux psychologues discuteront de même de l'applicabilité de l'historiographie kuhnienne à l'histoire de la psychologie, répétant parfois les mêmes arguments. Au début des années 1970, Segal et Lachman (1972) comme Dember (1974) défendaient, en se référant à Kuhn, le statut paradigmatique de la psychologie. Gadlin et Ingle (1975) utilisaient la notion de paradigme pour qualifier la méthode expérimentale en psychologie, de façon à discuter de ses limites. S'intéressant quant à lui à la question de la scientificité de la psychologie, Finkelman (1978) avançait que la divergence des objets étudiés et des méthodes utilisées, comme l'absence d'un progrès cumulatif, pourraient nous faire douter du statut paradigmatique de cette discipline. Snoeyenbos et Putney (1980) critiqueront l'usage fait par Finkelman du terme de paradigme, de façon à relativiser l'affirmation selon laquelle la psychologie ne serait pas vraiment scientifique. De la même façon, Paniagua (1991) s'opposera à la lecture faite par Henley (1989) de Kuhn, en vue de défendre le statut paradigmatique de la psychologie.</hi>
+                    </p>
+                    <p xml:id="d1e413">
+                        <hi xml:lang="fr">Dans les années 1980, notamment à partir des ouvrages de Gardner (1985/1993) et Baars (1986), l'expression de «&#160;révolution cognitive&#160;», en référence à la théorie kuhnienne, commençait à s'imposer en psychologie (Baum, 2016, p.&#160;775). Dès les années 1990, elle prenait une existence indépendante : sans se référer à Kuhn, Sperry (1993) faisait l'éloge de la «&#160;révolution cognitive&#160;», comme ayant remis en cause l'ensemble des valeurs de l'«&#160;ancienne&#160;» science psychologique, naïvement objectiviste, quantitativiste, matérialiste et atomiste. En 2003, George A. Miller publiait de même un article sans mention à Kuhn bien qu'intitulé «&#160;</hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">The cognitive revolution</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;». L'expression de «&#160;révolution cognitive&#160;» et l'histoire paradigmatique de la psychologie qui lui est généralement associée soulevaient cependant toujours certaines résistances dans les années 1990. En 1992, Leahey critiquait le schéma, alors fort répandu, d'une histoire de la psychologie en trois paradigmes successifs, le mentalisme, le béhaviorisme puis le cognitivisme. Notant à l'instar de Leahey la multiplication des textes professant l’avènement d'une révolution cognitive, Friman, Allen, Kerwin et Larzelere (1993) soulignaient, sur la base d'une méta-analyse, que le nombre d'articles béhavioristes (décrit comme le paradigme déclinant au profit du cognitivisme) semblait rester stable. Suivant la même méthode, Virtues-Ortega et Pear (2014) avanceront, vingt ans plus tard, que malgré une nette domination des travaux d'orientation cognitiviste sur ceux relevant du béhaviorisme, ces derniers n'auraient cependant pas totalement disparu de la littérature. En 2003, O'Donohue, Ferguson et Naugle défendaient que si l'on pouvait parler de «&#160;révolution cognitive&#160;» en psychologie, ce n'était pas au sens de Kuhn, mais uniquement selon le modèle rhétorique d'Alan Gross</hi>
+                        <note type="standard" xml:id="ftn3" place="foot" n="3">
+              <p> Dans <hi rend="italic">The rhetoric of science</hi>, Gross (1990) met l’accent sur l’importance de l’argumentation dans les sciences : selon lui, l'objectif premier d'un scientifique serait de convaincre, non seulement son audience (i.e., le reste de sa communauté scientifique), mais aussi lui-même, de la véracité des énoncés qu'il produit. À partir de ce modèle, il faut comprendre l’évolution des théories scientifiques dominantes en fonction de luttes engageant en premier lieu les capacités de persuasion des chercheurs.</p>
+            </note>
+                        <hi xml:lang="fr">. Hobbs et Chiesa (Hobbs et Burman, 2009&#160;; Hobbs et Chiesa, 2011) n'hésiteront quant à eux pas à taxer l'idée de «&#160;révolution cognitive&#160;» de «&#160;mythe&#160;». Si les débats ont aujourd'hui perdu de leur ampleur, le statut «&#160;révolutionnaire&#160;» du cognitivisme en psychologie peut toutefois toujours faire l'objet de discussions par des psychologues (e.g., Sanbonmatsu et Sanbonmatsu, 2017).</hi>
+                    </p>
+                    <p xml:id="d1e430">
+                        <hi xml:lang="fr">Les expressions de «&#160;révolution cognitive&#160;» et de «&#160;paradigme&#160;», si elles ont donc fait l'objet de nombreuses controverses dans le champ de la psychologie états-unienne à partir de 1970, ont fini par s'imposer pour y être maintenant couramment évoquées (Baum, 2016, pp.&#160;774-775&#160;; Greenwood, 1999, p.&#160;2&#160;; Legrand, 1990, p.&#160;248&#160;; Plas, 2004, p.&#160;4). Plus précisément, l'idée selon laquelle la psychologie générale</hi>
+                        <note type="standard" xml:id="ftn4" place="foot" n="4">
+              <p> Dans cet article, nous appelons « psychologie générale » la branche (ou sous-discipline) de la psychologie qui s'est traditionnellement donnée pour objectif de dégager des « lois universelles » du psychisme. C'est cette branche précise qui est décrite, à travers l'histoire tri-paradigmatique de la psychologie, comme ayant traversée trois paradigmes successifs : l'introspectionnisme, le béhaviorisme et le cognitivisme. Si, au sein de la psychologie, les frontières entre sous-disciplines sont parfois floues, il s'agit, par cette appellation, de préciser que ces évolutions ne sauraient en fait concerner l'ensemble du champ de la psychologie –&#160;bien qu'il soit par exemple vrai que le « tournant cognitif » en psychologie générale ait pu affecter, dans une moindre mesure, d'autres branches de la psychologie, comme la psychologie sociale ou la psychologie clinique.</p>
+            </note>
+                        <hi xml:lang="fr"> contemporaine devrait ses fondements et orientations théoriques actuels à une «&#160;révolution cognitive&#160;» qui se serait déroulée durant la deuxième moitié du XX</hi>
+                        <hi rend="sup">
+              <hi xml:lang="fr">e</hi>
+            </hi>
+                        <hi xml:lang="fr"> siècle est largement répandue, et cette fois d'une façon qui ne se confine pas aux États-Unis (Plas, 2004, p.&#160;4). Si beaucoup de psychologues ignorent aujourd'hui le nom de Kuhn, c'est bel et bien à sa terminologie que l'on doit de telles expressions (Baum, 2016, p.&#160;774&#160;; Legrand, 1990, p.&#160;248&#160;; Plas, 2004, p.&#160;4). La cristallisation de cet usage signe le rôle non négligeable qu'a eu l'historiographie kuhnienne dans la consécration de la psychologie cognitive : comme nous le verrons, c'est en effet en écrivant et en imposant une certaine version de l'histoire de leur discipline que les psychologues d'obédience cognitive sont parvenus à redéfinir performativement la structure hiérarchique de leur champ.</hi>
+                    </p>
+                </div>
+                <div type="div2" xml:id="d1e444">
+                    <head subtype="level2" xml:id="d1e445">Sur l'«&#160;histoire officielle<hi xml:lang="fr">&#160;</hi>» de la «<hi xml:lang="fr">&#160;</hi>révolution cognitive<hi xml:lang="fr">&#160;</hi>»</head>
+                    <p xml:id="d1e456">Si les controverses exposées ci-avant illustrent qu’il existe des raisons de douter du statut authentiquement «&#160;paradigmatique&#160;» (toujours au sens de Kuhn) du béhaviorisme, il reste vrai que ce courant a dominé la psychologie générale états-unienne des années 1920 aux années 1960. La psychologie cognitive a émergé aux États-Unis entre 1950 et 1980, dans un champ alors largement occupé par le béhaviorisme (Legrand, 1990, p.&#160;266). Les cognitivistes, qui insistaient, contrairement aux béhavioristes, sur l’importance de prendre en compte les phénomènes mentaux, ont dû s’opposer à ces derniers pour s’imposer progressivement dans le champ de la psychologie générale.</p>
+                    <p xml:id="d1e458">Les psychologues contemporains décrivant l'histoire de leur discipline s'accordent généralement à reconnaître deux sources convergentes à l'origine d'une «&#160;révolution cognitive&#160;» en son sein : une source proprement interne, issue de travaux précurseurs en psychologie durant la première moitié du XX<hi rend="sup">e</hi>&#160;siècle, et une source externe, provenant d'un ensemble d'approches pour la plupart nouvelles, comme la linguistique chomskyenne, l'intelligence artificielle, la cybernétique, la théorie mathématique des communications ou la neurologie.</p>
+                    <list type="ordered" xml:id="d1e463">
+                        <item>
+                            <p xml:id="d1e465">Concernant la psychologie, sont notamment cités les français Alfred Binet, Théodore Simon et Pierre Janet, le suisse Jean Piaget, les britanniques Frederic Charles Bartlett, Donald Broadbent et Kenneth Craik, les <hi rend="italic">gestaltistes</hi> allemands Max Wertheimer, Kurt Koffka et Wolfgang Köhler, le néo-béhavioriste américain Edward Tolman, et enfin, les deux psychologues américains considérés comme les réelles figures de proue du cognitivisme, Jerome&#160;S.&#160;Bruner et George&#160;A.&#160;Miller. Tous ces chercheurs auraient pour point commun de s'être intéressés, à contre-courant du béhaviorisme et de son modèle stimulus-réponse dominants des années 1920 à&#160;1950, à des processus psychologiques intermédiaires inobservables.</p>
+                        </item>
+                        <item>
+                            <p xml:id="d1e471">Concernant les sources externes, la majorité des psychologues contemporains s'accordent à dire que ces différentes approches, malgré leur diversité, s'articulent autour d'un modèle commun, celui du traitement de l'information. Ce modèle, qui a émergé aux États-Unis à partir des années 1930, «&#160;conçoit la cognition comme une séquence d'opérations mentales d'élaborations et de transformations des informations (ou représentations) lors de la réalisation d'une tâche&#160;» (Mariné et Escribe, 2010, p.&#160;104).</p>
+                        </item>
+                    </list>
+                    <p xml:id="d1e473">À partir des années 1970, la psychologie cognitive sera elle-même regroupée, avec d'autres approches s'appuyant sur ce modèle, sous l'épithète général de «&#160;sciences cognitives&#160;». Le rapport commandité par la fondation Sloan en&#160;1978 sur l'état de «&#160;la&#160;» science cognitive, qui fut dirigé par Keyser, G.&#160;A.&#160;Miller et Walker (1978), décrit ainsi six disciplines qui la composeraient : la psychologie, l'intelligence artificielle, les neurosciences, la linguistique, mais aussi l'anthropologie et la philosophie. Les psychologues cognitivistes soulignent de même l'importance historique, pour le développement des sciences cognitives, des colloques et autres symposiums interdisciplinaires qui se sont déroulés aux États-Unis et qui ont favorisé le dialogue entre des scientifiques issus de domaines variés : le symposium Hixon de 1948, les conférences de Macy de 1942 à&#160;1953, et surtout la conférence du MIT de 1956, aujourd'hui largement reconnue comme date de naissance de la psychologie cognitive. </p>
+                    <p xml:id="d1e475">En présentant la naissance de la psychologie cognitive comme la confluence d'une histoire proprement interne et d'une histoire plus extrinsèque, cette «&#160;histoire officielle&#160;» de la psychologie invite toutefois à considérer des relations d’affiliation entre des courants dont les liens génétiques ne furent en vérité rétablis qu'<hi rend="italic">a posteriori</hi>. En effet, historiquement, la majorité des théories de psychologie aujourd'hui présentées comme des réelles précurseurs de la psychologie cognitive n'ont pu influencer son développement épistémologique qu'à partir du moment où le «&#160;tournant cognitif&#160;» était déjà entamé, sous l'impulsion initiale des théories de la communication (Legrand, 1990, pp.&#160;272-274). En dehors des américains Tolman, G.&#160;A.&#160;Miller et Bruner, les psychologues sus-cités ont ainsi été assez largement ignorés aux États-Unis, berceau du cognitivisme, avant les années 1960, du fait de l'hégémonie qu'avait là-bas le courant béhavioriste (Mandler, 2002, pp.&#160;343-345)&#160;; tandis que dès les années 1950 la psychologie cognitive portait la marque des travaux en intelligence artificielle et en cybernétique<note type="standard" xml:id="ftn5" place="foot" n="5">
+              <p> Binet, Ebbinghaus, Claparède ou même Piaget, bien que largement cités par les cognitivistes d'aujourd'hui, n'ont été « redécouverts » aux États-Unis qu'à partir des années 1960, notamment sous l'impulsion de Bruner (Braunstein et Pewzner, 2010, p.&#160;213&#160;; Nicolas et Ferrand, 2008, pp.&#160;134-135). Les travaux de Bartlett, Broadbent et Craik auraient subi un sort sensiblement similaire (Nicolas et Ferrand, 2008, pp.&#160;134-135). Quant à la <hi rend="italic">gestaltpsychologie</hi>, malgré un certain succès en Europe, et malgré l'immigration de Wertheimer, Köhler et Koffka aux États-Unis durant l'entre-deux-guerres, elle eut des difficultés à s'y implanter fermement, notamment du fait de l'importance qu'avait là-bas le béhaviorisme (Mandler, 2002, p.&#160;344).</p>
+            </note> (Collins, 2007, pp.&#160;50-52&#160;; Legrand, 1990, pp.&#160;272-274). Si on peut considérer que Tolman fut sans doute le seul néo-béhavioriste de renom à avoir introduit dans ses théories des concepts authentiquement «&#160;cognitifs&#160;» au sens fort que prendra ce terme pour la psychologie cognitive (Greenwood, 1999, pp.&#160;9-10), il faut toutefois noter que ce fut indépendamment du modèle du traitement de l'information, qui jouera un rôle majeur dans l’avènement de cette spécialité. Bruner, dont les recherches étaient d'autant plus orientées vers des domaines d'études étrangers à la psychologie générale (comme la psychanalyse ou la psychologie sociale), aurait de même gardé une position assez distante vis-à-vis de ce modèle (Braunstein et Pewzner, 2010, p.&#160;211&#160;; Legrand, 1990, pp.&#160;279-280). Concernant enfin G.&#160;A.&#160;Miller, qui représentera quant à lui plus authentiquement le cognitivisme orthodoxe des théories de l'information et de la métaphore informatique, sa position peut être comprise du fait de son «&#160;bilinguisme intellectuel&#160;», c'est-à-dire de son intérêt tout aussi important pour les mathématiques (et en particulier pour la théorie mathématique des communications) que pour la psychologie (Collins, 2007, p.&#160;46, p.&#160;53&#160;; Legrand, 1990, p.&#160;274). Autrement dit, c'est réellement à partir de l'introduction d'une approche <hi rend="italic">a&#160;priori</hi> externe au champ de la psychologie (i.e., le traitement de l'information) qu'un courant cognitiviste a pu se développer en son sein et, sur cette base, se montrer par la suite critique envers les axiomes du béhaviorisme<note type="standard" xml:id="ftn6" place="foot" n="6">
+              <p> Legrand (1990, p.&#160;255) donne une illustration de ce fait avec la critique de la théorie béhavioriste de Skinner, qui a émanée non de l'intérieur de la psychologie, mais de Chomsky, tête de proue de la psycholinguistique cognitive à partir des années 1950 (<hi rend="italic">infra</hi>).</p>
+            </note> (Legrand, 1990, pp.&#160;272-274).</p>
+                    <p xml:id="d1e497">Ainsi, si des «&#160;anomalies&#160;» (au sens de Kuhn) qui infiltraient le béhaviorisme ont peut-être incité certains psychologues à s'orienter vers une perspective cognitiviste, un tel choix n'a été possible que parce que ce courant s'était d'abord constitué sous l'impulsion première des recherches dans les domaines qui seront plus tard regroupés sous le nom de «&#160;science cognitive&#160;» (Baum, 2016, p.&#160;775&#160;; Legrand, 1990, pp.&#160;272-274&#160;; Mandler, 2002, pp.&#160;343-345). À cet égard, si l'historiographie kuhnienne, somme toute très internaliste<note type="standard" xml:id="ftn7" place="foot" n="7">
+              <p> Si Kuhn reconnaît en effet l'aspect social de l'activité scientifique, il décrit invariablement la naissance d'un nouveau paradigme sur la base de la crise de celui l'ayant précédé, laissant alors peu de place aux bouleversements exogènes du champ scientifique concerné (Bourdieu, 2001, pp.&#160;34-37&#160;; Stengers, 1993, pp.&#160;64-65).</p>
+            </note>, semble assez mal rendre compte de l'origine exogène de la psychologie cognitive (Greenwood, 1999, pp.&#160;2-4), son usage par les psychologues d'obédience cognitive leur permettra toutefois de réécrire une histoire de la psychologie à leur avantage stratégique (<hi rend="italic">infra</hi>). À un niveau sociologique, la psychologie cognitive a en effet dû, pour advenir en tant que nouveau champ autonome, faire face à deux menaces provenant précisément des autres sciences cognitives d'un côté, et du béhaviorisme de l'autre.</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e506">
+                <head subtype="level1" xml:id="d1e507">Le rôle des théories kuhniennes dans la «&#160;révolution cognitive&#160;»</head>
+                <p xml:id="d1e509">Au vu du contexte d’émergence de la psychologie cognitive, les théories kuhniennes ont pris un intérêt stratégique fortuit pour les défenseurs de ce courant émergent. Nous allons montrer que ces théories ont joué un rôle dans l’autonomisation et l’imposition du cognitivisme en psychologie, avant d’aborder quelques conditions sociales d’autant plus extrinsèques qui ont favorisé cette imposition.</p>
+                <div type="div2" xml:id="d1e511">
+                    <head subtype="level2" xml:id="d1e512">Aspects internaliste et discontinuiste&#160;: la lutte pour l'autonomisation</head>
+                    <p xml:id="d1e514">
+                        <hi xml:lang="fr">La psychologie cognitive est née de l'impulsion de l'intelligence artificielle, de la cybernétique, de la théorie mathématique de la communication et de la linguistique chomskyenne. Ces origines épistémiques ne pouvaient que la rendre d'autant plus vulnérable aux risques d'annexion par un autre des champs disciplinaires composant les sciences cognitives en question. Chacune de ces branches avait en effet virtuellement la possibilité de prétendre imposer aux autres son propre programme de recherche. Le destin du rapport Sloan constitue une illustration symptomatique de ce problème (Baum, 2016). Bien que ses auteurs y affichaient une volonté de souligner l'unité de «&#160;la&#160;» science cognitive, ce rapport se heurta à des réactions négatives (au point qu'il ne fut finalement jamais publié) de la part des différentes communautés scientifiques concernées, «&#160;du fait que chaque lecteur considérait le document du point de vue de sa propre discipline. […] chaque cogniticien avait […] tendance à projeter son paradigme préféré sur l'ensemble du domaine de recherche&#160;» (Gardner, 1985/1993, p.&#160;52). </hi>
+                    </p>
+                    <p xml:id="d1e517">
+                        <hi xml:lang="fr">En des termes sociologiques, on conçoit que le regroupement performatif de différentes disciplines sous une appellation commune les plaçaient toutes dans une situation de vulnérabilité potentielle quant à leurs autonomies respectives. Suivant cette même logique, on peut comprendre que dès les années 1970, décennie qui vu la réelle autonomisation de la psychologie cognitive (Legrand, 1990, pp.&#160;275-276), ses acteurs prendront une distance critique vis-à-vis des théories computationnelles de l'information, qui jusque-là prévalaient en tant que centre de leur heuristique (Collins, 2007, pp.&#160;58-65). Ainsi, en ceci que l'histoire légitime d'une discipline est simultanément un enjeu et un outil de luttes (Stengers, 1993, pp.&#160;50-51), l'écriture d'une histoire de la psychologie cognitive réhabilitant un passé d'autant plus endogène devait permettre aux psychologues cognitivistes de renforcer leur discipline face aux risques d'annexion extrinsèques. L'historiographie kuhnienne, particulièrement du fait de son aspect </hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">internaliste</hi>
+            </hi>
+                        <hi xml:lang="fr">, joua ici un rôle clé, puisqu'elle présuppose que même les bouleversements révolutionnaires d'une discipline ont leurs causes dans sa propre tradition (Bourdieu, 2001, p.&#160;37&#160;; Stengers, 1993, pp.&#160;63-65). En décrivant l'histoire de la psychologie </hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">via</hi>
+            </hi>
+                        <hi xml:lang="fr"> le prisme des théories kuhniennes, il s'agissait donc pour les psychologues d'obédience cognitive de rattacher la psychologie cognitive à la lignée de la tradition historique et épistémologique de la psychologie générale, et non à celle d'autres disciplines</hi>
+                        <note type="standard" xml:id="ftn8" place="foot" n="8">
+              <p> En énumérant un ensemble de disciplines qui auraient été affectées en profondeur par le « tournant cognitif », Sperry (1993) tentait même de retourner sur lui-même le problème des fondements généalogiques de la psychologie cognitive : <hi xml:lang="fr">« I strongly believe that, in the long run, history will show that among the sciences, psychology was actually the first discipline to overthrow its traditional mainstream doctrine in favor of the new paradigm </hi>» (p.&#160;878).</p>
+            </note>
+                        <hi xml:lang="fr">. Palermo (1971, pp.&#160;147-152) par exemple, en écrivant que les difficultés que connaissait le paradigme béhavioriste l’auraient amené à une crise, présentait la critique de Skinner par Chomsky comme une réponse «&#160;révolutionnaire&#160;» aux anomalies du béhaviorisme. En insistant par ailleurs sur le fait que, pour Chomsky, la linguistique pouvait être conçue comme une branche de la psychologie, Palermo (1971, p.&#160;153) fait alors de la psycholinguistique (cognitiviste) d’inspiration chomskyenne une forme évolutive de la psychologie générale : «&#160;many psychologists within the psycholinguistics area have been converted from the paradigm of behaviourism to one which has the same general rules for playing the game as those which Chomsky has advocated&#160;». Si l’idée selon laquelle la psychologie cognitive s'inscrit dans la lignée historique directe de la psychologie générale est discutable, son affirmation répétée a toutefois performativement contribué à renforcer effectivement l'autonomie de la psychologie cognitive –&#160;de fait, comme le note Austin (1962/1970, pp.&#160;40-41), un acte performatif s'accomplit en tant que tel non parce qu'il est nécessairement vrai </hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">a priori</hi>
+            </hi>
+                        <hi xml:lang="fr">, mais parce qu'il finit par advenir.</hi>
+                    </p>
+                    <p xml:id="d1e544">
+                        <hi xml:lang="fr">D'un autre côté, le champ naissant de la psychologie cognitive devait aussi, pour s'autonomiser, prendre ses distances vis-à-vis du courant béhavioriste, qui au milieu du XX</hi>
+                        <hi rend="sup">
+              <hi xml:lang="fr">e</hi>
+            </hi>
+                        <hi xml:lang="fr">&#160;siècle dominait la psychologie expérimentale états-unienne. C'est ici l'aspect </hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">discontinuiste</hi>
+            </hi>
+                        <hi xml:lang="fr"> du modèle de </hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">La Structure</hi>
+            </hi>
+                        <hi xml:lang="fr"> qui fut stratégiquement utile aux partisans du cognitivisme : l'historiographie kuhnienne décrit l'évolution des sciences selon une logique de ruptures inter-paradigmatiques, logique matérialisée par les concepts de «&#160;crise&#160;» et de «&#160;révolution scientifique&#160;» (Bourdieu, 2001, p.&#160;34&#160;; Braunstein, 2003, p.&#160;420). Là encore, si l'on peut douter de la pertinence de l'application de ce modèle pour décrire adéquatement l'histoire de la psychologie</hi>
+                        <note type="standard" xml:id="ftn9" place="foot" n="9">
+              <p> Des chercheurs comme Legrand (1990) ont en effet souligné que, contrairement à l'idée de rupture brutale véhiculée par l'usage du terme de «&#160;révolution&#160;», «&#160;la révolution cognitive est advenue de manière lente, graduelle, progressive –&#160;sur une période d'environ 30&#160;années&#160;» (p.&#160;266).</p>
+            </note>
+                        <hi xml:lang="fr">, ces deux concepts furent utiles pour défendre performativement l'existence d'une rupture épistémologique effectuée par le cognitivisme vis-à-vis du béhaviorisme. En effet, une fois recréé un lien historique entre la nouvelle psychologie cognitive et la psychologie expérimentale antérieure, se présentait un nouveau problème : si celle-ci plonge bel et bien ses racines dans la tradition de celle-là, qu'est-ce qui la discernerait suffisamment du béhaviorisme pour se prétendre authentiquement «&#160;nouvelle&#160;»&#160;? Il fallait donc défendre à la fois l'existence d'une continuité </hi>
+                        <hi rend="italic">
+              <hi xml:lang="fr">et</hi>
+            </hi>
+                        <hi xml:lang="fr"> d'une discontinuité de l'histoire de la discipline, ce que propose l'historiographie de Kuhn. Un acte performatif ayant d'autant plus de probabilités d'aboutir que sa force illocutoire est élevée (Varlet et Allard-Poesi, 2017, p.&#160;80), les termes rhétoriquement forts de «&#160;crise&#160;» et de «&#160;révolution&#160;» ont pris dans cette optique un intérêt stratégique fort (Leahey, 1992, pp.&#160;308-311&#160;; Sturm et Mülberger, 2012). </hi>
+                        <hi xml:lang="en">Sperry (1993) par exemple, comparant la «&#160;révolution cognitive&#160;» aux révolutions copernicienne et darwinienne, écrivait non sans emphase&#160;: «&#160;in the cognitive revolution psychology is leading the way among the sciences to a new and improved […] conceptual foundation for scientific as well as for all causal explanation and understanding&#160;» (p.&#160;878)&#160;; «&#160;the cognitive revolution represents a diametric turn around in the centuries-old treatment of mind and consciousness&#160;» (p.&#160;879). </hi>
+                        <hi xml:lang="fr">Finalement, une fois couplée à l'idée positiviste de «&#160;progrès scientifique&#160;», la défense d'une discontinuité historique au sein de leur discipline permettra aux psychologues cognitivistes de construire une image novatrice et prometteuse de leur «&#160;paradigme&#160;», par opposition à une image caricaturale du béhaviorisme comme théorie archaïque et obsolète (Amsel, 1992, p.&#160;67&#160;; Baum, 2016, p.&#160;781&#160;; Cohen-Cole, 2005). Suite à l'imposition du cognitivisme, cette image déformée du béhaviorisme a pu se cristalliser pour aujourd'hui assez largement prédominer en psychologie (Amsel, 1992&#160;; Cohen-Cole, 2005).</hi>
+                    </p>
+                </div>
+                <div type="div2" xml:id="d1e578">
+                    <head subtype="level2" xml:id="d1e579">Aspects monopolistique et universel : la lutte pour la domination</head>
+                    <p xml:id="d1e581">L'imposition du cognitivisme contre le béhaviorisme aux États-Unis s’appuiera sur une autre caractéristique du modèle kuhnien&#160;: il s'agit de l'aspect <hi rend="italic">monopolistique</hi> du paradigme. Pour Kuhn (1962/2008, pp.&#160;40-41), en règle générale, le fait qu'un paradigme soit à un moment donné partagé par l'<hi rend="italic">ensemble</hi> d'une communauté disciplinaire donnée interdirait, en période de science normale, la coexistence simultanée de plusieurs paradigmes différents. À un niveau sociologique, cette conception tend à occulter le fait que, dans tout champ scientifique (même le plus structuré) existent des agents qui, bien que représentant une tendance minoritaire, s'opposent aux conceptions dominantes de leur discipline<note type="standard" xml:id="ftn10" place="foot" n="10">
+              <p> Les enjeux symboliques du champ scientifique invitent en effet toujours, même en présence d'une conception orthodoxe particulièrement puissante, à des réactions hétérodoxes d'opposition vis-à-vis de la tendance dominante – la situation idéale-typique d'un monopole absolu du capital symbolique spécifique n'étant, dans les faits, jamais atteinte (Bourdieu, 1976, p.&#160;96, 2001, p.&#160;73).</p>
+            </note> (Bourdieu, 1976, p.&#160;96, 2001, p.&#160;73). Mais rappelons, là encore, que la véracité <hi rend="italic">a priori</hi> de l'acte performatif n'est pas une condition <hi rend="italic">sine qua none</hi> de sa réussite, puisqu'il vise précisément à faire le monde en l'énonçant. C'est ainsi que la conception, sociologiquement discutable, du paradigme exclusif, aura des effets bien réels sur l'imposition du mouvement cognitiviste en psychologie. La référence à l'historiographie kuhnienne par les psychologues d'obédience cognitive permettra en effet de distiller subrepticement l'idée selon laquelle l'émergence du «&#160;paradigme&#160;» cognitiviste devrait logiquement équivaloir à la fin du «&#160;paradigme&#160;» béhavioriste, de façon à imposer quasi-monopolistiquement le cognitivisme en psychologie. Notons ici que la portée performative d'un énoncé peut être limitée par d'autres énoncés s'opposant à lui (Varlet et Allard-Poesi, 2017, p.&#160;90) ou lui déniant toute portée véridictionnelle (Bourdieu, 1981-83/2015, p.&#160;123). Ajoutons que ces jeux de discours antagonistes peuvent être appréhendés en considérant le champ scientifique comme un champ de forces où ses agents, à partir de leurs positions respectives, luttent de façon à agir sur sa structure objective (Bourdieu, 1997, pp.&#160;16-17, 2001, pp.&#160;72-73). Ceci étant, on ne s'étonnera pas que le discours pro-cognitiviste ait fait l'objet de nombreuses critiques (ainsi qu'en témoigne notre corpus), entre autres de la part des béhavioristes qui tenaient à maintenir leur domination au sein du champ<note type="standard" xml:id="ftn11" place="foot" n="11">
+              <p> Mais aussi, notons-le, de la part de psychologues affiliés à d'autres sous-disciplines de la psychologie (psychologie sociale, psychologie clinique, psychologie de l'éducation, psychologie de la santé, etc.), et qui craignaient que l'autonomie relative de ces sous-disciplines se voit aussi menacée par une imposition hégémonique de la nouvelle psychologie cognitive.</p>
+            </note>. Si, comme nous l'avons relevé, le béhaviorisme en psychologie n'a pas entièrement disparu (autrement dit, si les actes performatifs prophétisant sa disparition n'ont pas complètement abouti), il est clair qu'il occupe aujourd'hui une position dominée vis-à-vis du sous-champ de la psychologie cognitive (Virtues-Ortega et Pear, 2014). Le courant orthodoxe procédant de cette capacité symbolique à élever sa propre perception du champ au rang de vision légitime (Bourdieu, 1976, pp.&#160;91-92, 1981-83/2015, pp.&#160;640-641), le fait que nombre de psychologues eux-mêmes ignorent qu'il existe encore des psychologues d'orientation béhavioriste<note type="standard" xml:id="ftn12" place="foot" n="12">
+              <p> Ainsi qu'en témoignait le psychologue béhavioriste Abramson en 2013. Celui-ci, professeur enseignant alors la psychologie à l'Université d'État de l'Oklahoma, écrivait en effet : «&#160;I teach a course on the psychology of learning in a department where I am probably the only behaviorist […] <hi xml:lang="en">I am often shocked by how little colleagues and students know about behaviorism […]. The cognitivists, on the other hand, are cutting edge, forward thinking, insightful, and entering new frontiers. Over the course of a semester, my students are surprised to learn that the behaviorist approach is still vital and has much to recommend it as a scientific enterprise&#160;» (Abramson, 2013, p.&#160;56).</hi>
+              </p>
+            </note> signe bien la réussite relative de la stratégie d'imposition monopolistique de la psychologie cognitive par ses partisans. </p>
+                    <p xml:id="d1e610">Une dernière caractéristique du modèle kuhnien, proche de cette dernière, participera de la domination, à terme, de la psychologie cognitive à un niveau international. À partir de 1969, Kuhn (1969/2008, pp.&#160;240-241, 1974/1990, pp.&#160;393-394) identifiera la notion de «&#160;paradigme&#160;» à celle de «&#160;communauté scientifique&#160;», et admettra de plus que l'on peut schématiquement assimiler cette dernière à celle de «&#160;discipline scientifique&#160;». Mais, ce faisant, il n'abordera jamais (du moins à notre connaissance) la question de savoir si l'on peut considérer que puissent synchroniquement coexister, au sein d'une même discipline, plusieurs paradigmes différents dans des pays différents. Si l'histoire ou la sociologie des sciences ont par ailleurs pu apporter des réponses à cette question (e.g., Livingstone, 1995&#160;; Martin, Keck et Marcel, 2004), le fait que Kuhn l'ait laissé ouverte tendra cependant, au sein de son modèle, à suggérer l'<hi rend="italic">universalité</hi> du paradigme<note type="standard" xml:id="ftn13" place="foot" n="13">
+              <p> À ce sujet, voir par exemple la critique par Warren (1971) de Palermo (1971) (<hi rend="italic">supra&#160;</hi>: «&#160;Paradigme et “révolution cognitive” : un aperçu des controverse&#160;», §1).</p>
+            </note>. Ainsi, si certains psychologues pro-cognitivistes défendaient, dans les années 1970, l'image d'un paradigme béhavioriste qui aurait mondialement dominé la psychologie entre 1920 et 1950, leur objectif terminal n'était pas la légitimation de ce courant : cette présentation du béhaviorisme comme «&#160;paradigme&#160;» visait en dernière instance à rendre naturelle l'idée selon laquelle le cognitivisme, qui prenait alors sa place, devrait lui aussi s'imposer à l'ensemble du champ psychologique international –&#160;le paradigme ne souffrant pas de rival. C'est ainsi qu'aux défenseurs de la version paradigmatique de l'histoire de la psychologie et de l'hypothèse de la «&#160;révolution cognitive&#160;» (e.g., Palermo, 1971&#160;; Weimer, 1974a, 1974b&#160;; Weimer et Palermo, 1973), leurs opposants (e.g., Briskman, 1972&#160;; Hobbs et Chiesa, 2011&#160;; Leahey, 1992&#160;; Warren, 1971) ne manqueront pas de répondre qu'il serait illégitime de parler de «&#160;paradigme&#160;» concernant la seule psychologie expérimentale états-unienne que représentait le béhaviorisme. Et ce n'est pas un hasard si, au sein de la première série d’articles qui a marqué le début des controverses (cf. section intitulée «&#160;Paradigme et “révolution cognitive”&#160;: un aperçu des controverses&#160;»,&#160;§1), ce furent Warren et Briskman, respectivement anglais et écossais, qui pointèrent cette limite de l'analyse kuhnienne telle que voulaient l'appliquer à la psychologie Palermo et Weimer, tous deux américains. Si la psychologie cognitive s'est progressivement internationalisée à partir de son imposition aux États-Unis dans les années 1970<note type="standard" xml:id="ftn14" place="foot" n="14">
+              <p> Pour l'exemple de l'arrivée de la psychologie cognitive en France, voir Plas (2004).</p>
+            </note>, rappelons donc que l’approche béhavioriste est quant à elle restée un courant essentiellement américain (Legrand, 1990, pp.&#160;266-267&#160;; Mandler, 2002, pp.&#160;343-345&#160;; Plas, 2004, p.&#160;4).</p>
+                </div>
+                <div type="div2" xml:id="d1e626">
+                    <head subtype="level2" xml:id="d1e627">Quelques conditions sociales de réussite des actes performatifs</head>
+                    <p xml:id="d1e629">Dans les deux sections précédentes, nous avons relevé quatre caractéristiques des théories kuhniennes (<hi rend="italic">internalisme</hi>, <hi rend="italic">discontinuisme</hi>, <hi rend="italic">monopolisme</hi> et <hi rend="italic">universalisme</hi>) qui se sont avérées stratégiquement opportunes pour les défenseurs du cognitivisme dans le but d'imposer leur courant en psychologie. Comme nous l'avons constaté, ce processus ne s'est pas fait sans résistances, ce qui nous permet de rappeler que la réussite d'un énoncé performatif nécessite des conditions de réalisations particulières, telles que la levée de ce type de résistances (Ambroise, 2015, pp.&#160;24-27, pp.&#160;32-33&#160;; Varlet et Allard-Poesi, 2017, p.&#160;72, pp.&#160;90-91). Aux quatre caractéristiques décrites ci-avant, nous aimerions en ajouter trois autres, qui ont elles aussi concouru à la réussite des stratégies performatives pro-cognitivistes, mais qui relèvent cette fois d'autant plus des conditions sociales de réception du modèle de Kuhn que des caractéristiques intrinsèques de celui-ci. </p>
+                    <list type="ordered" xml:id="d1e643">
+                        <item>
+                            <p xml:id="d1e645">Certains travaux indiquent qu'un discours ambigu peut avoir une portée stratégique plus élevée qu'un discours univoque dans l'optique de rassembler un public hétérogène autour d'une opinion commune (Eisenberg, 1984, pp.&#160;230-323&#160;; Varlet et Allard-Poesi, 2017, pp.&#160;77-78). Le caractère polysémique des développements de <hi rend="italic">La Structure des révolutions scientifiques</hi> a souvent été souligné (Dubois, 2001, p.&#160;44&#160;; Masterman, 1970, p.&#160;59&#160;; Nadeau, 1994, p.&#160;170), et regretté par Kuhn (1974/1990, p.&#160;391) lui-même. Plus spécifiquement, on peut y relever une ambiguïté entre les registres descriptif et normatif (Driver-Linn, 2003, p.&#160;274&#160;; Feyerabend, 1970, pp.&#160;198-199)&#160;: cette ambiguïté a permis aux psychologues de produire des énoncés performatifs sur leur discipline sous couvert de simplement décrire les changements qui s'y déroulaient. En effet, un acte performatif a plus de chance d'opérer quand il réussit à se faire passer pour simplement constatif (Austin, 1962/1970, pp.&#160;39-40&#160;; Bourdieu, 1981-83/2015, p.&#160;41) ou à se présenter comme impératif ou inéluctable pour le futur (Vaara, Sorsa et Pälli, 2010, pp.&#160;696-697).</p>
+                        </item>
+                        <item>
+                            <p xml:id="d1e651">La légitimité du locuteur est une condition de réussite importante de l'énoncé performatif (Ambroise, 2015, pp.&#160;32-33&#160;; Bourdieu, 1981-83/2015, pp.&#160;132-133&#160;; Varlet et Allard-Poesi, 2017, p.&#160;75, p.&#160;78). Kuhn ayant connu un succès grandissant dans le champ des sciences sociales à partir des années 1960, son nom s'est vu associé à un capital symbolique (i.e., à une reconnaissance sociale) important. C'est dans cette mesure que les nombreuses références par les psychologues à Kuhn peuvent être comprises comme autant d'actes stratégiques destinés à légitimer leurs propres discours. L'histoire tri-paradigmatique de la psychologie (l’introspectionnisme de Wundt, le béhaviorisme de Watson, et enfin le cognitivisme) et l'hypothèse de la «&#160;révolution cognitive&#160;» se sont ainsi vues tacitement valorisées par cet appel à l'autorité kuhnienne, bien que celui-ci n'ait jamais été directement impliqué dans ces discussions. </p>
+                        </item>
+                        <item>
+                            <p xml:id="d1e654">La répétition, dans le temps et par différents acteurs, est une modalité efficace, sinon une condition nécessaire, de la performativité d'un énoncé (Butler, 1990/2006, pp.&#160;256-266&#160;; Varlet et Allard-Poesi, 2017, p.&#160;83). Ce fait permet de mieux comprendre l'intérêt stratégique qu'a eu la multiplication des articles proclamant l’avènement d'une révolution cognitive en psychologie : il ne s'agissait pas tant, dans ces articles, de développer une idée scientifique précise que de chercher à imposer, par la répétition et à terme, une nouvelle vision (cognitiviste) du champ de la psychologie. La thèse des sociologues de la traduction, selon laquelle la «&#160;véridiction ne vient pas de la superposition d'un énoncé et d'un état du monde, mais provient plutôt du maintien continu des réseaux, des centres et des mobiles immuables qui y circulent&#160;» (Latour, 1996, p.&#160;41), apporte un éclairage similaire sur ce fait (Varlet et Allard-Poesi, 2017, pp.&#160;85-86). C'est à travers une mise en discussion, presque ininterrompue pendant trois décennies et progressivement étendue à un niveau international, que l'hypothèse d'une «&#160;révolution cognitive&#160;» en psychologie a effectivement pris corps pour devenir réelle.</p>
+                        </item>
+                    </list>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e656">
+                <head subtype="level1" xml:id="d1e657">Conclusion<hi xml:lang="fr">s</hi>
+        </head>
+                <p xml:id="d1e661">Le courant cognitiviste, dominant actuellement la psychologie générale, s'est d'abord imposé aux États-Unis à partir des années 1970, puis internationalement à partir de la décennie 1990. S'il est difficile de lister exhaustivement et d'évaluer précisément l'impact différencié de tous les facteurs (épistémologiques, historiques, sociaux, politiques, etc.) qui ont pu concourir à cette prise de pouvoir, notre étude a montré comment le modèle de Thomas Kuhn, tel qu'il est exposé dans <hi rend="italic">La Structure des révolutions scientifiques</hi>, a joué (sans préméditation de la part de ce dernier) un rôle important pour les partisans du cognitivisme en vue d'imposer, sur le plan symbolique, leur «&#160;nouveau paradigme&#160;». Le caractère <hi rend="italic">internaliste</hi> de ce modèle a permis de recréer un lien entre la tradition historique de la psychologie générale et la nouvelle psychologie cognitive, de façon à défendre cette dernière contre la menace d'annexion par les autres sciences dites cognitives. L'aspect <hi rend="italic">discontinuiste</hi> a permis de défendre l'existence d'une rupture épistémologique entre l’approche cognitiviste et l’approche béhavioriste, de manière à autonomiser la première vis-à-vis de la seconde. Le caractère <hi rend="italic">monopolistique</hi> des théories kuhniennes a permis de distiller l'idée selon laquelle la survenue du cognitivisme devait équivaloir à la fin du béhaviorisme, de façon à favoriser le premier au détriment du second. Leur aspect <hi rend="italic">universaliste</hi> a contribué à naturaliser le processus d'internationalisation de la psychologie cognitive, de manière à l'imposer mondialement. Trois conditions sociales de réception des stratégies performatives pro-cognitivistes s'ajoutent à ces caractéristiques. D'abord, l'<hi rend="italic">ambiguïté</hi> (description/prescription) du registre de <hi rend="italic">La&#160;Structure </hi>a invité les psychologues d'obédience cognitive à participer activement aux modifications du champ de la psychologie sous couvert de simplement les décrire. Ensuite, l'<hi rend="italic">autorité</hi> dont Kuhn jouissait dans le champ des sciences sociales a permis la légitimation des hypothèses défendues par ces psychologues. Enfin, la multiplication des articles sur le thème de la «&#160;révolution cognitive&#160;» doit être comprise comme une <hi rend="italic">répétition</hi> d'actes performatifs, ayant contribuée à leur réussite. </p>
+                <p xml:id="d1e691">En guise d'ouverture, nous souhaiterions mettre en lumière quelques-unes des limites de la présente étude qui pourront constituer tout autant d'interrogations pour de futures réflexions. </p>
+                <list type="ordered" xml:id="d1e693">
+                    <item>
+                        <p xml:id="d1e695">En nous appuyant avant tout sur des données discursives et en les analysant dans leur portée performative, nous avons mis l'accent sur les aspects <hi rend="italic">symboliques</hi> de l'appropriation des théories kuhniennes par les psychologues. Ce parti pris n'avait pas pour objectif de nier l'existence d'actes non discursifs ainsi que de facteurs matériels ayant joué un rôle dans la «&#160;révolution cognitive&#160;»<note type="standard" xml:id="ftn15" place="foot" n="15">
+                <p> De la même façon, en nous intéressant particulièrement à l'usage stratégique des théories de Kuhn par les psychologues, nous avons finalement peu abordé le rôle des théories cognitivistes dans la «&#160;révolution cognitive&#160;» en psychologie. Ceci n'est évidemment pas à dire qu'il fut nul.</p>
+              </note>. Bourdieu (1983-86/2016), critiquant la «&#160;fausse opposition&#160;» entre la conception idéaliste et la conception matérialiste du monde social, notait d'une part que l'«&#160;espace objectif intervient […] dans les luttes symboliques […] comme fondement […] et […] comme enjeu de perspectives&#160;» (p.&#160;508), et d'autre part que «&#160;les formes symboliques ont une existence objective, [et] des effets objectifs&#160;» (p.&#160;548). Un certain nombre d'auteur∙e∙s ont d'ailleurs souligné que les stratégies performatives avaient d'autant plus de chances de réussite qu'elles étaient matériellement appuyées (Muniesa et Callon, 2008, pp.&#160;4-5&#160;; Varlet et Allard-Poesi, 2017, pp.&#160;85-87) ou qu'elles redoublaient symboliquement le réel (Bourdieu, 1981-83/2015, pp.&#160;122-125). Si on peut considérer la «&#160;révolution cognitive&#160;» comme une révolution symbolique au sens de la sociologie, celle-ci résulte donc de la conjonction de modifications objectives du champ de la psychologie et d'un changement dans la perception de ce champ par ses agents. Il pourrait à ce titre être intéressant d’étudier en parallèle la façon dont le développement institutionnel de la psychologie cognitive s’est articulé à l’évolution, non seulement des approches dominantes en psychologie, mais aussi des représentations portées par les psychologues sur leur propre discipline.</p>
+                    </item>
+                    <item>
+                        <p xml:id="d1e705">En se donnant pour objet le rôle de l'appropriation de la théorie kuhnienne par les psychologues dans ces modifications, notre étude s'est centrée sur la psychologie des années 1970 à 1990 d'abord, sur les caractéristiques du modèle de Kuhn ensuite, et sur l'articulation de ces deux éléments enfin. Ce faisant, nous n'avons pas abordé le contexte socio-historique plus global qui a, à d'autres niveaux, sous-tendu l’avènement de la psychologie cognitive d'une part, et constitué l'arrière-plan de la formulation de sa théorie par Kuhn de l'autre. Cette centration réductrice, d'ordre avant tout méthodologique, ne devra pas nous empêcher de questionner la nature des liens qu'entretenaient à cette époque les deux champs de la psychologie et de l'histoire des sciences avec le champ social qui les comprend. On connaît par exemple la façon dont la psychologie états-unienne a contribué, dans un contexte de guerre froide, à la naturalisation du mode de pensée américain, visant à l'imposer, contre le soviétisme, comme seul mode de pensée légitime (Cohen-Cole, 2005&#160;; Tiberghien et Beauvois, 2008, pp.&#160;147-150). On sait aussi, dans ce même contexte, les liens que Kuhn a entretenus avec James B. Conant, directeur de l'Université de Harvard de 1933 à 1953 et impliqué dans le projet Manhattan<note type="standard" xml:id="ftn16" place="foot" n="16">
+                <p> Le projet Manhattan est le projet de recherche débuté en 1939 qui a abouti à la production de la première bombe atomique aux États-Unis durant la Seconde Guerre mondiale.</p>
+              </note> (Kuhn, 1962/2008, pp.&#160;14-15&#160;; Sent, 2001, p.&#160;39).</p>
+                    </item>
+                    <item>
+                        <p xml:id="d1e712">Enfin, la réception des théories de Kuhn en psychologie soulève le problème plus général de la réappropriation des thèses élaborées en histoire, philosophie ou sociologie des sciences par les sciences qu'elles prennent pour objet. Notre étude de cas illustre en effet l'intérêt stratégique, déjà évoqué par Bourdieu (1981-83/2015), des discours d'ordre épistémologique au regard des luttes du champ scientifique : «&#160;La séduction de ce qu'on appelle l'épistémologie réside sans doute très souvent dans le fait que, par une espèce de métadiscours à propos de la science […], on s'institue en législateur en matière de pratique scientifique&#160;» (p.&#160;264). De la considération de ce type d'appropriation «&#160;sauvage&#160;»<note type="standard" xml:id="ftn17" place="foot" n="17">
+                <p> L'appropriation « sauvage » du modèle kuhnien n'est d'ailleurs pas le seul exemple de ce genre de mésusage, comme en témoigne l'utilisation purement rhétorique qui peut parfois être faite du falsificationnisme poppérien dans le champ des sciences humaines et sociales (Cosnier, 1998, p.&#160;188&#160;; Passeron, 1991, p.&#160;8).</p>
+              </note> peut découler un ensemble de questionnements pour le ou la chercheur∙se en étude sociale des sciences : quel est le rôle de la «&#160;science de la science&#160;» vis-à-vis des disciplines qu'elle prend pour objet ? Quelles sont les conditions concrètes de son retour, sa réappropriation, son interprétation, dans ces mêmes disciplines ? Et enfin, pourrait-elle, et devrait-elle, chercher à contrôler les conditions dans lesquelles ses théories se voient appropriées, de façons plus ou moins fidèles et plus ou moins instrumentalisantes, dans d'autres champs ?</p>
+                    </item>
+                </list>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e722">
+                <listBibl xml:id="d1e724">
+                    <bibl xml:id="d1e726">
+            <hi xml:lang="en">Abramson, C. I. (2013). Problems of Teaching the Behaviorist Perspective in the Cognitive Revolution. </hi>
+            <hi rend="italic">Behavioral Sciences</hi>
+            <hi rend="italic">, 3</hi>, 55-71.</bibl>
+                    <bibl xml:id="d1e734">Ambroise, B. (2015). Performativité de l’économie ou pouvoir symbolique ?<hi rend="italic"> Revue Française de Socio-Économie</hi>
+            <hi rend="italic">, Hors-série</hi>(2), 19-35.</bibl>
+                    <bibl xml:id="d1e741">Amsel, A. (1992). B. F. Skinner and the Cognitive Revolution.<hi rend="italic"> </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Journal of Behavior Therapy and Experimental Psychiatry</hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">, 23</hi>
+            </hi>
+            <hi xml:lang="en">(2), 67-70.</hi>
+          </bibl>
+                    <bibl xml:id="d1e753">Austin, J. L. (1970). <hi rend="italic">Quand dire, c'est faire.</hi> Paris&#160;: Seuil. (Œuvre originale publiée en 1962).</bibl>
+                    <bibl xml:id="d1e758">
+                        <hi xml:lang="en">Baars, B. (1986). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Cognitive Revolution in Psychology</hi>
+                        </hi>
+                        <hi xml:lang="en">.</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en"> </hi>
+                        </hi>
+                        <hi xml:lang="en">New York&#160;: Guillford Press. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e771">
+            <hi xml:lang="en">Baum, C. (2016). Stabilizing cognition: An STS approach to the Sloan Foundation Report. </hi>
+            <hi rend="italic">Theory &amp; Psychology</hi>
+            <hi rend="italic">, 26</hi>(6), 773-787.</bibl>
+                    <bibl xml:id="d1e779">Bourdieu, P. (1976). Le champ scientifique. <hi rend="italic">Actes de la recherche en sciences sociales</hi>
+            <hi rend="italic">, 2</hi>(2-3), 88-104. </bibl>
+                    <bibl xml:id="d1e786">Bourdieu, P. (1997). <hi rend="italic">Les usages sociaux de la science. Pour une sociologie clinique du champ scientifique.</hi> Paris&#160;: INRA.</bibl>
+                    <bibl xml:id="d1e791">Bourdieu, P. (2001). <hi rend="italic">Science de la science et réflexivité. Cours du Collège de France 2000-2001.</hi> Paris&#160;: Raisons d'agir.</bibl>
+                    <bibl xml:id="d1e796">Bourdieu, P. (2015). <hi rend="italic">Sociologie générale, volume 1. Cours au Collège de France (1981-1983). </hi>Paris&#160;: Seuil.</bibl>
+                    <bibl xml:id="d1e802">Bourdieu, P. (2016). <hi rend="italic">Sociologie générale, volume 2. Cours au Collège de France (1983-1986).</hi> Paris&#160;: Seuil.</bibl>
+                    <bibl xml:id="d1e807">Braunstein, J.-F. (2003). Thomas Kuhn lecteur de Ludwik Fleck. <hi rend="italic">Archives de Philosophie</hi>
+            <hi rend="italic">, 66</hi>(3), 403-422.</bibl>
+                    <bibl xml:id="d1e814">Braunstein, J.-F. &amp; Pewzner, E. (2010). <hi rend="italic">Histoire de la psychologie.</hi> Paris&#160;: Armand Colin. </bibl>
+                    <bibl xml:id="d1e819">
+            <hi xml:lang="en">Briskman, L. B. (1972). Is a Kuhnian Analysis Applicable to Psychology? </hi>
+            <hi rend="italic">Science Studies</hi>
+            <hi rend="italic">, 2</hi>(1), 87-97. </bibl>
+                    <bibl xml:id="d1e827">Butler, J. (2006). <hi rend="italic">Trouble dans le genre. Le féminisme et la subversion de l'identité.</hi> Paris&#160;: La Découverte. (Œuvre originale publiée en 1990).</bibl>
+                    <bibl xml:id="d1e832">Cohen-Cole, J. (2005). <hi xml:lang="en">The reflexivity of cognitive science: the scientist as model of human nature. </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">History of the Human Sciences</hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">, 18</hi>
+            </hi>
+            <hi xml:lang="en">(4), 107-139.</hi>
+          </bibl>
+                    <bibl xml:id="d1e844">
+                        <hi xml:lang="en">Coleman, S. R. &amp; Salamon, R. (1988). Kuhn’s </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Structure of Scientific Revolutions </hi>
+                        </hi>
+                        <hi xml:lang="en">in the psychology journal literature, 1969–1983: A descriptive study. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal of Mind and Behavior, 9</hi>
+                        </hi>
+                        <hi xml:lang="en">,</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en"> </hi>
+                        </hi>
+                        <hi xml:lang="en">415-446.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e862">
+            <hi xml:lang="en">Collins, A. (2007). From </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">H = log&#160;s</hi>
+            </hi>
+            <hi rend="sup">
+              <hi rend="italic">
+                <hi xml:lang="en">n</hi>
+              </hi>
+            </hi>
+            <hi xml:lang="en"> to Conceptual Framework: a Short History of Information.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en"> </hi>
+            </hi>
+            <hi rend="italic">History of Psychology</hi>
+            <hi rend="italic">, 10</hi>(1), 44-72.</bibl>
+                    <bibl xml:id="d1e882">Cosnier, J. (1998). <hi rend="italic">Le retour de Psyché. Critique des nouveaux fondements de la psychologie</hi>.<hi rend="italic"> </hi>
+            <hi xml:lang="en">Paris&#160;: Desclée de Brouwer.</hi>
+          </bibl>
+                    <bibl xml:id="d1e891">
+                        <hi xml:lang="en">Dember, W. N. (1974). Motivation and the cognitive revolution. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Psychologist</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 29</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 161-168. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e902">
+            <hi xml:lang="en">Driver-Linn, E. (2003). Where Is Psychology Going? Structural Fault Lines Revealed by Psychologists’ Use of Kuhn. </hi>
+            <hi rend="italic">American Psychologist</hi>
+            <hi rend="italic">, 58</hi>(4), 269-278.</bibl>
+                    <bibl xml:id="d1e911">Dubois, M. (2001). <hi rend="italic">La nouvelle sociologie des sciences.</hi> Paris&#160;: PUF.</bibl>
+                    <bibl xml:id="d1e916">
+                        <hi xml:lang="en">Eisenberg, E. M. (1984). Ambiguity as strategy in organizational communication. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Communication Monographs</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 51</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 227-242.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e927">
+                        <hi xml:lang="en">Feyerabend, P. (1970). Consolations for the Specialist. Dans I. Lakatos et A. Musgrave (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Criticism and the Growth of Knowledge </hi>
+                        </hi>
+                        <hi xml:lang="en">(pp.</hi>
+                        <hi xml:lang="en">&#160;197-230)</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">.</hi>
+                        </hi>
+                        <hi xml:lang="en"> Cambridge: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e942">
+                        <hi xml:lang="en">Finkelman, D. (1978). Science and Psychology. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The American Journal of Psychology</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 91</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 179-199.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e953">
+                        <hi xml:lang="en">Friman, P. C., Allen, K. D., Kerwin, M. L. E. &amp; Larzelere, R. (1993). Changes in Modern Psychology: A Citation Analysis of the Kuhnian Displacement Thesis. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Psychologist</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 48</hi>
+                        </hi>
+                        <hi xml:lang="en">(6), 658-664.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e964">
+            <hi xml:lang="en">Gadlin, H. &amp; Ingle, G. (1975). Through the One-Way Mirror. The Limits of Experimental Self-Reflection.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en"> </hi>
+            </hi>
+            <hi rend="italic">American Psychologist</hi>
+            <hi rend="italic">, 30</hi>, 1003-1009.</bibl>
+                    <bibl xml:id="d1e975">Gardner, H. (1993). <hi rend="italic">Histoire de la révolution cognitive. La nouvelle science de l'esprit. </hi>
+            <hi xml:lang="en">Paris&#160;: Payot. (Œuvre originale publiée en 1985). </hi>
+          </bibl>
+                    <bibl xml:id="d1e981">
+                        <hi xml:lang="en">Greenwood, J. D. (1999). Understanding the “Cognitive Revolution” in Psychology. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal of the History of the Behavioral Sciences</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 35</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 1-22.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e992">
+                        <hi xml:lang="en">Gross, A. G. (1990). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The rhetoric of science</hi>
+                        </hi>
+                        <hi xml:lang="en">. Cambridge: Harvard University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1000">
+                        <hi xml:lang="en">Henley, T. B. (1989). Meehl revised: A look at paradigms in psychology. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Theoretical and Philosophical Psychology</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 9</hi>
+                        </hi>
+                        <hi xml:lang="en">, 30-36.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1011">
+                        <hi xml:lang="en">Hobbs, S. &amp; Burman, J. T. (2009). Is the ‘cognitive revolution’ a myth? </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Psychologist</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 22</hi>
+                        </hi>
+                        <hi xml:lang="en">(9), 812-815. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e1023">
+                        <hi xml:lang="en">Hobbs, S. &amp; Chiesa, M. (2011). The Myth of the “Cognitive Revolution”. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">European Journal of Behavior Analysis</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 12</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 385-394.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1034">
+            <hi xml:lang="en">Keyser, S. J., Miller, G. A. &amp; Walker, E. (dir.) (1978). </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Cognitive science, 1978. Report of the state of the art committee to the advisors of the Alfred P. Sloan Foundation.</hi>
+            </hi>
+            <hi xml:lang="en"> </hi>Consulté sur <ref target="http://csjarchive.cogsci.rpi.edu/misc/CognitiveScience1978_OCR.pdf">http://csjarchive.cogsci.rpi.edu/misc/CognitiveScience1978_OCR.pdf</ref> (consulté le 02/09/19).</bibl>
+                    <bibl xml:id="d1e1046">Kuhn, T. S. (1990). En repensant aux paradigmes. <hi rend="italic">La tension essentielle. Tradition et changement dans les sciences </hi>(pp.&#160;391-423)<hi rend="italic">.</hi> Paris&#160;: Gallimard. (Œuvre originale publiée en 1974).</bibl>
+                    <bibl xml:id="d1e1054">Kuhn, T. S. (2008). Postface. <hi rend="italic">La Structure des révolutions scientifiques </hi>(pp.&#160;237-284)<hi rend="italic">.</hi> Paris&#160;: Flammarion. (Œuvre originale publiée en 1969).</bibl>
+                    <bibl xml:id="d1e1062">Kuhn, T. S. (2008). <hi rend="italic">La Structure des révolutions scientifiques.</hi> Paris&#160;: Flammarion. (Œuvre originale publiée en 1962).</bibl>
+                    <bibl xml:id="d1e1067">Latour, B. (1996). Ces réseaux que la raison ignore&#160;: laboratoires, bibliothèques, collections. Dans C. Jacob et M. Baratin (dir.), <hi rend="italic">Le pouvoir des bibliothèques. La mémoire des livres dans la culture occidentale </hi>(pp.&#160;23-46)<hi rend="italic">.</hi> Paris&#160;: Albin Michel.</bibl>
+                    <bibl xml:id="d1e1075">
+            <hi xml:lang="en">Leahey, T. H. (1992). The Mythical Revolutions of American Psychology. </hi>
+            <hi rend="italic">American Psychologist</hi>
+            <hi rend="italic">, 47</hi>(2), 308-318.</bibl>
+                    <bibl xml:id="d1e1083">Legrand, M. (1990). Du behaviorisme au cognitivisme. <hi rend="italic">L'année psychologique</hi>
+            <hi rend="italic">, 90</hi>(2), 247-286.</bibl>
+                    <bibl xml:id="d1e1090">
+                        <hi xml:lang="en">Lipsey, M. W. (1974). Psychology: Preparadigmatic, Postparadigmatic, or Misparadigmatic? </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science Studies</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 4</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 406-410.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1101">
+                        <hi xml:lang="en">Livingstone, D. N. (1995). The spaces of knowledge: contributions towards a historical geography of science. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Environment and Planning</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 13</hi>
+                        </hi>
+                        <hi xml:lang="en">, 5-34.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1112">
+                        <hi xml:lang="en">Mackenzie, B. D. (1972). Behaviourism and positivism. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The History of the Behavioral Sciences</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 8</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 222-231. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e1124">
+                        <hi xml:lang="en">Mandler, G. (2002). Origins of the Cognitive (R)evolutions. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal of History of the Behavioral Sciences</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 38</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 339-353.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1135">Mariné, C. &amp; Escribe, E. (2010). <hi rend="italic">Histoire de la psychologie générale. Du béhaviorisme au cognitivisme. </hi>Paris&#160;: In press.</bibl>
+                    <bibl xml:id="d1e1140">Martin, O., Keck, F. &amp; Marcel, J.-C. (2004). France –&#160;États-Unis&#160;: influences croisées en sciences humaines. <hi rend="italic">Revue d'Histoire des Sciences Humaines</hi>
+            <hi rend="italic">, 11</hi>(2), 3-12.</bibl>
+                    <bibl xml:id="d1e1147">Masterman, M. (1970). The Nature of a Paradigm. <hi xml:lang="en">Dans I. Lakatos et A. Musgrave (dir.), </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Criticism and the Growth of Knowledge </hi>
+            </hi>
+            <hi xml:lang="en">(pp.</hi>
+            <hi xml:lang="en">&#160;59-89)</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">.</hi>
+            </hi>
+            <hi xml:lang="en"> </hi>Cambridge: Cambridge University Press.</bibl>
+                    <bibl xml:id="d1e1164">Maudlin, T. (1996). Kuhn édenté&#160;: incommensurabilité et choix entre théories. <hi rend="italic">Revue Philosophique de Louvain</hi>
+            <hi rend="italic">, 94</hi>(3), 428-446.</bibl>
+                    <bibl xml:id="d1e1171">Miller, G. A. (2003). The cognitive revolution: a historical perspective. <hi rend="italic">Trends in Cognitive Sciences</hi>
+            <hi rend="italic">, 7</hi>(3), 141-144.</bibl>
+                    <bibl xml:id="d1e1178">Muniesa, F. &amp; Callon, M. (2008). <hi rend="italic">La performativité des sciences économiques. </hi>Consulté sur <ref target="https://halshs.archives-ouvertes.fr/halshs-00258130">https://halshs.archives-ouvertes.fr/halshs-00258130</ref> (consulté le 02/09/19).</bibl>
+                    <bibl xml:id="d1e1186">Nadeau, R. (1994). La philosophie des sciences après Kuhn. <hi rend="italic">Philosophiques</hi>
+            <hi rend="italic">, 21</hi>(1), 159-189.</bibl>
+                    <bibl xml:id="d1e1193">Nicolas, S. &amp; Ferrand, L. (2008). <hi rend="italic">Histoire de la psychologie scientifique.</hi> Louvain-la-Neuve&#160;: De Boeck.</bibl>
+                    <bibl xml:id="d1e1198">O'Donohue, W., Ferguson, K. E. &amp; Naugle, A. E. (2003). <hi xml:lang="en">The Structure of the Cognitive Revolution: An Examination from the Philosophy of Science.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en"> The Behavior Analyst</hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">, 26</hi>
+            </hi>
+            <hi xml:lang="en">(1), 85-110.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1210">
+                        <hi xml:lang="en">Palermo, D. S. (1970). Imagery In Children's Learning: Discussion. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Psychological Bulletin</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 73</hi>
+                        </hi>
+                        <hi xml:lang="en">(6), 415-421.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1222">
+                        <hi xml:lang="en">Palermo, D. S. (1971). Is a Scientific Revolution Taking Place in Psychology? </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science Studies</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 1</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 135-155.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1233">
+            <hi xml:lang="en">Paniagua, F. A. (1991). Kuhn's Paradigmatic View of Psychology and Skinner's Theory of Behavior.</hi>
+            <hi rend="italic">
+              <hi xml:lang="en"> </hi>
+            </hi>
+            <hi rend="italic">Journal of Theoretical and Philosophical Psychology</hi>
+            <hi rend="italic">, 11</hi>(2), 122-125.</bibl>
+                    <bibl xml:id="d1e1244">Passeron, J.-C. (1991). <hi rend="italic">Le raisonnement sociologique. L'espace non-poppérien du raisonnement naturel</hi>. Paris&#160;: Nathan.</bibl>
+                    <bibl xml:id="d1e1249">Plas, R. (2004). Comment la psychologie expérimentale française est-elle devenue cognitive ? <hi rend="italic">La revue pour l’histoire du CNRS</hi>
+            <hi rend="italic">, 10</hi>. Consulté sur <ref target="http://histoire-cnrs.revues.org/586">http://histoire-cnrs.revues.org/586</ref> (consulté le 02/09/19).</bibl>
+                    <bibl xml:id="d1e1259">
+                        <hi xml:lang="en">Sanbonmatsu, D. M. &amp; Sanbonmatsu, K. K. (2017). The Structure of Scientific Revolutions: Kuhn’s Misconceptions of (Normal) Science. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal of Theoretical and Philosophical Psychology</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 37</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 133-151.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1270">
+                        <hi xml:lang="en">Segal, E. M. &amp; Lachman, R. (1972). Complex Behavior Or Higher Mental Process: Is There A Paradigm Shift? </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Psychologist</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 27</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 46-55. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e1281">
+                        <hi xml:lang="en">Sent, E.-M. (2001). Thomas Kuhn: The Wrong Person at the Right Place at the Right Time. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Review of Politics</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 63</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 390-392.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1292">
+                        <hi xml:lang="en">Snoeyenbos, M. H. &amp; Putney, R. T. (1980). Psychology and Science. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The American Journal of Psychology</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 93</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 579-592.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1303">
+            <hi xml:lang="en">Sperry, R. W. (1993). The Impact and Promise of the Cognitive Revolution. </hi>
+            <hi rend="italic">American Psychologist</hi>
+            <hi rend="italic">, 48</hi>(8), 878-885.</bibl>
+                    <bibl xml:id="d1e1311">Stengers, I. (1993). <hi rend="italic">L'invention des sciences modernes</hi>.<hi rend="italic"> </hi>Paris&#160;: La Découverte.</bibl>
+                    <bibl xml:id="d1e1319">
+                        <hi xml:lang="en">Sturm, T. &amp; Mülberger, A. (2012). Crisis discussions in psychology – New historical and philosophical perspectives.</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en"> Studies in History and Philosophy of Biological and Biomedical Sciences</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 43</hi>
+                        </hi>
+                        <hi xml:lang="en">, 425-433.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1331">
+            <hi xml:lang="en">Suppe, F. (1984). Beyond Skinner And Kuhn. </hi>
+            <hi rend="italic">New Ideas in Psychology</hi>
+            <hi rend="italic">, 2</hi>(2), 89-104.</bibl>
+                    <bibl xml:id="d1e1339">Tiberghien, G. &amp; Beauvois, J.-L. (2008). Domination et impérialisme en psychologie. <hi rend="italic">
+              <hi xml:lang="en">Psychologie française</hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">, 53</hi>
+            </hi>
+            <hi xml:lang="en">, 135-155.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1349">
+                        <hi xml:lang="en">Urry, J. (1973). Thomas S. Kuhn as Sociologist of Knowledge. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The British Journal of Sociology</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 24</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 462-473.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1360">
+            <hi xml:lang="en">Vaara, E., Sorsa, V. &amp; Pälli, P. (2010). On the force potential of strategy texts: a critical discourse analysis of a strategic plan and its power effects in a city organization. </hi>
+            <hi rend="italic">Organization</hi>
+            <hi rend="italic">, 17</hi>(6), 685-702.</bibl>
+                    <bibl xml:id="d1e1368">Varlet, M. &amp; Allard-Poesi, F. (2017). À quelles conditions un discours stratégique peut-il produire un changement ? Analyses et apports d’Austin, Searle, Butler et Callon. <hi rend="italic">Revue française de gestion</hi>
+            <hi rend="italic">, 263</hi>, 71-96.</bibl>
+                    <bibl xml:id="d1e1375">
+                        <hi xml:lang="es">Virues-Ortega, J. &amp; Pear, J. J. (2015). </hi>
+                        <hi xml:lang="en">A History of “Behavior” and “Mind”: Use of Behavioral and Cognitive Terms in the 20th Century. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Psychological Record</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 65</hi>
+                        </hi>
+                        <hi xml:lang="en">, 23-30.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1388">
+                        <hi xml:lang="en">Warren, N. (1971). Is a Scientific Revolution Taking Place in Psychology? Doubts and Reservations. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science Studies</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 1</hi>
+                        </hi>
+                        <hi xml:lang="en">(3-4), 407-413.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1399">
+                        <hi xml:lang="en">Weimer, W. B. (1974a). The History of Psychology and its Retrieval from Historiography: I. The Problematic Nature of History. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science Studies</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 4</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 235-258.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1410">
+                        <hi xml:lang="en">Weimer, W. B. (1974b). The History of Psychology and its Retrieval from Historiography II: Some Lessons for the Methodology of Scientific Research. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science Studies</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 4</hi>
+                        </hi>
+                        <hi xml:lang="en">(4), 367-396.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1421">
+                        <hi xml:lang="en">Weimer, W. B. &amp; Palermo, D. S. (1973). Paradigms and Normal Science in Psychology. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Science Studies</hi>
+                        </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">, 3</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 211-244.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

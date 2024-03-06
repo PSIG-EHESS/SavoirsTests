@@ -1,0 +1,779 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_4248_Bourgeau">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">L’enseignement du tabla dans les universités indiennes</title>
+                <title type="sub">Notes de terrain </title>
+                <title level="a" type="alt" xml:lang="en">Tablā instruction in Indian universities</title>
+                <title level="a" type="alt" xml:lang="es">La enseñanza del tabla en las universidades indias</title>
+                <author>
+                    <persName>
+                        <forename>Antoine</forename>
+                        <surname>Bourgeau</surname>
+                    </persName>
+                    <affiliation> Musicien percussionniste (tabla, bendir, udu) et docteur en ethnomusicologie de l’Université de Aix-Marseille. Spécialiste des musiques de l’Inde du Nord, il est membre de la SFE et chargé de cours en ethnomusicologie à l’Université de Nice Sophia-Antipolis. En tant que musicien il accompagne des artistes de musique indienne et collabore à différents projets de création contemporaine. Site personnel&#160;: <ref target="https://antoinebourgeau.wixsite.com/music">https://antoinebourgeau.wixsite.com/music</ref>
+            <ref target="https://orcid.org/0000-0001-5974-5531">https://orcid.org/0000-0001-5974-5531</ref>Adresse&#160;: Université de Nice Sophia-Antipolis, 98 bd Edouard Herriot, BP 3209, FR- 06204 Nice Cedex 3 (France)&#160;; 12 Rue Longue, FR-06620 Cipières (France).Courriel&#160;: antoine.bourgeau[at]orange.fr </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="SN">
+                        <forename>Sara</forename>
+                        <surname>Nadal</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>university</item>
+                        <item>institution</item>
+                        <item>tabla</item>
+                        <item>teaching</item>
+                        <item>India</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>université</item>
+                        <item>institution</item>
+                        <item>enseignement</item>
+                        <item>tabla</item>
+                        <item>Inde</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>universidad</item>
+                        <item>institución</item>
+                        <item>tabla</item>
+                        <item>enseñanza</item>
+                        <item>India</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">L’enseignement du tabla dans les universités indiennes</titlePart>
+                    <titlePart type="sub">Notes de terrain</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Antoine Bourgeau</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e247">
+                <p xml:id="d1e248">Cette étude présente l’enseignement du <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> dans deux universités en Inde. Elle aborde l’approche pédagogique déployée et les conséquences artistiques et sociales sur la culture du <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi>. La recherche décrit l’importance dans ce cadre institutionnel d’une transmission orale inscrite dans une relation professeur-élève codifiée tout en laissant une place à l’écriture. L'enquête montre que cet enseignement ne peut prétendre, à lui seul, à la formation de d’interprètes professionnels faute d’une spécialisation et de temps. Bien que disposant de vastes connaissances, les diplômés ont bien souvent un niveau de compétences pratiques insuffisant au regard des exigences de la scène musicale hindoustanie. Pour autant, ces écoles forment de nouveaux enseignants, dispensent des connaissances générales et techniques pouvant satisfaire à différentes professions du monde musical et délivrent des diplômes assurant une certaine reconnaissance sociale. Elles ont également mis en valeur le <hi rend="italic">ghar</hi>
+          <hi rend="italic">ā</hi>
+          <hi rend="italic">n</hi>
+          <hi rend="italic">ā</hi> en tant qu’institution sociale indissociable de la musique hindoustanie et désignant, pour les musiciens, une appartenance prestigieuse, largement revendiquée.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e269">
+                <p xml:id="d1e270">
+                    <hi xml:lang="en">
+            <hi xml:lang="en">The study presents the </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">tabl</hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">ā</hi>
+            </hi>
+            <hi xml:lang="en"> teaching in two universities in India. The research surveys the educational approach and the artistic and social consequences on </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">tabl</hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">ā</hi>
+            </hi>
+            <hi xml:lang="en"> culture. In this institutional framework, the study describes the importance of the oral tradition within a specific teacher-students relationship but also the written dimension. The investigation shows that these single courses can’t be entitled to prepare professional musicians as expected in Hindustani music, for lack of specialization and time. On the other hand, these institutions prepare new teachers, provide general and technical knowledge for jobs in the world of music and deliver degrees providing social recognition. Furthermore, they have promoted the </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">ghar</hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">ā</hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">n</hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">ā</hi>
+            </hi>
+            <hi xml:lang="en">, that has become a real institution and that refers to a prestigious identity, widely claimed among Hindustani musicians.</hi>
+          </hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e305">
+                <p xml:id="d1e306">
+                    <hi xml:lang="es">Este estudio presenta la formación del </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">tabl</hi>
+          </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">ā</hi>
+          </hi>
+                    <hi xml:lang="es"> en dos universidades en India. Aborda el enfoque pedagógico desplegado y las consecuencias artísticas y sociales sobre la cultura del </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">tabl</hi>
+          </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">ā</hi>
+          </hi>
+                    <hi xml:lang="es">. La investigación describe la importancia en este marco institucional de una transmisión oral inscrita en una relación profesor-alumno codificada, dejando lugar a la dimension de la escritura. Además, la encuesta muestra que esta enseñanza no puede, por sí sola, aspirar a la formación de músico de escena por falta de una especialización en este campo y de tiempo. Aunque los graduados poseen amplios conocimientos, estos siguen siendo insuficientes en relación con las competencias esperadas en la música «hindoustania». Sin embargo, estas instituciones forman nuevos profesores, imparten conocimientos generales y técnicos que pueden satisfacer diferentes profesiones del mundo musical y ortogan diplomas que garantizan un cierto reconocimiento social. También, han puesto de relieve el </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">ghar</hi>
+          </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">ā</hi>
+          </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">n</hi>
+          </hi>
+                    <hi rend="italic">
+            <hi xml:lang="es">ā</hi>
+          </hi>
+                    <hi xml:lang="es">, que se ha convertido en una verdadera institución y que designa una pertenencia identitaria prestigiosa, ampliamente reivindicada por los músicos «hindoustanis».</hi>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e344">
+                <head subtype="level1" xml:id="d1e345">Introduction</head>
+                <p xml:id="d1e347">Le <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> est un membranophone à percussion digitale qui émerge peu à peu au XVIII<hi rend="sup">e</hi>&#160;siècle dans le nord-ouest du sous-continent indien. En raison d’une popularisation grandissante et quasi planétaire au cours de la seconde moitié du XX<hi rend="sup">e</hi>&#160;siècle, il est devenu un des emblèmes culturels de l’Inde contemporaine (Kippen, 2006, p.&#160;7)<note type="standard" xml:id="ftn1" place="foot" n="1">
+            <p> Sur l’histoire du <hi rend="italic">tabl</hi>
+              <hi rend="italic">ā,</hi> voir Kippen (2010), sur sa diffusion hors de son lieu d’origine, voir Bourgeau (2010).</p>
+          </note>. Des lignées musicales de maître à disciple, appelées <hi rend="italic">bāj</hi> puis <hi rend="italic">gharānā,</hi> ont développé et perpétué la pratique de cet instrument<note type="standard" xml:id="ftn2" place="foot" n="2">
+            <p> Il y a six principaux <hi rend="italic">gharānā</hi> caractérisés par des techniques et des répertoires sensiblement distincts. Le lieu d’origine de ces lignées (Punjab, Delhi, Ajrara, Lucknow, Farukhabad et Bénarès) est utilisé pour leur nomination. </p>
+          </note>
+          <hi rend="italic">.</hi> Dès le début du XX<hi rend="sup">e</hi>&#160;siècle, dans le contexte d’une réforme de l’enseignement musical, des cours de <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> commencent à être proposés au sein d’écoles publiques et privées<note type="standard" xml:id="ftn3" place="foot" n="3">
+            <p> A partir de la seconde moitié du XIX<hi rend="sup">e</hi>&#160;siècle, des musicologues, des pédagogues et des musiciens proposent des changements à l’enseignement musical, notamment sur les questions de l’accès au savoir, du contenu et des méthodes pédagogiques. Ils fondent et dirigent alors de nombreuses institutions d’enseignement. Sur ces sujets voir Le&#160;Gargasson, 2015, pp.&#160;297-398.</p>
+          </note>. </p>
+                <p xml:id="d1e400">Aujourd’hui de nombreuses universités offrent des formations dédiées à ce tambour, dispensées par des professeurs réguliers ou occasionnels. Selon les lieux, l’apprentissage pratique est complété par des enseignements plus généraux (histoire, théorie musicale, organologie...) touchant à diverses traditions musicales indiennes, tout particulièrement celle du <hi rend="italic">rāg, </hi>considérée comme l’une des plus prestigieuses<note type="standard" xml:id="ftn4" place="foot" n="4">
+            <p> Le terme de <hi rend="italic">rāg</hi> est utilisé par les musiciens et les musicologues selon deux acceptions. Il s’agit d’une part d’un mode (une sélection de degrés) dont la particularité principale repose sur une hiérarchisation des hauteurs et le suivi scrupuleux de nombreuses règles, le tout faisant apparaître une structure modale orientant le contour mélodique lors de l’interprétation. D’autre part, ce terme désigne une forme musicale associant des parties prédéterminées (compositions) et des parties laissant se développer un jeu de l’instant (improvisation), non sans de multiples règles et contraintes. Les dimensions métriques et rythmiques, réunies sous le terme générique de <hi rend="italic">tāl</hi>,<hi rend="italic"> </hi>sont<hi rend="italic"> </hi>associées aux particularités modales et mélodiques et déterminent ensemble pour cette culture musicale sa dimension temporelle. C’est à partir du IX<hi rend="sup">e</hi>&#160;siècle que l’art du <hi rend="italic">rāg</hi> se cristallise et se développe. Depuis environ le XVI<hi rend="sup">e</hi>&#160;siècle, il s’exprime selon deux grandes orientations régionales (qualifiées d’hindoustanie au Nord et de carnatique au Sud) et de nombreux genres s’y rattachent. Au sein de la musique hindoustanie, dans laquelle le<hi rend="italic"> </hi>
+              <hi rend="italic">tabl</hi>
+              <hi rend="italic">ā</hi>
+              <hi rend="italic"> </hi>occupe une place importante, on retrouve le <hi rend="italic">dhrupad</hi>, le <hi rend="italic">khyāl</hi> et la <hi rend="italic">ṭhumr</hi>
+              <hi rend="italic">ī</hi> et certaines pratiques de <hi rend="italic">qavvāl</hi>
+              <hi rend="italic">ī</hi>, <hi rend="italic">ghazal</hi> et <hi rend="italic">bhajan</hi>. Pour une synthèse historique et musicologique des pratiques musicales de <hi rend="italic">rāg</hi>, voir Nijenhuis (1974).</p>
+          </note>.</p>
+                <p xml:id="d1e467">Elaboré à partir de mes recherches sur le <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> entreprises depuis 1997, cet article aborde la transmission et la mobilisation des connaissances pratiques, théoriques et esthétiques du <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā </hi>en<hi rend="italic"> </hi>examinant les effets de la mise en place de son enseignement dans deux universités. Sur le plan de la transmission, tant au niveau des techniques de jeu que du répertoire, je mets en évidence les liens de dépendance entre oralité et écriture ainsi que la confrontation et l’hybridation des modèles d’enseignement. Concernant la mobilisation de ces connaissances, je montre que si elles sont destinées en premier lieu à être utiles dans le contexte du monde musical professionnel hindoustani, elles sont également sollicitées dans le cadre plus large de la société indienne. Selon une approche ethnomusicologique, ces enjeux sont traités en deux parties, l’une abordant les outils et les techniques pédagogiques déployés par les enseignants dans ces universités et l’autre, les conséquences esthétiques et sociales de cette institutionnalisation.</p>
+            </div>
+            <div type="div1" xml:id="d1e482">
+                <head subtype="level1" xml:id="d1e483">Approche pédagogique&#160;</head>
+                <p xml:id="d1e485">En 2001, j’ai assisté à des leçons de <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> dans deux universités&#160;: le Indira Kalā Saṅgīt Vishwavidyālaya de Khairagarh (État du Chhattisgarh) et la Faculty of Performing Arts de Bénarès (État de l’Uttar Pradesh). La première est inaugurée en 1956 grâce au patronage de Raja Birendra Bahadur Singh et de Rani Padmavati Devi Singh de l’état princier de Khairagarh qui offrirent un palais et des terres tandis que la seconde est fondée en 1950 comme un département de la Banaras Hindu University (BHU) créée en 1916<note type="standard" xml:id="ftn5" place="foot" n="5">
+            <p> Pour plus d’informations : <ref target="http://www.iksv.ac.in/about">http://www.iksv.ac.in/about</ref> et <ref target="http://www.bhu.ac.in">http://www.bhu.ac.in</ref>
+            </p>
+          </note>. Les cours étaient assurés respectivement par Mukund Bhale et Chhotelal Misra, deux professeurs aux parcours professionnels bien distincts mais qui ont été en contact très tôt avec le monde institutionnel. Né en 1953, Mukund Bhale commence son apprentissage du <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> dès l’enfance auprès de Rao Shirgaonkar et de Gajanam Tadey puis s’inscrit à l’université de Khairagarh. Diplômé, il rejoint en 1982 l’équipe enseignante de cette université. Il est à l’initiative du nouveau département de percussion inauguré en 1994 qu’il dirige jusqu’en 2014 en tant que professeur de <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> à l’exception de deux années (2005-2007) passées à Lucknow<hi rend="italic"> </hi>au<hi rend="italic"> </hi>Bhatkhande College of Hindustani Music. Au cours de sa carrière il accompagne différents artistes renommés de <hi rend="italic">khyāl</hi> comme Hariprasad Chaurasia ou Prabha Atre. Chhotelal Misra (1940-2013), disciple du célèbre Anoukheylal Misra, commence sa formation à l’âge de six ans et devient un des plus illustres représentants du <hi rend="italic">gharānā</hi> de Bénarès. Sa rencontre avec Lalmani Misra, éminent musicien et pédagogue, directeur dès 1958 du département de musique instrumentale de la BHU, lui ouvre les portes de cette institution dans laquelle il enseigne une grande partie de sa carrière jusqu’en 2002. Sa collaboration avec Lalmani Misra l’amène à l’étranger pour des concerts et des enseignements dans de nombreuses universités aux Etats-Unis et en Europe. Parallèlement à sa fonction au sein de la BHU, il accompagne de nombreux artistes célèbres de <hi rend="italic">khyāl </hi>de son temps lors de concerts en Inde et à l’étranger, collabore régulièrement à la All India Radio (radio nationale) et forme une multitude d’artistes dans la voie de maître à disciple. Il est également l’auteur d’ouvrages majeurs sur le <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> et la tradition de Bénarès (Misra, 2006 et 2007). </p>
+                <p xml:id="d1e533">Les éléments présentés ici montrent que le modèle de la tradition de maître à disciple (<hi rend="italic">guru-śiṣyā-paramparā</hi>) transparaît à différents niveaux. </p>
+                <div type="div2" xml:id="d1e538">
+                    <head subtype="level2" xml:id="d1e539">Cours collectifs</head>
+                    <p xml:id="d1e541">Il s’agissait de cours collectifs dans lesquels une vingtaine d’élèves, appartenant sensiblement à la même tranche d’âge, étaient rassemblés en arc de cercle (Khairagarh) ou en différentes lignes (Varanasi) devant le professeur. </p>
+                    <p xml:id="d1e543">La forme du cours collectif, bien que caractéristique de l’enseignement institutionnel, n’est pas exclusive à ce type d’enseignement. Ainsi dans le contexte pédagogique de maître à disciple, cette situation se retrouve également en complément et en alternance avec des cours individuels. Loin d’être anodine, cette configuration constitue une des dimensions essentielles de la formation du musicien. Ces séances collectives ont lieu lors de rencontres plus ou moins formelles et régulières (<hi rend="italic">sāthsang</hi>) en présence ou non du maître, à l’occasion d’une célébration (<hi rend="italic">Sarasvat</hi>
+            <hi rend="italic">ī</hi>
+            <hi rend="italic"> p</hi>
+            <hi rend="italic">ūj</hi>
+            <hi rend="italic">ā</hi>
+            <note type="standard" xml:id="ftn6" place="foot" n="6">
+              <p> Littéralement l’offrande à <hi rend="italic">Sarasvat</hi>
+                <hi rend="italic">ī</hi>, déesse des arts et de l’éloquence. Chaque année en janvier, cette divinité est honorée par des dons (nourritures, fleurs, encens…). Les musiciens complètent souvent cette reconnaissance par le jeu de compositions et d’improvisations.</p>
+            </note>, <hi rend="italic">gurupurṇimā</hi>
+            <note type="standard" xml:id="ftn7" place="foot" n="7">
+              <p> La fête des enseignants (<hi rend="italic">guru</hi>) lors de la pleine lune de juillet. A cette occasion tous les enseignants sont l’objet d’une dévotion particulière provenant de leur propre disciple.</p>
+            </note>
+            <hi rend="italic">…</hi>) ou lors de sessions intensives de perfectionnement (<hi rend="italic">cillā</hi>
+            <note type="standard" xml:id="ftn8" place="foot" n="8">
+              <p> Dans le monde musulman ce terme désigne une pratique de répétition de prières. Il est employé par les musiciens hindoustanis pour désigner des périodes de retraites plus ou moins longues dans lesquelles une concentration au bénéfice d’une pratique intensive et exclusive est demandée par le maître ou ressentie comme nécessaire par le disciple dans le but de renforcer ses aptitudes musicales. Plus encore, dans le documentaire de L.&#160;Leonhardt «&#160;Zakir and his friends&#160;» (1997), Zakir Hussain, un des maîtres contemporains de <hi rend="italic">tabl</hi>
+                <hi rend="italic">ā,</hi>
+                <hi rend="italic"> </hi>présente ces pratiques collectives comme des rites de passage, des étapes indispensables que doit franchir le musicien dans sa vie d’artiste.</p>
+            </note>). Contrairement au cadre institutionnel, l’âge et le niveau des élèves peuvent être ici très disparates. Des enfants ou des débutants côtoient souvent des adultes et des élèves plus expérimentés dans une dynamique valorisant l’émulation collective, la persévérance et l’humilité. Ainsi, le joueur de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> Shankar Ghosh, illustre interprète et pédagogue,<hi rend="italic"> </hi>décédé en 2016, affectionnait ces situations d’enseignement collectif dans lesquelles se trouvaient parfois un grand nombre de ses disciples à son domicile de Calcutta, comme lors de la <hi rend="italic">Sarasvat</hi>
+            <hi rend="italic">ī</hi>
+            <hi rend="italic"> p</hi>
+            <hi rend="italic">ūj</hi>
+            <hi rend="italic">ā</hi> de 2001 où il présenta un long solo dans une attitude de dévotion et de pédagogie<note type="standard" xml:id="ftn9" place="foot" n="9">
+              <p> Dans le film «&#160;Calcutta, capital du <hi rend="italic">tabla&#160;</hi>» présent dans le DVD «&#160;Le <hi rend="italic">tabla</hi> avec Pandit Shankar Ghosh&#160;», eds. Le salon de Musique (2003), il est présenté dans diverses situations d’enseignement collectif.</p>
+            </note>. Dans le contexte universitaire, des entraînements et des répétitions entre étudiants peuvent avoir lieu et sont souvent spontanément organisés par les élèves notamment ceux qui se trouvent dans les résidences universitaires comme j’ai pu l’observer dans le quartier&#160;de <hi rend="italic">Assi ghat</hi> à Varanasi où étaient réunis de nombreux étudiants de la BHU. Cependant, dans ce cas, ces réunions dépassent le cadre officiel de l’enseignement à l’université, bien que les enseignants encouragent généralement ce genre d’initiative. De plus, elles sont limitées dans le temps car la formation à l’université n’excède pas quelques années alors que dans l’enseignement de maître à disciple elles s’inscrivent dans la longue durée. Ces modalités de rencontre et de temporalité marquent ainsi une différence importante entre l’enseignement à l’université et l’enseignement de maître à disciple tout en jouant également un rôle considérable dans la formation du musicien professionnel de la scène musicale hindoustanie.</p>
+                </div>
+                <div type="div2" xml:id="d1e625">
+                    <head subtype="level2" xml:id="d1e626">Contenu de l’enseignement pratique et mode de transmission</head>
+                    <p xml:id="d1e628">Mukund Bhale et Chhotelal Misra enseignaient différentes pièces du répertoire des joueurs de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi>, principalement ceux évoluant dans le <hi rend="italic">khy</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">l</hi>, ainsi que l’art du jeu improvisé, composante essentielle de cette pratique musicale. Au cours des siècles, les joueurs de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> ont développé au sein des <hi rend="italic">ghar</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">n</hi>
+            <hi rend="italic">ā</hi> un très large répertoire comprenant divers types de compositions. Ils peuvent être distingués en deux grands ensembles. Dans un premier se retrouvent les <hi rend="italic">ṭhek</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">, </hi>
+            <hi rend="italic">tihāī</hi>, <hi rend="italic">ṭukra </hi>et <hi rend="italic">paran</hi> qui apparaissent comme des structures fixes. Dans un second, on regroupe les <hi rend="italic">pe</hi>
+            <hi rend="italic">śk</hi>
+            <hi rend="italic">ār</hi>, <hi rend="italic">qāida</hi> et <hi rend="italic">relā</hi> qui sont formés d’un thème&#160;admettant de possibles variations (<hi rend="italic">palṭā). </hi>Celles-ci<hi rend="italic"> </hi>sont réalisées par des techniques de permutations et de répétitions de certaines sections du thème. Ces variations qui entraînent des expansions et des développements marquent en grande partie l’orientation du jeu improvisé des joueurs de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi>
+            <note type="standard" xml:id="ftn10" place="foot" n="10">
+              <p> Il s’agit ici des principaux types de compositions communs aux différents <hi rend="italic">ghar</hi>
+                <hi rend="italic">ā</hi>
+                <hi rend="italic">n</hi>
+                <hi rend="italic">ā</hi>, il en existe de nombreux autres qui témoignent en partie des différences stylistiques. Le <hi rend="italic">ṭhek</hi>
+                <hi rend="italic">ā</hi> est la composition essentielle de l’accompagnement, révélant la durée d’un <hi rend="italic">t</hi>
+                <hi rend="italic">ā</hi>
+                <hi rend="italic">l</hi> et parfois sa structure, elle sert de support rythmique aux musiciens solistes (chanteurs, instrumentistes). Le <hi rend="italic">tihāī</hi> consiste en la répétition de trois séquences identiques dans laquelle le dernier son coïncide avec le premier temps du cadre temporel (<hi rend="italic">t</hi>
+                <hi rend="italic">ā</hi>
+                <hi rend="italic">l</hi>). Cette figure rythmique est commune à tous les musiciens (chanteurs, instrumentistes mélodiques, percussionnistes) et a pour fonction, au-delà de son esthétique hautement appréciée, de marquer la fin d’une improvisation. Le <hi rend="italic">ṭukra</hi> est une courte pièce dotée de nombreuses syncopes et qui se termine par un <hi rend="italic">tihāī</hi>. Les <hi rend="italic">paran</hi> sont des compositions directement liées à la prosodie où le modèle structurel et compositionnel est le jeu entre syllabes longues et courtes. Les <hi rend="italic">pe</hi>
+                <hi rend="italic">śk</hi>
+                <hi rend="italic">ār</hi>, <hi rend="italic">qāida</hi>, et<hi rend="italic"> relā</hi> comportent des structures répondant à une certaine symétrie à travers l’agencement des frappes et la présence de deux parties. Elles se distinguent toutefois dans leurs structures et leurs fonctions. Alors que le <hi rend="italic">pe</hi>
+                <hi rend="italic">śk</hi>
+                <hi rend="italic">ār</hi>, au rythme très syncopé est utilisé à tempo lent en début de solo, le<hi rend="italic"> qāida </hi>et le<hi rend="italic"> relā </hi>bien que souvent employés en solo, sont des pièces maîtresses de l’accompagnement, jouées sans syncopes mais avec de multiples possibilités de variations, la seconde étant jouée uniquement dans un mouvement rapide. Pour plus de détails, voir Stewart, 1974&#160;; Kippen, 1988 et Bourgeau, 2008.</p>
+            </note>.<hi rend="italic"> </hi>Ces types de compositions comportent de très nombreuses pièces jouées selon les techniques et le style des différents <hi rend="italic">ghar</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">n</hi>
+            <hi rend="italic">ā</hi>. Elles ont des fonctions précises et doivent être interprétées à certains moments de l’accompagnement ou du solo. En raison de la filiation du <hi rend="italic">tablā</hi> avec trois membranophones (<hi rend="italic">pakhāvaj</hi>, <hi rend="italic">ḍ</hi>
+            <hi rend="italic">holak</hi> et <hi rend="italic">n</hi>
+            <hi rend="italic">aqqārā</hi>) aux répertoires et aux techniques bien distincts, le jeu de ces compositions et de ces improvisations combine diverses approches métriques et rythmiques en de complexes intrications (Stewart, 1974&#160;; Kippen, 2000). On constate ainsi la présence des deux types d’organisation temporelle (divisive et additive) mis en avant en musicologie (Arom, 2007, p.&#160;937) et deux orientations rythmiques&#160;: l’une centrée sur les accents (orientation qualitative) et l’autre sur le timbre et la durée des sons (orientation quantitative). Ces caractéristiques, offrant de larges possibilités de jeu, ont permis aux joueurs de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> d’être associés à de nombreux genres musicaux. Alors que l’origine et le développement de la pratique du <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> sont intimement liés à l’émergence et à la popularisation au XVIII<hi rend="sup">e</hi>&#160;siècle du <hi rend="italic">khy</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">l</hi> et de la <hi rend="italic">ṭhumr</hi>
+            <hi rend="italic">ī</hi>, son adaptabilité a favorisé son utilisation au sein d’autres genres plus anciens comme le <hi rend="italic">qavvāl</hi>
+            <hi rend="italic">ī</hi> et le <hi rend="italic">dhrupad</hi> ainsi que dans une myriade d’autres pratiques musicales indiennes et occidentales (Bourgeau, 2010). </p>
+                    <p xml:id="d1e834">La pièce musicale choisie pour l’enseignement du jour était présentée en deux étapes. Elle était tout d’abord récitée à l’aide d’un système de correspondance entre les frappes et des syllabes<note type="standard" xml:id="ftn11" place="foot" n="11">
+              <p> Système de représentation syllabique des contenus musicaux, que l’on retrouve également pour représenter les degrés de l’échelle, présent depuis l’Inde ancienne (Widdess, 1996&#160;; Rowell, 1998, pp.&#160;140-143).</p>
+            </note>. Elle était ensuite jouée sur l’instrument en précisant alors les positions spécifiques de jeu et l’intention musicale à travers les dimensions rythmiques et stylistiques. Quelques indications contextuelles étaient parfois apportées (origine et histoire des <hi rend="italic">ghar</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">n</hi>
+            <hi rend="italic">ā</hi>, précisions sur les catégories rythmiques, circonstances de jeu) accompagnées de temps à autres d’anecdotes concernant tel ou tel artiste, histoires riches d’enseignement car véhiculant souvent les codes et les valeurs des musiciens. A la suite de ces indications, les élèves étaient invités à reproduire la composition oralement en maintenant la battue représentant le cadre temporel (<hi rend="italic">t</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">l</hi>) puis sur leurs instruments en respectant les positions des frappes et l’intention d’interprétation précisée au préalable par le professeur. L’apprentissage de la pièce se poursuivait alors en la répétant de nombreuses fois, avec ou sans le professeur. S’il s’agissait d’un<hi rend="italic"> pe</hi>
+            <hi rend="italic">śk</hi>
+            <hi rend="italic">ār</hi>, d’un <hi rend="italic">qāida</hi> ou d’un<hi rend="italic"> relā</hi>, comme c’était souvent le cas, le professeur introduisait régulièrement, lorsqu’il ressentait que la composition était suffisamment acquise, à l’oral ou en la jouant sur son instrument, une variation (<hi rend="italic">palṭā</hi>) ou un <hi rend="italic">tihāī</hi>
+            <note type="standard" xml:id="ftn12" place="foot" n="12">
+              <p> En effet, de nombreux <hi rend="italic">tihāī </hi>sont élaborés à partir de certaines phrases de <hi rend="italic">peśkār</hi>, <hi rend="italic">qāida</hi>, et<hi rend="italic"> relā.</hi>
+              </p>
+            </note>. Cette méthode permet de développer chez l’étudiant une concentration accrue et une capacité à reproduire dans l’instant un énoncé musical, habilité indispensable à la pratique du musicien hindoustani dans laquelle les improvisations sont marquées par des échanges d’idées, des jeux de question-réponse (<hi rend="italic">savāl jawāb</hi>, <hi rend="italic">jav</hi>
+            <hi rend="italic">āb sa</hi>
+            <hi rend="italic">ṅgat</hi>) ou au contraire, par des passages où les musiciens développent un même rythme (<hi rend="italic">sāth sa</hi>
+            <hi rend="italic">ṅgat</hi>) sur leurs instruments respectifs. Dans le cas du <hi rend="italic">ṭhek</hi>
+            <hi rend="italic">ā</hi>, la répétition de la composition se faisait également en apportant peu à peu les nombreuses et subtiles ornementations que doit connaître le musicien tout en gardant pleinement audible sa structure de base. Le professeur introduisait parfois aussi certains mouvements rapide (<hi rend="italic">ā</hi>
+            <hi rend="italic">mad</hi>) sur les derniers temps du <hi rend="italic">ṭhek</hi>
+            <hi rend="italic">ā</hi> pour mettre en valeur le premier temps du cycle, figure de style très courante dans les genres <hi rend="italic">khy</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">l</hi> et <hi rend="italic">ṭhumr</hi>
+            <hi rend="italic">ī</hi> (Clayton, 2007). Pour les autres compositions (<hi rend="italic">ṭukra </hi>et <hi rend="italic">paran</hi>) seule la répétition à l’identique de ces pièces était suivie, en partie parce qu’elles revêtent souvent des structures complexes et sont jouées sans variations.</p>
+                    <p xml:id="d1e941">Au moment de mes visites, les professeurs ne se référaient à aucun ouvrage précis ou manuel de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> mais à leur mémoire et à leur propre formation. Cette orientation dans le processus de transmission semble perdurer dans d’autres universités. Ainsi, Sanjoy Bandyopadyay, professeur au département de musique de l’université du Sikkim, interrogé récemment, me confiait que ses collègues professeur de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi>, dispensent leurs cours de la même manière. Ainsi, au regard de l’orientation pédagogique observée, la situation était strictement identique à l’enseignement de maître à disciple dans sa version collective. L’enseignement était ainsi de type aural et oral basé sur l’écoute et la reproduction des gestes et du son par imitation et imprégnation et accompagné d’indications précises sur la posture, les doigtés, les rythmes, les nuances et les intentions de jeu. De plus, le fait que le contenu de l’enseignement donnait une large priorité à la répétition de pièces du répertoire habituel des joueurs de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi>, plutôt qu’à une approche théorique, marquait bien une dimension plutôt holistique qu’analytique, fortement présente dans la situation de maître à disciple (Schippers, 2003).</p>
+                </div>
+                <div type="div2" xml:id="d1e958">
+                    <head subtype="level2" xml:id="d1e959">Place de la notation syllabique</head>
+                    <p xml:id="d1e961">Dans ce contexte où prédominait l’oralité je notais la présence importante d’une pratique écrite à travers une notation musicale syllabique. Ainsi, après avoir récité et joué les compositions, les étudiants étaient autorisés à les écrire. Ils employaient alors un système de notation figurant la succession des sons des frappes à l’aide de syllabes, en une transcription de la composition disposée en différentes lignes où apparaît seulement la corrélation avec la structure du cycle (<hi rend="italic">tāl</hi>). Telle qu’elle est communément utilisée, cette notation, associée à la représentation orale des rythmes, s’apparente à celle utilisée tout au long de l’histoire musicale indienne où n’apparaissent pas les indications de rythmes (accent, durée, timbre) et d’ornementations (Widdess, 1996). Elle a pour fonction d’agir comme un support à la mémorisation de l’interprétation d’une pièce. Cette notation se retrouve dans la tradition théorique des traités musicaux mais également, quoique de façon non systématique, dans celle de maître à disciple. </p>
+                    <p xml:id="d1e966">Dans le contexte de l’enseignement universitaire étudié ici, on aurait pu s’attendre à retrouver l’utilisation d’un système de notation beaucoup plus précis apparu notamment au moment des réformes de l’enseignement de la fin du XIX<hi rend="sup">e</hi>&#160;siècle comme celui développé par Dattatreya Vasudev Patwardhan (alias Gurudev). Ce musicien, directeur associé à V.-D.&#160;Paluskar pour diriger le Gāndharva Mahāvidyālaya de<hi rend="italic"> </hi>Lahore est l’auteur du <hi rend="italic">M</hi>
+            <hi rend="italic">ṛdaṅg</hi>
+            <hi rend="italic"> aur Tabl</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic"> V</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">danpaddhati</hi>, un manuel de <hi rend="italic">pakhāvaj</hi> et de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> avec notations présentant un répertoire de 173&#160;compositions, publié en 1903. Dans cette édition, il élabore de remarquables notations inspirées des écrits de V.-D.&#160;Paluskar (Kippen, 2006, pp.&#160;63-66). L’objectif de Gurudev était de réaliser une transformation radicale du système de notation jusqu’alors employé dans la littérature et par certains musiciens tout en conservant la dimension syllabique. S’affirme une volonté de concevoir une notation à destination d’autres personnes, et notamment à des groupes d’étudiants, précisant tous les aspects nécessaires au jeu des compositions. Ainsi celle-ci spécifie les dimensions rythmiques avec des indications d’accentuation et des signes figurant la durée des sons et des silences. Les deux mains sont distinguées mettant en évidence les frappes simultanées et alternées ainsi que la précision d’enchaînements spécifiques de frappes dans le contexte de certaines compositions. Un autre apport important précise la dimension du rythme en distinguant les différents timbres joués. Alors que certaines syllabes admettent différentes positions de frappe et ainsi de spectre sonore, un système de signes désigne dorénavant la corrélation unique entre une syllabe et une frappe correspondante (Kippen, 2006, pp.&#160;66-69). L’ensemble de ces éléments apporte alors une représentation graphique très proche de l’événement sonore. Il s’agit alors en ce début du XX<hi rend="sup">e</hi>&#160;siècle de la plus élaborée des notations rythmiques jamais atteintes pour des compositions de percussions indiennes (Kippen, 2006). </p>
+                    <p xml:id="d1e1001">Or je n’ai pas constaté la présence d’un tel système lors de mes observations en 2001 à Khairagarh et à Varanasi. Nulle trace non plus du système adopté par Shankar Ghosh et conçu par son maître Gjan Prakash Ghosh dans lequel un ensemble de signes précisait les positions des frappes. Trois explications peuvent être avancées pour comprendre l’absence de ces dispositifs mais aussi le maintien de l’ancienne notation syllabique.</p>
+                    <p xml:id="d1e1003">La première est que le système conçu par Gurudev a connu une diffusion très limitée au cours du XX<hi rend="sup">e</hi>&#160;siècle. Dans les éditions ultérieures du manuel (en 1938 et 1982), publiées après la mort de l’auteur, cet ensemble de signes prescriptifs est largement simplifié et tronqué en raison des contraintes typographiques, de la présence de nombreuses coquilles et d’un choix éditorial illustrant l’évolution de la pensée théorique (Kippen, 2006). Dans ces conditions, il est évident que ce système, finalement visible uniquement dans l’édition d’origine et dans les institutions où Gurudev enseignait à Lahore puis Bombay, soit resté très peu connu, même parmi les musiciens et les musicologues. </p>
+                    <p xml:id="d1e1008">Une seconde raison tient à l’importance et à la constance de la transmission orale incluant l’usage de la parole, l’écoute et la reproduction de contenus sonores. Cette situation peut être reliée à la philosophie du son sacralisé, considéré comme une énergie, porteur et medium de connaissances, tel que le présente le <hi rend="italic">Veda</hi>, cet ensemble de savoir –&#160;considéré comme ayant été entendu&#160;– au fondement du monde hindou, réunis en différents textes à partir du XV<hi rend="sup">e</hi>&#160;siècle avant&#160;J.C. Cette importance du son a conditionné en grande partie le mode de transmission des connaissances et a procuré à la personne chargée de les transmettre un statut extrêmement prestigieux. Dans cette orientation, seul le phénomène acoustique (à la fois en tant que parole et son inarticulé) porté par l’enseignant permet l’accès véritable à la connaissance&#160;et cette transmission garantit la validité du savoir<note type="standard" xml:id="ftn13" place="foot" n="13">
+              <p> Sur la prédominance de l’oral sur l’écrit dans la culture indienne, voir C.&#160;Malamoud, 1997, pp.&#160;85-114. </p>
+            </note>. Par contraste, le recours à l’écrit et tous éléments graphiques se substituant à la parole du maître sont suspectés d’entraîner des erreurs menant finalement à une corruption du savoir, voire à sa perte (Widdess, 1996, p.&#160;391). Dans le contexte musulman, en dépit d’une religion développée sur les bases de l’écrit coranique, l’oral est aussi considéré comme supérieur à l’écrit car il est la source originelle de la Révélation de la connaissance et sa transmission ne peut que suivre ce procédé (During, 1994, p.&#160;252).&#160;L’écrit, bien que de moindre importance, a coexisté avec l’oralité, puisqu’il est présent depuis au moins les premiers textes du <hi rend="italic">Veda</hi>. Dans le cadre musical, sous forme de notation, de description et d’analyse, il a servi de support à la préservation d’un savoir théorique et pratique. Les différents traités et encyclopédies qui ont jalonné l’histoire de la musique indienne et les manuscrits de musiciens renfermant des thèmes chantés (<hi rend="italic">bandiś)</hi>, des phrases mélodiques devant être interprétées à un tempo rapide (<hi rend="italic">t</hi>
+            <hi rend="italic">ān) </hi>ou des<hi rend="italic"> paran</hi> témoignent de la présence continuelle de l’écrit au sein des traditions musicales dominées par l’oralité. En conséquence, la maîtrise de l’oralité parmi les musiciens hindoustanis de toutes confessions a pu être un frein à l’adoption et l’usage d’une écriture du son et donc de la notation musicale telle que l’avait conçue Gurudev. L’ancienne notation syllabique, préservant la place essentielle du maître dans le processus de transmission, étant par ses limitations même la concession maximale à l’usage de l’écrit. Autrement dit, on peut faire l’hypothèse que tout au long de l’histoire de la musique indienne et même depuis ce moment de la réforme de l’enseignement à la fin du XIX<hi rend="sup">e</hi>&#160;siècle, la nécessité de développer et d’adopter un système d’écriture a eu peu d’emprise sur les musiciens, cela en raison de cette philosophie du son et de la place essentielle de l’enseignant, garant de la transmission du savoir d’une génération à l’autre.</p>
+                    <p xml:id="d1e1038">Enfin, un troisième argument, liée à l’attachement au répertoire et à sa propriété intellectuelle, gage de reconnaissance professionnelle et vitale, peut être apporté. Un système de notation précis et compris par tous aurait certainement entraîné une grande diffusion du répertoire, phénomène de propagation qui a longtemps été soigneusement contenu. En effet, lorsque les musiciens dépendaient presque exclusivement des mécénats princiers et aristocratiques, le répertoire –&#160;ou tout au moins certaines compositions ou techniques&#160;– était tenu secret car il représentait un style ayant les faveurs de tel ou tel homme de pouvoir. En l’absence de tout système de droit d’auteur et de contrat d’édition, seule la qualité du répertoire était la garantie du soutien d’un patron assurant la viabilité professionnelle de la pratique du musicien et de sa lignée. Cette attitude vis-à-vis du répertoire est restée très vivace tout au long du XX<hi rend="sup">e</hi>&#160;siècle comme en témoignent des anecdotes de maîtres qui ont gardé secrètes certaines de leurs compositions tout au long de leur vie, ne les transmettant qu’à un âge avancé à leurs meilleurs disciples<note type="standard" xml:id="ftn14" place="foot" n="14">
+              <p> Information relatée par le joueur de <hi rend="italic">tablā</hi> Abhijit Banerjee lors de nos entretiens à Calcutta en janvier 2001.</p>
+            </note>. Ces comportements ont certainement été une entrave à une représentation graphique précise des nombreuses compositions. En craignant que celles-ci ne se dispersent, ces méthodes de transcriptions n’auraient pas été adoptées par les musiciens et finalement peu relayées au sein des écoles et des universités. Ceci a pu constituer une résistance face à la diffusion des pratiques musicales engendrées par les nombreux supports de médiatisation qui se sont imposés depuis le milieu du XX<hi rend="sup">e</hi>&#160;siècle&#160;: radio, enregistrements audio et vidéo, concerts publics et enfin internet avec ses plateformes de <hi rend="italic">streaming</hi>… </p>
+                    <p xml:id="d1e1056">La notation syllabique, communément utilisée dans la situation de maître à disciple et donc à l’université comme je l’ai constaté, est également présente au sein de nombreux manuels de <hi rend="italic">tablā</hi> présentant les techniques et le répertoire des différents <hi rend="italic">gharānā</hi>. En plus de «&#160;classiques&#160;» relativement anciens (par exemple&#160;: Manuji, 1932&#160;; <hi xml:lang="fr">Mulgaokar, 1975), de </hi>nombreux ouvrages<hi xml:lang="fr"> </hi>ont été publiés en anglais et en hindi ces dernières décennies, accompagnant la montée progressive de la popularisation de cet instrument<note type="standard" xml:id="ftn15" place="foot" n="15">
+              <p> Voir en bibliographie quelques exemples de livres publiés depuis 2005.</p>
+            </note>. Si ces ouvrages ne sont pas employés par les professeurs de pratique instrumentale dans le cadre de leurs cours, comme je l’ai constaté à Khairagard et Varanasi, en partie parce que la démarche d’enseignement est marquée par le modèle nord indien de maître à disciple, il est possible de les retrouver dans les bibliothèques de campus où les étudiants sont généralement encouragés à les consulter en même temps que les ressources en ligne de plus en plus nombreuses. Ils peuvent ainsi se référer à ces ouvrages spécialisés et s’en inspirer sans toutefois avoir la garantie que leurs interprétations seront sans erreur puisque la plupart du temps les notations sont dépourvues de précisions rythmiques essentielles. La diffusion et l’adoption d’une notation plus précise, comme celles élaborées par Gurudev et Gyan Prakash Ghosh, auraient permis aux auteurs d’ouvrages sur le <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> d’uniformiser les nombreuses transcriptions de compositions afin de réellement mettre en valeur ces répertoires et de remplir le rôle de conservation du patrimoine oral généralement mis en avant à l’occasion de la parution de ces ouvrages.</p>
+                </div>
+                <div type="div2" xml:id="d1e1080">
+                    <head subtype="level2" xml:id="d1e1081">La relation professeurs étudiants </head>
+                    <p xml:id="d1e1083">La prégnance du modèle du maître à disciple transparaît également à travers différents comportements qui accompagnent le déroulement des cours et la poursuite de la formation à l’université. Le fait que des contacts entre élèves et professeurs puissent avoir lieu en dehors des séances de cours, comme c’est très souvent le cas dans la relation de maître à disciple, atteste de l’empreinte de ce modèle dans le contexte universitaire. Ainsi il arrive que lorsque leurs enseignants résident près des campus, comme j’ai pu le constater à Khairagarh, certains étudiants leurs rendent visite régulièrement. Comme dans la relation de maître à disciple, cette proximité ne consiste pas à donner ou recevoir une leçon de musique, mais s’inscrit dans l’intention de rendre quelques services, de s’imprégner des habitudes du maître et de ses activités et en fin de compte de prendre pour modèle une certaine éthique. Cette expérience, source de savoir divers, est considérée comme très importante et indissociable de l’enseignement musical. Sanjoy Bandopadhyay, enseignant de <hi rend="italic">sitar</hi> à l’université de Khairagarh de 1980 à 2001, incitait à ce genre de relation. Ceci a par ailleurs été encouragé à partir de la seconde moitié du XX<hi rend="sup">e</hi>&#160;siècle par diverses institutions, comme la Sangeet Research Academy de Calcutta, en tentant de faire le lien entre les deux systèmes d’enseignement et en favorisant la présence des enseignants<hi rend="italic"> </hi>sur les campus. </p>
+                    <p xml:id="d1e1094">Se retrouve également dans le contexte universitaire l’acte de toucher les pieds, attitude bien présente dans les relations de maîtres à disciples. Ce geste, réalisé avant et après les cours au moment de la prise de contact et du congé, s’accompagne du fait de porter immédiatement la main à la poitrine ou au front. Il s’agit d’une attitude très courante en Inde exprimant un grand respect à l’égard d’une personne en raison de ses connaissances, de ses compétences et de ses qualités éthiques ou simplement de ses liens familiaux. Dans le cadre de l’enseignement il comporte un sens plus précis&#160;: selon Sri Hanuman<note type="standard" xml:id="ftn16" place="foot" n="16">
+              <p> Musicien et enseignant de <hi rend="italic">nād-yoga</hi>. </p>
+            </note>, le pied symbolise l’endroit de l’ouverture de l’être, c’est par là que la connaissance passe en premier et imprègne l’individu<note type="standard" xml:id="ftn17" place="foot" n="17">
+              <p> Conversation personnelle, Nice, décembre 2002.</p>
+            </note>. Le fait de toucher les pieds d’une personne peut ainsi indiquer que l’on a beaucoup à apprendre d’elle tout en exprimant une grande considération. Dans le cadre universitaire, cette action commune envers l’enseignant est ainsi largement en usage comme un prolongement des habitudes communes extérieures de marques de respect. </p>
+                    <p xml:id="d1e1107">Enfin, j’ai constaté à de nombreuses reprises l’emploi des termes <hi rend="italic">guru</hi> et <hi rend="italic">ust</hi>
+            <hi rend="italic">ād </hi>à la place du patronyme de l’enseignant ce qui est une règle absolue dans la voie de maître à disciple en signe également de respect. Alors que les termes de <hi rend="italic">guru</hi> et d’<hi rend="italic">ust</hi>
+            <hi rend="italic">ād</hi> appartiennent respectivement à des environnements culturels hindous et musulmans, leurs emplois dans le contexte de la musique hindoustanie ne révèlent pas forcément une opposition selon les appartenances religieuses. Ainsi la principale signification du terme <hi rend="italic">guru</hi> –&#160;l’action d’enseigner et plus précisément de guider&#160;– profondément ancrée dans la culture hindoue, pourra être utilisée et justifiée pour qualifier des musiciens musulmans<note type="standard" xml:id="ftn18" place="foot" n="18">
+              <p> Par exemple, le joueur de <hi rend="italic">sarod</hi> Amjad Ali Khan utilise ce terme pour présenter son maître et père, Hafiz Ali&#160;Khan (CD&#160;CDNF 150072, 1992). Dans le film de R. George «&#160;Dagarvani&#160;» (1993) et dans une vidéo (<ref target="https://youtu.be/541X22Yz1mw">https://youtu.be/541X22Yz1mw</ref>), le chanteur de <hi rend="italic">dhrupad</hi> Wassifuddin Dagar et Zakir Hussain emploient ce terme pour rendre hommage à leurs maîtres, respectivement l’oncle (N.&#160;Zahiruddin Dagar) et le père (Alla Rakha). </p>
+            </note>. De même, le terme d’<hi rend="italic">ust</hi>
+            <hi rend="italic">ād</hi> a pu être adressé à des musiciens hindous en raison de leur grande compétence artistique. Signifiant littéralement en persan de façon large «&#160;maître&#160;», il est devenu dans le contexte de la musique hindoustanie et de l’importance des <hi rend="italic">gharānā</hi>, surtout au XIX<hi rend="sup">e</hi>&#160;siècle, plus spécifiquement un vocable d’adresse honorifique, la marque d’une identité sociale liée au contexte prestigieux du patronage musical des cours princières <hi xml:lang="fr">(Silver, 1976, p.&#160;27).</hi> Il a pu être ainsi attribué à tout musicien réputé quelque soit son appartenance religieuse. Cet usage, selon J.&#160;Kippen, s’est poursuivi tout au long du XX<hi rend="sup">e</hi>&#160;siècle et encore récemment dans le Punjab<note type="standard" xml:id="ftn19" place="foot" n="19">
+              <p> Conversation personnelle, Nice, juin 2004. Cependant, cette situation est de plus en plus rare dans le contexte actuel dominé par la montée du nationalisme hindou&#160;; les musiciens réputés de confession hindoue sont quasiment tous appelés par le terme sanskrit <hi rend="italic">pa</hi>
+                <hi rend="italic">ṇdit</hi>.</p>
+            </note>. Dans le contexte de l’enseignement à l’université et de la relation professeur-élève, l’emploi de ces termes semblent toutefois plus relever d’habitudes de politesse et de courtoisie envers l’enseignant et de leur lien avec la musique hindoustanie, que d’une attitude de dévotion et de profond respect qui ressort habituellement de la relation de maître à disciple. </p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e1169">
+                <head subtype="level1" xml:id="d1e1170">Conséquences <hi xml:lang="fr">esthétiques et sociales </hi>
+        </head>
+                <p xml:id="d1e1174">Le second enjeu sur lequel je voudrais apporter une contribution concerne l’impact sur le plan artistique et social de cette formation dans les universités. </p>
+                <div type="div2" xml:id="d1e1176">
+                    <head subtype="level2" xml:id="d1e1177">Limites de la formation</head>
+                    <p xml:id="d1e1179">Parmi les principaux objectifs de l’enseignement universitaire, se trouve celui, souvent mis en avant, de former des musiciens professionnels, représentants de la prestigieuse tradition du <hi rend="italic">rāg</hi>. Dans la liste présente sur le site de Faculty of Performing Arts<hi rend="italic"> </hi>de la BHU, cette visée figure en première place<note type="standard" xml:id="ftn20" place="foot" n="20">
+              <p> <ref target="http://www.bhu.ac.in/performing_arts/instrumental_music/">http://www.bhu.ac.in/performing_arts/instrumental_music/</ref>. Les autres objectifs, abordés plus loin, sont&#160;: former des enseignants, encourager la recherche musicologique et l’interdisciplinarité, apporter des connaissances théoriques et pratiques utiles à l’obtention de différents emplois dans le monde de l’art et enfin promouvoir la musique dite «&#160;classique&#160;» («&#160;<hi rend="italic">classical</hi> <hi rend="italic">music</hi>&#160;»), sous-entendu la musique des <hi rend="italic">rāg</hi>. Sur l’apparition et l’usage du terme «&#160;<hi rend="italic">classical</hi>&#160;» dans la musique hindoustanie provenant du contexte orientaliste du début du XX<hi rend="sup">e</hi>&#160;siècle voir Le Gargasson 2015&#160;: chap&#160;IV. Sa réappropriation progressive, par les musiciens et les autres acteurs du milieu musical, en tant que catégorie dans la hiérarchie des pratiques musicales liées au <hi rend="italic">rāg</hi> en a engendré d’autres comme «&#160;<hi rend="italic">light classical&#160;</hi>» et «&#160;<hi rend="italic">light</hi>&#160;» réunissant pour la première les différents styles de <hi rend="italic">ṭhumr</hi>
+                <hi rend="italic">ī</hi> et pour la seconde les <hi rend="italic">bhajan, ghazal</hi> et dans certains cas le <hi rend="italic">qavvāl</hi>
+                <hi rend="italic">ī</hi>. </p>
+            </note>. Or le constat de plus d’un siècle est qu’à de rares exceptions près, cette formation ne peut déboucher à elle seule sur une carrière de concertiste. Pourquoi cette formation ne permet pas de renouveler les générations de musiciens et notamment ceux portant la tradition du <hi rend="italic">rāg</hi>&#160;? Si l’on considère les compétences minimales attendues par les principaux acteurs de cette tradition (musiciens, musicologues, organisateurs de concerts et mélomanes) dans la connaissance et l’élaboration des <hi rend="italic">rāg</hi> au sein des principaux genres hindoustanis (<hi rend="italic">dhrupad</hi>, <hi rend="italic">khyāl, ṭhumr</hi>
+            <hi rend="italic">ī</hi>) deux points semblent décisifs&#160;: la spécialisation musicale et stylistique et le temps de la formation dédiée à une pratique assidue et intensive. </p>
+                    <p xml:id="d1e1248">Ces pratiques musicales se sont constituées depuis plusieurs siècles au sein de lignées de spécialistes consacrant leur existence entière à l’élaboration de leur art et en maintenant des générations de musiciens professionnels, grâce en grande partie au patronage artistique des cours princières et des milieux aristocratiques. Depuis le début du XX<hi rend="sup">e</hi>&#160;siècle, avec l’évolution politique, les sources de revenus des musiciens se sont diversifiées. Alors que le déclin des cours princières pouvait mettre en péril la tradition hindoustanie, de nouvelles opportunités d’emplois sont apparues. Elles émanent de diverses actions des pouvoirs en place&#160;sous forme de mécénat princier et privé et, depuis l’avènement de la nation indienne, de politiques culturelles publiques, avec notamment l’œuvre de la Sangeet Natak Akademi<note type="standard" xml:id="ftn21" place="foot" n="21">
+              <p> Celle ci<hi rend="italic"> </hi>assure depuis 1952 la préservation et la promotion des arts vivants indiens (musique, danse et théâtre) à travers de multiples actions. </p>
+            </note>
+            <hi rend="italic">.</hi> Ces initiatives ont permis la création d’institutions d’enseignement avec l’ouverture de postes de professeurs proposés à d’éminents musiciens<note type="standard" xml:id="ftn22" place="foot" n="22">
+              <p> <hi xml:lang="fr">Comme Abid Hussain et Ahmadjan Thirakwa (Kippen 1997, p.&#160;</hi>191) dans le cas de cours de <hi rend="italic">tablā</hi>. Au cours du XX<hi rend="sup">e</hi>&#160;siècle, le recrutement se fera sous condition de diplômes et donc ouvert à des musiciens ayant suivi le cursus universitaire, bien que de nombreux professeurs en place ont reçu parallèlement une formation dans une lignée de maître à disciple (voir plus loin).</p>
+            </note>. Elles ont favorisé également le développement de multiples opérations de promotion des arts comme le soutien à des programmes de radio et de télévision dédiés à la musique ou des collaborations dans l’organisation de festivals et de concerts. D’autre part, la forte croissance des concerts en Inde ou à l’étranger, l’essor des cours privés rémunérés –&#160;alors que ce n’était pas forcément le cas auparavant&#160;– et la possibilité de participer à des enregistrements pour des maison de disques, des labels ou pour l’industrie du cinéma sont venus compléter les sources de revenus. Ainsi, la profession de musicien hindoustani dépend de ces possibilités qui sont apparues dans le monde indien contemporain. Le fait d’appartenir au monde de la musique hindoustanie à travers un <hi rend="italic">gharānā</hi> reconnu est alors très important pour prétendre être associé favorablement à ces différentes offres de cette vie professionnelle. Une vie dont la trajectoire est souvent incertaine et parfois difficile en raison d’une forte concurrence entre musiciens, amplifiée potentiellement par les différentes appartenances identitaires (Jugand, 2012&#160;; Le&#160;Gargasson, 2018). Ainsi, ces lignées ont cultivé à l’intérieur même de ces différents genres hindoustanis des styles distinctifs approfondissant au fil des générations des répertoires, des techniques et des esthétiques. Par conséquent, au sein de la tradition de maître à disciple, les <hi rend="italic">guru</hi> sont conscients de ce patrimoine et de sa qualité d’autant plus que celui-ci a été largement valorisé par l’État indien<note type="standard" xml:id="ftn23" place="foot" n="23">
+              <p> Par diverses distinctions et prix, la Sangeet Natak Akademi salue régulièrement de nombreux artistes et leurs lignées.</p>
+            </note>. Ainsi, ils mettent tout en œuvre pour former des musiciens capables de représenter cette tradition à travers un enseignement très spécialisé dans le style particulier de leurs lignées. Cet apprentissage débute parfois dès le plus jeune âge et se poursuit pendant de longues années et au moins deux décennies de pratique assidue sont souvent nécessaires pour permettre au musicien de commencer à se produire régulièrement sur les scènes musicales de la «&#160;<hi rend="italic">classical music&#160;</hi>». Plus encore, les musiciens disent souvent que l’apprentissage ne se termine jamais, qu’une vie ne suffit pas à atteindre l’idéal musical, qu’il y a toujours des compositions à apprendre, des techniques à affiner, que l’élaboration de l’improvisation est constamment à renouveler et nécessite une démarche constante de recherche et de pratique de jeu. </p>
+                    <p xml:id="d1e1289">Dans le cadre universitaire présenté ici, les cours sont dispensés pendant environ une dizaine de mois et la formation est poursuivie en général sur plusieurs années<note type="standard" xml:id="ftn24" place="foot" n="24">
+              <p> Voir par exemple l’offre de formation proposée par la Faculty of Performing Arts<hi rend="italic"> </hi>de BHU et la mention des diplômes<hi rend="italic">&#160;</hi>: <ref target="http://www.bhu.ac.in/performing_arts/courses.php">http://www.bhu.ac.in/performing_arts/courses.php</ref> l</p>
+            </note>. Des épreuves pratiques et théoriques clôturent les années universitaires et débouchent, en cas de succès, sur différents diplômes. Lors de ses recherches à Lucknow dans les années 1980, J. Kippen constatait l’important programme, en terme de volume, devant être connu pour deux examens différents, celui de la troisième année (<hi rend="italic">Madhyama</hi>) et de la cinquième (<hi rend="italic">Visharad</hi>) (Kippen, 1988, p.&#160;138). Cette situation est corroborée par mes propres observations à Khairagarh et Bénarès. Ce programme important découle en partie de l’orientation générale de l’enseignement institutionnel mettant l’accent sur la transmission d’un savoir étendu et exhaustif. Dans le cas du <hi rend="italic">tablā</hi> cela apparaît dans une volonté d’aborder les caractéristiques principales du répertoire de tous les<hi rend="italic"> gharānā</hi> plutôt que de se cantonner sur des compositions et des techniques de jeu et d’improvisation relatives à une tradition spécifique comme dans la tradition de maître à disciple. Ainsi, les étudiants se voient contraints d’assimiler dans sa globalité le répertoire du <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> décrit plus haut (techniques, types de composition et procédé d’improvisation) avec de nombreuses compositions relatives à tous les <hi rend="italic">gharānā. </hi>Ils doivent également acquérir des connaissances théoriques et générales en musicologie et en histoire de la musique hindoustanie. Cette dernière exigence nécessite, en plus des cours spécialisés, la consultation de documents en bibliothèque ou en ligne. Les épreuves pratiques consistent en une exposition d’un solo (pouvant durer plus de 30 minutes) devant être complétée par une explication orale des enchaînements et des structures des compositions. Les épreuves théoriques sont écrites et portent sur des questions d’ordre général (biographie de musicien, histoire et organologie, connaissance des différents traités…) et spécifique à la culture du <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic"> </hi>(histoires et caractéristiques des <hi rend="italic">gharānā</hi>). </p>
+                    <p xml:id="d1e1335">J’ai pu observer que les deux critères assurant la dynamique des musiques de <hi rend="italic">rāg</hi> dans la formation de maître à disciple –&#160;la spécialisation musicale et stylistique et le temps consacré à une pratique assidue et intensive&#160;– font défaut dans la formation universitaire. La double demande de connaissances (pratiques et théoriques) s’affiche comme un des obstacles majeurs. Même si ces deux aspects de l’apprentissage sont complémentaires et souhaitables, peu de personnes arrivent à les conjuguer avec succès. De plus ces exigences ne sont pas sans apporter une gêne chez certains étudiants tiraillés entre ces apprentissages obligatoires et le temps qu’ils demandent, temps qu’ils pourraient consacrer à leur pratique instrumentale. La réalité montre en outre un décalage entre cet objectif ambitieux d’acquisition de connaissances et les moyens qui sont mis pour y parvenir&#160;: finalement peu de cours de pratique instrumentale en terme de fréquence et de volume et surtout, malheureusement, assez peu d’enthousiasme des enseignants que j’ai rencontré. Cette attitude semble révéler en fait leur manque de conviction devant un système inadapté à former un musicien conforme aux exigences du monde musical professionnel. Celui-ci attend d’une personne qu’il soit capable à la fois de présenter une connaissance approfondie pratique et théorique d’au moins une des traditions de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> (tout en pouvant présenter certains éléments des autres) et d’incarner cette compétence à travers sa personnalité et sa créativité. Ce manque de conviction –&#160;et finalement cette prise en compte de la contradiction flagrante avec leurs propres pratiques de musicien&#160;– émanait notamment d’une discussion avec un joueur de <hi rend="italic">tablā</hi> de Khairagarh, J.&#160;Patel, responsable des classes formant au <hi rend="italic">Bachelor Degree</hi>. Il me signifiait l’importance capitale pour le développement d’une technique optimale de consacrer plusieurs semaines voire plusieurs mois à la répétition d’un seul motif rythmique afin d’approcher un son et des articulations de frappes satisfaisantes. Il prenait notamment l’exemple du <hi rend="italic">ṭhek</hi>
+            <hi rend="italic">ā</hi>
+            <note type="standard" xml:id="ftn25" place="foot" n="25">
+              <p> Voir note 10.</p>
+            </note>, appartenant aux types de compositions de l’accompagnement et ainsi au rôle fondamental attendu des joueurs de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> (Bourgeau, 2008, pp.&#160;141-146). Cette indication pédagogique était appliquée en particulier au <hi rend="italic">ṭhek</hi>
+            <hi rend="italic">ā</hi>
+                        <hi rend="italic">t</hi>
+            <hi rend="italic">ī</hi>
+            <hi rend="italic">ntāl</hi>, composition sur le <hi rend="italic">tāl</hi> en 16 temps (<hi rend="italic">tritāl</hi>), très couramment utilisée,<hi rend="italic"> </hi>jouée<hi rend="italic"> </hi>à un tempo medium (<hi rend="italic">madhya laya</hi>). Pour beaucoup de musiciens, le jeu de l’accompagnement avec le <hi rend="italic">ṭhek</hi>
+            <hi rend="italic">ā</hi> demande une attention sur de longues années afin de servir au mieux la prestation du soliste chanteur ou instrumentiste. Plus encore, une synergie est recherchée pour que de l’interaction entre le soliste et l’accompagnateur dans le cours de la performance émerge un véritable langage musical commun. Cette exigence technique dans la pratique, nécessitant de longues heures de travail, est ainsi mise en avant par tous les enseignants dans la voie de maître à disciple, comme le rappel souvent Zakir Hussain à l’occasion de ses Master-class<note type="standard" xml:id="ftn26" place="foot" n="26">
+              <p> Notamment, le 4/11/2012 à Villefranche-sur-mer.</p>
+            </note>. La consigne avancée par J.&#160;Patel, prônant une pratique exclusive et prolongée (<hi rend="italic">riyāz</hi>) –&#160;pouvant également s’appliquer à d’autres types de composition comme le <hi rend="italic">qāida</hi> notamment&#160;– apparaît ainsi en contradiction flagrante avec les attentes du milieu institutionnel contraignant l’étudiant à apprendre et réviser un grand nombre de compositions dans des temps très courts. </p>
+                    <p xml:id="d1e1409">Cette défiance par rapport à ce système est accrue par un certain décalage avec la réalité musicale contemporaine. Ainsi, sur la masse des matériaux musicaux devant être appris, il y a certaines compositions anciennes et rarement jouées comme les <hi rend="italic">stuti paran</hi> (prières associant textes et syllabes représentant des frappes) alors que les étudiants sont souvent sous l’emprise du modèle de certains musiciens devenus l’objet d’un véritable culte et qui présentent souvent des jeux novateurs. De plus, l’attrait grandissant pour les genres dit «&#160;<hi rend="italic">light&#160;» </hi>(comme les&#160;<hi rend="italic">ghazal</hi> et les <hi rend="italic">bhajan</hi>) complète cette dissonance car ces genres ne nécessitent pas forcément l’apprentissage des nombreuses compositions jouées dans le «&#160;<hi rend="italic">classical</hi>&#160;» et demandées aux examens. Un cercle vicieux se dessine alors où les aînés reprochent aux étudiants de passer plus de temps à essayer d’imiter tel ou tel artiste et à jouer des <hi rend="italic">bhajan</hi> et <hi rend="italic">ṭhumr</hi>
+            <hi rend="italic">ī</hi> dans leurs chambres universitaires qu’à développer une pratique progressive et rationnelle à partir de quelques compositions<note type="standard" xml:id="ftn27" place="foot" n="27">
+              <p> Ishvarlal Misra disciple avec Chhotelal Misra de Anoukheylal Misra, exposait souvent cette critique lors de nos entretiens en 2001. </p>
+            </note>. Ces deux exemples montrent ainsi une certaine inadéquation du contenu de l’enseignement avec les attentes des élèves. Cependant j’ai remarqué que certains professeurs pouvaient être aussi attentifs à la pratique des musiciens actuels et à la prise en compte de l’attrait qu’ils constituent pour les étudiants. Ainsi Mukund Bhale expliquait aux étudiants les apports stylistiques de Zakir Hussain, un musicien considéré comme une des références majeures, notamment pour la jeune génération, en raison de sa personnalité et de ses exceptionnelles qualités artistiques lui ayant permis de développer de nombreuses collaborations avec des musiciens occidentaux tout en restant un musicien incontournable de la musique hindoustanie. Les propositions novatrices de Zakir Hussain concernent notamment le jeu du <hi rend="italic">tihāī</hi>
+            <note type="standard" xml:id="ftn28" place="foot" n="28">
+              <p> Voir note 10.</p>
+            </note>. Bousculant un peu la forme de cette composition, il interprète de temps à autre un <hi rend="italic">tihāī</hi> où les trois phrases sont jouées dans des vitesses (<hi rend="italic">lay</hi>) différentes, offrant alors un jeu rythmique (<hi rend="italic">layakārī</hi>) supplémentaire, à l’intérieure de la composition.</p>
+                </div>
+                <div type="div2" xml:id="d1e1455">
+                    <head subtype="level2" xml:id="d1e1456">Atouts de l’enseignement universitaire</head>
+                    <p xml:id="d1e1458">Si sur le plan esthétique et artistique, l’académisation de l’enseignement du <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> témoigne de quelques limites, sur le plan social, elle comporte de nombreux atouts et satisfait aux autres objectifs des universités. Parmi les souhaits des réformateurs de l’enseignement de la fin du XIX<hi rend="sup">e</hi>&#160;siècle il y avait celui très important de proposer et de diffuser au maximum l’art musical des <hi rend="italic">r</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">g</hi>. En effet, cet art était jusqu’alors l’occupation de certaines familles de spécialistes et en majorité des musulmans de basses castes. Une volonté est apparue d’ouvrir cette tradition du <hi rend="italic">r</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">g</hi> au plus grand nombre et plus particulièrement de toucher des familles de non musicien. Cette résolution s’est affirmée avec la présence, plus ou moins ou moins forte selon les réformateurs, d’un nationalisme indien et hindou (<hi xml:lang="fr">Bakhle, 2005&#160;; Kippen, 2006).</hi> Ainsi, avec le développement des institutions d’enseignement, de nombreux enfants de la classe moyenne, et hindous en particulier, ont pu ainsi avoir accès à une formation musicale. Cette évolution a participé à la valorisation progressive de ces musiques de <hi rend="italic">r</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">g </hi>au cours du XX<hi rend="sup">e</hi>&#160;siècle entreprise par ailleurs par différentes politiques culturelles, a tel point que le fait de pratiquer le chant ou un instrument de musique a peu à peu constitué un des symboles prestigieux de cette classe moyenne. Sauf dans le cas où ces familles de non musiciens connaissent un <hi rend="italic">guru</hi> en qui elles ont une entière confiance, les parents placeront en priorité leurs enfants dans ces écoles privées et publiques. Même si, dans l’esprit de beaucoup, ces institutions ne peuvent former des musiciens professionnels, elles ont l’avantage de proposer un enseignement relativement cohérent, avec un programme établi à l’avance, d’assurer des garanties de suivi de l’enseignant et de délivrer diplômes. Ces titres assurent aux étudiants une qualification reconnue par les diverses instances du pays et occupent une place importante dans le <hi rend="italic">curriculum vitae</hi> pour de futures démarches d’emplois mais aussi comme gage de respectabilité. </p>
+                    <p xml:id="d1e1503">Au regard de l’importance sociale de ces diplômes, de nombreuses personnes suivent en parallèle l’enseignement à l’université et celui de maître à disciple. Quelle que soit la qualité des cours à l’université, la course au diplôme est d’une importance capitale. Ainsi, afin de mettre de leur côté toutes les chances en vue de la réussite de leurs examens et pour pallier au relatif manque de préparation et de suivi décrit plus haut, les étudiants inscrits à l’université se tournent souvent, parallèlement à leurs études, vers un enseignement privé, pouvant déboucher de temps à autre sur un enseignement de maître à disciple lorsque le <hi rend="italic">guru</hi> est convaincu que la motivation de l’élève dépasse la simple exigence universitaire. De nombreux étudiants que j’ai côtoyés tant à Varanasi qu’à Khairagarh prenaient ainsi des cours avec des maîtres en dehors de l’université lesquels se trouvaient souvent être les mêmes musiciens, assumant les deux rôles comme c’était le cas pour Chhotelal Misra. D’un autre côté, de nombreux jeunes musiciens qui suivent un enseignement de maître à disciple et qui s’orientent vers une carrière d’artiste s’inscrivent également dans les universités. Cette démarche est souvent encouragée même par leurs maîtres, dans le simple but d’obtenir ces diplômes et cette reconnaissance sociale. Ainsi j’ai assisté aux séances d’examens du <hi rend="italic">Master degree</hi> de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> à Khairagarh où deux disciples de Sabir Khan et d’Alla Rakha, deux maîtres réputés de cet instrument, étaient présents. Nul doute que l’objectif de cette démarche était la recherche d’une reconnaissance institutionnelle utile pour leur avenir. Le faible coût des enseignements à l’université et le système de bourse offert aux familles à faibles revenus, rendent cette inscription envisageable, comme ce fut le cas pour Ajay Kumar Pathak, un étudiant inscrit à la BHU en 2001, originaire du Bihar et disciple de Chhotelal Misra<note type="standard" xml:id="ftn29" place="foot" n="29">
+              <p> Les organisations gouvernementales permettent à de nombreux indiens de bénéficier d’une bourse et d’avoir accès à des chambres universitaires.</p>
+            </note>. Par ailleurs, en dehors de la question des diplômes, à l’instar de l’exemple introduit à Allahabad par le Prayāg Saṅgīt Samiti<note type="standard" xml:id="ftn30" place="foot" n="30">
+              <p> <ref target="https://www.prayagsangeetsamiti.co.in">https://www.prayagsangeetsamiti.co.in</ref>
+              </p>
+            </note>, le milieu universitaire organise tout au long de l’année différentes compétitions entre jeunes étudiants. Ajay Kumar Pathak, me rappelait souvent ces voyages dans les autres états du Nord de l’Inde pour se rendre à ces compétitions, notamment celle de Calcutta en 1999 –&#160;the <hi rend="italic">East Zone Inter University Youth competition</hi>&#160;– où il reçut le premier prix. Ces épreuves sont également ouvertes aux personnes engagées uniquement dans la voie de maître à disciple. Elles permettent d’accroître les liens entre les deux systèmes d’enseignement et pour les étudiants du milieu universitaire, elles assurent une bonne préparation aux examens. Elles représentent en outre une motivation supplémentaire étant donné la qualité de certains jeunes musiciens provenant de familles de musiciens ou suivant également un enseignement de maître à disciple. </p>
+                    <p xml:id="d1e1530">Au-delà de la formation d’interprète, les enseignements dans les universités de musique apportent de réelles connaissances et compétences pour envisager un avenir professionnel non seulement dans le domaine de l’enseignement musical mais également dans celui de la recherche en musicologie. Cette offre de formation apporte également des connaissances techniques qui permettront à des étudiants de trouver un emploi dans le monde musical (ingénieur du son, édition musicale, agent artistique…).</p>
+                </div>
+                <div type="div2" xml:id="d1e1532">
+                    <head subtype="level2" xml:id="d1e1533">Valorisation d’un statut social et musical </head>
+                    <p xml:id="d1e1535">Une autre conséquence importante de l’enseignement universitaire est qu’il a contribué à une reconsidération du statut social des joueurs de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> et de leurs lignées. Le processus de reconnaissance des musiques de <hi rend="italic">r</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">g</hi> à travers l’enseignement universitaire et l’implication des instances gouvernementales a eu pour effet la mise en valeur des <hi rend="italic">ghar</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">n</hi>
+            <hi rend="italic">ā</hi>, les différentes traditions familiales et stylistiques qui apparaissent comme de véritables institutions sociales en ce qu’elles présentent un ensemble de pratiques, de rites et de règles de conduite entre des personnes. Ce mot qui s’applique uniquement au contexte des musiques de <hi rend="italic">r</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">g</hi> de l’Inde du Nord, est utilisé depuis le milieu du XIX<hi rend="sup">e</hi>&#160;siècle (Deshpande, 1987). Alors qu’à la fin du XIX<hi rend="sup">e</hi>&#160;siècle se développait une perception négative des lignées de musiciens porteurs des traditions de <hi rend="italic">r</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">g</hi> avec l’idée qu’elles étaient responsables du déclin supposé de ces traditions musicales (<hi xml:lang="fr">Bakhle, 2005&#160;; Kippen, 2006)</hi>, un changement de regard s’opère avec leur progressive valorisation. Peu à peu, parce que ces lignées sont reconnues comme assurant la dynamique des traditions musicales hindoustanies, elles vont acquérir une aura prestigieuse. Bénéficiant de cette considération favorable, les membres de ces lignées se dotèrent alors, d’un point de vue identitaire, d’une appartenance valorisée, celle de musicien hindoustani.</p>
+                    <p xml:id="d1e1583">Alors que le terme <hi rend="italic">ghar</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">n</hi>
+            <hi rend="italic">ā</hi> n’est d’abord employé que par les chanteurs et les instrumentistes solistes pour désigner leurs propres traditions, ce n’est qu’à partir du milieu du XX<hi rend="sup">e</hi>&#160;siècle, qu’il est utilisé par les joueurs de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi>. Il remplace alors, sans toutefois le faire disparaître totalement, le terme <hi rend="italic">bāj</hi>
+            <note type="standard" xml:id="ftn31" place="foot" n="31">
+              <p> Ce mot, désignant l’action de jouer mais également spécifiquement un «&#160;style&#160;», était largement utilisé pour distinguer les différentes lignées.</p>
+            </note>
+            <hi rend="italic">. </hi>Le choix du mot <hi rend="italic">ghar</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">n</hi>
+            <hi rend="italic">ā</hi> par les joueurs de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic"> </hi>apparaît alors comme une volonté stratégique dans le but de bénéficier de la reconnaissance institutionnelle de ces lignées de musiciens associés aux musiques de <hi rend="italic">r</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">g</hi>. Cette préférence, conjuguée à la progressive mise en valeur de leur rôle musical<note type="standard" xml:id="ftn32" place="foot" n="32">
+              <p> Phénomène qui se met en place à partir des années 1960 avec notamment l’accueil très favorable en Occident de leur jeu. Ce fait qui a eu des répercutions en Inde par le processus de la circulation des savoirs musicaux s’est en partie développé grâce aux initiatives de Ravi Shankar dans les techniques d’accompagnement (Bourgeau, 2010).</p>
+            </note>, a favorisé l’effacement d’un stigmate qu’ils supportaient en raison de leurs origines sociales (basses castes) et de leurs associations avec d’autres catégories de musiciens et de danseurs (Kippen, 1989 et 2006, pp.&#160;10-11). </p>
+                    <p xml:id="d1e1639">Par ailleurs, on constate un certain décalage entre les discours et la réalité musicale. En effet, les propos sur les <hi rend="italic">ghar</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">n</hi>
+            <hi rend="italic">ā, </hi>en tant que lignées musicales aux styles bien spécifiques<hi rend="italic">,</hi> sont omniprésents et valorisés. On les retrouve non seulement au sein des institutions d’enseignement et des organismes culturels officiels, mais au-delà, dans les conversations entre musiciens, lors de la présentation des artistes sur scène, dans les livrets accompagnant les enregistrements, dans les diffusions à la radio, à la télévision et sur internet. En même temps, le critère strictement musical de ces organisations a perdu de sa pertinence au cours du XX<hi rend="sup">e</hi>&#160;siècle. Les particularités stylistiques, techniques et relatives au répertoire, identifiant chaque <hi rend="italic">ghar</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">n</hi>
+            <hi rend="italic">ā</hi>, sont de plus en plus diffusées et partagées depuis le milieu du XX<hi rend="sup">e</hi>&#160;siècle entre les musiciens des différentes lignées, par l’intensification des supports de médiatisation. Cette propagation actuelle, favorisant les réappropriations, tend alors à diminuer les spécificités de chacune de ces lignées.</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e1669">
+                <head subtype="level1" xml:id="d1e1670">Conclusion</head>
+                <p xml:id="d1e1672">Cette étude a présenté et analysé l’enseignement du <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> en institution à travers deux exemples à l’université. Elle a abordé l’approche pédagogique et les conséquences artistiques et sociales sur la culture du <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> et celle de la musique hindoustanie en général. Le premier constat est que le processus de transmission emprunte de nombreux traits au modèle de maître à disciple. L’étude a décrit ainsi la prégnance d’une transmission orale inscrite dans une relation professeur-élève codifiée tout en laissant une place à l’écriture. Si cette configuration particulière entre oralité et écriture était déjà présente avant les réformes de l’enseignement, les situations universitaires observées la mettent de nouveau en lumière. Cette étude a montré également que ce type d’enseignement, bien que tendant vers une proposition pédagogique ambitieuse et de qualité tant sur le plan de la formation de l’interprète que de la culture musicale, ne peut prétendre, à lui seul, à la formation de musiciens professionnels faute d’une spécialisation et de temps. Les diplômés disposent certes de vastes compétences techniques et d’un large répertoire mais cela demeure un savoir insuffisant au regard des compétences attendues et partagées dans la pratique actuelle de la musique hindoustanie. Pour autant, ces institutions forment de nouveaux enseignants, permettent un accès plus large au savoir musical, proposent des formations professionnalisantes et délivrent des diplômes assurant une certaine reconnaissance sociale. Elles ont également mis à l’honneur le <hi rend="italic">ghar</hi>
+          <hi rend="italic">ā</hi>
+          <hi rend="italic">n</hi>
+          <hi rend="italic">ā </hi>en tant qu’institution sociale essentielle de la musique hindoustanie, procurant aux musiciens, une appartenance identitaire prestigieuse largement revendiquée. </p>
+                <p xml:id="d1e1693">La mise en place d’un enseignement universitaire constitue un apport nouveau à la tradition du <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi>&#160;: un accès plus large à son savoir pratique, théorique et esthétique, une considération de ses caractéristiques musicologiques et de leurs rôles dans plusieurs traditions musicales, une reconnaissance sociale des interprètes et, en même temps, une certaine permanence du processus de transmission des connaissances avec les outils distincts mais complémentaires de l’oralité et de l’écriture.</p>
+                <p xml:id="d1e1700">L’impact plus global de cette institutionnalisation de l’enseignement du <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā </hi>
+          <hi rend="italic">–</hi>&#160;mais également de la pratique vocale et d’autres instruments (<hi rend="italic">sitar, b</hi>
+          <hi rend="italic">āmsurī</hi>
+          <hi rend="italic">, sarod</hi>…)&#160;<hi rend="italic">– </hi>sur la dynamique générale de la musique hindoustanie reste à analyser plus avant. Le constat est que tout au long du XX<hi rend="sup">e</hi>&#160;siècle, cette forme d’enseignement a permis de développer et d’entretenir un goût artistique et d’apporter une expertise musicale à de nombreuses personnes au-delà du cercle restreint des musiciens, des esthètes et des spécialistes. Ainsi, un plus grand nombre de personnes est susceptible de se déplacer pour aller écouter des artistes en concert, d’apprécier des enregistrements, de partager leurs intérêts avec d’autres et d’ainsi accroître l’aura des musiques hindoustanies et de <hi rend="italic">r</hi>
+          <hi rend="italic">ā</hi>
+          <hi rend="italic">g</hi> en particulier. Ainsi, au-delà des atouts de l’enseignement musical au sein des universités, l’enquête pourrait se poursuivre sur une autre conséquence de cette formation universitaire. En étudiant la composition de l’auditoire de ces traditions musicales, une recherche pourrait envisager plus précisément l’impact de cette formation universitaire. L’hypothèse est qu’elle apparaît de façon significative comme un élément important assurant la vitalité des musiques hindoustanies. Au cœur de cette dynamique se trouve de nombreux spécialistes formés dans ces institutions et provenant d’origines sociales diverses, assurant par leurs pratiques musicales ou par leurs activités de mélomane, un rôle essentiel de promotion et de médiation vers d’autres publics.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e1734">
+                <listBibl xml:id="d1e1736">
+                    <bibl xml:id="d1e1738">
+            <hi xml:lang="fr">Arom, S. (2007). </hi>L’organisation du temps musical&#160;: essai de typologie. Dans Nattiez (dir.), <hi rend="italic">M</hi>
+            <hi rend="italic">usiques.</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">U</hi>
+            <hi rend="italic">n</hi>
+            <hi rend="italic">e </hi>
+            <hi rend="italic">encyc</hi>
+            <hi rend="italic">l</hi>
+            <hi rend="italic">opédie</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">pour</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">le</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">XXI</hi>
+            <hi rend="sup">
+              <hi rend="italic">e</hi>
+            </hi>
+            <hi rend="italic">&#160;siècle, 5&#160;L’unité de la musique</hi>
+            <hi rend="italic"> </hi>(pp.&#160;927-944). Arles-Paris, Actes Sud-Cité de la Musique.</bibl>
+                    <bibl xml:id="d1e1781">
+            <hi xml:lang="fr">Bakhle, J. (2005). </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Two men and Music: Nationalism in the Making of an Indian Classical Tradition</hi>
+            </hi>
+            <hi xml:lang="en">. </hi>Oxford: Oxford University Press.</bibl>
+                    <bibl xml:id="d1e1790">Bourgeau, A. (2008). L’improvisation du joueur de <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> dans le <hi rend="italic">khy</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">l</hi>. <hi rend="italic">Cahier d’Ethnomusicologie</hi>, <hi rend="italic">21</hi>, 135-153. </bibl>
+                    <bibl xml:id="d1e1810">Bourgeau, A. (2010).<hi rendition="#style03"> </hi>Le <hi rend="italic">tabl</hi>
+            <hi rend="italic">ā</hi> et le <hi rend="italic">t</hi>
+            <hi rend="italic">ā</hi>
+            <hi rend="italic">l </hi>dans les pratiques musicales européennes et nord-américaines des années 1960 à nos jours. <hi rend="italic">
+              <hi xml:lang="en">Volume&#160;! 7</hi>
+            </hi>
+            <hi xml:lang="en">(2)</hi>
+            <hi rend="italic">
+              <hi xml:lang="en"> «&#160;La reprise&#160;»</hi>
+            </hi>
+            <hi xml:lang="en">, 161-184. </hi>
+          </bibl>
+                    <bibl xml:id="d1e1838">
+                        <hi xml:lang="en">Clayton, M. (2007). Time, gesture and attention in a khy</hi>
+                        <hi xml:lang="en">ā</hi>
+                        <hi xml:lang="en">l performance. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Asian Music, 38</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 71-96. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e1850">
+            <hi xml:lang="en">Deshpande, V.-H. (1987).</hi>
+            <hi rendition="#style03">
+              <hi xml:lang="en"> </hi>
+            </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Indian musical Traditions. An Aesthetic Study of the Gharanas in Hindustani Music. </hi>
+            </hi>Mumbai: Popular Prakashan.</bibl>
+                    <bibl xml:id="d1e1860">During, J. (1994). <hi rend="italic">Quelque Chose se Passe. Le Sens de la Tradition dans l’Orient musical</hi>. Paris&#160;: Verdier.</bibl>
+                    <bibl xml:id="d1e1865">Jugand, J. (2012). En marge de la scène. Trajectoires de musiciens musulmans dans la ville de Varanasi (Inde du Nord). <hi rend="italic">
+              <hi xml:lang="en">Cahiers d’ethnomusicologie,</hi>
+            </hi>
+            <hi xml:lang="en"> </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">25</hi>
+            </hi>
+            <hi xml:lang="en">, 139-156. </hi>
+          </bibl>
+                    <bibl xml:id="d1e1877">
+                        <hi xml:lang="en">Kippen, J. (1989). Changes in the social status of tabla players. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal of the Indian Musicological Society,</hi>
+                        </hi>
+                        <hi xml:lang="en"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">20</hi>
+                        </hi>
+                        <hi xml:lang="en">(1-2), 37-46. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e1890">
+                        <hi xml:lang="en">Kippen, J. (1997). The Musical Evolution of Lucknow. Dans Graff (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Lucknow, Memories of a City </hi>
+                        </hi>
+                        <hi xml:lang="en">(pp.&#160;181-195). New Delhi: Oxford University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1899">
+                        <hi xml:lang="en">Kippen, J. (2000). Hindustani Tāl. Dans A.&#160;Arnold (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Garland Encyclopedia of World Music –South Asia: the Indian Subcontinent </hi>
+                        </hi>
+                        <hi xml:lang="en">(pp.&#160;110-137). New York: Garland Publishing Inc.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1907">
+                        <hi xml:lang="en">Kippen, J. (2006).</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en"> Gurudev’s Drumming Legacy. Music, Theory and Nationalism in the Mrdang aur Tabla Vadanpaddhati of Gurudev Patwardhan</hi>
+                        </hi>
+                        <hi xml:lang="en">. Aldershot: Ashgate (coll. SOAS Musicology series).</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1915">
+                        <hi xml:lang="en">Kippen, J. (2010). The History of Tabla. Dans Bor, Delvoye, Harvey et Nijenhuis (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Hindustani Music: Thirteenth to Twentieth Century </hi>
+                        </hi>
+                        <hi xml:lang="en">(pp.&#160;459-478). </hi>
+                        <hi xml:lang="fr">New Delhi: Manohar.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1925">
+                        <hi xml:lang="fr">Le Gargasson, I. (2015). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">La fabrique des Maîtres. Anthropologie des pratiques de transmission de la musique hindoustanie ou les enjeux de l’institutionnalisation d’un savoir dans l’Inde contemporaine</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Thèse de doctorat., EHESS, Paris.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1933">
+            <hi xml:lang="fr">Le Gargasson, I. </hi>(2018). La transmission familiale de la musique hindoustanie au sein de communautés de spécialistes (Inde du Nord) : l’incorporation d’un savoir musical. <hi rend="italic">Cahiers d’ethnomusicologie</hi>, <hi rend="italic">31</hi>, 169-187. </bibl>
+                    <bibl xml:id="d1e1943">Malamoud, C. (1997). Noirceur de l’écriture. Dans Alleton (dir.), <hi rend="italic">Paroles à Dire, Paroles à Écrire, Inde, Chine, Japon </hi>(pp.&#160;85-114).<hi rend="italic"> </hi>Paris&#160;: éd. EHESS (coll. «&#160;recherches d’histoire et de sciences sociales&#160;»).</bibl>
+                    <bibl xml:id="d1e1951">
+                        <hi xml:lang="fr">Mulgaokar, A. (1975). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="fr">Tabla</hi>
+                        </hi>
+                        <hi xml:lang="fr">. Pune: Sadhna Prakashan.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1959">Manuji, M. (1932). <hi rend="italic">Taladipika, </hi>Benares: Kashi Hindu Vishvidyalaya.</bibl>
+                    <bibl xml:id="d1e1964">Nijenhuis, E. (1974). <hi rend="italic">
+              <hi xml:lang="en">Indian Music. History and Structure</hi>
+            </hi>
+            <hi xml:lang="en">. Leiden / Köln: E.-J.&#160;Brill.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1971">
+                        <hi xml:lang="en">Rowell, L. (1998). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Music and Musical Thought in Early India</hi>
+                        </hi>
+                        <hi xml:lang="en">. New Delhi: Munshiram Manoharlal.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e1979">
+                        <hi xml:lang="en">Schippers, H. (2003). The Guru Recontextualized? Perspectives on Learning North Indian Classical Music in Shifting Environments for Professional Training. </hi>
+                        <hi xml:lang="en">Asian Music, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">38</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 123-138. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e1990">
+                        <hi xml:lang="en">Silver, B. (1976). On becoming an ustad: six life sketches in the evolution of gharana. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Asian Music,</hi>
+                        </hi>
+                        <hi xml:lang="en"> </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">8</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 27-50. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e2003">
+                        <hi xml:lang="en">Stewart, R. (1974). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The Tabla in Perspective</hi>
+                        </hi>
+                        <hi xml:lang="en">. Thèse de doctorat. Université de Californie, Los Angeles.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e2011">
+            <hi xml:lang="en">Widdess, R. (1996). The oral in writing: early Indian musical notations. </hi>
+            <hi rend="italic">Early Music</hi>, 391-401.</bibl>
+                </listBibl>
+            </div>
+            <div type="appendix" xml:id="d1e2020">
+                <p rend="appendix" xml:id="d1e2022">Sélection d’ouvrages de compositions de <hi rend="italic">tabl</hi>
+          <hi rend="italic">ā</hi> publiés depuis 2005</p>
+                <p rend="appendix" xml:id="d1e2029">
+                    <hi xml:lang="en">Chishti, S.-R. (2016). </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Compositions of the Great Maestros</hi>
+          </hi>
+                    <hi xml:lang="en">. New Delhi:</hi>
+                    <hi rend="italic">
+            <hi xml:lang="en"> </hi>
+          </hi>
+                    <hi xml:lang="en">Kanishka Publishers.</hi>
+                </p>
+                <p rend="appendix" xml:id="d1e2042">
+                    <hi xml:lang="en">Misra, V.-S. (2005). </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Tabla Puran. </hi>
+          </hi>
+                    <hi xml:lang="en">New Delhi: Kanishka Publishers.</hi>
+                </p>
+                <p rend="appendix" xml:id="d1e2050">
+                    <hi xml:lang="en">Misra, V.-S. (2014). </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Tabla. Rare Compositions of the Great Masters</hi>
+          </hi>
+                    <hi xml:lang="en">. New Delhi: Kanishka Publishers.  </hi>
+                </p>
+                <p rend="appendix" xml:id="d1e2058">
+                    <hi xml:lang="en">Misra, V.-S. (2015). </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Art and Science of playing Tabla</hi>
+          </hi>
+                    <hi xml:lang="en">. </hi>
+                    <hi xml:lang="fr">New Delhi: Publications Divisions.</hi>
+                </p>
+                <p rend="appendix" xml:id="d1e2068">Misra, C. (2006). <hi rend="italic">Tabla Grantha. </hi>
+          <hi xml:lang="en">New Delhi:</hi>
+          <hi rend="italic">
+            <hi xml:lang="en"> </hi>
+          </hi>
+          <hi xml:lang="en">Kanishka Publishers.</hi>
+        </p>
+                <p rend="appendix" xml:id="d1e2079">
+                    <hi xml:lang="en">Misra, C. (2007). </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Playing Techniques of Tabla: Banaras gharana. </hi>
+          </hi>
+                    <hi xml:lang="en">New Delhi:</hi>
+                    <hi rend="italic">
+            <hi xml:lang="en"> </hi>
+          </hi>
+                    <hi xml:lang="en">Kanishka Publishers. </hi>
+                </p>
+                <p rend="appendix" xml:id="d1e2092">
+                    <hi xml:lang="en">Naimpalli, S. (2009). </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Tabla, for Advanced Students</hi>
+          </hi>
+                    <hi xml:lang="en">. Mumbai: Popular Prakashan.</hi>
+                </p>
+                <p rend="appendix" xml:id="d1e2100">
+                    <hi xml:lang="en">Naimpalli, S. (2011). </hi>
+                    <hi rend="italic">
+            <hi xml:lang="en">Tabla. Theory and Practice. The Secular Rationalist Reformer. </hi>
+          </hi>
+                    <hi xml:lang="en">Mumbai: Popular Prakashan. </hi>
+                </p>
+                <p rend="appendix" xml:id="d1e2108">
+          <hi xml:lang="en">Saxena, S.-K. (2006). </hi>
+          <hi rend="italic">
+            <hi xml:lang="en">The art of Tabla Rhythm: Essentials, Tradition and Creativity</hi>
+          </hi>
+          <hi xml:lang="en">. </hi>New Delhi : Printworld Limited. </p>
+            </div>
+        </back>
+    </text>
+</TEI>

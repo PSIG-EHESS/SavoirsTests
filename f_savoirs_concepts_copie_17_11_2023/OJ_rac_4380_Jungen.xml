@@ -1,0 +1,1435 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:dcr="http://www.isocat.org/ns/dcr" xmlns:ns="http://www.tei-c.org/ns/1.0" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xinclude="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lock="snadal" time="2023-09-12T15:02:43.634+02:00" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_4380_Jungen">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">Savoirs fragmentés</title>
+        <title type="sub">Des catalogueurs, des bobines de microfilm, et la
+        collecte du «&#160;patrimoine arabe et islamique&#160;»</title>
+        <title level="a" type="alt" xml:lang="en">Fragmented knowledge.
+        Cataloguers, microfilm spools, and the collection of “Arab and Islamic
+        Heritage”</title>
+        <title level="a" type="alt" xml:lang="es">Erudición fragmentada.
+        Catalogadores, rollos de microfilme, y la recopilación del «patrimonio
+        árabe e islámico»</title>
+        <author>
+          <persName>
+            <forename>Christine</forename>
+            <surname>Jungen</surname>
+          </persName>
+          <affiliation>Anthropologue, elle est chargée de recherche CNRS au
+          IIAC-LAU (EHESS/CNRS). Après avoir travaillé sur les enjeux et les
+          pratiques de l’hospitalité dans le Sud jordanien (<hi rend="italic">Politique de l’hospitalité dans le Sud jordanien</hi>,
+          Paris&#160;; Beyrouth&#160;: Karthala&#160;; IFPO, 2009), elle poursuit aujourd’hui
+          ses recherches au Moyen-Orient sur l’écriture de l’histoire et les
+          dispositifs documentaires spécifiques à partir desquels celle-ci est
+          produite, dans le cadre, plus largement, d’une réflexion sur les
+          pratiques du savoir et les relations aux environnements matériels
+          qui s’y constituent.Adresse&#160;: Institut interdisciplinaire
+          d’anthropologie du contemporain, Laboratoire d’anthropologie
+          urbaine, 27, rue Paul-Bert, FR-94204 Ivry-sur-Seine Cedex
+          (France).Courriel&#160;: christine.jungen[at]cnrs.fr</affiliation>
+        </author>
+        <funder>EHESS</funder>
+        <principal>Projet Savoirs</principal>
+        <respStmt>
+          <resp>encodage et supervision</resp>
+          <name xml:id="SN">
+            <forename>Sara</forename>
+            <surname>Nadal</surname>
+          </name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>EHESS</distributor>
+        <address>
+          <addrLine>54 bd Raspail</addrLine>
+          <addrLine>75006 Paris</addrLine>
+          <addrLine>FRANCE</addrLine>
+        </address>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative
+          Commons Attribution</licence>
+          <licence target="https://creativecommons.org/licenses/by-nc-nd/3.0/fr/">Creative
+          Commons - Attribution - Pas d’Utilisation Commerciale - Pas de
+          Modification 3.0 non transposé - CC BY-NC-ND 3.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct corresp="http://zotero.org/groups/2408090/items/AE5I9X6B" type="journalArticle" xml:lang="fr">
+          <analytic>
+            <title level="a">Savoirs fragmentés</title>
+            <idno type="DOI">10.3917/rac.021.0915</idno>
+            <author>
+              <forename>Christine</forename>
+              <surname>Jungen</surname>
+            </author>
+          </analytic>
+          <monogr>
+            <title level="j">Revue d’anthropologie des connaissances</title>
+            <idno type="ISSN">1760-5393</idno>
+            <imprint>
+              <biblScope unit="volume">7</biblScope>
+              <biblScope unit="issue">4</biblScope>
+              <date>2013</date>
+              <note type="url">https://journals.openedition.org/rac/4380</note>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à
+        l’histoire et à l’anthropologie des sciences et des savoirs. Le projet
+        est porté par l’EHESS (Paris) avec le soutien de différents
+        partenaires. Plus qu’une revue, une archive d’articles ou une
+        collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et
+        expérimentale qui propose des parcours de lecture heuristiques et
+        réflexifs entre les textes, grâce à différents algorithmes de
+        recherche et de suggestions reposant notamment sur un balisage des
+        lieux, des dates et des concepts en XML-TEI.</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="metopes-savoirs" version="1.0">
+          <label>Métopes</label>
+          <label>Savoirs</label>
+          <desc>Environnement de transformation, d’édition et d’annotation
+          XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+          <ref target="www.metopes.fr"/>
+        </application>
+        <application ident="certic" version="1.0">
+          <label>PluCo</label>
+          <desc>Plugin d’édition XML collaborative pour le logiciel
+          XMLMind-XMLEditor</desc>
+          <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+        </application>
+      </appInfo>
+      <classDecl>
+        <taxonomy xml:id="geonames">
+          <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de
+          données géographique</desc>
+        </taxonomy>
+        <taxonomy xml:id="idref">
+          <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et
+          Référentiels pour l'enseignement supérieur et la recherche</desc>
+        </taxonomy>
+        <taxonomy xml:id="savoirs">
+          <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="zotero">
+          <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire
+          de références Savoirs</desc>
+        </taxonomy>
+        <taxonomy xml:id="langISO">
+          <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO
+          639-2 : Codes pour la représentation des noms de langues</desc>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+      </langUsage>
+      <!--Mots clefs proposés dans la source par l’auteur-->
+      <textClass>
+        <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+          <list>
+            <item>materiality</item>
+            <item>knowledge</item>
+            <item>standardisation</item>
+            <item>book</item>
+            <item>cataloguing</item>
+            <item>arabic manuscript</item>
+            <item>microfilm</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+          <list>
+            <item>savoirs</item>
+            <item>standardisation</item>
+            <item>livre</item>
+            <item>matérialité</item>
+            <item>catalogage</item>
+            <item>manuscrit arabe</item>
+            <item>microfilm</item>
+          </list>
+        </keywords>
+        <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+          <list>
+            <item>materialidad</item>
+            <item>estandarización</item>
+            <item>libro</item>
+            <item>catálogo</item>
+            <item>manuscrito árabe</item>
+            <item>erudición</item>
+            <item>microfilm</item>
+          </list>
+        </keywords>
+      </textClass>
+      <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+      <textClass>
+        <keywords>
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Lieux principaux proposés dans la source-->
+      <textClass>
+        <keywords scheme="geonames">
+          <term/>
+        </keywords>
+      </textClass>
+      <!--Dates proposées dans la source-->
+      <textClass>
+        <keywords scheme="_temp">
+          <term/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Savoirs fragmentés</titlePart>
+          <titlePart type="sub">Des catalogueurs, des bobines de microfilm, et
+          la collecte du «&#160;patrimoine arabe et islamique&#160;»</titlePart>
+        </docTitle>
+        <byline>
+          <docAuthor>Christine Jungen</docAuthor>
+        </byline>
+      </titlePage>
+      <div type="abstract" xml:id="d1e257" xml:lang="fr">
+        <p xml:id="d1e258">Comment cataloguer un manuscrit arabe sous forme de
+        microfilm&#160;? À partir d’une enquête menée dans deux centres de collecte
+        de microfilms de manuscrits, cet article examine le geste de
+        cataloguer, la constitution d’une notice comme mode de construction de
+        portraits irréductibles les uns aux autres. À l’ère de la
+        standardisation et de l’interopérabilité des catalogues, il s’agit ici
+        de comprendre comment les catalogages <hi rend="italic">in situ</hi>
+        d’un objet à la matérialité propre proposent, à rebours des rêves de
+        maîtrise complète, de collection totale et universelle de l’ensemble
+        des manuscrits existants, des formulations et des configurations
+        chaque fois singulières entre le texte, la collection et le corpus de
+        ce qui est défini comme le «&#160;patrimoine manuscrit arabe et
+        islamique&#160;».</p>
+      </div>
+      <div type="ack" xml:id="d1e273">
+        <p xml:id="d1e274">Les enquêtes dont je rends compte ici n’auraient pu
+        se faire sans l’accueil généreux que j’ai reçu aussi bien au Centre de
+        documents et manuscrits de l’Université de Jordanie (<placeName ref="250441" type="geonames" xml:base="https://www.geonames.org/">Amman</placeName>, <placeName ref="248816" type="geonames" xml:base="https://www.geonames.org/">Jordanie</placeName>) qu’au
+        Centre de manuscrits de la Bibliotheca Alexandrina (<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName>,
+        <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>). J’en
+        remercie leurs directeurs respectifs au moment de mon enquête,
+        <persName type="_temp">Adnan al Bakhit</persName> et <persName ref="080119271" type="idref" xml:base="https://www.idref.fr/">Youssef
+        Ziedan</persName>, ainsi que tous les membres et employés de ces deux
+        centres qui m’ont accompagnée et aidée dans ma recherche. Je remercie
+        également les participants de la journée d’études «&#160;Manipuler,
+        accommoder, ranger. Catalogues, inventaires et bases de données&#160;»
+        (Paris, Musée du Quai Branly, 1-2&#160;mars 2010) auxquels a été soumise
+        une contribution préliminaire à ce texte. Que les relecteurs anonymes
+        de la <hi rend="italic">RAC</hi> soient ici aussi remerciés pour leurs
+        remarques avisées sur la première version de cet article.</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p rend="epigraph" xml:id="d1e283">«&#160;Le Centre des documents et
+        manuscrits de l’Université de <placeName ref="248816" type="geonames" xml:base="https://www.geonames.org/">Jordanie</placeName> est heureux
+        de présenter aux chercheurs, ainsi qu’à tous ceux qui étudient le
+        patrimoine arabe et islamique, le quatrième volume du catalogue des
+        manuscrits arabes microfilmés et conservés dans le centre, qui
+        inventorie 831&#160;manuscrits dans toutes les disciplines connues. Le
+        travail remarquable effectué dans ce volume [...] permet de fournir au
+        chercheur et à tous ceux [étudiant les manuscrits] la voie la plus
+        commode et la plus facile pour parvenir au manuscrit qu’il recherche
+        tout en économisant son temps et ses efforts.&#160;» <persName type="_temp">Nôfân Raja al-Sawariyya</persName>, introduction au <hi rend="italic">Fihris al-makhtûtât al-arabiyya al-musawwara</hi>
+        [Catalogue des manuscrits arabes microfilmés] du Centre de documents
+        et manuscrits de l’Université de <placeName ref="248816" type="geonames" xml:base="https://www.geonames.org/">Jordanie</placeName>, <date from="2000-04-01" to="2000-04-30" type="_temp">avril&#160;2000</date>.</p>
+        <p xml:id="d1e288">Installée devant le lecteur de microfilms,
+        Nuha<note n="1" place="foot" type="standard" xml:id="ftn1">
+            <p>Les prénoms ont été modifiés.</p>
+          </note> est en train de travailler à la constitution du dernier
+        volume en cours du catalogue des manuscrits microfilmés du Centre.
+        Elle a posé à côté du lecteur une dizaine de bobines, les dernières
+        reçues par le centre, ainsi que le formulaire papier avec lequel elle
+        va constituer sa notice. Nuha sort une bobine de sa boîte, la monte
+        sur la machine et commence à dérouler le film. Tournant la manette,
+        reportant tour à tour le regard sur l’image noir et blanc qu’elle a
+        devant les yeux et sur le formulaire, elle remplit un par un les
+        champs du formulaire portant sur les caractéristiques du microfilm, du
+        manuscrit et texte qu’il renferme. La constitution de la notice prend
+        généralement une vingtaine de minutes, un peu plus si l’écriture du
+        manuscrit est peu lisible. La notice terminée, Nuha peut rembobiner le
+        film, le ranger dans sa boîte, poser le formulaire rempli sur la pile.
+        Après un bref soupir, elle s’empare de la bobine suivante, sort le
+        film de sa boîte, le monte sur la machine, et recommence
+        l’opération.</p>
+        <p xml:id="d1e294">Le catalogue est généralement le produit
+        d’opérations simples, mécaniques presque&#160;: remplir les champs d’un
+        formulaire, transcrire des phrases, entrer des mots clés, faire des
+        listes, reporter des numéros. Le geste de cataloguer, la mise en lien
+        d’un objet donné avec une structure de classement, ne sont pourtant
+        rendus possibles que par la production et l’agencement complexe d’une
+        diversité de dispositifs et d’opérations matérielles et
+        intellectuelles, parmi lesquels on peut évoquer, en vrac, la
+        bibliothèque comme lieu d’accumulation d’écrits, la liste comme
+        dispositif d’écriture, le livre comme modalité de visualisation des
+        textes avec ses règles propres, sans compter la circulation des normes
+        et standards qui agencent et assurent la coordination de ces
+        différents collectifs. À la fois omniprésent et invisible, le
+        catalogue agrège une multiplicité d’enjeux&#160;: le lien entre des
+        communautés de savoir, l’articulation entre pratiques locales et
+        circulation des objets et des inscriptions, la définition de la norme,
+        la qualification des objets traités<note n="2" place="foot" type="standard" xml:id="ftn2">
+            <p>On s’inspire ici bien sûr de la notion d’&#160;«&#160;objet-frontière&#160;»
+            élaborée par Susan Leigh Star comme interface d’agencement et de
+            coopération entre différentes communautés de pratiques (Star &amp;
+            Greisemer, 1989&#160;; Bowker &amp; Star, 1996). Pour un bilan de la
+            notion et du courant de réflexion qu’elle a suscité, on renvoie
+            ici aux deux dossiers de la <hi rend="italic">Revue
+            d’anthropologie des connaissances</hi> qui lui ont été consacrés
+            (Trompette &amp; Vinck, 2009, 2010).</p>
+          </note>.</p>
+        <p xml:id="d1e303">Dans le cas des manuscrits arabes que j’examine
+        ici, ces enjeux se déploient plus spécifiquement à partir d’un objet
+        –&#160;la bobine de microfilm&#160;– et de sa circulation dans les collections
+        de bibliothèques et centres spécialisés dans l’étude du patrimoine
+        écrit arabe et islamique. Le microfilm n’a que peu de valeur comparé à
+        celle des manuscrits originaux à partir desquels il est produit
+        –&#160;originaux pour leur part soigneusement conservés dans les
+        bibliothèques détentrices. Il est doté d’une matérialité propre, celle
+        du codex réduit à une bobine de film, d’une image noir et blanc, de
+        qualité souvent moyenne. Son acquisition répond en premier lieu à une
+        nécessité pratique&#160;: permettre de donner accès à un corpus de textes
+        (celui de l’ensemble du savoir écrit produit par la civilisation
+        arabo-islamique<note n="3" place="foot" type="standard" xml:id="ftn3">
+            <p>Qui comprend donc aussi bien l’<hi rend="italic">âdâb</hi>, la
+            production littéraire au sens large (qu’on peut rendre par le
+            terme français de «&#160;belles-lettres&#160;»), que le <hi rend="italic">‘ilm</hi>, la connaissance qui relève des sciences,
+            et en particulier des sciences religieuses.</p>
+          </note>) dont un grand nombre n’a jamais été édité, et dont les
+        versions manuscrites sont souvent conservées dans des bibliothèques
+        lointaines, et pour tout dire généralement inaccessibles pour des
+        raisons aussi bien de visa que de budget<note n="4" place="foot" type="standard" xml:id="ftn4">
+            <p>Il existe des collections importantes de manuscrits dans les
+            pays arabes –&#160;la collection du <hi rend="italic">Dâr al
+            Kutub</hi>, la Bibliothèque nationale du Caire, possède par
+            exemple la plus grande collection au monde de manuscrits arabes.
+            C’est toutefois aujourd’hui dans les bibliothèques européennes et
+            américaines qu’est également conservée une part non négligeable de
+            manuscrits arabes, des suites d’une politique soutenue de collecte
+            et d’acquisition qui remonte au XVIII<hi rend="sup">e</hi>&#160;siècle&#160;: citons parmi celles-ci la
+            Staatsbibliothek à Berlin (plusieurs dizaines de milliers de
+            manuscrits orientaux), ou encore la Bibliothèque nationale de
+            France ou la Bibliothèque Chester Beatty en Irlande. Ces
+            bibliothèques, grâce à une politique de longue date de diffusion
+            de leurs collections –&#160;publication de catalogues, microfilmage des
+            manuscrits&#160;– sont de ce fait devenues des points nodaux dans le
+            réseau d’échange, d’achat et de vente de microfilms.</p>
+          </note>.</p>
+        <p xml:id="d1e325">Comment cataloguer une reproduction,
+        émotionnellement neutre et matériellement minimaliste&#160;? Quelles prises
+        particulières offre-t-elle pour articuler le lien entre le manuscrit,
+        la collection et le corpus&#160;? J’examine ici, à partir d’une enquête
+        ethnographique menée dans deux centres (le Centre de documents et
+        manuscrits de l’Université de <placeName ref="248816" type="geonames" xml:base="https://www.geonames.org/">Jordanie</placeName> à <placeName ref="250441" type="geonames" xml:base="https://www.geonames.org/">Amman</placeName>, le Centre de
+        manuscrits de la nouvelle Bibliothèque d’<placeName ref="361058" type="geonames" xml:base="https://www.geonames.org/">Alexandrie</placeName> en
+        <placeName ref="357994" type="geonames" xml:base="https://www.geonames.org/">Égypte</placeName>), deux
+        manières de cataloguer un microfilm, deux modalités de configuration
+        matérielle et intellectuelle du manuscrit et du savoir auquel il se
+        rattache<note n="5" place="foot" type="standard" xml:id="ftn5">
+            <p>Cet article résulte de séjours menés respectivement au Centre
+            de documents et manuscrits de l’Université de Jordanie à Amman
+            (2006) et au Centre de manuscrits de la Bibliotheca Alexandrina à
+            Alexandrie, Égypte (2008).</p>
+          </note>.</p>
+        <div type="div1" xml:id="d1e331">
+          <head subtype="level1" xml:id="d1e332">Entreprises encyclopédiques&#160;:
+          entre «&#160;livre&#160;» et «&#160;manuscrit&#160;», «&#160;savoir&#160;» et
+          «&#160;patrimoine&#160;»</head>
+          <p xml:id="d1e334">Si localiser un livre imprimé dans une
+          bibliothèque est devenu aujourd’hui affaire de quelques clics, la
+          réalité est tout autre dès que l’on entre dans l’univers des
+          manuscrits arabes&#160;: point ici de numéro ISBN, de classification
+          unifiée ou normes internationales de référencement, d’indices et de
+          formats bibliographiques standards qui permettent désormais
+          d’assurer la mise en réseau et l’interopérabilité entre catalogues
+          de bibliothèques. La recherche d’un manuscrit peut souvent se
+          révéler une quête aussi ardue que hasardeuse, au fil de la
+          consultation de catalogues imprimés (souvent anciens, parfois
+          incomplets ou erronés), de recherches dans des catalogues
+          informatisés (quand ils sont en ligne), de visites dans les
+          bibliothèques détentrices de manuscrits dont les catalogues n’ont
+          pas été publiés. À cela s’ajoute la diversité d’un fonds mondial de
+          manuscrits dispersé non seulement sur l’ensemble du monde musulman,
+          mais aussi dans les bibliothèques, américaines, européennes ou
+          asiatiques. Du <placeName ref="2542007" type="geonames" xml:base="https://www.geonames.org/">Maroc</placeName> à
+          l’<placeName ref="1643084" type="geonames" xml:base="https://www.geonames.org/">Indonésie</placeName> en
+          passant par la <placeName ref="3017382" type="geonames" xml:base="https://www.geonames.org/">France</placeName>,
+          l’<placeName ref="690791" type="geonames" xml:base="https://www.geonames.org/">Ukraine</placeName>, le
+          <placeName ref="2453866" type="geonames" xml:base="https://www.geonames.org/">Mali</placeName> ou les
+          <placeName ref="6252001" type="geonames" xml:base="https://www.geonames.org/">États-Unis</placeName>, les
+          codes régissant l’organisation, la classification et la description
+          des manuscrits varient d’un pays, d’une langue, d’une institution à
+          l’autre, rendant la recherche encore plus aléatoire. Si fournir au
+          chercheur, comme l’annonce le rédacteur de l’introduction au
+          catalogue du Centre de documents et manuscrits en Jordanie, la
+          «&#160;voie la plus commode et la plus facile&#160;» pour trouver un ouvrage
+          tout en «&#160;économisant son temps et ses efforts&#160;», constitue, dans ce
+          cadre, l’ambition sans doute la plus affichée par l’ensemble des
+          institutions engagées aujourd’hui dans le catalogage des fonds de
+          manuscrits, elle est aussi, peut-être, la plus inaboutie.
+          (Figure&#160;1)</p>
+          <figure xml:id="d1e339">
+            <graphic url="https://didomena.ehess.fr/downloads/jd473485d.jpg"/>
+            <head>Figure 1. Comment trouver un ouvrage dans un dédale dont on
+            ne maîtrise ni la langue ni la logique&#160;?</head>
+          </figure>
+          <p rend="figure-legend" xml:id="d1e341">Un post sur le forum de
+          Wadod, un site arabophone consacré à l’étude des manuscrits,
+          détaille, captures d’écran et notes explicatives à l’appui, les
+          différentes étapes à suivre pour trouver un manuscrit sur le
+          catalogue en ligne de la Bibliothèque nationale de France.</p>
+          <p rend="figure-license" xml:id="d1e343">Source&#160;: <ref target="http://wadod.org/vb/showthread.php?t=3222">http://wadod.org/vb/showthread.php?t=3222</ref>,
+          consulté le 21&#160;septembre 2013.</p>
+          <p xml:id="d1e348">Alors que l’Europe a vu, avec le développement de
+          l’imprimerie, un déclin rapide de la production de livres sous forme
+          manuscrite, ce n’est qu’entre le <date from="1830" to="1899" type="_temp">milieu et la fin du XIX<hi rend="sup">e</hi>&#160;siècle</date> en revanche que le monde arabophone
+          abandonne progressivement les techniques manuscrites pour se tourner
+          vers la production mécanisée de livres. Lié à des problèmes
+          techniques, à la méfiance face aux techniques «&#160;franques&#160;», mais
+          aussi et surtout, sans doute, à une culture du livre et de sa
+          production réservée à une classe savante aussi lettrée qu’élitiste
+          (Roper, 2007&#160;; Kunt, 2008&#160;; Gencer, 2010), ce déploiement tardif de
+          l’imprimé a donné lieu à la production, sur près de quinze siècles,
+          de quelques millions de manuscrits dont encore aujourd’hui les
+          spécialistes peinent à évaluer la réelle étendue. Si les difficultés
+          de gestion et de vue d’ensemble tiennent d’une part, on l’a vu, à
+          l’étendue géographique concernée et à la disparité des collections
+          et des catalogues, elles sont aussi liées au nombre important de
+          collections particulières&#160;: bibliothèques privées transmises par
+          héritage familial, fonds dépendants de mosquées ou de <hi rend="italic">zâwiya</hi>, les confréries religieuses… soit un
+          ensemble de collections dont souvent le contenu n’a pas été
+          catalogué ou inventorié, ou, en d’autres termes, n’a pas été inséré
+          dans le réseau académique et érudit des «&#160;collections de manuscrits
+          arabes&#160;». De fait, la navigation dans l’univers des manuscrits
+          arabes relève d’une exploration dont les catalogues constituent les
+          opérateurs incontournables&#160;; c’est par leur biais que,
+          régulièrement, de nouveaux territoires sont découverts,
+          cartographiés, et inscrits dans le réseau partagé des
+          connaissances.</p>
+          <p xml:id="d1e356">Compiler textes, collections, manuscrits,
+          recenser des catalogues et des codex&#160;: la tension que note <persName ref="02678095X" type="idref" xml:base="https://www.idref.fr/">Roger
+          Chartier</persName> à propos des «&#160;bibliothèques&#160;», inventaires de
+          livres élaborés en Europe au <date from="1700" to="1799" type="_temp">XVIII<hi rend="sup">e</hi>&#160;siècle</date>, tiraillées
+          entre l’ambition universaliste –&#160;l’accumulation exhaustive de tous
+          les livres et de tous les savoirs&#160;– et la collection, forcément
+          singulière et limitée, de la bibliothèque (Chartier, 1996), est
+          également celle qui traverse l’ensemble des tentatives
+          d’accumulation, d’inventaire, de rassemblement de la production
+          écrite qui irrigue l’érudition arabe sur plus de dix siècles jusqu’à
+          nos jours.</p>
+          <p xml:id="d1e361">Faire la recension de l’ensemble de «&#160;tous les
+          livres de tous les peuples, arabes ou étrangers, écrits dans la
+          langue des Arabes&#160;»<note n="6" place="foot" type="standard" xml:id="ftn6">
+              <p>Ibn Nadim, <hi rend="italic">al Fihrist</hi>, cité par Touati
+              (Touati, 2003, p.&#160;309).</p>
+            </note>&#160;: c’est bien l’ambition d’Ibn Nadim, un savant vivant à
+          Bagdad vers la <date from="0970" to="0999" type="_temp">fin du X<hi rend="sup">e</hi>&#160;siècle</date>, et qui publie le <hi rend="italic">Fihrist</hi>, le Catalogue, une compilation des
+          ouvrages en langue arabe. Son <hi rend="italic">Fihrist</hi>, projet
+          bibliographique qui s’inscrit dans la filiation grecque des <hi rend="italic">Tables</hi> de <persName ref="027409546" type="idref" xml:base="https://www.idref.fr/">Callimaque</persName>, sera suivi
+          par d’innombrables dictionnaires, recensions, «&#160;catalogues&#160;» au sens
+          encyclopédique du terme, qui listent, inventorient, cherchent à
+          établir un inventaire aussi exhaustif que possible de la prolifique
+          production écrite arabe et islamique. Classés par sujets comme le
+          fait <persName type="idref" xml:base="https://www.idref.fr/">Ibn
+          Nadim</persName>, par titres –&#160;c’est l’option choisie par le savant
+          turc <persName ref="069453551" type="idref" xml:base="https://www.idref.fr/">Kâtib Çelebi</persName>, qui
+          recense au <date from="1600" to="1699" type="_temp">XVII<hi rend="sup">e</hi>&#160;siècle</date> dans son œuvre majeure, le <hi rend="italic">Kashf al-zunûn ‘an asâmî al-kutub wa al-funûn</hi> (le
+          Dévoilement des pensées sur les noms des livres et des arts), plus
+          de 15&#160;000&#160;titres organisés par ordre alphabétique&#160;– ou encore par
+          auteurs, comme c’est le cas du <hi rend="italic">Mu’jam
+          al-muallifîn</hi>, le Dictionnaire des auteurs publié par
+          l’historien <persName ref="068536283" type="idref" xml:base="https://www.idref.fr/">Umar Rida Kahhala</persName>
+            <date from="1957" to="1961" type="_temp">entre 1957 et 1961</date>, ces
+          dictionnaires bibliographiques ou bio-bibliographiques vont
+          constituer un des <hi rend="italic">topoi</hi> de l’érudition et de
+          la production intellectuelle en langue arabe.</p>
+          <p xml:id="d1e395">Ces vastes programmes de compilation du savoir ne
+          sont pas limités au monde arabophone, mais vont également devenir
+          une spécialité de l’orientalisme qui se développe au <date from="1800" to="1899" type="_temp">XIX<hi rend="sup">e</hi>&#160;siècle</date> en Europe. C’est ainsi que sur près
+          de quarante ans (le dernier volume paraît en 1937), <persName type="_temp">Carl Brockelmannn</persName>, savant allemand
+          spécialiste de la littérature arabe, publie un à un les volumes de
+          sa <hi rend="italic">Geschichte der arabischen Litteratur</hi>
+          (Histoire de la littérature arabe, généralement mentionnée sous
+          l’acronyme GAL)&#160;: cette œuvre qui vise à recenser l’ensemble de la
+          production écrite arabe va devenir rapidement un outil de travail
+          incontournable dans les milieux orientalistes européens et
+          américains.</p>
+          <p xml:id="d1e403">Ce travail monumental, traduit en arabe en <date type="_temp" when="1959">1959</date>, se distingue des précédents
+          non seulement par l’identité de son auteur, un orientaliste
+          allemand, mais aussi par la méthode de travail adoptée&#160;: alors que
+          les premiers rédacteurs mentionnés de dictionnaires et
+          d’encyclopédies travaillent principalement à partir des ouvrages
+          qu’ils ont pu eux-mêmes consulter –&#160;<persName ref="225568977" type="idref" xml:base="https://www.idref.fr/">Ibn Nadîm</persName>
+          annonce par exemple qu’il ne donne la liste que des livres qu’il a
+          «&#160;vu[s] de ses yeux&#160;» ou dont l’existence a été «&#160;garantie par des
+          personnes de confiance&#160;» (Touati, 2003, p.&#160;311), un souci qu’on
+          retrouve près de 600&#160;ans plus tard chez <persName ref="069453551" type="idref" xml:base="https://www.idref.fr/">Kâtib
+          Çelebi</persName> –&#160;qui précise quant à lui avoir effectué sa
+          compilation à partir des «&#160;histoires et dictionnaires
+          bibliographiques&#160;», mais aussi des «&#160;plusieurs milliers de volumes
+          dans les bibliothèques que j’ai pu personnellement examiner, ainsi
+          que les livres que les vendeurs de livres m’ont amenés en flot
+          continu pendant plus de vingt ans&#160;» (Lewis, 1957)&#160;–, <persName ref="050192329" type="idref" xml:base="https://www.idref.fr/">Brockelmann</persName> semble être
+          un des premiers à travailler de manière systématique à partir non
+          plus des livres eux-mêmes, mais des catalogues publiés de manuscrits
+          qui se diffusent progressivement en Europe à la même époque (Witkam,
+          1996).</p>
+          <p xml:id="d1e406">C’est en Europe que va en effet se développer une
+          méthodologie systématisée des catalogues de collections de
+          manuscrits arabes&#160;: alors que les catalogues des bibliothèques dans
+          le monde arabe sont à l’époque rares, produits en exemplaires
+          uniques consultables uniquement dans la bibliothèque en question,
+          l’intérêt pour la production littéraire arabe, l’acquisition ou la
+          collecte et la conservation des manuscrits qui se manifestent à
+          partir du <date from="1700" to="1799" type="_temp">XVIII<hi rend="sup">e</hi>&#160;siècle</date> en Europe se doublent de la
+          constitution d’inventaires et de la publication de catalogues qui se
+          déploient progressivement dans les bibliothèques et les milieux
+          académiques<note n="7" place="foot" type="standard" xml:id="ftn7">
+              <p>En France par exemple, la politique d’achat de manuscrits
+              arabes systématisée sous Colbert s’accompagne de la floraison de
+              dictionnaires et grammaires, suivie de près par la production
+              d’inventaires et de catalogues. Le premier catalogue imprimé de
+              la Bibliothèque du roi, première collection en France de ce qui
+              est alors appelé «&#160;manuscrits orientaux&#160;», est publié en 1739
+              (Berthier, 2002).</p>
+            </note>. Le catalogue, comme reflet et synthèse d’une collection
+          de livres dans une bibliothèque, mais aussi comme carte mobile,
+          reproductible, détachable du «&#160;territoire&#160;» qu’elle représente
+          (Jacob, 2001) existe désormais, par son rassemblement dans les
+          bibliothèques, comme un dispositif qui permet une nouvelle forme de
+          vision globale de l’ensemble des textes collectés.</p>
+          <p xml:id="d1e415">Les catalogues prennent une place de plus en plus
+          importante dans les outils de l’érudition orientaliste, mais aussi
+          arabe&#160;: les publications de catalogues, notamment par des grandes
+          bibliothèques du monde arabe, vont croissant à partir du milieu du
+          <date from="1900" to="1999" type="_temp">XX<hi rend="sup">e</hi>&#160;siècle</date> (Gacek, 1983) pour connaître un
+          véritable boom dans les dernières décennies. Ce mouvement témoigne
+          non seulement d’un intérêt renouvelé pour les collections de
+          manuscrits et le souci de leur accessibilité, ainsi que de
+          l’inscription progressive des différentes bibliothèques dans une
+          communauté partagée de «&#160;collections de manuscrits arabes&#160;»&#160;; il est
+          aussi le fruit d’une réorganisation partielle du lien entre le
+          corpus global de la littérature arabe d’une part, le livre d’autre
+          part, en y insérant une nouvelle donnée, celle de la bibliothèque
+          comme lieu de collection d’un objet physique&#160;: le manuscrit. Il
+          n’est pas anodin de ce point de vue que deux grandes entreprises de
+          cartographies, non plus désormais de la littérature arabe prise
+          comme ensemble de textes, mais du manuscrit en tant qu’objet
+          matériel et localisé, aient vu le jour à quelques années d’écart&#160;:
+          le <hi rend="italic">Catalogue complet du patrimoine manuscrit arabe
+          et islamique</hi> (<hi rend="italic">al-Fihris al-shâmil lil turâth
+          al ‘arabi wa al-islâmi al-makhtût</hi>) publié en arabe à Amman par
+          la fondation Âl al-Bayt en 1986, qui propose une liste d’ouvrages
+          accompagnée de la localisation des manuscrits afférents dans
+          différentes bibliothèques du monde&#160;; le <hi rend="italic">World
+          Survey of Islamic Manuscripts</hi>, une recension par pays de toutes
+          les collections de manuscrits connues dans le monde, publié entre
+          1992 et 1994 sous la direction de Geoffrey Roper par la fondation
+          londonienne Al Furqân.</p>
+          <p xml:id="d1e429">La collection totale (le «&#160;catalogue complet&#160;»),
+          la vue d’ensemble exhaustive (le «&#160;world survey&#160;») centrées sur le
+          manuscrit qu’ambitionnent ces deux entreprises témoignent, d’une
+          part, d’une progressive réorientation du savoir sur la littérature
+          classique arabe<note n="8" place="foot" type="standard" xml:id="ftn8">
+              <p>Ou «&#160;orientale&#160;», ou «&#160;islamique&#160;», selon les différentes
+              dénominations qui apparaissent et disparaissent au fur et à
+              mesure des catalogues et des recensions.</p>
+            </note> du livre (<hi rend="italic">kitâb</hi>), vers le manuscrit
+          (<hi rend="italic">makhtût</hi>) comme support matériel, historique
+          et à chaque fois singulier de la production intellectuelle arabe&#160;;
+          cette réorientation s’est d’ailleurs accompagnée d’un glissement
+          sémantique de la notion de savoir (celui que renferment les textes)
+          à celle de «&#160;patrimoine&#160;» (<hi rend="italic">turâth</hi>)
+          matérialisé par les manuscrits. Ces projets constituent également,
+          d’autre part, les manifestations les plus paradigmatiques du rêve
+          d’une cartographie totale, définitive des manuscrits et des textes
+          qu’ils recèlent, une cartographie qui s’avère inéluctablement
+          inachevée&#160;: non seulement du fait des manques et des absences
+          inévitables que recèlent ces recensions, mais aussi par le principe
+          même du manuscrit comme pôle autour duquel s’organisent les deux
+          projets&#160;: cartographier les localisations des manuscrits ou des
+          collections est aussi, inexorablement, cartographier la réalité
+          d’une fragmentation matérielle et intellectuelle d’un savoir et de
+          ses supports.</p>
+          <p xml:id="d1e444">De fait, c’est précisément pour pallier ce
+          morcellement que l’ambition à long terme de la fondation al-Furqân
+          –&#160;et dont le <hi rend="italic">World Survey</hi> ne serait alors
+          qu’une étape préliminaire&#160;– est de rassembler le plus grand nombre
+          possible, sous forme numérique ou microfilmique, de copies de
+          manuscrits. Ce projet de collection totale qui a vocation à
+          reconstituer matériellement un patrimoine dispersé aux quatre coins
+          du monde n’est pas le premier du genre&#160;: dès 1964, l’Institut des
+          manuscrits arabes, fondé au Caire sous l’égide de la Ligue arabe,
+          lance un vaste programme de collecte de manuscrits microfilmés,
+          programme qui s’inscrit à la fois dans un projet de valorisation du
+          patrimoine intellectuel classique arabe, et dans une réappropriation
+          aussi symbolique que matérielle des collections de manuscrits dont
+          une partie importante est, on l’a vu, aujourd’hui conservée dans les
+          bibliothèques occidentales.</p>
+          <p xml:id="d1e449">Les techniques de reproduction, sous forme de
+          microfilm ou de copie numérique, et la rediffusion, à partir des
+          collections de codex originaux, des textes manuscrits, proposent une
+          nouvelle configuration de l’articulation entre le manuscrit, la
+          bibliothèque, le catalogue, et leurs cartographies, et d’autres
+          possibilités de prise sur le corpus global de la littérature arabe
+          et du «&#160;patrimoine&#160;». De fait, si de nombreuses institutions dans le
+          monde arabe s’investissent aujourd’hui dans le catalogage (ou le
+          recatalogage) de leurs collections de manuscrits originaux, leur
+          restauration et conservation, d’autres poursuivent inlassablement
+          une politique d’acquisition et de collecte de microfilms. Les deux
+          institutions auxquelles je m’intéresse ici, celle de Amman en
+          Jordanie et d’Alexandrie en Égypte, ont pour particularité de se
+          situer toutes deux en marge des «&#160;grandes&#160;» collections historiques
+          de manuscrits&#160;: le Centre de documents et manuscrits de l’Université
+          de Jordanie, projet tout d’abord historien et universitaire, a été
+          créé en 1970, la nouvelle Bibliotheca Alexandrina a été inaugurée en
+          2002. Les deux institutions, insérées dans le réseau susmentionné de
+          recherche et de cartographie des manuscrits à l’échelle du monde
+          arabe<note n="9" place="foot" type="standard" xml:id="ftn9">
+              <p>Le fondateur du centre jordanien, ‘Adnan al-Bakhit, historien
+              ottomaniste, est ainsi membre de la fondation Âl al-Bayt, et a
+              également été président de la fondation al-Furqân&#160;; le fondateur
+              du centre d’Alexandrie, Youssef Ziedan, spécialiste du soufisme
+              et de philosophie islamique, a collaboré aussi bien avec la
+              fondation al-Furqân qu’avec l’Institut des manuscrits arabes du
+              Caire.</p>
+            </note>, se sont investies dans le rassemblement de textes
+          microfilmés, collectent copies de manuscrits et archives dans
+          l’ambition affichée de préserver, rassembler, et étudier le
+          «&#160;patrimoine arabe et islamique&#160;».</p>
+        </div>
+        <div type="div1" xml:id="d1e455">
+          <head subtype="level1" xml:id="d1e456">Des fiches et des
+          livres</head>
+          <p xml:id="d1e458">Revenons à Nuha, assise devant le lecteur de
+          microfilms. Elle s’arrête tout d’abord à la première image du film,
+          une petite fiche établie par la bibliothèque qui a microfilmé le
+          manuscrit, et qui détaille sommairement les informations minimales
+          d’identification du manuscrit&#160;: le numéro de série du microfilm, le
+          titre du manuscrit, le sujet du texte, le nom de l’auteur, la cote.
+          Nuha retranscrit soigneusement l’ensemble des données dans les
+          champs dédiés du formulaire.</p>
+          <p xml:id="d1e460">Les entrées suivantes, quant à elles, lui
+          demandent de se reporter directement au texte&#160;: elle continue à
+          tourner la molette pour arriver à la première page du manuscrit, et
+          retranscrit la ou les premières phrases de l’incipit (le début du
+          texte), puis déroule rapidement la bobine jusqu’à la fin du
+          manuscrit pour copier l’excipit (la fin du texte). Elle note ensuite
+          quel est le type de calligraphie utilisé par le copiste, puis se
+          reporte à nouveau au colophon qui clôt le texte pour repérer, quand
+          ils y figurent, le nom du copiste et la date de la copie. Suivent
+          ensuite les caractéristiques physiques du manuscrit&#160;: le nombre de
+          pages, ainsi que le nombre de lignes par page. Si les pages des
+          manuscrits sont souvent numérotées, soit par le copiste, soit par un
+          ajout ultérieur, parfois au crayon, permettant ainsi l’économie d’un
+          dénombrement manuel, c’est par contre en comptant, suivant du doigt
+          les lignes du texte sur l’écran, que Nuha remplit cette dernière
+          entrée. Les deux derniers champs relèvent de l’inscription dans
+          l’institution&#160;: le numéro attribué par le centre au microfilm, ainsi
+          que la bibliothèque de provenance du manuscrit et sa cote
+          originale.</p>
+          <p xml:id="d1e462">Pour Nuha, cataloguer un manuscrit est tout
+          d’abord le déterminer dans sa triple qualité&#160;: celle d’un microfilm,
+          copie inscrite dans une généalogie (cote, numéro de microfilm)
+          menant au manuscrit original&#160;; celle d’un texte avec les normes
+          afférentes –&#160;un auteur, un titre, un sujet&#160;; celle, enfin, d’un
+          codex spécifique, produit par un copiste à une date donnée, dans un
+          format particulier. Chaque copie constitue un exemplaire unique du
+          point de vue de son support matériel d’une part, mais aussi de son
+          texte&#160;: alors que l’imprimerie et le processus d’édition ont pour
+          corollaire inévitable la standardisation des textes publiés, la
+          tradition manuscrite produit quant à elle des familles de texte dans
+          lesquelles chaque copie est susceptible de différer de sa parente&#160;:
+          donner le plus de précisions possibles sur le manuscrit (l’incipit,
+          l’excipit, le nombre de pages, de lignes) a ainsi pour objectif
+          d’identifier précisément la copie (ou, plus exactement, la
+          différencier d’autres copies potentielles) dans l’espace du
+          catalogue<note n="10" place="foot" type="standard" xml:id="ftn10">
+              <p>Une histoire des pratiques de catalogage des manuscrits
+              arabes resterait à faire, et il est difficile de savoir comment
+              ces mentions ont été formalisées comme critères formels de
+              description des livres. Elles sont probablement anciennes&#160;:
+              Houari Touati évoque ainsi à propos du <hi rend="italic">Fihrist</hi> des livres d’al-Murtadâ, un
+              théologien du XI<hi rend="sup">e</hi>&#160;siècle de Bagdad, la
+              description détaillée pour chaque ouvrage du sujet du livre, de
+              la structure du texte et de l’état matériel du codex, une
+              attention à la forme du texte et du codex que l’on retrouve
+              également dans le catalogue, établi en 1294, de la bibliothèque
+              de Grande Mosquée de Kairouan (Touati, 2003).</p>
+            </note>.</p>
+          <p xml:id="d1e474">Les normes à adopter concernant les manuscrits
+          sont loin d’être stabilisées, même si les appels à l’homogénéisation
+          des notices et à la définition de critères stables et partagés de
+          description sont récurrents<note n="11" place="foot" type="standard" xml:id="ftn11">
+              <p>Voir par exemple les recommandations d’Adam Gacek pour
+              produire une notice (Gacek, 1983), réitérées près de vingt ans
+              plus tard par François Déroche (Déroche, 2000).</p>
+            </note>. De fait, la description d’un manuscrit, le
+          «&#160;portrait-robot&#160;» qui peut être établi sont variables d’un
+          rédacteur, d’un catalogue à l’autre. Certains feront l’économie de
+          l’incipit et de l’excipit, mais mentionneront en revanche la «&#160;belle
+          écriture&#160;» ou une ornementation particulièrement digne d’intérêt,
+          d’autres se lanceront dans la description la plus détaillée possible
+          de l’auteur, du contenu et du format matériel du codex. Le choix des
+          caractéristiques ou des traits saillants relèvent ainsi d’une part
+          de la formalisation qui émerge progressivement de la publication et
+          de la diffusion croissante des divers catalogues, mais relèvent
+          aussi du goût du rédacteur, de son intérêt (ou désintérêt) pour des
+          aspects particuliers du manuscrit.</p>
+          <p xml:id="d1e480">Aux prises avec des copies de manuscrits qui ont
+          déjà été catalogués dans les bibliothèques d’origine, le Centre de
+          documents et manuscrits a opté pour une forme plutôt minimaliste&#160;:
+          point ici de commentaires personnels sur l’intérêt du manuscrit ou
+          sa particularité, mais une liste, telle qu’elle est établie par le
+          formulaire que remplit Nuha, qui est une description, la plus
+          sommaire possible, des caractéristiques du texte et du manuscrit qui
+          permettent à la fois d’identifier de manière certaine le texte et la
+          copie tout en s’insérant dans le corpus des descripteurs communs à
+          l’ensemble des ouvrages.</p>
+          <p xml:id="d1e482">Nuha, soumise au cadre strict du formulaire et de
+          ses champs, n’a guère de latitude pour faire parler ses goûts, ses
+          observations, le rapport personnel qu’elle engage avec chaque
+          manuscrit qu’elle catalogue. Celui-ci est, il est vrai, réduit au
+          minimum. Elle est chimiste de formation, a été engagée par le centre
+          en raison de ses compétences en vue de la conservation des documents
+          anciens. «&#160;Je ne connais rien à l’histoire&#160;! La chimie, oui&#160;! La
+          restauration, oui&#160;! Mais l’histoire&#160;? J’ai juste appris un peu, avec
+          le catalogage, en travaillant sur les manuscrits…&#160;», me
+          lance-t-elle.</p>
+          <p xml:id="d1e484">Le catalogage des manuscrits s’inscrit pour Nuha
+          dans un ensemble de tâches routinières. Elle alterne ainsi le
+          catalogage des manuscrits avec le travail d’harmonisation, en cours,
+          du catalogue des imprimés du centre avec celui de la bibliothèque
+          universitaire situé un étage au-dessus, opération qui l’astreint
+          maintenant depuis un mois à rentrer, l’une après l’autre, les
+          références des imprimés dans le nouveau système informatique basé
+          sur la classification Dewey. Là, son travail consiste à transcrire
+          dans la notice informatique les informations données par la <hi rend="italic">bitâqa</hi>, la fiche cartonnée qui identifie chaque
+          livre dans l’ancien catalogue. La fiche est, à l’instar du
+          formulaire pour les manuscrits, l’opérateur central du processus&#160;:
+          numéro d’inventaire, cote, titre, auteur, la fiche synthétise un
+          ensemble de descripteurs que Nuha rentre dans l’ordinateur, puis
+          qu’elle «&#160;accroche&#160;» au format des notices établi par la
+          bibliothèque universitaire dans le catalogue duquel elle verse les
+          données. Le catalogage des piles de livres munis de leurs fiches
+          fonctionne sur un principe analogue à celui de manuscrit&#160;: naviguer
+          entre l’écran et le formulaire ou la fiche, remplir les champs de
+          référencement de l’ouvrage&#160;; réinsérer celui-ci, par le biais de la
+          cote ou du numéro d’inventaire, dans la classification du savoir
+          provenant d’une bibliothèque extérieure. Le manuscrit vient ainsi se
+          ranger dans un ordre des livres régi par une série d’opérations
+          fastidieuses (recopier le titre, l’auteur, le numéro de série&#160;;
+          poser le livre/le microfilm sur la pile d’items déjà catalogués&#160;;
+          recommencer l’opération) qu’elle accomplit de manière mécanique.</p>
+          <p xml:id="d1e489">Pour mieux réduire les traits saillants du
+          manuscrit et accélérer la besogne, elle use de petits trucs&#160;: la <hi rend="italic">basmalla</hi>
+            <note n="12" place="foot" type="standard" xml:id="ftn12">
+              <p>
+                <hi rend="italic">Bi ism Allah al rahmân al rahîm…</hi>, «&#160;Au
+              nom de Dieu le miséricordieux…&#160;», formule introductive par
+              laquelle débute habituellement le texte.</p>
+            </note> qui ouvre le texte est réduite à un «&#160;b…&#160;» dans sa
+          retranscription de l’incipit. Elle fait également l’économie des
+          observations secondaires sur le manuscrit, telles les <hi rend="italic">marginalia</hi> et autres observations annexes portées
+          sur le manuscrit. De toute manière, la photographie en noir et
+          blanc, de qualité médiocre, du manuscrit, permet difficilement leur
+          repérage.</p>
+        </div>
+        <div type="div1" xml:id="d1e504">
+          <head subtype="level1" xml:id="d1e505">Faire émerger la
+          singularité</head>
+          <p xml:id="d1e507">À quelque 500&#160;kilomètres de là, dans le Centre
+          des manuscrits de la toute nouvelle Bibliotheca Alexandrina en
+          Égypte, une dizaine de catalogueurs, assis à des bureaux collés les
+          uns aux autres sur lesquels sont jonchés pêle-mêle lecteurs de
+          microfilms, livres, bobines de microfilms, stylos et piles de
+          formulaires à remplir, travaillent dans un silence concentré au
+          catalogage des manuscrits microfilmés sous la supervision du
+          responsable des collections de manuscrits. Parmi eux Mahmûd, un
+          doctorant en littérature comparée qui a été spécialement engagé,
+          comme ses collègues, pour procéder au catalogage des collections de
+          manuscrits microfilmés reçues par l’institution. Mahmûd s’est tout
+          d’abord exercé à l’archivistique&#160;: il a été envoyé au Centre des
+          archives du monde du travail (CAMT) à Roubaix dans le cadre du don
+          par le centre français d’une copie du fonds des archives du Canal de
+          Suez. Il y a suivi une formation en archivistique centrée sur
+          l’inventaire et la description de documents d’archives. À l’issue de
+          son stage, il a produit un inventaire de ce fonds d’archives dont
+          une copie microfilmée est maintenant disponible dans le centre.
+          Celui-ci a rapidement été remisé dans un tiroir&#160;: trop court, trop
+          succinct aux yeux du directeur du centre, qui en a immédiatement
+          fait élaborer un nouveau par d’autres employés, m’explique Mahmûd.
+          Il me montre le nouvel inventaire qui a été constitué, le
+          feuillette, commente en même temps&#160;: «&#160;Moi, j’ai suivi les
+          instructions des archivistes français&#160;: il ne faut pas faire des
+          descriptions trop détaillées, mais des descriptions courtes,
+          synthétiques. Regarde [Mahmûd me montre des descriptions de
+          documents du nouvel inventaire], c’est beaucoup trop long, ce n’est
+          pas comme ça qu’il faut faire&#160;! Mais c’est le directeur du centre,
+          il a trouvé que mon inventaire était trop court, et il a demandé
+          qu’on en refasse un qui soit plus gros…&#160;» L’aventure archivistique
+          s’étant soldée par ce semi-échec, Mahmûd travaille maintenant au
+          catalogage de manuscrits.</p>
+          <p xml:id="d1e509">Aujourd’hui, Mahmûd a pour tâche de m’expliquer
+          comment constituer la notice d’un manuscrit. Il pose à mes côtés le
+          stylo et le formulaire à remplir, va chercher une pile de livres
+          richement reliés, des ouvrages de référence et des dictionnaires
+          bibliographiques qu’il pose sur la table, à portée de main, puis
+          monte la bobine sur le lecteur.</p>
+          <p xml:id="d1e511">Après avoir noté en tête du formulaire la
+          provenance du microfilm –&#160;les reproductions de manuscrits sur
+          lesquels il est en train de travailler en ce moment ont été fournies
+          par la National Library of Medicine aux États-Unis&#160;– Mahmûd
+          s’attaque au catalogage proprement dit du manuscrit. Il passe
+          rapidement sur la fiche d’identification qui, sur le film, précède
+          la photographie du début du manuscrit –&#160;«&#160;on peut regarder ce qu’ils
+          disent pour nous aider, mais il ne faut pas s’y fier, des fois il y
+          a des erreurs&#160;!&#160;»&#160;– et continue à dérouler le film pour arriver à la
+          page de titre. Je retranscris le titre indiqué dans le champ réservé
+          à cet effet, et nous cherchons ensemble dans le début du texte le
+          nom de l’auteur. Quand Mahmûd est chanceux, titre et auteur figurent
+          clairement sur la page de garde. Parfois cependant, aucune
+          indication n’est donnée, et Mahmûd doit dérouler une à une les
+          premières images du film, cherchant dans la masse dense du texte
+          (qui parfois peut être précédé de longs commentaires introductifs
+          faits par l’auteur ou le commanditaire de la copie) les marques de
+          repérage, telles un changement de couleur, un changement de taille
+          de l’écriture, ou encore, les deux mots rituels <hi rend="italic">wa
+          ba’adu</hi> («&#160;et ce qui suit est…&#160;») par lesquels est introduite
+          l’annonce du titre. Celui-ci, dans ce cas précis, n’apparaît
+          cependant nulle part. Après avoir parcouru des yeux les premières
+          pages, Mahmûd fait défiler le film jusqu’à la fin du manuscrit, dans
+          l’espoir d’en trouver mention, sans succès. Il entame alors une
+          longue enquête pour procéder à l’authentification (<hi rend="italic">tawthîq</hi>) du texte.</p>
+          <p xml:id="d1e519">Mahmûd se saisit du <hi rend="italic">Kashf al
+          Zunûn</hi> de Kâtib Çelebi posé à ses côtés, dans lequel chaque
+          notice de titre donne l’auteur, le sujet de l’ouvrage avec une brève
+          description de son contenu et de sa date de publication si celle-ci
+          est connue. L’œuvre de Çelebi constitue un des outils de travail
+          quotidiens de Mahmûd, à la fois en raison de la quantité de titres
+          qu’il recense que de l’adoption par son auteur d’un classement par
+          strict ordre alphabétique qui rend aussi aisé que rapide la
+          recherche d’un titre. Celui indiqué sur le manuscrit ne figure
+          toutefois pas dans le <hi rend="italic">Kasf al Zunûn</hi>, et
+          Mahmûd se lève pour aller chercher le <hi rend="italic">Idâh al
+          maknûn</hi>, un complément au <hi rend="italic">Kashf al Zunûn</hi>
+          rédigé à la fin du XIX<hi rend="sup">e</hi>&#160;siècle, et qui a pour
+          objet la recension de tous les ouvrages postérieurs à ce dernier.
+          C’est là qu’il trouve une notice avec le même titre que le texte
+          auquel nous avons affaire&#160;: il est attribué à un auteur du nom de
+          Baldâwî. L’authentification n’est pas encore terminée, puisqu’il lui
+          faut maintenant assurer cette première prise sur le manuscrit par
+          une seconde&#160;: il s’empare du <hi rend="italic">Mu’ajam al
+          mu’allifîn</hi>, le dictionnaire bio-bibliographique des auteurs de
+          la littérature arabe de Umar Kahhâla, et vérifie l’entrée Baldâwî.
+          De fait, celle-ci mentionne bien comme œuvre le titre qui figure en
+          première page du manuscrit.</p>
+          <p xml:id="d1e540">Le double référencement pour les dictionnaires
+          bibliographiques pourrait sembler suffisant. C’est le moment
+          toutefois que choisit Mahmûd pour vérifier si ce qu’il a trouvé
+          concorde avec les informations données par la bibliothèque qui a
+          fourni le manuscrit, et réenroule le film pour revenir à l’image de
+          la fiche d’identification préliminaire au manuscrit&#160;: nulle trace
+          cependant ici d’un Baldâwî, celle-ci donne le nom d’al Qawsûni comme
+          auteur du texte. Il décide alors de prolonger l’enquête et, après
+          une courte réflexion, se rend vers le poste d’ordinateur à partir
+          duquel il peut accéder au catalogue du centre, et lance une
+          recherche par le titre de l’ouvrage. Il est chanceux, la recherche
+          lui donne un manuscrit avec un titre identique. Il va chercher le
+          manuscrit, et procède à une comparaison du texte. Il vérifie qu’il
+          s’agit bien d’une copie du même ouvrage, attribuée, celle-là, sans
+          doute aucun, à Baldâwî. Mahmûd est satisfait, il peut remplir le
+          champ «&#160;auteur&#160;» avec le nom complet<note n="13" place="foot" type="standard" xml:id="ftn13">
+              <p>Le nom est généralement le prénom suivi du nom du père. Le
+              nom d’usage, ou d’adresse peut toutefois différer, d’où la
+              difficulté d’identifier un texte à partir de son auteur&#160;: le nom
+              indiqué peut référer à son origine (al Baghdâdî pour un homme
+              originaire de Bagdad) ou à tout autre caractéristique propre à
+              l’auteur en question. Le nom complet (le plus à même
+              d’identifier de manière indiscutable un auteur) donne le nom
+              d’usage, le prénom, le nom du père, du grand-père et parfois de
+              l’arrière-grand-père (<hi rend="italic">bin</hi>, «&#160;fils de&#160;»…),
+              ainsi que, parfois, le prénom du fils aîné («&#160;père de&#160;»,&#160;<hi rend="italic">abû</hi>…).</p>
+            </note> tel qu’il est indiqué dans le <hi rend="italic">Mu’jam al
+          muallifîn</hi>, la date et lieu de son décès, dans l’entrée du
+          formulaire réservée à cet effet. Sur ses instructions, je mentionne
+          dans l’espace «&#160;commentaires&#160;» prévu à la fin du formulaire l’erreur
+          d’attribution de titre par la bibliothèque d’origine et les
+          références (le <hi rend="italic">Idâh al maknûn</hi> et la copie du
+          centre) qui ont permis la réauthentification du manuscrit.</p>
+          <p xml:id="d1e558">Là où Nuha inscrit d’emblée les microfilms
+          qu’elle catalogue dans une chaîne d’autorité exclusive –&#160;celle de
+          l’institution qui a fourni le microfilm, chaîne qui se matérialise
+          dans le numéro de série du microfilm ainsi que dans la fiche
+          d’identification&#160;–, le catalogage de Mahmûd consiste au contraire à
+          rompre avec cette chaîne pour redéployer à sa place un nouveau
+          réseau de références d’autorité. La démarche de Mahmûd –&#160;et plus
+          généralement du Centre de manuscrits de la Bibliotheca&#160;– est, dans
+          ce sens, d’extraire le microfilm de la chaîne d’autorité
+          institutionnelle et scientifique existante (et en premier lieu celle
+          établie par la bibliothèque de provenance du microfilm) afin de
+          reconstruire l’identité des codex à partir de la seule autorité
+          scientifique du Centre. Celle-ci se fonde sur l’articulation de
+          l’érudition universitaire des catalogueurs avec l’utilisation des
+          modes de transmission et de compilation propres à la tradition
+          littéraire arabe classique. Les manuscrits sont resitués dans un
+          réseau textuel savant arabe et islamique qui court-circuite, en
+          partie du moins, la tradition savante orientaliste. Le travail de
+          catalogage réorganise, pour paraphraser Bruno Latour (Latour, 1996),
+          la relation entre «&#160;centre&#160;» (qui devient le Centre de manuscrits,
+          lieu par excellence de convergence et de mise en relation des
+          textes, des savoirs et de la tradition lettrée arabe) et la
+          «&#160;périphérie&#160;» (la communauté scientifique internationale).</p>
+          <p xml:id="d1e560">Pour réauthentifier le texte, Mahmûd a procédé à
+          un tissage progressif de liens autour du manuscrit, liens qui
+          arriment le texte à un réseau d’érudition, mais s’ancrent également
+          dans l’environnement matériel du Centre. Ses «&#160;prises&#160;» (Bessy &amp;
+          Chateauraynaud, 1995) sur le manuscrit se construisent ainsi dans un
+          va-et-vient permanent entre l’image qu’il a sous les yeux –&#160;et son
+          déroulement entre le début et la fin de la bobine, retours en
+          arrière, nouvelle scrutation du texte, de son titre, de sa fiche…&#160;–,
+          et les appuis matériels qui s’étendent graduellement autour du
+          microfilm au fur et à mesure de son investigation&#160;: les
+          dictionnaires bibliographiques qu’il a posés à ses côtés, ceux qu’il
+          va chercher dans les étagères, les manuscrits des collections du
+          centre, voire, dans les cas où l’identification continue à rester
+          incertaine et en dernier recours, la consultation de la traduction
+          arabe de la GAL de Brockelmann, de Google, ou l’appel à des
+          collègues… Les appuis distribués dans l’environnement du centre
+          enserrent progressivement l’objet jusqu’à stabiliser définitivement
+          le manuscrit. Aucun des appuis mobilisés n’est suffisant en lui-même
+          –&#160;les auteurs de la fiche, mais, aussi, les auteurs des
+          bibliographies ou d’autres catalogueurs sont tous susceptibles
+          d’erreurs, et c’est uniquement quand le faisceau des différents
+          liens est suffisamment dense&#160;– par le jeu d’échos, notamment, entre
+          les dictionnaires d’auteurs et les dictionnaires de titres –&#160;que
+          l’identification est assurée… du moins provisoirement.
+          (Figure&#160;2)</p>
+          <figure xml:id="d1e565">
+            <graphic url="https://didomena.ehess.fr/downloads/xw42nh739.jpg"/>
+            <head>Figure 2. De l’art de faire une notice, ou les différents
+            modes d’existence d’un manuscrit&#160;: ici, la notice détaillée (issue
+            du catalogue publié en ligne en 2004 par la National Library of
+            Medicine) du manuscrit que Mahmûd a attribué à al Baldâwî</head>
+          </figure>
+          <p rend="figure-legend" xml:id="d1e567">L’auteur de la notice
+          mentionne l’erreur d’attribution du premier catalogage (celui qui
+          continue à figurer sur la fiche du microfilm), mais établit comme
+          auteur non pas al Baldâwî, mais un certain Musa al Baghdâdî. Il
+          note, avec la même assurance que Mahmûd, qu’&#160;«&#160;une comparaison avec
+          d’autres copies confirme cette identification&#160;».</p>
+          <p rend="figure-license" xml:id="d1e570">
+            <hi xml:lang="en">Source&#160;:</hi>
+            <hi rend="italic">Islamic Medical Manuscripts at the National
+            Library of Medicine</hi>
+            <hi xml:lang="en">,</hi>
+            <ref target="http://www.nlm.nih.gov/hmd/arabic/poetry_3.html#a24">
+              <hi xml:lang="en">http://www.nlm.nih.gov/hmd/arabic/poetry_3.html#a24</hi>
+            </ref>
+            <hi xml:lang="en">[consulté le 21&#160;septembre 2013]</hi>
+          </p>
+          <p xml:id="d1e582">Le catalogage, cependant, est loin d’être
+          terminé. Mahmûd s’attaque maintenant aux entrées portant sur les
+          caractéristiques matérielles du manuscrit. Mahmûd note l’état
+          général du manuscrit, puis relève toutes les marques particularisant
+          la copie&#160;: faisant défiler le texte d’avant en arrière, il me
+          signale ainsi au fur et à mesure de ce qu’il repère ce qu’il va
+          noter&#160;: sur la page de titre, des sceaux de propriété. Plus loin, il
+          note que quelques mots sont écrits dans une encre de couleur
+          différente&#160;: il s’agit dans ce texte de signaler par ce procédé les
+          en-têtes de chapitre. Manipulant avec dextérité la manette de la
+          visionneuse, il poursuit le défilement rapide des pages, puis
+          s’arrête, revient une page en arrière pour vérifier une marque qui
+          lui a accroché l’œil&#160;; il remarque, satisfait de son acuité&#160;:
+          «&#160;regarde, ici il y a une <hi rend="italic">sahha</hi>&#160;!&#160;»&#160;: le
+          caractère, minuscule au point qu’il en est presque invisible sur
+          l’image microfilmée, est une marque de vérification, indiquant que
+          le copiste a contrôlé l’exactitude de la teneur du texte qu’il était
+          en train de copier. Il prend également note de la présence de
+          commentaires en marge du texte, des changements d’écriture qui
+          indiquent un nouveau copiste, sans oublier l’état matériel du codex
+          microfilmé, et en particulier les traces d’humidité, qu’il note avec
+          soin, qui assombrissent de taches grisâtres certaines pages sur
+          l’image.</p>
+          <p xml:id="d1e587">Mahmûd en a maintenant fini&#160;: il date et signe le
+          formulaire. Le travail de catalogage n’est toutefois pas
+          complètement finalisé, puisque la bobine de microfilm, accompagnée
+          du formulaire qui la définit désormais, va ensuite être transmise à
+          un de ses collègues. Celui-ci aura pour charge de vérifier, champ
+          par champ, l’ensemble du travail d’authentification et
+          d’identification effectué par Mahmûd. Ce n’est qu’une fois qu’une
+          double vérification complète a été faite que le formulaire est
+          retranscrit sur ordinateur dans le fichier catalogue&#160;: pour
+          l’instant, un fichier Word restreint à l’usage interne au centre qui
+          reprend, sous forme de tableau, l’ensemble des champs du
+          formulaire.</p>
+          <p xml:id="d1e589">À l’instar du centre jordanien, le Centre de
+          manuscrits de la Bibliotheca Alexandrina ne dispose aujourd’hui que
+          de peu de manuscrits originaux, en comparaison notamment avec la
+          richesse des collections détenues par la Bibliothèque nationale du
+          Caire. Il pallie la pauvreté de ses fonds avec un important
+          investissement en moyens techniques et humains&#160;: le centre comprend
+          ainsi un laboratoire de restauration manuelle des documents, un
+          laboratoire de chimie, une section de numérisation, une section de
+          gravure de CD-Roms, une section de catalogage, une salle de lecture,
+          et un petit musée attenant. Une dizaine d’historiens travaillent au
+          catalogage de manuscrits, tandis qu’une quinzaine de restaurateurs
+          traitent les aspects matériels des documents, sans compter les
+          nombreux employés qui travaillent dans le laboratoire de chimie, la
+          section de numérisation, et le département de communication et
+          relations publiques.</p>
+          <p xml:id="d1e591">Grand admirateur des travaux initiés depuis les
+          années&#160;1980 en codicologie des manuscrits arabes<note n="14" place="foot" type="standard" xml:id="ftn14">
+              <p>Et en particulier de ceux de François Déroche, un des
+              principaux promoteurs de la codicologie et de l’histoire du
+              livre en écriture arabe (Déroche, 1989, 2000&#160;; Déroche &amp;
+              Richard, 1997&#160;; voir également Humbert, 2002).</p>
+            </note>, le directeur du centre a choisi de porter les efforts sur
+          la mise en valeur de la matérialité des manuscrits. Ceux-ci sont
+          perceptibles en premier lieu dans le travail de restauration et de
+          mise en valeur des manuscrits anciens récupérés par le centre, mais
+          aussi dans le travail de catalogage des microfilms&#160;: le catalogage
+          des copies microfilmées s’inscrit ici, je l’ai montré ailleurs, dans
+          différentes formes de relances du <hi rend="italic">kitâb</hi>, du
+          livre arabe, à travers les prises plurielles (restauration,
+          catalogage, muséification) qui s’exercent sur les multiples formes
+          matérielles du manuscrit (Jungen, 2012). Les choix de catalogage et
+          de description du microfilm manifestent aussi, dans ce cadre, la
+          volonté de s’inscrire dans l’imaginaire de la matérialité du
+          manuscrit original et des derniers développements scientifiques qui
+          s’y rattachent&#160;: attention portée à des éléments marginaux du texte,
+          aux variations d’encre, d’écriture, à l’état du manuscrit –&#160;bien
+          qu’il soit en réalité difficilement discernable, dans les images en
+          noir et blanc qui figurent sur le microfilm. Le catalogage est ici
+          le biais par lequel le support microfilmique est qualifié et projeté
+          dans la physicalité matérielle du manuscrit absent&#160;: le travail de
+          description du manuscrit s’opère comme si le catalogueur avait sous
+          les yeux l’original, et non une reproduction de mauvaise
+          qualité.</p>
+          <p xml:id="d1e600">Dans ce travail de réinvention intellectuelle et
+          matérielle du codex que Mahmûd opère à travers son catalogage se
+          dessinent en même temps ses efforts à faire apparaître la
+          singularité du manuscrit, tout comme la sienne propre. À l’inverse
+          de Nuha qui, dans son travail de réduction du manuscrit dans le
+          formulaire, discipline les particularités du manuscrit par des
+          descripteurs normatifs minimalistes, dans une recherche d’économie
+          aussi bien de temps que d’efforts, Mahmûd procède à une auscultation
+          méticuleuse du texte, à la recherche de ses aspérités, de ses traits
+          saillants, de détails, aussi infimes soient-ils, qui lui permettent
+          de remplir de la manière la plus complète possible les champs
+          «&#160;Description&#160;» et «&#160;Commentaires&#160;» dans lesquels peut s’exprimer
+          son appréciation personnelle. Là où Nuha doit gérer dans un même
+          flux le recatalogage des livres, le catalogage des manuscrits,
+          l’accueil des visiteurs, les relations avec le bureau du directeur,
+          etc., le temps de Mahmûd est, en revanche, entièrement consacré au
+          microfilm&#160;; et c’est peut-être la meurtrissure qu’il a conservée de
+          ses mésaventures archivistiques qui l’incite d’autant plus à
+          s’investir dans ce qu’il considère comme un travail «&#160;bien
+          fait&#160;».</p>
+          <p xml:id="d1e602">Pour Mahmûd, la compétence du catalogueur se
+          manifeste dans son aptitude à faire émerger du microfilm qu’il a
+          devant les yeux une pièce unique, dans sa capacité aussi bien à
+          intégrer son objet dans les champs requis du formulaire que d’en
+          produire une singularité irréductible. C’est en particulier pour lui
+          l’occasion d’imprimer la marque de son savoir-faire. Il choisit par
+          exemple avec soin les termes qu’il va retenir pour la
+          retranscription de l’incipit, car, m’explique-t-il, il faut, pour
+          que la phrase soit la plus significative pour identifier le texte,
+          qu’elle soit particulièrement représentative du sujet dont traite le
+          texte. Il recopie ainsi à partir de l’énoncé du titre et du nom de
+          l’auteur, fait des crochets avec des points de suspension pour
+          indiquer une rupture dans la citation, reprend quelques lignes plus
+          tard&#160;: il s’agit ici d’un traité de médecine, et Mahmûd choisit de
+          retranscrire le début d’une description de symptômes.</p>
+          <p xml:id="d1e604">Un autre lieu de la mise en œuvre de son
+          savoir-faire est l’entrée «&#160;description&#160;», la plus souple, et la
+          seule qui soit laissée à l’appréciation et au jugement du
+          catalogueur. Les catalogueurs disposent d’un petit guide –&#160;c’est
+          Mahmûd d’ailleurs qui l’a rédigé&#160;– qui formalise les descripteurs
+          possibles pour remplir cette entrée&#160;: qualification de l’état d’un
+          manuscrit («&#160;bon&#160;», «&#160;exceptionnel&#160;», «&#160;mauvais&#160;»…)&#160;; la liste des
+          particularités qui peuvent caractériser une copie, telles les <hi rend="italic">sama’ât</hi> (les certificats d’audition ou de
+          lecture), les <hi rend="italic">ijâzât</hi> (licences) ou les sceaux
+          de propriété&#160;; liste détaillée des formes de <hi rend="italic">marginalia</hi>, des marques de détérioration
+          matérielle, etc. Mahmûd n’a pas quant à lui besoin de s’y référer&#160;;
+          il est fier de son œil exercé, qui lui permet de repérer des
+          caractéristiques qui ont échappé à d’autres. C’est ainsi qu’il
+          n’hésite pas, quand il procède à la vérification d’un formulaire
+          rempli par un collègue, à raturer à grands traits des descriptions
+          qu’il considère comme incomplètes, pour récrire ensuite au dos du
+          formulaire la description selon lui correcte&#160;: celle qui détaille
+          tout ce qui caractérise la copie, du repérage des plus
+          imperceptibles marques de certification portées par le copiste dans
+          les marges aux cachets de propriété les plus effacés&#160;: la marque de
+          Mahmûd, qui est aussi pour lui un label qualité, apparaît dans les
+          interstices qui échappent à la rigueur du champ et du formulaire.
+          L’espace prévu pour faire saillir l’individualité de l’objet devient
+          par la même occasion la zone dans laquelle peut s’infiltrer la
+          touche personnelle du catalogueur. (Figure&#160;3)</p>
+          <figure xml:id="d1e618">
+            <graphic url="https://didomena.ehess.fr/downloads/ww72bm357.jpg"/>
+            <head>Figure 3. Le formulaire du centre de manuscrits de la
+            Bibliothèque d’Alexandrie</head>
+          </figure>
+          <p rend="figure-legend" xml:id="d1e620">Ce sont les deux
+          avant-dernières colonnes (Description et Commentaires) dans
+          lesquelles les entrées manuscrites de Mahmûd vont parfois déborder
+          du cadre, partir se nicher en bordure, ou carrément être poursuivies
+          au dos du formulaire. Les entrées se présentent comme suit&#160;:
+          1.&#160;Numéro du film/Provenance/numéro du manuscrit 2.&#160;Domaine 3.&#160;Titre
+          4.&#160;Auteur 5.&#160;Liste (à cocher) des références utilisées pour
+          l’authentification 5.&#160;Type d’écriture/Langue/État du manuscrit
+          6.&#160;Début [du texte] 7.&#160;Fin [du texte] 8.&#160;Copiste/lieu de la copie
+          9.&#160;Date de copie/ Date de publication 10.&#160;Nombre de pages/nombre de
+          lignes 11.&#160;Description 12.&#160;Commentaires 13.&#160;Catalogueur/Date</p>
+          <p rend="figure-license" xml:id="d1e623">Source&#160;: centre de
+          manuscrits de la Bibliothèque d’Alexandrie</p>
+        </div>
+        <div type="div1" xml:id="d1e625">
+          <head subtype="level1" xml:id="d1e626">Mettre en réseau (ou
+          pas)</head>
+          <p xml:id="d1e628">Pour l’instant, personne n’est en mesure
+          d’apprécier la qualité des notices effectuées par Mahmûd, à
+          l’exception des employés qui ont accès au catalogue interne du
+          centre. Contrairement à la collection de manuscrits anciens, qui ont
+          fait l’objet d’une publication en plusieurs volumes par le directeur
+          du centre, le catalogue des manuscrits microfilmés, s’il a vocation
+          à être rendu public, un jour, est pour l’instant inaccessible au
+          public.</p>
+          <p xml:id="d1e630">C’est avec fierté, en revanche, que Nuha me
+          montre son nom, qui figure en toutes lettres sur le tout dernier
+          volume publié par le centre, volume qui est venu se glisser dans la
+          pile de catalogues de manuscrits qu’a rassemblés l’institution. Les
+          catalogues gisent en vrac sur la table, dans un relatif désordre qui
+          témoigne avant tout de la quotidienneté de leur maniement&#160;:
+          instruments de travail réguliers dans le centre, les catalogues sont
+          constamment ouverts, feuilletés, refermés, rouverts et reposés. Le
+          rythme de manipulation des volumes se combine avec celui des
+          déplacements dans la salle&#160;; la table sur laquelle reposent les
+          catalogues est située au milieu de la salle de lecture, elle
+          fonctionne comme une zone d’aimantation des circulations. C’est le
+          premier emplacement vers lequel se dirigent étudiants et chercheurs
+          extérieurs&#160;; les employés eux-mêmes y font des allers-retours en
+          permanence, soit pour indiquer à des nouveaux venus comment
+          effectuer une recherche, soit pour répondre à des demandes
+          extérieures, soit encore, pour commander une copie microfilmée d’un
+          manuscrit à une autre institution.</p>
+          <p xml:id="d1e632">La pile de catalogues du centre rassemble les
+          fonds de plusieurs bibliothèques&#160;: en sus des volumes du catalogue
+          de la collection des manuscrits microfilmés disponibles sur place,
+          on y trouve les catalogues de divers centres de manuscrits du monde
+          arabe (saoudiens, émiratis et palestiniens en particulier),
+          catalogues également de collections conservées dans des
+          bibliothèques européennes et traduites en arabe, parmi lesquels on
+          peut notamment citer le catalogue des manuscrits arabes conservés à
+          la bibliothèque Chester Beatty à Dublin rassemblant une prestigieuse
+          collection de manuscrits arabes, de copies du Coran en particulier,
+          ou encore le catalogue de la Bibliothèque nationale de France. La
+          pile témoigne des circuits de circulation dans un réseau qui va de
+          l’Irlande à au Golfe en passant par la plupart des pays du
+          Moyen-Orient&#160;: les dons, achats, échanges de copies de manuscrits se
+          font sur une base régulière entre les différentes institutions qui
+          s’échangent, s’achètent, se vendent des reproductions microfilmées
+          de manuscrits.</p>
+          <p xml:id="d1e634">Le catalogue est aussi une manière d’inscrire le
+          centre et ses collections dans le patrimoine collectif, dans les
+          ressources institutionnelles internationales du manuscrit arabe.
+          Modalité de diffusion et publicisation à grande échelle (chaque
+          volume est publié en plusieurs centaines d’exemplaires diffusés à
+          l’ensemble des institutions avec lesquels le centre coopère dans la
+          région), il opère une insertion dans les collectifs qui s’agencent
+          autour de l’objet manuscrit, et ce aussi bien à travers la
+          communauté de langage qui fédère l’ensemble des catalogues que, très
+          concrètement, dans la proximité physique des volumes&#160;entre eux sur
+          la table où ils s’entassent. Il est également le lieu à partir
+          duquel se déploient et se concentrent, dans un mouvement à la fois
+          centripète et centrifuge, les opérations d’accumulation de ces
+          centres qui, par un inlassable travail de démarchage, d’achat, de
+          constitution progressive des copies complètes des collections
+          d’autres bibliothèques –&#160;en premier lieu des bibliothèques
+          européennes&#160;– visent, <hi rend="italic">in fine</hi>, à s’y
+          substituer&#160;: le catalogue qui vient se marier, dans la pile, aux
+          autres catalogues tout en les redoublant, promet en filigrane une
+          vocation de complétude, d’universalité, d’accumulation et de
+          maîtrise la plus achevée possible sur une bibliothèque mondiale des
+          manuscrits. Celui en quête d’un manuscrit précis peut ainsi, en
+          feuilletant les ouvrages, en passant d’une configuration des notices
+          à une autre, articuler les volumes entre eux, identifier les
+          différentes occurrences d’un texte, se déplacer aisément dans la
+          topographie des catalogues afin de trouver le bon manuscrit au bon
+          endroit.</p>
+          <p xml:id="d1e639">«&#160;Tout est là-bas&#160;!&#160;» Nuha, un peu irritée, tance
+          le jeune étudiant qui s’est approché avec gaucherie de la table où
+          sont posés les catalogues. Le garçon, qui attend depuis quelque
+          temps déjà un manuscrit en provenance de la bibliothèque nationale
+          de Damas pour lequel il a déposé une requête de copie microfilmée
+          –&#160;«&#160;Ça prend du temps&#160;! Des fois ça prend deux mois, des fois ça
+          prend six mois, c’est impossible à savoir&#160;!&#160;», vient de rétorquer
+          Nuha à son interrogation sur l’éventuelle arrivée de la précieuse
+          copie&#160;–, s’est maintenant enquis du catalogue des collections de la
+          bibliothèque Chester Beatty. Le jeune homme, intimidé, hésite devant
+          la pile de volumes qui reposent sur la table, n’ose pas les prendre
+          dans la main. Ce n’est qu’après que Nuha réitère, sur un ton sans
+          appel, son constat que «&#160;tout est là&#160;» et qu’il n’a qu’à
+          «&#160;regarder&#160;» pour trouver ce qu’il cherche qu’il se décide à
+          s’asseoir, à manipuler les volumes et chercher dans le tas éparpillé
+          le catalogue qui l’intéresse.</p>
+          <p xml:id="d1e641">Nuha est d’autant plus fière de «&#160;son&#160;»
+          catalogue, celui qu’elle a contribué à publier, qu’elle est tenue à
+          l’écart des inventaires d’archives, l’autre activité principale du
+          centre, et à laquelle se consacrent, pour leur part, les historiens
+          qui travaillent dans l’institution. En marge de la prise savante et
+          experte sur l’histoire, Nuha réaffirme sa compétence et sa marge de
+          manœuvre par d’autres biais. Ainsi, si la vocation affichée du
+          catalogue est d’être un opérateur facilitant la navigation dans la
+          cartographie des collections de manuscrits, d’ergonomiser autant que
+          possible l’accès au texte, Nuha se donne, quant à elle, la liberté
+          d’accompagner ou de faire obstacle à cette ambition. Du «&#160;Tout est
+          là&#160;!&#160;» à la prise en charge à son compte de la recherche pour les
+          visiteurs, sa disposition à s’insérer dans le dispositif d’accès au
+          manuscrit, à aplanir, ou non, le parcours, peut varier. Elle donnera
+          plus facilement accès aux microfilms à ceux qui manipulent les
+          catalogues avec maîtrise et savoir-faire.</p>
+          <p xml:id="d1e643">Nuha a acquis une réelle familiarité avec les
+          textes et outils qu’elle manipule au jour le jour. C’est avec
+          autorité qu’elle dirige les visiteurs vers le catalogue où ils sont
+          le plus susceptibles de trouver le manuscrit qu’ils recherchent,
+          qu’elle envoie promener avec agacement ceux qui sont incapables de
+          manier correctement les volumes. Avec d’autres, elle montrera sa
+          maîtrise des collections du centre et de ses catalogues&#160;: ainsi avec
+          un conservateur venu du&#160;Koweït, à la recherche de manuscrits pour
+          compléter ses propres collections, auprès de qui elle s’enquiert des
+          fonds dont il dispose déjà. L’homme répond qu’il a les collections
+          de la bibliothèque de Chester Beatty –&#160;«&#160;Mais ça, j’ai&#160;!&#160;» le
+          coupe-t-elle immédiatement&#160;– ainsi que de la «&#160;bibliothèque de Paris
+          [la BNF].&#160;» –&#160;«&#160;La bibliothèque nationale de Paris&#160;? Nous avons
+          plein de manuscrits de là-bas&#160;!&#160;»&#160;– «&#160;Les cinq mille&#160;?&#160;» Nuha
+          concède&#160;: «&#160;Non, je ne sais pas, mais nous en avons beaucoup, plus
+          de mille, deux mille… Regarde le catalogue&#160;!&#160;» Elle lui sort le
+          catalogue du centre des volumes amoncelés sur la table auprès de
+          laquelle ils se tiennent, lui montre comment il est organisé pour
+          qu’il puisse y effectuer ses recherches. Quant à d’autres, tel le
+          jeune étudiant, de ceux qui n’osent s’approcher des volumes,
+          préférant demander directement l’information sur le manuscrit qu’ils
+          recherchent, ceux-ci vont faire l’objet d’un interrogatoire en règle
+          après qu’elle a consulté elle-même le catalogue&#160;: «&#160;Oui, on a le
+          manuscrit. Tu es de quelle université&#160;? Pourquoi tu veux consulter
+          le manuscrit&#160;?&#160;» Il y a des chances qu’elle finisse par annoncer au
+          garçon&#160;: «&#160;De toute manière, il y a déjà quelqu’un qui est sur la
+          machine. Reviens un autre jour…&#160;»</p>
+          <p xml:id="d1e645">«&#160;Revenir un autre jour&#160;» est le lot de nombre de
+          ceux qui souhaitent consulter les manuscrits du centre&#160;: la
+          visionneuse est occupée, ou bien ils n’ont pas la bonne
+          autorisation, ou encore, pas le niveau d’études suffisant… En
+          érigeant de petits obstacles sur le parcours menant au texte, Nuha,
+          et plus largement le centre, résistent à la promesse d’accessibilité
+          que suggère le catalogue, réaffirment en marge de l’idéal du
+          catalogue d’une mise en lien commode et sans effort du manuscrit et
+          du chercheur, leur propre rôle d’opérateurs incontournables de
+          l’accès au texte.</p>
+        </div>
+        <div type="div1" xml:id="d1e647">
+          <head subtype="level1" xml:id="d1e648">Conclusion</head>
+          <p xml:id="d1e650">De l’ambition encyclopédique à la collecte
+          patrimoniale, les programmes de cartographie totale et complète des
+          manuscrits existants, les entreprises de bibliothèques numériques
+          partagées susceptibles de dépasser les frontières institutionnelles,
+          le rêve, aussi, de faire entrer les manuscrits dans le langage des
+          formats et encodages standards et partagés qui permettraient, à
+          l’aide de base de données, de localiser un manuscrit ou ses copies
+          aussi facilement que l’on trouve aujourd’hui un livre imprimé, se
+          suivent et se poursuivent<note n="15" place="foot" type="standard" xml:id="ftn15">
+              <p>En dehors du projet déjà mentionné de la fondation al Furqân,
+              il existe de nombreux projets aussi bien de rassemblement
+              numérique de collections dispersées que de standardisation des
+              normes de catalogage. Citons à titre d’exemple le projet
+              Manumed, lancé en 1998 en partenariat avec l’UNESCO, et qui
+              propose une bibliothèque virtuelle de manuscrits numérisés de
+              l’ensemble du pourtour méditerranéen, projet auquel participe
+              d’ailleurs la Bibliotheca Alexandrina (<ref target="http://www.manumed.org/">www.manumed.org</ref>). Autre
+              projet, strictement européen et universitaire plus que
+              patrimonial, inscrit dans les réseaux académiques de recherche
+              sur les manuscrits, celui du COMSt (Comparative Oriental
+              Manuscript Studies) soutenu par la European Science Foundation,
+              et qui a mis en place depuis 2009 plusieurs équipes de recherche
+              dédiées aussi bien à la philologie, codicologie, la
+              préservation, que le catalogage et l’unification des normes
+              (<ref target="http://www1.uni-hamburg.de/COMST/index.html">http://www1.uni-hamburg.de/COMST/index.html</ref>).</p>
+            </note>. Dans le même temps, en parallèle à ces multiples projets,
+          Nuha, Mahmûd et d’autres continuent de produire au sein de leurs
+          institutions respectives des catalogues, des modes d’accès aux
+          manuscrits irréductibles les uns aux autres. Au gré de la
+          reproduction des manuscrits, des recatalogages auxquels celle-ci
+          donne lieu, la topographie des manuscrits se redéploie, se
+          démultiplie, en même temps qu’elle se parcellise et se décompose
+          entre bibliothèques et catalogues.</p>
+          <p xml:id="d1e662">Ce n’est pas un hasard si le catalogage des
+          manuscrits microfilmés fait, dans les deux centres, l’objet d’un
+          travail «&#160;à la chaîne&#160;», contrairement à d’autres activités placées
+          directement sous la responsabilité d’un universitaire (l’inventaire
+          et l’indexation de fonds d’archives à Amman, le catalogage de
+          manuscrits originaux à Alexandrie). De fait, le microfilm est ici un
+          objet moins hybride que fondamentalement indécis&#160;: s’agit-il d’un
+          codex ou d’un simple support de texte&#160;? D’un manuscrit ou d’un
+          livre&#160;? D’une copie ou d’une entité propre&#160;? Quelle <hi rend="italic">valeur</hi>, au fond, lui donner&#160;? C’est dans cette
+          indétermination que se puise peut-être la capacité du manuscrit
+          microfilmé à se transformer au gré de ses catalogages, de ses
+          dé-encodages et ré-encodages. Produire un catalogue est énoncer sa
+          position –&#160;celle aussi bien du catalogueur que de l’institution pour
+          laquelle il travaille&#160;– dans un univers à la fois savant et
+          institutionnel. Mais c’est aussi, dans le même temps, doter les
+          manuscrits de parcours de vie alternatifs. Lors de ces catalogages
+          <hi rend="italic">in situ</hi>, des tissages auxquels ils donnent
+          lieu, les manuscrits peuvent changer de nom, de numéro, de statut,
+          d’identité, d’appuis, acquérir ou perdre des attributs.</p>
+          <p xml:id="d1e670">À l’ère de la standardisation des modalités de
+          navigation dans l’univers du savoir, le catalogage du manuscrit non
+          seulement manifeste la propension de ce dernier à échapper à
+          l’injonction de standardisation, d’uniformisation, et, <hi rend="italic">last but not least</hi>, d’anonymisation dans un
+          univers érudit où la notion d’auteur est centrale. Il constitue
+          également le lieu où recréer les modes d’existence multiples du <hi rend="italic">kitâb</hi>, du livre arabe, comme copie aussi mobile
+          que labile. Laissons à Ahmad, le conservateur du Centre de documents
+          et manuscrits en Jordanie, le mot de la fin&#160;: «&#160;Le manuscrit, tu
+          vois, c’est comme un livre imprimé&#160;: il y a un contenu, un début,
+          une fin… Mais en même temps, c’est différent, par exemple un jour
+          une nouvelle copie qu’on ne connaissait pas et qui est différente
+          des autres peut apparaître… le manuscrit, il est toujours ouvert, il
+          ne se clôt jamais.&#160;»</p>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="bibliography" xml:id="d1e682">
+        <listBibl xml:id="d1e684">
+          <bibl xml:id="d1e686">Berthier, A. (2002). Inventaires et
+          catalogues, une longue histoire. <hi rend="italic">Revue des mondes
+          musulmans et de la Méditerranée</hi>, <hi rend="italic">99-100</hi>,
+          17-32.</bibl>
+          <bibl xml:id="d1e694">Bessy, C. &amp; Chateauraynaud, F. (1995). <hi rend="italic">Experts et faussaires&#160;: pour une sociologie de la
+          perception</hi>. Paris&#160;: Métailié.</bibl>
+          <bibl xml:id="d1e699">
+            <hi xml:lang="en">Bowker, G. C. &amp; Star, S. L. (1999).</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Sorting Things Out: Classification and its
+              Consequences</hi>
+            </hi>
+            <hi xml:lang="en">. Cambridge, Mass.: MIT Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e707">Chartier, R. (1996). <hi rend="italic">Culture
+          écrite et société&#160;: l’ordre des livres.</hi> Paris&#160;: Albin
+          Michel.</bibl>
+          <bibl xml:id="d1e712">Déroche, F. (ed.) (1989). <hi rend="italic">Les manuscrits du Moyen-Orient&#160;: essais de codicologie
+          et de paléographie. Actes du colloque d’Istanbul, 26-29 mai
+          1986</hi>. Paris&#160;: Bibliothèque nationale de France.</bibl>
+          <bibl xml:id="d1e717">Déroche, F. (2000). <hi rend="italic">Manuel
+          de codicologie des manuscrits en écriture arabe</hi>. Paris&#160;:
+          Bibliothèque nationale de France.</bibl>
+          <bibl xml:id="d1e722">Déroche, F. &amp; Richard, F. (eds.) (1997).
+          <hi rend="italic">Scribes et manuscrits du Moyen-Orient</hi>.
+          Paris&#160;: Bibliothèque nationale de France.</bibl>
+          <bibl xml:id="d1e727">
+            <hi xml:lang="en">Gacek, A. (1983). Some
+          Remarks on the Cataloguing of Arabic Manuscripts. </hi>
+            <hi rend="italic">Bulletin of the British Society for Middle Eastern
+          Studies</hi>, <hi rend="italic">10</hi>, 173-179.</bibl>
+          <bibl xml:id="d1e736">
+            <hi xml:lang="en">Gencer, Y. (2010). Ibrahim Muteferrika and the
+            Age of the Printed Manuscript, in C.&#160;Gruber (éd.),</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Islamic Manuscript Tradition</hi>
+            </hi>
+            <hi xml:lang="en">. (pp.&#160;155-193). Bloomington: Indiana University
+            Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e744">
+            <hi xml:lang="en">Kunt, M. (2008). Reading Elite, Elite reading,
+            in P.&#160;C.&#160;Sadgrove (éd.),</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Printing and Publishing in the Middle
+              East</hi>
+            </hi>
+            <hi xml:lang="en">. (pp.&#160;89-100). Oxford: Oxford University
+            Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e753">
+            <hi xml:lang="en">Lewis, G. L. (ed.) (1957).
+          </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">The Balance of Truth, by Ktib Chelebi.</hi>
+            </hi>
+            <hi rend="italic">Translated with an introduction and notes
+          by G. L. Lewis</hi>
+            <hi xml:lang="en">. </hi>London: G. Allen and
+          Unwin.</bibl>
+          <bibl xml:id="d1e764">Humbert, G. (ed.). (2002). <hi rend="italic">La tradition manuscrite en écriture arabe</hi>.
+          Dossier de la <hi rend="italic">Revue des mondes musulmans et de la
+          Méditerranée</hi>, <hi rend="italic">99-100</hi>.</bibl>
+          <bibl xml:id="d1e775">Jacob, C. (2001). Rassembler la mémoire.
+          Réflexions sur l’histoire des bibliothèques. <hi rend="italic">Diogène</hi>, <hi rend="italic">196</hi>,
+          53-76.</bibl>
+          <bibl xml:id="d1e783">Jungen, C. (2012). Quand le texte se fait
+          matière. Une exploration des versions du manuscrit arabe. <hi rend="italic">Terrain</hi>, <hi rend="italic">59</hi>,
+          104-119.</bibl>
+          <bibl xml:id="d1e791">Latour, B. (1996). Ces réseaux que la raison
+          ignore - laboratoires, bibliothèques, collections, in M.&#160;Baratin
+          &amp; C.&#160;Jacob (eds.) <hi rend="italic">Le pouvoir des
+          bibliothèques. La mémoire des livres dans la culture
+          occidentale.</hi> (pp.&#160;23-46). Paris&#160;: Albin Michel.</bibl>
+          <bibl xml:id="d1e796">
+            <hi xml:lang="en">Roper, G. (2007). The Printing Press and Change
+            in the Arab World, in S.&#160;A.&#160;Baron, E.&#160;N.&#160;Lindquist, &amp;
+            E.&#160;F.&#160;Shevlin, (eds.),</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Agent of Change: Print Culture Studies After
+              Elizabeth L. Eisenstein</hi>
+            </hi>
+            <hi xml:lang="en">. (pp.&#160;250-267). Amherst: University of
+            Massachusetts Press.</hi>
+          </bibl>
+          <bibl xml:id="d1e804">
+            <hi xml:lang="en">Star, S. L. &amp; Griesemer,
+          J. R. (1989). Institutional Ecology, «&#160;Translations&#160;» and Boundary
+          Objects: Amateurs and Professionals in Berkeley’s Museum of
+          Vertebrate Zoology, 1907-39. </hi>
+            <hi rend="italic">Social Studies
+          of Science</hi>, <hi rend="italic">19</hi>, 387-420.</bibl>
+          <bibl xml:id="d1e813">Touati, H. (2003). <hi rend="italic">L’armoire
+          à sagesse&#160;: bibliothèques et collections en Islam</hi>. Paris&#160;:
+          Aubier.</bibl>
+          <bibl xml:id="d1e818">Trompette, P. &amp; Vinck, D. (eds.) (2009).
+          <hi rend="italic">Retour sur la notion d’objet-frontière</hi>.
+          Dossier de la <hi rend="italic">Revue d’anthropologie des
+          connaissances</hi>, <hi rend="italic">3</hi>(1).</bibl>
+          <bibl xml:id="d1e829">Trompette, P. &amp; Vinck, D. (eds.) (2010).
+          Retour sur la notion d’objet-frontière (2). Dossier de la&#160;<hi rend="italic">Revue d’anthropologie des connaissances</hi>, <hi rend="italic">4</hi>(1).</bibl>
+          <bibl xml:id="d1e837">
+            <hi xml:lang="en">Witkam, J. J. (1996). Preface. In
+            C.&#160;Brockelmann,</hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Geschichte der Arabischen Litteratur</hi>
+            </hi>
+            <hi xml:lang="en">. (pp.&#160;V-XVII ). Leiden, New York, Köln:
+            Brill.</hi>
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

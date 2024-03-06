@@ -1,0 +1,563 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" xmlns:aid5="http://ns.adobe.com/AdobeInDesign/5.0/" xmlns:xhtml="http://www.w3.org/TR/xhtml/strict" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.ehess.fr/crh/schemas/savoirs.xsd" xml:id="OJ_rac_6814_Tomas">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">Activité et vision professionnelle</title>
+                <title level="a" type="alt" xml:lang="en">Activity and professional vision</title>
+                <title level="a" type="alt" xml:lang="es">Actividad y visión profesional</title>
+                <author>
+                    <persName>
+                        <forename>Jean-Luc</forename>
+                        <surname>Tomás</surname>
+                    </persName>
+                    <affiliation> Maître de conférences en psychologie, <hi rendition="#style03">Cnam</hi>, Paris. Équipe de recherche Psychologie du travail et clinique de l’activité, Centre de recherche sur le Travail et le Développement (CRTD), EA 4132, <hi rendition="#style03">Cnam</hi>, Paris.Adresse&#160;: CRTD - <hi rendition="#style03">Cnam</hi>, 41 rue Gay Lussac, FR-75005 Paris (France)Courriel&#160;: jean-luc.tomas[at]lecnam.net </affiliation>
+                </author>
+                <author>
+                    <persName>
+                        <forename>Maria</forename>
+                        <surname>Ianeva</surname>
+                    </persName>
+                    <affiliation> Maître de conférences en psychologie, <hi rendition="#style03">Cnam</hi>, Paris. Équipe de recherche Psychologie du travail et clinique de l’activité, Centre de recherche sur le Travail et le Développement (CRTD), EA 4132, <hi rendition="#style03">Cnam</hi>, Paris.Adresse&#160;: CRTD - <hi rendition="#style03">Cnam</hi>, 41 rue Gay Lussac, FR-75005 Paris (France)Courriel&#160;: maria.ianeva[at]lecnam.net </affiliation>
+                </author>
+                <author>
+                    <persName>
+                        <forename>Pascal</forename>
+                        <surname>Simonet</surname>
+                    </persName>
+                    <affiliation> Maître de conférences, Université de Nantes, Département Sciences de l’Éducation, UFR Lettres et LangagesAdresse&#160;: Centre de Recherche en Éducation de Nantes, CREN EA 2661, Université de Nantes, Chemin de la Censive du Tertre BP 81227, FR-&#160;44312 NANTES Cedex 3 (France)Courriel&#160;: pascal.simonet[at]univ-nantes.fr </affiliation>
+                </author>
+                <author>
+                    <persName>
+                        <forename>Yves</forename>
+                        <surname>Clot</surname>
+                    </persName>
+                    <affiliation> Professeur émérite, <hi rendition="#style03">Cnam</hi>, Paris. Équipe de recherche Psychologie du travail et clinique de l’activité, Centre de recherche sur le Travail et le Développement (CRTD), EA 4132, <hi rendition="#style03">Cnam</hi>, ParisAdresse&#160;: CRTD - CNA<hi rendition="#style03">m</hi>, 41 rue Gay Lussac, FR-75005 Paris (France)Courriel&#160;: yves.clot[at]lecnam.net </affiliation>
+                </author>
+                <funder>EHESS</funder>
+                <principal>Projet Savoirs</principal>
+                <respStmt>
+                    <resp>encodage et supervision</resp>
+                    <name xml:id="ND">
+                        <forename>Nicole</forename>
+                        <surname>Dufournaud</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>supervision</resp>
+                    <name xml:id="ALR">
+                        <forename>Axel</forename>
+                        <surname>Le Roy</surname>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>EHESS</distributor>
+                <address>
+                    <addrLine>54 bd Raspail</addrLine>
+                    <addrLine>75006 Paris</addrLine>
+                    <addrLine>FRANCE</addrLine>
+                </address>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/3.0/deed.fr">Creative Commons Attribution</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>«&#160;Savoirs&#160;» est une plateforme de publication numérique vouée à l’histoire et à l’anthropologie des sciences et des savoirs. Le projet est porté par l’EHESS (Paris) avec le soutien de différents partenaires. Plus qu’une revue, une archive d’articles ou une collection de livres, il s’agit d’une bibliothèque «&#160;intelligente&#160;» et expérimentale qui propose des parcours de lecture heuristiques et réflexifs entre les textes, grâce à différents algorithmes de recherche et de suggestions reposant notamment sur un balisage des lieux, des dates et des concepts en XML-TEI.</p>
+            </projectDesc>
+            <appInfo>
+                <application version="1.0" ident="metopes-savoirs">
+                    <label>Métopes</label>
+                    <label>Savoirs</label>
+                    <desc>Environnement de transformation, d’édition et d’annotation XML-TEI-Savoirs (XMLMind-XMLEditor Pro 7.6.)</desc>
+                    <ref target="www.metopes.fr"/>
+                </application>
+                <application version="1.0" ident="certic">
+                    <label>PluCo</label>
+                    <desc>Plugin d’édition XML collaborative pour le logiciel XMLMind-XMLEditor</desc>
+                    <ref target="http://www.unicaen.fr/recherche/mrsh/document_numerique/outils/pluco"/>
+                </application>
+            </appInfo>
+            <classDecl>
+                <taxonomy xml:id="geonames">
+                    <desc>
+            <ref target="https://www.geonames.org/"/>GeoNames : base de données géographique</desc>
+                </taxonomy>
+                <taxonomy xml:id="idref">
+                    <desc>
+            <ref target="https://idref.fr/"/>IdRef : Identifiants et Référentiels pour l'enseignement supérieur et la recherche</desc>
+                </taxonomy>
+                <taxonomy xml:id="savoirs">
+                    <desc>
+            <ref target="http://datu.ehess.fr"/>Thésaurus Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="zotero">
+                    <desc>
+            <ref target="https://www.zotero.org/"/>Zotero : gestionnaire de références Savoirs</desc>
+                </taxonomy>
+                <taxonomy xml:id="langISO">
+                    <desc>
+            <ref target="http://www.loc.gov/standards/iso639-2/"/>ISO 639-2 : Codes pour la représentation des noms de langues</desc>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fra"/>
+            </langUsage>
+            <!--Mots clefs proposés dans la source par l’auteur-->
+            <textClass>
+                <keywords resp="auteur" scheme="keyword" xml:lang="spa">
+                    <list>
+                        <item>desarrollo</item>
+                        <item>actividad</item>
+                        <item>visión profesional</item>
+                        <item>análisis de la actividad</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="fre">
+                    <list>
+                        <item>développement</item>
+                        <item>activité</item>
+                        <item>vision professionnelle</item>
+                        <item>analyse de l’activité</item>
+                    </list>
+                </keywords>
+                <keywords resp="auteur" scheme="keyword" xml:lang="eng">
+                    <list>
+                        <item>development</item>
+                        <item>activity</item>
+                        <item>professional vision</item>
+                        <item>activity analysis</item>
+                    </list>
+                </keywords>
+            </textClass>
+            <!--Mots clefs proposés par l’annoteur à partir du Thésaurus Savoirs-->
+            <textClass>
+                <keywords>
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Lieux principaux proposés dans la source-->
+            <textClass>
+                <keywords scheme="geonames">
+                    <term/>
+                </keywords>
+            </textClass>
+            <!--Dates proposées dans la source-->
+            <textClass>
+                <keywords scheme="_temp">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Activité et vision professionnelle</titlePart>
+                </docTitle>
+                <byline>
+                    <docAuthor>Jean-Luc Tomás</docAuthor>
+                    <docAuthor>Maria Ianeva</docAuthor>
+                    <docAuthor>Pascal Simonet</docAuthor>
+                    <docAuthor>Yves Clot</docAuthor>
+                </byline>
+            </titlePage>
+            <div type="abstract" xml:lang="fr" xml:id="d1e346">
+                <p xml:id="d1e347">Notre contribution se propose d’engager une réflexion autour des complémentarités et points de tension entre le concept de «&#160;vision professionnelle&#160;» et celui d’activité. Si la «&#160;vision professionnelle&#160;» éclaire le fonctionnement et la dynamique des «&#160;façons de voir&#160;» dans leur complexité située, elle ouvre à un questionnement autour du développement ou de la fabrique de ce «&#160;regard&#160;». En nous appuyant sur des travaux issus de la clinique de l’activité, nous cherchons à montrer comment les modèles de l’activité permettent de reprendre cette question en lien avec le développement psychologique du sujet et des collectifs professionnels.</p>
+            </div>
+            <div type="abstract" xml:lang="en" xml:id="d1e349">
+                <p xml:id="d1e350">
+                    <hi xml:lang="en">This contribution addresses the complementarities and tensions between the concept of "professional vision" and that of activity. While "professional vision" highlights the functioning and dynamics of "ways of seeing" in their situated complexity, it also brings up the question of the development or the making of this "vision". Building upon the Clinic of activity perspective, we seek to show how activity theories allow this question to be taken up again in relation to the psychological development of the subject and of collectives.</hi>
+                </p>
+            </div>
+            <div type="abstract" xml:lang="es" xml:id="d1e353">
+                <p xml:id="d1e354">Nuestra contribución es una reflexión sobre complementariedades y puntos de tensión entre el concepto de "visión profesional" y el de actividad. El de "visión profesional" explora el funcionamiento y la dinámica de las "formas de ver" en su complejidad situada, y abre un interrogante en torno al desarrollo o la producción de esta "mirada". Apoyándonos en trabajos de la clínica de la actividad, intentamos mostrar cómo los modelos de la actividad permiten abordar nuevamente esta cuestión en relación con el desarrollo psicológico del sujeto y de los colectivos profesionales.</p>
+            </div>
+        </front>
+        <body>
+            <div type="div1" xml:id="d1e360">
+                <head subtype="level1" xml:id="d1e361">Introduction</head>
+                <p xml:id="d1e363">La notion de vision professionnelle (Goodwin, 1994, 1997, 2000&#160;; Goodwin et Goodwin, 1997) relève d’une conceptualisation marquée par les modèles situés de l’action d’inspiration ethnométhodologique. Elle renvoie aux procédés complexes que mobilisent les professionnels d’un même métier pour «&#160;voir&#160;» et «&#160;faire voir&#160;» les phénomènes et objets propres à leurs situations de travail. A ce titre, cette notion éclaire le fonctionnement et la dynamique des «&#160;façons de voir&#160;» dans leur complexité située. Partant de ce constat, notre contribution vise à engager une réflexion autour de la notion de vision professionnelle à partir des travaux issus de la clinique de l’activité. En effet, si la «&#160;vision professionnelle&#160;» convoque la production co-opérative des «&#160;façons de voir&#160;» en situation, elle ouvre également à un questionnement autour du développement ou de la fabrique de ce «&#160;regard&#160;». Les modèles de l’activité (Engeström, 1987&#160;; Clot, 2008&#160;; Leontiev, 1984) permettent de reprendre cette question en lien avec le développement psychologique du sujet et de la fonction psychosociale du collectif de travail. </p>
+                <p xml:id="d1e365">Plus particulièrement, les recherches en clinique de l’activité s’attachent à comprendre le développement de l’activité et considèrent, à l’instar de Vygotski (2010), le développement à la fois comme objet et méthode scientifiques. Il s’agit pour les psychologues de co-construire un cadre et un dispositif dans lesquels des professionnels volontaires d’un même métier puissent penser collectivement le travail pour le réorganiser. L’investigation devient alors un instrument psychologique (Vygotski, 1985) de la mobilisation subjective des professionnels. Le modèle qui sous-tend ces recherches est celui d’une activité dirigée et adressée (Bakhtine, 1984&#160;; Clot, 2008). Dans cette perspective, la «&#160;vision professionnelle&#160;» en tant que telle n’est pas un objet à instruire. Pourtant, lorsque la mise en dialogue de l’activité des professionnels devient une ressource pour soutenir l’expérience collective de la transformation du travail, l’observation et l’interprétation des professionnels s’en trouvent affectées. Pour le dire autrement, la «&#160;vision professionnelle&#160;» se développe quand les sujets regardent leur propre activité avec les «&#160;yeux&#160;» d’une autre activité.</p>
+                <p xml:id="d1e367">Dans ce qui suit, nous reprenons la notion de «&#160;vision professionnelle&#160;» de Goodwin (1994). À partir de ses travaux, nous cherchons à mettre en évidence non seulement les objectifs associés à l’étude de la «&#160;vision professionnelle&#160;», mais aussi les liens que l’auteur établit avec le concept de communauté de pratique (Lave et Wenger, 1991), et avec la variation des manières de voir en fonction de la place du sujet dans l’organisation sociale et de son expertise. Ces aspects ainsi dégagés sont repris et discutés dans une deuxième partie. Nous montrons qu’étudier la «&#160;vision professionnelle&#160;» ne permet pas uniquement d’expliquer l’activité, elle permet surtout à l’activité de s’expliquer avec la vision professionnelle lorsque ce sont les professionnels eux-mêmes qui réalisent l’analyse de leur travail. Par conséquent, documenter l’activité en train de se faire ne suffit pas pour comprendre et expliquer l’activité dans son épaisseur psychologique et sociale. Nous reprenons l’exemple d’une intervention –&#160;dont la commande émane de la Direction d’un Centre Hospitalier Universitaire&#160;– auprès d’infirmières de bloc opératoire pour nous approprier la notion de «&#160;vision professionnelle&#160;» dans le cadre d’une psychologie de l’activité (Leontiev, 1984&#160;; Luria, 1985&#160;; Vygotski, 2014). En mettant l’accent sur le développement de l’activité, compris comme révision et transformation des relations interfonctionnelles, nous concluons en interrogeant le rapport entre théorie et pratique, connaissance et action.</p>
+            </div>
+            <div type="div1" xml:id="d1e369">
+                <head subtype="level1" xml:id="d1e370">
+                    <hi xml:lang="fr">La vision professionnelle explique l’activité</hi>
+                </head>
+                <div type="div2" xml:id="d1e373">
+                    <head subtype="level2" xml:id="d1e374">
+                        <hi xml:lang="fr">La vision professionnelle&#160;: un moyen pour analyser les activités interactionnelles</hi>
+                    </head>
+                    <p xml:id="d1e377">Les travaux de Charles Goodwin constituent sans doute une contribution importante à l’ethnométhodologie et à l’analyse conversationnelle, en participant notamment au «&#160;tournant visuel&#160;» (Mondada, 2018) ou «&#160;incarné&#160;» (Nevile, 2015<note type="standard" xml:id="ftn1" place="foot" n="1">
+              <p> Nevile (2015) introduit l’expression «&#160;tournant incarné&#160;» (<hi rend="italic">embodied turn</hi>) pour désigner le moment où le corps est devenu un objet identifié d’analyse pour les chercheurs s’intéressant au langage et aux interactions. Cela implique la mise en place d’un vocabulaire analytique ainsi que des modes de représentation adaptés à cet objet. </p>
+            </note> cité par Mondada, 2018) de ces courants. Cependant, la trajectoire intellectuelle de cet auteur traverse et défie les frontières disciplinaires (Greco, 2016&#160;; Quéré, 2016), entre celles de la linguistique, de la sociologie et de l’anthropologie. Goodwin lui-même reconnaît, voire revendique explicitement ses inspirations multiples (Goodwin, 2016&#160;; 2017). Cette «&#160;interdisciplinarité&#160;», résolument ancrée dans l’analyse du détail des activités interactionnelles, autorise une conceptualisation riche qui se donne pour objet tant les phénomènes micro-langagiers, que l’organisation de l’action, l’utilisation des ressources sémiotiques pour agir, les gestes couplés à l’environnement, les transmissions culturelles ou encore l’analyse des activités professionnelles. </p>
+                    <p xml:id="d1e387">En effet, depuis les années&#160;90, le travail de Goodwin (1994&#160;; 1997&#160;; voir aussi Goodwin et Goodwin, 1997) sur la notion de «&#160;vision professionnelle&#160;» nourrit un intérêt croissant de la part de chercheurs issus de champs disciplinaires différents (par exemple Grasseni, 2011&#160;; Grosjean, 2014&#160;; Holland et Reeves, 1996&#160;; Ianeva, 2012&#160;; Ianeva et al., 2017&#160;; Nishizaka, 2000&#160;; Sherin et van&#160;Es, 2009&#160;; Styhre, 2010&#160;; Todorova, Sunden, Steffensky et Möller, 2017). Cette notion renvoie à un ensemble de manières de voir et de comprendre des évènements, qui traduisent les intérêts d’un groupe social particulier<note type="standard" xml:id="ftn2" place="foot" n="2">
+              <p> <hi xml:lang="en">«&#160;…professional vision, which consists of socially organized ways of seeing and understanding events that are answerable to the distinctive interests of a particular social group&#160;» (1994, p.&#160;606)</hi>
+              </p>
+            </note> (Goodwin, 1994, p.&#160;606). Ce sont des cadres d’interprétation privilégiés, des chemins d’inférence (Grosjean, 2005) que les professionnels mobilisent et co-construisent au travers leurs interactions avec les autres et leurs outils de travail. Dans tous les cas, il s’agit d’analyser les manières dont les acteurs interagissent avec autrui et avec «&#160;le monde matériel façonné par les activités historiques des autres&#160;» (Goodwin, 1997, p.&#160;131). Les recherches portent alors sur l’organisation située de l’action. Elles s’efforcent à documenter l’activité pour, par exemple, décrire comment la vision professionnelle d’un acteur permet de comprendre la structuration des pratiques organisationnelles. En étudiant les «&#160;coups d’œil&#160;», notamment les différences entre un novice et un expérimenté, le chercheur renseigne comment les acteurs doivent apprendre à voir de manière adéquate pour agir avec efficacité. Analyser la «&#160;vision professionnelle&#160;» révèle les modalités de l’action, et permet d’expliquer l’activité des acteurs dans l’organisation au sein d’une communauté de pratique.</p>
+                </div>
+                <div type="div2" xml:id="d1e396">
+                    <head subtype="level2" xml:id="d1e397">
+                        <hi xml:lang="fr">La vision professionnelle&#160;: une pratique située et socialement organisée</hi>
+                    </head>
+                    <p xml:id="d1e400">Goodwin (1994) identifie et étudie un certain nombre de pratiques, qu’il considère comme constitutives de la vision professionnelle d’une communauté de pratiques (Lave et Wenger, 1991). Tout d’abord, les membres de cette communauté mobilisent des systèmes de codage (Goodwin, 1994) correspondant à des dispositifs de catégorisation (Goodwin, 1997) leur permettant de transformer et d’organiser l’environnement qui les entoure en objets de connaissance. Ensuite, pour qu’un objet puisse être interprété de façon pertinente, un travail de mise en lumière (<hi rend="italic">highlighting</hi>) est nécessaire. Ce travail consiste à rendre visible et saillante pour les autres membres une collection d’indices jugés comme pertinents pour l’accomplissement de la tâche en cours. Enfin, Goodwin insiste sur la «&#160;production et l’articulation de représentations matérielles&#160;», c’est-à-dire les modalités selon lesquelles des artefacts de nature différente (par exemple des tableaux sur support papier, des applications informatiques, etc.) interviennent dans l’interaction et jouent sur les processus de catégorisation à l’œuvre dans la communauté de professionnels étudiée. </p>
+                    <p xml:id="d1e405">Ainsi pour cet auteur, regarder les avions (Goodwin et Goodwin, 1997), reconnaître ou catégoriser la couleur d’une fibre (Goodwin, 1997), identifier une aspérité sur un site archéologique (Goodwin, 1994) ne sont ni des processus automatiques ni l’œuvre d’un individu isolé, mais constituent des pratiques situées et socialement organisées. </p>
+                    <p xml:id="d1e407">A titre d’exemple, lorsque des archéologues examinent minutieusement un échantillon de terre, ils sont face à une matière qui présente des nuances et des couleurs différentes (Goodwin, 2003). C’est la variation de ces couleurs et nuances qui permet à ces professionnels d’inférer l’existence de traces d’activités humaines passées. Leur travail consiste ainsi à localiser des caractéristiques pertinentes (en l’occurrence des traces de piliers) en creusant la terre. Les catégories métier –&#160;«&#160;moules&#160;» ou «&#160;trous à pilier&#160;»&#160;– fournissent, selon Goodwin, une texture d’intelligibilité permettant d’unifier les éléments disparates observés en un objet cohérent. </p>
+                    <p xml:id="d1e409">De même, les employés d’un laboratoire de géochimie (Goodwin, 1997) utilisent les catégories<note type="standard" xml:id="ftn3" place="foot" n="3">
+              <p> En se référant aux travaux de Vygotski, Goodwin utilise également le terme de «&#160;médiation&#160;» pour désigner ces catégories&#160;(1997, p.&#160;125) </p>
+            </note> «&#160;poils de gorille&#160;» et «&#160;cheveux d’ourang-outan&#160;» pour déterminer l’intensité de noirceur d’une fibre plongée dans une solution chimique et décider à quel moment interrompre la réaction en cours. La consigne indique en effet que celle-ci doit être interrompue lorsque la fibre est de couleur noir intense (<hi rend="italic">jet black</hi>). Ces catégories permettent de repérer un contraste, c’est-à-dire de distinguer différents degrés de noirceur en intégrant des caractéristiques propres aux matériaux manipulés, notamment leur texture et propriétés fibreuses. Celles-ci changent au fur et à mesure de la réaction et fournissent des indices pour décider de l’arrêt de la réaction. </p>
+                    <p xml:id="d1e418">De ce fait, ces catégories constituent des ressources symboliques «&#160;sur mesure&#160;» qui participent à façonner&#160;l’activité perceptuelle des professionnels, dans et par la pratique. Goodwin montre ainsi à quel point juger de la couleur d’une fibre ou de l’aspect d’un échantillon de terre, au-delà de la perception –&#160;telle qu’elle est définie en sciences cognitives comme mobilisant des processus de traitements de l’information&#160;– constituent d’abord un problème concret de travail pour les professionnels qui relève d’une pratique sociale.</p>
+                </div>
+                <div type="div2" xml:id="d1e420">
+                    <head subtype="level2" xml:id="d1e421">
+                        <hi xml:lang="fr">Des visions professionnelles différentes selon la tâche à réaliser</hi>
+                    </head>
+                    <p xml:id="d1e424">Au travers de la notion de vision professionnelle, Goodwin montre également qu’en fonction de la tâche, la texture des objets et de l’environnement matériel sont flexibles&#160;: les sujets portent des perspectives différentes, outillées par des artefacts (matériels et symboliques), sur des objets physiques identiques mettant en lumière des caractéristiques pertinentes différentes et orientent leurs actions. </p>
+                    <p xml:id="d1e426">Par exemple, le professionnel chargé d’embarquer les bagages et l’ouvrier de maintenance d’un aéroport ont <hi rend="italic">a priori</hi> à regarder des objets identiques –&#160;les avions&#160;– c’est-à-dire des objets à propriétés stables, définies et potentiellement identifiables par tous et chacun. Comme le montrent Goodwin et Goodwin (1997), l’avion dans ce contexte, n’est pas perçu comme un objet physique isolé mais s’inscrit dans des réseaux de pertinences propres aux professionnels dans l’organisation. </p>
+                    <p xml:id="d1e431">Là où pour l’ouvrier de maintenance le modèle de l’appareil est un indice de premier ordre, pour le responsable du chargement des bagages, l’avion se définit en référence à une autre entité organisationnelle, à savoir, le vol vers une destination. «&#160;Voir un avion&#160;» signifie pour ce professionnel identifier l’appareil à charger, c’est-à-dire être capable de l’associer à un vol et donc à une destination spécifique. Les caractéristiques de l’objet que la personne repère, en l’occurrence les matricules des avions, constituent des indices pertinents lui permettant d’accomplir cette tâche. La vision professionnelle permet au sujet d’anticiper, prendre les devants, voir plus loin<note type="standard" xml:id="ftn4" place="foot" n="4">
+              <p> Sans faire de lien explicite avec la «&#160;vision professionnelle&#160;», Goodwin (2002 envisage l’anticipation comme phénomène émergent dans les pratiques (voir par ex., Mondémé, 2016).</p>
+            </note>. </p>
+                    <p xml:id="d1e438">Goodwin insiste à juste titre, selon nous, sur les différentes manières de voir. En fonction de la tâche, les professionnels ne voient pas le même avion, ne portent pas leur attention sur les mêmes détails et indices&#160;; quand bien même façonnées par la position des professionnels dans l’organisation du travail et l’accès à des artefacts socialement constitués, les «&#160;visions professionnelles&#160;» demeurent ancrées dans l’interaction pensée comme «&#160;organisatrice&#160;» de l’action. Nous rejoignons Grosjean (2005) lorsqu’elle avance l’idée que les modèles de l’action située «&#160;sur-utilisent&#160;» et «&#160;sous-spécifient&#160;» le concept d’activité. Or l’activité, dans une perspective telle que la nôtre, possède une épaisseur psychologique et sociale qui intègre et dépasse les conditions pratiques de sa réalisation. De fait, à notre sens, la vision professionnelle, dans ses modalités concrètes de transmission en situation, se constitue en mouvement d’un processus psychosocial complexe dont les termes échappent à l’observation directe. Aussi, le dispositif d’intervention en clinique de l’activité en offrant au sujet la possibilité de s’expliquer avec celle-ci, crée les conditions pour réinscrire la vision professionnelle dans une temporalité et des finalités autres que celles de la situation, entre activité réalisée et réel de l’activité. C’est ce que nous allons maintenant présenter. </p>
+                </div>
+                <div type="div2" xml:id="d1e440">
+                    <head subtype="level2" xml:id="d1e441">
+                        <hi xml:lang="fr">Les visions professionnelles aux prises avec le réel de l’activité</hi>
+                    </head>
+                    <p xml:id="d1e444">L’ensemble des moyens –&#160;prescriptions, consignes, temporalité, organisation du travail, vision professionnelle, etc.&#160;– dont dispose un professionnel ne forme pas une structure exempte de contradictions. Ces luttes et conflits peuvent, en reprenant Dewey (2010, p.&#160;89), devenir «&#160;des moyens de faire avancer une expérience, des parties intégrantes de cette expérience, dans la mesure où ils l’entrainent vers l’avant, et qu’ils ne se contentent pas d’être là uniquement&#160;». Autrement dit, les contradictions inhérentes à l’activité ne se contentent pas de contrarier les actions du sujet, elles forment également des points d’appui pour le développement de son pouvoir d’agir (Clot, 2008). Agir en situation professionnelle, c’est faire des choix, prendre des initiatives, préparer ce qui est à venir, et finalement, se confronter à une pluralité de possibilités. Plus encore, ce qui est écarté, aboli, suspendu n’en reste pas moins des résidus qui agissent même à l’insu du sujet. Pour le dire à la manière de Vygotski (2003, p.&#160;76), «&#160;le comportement tel qu’il s’est réalisé est une infime part de ce qui est possible&#160;». Et il ajoute dans une formule, aujourd’hui classique, que «&#160;l’homme est plein à chaque minute de possibilités non réalisées&#160;» (Vygotski, 2003, p.&#160;76).</p>
+                    <p xml:id="d1e446">Si la vision professionnelle disponible organise bien l’activité en cours, elle ne permet donc pas complétement de l’expliquer au moment où se révèlent les conflits entre les différentes actions possibles, les choix que le sujet effectue, ce qu’il a écarté pour être plus efficace. L’analyse de l’activité ne doit pas se priver des tensions entre et avec lesquelles agissent les sujets. Ce faisant, on peut considérer que c’est l’activité des sujets qui doit s’expliquer avec la vision professionnelle. Dès lors, il ne s’agit plus seulement de faire l’analyse de l’activité des professionnels, mais de construire des milieux sociaux d’analyse et d’action. </p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e448">
+                <head subtype="level1" xml:id="d1e449">
+                    <hi xml:lang="fr">L’activité qui s’explique avec la vision professionnelle </hi>
+                </head>
+                <p xml:id="d1e452">L’analyse détaillée des pratiques constitutives des «&#160;manières de voir&#160;» de différentes professions permet d’affirmer le caractère social de la perception et plus largement de la cognition. Celle-ci n’est ni un processus strictement individuel, l’œuvre d’un esprit solitaire et rationnel, ni un processus désincarné, dont le «&#160;substrat&#160;» serait inaccessible à l’observation directe. Pour Goodwin «&#160;voir&#160;» comme d’ailleurs «&#160;penser&#160;» sont autant de phénomènes complexes qui ont une dimension ou un «&#160;volet&#160;» public. L’action du sujet est toujours action sur le monde avec d’autres par l’intermédiaire de moyens techniques (Léontiev, 1984). Dans ces conditions, le «&#160;volet&#160;» public renvoie à ces ressources artefactuelles et interactionnelles –&#160;sédimentées dans les outils, les manières de faire et de dire&#160;– perceptibles et intelligibles par autrui. L’organisation de l’action des sujets s’appuie sur ce que chacun est en train de faire, les connaissances que les co-interactants supposent que l’autre possède, les propriétés pertinentes des matériaux (Goodwin, 2016).</p>
+                <p xml:id="d1e454">Ce faisant, la singularité d’une action dépend de la manière dont ces ressources sont utilisées. L’enjeu de ces recherches n’est alors pas de caractériser un type ou une modalité particulière d’action, mais de fournir une théorie de son organisation (Conein et Jacopin, 1994&#160;; Clot et Béguin, 2004). Qu’est-ce qui organise l’action&#160;? Quels sont les processus qui sous-tendent cette organisation&#160;? En cohérence avec les études issues de l’ethnométhodologie et de l’analyse conversationnelle, c’est bien l’interaction sociale qui en est l’organisateur. Ceci est particulièrement saillant dans les travaux récents de Goodwin (2013&#160;; 2016&#160;; 2017) qui lui permettent de stabiliser la notion de «&#160;co-opération&#160;». </p>
+                <p xml:id="d1e456">En combinant différentes ressources dans le cours de l’action, les sujets produisent des formes distinctes d’organisation sociale collaborative. Et celles-ci se construisent par des actions co-opératives réalisées par des sujets «&#160;qui contribuent aux différentes parties de l’arrangement combinatoire requis pour produire un énoncé, un tour de parole, un outil ou un objet&#160;» (Goodwin, 2016, p. 38). Mais comme le soulignent Cahour, Licoppe et Créno (2018, p.&#160;272), l’activité possède également un «&#160;volet&#160;» subjectif et en partie privée. </p>
+                <div type="div2" xml:id="d1e458">
+                    <head subtype="level2" xml:id="d1e459">
+                        <hi xml:lang="fr">De la perception visuelle à la vision professionnelle dans l’activité</hi>
+                    </head>
+                    <p xml:id="d1e462">De notre côté, nous considérons, avec Leontiev (1984) que l’activité intérieure, tout en procédant de l’activité pratique extérieure, conserve un lien de réciprocité avec elle. Plus encore, nous reprenons de cet auteur que les passages de l’une à l’autre ne sont possibles que parce qu’elles ont en commun une macrostructure identique.</p>
+                    <p xml:id="d1e464">Dans ce modèle, deux activités se distinguent essentiellement par leur objet –&#160;idéel ou matériel. C’est cet objet qui leur confère une orientation. Pour Leontiev, il s’agit du motif réel de l’activité. Par ailleurs, ce sont les actions qui réalisent l’activité, laquelle n’existe que sous forme d’actions. Une action est alors un processus soumis à la représentation du résultat à atteindre, autrement dit, une action est un processus soumis à un but conscient (Leontiev, 1984, p.&#160;113). Cette distinction entre activité et action permet d’analyser leurs rapports internes, et cela même si les actions ne sont pas des éléments isolés de l’activité. </p>
+                    <p xml:id="d1e466">La perception visuelle est alors un moyen de l’activité du sujet qui s’intègre dans un système fonctionnel et dynamique, c’est-à-dire dans un système complexe en développement, permettant des modifications de la structure fonctionnelle de la pensée et de son organisation cérébrale (Luria<note type="standard" xml:id="ftn5" place="foot" n="5">
+              <p> Alexander Luria a été l’un des plus proches collaborateurs de Vygotski (voir par ex., Luria, 1985)</p>
+            </note>, 1973). Avec Vygotski (2011, p.&#160;61) nous pouvons alors dire que la perception visuelle s’intègre, en activité, à l’intérieur de relations interfonctionnelles, créant ainsi potentiellement de nouveaux ensembles incluant la perception et d’autres fonctions. De fait, cette inclusion permet des transformations développementales de la perception visuelle. Il devient alors impossible d’étudier isolément la vision puisqu’elle fait partie du développement complexe de la conscience. Le développement de la perception visuelle n’existe donc pas en dehors de ce que Vygotski appelle des systèmes psychologiques (Vygotski, 2011, p.&#160;62). C’est par la formation de nouvelles connexions interfonctionnelles que la perception visuelle s’émancipe pour conquérir de nouvelles fonctions, et ainsi acquérir le statut de ce que Goodwin appelle la «&#160;vision professionnelle&#160;». </p>
+                </div>
+                <div type="div2" xml:id="d1e472">
+                    <head subtype="level2" xml:id="d1e473">
+                        <hi xml:lang="fr">Des professionnels qui analysent leur activité</hi>
+                    </head>
+                    <p xml:id="d1e476">Dès lors, cette «&#160;vision professionnelle&#160;», comme fonction de l’activité dirigée par un sujet, vers l’objet de son activité et vers autrui dont l’activité porte sur le même objet (Clot, 2008), ne permet pas directement d’expliquer l’activité. Seul le recours à des méthodes indirectes (Vygotski, 2014) peut permettre de faire et défaire les formes sédimentées de l’expérience, qu’elle soit visuelle ou non. On pourrait dire, en paraphrasant Vygotski (2014, p.&#160;169) que c’est seulement lorsque la «&#160;vision professionnelle&#160;» est en mouvement qu’elle montre ce qu’elle est. Pour cela, il convient alors de s’intéresser aux activités réalisées par des professionnels non pas pour les étudier telles quelles, mais pour que les professionnels puissent les reprendre dans un autre contexte où elles pourront devenir des moyens d’autres réalisations possibles.</p>
+                    <p xml:id="d1e478">Tel est le cas, par exemple, des infirmières de bloc opératoire lorsqu’elles dialoguent en situation d’autoconfrontation croisée<note type="standard" xml:id="ftn6" place="foot" n="6">
+              <p> L’entretien en situation d’autoconfrontation croisée est aujourd’hui largement discuté (par ex., Clot, 2008&#160;; Tomás et Bonnemain, 2018). Pour rappel, il s’agit d’une situation où des professionnels volontaires d’un même métier, après avoir défini une situation significative de leur travail, acceptent que le chercheur filme leur activité, puis s’engagent à revenir sur cette activité avec lui, d’abord individuellement (autoconfrontation simple) puis à deux (autoconfrontation croisée). Dans ces situations, le chercheur tente de provoquer le dialogue entre les professionnels sur ce qui est difficile à expliquer.</p>
+            </note> (Clot, 2008). Ces dialogues&#160;«&#160;artificiels&#160;» sur des objets ordinaires de travail s’inscrivent dans un dispositif clinique qui organise des reprises, dans différents contextes, par les sujets de leur activité réalisée. A partir des observations, des réunions de travail collectives, des autoconfrontations simples et croisées (Tomás et Bonnefond, 2014), elles mettent à l’épreuve leur «&#160;vision professionnelle&#160;» personnelle et collective. Les dialogues que nous provoquons en autoconfrontation croisée ont la particularité de mettre les sujets en position d’expert de leur propre travail. Ils sont à ce titre légitimes pour produire une analyse de leur activité et revenir sur leurs choix afin de les confirmer, les amender, en adopter des nouveaux éventuellement au contact de ceux qui prévalent pour d’autres dans le métier. Il s’agit, pour parler comme Vygotski (1997, p.&#160;317), de «&#160;voir et jouer autrement&#160;». </p>
+                </div>
+                <div type="div2" xml:id="d1e485">
+                    <head subtype="level2" xml:id="d1e486">
+                        <hi xml:lang="fr">La vision professionnelle d’une «&#160;belle table&#160;» </hi>
+                    </head>
+                    <p xml:id="d1e489">Afin de saisir les mouvements dialogiques à l’œuvre en autoconfrontation croisée, nous souhaitons présenter un premier extrait de dialogue entre deux infirmières lors d’une autoconfrontation croisée. </p>
+                    <p xml:id="d1e491">Mais avant la lecture de l’extrait, il convient de revenir à minima sur la situation filmée. Le travail d’installation de la table d’instrumentation de Laure est empêché par sa participation à l’installation ventro-latéral du patient sur la table d’opération. En effet, le chirurgien senior lui demande de rester et de soutenir le travail collectif dont il suppose un déficit expérientiel. En conséquence, plutôt que de préparer la table d’instrumentation, Laure contribue, par son expérience, à la mise en place du patient. Mais le temps qu’elle passe à cette installation ne lui permettra pas de réaliser une table d’instrumentation selon les règles de l’art.</p>
+                    <p xml:id="d1e493">Pendant l’autoconfrontation croisée, alors que les images défilent devant les deux infirmières, le chercheur arrête les images, et pose une question. Le patient vient d’être incisé et on peut voir sur l’écran le travail de Laure (image&#160;1).</p>
+                    <q rend="quotation">Chercheur&#160;; C&#160;: Carole&#160;; L&#160;: Laure<lb/>Chercheur&#160;: à chaque fois nous ce qu'on (.) on sait pas trop quoi (.) c'est nickel, c'est une belle table ou (.) ou (rire de Laure) pas (.) Laure a une idée hein (rire de Laure puis de Carole)<lb/>C. : elle fait mieux (rire collectif)<lb/>L. : c'est pas du tout une belle table non<lb/>Chercheur&#160;: elle sait faire mieux<lb/>C. : disons que là c'est fonctionnel quoi, mais c’est vrai<lb/>Chercheur&#160;: à quoi vous le voyez ? <lb/>C. : y'a pas le Lortat Jacob [porte-instruments], bon je ne sais pas si t’en prends systématiquement ou pas, pas forcément, peut-être<lb/>L. : là j'ai dit non parce que j'avais pas le temps<lb/>C. : voilà, mais c'est<lb/>L.&#160;: déjà ben le temps de le monter on perd 2-3 minutes, enfin pas, pas minutes mais (.)<lb/>C. : on a l'impression que ça fait fouillis<lb/>L. : oui avec les pinces et tout c’est (inaudible) <lb/>Chercheur&#160;: mais à quoi vous vous le voyez que c’est fouillis ? <lb/>C. : ça fait pas rangé euh, enfin euh (.) strict, enfin pas strict mais euh<lb/>L. : ben mes pinces sont pas triées, euh<lb/>C. : ses pinces sont pas triées, et vous voyez, le champ habituellement ça fait pas pareil, là ça fait euh, là ça fait un peu en vrac quoi, c’est pas euh, c’est pas nickel (.) c'est une table, elle va s’y retrouver, mais c’est pas nickel quoi, c’est euh (.) <lb/>Chercheur&#160;: c’est fonctionnel vous avez dit tout à l’heure<lb/>C. : oui c’est fonctionnel, mais on a une satisfaction à faire une table bien<lb/> (…)<lb/>L. : je peux travailler mais ça, ça ne correspond pas à ce que je fais d'habitude (.) là par exemple, le champ, je l'ai mis comme ça parce que j'ai pas eu le temps de le couper, voilà j'aurai perdu<lb/>C. : ça fait pas propre, ça fait pas nickel, c'est, c'est (.) c'est fonctionnel voilà, on peut travailler mais<lb/>L. : mais pour quelqu'un qui me connait c'est pas moi (.) c'est pas mon travail.</q>
+                    <p xml:id="d1e544">En se trouvant réengagées à discuter ensemble de la qualité de la table d’instrumentation de Laure, les deux infirmières s’accordent sur un constat commun&#160;: la table d’instrumentation ne respecte pas les règles de métier (tour de parole&#160;1 et&#160;3). Nous pouvons dire, dans un vocabulaire utilisé par Goodwin, que les deux infirmières mettent en lumière les «&#160;indices&#160;» d’organisation des instruments qui ne renvoient pas à une installation de qualité. La relance du chercheur en&#160;4 permet à Carole d’introduire une notion qu’elle va chercher à reprendre jusqu’à la fin de l’extrait. Pour cette infirmière, la table avec ses instruments est «&#160;fonctionnelle&#160;». Autrement dit, elle offre la possibilité de travailler malgré l’aspect «&#160;fouillis&#160;» (tour de parole&#160;11). Mais cette fonctionnalité ne semble pas répondre aux critères de qualité du métier. L’installation des instruments sur la table d’instrumentation ne se réduit pas à son côté fonctionnel, elle doit également répondre à d’autres critères –&#160;«&#160;on a une satisfaction à faire une table bien&#160;» (tour de parole&#160;18). Simultanément à la catégorisation de fonctionnalité proposée par Carole, Laure tente de son côté, après avoir posé un jugement (tour de parole&#160;3), à légitimer le résultat de son travail en le justifiant par l’absence de temps (tours de parole&#160;8, 10), et à suivre le discours de sa collègue (tours de parole&#160;12 et&#160;15) par des descriptions sommaires de l’organisation de la table d’instrumentation. </p>
+                    <p xml:id="d1e546">Dans la poursuite du dialogue, Laure et Carole discutent toujours de l’organisation des instruments chirurgicaux sur la table d’instrumentation. La vidéo est encore arrêtée sur l’image du travail de Laure (image&#160;1).</p>
+                    <p xml:id="d1e548">Si l’essentiel des instruments est à portée de main, le travail de l’instrumentiste est potentiellement ralenti par une disposition insuffisamment structurée. Les questions du chercheur incitent les infirmières à continuer à explorer ce qui est sous-jacent à l’expression «&#160;fonctionnelle&#160;». C’est en se ralliant au cadre d’interprétation de sa collègue –&#160;«&#160;la table est fonctionnelle&#160;»&#160;–que Laure fait simultanément l’expérience de ce qui lui échappe. Soutenue dans son élaboration par le chercheur, Laure parvient à expliciter sa position&#160;: «&#160;pour quelqu’un qui me connaît, ce n’est pas moi, ce n’est pas mon travail&#160;» (en&#160;22). Nous observons ainsi un déplacement entre sa réponse en&#160;3 («&#160;c’est pas du tout une belle table non&#160;») et sa prise de parole en&#160;22. Dans le premier cas, c’est la table qui fait l’objet de commentaire, alors que dans le deuxième, il s’agit de thématiser son travail, pris dans un rapport à autrui. Nous considérons ce moment de l’échange comme un indice du développement de sa «&#160;vision professionnelle&#160;».</p>
+                    <p xml:id="d1e550">Ce qui est notable, dans le cadre de l’autoconfrontation croisée, c’est l’attention que ces deux infirmières portent sur des indices significatifs de l’organisation de leur environnement proximal de travail. Les relances et questions du chercheur tentent d’ailleurs de provoquer des focalisations sur ce qui leur tiennent à cœur (tours de parole&#160;6 et&#160;13). Il suscite et invite les deux professionnelles à regarder les images avec une «&#160;vision professionnelle&#160;» resserrée autour de traits saillants difficilement dicibles. On peut dire, en tout cas à partir de cet extrait, que la «&#160;vision professionnelle&#160;» de ces deux infirmières peut en ressortir plus étroite parce que polarisée sur ce à quoi elles tiennent individuellement et collectivement, et en même temps, plus ouverte parce qu’obligées de s’aventurer sur ce qui est difficile à voir et à dire. </p>
+                    <p xml:id="d1e552">En un mot, «&#160;l’acte de voir se développe&#160;» (Goodwin, 1997, p.&#160;147) pas seulement par des interactions entre pairs en situation de travail, mais par l’intermédiaire d’un dispositif clinique où l’activité –&#160;destinataires, objets et moyens&#160;– est dé-contextualisée et re-contextualisée au profit du développement du pouvoir d’agir des professionnels engagés dans l’autoconfrontation croisée. Plus encore, ces dialogues se réalisent en référence au métier, à son histoire, ses points d’achoppement, ses ressources, c’est-à-dire à quelque chose qui ne leur appartient pas, qui n’est pas situé, et qui pourtant organise l’action et la pensée. </p>
+                </div>
+                <div type="div2" xml:id="d1e554">
+                    <head subtype="level2" xml:id="d1e555">
+                        <hi xml:lang="fr">Agir au travail, entre donné et créé</hi>
+                    </head>
+                    <p xml:id="d1e558">Les rapports entre l’histoire et l’action d’un professionnel ont fait l’objet de belles analyses par Goodwin (par exemple 1994, 1995, 2016). La dynamique conversationnelle (et notamment l’organisation séquentielle de l’interaction) y figure comme mécanisme universel transposable à toute forme d’action dans un environnement riche en ressources sémiotiques publiquement accessibles. Ainsi, agir de manière spécifiquement humaine consiste à composer avec ces ressources pour façonner sa propre action. Il y a donc une dimension à la fois cumulative (puisqu’il s’agit de puiser dans un ensemble de matériaux ou un «&#160;substrat&#160;» public, fourni par autrui présent ou physiquement absent) et transformative (dans la mesure où ces ressources sont mobilisées de manière sélective et créative par les acteurs –&#160;«&#160;inhabitants&#160;») propre à toute action co-opérative. </p>
+                    <p xml:id="d1e560">Les visions professionnelles des travailleurs d’un aéroport (Goodwin et Goodwin, 1997) se configurent selon différents réseaux de descriptibilité qui leur permettent de voir le même objet –&#160;l’avion&#160;– de différentes manières. Selon les processus sociaux et historiques propres à chaque communauté de pratique, leurs membres accumulent des expériences et les articulent aux interprétations de leurs collègues pour pouvoir agir, dire, et voir efficacement. Dans le même temps, «&#160;il est important que l’expertise individuelle qu’apporte l’une des parties soit transformée en élément de pratique sociale utilisable par les autres, c’est-à-dire qu’elle soit intégrée à la culture professionnelle du centre d’opérations&#160;» (p.&#160;153). Autrement dit, les pratiques constitutives de la «&#160;vision professionnelle&#160;» relèvent de «&#160;la calibration co-opérative des acteurs, des pratiques et des communautés&#160;» (Goodwin, 2013&#160;; 2016). D’une certaine façon, devenir membre compétent d’une communauté, développer et partager une «&#160;manière de voir&#160;» consiste idéalement à apprendre à systématiquement façonner son action de manière à ce que la production des uns puisse être une ressource pour les autres. </p>
+                    <p xml:id="d1e562">Ce qui nous est transmis en situation professionnelle permettant de façonner notre travail et, ce que nous en faisons pour agir et créer de nouvelles formes d’action pour répondre aux exigences locales se rapprochent, à bien des égards, de ce que Clot et Faïta (2000), après la lecture attentive de Bakhtine (1984), ont appelé le genre professionnel et sa stylisation en contexte. Pour Clot et Faïta (2000), «&#160;le genre est en quelque sorte la partie sous-entendue de l’activité, ce que les travailleurs d’un milieu donné connaissent et voient, attendent et reconnaissent, apprécient ou redoutent&#160;; ce qui leur est commun et qui les réunit sous des conditions réelles de vie&#160;; ce qu’ils savent devoir faire grâce à une communauté d’évaluations présupposées, sans qu’il soit nécessaire de re-spécifier la tâche chaque fois qu’elle se présente&#160;» (p.&#160;11). Mais le genre est toujours exposé à l’épreuve du réel contraignant les professionnels à le retoucher, l’ajuster. Cette re-composition du genre «&#160;produit une stylisation des genres susceptible de les “garder en état de marche”, c’est-à-dire de les transformer en les développant&#160;» (Clot et Faïta, 2000, p.&#160;15). </p>
+                </div>
+                <div type="div2" xml:id="d1e564">
+                    <head subtype="level2" xml:id="d1e565">
+                        <hi xml:lang="fr">Une arène d’action&#160;: une ressource pour le développement de l’activité…</hi>
+                    </head>
+                    <p xml:id="d1e568">Ces mouvements du collectif à l’individu, et inversement, s’accomplissent par la médiation des interprétations des professionnels. Revenons à la coopération au travail dans un aéroport. Goodwin (1997) est très explicite&#160;: «&#160;en articulant leurs interprétations de la scène observée à travers des discussions entre co-équipiers, les employés du centre d’opération [de l’aéroport] organisent leur voir, pertinent pour leur travail, à l’intérieur d’une arène de discours capable d’embrasser des perspectives multiples&#160;» (p.&#160;153). </p>
+                    <p xml:id="d1e570">Ce que Goodwin découvre de l’activité des professionnels, il est possible d’en faire un point de départ du travail de l’action et de recherche pour une psychologie du travail qui vise le développement du pouvoir d’agir des professionnels et la transformation du travail. Plus exactement, nous considérons que ces rapports entre l’individu et le collectif sont au centre du travail de recherche en psychologie du travail. Pour être encore plus précis, «&#160;le passage de l’action sociale exercée en dehors de l’individu à l’action sociale au sein de l’individu&#160;» (Vygotski, 2014, p.&#160;197) produit ce qu’il est possible d’appeler «&#160;un processus de croissance en dedans&#160;» (Vygotski, 2014<hi rend="italic">,</hi> p. 305). </p>
+                    <p xml:id="d1e575">En effet, nous suivons volontiers Vygotski (1985, 1997, 2003, 2014) lorsqu’il récuse l’idée d’un sujet refermé sur lui-même et d’une subjectivité en tant qu’une entité autonome déliée de l’activité. Mais le sujet n’est pas non plus le produit de son activité. Dans les situations de travail, les professionnels cherchent toujours à déterminer les contraintes et les ressources de leurs activités en les utilisant pour se déterminer (Clot, 2016). Face aux contraintes et ressources de la tâche, le sujet peut se déplacer à l’intérieur des registres corporels, cognitifs et affectifs de ses expériences vécues avec les autres pour tenter de relier ses différents registres au sein de nouveaux ensembles. </p>
+                    <p xml:id="d1e577">En convoquant un auteur qui permet d’irriguer la perspective vygotskienne, on peut dire avec Wallon (1954/1985) qu’on ne devient sujet que lorsqu’on arrive à se saisir soi-même «&#160;à la fois comme sujet et comme un objet, comme Soi et Lui&#160;» (p.&#160;103). Et dans ce «&#160;travail de réunification différenciée avec autrui&#160;» (p. 104), les collectifs sont essentiels. Ils maintiennent ou «&#160;anesthésient&#160;» cette vitalité dialogique du social indispensable au développement du pouvoir d’agir du sujet sur lui-même. Vygotski (2004) le résume en une formule ciselée&#160;: «&#160;l’individuel chez l’homme n’est pas le contraire du social mais sa forme supérieure&#160;» (p.&#160;236).</p>
+                </div>
+                <div type="div2" xml:id="d1e579">
+                    <head subtype="level2" xml:id="d1e580">
+                        <hi xml:lang="fr">… et une source de développement des concepts</hi>
+                    </head>
+                    <p xml:id="d1e583">De fait, la recherche qui est d’abord un moyen de développement de l’activité des professionnels, à partir d’une commande institutionnelle, peut également étudier les processus de développement et ses empêchements. A partir des matériaux empiriques, nous pouvons analyser les processus engagés dans l’intervention. Pour cela, les travaux de Vygotski sont précieux pour saisir les rapports interfonctionnels, les liens entre le collectif et l’individu, les relations entre l’activité réalisée et les autres possibles, autrement dit le réel de l’activité.</p>
+                    <p xml:id="d1e585">Nous avons déjà montré comment la «&#160;vision professionnelle&#160;», par l’intermédiaire du dispositif clinique, se développe sous l’effet de la re-contextualisation de l’activité. Ce faisant, nous considérerons le développement de «&#160;l’acte de voir&#160;» non seulement comme le résultat d’un processus d’interactions entre pairs en situation de travail –&#160;à la manière de Goodwin&#160;–, mais aussi comme une issue jamais achevée –&#160;et toujours à remettre au travail avec ses pairs&#160;– des rapports entre le vécu et ce qui aurait pu être réalisé. </p>
+                    <p xml:id="d1e587">Ce processus peut devenir objet de recherche. La situation d’autoconfrontation croisée permet aux deux infirmières de se déprendre et de s’affranchir du déjà vécu, renouvelant ainsi leur manière de voir le travail d’installation d’une table d’instrumentation. </p>
+                    <p xml:id="d1e589">Les capacités d’affranchissement de Laure, c’est-à-dire les possibilités de lier, délier et relier les rapports entre soi, la table d’instrumentation et autrui se réalisent par la médiation alternative d’autrui et du genre professionnel. Les déphasages et les discordances provoquées par la situation d’autoconfrontation croisée impriment une dynamique nouvelle aux différentes manières de voir le travail d’installation de la table d’instrumentation. L’autoconfrontation croisée devient ainsi une zone de transformation co-opérative (Goodwin, 2016), c’est-à-dire un espace-temps lesté par l’histoire du métier, où les infirmières peuvent se confronter aux rapports entre soi, les autres et la table d’instrumentation. </p>
+                    <p xml:id="d1e591">La «&#160;vision professionnelle&#160;» en sort ainsi transformée par la confrontation au réel. «&#160;Regarder dans les yeux&#160;» le travail, c’est finalement «&#160;le penser en puissance, ou sous une forme catégorielle […], ce qui a le double effet de rendre possible le contrôle des choses et l’ajustement graduel de la pensée à leur réalité&#160;» (Wallon, 1945/1989, p.&#160;752).</p>
+                </div>
+            </div>
+            <div type="div1" xml:id="d1e593">
+                <head subtype="level1" xml:id="d1e594">
+          <hi xml:lang="fr">C</hi>onclusion</head>
+                <p xml:id="d1e598">Nous avons cherché, dans cet article, à engager une réflexion sur la manière dont les travaux sur la vision professionnelle raisonnent avec la psychologie de l’activité. Nous avons voulu identifier la contribution possible d’une clinique de l’activité. En effet, si les travaux sur la vision professionnelle permettent de comprendre et analyser la dynamique située des «&#160;façons de voir&#160;» des professionnels, elles s’intéressent peu à la question des invariants du développement, autrement dit aux invariants de la transformation de l'activité. Mais plus encore, la vision professionnelle interroge les rapports entre la théorie et la pratique, les connaissances et l’action. Pour Dewey (2008), «&#160;la théorie du connaître est calquée sur l’idée que l’on se faisait de la vision comme acte&#160;» (p.&#160;42). Il en résulte, selon lui, «&#160;une théorie de la connaissance dominée par la figure du spectateur&#160;» (p.&#160;43). On peut partager sa «&#160;vision&#160;» d’une connaissance qui n’est jamais une réalité fixe séparée d’un acte d’enquête (Dewey, 2008). L’action du chercheur à l’intérieur du dispositif d’enquête ou du dispositif clinique n’est alors plus un biais, mais une opportunité pour que les professionnels puissent se saisir autrement de leur travail, c’est-à-dire en le convertissant en moyen d’une nouvelle activité. Dans ces conditions, les connaissances scientifiques ne portent plus seulement sur le fonctionnement de l’activité mais sur son développement et ses empêchements. Cette seconde perspective de recherche n’invalide pas la première. Bien au contraire, comme nous avons tenté de le montrer, elle peut la reprendre à nouveau frais pour modifier la «&#160;vision&#160;» de sa propre architecture conceptuelle. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography" xml:id="d1e604">
+                <listBibl xml:id="d1e606">
+                    <bibl xml:id="d1e608">Bakhtine, M. (1984). <hi rend="italic">Esthétique de la création verbale</hi>. Paris&#160;: Gallimard.</bibl>
+                    <bibl xml:id="d1e613">Berthoz, A. (2003). <hi rend="italic">La décision</hi>. Paris&#160;: Odile Jacob.</bibl>
+                    <bibl xml:id="d1e618">Clot, Y. (2016). Activité, affect&#160;: sources et ressources du rapport social. Dans M.-A.&#160;Dujarier, C.&#160;Gaudart, A.&#160;Gillet &amp; P.&#160;Lénel (dir.), <hi rend="italic">L’activité en théorie. Regards croisés sur le travail</hi> (pp.&#160;51-80). Toulouse&#160;: Octarès.</bibl>
+                    <bibl xml:id="d1e623">Clot, Y. (2008). <hi rend="italic">Travail et pouvoir d’agir</hi>. Paris&#160;: PUF.</bibl>
+                    <bibl xml:id="d1e628">Clot, Y., Fernandez, G. &amp; Scheller, L. (2007). Le geste de métier&#160;: problèmes de la transmission. <hi rend="italic">Psychologie de l’interaction</hi>, <hi rend="italic">23-24</hi>, 109-138.</bibl>
+                    <bibl xml:id="d1e636">Clot, Y. &amp; Faïta, D. (2000). Genres et styles en analyse du travail&#160;: concepts et méthodes. <hi rend="italic">Travailler</hi>, <hi rend="italic">4</hi>, 7-43. <ref target="https://doi.org/10.3917/trav.006.0013">https://doi.org/10.3917/trav.006.0013</ref>
+                    </bibl>
+                    <bibl xml:id="d1e647">Clot, Y. &amp; Béguin, P. (2004) L’action située dans le développement de l’activité, <hi rend="italic">Activités</hi>, <hi rend="italic">1</hi>(2). <ref target="https://doi.org/10.4000/activites.1237">https://doi.org/10.4000/activites.1237</ref>
+                    </bibl>
+                    <bibl xml:id="d1e658">Cahour, B., Licoppe, C. &amp; Créno, L. (2018). Articulation fine des données vidéo et des entretiens d’auto-confrontation explicitante: étude de cas d’interactions en covoiturage. <hi rend="italic">Le travail humain, 81</hi>(4), 269-305. <ref target="https://doi.org/10.3917/th.814.0269">https://doi.org/</ref>
+            <ref target="https://doi.org/10.3917/th.814.0269">10.3917/th.814.0269</ref>
+                    </bibl>
+                    <bibl xml:id="d1e668">Conein, B. &amp; Jacopin, E. (1994). Action située et cognition le savoir en place. <hi rend="italic">Sociologie du travail</hi>, <hi rend="italic">4</hi>, 475-500. <ref target="https://doi.org/10.3406/sotra.1994.2191">https://doi.org/10.3406/sotra.1994.2191</ref>
+                    </bibl>
+                    <bibl xml:id="d1e679">Dewey, J. (2008). <hi rend="italic">La quête de certitude. Une étude de la relation entre connaissance et action</hi>. <hi xml:lang="fr">Paris&#160;: Gallimard.</hi>
+          </bibl>
+                    <bibl xml:id="d1e687">Dewey, J. (2010). <hi rend="italic">L’art comme expérience</hi>. Paris&#160;: Gallimard.</bibl>
+                    <bibl xml:id="d1e692">
+                        <hi xml:lang="fr">Engeström, Y. (1987). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Learning by expanding</hi>
+                        </hi>
+                        <hi xml:lang="en">. Cambridge: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e700">
+                        <hi xml:lang="en">Goodwin, C. (1994). Professional Vision. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">American Anthropologist, 96</hi>
+                        </hi>
+                        <hi xml:lang="en">(3), 606-633. </hi>
+                        <ref target="https://doi.org/10.1525/aa.1994.96.3.02a00100">
+                            <hi xml:lang="en">https://doi.org/10.1525/aa.1994.96.3.02a00100</hi>
+                        </ref>
+                        <hi xml:lang="en"> </hi>
+                    </bibl>
+                    <bibl xml:id="d1e713">
+                        <hi xml:lang="en">Goodwin, C. (1997). The blackness of black: Color categories as situated practice. Dans L.&#160;B.&#160;Resnick, R.&#160;Säljö, C.&#160;Pontecorvo &amp; B. Burge (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Discourse, tools and reasoning </hi>
+                        </hi>
+                        <hi xml:lang="en">(pp.&#160;111-140). Berlin: Springer.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e721">
+                        <hi xml:lang="en">Goodwin, C. (2000). Action and embodiment within situated human interaction. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal of pragmatics, 32</hi>
+                        </hi>
+                        <hi xml:lang="en">, 1489-1522. </hi>
+                        <ref target="https://doi.org/10.1016/S0378-2166(99)00096-X">
+                            <hi xml:lang="en">https://doi.org/10.1016/S0378-2166(99)00096-X</hi>
+                        </ref>
+                        <hi xml:lang="en"> </hi>
+                    </bibl>
+                    <bibl xml:id="d1e734">
+                        <hi xml:lang="en">Goodwin, C. (2003). The semiotic body in its environment. In J. Coupland &amp; R. Gwyn (Eds.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Discourses of the body</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;19-42). New York: Palgrave. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e742">
+                        <hi xml:lang="en">Goodwin, C. (2013). The co-operative, transformative organization of human action and knowledge</hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">. Journal of pragmatics, 46</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 8-23. </hi>
+                        <ref target="https://doi.org/10.1016/j.pragma.2012.09.003">
+                            <hi xml:lang="en">https://doi.org/10.1016/j.pragma.2012.09.003</hi>
+                        </ref>
+                        <hi xml:lang="en"> </hi>
+                    </bibl>
+                    <bibl xml:id="d1e755">
+            <hi xml:lang="en">Goodwin, C. (2016). </hi>L’organisation co-copérative et transformative de l’action et du savoir humais. <hi rend="italic">
+              <hi xml:lang="fr">Tracés. Revue de Sciences Humaines</hi>
+            </hi>
+            <hi xml:lang="fr">, </hi>
+            <hi rend="italic">
+              <hi xml:lang="fr">16</hi>
+            </hi>
+            <hi xml:lang="fr">, 19-46. </hi>
+            <ref target="https://doi.org/10.4000/traces.6531">
+              <hi xml:lang="fr">https://doi.org/10.4000/traces.6531</hi>
+            </ref>
+            <hi xml:lang="fr"> </hi>
+          </bibl>
+                    <bibl xml:id="d1e774">
+                        <hi xml:lang="fr">Goodwin, C. (2017). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Co-operative action.</hi>
+                        </hi>
+                        <hi xml:lang="en"> Cambridge: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e782">
+            <hi xml:lang="en">Goodwin, C. &amp; Goodwin, M. H. (1997). </hi>La coopération au travail dans un aéroport. <hi rend="italic">
+              <hi xml:lang="en">Réseaux, 85</hi>
+            </hi>
+            <hi xml:lang="en">, 129-162. </hi>
+            <ref target="https://doi.org/10.3406/reso.1997.3138">
+              <hi xml:lang="en">https://doi.org/10.3406/reso.1997.3138</hi>
+            </ref>
+            <hi xml:lang="en"> </hi>
+          </bibl>
+                    <bibl xml:id="d1e796">
+                        <hi xml:lang="en">Grasseni, C. (2011). Skilled Visions: Toward and Ecology of Visual Inscription. Dans M. Banks &amp; J. Ruby (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Made to Be Seen. Perspectives on the History of Visual Anthropology</hi>
+                        </hi>
+                        <hi xml:lang="en"> (pp.&#160;19-44). Chicago: The University of Chicago Press.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e805">Greco, L. (2016). Le travail de Charles Goodwin à l’épreuve de la performance. <hi rend="italic">Tracés. Revue de Sciences humaines</hi>, <hi rend="italic">16</hi>, 89-100. <ref target="https://doi.org/10.4000/traces.6561">https://doi.org/10.4000/traces.6561</ref>
+                    </bibl>
+                    <bibl xml:id="d1e816">Grosjean, M. (2005). L’awareness à l’épreuve des activités dans les centres de coordination. <hi rend="italic">
+              <hi xml:lang="fr">Activités, 2</hi>
+            </hi>
+            <hi xml:lang="fr">(1), 76-98. </hi>
+            <ref target="https://doi.org/10.4000/activites.1600">
+              <hi xml:lang="fr">https://doi.org/10.4000/activites.1600</hi>
+            </ref>
+            <hi xml:lang="fr"> </hi>
+          </bibl>
+                    <bibl xml:id="d1e828">Grosjean, S. (2014). Existe-t-il une manière de voir organisationnelle&#160;? De l’intérêt de suivre les «&#160;practices of seeing&#160;» en organisation. <hi rend="italic">Revue d'anthropologie des connaissances, 8 </hi>(1), 143-177. <ref target="https://doi.org/10.3917/rac.022.0143">https://doi.org/10.3917/rac.022.0143</ref>
+                    </bibl>
+                    <bibl xml:id="d1e836">
+            <hi xml:lang="en">Holland, D. &amp; Reeves, J.R. (1996). Activity theory and the view from somewhere: Team perspectives on the intellectual work of programming. Dans B. Nardi, </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Context and consciousness. Activity Theory and Human-Computer Interaction </hi>
+            </hi>
+            <hi xml:lang="en">(pp.&#160;257-281). </hi>Cambridge: The MIT Press. </bibl>
+                    <bibl xml:id="d1e845">Ianeva, M. (2012).&#160;<hi rend="italic">La restructuration du travail chez Santé Info&#160;: du développement de l'activité d'un centre de contact spécialisé à ses incidences sur les pratiques situées </hi>(Thèse de doctorat). Université de Lyon&#160;2, Lyon, France.</bibl>
+                    <bibl xml:id="d1e850">Ianeva, M., Vacherand-Revel, J., &amp; Licoppe, C. (2017). <hi xml:lang="en">Accounting for activity development through perspectives in an inbound call centre. </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Journal of Workplace Learning, 29</hi>
+            </hi>
+            <hi xml:lang="en">(6), 428-446. </hi>
+            <ref target="https://doi.org/10.1108/JWL-08-2016-0077">
+              <hi xml:lang="en">https://doi.org/10.1108/JWL-08-2016-0077</hi>
+            </ref>
+            <hi xml:lang="en"> </hi>
+          </bibl>
+                    <bibl xml:id="d1e864">Ingold, T. (2017). <hi rend="italic">Faire. Anthropologie, archéologie, art et architecture</hi>. <hi xml:lang="en">Paris&#160;: Dehors.</hi>
+          </bibl>
+                    <bibl xml:id="d1e871">
+            <hi xml:lang="en">Lave, J., Wenger, E. (1991). </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Situated learning. Legitimate peripheral participation. </hi>
+            </hi>Cambridge&#160;: Cambridge University Press. </bibl>
+                    <bibl xml:id="d1e878">Léontiev, A. (1984). <hi rend="italic">Activité, conscience, personnalité</hi>. Moscou&#160;: Éditions du Progrès.</bibl>
+                    <bibl xml:id="d1e883">
+                        <hi xml:lang="en">Luria, A. (1973). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">The working brain. An introduction to neuropsychology</hi>
+                        </hi>
+                        <hi xml:lang="en">. New York: Basic Books.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e891">Luria, A. (1985). <hi rend="italic">Itinéraires d'un psychologue</hi>. Moscou&#160;: Éditions du Progrès. </bibl>
+                    <bibl xml:id="d1e897">
+                        <hi xml:lang="fr">Mondada, L. (2018). </hi>
+                        <hi xml:lang="en">Visual practices: Video Studies, Multimodality and Multisensoriality. Dans D. Favareau (dir.), </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Co-operative Engagements in Intertwined Semiosis: Essays in Honour of Charles Goodwin </hi>
+                        </hi>
+                        <hi xml:lang="en">(pp.&#160;304–325). Tartu: University of Tartu Press. </hi>
+                    </bibl>
+                    <bibl xml:id="d1e907">
+                        <hi xml:lang="en">Nevile, M. (2015). The embodied turn in research on language and social interaction. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Research on Language and Social Interaction</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">48</hi>
+                        </hi>
+                        <hi xml:lang="en">(2), 121-151. </hi>
+                        <ref target="https://doi.org/10.1080/08351813.2015.1025499">
+                            <hi xml:lang="en">https://doi.org/10.1080/08351813.2015.1025499</hi>
+                        </ref>
+                        <hi xml:lang="en"> </hi>
+                    </bibl>
+                    <bibl xml:id="d1e925">
+            <hi xml:lang="en">Nishizaka, A. (2000). Seeing What One Sees: Perception, Emotion and Activity. </hi>
+            <hi rend="italic">Mind, Culture and Activity</hi>, <hi rend="italic">7</hi>(1&amp;2), 105-123. <ref target="https://doi.org/10.1080/10749039.2000.9677650">https://doi.org/10.1080/10749039.2000.9677650</ref>
+                    </bibl>
+                    <bibl xml:id="d1e937">Quéré, L. (2016). L’écologie sémiotique de Charles Goodwin. <hi rend="italic">Tracés, 16</hi>, 47-60. <ref target="https://doi.org/10.4000/traces.6534">
+              <hi xml:lang="fr">https://doi.org/10.4000/traces.6534</hi>
+            </ref>
+            <hi xml:lang="fr"> </hi>
+          </bibl>
+                    <bibl xml:id="d1e947">
+                        <hi xml:lang="en">Sherin, M. G. &amp; van Es, E. A. (2009). Effects of Video Club Participation on Teachers’ Professional Vision. </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Journal of Teacher Education</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">60</hi>
+                        </hi>
+                        <hi xml:lang="en">(1), 20-37. </hi>
+                        <ref target="https://doi.org/10.1177/0022487108328155">
+                            <hi xml:lang="en">https://doi.org/10.1177/0022487108328155</hi>
+                        </ref>
+                        <hi xml:lang="en"> </hi>
+                    </bibl>
+                    <bibl xml:id="d1e965">
+                        <hi xml:lang="en">Styhre, A. (2010). </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Visual Culture in Organizations. Theory and Cases</hi>
+                        </hi>
+                        <hi xml:lang="en">. New York: Routledge.</hi>
+                    </bibl>
+                    <bibl xml:id="d1e973">
+                        <hi xml:lang="en">Todorova, M., Sunden, C., Steffensky, M. &amp; Möller, K. (2017). Pre-service teachers’ professional vision of instructional support in primary science class: How content-specific is this skill and which learning opportunities in initial teacher education are relevant for its acquisition? </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">Teaching and Teacher Education</hi>
+                        </hi>
+                        <hi xml:lang="en">, </hi>
+                        <hi rend="italic">
+                            <hi xml:lang="en">68</hi>
+                        </hi>
+                        <hi xml:lang="en">, 275-288. </hi>
+                        <ref target="https://doi.org/10.1016/j.tate.2017.08.016">
+                            <hi xml:lang="en">https://doi.org/10.1016/j.tate.2017.08.016</hi>
+                        </ref>
+                        <hi xml:lang="en"> </hi>
+                    </bibl>
+                    <bibl xml:id="d1e991">
+            <hi xml:lang="en">Tomás, J.L. &amp; Bonnefond, J.Y. (2014). </hi>De «&#160;l’épuisement professionnel&#160;» à la qualité du travail&#160;: le cas de la «&#160;belle table d’instrumentation&#160;». Dans D.&#160;Lhuilier, (dir.),&#160;<hi rend="italic">Qualité du travail, qualité au travail </hi>(pp.&#160;129-140). Toulouse&#160;: Octarès.</bibl>
+                    <bibl xml:id="d1e998">Tomás, J.-L. &amp; Bonnemain, A. (2018). Les gestes en autoconfrontation croisée. <hi rend="italic">Pratiques psychologiques</hi>, <hi rend="italic">25</hi>(4), 419-440. <ref target="https://doi.org/10.1016/j.prps.2018.05.004">https://doi.org/10.1016/j.prps.2018.05.004</ref>
+                    </bibl>
+                    <bibl xml:id="d1e1009">Vygotski, L. (1985). La méthode instrumentale en psychologie. Dans B.&#160;Scheuwly &amp; J.-P.&#160;Bronckart (dir.), <hi rend="italic">Vygotsky aujourd’hui</hi> (pp. 39-47). Neuchâtel : Delachaux &amp; Niestlé.</bibl>
+                    <bibl xml:id="d1e1014">Vygotski, L. (1997). <hi rend="italic">Pensée et langage</hi>. Paris&#160;: La Dispute.</bibl>
+                    <bibl xml:id="d1e1020">Vygotski, L. (2003). <hi rend="italic">Conscience, inconscient, émotions</hi>. Paris&#160;: La Dispute.</bibl>
+                    <bibl xml:id="d1e1025">Vygotski, L. (2004). Psychologie concrète de l’homme. In M.&#160;Brossard, <hi rend="italic">Vygotski. Lectures et perspectives de recherche en éducation</hi>. Villeneuve d’Asq&#160;: Septentrion.</bibl>
+                    <bibl xml:id="d1e1030">Vygotski, L. (2010). <hi rend="italic">La signification historique de la crise en psychologie</hi>. Paris&#160;: La Dispute.</bibl>
+                    <bibl xml:id="d1e1035">Vygotski, L. (2011). <hi rend="italic">Leçons de psychologie.</hi> Paris&#160;: La Dispute.</bibl>
+                    <bibl xml:id="d1e1040">Vygotski, L. (2014). <hi rend="italic">Histoire du développement des fonctions psychiques supérieures</hi>. Paris&#160;: La Dispute.</bibl>
+                    <bibl xml:id="d1e1045">Wallon, H. (1945/1989). <hi rend="italic">Les origines de la pensée chez l’enfant</hi>. <hi xml:lang="fr">Paris&#160;: PUF.</hi>
+          </bibl>
+                    <bibl xml:id="d1e1052">Wallon, H. (1954/1985). Les milieux, les groups et la psychogenèse de l’enfant. <hi rend="italic">Enfance</hi>, Numéro spécial, 95-104.</bibl>
+                    <bibl xml:id="d1e1057">
+            <hi xml:lang="en">Wenger, E. (1998). </hi>
+            <hi rend="italic">
+              <hi xml:lang="en">Communities of practice: Learning, meaning and identity</hi>
+            </hi>
+            <hi xml:lang="en">. </hi>Cambridge: Cambridge University Press.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
